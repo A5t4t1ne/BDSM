@@ -1,23 +1,27 @@
+from dataclasses import dataclass
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from os import path
 from flask_login import LoginManager, login_manager
+import os
 
 
 db = SQLAlchemy()
-DB_NAME = "database.db"
 
 
-def create_database(app):
-    if not path.exists('website/' + DB_NAME):
+def create_database(app, db_dir):
+    if not os.path.exists(db_dir):
         db.create_all(app=app)
         print('Created database')
 
 
-def create_app():
+def create_app(PATH_TO_DB_FOLDER="", DB_NAME="database.db"):
     app = Flask(__name__)
     app.config['SECRET_KEY'] = "spotted-osmosis-overvalue"
-    app.config['SQLALCHEMY_DATABSE_URI'] = f'sqlite:///{DB_NAME}'
+
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    db_dir = os.path.join(basedir, DB_NAME)
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_dir
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
     db.init_app(app)
 
 
@@ -29,7 +33,7 @@ def create_app():
 
     from .models import Note, User
 
-    create_database(app)
+    create_database(app, db_dir)
 
     login_manager = LoginManager()
     login_manager.login_view = 'auth.login'
