@@ -16,5 +16,6 @@ class User(db.Model, UserMixin):
 
     # one to many -> relationship connects the "one" to another class of which it can possess multiples. 
     # notes will be a list type variable with all Note-objects created by the indivial user 
-    notes = db.relationship('Note')     
+    notes = db.relationship('Note')
+    
     # email = db.Column(db.String(150))     -> for later use
