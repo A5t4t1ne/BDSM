@@ -1,9 +1,12 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
 %}
-<h1 align="center">Notes</h1>
-<ul class="list-group list-group-flush" id="notes">
+<h1 align="center">Heroes</h1>
+<ul class="list-group list-group-flush" id="Heroes">
   {% for note in user.notes %}
-  <li class="list-group-item">{{ note.data }}</li>
+  <li class="list-group-item">
+    {{ note.data }}
+    <input type="button" class="close" value="&times" aria-hidden="true" />
+  </li>
   {% endfor %}
 </ul>
 <form method="POST">
@@ -15,7 +18,19 @@
   ></textarea>
   <br />
   <div align="center">
-    <button type="submit" class="btn btn-primary">Add note</button>
+    <input
+      type="submit"
+      name="add_note"
+      class="btn btn-primary"
+      value="Upload hero"
+    />
+  </div>
+</form>
+<br />
+<form method="POST" enctype="multipart/form-data">
+  <div>
+    {{ upload_form.hidden_tag() }} {{ upload_form.file() }} {{
+    upload_form.submit() }}
   </div>
 </form>
 {% endblock %}
