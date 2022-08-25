@@ -1,3 +1,4 @@
+from pathlib import Path
 from flask import Blueprint, render_template, request, flash, redirect, url_for
 from .models import User, Note
 from . import db
@@ -70,7 +71,7 @@ def sign_up():
         else:
             # personal files get stored in a folder named heroes/user_[username]
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'user_' + username)
-            os.mkdir(heroes_path)
+            Path(heroes_path).mkdir(parents=True, exist_ok=True)
             new_user = User(username=username, password=generate_password_hash(password, method='sha256'), heroes_path=heroes_path) # add e-mail for later use
             db.session.add(new_user)
             db.session.commit()
