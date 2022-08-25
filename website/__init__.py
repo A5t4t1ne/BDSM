@@ -13,7 +13,7 @@ def create_database(app, db_dir):
         print('Created database')
 
 
-def create_app(db_path="", db_name="database.db", heroes_path="../heroes"):
+def create_app(db_path="", db_name="database.db", heroes_folder="heroes"):
     app.config['SECRET_KEY'] = "spotted-osmosis-overvalue"
 
     basedir = os.path.abspath(os.path.dirname(__file__))
@@ -22,7 +22,7 @@ def create_app(db_path="", db_name="database.db", heroes_path="../heroes"):
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_dir       # dir to database
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
     app.config['MAX_CONTENT_PATH'] = 1_000_000
-    app.config['UPLOAD_FOLDER'] = os.path.join(basedir, heroes_path)    # upload folder is [main.py-location]/heroes/
+    app.config['UPLOAD_FOLDER'] = os.path.join(basedir, '../', heroes_folder)    # upload folder is [main.py-location]/heroes/
     app.config['ALLOWED_EXTENSIONS'] = {'json'}
 
     db.init_app(app)

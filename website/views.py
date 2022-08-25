@@ -3,8 +3,7 @@ from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
 from . import db
 from .models import Note
-from .tools.upload import UploadFileForm
-import os
+from .tools.upload import UploadFileForm, save_hero
 
 
 views = Blueprint("views", __name__)
@@ -28,8 +27,7 @@ def home():
                 db.session.commit()
 
         if upload_form.validate_on_submit():
-            file = upload_form.file.data
-            save_path = os.path.join(current_user.heroes_path, secure_filename(file.filename))
-            file.save(save_path)
+            save_hero(upload_form.file.data)
+
 
     return render_template("home.html", user=current_user, upload_form=upload_form)
