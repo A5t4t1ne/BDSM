@@ -17,10 +17,6 @@ def is_valid_file_type(filename:str):
         filename.rsplit('.', 1)[1] in app.config['ALLOWED_EXTENSIONS']
 
 
-def calculate_lp(hero):
-    pass
-
-
 def save_hero(file)     ->  tuple:
     if not is_valid_file_type(file.filename):
         return False, "Not a valid file type"
