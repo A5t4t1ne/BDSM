@@ -2,8 +2,9 @@ from flask import Blueprint, flash, render_template, redirect, url_for, request,
 from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
 from . import db
+from . import app
 from .models import Note
-from .tools.upload import UploadFileForm, save_hero
+from .tools.upload import UploadFileForm, secure_save
 
 
 views = Blueprint("views", __name__)
@@ -24,9 +25,6 @@ def home():
                 db.session.add(new_note)
                 db.session.commit()
 
-        
-
-
     return render_template("home.html", user=current_user)
 
 
@@ -34,10 +32,21 @@ def home():
 @views.route('/overview', methods=['GET', 'POST'])
 @login_required
 def hero_overview():
-    upload_form = UploadFileForm()
+    form = UploadFileForm()
 
-    if upload_form.validate_on_submit():
-            save_hero(upload_form.file.data)
+    if form.validate_on_submit():
+        invalid_files = []
+        for file in form.files.data:
+            if not secure_save(file):
+                invalid_files.append(file.filename)
+        
+        if len(invalid_files) > 0:
+            invalid_files_msg = ', '.join(invalid_files)
+            flash(f'These files are not valid: {invalid_files_msg}')
 
-            
-    return render_template('overview.html', user=current_user, upload_form=upload_form)
+    return render_template('overview.html', user=current_user, form=form)
+
+
+@app.errorhandler(413)
+def too_large(e):
+    flash("File to large", category='error')
