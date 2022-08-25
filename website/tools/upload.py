@@ -18,6 +18,11 @@ def is_valid_file_type(filename:str):
 
 
 def secure_save(file):
+    """This function makes sure the file type is correct, the filename is not malicious 
+    and checks if the uploaded file is a valid DSA hero file
+    
+    file:     raw file
+    """
     if not is_valid_file_type(file.filename):
         return False
 
@@ -25,12 +30,15 @@ def secure_save(file):
 
     file.save(file_path)
 
-    with open(file_path, 'w') as f:
+    with open(file_path, 'r') as f:
         hero = json.load(f)
+
+    # print(f"\n\nHero data: {hero}\n\n")
 
     if not 'name' in hero:
         return False
 
-    hero_name = hero['name']
-    new_hero = Hero(hero_name=hero_name, hero_path=file_path, user_id=current_user.id)
-    db.session.add(new_hero)
+    # hero_name = hero['name']
+    # new_hero = Hero(hero_name=hero_name, hero_path=file_path, user_id=current_user.id)
+    # db.session.add(new_hero)
+    return True
