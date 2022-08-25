@@ -2,8 +2,9 @@
 content %}
 <form method="POST" enctype="multipart/form-data">
   <div>
-    {{ upload_form.hidden_tag() }} {{ upload_form.file() }} {{
-    upload_form.submit() }}
+    {{ form.hidden_tag() }}
+    <p>{{ form.files() }}</p>
+    <p>{{ form.submit() }}</p>
   </div>
 </form>
 {% endblock %}
