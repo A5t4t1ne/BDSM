@@ -1,19 +1,13 @@
 from flask import Blueprint, flash, render_template, redirect, url_for, request, flash
 from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
-from flask_wtf import FlaskForm
-from wtforms import FileField, SubmitField
-from .models import Note
 from . import db
-from . import app
+from .models import Note
+from .tools.upload import UploadFileForm
 import os
 
 
 views = Blueprint("views", __name__)
-
-class UploadFileForm(FlaskForm):
-    file = FileField(label="Choose file", id="fileInput")
-    submit = SubmitField("Commit")
 
 
 @views.route('/', methods=['GET', 'POST'])

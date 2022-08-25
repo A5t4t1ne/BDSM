@@ -13,7 +13,7 @@ def create_database(app, db_dir):
         print('Created database')
 
 
-def create_app(db_path="", db_name="database.db", heroes_path="heroes"):
+def create_app(db_path="", db_name="database.db", heroes_path="../heroes"):
     app.config['SECRET_KEY'] = "spotted-osmosis-overvalue"
 
     basedir = os.path.abspath(os.path.dirname(__file__))
