@@ -31,18 +31,20 @@ def home():
 
 @views.route('/overview', methods=['GET', 'POST'])
 @login_required
-def hero_overview():
+def overview():
     form = UploadFileForm()
 
-    if form.validate_on_submit():
-        invalid_files = []
-        for file in form.files.data:
-            if not secure_save(file):
-                invalid_files.append(file.filename)
-        
-        if len(invalid_files) > 0:
-            invalid_files_msg = ', '.join(invalid_files)
-            flash(f'These files are not valid: {invalid_files_msg}')
+    if request.method == 'POST':
+        if form.validate_on_submit():
+            invalid_files = []
+            for file in form.files.data:
+                if not secure_save(file):
+                    if file.filename != '':
+                        invalid_files.append(file.filename)
+
+            if len(invalid_files) > 0:
+                invalid_files_msg = ', '.join(invalid_files)
+                flash(f'These files are not valid: {invalid_files_msg}', category='error')
 
     return render_template('overview.html', user=current_user, form=form)
 
