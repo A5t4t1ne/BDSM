@@ -16,6 +16,7 @@ class HeroDecoder():
 
         return stats
 
+    @classmethod
     def get_lp(hero:dict):
         pass
     
