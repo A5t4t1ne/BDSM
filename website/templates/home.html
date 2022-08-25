@@ -27,10 +27,4 @@
   </div>
 </form>
 <br />
-<form method="POST" enctype="multipart/form-data">
-  <div>
-    {{ upload_form.hidden_tag() }} {{ upload_form.file() }} {{
-    upload_form.submit() }}
-  </div>
-</form>
 {% endblock %}

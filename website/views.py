@@ -13,8 +13,6 @@ views = Blueprint("views", __name__)
 @views.route("/home", methods=['GET', 'POST'])
 @login_required
 def home():
-    upload_form = UploadFileForm()
-
     if request.method == 'POST':
         if 'add_note' in request.form:
             note_txt = request.form.get('note')
@@ -26,8 +24,20 @@ def home():
                 db.session.add(new_note)
                 db.session.commit()
 
-        if upload_form.validate_on_submit():
+        
+
+
+    return render_template("home.html", user=current_user)
+
+
+
+@views.route('/overview', methods=['GET', 'POST'])
+@login_required
+def hero_overview():
+    upload_form = UploadFileForm()
+
+    if upload_form.validate_on_submit():
             save_hero(upload_form.file.data)
 
-
-    return render_template("home.html", user=current_user, upload_form=upload_form)
+            
+    return render_template('overview.html', user=current_user, upload_form=upload_form)
