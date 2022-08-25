@@ -45,6 +45,8 @@ def overview():
             if len(invalid_files) > 0:
                 invalid_files_msg = ', '.join(invalid_files)
                 flash(f'These files are not valid: {invalid_files_msg}', category='error')
+            else:
+                flash("Files uploaded successfully", category='success')
 
     return render_template('overview.html', user=current_user, form=form)
 

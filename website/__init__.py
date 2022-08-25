@@ -22,7 +22,7 @@ def create_app(db_path="", db_name="database.db", heroes_folder="heroes"):
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_dir       # dir to database
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
     app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024    # max incoming request size 1MB
-    app.config['UPLOAD_FOLDER'] = os.path.join(basedir, '../', heroes_folder)    # upload folder is [main.py-location]/heroes/
+    app.config['UPLOAD_FOLDER'] = os.path.join(basedir, '..', heroes_folder)    # upload folder is [main.py-location]/heroes/
     app.config['ALLOWED_EXTENSIONS'] = {'json'}
 
     db.init_app(app)
