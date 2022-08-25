@@ -3,7 +3,7 @@ from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
 from . import db
 from . import app
-from .models import Note
+from .models import Hero, Note
 from .tools.upload import UploadFileForm, secure_save
 
 
@@ -15,6 +15,7 @@ views = Blueprint("views", __name__)
 @login_required
 def home():
     if request.method == 'POST':
+        # will be removed later
         if 'add_note' in request.form:
             note_txt = request.form.get('note')
 
@@ -39,8 +40,7 @@ def overview():
             invalid_files = []
             for file in form.files.data:
                 if not secure_save(file):
-                    if file.filename != '':
-                        invalid_files.append(file.filename)
+                    invalid_files.append(file.filename)
 
             if len(invalid_files) > 0:
                 invalid_files_msg = ', '.join(invalid_files)
@@ -53,4 +53,5 @@ def overview():
 
 @app.errorhandler(413)
 def too_large(e):
-    flash("File to large", category='error')
+    flash("Upload size too large", category='error')
+    return redirect(url_for("views.overview"))

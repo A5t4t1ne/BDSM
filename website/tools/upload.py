@@ -18,8 +18,12 @@ def is_valid_file_type(filename:str):
 
 
 def secure_save(file):
-    """This function makes sure the file type is correct, the filename is not malicious 
-    and checks if the uploaded file is a valid DSA hero file
+    """Takes care of eventual dangerous file saving scenarios
+
+    This function makes sure the file type is correct, the filename is not malicious 
+    and checks if the uploaded file is a valid DSA hero file. 
+    In the end the important data will be stored in a new file in another location together
+    with a new entry in the database 
     
     file:     raw file
     """
