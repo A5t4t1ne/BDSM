@@ -10,8 +10,24 @@ class HeroDecoder():
         self.min_lep = 0
 
     @classmethod
-    def check_validity(cls, hero:dict):
-        pass
+    def is_valid_hero(cls, hero:dict):
+        """checks if all the necessary attributes are present"""
+
+        # convert version X.Y.Z to XY
+        version = hero['clientVersion'].split('.')[:2]
+        version = int(version[0])*10 + int(version[1])
+
+        name = hero.get('name', None)
+        attr = hero.get('attr', None)
+        race = hero.get('r', None)
+        acti = hero.get('activatable', None)
+        
+        return version > 10 and \
+            name != "" and \
+            name != None and \
+            attr != None and \
+            race != None and \
+            acti != None
 
     @classmethod
     def decode_save(cls, hero:dict):
@@ -171,4 +187,6 @@ class Race():
 #     print(f'beril: {HeroDecoder.lep(beril)}')
 #     print(f'kunhang: {HeroDecoder.lep(kunhang)}')
 #     print(f'patrizius: {HeroDecoder.lep(patrizius)}')
+
+#     print(HeroDecoder.is_valid_hero(patrizius))
 
