@@ -1,6 +1,6 @@
 # BDSM
 
-Of course it stands for: _Browser DSA Stat Manager_ and nothing else you horny guys
+Of course it stands for: **Browser DSA Stat Manager** and nothing else you horny guys
 
 ## General Information:
 
