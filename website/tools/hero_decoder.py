@@ -1,6 +1,6 @@
 import json
 import os
-from typing import overload
+import math
 
 
 class HeroDecoder():
@@ -39,7 +39,7 @@ class HeroDecoder():
         stats = dict()
         stats['lp_max'], stats['lep_min'] = cls.lep(hero=hero)
         stats['asp'] = cls.asp(hero=hero)
-        # stats['kap'] = cls.kap(hero=hero)
+        stats['kap'] = cls.kap(hero=hero)
         # stats['wealth'] = cls.wealth(hero=hero)
         # stats['encumbrance'] = cls.encumbrance(hero=hero)
         # stats['armor'] = cls.armor(hero=hero)
@@ -94,14 +94,59 @@ class HeroDecoder():
 
         asp_max += cls.attributes(hero)['ae']
         
+        print(f'1. current asp: {asp_max}')
+
+        hero_KL = cls.attributes(hero, search_for_attr=AttributeID.KL)
+        hero_CH = cls.attributes(hero, search_for_attr=AttributeID.CH)
+        hero_IN = cls.attributes(hero, search_for_attr=AttributeID.IN)
+
         # advantages and disadvantages
-        adv_disadv = cls.activatables(hero)
+        activatables = cls.activatables(hero)
+        for key in activatables:
+            # if found property-list is empty adv/disadv isn't in effect
+            property_list = activatables[key]
+            if len(property_list) < 1:
+                continue
 
-        if ActivatablesID.HIGH_ASP in adv_disadv:
-            asp_max += adv_disadv[ActivatablesID.HIGH_ASP][0]['tier']
-        elif ActivatablesID.LOW_ASP in adv_disadv:
-            asp_max -= adv_disadv[ActivatablesID.LOW_ASP][0]['tier']
+            match key:
+                case ActivatablesID.HIGH_ASP:
+                    asp_max += property_list[0]['tier']
+                    print(f'2. current asp: {asp_max}')
 
+                case ActivatablesID.LOW_ASP:
+                    asp_max -= property_list[0]['tier']
+                    print(f'3. current asp: {asp_max}')
+
+                case ActivatablesID.IS_MAGIC:
+                    asp_max += 20
+                    print(f'4. current asp: {asp_max}')
+
+                # advantages that affect asp based on a character property
+                # --- KL --- 
+                case "SA_70" | "SA_346" | "SA_681":
+                    asp_max += hero_KL
+                    print(f'5. current asp: {asp_max}')
+
+                # --- KL / 2, round up ---
+                case "SA_750":
+                    asp_max += math.ceil(hero_KL / 2)
+                    print(f'6. current asp: {asp_max}')
+
+                # --- IN --- 
+                case "SA_345":
+                    asp_max += hero_IN
+                    print(f'7. current asp: {asp_max}')
+
+                # --- CH --- 
+                case "SA_255" | "SA_676":
+                    asp_max += hero_CH
+                    print(f'8. current asp: {asp_max}')
+
+                # --- CH / 2, round up ---
+                case "SA_677":
+                    asp_max += math.ceil(hero_CH / 2)
+                    print(f'9. current asp: {asp_max}')
+        print(f'10. current asp: {asp_max}')
         return asp_max
 
 
@@ -170,6 +215,7 @@ class ActivatablesID():
     HIGH_ASP = 'ADV_23'
     HIGH_KAP = 'ADV_24'
     HIGH_LEP = 'ADV_25'
+    IS_MAGIC = 'ADV_50'
     
     # disadvantages
     LOW_ASP = 'DISADV_26'
@@ -186,27 +232,27 @@ class Race():
 
 # only for testing purposes
 # TODO: remove later
-# if __name__ == "__main__":
-#     abdul_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'abdul.json')
-#     beril_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'beril.json')
-#     kunhang_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'kunhang.json')
-#     patrizius_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'patrizius.json')
+if __name__ == "__main__":
+    peris_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'peris.json')
+    beril_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'beril.json')
+    kunhang_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'kunhang.json')
+    patrizius_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'patrizius.json')
     
-#     with open(abdul_path, 'r') as f:
-#         abdul = json.load(f)
+    with open(peris_path, 'r') as f:
+        peris = json.load(f)
 
-#     with open(beril_path, 'r') as f:
-#         beril = json.load(f)
+    with open(beril_path, 'r') as f:
+        beril = json.load(f)
 
-#     with open(kunhang_path, 'r') as f:
-#         kunhang = json.load(f)
+    with open(kunhang_path, 'r') as f:
+        kunhang = json.load(f)
 
-#     with open(patrizius_path, 'r') as f:
-#         patrizius = json.load(f)
+    with open(patrizius_path, 'r') as f:
+        patrizius = json.load(f)
 
 
-#     stats = HeroDecoder.decode_all(patrizius)
+    stats = HeroDecoder.decode_all(beril)
 
-#     for s in stats:
-#         print(f'{s}: {stats[s]}')
+    for s in stats:
+        print(f'{s}: {stats[s]}')
 
