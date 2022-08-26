@@ -4,11 +4,6 @@ from typing import overload
 
 
 class HeroDecoder():
-    def __init__(self, hero:dict) -> None:
-        self.raw_initial_data = hero
-        self.max_lep = 0
-        self.min_lep = 0
-
     @classmethod
     def is_valid_hero(cls, hero:dict):
         """checks if all the necessary attributes are present"""
@@ -43,7 +38,7 @@ class HeroDecoder():
         """
         stats = dict()
         stats['lp_max'], stats['lep_min'] = cls.lep(hero=hero)
-        # stats['asp'] = cls.asp(hero=hero)
+        stats['asp'] = cls.asp(hero=hero)
         # stats['kap'] = cls.kap(hero=hero)
         # stats['wealth'] = cls.wealth(hero=hero)
         # stats['encumbrance'] = cls.encumbrance(hero=hero)
@@ -58,6 +53,7 @@ class HeroDecoder():
 
     @classmethod
     def lep(cls, hero:dict) -> tuple:
+        """returns a tuple with the max and min LeP values"""
         lep_max = 0
         lep_min = 0
 
@@ -84,17 +80,30 @@ class HeroDecoder():
         adv_disadv = cls.activatables(hero)
 
         # High LeP
-        if 'ADV_25' in adv_disadv:  
-            lep_max += adv_disadv['ADV_25'][0]['tier']
+        if ActivatablesID.HIGH_LEP in adv_disadv:  
+            lep_max += adv_disadv[ActivatablesID.HIGH_LEP][0]['tier']
         # Low LeP
-        elif 'DISADV_28' in adv_disadv:
-            lep_max -= adv_disadv['DISADV_28'][0]['tier']
+        elif ActivatablesID.LOW_LEP in adv_disadv:
+            lep_max -= adv_disadv[ActivatablesID.LOW_LEP][0]['tier']
 
         return lep_max, lep_min
     
     @classmethod
     def asp(cls, hero:dict):
-        pass
+        asp_max = 0
+
+        asp_max += cls.attributes(hero)['ae']
+        
+        # advantages and disadvantages
+        adv_disadv = cls.activatables(hero)
+
+        if ActivatablesID.HIGH_ASP in adv_disadv:
+            asp_max += adv_disadv[ActivatablesID.HIGH_ASP][0]['tier']
+        elif ActivatablesID.LOW_ASP in adv_disadv:
+            asp_max -= adv_disadv[ActivatablesID.LOW_ASP][0]['tier']
+
+        return asp_max
+
 
     @classmethod
     def kap(cls, hero:dict):
@@ -156,6 +165,18 @@ class AttributeID():
     KK = 'ATTR_8'
 
 
+class ActivatablesID():
+    # advantages
+    HIGH_ASP = 'ADV_23'
+    HIGH_KAP = 'ADV_24'
+    HIGH_LEP = 'ADV_25'
+    
+    # disadvantages
+    LOW_ASP = 'DISADV_26'
+    LOW_KAP = 'DISADV_27'
+    LOW_LEP = 'DISADV_28'
+
+
 class Race():
     Human       = 'R_1' 		# Lep Base Modifier = 5 //1
     Elf         = 'R_2'         # Lep Base Modifier = 2 //2
@@ -183,10 +204,9 @@ class Race():
 #     with open(patrizius_path, 'r') as f:
 #         patrizius = json.load(f)
 
-#     print(f'abdul: {HeroDecoder.lep(abdul)}')
-#     print(f'beril: {HeroDecoder.lep(beril)}')
-#     print(f'kunhang: {HeroDecoder.lep(kunhang)}')
-#     print(f'patrizius: {HeroDecoder.lep(patrizius)}')
 
-#     print(HeroDecoder.is_valid_hero(patrizius))
+#     stats = HeroDecoder.decode_all(patrizius)
+
+#     for s in stats:
+#         print(f'{s}: {stats[s]}')
 
