@@ -152,7 +152,59 @@ class HeroDecoder():
 
     @classmethod
     def kap(cls, hero:dict):
-        pass
+        kap_max = 0
+
+        kap_max += cls.attributes(hero)['kp']
+        
+        # print(f'1. current asp: {kap}')
+
+        hero_KL = cls.attributes(hero, search_for_attr=AttributeID.KL)
+        hero_CH = cls.attributes(hero, search_for_attr=AttributeID.CH)
+        hero_IN = cls.attributes(hero, search_for_attr=AttributeID.IN)
+        hero_MU = cls.attributes(hero, search_for_attr=AttributeID.MU)
+
+        # advantages and disadvantages
+        activatables = cls.activatables(hero)
+        for key in activatables:
+            # if found property-list is empty adv/disadv isn't active
+            property_list = activatables[key]
+            if len(property_list) < 1:
+                continue
+
+            match key:
+                case ActivatablesID.HIGH_KAP:
+                    kap_max += property_list[0]['tier']
+                    # print(f'2. current kap: {kap_max}')
+
+                case ActivatablesID.LOW_KAP:
+                    kap_max -= property_list[0]['tier']
+                    # print(f'3. current kap: {kap_max}')
+
+                case ActivatablesID.IS_HOLY:
+                    kap_max += 20
+
+                # advantages that affect kap based on a character property
+                # --- MU --- 
+                case "SA_682" | "SA_683" | "SA_689" | "SA_693" | "SA_696" | "SA_698":
+                    kap_max += hero_MU
+                    # print(f'5. current kap: {kap_max}')
+
+                # --- KL --- 
+                case "SA_86" | "SA_684" | "SA_688" | "SA_697" | "SA_1049":
+                    kap_max += hero_KL
+                    # print(f'5. current kap: {kap_max}')
+
+                # --- IN --- 
+                case "SA_685" | 'SA_686' | "SA_691" | 'SA_694':
+                    kap_max += hero_IN
+                    # print(f'7. current kap: {kap_max}')
+
+                # --- CH --- 
+                case "SA_687" | "SA_692" | 'SA_695' | 'SA_690':
+                    kap_max += hero_CH
+                    # print(f'8. current kap: {kap_max}')
+        
+        return kap_max
 
     @classmethod
     def wealth(cls, hero:dict):
@@ -196,7 +248,7 @@ class HeroDecoder():
 
     @classmethod
     def dodge(cls, hero:dict):
-        # TODO: implement dodge value, mind improved dodge (good source: Ramon)
+        # TODO: implement dodge value, mind improved dodge (test object: Ramon)
         pass
 
 class AttributeID():
@@ -216,6 +268,7 @@ class ActivatablesID():
     HIGH_KAP = 'ADV_24'
     HIGH_LEP = 'ADV_25'
     IS_MAGIC = 'ADV_50'
+    IS_HOLY = 'ADV_12'
     
     # disadvantages
     LOW_ASP = 'DISADV_26'
@@ -235,7 +288,7 @@ class Race():
 if __name__ == "__main__":
     peris_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'peris.json')
     beril_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'beril.json')
-    kunhang_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'kunhang.json')
+    aldarine_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'aldarine.json')
     patrizius_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'patrizius.json')
     
     with open(peris_path, 'r') as f:
@@ -244,14 +297,14 @@ if __name__ == "__main__":
     with open(beril_path, 'r') as f:
         beril = json.load(f)
 
-    with open(kunhang_path, 'r') as f:
-        kunhang = json.load(f)
+    with open(aldarine_path, 'r') as f:
+        aldarine = json.load(f)
 
     with open(patrizius_path, 'r') as f:
         patrizius = json.load(f)
 
 
-    stats = HeroDecoder.decode_all(beril)
+    stats = HeroDecoder.decode_all(aldarine)
 
     for s in stats:
         print(f'{s}: {stats[s]}')
