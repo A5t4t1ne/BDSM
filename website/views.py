@@ -51,6 +51,11 @@ def overview():
     return render_template('overview.html', user=current_user, form=form)
 
 
+@views.route('/play', methods=['GET', 'REQUEST'])
+def play():
+    pass
+
+
 @app.errorhandler(413)
 def too_large(e):
     flash("Upload size too large", category='error')
