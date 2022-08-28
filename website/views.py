@@ -55,8 +55,18 @@ def overview():
 def play():
     pass
 
-
+# Server request size to large
 @app.errorhandler(413)
 def too_large(e):
     flash("Upload size too large", category='error')
     return redirect(url_for("views.overview"))
+
+# wrong url
+@app.errorhandler(404)
+def page_not_found(e):
+    return "<h1>Page not found</h1>"
+
+#internal server error
+@app.errorhandler(500)
+def page_not_found(e):
+    return "<h1>Internal server error</h1>"
