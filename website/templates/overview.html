@@ -1,10 +1,9 @@
 {% extends "base.html" %} {% block title %}Overview{% endblock %} {% block
 content %}
 <form method="POST" enctype="multipart/form-data">
-  <div>
-    {{ form.hidden_tag() }}
-    <p>{{ form.files() }}</p>
-    <p>{{ form.submit() }}</p>
+  <div class="input-group mb-3">
+    {{ form.files(class="form-control") }} {{ form.hidden_tag() }} {{
+    form.submit(class="input-group-text") }}
   </div>
+  {% endblock %}
 </form>
-{% endblock %}

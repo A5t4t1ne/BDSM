@@ -3,27 +3,7 @@ import os
 import math
 
 
-class HeroDecoder():
-    @classmethod
-    def is_valid_hero(cls, hero:dict):
-        """checks if all the necessary attributes are present"""
-
-        # convert version X.Y.Z to XY
-        version = hero['clientVersion'].split('.')[:2]
-        version = int(version[0])*10 + int(version[1])
-
-        name = hero.get('name', None)
-        attr = hero.get('attr', None)
-        race = hero.get('r', None)
-        acti = hero.get('activatable', None)
-        
-        return version > 10 and \
-            name != "" and \
-            name != None and \
-            attr != None and \
-            race != None and \
-            acti != None
-
+class Decode():
     @classmethod
     def decode_save(cls, hero:dict):
         hero_stats = cls.decode_all(hero)
@@ -37,13 +17,12 @@ class HeroDecoder():
         :param hero     the DSA hero in a dict format
         """
         stats = dict()
-        stats['lp_max'], stats['lep_min'] = cls.lep(hero=hero)
-        stats['asp'] = cls.asp(hero=hero)
-        stats['kap'] = cls.kap(hero=hero)
-        # stats['wealth'] = cls.wealth(hero=hero)
-        # stats['encumbrance'] = cls.encumbrance(hero=hero)
-        # stats['armor'] = cls.armor(hero=hero)
-        # stats['health_state'] = cls.health_state(hero=hero)
+        stats['lp_max'] = cls.max_lep(hero=hero)
+        stats['lep_min'] = cls.min_lep(hero=hero)
+        stats['asp'] = cls.max_asp(hero=hero)
+        stats['kap'] = cls.max_kap(hero=hero)
+        stats['wealth'] = cls.wealth(hero=hero)
+        stats['armor'], stats['enc'] = cls.armor(hero=hero, return_weight=True)
 
         return stats
 
@@ -52,8 +31,7 @@ class HeroDecoder():
         return str(hero['name'])
 
     @classmethod
-    def lep(cls, hero:dict) -> tuple:
-        """returns a tuple with the max and min LeP values"""
+    def max_lep(cls, hero:dict) -> tuple:
         lep_max = 0
         lep_min = 0
 
@@ -62,8 +40,6 @@ class HeroDecoder():
         additional_life = cls.attributes(hero=hero)['lp']
 
         lep_max += ko_value * 2 + additional_life
-        lep_min -= ko_value
-
 
         # determine race affect on LeP
         match cls.race(hero):
@@ -89,13 +65,16 @@ class HeroDecoder():
         return lep_max, lep_min
     
     @classmethod
-    def asp(cls, hero:dict):
+    def min_lep(cls, hero:dict):
+        ko_value = cls.attributes(hero=hero, search_for_attr=AttributeID.KO)
+        return -ko_value
+
+    @classmethod
+    def max_asp(cls, hero:dict):
         asp_max = 0
 
         asp_max += cls.attributes(hero)['ae']
         
-        print(f'1. current asp: {asp_max}')
-
         hero_KL = cls.attributes(hero, search_for_attr=AttributeID.KL)
         hero_CH = cls.attributes(hero, search_for_attr=AttributeID.CH)
         hero_IN = cls.attributes(hero, search_for_attr=AttributeID.IN)
@@ -111,52 +90,42 @@ class HeroDecoder():
             match key:
                 case ActivatablesID.HIGH_ASP:
                     asp_max += property_list[0]['tier']
-                    print(f'2. current asp: {asp_max}')
 
                 case ActivatablesID.LOW_ASP:
                     asp_max -= property_list[0]['tier']
-                    print(f'3. current asp: {asp_max}')
 
                 case ActivatablesID.IS_MAGIC:
                     asp_max += 20
-                    print(f'4. current asp: {asp_max}')
 
                 # advantages that affect asp based on a character property
                 # --- KL --- 
                 case "SA_70" | "SA_346" | "SA_681":
                     asp_max += hero_KL
-                    print(f'5. current asp: {asp_max}')
 
                 # --- KL / 2, round up ---
                 case "SA_750":
                     asp_max += math.ceil(hero_KL / 2)
-                    print(f'6. current asp: {asp_max}')
 
                 # --- IN --- 
                 case "SA_345":
                     asp_max += hero_IN
-                    print(f'7. current asp: {asp_max}')
 
                 # --- CH --- 
                 case "SA_255" | "SA_676":
                     asp_max += hero_CH
-                    print(f'8. current asp: {asp_max}')
 
                 # --- CH / 2, round up ---
                 case "SA_677":
                     asp_max += math.ceil(hero_CH / 2)
-                    print(f'9. current asp: {asp_max}')
-        print(f'10. current asp: {asp_max}')
+
         return asp_max
 
-
     @classmethod
-    def kap(cls, hero:dict):
+    def max_kap(cls, hero:dict):
         kap_max = 0
 
         kap_max += cls.attributes(hero)['kp']
         
-        # print(f'1. current asp: {kap}')
 
         hero_KL = cls.attributes(hero, search_for_attr=AttributeID.KL)
         hero_CH = cls.attributes(hero, search_for_attr=AttributeID.CH)
@@ -174,11 +143,9 @@ class HeroDecoder():
             match key:
                 case ActivatablesID.HIGH_KAP:
                     kap_max += property_list[0]['tier']
-                    # print(f'2. current kap: {kap_max}')
 
                 case ActivatablesID.LOW_KAP:
                     kap_max -= property_list[0]['tier']
-                    # print(f'3. current kap: {kap_max}')
 
                 case ActivatablesID.IS_HOLY:
                     kap_max += 20
@@ -187,37 +154,34 @@ class HeroDecoder():
                 # --- MU --- 
                 case "SA_682" | "SA_683" | "SA_689" | "SA_693" | "SA_696" | "SA_698":
                     kap_max += hero_MU
-                    # print(f'5. current kap: {kap_max}')
 
                 # --- KL --- 
                 case "SA_86" | "SA_684" | "SA_688" | "SA_697" | "SA_1049":
                     kap_max += hero_KL
-                    # print(f'5. current kap: {kap_max}')
 
                 # --- IN --- 
                 case "SA_685" | 'SA_686' | "SA_691" | 'SA_694':
                     kap_max += hero_IN
-                    # print(f'7. current kap: {kap_max}')
 
                 # --- CH --- 
                 case "SA_687" | "SA_692" | 'SA_695' | 'SA_690':
                     kap_max += hero_CH
-                    # print(f'8. current kap: {kap_max}')
         
         return kap_max
 
     @classmethod
     def wealth(cls, hero:dict):
-        pass
+        return cls.belongings(hero=hero)['purse']
 
     @classmethod
-    def encumbrance(cls, hero:dict):
-        pass
-
-    @classmethod
-    def armor(cls, hero:dict):
-        pass
-
+    def armor(cls, hero:dict, return_weight=False)   -> int:
+        items = cls.items(hero=hero)
+        for item in items:
+            if "armorType" in items[item]:
+                return (items[item]['pro'], items[item]['enc']) if return_weight else items[item]['pro']
+                    
+        return (None, None) if return_weight else None
+  
     @classmethod
     def race(cls, hero:dict)    -> str:
         return hero['r']
@@ -238,8 +202,12 @@ class HeroDecoder():
         return hero['activatable']
 
     @classmethod
-    def items(cls, hero:dict)       -> dict:
+    def belongings(cls, hero:dict)       -> dict:
         return hero['belongings']
+
+    @classmethod
+    def items(cls, hero:dict)       -> dict:
+        return hero['belongings']['items']
 
     @classmethod
     def defence(cls, hero:dict):
@@ -250,6 +218,16 @@ class HeroDecoder():
     def dodge(cls, hero:dict):
         # TODO: implement dodge value, mind improved dodge (test object: Ramon)
         pass
+
+
+class HealthState():
+    Dying = 0
+    Unconscious = 1
+    PainLvl3 = 2
+    PainLvl2 = 3
+    PainLvl1 = 4
+    Healthy = 5
+
 
 class AttributeID():
     MU = 'ATTR_1'
@@ -304,7 +282,7 @@ if __name__ == "__main__":
         patrizius = json.load(f)
 
 
-    stats = HeroDecoder.decode_all(aldarine)
+    stats = Decode.decode_all(aldarine)
 
     for s in stats:
         print(f'{s}: {stats[s]}')
