@@ -5,22 +5,20 @@ import math
 
 class Decode():
     @classmethod
-    def decode_save(cls, hero:dict):
-        hero_stats = cls.decode_all(hero)
-
-        # TODO: implement save-process
-
-    @classmethod
     def decode_all(cls, hero:dict)     ->  dict:
         """calculates all possible stats from the hero and returns them in a dictionary
 
         :param hero     the DSA hero in a dict format
         """
         stats = dict()
-        stats['lp_max'] = cls.max_lep(hero=hero)
+        stats['name'] = hero['name']
+        stats['lep_max'] = cls.max_lep(hero=hero)
         stats['lep_min'] = cls.min_lep(hero=hero)
-        stats['asp'] = cls.max_asp(hero=hero)
-        stats['kap'] = cls.max_kap(hero=hero)
+        stats['lep_current'] = stats['lep_max']
+        stats['asp_max'] = cls.max_asp(hero=hero)
+        stats['asp_current'] = stats['asp_max']
+        stats['kap_max'] = cls.max_kap(hero=hero)
+        stats['kap_current'] = stats['kap_max']
         stats['wealth'] = cls.wealth(hero=hero)
         stats['armor'], stats['enc'] = cls.armor(hero=hero, return_weight=True)
 
@@ -263,27 +261,27 @@ class Race():
 
 # only for testing purposes
 # TODO: remove later
-if __name__ == "__main__":
-    peris_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'peris.json')
-    beril_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'beril.json')
-    aldarine_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'aldarine.json')
-    patrizius_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'patrizius.json')
+# if __name__ == "__main__":
+#     peris_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'peris.json')
+#     beril_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'beril.json')
+#     aldarine_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'aldarine.json')
+#     patrizius_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'patrizius.json')
     
-    with open(peris_path, 'r') as f:
-        peris = json.load(f)
+#     with open(peris_path, 'r') as f:
+#         peris = json.load(f)
 
-    with open(beril_path, 'r') as f:
-        beril = json.load(f)
+#     with open(beril_path, 'r') as f:
+#         beril = json.load(f)
 
-    with open(aldarine_path, 'r') as f:
-        aldarine = json.load(f)
+#     with open(aldarine_path, 'r') as f:
+#         aldarine = json.load(f)
 
-    with open(patrizius_path, 'r') as f:
-        patrizius = json.load(f)
+#     with open(patrizius_path, 'r') as f:
+#         patrizius = json.load(f)
 
 
-    stats = Decode.decode_all(aldarine)
+#     stats = Decode.decode_all(aldarine)
 
-    for s in stats:
-        print(f'{s}: {stats[s]}')
+#     for s in stats:
+#         print(f'{s}: {stats[s]}')
 

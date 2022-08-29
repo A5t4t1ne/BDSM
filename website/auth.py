@@ -1,6 +1,6 @@
 from pathlib import Path
 from flask import Blueprint, render_template, request, flash, redirect, url_for
-from .models import User, Note
+from .models import User
 from . import db
 from . import app
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -22,6 +22,7 @@ def user_name_validity(username:str):
         return False, "There are enough username possibilities with characters, numbers and underscores, don't you think?"
     else:
         return True, ""
+
 
 @auth.route('/login', methods=['GET', 'POST'])
 def login():

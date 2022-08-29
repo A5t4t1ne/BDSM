@@ -13,16 +13,16 @@ def create_database(app, db_dir):
         print('Created database')
 
 
-def create_app(db_path="", db_name="database.db", upload_folder="upload_folder"):
+def create_app(db_path="", db_name="database.db", upload_folder="heroes"):
     app.config['SECRET_KEY'] = "spotted-osmosis-overvalue"
 
     basedir = os.path.abspath(os.path.dirname(__file__))
     db_dir = os.path.join(basedir, db_path, db_name)
 
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_dir       # dir to database
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_dir       
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
-    app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024    # max incoming request size 1MB
-    app.config['UPLOAD_FOLDER'] = os.path.join(basedir, upload_folder)    # upload folder is [main.py-location]/heroes/
+    app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024                              # max incoming request size 1MB
+    app.config['UPLOAD_FOLDER'] = os.path.join(basedir, '..', upload_folder)    # upload folder is [main.py-location]/[upload_folder]/
     app.config['ALLOWED_EXTENSIONS'] = {'json'}
 
     db.init_app(app)
@@ -30,13 +30,11 @@ def create_app(db_path="", db_name="database.db", upload_folder="upload_folder")
     # include other flask routes and connect them
     from .views import views
     from .auth import auth
-    # from .upload import upload
 
     app.register_blueprint(views, url_prefix='/')
     app.register_blueprint(auth, url_prefix='/')
-    # app.register_blueprint(upload, url_prefix='/')
 
-    from .models import Note, User
+    from .models import Hero, User
 
     create_database(app, db_dir)
 
