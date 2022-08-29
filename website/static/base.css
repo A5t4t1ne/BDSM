@@ -5,6 +5,10 @@
   --main-font-color: #d9d8db;
 }
 
+h1 {
+  margin-top: 2rem;
+}
+
 .bg-dark {
   color: var(--main-font-color);
   background-color: var(--main-bg-color);

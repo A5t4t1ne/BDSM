@@ -1,30 +1,9 @@
 {% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
 %}
-<h1 align="center">Heroes</h1>
-<ul class="list-group list-group-flush" id="Heroes">
-  {% for note in user.notes %}
-  <li class="list-group-item">
-    {{ note.data }}
-    <input type="button" class="close" value="&times" aria-hidden="true" />
-  </li>
-  {% endfor %}
-</ul>
-<form method="POST">
-  <textarea
-    name="note"
-    id="note"
-    class="form-control"
-    placeholder="Write some text"
-  ></textarea>
-  <br />
-  <div align="center">
-    <input
-      type="submit"
-      name="add_note"
-      class="btn btn-primary"
-      value="Commit"
-    />
-  </div>
-</form>
+<div class="container text-center">
+  <h1>Browser DSA stat manager</h1>
+  <img src="../static/assets/logo_b.svg" width="500" height="500" alt="" />
+  <h3>One tool to rule them all</h3>
+</div>
 <br />
 {% endblock %}
