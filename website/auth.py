@@ -34,13 +34,12 @@ def login():
 
         if user:
             if check_password_hash(user.password, password):
-                flash('You remembered your password. Not bad.', category='success')
                 login_user(user, remember=True)
                 return redirect(url_for('views.home'))
             else:
-                flash("Yikes. That password didn't work mate.", category='error')
+                flash("Wrong", category='error')
         else:
-            flash('Just guessing usernames or what?', category='error')
+            flash('Wrong', category='error')
     return render_template("login.html", user=current_user)
 
 
@@ -64,11 +63,11 @@ def sign_up():
         username_valid, username_error_msg = user_name_validity(str(username))
 
         if user:
-            flash("Be creative, man. Don't steal other people's username.", category='error')
+            flash("Username already taken", category='error')
         elif not username_valid:
             flash(username_error_msg, category="error")
         elif password != confPassword:
-            flash('Not even able to match your passwords? Maybe you should take some typing lessons...', category='error')
+            flash('Passwords are not matching', category='error')
         else:
             # personal files get stored in a folder named heroes/user_[username]
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'user_' + username)
