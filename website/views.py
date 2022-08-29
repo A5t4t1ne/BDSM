@@ -42,7 +42,7 @@ def overview():
 @views.route('/play', methods=['GET', 'REQUEST'])
 @login_required
 def play():
-    return render_template(url_for("play.html"))
+    return render_template("play.html", user=current_user)
 
 # Server request size to large
 @app.errorhandler(413)

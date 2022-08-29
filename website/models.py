@@ -1,11 +1,10 @@
 from . import db
 from flask_login import UserMixin
-from sqlalchemy.sql import func
 
 class Hero(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    hero_name = db.Column(db.String(150))
-    hero_path = db.Column(db.String(1000))
+    name = db.Column(db.String(150))
+    path = db.Column(db.String(1000))
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
 

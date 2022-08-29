@@ -1,5 +1,11 @@
 {% extends "base.html" %} {% block title %}Overview{% endblock %} {% block
 content %}
+<div class="d-grid gap-3 pt-3">
+  {% for hero in user.heroes %}
+  <div class="p-2 bg-light border">{{ hero.name }}</div>
+  {% endfor %}
+</div>
+<br />
 <form method="POST" enctype="multipart/form-data">
   <div class="input-group mb-3">
     {{ form.files(class="form-control") }} {{ form.hidden_tag() }} {{
