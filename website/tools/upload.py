@@ -76,7 +76,7 @@ def save_hero(file):
         json.dump(shortened_hero, f)
 
 
-    new_hero = Hero(hero_name=shortened_hero['name'], hero_path=file_path, user_id=current_user.id)
+    new_hero = Hero(name=shortened_hero['name'], path=file_path, user_id=current_user.id)
     db.session.add(new_hero)
 
     return True
