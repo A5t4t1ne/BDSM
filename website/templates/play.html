@@ -1,5 +1,19 @@
-{% extends "base.html" %} {% block titlee %}Play{% endblock %} {% block content
+{% extends "base.html" %} {% block title %}Play{% endblock %} {% block content
 %}
-<h1>Hello</h1>
+<div class="dropdown mt-3 px-auto">
+  <button
+    class="btn btn-secondary dropdown-toggle"
+    type="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Choose your hero
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark">
+    {% for hero in current_user.heroes %}
+    <li class="dropdown-item">{{hero.name}}</li>
+    {% endfor %}
+  </ul>
+</div>
 
 {% endblock %}

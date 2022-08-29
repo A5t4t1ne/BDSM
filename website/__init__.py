@@ -14,7 +14,8 @@ def create_database(app, db_dir):
 
 
 def create_app(db_path="", db_name="database.db", upload_folder="heroes"):
-    app.config['SECRET_KEY'] = "spotted-osmosis-overvalue"
+    key = os.environ.get('FLASK_SECRET_KEY')
+    app.config['SECRET_KEY'] = key
 
     basedir = os.path.abspath(os.path.dirname(__file__))
     db_dir = os.path.join(basedir, db_path, db_name)
