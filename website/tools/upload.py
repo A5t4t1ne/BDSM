@@ -58,6 +58,9 @@ def secure_save(file):
 
     # TODO: change to directly create new file and never save the given one
 
+
+
+
     # file_path = os.path.join(current_user.heroes_path, secure_filename(file.filename))
 
     # file.save(file_path)
