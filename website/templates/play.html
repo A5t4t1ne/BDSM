@@ -1,19 +1,60 @@
-{% extends "base.html" %} {% block title %}Play{% endblock %} {% block content
-%}
-<div class="dropdown mt-3 px-auto">
-  <button
-    class="btn btn-secondary dropdown-toggle"
-    type="button"
-    data-bs-toggle="dropdown"
-    aria-expanded="false"
-  >
-    Choose your hero
-  </button>
-  <ul class="dropdown-menu dropdown-menu-dark">
+{% extends "base.html" %} {% block head_additions %}
+<link rel="stylesheet" href="../static/play.css" />
+{% endblock %} {% block title %}Play{% endblock %} {% block content %}
+<br />
+
+<h3 class="ms-3">Hero stats</h3>
+
+<div class="stat-container">
+  <select class="form-select mb-3" airia-label="Hero selection">
     {% for hero in current_user.heroes %}
-    <li class="dropdown-item">{{hero.name}}</li>
+    <option value="{{hero.name}}">{{hero.name}}</option>
     {% endfor %}
-  </ul>
+  </select>
+
+  <div class="row">
+    <div class="col input-group">
+      <span class="input-group-text">Lebenspunkte</span>
+      <input type="number" class="form-control" id="lep" value="0" />
+      <span class="input-group-text">/ 30</span>
+    </div>
+
+    <div class="col input-group">
+      <span class="input-group-text">Astralpunkte</span>
+      <input type="number" class="form-control" id="asp" value="0" />
+      <span class="input-group-text">/ 30</span>
+    </div>
+
+    <div class="col input-group">
+      <span class="input-group-text">Karmalpunkte</span>
+      <input type="number" class="form-control" id="kap" value="0" />
+      <span class="input-group-text">/ 30</span>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row">
+    <div class="col input-group">
+      <span class="input-group-text">Dukaten</span>
+      <input type="number" class="form-control" value="0" />
+    </div>
+
+    <div class="col input-group">
+      <span class="input-group-text">Silbertaler</span>
+      <input type="number" class="form-control" value="0" />
+    </div>
+
+    <div class="col input-group">
+      <span class="input-group-text">Heller</span>
+      <input type="number" class="form-control" value="0" />
+    </div>
+
+    <div class="col input-group">
+      <span class="input-group-text">Kreuzer</span>
+      <input type="number" class="form-control" value="0" />
+    </div>
+  </div>
 </div>
 
 {% endblock %}

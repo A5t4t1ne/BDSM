@@ -1,0 +1,11 @@
+hr {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.stat-container {
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0 4rem;
+}
