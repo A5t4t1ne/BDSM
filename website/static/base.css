@@ -23,3 +23,8 @@ h1 {
   color: var(--main-font-color);
   background-color: var(--main-element-color);
 }
+
+.container-temp {
+  width: 63.5%;
+  margin: 0 auto;
+}

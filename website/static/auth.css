@@ -25,9 +25,8 @@ body {
 }
 
 .form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-radius: 0;
+  margin-bottom: -1px;
 }
 
 .bd-placeholder-img {
@@ -80,4 +79,8 @@ body {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+}
+
+#accessCode {
+  border-radius: 0 0 5px 5px;
 }

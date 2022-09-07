@@ -2,7 +2,7 @@ from flask import Blueprint, flash, render_template, redirect, url_for, request,
 from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
 from . import app
-from .models import Hero
+from .models import Hero, User
 from .tools.upload import UploadFileForm, save_hero
 import os
 
@@ -38,6 +38,10 @@ def overview():
     return render_template('overview.html', user=current_user, form=form)
 
 
+@views.route('/account')
+def account():
+    return render_template('account.html', user=current_user)
+
 @views.route('/play', methods=['GET', 'REQUEST'])
 @login_required
 def play():
@@ -58,3 +62,4 @@ def page_not_found(e):
 @app.errorhandler(500)
 def page_not_found(e):
     return "<h1>Internal server error</h1>"
+
