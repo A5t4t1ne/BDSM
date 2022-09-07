@@ -57,6 +57,7 @@ def sign_up():
         # email = request.form.get('email')     # not used yet   
         password = request.form.get('password')
         confPassword = request.form.get('confPassword')
+        acces_code = request.form.get('accessCode')
 
         user = User.query.filter_by(username=username).first()
 
@@ -68,6 +69,8 @@ def sign_up():
             flash(username_error_msg, category="error")
         elif password != confPassword:
             flash('Passwords are not matching', category='error')
+        elif acces_code != os.environ.get('ACCESS_CODE'):
+            flash('Alpha access code invalid', category='error')
         else:
             # personal files get stored in a folder named heroes/user_[username]
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'user_' + username)
