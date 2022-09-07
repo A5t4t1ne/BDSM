@@ -12,6 +12,7 @@
     />
 
     <link rel="stylesheet" href="../static/base.css" />
+    <link rel="icon" href="../static/assets/w-font.png">
     {% block head_additions %}{% endblock %}
     <title>{% block title %}Base{% endblock %}</title>
   </head>
@@ -19,15 +20,6 @@
   <body class="">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./home">
-          <img
-            src="../static/assets/logo_w.svg"
-            alt="Hello"
-            width="30"
-            height="24"
-            class="d-inline-block align-text-top"
-          />BDSM
-        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,20 +31,18 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="container justify-content-center">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              {% if user.is_authenticated %}
-              <a class="nav-link" href="/overview">Overview</a>
-              <a class="nav-link" href="/play">Play</a>
-              <a class="nav-link" href="/account">Account</a>
-              <a class="nav-link" href="/logout">Log out</a>
-              {% else %}
-              <a class="nav-link" id="login" href="/login">Login</a>
-              <a class="nav-link" id="sign-up" href="/sign-up">Sign up</a>
-              {% endif %}
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link" href="/">Home</a>
+            {% if user.is_authenticated %}
+            <a class="nav-link" href="/overview"  id="nav-link-overview">Overview</a>
+            <a class="nav-link" href="/play"      id="nav-link-play">Play</a>
+            <a class="nav-link" href="/account"   id="nav-link-account"">Account</a>
+            <a class="nav-link" href="/logout"    id="nav-link-log_out">Log out</a>
+            {% else %}
+            <a class="nav-link" id="login" href="/login" id="nav-link-login">Login</a>
+            <a class="nav-link" id="sign-up" href="/sign-up" id="nav-link-sign_up">Sign up</a>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -81,7 +71,7 @@
     </div>
     {% endif %} {% endfor %} {% endif %} {% endwith %}
 
-    <div class="container">{% block content %} {% endblock %}</div>
+    <div class="container-temp">{% block content %} {% endblock %}</div>
     <script
       type="text/javascript"
       src="{{ url_for('static', filename='index.js') }}"
@@ -91,5 +81,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </body>
 </html>
