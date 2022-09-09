@@ -19,12 +19,12 @@ def create_database(app, db_dir):
 
 def create_app(db_name="database.db", upload_folder="heroes"):
     if not os.path.isfile(CONFIG_PATH):
-        raise Error("Create a config.json file in website directory with a 'SECRET_KEY' and an 'ACCESS_CODE' property")
+        raise FileNotFoundError("Create a config.json file in website directory with a 'SECRET_KEY' and an 'ACCESS_CODE' property")
 
     with open(CONFIG_PATH, 'r') as f:
         config = json.load(f)
         if not 'SECRET_KEY' in config or 'ACCESS_CODE' not in config:
-            raise Error("You need to define the two configurations 'ACCESS_CODE' and 'SECRET_KEY in config.json'")
+            raise AttributeError("You need to define the two configurations 'ACCESS_CODE' and 'SECRET_KEY in config.json'")
     
     app.config['SECRET_KEY'] = config['SECRET_KEY']
     app.config['ACCESS_CODE'] = config['ACCESS_CODE']
