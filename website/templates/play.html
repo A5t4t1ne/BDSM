@@ -7,9 +7,13 @@
 
 <div class="stat-container">
     <select class="form-select mb-4 hero-select" airia-label="Hero selection">
-        {% for hero in current_user.heroes %}
+        {% if current_user.heroes %} {% for hero in current_user.heroes %}
         <option value="{{hero.id}}">{{hero.name}}</option>
-        {% endfor %}
+        {% endfor %} {% else %}
+        <option value="-1">
+            Consider uploading a hero on the Overview page
+        </option>
+        {% endif %}
     </select>
 
     <div class="row">
