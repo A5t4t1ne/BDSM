@@ -1,7 +1,7 @@
-from flask import Blueprint, flash, render_template, redirect, url_for, request, flash
+from flask import Blueprint, flash, render_template, redirect, url_for, request, flash, jsonify
 from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
-from . import app
+from . import app, db
 from .models import Hero, User
 from .tools.upload import UploadFileForm, save_hero
 import os
@@ -42,10 +42,26 @@ def overview():
 def account():
     return render_template('account.html', user=current_user)
 
-@views.route('/play', methods=['GET', 'REQUEST'])
+@views.route('/play')
 @login_required
 def play():
     return render_template("play.html", user=current_user)
+
+@views.route('data-request', methods=['POST'])
+def data_request():
+    data = request.get_json()
+    hero = Hero.query.filter_by(id=data['id']).first()
+
+    return jsonify(hero.stats)
+
+@views.route('delete-hero',methods=['POST'])
+def delete_hero():
+    data = request.get_json()
+    Hero.query.filter_by(id=data['id']).delete()
+    db.session.commit()
+
+    return jsonify("{}")
+
 
 # Server request size to large
 @app.errorhandler(413)
