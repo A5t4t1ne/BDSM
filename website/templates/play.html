@@ -6,176 +6,257 @@
 <h3 class="ms-3">Hero stats</h3>
 
 <div class="stat-container">
-  <select class="form-select mb-4" airia-label="Hero selection">
-    {% for hero in current_user.heroes %}
-    <option value="{{hero.name}}">{{hero.name}}</option>
-    {% endfor %}
-  </select>
+    <select class="form-select mb-4 hero-select" airia-label="Hero selection">
+        {% for hero in current_user.heroes %}
+        <option value="{{hero.id}}">{{hero.name}}</option>
+        {% endfor %}
+    </select>
 
-  <div class="row">
-    <div class="col input-group">
-      <span class="input-group-text">Lebenspunkte</span>
-      <input type="number" class="form-control" id="lep" value="0" />
-      <span class="input-group-text">/ 30</span>
+    <div class="row">
+        <div class="col input-group">
+            <span class="input-group-text">Lebenspunkte</span>
+            <input type="number" class="form-control" id="lep" value="0" />
+            <span class="input-group-text" id="lep-max">/ 0</span>
+        </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Astralpunkte</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control"
+                id="asp"
+                value="0"
+            />
+            <span class="input-group-text" id="asp-max">/ 0</span>
+        </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Karmalpunkte</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control"
+                id="kap"
+                value="0"
+            />
+            <span class="input-group-text" id="kap-max">/ 0</span>
+        </div>
     </div>
 
-    <div class="col input-group">
-      <span class="input-group-text">Astralpunkte</span>
-      <input type="number" min="0" class="form-control" id="asp" value="0" />
-      <span class="input-group-text">/ 30</span>
-    </div>
+    <hr />
 
-    <div class="col input-group">
-      <span class="input-group-text">Karmalpunkte</span>
-      <input type="number" min="0" class="form-control" id="kap" value="0" />
-      <span class="input-group-text">/ 30</span>
-    </div>
-  </div>
+    <div class="row">
+        <div class="col input-group">
+            <span class="input-group-text">Dukaten</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control money-input"
+                id="money-d"
+                value="0"
+            />
+        </div>
 
-  <hr />
+        <div class="col input-group">
+            <span class="input-group-text">Silbertaler</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control money-input"
+                id="money-s"
+                value="0"
+            />
+        </div>
 
-  <div class="row">
-    <div class="col input-group">
-      <span class="input-group-text">Dukaten</span>
-      <input type="number" class="form-control" value="0" />
-    </div>
+        <div class="col input-group">
+            <span class="input-group-text">Heller</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control money-input"
+                id="money-h"
+                value="0"
+            />
+        </div>
 
-    <div class="col input-group">
-      <span class="input-group-text">Silbertaler</span>
-      <input type="number" class="form-control" value="0" />
+        <div class="col input-group">
+            <span class="input-group-text">Kreuzer</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control money-input"
+                id="money-k"
+                value="0"
+            />
+        </div>
     </div>
-
-    <div class="col input-group">
-      <span class="input-group-text">Heller</span>
-      <input type="number" class="form-control" value="0" />
-    </div>
-
-    <div class="col input-group">
-      <span class="input-group-text">Kreuzer</span>
-      <input type="number" class="form-control" value="0" />
-    </div>
-  </div>
 </div>
 
 <div class="stat-container">
-  <div class="row justify-content-between">
-    <div class="col">
-      <h5>Zustand</h5>
+    <div class="row">
+        <div class="col">
+            <p>Rüstung: <span id="armor">0</span></p>
+        </div>
+        <div class="col text-center">
+            <p>Ausweichen: <span id="dodge">-</span></p>
+        </div>
+        <div class="col text-end">
+            <p>Initiative: <span id="initiative">0</span></p>
+        </div>
     </div>
-    <div class="col text-center">
-      <h5>Stufe</h5>
-    </div>
-    <div class="col text-end">
-      <h5>Auswirkung</h5>
-    </div>
-  </div>
-
-  <hr />
-
-  <div class="row">
-    <div class="col text-left">
-      <p>Begehren</p>
-    </div>
-    <div class="col col-1 text-center">
-      <input type="number" min="0" max="4" class="effect-level text-center" />
-    </div>
-    <div class="col text-end">
-      <p>Willenskraft (gegen die begehrte Person)</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-left">
-      <p>Belastung</p>
-    </div>
-    <div class="col col-1 text-center">
-      <p class="text-center mx-auto">0</p>
-    </div>
-    <div class="col text-end">
-      <p>Körpertalente, Verteidigung, AT, INI, GS</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-left">
-      <p>Berauscht</p>
-    </div>
-    <div class="col col-1 text-center">
-      <input type="number" min="0" max="4" class="effect-level text-center" />
-    </div>
-    <div class="col text-end">
-      <p>Proben auf Zechen</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-left">
-      <p>Betäubung</p>
-    </div>
-    <div class="col col-1 text-center">
-      <input type="number" min="0" max="4" class="effect-level text-center" />
-    </div>
-    <div class="col text-end">
-      <p>Alle Proben</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-left">
-      <p>Furcht</p>
-    </div>
-    <div class="col col-1 text-center">
-      <input type="number" min="0" max="4" class="effect-level text-center" />
-    </div>
-    <div class="col text-end">
-      <p>Alle Proben</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-left">
-      <p>Paralyse</p>
-    </div>
-    <div class="col col-1 text-center">
-      <input type="number" min="0" max="4" class="effect-level text-center" />
-    </div>
-    <div class="col text-end">
-      <p>
-        Bewegung oder Sprache, GS: -25% * Stufe<span
-          id="para-gs-percent"
-        ></span>
-      </p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-left">
-      <p>Schmerz</p>
-    </div>
-    <div class="col col-1 text-center">
-      <p class="text-center mx-auto">0</p>
-    </div>
-    <div class="col text-end">
-      <p>Alle Proben, GS</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col text-left">
-      <p>Verwirrung</p>
-    </div>
-    <div class="col col-1 text-center">
-      <input
-        type="number"
-        min="0"
-        max="4"
-        class="effect-level text-center"
-        value="0"
-      />
-    </div>
-    <div class="col text-end">
-      <p>Alle Proben</p>
-    </div>
-  </div>
 </div>
+
+<div class="stat-container">
+    <div class="row justify-content-between">
+        <div class="col">
+            <h5>Zustand</h5>
+        </div>
+        <div class="col text-center">
+            <h5>Stufe</h5>
+        </div>
+        <div class="col text-end">
+            <h5>Auswirkung</h5>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="col text-left">
+            <p>Begehren</p>
+        </div>
+        <div class="col col-1 text-center">
+            <input
+                type="number"
+                min="0"
+                max="4"
+                value="0"
+                class="effect-level text-center"
+            />
+        </div>
+        <div class="col text-end">
+            <p>Willenskraft (gegen die begehrte Person)</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-left">
+            <p>Belastung</p>
+        </div>
+        <div class="col col-1 text-center">
+            <p class="text-center mx-auto" id="encumbrance">0</p>
+        </div>
+        <div class="col text-end">
+            <p>Körpertalente, Verteidigung, AT, INI, GS</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-left">
+            <p>Berauscht</p>
+        </div>
+        <div class="col col-1 text-center">
+            <input
+                type="number"
+                min="0"
+                max="4"
+                value="0"
+                class="effect-level text-center"
+            />
+        </div>
+        <div class="col text-end">
+            <p>Proben auf Zechen</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-left">
+            <p>Betäubung</p>
+        </div>
+        <div class="col col-1 text-center">
+            <input
+                type="number"
+                min="0"
+                max="4"
+                value="0"
+                class="effect-level text-center"
+            />
+        </div>
+        <div class="col text-end">
+            <p>Alle Proben</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-left">
+            <p>Furcht</p>
+        </div>
+        <div class="col col-1 text-center">
+            <input
+                type="number"
+                min="0"
+                max="4"
+                value="0"
+                class="effect-level text-center"
+            />
+        </div>
+        <div class="col text-end">
+            <p>Alle Proben</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-left">
+            <p>Paralyse</p>
+        </div>
+        <div class="col col-1 text-center">
+            <input
+                type="number"
+                min="0"
+                max="4"
+                value="0"
+                class="effect-level text-center"
+            />
+        </div>
+        <div class="col text-end">
+            <p>Bewegung oder Sprache, GS: -25% * Stufe</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-left">
+            <p>Schmerz</p>
+        </div>
+        <div class="col col-1 text-center">
+            <p class="text-center mx-auto" id="pain">0</p>
+        </div>
+        <div class="col text-end">
+            <p>Alle Proben, GS</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col text-left">
+            <p>Verwirrung</p>
+        </div>
+        <div class="col col-1 text-center">
+            <input
+                type="number"
+                min="0"
+                max="4"
+                value="0"
+                class="effect-level text-center"
+            />
+        </div>
+        <div class="col text-end">
+            <p>Alle Proben</p>
+        </div>
+    </div>
+</div>
+{% endblock %} {% block additional_scripts %}
+<script
+    type="text/javascript"
+    src="{{ url_for('static', filename='play.js') }}"
+></script>
 {% endblock %}
