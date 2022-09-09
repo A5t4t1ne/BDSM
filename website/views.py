@@ -57,6 +57,11 @@ def data_request():
 @views.route('delete-hero',methods=['POST'])
 def delete_hero():
     data = request.get_json()
+    hero_path = Hero.query.filter_by(id=data['id']).first().path
+    
+    if os.path.isfile(hero_path):
+        os.remove(hero_path)
+
     Hero.query.filter_by(id=data['id']).delete()
     db.session.commit()
 
