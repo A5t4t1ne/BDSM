@@ -8,6 +8,7 @@ from ..models import Hero
 import json
 import os
 
+
 class UploadFileForm(FlaskForm):
     files = MultipleFileField('File(s) upload')
     submit = SubmitField("Commit")
@@ -17,10 +18,11 @@ def is_valid_hero(file):
     filename = file.filename
 
     if '.' not in filename or \
-        filename.rsplit('.', 1)[1].lower() not in app.config['ALLOWED_EXTENSIONS']:
+            filename.rsplit('.', 1)[1].lower() not in app.config['ALLOWED_EXTENSIONS']:
         return False
 
-    file.seek(0)    # if file was read before cursor isn't at the beginning -> data cannot be read correctly 
+    # if file was read before cursor isn't at the beginning -> data cannot be read correctly
+    file.seek(0)
     hero = json.load(file)
 
     # convert version X.Y.Z to XY
@@ -32,7 +34,7 @@ def is_valid_hero(file):
     race = hero.get('r', None)
     acti = hero.get('activatable', None)
     belo = hero.get('belongings', None)
-    
+
     return version > 10 and \
         name != "" and \
         name != None and \
@@ -47,16 +49,17 @@ def save_hero(file):
     if not is_valid_hero(file):
         return False
 
-    file.seek(0)    # if file was read before, cursor isn't at the beginning -> data cannot be read correctly 
+    # if file was read before, cursor isn't at the beginning -> data cannot be read correctly
+    file.seek(0)
     raw_hero = json.load(file)
 
     shortened_hero = Decode.decode_all(raw_hero)
 
     file_name = secure_filename(shortened_hero['name']).lower()
     file_path = os.path.join(current_user.heroes_path, file_name + '.json')
-    
+
     while os.path.isfile(file_path):
-        # when file exists handle it the same way as windows does -> file.json, file(1).json, file(2).json ...
+        # when file exists handle it with incrementing numbers -> file.json, file(1).json, file(2).json ...
 
         # check if there are brackets with a number between it at the end of the filename
         if '(' in file_name and ')' == file_name[-1]:
@@ -70,13 +73,14 @@ def save_hero(file):
             file_name += '(1)'
 
         file_path = os.path.join(current_user.heroes_path, file_name + '.json')
-    
 
+    # save shortened hero as new file on given path in initialization
     with open(file_path, 'w') as f:
         json.dump(shortened_hero, f)
 
-
-    new_hero = Hero(name=shortened_hero['name'], secure_name=file_name, path=file_path, user_id=current_user.id)
+    # add hero to database
+    new_hero = Hero(name=shortened_hero['name'], secure_name=file_name,
+                    path=file_path, stats=shortened_hero, user_id=current_user.id)
     db.session.add(new_hero)
     db.session.commit()
 

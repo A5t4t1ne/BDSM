@@ -1,15 +1,25 @@
-{% extends "base.html" %} {% block title %}Overview{% endblock %} {% block
-content %}
+{% extends "base.html" %} {% block head_additions %}
+<link rel="stylesheet" href="../static/overview.css" />
+{% endblock %} {% block title %}Overview{% endblock %} {% block content %}
 <div class="d-grid gap-3 pt-3">
-  {% for hero in user.heroes %}
-  <div class="p-2 bg-light border">{{ hero.name }}</div>
-  {% endfor %}
+    {% for hero in user.heroes %}
+    <div class="p-2 bg-light border rounded hero-deletable" role="hero">
+        {{ hero.name }}
+        <input type="button" class="btn-close" id="{{ hero.id }}" />
+    </div>
+    {% endfor %}
 </div>
 <br />
 <form method="POST" enctype="multipart/form-data">
-  <div class="input-group mb-3">
-    {{ form.files(class="form-control") }} {{ form.hidden_tag() }} {{
-    form.submit(class="input-group-text") }}
-  </div>
-  {% endblock %}
+    <div class="input-group mb-3">
+        {{ form.files(class="form-control") }} {{ form.hidden_tag() }} {{
+        form.submit(class="input-group-text") }}
+    </div>
 </form>
+
+{% endblock %} {% block additional_scripts %}
+<script
+    type="text/javascript"
+    src="{{ url_for('static', filename='overview.js') }}"
+></script>
+{% endblock %}

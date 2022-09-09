@@ -31,7 +31,6 @@ class Decode():
     @classmethod
     def max_lep(cls, hero:dict) -> tuple:
         lep_max = 0
-        lep_min = 0
 
         # life given from KO-value and additional bought life
         ko_value = cls.attributes(hero=hero, search_for_attr=AttributeID.KO)
@@ -60,7 +59,7 @@ class Decode():
         elif ActivatablesID.LOW_LEP in adv_disadv:
             lep_max -= adv_disadv[ActivatablesID.LOW_LEP][0]['tier']
 
-        return lep_max, lep_min
+        return lep_max
     
     @classmethod
     def min_lep(cls, hero:dict):
@@ -178,7 +177,7 @@ class Decode():
             if "armorType" in items[item]:
                 return (items[item]['pro'], items[item]['enc']) if return_weight else items[item]['pro']
                     
-        return (None, None) if return_weight else None
+        return (0, 0) if return_weight else 0
   
     @classmethod
     def race(cls, hero:dict)    -> str:
@@ -258,30 +257,4 @@ class Race():
     Half_Elf    = 'R_3'         # Lep Base Modifier = 5 //3
     Dwarf       = 'R_4'         # Lep Base Modifier = 8 //4
 
-
-# only for testing purposes
-# TODO: remove later
-# if __name__ == "__main__":
-#     peris_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'peris.json')
-#     beril_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'beril.json')
-#     aldarine_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'aldarine.json')
-#     patrizius_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', '..', 'hero-examples', 'patrizius.json')
-    
-#     with open(peris_path, 'r') as f:
-#         peris = json.load(f)
-
-#     with open(beril_path, 'r') as f:
-#         beril = json.load(f)
-
-#     with open(aldarine_path, 'r') as f:
-#         aldarine = json.load(f)
-
-#     with open(patrizius_path, 'r') as f:
-#         patrizius = json.load(f)
-
-
-#     stats = Decode.decode_all(aldarine)
-
-#     for s in stats:
-#         print(f'{s}: {stats[s]}')
 
