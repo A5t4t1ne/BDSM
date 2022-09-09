@@ -1,10 +1,27 @@
+from pathlib import Path
 from flask import Blueprint, render_template, request, flash, redirect, url_for
-from .models import User, Note
+from .models import User
 from . import db
+from . import app
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import login_required, login_user, logout_user, current_user
+import string
+import os
 
 auth = Blueprint('auth', __name__)
+
+
+def user_name_validity(username:str):
+    allowed_chars = set(string.ascii_letters + string.digits + '_')
+
+    if len(username) < 3:
+        return False, "Sorry bro, username must be at least 3 characters long"
+    elif len(username) > 100:
+        return False, "Nah that's too long my friend"
+    elif not set(username) <= allowed_chars:
+        return False, "There are enough username possibilities with characters, numbers and underscores, don't you think?"
+    else:
+        return True, ""
 
 
 @auth.route('/login', methods=['GET', 'POST'])
@@ -17,13 +34,12 @@ def login():
 
         if user:
             if check_password_hash(user.password, password):
-                flash('You remembered your password. Not bad.', category='success')
                 login_user(user, remember=True)
                 return redirect(url_for('views.home'))
             else:
-                flash("Yikes. That password didn't work mate.", category='error')
+                flash("Wrong", category='error')
         else:
-            flash('Just guessing usernames or what?', category='error')
+            flash('Wrong', category='error')
     return render_template("login.html", user=current_user)
 
 
@@ -36,24 +52,30 @@ def logout():
 
 @auth.route('/sign-up', methods=['GET', 'POST'])
 def sign_up():
-    # POST-request is sent if the submit button gets pressed
-    # GET-request is sent whenever the site gets loaded
     if request.method == "POST":
         username = request.form.get('username')  # id must match the 'name' attribute in the html file
-        # email = request.form.get('email')     # -> for later use   
+        # email = request.form.get('email')     # not used yet   
         password = request.form.get('password')
         confPassword = request.form.get('confPassword')
+        acces_code = request.form.get('accessCode')
 
         user = User.query.filter_by(username=username).first()
 
+        username_valid, username_error_msg = user_name_validity(str(username))
+
         if user:
-            flash("Be creative, man. Don't steal other people's username.", category='error')
-        elif len(username) < 3:
-            flash('Sorry bro, username must be at least 3 characters long.', category='error')
+            flash("Username already taken", category='error')
+        elif not username_valid:
+            flash(username_error_msg, category="error")
         elif password != confPassword:
-            flash('Not even able to match your passwords? Maybe you should take some typing lessons...', category='error')
+            flash('Passwords are not matching', category='error')
+        elif acces_code != os.environ.get('ACCESS_CODE'):
+            flash('Alpha access code invalid', category='error')
         else:
-            new_user = User(username=username, password=generate_password_hash(password, method='sha256'))           # add E-Mail for later use
+            # personal files get stored in a folder named heroes/user_[username]
+            heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'user_' + username)
+            Path(heroes_path).mkdir(parents=True, exist_ok=True)
+            new_user = User(username=username, password=generate_password_hash(password, method='sha256'), heroes_path=heroes_path) # add e-mail for later use
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)

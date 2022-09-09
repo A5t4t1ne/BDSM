@@ -1,27 +1,42 @@
-{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
-%}
-<form method="POST">
-    <h3 align="center">Login</h3>
-    <div class="form-group">
-      <label for="username">Username</label>
+{% extends "base.html" %} {% block head_additions %}
+<link href="../static/auth.css" rel="stylesheet" />
+{% endblock %} {% block title %}Log In{% endblock %} {% block content %}
+
+<main class="form-signin w-100 m-auto text-center">
+  <form method="post">
+    <img
+      class="mb-4"
+      src="../static/assets/logo_b.svg"
+      src=""
+      alt=""
+      width="72"
+      height="57"
+    />
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+    <div class="form-floating">
       <input
         type="text"
         class="form-control"
-        id="username"
+        id="floatingInput"
         name="username"
-        placeholder="Enter username"
+        placeholder="username"
       />
+      <label for="floatingInput">Username</label>
     </div>
-    <div class="form-group">
-      <label for="password">Password</label>
+    <div class="form-floating">
       <input
         type="password"
         class="form-control"
-        id="password"
+        id="floatingPassword"
         name="password"
-        placeholder="Enter password"
+        placeholder="Password"
       />
+      <label for="floatingPassword">Password</label>
+    </div>
     <br />
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button class="w-100 btn btn-lg btn-dark" type="submit">Sign in</button>
   </form>
+</main>
+
 {% endblock %}
