@@ -2,6 +2,6 @@ heroes
 website/database.db
 hero-examples
 __pycache__
-website/__pycache__
-website/tools/__pycache__
+website/__pycache__/
+website/tools/__pycache__/
 config.json
