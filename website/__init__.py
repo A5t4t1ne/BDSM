@@ -18,7 +18,7 @@ def create_database(app, db_dir):
 
 def create_app(db_name="database.db", upload_folder="heroes"):
     if not os.path.isfile(CONFIG_PATH):
-        raise AttributeError("Create a config.json file in website directory with a 'SECRET_KEY' and an 'ACCESS_CODE' property")
+        raise FileNotFoundError("Create a config.json file in website directory with a 'SECRET_KEY' and an 'ACCESS_CODE' property")
 
     with open(CONFIG_PATH, 'r') as f:
         config = json.load(f)
