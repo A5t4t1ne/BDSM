@@ -6,9 +6,9 @@ import math
 class Decode():
     @classmethod
     def decode_all(cls, hero:dict)     ->  dict:
-        """calculates all possible stats from the hero and returns them in a dictionary
+        """Returns all needed stats from the raw hero
 
-        :param hero     the DSA hero in a dict format
+        :param: hero (dict)    the DSA hero in a dict format   
         """
         stats = dict()
         stats['name'] = hero['name']
@@ -185,7 +185,9 @@ class Decode():
 
     @classmethod
     def attributes(cls, hero:dict, search_for_attr=""):
-        # if specific attribute isn't given, return all in list form, else return value
+        """Returns all attributes from the hero if search_for_attr is empty or 'all'.
+        Specific attributes can be specified with 'AttributeID.<attr>' """
+
         if search_for_attr == "" or search_for_attr == 'all':
             return hero['attr']
         else:
@@ -235,6 +237,7 @@ class AttributeID():
     GE = 'ATTR_6'
     KO = 'ATTR_7'
     KK = 'ATTR_8'
+    ALL = 'all'
 
 
 class ActivatablesID():
@@ -258,3 +261,5 @@ class Race():
     Dwarf       = 'R_4'         # Lep Base Modifier = 8 //4
 
 
+if __name__ == "__main__":
+    print(type(ActivatablesID.HIGH_ASP))
