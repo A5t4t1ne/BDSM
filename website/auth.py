@@ -10,11 +10,26 @@ import os
 
 auth = Blueprint('auth', __name__)
 
+LOWER_CHARS = 'abcdefghijklmnopqrstuvwxyzäöü'
+UPPER_CHARS = LOWER_CHARS.upper()
+NUMBERS = '1234567890'
+ALLOWED_SPECIAL_CHARS = '+()&=*$?!-_.,;'
+PASSWD_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS + ALLOWED_SPECIAL_CHARS
+UNAME_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS
 
-def user_name_validity(username:str):
+
+def valid_char_set(string: str, allowed_charset: set):
+    string = set(string)
+
+    return string.issubset(allowed_charset)
+
+
+def user_name_valid(username:str):
     allowed_chars = set(string.ascii_letters + string.digits + '_')
 
-    if len(username) < 3:
+    if not valid_char_set(username, UNAME_CHARS):
+        return False, f"For usernames only characters and numbers please"
+    elif len(username) < 3:
         return False, "Sorry bro, username must be at least 3 characters long"
     elif len(username) > 100:
         return False, "Nah that's too long my friend"
@@ -61,12 +76,15 @@ def sign_up():
 
         user = User.query.filter_by(username=username).first()
 
-        username_valid, username_error_msg = user_name_validity(str(username))
+        uname_valid, username_error_msg = user_name_valid(str(username))
+        passwd_valid = valid_char_set(password, PASSWD_CHARS)
 
         if user:
             flash("Username already taken", category='error')
-        elif not username_valid:
+        elif not uname_valid:
             flash(username_error_msg, category="error")
+        elif not passwd_valid:
+            flash(f'For passwords only characters, numbers and {ALLOWED_SPECIAL_CHARS} please', category='error')
         elif password != confPassword:
             flash('Passwords are not matching', category='error')
         elif acces_code != os.environ.get('ACCESS_CODE'):
@@ -83,3 +101,4 @@ def sign_up():
             return redirect(url_for('views.home'))
 
     return render_template("sign-up.html", user=current_user)
+
