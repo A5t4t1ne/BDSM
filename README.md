@@ -1,10 +1,9 @@
 # BDSM
 
 Of course it stands for: **_Browser DSA Stat Manager_** and nothing else you horny guys.
+The goal is to create a Cross-Platform application for keeping track of your hero stats in the Pen & Paper game "Das schwarze Auge" (DSA).
 
 Everything is made up from scratch except the hero/optolith decoder logic. That part is copied and translated to python from the C# project [Ducttapemummy/DELM](https://github.com/Ducttapemummy/DELM).
-
-In the end, I'm just a student messing around with Flask in Python.
 
 
 ## Improvement
