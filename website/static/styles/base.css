@@ -10,14 +10,15 @@ h1 {
 }
 
 footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    font-size: 12px;
+}
+
+hr {
+    margin: 4rem auto;
 }
 
 .bg-dark {
     color: var(--main-font-color);
-    background-color: var(--main-bg-color);
 }
 
 .container-dark {
