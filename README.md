@@ -7,4 +7,4 @@ Everything is made up from scratch except the hero/optolith decoder logic. That 
 In the end, I'm just a student messing around with Flask in Python.
 
 ## Note
-I have never worked with databases before so don't be too mad if I screwed up something badly but instead leave an issue on this repository. 
+I have never worked with databases before so don't be too mad if I screwed up something badly but instead leave an issue on this repository, thank you. 
