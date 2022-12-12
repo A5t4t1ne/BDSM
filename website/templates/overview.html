@@ -1,25 +1,35 @@
 {% extends "base.html" %} {% block head_additions %}
 <link rel="stylesheet" href="../static/styles/overview.css" />
 {% endblock %} {% block title %}Overview{% endblock %} {% block content %}
+<h1>Heroes Overview</h1>
+<section class="my-4">
+    <p>Upload new heroes:</p>
+    <form method="POST" enctype="multipart/form-data">
+        <div class="input-group">
+            {{ form.files(class="form-control") }} {{ form.hidden_tag() }} {{
+            form.submit(class="input-group-text") }}
+        </div>
+    </form>
+</section>
+<hr />
+<p class="mb-0">Your heroes:</p>
 <div class="d-grid gap-3 pt-3">
     {% for hero in user.heroes %}
     <div class="p-2 bg-light border rounded hero-deletable" role="hero">
         {{ hero.name }}
-        <input type="button" class="btn-close" id="{{ hero.id }}" />
+        <input
+            type="button"
+            class="btn-close btn-delete-hero"
+            id="{{ hero.id }}"
+        />
     </div>
     {% endfor %}
 </div>
 <br />
-<form method="POST" enctype="multipart/form-data">
-    <div class="input-group mb-3">
-        {{ form.files(class="form-control") }} {{ form.hidden_tag() }} {{
-        form.submit(class="input-group-text") }}
-    </div>
-</form>
 
 {% endblock %} {% block additional_scripts %}
 <script
     type="text/javascript"
-    src="{{ url_for('static', filename='overview.js') }}"
+    src="{{ url_for('static', filename='js/overview.js') }}"
 ></script>
 {% endblock %}
