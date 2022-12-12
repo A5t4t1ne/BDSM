@@ -6,7 +6,7 @@ import math
 class Decode():
     @classmethod
     def decode_all(cls, hero:dict)     ->  dict:
-        """Returns all needed stats from the raw hero
+        """Returns all important stats from the raw hero
 
         :param: hero (dict)    the DSA hero in a dict format   
         """
@@ -21,6 +21,16 @@ class Decode():
         stats['kap_current'] = stats['kap_max']
         stats['wealth'] = cls.wealth(hero=hero)
         stats['armor'], stats['enc'] = cls.armor(hero=hero, return_weight=True)
+        stats['attributes'] = cls.attributes(hero)
+
+        # initialize hero effects
+        stats['desire'] = 0
+        stats['intoxication'] = 0
+        stats['anaesthesia'] = 0
+        stats['fear'] = 0
+        stats['paralysis'] = 0
+        stats['pain'] = 0
+        stats['confusion'] = 0
 
         return stats
 
@@ -195,7 +205,6 @@ class Decode():
                 if attr['id'] == search_for_attr:
                     return attr['value']
 
-
     @classmethod
     def activatables(cls, hero:dict)    -> dict:
         return hero['activatable']
@@ -262,4 +271,6 @@ class Race():
 
 
 if __name__ == "__main__":
-    print(type(ActivatablesID.HIGH_ASP))
+    with open('..\\..\\heroes\\aldarine.json') as f:
+        hero = json.load(f)
+    print(Decode.attributes(hero))
