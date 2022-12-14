@@ -14,7 +14,7 @@ window.onload = function () {
         get_hero_and_update(hero_select);
     }
 
-    $(".money-input").bind("change", update_money);
+    // $(".money-input").bind("change", update_money);
     $(".hero-stat-input").bind("change", save_hero);
 };
 
@@ -46,7 +46,8 @@ function get_hero_and_update(obj) {
         });
 }
 
-function save_hero() {
+function save_hero(evt) {
+    update_money(evt);
     let hero_stats = newHeroObject(
         $("#lep").val(),
         $("#asp").val(),
@@ -166,9 +167,9 @@ function update_new_hero_stats(hero) {
  */
 function newHeroObject(lep, asp, kap, name, wealth) {
     let stats = {
-        "lep": lep,
-        "asp": asp,
-        "kap": kap,
+        "lep_current": lep,
+        "asp_current": asp,
+        "kap_current": kap,
         "name": name,
         "wealth": wealth,
     };
