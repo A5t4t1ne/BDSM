@@ -5,6 +5,7 @@ from . import app, db
 from .models import Hero, User
 from .tools.upload import UploadFileForm, save_hero
 import os
+import json
 
 
 views = Blueprint("views", __name__)
@@ -52,23 +53,54 @@ def play():
 @views.route('data-request', methods=['POST'])
 def data_request():
     data = request.get_json()
-    hero = Hero.query.filter_by(id=data['id']).first()
+    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()
+    if hero:
+        return jsonify(hero.stats)
+    else:
+        return jsonify(None)
 
-    return jsonify(hero.stats)
+
+@views.route('save-hero', methods=['POST'])
+def save_hero_from_request():
+    request_data = request.get_json()
+    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=request_data['name']).first()
+    if hero:
+        with open(hero.path, 'r') as f:
+            hero_data = json.load(f)
+
+        for key, item in request_data.items():
+            hero_data[key] = item
+        
+        with open(hero.path, 'w') as f:
+            json.dump(hero_data, f)
+        
+        hero.stats = hero_data
+        db.session.commit()
+
+        return jsonify(error=0)
+    
+    return jsonify(error=-1)
+
 
 
 @views.route('delete-hero',methods=['POST'])
 def delete_hero():
     data = request.get_json()
-    hero_path = Hero.query.filter_by(id=data['id']).first().path
+    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name'])
+    hero_path = hero.first().path
     
+    if not hero_path:
+        # no valid hero
+        return jsonify(error=-1)
+
     if os.path.isfile(hero_path):
         os.remove(hero_path)
 
-    Hero.query.filter_by(id=data['id']).delete()
+    # Hero.query.filter_by(id=data['id']).delete()
+    hero.delete()
     db.session.commit()
 
-    return jsonify("{}")
+    return jsonify(error=0)
 
 
 # Server request size to large
