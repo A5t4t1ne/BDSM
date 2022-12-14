@@ -16,6 +16,7 @@
         {% endif %}
     </select>
 
+    <!-- Health, Astral-, Karmalpoints-->
     <div class="row">
         <div class="col input-group">
             <span class="input-group-text">Lebenspunkte</span>
@@ -50,6 +51,7 @@
 
     <hr />
 
+    <!-- Money -->
     <div class="row">
         <div class="col input-group">
             <span class="input-group-text">Dukaten</span>
@@ -97,6 +99,7 @@
     </div>
 </div>
 
+<!--  -->
 <div class="stat-container">
     <div class="row">
         <div class="col">
@@ -111,6 +114,7 @@
     </div>
 </div>
 
+<!-- conditions -->
 <div class="stat-container">
     <div class="row justify-content-between">
         <div class="col">
@@ -261,6 +265,6 @@
 {% endblock %} {% block additional_scripts %}
 <script
     type="text/javascript"
-    src="{{ url_for('static', filename='play.js') }}"
+    src="{{ url_for('static', filename='js/play.js') }}"
 ></script>
 {% endblock %}

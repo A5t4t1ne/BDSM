@@ -1,5 +1,5 @@
 window.onload = function () {
-    $(".hero-deletable .btn-close").bind("click", function (event) {
+    $(".btn-delete-hero").bind("click", function (event) {
         if (confirm("You sure?")) {
             fetch("/delete-hero", {
                 method: "POST",
