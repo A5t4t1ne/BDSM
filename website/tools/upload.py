@@ -83,6 +83,8 @@ def save_hero(file):
 
         file_path = os.path.join(current_user.heroes_path, file_name + '.json')
 
+    shortened_hero['secure_name'] = file_name
+
     # save shortened hero as new file on given path in initialization
     with open(file_path, 'w') as f:
         json.dump(shortened_hero, f)
