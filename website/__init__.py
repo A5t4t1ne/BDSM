@@ -4,8 +4,6 @@ from flask_login import LoginManager
 import json
 import os
 
-# CONFIG_PATH = 'website/config.json'
-
 db = SQLAlchemy()
 app = Flask(__name__)
 
