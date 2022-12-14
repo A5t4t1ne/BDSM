@@ -5,15 +5,21 @@ var current_wealth = {
     k: 0,
 };
 
+function save_current_money_state() {
+    current_wealth.d = $("#money-d").val();
+    current_wealth.s = $("#money-s").val();
+    current_wealth.h = $("#money-h").val();
+    current_wealth.k = $("#money-k").val();
+}
+
 window.onload = function () {
     // set initial value
     let hero_select = $(".hero-select");
-
     hero_select.bind("change", get_hero_and_update);
     if (hero_select.val() !== -1) {
         get_hero_and_update(hero_select);
     }
-
+    save_current_money_state();
     $(".hero-stat-input").bind("change", save_hero);
 };
 
