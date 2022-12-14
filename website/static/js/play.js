@@ -5,14 +5,20 @@ var current_wealth = {
     k: 0,
 };
 
-function get_current_hero(event) {
+function get_hero_and_update(event) {
+    let id = 0;
+    try {
+        id = event.val();
+    } catch (error) {
+        id = event.target.value;
+    }
     fetch("/data-request", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
             "Accept": "application/json",
         },
-        body: JSON.stringify({ "id": event.currentTarget.value }),
+        body: JSON.stringify({ "id": id }),
     })
         .then((res) => {
             if (res.ok) return res.json();
@@ -26,10 +32,12 @@ function get_current_hero(event) {
 window.onload = function () {
     // set initial value
     let hero_select = $(".hero-select");
-    if (hero_select.currentTarget.value !== -1) {
-        let curr_hero = get_current_hero(hero_select);
+
+    hero_select.bind("change", get_hero_and_update);
+    if (hero_select.val() !== -1) {
+        // let curr_hero = get_current_hero(hero_select);
+        get_hero_and_update(hero_select);
     }
-    hero_select.on("change", get_current_hero);
 
     $(".money-input").bind("change", update_money);
 };
@@ -113,6 +121,4 @@ function update_new_hero_stats(hero) {
     // $('initiative').text(hero['base_attr']['INI'])   !not implemented yet
     $("#encumbrance").text(hero["enc"]);
     // implement pain
-
-    console.log(hero);
 }
