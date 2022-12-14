@@ -84,39 +84,49 @@ function save_hero(evt) {
 function update_money(event) {
     let inp_field = event.currentTarget;
 
-    switch (inp_field.id) {
-        case "money-d":
-            delta = inp_field.value - current_wealth.d;
-            current_wealth.d += delta;
-            break;
+    let d = $("#money-d").val();
+    let s = $("#money-s").val();
+    let h = $("#money-h").val();
+    let k = $("#money-k").val();
 
-        case "money-s":
-            delta = inp_field.value - current_wealth.s;
-            current_wealth.s += delta;
-            break;
+    let total = d * 1000 + s * 100 + h * 10 + k;
+    d = Math.floor(total / 1000);
+    s = Math.floor((total % 1000) / 100);
+    h = Math.floor((total % 100) / 10);
+    k = Math.floor(total % 10);
+    // switch (inp_field.id) {
+    //     case "money-d":
+    //         delta = inp_field.value - current_wealth.d;
+    //         current_wealth.d += delta;
+    //         break;
 
-        case "money-h":
-            delta = inp_field.value - current_wealth.h;
-            current_wealth.h += delta;
-            break;
+    //     case "money-s":
+    //         delta = inp_field.value - current_wealth.s;
+    //         current_wealth.s += delta;
+    //         break;
 
-        case "money-k":
-            delta = inp_field.value - current_wealth.k;
-            current_wealth.k += delta;
-            break;
+    //     case "money-h":
+    //         delta = inp_field.value - current_wealth.h;
+    //         current_wealth.h += delta;
+    //         break;
 
-        default:
-            break;
-    }
+    //     case "money-k":
+    //         delta = inp_field.value - current_wealth.k;
+    //         current_wealth.k += delta;
+    //         break;
 
-    let curr_d = current_wealth.d;
-    let curr_s = current_wealth.s;
-    let curr_h = current_wealth.h;
-    let curr_k = current_wealth.k;
-    let total_money = 1000 * curr_d + 100 * curr_s + 10 * curr_h + curr_k;
-    current_wealth = splitMoney(total_money);
+    //     default:
+    //         break;
+    // }
 
-    let { d, s, h, k } = current_wealth;
+    // let curr_d = current_wealth.d;
+    // let curr_s = current_wealth.s;
+    // let curr_h = current_wealth.h;
+    // let curr_k = current_wealth.k;
+    // let total_money = 1000 * curr_d + 100 * curr_s + 10 * curr_h + curr_k;
+    // current_wealth = splitMoney(total_money);
+
+    // let { d, s, h, k } = current_wealth;
 
     $("#money-d").val(d);
     $("#money-s").val(s);
