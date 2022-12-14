@@ -54,7 +54,6 @@ def play():
 def data_request():
     data = request.get_json()
     hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()
-    print(hero, hero.stats)
     if hero:
         return jsonify(hero.stats)
     else:
@@ -66,11 +65,17 @@ def save_hero_from_request():
     request_data = request.get_json()
     hero = Hero.query.filter_by(user_id=current_user.id, secure_name=request_data['name']).first()
     if hero:
-        with open(hero.path, 'w') as f:
+        with open(hero.path, 'r') as f:
             hero_data = json.load(f)
 
         for key, item in request_data.items():
             hero_data[key] = item
+        
+        with open(hero.path, 'w') as f:
+            json.dump(hero_data, f)
+        
+        hero.stats = hero_data
+        db.session.commit()
 
         return jsonify(error=0)
     

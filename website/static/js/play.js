@@ -14,8 +14,8 @@ window.onload = function () {
         get_hero_and_update(hero_select);
     }
 
-    $(".hero-stat-input").bind("change", save_hero);
     $(".money-input").bind("change", update_money);
+    $(".hero-stat-input").bind("change", save_hero);
 };
 
 /**
@@ -54,7 +54,6 @@ function save_hero() {
         $(".hero-select").val(),
         current_wealth
     );
-
     fetch("/save-hero", {
         method: "POST",
         headers: {
@@ -162,16 +161,16 @@ function update_new_hero_stats(hero) {
  * @param {int} lep
  * @param {int} asp
  * @param {int} kap
- * @param {dict} money a dictionary
+ * @param {dict} wealth a dictionary
  * @returns
  */
-function newHeroObject(lep, asp, kap, name, money) {
+function newHeroObject(lep, asp, kap, name, wealth) {
     let stats = {
         "lep": lep,
         "asp": asp,
         "kap": kap,
         "name": name,
-        "money": money,
+        "wealth": wealth,
     };
     return stats;
 }
