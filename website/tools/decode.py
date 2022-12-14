@@ -94,36 +94,35 @@ class Decode():
             if len(property_list) < 1:
                 continue
 
-            match key:
-                case ActivatablesID.HIGH_ASP:
-                    asp_max += property_list[0]['tier']
+            if key == ActivatablesID.HIGH_ASP:
+                asp_max += property_list[0]['tier']
 
-                case ActivatablesID.LOW_ASP:
-                    asp_max -= property_list[0]['tier']
+            elif key == ActivatablesID.LOW_ASP:
+                asp_max -= property_list[0]['tier']
 
-                case ActivatablesID.IS_MAGIC:
-                    asp_max += 20
+            elif key == ActivatablesID.IS_MAGIC:
+                asp_max += 20
 
                 # advantages that affect asp based on a character property
                 # --- KL --- 
-                case "SA_70" | "SA_346" | "SA_681":
-                    asp_max += hero_KL
+            elif key == "SA_70" or key == "SA_346" or key == "SA_681":
+                asp_max += hero_KL
 
                 # --- KL / 2, round up ---
-                case "SA_750":
-                    asp_max += math.ceil(hero_KL / 2)
+            elif key == "SA_750":
+                asp_max += math.ceil(hero_KL / 2)
 
                 # --- IN --- 
-                case "SA_345":
-                    asp_max += hero_IN
+            elif key == "SA_345":
+                asp_max += hero_IN
 
                 # --- CH --- 
-                case "SA_255" | "SA_676":
-                    asp_max += hero_CH
+            elif key == "SA_255" or key == "SA_676":
+                asp_max += hero_CH
 
                 # --- CH / 2, round up ---
-                case "SA_677":
-                    asp_max += math.ceil(hero_CH / 2)
+            elif key == "SA_677":
+                asp_max += math.ceil(hero_CH / 2)
 
         return asp_max
 
@@ -147,32 +146,32 @@ class Decode():
             if len(property_list) < 1:
                 continue
 
-            match key:
-                case ActivatablesID.HIGH_KAP:
-                    kap_max += property_list[0]['tier']
+            
+            if key == ActivatablesID.HIGH_KAP:
+                kap_max += property_list[0]['tier']
 
-                case ActivatablesID.LOW_KAP:
-                    kap_max -= property_list[0]['tier']
+            elif key == ActivatablesID.LOW_KAP:
+                kap_max -= property_list[0]['tier']
 
-                case ActivatablesID.IS_HOLY:
-                    kap_max += 20
+            elif key == ActivatablesID.IS_HOLY:
+                kap_max += 20
 
                 # advantages that affect kap based on a character property
                 # --- MU --- 
-                case "SA_682" | "SA_683" | "SA_689" | "SA_693" | "SA_696" | "SA_698":
-                    kap_max += hero_MU
+            elif key == "SA_682" or key == "SA_683" or key == "SA_689" or key == "SA_693" or key == "SA_696" or key == "SA_698":
+                kap_max += hero_MU
 
                 # --- KL --- 
-                case "SA_86" | "SA_684" | "SA_688" | "SA_697" | "SA_1049":
-                    kap_max += hero_KL
+            elif key == "SA_86" or key == "SA_684" or key == "SA_688" or key == "SA_697" or key == "SA_1049":
+                kap_max += hero_KL
 
                 # --- IN --- 
-                case "SA_685" | 'SA_686' | "SA_691" | 'SA_694':
-                    kap_max += hero_IN
+            elif key == "SA_685" or key == 'SA_686' or key == "SA_691" or key == 'SA_694':
+                kap_max += hero_IN
 
                 # --- CH --- 
-                case "SA_687" | "SA_692" | 'SA_695' | 'SA_690':
-                    kap_max += hero_CH
+            elif key == "SA_687" or key == "SA_692" or key == 'SA_695' or key == 'SA_690':
+                kap_max += hero_CH
         
         return kap_max
 
