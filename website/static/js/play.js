@@ -5,28 +5,39 @@ var current_wealth = {
     k: 0,
 };
 
-window.onload = function () {
-    $(".hero-select").bind("change", function (event) {
-        fetch("/data-request", {
-            method: "POST",
-            headers: {
-                "Content-type": "application/json",
-                "Accept": "application/json",
-            },
-            body: JSON.stringify({ "id": event.currentTarget.value }),
+function get_current_hero(event) {
+    fetch("/data-request", {
+        method: "POST",
+        headers: {
+            "Content-type": "application/json",
+            "Accept": "application/json",
+        },
+        body: JSON.stringify({ "id": event.currentTarget.value }),
+    })
+        .then((res) => {
+            if (res.ok) return res.json();
+            else alert("Something went wront");
         })
-            .then((res) => {
-                if (res.ok) return res.json();
-                else alert("Something went wront");
-            })
-            .then((jsonResponse) => {
-                update_all(jsonResponse);
-            });
-    });
+        .then((jsonResponse) => {
+            update_new_hero_stats(jsonResponse);
+        });
+}
+
+window.onload = function () {
+    // set initial value
+    let hero_select = $(".hero-select");
+    if (hero_select.currentTarget.value !== -1) {
+        let curr_hero = get_current_hero(hero_select);
+    }
+    hero_select.on("change", get_current_hero);
 
     $(".money-input").bind("change", update_money);
 };
 
+/**
+ * Handles the money changee from a user input
+ * @param {*} event
+ */
 function update_money(event) {
     let inp_field = event.currentTarget;
 
@@ -70,6 +81,11 @@ function update_money(event) {
     $("#money-k").val(k);
 }
 
+/**
+ * Reformat the total money and return it in a dictionary
+ * @param {*} money
+ * @returns money split up tp d, h, s, k
+ */
 function splitMoney(money) {
     if (money === 0) return { "d": 0, "s": 0, "h": 0, "k": 0 };
 
@@ -84,7 +100,7 @@ function splitMoney(money) {
     return { d, s, h, k };
 }
 
-function update_all(hero) {
+function update_new_hero_stats(hero) {
     $("#lep-max").text(hero["lep_max"]);
     $("#asp-max").text(hero["asp_max"]);
     $("#kap-max").text(hero["kap_max"]);
@@ -97,4 +113,6 @@ function update_all(hero) {
     // $('initiative').text(hero['base_attr']['INI'])   !not implemented yet
     $("#encumbrance").text(hero["enc"]);
     // implement pain
+
+    console.log(hero);
 }

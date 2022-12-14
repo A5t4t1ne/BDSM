@@ -42,10 +42,12 @@ def overview():
 def account():
     return render_template('account.html', user=current_user)
 
+
 @views.route('/play')
 @login_required
 def play():
     return render_template("play.html", user=current_user)
+
 
 @views.route('data-request', methods=['POST'])
 def data_request():
@@ -53,6 +55,7 @@ def data_request():
     hero = Hero.query.filter_by(id=data['id']).first()
 
     return jsonify(hero.stats)
+
 
 @views.route('delete-hero',methods=['POST'])
 def delete_hero():

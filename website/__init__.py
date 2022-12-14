@@ -4,8 +4,6 @@ from flask_login import LoginManager
 import json
 import os
 
-CONFIG_PATH = 'website/config.json'
-
 db = SQLAlchemy()
 app = Flask(__name__)
 
@@ -17,6 +15,7 @@ def create_database(app, db_dir):
 
 
 def create_app(db_name="database.db", upload_folder="heroes"):
+<<<<<<< HEAD
     if not os.path.isfile(CONFIG_PATH):
         raise FileNotFoundError("Create a config.json file in website directory with a 'SECRET_KEY' and an 'ACCESS_CODE' property")
 
@@ -27,6 +26,10 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     
     app.config['SECRET_KEY'] = config['SECRET_KEY']
     app.config['ACCESS_CODE'] = config['ACCESS_CODE']
+=======
+    app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
+    app.config['ACCESS_CODE'] = os.environ['ACCESS_CODE']
+>>>>>>> dev
 
     # get abs path starting from this file location
     basedir = os.path.abspath(os.path.dirname(__file__))

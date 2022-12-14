@@ -21,9 +21,13 @@ def is_valid_hero(file):
             filename.rsplit('.', 1)[1].lower() not in app.config['ALLOWED_EXTENSIONS']:
         return False
 
-    # if file was read before cursor isn't at the beginning -> data cannot be read correctly
-    file.seek(0)
+    
+    file.seek(0)   # if file was read before cursor isn't at the beginning -> data cannot be read correctly
     hero = json.load(file)
+
+
+    if not 'clientVersion' in hero:
+        return False
 
     # convert version X.Y.Z to XY
     version = hero['clientVersion'].split('.')[:2]
@@ -46,6 +50,7 @@ def is_valid_hero(file):
 
 def save_hero(file):
     """Returns False if the file isn't a valid hero file"""
+    
     if not is_valid_hero(file):
         return False
 
@@ -59,7 +64,7 @@ def save_hero(file):
     file_path = os.path.join(current_user.heroes_path, file_name + '.json')
 
     while os.path.isfile(file_path):
-        # when file exists handle it with incrementing numbers -> file.json, file(1).json, file(2).json ...
+        # if file exists handle it with incrementing numbers -> file.json, file(1).json, file(2).json ...
 
         # check if there are brackets with a number between it at the end of the filename
         if '(' in file_name and ')' == file_name[-1]:
@@ -67,10 +72,14 @@ def save_hero(file):
             if content_between_brackets.isnumeric():
                 file_number = int(content_between_brackets) + 1
                 file_name = file_name.rsplit('(', 1)[0] + f'({file_number})'
+
+                shortened_hero['name'] = shortened_hero['name'].rsplit('(', 1)[0] + f'({file_number})'
             else:
                 file_name += '(1)'
+                shortened_hero['name'] += '(1)'
         else:
             file_name += '(1)'
+            shortened_hero['name'] += '(1)'
 
         file_path = os.path.join(current_user.heroes_path, file_name + '.json')
 
