@@ -8,7 +8,7 @@
 <div class="stat-container">
     <select class="form-select mb-4 hero-select" airia-label="Hero selection">
         {% if current_user.heroes %} {% for hero in current_user.heroes %}
-        <option value="{{hero.id}}">{{hero.name}}</option>
+        <option value="{{hero.secure_name}}">{{hero.name}}</option>
         {% endfor %} {% else %}
         <option value="-1">
             Consider uploading a hero on the Overview page
@@ -20,7 +20,12 @@
     <div class="row">
         <div class="col input-group">
             <span class="input-group-text">Lebenspunkte</span>
-            <input type="number" class="form-control" id="lep" value="0" />
+            <input
+                type="number"
+                class="form-control hero-stat-input"
+                id="lep"
+                value="0"
+            />
             <span class="input-group-text" id="lep-max">/ 0</span>
         </div>
 
@@ -29,7 +34,7 @@
             <input
                 type="number"
                 min="0"
-                class="form-control"
+                class="form-control hero-stat-input"
                 id="asp"
                 value="0"
             />
@@ -41,7 +46,7 @@
             <input
                 type="number"
                 min="0"
-                class="form-control"
+                class="form-control hero-stat-input"
                 id="kap"
                 value="0"
             />
@@ -58,7 +63,7 @@
             <input
                 type="number"
                 min="0"
-                class="form-control money-input"
+                class="form-control money-input hero-stat-input"
                 id="money-d"
                 value="0"
             />
@@ -69,7 +74,7 @@
             <input
                 type="number"
                 min="0"
-                class="form-control money-input"
+                class="form-control money-input hero-stat-input"
                 id="money-s"
                 value="0"
             />
@@ -80,7 +85,7 @@
             <input
                 type="number"
                 min="0"
-                class="form-control money-input"
+                class="form-control money-input hero-stat-input"
                 id="money-h"
                 value="0"
             />
@@ -91,7 +96,7 @@
             <input
                 type="number"
                 min="0"
-                class="form-control money-input"
+                class="form-control money-input hero-stat-input"
                 id="money-k"
                 value="0"
             />

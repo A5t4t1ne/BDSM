@@ -20,5 +20,5 @@ class User(db.Model, UserMixin):
     heroes_path = db.Column(db.String(1000))
 
     # one to many -> relationship connects the "one" to another class of which it can possess multiples.
-    # heroes will be a list type variable with all Note-objects created by the indivial user
+    # heroes will be a list type variable with all Hero-objects created by the indivial user
     heroes = db.relationship('Hero')
