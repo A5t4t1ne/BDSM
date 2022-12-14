@@ -5,14 +5,36 @@ var current_wealth = {
     k: 0,
 };
 
-function get_current_hero(event) {
+window.onload = function () {
+    // set initial value
+    let hero_select = $(".hero-select");
+
+    hero_select.bind("change", get_hero_and_update);
+    if (hero_select.val() !== -1) {
+        get_hero_and_update(hero_select);
+    }
+
+    $(".hero-stat-input").bind("change", save_hero);
+};
+
+/**
+ * Sends a post request to get the new hero values and sets them.
+ * @param {*} obj jQuery event or select object
+ */
+function get_hero_and_update(obj) {
+    let name = "";
+    try {
+        name = obj.val();
+    } catch (error) {
+        name = obj.target.value;
+    }
     fetch("/data-request", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
             "Accept": "application/json",
         },
-        body: JSON.stringify({ "id": event.currentTarget.value }),
+        body: JSON.stringify({ "name": name }),
     })
         .then((res) => {
             if (res.ok) return res.json();
@@ -23,16 +45,31 @@ function get_current_hero(event) {
         });
 }
 
-window.onload = function () {
-    // set initial value
-    let hero_select = $(".hero-select");
-    if (hero_select.currentTarget.value !== -1) {
-        let curr_hero = get_current_hero(hero_select);
-    }
-    hero_select.on("change", get_current_hero);
-
-    $(".money-input").bind("change", update_money);
-};
+/**
+ * Send current values to webserver to save them in database
+ * @param {*} evt
+ */
+function save_hero(evt) {
+    update_money(evt);
+    let hero_stats = newHeroObject(
+        $("#lep").val(),
+        $("#asp").val(),
+        $("#kap").val(),
+        $(".hero-select").val(),
+        current_wealth
+    );
+    fetch("/save-hero", {
+        method: "POST",
+        headers: {
+            "Content-type": "application/json",
+            "Accept": "application/json",
+        },
+        body: JSON.stringify(hero_stats),
+    }).then((res) => {
+        if (res.ok) return res.json();
+        else alert("Something went wront");
+    });
+}
 
 /**
  * Handles the money changee from a user input
@@ -70,8 +107,8 @@ function update_money(event) {
     let curr_s = current_wealth.s;
     let curr_h = current_wealth.h;
     let curr_k = current_wealth.k;
-    let total_k_money = 1000 * curr_d + 100 * curr_s + 10 * curr_h + curr_k;
-    current_wealth = splitMoney(total_k_money);
+    let total_money = 1000 * curr_d + 100 * curr_s + 10 * curr_h + curr_k;
+    current_wealth = splitMoney(total_money);
 
     let { d, s, h, k } = current_wealth;
 
@@ -100,19 +137,44 @@ function splitMoney(money) {
     return { d, s, h, k };
 }
 
+/**
+ * updates all the values on the screen with the values from the given hero
+ * @param {*} hero hero in json format
+ */
 function update_new_hero_stats(hero) {
     $("#lep-max").text(hero["lep_max"]);
     $("#asp-max").text(hero["asp_max"]);
     $("#kap-max").text(hero["kap_max"]);
-    $("#money-d").text(hero["wealth"]["d"]);
-    $("#money-s").text(hero["wealth"]["s"]);
-    $("#money-h").text(hero["wealth"]["h"]);
-    $("#money-k").text(hero["wealth"]["k"]);
+    $("#lep").val(hero["lep_current"]);
+    $("#asp").val(hero["asp_current"]);
+    $("#kap").val(hero["kap_current"]);
+    $("#money-d").val(hero["wealth"]["d"]);
+    $("#money-s").val(hero["wealth"]["s"]);
+    $("#money-h").val(hero["wealth"]["h"]);
+    $("#money-k").val(hero["wealth"]["k"]);
     $("#armor").text(hero["armor"]);
     // $('#dodge').text(hero['dodge']);     !not implemented yet
     // $('initiative').text(hero['base_attr']['INI'])   !not implemented yet
     $("#encumbrance").text(hero["enc"]);
-    // implement pain
 
-    console.log(hero);
+    // TODO: implement effects
+}
+
+/**
+ * Returns a pseudo hero object for saving the current stats
+ * @param {int} lep
+ * @param {int} asp
+ * @param {int} kap
+ * @param {dict} wealth a dictionary
+ * @returns
+ */
+function newHeroObject(lep, asp, kap, name, wealth) {
+    let stats = {
+        "lep_current": lep,
+        "asp_current": asp,
+        "kap_current": kap,
+        "name": name,
+        "wealth": wealth,
+    };
+    return stats;
 }
