@@ -49,15 +49,15 @@ class Decode():
         lep_max += ko_value * 2 + additional_life
 
         # determine race affect on LeP
-        match cls.race(hero):
-            case Race.Human:
-                lep_max += 5
-            case Race.Elf:
-                lep_max += 2
-            case Race.Half_Elf:
-                lep_max += 5
-            case Race.Dwarf:
-                lep_max += 8
+        race = cls.race(hero)
+        if race == Race.Human:
+            lep_max += 5
+        elif race == Race.Elf:
+            lep_max += 2
+        elif race == Race.Half_Elf:
+            lep_max += 5
+        elif race ==Race.Dwarf:
+            lep_max += 8
 
         # advantage/disadvantage effect on LeP
         adv_disadv = cls.activatables(hero)
