@@ -7,6 +7,7 @@ window.onload = function () {
         get_hero_and_update(hero_select);
     }
 
+    $(".money-input").on("change", update_money);
     setInterval(save_hero, 15000); // save hero ever 15 seconds
 };
 
@@ -14,7 +15,7 @@ window.onload = function () {
  * Sends a post request to get the new hero values and sets them.
  * @param {*} obj jQuery event or select object
  */
-async function get_hero_and_update(obj) {
+function get_hero_and_update(obj) {
     let name = "";
     try {
         name = obj.val();
@@ -22,7 +23,7 @@ async function get_hero_and_update(obj) {
         name = obj.target.value;
     }
 
-    await fetch("/data-request", {
+    fetch("/data-request", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
@@ -43,8 +44,8 @@ async function get_hero_and_update(obj) {
  * Send current values to webserver to save them in database
  * @param {*} evt
  */
-async function save_hero(obj) {
-    let wealth = update_get_money();
+function save_hero(obj) {
+    let wealth = get_money();
 
     let hero_stats = newHeroObject(
         $("#lep").val(),
@@ -54,7 +55,7 @@ async function save_hero(obj) {
         wealth
     );
 
-    const response = await fetch("/save-hero", {
+    const response = fetch("/save-hero", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
@@ -67,28 +68,57 @@ async function save_hero(obj) {
 }
 
 /**
- * Handles the money change from a user input and returns the new values
- * @param {*} event
+ * returns the current amount of money in an object
  */
-function update_get_money() {
+function get_money() {
     let d = $("#money-d").val();
     let s = $("#money-s").val();
     let h = $("#money-h").val();
-    let k = parseInt($("#money-k").val()); // idk why but it works only this way
+    let k = $("#money-k").val();
 
+    return { d, s, h, k };
+}
+
+/**
+ * Handles the money change from a user
+ * @param {*} event
+ */
+function update_money() {
+    // get the current amount of money
+    let d = $("#money-d").val();
+    let s = $("#money-s").val();
+    let h = $("#money-h").val();
+    let k = $("#money-k").val();
+
+    // check if the values are valid
+    let money = { d, s, h, k };
+    for (let key in money) {
+        let val = parseInt(money[key]);
+        if (isNaN(val) || val < 0) {
+            money[key] = 0;
+        } else {
+            money[key] = val;
+        }
+    }
+
+    // just for shortening
+    d = money.d;
+    s = money.s;
+    h = money.h;
+    k = money.k;
+
+    // rearange the money
     let total = d * 1000 + s * 100 + h * 10 + k;
-
     d = Math.floor(total / 1000);
     s = Math.floor((total % 1000) / 100);
     h = Math.floor((total % 100) / 10);
     k = Math.floor(total % 10);
 
+    // update the input fields
     $("#money-d").val(d);
     $("#money-s").val(s);
     $("#money-h").val(h);
     $("#money-k").val(k);
-
-    return { d, s, h, k };
 }
 
 /**
@@ -114,7 +144,7 @@ function splitMoney(money) {
  * updates all the values on the screen with the values from the given hero
  * @param {*} hero hero in json format
  */
-async function update_new_hero_stats(hero) {
+function update_new_hero_stats(hero) {
     $("#lep-max").text(hero["lep_max"]);
     $("#asp-max").text(hero["asp_max"]);
     $("#kap-max").text(hero["kap_max"]);
