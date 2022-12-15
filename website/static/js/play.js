@@ -1,40 +1,28 @@
-var current_wealth = {
-    d: 0,
-    s: 0,
-    h: 0,
-    k: 0,
-};
-
-function save_current_money_state() {
-    current_wealth.d = $("#money-d").val();
-    current_wealth.s = $("#money-s").val();
-    current_wealth.h = $("#money-h").val();
-    current_wealth.k = $("#money-k").val();
-}
-
 window.onload = function () {
     // set initial value
     let hero_select = $(".hero-select");
-    hero_select.bind("change", get_hero_and_update);
+    hero_select.on("change", get_hero_and_update);
+    hero_select.on("click", save_hero);
     if (hero_select.val() !== -1) {
         get_hero_and_update(hero_select);
     }
-    save_current_money_state();
-    $(".hero-stat-input").bind("change", save_hero);
+
+    setInterval(save_hero, 15000); // save hero ever 15 seconds
 };
 
 /**
  * Sends a post request to get the new hero values and sets them.
  * @param {*} obj jQuery event or select object
  */
-function get_hero_and_update(obj) {
+async function get_hero_and_update(obj) {
     let name = "";
     try {
         name = obj.val();
     } catch (error) {
         name = obj.target.value;
     }
-    fetch("/data-request", {
+
+    await fetch("/data-request", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
@@ -55,83 +43,52 @@ function get_hero_and_update(obj) {
  * Send current values to webserver to save them in database
  * @param {*} evt
  */
-function save_hero(evt) {
-    update_money(evt);
+async function save_hero(obj) {
+    let wealth = update_get_money();
+
     let hero_stats = newHeroObject(
         $("#lep").val(),
         $("#asp").val(),
         $("#kap").val(),
         $(".hero-select").val(),
-        current_wealth
+        wealth
     );
-    fetch("/save-hero", {
+
+    const response = await fetch("/save-hero", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
             "Accept": "application/json",
         },
         body: JSON.stringify(hero_stats),
-    }).then((res) => {
-        if (res.ok) return res.json();
-        else alert("Something went wront");
     });
+
+    return response;
 }
 
 /**
- * Handles the money changee from a user input
+ * Handles the money change from a user input and returns the new values
  * @param {*} event
  */
-function update_money(event) {
-    let inp_field = event.currentTarget;
-
+function update_get_money() {
     let d = $("#money-d").val();
     let s = $("#money-s").val();
     let h = $("#money-h").val();
-    let k = $("#money-k").val();
+    let k = parseInt($("#money-k").val()); // idk why but it works only this way
 
     let total = d * 1000 + s * 100 + h * 10 + k;
+
     d = Math.floor(total / 1000);
     s = Math.floor((total % 1000) / 100);
     h = Math.floor((total % 100) / 10);
     k = Math.floor(total % 10);
-    // switch (inp_field.id) {
-    //     case "money-d":
-    //         delta = inp_field.value - current_wealth.d;
-    //         current_wealth.d += delta;
-    //         break;
-
-    //     case "money-s":
-    //         delta = inp_field.value - current_wealth.s;
-    //         current_wealth.s += delta;
-    //         break;
-
-    //     case "money-h":
-    //         delta = inp_field.value - current_wealth.h;
-    //         current_wealth.h += delta;
-    //         break;
-
-    //     case "money-k":
-    //         delta = inp_field.value - current_wealth.k;
-    //         current_wealth.k += delta;
-    //         break;
-
-    //     default:
-    //         break;
-    // }
-
-    // let curr_d = current_wealth.d;
-    // let curr_s = current_wealth.s;
-    // let curr_h = current_wealth.h;
-    // let curr_k = current_wealth.k;
-    // let total_money = 1000 * curr_d + 100 * curr_s + 10 * curr_h + curr_k;
-    // current_wealth = splitMoney(total_money);
-
-    // let { d, s, h, k } = current_wealth;
 
     $("#money-d").val(d);
     $("#money-s").val(s);
     $("#money-h").val(h);
     $("#money-k").val(k);
+
+    return { d, s, h, k };
 }
 
 /**
@@ -157,7 +114,7 @@ function splitMoney(money) {
  * updates all the values on the screen with the values from the given hero
  * @param {*} hero hero in json format
  */
-function update_new_hero_stats(hero) {
+async function update_new_hero_stats(hero) {
     $("#lep-max").text(hero["lep_max"]);
     $("#asp-max").text(hero["asp_max"]);
     $("#kap-max").text(hero["kap_max"]);
