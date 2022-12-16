@@ -27,6 +27,15 @@ def create_admin():
             new_admin = User(username='admin', password=admin_pw, heroes_path=heroes_path, access_lvl=Level.ADMIN)
             db.session.add(new_admin)
             db.session.commit()
+        else:
+            # reset admin
+            heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
+            Path(heroes_path).mkdir(parents=True, exist_ok=True)
+            admin.heroes_path = heroes_path
+            admin.password = generate_password_hash(os.environ['ADMIN_PW'], method='sha256')
+            admin.access_lvl = Level.ADMIN
+            admin.email = ""
+            db.session.commit()
 
 
 def create_app(db_name="database.db", upload_folder="heroes"):
