@@ -1,6 +1,6 @@
 from pathlib import Path
 from flask import Blueprint, render_template, request, flash, redirect, url_for
-from .models import User
+from .models import User, Level
 from . import db
 from . import app
 from werkzeug.utils import secure_filename
@@ -25,7 +25,7 @@ def valid_char_set(string: str, allowed_charset: set):
     return string.issubset(allowed_charset)
 
 
-def user_name_valid(username:str):
+def username_valid(username:str):
     secure_uname = secure_filename(username)
 
     if not valid_char_set(username, UNAME_CHARS):
@@ -77,7 +77,7 @@ def sign_up():
 
         user = User.query.filter_by(username=username).first()
 
-        uname_valid, username_error_msg = user_name_valid(str(username))
+        uname_valid, username_error_msg = username_valid(str(username))
         passwd_valid = valid_char_set(password, PASSWD_CHARS)
 
         if user:
@@ -94,7 +94,7 @@ def sign_up():
             # personal files get stored in a folder named heroes/user_[username]
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'user_' + username)
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
-            new_user = User(username=username, password=generate_password_hash(password, method='sha256'), heroes_path=heroes_path) # add e-mail for later use
+            new_user = User(username=username, password=generate_password_hash(password, method='sha256'), heroes_path=heroes_path, access_lvl=Level.USER) # add e-mail for later use
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)

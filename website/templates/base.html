@@ -54,7 +54,15 @@
                         <a class="nav-link" href="/logout" id="nav-link-log_out"
                             >Log out</a
                         >
-                        {% else %}
+                        {% if user.username == "admin" %}
+                        <a
+                            class="nav-link"
+                            href="/admin-panel"
+                            aria-current="page"
+                            id="nav-link-overview"
+                            >Admin panel</a
+                        >
+                        {% endif %} {% else %}
                         <a
                             class="nav-link"
                             id="login"
