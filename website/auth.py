@@ -3,6 +3,7 @@ from flask import Blueprint, render_template, request, flash, redirect, url_for
 from .models import User
 from . import db
 from . import app
+from werkzeug.utils import secure_filename
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import login_required, login_user, logout_user, current_user
 import string
@@ -13,7 +14,7 @@ auth = Blueprint('auth', __name__)
 LOWER_CHARS = 'abcdefghijklmnopqrstuvwxyz'
 UPPER_CHARS = LOWER_CHARS.upper()
 NUMBERS = '1234567890'
-ALLOWED_SPECIAL_CHARS = '+()&=*$?!-_.,;'
+ALLOWED_SPECIAL_CHARS = '&$?!-_'
 PASSWD_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS + ALLOWED_SPECIAL_CHARS
 UNAME_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS
 
@@ -25,13 +26,15 @@ def valid_char_set(string: str, allowed_charset: set):
 
 
 def user_name_valid(username:str):
+    secure_uname = secure_filename(username)
+
     if not valid_char_set(username, UNAME_CHARS):
         return False, f"For usernames only characters and numbers please"
     elif len(username) < 3:
         return False, "Sorry bro, username must be at least 3 characters long"
     elif len(username) > 100:
         return False, "Nah that's too long my friend"
-    elif 'admin' in username.lower():
+    elif 'admin' in username.lower() or secure_uname != username:
         return False, "Nope not that one please"
     else:
         return True, ""
