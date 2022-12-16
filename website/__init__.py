@@ -1,7 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
-import json
 import os
 
 db = SQLAlchemy()
@@ -12,6 +11,22 @@ def create_database(app, db_dir):
     if not os.path.exists(db_dir):
         db.create_all(app=app)
         print('Created database')
+
+
+def create_admin():
+    from website.models import User, Level
+    from werkzeug.security import generate_password_hash
+    from pathlib import Path
+
+    with app.app_context():
+        admin = User.query.filter_by(username='admin').first()
+        if not admin:
+            heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
+            Path(heroes_path).mkdir(parents=True, exist_ok=True)
+            admin_pw = generate_password_hash(os.environ['ADMIN_PW'], method='sha256')
+            new_admin = User(username='admin', password=admin_pw, heroes_path=heroes_path, access_lvl=Level.ADMIN)
+            db.session.add(new_admin)
+            db.session.commit()
 
 
 def create_app(db_name="database.db", upload_folder="heroes"):
@@ -42,6 +57,8 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     from .models import User
 
     create_database(app, db_dir)
+
+    create_admin()
 
     login_manager = LoginManager()
     # default page to call if user isn't logged in

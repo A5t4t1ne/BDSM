@@ -2,7 +2,7 @@ from flask import Blueprint, flash, render_template, redirect, url_for, request,
 from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
 from . import app, db
-from .models import Hero, User
+from .models import Hero, User, Level
 from .tools.upload import UploadFileForm, save_hero
 import os
 import json
@@ -50,6 +50,17 @@ def play():
     return render_template("play.html", user=current_user)
 
 
+@views.route('admin-panel', methods=['GET', 'POST'])
+@login_required
+def admin_panel():
+    if current_user.access_lvl == Level.ADMIN:
+        if request.method == "GET":
+            all_users = User.query.all()
+        return render_template("admin-panel.html", user=current_user, all_users=all_users)
+    else:
+        return redirect(url_for("views.home"))
+
+
 @views.route('data-request', methods=['POST'])
 def data_request():
     data = request.get_json()
@@ -80,7 +91,6 @@ def save_hero_from_request():
         return jsonify(error=0)
     
     return jsonify(error=-1)
-
 
 
 @views.route('delete-hero',methods=['POST'])

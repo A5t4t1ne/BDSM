@@ -1,0 +1,30 @@
+{% extends "base.html" %}{% block title %}Admin panel{% endblock %} {% block
+content %} {% if user.access_lvl == 0 %}
+<h2>Admin panel</h2>
+<input class="btn btn-dark" type="button" value="add user" />
+<input class="btn btn-dark" type="button" value="remove user" />
+<input class="btn btn-dark" type="button" value="change user" />
+
+<input
+    class="form-control"
+    type="text"
+    name="search-user"
+    id="search-user"
+    placeholder="Search users"
+/>
+<section id="users">
+    <article class="row">
+        <div class="col-sm">Name</div>
+        <div class="col-sm">Heroes</div>
+        <div class="col-sm">Role</div>
+    </article>
+    <hr />
+    {% for user in all_users %}
+    <article class="row">
+        <div class="col-sm">{{ user.username }}</div>
+        <div class="col-sm">{{ user.heroes|length }}</div>
+        <div class="col-sm">{{ user.access_lvl }}</div>
+    </article>
+    {% endfor %}
+</section>
+{% endif %} {% endblock %}

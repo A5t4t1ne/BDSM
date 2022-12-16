@@ -5,3 +5,4 @@ __pycache__
 website/__pycache__/
 website/tools/__pycache__/
 config.json
+maintain.py
