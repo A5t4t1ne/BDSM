@@ -10,7 +10,7 @@ import os
 
 auth = Blueprint('auth', __name__)
 
-LOWER_CHARS = 'abcdefghijklmnopqrstuvwxyzäöü'
+LOWER_CHARS = 'abcdefghijklmnopqrstuvwxyz'
 UPPER_CHARS = LOWER_CHARS.upper()
 NUMBERS = '1234567890'
 ALLOWED_SPECIAL_CHARS = '+()&=*$?!-_.,;'
@@ -25,16 +25,14 @@ def valid_char_set(string: str, allowed_charset: set):
 
 
 def user_name_valid(username:str):
-    allowed_chars = set(string.ascii_letters + string.digits + '_')
-
     if not valid_char_set(username, UNAME_CHARS):
         return False, f"For usernames only characters and numbers please"
     elif len(username) < 3:
         return False, "Sorry bro, username must be at least 3 characters long"
     elif len(username) > 100:
         return False, "Nah that's too long my friend"
-    elif not set(username) <= allowed_chars:
-        return False, "There are enough username possibilities with characters, numbers and underscores, don't you think?"
+    elif 'admin' in username.lower():
+        return False, "Nope not that one please"
     else:
         return True, ""
 
