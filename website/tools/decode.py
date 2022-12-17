@@ -22,6 +22,9 @@ class Decode():
         stats['wealth'] = cls.wealth(hero=hero)
         stats['armor'], stats['enc'] = cls.armor(hero=hero, return_weight=True)
         stats['attributes'] = cls.attributes(hero)
+        stats['liturgies'] = cls.liturgies(hero)
+        stats['spells'] = cls.spells(hero)
+        stats['talents'] = cls.talents(hero)
 
         # initialize hero effects
         stats['desire'] = 0
@@ -217,10 +220,22 @@ class Decode():
         return hero['belongings']['items']
 
     @classmethod
+    def liturgies(cls, hero:dict)       -> dict:
+        return hero['liturgies']
+
+    @classmethod
+    def spells(cls, hero:dict)       -> dict:
+        return hero['spells']
+
+    @classmethod
+    def talents(cls, hero:dict)       -> dict:
+        return hero['talents']
+
+    @classmethod
     def defence(cls, hero:dict):
         # TODO: implement defence value
         pass
-
+    
     @classmethod
     def dodge(cls, hero:dict):
         # TODO: implement dodge value, mind improved dodge (test object: Ramon)
