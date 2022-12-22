@@ -25,6 +25,7 @@ class Decode():
         stats['liturgies'] = cls.liturgies(hero)
         stats['spells'] = cls.spells(hero)
         stats['talents'] = cls.talents(hero)
+        stats['ini'] = cls.initiative(hero)
 
         # initialize hero effects
         stats['desire'] = 0
@@ -103,7 +104,7 @@ class Decode():
             elif key == ActivatablesID.LOW_ASP:
                 asp_max -= property_list[0]['tier']
 
-            elif key == ActivatablesID.IS_MAGIC:
+            elif key == ActivatablesID.MAGICIAN:
                 asp_max += 20
 
                 # advantages that affect asp based on a character property
@@ -156,7 +157,7 @@ class Decode():
             elif key == ActivatablesID.LOW_KAP:
                 kap_max -= property_list[0]['tier']
 
-            elif key == ActivatablesID.IS_HOLY:
+            elif key == ActivatablesID.PRIEST:
                 kap_max += 20
 
                 # advantages that affect kap based on a character property
@@ -190,6 +191,15 @@ class Decode():
                 return (items[item]['pro'], items[item]['enc']) if return_weight else items[item]['pro']
                     
         return (0, 0) if return_weight else 0
+
+    @classmethod
+    def encumrance(cls, hero:dict):
+        items = cls.items(hero=hero)
+        for item in items:
+            if "armorType" in items[item]:
+                return items[item]['enc']
+                    
+        return 0
   
     @classmethod
     def race(cls, hero:dict)    -> str:
@@ -232,6 +242,13 @@ class Decode():
         return hero['talents']
 
     @classmethod
+    def initiative(cls, hero:dict):
+        mu = cls.attributes(hero=hero, search_for_attr=AttributeID.MU)
+        ge = cls.attributes(hero=hero, search_for_attr=AttributeID.GE)
+        base_ini = (mu + ge) / 2
+        return base_ini - cls.encumrance(hero=hero)
+
+    @classmethod
     def defence(cls, hero:dict):
         # TODO: implement defence value
         pass
@@ -268,8 +285,8 @@ class ActivatablesID():
     HIGH_ASP = 'ADV_23'
     HIGH_KAP = 'ADV_24'
     HIGH_LEP = 'ADV_25'
-    IS_MAGIC = 'ADV_50'
-    IS_HOLY = 'ADV_12'
+    MAGICIAN = 'ADV_50'
+    PRIEST = 'ADV_12'
     
     # disadvantages
     LOW_ASP = 'DISADV_26'
@@ -285,6 +302,7 @@ class Race():
 
 
 if __name__ == "__main__":
-    with open('..\\..\\heroes\\aldarine.json') as f:
+    with open('heroes\\Torjin.json') as f:
         hero = json.load(f)
-    print(Decode.attributes(hero))
+    print(Decode.armor(hero, True))
+    print(Decode.encumrance(hero))
