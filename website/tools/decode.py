@@ -245,18 +245,19 @@ class Decode():
     def initiative(cls, hero:dict):
         mu = cls.attributes(hero=hero, search_for_attr=AttributeID.MU)
         ge = cls.attributes(hero=hero, search_for_attr=AttributeID.GE)
-        base_ini = (mu + ge) / 2
+        base_ini = math.ceil((mu + ge) / 2)
         return base_ini - cls.encumrance(hero=hero)
 
     @classmethod
-    def defence(cls, hero:dict):
-        # TODO: implement defence value
-        pass
-    
-    @classmethod
     def dodge(cls, hero:dict):
-        # TODO: implement dodge value, mind improved dodge (test object: Ramon)
-        pass
+        base_dodge = cls.attributes(hero=hero, search_for_attr=AttributeID.GE) / 2
+        base_dodge = math.ceil(base_dodge)
+
+        activatables = cls.activatables(hero=hero)
+        if ActivatablesID.IMPR_DODGE in activatables:
+            impr_dodge = activatables[ActivatablesID.IMPR_DODGE][0]['tier']
+
+        return base_dodge + impr_dodge
 
 
 class HealthState():
@@ -293,6 +294,9 @@ class ActivatablesID():
     LOW_KAP = 'DISADV_27'
     LOW_LEP = 'DISADV_28'
 
+    # special abilities (fight)
+    IMPR_DODGE = 'SA_64'
+
 
 class Race():
     Human       = 'R_1' 		# Lep Base Modifier = 5 //1
@@ -300,9 +304,3 @@ class Race():
     Half_Elf    = 'R_3'         # Lep Base Modifier = 5 //3
     Dwarf       = 'R_4'         # Lep Base Modifier = 8 //4
 
-
-if __name__ == "__main__":
-    with open('heroes\\Torjin.json') as f:
-        hero = json.load(f)
-    print(Decode.armor(hero, True))
-    print(Decode.encumrance(hero))
