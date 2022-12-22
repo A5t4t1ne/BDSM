@@ -25,7 +25,8 @@ class Decode():
         stats['liturgies'] = cls.liturgies(hero)
         stats['spells'] = cls.spells(hero)
         stats['talents'] = cls.talents(hero)
-        stats['ini'] = cls.initiative(hero)
+        stats['INI'] = cls.initiative(hero)
+        stats['dodge'] = cls.dodge(hero)
 
         # initialize hero effects
         stats['desire'] = 0
@@ -195,11 +196,17 @@ class Decode():
     @classmethod
     def encumrance(cls, hero:dict):
         items = cls.items(hero=hero)
+        enc = 0
         for item in items:
             if "armorType" in items[item]:
-                return items[item]['enc']
-                    
-        return 0
+                enc = items[item]['enc']
+        
+        if ActivatablesID.REDUCE_ENC in cls.activatables(hero=hero):
+            enc -= cls.activatables(hero=hero)[ActivatablesID][0]['tier']
+
+        enc = enc if enc >= 0 else 0 # reduce but not below zero
+
+        return enc
   
     @classmethod
     def race(cls, hero:dict)    -> str:
@@ -256,6 +263,8 @@ class Decode():
         activatables = cls.activatables(hero=hero)
         if ActivatablesID.IMPR_DODGE in activatables:
             impr_dodge = activatables[ActivatablesID.IMPR_DODGE][0]['tier']
+        else:
+            impr_dodge = 0
 
         return base_dodge + impr_dodge
 
@@ -295,6 +304,7 @@ class ActivatablesID():
     LOW_LEP = 'DISADV_28'
 
     # special abilities (fight)
+    REDUCE_ENC = 'SA_41'    # Belastungsgewöhnung
     IMPR_DODGE = 'SA_64'
 
 
@@ -304,3 +314,8 @@ class Race():
     Half_Elf    = 'R_3'         # Lep Base Modifier = 5 //3
     Dwarf       = 'R_4'         # Lep Base Modifier = 8 //4
 
+
+if __name__ == "__main__":
+    with open('heroes\\torjin.json') as f:
+        hero = json.load(f)
+    print(Decode.encumrance(hero))
