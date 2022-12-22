@@ -23,16 +23,22 @@ def overview():
     form = UploadFileForm()
 
     if form.validate_on_submit():
-        invalid_files = []
-        for file in form.files.data:
-            if not save_hero(file):
-                invalid_files.append(file.filename)
-
-        if len(invalid_files) > 0:
-            invalid_file_names = ', '.join(invalid_files)
-            flash(f'These files are not valid: {invalid_file_names}', category='error')
+        # check if there is no real file uploaded
+        if len(form.files.data) < 1 or (len(form.files.data) == 1 and form.files.data[0].filename == ''):
+            flash(f"No file selected", category='error')
         else:
-            flash("Files uploaded successfully", category='success')
+            invalid_files = []
+            for file in form.files.data:
+                if not save_hero(file):
+                    invalid_files.append(file.filename)
+
+            if len(invalid_files) > 0:
+                invalid_file_names = ', '.join(invalid_files)
+                flash(f'These files are not valid: {invalid_file_names}', category='error')
+            else:
+                flash("Files uploaded successfully", category='success')
+        
+            
 
 
     
