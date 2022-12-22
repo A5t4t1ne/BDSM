@@ -1,14 +1,20 @@
 window.onload = function () {
-    // set initial value
     let hero_select = $(".hero-select");
     hero_select.on("change", get_hero_and_update);
     hero_select.on("click", save_hero);
+    // set initial value
     if (hero_select.val() !== -1) {
         get_hero_and_update(hero_select);
     }
 
     $(".money-input").on("change", update_money);
-    setInterval(save_hero, 15000); // save hero ever 15 seconds
+    $("#lep").bind("change", function (evt) {
+        let curr = $("#lep").val();
+        let max = $("#lep-max").text();
+        console.log(curr, max);
+        $("#pain").text(getPainLvl(curr, max));
+    });
+    setInterval(save_hero, 15000); // save hero every 15 seconds
 };
 
 /**
@@ -141,10 +147,32 @@ function splitMoney(money) {
 }
 
 /**
+ * Returns the pain value based on live points
+ * @param {int} current
+ * @param {int} max
+ */
+function getPainLvl(current, max) {
+    if (current <= 5) {
+        return 4;
+    }
+    if (current <= max * 0.25) {
+        return 3;
+    }
+    if (current <= max * 0.5) {
+        return 2;
+    }
+    if (current <= max * 0.75) {
+        return 1;
+    }
+    return 0;
+}
+
+/**
  * updates all the values on the screen with the values from the given hero
  * @param {*} hero hero in json format
  */
 function update_new_hero_stats(hero) {
+    // life, magic, holyness
     $("#lep-max").text(hero["lep_max"]);
     $("#asp-max").text(hero["asp_max"]);
     $("#kap-max").text(hero["kap_max"]);
@@ -156,11 +184,12 @@ function update_new_hero_stats(hero) {
     $("#money-h").val(hero["wealth"]["h"]);
     $("#money-k").val(hero["wealth"]["k"]);
     $("#armor").text(hero["armor"]);
-    // $('#dodge').text(hero['dodge']);     !not implemented yet
-    // $('initiative').text(hero['base_attr']['INI'])   !not implemented yet
-    $("#encumbrance").text(hero["enc"]);
+    $("#dodge").text(hero["dodge"]);
+    $("#initiative").text(hero["INI"]);
 
-    // TODO: implement effects
+    // effects
+    $("#encumbrance").text(hero["enc"]);
+    $("#pain").val(getPainLvl(hero["lep_current"], hero["lep_max"]));
 }
 
 /**
