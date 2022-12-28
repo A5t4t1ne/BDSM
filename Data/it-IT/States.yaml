@@ -1,0 +1,156 @@
+- id: STATE_1
+  name: "Immobilizzato"
+  description: |
+    Paralisi, sabbie mobili, corde e catene possono immobilizzare del tutto un personaggio. Quelli che si trovano in questo stato non riescono a muoversi, ma possono comunque percepire l’ambiente circostante ed eseguire azioni che non richiedono grandi attività fisiche, come ad esempio sfruttare competenze conoscitive o lanciare incantesimi e liturgie che non richiedono gesti.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_2
+  name: "Incosciente"
+  description: |
+    Un personaggio che dorme è considerato Incosciente, alla stessa maniera di un individuo che soffre di un forte trauma alla testa. Il personaggio non reagisce agli stimoli esterni, anche se il suo corpo non necessariamente risente di questo stato. Una persona Incosciente è anche Incapacitata.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_3
+  name: "Cieco"
+  description: |
+    Una persona in questo stato non riesce a sfruttare il senso della vista. Questo può essere a causa dello svantaggio Cecità, per la totale oscurità o per la presenza di una benda sugli occhi. La capacità dei personaggi di orientarsi in questo stato dipende molto dagli altri loro sensi. Anche le più semplici azioni possono richiedere una prova di abilità su *Percezione*. Alcune abilità sono impossibili da usare per gli eroi in questo stato, mentre altre risentiranno di notevoli penalità. È il narratore a decidere quali abilità rientrano nella prima categoria o il grado della penalità per quelle della seconda.
+
+    Il combattimento per un personaggio Cieco è possibile, ma richiede una prova comparativa su *Percezione (Cercare)* contro *Furtività (Strisciare)*. Se il personaggio supera la prova riesce a percepire l’avversario e combatte con le seguenti limitazioni:
+
+    - Il valore di Attacco per il personaggio Cieco è dimezzato.
+    - Il combattimento a distanza è una questione di pura fortuna, soltanto con un risultato di 1 sulla prova si ottiene un centro.
+    - Difendersi è difficile quanto l’uso di armi a distanza: anche in questo caso è necessario un risultato di 1 per effettuare una parata.
+    - Schivare un attacco in arrivo è impossibile.
+    - Il personaggio Cieco deve essere in contatto con il bersaglio per poter utilizzare incantesimi o liturgie.
+  src:
+    - id: REG001
+      firstPage: 35
+
+- id: STATE_4
+  name: "Furibondo"
+  description: |
+    A partire dal turno di combattimento successivo a quello in cui ha ottenuto lo stato Furibondo, l’eroe guadagna un bonus di +4 su Attacco, un bonus di +2 ai Punti Impatto ed un bonus di +2 su Prova di forza. Inoltre, l’eroe ignora gli effetti della condizione Dolore. Tuttavia, l’eroe non si potrà difendere in alcun modo, non potrà ingaggiare combattimenti a distanza, non userà altre abilità se non competenze fisiche e *Intimidazione*, né userà abilità speciali di combattimento al di fuori di *Colpo possente*.
+
+    Il narratore lancia segretamente 2D20, determinando dunque la durata dello stato in turni di combattimento. Durante questo periodo, l’eroe attaccherà senza sosta i suoi nemici. Se non ci dovessero essere avversari in prossimità, l’eroe si lancerà invece contro qualsiasi persona a lui più vicina, sia esso un amico, un innocente passante, una guardia cittadina o addirittura l’Imperatrice Rohaja in persona. Se non c’è nessuno nei paraggi, l’eroe sfogherà la sua furia contro bersagli inanimati.
+
+    Quando lo stato Furibondo termina, il personaggio ottiene 2 livelli di condizione Stordimento.
+  src:
+    - id: REG001
+      firstPage: 35
+
+- id: STATE_5
+  name: "In fiamme"
+  description: |
+    I vestiti dell’eroe vanno in fiamme ed egli subisce ferite da fuoco finché questo stato resta attivo.
+
+    Spegnere le fiamme che colpiscono un personaggio in questo stato richiede una prova su *Controllo del corpo*. La prova non ha modificatore nel caso di fiamme minori, mentre fiamme più grandi incorrono in una penalità −1, salvare una persona completamente avvolta dalle fiamme ha invece una penalità -2. È possibile fare un tiro per ogni turno di combattimento.
+
+    Anche altre persone possono cercare di spegnere il fuoco, effettuando la prova su *Controllo del corpo* al posto della vittima. È possibile fare una sola prova per turno di combattimento per ogni vittima in questo stato. L’uso di acqua, sabbia e altre sostanze possono concedere un bonus alla prova. In alcuni casi la prova può essere evitata. Sta al narratore decidere le condizioni delle prove ed il tempo necessario per spegnere le fiamme.
+
+    Queste regole si applicano anche per i personaggi attaccati o sommersi dall’acido, anche se neutralizzare dell’acido richiede una notevole quantità di acqua o di altre sostanze appropriate. In assenza di strumenti appositi, non è possibile effettuare la prova.
+
+    Per saperne di più sulle ferite causate da fuoco e acido, leggi a il **Regolamento** a pag. **341**.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_6
+  name: "Costretto"
+  description: |
+    I personaggi che si trovano confinati in posti eccessivamente piccoli o angusti si trovano Costretti. Anche trovarsi schiacciati in mezzo alla folla può causare questo stato. Un eroe Costretto riesce a muoversi a malapena e soffre di forti penalità sull’uso di armi e scudi. Le armi piccole non hanno penalità, mentre il combattimento con armi di media grandezza ha una penalità di -4 e con armi grandi addirittura di -8, come indicato nella tabella. Prove su altre abilità possono incorrere in una penalità fino a -2, a discrezione del narratore. Incantesimi e liturgie non hanno penalità.
+
+    Tipologia  | Modificatore 
+    :-- | :--
+    Armi corte | Att ±0, Par ±0
+    Armi medie | Att -4, Par -4
+    Armi lunghe | Att -8, Par -8
+    Scudi piccoli | Att -2, Par -2
+    Scudi medi | Att -4, Par -3
+    Scudi grandi | Att -6, Par -4
+  src:
+    - id: REG001
+      firstPage: 35
+
+- id: STATE_7
+  name: "Legato"
+  description: |
+    I personaggi Legati sono bloccati da corde, rampicanti o trappole. Mentre sono in questo stato hanno un Mov pari a 0 e soffrono di una penalità -4 su Schivata.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_8
+  name: "Incapacitato"
+  description: |
+    I personaggi incapacitati non possono compiere alcuna azione a causa di condizioni, altri stati, altre regole speciali o una combinazione di questi fattori. Personaggi in questo stato hanno Mov 0, non possono effettuare azioni, non possono difendersi e sono con ogni probabilità anche atterrati. A seconda della situazione, il narratore può permettere ai personaggi di sfruttare le proprie azioni libere per parlare.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_9
+  name: "Malato"
+  description: |
+    L’eroe si è ammalato e, finché lo stato persiste, non potrà beneficiare dei normali effetti della fase di rigenerazione (vedi il **Regolamento** pag. **339**).
+
+    Inoltre, un eroe in questo stato dovrà impegnare ogni giorno almeno un tempo pari alla fase di rigenerazione per riposare (dormendo o restando a letto), altrimenti perderà 1D3 PV.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_10
+  name: "Atterrato"
+  description: |
+    Che si stia ancora svegliando oppure sia stato lanciato a terra, un personaggio Atterrato si trova disteso orizzontalmente a terra. Essere in questo stato è rischioso, specialmente in situazioni di combattimento. Finché persiste questo stato, l’eroe potrà muoversi soltanto molto lentamente (Mov 1) e soffrirà di una penalità −4 sull’Attacco e −2 sulla Difesa.
+
+    Rialzarsi richiede 1 azione. Se un avversario si trova a distanza di attacco, avrà la possibilità di effettuare un Colpo occasionale (vedi il **Regolamento** a pag. **237**), a meno che l’eroe non superi con successo una prova di *Controllo del corpo (Manovre di combattimento)*.
+  src:
+    - id: REG001
+      firstPage: 34
+
+- id: STATE_11
+  name: "Muto"
+  description: |
+    Una persona Muta non può parlare. Al di là delle difficoltà di comunicazione, questo compromette l’uso di incantesimi e liturgie.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_12
+  name: "Sordo"
+  description: |
+    Un personaggio Sordo non può usare il senso dell’udito. In generale non è possibile effettuare prove su *Percezione*, mentre prove su *Percezione (Imboscate)* soffrono di una penalità -3.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_13
+  name: "Sorpreso"
+  description: |
+    Le persone sono solitamente coscienti dell’ambiente circostante, specialmente nelle situazioni di combattimento. Qualche volta però, si possono presentare situazioni in cui un personaggio è inconsapevole di quello che sta accadendo. È possibile sfruttare un’azione contro personaggi Sorpresi, dalla quale non potranno difendersi. Dopo lo svolgimento di questa azione, ha inizio il regolare combattimento.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_14
+  name: "Invisibile"
+  description: |
+    Il personaggio non può essere visto. Tuttavia non è svanito nel nulla e può essere ancora sentito, odorato e toccato.
+
+    È possibile attaccare un personaggio Invisibile solo se si è consapevoli della sua presenza e della sua posizione approssimativa. Per individuare un personaggio Invisibile, fai una prova competitiva su *Percezione (Cercare)* contro *Furtività (Strisciare)*. Se la prova riesce puoi attaccare (e difenderti) con le seguenti restrizioni:
+
+    Il valore di Attacco è dimezzato contro un avversario Invisibile. Il combattimento a distanza ha successo soltanto con un risultato di 1 sulla prova. È possibile difendersi da un avversario Invisibile solo con un risultato di 1 sul tiro di Parata. Schivare un attacco da parte di un avversario Invisibile è impossibile. È possibile utilizzare incantesimi o liturgie contro un bersaglio Invisibile solo se vi è contatto diretto.
+  src:
+    - id: REG001
+      firstPage: 36
+
+- id: STATE_15
+  name: "Avvelenato"
+  description: |
+    L’eroe subisce gli effetti di un veleno. Finché rimarrà in circolo il personaggio non potrà trarre benefici dalla Fase di Rigenerazione (leggi il **Regolamento** a pag. **339**).
+  src:
+    - id: REG001
+      firstPage: 35

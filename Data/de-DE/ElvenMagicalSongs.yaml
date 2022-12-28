@@ -1,0 +1,179 @@
+- id: SPELL_62
+  name: "Erinnerungsmelodie"
+  effect: |
+    Mit dem Lied ruft sich der Elf eine Erinnerung aus lang vergangener Zeit zurück. Für je ein Jahr, das das Ereignis zurückliegt, muss er 5 Minuten spielen. Zusätzlich spielt er so lange, wie die Situation dauert, an die er sich zurückentsinnen will.
+  aeCost: "1 AsP pro 5 Minuten"
+  aeCostShort: "1 AsP pro 5 Min"
+  src:
+    - id: US25001
+      firstPage: 283
+
+- id: SPELL_63
+  name: "Friedenslied"
+  effect: |
+    Nach 5 Minuten des Spielens erzeugt dieses Lied eine Zone des Friedens um den Elfen herum (QS x 3 Schritt Radius). So lange er weiterspielt, verlieren Tiere und kulturschaffende Wesen das Interesse daran, mit Gewalt gegeneinander oder gegen den Elfen vorzugehen. Um trotzdem aktiv zu kämpfen, ist eine Fertigkeitsprobe auf Willenskraft, erschwert durch die QS x 2 in der Probe auf das Friedenslied fällig. Die Möglichkeit, sich zu verteidigen, ist durch das Friedenslied nicht eingeschränkt. Nicht betroffen sind widernatürliche Wesenheiten wie Untote, Dämonen, Elementare oder Golems.
+  aeCost: "2 AsP pro 5 Minuten"
+  aeCostShort: "2 AsP pro 5 Min"
+  src:
+    - id: US25001
+      firstPage: 283
+
+- id: SPELL_64
+  name: "Freundschaftslied"
+  effect: |
+    Mit dem Freundschaftslied können zwei Elfen, die es gemeinsam spielen, ein festes Band der Freundschaft zwischeneinander weben. Dies ist nur einmal im Leben eines Elfen möglich. Es besteht aus drei einstündigen Strophen, die an drei aufeinanderfolgenden Tagen von beiden gemeinsam gespielt werden müssen. So miteinander verbundene Elfen spüren die Anwesenheit des anderen und können starke Emotionen des anderen auch auf größere Entfernungen wahrnehmen. Sie können gegenseitig den Zauberspruch BALSAM aufeinander wirken, selbst wenn sie keine AsP zur Verfügung haben. In solchen Fällen können sie mit dem Zauberspruch ihre Lebensenergie direkt auf den anderen übertragen.
+  aeCost: "4 AsP pro Stunde, 1 permanenter AsP bei der letzten Strophe"
+  aeCostShort: "4 AsP pro h/1 pAsP"
+  src:
+    - id: US25001
+      firstPage: 284
+
+- id: SPELL_65
+  name: "Melodie der Kunstfertigkeit"
+  effect: |
+    Proben auf Handwerkstalente, die der Elf während der Melodie der Kunstfertigkeit nutzt, sind um QS des Rituals erleichtert.
+  aeCost: "4 AsP pro Stunde"
+  aeCostShort: "4 AsP pro h"
+  src:
+    - id: US25001
+      firstPage: 284
+
+- id: SPELL_66
+  name: "Sorgenlied"
+  effect: |
+    Der Elf flicht Fragen in das Lied ein, die er an einen guten Freund stellen möchte. Hierdurch kann er erfahren, ob sein Freund gesund, krank oder gar tot ist, ob er um sein Leben fürchtet oder ob er zufrieden und glücklich ist. Mit dem Lied sind nur allgemeine Eindrücke zu erzielen. Klar formulierte Gedankenbilder lassen sich so nicht übertragen. Je weiter der gesuchte Freund vom Sänger entfernt ist, desto länger dauert das Lied. Pro 100 Meilen muss er 5 Minuten singen, um ihn zu erreichen.
+  aeCost: "2 AsP pro 5 Minuten"
+  aeCostShort: "2 AsP pro 5 Min"
+  src:
+    - id: US25001
+      firstPage: 284
+
+- id: SPELL_67
+  name: "Zaubermelodie"
+  effect: |
+    Spielt der Elf ungestört eine Stunde lang diese Melodie, kann er sich in einen tranceartigen Zustand versetzen, in dem er sich in Einklang mit den astralen Strömungen der Umgebung bringen kann. Er erwacht nach einer halben Stunde aus der Trance. Wenn er aus der Trance erwacht, sind für ihn alle Proben auf Zaubersprüche und Rituale bis zum nächsten Sonnenaufgang erleichtert. Bei QS 1-3 um 1, bei QS 4-6 um 2.
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25001
+      firstPage: 284
+
+- id: SPELL_344
+  name: "Lied der Abwehr dämonischer Mächte"
+  effect: |
+    In einem Radius von 50 Schritt um den Elfen herum ist das Wirken von Zaubern oder magischen Handlungen mit dem Merkmal Dämonisch um QS erschwert. Die Wirkung dauert auch 10 Minuten nach dem Ende des Liedes noch an.
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  src:
+    - id: US25006
+      firstPage: 13
+
+- id: SPELL_345
+  name: "Lied der Erholung"
+  effect: |
+    Der Elf kann durch das Lied QS ausgewählten Zuhörern innerhalb einer Reichweite von 20 Schritt 1 Stufe *Betäubung* nehmen.
+  aeCost: "3 AsP pro Zuhörer"
+  aeCostShort: "3 AsP pro P"
+  src:
+    - id: US25006
+      firstPage: 13
+
+- id: SPELL_346
+  name: "Lied der Klarheit"
+  effect: |
+    Der Elf kann durch das Lied QS ausgewählten Zuhörern innerhalb einer Reichweite von 20 Schritt 1 Stufe *Verwirrung* nehmen.
+  aeCost: "3 AsP pro Zuhörer"
+  aeCostShort: "3 AsP pro P"
+  src:
+    - id: US25006
+      firstPage: 13
+
+- id: SPELL_347
+  name: "Lied der Lieder"
+  effect: |
+    Nachdem der Elf 20 Minuten lang musiziert oder gesungen hat, sind alle Zuhörer mit einer Seelenkraft von 2 oder weniger im Bann des Liedes, welche sich in einem Radius von maximal 20 Schritt um den Elfen herum aufhalten. Die Zuhörer glauben, das Lied dauere noch QS Stunden an, auch wenn der Elf gar nicht mehr da ist. Während des Banns erhalten sie den Status *Bewegungsunfähig*. Sollte ein gebannter Zuhörer 1 SP oder mehr Schaden erleiden, fällt der Bann von ihm ab.
+  aeCost: "12 AsP"
+  aeCostShort: "12 AsP"
+  src:
+    - id: US25006
+      firstPage: 13
+
+- id: SPELL_348
+  name: "Lied der Reinheit"
+  effect: |
+    Um den Elfen herum entsteht eine Zone von QS x 2 Schritt, die während der Wirkungsdauer Dämonen 1W6 SP pro KR zufügt. Dämonische Essenzen, etwa jene, die durch <span class="name--spell">Invocatio Minor</span> gerufen wurden, werden augenblicklich in die Niederhöllen verbannt. Verseuchter und toter Boden, gleich durch welchem Umstand (Dämonen, Naturkatastrophe), wird nach dem Ende des Lieds in der Zone wieder fruchtbar.
+  aeCost: "8 AsP pro 5 KR"
+  aeCostShort: "8 AsP pro 5 KR"
+  src:
+    - id: US25006
+      firstPage: 13
+
+- id: SPELL_349
+  name: "Lied der Tierwahrnehmung"
+  effect: |
+    In einem Radius von QS Meilen kann der Elf um die Gegend wahrzunehmen. Er kann dadurch z. B. sich nähernde Feinde wahrnehmen oder den Ort, an dem sich die Tiere befinden, einsehen. Im Zweifelsfall muss der Elf eine Probe auf *Sinnesschärfe* ablegen.
+  aeCost: "4 AsP pro Minute"
+  aeCostShort: "4 AsP pro min"
+  src:
+    - id: US25006
+      firstPage: 13
+
+- id: SPELL_350
+  name: "Lied des Heilschlafs"
+  effect: |
+    QS Zuhörer in einem Radius von 20 Schritt erhalten bei ihrer nächsten Regenerationsphase +1 LeP und +1 AsP (letzteres nur, wenn sie Zauberer sind).
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25006
+      firstPage: 13
+
+- id: SPELL_351
+  name: "Lied des Trostes"
+  effect: |
+    Der Elf kann durch das Lied QS ausgewählten Zuhörern innerhalb einer Reichweite von 20 Schritt 1 Stufe *Furcht* nehmen.
+  aeCost: "3 AsP pro Zuhörer"
+  aeCostShort: "3 AsP pro P"
+  src:
+    - id: US25006
+      firstPage: 14
+
+- id: SPELL_352
+  name: "Lied des Windgeflüsters"
+  effect: |
+    Der Elf kann sich vom Wind Bilder, Töne und Stimmungen schicken lassen. Sie ergeben kein klares, zusammenhängendes Bild, aber unter den Eindrücken können sich Informationen befinden, die dem Elf bei einer persönlichen Frage weiterhelfen können. Bei der nächsten Probe auf ein Wissenstalent, das der Lösung dieser Frage dient, erhält der Elf bei Teilproben auf KL eine Erleichterung von QS/2.
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  src:
+    - id: US25006
+      firstPage: 14
+
+- id: SPELL_353
+  name: "Lied des Zauberschutzes"
+  effect: |
+    Der Elf verfügt über einen magischen Schutz, der regeltechnisch wie ein <span class="name--spell">Gardianum</span> wirkt. Der Schild ist allerdings nur auf seinen Körper beschränkt und hat eine Schildstärke von QS x 2. Der Schild hält, bis die Schildstärke auf 0 oder darunter gesunken ist, oder 30 Minuten vergangen sind (je nachdem, was zuerst eintritt).
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  src:
+    - id: US25006
+      firstPage: 14
+
+- id: SPELL_398
+  name: "Lied der erotischen Sinneswahrnehmung"
+  effect: |
+    Die Elfe spielt das Lied 5 Minuten für sich selbst. Ihre Sinne, insbesondere ihre Haut, werden dadurch auf den Liebesakt vorbereitet. Sie fühlt liebkosende Berührungen intensiver und ist deutlich schneller erregt. Beim Liebesspiel ist der Effekt, dass die Proben aller Teilnehmer außer der Elfe, einen Bonus von +1 FP auf *Betören (Liebeskünste)* für QS Durchgänge (bis zu einem maximum von 18 FP). Die Wirkung hält für die Anzahl der Durchgänge, maximal aber 2 Stunden. Alle bis dahin nicht genutzten Durchgänge verfallen.
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  src:
+    - id: US25213
+      firstPage: 183
+
+- id: SPELL_399
+  name: "Lied der gemeinsamen Liebe"
+  effect: |
+    Der Elf singt ein Lied, das in einem Radius von 20 Schritt andere Elfen dazu bewegt, mit ihm ein Liebesspiel zu beginnen, sofern sie keine grundlegende Abneigung dagegen haben. Nichtelfen sind nur von dem Lied betroffen, wenn sie zusätzlich an Spezies und Geschlecht des singenden Elfen interessiert sind. Das Lied wirkt nicht auf ein einzelnes Ziel, es müssen mindestens zwei Ziele vorhanden sein. Erschwernisse für zu viele Teilnehmer bei einer Orgien-Gruppe sind um QS/2 gesenkt und ein weiterer Teilnehmer kann die Probe auf *Betören (Liebeskünste)* ablegen (siehe Seite **96**).
+  aeCost: "3 AsP pro Teilnehmer im Wirkungsbereich des Lieds"
+  aeCostShort: "3 AsP p.P."
+  src:
+    - id: US25213
+      firstPage: 184

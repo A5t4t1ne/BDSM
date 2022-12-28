@@ -1,0 +1,39 @@
+- id: RV_1
+  name: "Middellanders"
+
+- id: RV_2
+  name: "Nivesen"
+  commonAdvantages: "Afstandsgevoel, Kouderesistent"
+  commonDisadvantages: "Hittegevoelig"
+
+- id: RV_3
+  name: "Norbarden"
+
+- id: RV_4
+  name: "Thorwalers"
+  commonAdvantages: "Hoge Weerstand, Gehard"
+  commonDisadvantages: "Bloedroes, Lage Zielskracht"
+
+- id: RV_5
+  name: "Tulamiden"
+  commonAdvantages: "Hitteresistent"
+  commonDisadvantages: "Koudegevoelig"
+
+- id: RV_6
+  name: "Woudmensen"
+  commonAdvantages: "Aangename geur, Hitteresistent, Immuun voor (Wurara), Immuun voor (Flinke Difar en Brabaker Zweet)"
+  commonDisadvantages: "Koudegevoelig"
+
+- id: RV_7
+  name: "Utulus"
+  commonAdvantages: "Aangename geur, Hitteresistent, Immuun voor (Wurara), Immuun voor (Flinke Difar en Brabaker Zweet)"
+  commonDisadvantages: "Koudegevoelig"
+
+- id: RV_8
+  name: "Rivierelfen"
+
+- id: RV_9
+  name: "Firnelfen"
+
+- id: RV_10
+  name: "Woudelfen"

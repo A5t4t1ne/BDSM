@@ -1,0 +1,489 @@
+- id: PV_1
+  name: "Storyteller"
+
+- id: PV_2
+  name: "Haimamud"
+  concludingText: "Haimamudim must choose Aranian, Mhanadistani, or Novadi as their culture."
+
+- id: PV_3
+  name: "Skald"
+  concludingText: "Skalds must choose Thorwaler as their culture."
+
+- id: PV_4
+  name: "Overseer"
+
+- id: PV_5
+  name: "Jailer"
+
+- id: PV_7
+  name: "Tollkeeper"
+
+- id: PV_8
+  name: "Acrobat"
+
+- id: PV_9
+  name: "Animal Tamer"
+
+- id: PV_10
+  name: "Knife Thrower"
+
+- id: PV_11
+  name: "Clown"
+
+- id: PV_12
+  name: "Fortune Teller"
+
+- id: PV_13
+  name: "Pit Fighter"
+
+- id: PV_14
+  name: "Show Fighter"
+
+- id: PV_15
+  name: "Traveling Vendor"
+
+- id: PV_16
+  name: "Long-Distance Trader"
+
+- id: PV_17
+  name: "Moneychanger"
+
+- id: PV_18
+  name: "Hawker"
+
+- id: PV_19
+  name: "Barterer"
+  concludingText: "Barterers must choose Fjarning, Mohas, or Nivese as their culture"
+
+- id: PV_20
+  name: "Midwife"
+
+- id: PV_21
+  name: "Medicus"
+
+- id: PV_22
+  name: "Quack"
+
+- id: PV_23
+  name: "Tooth Puller"
+
+- id: PV_24
+  name: "Noble Scion"
+
+- id: PV_25
+  name: "Diplomat"
+
+- id: PV_26
+  name: "Lady-in-Waiting"
+  concludingText: "Ladies-in-Waiting must be female and must choose Andergast as their culture."
+
+- id: PV_27
+  name: "Dallier"
+
+- id: PV_28
+  name: "Big Game Hunter"
+
+- id: PV_29
+  name: "Bounty Hunter"
+
+- id: PV_30
+  name: "Slave Hunter"
+  concludingText: "common cultures: Aranian, Mhanadistani, Novadi, Southern-Aventurian"
+
+- id: PV_31
+  name: "Tribal Hunter"
+
+- id: PV_36
+  name: "Courtly Knight"
+
+- id: PV_37
+  name: "Robber Knight"
+
+- id: PV_38
+  name: "Hedge Knight"
+
+- id: PV_39
+  name: "Fisher"
+
+- id: PV_40
+  name: "Pirate"
+
+- id: PV_41
+  name: "Whaler"
+
+- id: PV_42
+  name: "Seal Hunter"
+
+- id: PV_43
+  name: "Skirmisher"
+
+- id: PV_44
+  name: "Lightly Armored"
+
+- id: PV_45
+  name: "Heavily Armored"
+
+- id: PV_46
+  name: "Secret Agent"
+
+- id: PV_47
+  name: "Assassin"
+
+- id: PV_48
+  name: "Beggar"
+
+- id: PV_49
+  name: "Thief"
+
+- id: PV_50
+  name: "Cat Burglar"
+
+- id: PV_51
+  name: "Confidence Trickster"
+
+- id: PV_52
+  name: "Gambler"
+
+- id: PV_54
+  name: "Servant of Bishdariel"
+
+- id: PV_55
+  name: "Servant of Golgaris"
+
+- id: PV_56
+  name: "Pastori"
+
+- id: PV_57
+  name: "Satori"
+
+- id: PV_58
+  name: "Healer"
+
+- id: PV_59
+  name: "Sower"
+
+- id: PV_60
+  name: "Cutpurse"
+
+- id: PV_61
+  name: "Merchant"
+
+- id: PV_62
+  name: "Burglar"
+
+- id: PV_63
+  name: "Legalist"
+
+- id: PV_64
+  name: "Principist"
+
+- id: PV_65
+  name: "Salutist"
+
+- id: PV_66
+  name: "Traditionalist"
+
+- id: PV_67
+  name: "Honor"
+
+- id: PV_68
+  name: "Harvest Hand"
+
+- id: PV_69
+  name: "Rancher"
+
+- id: PV_70
+  name: "Governess"
+
+- id: PV_71
+  name: "Carriage Driver"
+
+- id: PV_72
+  name: "Private Tutor"
+
+- id: PV_73
+  name: "Stable Hand"
+
+- id: PV_74
+  name: "Steward"
+
+- id: PV_75
+  name: "Lady In Waiting"
+
+- id: PV_76
+  name: "Gold Seeker"
+
+- id: PV_77
+  name: "Cartographer"
+
+- id: PV_78
+  name: "Prospector"
+
+- id: PV_79
+  name: "Historian"
+
+- id: PV_80
+  name: "Mathematician"
+
+- id: PV_81
+  name: "Legal Scholar"
+
+- id: PV_82
+  name: "Astronomer"
+
+- id: PV_83
+  name: "Mythologer"
+
+- id: PV_84
+  name: "Numerologist"
+  concludingText: "Numerologists must choose Aranian, Maraskan, Mhanadistani, Novadi, or Ore Dwarf as culture"
+
+- id: PV_85
+  name: "Sculptor"
+
+- id: PV_86
+  name: "Actor"
+
+- id: PV_87
+  name: "Poet"
+
+- id: PV_88
+  name: "Painter"
+
+- id: PV_89
+  name: "Musicus"
+
+- id: PV_90
+  name: "Dance Instructor"
+
+- id: PV_91
+  name: "Precision Mechanicus"
+
+- id: PV_92
+  name: "Vault Constructor"
+
+- id: PV_93
+  name: "Vinsmith"
+
+- id: PV_94
+  name: "Goldsmith"
+
+- id: PV_95
+  name: "Armorer"
+
+- id: PV_96
+  name: "Swordsmith"
+
+- id: PV_97
+  name: "Body Slave"
+
+- id: PV_98
+  name: "Love Slave"
+
+- id: PV_99
+  name: "Mine Slave"
+
+- id: PV_100
+  name: "Sedan Bearer"
+
+- id: PV_101
+  name: "Food Taster"
+
+- id: PV_102
+  name: "Crossbowman"
+
+- id: PV_103
+  name: "Archer"
+  fullText: "Bows 12 (as one of the chosen combat techniques)"
+
+- id: PV_104
+  name: "Cavalry"
+
+- id: PV_105
+  name: "Miner"
+
+- id: PV_106
+  name: "Construction Helper"
+
+- id: PV_107
+  name: "Cart Driver"
+
+- id: PV_108
+  name: "Burden Bearer"
+
+- id: PV_109
+  name: "Palm Cutter"
+
+- id: PV_110
+  name: "Questador"
+
+- id: PV_111
+  name: "Ice Guide"
+
+- id: PV_112
+  name: "Desert Guide"
+
+- id: PV_113
+  name: "Mountain Guide"
+
+- id: PV_114
+  name: "Cook"
+
+- id: PV_115
+  name: "Barkeep"
+
+- id: PV_116
+  name: "Bouncer"
+
+- id: PV_117
+  name: "Schaumkuss Maker"
+
+- id: PV_118
+  name: "Chocolatier"
+
+- id: PV_119
+  name: "Enchanting Con Artist"
+
+- id: PV_120
+  name: "Clairvoyant Grave Robber"
+
+- id: PV_121
+  name: "Seer"
+
+- id: PV_122
+  name: "Moutebank"
+
+- id: PV_123
+  name: "Trickster"
+
+- id: PV_124
+  name: "Theater Conjuror"
+
+- id: PV_125
+  name: "Court Mage"
+
+- id: PV_126
+  name: "Path of the Firm Hand"
+
+- id: PV_127
+  name: "Path of the Soft Hand"
+
+- id: PV_128
+  name: "Invocators Branch"
+
+- id: PV_129
+  name: "Observers Branch"
+
+- id: PV_130
+  name: "Healing Arts Branch"
+
+- id: PV_131
+  name: "Metamorphosis Branch"
+
+- id: PV_132
+  name: "Sword Branch"
+
+- id: PV_133
+  name: "Staff Branch"
+
+- id: PV_134
+  name: "Way of the Warrior"
+
+- id: PV_135
+  name: "Way of the Traveler"
+
+- id: PV_136
+  name: "Way to the Netherhells"
+
+- id: PV_137
+  name: "Way Without Mercy"
+
+- id: PV_138
+  name: "Defensor Branch"
+
+- id: PV_139
+  name: "Contemplator Branch"
+
+- id: PV_140
+  name: "Mage Bodyguard Branch"
+
+- id: PV_141
+  name: "Naval Warfare Branch"
+
+- id: PV_142
+  name: "Way of Combating Evil"
+
+- id: PV_143
+  name: "Way of Aiding Good"
+
+- id: PV_144
+  name: "Way of the Healer"
+
+- id: PV_145
+  name: "Way of the Seductress"
+
+- id: PV_146
+  name: "Exorcist Branch"
+
+- id: PV_147
+  name: "Soul Healer Branch"
+
+- id: PV_148
+  name: "Philosopher Branch"
+
+- id: PV_149
+  name: "Wayfarer Branch"
+
+- id: PV_150
+  name: "Metamorphosis of the Self Branch"
+
+- id: PV_151
+  name: "Metamorphosis of the Other Branch"
+
+- id: PV_152
+  name: "Human Branch"
+
+- id: PV_153
+  name: "Elven Branch"
+
+- id: PV_154
+  name: "Performer Branch"
+
+- id: PV_155
+  name: "Court Artist Branch"
+
+- id: PV_156
+  name: "Healer Branch"
+
+- id: PV_157
+  name: "Communication Branch"
+
+- id: PV_158
+  name: "Way of Secrets"
+
+- id: PV_159
+  name: "Way of Revelation"
+
+- id: PV_160
+  name: "Path of the Desert Mage"
+
+- id: PV_161
+  name: "Path of the Animal"
+
+- id: PV_162
+  name: "Scout"
+- id: PV_163
+  name: "Archer"
+- id: PV_164
+  name: "Amazonian Blessed One of Rondra"
+- id: PV_165
+  name: "Iron Serpent"
+- id: PV_166
+  name: "Arcane Branch"
+  concludingText: "To play a member of the arcane branch, choose stats from a magical profession to match those given here. The prerequisites remain the same."
+- id: PV_167
+  name: "Sacral Branch"
+- id: PV_168
+  name: "Undead Hunter"
+- id: PV_169
+  name: "Boron-Blessed Golgarite"

@@ -1,0 +1,119 @@
+- id: SPELL_52
+  name: "Coma Cascalho!"
+  effect: |
+    Comida sólida tocada pelo alvo transforma-se em pedra ou outra substância não comestível escolhida pela bruxa ao conjurar a maldição. As substâncias mais comuns são madeira, névoa ou lodo. Não é possível transformar alimentos em metais preciosos ou outros objetos de valor. A substância volta a ser alimento após 5 minutos, desde que o alvo não lhe toque novamente. Tentar comer com um funil ou tenazes pode levar a asfixia à medida que as pedras ficam alojadas na garganta. Esta maldição não tem efeito em sopa, leite ou outros líquidos.
+  aeCost: "14 EA"
+  aeCostShort: "14 EA"
+  duration: "NQ x 3 em dias"
+  durationShort: "NQ x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 274
+
+- id: SPELL_53
+  name: "Presa!"
+  effect: |
+    O cheiro do alvo atrai todos os tipos de animais carnívoros, que vêem o alvo como uma presa fácil. Animais domesticados podem ser acalmados com um teste de *Conhecimento de Animais* com uma penalidade igual aos PP da maldição, mas os animais selvagens não podem ser dissuadidos. Este cheiro, que só os animais podem perceber, é tão forte que os animais selvagens podem detectar o alvo a vários quilômetros de distância.
+  aeCost: "14 EA"
+  aeCostShort: "14 EA"
+  duration: "NQ x 3 em dias"
+  durationShort: "NQ x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 274
+
+- id: SPELL_54
+  name: "Tempestade de Granizo"
+  effect: |
+    Uma pesada tempestade de granizo atinge uma área de NQ x 20 mil metros quadrados. Em vez disso, dependendo da região, pode ser uma nevasca ou uma tempestade de areia. Tais tempestades arruínam colheitas, rasgam os telhados das casas e causam 2D6 pontos de danos a cada 5 minutos para animais e pessoas desprotegidas.
+  aeCost: "21 EA"
+  aeCostShort: "21 EA"
+  duration: "NQ x 15 em minutes"
+  durationShort: "NQ x 15 min"
+  src:
+    - id: US25001E
+      firstPage: 275
+
+- id: SPELL_55
+  name: "Lumbago"
+  effect: |
+    O alvo sofre uma dor súbita e intensa nas costas ou na cabeça (à escolha da bruxa). O alvo recebe um nível da condição *Dor*.
+  aeCost: "14 EA"
+  aeCostShort: "14 EA"
+  duration: "NQ x 3 em horas"
+  durationShort: "NQ x 3 h"
+  src:
+    - id: US25001E
+      firstPage: 274
+
+- id: SPELL_56
+  name: "Azar"
+  effect: |
+    Alvos têm fiascos num resultado de 19 ou 20, não apenas num 20. Para testes de perícia, dois resultados de 19 ou mais são um fiasco. Além disso, os alvos tendem a quebrar objetos, tropeçar em obstáculos, esquecer compromissos, ou dizer coisas rudes ou inapropriadas. O MJ tem a palavra final.
+  aeCost: "7 EA"
+  aeCostShort: "7 EA"
+  duration: "NQ 3 em dias"
+  durationShort: "NQ x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 274
+
+- id: SPELL_57
+  name: "Pestilência"
+  effect: |
+    O alvo contrai uma doença que é conhecida da bruxa. O nível da doença não pode ser mais alto do que a GP da maldição. Depois da infecção, a doença segue o seu curso normal, mas já não é mais contagiosa. Você não pode escolher infligir uma doença mágica como a Praga de Duglum.
+  aeCost: "Nível da doença em EA"
+  aeCostShort: "KS EA"
+  duration: "Enquanto a doença segue o seu curso, mas não mais do que NQ x 3 em dias."
+  durationShort: "Doença/NQ x 3 d "
+  src:
+    - id: US25001E
+      firstPage: 274
+
+- id: SPELL_58
+  name: "Roubar o Sono"
+  effect: |
+    O alvo não consegue dormir. Se o sono vier por alguns momentos, os pesadelos despertam o alvo imediatamente. Não é possível se beneficiar de Fases de Regeneração enquanto sofre desta maldição. O alvo se comporta como outras pessoas que foram mantidas acordadas por um longo tempo — ou seja, torna-se agitado e irritável, e começa a ter alucinações depois de alguns dias (o alvo sofre um nível de *confusão* a cada dois dias sem dormir; este estado desaparece quando o alvo consegue ter um pouco de sono normal novamente).
+  aeCost: "14 EA"
+  aeCostShort: "14 EA"
+  duration: "NQ x 3 em dias"
+  durationShort: "NQ x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 274
+
+- id: SPELL_59
+  name: "Aridez"
+  effect: |
+    O alvo, seja uma pessoa ou um animal, torna-se infértil durante a duração do feitiço.
+  aeCost: "14 EA"
+  aeCostShort: "14 EA"
+  duration: "NQ x 3 em semanas"
+  durationShort: "NQ x 3 semanas"
+  src:
+    - id: US25001E
+      firstPage: 274
+
+- id: SPELL_60
+  name: "Crescer Verrugas"
+  effect: |
+    Verrugas grossas crescem no rosto e nas mãos do alvo ao longo de vários minutos. A vantagem da *Boa<0xa0> Aparência* é negada pela duração e a pessoa amaldiçoada sofre um nível da desvantagem *Feiura*.
+  aeCost: "7 EA"
+  aeCostShort: "7 EA"
+  duration: "NQ x 3 em dias"
+  durationShort: "NQ x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 274
+
+- id: SPELL_61
+  name: "Paralisar a Língua"
+  effect: |
+    Esta maldição entorpece a língua e os lábios do alvo para que ele não possa articular qualquer discurso pela duração do feitiço. Esta maldição tem um efeito negativo sobre a conjuração de feitiços. A pessoa amaldiçoada também baba e sofre a desvantagem *Mudez* (veja no **Livro de Regras** a página **172**).
+  aeCost: "14 EA"
+  aeCostShort: "14 EA"
+  duration: "NQ x 3 em horas"
+  durationShort: "NQ x 3 h"
+  src:
+    - id: US25001E
+      firstPage: 274

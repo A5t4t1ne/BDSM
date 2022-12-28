@@ -1,0 +1,59 @@
+- id: SPELL_62
+  name: "Canção da Memória"
+  effect: |
+    Elfos tocam esta música para recordar com precisão uma memória de algo que aconteceu há muito tempo. O conjurador deve tocar por 5 minutos para cada ano em que o evento estiver no passado. Além disso, devem tocar por um período de tempo igual à duração do evento que desejam recordar.
+  aeCost: "1 EA por 5 minutos"
+  aeCostShort: "1 EA por 5 min "
+  src:
+    - id: US25001E
+      firstPage: 275
+
+- id: SPELL_63
+  name: "Canção da Paz"
+  effect: |
+    Depois de cinco minutos tocando, a canção cria uma zona de paz (NQ x 3 metros de raio) em torno do elfo. Enquanto o elfo continuar a tocar, animais e criaturas inteligentes perdem todo o interesse em usar de violência uns contra os outros ou contra o elfo. Resistir a este sentimento de paz requer um teste de Força de Vontade com uma penalidade igual ao NQ da *Canção de Paz* x 2. Você ainda pode se defender enquanto afetado pela *Canção da Paz*. Ela não afeta criaturas sobrenaturais como mortos-vivos, demônios, elementais ou golens.
+  aeCost: "2 EA por 5 minutos"
+  aeCostShort: "2 EA per 5 min "
+  src:
+    - id: US25001E
+      firstPage: 276
+
+- id: SPELL_64
+  name: "Canção da Amizade"
+  effect: |
+    Dois elfos que toquem juntos a *Canção da Amizade* forjam uma sólida ligação de companheirismo. Isto só pode acontecer uma vez durante a vida de um elfo. A canção é composta por três estrofes, cada uma com duração de uma hora, e que deve ser tocada em três dias consecutivos simultaneamente por ambos os participantes. Elfos conectados por esta canção sentem a presença um do outro e podem perceber as emoções fortes um do outro a grandes distâncias. Eles podem lançar o feitiço *Bálsamo* um no outro, mesmo que tenham gasto toda a sua EA (em tais casos, eles podem usar o feitiço para transferir PV de um para o outro, conforme necessário).
+  aeCost: "4 de EA por hora, 1 de EA permanente pela última estrofe"
+  aeCostShort: "4 EA por h/1 pEA"
+  src:
+    - id: US25001E
+      firstPage: 275
+
+- id: SPELL_65
+  name: "Melodia da Arte"
+  effect: |
+    Testes com perícias de óficio feitas por elfos cantando a *Melodia da Arte* recebem um bônus igual ao NQ do ritual.
+  aeCost: "4 EA por hora"
+  aeCostShort: "4 EA por h"
+  src:
+    - id: US25001E
+      firstPage: 276
+
+- id: SPELL_66
+  name: "Canção da Tristeza"
+  effect: |
+    Tecendo perguntas nesta canção, os elfos podem descobrir se um bom amigo está bem ou doente (ou mesmo morto), ou talvez temendo a morte iminente, ou em vez disso feliz e contente. Esta música confere impressões gerais – não pode transmitir imagens claras do pensamento. Quanto mais longe o amigo estiver do cantor, mais tempo a canção leva para ser cantada. O elfo precisa cantar durante cinco minutos para cada 100 quilômetros de distância.
+  aeCost: "2 EA por 5 minutos"
+  aeCostShort: "2 EA por 5 min "
+  src:
+    - id: US25001E
+      firstPage: 276
+
+- id: SPELL_67
+  name: "Melodia Mágica"
+  effect: |
+    Elfos que tocam esta melodia sem serem perturbados durante uma hora entram num estado de transe em que se tornam sintonizados com as correntes arcanas que os cercam. Quando acordam deste transe de meia hora, todos os seus testes para feitiços e rituais recebem um bônus (+1 por NQ de 1 a 3, ou +2 por um NQ de 4 a 6) até o próximo nascer do sol.
+  aeCost: "8 EA"
+  aeCostShort: "8 EA"
+  src:
+    - id: US25001E
+      firstPage: 276

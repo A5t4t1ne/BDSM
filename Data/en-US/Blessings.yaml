@@ -1,0 +1,132 @@
+- id: BLESSING_1
+  name: "Oath Blessing"
+  effect: |
+    You help somebody swear a binding oath. Recipients must swear the oath voluntarily, after which they perceive it as binding. The *Oath Blessing* can be broken by making a *Willpower* check with a penalty of 1.
+  range: "4 yards"
+  duration: "1 year"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: BLESSING_2
+  name: "Fire Blessing"
+  effect: |
+    A small flame appears on the tip of your index finger. It is bright enough to illuminate a room, and is sufficient to light a candle. The flame does not hurt you (but you can be hurt by fires lit with the *Fire Blessing*). The flame burns as brightly as a normal candle (see **Core Rules** page **376**).
+  range: "Self"
+  duration: "5 minutes"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 322
+
+- id: BLESSING_3
+  name: "Birth Blessing"
+  effect: |
+    Blesses and welcomes newborns into the community of believers and protects them against kidnapping by kobolds, fairies, and lesser demons for the duration of the blessing (as long as 12 years—see below). You can cast this blessing up to 12 days after a child’s birth. If you wait longer to cast the blessing, it has no effect.
+  range: "Touch"
+  duration: "In the congregation of the Twelvegods, it lasts through the child’s 12th year of life"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 322
+
+- id: BLESSING_4
+  name: "Luck Blessing"
+  effect: |
+    Once during the duration of the blessing, the target experiences a bit of luck. Examples include adding 1 SP after making a skill check, in order to achieve a higher QL.
+  range: "Touch"
+  duration: "12 hours"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: BLESSING_5
+  name: "Grave Blessing"
+  effect: |
+    You bless a dead person’s grave. Anyone wishing to exhume the body or damage the grave must make a *Willpower (Face Threats)* check with a penalty of 1. Failure means the person gets a bad feeling and refrains from damaging the grave. Necromantic spells and rituals targeting the grave’s occupant suffer a penalty of 1 as long as the body remains within its consecrated grave.
+  range: "Touch"
+  duration: "12 months"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: BLESSING_6
+  name: "Harmony Blessing"
+  effect: |
+    Recipients experience positive feelings for the rest of the day. Anything that causes the condition *Fear* suffers a penalty of 1.
+  range: "Touch"
+  duration: "12 hours"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: BLESSING_7
+  name: "Minor Healing Blessing"
+  effect: |
+    The recipient gains 1 LP. A person can receive this blessing only once per day.
+  range: "Touch"
+  duration: "Immediate"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: BLESSING_8
+  name: "Minor Protection Blessing"
+  effect: |
+    This protection blessing can ward off unholy creatures. It can stop the following types of creatures: undead (mindless) and demons (lesser demons). While preparing the blessing, you must decide which of the two types of creatures it will repel. The named type of creature cannot enter the blessed area for the duration of the blessing. If the creature is forced to enter the area, it tries to leave at once.<br>
+    The *Minor Protection Blessing’s* zone has a maximum radius of 4 yards, but can be smaller. The protective zone is stationary and does not move with you. If persons in the zone move to the edge of the zone to attack creatures lurking there in melee, the creatures can attack as well.
+  range: "4 yards"
+  duration: "4 combat rounds"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: BLESSING_9
+  name: "Food Blessing"
+  effect: |
+    Blessed food is tasty and nutritious. This blessing neutralizes poisons up to Level 2 and eliminates all other contaminants from the food. The blessing affects food equivalent to one portion for one person.
+  range: "Touch"
+  duration: "Immediate"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: BLESSING_10
+  name: "Strength Blessing"
+  effect: |
+    The recipient feels no exhaustion and can reroll one die when making a single *Self Control (Stay Conscious)* check (as if using an Aptitude). A person can receive only one *Strength Blessing* per day.
+  range: "Self"
+  duration: "12 combat rounds"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: BLESSING_11
+  name: "Drink Blessing"
+  effect: |
+    Those who consume the blessed drink feel refreshed. This blessing neutralizes poisons up to Level 2 and eliminates all other contaminants from a drink. The blessing affects two pints of liquid (enough for one person).
+  range: "Touch"
+  duration: "Immediate"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 322
+
+- id: BLESSING_12
+  name: "Wisdom Blessing"
+  effect: |
+    Recipients of this blessing enjoy newfound wisdom. They can focus better on solving problems, and can reroll one die when making a single check using a Knowledge skill. A person can receive only one *Wisdom Blessing* per day.
+  range: "Touch"
+  duration: "12 hours"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 323

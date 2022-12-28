@@ -1,0 +1,155 @@
+- id: COND_1
+  name: "Encumbrance"
+  level1: |
+    Mildly Encumbered: –1 penalty to applicable skill checks, –1 to AT, Defense, INI, and MOV
+  level2: |
+    Encumbered: –2 penalty to applicable skill checks, –2 to AT, Defense, INI, and MOV
+  level3: |
+    Heavily Encumbered: –3 penalty to applicable skill checks, –3 to AT, Defense, INI, and MOV
+  level4: |
+    *Incapacitated*: you can do nothing but set down the weight and rest
+  src:
+    - id: US25001E
+      firstPage: 32
+
+- id: COND_2
+  name: "Stupor"
+  level1: |
+    Slightly drowsy, –1 to all checks
+  level2: |
+    Lethargic, –2 to all checks
+  level3: |
+    Very sluggish, –3 to all checks
+  level4: |
+    *Incapacitated*
+  src:
+    - id: US25001E
+      firstPage: 34
+
+- id: COND_3
+  name: "Rapture"
+  level1: |
+    Slightly rapturous, –1 to all skill and spell checks that are not agreeable to the Blessed One’s god
+  level2: |
+    Rapturous, +1 to all skill and spell checks agreeable to the Blessed One’s god, –2 to all other checks
+  level3: |
+    Divinely inspired, +2 to all skill and spell checks agreeable to the Blessed One’s god, –3 to all other checks
+  level4: |
+    Implement of the god, +3 to all skill and spell checks agreeable to the Blessed One’s god, –4 to all other checks
+  src:
+    - id: US25001E
+      firstPage: 33
+      lastPage: 34
+
+- id: COND_4
+  name: "Fear"
+  level1: |
+    Uneasy, –1 to all checks
+  level2: |
+    Scared, –2 to all checks
+  level3: |
+    Panicked, –3 to all checks
+  level4: |
+    Catatonic, and therefore *incapacitated*
+  src:
+    - id: US25001E
+      firstPage: 32
+      lastPage: 33
+
+- id: COND_5
+  name: "Paralysis"
+  level1: |
+    Slight: –1 to all checks involving movement or speech, reduce MOV by 25%
+  level2: |
+    Stiff: –2 to all checks involving movement or speech, reduce MOV by 50%
+  level3: |
+    Hardly able to move: –3 to all checks involving movement or speech, reduce MOV by 75%
+  level4: |
+    Unable to move, and therefore *immobilized*
+  src:
+    - id: US25001E
+      firstPage: 33
+
+- id: COND_6
+  name: "Pain"
+  level1: |
+    Slight pain: –1 on all checks, –1 MOV
+  level2: |
+    Disturbing pain: –2 on all checks, –2 MOV
+  level3: |
+    Severe pain: –3 on all checks, –3 MOV
+  level4: |
+    *Incapacitated*, –4 on all checks for mental skills or attributes
+  src:
+    - id: US25001E
+      firstPage: 33
+
+- id: COND_7
+  name: "Confusion"
+  level1: |
+    Mildly confused: –1 on all checks
+  level2: |
+    Confused: –2 on all checks
+  level3: |
+    Very Confused: –3 on all checks; complex actions (like spellcasting, liturgical chants, and the use of lore skills) are impossible
+  level4: |
+    *Incapacitated*
+  src:
+    - id: US25001E
+      firstPage: 32
+
+- id: COND_8
+  name: "Animosity"
+  description: |
+    The GM decides whether and how often somebody suffers a level of the condition *Animosity*. Most strangers passing through the land rarely suffer even one level. It mainly affects Nostrians and Andergastans who have lived here all their lives and their Hatred always focuses on the inhabitants of the neighboring realm. The Hatred usually takes many years to manifest. On the rare occasions when an outsider suffers a level of *Animosity*, the focus of their hatred depends on the local Animal King, which means they usually begin to hate the inhabitants of the land they are not in now.
+
+    *Animosity* does not disappear by itself, and usually only increases in intensity. *Animosity* is counteracted only by certain spells or liturgical chants, or the skill *Treat Soul*. Also, affected individuals lose one level of *Animosity* after spending at least four weeks outside of Nostria and Andergast, and lose another level for each successive month spent away. This does not mean that they automatically stop hating their archenemy, but at least their minds clear and they gain the ability to decide for themselves.
+
+    A successful check with *Treat Soul* removes one level of *Animosity*, though only one such check is allowed per week. Someone with *Animosity* level IV can only be treated by powerful magic or the will of the gods.
+  levelDescription: "Animosity Level"
+  level1: |
+    Suffer the negative trait *Enmity towards Andergastans/Nostrians* and actively insult, bully, or even attack the target of their enmity. *Willpower* checks to resist this enmity suffer a penalty of 1.
+  level2: |
+    *Willpower* checks to resist the enmity suffer a penalty of 1.
+  level3: |
+    *Willpower* checks to resist the enmity suffer a penalty of 3.
+  level4: |
+    Receive the advantage *Hatred for Andergastans/Nostrians*. *Willpower* checks to resist the enmity fail automatically.
+  src:
+    - id: US25101E
+      firstPage: 177
+
+- id: COND_9
+  name: "Intoxicated"
+  description: |
+    This section introduces a new condition, *Intoxicated*, for GMs who feel that heroes should not receive levels of *Stupor* after drinking only one or two mugs of beer. Heroes usually receive levels of *Intoxicated* after a failed poison check from drinking alcohol. Levels of *Intoxicated* make future *Carousing* checks more difficult. Additional effects may vary depending on the type of alcohol consumed. Anyone gaining 4 or more levels of *Intoxicated* exchanges 4 levels of *Intoxicated* for 1 level of *Stupor*. Any additional levels of *Intoxicated* remain. Characters automatically remove one level of *Intoxicated* every 2 hours unless they consume more alcohol during that time.
+  level1: |
+    *Carousing* checks have an increased difficulty of 1
+  level2: |
+    *Carousing* checks have an increased difficulty of 2
+  level3: |
+    *Carousing* checks have an increased difficulty of 3
+  level4: |
+    Hero exchanges 4 levels of *Intoxicated* for 1 level of *Stupor*; additional levels of *Intoxicated* remain.
+  src:
+    - id: US25514E
+      firstPage: 12
+      lastPage: 13
+
+- id: COND_10
+  name: "Trance"
+  description: |
+    *Trance* is a mild form of Rapture that accompanies the use of certain ceremonial items or special abilities.<br>
+    Reduce *Trance* by 1 level every 24 hours.
+  levelDescription: "Trance Level"
+  level1: |
+    The Blessed One feels the god’s presence. Lose the ability to regenerate AE during the next Regeneration Phase.
+  level2: |
+    All checks, except liturgical chants and skill checks agreeable to the Blessed One’s god, suffer a penalty of -2. Lose the ability to regenerate AE during the next Regeneration Phase.
+  level3: |
+    All checks, even those agreeable to the Blessed One’s god, suffer a penalty of -3. Lose the ability to regenerate AE during the next Regeneration Phase.
+  level4: |
+    The Blessed One is *Incapacitated*. Lose the ability to regenerate AE during the next Regeneration Phase.
+  src:
+    - id: US25005E
+      firstPage: 11

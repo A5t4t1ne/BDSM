@@ -1,0 +1,1635 @@
+- id: TAL_1
+  name: "vol"
+  applications:
+    - id: 1
+      name: "combat aérien"
+    - id: 2
+      name: "course-poursuite"
+    - id: 3
+      name: "longue distance"
+  tools: "engin volant adéquat."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 192
+
+- id: TAL_2
+  name: "batellerie"
+  applications:
+    - id: 1
+      name: "bouffonnerie"
+    - id: 2
+      name: "escamotage"
+    - id: 3
+      name: "jonglerie"
+  tools: "suivant le tour, par exemple balle, torche, serpent, jeux de cartes."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 188
+
+- id: TAL_3
+  name: "escalade"
+  applications:
+    - id: 1
+      name: "bâtiment"
+    - id: 2
+      name: "forêt"
+    - id: 3
+      name: "montagne"
+    - id: 4
+      name: "parois de glace"
+  tools: "climbing gear, depending on the circumstances"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 190
+
+- id: TAL_4
+  name: "maîtrise corporelle"
+  applications:
+    - id: 1
+      name: "acrobatie"
+    - id: 2
+      name: "courir"
+    - id: 3
+      name: "équilibre"
+    - id: 4
+      name: "évasion"
+    - id: 5
+      name: "manoeuvres de combat"
+    - id: 6
+      name: "sauter"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 191
+
+- id: TAL_5
+  name: "tour de force"
+  applications:
+    - id: 1
+      name: "enfoncer & défoncer"
+    - id: 2
+      name: "lever & soulever"
+    - id: 3
+      name: "pousser & plier"
+    - id: 4
+      name: "tirer & arracher"
+  tools: " éventuellement pied-de-biche ou corde."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 192
+
+- id: TAL_6
+  name: "équitation"
+  applications:
+    - id: 1
+      name: "combat sur monture"
+    - id: 2
+      name: "course-poursuite"
+    - id: 3
+      name: "longue distance"
+    - id: 4
+      name: "saut à cheval"
+  tools: "monture."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 189
+
+- id: TAL_7
+  name: "natation"
+  applications:
+    - id: 1
+      name: "combat aquatique"
+    - id: 2
+      name: "course-poursuite"
+    - id: 3
+      name: "longue distance"
+    - id: 4
+      name: "plonger"
+    - id: 5
+      name: "surnager"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 191
+
+- id: TAL_8
+  name: "maîtrise de soi"
+  applications:
+    - id: 1
+      name: "ignorer les perturbations"
+    - id: 2
+      name: "résister à la torture"
+    - id: 3
+      name: "tenir bon"
+    - id: -1
+      name: "dominer la douleur"
+  uses:
+    - id: 1
+      name: "Suppress Pain"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 191
+
+- id: TAL_9
+  name: "chant"
+  encDescription: "no (maybe with a helmet)"
+  applications:
+    - id: 1
+      name: "ballade de barde"
+    - id: 2
+      name: "chant en groupe"
+    - id: 3
+      name: "chant religieux"
+    - id: 4
+      name: "récitatif"
+    - id: -1
+      name: "chant diphonique"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 189
+
+- id: TAL_10
+  name: "acuité sensorielle"
+  encDescription: "no (maybe if wearing a helmet or gauntlets)"
+  applications:
+    - id: 1
+      name: "chercher"
+    - id: 2
+      name: "détecter une embuscade"
+    - id: 3
+      name: "percevoir"
+    - id: -1
+      name: "lire sur les lèvres"
+    - id: -2
+      name: "sens du renard"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 189
+
+- id: TAL_11
+  name: "danse"
+  applications:
+    - id: 1
+      name: "danse de cour"
+    - id: 2
+      name: "danse de culte"
+    - id: 3
+      name: "danse exotique"
+    - id: 4
+      name: "danse folklorique"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 189
+
+- id: TAL_12
+  name: "vol à la tire"
+  applications:
+    - id: 1
+      name: "diversions"
+    - id: 2
+      name: "faire les poches"
+    - id: 3
+      name: "glisser à quelqu'un"
+    - id: 4
+      name: "subtiliser un objet"
+  tools: "éventuellement coutelas ou dague."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 193
+
+- id: TAL_13
+  name: "furtivité"
+  applications:
+    - id: 1
+      name: "cacher un objet"
+    - id: 2
+      name: "déplacement silencieux"
+    - id: 3
+      name: "se cacher"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 190
+
+- id: TAL_14
+  name: "alcool & drogues"
+  applications:
+    - id: 1
+      name: "prévention de la confusion"
+    - id: 2
+      name: "prévention de la douleur"
+    - id: 3
+      name: "prévention de l'étourdissement"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 188
+
+- id: TAL_15
+  name: "convertir & convaincre"
+  applications:
+    - id: 1
+      name: "débat"
+    - id: 2
+      name: "discours public"
+    - id: 3
+      name: "entretien individuel"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 195
+
+- id: TAL_16
+  name: "séduction"
+  encDescription: "no, but there could be situational exceptions, like trying to seduce somebody while wearing plate armor"
+  applications:
+    - id: 1
+      name: "arts de l'amour"
+    - id: 2
+      name: "charmer"
+    - id: 3
+      name: "s'apprêter"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 198
+
+- id: TAL_17
+  name: "intimidation"
+  applications:
+    - id: 1
+      name: "interrogatoire"
+    - id: 2
+      name: "menace"
+    - id: 3
+      name: "provocation"
+    - id: 4
+      name: "torture"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 196
+
+- id: TAL_18
+  name: "étiquette"
+  applications:
+    - id: 1
+      name: "bonnes manières"
+    - id: 2
+      name: "conversation légère"
+    - id: 3
+      name: "mode"
+    - id: 4
+      name: "potins & ragots"
+    - id: -1
+      name: "héraldique & généalogie"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 196
+
+- id: TAL_19
+  name: "connaissance de la rue"
+  encDescription: "no (maybe in some situations, such as if your armor helps you resemble a guard or a nobleman)"
+  applications:
+    - id: 1
+      name: "collecte d'informations"
+    - id: 2
+      name: "filature"
+    - id: 3
+      name: "repérage"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 194
+
+- id: TAL_20
+  name: "nature humaine"
+  applications:
+    - id: 1
+      name: "détecter les mensonges"
+    - id: 2
+      name: "discerner les motivations"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 197
+
+- id: TAL_21
+  name: "persuasion"
+  applications:
+    - id: 1
+      name: "baratiner"
+    - id: 2
+      name: "flatter"
+    - id: 3
+      name: "manipuler"
+    - id: 4
+      name: "mendier"
+    - id: 5
+      name: "trouver une excuse"
+    - id: -1
+      name: "chef"
+  uses:
+    - id: 1
+      name: "Leader"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 197
+
+- id: TAL_22
+  name: "déguisement"
+  applications:
+    - id: 1
+      name: "costume"
+    - id: 2
+      name: "jeu d'acteur"
+    - id: 3
+      name: "imitation d'une personne"
+  tools: "vêtements adéquats."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 195
+
+- id: TAL_23
+  name: "volonté"
+  applications:
+    - id: 1
+      name: "résister à convertir & convaincre"
+    - id: 2
+      name: "résister à la persuasion"
+    - id: 3
+      name: "résister à la séduction"
+    - id: 4
+      name: "résister à l'intimidation"
+    - id: 5
+      name: "tenir tête face aux menaces"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 198
+
+- id: TAL_24
+  name: "pistage"
+  applications:
+    - id: 1
+      name: "effacer ses traces"
+    - id: 2
+      name: "traces d'animaux"
+    - id: 3
+      name: "traces d'humanoïdes"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 199
+
+- id: TAL_25
+  name: "pratique des noeuds"
+  encDescription: "no (maybe with a helmet or gauntlets)"
+  applications:
+    - id: 1
+      name: "fabriquer un filer"
+    - id: 2
+      name: "ficeler"
+    - id: 3
+      name: "technique des noeuds"
+  tools: "liens."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 200
+
+- id: TAL_26
+  name: "pêche"
+  encDescription: "yes (spearfishing) or No (fishing with weirs, nets, or hooks)"
+  applications:
+    - id: 1
+      name: "en eau douce"
+    - id: 2
+      name: "en mer"
+    - id: 3
+      name: "monstres marins"
+  tools: "canne avec fil, filet ou nasse, lance."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 199
+
+- id: TAL_27
+  name: "orientation"
+  applications:
+    - id: 1
+      name: "ciel étoilé"
+    - id: 2
+      name: "course du soleil"
+    - id: 3
+      name: "orientation souterraine"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 199
+
+- id: TAL_28
+  name: "botanique"
+  encDescription: "yes (for agriculture and gathering food) or no (for identifying plants)"
+  applications:
+    - id: 1
+      name: "plantes médicinales"
+    - id: 2
+      name: "plantes utiles"
+    - id: 3
+      name: "plantes toxiques"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 198
+
+- id: TAL_29
+  name: "zoologie"
+  applications:
+    - id: 1
+      name: "animaux domestiques"
+    - id: 2
+      name: "animaux sauvages"
+    - id: 3
+      name: "monstres"
+    - id: -1
+      name: "imitation de cris d'animaux"
+  uses:
+    - id: 1
+      name: "Mimicry"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 201
+
+- id: TAL_30
+  name: "survie"
+  applications:
+    - id: 1
+      name: "établir un camp"
+    - id: 2
+      name: "faire du feu"
+    - id: 3
+      name: "rechercher un emplacement pour un camp"
+    - id: -1
+      name: "prévoir le temps"
+  tools: "éventuellement tente, équipement de survie."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 200
+
+- id: TAL_31
+  name: "jeux"
+  applications:
+    - id: 1
+      name: "jeux de cartes"
+    - id: 2
+      name: "jeux de dés"
+    - id: 3
+      name: "jeux de plateau"
+    - id: 4
+      name: "paris"
+    - id: -1
+      name: "tricherie"
+  uses:
+    - id: 1
+      name: "Cheating"
+  tools: "jeu adéquat."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 205
+
+- id: TAL_32
+  name: "géographie"
+  applications:
+    - id: 1
+      name: "Albernie"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Gardevent"
+    - id: 4
+      name: "Garétie"
+    - id: 5
+      name: "Kosch"
+    - id: 6
+      name: "Marches du Nord"
+    - id: 7
+      name: "Marches de Rommilys"
+    - id: 8
+      name: "Pasturie"
+    - id: 9
+      name: "Tobrie"
+    - id: 10
+      name: "Archipel des Cyclopes"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranie"
+    - id: 13
+      name: "Califat"
+    - id: 14
+      name: "Empire Horas"
+    - id: 15
+      name: "Extrême Sud"
+    - id: 16
+      name: "Grand Nord"
+    - id: 17
+      name: "Impérium d'Al'Anfa"
+    - id: 18
+      name: "Maraskan"
+    - id: 19
+      name: "mer du Sud et Îles Vertes"
+    - id: 20
+      name: "Monts de la Salamandre et régions avoisinantes des Elfes"
+    - id: 21
+      name: "Nostrie"
+    - id: 22
+      name: "pays des Orks"
+    - id: 23
+      name: "pays Tulamides"
+    - id: 24
+      name: "Royaume des Nains dans la Montagne"
+    - id: 25
+      name: "Sourcelande"
+    - id: 26
+      name: "Terres des Gjalsques"
+    - id: 27
+      name: "Terres Sombres"
+    - id: 28
+      name: "Thorval"
+    - id: 29
+      name: "Vallée de la Svellt"
+    - id: -1
+      name: "cartographie"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 204
+
+- id: TAL_33
+  name: "histoire"
+  applications:
+    - id: 1
+      name: "Albernie"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Gardevent"
+    - id: 4
+      name: "Garétie"
+    - id: 5
+      name: "Kosch"
+    - id: 6
+      name: "Marches du Nord"
+    - id: 7
+      name: "Marches de Rommilys"
+    - id: 8
+      name: "Pasturie"
+    - id: 9
+      name: "Tobrie"
+    - id: 10
+      name: "Archipel des Cyclopes"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranie"
+    - id: 13
+      name: "Califat"
+    - id: 14
+      name: "Empire Horas"
+    - id: 15
+      name: "Extrême Sud"
+    - id: 16
+      name: "Grand Nord"
+    - id: 17
+      name: "Impérium d'Al'Anfa"
+    - id: 18
+      name: "Maraskan"
+    - id: 19
+      name: "mer du Sud et Îles Vertes"
+    - id: 20
+      name: "Monts de la Salamandre et régions avoisinantes des Elfes"
+    - id: 21
+      name: "Nostrie"
+    - id: 22
+      name: "pays des Orks"
+    - id: 23
+      name: "pays Tulamides"
+    - id: 24
+      name: "Royaume des Nains dans la Montagne"
+    - id: 25
+      name: "Sourcelande"
+    - id: 26
+      name: "Terres des Gjalsques"
+    - id: 27
+      name: "Terres Sombres"
+    - id: 28
+      name: "Thorval"
+    - id: 29
+      name: "Vallée de la Svellt"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 204
+
+- id: TAL_34
+  name: "dieux & cultes"
+  applications:
+    - id: 1
+      name: "Praïos"
+    - id: 2
+      name: "Rondra"
+    - id: 3
+      name: "Thylos"
+    - id: 4
+      name: "Travia"
+    - id: 5
+      name: "Boron"
+    - id: 6
+      name: "Hésinde"
+    - id: 7
+      name: "Firun"
+    - id: 8
+      name: "Tsa"
+    - id: 9
+      name: "Phex"
+    - id: 10
+      name: "Péraine"
+    - id: 11
+      name: "Inguérimm"
+    - id: 12
+      name: "Raïa"
+    - id: 13
+      name: "Sans-Nom"
+    - id: 14
+      name: "Avès"
+    - id: 15
+      name: "Ifirn"
+    - id: 16
+      name: "Kor"
+    - id: 17
+      name: "Nandus"
+    - id: 18
+      name: "Swafnir"
+    - id: 19
+      name: "Marbo"
+    - id: 20
+      name: "Levthan"
+    - id: 21
+      name: "Rastullah"
+  applicationsInput: "depends on the god or philosophy"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 203
+
+- id: TAL_35
+  name: "art de la guerre"
+  applications:
+    - id: 1
+      name: "bataille rangée"
+    - id: 2
+      name: "combat naval"
+    - id: 3
+      name: "combat souterrain"
+    - id: 4
+      name: "guérilla"
+    - id: 5
+      name: "siège"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 201
+
+- id: TAL_36
+  name: "magicologie"
+  applications:
+    - id: 1
+      name: "artefacts"
+    - id: 2
+      name: "créatures magiques"
+    - id: 3
+      name: "formules magiques"
+    - id: 4
+      name: "rituels"
+    - id: -1
+      name: "analyste"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 205
+
+- id: TAL_37
+  name: "mécanique"
+  applications:
+    - id: 1
+      name: "hydraulique"
+    - id: 2
+      name: "leviers"
+    - id: 3
+      name: "systèmes complexes"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 205
+
+- id: TAL_38
+  name: "calcul"
+  applications:
+    - id: 1
+      name: "additions & soustractions"
+    - id: 2
+      name: "fractions"
+    - id: 3
+      name: "multiplications & divisions"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 202
+
+- id: TAL_39
+  name: "droit"
+  applications:
+    - id: 1
+      name: "Albernie"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Gardevent"
+    - id: 4
+      name: "Garétie"
+    - id: 5
+      name: "Kosch"
+    - id: 6
+      name: "Marches du Nord"
+    - id: 7
+      name: "Marches de Rommilys"
+    - id: 8
+      name: "Pasturie"
+    - id: 9
+      name: "Tobrie"
+    - id: 10
+      name: "Archipel des Cyclopes"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranie"
+    - id: 13
+      name: "Califat"
+    - id: 14
+      name: "Empire Horas"
+    - id: 15
+      name: "Extrême Sud"
+    - id: 16
+      name: "Grand Nord"
+    - id: 17
+      name: "Impérium d'Al'Anfa"
+    - id: 18
+      name: "Maraskan"
+    - id: 19
+      name: "mer du Sud et Îles Vertes"
+    - id: 20
+      name: "Monts de la Salamandre et régions avoisinantes des Elfes"
+    - id: 21
+      name: "Nostrie"
+    - id: 22
+      name: "pays des Orks"
+    - id: 23
+      name: "pays Tulamides"
+    - id: 24
+      name: "Royaume des Nains dans la Montagne"
+    - id: 25
+      name: "Sourcelande"
+    - id: 26
+      name: "Terres des Gjalsques"
+    - id: 27
+      name: "Terres Sombres"
+    - id: 28
+      name: "Thorval"
+    - id: 29
+      name: "Vallée de la Svellt"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 203
+
+- id: TAL_40
+  name: "contes & légendes"
+  applications:
+    - id: 1
+      name: "Albernie"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Gardevent"
+    - id: 4
+      name: "Garétie"
+    - id: 5
+      name: "Kosch"
+    - id: 6
+      name: "Marches du Nord"
+    - id: 7
+      name: "Marches de Rommilys"
+    - id: 8
+      name: "Pasturie"
+    - id: 9
+      name: "Tobrie"
+    - id: 10
+      name: "Archipel des Cyclopes"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranie"
+    - id: 13
+      name: "Califat"
+    - id: 14
+      name: "Empire Horas"
+    - id: 15
+      name: "Extrême Sud"
+    - id: 16
+      name: "Grand Nord"
+    - id: 17
+      name: "Impérium d'Al'Anfa"
+    - id: 18
+      name: "Maraskan"
+    - id: 19
+      name: "mer du Sud et Îles Vertes"
+    - id: 20
+      name: "Monts de la Salamandre et régions avoisinantes des Elfes"
+    - id: 21
+      name: "Nostrie"
+    - id: 22
+      name: "pays des Orks"
+    - id: 23
+      name: "pays Tulamides"
+    - id: 24
+      name: "Royaume des Nains dans la Montagne"
+    - id: 25
+      name: "Sourcelande"
+    - id: 26
+      name: "Terres des Gjalsques"
+    - id: 27
+      name: "Terres Sombres"
+    - id: 28
+      name: "Thorval"
+    - id: 29
+      name: "Vallée de la Svellt"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 202
+
+- id: TAL_41
+  name: "sphérologie"
+  applications:
+    - id: 1
+      name: "êtres des sphères"
+    - id: 2
+      name: "limbes"
+    - id: 3
+      name: "1re sphère"
+    - id: 4
+      name: "2e sphère"
+    - id: 5
+      name: "3e sphère"
+    - id: 6
+      name: "4e sphère"
+    - id: 7
+      name: "5e sphère"
+    - id: 8
+      name: "6e sphère"
+    - id: 9
+      name: "7e sphère"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 206
+
+- id: TAL_42
+  name: "astronomie"
+  applications:
+    - id: 1
+      name: "astrologie"
+    - id: 2
+      name: "calendrier"
+    - id: 3
+      name: "cartographie céleste"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 202
+
+- id: TAL_43
+  name: "alchimie"
+  applications:
+    - id: 1
+      name: "alchimie profane"
+    - id: 2
+      name: "élixirs"
+    - id: 3
+      name: "poisons alchimiques"
+  tools: "laboratoire dʼalchimie."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 207
+
+- id: TAL_44
+  name: "navigation"
+  applications:
+    - id: 1
+      name: "combat naval"
+    - id: 2
+      name: "course de bateau"
+    - id: 3
+      name: "course-poursuite"
+    - id: 4
+      name: "longue distance"
+  tools: "bateau ou navire."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 209
+
+- id: TAL_45
+  name: "conduite"
+  applications:
+    - id: 1
+      name: "combat de véhicule"
+    - id: 2
+      name: "course"
+    - id: 3
+      name: "course-poursuite"
+    - id: 4
+      name: "longue distance"
+  tools: "véhicule."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 207
+
+- id: TAL_46
+  name: "commerce"
+  applications:
+    - id: 1
+      name: "change"
+    - id: 2
+      name: "comptabilité"
+    - id: 3
+      name: "marchander"
+    - id: -1
+      name: "recel"
+    - id: -2
+      name: "maquignon"
+  uses:
+    - id: 1
+      name: "Horse Faker"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 207
+
+- id: TAL_47
+  name: "soin des poisons"
+  applications:
+    - id: 1
+      name: "poisons alchimiques"
+    - id: 2
+      name: "poisons d'origine animale"
+    - id: 3
+      name: "poisons d'origine minérale"
+    - id: 4
+      name: "poisons d'origine végétale"
+  tools: "antidote."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 210
+
+- id: TAL_48
+  name: "soin des maladies"
+  applications:
+    - id: 1
+      name: "difar vive"
+    - id: 2
+      name: "lutanas"
+    - id: 3
+      name: "délire déferlant"
+    - id: 4
+      name: "sueur de Brabak"
+    - id: 5
+      name: "variole de Zorgan"
+  tools: "remède."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 210
+
+- id: TAL_49
+  name: "soin de l'esprit"
+  applications:
+    - id: 1
+      name: "réprimer une faiblesse de caractère"
+    - id: 2
+      name: "réprimer une mauvaise qualité"
+    - id: 3
+      name: "réprimer une phobie"
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 210
+
+- id: TAL_50
+  name: "soin des blessures"
+  applications:
+    - id: 1
+      name: "calamer les douleurs"
+    - id: 2
+      name: "favoriser la guérison"
+    - id: 3
+      name: "stabiliser"
+  tools: "éventuellement bandages, instruments chirurgicaux, herbes médicinales, matériel de suture."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 210
+
+- id: TAL_51
+  name: "travail du bois"
+  applications:
+    - id: 1
+      name: "abattre & couper"
+    - id: 2
+      name: "menuiserie"
+    - id: 3
+      name: "charpenterie"
+  tools: "en fonction du matériau à traiter, par exemple hache, rabot, couteau, scie."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 212
+
+- id: TAL_52
+  name: "cuisine"
+  applications:
+    - id: 1
+      name: "brasser"
+    - id: 2
+      name: "conserver les aliments"
+    - id: 3
+      name: "cuisson"
+    - id: 4
+      name: "rôtir & bouillir"
+  tools: "ingrédients appropriés, cuisine roulante, ustensiles de cuisine."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 208
+
+- id: TAL_53
+  name: "travail du cuir"
+  applications:
+    - id: 1
+      name: "confection"
+    - id: 2
+      name: "dépouillement"
+    - id: 3
+      name: "tannage"
+  tools: "alêne, plioir, emporte-pièce, couteau, outils de sculpture, pince."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 212
+
+- id: TAL_54
+  name: "peinture & dessin"
+  applications:
+    - id: 1
+      name: "dessins"
+    - id: 2
+      name: "gravures"
+    - id: 3
+      name: "peintures"
+    - id: -1
+      name: "falsificateur de documents"
+    - id: -2
+      name: "signes magiques"
+  tools: "couleur, craie, crayon."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 209
+
+- id: TAL_55
+  name: "travail du métal"
+  applications:
+    - id: 1
+      name: "coulée du métal"
+    - id: 2
+      name: "forge"
+    - id: 3
+      name: "métallurgie"
+    - id: 4
+      name: "orfèvrerie"
+  tools: "marteau, enclume, feu de forge."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 212
+
+- id: TAL_56
+  name: "musique"
+  applications:
+    - id: 1
+      name: "instruments à cordes"
+    - id: 2
+      name: "instruments à vent"
+    - id: 3
+      name: "tambour"
+  tools: "instrument de musique."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 208
+
+- id: TAL_57
+  name: "crochetage"
+  applications:
+    - id: 1
+      name: "serrures à combinaison"
+    - id: 2
+      name: "serrures à panneton"
+    - id: -1
+      name: "désamorcer les pièges"
+  tools: "passe-partout, épingle à cheveux, crochet."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 208
+
+- id: TAL_58
+  name: "travail de la pierre"
+  applications:
+    - id: 1
+      name: "carrière"
+    - id: 2
+      name: "maçonnerie"
+    - id: 3
+      name: "taille de la pierre"
+    - id: -1
+      name: "poterie"
+    - id: -2
+      name: "soufflage de verre"
+  tools: "matériau brut adéquat (pierre, terre glaise), marteau, burin."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 211
+
+- id: TAL_59
+  name: "travail du tissu"
+  applications:
+    - id: 1
+      name: "coudre"
+    - id: 2
+      name: "feutrer"
+    - id: 3
+      name: "filer"
+    - id: 4
+      name: "teindre"
+    - id: 5
+      name: "tisser"
+  tools: "couteau, trousse de couture, ciseaux, métier à tisser."
+  quality: |
+    N/D
+  failed: |
+    N/D
+  critical: |
+    N/D
+  botch: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 213

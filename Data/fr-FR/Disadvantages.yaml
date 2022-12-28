@@ -1,0 +1,892 @@
+- id: DISADV_0
+  name: "Désavantage personnalisé"
+  rules: |
+    *Un emplacement pour les désavantages personnalisés, où le nom et la valeur en PAV peuvent être définis.*
+  input: "Nom du désavantage"
+  src:
+    - id: LDR1
+      firstPage: 1
+
+- id: DISADV_1
+  name: "phobie"
+  input: "Trigger"
+  rules: |
+    Le héros a tellement peur de quelque chose quʼil est limité dans ses actions en sa présence.
+  selectOptions:
+    - id: 1
+      name: "hématophobie"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 2
+      name: "nyctophobie"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 3
+      name: "vertige"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 4
+      name: "entomophobie"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 5
+      name: "thalassophobie"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 6
+      name: "herpétophobie"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 7
+      name: "claustrophobie"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 8
+      name: "arachnophobie"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 9
+      name: "thanatophobie"
+      src:
+        - id: LDR1
+          firstPage: 177
+  src:
+    - id: LDR1
+      firstPage: 177
+
+- id: DISADV_2
+  name: "pauvreté"
+  rules: |
+    Le héros est asservi ou sʼest appauvri pour une raison quelconque.
+  src:
+    - id: LDR1
+      firstPage: 176
+
+- id: DISADV_3
+  name: "astreint à un artefact"
+  rules: |
+    Un être doué de magie avec ce désavantage est astreint à lʼutilisation dʼun artefact particulier pour lancer ses sorts.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: DISADV_4
+  name: "corpulent"
+  rules: |
+    Les personnes corpulentes sont nettement plus lentes que les autres et se déplacent à pas comptés.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: DISADV_5
+  name: "aveugle"
+  rules: |
+    Un personnage aveugle (depuis la naissance, suite à une blessure ou une maladie) ne peut voir et sʼoriente avec ses autres sens.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: DISADV_6
+  name: "rage sanguinaire"
+  rules: |
+    Le héros attaque furieusement, sans pouvoir se maîtriser, toute personne à proximité.
+  src:
+    - id: LDR1
+      firstPage: 177
+
+- id: DISADV_7
+  name: "sens restreint"
+  rules: |
+    Un héros avec sens restreint peut, par exemple, être myope, perdre le goût suite à une maladie ou être malentendant de par son âge.
+  selectOptions:
+    - id: 1
+      name: "vue"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 2
+      name: "ouïe"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 3
+      name: "odeur & goût"
+      src:
+        - id: LDR1
+          firstPage: 177
+    - id: 4
+      name: "toucher"
+      src:
+        - id: LDR1
+          firstPage: 177
+  apValue: "Sight: –15 adventure points; Hearing: –10 adventure points; Smell & Taste: –6 adventure points; Tactile Sense: –2 adventure points"
+  prerequisites: "~~disadvantage pas dʼavantage sens exceptionnel pour le même sens~~, ~~disadvantage aveugle~~ (pour la vue), ~~disadvantage surdité~~ (pour l'ouïe)"
+  src:
+    - id: LDR1
+      firstPage: 177
+
+- id: DISADV_11
+  name: "achromatie"
+  rules: |
+    Un héros achromate ne différencie pas les couleurs et évolue donc dans un monde en noir et blanc avec toutes les nuances de gris associées.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: DISADV_12
+  name: "obésité"
+  rules: |
+    Si un héros est plus lourd de 50% que la masse moyenne dʼune personne de sa taille, il est considéré comme obèse.
+  src:
+    - id: LDR1
+      firstPage: 176
+
+- id: DISADV_13
+  name: "sensibilité aux poisons"
+  rules: |
+    Certaines personnes résistent moins bien que dʼautres aux poisons et à dʼautres substances toxiques comme les drogues.
+  src:
+    - id: LDR1
+      firstPage: 178
+
+- id: DISADV_14
+  name: "laideur"
+  rules: |
+    Le personnage est considéré comme particulièrement laid par les autres membres de son peuple et déplaisant pour la plupart des êtres civilisés.
+  src:
+    - id: LDR1
+      firstPage: 173
+
+- id: DISADV_15
+  name: "sensibilité à la chaleur"
+  rules: |
+    Les êtres sensibles à la chaleur souffrent fortement en cas de hautes températures.
+  src:
+    - id: LDR1
+      firstPage: 178
+
+- id: DISADV_16
+  name: "sensibilité au froid"
+  rules: |
+    Les êtres sensibles au froid souffrent fortement en cas de basses températures.
+  src:
+    - id: LDR1
+      firstPage: 178
+
+- id: DISADV_17
+  name: "sans onguent de vol"
+  rules: |
+    Certaines sorcières nʼont pas eu la possibilité de recevoir lʼonguent de vol pendant la nuit des sorcières ou dʼacquérir la capacité de brasser ou  dʼutiliser lʼonguent de vol.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: "tradition du lanceur de sorts pouvant choisir la capacité spéciale onguent de vol"
+  src:
+    - id: LDR1
+      firstPage: 177
+
+- id: DISADV_18
+  name: "sans familier"
+  rules: |
+    Il est rare quʼune sorcière ne se lie pas à un familier, mais certaines nʼont pas eu la possibilité de remplir les conditions pour en obtenir un.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: "tradition du lanceur de sorts pouvant choisir la capacité spéciale lien du familier"
+  src:
+    - id: LDR1
+      firstPage: 177
+
+- id: DISADV_19
+  name: "force astrale liée au corps"
+  rules: |
+    Une partie de la force magique du lanceur de sorts est liée à sa chevelure, qui doit avoir une certaine longueur.
+  prerequisitesEnd: "le peuple du lanceur de sorts doit disposer de cheveux"
+  src:
+    - id: LDR1
+      firstPage: 173
+
+- id: DISADV_20
+  name: "anomalie physique"
+  input: "Peculiarity"
+  rules: |
+    Le héros a hérité dʼune anomalie physique, par exemple une mèche de sorcière, une verrue sur le nez, un bec de lièvre ou une petite bosse.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: DISADV_21
+  name: "sensibilité aux maladies"
+  rules: |
+    Certaines personnes résistent moins bien aux maladies et tombent malades plus fréquemment que les autres.
+  src:
+    - id: LDR1
+      firstPage: 178
+
+- id: DISADV_22
+  name: "esprits mineurs importuns"
+  rules: |
+    Certains lanceurs de sorts attirent les esprits mineurs lorsquʼils utilisent leur magie.
+  src:
+    - id: LDR1
+      firstPage: 171
+
+- id: DISADV_23
+  name: "sensibilité à la lumière"
+  rules: |
+    Les personnes sensibles à la lumière souffrent quand les rayons du soleil touchent leur peau.
+  src:
+    - id: LDR1
+      firstPage: 178
+
+- id: DISADV_24
+  name: "dissonance magique"
+  input: "Environment"
+  rules: |
+    Contrairement à lʼavantage résonance magique, ce désavantage apporte des malus pour les épreuves de compétences magiques.
+  selectOptions:
+    - id: 1
+      name: "Malédiction des Prairies"
+      src:
+        - id: LDR1
+          firstPage: 171
+    - id: 2
+      name: "Malédiction de la Montagne"
+      src:
+        - id: LDR1
+          firstPage: 171
+    - id: 3
+      name: "Malédiction de la Glace"
+      src:
+        - id: LDR1
+          firstPage: 171
+    - id: 4
+      name: "Malédiction de la Mer"
+      src:
+        - id: LDR1
+          firstPage: 171
+    - id: 5
+      name: "Malédiction de la Nuit"
+      src:
+        - id: LDR1
+          firstPage: 171
+    - id: 6
+      name: "Malédiction de la Forêt"
+      src:
+        - id: LDR1
+          firstPage: 171
+  src:
+    - id: LDR1
+      firstPage: 171
+
+- id: DISADV_25
+  name: "cécité nocturne"
+  rules: |
+    Le héros a de grandes difficultés à percevoir son environnement dans lʼobscurité.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: DISADV_26
+  name: "faible énergie astrale"
+  rules: |
+    Le corps du héros peut stocker moins dʼénergie astrale que celui des autres lanceurs de sorts.
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_27
+  name: "faible énergie karmique"
+  rules: |
+    Le corps du héros peut stocker moins dʼénergie karmique que celui des autres prêtres.
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_28
+  name: "faible énergie vitale"
+  rules: |
+    Le héros est moins résistant que les membres de son peuple et endure moins de dégâts.
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_29
+  name: "faible ténacité mentale"
+  rules: |
+    Le héros est plus sensible aux sorts que les autres représentants de son peuple.
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_30
+  name: "faible ténacité physique"
+  rules: |
+    Le héros nʼest pas aussi résistant que les autres représentants de son peuple.
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_31
+  name: "malchance"
+  rules: |
+    Tous les héros ne sont pas dotés dʼune chance insolente. Certains aventuriers ont même nettement moins de chance que leurs compagnons.
+  src:
+    - id: LDR1
+      firstPage: 173
+
+- id: DISADV_32
+  name: "déveine chronique"
+  rules: |
+    Certains héros sont poursuivis par la malchance. Les personnes considérées comme des aimants à malheur sont placées en haut de la liste du destin  concernant la détermination aléatoire des infortunes.
+  src:
+    - id: LDR1
+      firstPage: 171
+
+- id: DISADV_33
+  name: "faiblesse de caractère"
+  rules: |
+    Les faiblesses de caractère représentent des comportements ou des habitudes extrêmement désagréables du héros.
+  selectOptions:
+    - id: 1
+      name: "arrogant"
+      src:
+        - id: LDR1
+          firstPage: 172
+    - id: 2
+      name: "vaniteux"
+      src:
+        - id: LDR1
+          firstPage: 172
+    - id: 3
+      name: "envieux"
+      src:
+        - id: LDR1
+          firstPage: 172
+    - id: 4
+      name: "hargneux"
+      src:
+        - id: LDR1
+          firstPage: 172
+    - id: 5
+      name: "inquiétant"
+      src:
+        - id: LDR1
+          firstPage: 172
+    - id: 6
+      name: "pourri gâté"
+      src:
+        - id: LDR1
+          firstPage: 172
+    - id: 7
+      name: "préjugés"
+      src:
+        - id: LDR1
+          firstPage: 172
+    - id: 8
+      name: "étranger au monde"
+      src:
+        - id: LDR1
+          firstPage: 172
+  apValue: "depends on the Personality Flaw"
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_34
+  name: "personne de principes"
+  input: "Principle"
+  rules: |
+    Le personnage suit des restrictions morales ou religieuses strictes.
+  selectOptions:
+    - id: 1
+      name: "99 Lois de Rastullah"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 2
+      name: "Codex moral de l'Église de Hésinde"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 3
+      name: "Codex moral de l'Église de Phex"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 4
+      name: "Codex moral de l'Église de Péraine"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 5
+      name: "Honneur des guerriers"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 6
+      name: "Honneur des chevaliers"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 7
+      name: "Application stricte des 99 Lois de Rastullah"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 8
+      name: "Codex moral de l'Église de Boron"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 9
+      name: "Codex moral de l'Église de Praïos"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 10
+      name: "Codex moral de l'Église de Rondra"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 11
+      name: "Code d'honneur des Nains"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 12
+      name: "Pacifisme"
+      src:
+        - id: LDR1
+          firstPage: 176
+  src:
+    - id: LDR1
+      firstPage: 176
+
+- id: DISADV_35
+  name: "somnambule"
+  rules: |
+    Le somnambulisme induit une activité latente ou manifeste durant le sommeil de lʼaventurier et dont le meneur devra déterminer la nature.
+  src:
+    - id: LDR1
+      firstPage: 179
+
+- id: DISADV_36
+  name: "mauvaise habitude"
+  input: "Habit"
+  rules: |
+    La plupart des mauvaises habitudes ne nuisent pas aux héros et sont rarement importunes et dérangeantes, mais elles conduisent parfois à des conséquences désagréables.
+  selectOptions:
+    - id: 1
+      name: "nu-pieds"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 3
+      name: "troisième personne"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 5
+      name: "premier avant les autres"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 6
+      name: "pelurnicheur"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 7
+      name: "hypocondriaque"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 8
+      name: "\"gars\""
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 9
+      name: "gros dormeur"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 10
+      name: "confusion gauche-droite"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 11
+      name: "\"mon enfant\""
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 12
+      name: "se ronge les ongles"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 14
+      name: "nerveux"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 15
+      name: "maniaque de la propreté"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 16
+      name: "fumeur"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 17
+      name: "parlé précipité"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 18
+      name: "mauvaises manières à la table"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 19
+      name: "soliloque"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 20
+      name: "désordonné"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 21
+      name: "pluriel de majesté"
+      src:
+        - id: LDR1
+          firstPage: 174
+  apValueAppend: "par mauvaise habitude"
+  src:
+    - id: LDR1
+      firstPage: 174
+
+- id: DISADV_37
+  name: "mauvaise qualité"
+  rules: |
+    Nombre de héros ne sont pas uniquement animés par des motifs rationnels.
+  selectOptions:
+    - id: 1
+      name: "superstition"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 2
+      name: "soumission aveugle à l'autorité"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 3
+      name: "cupidité"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 4
+      name: "avarice"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 5
+      name: "irascibilité"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 6
+      name: "cleptomanie"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 7
+      name: "naïveté"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 8
+      name: "curiosité"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 9
+      name: "esprit de vengeance"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 10
+      name: "dépendance au jeu"
+      src:
+        - id: LDR1
+          firstPage: 174
+    - id: 11
+      name: "prodigalité"
+      src:
+        - id: LDR1
+          firstPage: 174
+  apValue: "selon la mauvaise qualité"
+  src:
+    - id: LDR1
+      firstPage: 174
+
+- id: DISADV_38
+  name: "faible régénération (énergie astrale)"
+  rules: |
+    Ce désavantage bride la récupération des points astraux dʼun héros pendant la phase de régénération.
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_39
+  name: "faible régénération (énergie karmique)"
+  rules: |
+    Ce désavantage bride la récupération des points de karma dʼun héros pendant la phase de régénération.
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_40
+  name: "faible régénération (énergie vitale)"
+  rules: |
+    Ce désavantage bride la récupération des points de vie dʼun héros pendant la phase de régénération.
+  src:
+    - id: LDR1
+      firstPage: 172
+
+- id: DISADV_41
+  name: "corps astral faible"
+  rules: |
+    Le corps du lanceur de sorts nʼest pas adapté pour être le réceptacle de forces magiques.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: DISADV_42
+  name: "corps karmique faible"
+  rules: |
+    Le corps du prêtre nʼest pas adapté pour être le réceptacle de forces karmiques.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: DISADV_43
+  name: "odorat sensible"
+  rules: |
+    Ce désavantage existe surtout chez les Elfes et les fait éprouver un malaise, avoir des vertiges et la nausée en présence de mauvaises odeurs émanant de chair en putréfaction, de matières fécales ou autres sources nauséabondes.
+  src:
+    - id: LDR1
+      firstPage: 176
+
+- id: DISADV_44
+  name: "problème d'élocution"
+  rules: |
+    Un personnage avec ce désavantage zézaye, bégaye ou souffre dʼun problème dʼélocution du même genre.
+  src:
+    - id: LDR1
+      firstPage: 177
+
+- id: DISADV_45
+  name: "stigmate"
+  input: "Stigma"
+  rules: |
+    Inné de par la naissance ou acquis par une malédiction ou un accident, cet élément principalement physique, aux formes les plus diverses, engendre des réactions de rejet manifestes à lʼégard de son porteur.
+  selectOptions:
+    - id: 1
+      name: "albinos"
+      src:
+        - id: LDR1
+          firstPage: 179
+    - id: 2
+      name: "marques de feu"
+      src:
+        - id: LDR1
+          firstPage: 179
+    - id: 3
+      name: "cheveux verts"
+      src:
+        - id: LDR1
+          firstPage: 179
+    - id: 4
+      name: "yeux félins"
+      src:
+        - id: LDR1
+          firstPage: 179
+    - id: 5
+      name: "écailles de serpent"
+      src:
+        - id: LDR1
+          firstPage: 179
+  src:
+    - id: LDR1
+      firstPage: 179
+
+- id: DISADV_46
+  name: "mutisme"
+  rules: |
+    Le héros nʼest pas en mesure de parler.
+  src:
+    - id: LDR1
+      firstPage: 175
+
+- id: DISADV_47
+  name: "surdité"
+  rules: |
+    Le héros ne peut rien entendre.
+  src:
+    - id: LDR1
+      firstPage: 179
+
+- id: DISADV_48
+  name: "inaptitude"
+  rules: |
+    Une inaptitude indique quʼune personne sʼavère être particulièrement incompétente dans un talent.
+  prerequisites: "~~advantage pas dʼavantage prédisposition sur le même talent~~, le héros peut au maximum posséder 2 inaptitudes"
+  src:
+    - id: LDR1
+      firstPage: 173
+
+- id: DISADV_49
+  name: "servitude"
+  rules: |
+    Le héros est un serf ou un esclave. Il nʼa quasiment aucun droit dans sa culture.
+  src:
+    - id: LDR1
+      firstPage: 178
+
+- id: DISADV_50
+  name: "obligations"
+  input: "Obligation"
+  rules: |
+    Lʼaventurier a accepté des obligations par rapport à un groupe, une organisation ou un particulier.
+  selectOptions:
+    - id: 1
+      name: "un membre d'un clan envers son clan"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 2
+      name: "un héros endetté"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 3
+      name: "un noble envers son seigneur féodal"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 4
+      name: "un prêtre envers son Église"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 5
+      name: "un prêtre envers son temple"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 6
+      name: "un magicien envers son maître"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 7
+      name: "un magicien envers son académie"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 8
+      name: "un magicien envers sa guilde"
+      src:
+        - id: LDR1
+          firstPage: 176
+    - id: 9
+      name: "un membre d'une secte radicale envers son chef de groupe"
+      src:
+        - id: LDR1
+          firstPage: 176
+  src:
+    - id: LDR1
+      firstPage: 176
+
+- id: DISADV_51
+  name: "mutilé"
+  rules: |
+    Des suites dʼun combat, de la torture ou depuis la naissance, le héros est difforme ou mutilé.
+  selectOptions:
+    - id: 1
+      name: "manchot"
+      src:
+        - id: LDR1
+          firstPage: 175
+    - id: 2
+      name: "borgne"
+      src:
+        - id: LDR1
+          firstPage: 175
+    - id: 3
+      name: "unijambiste"
+      src:
+        - id: LDR1
+          firstPage: 175
+    - id: 4
+      name: "une seule main"
+      src:
+        - id: LDR1
+          firstPage: 175
+    - id: 5
+      name: "une seule oreille"
+      src:
+        - id: LDR1
+          firstPage: 175
+  apValue: "une seule oreille : –5 points dʼaventure ; une seule main : –20 points dʼaventure ; borgne : –10 points dʼaventure ; manchot/unijambiste : –30 points dʼaventure"
+  src:
+    - id: LDR1
+      firstPage: 175
+
+- id: DISADV_52
+  name: "nom essentiel"
+  rules: |
+    Dʼaprès la légende, les êtres vivants et de nombreux objets possèdent chacun un « nom essentiel », cʼest-à-dire que leur essence est contenue dans un nom.
+  src:
+    - id: LDR1
+      firstPage: 175
+
+- id: DISADV_53
+  name: "magie sauvage"
+  rules: |
+    Le lanceur de sorts réalise plus souvent des maladresses en faisant de la magie, car il ne possède quʼun aperçu chaotique du sort ou du rituel dans la matrice.
+  src:
+    - id: LDR1
+      firstPage: 173
+
+- id: DISADV_54
+  name: "sensibilité à la magie"
+  rules: |
+    Certaines personnes résistent moins bien aux sorts et autres effets magiques.
+  src:
+    - id: LDR1
+      firstPage: 178
+
+- id: DISADV_55
+  name: "fragile"
+  rules: |
+    Certains héros sont plus sensibles que dʼautres.
+  src:
+    - id: LDR1
+      firstPage: 173

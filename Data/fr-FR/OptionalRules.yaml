@@ -1,0 +1,232 @@
+- id: OR_1
+  name: "Pas de jet de confirmation"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 20
+
+- id: OR_2
+  name: "Passer une épreuve de compétence plus rapidement"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 22
+
+- id: OR_3
+  name: "Les dés de couleurs selon Paramanthus"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 22
+
+- id: OR_4
+  name: "Qualités alternatives pour les épreuves"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 23
+
+- id: OR_5
+  name: "Épreuve de groupe cumulative avec différents talents"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 27
+
+- id: OR_6
+  name: "Héros et personnages non-joueurs - une petite mais subtile différence"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 31
+
+- id: OR_7
+  name: "Autres possibilités de récupérer des points de destin"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 31
+
+- id: OR_8
+  name: "Limite de qualité"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 39
+
+- id: OR_9
+  name: "Capital de départ et degré d'expérience"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 58
+
+- id: OR_10
+  name: "Connaissance culturelle"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 96
+
+- id: OR_11
+  name: "L'épreuve par groupe de talents"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 184
+
+- id: OR_12
+  name: "Utilisation inhabituelle des talents"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 184
+
+- id: OR_13
+  name: "Compensation des qualités pour les épreuves de routine"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 185
+
+- id: OR_14
+  name: "Esgoupil régional"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 217
+
+- id: OR_15
+  name: "Spécialisation linguistique"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 218
+
+- id: OR_16
+  name: "Initiative d'un groupe d'adversaires"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 228
+
+- id: OR_17
+  name: "Valeur d'actions défensives plus élevée"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 228
+
+- id: OR_18
+  name: "Table des maladresses en mêlée"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 231
+      lastPage: 232
+
+- id: OR_19
+  name: "Actions défensives supplémentaires pour les personnages humanoïdes non-joueurs"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 232
+
+- id: OR_20
+  name: "Table des maladresses en défense (en mêlée)"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 234
+
+- id: OR_21
+  name: "Table des maladresses en combat à distance"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 243
+
+- id: OR_22
+  name: "Tables des maladresses en défense (en combat à distance)"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 244
+
+- id: OR_23
+  name: "Possible réutilisation d'une munition"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 246
+
+- id: OR_24
+  name: "Épreuve par domaine"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 252
+
+- id: OR_25
+  name: "Inhibition du flux karmique"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 306
+
+- id: OR_26
+  name: "Pas de maladrese pour les liturgies"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 311
+
+- id: OR_27
+  name: "Mission divine et égoïsme"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 314
+
+- id: OR_28
+  name: "Moins de régénération"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 340
+
+- id: OR_29
+  name: "Distance exacte"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 350

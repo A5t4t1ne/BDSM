@@ -1,0 +1,131 @@
+- id: CANTRIP_1
+  name: "Raffreddamento"
+  effect: |
+    Grazie a questo trucchetto puoi diminuire la temperatura di una piccola quantità di liquido (al più una tazza) di 10 gradi.
+  range: "Tocco"
+  duration: "Immediato"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 287
+
+- id: CANTRIP_2
+  name: "Ventriloquio"
+  effect: |
+    Questo trucco produce una singola parola o altri lievi rumori che sembrano provenire da al più 8 passi di distanza da te.
+  range: "8 passi"
+  duration: "1 azione"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 287
+
+- id: CANTRIP_3
+  name: "Fragranza"
+  effect: |
+    Avrai un odore piacevole (un profumo o un’altra fragranza gradevole a scelta) per 5 minuti.
+  range: "Sé stesso"
+  duration: "5 minuti"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 286
+
+- id: CANTRIP_4
+  name: "Dito di fuoco"
+  effect: |
+    Una piccola fiamma appare ad un centimetro sopra la punta del tuo dito, bruciando fino a 5 minuti. La mano resta protetta dal calore della fiamma.
+  range: "Sé stesso"
+  duration: "5 minuti"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 286
+
+- id: CANTRIP_5
+  name: "Dita fortunate"
+  effect: |
+    Riesci a scegliere, in mezzo ad un vasto numero di oggetti, proprio quello da te desiderato, in modo apparentemente casuale. È possibile pescare una certa carta durante una partita, estrarre esattamente la moneta desiderata da un borsello o indovinare la chiave giusta da un mazzo che ne contenga una dozzina. Devi ovviamente avere un’idea dell’oggetto che vuoi trovare e questo deve essere presente.
+  range: "Sé stesso"
+  duration: "Immediato"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 286
+
+- id: CANTRIP_6
+  name: "Scaldamani"
+  effect: |
+    Questo trucco stabilizza e mantiene la temperatura di un oggetto tenuto nella mano . Come implica il suo nome, Scaldamani è spesso utilizzato per fare di una roccia calda (presa da un falò vicino, ad esempio) uno scaldamani temporaneo. L’oggetto scelto deve essere della grandezza di un pugno o più piccolo.
+  range: "Tocco"
+  duration: "5 minuti"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 287
+
+- id: CANTRIP_7
+  name: "Richiamo"
+  effect: |
+    Un piccolo animale (come una colomba o uno scoiattolo) si incuriosisce e ti si avvicina. L’effetto dura 5 minuti.
+  range: "4 passi"
+  duration: "5 minuti"
+  target: "Animali"
+  src:
+    - id: REG001
+      firstPage: 287
+
+- id: CANTRIP_8
+  name: "Occhi Arcobaleno"
+  effect: |
+    Il colore dei tuoi occhi cambia per 5 minuti. Puoi scegliere colori che non si trovano in natura, se lo desideri.
+  range: "Sé stesso"
+  duration: "5 minuti"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 287
+
+- id: CANTRIP_9
+  name: "Mani di serpente"
+  effect: |
+    Le ossa della tua mano e delle tue dita diventano insolitamente flessibili, permettendoti di insinuarle attraverso strettissime fessure. L’effetto dura per 5 minuti. 
+  range: "Sé stesso"
+  duration: "5 minuti"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 286
+
+- id: CANTRIP_10
+  name: "Schiocco di dita"
+  effect: |
+    Questo trucco produce una corta onda telecinetica con un raggio di 4 passi. Puoi usarla per spostare piccoli oggetti (far cadere un piatto dal tavolo, ad esempio). Non è abbastanza forte per rompere una bottiglia di vetro, ma è sufficiente per una sberla ben assestata.
+  range: "4 passi"
+  duration: "Immediato"
+  target: "Oggetti e creature"
+  src:
+    - id: REG001
+      firstPage: 287
+
+- id: CANTRIP_11
+  name: "Firma"
+  effect: |
+    Su un oggetto inanimato a tua scelta appare un glifo o un simbolo permanente. Per usare questo trucco devi toccare l’oggetto. Il simbolo sembra come dipinto e può essere cancellato. Puoi far apparire un solo simbolo (come un pittogramma) alla volta.
+  range: "Tocco"
+  duration: "Immediato"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 286
+
+- id: CANTRIP_12
+  name: "Impermeabile"
+  effect: |
+    Questo trucco protegge te e i tuoi vestiti da pioggia o neve. Non puoi asciugare vestiti bagnati con il trucco.
+  range: "Sé stesso"
+  duration: "5 minuti"
+  target: "Oggetti e creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 286

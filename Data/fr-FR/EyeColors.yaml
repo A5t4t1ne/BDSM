@@ -1,0 +1,40 @@
+- id: 1
+  name: "améthyste violet"
+- id: 2
+  name: "ambre"
+- id: 3
+  name: "bleu"
+- id: 4
+  name: "brun"
+- id: 5
+  name: "brun foncé"
+- id: 6
+  name: "violet foncé"
+- id: 7
+  name: "gris glacial"
+- id: 8
+  name: "paillettes d'or"
+- id: 9
+  name: "gris"
+- id: 10
+  name: "gris-bleu"
+- id: 11
+  name: "vert"
+- id: 12
+  name: "marron clair"
+- id: 13
+  name: "rouge rubis"
+- id: 14
+  name: "bleu saphir"
+- id: 15
+  name: "noir"
+- id: 16
+  name: "noir-brun"
+- id: 17
+  name: "gris argenté"
+- id: 18
+  name: "vert émeraude"
+- id: 19
+  name: "rouge"
+- id: 20
+  name: "violet"

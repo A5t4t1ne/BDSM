@@ -1,0 +1,46 @@
+- id: LP
+  name: "Pontos de Vida"
+  short: PV
+  calc: "(Base da Raça + CON + CON)"
+
+- id: AE
+  name: "Energia Arcana"
+  short: EA
+  calc: "(20 para Conjurador + Atributo Primário)"
+  calcHalfPrimary: "(20 para Conjurador + Atributo Primário/2)"
+  calcNoPrimary: "(20 para Conjurador)"
+
+- id: KP
+  name: "Ponto de Karma"
+  short: PK
+  calc: "(20 para Abençoados + Atributo Primário)"
+
+- id: SPI
+  name: "Espírito"
+  short: SPI
+  calc: "(Base da Raça + (COU + SAG + INT)/6)"
+
+- id: TOU
+  name: "Tenacidade"
+  short: TOU
+  calc: "(Base da Raça + (CON + CON + FOR)/6)"
+
+- id: DO
+  name: "Esquiva"
+  short: ESQ
+  calc: "(AGI/2)"
+
+- id: INI
+  name: "Iniciativa"
+  short: INI
+  calc: "(COR + AGI)/2"
+
+- id: MOV
+  name: "Movimento"
+  short: MOV
+  calc: "(Base da Raça, ex. Uma perna)"
+
+- id: WT
+  name: "Limiar de Ferimento"
+  short: LF
+  calc: "(CON/2)"

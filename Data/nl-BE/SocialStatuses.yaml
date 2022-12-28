@@ -1,0 +1,10 @@
+- id: 1
+  name: "Onvrij"
+- id: 2
+  name: "Vrij"
+- id: 3
+  name: "Lage adel"
+- id: 4
+  name: "Adel"
+- id: 5
+  name: "Hoge adel"

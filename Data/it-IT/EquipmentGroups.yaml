@@ -1,0 +1,54 @@
+- id: 1
+  name: "Armi da mischia"
+- id: 2
+  name: "Armi a distanza"
+- id: 3
+  name: "Munizioni"
+- id: 4
+  name: "Armature"
+- id: 5
+  name: "Accessori per le armi"
+- id: 6
+  name: "Abbigliamento"
+- id: 7
+  name: "Equipaggiamento da viaggio e utensili"
+- id: 8
+  name: "Illuminazione"
+- id: 9
+  name: "Bendaggi e rimedi"
+- id: 10
+  name: "Contenitori"
+- id: 11
+  name: "Corde e catene"
+- id: 12
+  name: "Strumenti da ladro"
+- id: 13
+  name: "Strumenti artigianali"
+- id: 14
+  name: "Strumenti per l’orientamento"
+- id: 15
+  name: "Gioielli"
+- id: 16
+  name: "Gemme e pietre preziose"
+- id: 17
+  name: "Strumenti per la scrittura"
+- id: 18
+  name: "Libri"
+- id: 19
+  name: "Artefatti magici"
+- id: 20
+  name: "Prodotti alchemici"
+- id: 21
+  name: "Veleni"
+- id: 22
+  name: "Erbe curative"
+- id: 23
+  name: "Strumenti musicali"
+- id: 24
+  name: "Beni di lusso e piacere"
+- id: 25
+  name: "Animali"
+- id: 26
+  name: "Cura degli animali"
+- id: 27
+  name: "Mezzi di trasporto"

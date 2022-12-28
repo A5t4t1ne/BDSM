@@ -1,0 +1,40 @@
+- id: RV_1
+  name: "Meridianos"
+
+- id: RV_2
+  name: "Niveseanos"
+  commonAdvantages: "Resistente ao Frio, Sentido de Alcance"
+  commonDisadvantages: "Suscetível ao calor"
+
+- id: RV_3
+  name: "Norbardes"
+
+- id: RV_4
+  name: "Thorwale"
+  commonAdvantages: "Lutador Robusto, Tenacidade Aumentada"
+  commonDisadvantages: "Espírito Reduzido, Frenesi"
+
+- id: RV_5
+  name: "Tulamidas"
+  commonAdvantages: "Resistente ao Calor"
+  commonDisadvantages: "Suscetível ao Frio"
+
+- id: RV_6
+  name: "Povo da Floresta"
+  commonAdvantages: "Cheiro Agradável, Imunidade a Surto de Difar (uma doença), Imunidade a Suor de Brabak (uma doença), Imunidade a Wurara (um veneno), Resistente Ao Calor"
+  commonDisadvantages: "Suscetível ao Frio"
+
+- id: RV_7
+  name: "Utulus"
+  commonAdvantages: "Cheiro Agradável, Imunidade a Surto de Difar (uma doença), Imunidade a Suor de Brabak (uma doença), Imunidade a Wurara (um veneno), Resistente Ao Calo"
+  commonDisadvantages: "Suscetível ao Frio"
+
+- id: RV_8
+  name: "Elfo da Clareira"
+
+- id: RV_9
+  name: "Firnelfo"
+
+- id: RV_10
+  name: "Elfo da Floresta"
+

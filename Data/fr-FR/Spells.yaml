@@ -1,0 +1,866 @@
+- id: SPELL_1
+  name: "oeil de lynx"
+  effect: |
+    Cette formule magique a contribué à répandre lʼidée que les Elfes sont dotés de sens  surnaturels.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 295
+
+- id: SPELL_2
+  name: "analysis structura arcana"
+  effect: |
+    Tous les ensorceleurs spécialisés dans le domaine clairvoyance connaissent cette formule.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 287
+
+- id: SPELL_3
+  name: "protectio armatura"
+  effect: |
+    À lʼaide de ce sort, le héros obtient une  protection magique qui recouvre sa peau.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 297
+
+- id: SPELL_4
+  name: "axxeleratus"
+  effect: |
+    Axxeleratus peut rendre lʼensorcelé aussi rapide quʼun félin.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 288
+
+- id: SPELL_5
+  name: "balsamon salabunde"
+  effect: |
+    Le sort de guérison classique.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 288
+
+- id: SPELL_6
+  name: "bannbaladi"
+  effect: |
+    Un sort dʼamitié qui est surtout utilisé par les Elfes.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 288
+
+- id: SPELL_7
+  name: "regard dans les pensées"
+  effect: |
+    Un sort classique de lecture dans les pensées dʼautrui.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 297
+
+- id: SPELL_8
+  name: "éclair te perd"
+  effect: |
+    La formule magique peut désorienter un adversaire.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 290
+
+- id: SPELL_9
+  name: "corpodolora"
+  effect: |
+    Corpodolora permet dʼinfliger des douleurs à la cible.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 288
+
+- id: SPELL_10
+  name: "disruptivo"
+  effect: |
+    Une formule dʼantimagie qui complique la magie dans les environs proches.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 289
+
+- id: SPELL_11
+  name: "duplicatus duplicatis"
+  effect: |
+    Duplicatus est un sort dʼillusion célèbre créant un double mobile, principalement utilisé en combat.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 289
+
+- id: SPELL_12
+  name: "oeil de faucon"
+  effect: |
+    La formule magique est utilisée par les combattants à distance, pour viser avec une redoutable et mortelle précision
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 295
+
+- id: SPELL_13
+  name: "lumen"
+  effect: |
+    La formule magique probablement la plus connue.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 292
+
+- id: SPELL_14
+  name: "fulminictus"
+  effect: |
+    Un sort de combat qui touche automatiquement la cible, sans quʼelle puisse esquiver.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 290
+
+- id: SPELL_15
+  name: "gardianum"
+  effect: |
+    Cʼest un sort de protection contre les attaques magiques qui crée une sphère invisible autour du magicien absorbant les sorts de dommages.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 290
+
+- id: SPELL_16
+  name: "avidité effrénée"
+  effect: |
+    Ce sort de sorcière produit une immense envie chez un être vivant à lʼégard dʼun certain objet ou dʼune certaine action.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 287
+
+- id: SPELL_17
+  name: "illusion d'innocence"
+  effect: |
+    À lʼaide de ce tour, les sorcières créent lʼillusion dʼun enfant innocent ou dʼune autre créature  inoffensive et peuvent ainsi échapper à la colère de leurs persécuteurs
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 291
+
+- id: SPELL_18
+  name: "fiel des sorcières"
+  effect: |
+    Le fiel des sorcières ensorcelle sa propre salive, la transformant en une substance corrosive.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 290
+
+- id: SPELL_19
+  name: "griffes des sorcières"
+  effect: |
+    Toutes les sorcières, surtout celles appartenant à la sororité des Belles de la Nuit, peuvent  transformer leurs ongles en griffes dangereusement tranchantes
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 290
+
+- id: SPELL_20
+  name: "horriphobus"
+  effect: |
+    Un sort qui provoque la peur.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 291
+
+- id: SPELL_21
+  name: "ignifaxius"
+  effect: |
+    Crée un rayon de flammes qui jaillit des doigts du lanceur.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 291
+
+- id: SPELL_22
+  name: "invocatio minima"
+  effect: |
+    Un sort simple qui conjure une petite quantité dʼessence des Bas-Enfers.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 292
+
+- id: SPELL_23
+  name: "oeil de chat"
+  effect: |
+    Avec cette formule magique, un lanceur de sorts peut voir dans la pénombre aussi bien quʼun chat.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 295
+
+- id: SPELL_24
+  name: "saut du crapaud"
+  effect: |
+    Grâce à cette formule magique, les lanceurs de sorts sautent extrêmement haut et loin.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 298
+
+- id: SPELL_25
+  name: "manifesto"
+  effect: |
+    La formule magique invoque une petite quantité dʼun élément.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 292
+
+- id: SPELL_26
+  name: "manus miracula"
+  effect: |
+    Une variante de motoricus qui est plus un sort dʼexercice de télékinésie quʼune application sérieuse.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 293
+
+- id: SPELL_27
+  name: "motoricus"
+  effect: |
+    Une formule magique classique, suffisante pour la plupart des applications de son domaine de magie.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 293
+
+- id: SPELL_28
+  name: "mur de brouillard"
+  effect: |
+    La formule magique crée un brouillard qui émane de la paume du lanceur et sʼétend autour de  lui.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 294
+
+- id: SPELL_29
+  name: "oculus illusionis"
+  effect: |
+    La formule magique crée une illusion dʼoptique.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 294
+
+- id: SPELL_30
+  name: "odem arcanum"
+  effect: |
+    Un des sorts de base de toutes les traditions.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 294
+
+- id: SPELL_31
+  name: "paralysis"
+  effect: |
+    Cette formule magique peut aller jusquʼà statufier un être vivant
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 295
+
+- id: SPELL_32
+  name: "penetrans"
+  effect: |
+    Grâce à cette formule magique, un lanceur de sorts peut regarder à travers les murs ou les objets
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 296
+
+- id: SPELL_33
+  name: "psychostabilis"
+  effect: |
+    Celui qui souhaite se protéger contre la magie de domination doit maîtriser cette formule  magique.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 297
+
+- id: SPELL_34
+  name: "remue-ménage"
+  effect: |
+    Cette formule magique pratique, que lʼon ne trouve que chez les sorcières, éveille un balai ou tout autre bâton de bois quasiment à la vie.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 297
+
+- id: SPELL_35
+  name: "respondami"
+  effect: |
+    Grâce à ce sort, le lanceur peut dominer une personne et la forcer à dire la vérité.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 298
+
+- id: SPELL_36
+  name: "salander mutander"
+  effect: |
+    Lʼutilisateur de cette formule est en mesure de transformer un petit organisme vivant en un autre organisme vivant.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 298
+
+- id: SPELL_37
+  name: "apaisement"
+  effect: |
+    Les sorcières peuvent utiliser ce sort pour apaiser un animal, pour faire en sorte quʼil nʼattaque pas.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 287
+
+- id: SPELL_38
+  name: "splendeur de Satuaria"
+  effect: |
+    Un sort de beauté à lʼorigine de lʼattraction légendaire des sorcières et de leur art de la séduction.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 299
+
+- id: SPELL_39
+  name: "silentium"
+  effect: |
+    Une zone de silence absolu est créée grâce à cette formule magique.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 298
+
+- id: SPELL_40
+  name: "somnigravis"
+  effect: |
+    Ce sort permet dʼendormir une cible.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 298
+
+- id: SPELL_41
+  name: "pattes d'araignées"
+  effect: |
+    Grâce à ce sort, les sorcières sont en mesure dʼadhérer facilement aux murs et même aux plafonds.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 296
+
+- id: SPELL_42
+  name: "pas fantôme"
+  effect: |
+    On prétend que les Elfes ne laissent pas dʼempreinte de pas.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 296
+
+- id: SPELL_43
+  name: "transversalis"
+  effect: |
+    Une formule magique qui peut faire voyager le lanceur sur de courtes distances.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 299
+
+- id: SPELL_44
+  name: "vanitar visibili"
+  effect: |
+    Une formule magique qui rend son utilisateur invisible mais qui souffre dʼun défaut : les  vêtements du lanceur restent visibles.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 299
+
+- id: SPELL_45
+  name: "respiration amphibie"
+  effect: |
+    Cette formule magique permet à un Elfe de respirer sous lʼeau et de rester en plongée comme sʼil était dans son élément naturel.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 297
+
+- id: SPELL_46
+  name: "arcanovi"
+  effect: |
+    Grâce à ce sort, on peut lier des formules magiques à des objets.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 300
+
+- id: SPELL_47
+  name: "appel de djinn"
+  effect: |
+    Un rituel pour invoquer de puissants djinns.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 300
+
+- id: SPELL_48
+  name: "serviteur élémentaire"
+  effect: |
+    Un rituel pour invoquer des esprits élémentaires.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 301
+
+- id: SPELL_49
+  name: "invocatio maior"
+  effect: |
+    Un rituel pour conjurer de puissants démons cornus.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 300
+
+- id: SPELL_50
+  name: "invocatio minor"
+  effect: |
+    Un rituel pour conjurer des démons mineurs.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 300
+
+- id: SPELL_51
+  name: "enchantement d'arme"
+  effect: |
+    Ce rituel permet dʼenchanter une arme pour quʼelle devienne une arme magique.
+  castingTime: " "
+  castingTimeShort: " "
+  aeCost: " "
+  aeCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 300

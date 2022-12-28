@@ -1,0 +1,54 @@
+- id: 1
+  name: "Armes de mêlée"
+- id: 2
+  name: "Armes de combat à distance"
+- id: 3
+  name: "Munitions"
+- id: 4
+  name: "Armures"
+- id: 5
+  name: "Accessoires pour armes et armures"
+- id: 6
+  name: "Vêtements"
+- id: 7
+  name: "Outils et accessoires de voyage"
+- id: 8
+  name: "Éclairages"
+- id: 9
+  name: "Bandages et remèdes"
+- id: 10
+  name: "Contenants"
+- id: 11
+  name: "Cordes et chaînes"
+- id: 12
+  name: "Outils de voleur"
+- id: 13
+  name: "Outils d'artisanat"
+- id: 14
+  name: "Aides pour l'orientation dans l'espace et le temps"
+- id: 15
+  name: "Bijoux"
+- id: 16
+  name: "Pierres précieuses et semi-précieuses"
+- id: 17
+  name: "Papeterie"
+- id: 18
+  name: "Livres"
+- id: 19
+  name: "Artefacts magiques"
+- id: 20
+  name: "Alchimica"
+- id: 21
+  name: "Poisons"
+- id: 22
+  name: "Herbes médicinales"
+- id: 23
+  name: "Instruments de musique"
+- id: 24
+  name: "Produits de luxe"
+- id: 25
+  name: "Animaux"
+- id: 26
+  name: "Animalerie"
+- id: 27
+  name: "Moyens de locomotion"

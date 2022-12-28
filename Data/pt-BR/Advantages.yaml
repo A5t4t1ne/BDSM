@@ -1,0 +1,530 @@
+- id: ADV_1
+  name: "Nobre"
+  rules: |
+    O herói ou heroína recebe respeito, goza dos privilégios de um nobre e pode ganhar bônus do MJ ao interagir com pessoas de status inferior. Para mais pormenores, veja o **Livro de Regras** na página **334**.
+  prerequisites: "Cultura com um sistema de classes que incorpore uma aristocracia."
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_2
+  name: "Resistente ao Envelhecimento (*)"
+  rules: |
+    O herói ou heroína é imune ao envelhecimento natural e mágico e não sofre os efeitos negativos da velhice.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_3
+  name: "Cheiro Agradável"
+  rules: |
+    Testes de perícia de *Sedução (Flertar, Artes Românticas)* recebem 1 de bônus.
+  range: "Raio de 1 metro"
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_4
+  name: "Aptidão"
+  rules: |
+    Uma personagem com a vantagem Aptidão pode repetir um único D20 em cada teste de perícia para a perícia escolhida. Você rola 3D20 como de costume, mas escolhe um resultado final para rerrolar, mantendo o melhor resultado. Aptidões devem ser adquiridas individualmente para cada perícia, feitiço ou cântico litúrgico. Você não pode comprar Aptidão para a mesma perícia mais do que uma vez (porque você não pode usar Aptidão para rerrolar mais do que um D20 em um teste). Você não pode invocar esta vantagem se o teste de perícia resultar em um duplo ou um triplo 20. Você não pode escolher uma Aptidão para uma *técnica de combate* (para isso, você deve usar a vantagem Aptidão com Arma, no **Livro de Regras** na página **164**). Você pode optar por gastar um PD antes ou depois de invocar a sua Aptidão (veja a página 30), o que significa que é possível rerrolar mais de uma vez ou até mesmo combinar outro efeito de PD com uma Aptidão.
+  apValue: "Perícia A/B/C/D: 6/12/18/24 pontos de aventura"
+  prerequisites: "~~Sem a desvantagem Incompetente com a perícia~~, não mais do que três Aptidões por personagem."
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_5
+  name: "Ambidestria"
+  rules: |
+    Personagens com essa vantagem não sofrem penalidades em testes de perícia por usar sua mão inábil. Em combate, não sofrem penalidades por empunhar armas em sua mão inábil (veja no **Livro de Regras** na página 233).
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_6
+  name: "Visão no Escuro I–II(*)"
+  rules: |
+    No nível I desta vantagem, reduza as penalidades de escuridão em um nível. O nível II lhe permite ignorar todas as penalidades de escuridão. Na escuridão completa, Visão no Escuro (Nível I ou II) não funciona e as penalidades totais para a escuridão completa se aplicam (veja no **Livro de Regras** na página **344**).
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_7
+  name: "Aura Sintonizada com Ferro"
+  rules: |
+    Com esta vantagem, você sofre uma penalidade para cada 2 quilos de peso devido a Proibição do Ferro, e não a cada 1 kg, como de costume (veja no **Livro de Regras** página **245**).
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_8
+  name: "Sentido de Alcance"
+  rules: |
+    Testes de combate à distância com armas de projétil sofrem 1 de penalidade em vez de 2 para alvos na faixa de distância Longa. Esta penalidade se aplica apenas a armas de projéteis, não a armas de arremesso.
+  range: "200 metros. Além dessa distância, a sua capacidade de avaliação torna-se cada vez menos precisa."
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_9
+  name: "Ágil"
+  rules: |
+    Aumente o Movimento do seu herói ou heroína em 1.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_10
+  name: "Sentido de Raposa"
+  rules: |
+    O herói pode perceber armadilhas que não podem ser encontradas com sentidos comuns. Com esta vantagem, o herói pode usar o *Sentido de Raposa* como uma aplicação para a perícia *Percepção*.
+  range: "10 metros"
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_11
+  name: "Orador Natural"
+  rules: |
+    Testes de perícia usando *Persuasão (Oratória)* recebem 1 de bônus.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_12
+  name: "Abençoado"
+  rules: |
+    O herói ou heroína recebe uma base de 20 pontos de karma (PKs). Cada Abençoado também deve começar o jogo com uma *Tradição* (uma habilidade especial — veja no **Livro de Regras** a página **312**), que você deve comprar separadamente. Além disso, você só pode ser consagrado a uma única divindade de cada vez — não é possível comprar outra Tradição. Um herói ou heroína que deseja se tornar um Abençoado pode adquirir esta vantagem mais tarde na vida.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_13
+  name: "Resistente a Venenos I-II"
+  rules: |
+    Resistente a Venenos aumenta a sua Tenacidade e Espírito em 1 por nível para resistir a venenos.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_14
+  name: "Sorte I-III"
+  rules: |
+    O seu número máximo de PDs (determinado pelo Nível de Experiência) aumenta em 1 por nível desta vantagem. Adicione quaisquer PDs adicionais ao total do herói ou heroína.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_15
+  name: "Boa Aparência I-II"
+  rules: |
+    O herói recebe 1 de bônus por nível desta vantagem em testes usando *Comércio (Pechinchar)*, *Lábia (Venda Difícil, Manipular, Subterfúgio, Bajular)* e  *Sedução (Flertar, Romantismo)*.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_16
+  name: "Perícia Excepcional"
+  rules: |
+    A vantagem de Perícia Excepcional aumenta a graduação máxima de perícia na habilidade em 1. Isto significa tanto o máximo para a criação de personagem quanto o máximo final (dependendo do atributo mais alto envolvido, veja no **Livro de Regras** na pagina **41**). Você não recebe um ponto gratuito na perícia, mas pode iniciar o jogo com uma GP de 11 (em vez de 10) quando usando um nível de experiência de  *Experiente*. O máximo final também aumenta em 1 ponto. Você pode comprar esta vantagem até quatro vezes, mas não mais do que duas vezes para a mesma perícia. Se você pegar a vantagem duas vezes para uma determinada perícia, a GP máxima aumenta em 2.
+  apValue: "Perícia A/B/C/D: 2/4/6/8 pontos de aventura por ampliação"
+  prerequisites: "~~Sem a desvantagem Incompetente para a Perícia.~~"
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_17
+  name: "Técnica De Combate Excepcional"
+  rules: |
+    A vantagem Técnica de Combate Excepcional aumenta o máximo na técnica de combate em 1. Isto significa tanto o máximo para a criação de personagem quanto o máximo final (dependendo do atributo mais alto envolvido, veja no **Livro de Regras** na pagina  **41**). O herói não recebe um ponto na técnica, mas pode iniciar o jogo com uma estatística de 13 (em vez de 12) considerando um nível de experiência de *Experiente*. O máximo final do herói também aumenta em 1 ponto. Você pode comprar esta vantagem duas vezes, mas apenas uma vez para uma técnica de combate em particular.
+  apValue: "B/C/D combat technique: 8/12/16 adventure points"
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_18
+  name: "Sentido Excepcional"
+  rules: |
+    Uma personagem com Sentido Excepcional recebe 1 de bônus em testes com Percepção, mas apenas se o teste usar o sentido escolhido. Você pode escolher entre os seguintes sentidos: Visão, Audição, Olfato e Paladar, Tato. Você pode comprar Sentido Excepcional mais de uma vez (para sentidos diferentes), mas apenas uma vez por sentido.
+  selectOptions:
+    - id: 1
+      name: "Visão"
+      src:
+        - id: US25001E
+          firstPage: 168
+    - id: 2
+      name: "Audição"
+      src:
+        - id: US25001E
+          firstPage: 168
+    - id: 3
+      name: "Olfato e Paladar"
+      src:
+        - id: US25001E
+          firstPage: 168
+    - id: 4
+      name: "Tato"
+      src:
+        - id: US25001E
+          firstPage: 168
+  apValue: "Visão: 12 pontos de aventura; Audição: 12 pontos de aventura; Olfato e Paladar: 6 pontos de aventura; Tato: 2 pontos de aventura"
+  prerequisites: "~~Sem a desvantagem Sentido Limitado para o mesmo sentido~~, sem a ~~desvantagem Cegueira (para a Visão)~~, sem a ~~desvantagem Surdez (para a Audição)~~"
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_22
+  name: "Resistente ao Calor"
+  rules: |
+    Reduza em 1 o nível de Calor do herói ou heroína, até um mínimo de 1 (veja no **Livro de Regras** na página **343**).
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_23
+  name: "Poder Arcano Aumentado I-VII"
+  rules: |
+    Aumente a sua base de EA em 1 ponto por nível da vantagem.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_24
+  name: "Pontos de Karma Aumentados I-VII"
+  rules: |
+    Aumente a sua base de PKs em 1 ponto por nível da vantagem.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_25
+  name: "Pontos de Vida Aumentados I-VII"
+  rules: |
+    Aumente a sua base de PV em 1 ponto por nível da vantagem.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_26
+  name: "Espírito Aumentado"
+  rules: |
+    Aprimorar a base de Espírito do herói ou heroína em 1.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_27
+  name: "Tenacidade Aumentada"
+  rules: |
+    Aprimorar a base de Tenacidade em 1.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_28
+  name: "Imunidade a"
+  nameInWiki: "Imunidade a (Veneno)"
+  rules: |
+    Você é imune a um certo tipo de veneno, que não tem nenhum efeito em você. Imunidade a (Veneno) deve ser comprado separadamente para cada veneno.
+  selectOptions:
+    - id: 1
+      name: "Arax"
+      src:
+        - id: US25001E
+          firstPage: 338
+    - id: 2
+      name: "Kelmon"
+      src:
+        - id: US25001E
+          firstPage: 338
+    - id: 3
+      name: "Tulmadron"
+      src:
+        - id: US25001E
+          firstPage: 338
+    - id: 4
+      name: "Wurara"
+      src:
+        - id: US25001E
+          firstPage: 338
+    - id: 10
+      name: "Toad Poison"
+      src:
+        - id: US25001E
+          firstPage: 359
+  apValue: "Metade do nível do veneno escolhido em pontos de aventura"
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_29
+  name: "Imunidade a"
+  nameInWiki: "Imunidade a (Doenças)"
+  rules: |
+    Se você for imune a um certo tipo de doença, nunca a pegará. Imunidade a (Doença) deve ser comprada separadamente para cada doença.
+  selectOptions:
+    - id: 1
+      name: "Surto Difar"
+      src:
+        - id: US25001E
+          firstPage: 339
+    - id: 2
+      name: "Lutanas"
+      src:
+        - id: US25001E
+          firstPage: 339
+    - id: 3
+      name: "Loucura Ligeira"
+      src:
+        - id: US25001E
+          firstPage: 343
+          lastPage: 339
+    - id: 4
+      name: "Febre do Pântano"
+      src:
+        - id: US25001E
+          firstPage: 340
+    - id: 5
+      name: "Varíola de Zorgan"
+      src:
+        - id: US25001E
+          firstPage: 344
+  apValue: "Metade do nível da doença escolhida em pontos de aventura"
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_30
+  name: "Resistente ao Frio"
+  rules: |
+    Reduza em 1 o nível de Frio do herói ou heroína, até um mínimo de 0 (veja no **Livro de Regras** na página **342**).
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_31
+  name: "Resistente a Doenças I-II"
+  rules: |
+    Resistente a Doenças aumenta a sua Tenacidade e Espírito em 1 por nível para resistir a doenças.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_32
+  name: "Sintonização Mágica"
+  input: "Ambiente"
+  rules: |
+    Você deve escolher um ambiente para esta vantagem (veja os exemplos abaixo). O conjurador recebe 1 de bônus em testes de perícias mágicas no ambiente ou situação escolhida.
+  selectOptions:
+    - id: 1
+      name: "Criatura das Clareiras"
+      src:
+        - id: US25001E
+          firstPage: 168
+    - id: 2
+      name: "Criatura das Montanhas"
+      src:
+        - id: US25001E
+          firstPage: 168
+    - id: 3
+      name: "Criatura do Gelo"
+      src:
+        - id: US25001E
+          firstPage: 168
+    - id: 4
+      name: "Criatura do Mar"
+      src:
+        - id: US25001E
+          firstPage: 168
+    - id: 5
+      name: "Criatura da Noite"
+      src:
+        - id: US25001E
+          firstPage: 168
+    - id: 6
+      name: "Criatura da Floresta"
+      src:
+        - id: US25001E
+          firstPage: 168
+  prerequisitesEnd: "~~Vantagem Conjurador, sem a desvantagem Restrição Mágica para o mesmo ambiente~"
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_33
+  name: "Místico"
+  rules: |
+    Para um místico, a condição de *Arrebatamento* diminui em 1 nível a cada duas horas em vez uma.
+  src:
+    - id: US25001E
+      firstPage: 1656
+
+- id: ADV_34
+  name: "Não Precisa Dormir (*)"
+  rules: |
+    Personagens com esta vantagem não precisam dormir regularmente e podem ficar acordadas por uma semana sem se cansar. No entanto, devem compensar o sono perdido mais tarde. Algumas raças precisam de sono real para se recuperar, enquanto outras precisam apenas de meditação ou de uma técnica semelhante. Enquanto permanece sem dormir, um herói ou heroína com essa vantagem não pode se beneficiar de sono regular e descanso durante Fases de Regeneração (mas pode se beneficiar de ervas curativas e da perícia *Tratar Ferimentos*).
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_35
+  name: "Pragmático"
+  rules: |
+    Para um pragmático, Arrebatamento cai 1 nível a cada 30 minutos em vez de uma hora.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_36
+  name: "Rico I-X"
+  rules: |
+    O herói ou heroína recebem 250 táleres de prata adicionais por nível durante a criação de personagem.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_37
+  name: "Senso de Direção"
+  rules: |
+    Testes de perícia usando *Orientação* recebem 1 de bônus.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_38
+  name: "Contorcionista"
+  rules: |
+    Testes usando *Controle Corporal (Acrobacias, Contorcionismo)*  recebem 1 de bônus.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_39
+  name: "Difícil de Enfeitiçar (*)"
+  rules: |
+    A maioria dos feitiços conjurados contra o herói sofrem 1 de penalidade. Isso inclui todos os feitiços e efeitos mágicos com as propriedades *Clarividência*, *Cura*, *Influência* e *Transformação*, bem como feitiços modificados por *Espírito* ou *Tenacidade*. A penalidade é aplicada mesmo que o herói deseje que a magia faça efeito.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_40
+  name: "Socialmente Adaptável"
+  rules: |
+    Heróis com Socialmente Adaptável podem ignorar penalidades em Perícias Sociais que sejam resultado da diferença de classes (veja no **Livro de Regras** na página **334**). A vantagem Socialmente Adaptável não engana pessoas da alta nobreza.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: Sem a desvantagem Incompetente em perícias sociais, sem a desvantagem Não-Livre
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_41
+  name: "Aparência Comum"
+  rules: |
+    Heróis ou heroínas com esta vantagem recebem 1 de bônus com *Manha (Sombra)*.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_42
+  name: "Regeneração Aprimorada (Energia Arcana) I-III"
+  rules: |
+    Durante a regeneração, o herói recebe 1 ponto adicional de EA para cada nível da vantagem.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_43
+  name: "Improved Regeneration (Karma Points)"
+  rules: |
+    Durante a regeneração, o herói ou heroína recebe 1 PK adicional para cada nível da vantagem.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_44
+  name: "Regeneração Aprimorada (Pontos de Vida) I-III"
+  rules: |
+    Durante a regeneração, o herói ou heroína recebe 1 PV adicional para cada nível da vantagem.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_45
+  name: "Aura Escondida"
+  rules: |
+    O conjurador sempre parece como não-mágico para percepção mágica indireta. Qualquer pessoa que tente encontrar ou analisar o conjurador (usando o feitiço *Odem Arcanum* ou o cântico litúrgico *Ver Magia*, por exemplo) sofre 3 de penalidade.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_46
+  name: "Inspirar Confiança"
+  rules: |
+    Testes com *Comércio (Pechinchar)*, *Lábia (Mendigar, Manipular, Bajular)*, ou *Persuasão (Conversação, Debate, Oratória)* recebem 1 de bônus.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 0
+        replacement: Sem a desvantagem Incompetente em perícias sociais.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_47
+  name: "Aptidão com Armas"
+  rules: |
+    Ao fazer uma rolagem com uma técnica de combate, uma Aptidão com Armas permite a rerrolagem de uma rolagem de confirmação para acertos críticos e fiascos.
+  apValue: "técnica de combate B/C/D 5/10/15 pontos de aventura"
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_48
+  name: "Voz Bonita"
+  rules: |
+    Testes de perícia usando *Canto* recebem 1 de bônus.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_49
+  name: "Lutador Robusto"
+  rules: |
+    Ignore os efeitos do mais alto nível que você possuir da condição *Dor*, sofrendo o efeito do próximo nível inferior ao invés disso. Então, um herói ou heroína com três níveis de *Dor* só sofre o efeito do Nível II. *Dor* de Nível IV ainda incapacita você. Trate o Nível I de *Dor* como se não tivesse nenhum nível de *Dor*.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_50
+  name: "Conjurador"
+  rules: |
+    O conjurador recebe uma base de energia arcana igual a 20. Esta vantagem não inclui a habilidade especial *Tradição* (veja no **Livro de Regras** na página **267**), que você deve comprar separadamente. Todos os conjuradores devem começar o jogo com uma Tradição. Você não pode comprar esta vantagem mais tarde no jogo.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_51
+  name: "Relógio Interno"
+  rules: |
+    A personagem tem uma noção perfeita de tempo e pode determinar a hora exata do dia sem ver o sol ou usar outras ferramentas.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_52
+  name: "Canto de Duas Vozes (*)"
+  rules: |
+    Um herói pode usar Canto de Duas Vozes e pode aprender canções mágicas dos elfos. O herói pode usar a aplicação *Canto de Duas Vozes* com a perícia *Canto*.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_53
+  name: "Nariz de Anão"
+  rules: |
+    O herói recebe 1 de bônus em testes de *Percepção* ao tentar encontrar portas secretas, cavidades, gavetas escondidas ou coisas assim.
+  src:
+    - id: US25001E
+      firstPage: 166

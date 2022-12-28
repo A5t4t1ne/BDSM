@@ -1,0 +1,1009 @@
+- id: PV_1
+  name:
+    m: "Geschichtenerzähler"
+    f: "Geschichtenerzählerin"
+- id: PV_2
+  name:
+    m: "Haimamud"
+    f: "Haimamud"
+  concludingText: "Haimamudim müssen als Kultur Aranier, Mhanadistani oder Novadis wählen."
+- id: PV_3
+  name:
+    m: "Skalde"
+    f: "Skaldin"
+  concludingText: "Skalden müssen als Kultur Thorwaler wählen."
+- id: PV_4
+  name:
+    m: "Aufseher"
+    f: "Aufseherin"
+- id: PV_5
+  name:
+    m: "Kerkermeister"
+    f: "Kerkermeisterin"
+- id: PV_6
+  name:
+    m: "Schließer"
+    f: "Schließerin"
+- id: PV_7
+  name:
+    m: "Zöllner"
+    f: "Zöllnerin"
+- id: PV_8
+  name:
+    m: "Akrobat"
+    f: "Akrobatin"
+- id: PV_9
+  name:
+    m: "Dompteur"
+    f: "Dompteurin"
+- id: PV_10
+  name:
+    m: "Messerwerfer"
+    f: "Messerwerferin"
+- id: PV_11
+  name:
+    m: "Possenreißer"
+    f: "Possenreißerin"
+- id: PV_12
+  name:
+    m: "Wahrsager"
+    f: "Wahrsagerin"
+- id: PV_13
+  name:
+    m: "Grubenkämpfer"
+    f: "Grubenkämpferin"
+- id: PV_14
+  name:
+    m: "Schaukämpfer"
+    f: "Schaukämpferin"
+- id: PV_15
+  name:
+    m: "Fahrender Händler"
+    f: "Fahrende Händlerin"
+- id: PV_16
+  name:
+    m: "Fernhändler"
+    f: "Fernhändlerin"
+- id: PV_17
+  name:
+    m: "Geldwechsler"
+    f: "Geldwechslerin"
+- id: PV_18
+  name:
+    m: "Hausierer"
+    f: "Hausiererin"
+- id: PV_19
+  name:
+    m: "Tauschhändler"
+    f: "Tauschhändlerin"
+  concludingText: "Tauschhändler müssen die Kultur Fjarninger, Mohas oder Nivesen wählen."
+- id: PV_20
+  name:
+    m: "Hebamme"
+    f: "Hebamme"
+- id: PV_21
+  name:
+    m: "Medicus"
+    f: "Medica"
+- id: PV_22
+  name:
+    m: "Quacksalber"
+    f: "Quacksalberin"
+- id: PV_23
+  name:
+    m: "Zahnreißer"
+    f: "Zahnreißerin"
+- id: PV_24
+  name:
+    m: "Adelsspross"
+    f: "Adelsspross"
+- id: PV_25
+  name:
+    m: "Diplomat"
+    f: "Diplomatin"
+- id: PV_26
+  name:
+    m: "Hofdame"
+    f: "Hofdame"
+  concludingText: "Hofdamen müssen als Kultur Andergaster wählen; die Hofdame muss weiblich sein."
+- id: PV_27
+  name:
+    m: "Müßiggänger"
+    f: "Müßiggängerin"
+- id: PV_28
+  name:
+    m: "Großwildjäger"
+    f: "Großwildjägerin"
+- id: PV_29
+  name:
+    m: "Kopfgeldjäger"
+    f: "Kopfgeldjägerin"
+- id: PV_30
+  name:
+    m: "Sklavenjäger"
+    f: "Sklavenjägerin"
+  concludingText: "übliche Kulturen: Aranier, Mhanadistani, Novadis, Südaventurier"
+- id: PV_31
+  name:
+    m: "Stammesjäger"
+    f: "Stammesjägerin"
+- id: PV_32
+  name:
+    m: "Bordellvater"
+    f: "Bordellmutter"
+- id: PV_33
+  name:
+    m: "Lustknabe"
+    f: "Hure"
+- id: PV_34
+  name:
+    m: "Gesellschafter"
+    f: "Kurtisane"
+- id: PV_35
+  name:
+    m: "Favorit"
+    f: "Mätresse"
+- id: PV_36
+  name:
+    m: "Hofritter"
+    f: "Hofritterin"
+- id: PV_37
+  name:
+    m: "Raubritter"
+    f: "Raubritterin"
+- id: PV_38
+  name:
+    m: "Heckenritter"
+    f: "Heckenritterin"
+- id: PV_39
+  name:
+    m: "Fischer"
+    f: "Fischerin"
+- id: PV_40
+  name:
+    m: "Pirat"
+    f: "Piratin"
+- id: PV_41
+  name:
+    m: "Walfänger"
+    f: "Walfängerin"
+- id: PV_42
+  name:
+    m: "Robbenjäger"
+    f: "Robbenjägerin"
+- id: PV_43
+  name:
+    m: "Plänkler"
+    f: "Plänklerin"
+- id: PV_44
+  name:
+    m: "Leichtgerüsteter"
+    f: "Leichtgerüstete"
+- id: PV_45
+  name:
+    m: "Schwergerüsteter"
+    f: "Schwergerüstete"
+- id: PV_46
+  name:
+    m: "Geheimagent"
+    f: "Geheimagentin"
+- id: PV_47
+  name:
+    m: "Meuchelmörder"
+    f: "Meuchelmörderin"
+- id: PV_48
+  name:
+    m: "Bettler"
+    f: "Bettlerin"
+- id: PV_49
+  name:
+    m: "Dieb"
+    f: "Diebin"
+- id: PV_50
+  name:
+    m: "Einbrecher"
+    f: "Einbrecherin"
+- id: PV_51
+  name:
+    m: "Hochstapler"
+    f: "Hochstaplerin"
+- id: PV_52
+  name:
+    m: "Spieler"
+    f: "Spielerin"
+- id: PV_53
+  name:
+    m: "Zuhälter"
+    f: "Zuhälterin"
+- id: PV_54
+  name:
+    m: "Diener Bishdariels"
+    f: "Dienerin Bishdariels"
+- id: PV_55
+  name:
+    m: "Diener Golgaris"
+    f: "Dienerin Golgaris"
+- id: PV_56
+  name:
+    m: "Pastori"
+    f: "Pastori"
+- id: PV_57
+  name:
+    m: "Satori"
+    f: "Satori"
+- id: PV_58
+  name:
+    m: "Heiler"
+    f: "Heiler"
+- id: PV_59
+  name:
+    m: "Säer"
+    f: "Säer"
+- id: PV_60
+  name:
+    m: "Beutelschneider"
+    f: "Beutelschneiderin"
+- id: PV_61
+  name:
+    m: "Händler"
+    f: "Händlerin"
+- id: PV_62
+  name:
+    m: "Fassadenkletterer"
+    f: "Fassadenklettererin"
+- id: PV_63
+  name:
+    m: "Legalisten"
+    f: "Legalisten"
+- id: PV_64
+  name:
+    m: "Prinzipisten"
+    f: "Prinzipisten"
+- id: PV_65
+  name:
+    m: "Salutaristen"
+    f: "Salutaristen"
+- id: PV_66
+  name:
+    m: "Traditionalisten"
+    f: "Traditionalisten"
+- id: PV_67
+  name:
+    m: "Honoren"
+    f: "Honoren"
+- id: PV_68
+  name:
+    m: "Erntehelfer"
+    f: "Erntehelferin"
+- id: PV_69
+  name:
+    m: "Viehzüchter"
+    f: "Viehzüchterin"
+- id: PV_70
+  name:
+    m: "Erzieher"
+    f: "Erzieherin"
+- id: PV_71
+  name:
+    m: "Kutscher"
+    f: "Kutscherin"
+- id: PV_72
+  name:
+    m: "Privatlehrer"
+    f: "Privatlehrerin"
+- id: PV_73
+  name:
+    m: "Stallbursche"
+    f: "Stallbursche"
+- id: PV_74
+  name:
+    m: "Verwalter"
+    f: "Verwalterin"
+- id: PV_75
+  name:
+    m: "Leibdiener"
+    f: "Zofe"
+- id: PV_76
+  name:
+    m: "Goldsucher"
+    f: "Goldsucherin"
+- id: PV_77
+  name:
+    m: "Kartograph"
+    f: "Kartographin"
+- id: PV_78
+  name:
+    m: "Prospektor"
+    f: "Prospektorin"
+- id: PV_79
+  name:
+    m: "Historiker"
+    f: "Historikerin"
+- id: PV_80
+  name:
+    m: "Mathematicus"
+    f: "Mathematica"
+- id: PV_81
+  name:
+    m: "Rechtsgelehrter"
+    f: "Rechtsgelehrte"
+- id: PV_82
+  name:
+    m: "Sternkundiger"
+    f: "Sternkundige"
+- id: PV_83
+  name:
+    m: "Völkerkundiger"
+    f: "Völkerkundige"
+- id: PV_84
+  name:
+    m: "Zahlenmystiker"
+    f: "Zahlenmystikerin"
+  concludingText: "Zahlenmystiker müssen als Kultur Aranier, Maraskaner, Mhanadistani, Novadis oder Erzzwerge wählen."
+- id: PV_85
+  name:
+    m: "Bildhauer"
+    f: "Bildhauerin"
+- id: PV_86
+  name:
+    m: "Darsteller"
+    f: "Darstellerin"
+- id: PV_87
+  name:
+    m: "Dichter"
+    f: "Dichterin"
+- id: PV_88
+  name:
+    m: "Maler"
+    f: "Malerin"
+- id: PV_89
+  name:
+    m: "Musicus"
+    f: "Musica"
+- id: PV_90
+  name:
+    m: "Tanzlehrer"
+    f: "Tanzlehrerin"
+- id: PV_91
+  name:
+    m: "Feinmechaniker"
+    f: "Feinmechanikerin"
+- id: PV_92
+  name:
+    m: "Tresorbauer"
+    f: "Tresorbauerin"
+- id: PV_93
+  name:
+    m: "Feinschmied"
+    f: "Feinschmiedin"
+- id: PV_94
+  name:
+    m: "Goldschmied"
+    f: "Goldschmiedin"
+- id: PV_95
+  name:
+    m: "Harnischmacher"
+    f: "Harnischmacherin"
+- id: PV_96
+  name:
+    m: "Waffenschmied"
+    f: "Waffenschmiedin"
+- id: PV_97
+  name:
+    m: "Leibsklave"
+    f: "Leibsklavin"
+- id: PV_98
+  name:
+    m: "Liebessklave"
+    f: "Liebessklavin"
+- id: PV_99
+  name:
+    m: "Minensklave"
+    f: "Minensklavin"
+- id: PV_100
+  name:
+    m: "Sänftenträger"
+    f: "Sänftenträgerin"
+- id: PV_101
+  name:
+    m: "Vorkoster"
+    f: "Vorkosterin"
+- id: PV_102
+  name:
+    m: "Armbrustschütze"
+    f: "Armbrustschützin"
+- id: PV_103
+  name:
+    m: "Bogenschütze"
+    f: "Bogenschützin"
+  fullText: "Bögen 12 (als eine der ausgewählten Kampftechniken)"
+- id: PV_104
+  name:
+    m: "Reiter"
+    f: "Reiterin"
+- id: PV_105
+  name:
+    m: "Bergmann"
+    f: "Bergfrau"
+- id: PV_106
+  name:
+    m: "Bauhelfer"
+    f: "Bauhelferin"
+- id: PV_107
+  name:
+    m: "Fuhrmann"
+    f: "Fuhrfrau"
+- id: PV_108
+  name:
+    m: "Lastenträger"
+    f: "Lastenträgerin"
+- id: PV_109
+  name:
+    m: "Palmschneider"
+    f: "Palmschneiderin"
+- id: PV_110
+  name:
+    m: "Questador"
+    f: "Questadora"
+- id: PV_111
+  name:
+    m: "Eis- und Schneekundiger"
+    f: "Eis- und Schneekundige"
+- id: PV_112
+  name:
+    m: "Wüstenkundiger"
+    f: "Wüstenkundige"
+- id: PV_113
+  name:
+    m: "Gebirgskundiger"
+    f: "Gebirgskundige"
+- id: PV_114
+  name:
+    m: "Koch"
+    f: "Köchin"
+- id: PV_115
+  name:
+    m: "Schankbursche"
+    f: "Schankmagd"
+- id: PV_116
+  name:
+    m: "Rausschmeißer"
+    f: "Rausschmeißerin"
+- id: PV_117
+  name:
+    m: "Schaumkusshersteller"
+    f: "Schaumkussherstellerin"
+- id: PV_118
+  name:
+    m: "Schokoladenmacher"
+    f: "Schokoladenmacherin"
+- id: PV_119
+  name:
+    m: "Bezaubernder Trickbetrüger"
+    f: "Bezaubernde Trickbetrügerin"
+- id: PV_120
+  name:
+    m: "Hellsichtiger Grabräuber"
+    f: "Hellsichtige Grabräuberin"
+- id: PV_121
+  name:
+    m: "Seher"
+    f: "Seherin"
+- id: PV_122
+  name:
+    m: "Quacksalber"
+    f: "Quacksalberin"
+- id: PV_123
+  name:
+    m: "Trickbetrüger"
+    f: "Trickbetrügerin"
+- id: PV_124
+  name:
+    m: "Theaterzauberer"
+    f: "Theaterzauberin"
+- id: PV_125
+  name:
+    m: "Hofzauberer"
+    f: "Hofzauberin"
+- id: PV_126
+  name: "Pfad der harten Hand"
+- id: PV_127
+  name: "Pfad der weichen Hand"
+- id: PV_128
+  name: "Invocatoren-Zweig"
+- id: PV_129
+  name: "Observatoren-Zweig"
+- id: PV_130
+  name: "Heilkunst-Zweig"
+- id: PV_131
+  name: "Verwandlungs-Zweig"
+- id: PV_132
+  name: "Schwert-Zweig"
+- id: PV_133
+  name: "Stab-Zweig"
+- id: PV_134
+  name:
+    m: "Weg des Kämpfers"
+    f: "Weg der Kämpferin"
+- id: PV_135
+  name:
+    m: "Weg des Reisenden"
+    f: "Weg der Reisenden"
+- id: PV_136
+  name: "Weg der Niederhöllen"
+- id: PV_137
+  name: "Weg ohne Gnade"
+- id: PV_138
+  name: "Defensor-Zweig"
+- id: PV_139
+  name: "Contemplatoren-Zweig"
+- id: PV_140
+  name: "Leibmagier-Zweig"
+- id: PV_141
+  name: "Seekrieg-Zweig"
+- id: PV_142
+  name: "Weg der Bekämpfung des Bösen"
+- id: PV_143
+  name: "Weg der Unterstützung des Guten"
+- id: PV_144
+  name:
+    m: "Weg des Heilers"
+    f: "Weg der Heilerin"
+- id: PV_145
+  name:
+    m: "Weg des Verführers"
+    f: "Weg der Verführerin"
+- id: PV_146
+  name: "Exorzisten-Zweig"
+- id: PV_147
+  name: "Seelenheiler-Zweig"
+- id: PV_148
+  name: "Philosophen-Zweig"
+- id: PV_149
+  name: "Reisender-Zweig"
+- id: PV_150
+  name: "Selbstverwandler-Zweig"
+- id: PV_151
+  name: "Fremdverwandler-Zweig"
+- id: PV_152
+  name: "Menschlicher Zweig"
+- id: PV_153
+  name: "Elfischer Zweig"
+- id: PV_154
+  name: "Gaukler-Zweig"
+- id: PV_155
+  name: "Hofkünstler-Zweig"
+- id: PV_156
+  name: "Heiler-Zweig"
+- id: PV_157
+  name: "Verständigungs-Zweig"
+- id: PV_158
+  name: "Weg der Geheimnisse"
+- id: PV_159
+  name: "Weg der Offenbarung"
+- id: PV_160
+  name:
+    m: "Weg des Wüstenzauberers"
+    f: "Weg der Wüstenzauberin"
+- id: PV_161
+  name: "Weg des Tieres"
+- id: PV_162
+  name: "Kundschafterin"
+- id: PV_163
+  name: "Bogenschützin"
+- id: PV_164
+  name: "Rondrageweihte Amazone"
+- id: PV_165
+  name: "Eiserne Schlange"
+- id: PV_166
+  name: "Arkaner Zweig"
+  concludingText: "Um ein Mitglied des arkanen Zweigs zu spielen, passe die Werte einer magischen Profession an die hier voreingestellten an. Die Voraussetzungen bleiben gleich."
+- id: PV_167
+  name: "Sakraler Zweig"
+- id: PV_168
+  name:
+    m: "Untotenjäger"
+    f: "Untotenjägerin"
+- id: PV_169
+  name:
+    m: "Borongeweihter Golgarit"
+    f: "Borongeweihte Golgaritin"
+# Gildenloser Magier nach Kiranya von Kutaki
+- id: PV_170
+  name: "Pfad der Hellsicht"
+- id: PV_171
+  name: "Pfad der Sphären"
+- id: PV_172
+  name: "Einfühlungs-Zweig"
+- id: PV_173
+  name: "Wildnis-Zweig"
+- id: PV_174
+  name: "Dämonen-Zweig"
+- id: PV_175
+  name: "Elementar-Zweig"
+- id: PV_176
+  name: "Bordmagus-Zweig"
+- id: PV_177
+  name: "Kriegszug-Zweig"
+- id: PV_178
+  name: "Pfad des Krieges"
+- id: PV_179
+  name: "Pfad der Zerstörung"
+- id: PV_180
+  name: "Pfad der Bewegung"
+- id: PV_181
+  name: "Pfad der Reise"
+- id: PV_182
+  name: "Pfad des Körpers"
+- id: PV_183
+  name: "Pfad des Willens"
+- id: PV_184
+  name: "Berater-Zweig"
+- id: PV_185
+  name: "Leibmagier-Zweig"
+- id: PV_186
+  name: "Pfad der Beherrschung"
+- id: PV_187
+  name: "Pfad der Willenskraft"
+- id: PV_188
+  name: "Pfad der Herrschaft"
+  errata:
+    - date: 2019-10-29
+      description: "„Karnifilo 4 statt Gardianum 4“ sollte „Karnifilo 4 statt Band und Fessel 4“ heißen, da der Gardianum gar nicht in der Basisprofession vorkommt."
+- id: PV_189
+  name: "Pfad der Widerstandskraft"
+- id: PV_190
+  name: "Pfad des Leibwächters"
+- id: PV_191
+  name: "Pfad des Beraters"
+- id: PV_192
+  name: "Feldforscher-Zweig"
+- id: PV_193
+  name: "Theoretiker-Zweig"
+- id: PV_194
+  name: "Pfad der Alchimie"
+- id: PV_195
+  name: "Pfad der Kräuterkunde"
+- id: PV_196
+  name: "Pfad der Dunkelheit"
+- id: PV_197
+  name: "Pfad des Lichtes"
+- id: PV_198
+  name:
+    m: "Giftmischer"
+    f: "Giftmischerin"
+- id: PV_199
+  name:
+    m: "Botenreiter"
+    f: "Botenreiterin"
+- id: PV_200
+  name:
+    m: "Metzger"
+    f: "Metzgerin"
+- id: PV_201
+  name:
+    m: "Gwen Petryl-Sammler"
+    f: "Gwen Petryl-Sammlerin"
+- id: PV_202
+  name:
+    m: "Intrigenmeister"
+    f: "Intrigenmeisterin"
+- id: PV_203
+  name:
+    m: "Schiffszimmermanm"
+    f: "Schiffszimmerfrau"
+- id: PV_204
+  name: "Aktmodell"
+- id: PV_205
+  name:
+    m: "Erotikmaler"
+    f: "Erotikmalerin"
+- id: PV_206
+  name:
+    m: "Erotikschriftsteller"
+    f: "Erotikschriftstellerin"
+- id: PV_207
+  name:
+    m: "Liebesspielzeughersteller"
+    f: "Liebesspielzeugherstellerin"
+# TODO: Add corresponding univ entry
+# - id: PV_208
+#   name:
+#     m: "Eunuchenwächter"
+#     f: "Eunuchenwächterin"
+- id: PV_209
+  name:
+    m: "Haremsaufseher"
+    f: "Haremsaufseherin"
+- id: PV_210
+  name: "Lyceum Azizel"
+- id: PV_211
+  name: "Lyceum Brigonia"
+- id: PV_212
+  name: "Lyceum Dalekidos"
+- id: PV_213
+  name: "Lyceum Marmaron"
+- id: PV_214
+  name: "Lyceum Tulipan"
+- id: PV_215
+  name:
+    m: "Auspeitscher"
+    f: "Auspeitscherin"
+- id: PV_216
+  name:
+    m: "Bordellvater"
+    f: "Bordellmutter"
+- id: PV_217
+  name:
+    m: "Lustknabe"
+    f: "Hure"
+- id: PV_218
+  name:
+    m: "Gesellschafter"
+    f: "Kurtisane"
+- id: PV_219
+  name:
+    m: "Favorit"
+    f: "Mätresse"
+- id: PV_220
+  name: "Trosshurer"
+- id: PV_221
+  name:
+    m: "Al'Anfa Sexualmagier"
+    f: "Al'Anfa Sexualmagierin"
+- id: PV_222
+  name:
+    m: "Engasaler Sexualmagier"
+    f: "Engasaler Sexualmagierin"
+- id: PV_223
+  name:
+    m: "Fasarer Sexualmagier"
+    f: "Fasarer Sexualmagierin"
+- id: PV_224
+  name:
+    m: "Gehörnter"
+    f: "Gehörnte"
+- id: PV_225
+  name:
+    m: "Priester des Weins"
+    f: "Priesterin des Weins"
+- id: PV_226
+  name:
+    m: "Harmonist"
+    f: "Harmonistin"
+- id: PV_227
+  name:
+    m: "Levthansfreund"
+    f: "Levthansfreundin"
+- id: PV_228
+  name:
+    m: "Radscha-Anhänger"
+    f: "Radscha-Anhängerin"
+- id: PV_229
+  name:
+    m: "Rahjageweihter Rahjasutra-Meister"
+    f: "Rahjageweihte Rahjasutra-Meisterin"
+- id: PV_230
+  name:
+    m: "Rahjageweihter Säbeltänzer"
+    f: "Rahjageweihte Säbeltänzerin"
+- id: PV_231
+  name: "Fakultät des Erzes"
+- id: PV_232
+  name: "Fakultät des Eises"
+- id: PV_233
+  name: "Fakultät des Feuers"
+- id: PV_234
+  name: "Fakultät des Humus"
+- id: PV_235
+  name: "Fakultät der Luft"
+- id: PV_236
+  name: "Fakultät des Wassers"
+- id: PV_237
+  name:
+    m: "Gefährte des Feuers"
+    f: "Gefährtin des Feuers"
+- id: PV_238
+  name:
+    m: "Gefährte des Erzes"
+    f: "Gefährtin des Erzes"
+- id: PV_239
+  name:
+    m: "Gefährte des Humus"
+    f: "Gefährtin des Humus"
+- id: PV_240
+  name:
+    m: "Gefährte der Luft"
+    f: "Gefährtin der Luft"
+- id: PV_241
+  name:
+    m: "Gefährte des Wassers"
+    f: "Gefährtin des Wassers"
+- id: PV_242
+  name:
+    m: "Luftherr"
+    f: "Luftherrin"
+- id: PV_243
+  name:
+    m: "Eisherr"
+    f: "Eisherrin"
+- id: PV_244
+  name:
+    m: "Erzherr"
+    f: "Erzherrin"
+- id: PV_245
+  name:
+    m: "Feuerherr"
+    f: "Feuerherrin"
+- id: PV_246
+  name:
+    m: "Humusherr"
+    f: "Humusherrin"
+- id: PV_247
+  name:
+    m: "Wasserherr"
+    f: "Wasserherrin"
+- id: PV_248
+  name:
+    m: "Erzelementarist"
+    f: "Erzelementaristin"
+- id: PV_249
+  name:
+    m: "Eiselementarist"
+    f: "Eiselementaristin"
+- id: PV_250
+  name:
+    m: "Feuerelementarist"
+    f: "Feuerelementaristin"
+- id: PV_251
+  name:
+    m: "Humuselementarist"
+    f: "Humuselementaristin"
+- id: PV_252
+  name:
+    m: "Luftelementarist"
+    f: "Luftelementaristin"
+- id: PV_253
+  name:
+    m: "Wasserelementarist"
+    f: "Wasserelementaristin"
+- id: PV_254
+  name:
+    m: "Diener des Feuers"
+    f: "Dienerin des Feuers"
+- id: PV_255
+  name:
+    m: "Diener des Erzes"
+    f: "Dienerin des Erzes"
+- id: PV_256
+  name:
+    m: "Diener der Luft"
+    f: "Dienerin der Luft"
+- id: PV_257
+  name: "Pfad des Personenschutzes"
+- id: PV_258
+  name: "Pfad des Festungsschutzes"
+- id: PV_259
+  name: "Pfad der Kosmetik"
+- id: PV_260
+  name: "Pfad der Venenik"
+- id: PV_261
+  name:
+    m: "Pfad des Dieners"
+    f: "Pfad der Dienerin"
+- id: PV_262
+  name:
+    m: "Pfad des Wächters"
+    f: "Pfad der Wächterin"
+- id: PV_263
+  name:
+    m: "Pfad des Artefaktkundigen"
+    f: "Pfad der Artefaktkundigen"
+- id: PV_264
+  name:
+    m: "Pfad des Händlers"
+    f: "Pfad der Händlerin"
+- id: PV_265
+  name: "Pfad der Dämonenbeschwörung"
+- id: PV_266
+  name: "Pfad der Sphärologie"
+- id: PV_267
+  name:
+    m: "Pfad des Abenteurers"
+    f: "Pfad der Abenteurerin"
+- id: PV_268
+  name:
+    m: "Pfad des Pyromanten"
+    f: "Pfad der Pyromantin"
+- id: PV_269
+  name: "Pfad der giftigen Schlange"
+- id: PV_270
+  name: "Pfad der gehäuteten Schlange"
+- id: PV_271
+  name:
+    m: "Pfad des Kapermagiers"
+    f: "Pfad der Kapermagiern"
+- id: PV_272
+  name:
+    m: "Pfad des Windrufers"
+    f: "Pfad der Windruferin"
+- id: PV_273
+  name: "Pfad der Chrimärologie"
+- id: PV_274
+  name: "Pfad der Nekromantie"
+- id: PV_275
+  name:
+    m: "Pfad des Inspektors"
+    f: "Pfad der Inspektorin"
+- id: PV_276
+  name:
+    m: "Pfad des Kryptographen"
+    f: "Pfad der Kryptographin"
+- id: PV_277
+  name: "Pfad der Gemeinschaft"
+- id: PV_278
+  name: "Pfad der Vielfalt"
+- id: PV_279
+  name: "Pfad der Entschlossenheit"
+- id: PV_280
+  name: "Pfad der Heimlichkeit"
+- id: PV_281
+  name:
+    m: "Pfad des Erdbändigers"
+    f: "Pfad der Erdbändigerin"
+- id: PV_282
+  name:
+    m: "Pfad des Luftbändiger"
+    f: "Pfad der Luftbändigerin"
+- id: PV_283
+  name:
+    m: "Pfad des Golembauers"
+    f: "Pfad der Golembauerin"
+- id: PV_284
+  name:
+    m: "Pfad des Totenbeschwörers"
+    f: "Pfad der Totenbeschwörerin"
+- id: PV_285
+  name: "Pfad des Friedens"
+- id: PV_286
+  name: "Pfad des Zwangs"
+- id: PV_287
+  name: "Pfad des Golems"
+- id: PV_288
+  name: "Pfad des Schattens"
+- id: PV_289
+  name:
+    m: "Pfad des Dämonenjägers"
+    f: "Pfad der Dämonenjägerin"
+- id: PV_290
+  name:
+    m: "Pfad des Dämonologenjägers"
+    f: "Pfad der Dämonologenjägerin"
+- id: PV_291
+  name: "Pfad des Wüstensands"
+- id: PV_292
+  name: "Pfad des Wüstenwinds"
+- id: PV_293
+  name:
+    m: "Höhlenkundiger"
+    f: "Höhlenkundige"
+- id: PV_294
+  name:
+    m: "Kulturlandkundiger"
+    f: "Kulturlandkundige"
+- id: PV_295
+  name:
+    m: "Meereskundiger"
+    f: "Meereskundige"
+- id: PV_296
+  name:
+    m: "Steppenkundiger"
+    f: "Steppenkundige"
+- id: PV_297
+  name:
+    m: "Sumpfkundiger"
+    f: "Sumpfkundige"
+- id: PV_298
+  name:
+    m: "Waldkundiger"
+    f: "Waldkundige"

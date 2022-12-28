@@ -1,0 +1,4980 @@
+- id: ITEMTPL_1
+  name: "Basilisk-Tongue"
+  versions:
+    - note: |
+        Sanctified (Hesinde, Nameless One); only Blessed Ones of Hesinde may purchase weapons sanctified by Hesinde; heroes may not purchase weapons anctified by the Nameless One
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        The basilisk-tongue inflicts +2 DP in an ambush (see **Core Rules** Page **237**). Blessed Ones of the Nameless One receive a +1 DP bonus when fighting animals that are holy to the Twelvegods. In the hands of a Blessed One of Hesinde, the basilisk-tongue inflicts +1 DP against cultists or Blessed Ones of the Nameless One.
+      disadvantage: |
+        The basilisk-tongue subtracts 1 from DP when used against armor with PRO 2 or greater.
+      src:
+        - id: US25208E
+          firstPage: 59
+
+- id: ITEMTPL_2
+  name: "Dagger"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+      - id: US25208E
+        firstPage: 64
+
+- id: ITEMTPL_3
+  name: "Dragon Tooth"
+  versions:
+    - note: |
+        To buy a dragon tooth during hero creation, the character must be from a dwarven culture.
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        The dragon tooth grants a bonus of +1 DP against lizard creatures.
+      disadvantage: |
+        Non-dwarves receive a penalty of -1 on AT, PA, and DP.
+        The maneuver *Precise Thrust* receives only a -1 penalty.
+      src:
+        - id: US25208E
+          firstPage: 65
+
+- id: ITEMTPL_4
+  name: "Main-Gauche"
+  versions:
+    - note: |
+        Parrying weapon (PA bonus +1 for the main weapon)
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        Ignore the normal -2 penalty for the maneuver *Deadly Thrust*.
+      disadvantage: |
+        Subtract 1 from the DP roll for attacks against armor of at least PRO 6.
+      src:
+        - id: US25208E
+          firstPage: 76
+
+- id: ITEMTPL_5
+  name: "Knife"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+
+- id: ITEMTPL_6
+  name: "Heavy Dagger"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+      - id: US25208E
+        firstPage: 70
+
+- id: ITEMTPL_7
+  name: "Waqqif"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        Subtract 1 PRO from armor with PRO 2 or less.
+      disadvantage: |
+        Cannot perform the maneuver *Precise Thrust*.
+      src:
+        - id: US25208E
+          firstPage: 91
+
+- id: ITEMTPL_8
+  name: "Foil"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        The maneuver *Feint* receives a +1 bonus.
+      disadvantage: |
+        Foils can parry only daggers, other fencing weapons, and unarmed attacks, even if the wielder has the special ability *Cross-block* (see Core Rules, page 247).
+      src:
+        - id: US25208E
+          firstPage: 67
+
+- id: ITEMTPL_9
+  name: "Rapier"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+      - id: US25206E
+        firstPage: 82
+
+- id: ITEMTPL_10
+  name: "Wolf-Knife"
+  versions:
+    - note: |
+        To buy a wolf-knife during hero creation, the character must be from the culture of the Glade Elves or Wood Elves.
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        When opponents have the same *INI* value, the one with the wolf-knife always strikes first. When the opponent also wields a wolf-knife, apply the normal rules for order of action (see **Core Rules** Page **227**).
+      disadvantage: |
+        When attacking with two weapons (using *two-weapon combat*) in one CR, and the second weapon has a reach of medium, the second attack receives a -1 penalty to AT. When wielding a wolf-knife, non-elves receive a -1 penalty to AT, PA, and DP.
+      src:
+        - id: US25208E
+          firstPage: 92
+
+- id: ITEMTPL_11
+  name: "Brabak Cudgel"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        The cudgel normally strikes like a regular mace, but it can also strike with its spiked tip, which inflicts 1D6+4 DP. Armor with PRO 4 or greater suffers a penalty of -2 PRO from this attack.
+      disadvantage: |
+        A confirmed botch while attacking inflicts 1 level of *Stupor* on the wielder.
+      src:
+        - id: US25208E
+          firstPage: 61
+
+- id: ITEMTPL_12
+  name: "Cudgel"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        The maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**) inflicts 1D3+1 instead of only 1D3 DP.
+      disadvantage: |
+        The cudgel breaks with a confirmed botch on an AT. This is in addition to any other botch results.
+      src:
+        - id: US25208E
+          firstPage: 63
+
+- id: ITEMTPL_13
+  name: "Club"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        The maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**) causes 1D3+1 instead of only 1D3 DP.
+      disadvantage: |
+        The club breaks with a confirmed botch on an AT. This is in addition to any other botch results.
+      src:
+        - id: US25208E
+          firstPage: 63
+
+- id: ITEMTPL_14
+  name: "Wyvern-Beater"
+  versions:
+    - note: |
+        To buy a wyvern-beater during hero creation, the character must be from a dwarven culture.
+      src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        The maneuver *Shield-Splitter* gains +4 DP.
+      disadvantage: |
+        Receive a -1 penalty on AT against creatures of size categories large and huge.
+        When wielding wyvern-beaters, non-dwarves receive a -1 penalty to AT, PA, and DP.
+      src:
+        - id: US25208E
+          firstPage: 94
+
+- id: ITEMTPL_15
+  name: "Mage's Staff, short"
+  versions:
+    - note: |
+        To buy a mage’s staff during hero creation, the character must have Tradition (Guild Mage).
+      src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Gain a +1 bonus when performing the maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**).
+      disadvantage: |
+        Cannot perform the maneuver *Onslaught*.
+      src:
+        - id: US25208E
+          firstPage: 76
+
+- id: ITEMTPL_16
+  name: "Mage's Staff, medium"
+  versions:
+    - note: |
+        To buy a mage’s staff during hero creation, the character must have Tradition (Guild Mage).
+      src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Gain a +1 bonus when performing the maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**).
+      disadvantage: |
+        Cannot perform the maneuver *Onslaught*.
+      src:
+        - id: US25208E
+          firstPage: 76
+
+- id: ITEMTPL_17
+  name: "Molokdeschnaja"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Gain a +1 bonus to *Intimidation (Threats)* checks using the special ability *Threating Gestures* (see **Aventuria Compendium** Page **110**).
+      disadvantage: |
+        When wielding two molokdeshnajas at once, apply a -1 penalty to all AT and PA.
+      src:
+        - id: US25208E
+          firstPage: 77
+
+- id: ITEMTPL_18
+  name: "Orc-Nose"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        The maneuver Shield Splitter inflicts an additional +4 DP.
+      disadvantage: |
+        Suffer an additional -1 penalty when parrying attacks from daggers and fencing weapons.
+      src:
+        - id: US25208E
+          firstPage: 80
+
+- id: ITEMTPL_19
+  name: "Raven's Beak"
+  versions:
+    - note: |
+        Sanctified (Boron); only Blessed Ones of Boron may purchase weapons sanctified by Boron.
+      src:
+        - id: US25001E
+          firstPage: 367
+        - id: US25005E
+          firstPage: 233
+    - advantage: |
+        Attacks with the spike inflict 1D6+4 DP as well. Subtract 2 PRO from armor with PRO 6 or more. Mounted warriors gain a bonus of +1 DP.
+      disadvantage: |
+        On a confirmed botch, receive 1 level of *Stupor*. This is in addition to any other botch results.
+      src:
+        - id: US25206E
+          firstPage: 82
+
+- id: ITEMTPL_20
+  name: "Sun-Scepter"
+  versions:
+    - note: |
+        Sanctified (Praios); only Blessed Ones of Praios may purchase weapons sanctified by Praios.
+      src:
+        - id: US25001E
+          firstPage: 367
+        - id: US25005E
+          firstPage: 233
+    - advantage: |
+        Receive a +1 bonus to PA during the day. Sun-scepters inflict +1 DP against beings that have AE.
+      disadvantage: |
+        Receive a -1 penalty to AT during the night. Subtract 1 from DP when attacking targets with armor of PRO 4 or greater.
+      src:
+        - id: US25208E
+          firstPage: 88
+
+- id: ITEMTPL_21
+  name: "Battleaxe"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+      - id: US25208E
+        firstPage: 60
+
+- id: ITEMTPL_22
+  name: "Mace"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 367
+      - id: US25208E
+        firstPage: 75
+
+- id: ITEMTPL_23
+  name: "Morningstar"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+      - id: US25208E
+        firstPage: 78
+
+- id: ITEMTPL_24
+  name: "War Lance"
+  versions:
+    - note: |
+        This weapon can be used only for a Tilt attack (see **Core Rules** page **250**).
+      src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        If a war lance is used against a target of size category small or tiny, and the attack fails, the attacker must make a check on *Riding (Combat Maneuvers)* with a penalty of 2. On a failure, the lance sticks in the ground, unhorsing the attacker. As a result, the attacker suffers falling damage, and the lance breaks and may no longer be used.
+      src:
+        - id: US25206E
+          firstPage: 9
+
+- id: ITEMTPL_25
+  name: "Brass Knuckles"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+      - id: US25208E
+        firstPage: 61
+
+- id: ITEMTPL_26
+  name: "Wooden Shield"
+  versions:
+    note: |
+      Small Shield, 20 structure points
+    src:
+      - id: US25001E
+        firstPage: 368
+      - id: US25208E
+        firstPage: 93
+
+- id: ITEMTPL_27
+  name: "Leather Shield"
+  versions:
+    - note: |
+        Small Shield, 15 structure points
+      src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        PA gains a +1 bonus when using the maneuver *Defensive Posture*.
+      disadvantage: |
+        The maneuver *Shield Smash* inflicts only 1 DP when using a leather shield.
+      src:
+        - id: US25208E
+          firstPage: 74
+
+- id: ITEMTPL_28
+  name: "Thorwaler Shield"
+  versions:
+    - note: |
+        Medium Shield, 25 structure points
+      src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        When combined with a main weapon for the maneuver *Charge*, the main weapon receives a bonus of +1 DP.
+      disadvantage: |
+        When used while mounted, this shield grants only the simple shield bonus.
+      src:
+        - id: US25208E
+          firstPage: 89
+
+- id: ITEMTPL_29
+  name: "Great Shield"
+  versions:
+    - note: |
+        Large Shield, 30 structure points, additional -1 AT for main weapon
+      src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        When parrying arrows and bolts, the great shield doubles the shield's PA bonus and then grants an additional +1 bonus to PA.
+      disadvantage: |
+        When two opposing fighters have the same *INI* value, the one without the great shield always strikes first. If that opponent also uses a great shield, refer to the usual rules for initiative (see **Core Rules** Page **227**). The bearer of a great shield receives a -1 penalty to MOV.
+      src:
+        - id: US25208E
+          firstPage: 68
+
+- id: ITEMTPL_30
+  name: "Barbarian Sword"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        When using the special ability *Threatening Gestures* (see **Aventuria Compendium** Page **105**), gain a +1 bonus on the *Intimidation (Threats)* check.
+      disadvantage: |
+        Whenever two opponents have the same *INI*, the one wielding the barbarian sword always strikes last. If both are wielding barbarian swords, use the normal order of action rules (see **Core Rules** Page **227**)
+      src:
+        - id: US25208E
+          firstPage: 59
+
+- id: ITEMTPL_31
+  name: "Cutlass"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        In cramped spaces, the wielder of a cutlass receives a penalty of only -2 to AT and PA.
+      disadvantage: |
+        Cutlasses incur a penalty of -1 to PA vs. two-handed weapons.
+      src:
+        - id: US25208E
+          firstPage: 64
+
+- id: ITEMTPL_32
+  name: "Slasher (machette)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        Wielders may perform maneuvers designed for the technique *Impact Weapons*, although the wielder still uses the technique *Swords* to determine success.
+      disadvantage: |
+        The slasher gains nothing from being wielded two-handed.
+      src:
+        - id: US25208E
+          firstPage: 86
+
+- id: ITEMTPL_33
+  name: "Khunchomer"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        When using the maneuver *Bladestorm* (see **Aventuria Compendium** Page **151**), reduce the penalty for both attacks by 1.
+      disadvantage: |
+        The Khunchomer inflicts -1 DP against armor with PRO 5 or higher.
+      src:
+        - id: US25208E
+          firstPage: 73
+
+- id: ITEMTPL_34
+  name: "Short Sword"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        The wielder may combine the maneuver *Circumvent* (see **Aventuria Compendium** Page **155**) with the maneuver *Forceful Blow*.
+      disadvantage: |
+        Suffer a -1 penalty to PA versus *Two-Handed Impact Weapons* and *Two-Handed Swords*.
+      src:
+        - id: US25208E
+          firstPage: 85
+
+- id: ITEMTPL_35
+  name: "Long Sword"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 368
+      - id: US25208E
+        firstPage: 75
+
+- id: ITEMTPL_36
+  name: "Seal-Killer"
+  versions:
+    - note: |
+        To buy a seal-killer during hero creation, the character must be from the culture of the Firnelves.
+      src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        Gain a bonus of +1 DP when fighting animals of size categories medium and large.
+      disadvantage: |
+        uffer a -1 penalty when performing the maneuver *Feint*. When wielding a seal-killer, nonelves suffer a -1 penalty to AT, PA, and DP.
+      src:
+        - id: US25208E
+          firstPage: 85
+
+- id: ITEMTPL_37
+  name: "Saber"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        When used in mounted combat, gain a bonus of +1 DP.
+      disadvantage: |
+        When used against armor with PRO 4 or greater, subtract 1 DP from the roll.
+      src:
+        - id: US25208E
+          firstPage: 84
+
+- id: ITEMTPL_38
+  name: "Slave-Death"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        Gain +1 DP versus humanoids with PRO 0.
+      disadvantage: |
+        After a successful parry, roll 1D6. On a result of 6, the slave-death becomes temporarily entangled with the enemy's weapon, and the wielder suffers a -1 penalty to AT during the next CR. This rule does not apply to attacks against unarmed opponents.
+      src:
+        - id: US25208E
+          firstPage: 86
+
+- id: ITEMTPL_39
+  name: "Trident"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Reduce penalties for fighting in water by 2. The maneuver *Disarm* gains a +1 bonus.
+      disadvantage: |
+        Subtract 1 from DP when attacking targets with armor of PRO 2 or greater.
+      src:
+        - id: US25208E
+          firstPage: 89
+
+- id: ITEMTPL_40
+  name: "Dshadra"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        The dshadra can be used in mounted combat as well as for a *Charge*.
+      disadvantage: |
+        Apply a -1 penalty to the maneuver *Takedown*.
+      src:
+        - id: US25208E
+          firstPage: 66
+
+- id: ITEMTPL_41
+  name: "Halberd"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        When wielding a halberd in cramped spaces, reduce the penalties on AT and PA by 2 (see **Core Rules** Page **238**).
+      disadvantage: |
+        The maneuver *Pike Wall* has a -2 penalty (see **Aventuria Compendium** Page **154**).
+      src:
+        - id: US25208E
+          firstPage: 70
+
+- id: ITEMTPL_42
+  name: "Wooden Spear"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Add 1 DP when attacking targets with armor of PRO 2 or less.
+      disadvantage: |
+        Subtract 1 DP when attacking targets with armor of PRO 5 or greater.
+      src:
+        - id: US25208E
+          firstPage: 93
+
+- id: ITEMTPL_43
+  name: "Quarterstaff"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Gain a +1 bonus with the maneuver *Takedown*.
+      disadvantage: |
+        Suffer a -1 penalty with the maneuver *Charge*.
+      src:
+        - id: US25206E
+          firstPage: 81
+
+- id: ITEMTPL_44
+  name: "Mage's Staff, long"
+  versions:
+    - note: |
+        To buy a mage’s staff during hero creation, the character must have Tradition (Guild Mage).
+      src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Gain a +1 bonus when performing the maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**).
+      disadvantage: |
+        Cannot perform the maneuver *Onslaught*.
+      src:
+        - id: US25208E
+          firstPage: 76
+
+- id: ITEMTPL_45
+  name: "Spear"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 367
+      - id: US25208E
+        firstPage: 87
+
+- id: ITEMTPL_46
+  name: "Two-Lillies"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        When making more than one PA in the same CR (see **Core Rules** Page **232**), reduce the penalty by 1.
+      disadvantage: |
+        When using the maneuver *Forceful Blow*, subtract 1 from the DP.
+      src:
+        - id: US25208E
+          firstPage: 90
+
+- id: ITEMTPL_47
+  name: "Bastard Sword"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 368
+      - id: US25208E
+        firstPage: 60
+
+- id: ITEMTPL_48
+  name: "Double-Khunchomer"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        Upon rolling a critical success, the confirmation roll receives a +2 bonus.
+      disadvantage: |
+        The double-Khunchomer cannot be used for *Feints*.
+      src:
+        - id: US25208E
+          firstPage: 65
+
+- id: ITEMTPL_49
+  name: "Great Slave-Death"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        The *Intimidation (Threats)* check for the special ability *Threats* (see **Aventuria Compendium** Page **105**) receives a bonus of 1.
+        The great slave-death causes +1 DP against unarmored humanoids with PRO 0.
+      disadvantage: |
+        If successfully parried, roll 1D6. On a result of 5-6, the opponent's weapon becomes stuck in the blade, giving the wielder a -1 penalty to AT for the next CR. This rule does not apply to attacks against unarmed opponents.
+      src:
+        - id: US25208E
+          firstPage: 69
+
+- id: ITEMTPL_50
+  name: "Rondra's Crest"
+  versions:
+    - note: |
+        Sanctified (Rondra); only Blessed Ones of Rondra may purchase weapons sanctified by Rondra.
+      src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        Gain a +1 bonus when using the maneuver *Windmill* (see the **Aventuria Compendium** Page **165**).
+      disadvantage: |
+        This weapon cannot perform the maneuver *Quickdraw*.
+      src:
+        - id: US25208E
+          firstPage: 84
+
+- id: ITEMTPL_51
+  name: "Tuzak Knife"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        Gain a bonus of +1 DP when using the maneuvers *High Blade* or *Wide Swing* (see **Aventuria Compendium** pages **162** and **164**, respectively).
+      disadvantage: |
+        When wielding a Tuzak knife, *Forceful Blows* receive a -1 penalty. Subtract 4 from DP when using the maneuver *Shield-Splitter*.
+      src:
+        - id: US25208E
+          firstPage: 90
+
+- id: ITEMTPL_52
+  name: "Great Sword"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 368
+      - id: US25208E
+        firstPage: 69
+
+- id: ITEMTPL_53
+  name: "Barbarian Battle-Axe"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        Whenever the wielder achieves a critical success or inflicts 14+ DP in one blow against an enemy, all opponents within attack distance must make a *Willpower (Resist Intimidation)* check at a -1 penalty. Each enemy who fails this check receives 1 level of *Fear* for 5 CR.
+      disadvantage: |
+        A confirmed botch on an AT or PA inflicts 1 level of *Stupor* on the wielder.
+      src:
+        - id: US25208E
+          firstPage: 58
+
+- id: ITEMTPL_54
+  name: "Rock-Cleaver"
+  versions:
+    - note: |
+        To buy a rock-cleaver during hero creation, the character must be from a dwarvish culture.
+      src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        Gain a +1 bonus for the maneuver *Hammer Blow*. When performing the maneuver *Shatter*, roll 2D6 instead of 1D6, and add the greater die result to the DP.
+      disadvantage: |
+        When wielding a rock-cleaver, non-dwarves suffer a -2 penalty to AT, PA, and DP. A botch (confirmed or unconfirmed) while performing the maneuvers *Forceful Blow* or *Hammer Blow* causes the weapon to become stuck.
+        Recovering the weapon requires a free action and a successful *Feat of Strength (Dragging & Pulling)* check.
+      src:
+        - id: US25208E
+          firstPage: 83
+
+- id: ITEMTPL_55
+  name: "Warhammer"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 368
+      - id: US25208E
+        firstPage: 91
+
+- id: ITEMTPL_56
+  name: "Dwarf Cudgel"
+  versions:
+    - note: |
+        To buy a dwarf cudgel during hero creation, the character must be from a dwarvish culture.
+      src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        In cramped spaces, the weapon incurs only a -2 penalty on AT and PA. The dwarf cudgel inflicts +1 DP when used with the maneuver *Forceful Blow* II/III.
+      disadvantage: |
+        Non-dwarves suffer a -2 penalty on AT, PA, and DP when wielding a dwarf cudgel. The maneuver *Feint* receives an additional -1 penalty.
+      src:
+        - id: US25208E
+          firstPage: 66
+
+- id: ITEMTPL_57
+  name: "Balestrina"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        When firing at targets of size categories small and tiny, reduce the AT penalty by 1.
+      disadvantage: |
+        A botch roll of 20 when firing (whether confirmed or not) causes the weapon to jam. Clearing the jam requires 2 actions.
+        When using the Botch Table optional rule, this effect is cumulative with other weapon jam results.
+      src:
+        - id: US25208E
+          firstPage: 95
+
+- id: ITEMTPL_58
+  name: "Iron Forest"
+  versions:
+    - note: |
+        Magazine (holds 10 bolts); 2 actions per shot, 10 actions to change the magazine.
+      src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        Gain a +3 bonus for aiming (to a maximum of +4)
+      disadvantage: |
+        A botch (whether confirmed or not) causes a heavy weapon jam. Clearing the jam takes 2 actions. When using the Botch Table optional rule, this effect is cumulative with any other weapon jam results.
+      src:
+        - id: US25208E
+          firstPage: 99
+
+- id: ITEMTPL_59
+  name: "Hand Crossbow"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 372
+
+- id: ITEMTPL_60
+  name: "Light Crossbow"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 372
+      - id: US25208E
+        firstPage: 100
+
+- id: ITEMTPL_61
+  name: "Heavy Crossbow"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        At short range, add +1 DP (for a total of 1D6+5, including the normal DP bonus for range).
+      disadvantage: |
+        At far range, subtract 1 from DP (for a total of 1D6+1, including the normal DP penalty for range).
+      src:
+        - id: US25208E
+          firstPage: 100
+
+- id: ITEMTPL_62
+  name: "Elf Bow"
+  versions:
+    - note: |
+        To buy an elf bow during hero creation, the character must be from an elven culture.
+      src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        Gain a +1 bonus when performing the maneuver *Precise Shot*.
+      disadvantage: |
+        Cannot be used while mounted.
+        When wielding the elf bow, non-elves receive a -2 penalty to RC.
+      src:
+        - id: US25208E
+          firstPage: 98
+
+- id: ITEMTPL_63
+  name: "Composite Bow"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        Subtract 1 from range penalties (but do not reduce penalty below 0).
+      disadvantage: |
+        Receive an additional -2 penalty when firing in forests that are difficult or bad terrain (see **Core Rules** Page **349**)
+      src:
+        - id: US25208E
+          firstPage: 97
+
+- id: ITEMTPL_64
+  name: "Short Bow"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 372
+      - id: US25208E
+        firstPage: 100
+
+- id: ITEMTPL_65
+  name: "Long Bow"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        When performing *Ballistic Shot* (see **Aventuria Compendium** Page **151**) ignore the -2 penalty.
+      disadvantage: |
+        It is not possible to use the long bow while mounted. Receive a penalty of -2 in addition to all other applicable modifiers for the shot when firing in forests that are categorized as difficult or bad terrain (see **Core Rules** Page **349**).
+      src:
+        - id: US25208E
+          firstPage: 100
+
+- id: ITEMTPL_66
+  name: "Cut-Tooth"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        Subtract 1 from the weapon's damage threshold when using the maneuver *Powerful Throw* (see **Aventuria Compendium** Page **163**).
+      disadvantage: |
+        Receive a -1 penalty to RC when attacking targets at a far range.
+      src:
+        - id: US25208E
+          firstPage: 97
+
+- id: ITEMTPL_67
+  name: "Stone"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 372
+
+- id: ITEMTPL_68
+  name: "Throwing Axe"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 372
+      - id: US25208E
+        firstPage: 102
+
+- id: ITEMTPL_69
+  name: "Throwing Dagger"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 372
+      - id: US25208E
+        firstPage: 103
+
+- id: ITEMTPL_70
+  name: "Throwing Club"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        Targets that receive at least 6 DP from throwing clubs must succeed at a *Body Control (Balance)* check with a -1 penalty for every DP above 6, or receive the state *Prone*.
+      disadvantage: |
+        Subtract 2 from DP when attacking a target with armor of PRO 4 or greater.
+      src:
+        - id: US25208E
+          firstPage: 102
+
+- id: ITEMTPL_71
+  name: "Throwing Ring"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        Throwing rings inflict +1 DP against humanoids with PRO 0.
+      disadvantage: |
+        Make a botch confirmation roll on an attack roll of 19+.
+      src:
+        - id: US25208E
+          firstPage: 103
+
+- id: ITEMTPL_72
+  name: "Throwing Disc"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        Throwing discs gain a +1 bonus to RC.
+      disadvantage: |
+        Make a botch confirmation roll on an attack roll of 19+.
+      src:
+        - id: US25208E
+          firstPage: 103
+
+- id: ITEMTPL_73
+  name: "Throwing Spear"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        Targets that take at least 10 DP must succeed at a *Self-Control (Remain Conscious)* check with a penalty of -1 for each DP above 10, or receive the state *Prone*.
+      disadvantage: |
+        Cannot perform the maneuver *Quickload*.
+      src:
+        - id: US25208E
+          firstPage: 104
+
+- id: ITEMTPL_74
+  name: "Throwing Star"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 372
+    - advantage: |
+        On a hit that inflicts 6 or more DP, throwing stars become embedded in their targets, which then receive a -1 penalty to AT, PA, DO, and RC until the end of the next CR.
+      disadvantage: |
+        Make a botch confirmation roll on an attack roll of 19+.
+      src:
+        - id: US25208E
+          firstPage: 103
+
+- id: ITEMTPL_75
+  name: "Arrow"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_76
+  name: "Bolt"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_77
+  name: "Bullet"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_78
+  name: "Normal Clothing"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_79
+  name: "Furs"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_80
+  name: "Heavy Clothing"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_81
+  name: "Winter Clothing"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_82
+  name: "Cloth Armor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_83
+  name: "Gambeson"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_84
+  name: "Leather Armor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_85
+  name: "Chain Armor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+    errata:
+      - date: 2020-06-04
+        description: "There's a \"duplicate\" entry from the Aventuria Armory, which is more of a chain mail than this, so this is renamed to \"Chain Armor\""
+
+- id: ITEMTPL_86
+  name: "Scale Armor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+    errata:
+      - date: 2020-06-04
+        description: "There's a \"duplicate\" entry from the Aventuria Armory, which is more of a scale mail than this, so this is renamed to \"Chain Armor\""
+
+- id: ITEMTPL_87
+  name: "Plate Mail"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_88
+  name: "Bowstring"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_89
+  name: "Dagger Sheath"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_90
+  name: "Quiver, for 20 arrows or bolts"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_91
+  name: "Sword Sheath"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_92
+  name: "Underclothes for metal armor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_93
+  name: "Weapon maintenance set (grindstone, cloths)"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_94
+  name: "Ball gown"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_95
+  name: "Beret"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_96
+  name: "Tucker"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_97
+  name: "Felt hat"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_98
+  name: "Gugel (long hood)"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_99
+  name: "Necklace"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_100
+  name: "Shirt"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_101
+  name: "Pants"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_102
+  name: "Pants with pockets"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_103
+  name: "Jacket"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_104
+  name: "Caftan"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_105
+  name: "Hooded cloak"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_106
+  name: "Dress"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_107
+  name: "Corset"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_108
+  name: "Frock"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_109
+  name: "Leather Belt"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_110
+  name: "Leather gloves"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_111
+  name: "Leather hat with broad brim"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_112
+  name: "Leather Coat"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_113
+  name: "Leather shoes"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_114
+  name: "Leather apron with pockets"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_115
+  name: "Leather boots"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_116
+  name: "Loincloth"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_117
+  name: "Mage robe"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 374
+    - rules: |
+        The Normal Robe has neither advantages nor disadvantages.
+      src:
+        - id: US25208E
+          firstPage: 34
+
+- id: ITEMTPL_118
+  name: "Coat"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 374
+    - rules: |
+        *Intuition* receives a +1 bonus for *Stealth (Conceal Item)* if the item can be hidden underneath a cloak or in one of its pockets.
+      src:
+        - id: US25208E
+          firstPage: 19
+
+- id: ITEMTPL_119
+  name: "Nightgown"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_120
+  name: "Fur mittens"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_121
+  name: "Fur-padded boots"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_122
+  name: "Fur hat"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_123
+  name: "Skirt"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_124
+  name: "Sandals"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_125
+  name: "Scarf"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_126
+  name: "Veil"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_127
+  name: "Bodice"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_128
+  name: "Silk sash"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_129
+  name: "Silk stockings"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_130
+  name: "Straw hat"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_131
+  name: "Tunic"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_132
+  name: "Turban"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_133
+  name: "Underpants"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_134
+  name: "Underdress"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_135
+  name: "Tabard"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_136
+  name: "Vest"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_137
+  name: "Wool socks"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_138
+  name: "Clothing package: Not Free"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_139
+  name: "Clothing package: Free"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_140
+  name: "Clothing package: Lesser Noble"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_141
+  name: "Clothing package: Noble"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_142
+  name: "Clothing package: Aristocracy"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_143
+  name: "Angling gear and fishing line, 30'"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_144
+  name: "Cup"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_145
+  name: "Hatchet"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        *Dexterity* gains a +1 bonus on the first partial *Woodworking (Felling & Cutting)* check. A hatchet can be an improvised weapon (see **Aventuria Armory** Page **138**).
+      src:
+        - id: US25208E
+          firstPage: 29
+
+- id: ITEMTPL_146
+  name: "Broom"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_147
+  name: "Spit, iron"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_148
+  name: "Pitchfork"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_149
+  name: "Threshing Flail"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_150
+  name: "Cutlery"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_151
+  name: "File"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_152
+  name: "Pulley for 500 pounds"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_153
+  name: "Hammer"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_154
+  name: "Gimlet"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_155
+  name: "Handsaw"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_156
+  name: "Hammock"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_157
+  name: "Sickle"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+        - id: US25003E
+          firstPage: 228
+    - rules: |
+        Dexterity receives a +1 bonus on the second partial check for *Plant Lore (Crops)* when using a sickle. A sickle can be an improvised weapon (see **Aventuria Armory** Page **138**).
+      src:
+        - id: US25208E
+          firstPage: 46
+        - id: US25208E
+          firstPage: 139
+
+- id: ITEMTPL_158
+  name: "Woodsman's ax"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_159
+  name: "Wooden bowl"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_160
+  name: "Wooden plate"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_161
+  name: "Piton, 10"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_162
+  name: "Jug"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_163
+  name: "Copper kettle"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_164
+  name: "Glue"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_165
+  name: "Chisel"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_166
+  name: "Knife"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_167
+  name: "Needle and thread"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_168
+  name: "Nails, 10"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_169
+  name: "Frying pan"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_170
+  name: "Showel"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_171
+  name: "Scissors"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_172
+  name: "Bedroll"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_173
+  name: "Snowshoes"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        Deep snow reduces MOV by half when not using snowshoes. With snowshoes, reduce MOV by only 1/4.
+      src:
+        - id: US25208E
+          firstPage: 47
+
+- id: ITEMTPL_174
+  name: "Spade"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_175
+  name: "Pick"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_176
+  name: "Rope ladder, per yard"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+      - id: US25208E
+        firstPage: 45
+
+- id: ITEMTPL_177
+  name: "Woolen Blanket, Regular"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        Regular woolen blankets reduce effective Cold levels by 1. These effects stack with the cold weather bonus offered by tents.
+      src:
+        - id: US25208E
+          firstPage: 54
+
+- id: ITEMTPL_178
+  name: "Tongs"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_179
+  name: "Tent, 1 person"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        If a check on *Survival (Build Campsite)* succeeds with QL 5+ when setting up the tent, it counts as a good accommodation and grants a bonus of +1 *LP/AE/KP* (see **Core Rules** Page **339**) during regeneration phases.
+        The tent offers protection from the cold, reducing *Cold levels* by 1. This benefit stacks with those granted by a woolen blanket and a sleeping bag.
+        Assembly and disassembly take 20 minutes each.
+      src:
+        - id: US25208E
+          firstPage: 50
+
+- id: ITEMTPL_180
+  name: "Tent, 2 person"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        If a check on *Survival (Build Campsite)* succeeds with QL 5+ when setting up the tent, it counts as a good accommodation and grants a bonus of +1 *LP/AE/KP* (see **Core Rules** Page **339**) during regeneration phases.
+        The tent offers protection from the cold, reducing *Cold levels* by 1. This benefit stacks with those granted by a woolen blanket and a sleeping bag.
+        Assembly and disassembly take 20 minutes each.
+      src:
+        - id: US25208E
+          firstPage: 50
+
+- id: ITEMTPL_181
+  name: "Provisions for 1 day"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+      - id: US25206E
+        firstPage: 40
+
+- id: ITEMTPL_182
+  name: "Torch"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - note: |
+        Successful attacks with a lit torch do not necessarily cause the state *Burning*.
+      src:
+        - id: US25003E
+          firstPage: 228
+
+- id: ITEMTPL_183
+  name: "Gwen-Petryl Stone, Fist-Sized"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        For game purposes, stones have a burn time of infinity. The glow from a fist-sized stone reduces *Visibility* modifiers arising from darkness by -4/-3/-2/-1 per 10 feet from the stone.
+      src:
+        - id: US25208E
+          firstPage: 28
+
+- id: ITEMTPL_184
+  name: "Candles, 10"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        A candle's burning time is 10 hours. Candlelight reduces darkness visibility modifiers within a 12-foot radius and in line-of-sight of the candle, as follows: -4/-3/-2/-1 level(s) for 3/6/9/12 foot radii.
+      src:
+        - id: US25208E
+          firstPage: 16
+
+- id: ITEMTPL_185
+  name: "Lantern"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        Lanterns have a burn time of 12 hours. Lanterns reduce visibility modifiers arising from darkness by -4/-3/-2/-1 level(s) per 10 feet from the lantern.
+      src:
+        - id: US25208E
+          firstPage: 33
+
+- id: ITEMTPL_186
+  name: "Oil lamp"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        Lamps burn for 8 hours. Reduce visibility modifiers due to darkness by -4/-3/-2/-1 level(s) at each 3-foot increment of distance from the lamp.
+      src:
+        - id: US25208E
+          firstPage: 36
+
+- id: ITEMTPL_187
+  name: "Bulls-eye lantern"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_188
+  name: "Flint and steel"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        When using flint and steel, checks on *Survival (Make Fire)* receive a +2 bonus.
+      src:
+        - id: US25208E
+          firstPage: 26
+
+- id: ITEMTPL_189
+  name: "Candle holder"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_190
+  name: "Lamp oil, 12 hours"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_191
+  name: "Tinder, 25 portion"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        Increase QL by 1 (up to a maximum of 6) after making a successful *Survival (Make Fire)* check.
+      src:
+        - id: US25208E
+          firstPage: 51
+
+- id: ITEMTPL_192
+  name: "Tinder box (space for 25 portions)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        The tinderbox protects its contents from water for a time while swimming or diving. Opening or closing a tinderbox requires 1 free action.
+      src:
+        - id: US25208E
+          firstPage: 51
+
+- id: ITEMTPL_193
+  name: "Leech"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_194
+  name: "Surgical instruments"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_195
+  name: "Skull drill"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_196
+  name: "Cupping glass"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_197
+  name: "Bandages, 10"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_198
+  name: "Wound sewing kit"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_199
+  name: "Canteen"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_200
+  name: "Purse"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_201
+  name: "Money pouch"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_202
+  name: "Belt pouch"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        Retrieving an item from a belt pouch takes only 1 action.
+      src:
+        - id: US25208E
+          firstPage: 13
+
+- id: ITEMTPL_203
+  name: "Pannier"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+      - id: US25206E
+        firstPage: 33
+
+- id: ITEMTPL_204
+  name: "Leather knapsack"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_205
+  name: "Leather backpack"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - note: |
+        A leather backpack carries up to 110 pounds of equipment.
+      src:
+        - id: US25208E
+          firstPage: 13
+
+- id: ITEMTPL_206
+  name: "Phial"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        A phial holds 0.2 pint of liquid. Uncorking and drinking from a phial takes only 1 action.
+      src:
+        - id: US25208E
+          firstPage: 38
+
+- id: ITEMTPL_207
+  name: "Powder box"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_208
+  name: "Sack"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_209
+  name: "Jewelry box"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_210
+  name: "Jar"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_211
+  name: "Drinking horn"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_212
+  name: "Chest"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_213
+  name: "Cloth satchel"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_214
+  name: "Shoulder bag"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - note: |
+        A shoulder bag can hold up to 45 pounds of items.
+      src:
+        - id: US25208E
+          firstPage: 45
+
+- id: ITEMTPL_215
+  name: "Vase"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_216
+  name: "Waterskin"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_217
+  name: "Rope, thin, per yard"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_218
+  name: "Chain, per yard"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_219
+  name: "Rope, climbing, per yard"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        When combined with climbing hooks, a climbing rope grants a +1 bonus on *Climbing* checks.
+      src:
+        - id: US25208E
+          firstPage: 18
+
+- id: ITEMTPL_220
+  name: "Twine, per 10 yards"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_221
+  name: "Crowbar"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 377
+      rules: |
+        *Strength* receives a +1 bonus for Feat of *Strength (Pushing & Bending or Lifting)* when using a crowbar to lift a weight or break open a door, window, or similar object.
+        Crowbars can be improvised weapons (see **Aventuria Armory** pages **138-139**).
+    - src:
+        - id: US25208E
+          firstPage: 22
+
+- id: ITEMTPL_222
+  name: "Lockpicks"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        *Dexterity* receives a +1 bonus for one partial *Pick Locks (Bit Locks)* check.
+      src:
+        - id: US25208E
+          firstPage: 33
+
+- id: ITEMTPL_223
+  name: "False beard/wig"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_224
+  name: "Grapnel"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        A grapnel combined with a climbing rope can be thrown and hooked onto an appropriate surface, such as a sturdy branch or rock outcropping. This requires a check on RC for Thrown Weapons. The throw takes 2 actions, and the check receives a -1 penalty for every 16 feet of distance to the target.
+        A grapnel with at least 3 feet of rope can serve as an improvised weapon (see **Aventura Armory** Page **139**)
+      src:
+        - id: US25208E
+          firstPage: 27
+
+- id: ITEMTPL_225
+  name: "Archaic laboratory"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_226
+  name: "Witch kitchen"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_227
+  name: "Alchemical laboratory"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_228
+  name: "Precision mechanic's tools"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_229
+  name: "Engraver's tools"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_230
+  name: "Cartographer's tools"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        *Dexterity* receives a +1 bonus on *Artistic Ability (Drawing)* checks when drawing a map.
+      src:
+        - id: US25208E
+          firstPage: 17
+
+- id: ITEMTPL_231
+  name: "Sewing box"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_232
+  name: "Tattoo artist's tools"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_233
+  name: "Carpenter's tools"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_234
+  name: "Abacus"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_235
+  name: "Astrolabe"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        A successful check on *Astronomy* increases the SP by 1 (up to a maximum of 18). The prerequisite for this bonus is a SR of 6 in *Astronomy*.
+        An armillary sphere allows a hero to calculate the time to within 5 minutes.
+      src:
+        - id: US25208E
+          firstPage: 12
+
+- id: ITEMTPL_236
+  name: "Amber glasses"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_237
+  name: "Telescope"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        *Perception (Search)* checks involving large distances normally incur the following penalties: -1 (300 to 1,600 feet), -2 (1,601 to 3,200 feet), -3 (3,201 to 6,500 feet), -4 (6,501 to 9,800 feet), and so on. Telescopes reduce these penalties in the following manner: Small and collapsible spyglasses reduce the penalty by 1, standard telescopes reduce it by 2, and large telescopes reduce it by 3 (to a minimum of +/- 0)
+      src:
+        - id: US25208E
+          firstPage: 49
+
+- id: ITEMTPL_238
+  name: "Compass (south-pointer)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        A hero receives a +5 bonus on *Orienting* checks when determining the cardinal directions. Other checks also can gain (smaller) bonuses when using a compass.
+      src:
+        - id: US25208E
+          firstPage: 21
+
+- id: ITEMTPL_239
+  name: "Quadrant"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        *Sagacity* receives a +1 bonus for *Astronomy (Stellar Cartography* or *Calendars)* or *Orienting (Night Sky)* checks when using a quadrant.
+      src:
+        - id: US25206E
+          firstPage: 41
+
+- id: ITEMTPL_240
+  name: "Hourglass"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        Hourglasses measure a unit of time to within 5 minutes.
+      src:
+        - id: US25208E
+          firstPage: 32
+
+- id: ITEMTPL_241
+  name: "Pocket watch (Vinsalter Egg)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        A Vinsalt Egg lets a character measure a unit of time to within one minute.
+      src:
+        - id: US25208E
+          firstPage: 39
+
+- id: ITEMTPL_242
+  name: "Amulet, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_243
+  name: "Amulet, Silver"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_244
+  name: "Amulet, Gold"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_245
+  name: "Bracelet, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_246
+  name: "Bracelet, Silver"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_247
+  name: "Bracelet, Gold"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_248
+  name: "Brooch, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_249
+  name: "Brooch, Silver"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_250
+  name: "Brooch, Gold"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_251
+  name: "Necklace, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_252
+  name: "Necklace, Silver"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_253
+  name: "Necklace, Gold"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_254
+  name: "Earing, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_255
+  name: "Earing, Silver"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_256
+  name: "Earing, Gold"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_257
+  name: "Ring, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_258
+  name: "Ring, Silver"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_259
+  name: "Ring, Gold"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_260
+  name: "Tiara, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_261
+  name: "Tiara, Silver"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_262
+  name: "Tiara, Gold"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_263
+  name: "Amethyst"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_264
+  name: "Aquamarine"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_265
+  name: "Aventurine"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_266
+  name: "Clear Crystall"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_267
+  name: "Amber"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_268
+  name: "Diamond"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_269
+  name: "Garnet"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_270
+  name: "Green Jade"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_271
+  name: "Carnelian"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_272
+  name: "Lapis Lazuli"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_273
+  name: "Moonstone"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_274
+  name: "Onyx"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_275
+  name: "Opal"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_276
+  name: "Pearl"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_277
+  name: "Ruby"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_278
+  name: "Sapphire"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_279
+  name: "Emerald"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_280
+  name: "Topaz"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_281
+  name: "Turquoise"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_282
+  name: "Quill pen"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_283
+  name: "Penknife"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_284
+  name: "Charcoal"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_285
+  name: "Chalk"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        One piece of chalk is enough for 20 pictures or large drawings, like pentagrams.
+      src:
+        - id: US25208E
+          firstPage: 17
+
+- id: ITEMTPL_286
+  name: "Paper, 1 sheet"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        On a successful *Artistic Ability (Drawing* or *Painting)* check, SP increases by 1 (up to a maximum of 18).
+      src:
+        - id: US25208E
+          firstPage: 37
+
+- id: ITEMTPL_287
+  name: "Parchment, 1 sheet"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 378
+    - rules: |
+        On a successful *Artistic Ability (Drawing* or *Painting)* check, SP increases by 1 (up to a maximum of 18).
+      src:
+        - id: US25208E
+          firstPage: 37
+
+- id: ITEMTPL_288
+  name: "Brush"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_289
+  name: "Sealing wax"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_290
+  name: "Diary"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_291
+  name: "Ink"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_292
+  name: "Breviary of the Guidance of the Twelvegods"
+  versions:
+    - note: |
+        Language / Script varies, but usually Garethi / Kuslik Signs.
+      src:
+        - id: US25001E
+          firstPage: 379
+    - rules: |
+        When seeking general information on Alveran deities or their associated demigods, gain a +1 bonus to *Sagacity* on the second partial check on *Religions (any deities of Alveran and their associated demigods)*.
+      src:
+        - id: US25208E
+          firstPage: 15
+
+- id: ITEMTPL_293
+  name: "Codex Albyricus"
+  versions:
+    - note: |
+        Language / Script is typically Bosparano / Kuslik Signs.
+      src:
+        - id: US25001E
+          firstPage: 379
+    - rules: |
+        A successful *Law (Guild Law)* check increases the SP by 1/2/3 (up to a maximum of 18) if the hero possesses 1/3/7 usable volumes of the Codex Albyricus.
+      src:
+        - id: US25208E
+          firstPage: 19
+          lastPage: 20
+
+- id: ITEMTPL_294
+  name: "Encyclopaedia Magica"
+  versions:
+    - note: |
+        Language / Script varies by edition, but typically Bosparano or Garethi / Kuslik Signs.
+      src:
+        - id: US25001E
+          firstPage: 379
+    - rules: |
+        A successful check on *Magical Lore* increases SP by 1/2/3 (up to a maximum of 18) if the hero has access to 1/3/7 usable volumes of the Encyclopaedia Magica.
+      src:
+        - id: US25208E
+          firstPage: 24
+
+- id: ITEMTPL_295
+  name: "Handbooke of the Wandering Adept"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_296
+  name: "Bracelet of Willpower"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_297
+  name: "Firn Blade"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_298
+  name: "Antidote"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_299
+  name: "Healing potion"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_300
+  name: "Love potion"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_301
+  name: "potion of Invisibility"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_302
+  name: "Transformation Elixir"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_303
+  name: "Weapon Balm"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_304
+  name: "Potion of Will"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_305
+  name: "Arcane Potion"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_306
+  name: "Arax"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 342
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_307
+  name: "Kelmon"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 342
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_308
+  name: "Tulmadron"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 342
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_309
+  name: "Wurara"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 342
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_310
+  name: "Mandrake Root"
+  versions:
+    note: |
+      Used mainly for Alchemy (see **Core Rules** Page **271**)
+    src:
+      - id: US25001E
+        firstPage: 345
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_311
+  name: "Axorda tree bark"
+  versions:
+    note: |
+      Zure for Zorganpox (see **Core Rules** Page **344**)
+    src:
+      - id: US25001E
+        firstPage: 345
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_312
+  name: "Donf"
+  versions:
+    note: |
+      Cure for swamp fever (see **Core Rules** Page **344**)
+    src:
+      - id: US25001E
+        firstPage: 345
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_313
+  name: "Leechfright"
+  versions:
+    note: |
+      Repels Parasites
+    src:
+      - id: US25001E
+        firstPage: 345
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_314
+  name: "Gulmond"
+  versions:
+    note: |
+      Ignore 2 level of *Stupor* for 12h. Still incapacitated at Level IV
+    src:
+      - id: US25001E
+        firstPage: 345
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_315
+  name: "Lulany"
+  versions:
+    note: |
+      Cure for Lutanas and Rapid Mania (See **Core Rules** Page **343**)
+    src:
+      - id: US25001E
+        firstPage: 345
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_316
+  name: "Wirsel herb"
+  versions:
+    note: |
+      Recover +1 LP for next regeneration phase/dose, max 3LP/phase
+    src:
+      - id: US25001E
+        firstPage: 346
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_317
+  name: "Symphonia"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_318
+  name: "Fanfare trumpet"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_319
+  name: "Flute"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_320
+  name: "Hand Harp"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_321
+  name: "Kabas Flute"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_322
+  name: "Lute"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_323
+  name: "Bagpipes"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_324
+  name: "Bells"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_325
+  name: "Signal horn"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_326
+  name: "Spinet"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_327
+  name: "Standing Harp"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_328
+  name: "Drum"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_329
+  name: "Bath oil"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_330
+  name: "Beer, small keg"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_331
+  name: "Burning lens"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_332
+  name: "Board game"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_333
+  name: "Brush"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_334
+  name: "Divine figurine"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 380
+    - rules: |
+        Carrying a figurine (or equivalent) of a deity and praying over it at least once per day lets the user ignore the condition *Fear* for 2 CR once per adventure. Afterwards, the owner must make an offering of at least 10 ducats to one of that deity's temples before the benefit becomes available again.
+      src:
+        - id: US25208E
+          firstPage: 27
+
+- id: ITEMTPL_335
+  name: "Hand mirror"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_336
+  name: "Juggling ball"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_337
+  name: "Coffee, roasted"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_338
+  name: "Cocoa"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_339
+  name: "Comb"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_340
+  name: "Crystal ball"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_341
+  name: "Lipstick"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_342
+  name: "Nail file"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_343
+  name: "Perfume"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 381
+    - rules: |
+        One hour after applying a perfume, *Charisma* receives a +1 bonus on *Seduction* if the target likes its scent. If the target does not like the perfume, the check receives a penalty of -1.
+      src:
+        - id: US25208E
+          firstPage: 38
+
+- id: ITEMTPL_344
+  name: "Pepper"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_345
+  name: "Powder"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_346
+  name: "Hard liquor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_347
+  name: "Chocolate"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_348
+  name: "Sponge"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_349
+  name: "Soap"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 381
+    - rules: |
+        Anyone who regularly washes with soap gains a +1 *TOU* bonus on checks for diseases.
+        Soap can be an improvised weapon when wrapped in a tube or piece of cloth (see **Aventuria Armory** Page **138**).
+      src:
+        - id: US25208E
+          firstPage: 48
+
+- id: ITEMTPL_350
+  name: "Playing cards"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_351
+  name: "Music box"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_352
+  name: "Hobby-horse"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_353
+  name: "Cloth doll"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_354
+  name: "Tobacco"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_355
+  name: "Tobacco tin"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_356
+  name: "Tobacco pipe"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_357
+  name: "Handkerchief"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_358
+  name: "Hookah"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 381
+    - rules: |
+        When offering a hookah at a party, a host's *Charisma* receives a +1 bonus on *Etiquette (Rumors)* checks if guests understand and expect the gesture.
+      src:
+        - id: US25208E
+          firstPage: 32
+
+- id: ITEMTPL_359
+  name: "Wine"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_360
+  name: "Dice, Six-Sided"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 380
+      - id: US25208E
+        firstPage: 24
+
+- id: ITEMTPL_361
+  name: "Dog"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_362
+  name: "Horse"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_363
+  name: "Mule"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_364
+  name: "Pony"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_365
+  name: "Collar and leash"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_366
+  name: "Horseshoe"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_367
+  name: "Packsaddle"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_368
+  name: "Riding saddle"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_369
+  name: "Saddle-cloth"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_370
+  name: "Saddle bag"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_371
+  name: "Spur"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_372
+  name: "Currycomb"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_373
+  name: "Reins and tack"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_374
+  name: "Dog food"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_375
+  name: "Horse feed"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_376
+  name: "Pony feed"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_377
+  name: "Handcart"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_378
+  name: "Cart, one axle"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_379
+  name: "Boat, rowing, small"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_380
+  name: "Boat, sailing, small"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_381
+  name: "Coach"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 381
+
+- id: ITEMTPL_382
+  name: "Rolling Pin"
+  versions:
+    - src:
+        - id: US25003E
+          firstPage: 228
+    - rules: |
+        Dexterity receives a +1 bonus on the third partial check for *Prepare Food (Baking)* when using a rolling pin. A rolling pin can be an improvised weapon (see **Aventuria Armory** Page **138**).
+      advantage: |
+        The maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**) inflicts 1D3+1 DP (instead of only 1D3 DP)
+      disadvantage: |
+        The rolling pin breaks on a confirmed botch. Any other effects of the botch also apply.
+      src:
+        - id: US25208E
+          firstPage: 44
+
+- id: ITEMTPL_383
+  name: "Blacksmith's Hammer"
+  versions:
+    - src:
+        - id: US25003E
+          firstPage: 228
+    - rules: |
+        Strength receives a +1 bonus on the third partial *Metalworking (Blacksmith)* check when using a blacksmith's hammer. A blacksmith's hammer can be an improvised weapon (see **Aventuria Armory** Page **138**).
+      advantage: |
+        When using the maneuver *Shatter* (see **Aventuria Compendium** Page **152**), roll 2D6 and apply only the better of the two results as DP.
+      disadvantage: |
+        The maneuver *Feint* receives a penalty of -1.
+      src:
+        - id: US25208E
+          firstPage: 143
+
+- id: ITEMTPL_384
+  name: "Sickle"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+        - id: US25003E
+          firstPage: 228
+    - rules: |
+        Dexterity receives a +1 bonus on the second partial check for *Plant Lore (Crops)* when using a sickle. A sickle can be an improvised weapon (see **Aventuria Armory** Page **138**).
+      src:
+        - id: US25208E
+          firstPage: 46
+        - id: US25208E
+          firstPage: 139
+
+- id: ITEMTPL_385
+  name: "Tournament Lance"
+  versions:
+    - note: |
+        The tournament lance breaks upon causing 11+ DP in a single attack.
+      src:
+        - id: US25101E
+          firstPage: 154
+        - id: US25003E
+          firstPage: 230
+    - note: |
+        This weapon can be used for Tilt only.
+        The tournament lance breaks upon causing 11+ DP in a single attack.
+      src:
+        - id: US25206E
+          firstPage: 15
+
+- id: ITEMTPL_386
+  name: "Horse Whip"
+  versions:
+    src:
+      - id: US25003E
+        firstPage: 229
+      - id: US25208E
+        firstPage: 71
+
+- id: ITEMTPL_387
+  name: "Broad Sword"
+  versions:
+    - src:
+        - id: US25003E
+          firstPage: 228
+    - advantage: |
+        The broadsword can perform the maneuver *Shield-Splitter* even though this normally cannot be combined with the combat technique Swords.
+      disadvantage: |
+        The broadsword receives a -2 penalty on PA against the combat techniques *Two-Handed Impact Weapons* and *Two-Handed Swords*
+      src:
+        - id: US25208E
+          firstPage: 62
+
+- id: ITEMTPL_388
+  name: "Parazonium (Cyclopean Short Sword)"
+  versions:
+    - src:
+        - id: US25003E
+          firstPage: 229
+    - advantage: |
+        If successful when using the maneuver *Jumping Attack* (see **Aventuria Compendium** Page **164**), gain +1 QL on the skill check.
+      disadvantage: |
+        Receive a -1 penalty to PA versus **Two-Handed Impact Weapons* and *Two-Handed Swords*
+      src:
+        - id: US25208E
+          firstPage: 140
+
+- id: ITEMTPL_389
+  name: "Scimshar (Tulamydian Short Sword)"
+  versions:
+    - src:
+        - id: US25003E
+          firstPage: 229
+    - advantage: |
+        Subtract 1 PRO (to a minimum of 0) from armor with PRO 2 or less.
+      disadvantage: |
+        Receive a -1 penalty when parrying *Two-Handed Impact Weapons* and *Two-Handed Swords*.
+      src:
+        - id: US25208E
+          firstPage: 140
+
+- id: ITEMTPL_390
+  name: "Tournament Sword"
+  versions:
+    note: |
+      The tournament sword breaks when it inflicts 7+ DP in a single attack.
+    src:
+      - id: US25101E
+        firstPage: 153
+      - id: US25206E
+        firstPage: 16
+      - id: US25003E
+        firstPage: 229
+
+- id: ITEMTPL_391
+  name: "Hirtenstab"
+  versions:
+    - src:
+        - id: US25003E
+          firstPage: 228
+    - advantage: |
+        The wielder may perform the maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**) and gains a +1 bonus when doing so.
+      disadvantage: |
+        The maneuver *Charge* receives a -1 penalty.
+      src:
+        - id: US25208E
+          firstPage: 140
+
+- id: ITEMTPL_392
+  name: "War Flail"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+        - id: US25003E
+          firstPage: 229
+    - advantage: |
+        Shields can use only their simple defense bonus against war flails.
+      disadvantage: |
+        Attacks with the war flail must make botch confirmation checks on rolls of 19+. The maneuver *Keep at Distance* (see **Aventuria Compendium**) cannot be performed with the war flail.
+      src:
+        - id: US25206E
+          firstPage: 8
+
+- id: ITEMTPL_393
+  name: "Pailos"
+  versions:
+    - src:
+        - id: US25003E
+          firstPage: 228
+    - advantage: |
+        The maneuver *Sweep* receives a +1 bonus.
+      disadvantage: |
+        The maneuver *Feint* receives a -1 penalty.
+      src:
+        - id: US25101E
+          firstPage: 141
+
+- id: ITEMTPL_394
+  name: "Scythe"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+        - id: US25003E
+          firstPage: 228
+    - advantage: |
+        Scythes grant the maneuver *Takedown*, even if the wielder does not possess the corresponding special ability (see **Core Rules** Page **250**). However, a wielder without the SA suffers an AT penalty of 6, not 4. Heroes with the relevant SA may perform the maneuver as usual.
+      disadvantage: |
+        Anyone attacking or parrying with a scythe may move at only half MOV for the current CR.
+      src:
+        - id: US25206E
+          firstPage: 18
+
+- id: ITEMTPL_395
+  name: "War Scythe"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+        - id: US25003E
+          firstPage: 228
+    - advantage: |
+        Two or more fighters armed with war scythes may form a scythe wall. Participants must face the same direction and stay within 1.6 feet of their neighbor. Scythe walls theoretically have no upper limit on number of participants. Participants gain a PA bonus of +1. When performing the maneuver *Charge* en mass, they lose the PA bonus but gain +1 DP with the war scythe (see *Core Rules** Page **246**)
+      disadvantage: |
+        Whenever the war scythe causes 10+ DP in one blow, roll 1D6: on a 1, the blade falls off, leaving only a wooden staff (same stats as a club). Re-attaching the blade requires a check on *Metalworking (Blacksmith)* with a bonus of 3 (5 minutes, any number of attempts).
+      src:
+        - id: US25206E
+          firstPage: 14
+
+- id: ITEMTPL_396
+  name: "Tournament Great Sword"
+  versions:
+    note: |
+      The tournament great sword breaks when it inflicts 9+ DP in a single attack.
+    src:
+      - id: US25101E
+        firstPage: 153
+      - id: US25206E
+        firstPage: 16
+      - id: US25003E
+        firstPage: 229
+
+- id: ITEMTPL_397
+  name: "Slings"
+  versions:
+    src:
+      - id: US25003E
+        firstPage: 229
+      - id: US25208E
+        firstPage: 140
+
+- id: ITEMTPL_398
+  name: "Pebbles (Sling)"
+  versions:
+    src:
+      - id: US25003E
+        firstPage: 229
+
+- id: ITEMTPL_399
+  name: "Wood Armor"
+  versions:
+    src:
+      - id: US25003E
+        firstPage: 229
+
+- id: ITEMTPL_400
+  name: "Horn Armor"
+  versions:
+    src:
+      - id: US25003E
+        firstPage: 230
+
+- id: ITEMTPL_401
+  name: "Bone Armor"
+  versions:
+    src:
+      - id: US25003E
+        firstPage: 230
+
+- id: ITEMTPL_402
+  name: "Tournament Armor"
+  versions:
+    - note: |
+        While mounted, reduce ENC of tournament armor by 2 instead of 1. On foot, characters wearing tournament armor cannot move faster than 1/2 their MOV.
+      src:
+        - id: US25101E
+          firstPage: 154
+        - id: US25003E
+          firstPage: 230
+    - note: |
+        While mounted, reduce ENC of tournament armor by 2 instead of 1. On foot, characters wearing tournament armor cannot move faster than 1/2 their MOV.
+      advantage: |
+        A check on *Etiquette (Manners)* in order to challenge an opponent for a duel receives a bonus of 1 for the CHA part of the check if the hero wears tournament armor.
+      disadvantage: |
+        Mounting a horse requires assistance (another person or a winch) and takes at least 10 CR. Also, checks on *Perception (Search or Spot)* involving hearing or sight receive a penalty of 2.
+      src:
+        - id: US25206E
+          firstPage: 15
+
+- id: ITEMTPL_403
+  name: "Armillary Sphere"
+  versions:
+    rules: |
+      A successful check on *Astronomy* increases the SP by 1 (up to a maximum of 18). The prerequisite for this bonus is a SR of 6 in *Astronomy*.<br>
+      An astrolab allows a hero to calculate the time to within 5 minutes.
+    src:
+      - id: US25208E
+        firstPage: 12
+
+- id: ITEMTPL_404
+  name: "Boltan Card Set, Cloth"
+  versions:
+    src:
+      - id: US25208E
+        firstPage: 14
+
+- id: ITEMTPL_405
+  name: "Boltan Card Set, Paper"
+  versions:
+    src:
+      - id: US25208E
+        firstPage: 14
+
+- id: ITEMTPL_406
+  name: "Boltan Card Set, Cloth, Marked"
+  versions:
+    rules: |
+      When using marked cards, someone with the special ability *Cheating* receives a +1 bonus on *Gambling (Card Games)* checks. However, this bonus only comes into effect after a failed first check (see **Core Rules** Page **214**).
+    src:
+      - id: US25208E
+        firstPage: 14
+
+- id: ITEMTPL_407
+  name: "Boltan Card Set, Paper, Marked"
+  versions:
+    rules: |
+      When using marked cards, someone with the special ability *Cheating* receives a +1 bonus on *Gambling (Card Games)* checks. However, this bonus only comes into effect after a failed first check (see **Core Rules** Page **214**).
+    src:
+      - id: US25208E
+        firstPage: 14
+
+- id: ITEMTPL_408
+  name: "Pry-Bar"
+  versions:
+    rules: |
+      Strength receives a +1 bonus for Feat of *Strength (Pushing & Bending or Lifting)* on both *STR* partial checks when using a pry-bar to lift a weight or break open a door, window, or similar object.<br>
+      Pry-bars can be improvised weapons (see **Aventuria Armory** pages **138-139*)
+    advantage: |
+      On a successful parry, roll 1D6. On a result of 1, the opponent's weapon briefly becomes caught on the prybar and the opponent suffers a -1 penalty to AT for the next CR. This rule does not apply for attacks against unarmed opponents.
+    disadvantage: |
+      On a successful parry, roll 1D6. On a result of 6, the opponent's weapon briefly becomes caught on the pry-bar and the pry-bar's wielder suffers a -1 penalty to AT for the next CR. This rule does not apply for attacks against unarmed opponents.
+    src:
+      - id: US25208E
+        firstPage: 22
+
+- id: ITEMTPL_409
+  name: "Lockpick Set (6 Different Kinds)"
+  versions:
+    rules: |
+      Dexterity receives a +1 bonus on both partial *Pick Locks (Bit Locks)* checks. Bonuses are not cumulative; Only one bonus applies, regardless of whether the character uses a single lockpick or a lockpick set.
+    src:
+      - id: US25208E
+        firstPage: 33
+
+- id: ITEMTPL_410
+  name: "Telescope, Collapsible"
+  versions:
+    rules: |
+      *Perception (Search)* checks involving large distances normally incur the following penalties: -1 (300 to 1,600 feet), -2 (1,601 to 3,200 feet), -3 (3,201 to 6,500 feet), -4 (6,501 to 9,800 feet), and so on. Telescopes reduce these penalties in the following manner: Small and collapsible spyglasses reduce the penalty by 1, standard telescopes reduce it by 2, and large telescopes reduce it by 3 (to a minimum of +/- 0)
+    src:
+      - id: US25208E
+        firstPage: 49
+
+- id: ITEMTPL_411
+  name: "Telescope, Small"
+  versions:
+    rules: |
+      *Perception (Search)* checks involving large distances normally incur the following penalties: -1 (300 to 1,600 feet), -2 (1,601 to 3,200 feet), -3 (3,201 to 6,500 feet), -4 (6,501 to 9,800 feet), and so on. Telescopes reduce these penalties in the following manner: Small and collapsible spyglasses reduce the penalty by 1, standard telescopes reduce it by 2, and large telescopes reduce it by 3 (to a minimum of +/- 0)
+    src:
+      - id: US25208E
+        firstPage: 49
+
+- id: ITEMTPL_412
+  name: "Telescope, Large"
+  versions:
+    rules: |
+      *Perception (Search)* checks involving large distances normally incur the following penalties: -1 (300 to 1,600 feet), -2 (1,601 to 3,200 feet), -3 (3,201 to 6,500 feet), -4 (6,501 to 9,800 feet), and so on. Telescopes reduce these penalties in the following manner: Small and collapsible spyglasses reduce the penalty by 1, standard telescopes reduce it by 2, and large telescopes reduce it by 3 (to a minimum of +/- 0)
+    src:
+      - id: US25208E
+        firstPage: 49
+
+- id: ITEMTPL_413
+  name: "Rope for Binding, Leather, per Yard"
+  versions:
+    rules: |
+      Increase SP by 2 (up to a maximum of 18) on a successful check on *Ropes (Bindings)*. If dampened prior to use, the rope inflicts 1D3 DP as it dries.
+    src:
+      - id: US25208E
+        firstPage: 44
+
+- id: ITEMTPL_414
+  name: "Gwen-Petryl Stone, Head-Sized"
+  versions:
+    rules: |
+      For game purposes, stones have a burn time of infinity. The glow from a fist-sized stone reduces *Visibility* modifiers arising from darkness by -4/-3/-2/-1 per 10 feet from the stone.
+    src:
+      - id: US25208E
+        firstPage: 28
+
+- id: ITEMTPL_415
+  name: "Gwen-Petryl Stone, Finger-Tip-Sized"
+  versions:
+    rules: |
+      For game purposes, stones have a burn time of infinity. The glow from a fist-sized stone reduces *Visibility* modifiers arising from darkness by -4/-3/-2/-1 per 10 feet from the stone.
+    src:
+      - id: US25208E
+        firstPage: 28
+
+- id: ITEMTPL_416
+  name: "Herbarium Kuslikum"
+  versions:
+    note: |
+      Language / Script is typically Garethi / Kuslik Signs.
+    rules: |
+      When using the Herbarium Kuslikum to identify a plant, a successful *Plant Lore (Crops*, *Healing Plants*, and *Poisonous Plants)* check grants +1 SP.
+    src:
+      - id: US25208E
+        firstPage: 31
+
+- id: ITEMTPL_417
+  name: "Camel Game"
+  versions:
+    src:
+      - id: US25208E
+        firstPage: 42
+
+- id: ITEMTPL_418
+  name: "Camel Game, Altered"
+  versions:
+    rules: |
+      Gain a +1 bonus on *Gambling (Board Games)* checks when playing the camel game with an altered set. However, this bonus becomes available only after a failed first check (see **Core Rules** Page **214**).
+    src:
+      - id: US25208E
+        firstPage: 42
+
+- id: ITEMTPL_419
+  name: "Candle, Clock, 1"
+  versions:
+    rules: |
+      A candle's burning time is 10 hours. Candlelight reduces darkness visibility modifiers within a 12-foot radius and in line-of-sight of the candle, as follows: -4/-3/-2/-1 level(s) for 3/6/9/12 foot radii.<br>
+      This object lets you determine the time of the day to within 30 minutes, and otherwise functions like a regular candle.
+    src:
+      - id: US25208E
+        firstPage: 16
+
+- id: ITEMTPL_420
+  name: "Magic Candle, 1"
+  versions:
+    rules: |
+      A candle's burning time is 10 hours. Candlelight reduces darkness visibility modifiers within a 12-foot radius and in line-of-sight of the candle, as follows: -4/-3/-2/-1 level(s) for 3/6/9/12 foot radii.<br>
+      The corresponding attribute receives a +1 bonus on the first partial check for invocations or banishments of demons, elementals, or ghosts, provide that you are using the correct number of magic candles (for demons/ elementals/ghosts, this number is 7/6/5 magic candles). Otherwise this functions like a regular candle.
+    src:
+      - id: US25208E
+        firstPage: 16
+
+- id: ITEMTPL_421
+  name: "Rope, Silk, per Yard"
+  versions:
+    rules: |
+      When combined with climbing hooks, a climbing rope grants a +1 bonus on *Climbing* checks.
+    src:
+      - id: US25208E
+        firstPage: 18
+
+- id: ITEMTPL_422
+  name: "Compass (South Pointer), Metal Case"
+  versions:
+    rules: |
+      A hero receives a +5 bonus on *Orienting* checks when determining the cardinal directions. Other checks also can gain (smaller) bonuses when using a compass.
+    src:
+      - id: US25208E
+        firstPage: 21
+
+- id: ITEMTPL_423
+  name: "Chalk, Magical"
+  versions:
+    rules: |
+      One piece of chalk is enough for 20 pictures or large drawings, like pentagrams.<br>
+      After drawing the necessary ritual symbols with magic chalk (requiring enough chalk to draw 7/6/5 drawings for demons/elementals/ghosts), the corresponding attribute receives a +1 bonus on the first partial check to invoke or abjure a demon, elemental, or ghost.
+    src:
+      - id: US25208E
+        firstPage: 17
+
+- id: ITEMTPL_424
+  name: "Mage Robe, Light"
+  versions:
+    rules: |
+      The corresponding attribute receives a +1 bonus on the first partial check of healing or influence spells. All others receive a penalty of -1.
+    src:
+      - id: US25208E
+        firstPage: 34
+
+- id: ITEMTPL_425
+  name: "Mage Robe, Great"
+  versions:
+    rules: |
+      The corresponding attribute receives a +1 bonus on the first partial check of object or transformation spells. All others receive a penalty of -1.
+    src:
+      - id: US25208E
+        firstPage: 34
+
+- id: ITEMTPL_426
+  name: "Mage Robe, Invocation"
+  versions:
+    rules: |
+      The corresponding attribute receives a +1 bonus on the first partial check for demonic, elemental, or *Sphere (if it involves the summoning of creatures)* rituals. All others receive a penalty of -1.
+    src:
+      - id: US25208E
+        firstPage: 34
+
+- id: ITEMTPL_427
+  name: "Mage Robe, Convention"
+  versions:
+    rules: |
+      The Convention Robe has neither advantages nor disadvantages.
+    src:
+      - id: US25208E
+        firstPage: 34
+
+- id: ITEMTPL_428
+  name: "Mage Robe, Traveler's"
+  versions:
+    rules: |
+      The Traveler's Robe has neither advantages nor disadvantages.
+    src:
+      - id: US25208E
+        firstPage: 34
+
+- id: ITEMTPL_429
+  name: "Paper, Good, 1 Sheet"
+  versions:
+    rules: |
+      On a successful *Artistic Ability (Drawing* or *Painting)* check, SP increases by 1 (up to a maximum of 18).
+    src:
+      - id: US25208E
+        firstPage: 37
+
+- id: ITEMTPL_430
+  name: "Parchment, Good, 1 Sheet"
+  versions:
+    rules: |
+      On a successful *Artistic Ability (Drawing* or *Painting)* check, SP increases by 1 (up to a maximum of 18).
+    src:
+      - id: US25208E
+        firstPage: 37
+
+- id: ITEMTPL_431
+  name: "Prem's Wildlife"
+  versions:
+    note: |
+      Languages / Scripts per edition; typically, Garethi / Kuslik Signs.
+    rules: |
+      A successful *Animal Lore* check grants +1 SP when using Prem's Wildlife to seek information on an animal from one of the following regions: Albernia, Andergast, Gjalskland, the Horasian Empire, North Aventuria, Nostria, Orclands, Thorwal, or the Cyclopes Islands.
+    src:
+      - id: US25208E
+        firstPage: 39
+
+- id: ITEMTPL_432
+  name: "Soap, Scented"
+  versions:
+    rules: |
+      Anyone who regularly washes with soap gains a +1 *TOU* bonus on checks for diseases.<br>
+      Soap can be an improvised weapon when wrapped in a tube or piece of cloth (see **Aventuria Armory** Page **138**).<br>
+      As with standard soap, but **Charisma** receives a +1 bonus on **Seduction*, if the character washed with perfumed soap and the target likes cleanliness and the smell of perfume. If the target of **Seduction** does not like the smell, it may grant a -1 penalty at the GM's discretion.
+    src:
+      - id: US25208E
+        firstPage: 48
+
+- id: ITEMTPL_433
+  name: "Vademecum of Combative Crafts"
+  versions:
+    note: |
+      Language / Script is typically Garethi / Kuslik Signs.
+    rules: |
+      One can learn the *Krona-Adersin Style* (see ** Aventuria Armory** Page **123**) after reading this book.
+    src:
+      - id: US25208E
+        firstPage: 53
+
+- id: ITEMTPL_434
+  name: "Padlock"
+  versions:
+    rules: |
+      Without a key, opening a padlock requires a *Pick Locks (Bit Locks)* check.
+    src:
+      - id: US25208E
+        firstPage: 37
+
+- id: ITEMTPL_435
+  name: "Woolen Blanket, Phraisheep"
+  versions:
+    rules: |
+      Phraisheep woolen blankets reduce effective *Cold levels* by 2. These effects stack with the cold weather bonus offered by tents.
+    src:
+      - id: US25208E
+        firstPage: 54
+
+- id: ITEMTPL_436
+  name: "Dice, Six-Sided, Loaded"
+  versions:
+    rules: |
+      A character with the special ability *Cheating* receive a +1 bonus on *Gambling (Dice Games)* checks when using loaded dice. However, this bonus only comes into effect after a failed first check (see **Core Rules** Page **214**).
+    src:
+      - id: US25208E
+        firstPage: 24
+
+- id: ITEMTPL_437
+  name: "Dice, Twenty-Sided"
+  versions:
+    src:
+      - id: US25208E
+        firstPage: 24
+
+- id: ITEMTPL_438
+  name: "Dice, Twenty-Sided, Loaded"
+  versions:
+    rules: |
+      A character with the special ability *Cheating* receive a +1 bonus on *Gambling (Dice Games)* checks when using loaded dice. However, this bonus only comes into effect after a failed first check (see **Core Rules** Page **214**).
+    src:
+      - id: US25208E
+        firstPage: 24
+
+- id: ITEMTPL_439
+  name: "Tent, 4 Person"
+  versions:
+    rules: |
+      If a check on *Survival (Build Campsite)* succeeds with QL 5+ when setting up the tent, it counts as a good accommodation and grants a bonus of +1 *LP/AE/KP* (see **Core Rules** Page **339**) during regeneration phases.<br>
+      The tent offers protection from the cold, reducing *Cold levels* by 1. This benefit stacks with those granted by a woolen blanket and a sleeping bag.<br>
+      Assembly and disassembly take 20 minutes each.
+    src:
+      - id: US25208E
+        firstPage: 50
+
+- id: ITEMTPL_440
+  name: "Tent, Large, 12 Person"
+  versions:
+    rules: |
+      If a check on *Survival (Build Campsite)* succeeds with QL 5+ when setting up the tent, it counts as a good accommodation and grants a bonus of +1 *LP/AE/KP* (see **Core Rules** Page **339**) during regeneration phases.<br>
+      The tent offers protection from the cold, reducing *Cold levels* by 1. This benefit stacks with those granted by a woolen blanket and a sleeping bag.<br>
+      Assembly and disassembly take 20 minutes each. Large tents take 1 hour to assemble or disassemble.
+    src:
+      - id: US25208E
+        firstPage: 50
+
+- id: ITEMTPL_441
+  name: "Soap In Cloth Tube"
+  versions:
+    advantage: |
+      Soap in a cloth tube botches only on a result of 20, not 19-20 (see **Core Rules** Page **235**)
+    disadvantage: |
+      When parried with a sharp weapon such as a sword or a dagger, roll 1D6. On a result of 4-6, this improvised weapon breaks and no longer functions as a weapon.
+    src:
+      - id: US25208E
+        firstPage: 139
+
+- id: ITEMTPL_442
+  name: "Grapnel with Climbing Rope"
+  versions:
+    rules: |
+      A grapnel combined with a climbing rope can be thrown and hooked onto an appropriate surface, such as a sturdy branch or rock outcropping. This requires a check on RC for Thrown Weapons. The throw takes 2 actions, and the check receives a -1 penalty for every 16 feet of distance to the target.<br>
+      A grapnel with at least 3 feet of rope can serve as an improvised weapon (see **Aventuria Armory ** Page **139**).
+    advantage: |
+      This weapon can be used for the maneuver *Takedown*, even though this would normally not be possible with chain weapons (see **Core Rules** Page **250**).
+    disadvantage: |
+      Because this is both a chain weapon and an improvised weapon, botches occur on 18-20 instead of 19-20. Also, on a confirmed botch, the wielder receives one level of *Stupor*.
+    src:
+      - id: US25208E
+        firstPage: 139
+
+- id: ITEMTPL_443
+  name: "Hook Dagger"
+  versions:
+    note: |
+      Parrying weapon (main weapon gains a +1 bonus to PA)
+    advantage: |
+      When the hook dagger contributes to a successful parry, roll 1D6. On 1-2, apply a -1 penalty to the opponent's AT for the next CR. This rule does not apply when fighting an unarmed opponent.
+    disadvantage: |
+      Make a botch confirmation roll on an AT roll of 19+ instead of 20 (a botch is more likely).
+    src:
+      - id: US25208E
+        firstPage: 71
+
+- id: ITEMTPL_444
+  name: "Hunting Knife"
+  versions:
+    advantage: |
+      The hunting knife grants a bonus of +1 DP against animals of size categories medium and smaller.
+    disadvantage: |
+      The hunting knife cannot be used to perform the maneuver *Cross-block* against two-handed weapons.
+    src:
+      - id: US25208E
+        firstPage: 72
+
+- id: ITEMTPL_445
+  name: "Katar"
+  versions:
+    advantage: |
+      The katar inflicts +2 DP against all felinoid creatures.
+    disadvantage: |
+      After a botch, add 1 to the result on the confirmation roll.
+    src:
+      - id: US25208E
+        firstPage: 73
+
+- id: ITEMTPL_446
+  name: "Mengbilar"
+  versions:
+    advantage: |
+      A person wounded by a poisoned Mengbilar subtracts 1 from *TOU* when making a poison check. This applies only if the weapon contains a weapon or contact poison (see **Core Rules** Page **342**). Any hit that causes DP triggers the poison check.
+    disadvantage: |
+      When attacking, the Mengbilar breaks on a confirmed botch.
+    src:
+      - id: US25208E
+        firstPage: 77
+
+- id: ITEMTPL_447
+  name: "Ogre Catcher"
+  versions:
+    advantage: |
+      The hooks automatically extend when the weapon inflicts damage. Holding onto the weapon after the hooks extend requires a successful competitive check on *Feat of Strength (Dragging & Pulling)*. On the following CR, the wielder may attempt to pull the dagger from the enemy's flesh by making a brawling AT with a -2 penalty. If that check succeeds, a further successful *Feat of Strength (Dragging & Pulling)* check retrieves the weapon and inflicts an additional 1D6+2+QL DP. If any of those checks fail, the weapon remains stuck. On the next CR, increase the difficulty of the brawling AT by 4. Others within attack distance of the target may attempt to pull the dagger loose. While embedded, an ogre catcher inflicts 1 DP every 5 minutes. To remove it, either pull it out with brute strength (1D6+2 DP) or attempt to extract it carefully by making a Treat Wounds check. Failure inflicts 1D3 DP but takes only 1 minute.
+    disadvantage: |
+      When used for a successful parry, make a *Feat of Strength (Dragging & Pulling)* check. On a failure, the wielder drops the weapon.
+    src:
+      - id: US25208E
+        firstPage: 79
+
+- id: ITEMTPL_448
+  name: "Sword Cane"
+  versions:
+    advantage: |
+      Identifying the sword cane as a weapon requires a successful *Perception* check.
+    disadvantage: |
+      The opponent receives no -1 penalty to defend, as is usual for *Fencing Weapons* (see **Core Rules** Page **235**).
+    src:
+      - id: US25208E
+        firstPage: 88
+
+- id: ITEMTPL_449
+  name: "Ox-Herd"
+  versions:
+    advantage: |
+      Parrying an ox-herd has a penalty of 3 instead of only 2 (see **Core Rules** Page **235**). When performing the maneuver *Hammer Blow*, roll 2D6 instead of 1D6, and add the higher die to the DP.
+    disadvantage: |
+      After rolling a botch - whether confirmed or unconfirmed - while making an attack, suffer 1 level of *Stupor*. On a confirmed botch, suffer 4 DP. These effects are in addition to any other botch results.
+    src:
+      - id: US25208E
+        firstPage: 81
+
+- id: ITEMTPL_450
+  name: "Ogre Swatter"
+  versions:
+    advantage: |
+      The enemy suffers a -3 penalty to PA, instead of -2 (see **Core Rules** Page **235**).
+    disadvantage: |
+      On a confirmed botch, receive 1 level of *Stupor* and suffer 2 DP. This is in addition to any other botch results.
+    src:
+      - id: US25208E
+        firstPage: 79
+
+- id: ITEMTPL_451
+  name: "Orchid"
+  versions:
+    advantage: |
+      The wielder suffers no damage when an armed enemy parries the orchid, as is usual for *Brawling* (see **Core Rules** Page **235**).
+    disadvantage: |
+      On a confirmed botch, the weapon breaks. This is in addition to any other botch results.
+    src:
+      - id: US25208E
+        firstPage: 80
+
+- id: ITEMTPL_452
+  name: "Spiked Vambrace"
+  versions:
+    note: |
+      Parrying Weapon (grants a +1 PA bonus to the primary weapon)
+    advantage: |
+      The wielder counts as armed and thus does not receive the usual penalties for brawling with an armed opponent (see **Core Rules** Page **235**).
+    disadvantage: |
+      The wielder cannot perform the maneuver *Grapple* and any other maneuvers based on grappling. Spiked vambraces are difficult to hide and incur a -2 penalty to *Stealth (Conceal Item)* checks.
+    src:
+      - id: US25208E
+        firstPage: 87
+
+- id: ITEMTPL_453
+  name: "Buckler"
+  versions:
+    note: |
+      20 *Structure points*, *parrying weapon (+1 bonus to PA for primary weapon)*<br>
+      The AT penalty applies when attacking with the shield but not when using a shield and a primary weapon together. Bucklers cannot parry projectiles. Bucklers receive an additional -1 penalty to PA vs ranged attacks, in addition to all other applicable modifiers (see **Core Rules** Page **243**).
+    advantage: |
+      On an AT critical success, the target receives 1 additional level of *Stupor*.
+    disadvantage: |
+      Cannot perform the maneuver *Shield Cover* (see **Aventuria Compendium** Page **163**). Cannot parry attacks from enemies of size large or greater.
+    src:
+      - id: US25208E
+        firstPage: 62
+
+- id: ITEMTPL_454
+  name: "Amazon Saber"
+  versions:
+    advantage: |
+      When used while mounted, the Amazon saber inflicts +2 DP.
+    disadvantage: |
+      The wielder of the Amazon saber suffers a penalty of -2 to PA vs. weapons from the combat techniques *Two-Handed Impact Weapons* and *Two-Handed Swords*.
+    src:
+      - id: US25208E
+        firstPage: 58
+      - id: US25005E
+        firstPage: 233
+
+- id: ITEMTPL_455
+  name: "Nightwind"
+  versions:
+    note: |
+      Mittels zwei Nachtwind-Schwertern und den Schwertscheiden kann innerhalb von 3 KR eine improvisierte Leiter hergestellt werden, die Proben auf *Klettern* nach Maßgabe des Meisters um bis zu 2 erleichtert.
+    advantage: |
+      When wielded with two hands, it inflicts an additional +2 DP, instead of +1 DP, and ignores the -1 penalty to PA (see **Core Rules** Page **366**).
+    disadvantage: |
+      Suffer a -1 penalty to *CHA* for all Social skill checks (except *Empathy*, *Intimidation*, and *Willpower*) when onlookers know about the sword's evil reputation.
+    src:
+      - id: US25208E
+        firstPage: 78
+
+- id: ITEMTPL_456
+  name: "Glaive"
+  versions:
+    advantage: |
+      A warrior with a glaive can form a wall with at least one another fighter who is armed in the same way. The fighting partner must be no further than 1.5 feet away, and both must face the same direction. If these conditions are met, a wall can consist of any number of fighters. All fighters in this wall receive a +1 bonus on PA. If the warriors cooperate to perform the maneuver *Charge*, they lose their PA bonus but inflict +1 DP (see **Core Rules** Page **246**).
+    disadvantage: |
+      When using the special ability *Pike Wall* (see **Aventuria Compendium** Page **154**), the wielder's AT has an increased difficulty of 1.
+    src:
+      - id: US25208E
+        firstPage: 68
+
+- id: ITEMTPL_457
+  name: "Hunting Spear"
+  versions:
+    advantage: |
+      A target attempting to escape the maneuver *Nail Down* receives a -1 penalty on the *Feat of Strength* check (see **Aventuria Compendium** Page **152**). The hunting spear inflicts +1 DP against animals of size categories medium and large.
+    disadvantage: |
+      Roll 1D6 after successfully employing *Nail Down* against an animal. On a result of 5-6, the spear breaks unless the wielder makes a successful *Feat of Strength* check.
+    src:
+      - id: US25208E
+        firstPage: 72
+
+- id: ITEMTPL_458
+  name: "Reaper"
+  versions:
+    advantage: |
+      Gain a +1 bonus to AT when using the maneuver *Onslaught*.
+    disadvantage: |
+      Suffer a -1 penalty when performing the maneuver *Charge*.
+    src:
+      - id: US25208E
+        firstPage: 83
+
+- id: ITEMTPL_459
+  name: "Warunk Hammer"
+  versions:
+    advantage: |
+      Subtract 1 PRO from a target's armor of PRO 4 or greater.
+    disadvantage: |
+      With a confirmed botch on AT or PA, gain 1 level of *Stupor*. This is in addition to any other botch results.
+    src:
+      - id: US25208E
+        firstPage: 92
+
+- id: ITEMTPL_460
+  name: "Executioner's Sword"
+  versions:
+    advantage: |
+      If the wielder of an executioner's sword inflicts a critical hit or causes 16+ DP in one blow, all enemies within attack distance must make a *Willpower (Resist Intimidation)* check with a -1 penalty. If the check fails, that opponent suffers 1 level of *Fear* for 5 CR.<br>
+      If using the focus rules for hit zones, a hit against the head inflicts DPx2.
+    disadvantage: |
+      After making an attack, the wielder cannot parry until the end of the next CR. However, the wielder may dodge, instead.
+    src:
+      - id: US25208E
+        firstPage: 67
+
+- id: ITEMTPL_461
+  name: "Bullet-Shooting Crossbow"
+  versions:
+    advantage: |
+      At distances of up to 16 feet the bullet-shooting crossbow inflicts +2 DP. Inflict an additional +1 DP against birds up to 6.5 feet away (for a total of 1D6+7, including the DP bonus for range).
+    disadvantage: |
+      A botch (whether confirmed or not) causes a heavy weapon jam that takes 2 actions to clear. When using the Botch Table optional rule, this effect is cumulative with any other weapon jam results.
+    src:
+      - id: US25208E
+        firstPage: 96
+
+- id: ITEMTPL_462
+  name: "Blowpipe"
+  versions:
+    note: |
+      If a poisoned blowdart inflicts at least 1 DP, the target is *Poisoned*.
+    src:
+      - id: US25208E
+        firstPage: 95
+
+- id: ITEMTPL_463
+  name: "Blow Dart"
+  versions:
+    note: |
+      If a poisoned blowdart inflicts at least 1 DP, the target is poisoned.
+    src:
+      - id: US25208E
+        firstPage: 96
+
+- id: ITEMTPL_464
+  name: "Discus"
+  versions:
+    src:
+      - id: US25208E
+        firstPage: 98
+
+- id: ITEMTPL_465
+  name: "Cast-Net"
+  versions:
+    note: |
+      Instead of causing DP, the target gains the state *Bound* until freed. To escape, make a cumulative *Body Control (Squirm)* check, or use a sharp weapon to cut the net or control rope (reduce its 10 structure points to 0). *Making a Body Control* check takes one regular action. When cutting the net, weapons with a reach of medium or greater inflict only half DP.
+    advantage: |
+      The target may make only one attempt to dodge a cast-net. Shields cannot parry cast-nets.
+    disadvantage: |
+      On a confirmed botch when attacking, the net thrower becomes entangled in the net and suffers all relevant effects.
+    src:
+      - id: US25208E
+        firstPage: 96
+
+- id: ITEMTPL_466
+  name: "Iryan Armor"
+  versions:
+    note: |
+      Iryan armor is a variant of leather armor.
+    advantage: |
+      The wearer is immune to DP from fire and fire-based attacks.
+    disadvantage: |
+      Without at least 8 hours of maintenance each week, the additional penalties increase to -2 MOV, -2 INI.
+    src:
+      - id: US25208E
+        firstPage: 107
+
+- id: ITEMTPL_467
+  name: "Chainmail"
+  versions:
+    note: |
+      Chainmail is a variant of chain armor.
+    advantage: |
+      Chainmail grants PRO 5 versus weapons of the combat techniques Bows, Crossbows, Daggers, and Swords.
+    disadvantage: |
+      Opponents receive a +1 bonus to *Perception* checks to notice someone moving while wearing chainmail.
+    src:
+      - id: US25208E
+        firstPage: 105
+
+- id: ITEMTPL_468
+  name: "Toadskin"
+  versions:
+    note: |
+      Toadskin is a variant of leather armor.
+    advantage: |
+      Do not add toadskin's Encumbrance to *Swimming* or *Body Control (Balance)* checks.
+    disadvantage: |
+      Toadskin provides only PRO 2 versus ranged attacks.
+    src:
+      - id: US25208E
+        firstPage: 112
+
+- id: ITEMTPL_469
+  name: "Leather Harness"
+  versions:
+    note: |
+      Leather harness is a variant of leather armor.
+    advantage: |
+      The leather harness offers one level of protection against Cold.
+    disadvantage: |
+      At Heat levels II or higher the leather harness causes one further Heat level (up to a maximum of 4).
+    src:
+      - id: US25208E
+        firstPage: 108
+
+- id: ITEMTPL_470
+  name: "Half Plate"
+  versions:
+    note: |
+      Half plate is a variant of plate armor.
+    advantage: |
+      Half plate counts as PRO 7 versus weapons of the combat techniques Daggers and Fencing Weapons.
+    disadvantage: |
+      Half plate counts as only PRO 1 versus attacks from the rear.
+    src:
+      - id: US25208E
+        firstPage: 106
+
+- id: ITEMTPL_471
+  name: "Scale Mail"
+  versions:
+    note: |
+      Scale mail is a variant of chain armor.
+    advantage: |
+      Grants PRO 6 versus weapons of the combat techniques Impact Weapons and Two-Handed Impact Weapons.
+    disadvantage: |
+      Grants only PRO 2 versus weapons of the combat technique Daggers.
+    src:
+      - id: US25208E
+        firstPage: 111
+
+- id: ITEMTPL_472
+  name: "Mirror Armor"
+  versions:
+    note: |
+      Mirror armor is a variant of chain armor.
+    advantage: |
+      Grants PRO 5 versus weapons of the combat techniques Swords and Two-Handed Swords.
+    disadvantage: |
+      Grants only PRO 2 versus weapons of the combat techniques Impact Weapons and Two-Handed Impact Weapons.
+    src:
+      - id: US25208E
+        firstPage: 110
+
+- id: ITEMTPL_473
+  name: "Linothorax Armor"
+  versions:
+    note: |
+      Linothorax armor is a variant of cloth armor.
+    advantage: |
+      Linothorax armor grants PRO 3 versus weapons of the combat techniques Impact Weapons and Two-Handed Impact Weapons.
+    disadvantage: |
+      When linothorax armor catches fire, receive an additional -2 penalty to Body Control checks to extinguish the flames (see **Core Rules** Page **341**)
+    src:
+      - id: US25208E
+        firstPage: 109
+
+- id: ITEMTPL_474
+  name: "Druid Dagger"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        Armor with PRO 3 or less suffers a penalty of -1 PRO.
+      disadvantage: |
+        Armor with PRO 4+ receives a bonus of +1 PRO.
+      src:
+        - id: US25206E
+          firstPage: 20
+
+- id: ITEMTPL_475
+  name: "Boar Catcher"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        The boar-catcher inflicts +1 DP when fighting animals of size categories medium and smalle.
+      disadvantage: |
+        The maneuver *Circumvent* (see **Aventuria Compendium** Page **151**) cannot be performed with the Boar-Catcher.
+      src:
+        - id: US25206E
+          firstPage: 7
+
+- id: ITEMTPL_476
+  name: "Dike Fork"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        Both the handle and the blade serve as weapons. The blade inflicts 1D6+1 DP. Chain armor has -2 PRO vs. the blade/tines of a dike fork.
+      disadvantage: |
+        Anyone making a successful PA with the dike fork suffers a penalty of 2 to their dike fork AT until the end of the next CR due to the weapon's poor balance.
+      src:
+        - id: US25206E
+          firstPage: 17
+
+- id: ITEMTPL_477
+  name: "Stag-Catcher"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        The stag-catcher inflicts +1 DP when fighting animals of size category medium or larger.
+      disadvantage: |
+        The maneuver *Circumvent *(see **Aventuria Compendium*, Page **151**) cannot be performed with the Stag-Catcher.
+      src:
+        - id: US25206E
+          firstPage: 17
+
+- id: ITEMTPL_478
+  name: "Boar Spear"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        Those pinned by someone using a boar spear and the special maneuver *Nail Down* must make a *Feat of Strength* check with a penalty of 2 and take +2 DP per combat round to escape (see **Aventuria Compendium** Page **154**).
+      disadvantage: |
+        In close combat, the boar spear's Reach is medium, not long. In mounted combat, however, its Reach is still long.
+      src:
+        - id: US25206E
+          firstPage: 12
+
+- id: ITEMTPL_479
+  name: "Woodcutter's Axe"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        Inflicts +2 DP vs. plants in general, +4 DP vs. wooden objects.
+      disadvantage: |
+        Inflicts -2 DP vs. targets with PRO 5+.
+      src:
+        - id: US25206E
+          firstPage: 17
+
+- id: ITEMTPL_480
+  name: "Punt Axe"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        Inflicts +4 DP vs. wooden and earthen items.
+      disadvantage: |
+        Anyone making a successful PA with the punt axe suffers a penalty of 2 to their punt ax AT until the end of the next CR.
+      src:
+        - id: US25206E
+          firstPage: 18
+
+- id: ITEMTPL_481
+  name: "Andergaster"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        You can attack or parry with the pommel or the cross-guard, instead of the blade. To do so you must announce your intention in advance, and changing your grip takes 1 free action. Such attacks inflict 1D6+3 DP and receive an AT/PA Mod of 0/-2. The other stats do not change.
+      disadvantage: |
+        In cramped environments the Andergaster receives AT/PA penalties of -5/-5 instead of -4/-4 (see **Core Rules** Page **238**). These additional penalties apply only when making regular attacks with the blade, not when using the weapon advantage.
+      src:
+        - id: US25206E
+          firstPage: 6
+
+- id: ITEMTPL_482
+  name: "Nostrianer"
+  versions:
+    - src:
+        - id: US25101E
+          firstPage: 153
+    - advantage: |
+        You can attack or parry with the pommel or the cross-guard, instead of the blade. To do so you must announce your intention in advance, and changing your grip takes 1 free action. Such attacks inflict 1D6+3 DP and receive an AT/PA Mod of 0/-2. The other stats do not change.
+      disadvantage: |
+        In cramped environments the Nostrianer receives AT/PA penalties of -5/-5 instead of -4/-4 (see **Core Rules** Page **238**). These additional penalties apply only when making regular attacks with the blade, not when using the weapon advantage.
+      src:
+        - id: US25206E
+          firstPage: 6
+
+- id: ITEMTPL_483
+  name: "Nostrian Long Bow"
+  versions:
+    - note: |
+        Use of the Nostrian longbow requires STR 14+
+      src:
+        - id: US25101E
+          firstPage: 153
+    - note: |
+        Use of the Nostrian longbow requires STR 14+
+      advantage: |
+        Even after a successful Shield Parry, the Nostrian longbow pierces the defender's shield and causes damage on a roll of 1-3 on 1D6. In this case, though, the defender adds the simple shield bonus to PRO.
+      disadvantage: |
+        Archers using a Nostrian longbow suffer a penalty of 4 in addition to any other modifiers (see **Core Rules** Page **348**) while in forests, which are classified as difficult or bad terrain. The Nostrian longbow cannot be used while mounted.
+      src:
+        - id: US25206E
+          firstPage: 11
+
+- id: ITEMTPL_484
+  name: "Eagle Feathers"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_485
+  name: "Ashes"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_486
+  name: "Blood"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_487
+  name: "Lizard or Serpent Scales "
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_488
+  name: "Own Blood"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_489
+  name: "Ice Crystals, Ice Water"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_490
+  name: "Cherry Blossoms"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_491
+  name: "Flour"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_492
+  name: "Seeds"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_493
+  name: "Anointment Oil"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_494
+  name: "Stardust"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_495
+  name: "Tharf (a Holy Wine)"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_496
+  name: "Holy Water"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_497
+  name: "Feathers of Migratory Birds"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_498
+  name: "Annals of the Age of Gods"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_499
+  name: "Great Aventurian Atlas, Modern Edition"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_500
+  name: "Rahjasutra, Elrem-al’Moran Edition"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_501
+  name: "Rahjasutra, Second Edition"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_502
+  name: "Vademecum"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_503
+  name: "Book of the Serpent"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_504
+  name: "Unicorn Headband"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_505
+  name: "Goose Pouch"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_506
+  name: "Green Gloves"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_507
+  name: "Moon Amulet"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_508
+  name: "Prism"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_509
+  name: "Red Veil"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 232
+
+- id: ITEMTPL_510
+  name: "Sacrificial Dagger of the Nameless One (Basilisk’s Tongue)"
+  versions:
+    note: |
+      sanctified (Nameless One); only Blessed Ones of the Nameless One may acquire this weapon.
+    src:
+      - id: US25005E
+        firstPage: 233
+
+- id: ITEMTPL_511
+  name: "Knife of Firun"
+  versions:
+    note: |
+      Note: sanctified (Firun); only Blessed Ones of Firun may acquire this weapon.
+    src:
+      - id: US25005E
+        firstPage: 233
+
+- id: ITEMTPL_512
+  name: "Ingerimm’s Hammer"
+  versions:
+    note: |
+      sanctified (Ingerimm); only Blessed Ones of Ingerimm may acquire this weapon.
+    src:
+      - id: US25005E
+        firstPage: 233
+
+- id: ITEMTPL_513
+  name: "Amazon Shield"
+  versions:
+    note: |
+      medium shield, 35 structure points
+    src:
+      - id: US25005E
+        firstPage: 233
+
+- id: ITEMTPL_514
+  name: "Whale Shield"
+  versions:
+    note: |
+      medium shield, 20 structure points; sanctified (Swafnir); only Blessed Ones of Swafnir may acquire this weapon
+    src:
+      - id: US25005E
+        firstPage: 233
+
+- id: ITEMTPL_515
+  name: "Aves’ Staff (2H)"
+  versions:
+    note: |
+      sanctified (Aves); only Blessed Ones of Aves may acquire this weapon.
+    src:
+      - id: US25005E
+        firstPage: 234
+
+- id: ITEMTPL_516
+  name: "Efferd’ Beard (2H)"
+  versions:
+    note: |
+        sanctified (Efferd); only Blessed Ones of Efferd may acquire this weapon.
+    src:
+        - id: US25005E
+          firstPage: 234
+
+- id: ITEMTPL_517
+  name: "Walking Staff"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 234
+
+- id: ITEMTPL_518
+  name: "Kor’s Spear (2H)"
+  versions:
+    note: |
+      sanctified (Kor); only Blessed Ones of Kor may acquire this weapon.
+      You can use the SA Takedown with the Kor’s spear even though it is not a polearm.
+    src:
+      - id: US25005E
+        firstPage: 234
+
+- id: ITEMTPL_519
+  name: "Efferd’s Beard (2H) (Thrown Weapon)"
+  versions:
+    note: |
+      sanctified (Efferd); only Blessed Ones of Efferd may purchase weapons.
+    src:
+      - id: US25005E
+        firstPage: 234
+
+- id: ITEMTPL_520
+  name: "Amazon Armor"
+  versions:
+    note: |
+      Amazon armor is a type of plate armor. The partial AGI check for Riding does not suffer the ENC penalty when wearing Amazon armor.
+    src:
+      - id: US25005E
+        firstPage: 234
+
+- id: ITEMTPL_521
+  name: "Ifirn’s Coat"
+  versions:
+    note: |
+      The Ifirn’s Coat is a type of heavy clothes. Only Blessed Ones of Ifirn may acquire an Ifirn’s Coat.
+    src:
+      - id: US25005E
+        firstPage: 235
+
+- id: ITEMTPL_522
+  name: "Panther Armor"
+  versions:
+    note: |
+      Panther armor is a type of plate armor. The CON partial check for Feat of Strength doesn’t suffer the ENC penalty when wearing Panther armor. Only Blessed Ones of Kor may acquire Panther Armor.
+    src:
+      - id: US25005E
+        firstPage: 235
+
+- id: ITEMTPL_523
+  name: "Scale Gown"
+  versions:
+    note: |
+      Scale gown is a type of heavy clothes. The partial AGI check for *Swimming* receives a bonus of +1 when wearing a scale gown. Only Blessed Ones of Efferd may acquire a Scale Gown.
+    src:
+      - id: US25005E
+        firstPage: 235
+
+- id: ITEMTPL_546
+  name: "Oakhavener (Andergastian)"
+  versions:
+    advantage: |
+      Enemies with short or medium weapons receive a penalty of -1 on AT. You can attack or parry with the pommel or the cross-guard. To do so you must announce your intention in advance, and changing your grip takes 1 free action. Such attacks inflict 1D6+3 DP and receive an AT/PA Mod of 0/-2. The other stats do not change.
+    disadvantage: |
+      In cramped environments the Oakhavener receives penalties of AT/PA -6/-6 instead of -4/-4 (see **Core Rules** Page **238**). These additional penalties apply only when making regular attacks with the blade, not when using the weapon advantage.
+    src:
+      - id: US25206E
+        firstPage: 6
+
+- id: ITEMTPL_547
+  name: "Harmlyner (Nostrian)"
+  versions:
+    advantage: |
+      Enemies with short or medium weapons receive a penalty of -1 on AT. You can attack or parry with the pommel or the cross-guard. To do so you must announce your intention in advance, and changing your grip takes 1 free action. Such attacks inflict 1D6+3 DP and receive an AT/PA Mod of 0/-2. The other stats do not change.
+    disadvantage: |
+      In cramped environments the Harmlyner receives penalties of AT/PA -6/-6 instead of -4/-4 (see **Core Rules** Page **238**). These additional penalties apply only when making regular attacks with the blade, not when using the weapon advantage.
+    src:
+      - id: US25206E
+        firstPage: 6
+
+- id: ITEMTPL_548
+  name: "Long Sword (Andergastian)"
+  versions:
+    advantage: |
+      The Andergastan long sword grants a bonus of +1 DP in mounted combat.
+    disadvantage: |
+      After a botch, increase the result of the confirmation roll by 2.
+    src:
+      - id: US25206E
+        firstPage: 10
+
+- id: ITEMTPL_549
+  name: "Long Sword (Nostrian)"
+  versions:
+    advantage: |
+      The Nostrian long sword grants a bonus of +1 DP in mounted combat.
+    disadvantage: |
+      After a botch, increase the result of the confirmation roll by 2.
+    src:
+      - id: US25206E
+        firstPage: 10
+
+- id: ITEMTPL_550
+  name: "Battle-Axe (Warring Kingdoms)"
+  versions:
+    advantage: |
+      Attacks using the maneuver Shield-Splitter receive a bonus of 1 (see **Core Rules** Page **250**).
+    disadvantage: |
+      After confirming a botch, the attacker suffers one level of *Stupor*.
+    src:
+      - id: US25206E
+        firstPage: 13
+
+- id: ITEMTPL_551
+  name: "Mace (Warring Kingdoms)"
+  versions:
+    advantage: |
+      If used from a mount, the mace receives a bonus of +1 DP.
+    disadvantage: |
+      After a confirmed botch on an attack the wielder receives 1 level *Stupor*.
+    src:
+      - id: US25206E
+        firstPage: 13
+
+- id: ITEMTPL_552
+  name: "Tournament Shield (Warring Kindoms)"
+  versions:
+    note: |
+      25 structure points; counts as a small shield; grants a +2 Parry bonus during jousts.
+    src:
+      - id: US25206E
+        firstPage: 16
+
+- id: ITEMTPL_553
+  name: "Mage's Staff, Stone Oak Wood"
+  versions:
+    advantage: |
+      The staff is resistant to fire. Even dragon fire has no effect. The staff enchantment Sword of Flame costs 2 AE instead of 3 AE to activate and fills 6 volume points instead of 7 (see **Core Rules** Page **276**).
+    disadvantage: |
+      When struck by lightning of either natural or supernatural origin (such as from spells or liturgical chants), the bearer of the staff receives +3 DP through the staff. This occurs even if the mage would normally not sustain damage.
+    src:
+      - id: US25206E
+        firstPage: 20
+
+- id: ITEMTPL_795
+  name: "Walking Staff (2H)"
+  versions:
+    src:
+      - id: US25005E
+        firstPage: 234
+
+- id: ITEMTPL_796
+  name: "Raven's Beak"
+  versions:
+    - note: |
+        (non-Sanctified)
+      src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Attacks with the spike inflict 1D6+4 DP as well. Subtract 2 PRO from armor with PRO 6 or more. Mounted warriors gain a bonus of +1 DP.
+      disadvantage: |
+        On a confirmed botch, receive 1 level of *Stupor*. This is in addition to any other botch results.
+      src:
+        - id: US25206E
+          firstPage: 82

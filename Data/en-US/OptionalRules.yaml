@@ -1,0 +1,413 @@
+- id: OR_1
+  name: "No Confirmation Roll"
+  description: |
+    Would you like more criticals and botches in your game? If so, don’t use the confirmation roll. With this option, every 1 is a critical success and every 20 is a botch (a 10% chance of rolling either a critical or a botch with every check). Furthermore, ditching the confirmation roll makes the game a little simpler.
+
+    The use of confirmation rolls lowers your chances of rolling criticals and botches, and such rolls depend more on attribute values and modifiers assigned by the GM.
+  src:
+    - id: US25001E
+      firstPage: 20
+
+- id: OR_2
+  name: "Skill Checks in the Fast Lane"
+  description: |
+    Skill checks take longer to resolve than simple attribute checks because you must roll three dice. Also, you always have a chance of rolling criticals or botches, you might need to use SP to adjust rolls, and so on. There are several ways to speed up this process.
+
+    First of all, you can choose D20s of different colors and assign a color to each individual roll. For example, you can decide to use a red die for the first roll, a white die for the second, and a blue die for the third. It’s easy to remember, and no matter where your dice land, you know immediately which die goes with which check.
+
+    Another method is to roll 3D20 and assign the die lying furthest to your left to the first check, the middle die to the second check, and the one furthest to your right to the third.
+
+    Both methods speed up game play.
+  src:
+    - id: US25001E
+      firstPage: 22
+
+- id: OR_3
+  name: "Colored Dice, According to Paramanthus"
+  description: |
+    Paramanthus was an Aventurian researcher who postulated a connection between personal attributes, wandering stars, colors, and the gods.
+
+    You can use the system Paramanthus recorded in his writings and assign colored dice to your hero’s attributes. The picture next to this box shows you the colors connected to the various attributes. If you use this system, you can more easily tell which die belongs to which attribute in a skill check. Dice should be available in these colors in any good hobby store.
+
+    This option does not change any rules, but does help speed up skill checks.
+  src:
+    - id: US25001E
+      firstPage: 22
+
+- id: OR_4
+  name: "Using Alternative Attributes for Skill Checks"
+  description: |
+    Linked attributes are not set in stone for skill checks. As the GM, you may change the attributes used in a skill check if you feel that different attributes would work better in that situation.
+
+    For example, if a hero just wants to know how to climb a specific rock face instead of actually going out and climbing it, the GM can call for a *Climbing (Mountains)* check using Sagacity/Intuition/Intuition instead of Courage/ Agility/Strength. After all, simply remembering how to get up a rock face is hardly a physical task.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 23
+
+- id: OR_5
+  name: "Cumulative Group Checks Using Multiple Skills"
+  description: |
+    Instead of making all heroes roll for the same skill, the GM may decide to have some of the players roll for other skills that also fit the task. For example, a journey through the wild might depend mostly on *Survival*, but *Orienting*, *Climbing*, and *Feat of Strength* might all be acceptable supporting skills. One character must make a check for the primary skill (the skill that is most suitable for the task). Determine QL as usual, with the following exceptions.
+
+    - Heroes making checks for supporting skills must first divide their remaining SP by 2 before determining QL for their skill checks.
+    - The GM determines how many heroes may participate in group checks, as well as which skills are suitable for use as primary or supporting skills.
+
+    All other rules for cumulative checks apply.
+
+    This optional rule makes the game a little bit more complex.
+  src:
+    - id: US25001E
+      firstPage: 27
+
+- id: OR_6
+  name: "Heroes and NPCs—A Subtle but Important Difference"
+  description: |
+    Fate Points are very rare. Not everyone on Dere can tap into Fate as easily as can heroes, and only a very few NPCs are able to do so. Heroes (and the rare NPC) are chosen ones, special persons in the world of *The Dark Eye*.
+
+    However, you can decide to use different rules, as follows.
+
+    - No Fate At All: nobody on Dere possesses Fate Points. Heroes are just like everyone else. If you choose this option, simply ignore all rules regarding Fate and FtP. This makes the game easier to play but also makes Aventuria a lot more dangerous, since heroes can no longer influence dice rolls and circumstances by spending FtP.
+    - Everyone is Chosen: heroes, villains, and every NPC imaginable possess FtP and are able to use them. This is mainly advantageous for the GM as it raises the chances of success for regular people, supporting characters, and villains. On the other hand, managing FtP will take more effort.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 30
+
+- id: OR_7
+  name: "Other Ways to Regain Fate Points"
+  description: |
+    Aside from the options presented in the rules, the GM can also grant the return of FtP for good roleplaying, advancing the adventure, or making the group laugh. This encourages participation among the players and should stimulate a better roleplaying experience.
+  src:
+    - id: US25001E
+      firstPage: 31
+
+- id: OR_8
+  name: "Maximum Attribute Scores"
+  description: |
+    If you do not want to allow open-ended attribute improvement after play begins, you can limit attributes to 2 more than the maximum starting value granted by the hero’s Experience Level. This way, a competent hero can have attribute values up to 17 (15 + 2).
+
+    As heroes gain experience from adventures, they increase their Experience Levels. With each new Experience Level, their maximum attribute values increase as well. At an EL of Legendary, heroes’ attribute values have a maximum of 20 (18 + 2).
+
+    This optional rule makes the game slightly more complex.
+  src:
+    - id: US25001E
+      firstPage: 39
+
+- id: OR_9
+  name: "Variable Starting Wealth, Based on Experience Level"
+  description: |
+    If your group feels that heroes with more experience should carry more money (or at least probably have access to more money), you can simply increase a hero’s Starting Wealth by 200 silverthalers per EL above Experienced. However, this would also mean that less experienced heroes carry less money, meaning you should reduce their starting wealth by 200 silverthalers per EL below Experienced. This optional rule makes the game slightly more complex.
+  src:
+    - id: US25001E
+      firstPage: 58
+
+- id: OR_10
+  name: "Cultural Knowledge"
+  description: |
+    Heroes can receive a bonus of 1 for Social and Knowledge skills if the check concerns topics from their native culture. Similarly, they can suffer a penalty of 1 if the check concerns topics with which their culture has little or no experience. The GM has the final say but should be careful to maintain balance. This rule makes the game a little bit more complex.
+  src:
+    - id: US25001E
+      firstPage: 96
+
+- id: OR_11
+  name: "Skill Group Checks"
+  description: |
+    Instead of keeping track of which three attributes you need for each skill, you may instead make a skill group check. This check works exactly like a regular skill check, except that all skills in a skill group use the same attributes for checks. Use the rating of the skill for your SP, as with a regular skill check.
+
+    This optional rule makes the game a little less complex.
+
+    Skill Group | Skill Group Check
+    :-- | :--
+    Physical Skills | COU/AGI/STR
+    Social Skills | INT/CHA/CHA
+    Nature Skills | COU/AGI/CON
+    Knowledge Skills | SGC/SGC/INT
+    Craft Skills | DEX/DEX/CON
+  src:
+    - id: US25001E
+      firstPage: 184
+
+- id: OR_12
+  name: "Unfamiliar Use of Skills"
+  description: |
+    A skill may be so broad that a hero is unlikely to be good in all of its diverse areas. For example, the skill *Flying* potentially allows a hero to control many different types of flying things, but the GM should keep in mind that somebody who knows how to use a magic carpet does not necessarily know how to steer a flying demon.
+
+    For that reason, an unfamiliar use might incur a penalty of up to 3 points. These penalties usually lessen over time, but the GM has the final say. The same applies for other skills, such as using *Riding* to control different types of mounts, or *Music* to play different types of musical instruments.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 184
+
+- id: OR_13
+  name: "Offsetting Attributes for Routine Checks"
+  description: |
+    Instead of always using a fixed attribute value of 13 to decide if a check qualifies as routine, the GM can decide to give some attributes a lower value. For each attribute point below 13, the character must have an SR three points higher than usual to have the check qualify as routine. Thus, for checks with modifiers of +1, for example, a character with two attributes at 13 and one at 12 needs a SR of at least 10 (instead of 7) for the check to qualify as routine.
+  src:
+    - id: US25001E
+      firstPage: 185
+
+- id: OR_14
+  name: "Regional Foxian"
+  description: |
+    The GM can decide that several Foxian special abilities exist instead of just one, in which case the written form differs from city to city. This makes the game world more realistic, but it also means that characters can use this special ability only near their home area.
+
+    Regional Foxian costs 1 AP instead of 3 AP.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 217
+
+- id: OR_15
+  name: "Language Specialization"
+  description: |
+    The hero knows a dialect or a special form of a language (such as a professional language, like Mage’s Bosparano or Hunter’s Bosparano).
+
+    The use of this optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 216
+
+- id: OR_16
+  name: "Initiative for Enemy Groups"
+  description: |
+    You can organize the actions of enemy groups with the same INI base stat by rolling for initiative once and having all members of the group act at the same time during each combat round.
+
+    This optional rule makes the game a little less complex.
+  src:
+    - id: US25001E
+      firstPage: 228
+
+- id: OR_17
+  name: "Higher Defense Stats"
+  description: |
+    If you want to decrease the chances that your character will get hit, you can choose to raise the character’s Parry in general by 2 or 4 points (and raise character’s Dodge stat by half this amount, as well). Note that both player characters and NPCs can increase defense stats, which means that combats will take longer to resolve.
+
+    This optional rule does not change the game’s level of complexity.
+  src:
+    - id: US25001E
+      firstPage: 228
+
+- id: OR_18
+  name: "Close Combat Botch Table"
+  description: |
+    Instead of taking 1D6+2 DP on a botch, you can use the following table. If the combatant who botched is unarmed, add 5 to die roll results of 6 or less.
+
+    Result (2D6) | Effect
+    :-- | :--
+    2 Weapon Destroyed | The weapon is irreparably destroyed. If the weapon is unbreakable, see result # 5.
+    3 Weapon Badly | Damaged The weapon cannot be used again until repaired. If the weapon is unbreakable, see result #5.
+    4 Weapon Damaged | The weapon is damaged. All checks against attack and parry suffer a penalty of 2 until the weapon is repaired. If the weapon is unbreakable, see result #5.
+    5 Weapon Lost | The weapon falls to the ground (see page 239).
+    6 Weapon Stuck | The hero’s weapon is stuck in a tree, a wooden wall, the ground, or something similar. Freeing it takes 1 action and a check using *Feat of Strength (Dragging & Pulling)* with a penalty of 1.
+    7 Fall | Make a check using *Body Control (Balance)* with a penalty of 2, or fall to the ground and receive the state *prone* (see **Core Rules** page **36**).
+    8 Stumble | Stumble and suffer a penalty of 2 on your next action.
+    9 Ankle | Twisted Suffer one level of the condition *Pain* for 3 combat rounds.
+    10 Bump | Bump your head in the chaos of combat and suffer a level of the condition *Confusion* for one hour.
+    11 Hurt Yourself | Suffer your weapon’s damage, including the damage bonus (ignoring PRO). If unarmed, take 1D6 DP (ignoring PRO).
+    12 Hurt Yourself Badly | Suffer double your weapon’s damage, including the damage bonus (ignoring PRO). If unarmed, suffer 2D6 DP (ignoring PRO).
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 231
+      lastPage: 232
+
+- id: OR_19
+  name: "More Defenses for NPCs"
+  description: |
+    The rules say that only heroes and NPCs with FtP can make more than one defense per combat round. The GM can bolster NPCs who don’t have FtP by letting them use more than one defense per combat round (with applicable penalties, of course), but this change can lead to longer combats.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 232
+
+- id: OR_20
+  name: "Defense Botch Table"
+  description: |
+    Instead of suffering a standard 1D6+2 DP for a defense botch, you can roll on the following table. If the combatant is unarmed and rolls a 6 or less, add 5 to the result.
+
+    Result (2D6) | Effect
+    :-- | :--
+    2 Weapon Destroyed | The weapon is irreparably destroyed. If the weapon is unbreakable, see result #5.
+    3 Weapon Damaged Badly | You cannot use the weapon until it is repaired. If the weapon is unbreakable, see result #5.
+    4 Weapon Damaged | The weapon is damaged. All checks against Attack or Parry suffer a penalty of 2 until the weapon is repaired. If the weapon is unbreakable, see result #5.
+    5 Weapon Lost | The weapon falls to the ground (see **Core Rules** page **239**).
+    6 Weapon Stuck | The hero’s weapon is stuck in a tree, a wooden wall, the ground, or something similar. Freeing it takes 1 action and a check using *Feat of Strength (Dragging & Pulling)* with a penalty of 1.
+    7 Fall | Make a check using *Body Control (Balance)* with a penalty of 2, or else fall to the ground and receive the state of *prone* (see page 36).
+    8 Stumble | Stumble and suffer a penalty of 2 on your next action.
+    9 Ankle Twisted | Suffer one level of the condition *Pain* for 3 combat rounds.
+    10 Bump | Bump your head in the chaos of combat and suffer one level of *Stupor* for one hour.
+    11 Hurt Yourself | Hurt yourself. Suffer your weapon’s damage, including the damage bonus (ignoring PRO). Unarmed combatants suffer 1D6 DP (ignoring PRO).
+    12 Hurt Yourself Badly | Suffer double your weapon’s damage, including the damage bonus (ignoring PRO). Unarmed combatants suffer 2D6 DP (ignoring PRO).
+
+    Using this optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 234
+
+- id: OR_21
+  name: "Ranged Combat Botch Table"
+  description: |
+    Optionally, instead of always suffering 1D6+2 DP for a botch, you can roll on this table.
+
+    Result (2D6) | Effect
+    :-- | :--
+    2 Weapon Destroyed | The weapon is irreparably destroyed. If the weapon is unbreakable, the result is treated like a result of 5.
+    3 Weapon Badly Damaged | You cannot use the weapon until it is repaired. If the weapon is unbreakable, the result is treated like a result of 5.
+    4 Weapon Damaged | The weapon is damaged. All checks against ranged combat suffer a penalty of 4 until the weapon is repaired. If the weapon is unbreakable, the result is treated like a result of 5.
+    5 Weapon Dropped | The weapon falls to the ground (see **Core Rules** page **239**).
+    6 Companion or Bystander Hit | Hits a friend or an innocent bystander, determined randomly. If no such target is near, use Result 11: Hurt Yourself. The weapon inflicts normal damage, including the usual damage bonus.
+    7 Shot Missed | The shot misses in a spectacular way and hits an object (shoots down a shop sign, breaks a window, or some such thing).
+    8 Pulled Muscle* | The hero experiences a sudden back spasm and suffers a level of the condition *Pain* for the next 3 combat rounds.
+    9 Slipped String/Slippery Grip/Jammed* | Take two complete combat rounds to make your weapon usable again.
+    10 Too Focused* | You are concentrating too hard on aiming or are otherwise occupied with the weapon and cannot make defenses until your next action.
+    11 Hurt Yourself | You injure yourself and suffer damage. Take the weapon’s normal damage, including the damage bonus.
+    12 Hurt Yourself Badly | You injure yourself badly and suffer damage. Roll the weapon’s normal damage, including the damage bonus, and double the result.
+
+    **Note:** Missiles such as arrows, bolts, and bullets are usually destroyed when you botch, except for the results Pulled Muscle, Jammed, and Too Focused.
+
+    Using this optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 243
+
+- id: OR_22
+  name: "Ranged Combat Defense Botch Table"
+  description: |
+    Optionally, rather than applying a default damage of 1D6+2 DP for a botched defense against a ranged attack, you can use the following table. If the defender tried to dodge, add 5 to results of 2-6 on this table.
+
+    Result (2D6) | Effect
+    :-- | :--
+    2 Shield Destroyed | The shield is irreparably destroyed. If the shield is unbreakable, use result #5.
+    3 Shield Damaged Badly | You cannot use the shield again until it is repaired. If the shield is unbreakable, use result #5.
+    4 Shield Damaged | The shield is damaged. All checks against Attack or Parry suffer a penalty of 2 until the shield is repaired. If the shield is unbreakable, use result #5.
+    5 Shield Dropped | The shield falls to the ground (see page 239).
+    6 Shield Stuck | The shield is stuck in the ground, a tree, a wooden wall, or something similar. Freeing it takes 1 action and a check using *Feat of Strength (Dragging & Pulling)* with a penalty of 1.
+    7 Stumble | Stumble and suffer a penalty of 2 on your next action.
+    8 Fall | Stumble and fall down if you fail a check using *Body Control (Balance)* with a penalty of 2. Failure also inflicts the state of *prone* (see page 36).
+    9 Ankle Twisted | Suffer a level of the condition *Pain* for 3 combat rounds.
+    10 Bump | Bump your head in the chaos of combat and suffer a level of *Stupor* for one hour.
+    11 Hurt Yourself | Injure yourself and suffer your weapon’s damage. An unarmed combatant suffers 1D6 DP.
+    12 Hurt Yourself Badly | Injure yourself badly, suffering double your weapon’s damage. An unarmed combatant suffers 2D6 DP.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: OR_23
+  name: "Possible Reuse of Ranged Weapon Projectiles"
+  description: |
+    If you recover a projectile after it hits a target, roll to determine if it can be used again immediately.
+
+    - Arrows can be used again on a result of 1 on 1D6
+    - Bolts and bullets can be used again on a result of 1 or 2 on 1D6
+
+    If you fail, the ammunition is considered unusable.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 246
+
+- id: OR_24
+  name: "Property Checks"
+  description: |
+    Like skill checks, magic checks for spells use three attributes. But instead of memorizing or writing down all those attributes, you can make a property check that uses the attributes associated with the property of a spell, similar to skill group checks (see **Core Rules** page **184**). The following table lists each property’s associated attributes, which you use for property checks.
+
+    This optional rule makes the game a little less complex.
+
+    Property | Property Check
+    :-- | :--
+    Anti-Magic | COU/SGC/CHA
+    Clairvoyance | COU/SGC/INT
+    Demonic | COU/INT/CHA
+    Elemental | COU/SGC/CHA
+    Healing | SGC/INT/DEX
+    Illusion | SGC/INT/CHA
+    Influence | COU/INT/CHA
+    Object | SGC/INT/DEX
+    Spheres | COU/CHA/CON
+    Telekinesis | SGC/DEX/STR
+    Transformation | SGC/INT/CON
+  src:
+    - id: US25001E
+      firstPage: 252
+
+- id: OR_25
+  name: "Limited Karma"
+  description: |
+    Unlike magic, which is an ever-flowing spring, the gods hand out KP directly and more sparingly.
+
+    Gods do not always deny KP to Blessed Ones for making mistakes or failing to adhere to Church rules, but sometimes, in cases of severe infractions, a god settles on blocking the offender’s KP regeneration as a punishment. Until the god is satisfied, the Blessed One is unable to recover KP.
+
+    The GM decides whether a Blessed One punished in this manner can regain the god’s trust by doing penance. Redemption depends on the Blessed One’s actions, the crime, and the circumstances.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 306
+
+- id: OR_26
+  name: "No Botches for Liturgical Chants?"
+  description: |
+    In the past, karmic currents were driven by the order of the gods. Nowadays it is more difficult to channel karma, and it is possible for mortals to suffer chaotic effects (that is, botches) while using KP. Various Churches and cults blame this change on an event of cosmic proportion called the Starfall, the origin of which they do not fully understand.
+
+    Botches were extremely rare before the Starfall. Each group can decide whether to use botches for liturgical chants (in effect choosing their preferred degree of the order of the gods).
+
+    Allowing botches for liturgical chants makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 311
+
+- id: OR_27
+  name: "Divine Mission and Egotism"
+  description: |
+    As a GM, you can allow a Blessed One’s behavior to influence liturgical checks. By upholding the ideals of their Churches, Blessed Ones can receive a bonus of 1. On the other hand, Blessed Ones who often violate their moral codes should suffer a penalty of as much as 5.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 314
+
+- id: OR_28
+  name: "Weaker Regeneration"
+  description: |
+    Magic infuses the very air of Dere, conferring remarkably fast healing on the living. Even serious wounds and broken bones heal in an extremely short time. On Earth, a human with two broken legs would be stuck in bed long after an Aventurian farmer with the same injury had healed and returned to work in the fields.
+
+    If you prefer more realism in your game, you can discard all bonuses to LP regeneration and say that inhabitants of Dere can regenerate only 1D3 LP per Regeneration Phase.
+
+    This optional rule does not change the complexity of the game.
+  src:
+    - id: US25001E
+      firstPage: 340
+
+- id: OR_29
+  name: "Exact Distance"
+  description: |
+    Normally, jumps require a simple *Body Control* check. To determine exactly how far a character travels after a running jump, use the following calculation. The base length of the jump is a number of yards equal to onehalf of MOV minus ENC (do not round). High Agility improves a running long jump’s length—every point of Agility higher than 10 adds another 10 inches to the distance. You may also try to improve the jump’s length with a *Body Control (Jumping)* check, gaining 10 inches per skill point.
+
+    In summary, total running long jump distance = (MOV/2 – ENC) yards, + 10 inches per point of AGI over 10, + 10 inches per SP from *Body Control (Jumping)*. If you make a standing long jump, halve the total distance.
+
+    If it is important to know how high a hero can jump (to catch onto the top of a wall, for example), use the following rule: the basic height of the running high jump is a number of inches equal to Movement multiplied by 5. High Agility can improve a high jump’s height—each point of Agility above 10 adds another five inches. You may also try to improve the high jump’s height with a *Body Control (Jumping)* check, gaining five inches per SP.
+
+    In summary, total running high jump distance = (MOV x 5) inches, + 5 inches per point of AGI over 10, + 5 inches per SP from *Body Control (Jumping)*.
+
+    This optional rule makes the game a little more complex.
+  src:
+    - id: US25001E
+      firstPage: 350
+
+- id: OR_30
+  name: "Non-Lethal Brawling"
+  description: |
+    The following non-lethal brawling rules are optional. They make the game more complex but also render bar fights less deadly, and focus on action, speed, and fun, instead of realism. If you view unarmed combat as a deadly affair and want to present it as such at the gaming table, use the brawling rules on page **235** of the **Core Rules**, instead.
+  src:
+    - id: US25514E
+      firstPage: 26

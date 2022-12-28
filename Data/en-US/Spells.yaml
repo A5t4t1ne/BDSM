@@ -1,0 +1,3220 @@
+- id: SPELL_1
+  name: "Eagle Eye"
+  effect: |
+    Raise the skill *Perception* for the duration of the spell by QL +3 of the spell.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE (casting) + 2 AE per 5 minutes"
+  aeCostShort: "4 AE + 2 AE per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_2
+  name: "Analyze Arcane Structure"
+  effect: |
+    This spell reveals whether an object or creature is magical, and if so, it also reveals details about the object or creature’s arcane structure. This information can be useful for a magical analysis. When performing a magical analysis, the maximum number of QL you can normally achieve with the *Magical Lore (appropriate application)* check is equal to the QL of the *Analyze* spell. For example, a spellcaster who gets a result of 3 QL with *Analyze* can usually achieve no more than 3 QL in the *Magical Lore* check (exception—see the special ability Analyst on **Core Rules** page **214**). Similarly, with a QL of 4 in *Analyze*, the spellcaster can normally achieve at most a QL of 4 in the *Magical Lore* check for the analysis, and so on.
+
+    For more about conducting magical analyses, see **Core Rules** page **268**.
+  castingTime: "32 Actions"
+  castingTimeShort: "32 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Creatures, Objects"
+  src:
+    - id: US25001E
+      firstPage: 287
+
+- id: SPELL_3
+  name: "Armatrutz"
+  effect: |
+    Your skin hardens without losing flexibility, providing a natural protection that adds to any armor worn on the body, without raising encumbrance. You must decide how many additional points of PRO you want before casting the spell, up to a maximum of 3 points.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AE for PRO 1, 8 AE for PRO 2, 16 AE for PRO 3"
+  aeCostShort: "4/8/16 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 in minutes"
+  durationShort: "QL x 3 min"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 287
+
+- id: SPELL_4
+  name: "Axxeleratus"
+  effect: |
+    Accelerates the target’s movements supernaturally, granting +1 Defense, Movement x 2, and Initiative base stat x 2.<br>
+    Also, in combat, the target’s opponents suffer a penalty of 2 to their defenses.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 5 in combat rounds"
+  durationShort: "QL x 5 CR"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_5
+  name: "Balsam Salabunde"
+  effect: |
+    The target recovers a number of LP equal to the AE spent on the spell. You can spend as much AE as you have SR in the spell. The healing occurs in six minutes, but each QL reduces the healing time by 1 minute.<br>
+    If you start casting the spell during the time period defined by a mortally wounded character’s Constitution, you can save that character’s life (see *Life-Saving Measures and Death* in Chapter 12: Detailed Rules, on **Core Rules** page **340**). If the spell is interrupted, the patient survives only for the number of combat rounds that remain, as described there.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  aeCost: "1 AE per LP, minimum of 4 AE"
+  aeCostShort: "1 AE per LP (4+)"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_6
+  name: "Bannbaladin"
+  effect: |
+    This friendship spell, which was developed by the elves, creates feelings of sympathy and friendship toward the caster. The exact effects depend on the target’s feelings for the caster beforehand, but basically the connection between target and caster improves by one level per QL (minimum of one level). If the target and caster don’t already know each other, the starting level is usually somewhere between 4 (Dislike) and 6 (Sympathy), though advantages like *Good Looks* and disadvantages like *Prejudice* can also affect this first impression.
+
+    - **Level 1:** The target hates the spellcaster.
+    - **Level 2:** The target is the spellcaster’s enemy.
+    - **Level 3:** The target despises the spellcaster.
+    - **Level 4:** The target has some mild dislike for the spellcaster.
+    - **Level 5:** The target feels neutral about the spellcaster.
+    - **Level 6:** The target feels some sympathy towards the spellcaster.
+    - **Level 7:** The target feels trust and friendship for the spellcaster.
+    - **Level 8:** The target feels strong loyalty towards the spellcaster.
+    - **Level 9:** The target is smitten with the spellcaster (but won’t die for the relationship).
+
+    *Bannbaladin* has no effect on the target’s memory. When the spells ends, the target remembers feelings and actions. The target might even notice the spell while it’s in use, but this has no effect on the target’s new attitude. Your actions can affect the target’s attitude towards you.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "QL x 3 in minutes"
+  durationShort: "QL x 3 min"
+  target: "Intelligent Creatures, Supernatural Creatures"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_7
+  name: "Gaze into the Mind"
+  effect: |
+    You can read the target’s mind. You can see what the target is thinking at the moment, but cannot search through memories. The target can notice that something is amiss by making a *Perception* check with a penalty equal to the spell’s QL. If successful, the target can then make a *Willpower* check (with a penalty equal to the spell’s QL) to send out thoughts filled with misleading information, useless trivia, inner monologues, or song.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE (casting) + 4 AE per 30 seconds"
+  aeCostShort: "8 AE"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures, Supernatural Creatures"
+  src:
+    - id: US25001E
+      firstPage: 291
+
+- id: SPELL_8
+  name: "Blinding Flash"
+  effect: |
+    The target is blinded and suffers one level of the condition *Confusion*.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL in combat rounds"
+  durationShort: "QL CR"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_9
+  name: "Corpofesso"
+  effect: |
+    The target suffers painful muscle weakness, receiving the condition *Pain* for the duration of the spell.
+
+    - **QL 1:** 1 level of *Pain*, for one combat round
+    - **QL 2:** 1 level of *Pain*
+    - **QL 3:** 2 levels of *Pain*
+    - **QL 4:** 3 levels of *Pain*
+    - **QL 5:** 4 levels of *Pain*
+    - **QL 6:** 4 levels of *Pain* for twice the normal duration
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 2 in combat rounds"
+  durationShort: "QL x 2 CR"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 289
+
+- id: SPELL_10
+  name: "Disruptivo"
+  effect: |
+    This basic anti-magic spell impairs all kinds of magic in a radius of QL x 2 yards around the spellcaster. It does so by issuing vibrations that disrupt surrounding arcane patterns, imposing a penalty (based on QL—see below) on all checks for spells and rituals either cast in the area or taking effect there. *Disruptivo* affects your own spells, as well. Before casting, you must declare whether the zone will move with you or remain stationary.
+
+    - **QL 1:** Penalty -1
+    - **QL 2:** Penalty -2
+    - **QL 3:** Penalty -3
+    - **QL 4:** Penalty -4
+    - **QL 5:** Penalty -5
+    - **QL 6:** Penalty -6
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE (casting) + 4 AE per 5 minutes"
+  aeCostShort: "8 AE + 4 AE per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 289
+
+- id: SPELL_11
+  name: "Duplicatus"
+  effect: |
+    The spellcaster creates one or more illusory duplicates of the target that move synchronously with that individual, appearing to blend into the target and split off again.<br>
+    The number of duplicates depends on QL. You can create fewer duplicates than allowed, if desired.
+
+    - **QL 1:** 1 duplicate, for 2 combat rounds
+    - **QL 2:** 1 duplicate
+    - **QL 3:** 2 duplicates
+    - **QL 4:** 3 duplicates
+    - **QL 5:** 4 duplicates
+    - **QL 6:** 4 duplicates for twice the normal duration
+
+    It is not easy to determine which image is the original target creature, and close combat attacks, ranged attacks, and spells stand a good chance of hitting a duplicate instead. If an attack does hit the target, it can be parried or dodged. Duplicatus does not block area effect attacks. You can read more about illusion spells and spotting illusions on **Core Rules** Page **258**.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE per duplicate (2 AE if the spell check fails)."
+  aeCostShort: "4 AE per Dplc"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 in combat rounds"
+  durationShort: "QL x 3 CR "
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_12
+  name: "Hawk Eye"
+  effect: |
+    The spell’s recipient gains a mental connection to the attack’s target. The recipient’s next ranged attack receives a bonus equal to the spell’s QL.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Until the next shot, but no longer than QL x 2 combat rounds"
+  durationShort: "Shot (QL x 2 CR)"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 292
+
+- id: SPELL_13
+  name: "Glow Sphere"
+  effect: |
+    The spell creates a small, floating ball of light. You must declare in advance whether the light will remain stationary or follow you around. You also must choose the light’s color. The light’s brightness depends on QL. You can reduce the brightness, but only by one level. The light’s radius varies depending on its brightness.
+
+    - **QL 1:** The light is as bright as a candle.
+    - **QL 2:** The light is as bright as a torch.
+    - **QL 3:** The light is as bright as a campfire.
+    - **QL 4:** The light is bright enough to illuminate a 15'x15' room.
+    - **QL 5:** The light is bright enough to illuminate a large hall.
+    - **QL 6:** The light is blindingly bright. People find it almost impossible to look at directly.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "2 AE (casting) + 1 AE per hour"
+  aeCostShort: "2 AE + 1 AE per h"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 291
+
+- id: SPELL_14
+  name: "Fulminictus"
+  effect: |
+    The target’s aura is harmed and its body suffers a series of small physical inner wounds. The spell inflicts 2D6 + (QL x 2) damage. Armor does not protect against this spell. The spell hits its target automatically, and the target cannot dodge or parry.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_15
+  name: "Gardianum"
+  effect: |
+    This spell creates an invisible dome around you that can absorb magical attacks originating from without. The spell actually creates a sphere, but since spellcasters are usually standing on the ground when using this spell, it functions more like a dome. This dome has a radius of 3 yards and a strength of AE + QL x 3. *Gardianum* absorbs points of spell damage equal to the dome’s strength, on a point for point basis, until the dome’s strength is reduced to zero (at which time it collapses). The dome does not ward off magical beings or magical weapons. Unabsorbed damage is dealt to the spellcaster in the normal way. The dome moves with the spellcaster, and protects everybody within its radius.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "At least 4 AE"
+  aeCostShort: "4+ AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "5 minutes"
+  durationShort: "5 min"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 291
+
+- id: SPELL_16
+  name: "Powerful Greed"
+  effect: |
+    Targets of this spell feel immense cravings for an object or action named by the spellcaster. They do anything to obtain it short of endangering their own life and health. For the duration of the spell, the target receives the negative trait *Avarice* (see **Core Rules** page **174**).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 15 in minutes"
+  durationShort: "QL x 15 min"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 295
+
+- id: SPELL_17
+  name: "Harmless Shape"
+  effect: |
+    You take the shape of an inconspicuous person (such as a servant or beggar) that does not attract attention at the current location. The illusion changes your appearance and voice, but does not grant knowledge of things like languages or appropriate behavior. This spell does not hide larger objects or familiars. The spell itself picks the shape automatically—the caster cannot choose which appearance to take. For more about illusion spells and spotting illusions, see **Core Rules** page **258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE (casting) + 4 AE per 5 minutes"
+  aeCostShort: "8 AE + 4 AE per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 292
+
+- id: SPELL_18
+  name: "Witch's Bile"
+  effect: |
+    Your saliva immediately turns into a corrosive acid that does 1D6 + (QL) damage points to a target you spit at within 3 yards. This acid does not harm the caster. You do not have to use another action to spit after casting the spell (spitting is included in the casting time). If the opponent doesn’t defend, the spitting attack hits automatically.<br>
+    Spitting counts as a ranged attack with a missile weapon and can be blocked or dodged.<br>
+    PRO reduces damage as per the normal combat rules. Witch’s Bile inflicts structure damage on shields and other items it hits.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 299
+
+- id: SPELL_19
+  name: "Witch's Claws"
+  effect: |
+    Sharp claws grow on both of your hands. They do 1D6+3 DP in close combat and use the combat technique Brawling. Witches using these claws are considered unarmed when brawling. *Witch’s Claws* are considered a magical weapon.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 in minutes"
+  durationShort: "QL x 3 min"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 299
+
+- id: SPELL_20
+  name: "Horriphobus"
+  effect: |
+    You appear to the target to be a frightening figure from its nightmares. The strength of the effect depends on the spell’s QL:
+
+    - **QL 1:** 1 level of *Fear*, for 2 combat rounds
+    - **QL 2:** 1 level of *Fear*
+    - **QL 3:** 2 levels of *Fear*
+    - **QL 4:** 3 levels of *Fear*
+    - **QL 5:** 4 levels of *Fear*
+    - **QL 6:** 4 levels of *Fear* for twice the normal duration
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 3 in minutes"
+  durationShort: "QL x 3 min"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 293
+
+- id: SPELL_21
+  name: "Ignifaxius"
+  effect: |
+    The flame flies in a straight line towards the target. You don’t have to use another action to aim once you cast the spell—aiming is included in the casting time.<br>
+    The target suffers 2D6 + (QL x 2) damage points, applying the target’s PRO as usual.<br>
+    This spell counts as a ranged attack from a missile weapon and can be blocked or dodged. Shields struck by *Ignifaxius* suffer structure damage. If the opponent doesn’t defend, the lance of flame hits automatically.<br>
+    Flammable targets are set ablaze on a roll of 1-3 on 1D6.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 yards"
+  rangeShort: "16 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "all"
+  src:
+    - id: US25001E
+      firstPage: 293
+
+- id: SPELL_22
+  name: "Invocatio Minima"
+  effect: |
+    The spell manifests a handful of substance from the Netherhells (2 ounces of substance per QL—mostly slime, acid, sulfurous vapors, or liquid fire). Summoners cannot choose which substance appears—the GM determines the result.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "1 yard"
+  rangeShort: "1yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 293
+
+- id: SPELL_23
+  name: "Cat Eyes"
+  effect: |
+    This spell increases the eyes’ light sensitivity, letting the target see much better in darkness.<br>
+    Reduce darkness-related visibility penalties by 1 per QL (see **Core Rules** page **348**). The spell has no effect in complete darkness.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "2 AE (casting) + 1 AE per 10 minutes"
+  aeCostShort: "2 AE + 1 AE per 10 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 289
+
+- id: SPELL_24
+  name: "Toad Jump"
+  effect: |
+    The target can make one supernaturally enhanced jump. Increase the jump’s length by QL+3 yards, and increase the jump’s height by QL in yards, as desired. The rules for jumping are on **Core Rules** page **349**.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "2 AE"
+  aeCostShort: "2 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 298
+
+- id: SPELL_25
+  name: "Manifesto"
+  effect: |
+    The spell manifests a handful of the desired element (2 ounces of substance per QL—simple manifestations, such as a small flame, a pebble, or a hunk of ice). Elementalists learn this spell early in their education, in order to master the basics of calling without having to bother actual elementals.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "1 yard"
+  rangeShort: "1 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 294
+
+- id: SPELL_26
+  name: "Manus Miracula"
+  effect: |
+    You can push, turn, shape, and bend objects at a distance (of QL yards) as if you were touching them with your hands.<br>
+    You can lift at most 2 pounds. For skill checks (such as when making clay figurines or painting with a brush held up by telekinesis), all linked physical attributes have a value of QL +7 (this can exceed the limit imposed by your stats—see **Core Rules** page **39**). The application of force is punctual but rather slow, so you cannot use this spell to attack or parry.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE (casting) + 2 AE per 5 minutes"
+  aeCostShort: "4 AE + 2 AE per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 294
+
+- id: SPELL_27
+  name: "Motoricus"
+  effect: |
+    You can pick up and move inanimate objects with your mind. Items move at a maximum speed of QL +2 yards per action, and may not weigh more than QL x 40 pounds. You must spend 1 AE per 10 pounds of weight. Other objects resting on or attached to the moving item add to its total weight. The object moves sluggishly and cannot be used to attack or parry. To prevent an item from being moved by *Motoricus*, whether by grabbing or pushing it, make a check using *Feat of Strength (Dragging & Pulling)*.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "At least 4 AE (casting) + half of this amount per 5 minutes"
+  aeCostShort: "4+ AE + 1/2 per 5 min "
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 294
+
+- id: SPELL_28
+  name: "Wall of Fog"
+  effect: |
+    You create an area of dense fog that wind cannot move. The spell creates 200 cubic yards of fog per AE, and you can shape the fog cloud as you wish, forming a compact ball, a drawn-out ribbon, or even the shape of a dragon, if desired. The fog creates a visibility penalty of 2 (see **Core Rules** page **348**).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "At least 4 AE"
+  aeCostShort: "4+ AE"
+  range: "16 yards"
+  rangeShort: "16yd"
+  duration: "QL x 15 minutes; after that time, the fog dissipates"
+  durationShort: "QL x 15 min"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 299
+
+- id: SPELL_29
+  name: "Oculus Illusionis"
+  effect: |
+    You can create illusions that confuse sight. You can create moving, three-dimensional objects, but they affect only the visual sense. For more details, see *Rules for Illusions* on **Core Rules** page **258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting) + 2 AE per 5 minutes"
+  aeCostShort: "4 AE + 2 AE per 5 min"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 294
+
+- id: SPELL_30
+  name: "Odem Arcanum"
+  effect: |
+    Finds active magic on items or people. Enchanted objects and other sources of magic give off a red shimmer when examined with *Odem*. It can also increase the effectiveness of an *Analyze spell* or a magical analysis (see **Core Rules** pages **268** and **287**). Depending on the AE of the target, the check can suffer a penalty or receive a bonus.<br>
+    The spellcaster can examine only one creature or object within range, not everything that happens to be in view. The spellcaster receives information or bonuses based on QL.
+
+    - **QL 1:** Is there magic present?
+    - **QL 2:** The maximum QL you can achieve with the magical analysis check rises by 1.
+    - **QL 3:** Receive a bonus of 1 on the check for the *Analyze spell* cast subsequently on the same target.
+    - **QL 4:** Receive a bonus of 2 on the check for the *Analyze spell* cast subsequently on the same target.
+    - **QL 5:** The maximum QL you can achieve with the magical analysis check rises by 2.
+    - **QL 6:** Receive a bonus of 3 on the check for the *Analyze spell* cast subsequently on the same target.
+
+    Bonuses to maximum QL or *Analyze* are not cumulative. Also, the hero receives only the highest bonus of each type. For example, a result of QL 4 for *Odem* grants an *Analyze* bonus of 2 (not 3) and the maximum QL for magical analysis rises by 1. Similarly, a result of QL 6 for *Odem* grants an *Analyze* bonus of 3 (not 6), and the maximum QL for the magical analysis rises by 2 (not 3).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "1 minute"
+  durationShort: "1 min"
+  target: "Creatures, Objects"
+  src:
+    - id: US25001E
+      firstPage: 295
+
+- id: SPELL_31
+  name: "Paralysis"
+  effect: |
+    The target’s body stiffens and hardens. If the paralysis is complete (Level IV), the body transforms into a nearly indestructible substance without changing weight. A body transformed this way cannot be injured by non-magical weapons, fire, or falls. Those affected cannot move, feel, or hear anything, but can see within their field of vision. This spell delays the effects of poisons and diseases, granting more time to obtain treatment.
+
+    - **QL 1:** 1 level of *Paralysis*, for 2 combat rounds
+    - **QL 2:** 1 level of *Paralysis*
+    - **QL 3:** 2 levels of *Paralysis*
+    - **QL 4:** 3 levels of *Paralysis*
+    - **QL 5:** 4 levels of *Paralysis*
+    - **QL 6:** 4 levels of *Paralysis*, for twice the normal duration
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 2 in minutes"
+  durationShort: "QL x 2 min"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 295
+
+- id: SPELL_32
+  name: "Penetrizzel"
+  effect: |
+    You can see through 10 inches of solid matter per QL. Materials that interrupt magic can impose a penalty on the spell check (iron imposes a penalty of -1, Kosh basalt imposes a penalty of -4). *Penetrizzel* cannot see through magical objects. Darkness or fog has its normal effect on your vision.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE (casting) + 2 AE per minute"
+  aeCostShort: "4 AE + 2 AE per minute"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "all"
+  src:
+    - id: US25001E
+      firstPage: 295
+
+- id: SPELL_33
+  name: "Psychostabilis"
+  effect: |
+    This spell aids in resisting mental manipulation by improving your Spirit stat by QL/2.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "4 AE (casting) + 2 AE per 10 minutes"
+  aeCostShort: "4 AE + 2 AE per 10 min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 296
+
+- id: SPELL_34
+  name: "Fighting Stick"
+  effect: |
+    The target broom or other staff attacks a target of your choice at a distance of up to 8 yards (after casting the spell, both target and broom can move farther away from the witch). The broom is *unbreakable* for the duration of the spell and is considered a magical weapon that makes 1 attack per combat round. It cannot use combat maneuvers. Its stats are INI 12+1D6, AT 8 (+QL x 3), DP 1D6+3, MOV 12. If the broom kills its target before the duration expires, or the enemy somehow flees, it attacks another target at random within 16 yards (this might even be the caster). If no target is within range at that time, the spell ends.<br>
+    To grab the broom, you must make a successful attack with *Brawling* and the special ability Grapple (the broom/staff has PA equal to half its AT, *Feat of Strength* 10, and 14 in all relevant attributes).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE (casting) + 2 AE per combat round"
+  aeCostShort: "4 AE + 2 AE per CR"
+  range: "16 yards"
+  rangeShort: "16 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_35
+  name: "Respondami"
+  effect: |
+    The target must answer QL questions truthfully. The questions must have an answer of either yes or no. When asked other questions, the target can remain silent. The target must understand your language, and if the target does not understand what you are saying, no answer is possible. The target remembers what was said while the spell was in effect.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 15 in minutes"
+  durationShort: "QL x 15 min"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 296
+
+- id: SPELL_36
+  name: "Salander"
+  effect: |
+    This spell turns one living thing into another, but the new form must be smaller and lighter. The target cannot be transformed into a magical or supernatural creature. If the change is extreme (a mammoth turned into a mouse, for example), the check suffers a penalty of up to 3. The spell can turn the target only into a creature known to the spellcaster.<br>
+    The target’s mental capacities and memories remain more or less intact, but the target must use the physical abilities of the new shape. Life points and natural PRO stay the same—in other words, you cannot turn a hulking orc chieftain into a dandelion and then easily uproot him. Also, *Salander* does not transform equipment. When the spell duration ends, the target retains only dim memories of the time spent as an animal or plant. For more details about transformations, see *Rules for Transformations*, on **Core Rules** page **258**.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 in hours"
+  durationShort: "QL x 3 h"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 296
+
+- id: SPELL_37
+  name: "Placidity"
+  effect: |
+    The affected animal becomes peaceful and even allows the spellcaster to touch it. This spell only affects mundane animals.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 3 in minutes"
+  durationShort: "QL x 3 min"
+  target: "Animals"
+  src:
+    - id: US25001E
+      firstPage: 295
+
+- id: SPELL_38
+  name: "Satuaria's Splendor"
+  effect: |
+    This spell causes subtle physical changes to make you more attractive. The spell improves hair and skin, whitens the teeth, and changes your features to fit an ideal of beauty or physical perfection. Checks using *Seduction (Flirting, Romantic Arts)* and *Fast-Talk (Flattering)* receive a bonus equal to the QL. Other social skills can get the bonus, too, depending on the situation. The transformation has no effect on creatures with standards of beauty that differ from those of the spellcaster.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 in hours"
+  durationShort: "QL x 3 h"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 296
+
+- id: SPELL_39
+  name: "Silentium"
+  effect: |
+    This spell creates a spherical zone in which no sound can be made or heard. The zone’s radius is QL x 3 yards, with the spellcaster at the center. You must declare before casting the spell whether the zone will move with you or remain in place.<br>
+    In the latter case, you cannot move more than QL x 3 yards away from the zone, or else the spell effect ends immediately.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "4 AE (casting) + 2 AE per 5 minutes"
+  aeCostShort: "4 AE + 2 AE per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 296
+
+- id: SPELL_40
+  name: "Somnigravis"
+  effect: |
+    The target is overcome by fatigue. A target that suffers the condition *Stupor* at level IV falls asleep and only wakes from intense noise, persistent shaking, or similar stimulus, before the spell ends. If not disturbed, the target sleeps until waking naturally.
+
+    - **QL 1:** 1 level of *Stupor*, for 1 minute
+    - **QL 2:** 1 level of *Stupor*
+    - **QL 3:** 2 levels of *Stupor*
+    - **QL 4:** 3 levels of *Stupor*
+    - **QL 5:** 4 levels of *Stupor*
+    - **QL 6:** 4 levels of *Stupor* for twice the normal duration
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 3 in minutes"
+  durationShort: "QL x 3 min"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 297
+
+- id: SPELL_41
+  name: "Spider Walk"
+  effect: |
+    Your hands and feet stick to even the smoothest of surfaces. You can climb slick rock faces and walls and even stick to the ceiling. However, this spell does not change your weight—if you climb a wall covered in plaster, the strain might tear the plaster free and cause you to fall. You must hold on with at least three limbs when using *Spider Walk*, but you can use one less limb for each 2 QL of the spell (minimum of one limb).
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting) + 2 AE per 5 minutes"
+  aeCostShort: "4 AE + 2 AE per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 297
+
+- id: SPELL_42
+  name: "Traceless"
+  effect: |
+    You do not leave any traces as you move through terrain. You do not bend grass, and you leave no footprints on soft ground. You do not even leave much of a scent for others to follow. *Tracking* checks to find or follow the spellcaster’s trail suffer a penalty equal to the QL.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting) + 2 AE per 5 minutes"
+  aeCostShort: "4 AE + 2 AE per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Creatures"
+  src:
+    - id: US25001E
+      firstPage: 297
+
+- id: SPELL_43
+  name: "Transversalis"
+  effect: |
+    You can teleport yourself plus at most QL x 10 pounds of equipment (such as clothes and weapons) to a different location. The closer you wear this equipment to the body, the greater the chance that it travels with you (clothing stands the best chance). Anything you wish to bring along either travels with you in one piece or stays behind—it is not torn or damaged. The GM has the final say. You must have visited the target location prior to attempting the trip, or at least be able to see it currently (if you have not visited the location previously but can see it when you cast the spell, the check suffers a penalty of 2). In either event, the target location can be no further than QL x 3 miles from the caster.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE + 1 AE per mile"
+  aeCostShort: "8 AE + 1 AE per mile"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Objects, Creatures"
+  src:
+    - id: US25001E
+      firstPage: 298
+
+- id: SPELL_44
+  name: "Visibili"
+  effect: |
+    The target turns invisible in 20 - (QL x 3) combat rounds, with the target’s body slowly becoming more and more transparent until it completely disappears.
+    *Visibili* affects only the target; clothes and equipment remain visible. Substances that remain in the body for more than 20 seconds become invisible, too. Substances that leave the body become visible after 20 seconds. While the spell remains in effect, the target receives the state *invisible* (see **Core Rules** page **36**).
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE (casting) + 4 AE per 5 minutes"
+  aeCostShort: "8 AE + 4 AE per 5 min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 298
+
+- id: SPELL_45
+  name: "Breathe Water"
+  effect: |
+    The target can breathe underwater for 1 minute per QL and extend the time with additional AE.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "4 AE (casting) + 2 AE per 5 minutes"
+  aeCostShort: "4 AE + 2 AE per 5 min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_46
+  name: "Arcanovi"
+  effect: |
+    You can find more information about enchanting artifacts on **Core Rules** page **266**.
+  castingTime: "8 hours"
+  castingTimeShort: "8 h"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Blessed Objects, Mundane Objects"
+  src:
+    - id: US25001E
+      firstPage: 300
+
+- id: SPELL_47
+  name: "Call Djinn"
+  effect: |
+    A djinni of the chosen element appears. For details about calling and dealing with djinn, see *The Art of Elemental Calling*, on **Core Rules** page **262**.
+  castingTime: "8 hours"
+  castingTimeShort: "8 h"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Elementals"
+  src:
+    - id: US25001E
+      firstPage: 300
+
+- id: SPELL_48
+  name: "Elemental Servant"
+  effect: |
+    An elemental of the chosen element appears. For details about calling and dealing with elementals, see *The Art of Elemental Calling*, **Core Rules** page **262**.
+  castingTime: "30 minutes"
+  castingTimeShort: "30 min"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Elementals"
+  src:
+    - id: US25001E
+      firstPage: 300
+
+- id: SPELL_49
+  name: "Invocatio Maior"
+  effect: |
+    A major demon, with at most 5 horns, appears. The ritual check suffers a penalty equal to the demon’s invocation difficulty. For details about summoning and dealing with demons, see *The Art of Demon Summoning*, on **Core Rules** page **262**.
+  castingTime: "8 hours"
+  castingTimeShort: "8 h"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Demons"
+  src:
+    - id: US25001E
+      firstPage: 300
+
+- id: SPELL_50
+  name: "Invocatio Minor"
+  effect: |
+    A lesser demon appears. The ritual check suffers a penalty equal to the demon’s invocation difficulty. For details about summoning and dealing with demons, see *The Art of Demon Summoning*, on **Core Rules** page **262**.
+  castingTime: "30 minutes"
+  castingTimeShort: "30 min"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Demons"
+  src:
+    - id: US25001E
+      firstPage: 300
+
+- id: SPELL_51
+  name: "Spellblade Spiritspear"
+  effect: |
+    You can use this ritual to bind AE into a weapon so it is considered a magical weapon. The AE cost of the ritual depends on the weapon’s size.<br>
+    You can increase the duration to QL x 30 years by multiplying the AE cost of the ritual by 5. Note: 1/20 of the AE cost of the ritual is permanent AE (for more about permanent AE, and regaining AE spent in this manner, see **Core Rules** page **352**).
+  castingTime: "8 hours"
+  castingTimeShort: "8 h"
+  aeCost: "Depends on the weapon"
+  aeCostShort: "10+ AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL in days"
+  durationShort: "QL days"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 300
+
+- id: SPELL_68
+  name: "Ease Fears"
+  effect: |
+    Depending on the QL, this spell removes levels of *Fear* immediately. The effects do not stack. Use the effects of the highest QL.
+
+    - **QL 1**: One level of *Fear*
+    - **QL 2**: One level of *Fear*, +1 COU for one minute
+    - **QL 3**: Two levels of *Fear*, +1 COU for one minute
+    - **QL 4**: Three levels of *Fear*, +1 COU for one minute
+    - **QL 5**: Four levels of *Fear*, +1 COU for one minute
+    - **QL 6**: Four levels of *Fear*, +2 COU for one minute
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 128
+    - id: US25101E
+      firstPage: 163
+    - id: USDR3E
+      firstPage: 2
+
+- id: SPELL_69
+  name: "Breathlessness"
+  effect: |
+    Targets suffer immediate shortness of breath and gain a level of *Stupor*.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL in combat rounds"
+  durationShort: "QL CR"
+  target: "Living Creatures"
+  src:
+    - id: US25101E
+      firstPage: 162
+    - id: USDR3E
+      firstPage: 1
+
+- id: SPELL_70
+  name: "Attributo (Strength)"
+  effect: |
+    Make a target stronger and tougher. Targets receive a bonus for each QL. These bonuses are cumulative. For example, with QL 3, the target receives +2 STR and +1 TOU.
+
+    - **QL 1**: +1 STR
+    - **QL 2**: +1 TOU
+    - **QL 3**: +1 STR
+    - **QL 4**: +1 TOU
+    - **QL 5**: +1 STR
+    - **QL 6**: +1 TOU
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE (casting) + 4 AE per 10 minutes"
+  aeCostShort: "8 AE + 4 AE per 10 min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 119
+    - id: US25101E
+      firstPage: 162
+    - id: USDR3E
+      firstPage: 1
+
+- id: SPELL_71
+  name: "Claudibus"
+  effect: |
+    This spell automatically closes locks and makes them difficult to open without the proper key. Checks using *Pick Locks (Bit Locks* or *Combination Locks)* or *Feat of Strength (Breaking and Smashing)* against the lock suffer a penalty of -1 for each QL you achieve
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "30 minutes"
+  durationShort: "30 min"
+  target: "Objects (Locks)"
+  src:
+    - id: US25004E
+      firstPage: 125
+    - id: US25101E
+      firstPage: 162
+    - id: USDR3E
+      firstPage: 1
+
+- id: SPELL_72
+  name: "Corpofrigo"
+  effect: |
+    Corpofrigo causes damage and imposes levels of the condition *Paralysis*, depending on the QL. These effects are not cumulative.
+
+    - **QL 1**: 1D6 DP
+    - **QL 2**: 1D6+2 DP
+    - **QL 3**: 1D6+2 DP, 1 level of *Paralysis*
+    - **QL 4**: 1D6+4 DP, 1 level of *Paralysis*
+    - **QL 5*: 1D6+6 DP, 1 level of *Paralysis*
+    - **QL 6**: 1D6+6 DP, 2 levels of *Paralysis*
+
+    Armor does not provide PRO against Corpofrigo.
+
+    The spell hits automatically - the target may not attempt to Dodge or Parry.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 yards"
+  rangeShort: "16 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 126
+    - id: US25101E
+      firstPage: 162
+    - id: USDR3E
+      firstPage: 2
+
+- id: SPELL_73
+  name: "Darkness"
+  effect: |
+    A sphere of darkness with a diameter of QL x 2 yards forms around you. Visibility penalties increase by one level per QL. Neither natural nor supernatural light sources can pierce the darkness. You do not suffer visibility penalties caused by this spell, but other visibility modifiers remain in effect.<br>
+    Prior to casting the spell, you must decide whether the zone stays in place or moves (with you at its center)
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "16 AE (casting) + 8 AE per 5 minutes"
+  aeCostShort: "16 AE + 8 AE per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 126
+    - id: US25101E
+      firstPage: 162
+    - id: USDR3E
+      firstPage: 2
+
+- id: SPELL_74
+  name: "Ecliptifactus"
+  effect: |
+    Your shadow comes to life and fights as an ally. It can move up to 13 yards away from you. This spell summons only one shadow, and you must wait for the spell's duration to end before summoning another. For the shadow's stats, see the Shadow sidebar on **Magic of Aventuria** Page **129**.<br>
+    The shadow's stats receive non-cumulative bonuses based on the spell's QL.
+
+    - **QL 1**: No bonus
+    - **QL 2**: +1 AT, +5 LP, +1 SPI
+    - **QL 3**: +1 AT, +1 PA, +1 DO, +1 DP, +5 LP, +1 SPI, Feint I
+    - **QL 4**: +2 AT, +1 PA, +1 DO, +1 DP, +1 PRO, +10 LP, +1 SPI, Feint I
+    - **QL 5**: +2 AT, +2 PA, +2 DO, +1 DP, +1 PRO, +10 LP, +2 SPI, Feint I
+    - **QL 6**+: +3 AT, +2 PA, +2 DO, +2 DP, +1 PRO, +15 LP, +2 SPI, Feint I+II
+
+    Spells must have the property Anti-Magic to affect the shadow. Conditions do not affect shadows.
+
+    If the shadow's LP drop to 0, you lose all remaining AE immediately (and you lose 2 AE permanently). The shadow takes 7 weeks to grow back, during which time you have no shadow and therefore cannot cast this spell.People tend to stigmatize those with no shadow (mainly in lands where they worship the Twelvegods) and view them as possible demon worshipers or Blessed Ones of the Nameless God. Without a shadow you suffer the disadvantage Stigma until it returns (see **Core Rules** Page **177**).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE (casting) + 2 AE per combat round"
+  aeCostShort: "4 AE + 2 AE per CR"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 129
+    - id: US25101E
+      firstPage: 163
+    - id: USDR3E
+      firstPage: 2
+
+- id: SPELL_75
+  name: "Great Confusion"
+  effect: |
+    The target suffers levels of *Confusion* based on the QL:
+
+    - **QL 1**: 1 level of *Confusion*, but only for 2 CR
+    - **QL 2**: 1 level of *Confusion*
+    - **QL 3**: 2 levels of *Confusion*
+    - **QL 4**: 3 levels of *Confusion*
+    - **QL 5**: 4 levels of *Confusion*
+    - **QL 6**: 4 levels of *Confusion*, but double duration.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 3 CR"
+  durationShort: "QL x 3 CR"
+  target: "Living Creatures"
+  src:
+    - id: US25101E
+      firstPage: 164
+    - id: USDR3E
+      firstPage: 4
+
+- id: SPELL_76
+  name: "Lord of Animals"
+  effect: |
+    Druids use this spell to control animals of up to size category *large*. These animals obey the caster's commands (but must be physically able to do so) and fight to the death, if need be. They must also belong to the category Domesticated Animal or Wild Animal (not a monster). This spell affects freshwater and saltwater animals equally, and can only be used to enchant a single creature.<br>
+    The druid cannot command another animal while this spell remains in effect.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "SGC (a) of the animal in AE"
+  aeCostShort: "KL AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL in days"
+  durationShort: "QL Tage"
+  target: "Animals (domesticated animals or wild animals, of size category Large or smaller)"
+  src:
+    - id: US25101E
+      firstPage: 165
+    - id: USDR3E
+      firstPage: 5
+
+- id: SPELL_77
+  name: "Witchwood"
+  effect: |
+    This spell lifts and moves a wooden item through the air. The target can be made of several materials besides wood as long as its total weight is no more than QL x 40 pounds. It moves at a maximum speed of QL +2 yards per action. The spellcaster must spend 1 AE per 10 pounds of weight.<br>
+    Items piled onto the target add their weight for purposes of calculating total weight. The target moves sluggishly and cannot be used to attack or parry.<br>
+    Anyone attempting to stop a moving item, such as by grabbing it or pulling on it, must make a *Feat of Strength (Dragging and Pulling)* check with a penalty equal to the spell's QL.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "At least 4 AE (activation) + half of the activation cost per 5 minutes"
+  aeCostShort: "4+ AE + 1/2 per 5 min"
+  range: "16 yards"
+  rangeShort: "16 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Objects (Wood)"
+  src:
+    - id: US25101E
+      firstPage: 167
+    - id: USDR3E
+      firstPage: 7
+
+- id: SPELL_78
+  name: "Witch Knot"
+  effect: |
+    *Witch's Knot* creates an imaginary barrier for all intelligent creatures that come within 48 feet of the barrier. Each target perceives the barrier differently (for example, as a chasm or a wall of fire). Targets that realize the barrier is a spell cannot simply overcome the obstacle.
+    The caster chooses a focus point within the range of the spell. The barrier must touch this point and runs in a straight line for QL x 6 feet. The caster also decides which part of the barrier touches the focus point.<br>
+    Anyone trying to get past the Witch's Knot barrier must make a *Willpower (Resist Threats)* check with a penalty of 2 + QL. If successful, the barrier stops affecting them for the duration of the spell. If the check fails, the Witch's Knot remains the Witch's Knot remains an impassable obstacle.<br>
+    Attempts to overcome the barrier require one action. Heroes may make more than one attempt to succeed.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "16 yards"
+  rangeShort: "16 yd"
+  duration: "QL x 10 in CR"
+  durationShort: "QL x 10 CR"
+  target: "Zone"
+  src:
+    - id: US25101E
+      firstPage: 167
+    - id: USDR3E
+      firstPage: 7
+
+- id: SPELL_79
+  name: "Agony"
+  effect: |
+    The target suffers pain that usually manifests as severe muscle cramps. Evil mages can substitute Agony for the skill *Intimidation (Torture)*. The target must make a competitive *Self-Control (Resist Torture)* check against Agony, with an additional penalty equal to the pain level of the spell(in addition to any other modifications). After casting the spell, you must touch the target within QL combat rounds for it to take effect, otherwise the spell simply dissipates. If the target actively avoids your touch, you need a successful, undefended Brawling attack +2 or an AT +2 with your Tradition artifact to touch them.
+
+    - **QL 1**: no additional effect
+    - **QL 2**: 1 level of *Pain*, 0 sDP
+    - **QL 3**: 1 level of *Pain*, 1 sDP
+    - **QL 4**: 2 levels of *Pain*, 1 sDP
+    - **QL 5**: 2 levels of *Pain*, 2 sDP
+    - **QL 6**: 3 levels of *Pain*, 2 sDP Casting Time: 4 actions
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "5 minutes"
+  durationShort: "5 min"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 115
+    - id: US25101E
+      firstPage: 161
+    - id: USDR3E
+      firstPage: 1
+
+- id: SPELL_80
+  name: "Ignisphaero"
+  effect: |
+    A ball of fire moves in a straight line from your hands toward the target. You need not spend an additional action to hit the target after casting this spell; the casting time includes the hit. The fireball explodes upon striking the target or another firm obstacle (such as a wall or a shield). If the fireball exceeds the range without hitting a target, it simply dissipates. *Ignisphaero* has a 5 yard blast radius and may hit your allies. The spell inflicts 2D6 + (QL x 3) DP within 1 yard around the impact. Inanimate objects take structure damage from this spell when hit. Reduce the damage by 3 DP for each additional yard of distance from the point of impact.<br>
+    The fireball hits automatically if a target does not take active steps to avoid it. To attempt to avoid it, the target must use a defense and make a *Body Control (Combat Maneuvers)* check. If successful, the target manages to move 1 yard away from the center of the explosion per QL. The target's PRO applies, as usual.<br>
+    Flammable targets catch fire when you roll a 1-3 on 1D6. If clothing starts to burn, the wearer gains the status *Burning* on a Small Surface (see **Core Rules** Page **341**).
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "32 yards"
+  rangeShort: "32 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 135
+    - id: US25101E
+      firstPage: 165
+    - id: USDR3E
+      firstPage: 4
+
+- id: SPELL_81
+  name: "Klarum Purum"
+  effect: |
+    Cancel poison's effects on your target. Your QL must be equal to or greater than the target's poison level, or the spell has no effect.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "3 AE per poison level"
+  aeCostShort: "3 AE per GiS"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 137
+    - id: US25101E
+      firstPage: 165
+    - id: USDR3E
+      firstPage: 5
+
+- id: SPELL_82
+  name: "Identify Pestilence"
+  effect: |
+    The spellcaster can tell whether someone has a disease, and may even be able to identify it. The higher the QL, the more information the spellcaster receives about the disease, as indicated below. This spell also grants a bonus of QL/2 to *Treat Disease* checks when treating a patient.
+
+    - **QL 1**: Reveals if the patient has the state *Diseased*.
+    - **QL 2**: Reveals the disease's level, and whether the patient has infected anybody else.
+    - **QL 3**: Reveals the disease's name, and whether the target ever suffered from the disease before.
+    - **QL 4**: Reveals the treatment for the disease.
+    - **QL 5**: Reveals the cure for the disease.
+    - **QL 6**: Reveals if there is anything unusual about this disease (for example, whether it is a magical disease)
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE "
+  aeCostShort: "8 AE "
+  range: "1 yard"
+  rangeShort: "1 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures, Supernatural Creatures"
+  src:
+    - id: US25101E
+      firstPage: 165
+    - id: USDR3E
+      firstPage: 4
+
+- id: SPELL_83
+  name: "Serpent Call"
+  effect: |
+    The witch summons up to QL x 2 serpents, which then enter the fight. The maximum number of serpents that appear is equal to the number of opponents the witch is facing. The serpents appear within a radius of QL/2 yards of a spot on the ground (within the spell's range) chosen by the caster. Afterwards, the serpents are free to move as far from the place of summoning as needed to fight.<br>
+    The caster chooses opponents for the serpents to attack, but cannot assign more than one serpent per opponent. A summoned serpent disappears the moment its opponent dies. Summoned serpents are made of pure magic and thus count as magical creatures. When the duration ends, the serpents simply disappear.<br>
+    They use the stats of the staff serpent (see **Core Rules** Page **330**), but have no venom.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "20 CR at most"
+  durationShort: "max. 20 CR "
+  target: "Zone"
+  src:
+    - id: US25101E
+      firstPage: 166
+    - id: USDR3E
+      firstPage: 6
+
+- id: SPELL_84
+  name: "Sensibar"
+  effect: |
+    Read another's emotions. The spell only reveals feelings, not their causes. You receive a bonus equal to the QL for *Empathy (Sense Deception* or *Discern Motivation)* checks against the target. Targets may notice that something is peering into their mind by making a Perception check with a penalty equal to the spell's QL, though they cannot tell who is responsible for the intrusion.<br>
+    Targets can use Willpower checks, also subject to the QL penalty, to suppress (and thus shield) their emotions. A very emotional target may suffer an additional penalty of up to -3 points, at the GM's discretion.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE (casting) + 4 AE per minute"
+  aeCostShort: "8 AE, 4 AE per min"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 145
+    - id: US25101E
+      firstPage: 166
+    - id: USDR3E
+      firstPage: 6
+
+- id: SPELL_85
+  name: "Sumu's Elixirs"
+  effect: |
+    The druid channels AE into alchemical ingredients, improving the preservability of ingredients and/or alchemical potions. Also, the druid receives a bonus of 1 on the *Alchemy* check to create an elixir.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL in years"
+  durationShort: "QL years"
+  target: "Objects (ingredients for alchemical substances)"
+  src:
+    - id: US25101E
+      firstPage: 167
+    - id: USDR3E
+      firstPage: 6
+
+- id: SPELL_86
+  name: "Viper Gaze"
+  effect: |
+    An opponent remains paralyzed a long as the caster stares at the target. The target suffers effects based on the spell's QL. Effects from multiple spells are not cumulative; use only the highest QL obtained.
+
+    - **QL 1**: State of *Bound*
+    - **QL 2**: 1 level of *Paralysis*, state of *Bound*
+    - **QL 3**: 2 levels of *Paralysis*, state of *Bound*
+    - **QL 4**: 3 levels of *Paralysis*, state of *Bound*
+    - **QL 5**: 4 levels of *Paralysis*, state of *Bound*
+    - **QL 6**: 4 levels of *Paralysis*, state of *Incapacitated*
+
+    For this spell to work, the witch must be able to stare into the target's eyes, during which time, all the witch's other checks suffer a penalty of 2.<br>
+    The spell ends when the target suffers damage or moves (or is moved) from its spot, the caster looks away or moves out of spell range, or if the caster shuts both eyes. If visual contact is interrupted (somebody runs past, the lights go out, or somebody covers the caster's eyes), the caster must make a *Self-Control (Ignore Disturbances)* check to sustain the spell.<br>
+    If visual contact is interrupted for more than 2 CR, the spell ends automatically. The target may not break eye contact.<br>
+    As long as the spell persists, the target may not make close combat attacks or ranged attacks, or attempt defenses.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE (casting) + 4 AE per 5 CR"
+  aeCostShort: "8 AE + 4 per 5 Kampfrunden "
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Sustained"
+  durationShort: "(S), max. 50 CR "
+  target: "Intelligent Creatures"
+  src:
+    - id: US25101E
+      firstPage: 167
+    - id: USDR3E
+      firstPage: 6
+
+- id: SPELL_87
+  name: "Numbed Tongue"
+  effect: |
+    The target's tongue and lips grow numb, rendering speech barely comprehensible. The target gains the state of *Mute*.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 5 minutes"
+  durationShort: "QL x 5 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25101E
+      firstPage: 166
+    - id: USDR3E
+      firstPage: 5
+
+- id: SPELL_88
+  name: "Forced Dance"
+  effect: |
+    This spell forces the target to dance uncontrollably and energetically. The target cannot move farther than QL yards from the place where the spell was cast. Targets avoid falling into gaps, chasms, and so on. While affected, targets gain the state of *Incapacitated* but are not considered *Prone*. Also, targets retain their normal Movement but may use it only to dance. All attacks and ranged attacks made against the target suffer a penalty of 4, due to their erratic movements.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL in CR"
+  durationShort: "QL CR"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25101E
+      firstPage: 164
+    - id: USDR3E
+      firstPage: 3
+
+- id: SPELL_119
+  name: "Exposami"
+  effect: |
+    This spell detects all Living Creatures, rat-sized or larger, in the radius of effect. You perceive their auras as green, shimmering spots. Sight is not needed to detect the creatures. The spell does not detect plants, fungi, or creatures smaller than an adult rat. Structures made from the elements of Ore and Ice block the spell's effect. You cannot detect creatures behind a wall of stone or inside an igloo. This spell also identifies the Living Creature's type (see **Core Rules** Page **355**).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "QL x 20 yards"
+  rangeShort: "QL x 20 yd"
+  duration: "10 combat rounds"
+  durationShort: "10 CR"
+  target: "Living Creatures (no Plants, Fungi, or creatures smaller than a rat)"
+  src:
+    - id: US25004E
+      firstPage: 130
+    - id: US25101E
+      firstPage: 163
+    - id: USDR3E
+      firstPage: 3
+
+- id: SPELL_122
+  name: "Foramen"
+  effect: |
+    This spell automatically opens simple locks and renders complicated locks easier to open. If your QL is greater than the lock's modifier, the lock opens at once. If not, your *Pick Locks (Bit Locks* or *Combination Locks)* or *Feat of Strength (Breaking and Smashing)* checks against the lock receive a bonus of +1 for each QL. If the net modifier to pick the lock is a bonus, the lock opens immediately. The bonus remains in effect for you and others trying to open the lock, for the spell's duration.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "5 minutes"
+  durationShort: "5 min"
+  target: "Objects (Locks)"
+  src:
+    - id: US25004E
+      firstPage: 132
+    - id: US25101E
+      firstPage: 164
+    - id: USDR3E
+      firstPage: 3
+
+- id: SPELL_123
+  name: "Fortifex"
+  effect: |
+    This spell creates a transparent but slightly shimmering (and thus, visible) wall that physical objects cannot penetrate. The wall stops things like arrows, bolts, *Ignifaxius* spells, and Living Creatures. It does not protect against heat, cold, light, gasses, incorporeal beings, or spells and liturgical chants that do not have a physical component. Select a point within range of the spell. The barrier covers a straight line with a length of QL x 2 yards through that point. You decide the orientation in which the line crosses that point. The barrier is 3 yards tall, has no thickness, and can only stand upright (it cannot lie on the ground or slant at an angle). The barrier has 100 structure points. If this total drops to 0 or less, the wall dissipates.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "30 combat rounds"
+  durationShort: "30 CR"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 132
+    - id: US25101E
+      firstPage: 164
+    - id: USDR3E
+      firstPage: 4
+
+- id: SPELL_143
+  name: "Memorans"
+  effect: |
+    The caster memorizes everything that happens for QL x 5 minutes, as if in possession of an eidetic memory. The caster remembers conversations, pages read from a book, travel routes, visual impressions, or even scents with perfect clarity. This spell only affects the caster but has an effective range of 8 yards for purposes of what can be remembered.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "1 year"
+  durationShort: "1 year"
+  target: "Intelligent Creatures (Self)"
+  src:
+    - id: US25004E
+      firstPage: 138
+    - id: US25101E
+      firstPage: 166
+    - id: USDR3E
+      firstPage: 5
+
+- id: SPELL_89
+  name: "Ablativum"
+  effect: |
+    The spell creates an invisible dome around you that moves with you and protects everything inside from spells. The so-called dome is a sphere; however, since you usually stand on the ground, its spherical nature is rarely relevant.<br>
+    The dome has a radius of three yards and a shield strength of QL x 3. If friendly or enemy arcane spellworks target something within the dome, reduce that spellwork's QL by the shield's strength. If this reduces the QL to 0, the effect is completely blocked. The shield's strength lowers with this process (-1 shield strength per QL it stops) and the Ablativum ends early if its QL falls below 1<br>
+    If an arcane spellwork with an area of effect - such as Ignisphaero - touches the Ablativum shield, the shield's strength lowers by an amount equal to that spell's QL.<br>
+    If an arcane spellwork persists over multiple CR in the area of the Ablativum, lower the shield's strength by that spellwork's QL every CR. If an arcane spellwork with a higher QL than the Ablativum's shield strength penetrates the shield, it comes into effect with its remaining QL reduced by the shield's strength, while the shield's strength is reduced to 0 and the Ablativum ends.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "5 minutes"
+  durationShort: "5 min"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 114
+
+- id: SPELL_90
+  name: "Abvenenum"
+  effect: |
+    Purify up to 10 pounds of food and drink from all poisons and germs whose level is not higher than the spell's QL.<br>
+    The Abvenenum has no effect after a person suffers poisoning or infection via food or drink.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "1 Yard"
+  rangeShort: "1 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 115
+
+- id: SPELL_91
+  name: "Eagle Wings"
+  effect: |
+    Turn into a size category *small* flying animal of your choice. For the spell's duration, you receive the animal's physical stats, including its attributes, skills, and combat stats.<br>
+    Your LP at the time of transformation stay proportional from regular to animal forms; the same applies when you transform back. Your mental attributes remain, as does your consciousness.<br>
+    The transformation affects only you, not your clothes or equipment. You cannot use this spell to transform into an Intelligent Creature.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE (casting) 4 AE per hour"
+  aeCostShort: "8 AE + 4 AE/Hour"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 128
+
+- id: SPELL_92
+  name: "Aeolito"
+  effect: |
+    The Aeolito creates a turbulent wind that, depending on your QL, causes damage and the state *Prone*.
+
+    - **QL 1**: 1D6 DP
+    - **QL 2**: 1D6+2 DP
+    - **QL 3**: 1D6+2 DP, *Prone*
+    - **QL 4**: 1D6+4 DP, *Prone*, pushed back 1 yard
+    - **QL 5**: 1D6+6 DP, *Prone*, pushed back 2 yards
+    - **QL 6**: 1D6+6 DP, *Prone*, pushed back 3 yards Armor does not protect a target from this spell. The spell hits automatically and the target can neither *Dodge* nor *Parry*.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 Yards"
+  rangeShort: "16 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 115
+
+- id: SPELL_93
+  name: "Nightmare Shape"
+  effect: |
+    The target develops severe anxiety and receives a level of the condition *Fear*.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL Combat Rounds"
+  durationShort: "QL CR"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 140
+
+- id: SPELL_94
+  name: "Altisonus"
+  effect: |
+    Your voice becomes significantly louder and more impressive and drowns out any other in the room. The range of your voice doubles
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 5 minutes"
+  durationShort: "QL x 5 min"
+  target: "Creatures"
+  src:
+    - id: US25004E
+      firstPage: 116
+
+- id: SPELL_95
+  name: "Trigger Fear"
+  effect: |
+    Make all Intelligent Creatures within a QL x 2-yard radius fear you. They receive two levels of the condition *Fear* while within the area of effect. The targets do not need to see you for the spell to affect them. If their SPI is higher than the spell's QL, the spell does not affect them.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 2 CR"
+  durationShort: "QL x 2 CR"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 148
+
+- id: SPELL_96
+  name: "Archofaxius"
+  effect: |
+    A ray of ore shoots out from your fingers, hitting your target in a straight line of sight. You do not need to use an additional action to hit the target after casting this spell; the casting time includes the time the ray takes to hit the target.<br>
+    The target receives 2D6 (QL x 2) DP when hit. The ray of ore is a ranged attack with a ranged weapon and the target can block it or dodge, accordingly. It inflicts structural damage to shields it hits. The ray hits automatically if the target does not defend against it. If the ray of ore hits the target, the target's PRO reduces the DP, as usual. Furthermore, if you roll a 1-3 on 1D6, the target receives one level of *Encumbrance*, which lasts five minutes.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 Yards"
+  rangeShort: "16 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 116
+
+- id: SPELL_97
+  name: "Archosphaero"
+  effect: |
+    A ball of ore shoots from your hand in a straight line, hitting your target. You need not spend an additional action to hit the target after casting this spell; the casting time includes the hit. The ball of ore explodes upon striking the target or another firm obstacle (such as a wall or a shield). If the ball of ore exceeds the range without hitting a target, it simply dissipates. Archosphaero has a 5 yard blast radius and may hit your allies.<br>
+    The spell inflicts 2D6 (QL x 3) DP to both animate and inanimate objects within 1 yard of the point of impact. Reduce the damage by 3 DP for each additional yard of distance from the point of impact.<br>
+    The ball of ore hits automatically if a target does not take active steps to avoid it. To attempt to avoid it, the target must use a defense and make a *Body Control (Combat Maneuvers)* check. If successful, the target manages to move 1 yard away from the center of the explosion per QL.<br>
+    The target's PRO applies, as usual. If you roll a 1-3 on 1D6, the target gains 1 level of *Encumbrance* for five minutes. The explosion can affect all targets within the blast radius.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "32 Yards"
+  rangeShort: "32 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 117
+
+- id: SPELL_98
+  name: "Aromatis Illusionis"
+  effect: |
+    You can create any number of smells and tastes with this spell; however, they can never be intense enough to cause the target nausea. For rules governing illusions, see the **Core Rules**, Page *258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting) 2 AE per 5 Minutes"
+  aeCostShort: "4 AE + 2 AE/5 min"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone (Radius of 3 x 3 Yards)"
+  src:
+    - id: US25004E
+      firstPage: 117
+
+- id: SPELL_99
+  name: "Attributo (Charisma)"
+  effect: |
+    Make a target more charismatic and appealing. The target receives a bonus for each QL. These bonuses are cumulative. For example, with QL 3, the target receives 2 CHA and 1 SPI.
+
+    - **QL 1**: 1 CHA
+    - **QL 2**: 1 SPI
+    - **QL 3**: 1 CHA
+    - **QL 4**: 1 SPI
+    - **QL 5**: 1 CHA
+    - **QL 6**: 1 SPI
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE (casting) 4 AE per 10 Minutes"
+  aeCostShort: "8 AE + 4 AE/10 Min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 118
+
+- id: SPELL_100
+  name: "Attributo (Dexterity)"
+  effect: |
+    Make a target nimbler and more dexterous. The target receives a bonus for each QL. These bonuses are cumulative. For example, with QL 3, the target receives 2 DEX and 1 RC.
+
+    - **QL 1**: 1 DEX
+    - **QL 2**: 1 RC
+    - **QL 3**: 1 DEX
+    - **QL 4**: 1 RC
+    - **QL 5**: 1 DEX
+    - **QL 6**: 1 RC
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE (casting) 4 AE per 10 Minutes"
+  aeCostShort: "8 AE + 4 AE/10 Min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 118
+
+- id: SPELL_101
+  name: "Attributo (Sagacity)"
+  effect: |
+    Make a target more sagacious and rational. The target receives a bonus for each QL. These bonuses are cumulative. For example, with QL 3, the target receives 2 SGC and 1 SPI.
+
+    - **QL 1**: 1 SGC
+    - **QL 2**: 1 SPI
+    - **QL 3**: 1 SGC
+    - **QL 4**: 1 SPI
+    - **QL 5**: 1 SGC
+    - **QL 6**: 1 SPI
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE (casting) 4 AE per 10 Minutes"
+  aeCostShort: "8 AE + 4 AE/10 Min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 118
+
+- id: SPELL_102
+  name: "Awaken"
+  effect: |
+    Immediately awaken a sleeping target or nullify the state *Unconscious*. The target receives one level of *Confusion* for 6 - QL CR.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "16 Yards"
+  rangeShort: "16 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 120
+
+- id: SPELL_103
+  name: "Eye of Limbo"
+  effect: |
+    The spell creates a vortex connected to the Limbo. You must designate a spot within range, from which the vortex spreads in a radius of QL yards. All creatures and unfixed objects inside the vortex are pulled towards its center, and once they enter it, they are pulled into the Limbo.<br>
+    Every CR, creatures inside the vortex must succeed at a *Feat of Strength (Pulling & Dragging)* check, otherwise they are pulled 2 yards closer to the center. If they try to hold onto a fixed object, they receive a bonus of +1 to their *Feat of Strength* check.<br>
+    Creatures within the radius of the vortex cannot move away from it in a normal manner.<br>
+    When the vortex opens, a target in the center of the zone can make a *Perception (Spot)* check with a penalty of -3. If they succeed, they intuitively move 2 yards away from the center.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "32 Yards"
+  rangeShort: "32 yd"
+  duration: "QL Combat Rounds"
+  durationShort: "QL CR"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 130
+
+- id: SPELL_104
+  name: "Aureolus"
+  effect: |
+    The object you enchant gleams, making it appear more precious and magnificent than it really is. It does however not count as a light source. The maximum size of the affected area is ten square feet.<br>
+    You receive a QL/2 bonus to your *Commerce (Haggling)* check when attempting to sell the enchanted object. When the spell's duration ends, the buyer makes a *Willpower* check. If successful, the buyer notices your deceit. If the check fails, the buyer may think the trade was a bad deal but does not spot the deception. For rules governing illusions, see the **Core Rules** Page **258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "2 AE"
+  aeCostShort: "2 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL Hours"
+  durationShort: "QL h"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 119
+
+- id: SPELL_105
+  name: "Auris Illusionis"
+  effect: |
+    Deceive your targets' sense of hearing. This spell can create all kinds of sounds, which all creatures with ears within hearing distance can hear. You select the volume; however, the sound can never be so loud as to cause pain or damage. For rules governing illusions, see the **Core Rules** Page **258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting) 2 AE per 5 Minutes"
+  aeCostShort: "4 AE + 2 AE/5 min"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone (Radius of 5 x 5 Yards)"
+  src:
+    - id: US25004E
+      firstPage: 119
+
+- id: SPELL_106
+  name: "Chains and Shackles"
+  effect: |
+    For the duration of the spell, the target is unable to move farther than seven yards away from their location at the end of the casting time. If something forces the target outside the range, they receive one level of the condition *Pain* per CR until they return to the area of effect.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL x 2 Hours"
+  durationShort: "QL x 2 h"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 125
+    - id: US25103E
+      firstPage: 153
+
+- id: SPELL_107
+  name: "Gaze into the Essence"
+  effect: |
+    The spell reveals the target's stats to you. For every QL you obtain, you may choose one of the following categories to reveal: physical attributes, LP and TOU, combat techniques, physical advantages and disadvantages, physical special abilities, combat special abilities, current conditions and states, or physical skills.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Creatures"
+  src:
+    - id: US25004E
+      firstPage: 133
+
+- id: SPELL_108
+  name: "Blindness"
+  effect: |
+    The target abruptly loses the ability to visually perceive its environment and receives the state *Blind*.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL x 5 minutes"
+  durationShort: "QL x 5 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- id: SPELL_109
+  name: "Chamaelioni"
+  effect: |
+    If you stand still, your body and clothes optically blend into the surrounding area (this does not apply to armor , weapons, or other equipment).<br>
+    Someone can discover you only if they succeed at a competitive check between their *Perception (Detect Ambush, Search*, or *Spot)* - with a penalty equal to the Chamaelioni's QL - and your *Stealth*.<br>
+    Once you move, the camouflage expires. For rules governing illusions, see the **Core Rules** Page **259**.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL minutes"
+  durationShort: "QL min"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 125
+    - id: US25101E
+      firstPage: 162
+    - id: USDR3E
+      firstPage: 1
+
+- id: SPELL_110
+  name: "Banish Property (Demons)"
+  effect: |
+    You dispel an arcane spellwork with the property Demons if the QL of that spellwork is not higher than the QL of *Banish Property (Demons)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Demons)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 120
+
+- id: SPELL_111
+  name: "Demon Shield"
+  effect: |
+    The spell creates an invisible dome with 3 yards radius that surrounds and moves with you and protects everything inside from spells. The so-called dome is actually a sphere; however, since you usually stand on the ground, the spherical nature is rarely relevant.<br>
+    Demons can enter it, but the dome's magic absorbs their attacks (and any DP they inflict) within the radius. Demons become half-immaterial and their attacks simply pass through their enemies or the dome completely absorbs them, like water by a sponge. For this purpose, the dome has a shield strength of AE + (QL x 3) that can absorb an equal number of DP.<br>
+    If the shield strength falls below 1, the dome collapses and the spell expires.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "At Least 4 AE"
+  aeCostShort: "4+ AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "5 minutes"
+  durationShort: "5 min"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 127
+
+- id: SPELL_112
+  name: "Debilitatio"
+  effect: |
+    This spell creates an immovable, spherical zone of effect. All demons and elementals within it receive a penalty of QL/2 to all checks. You must designate the target spot from which the zone extends with a radius of QL x 2 yards
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 Combat Rounds"
+  durationShort: "QL x 3 CR"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 127
+
+- id: SPELL_113
+  name: "Desintegratus"
+  effect: |
+    The object you enchant loses QL x 10 structure points. If its structure points fall below 1, the object turns into dust.<br>
+    To destroy armor, you must achieve QL equal to the armor's PRO value. You need QL 1 to destroy weapons with the combat techniques *Daggers* and *Brawling*, all other weapons require QL 2. You can destroy TwoHanded Weapons only with QL 3 or more. QL you obtain against weapons are cumulative
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Profane Objects"
+  src:
+    - id: US25004E
+      firstPage: 127
+
+- id: SPELL_114
+  name: "Banish Property (Influence)"
+  effect: |
+    You dispel an arcane spellwork with the property Influence if the QL of that spellwork is not higher than the QL of *Banish Property (Influence)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Influence)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 121
+
+- id: SPELL_115
+  name: "Iron Rust"
+  effect: |
+    The target metal object loses 20 structure points. If its structure points fall below 1, the rust renders it unusable. To destroy metal armor, you must achieve a QL equal to the armor's PRO value.<br>
+    You need QL 1 to destroy metal weapons with the combat technique *Daggers* and *Brawling*.<br>
+    To destroy Two-Handed Weapons, you need QL 3 or more.<br>
+    Weapons from all other weapon techniques require at least QL 2. QL results against weapons stack.
+  castingTime: "4 Actions (Cannot use modification for Casting Time)"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "4 Yards"
+  rangeShort: "4 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Profane Objects"
+  src:
+    - id: US25004E
+      firstPage: 137
+
+- id: SPELL_116
+  name: "Banish Property (Elemental)"
+  effect: |
+    You dispel an arcane spellwork with the property Elemental if the QL of that spellwork is not higher than the QL of *Banish Property (Elemental)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Elemental)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 121
+
+- id: SPELL_117
+  name: "Elven Voice"
+  effect: |
+    You select acoustic signals, such as spoken words or a melody, which the target hears in its mind. The target knows these are not natural sounds and you cannot involuntarily distract a target in this way. You and the target can be any distance apart at the end of the casting time, if you still have a line of sight.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "4 Yards"
+  rangeShort: "4 yd"
+  duration: "QL x 3 Combat Rounds"
+  durationShort: "QL x 3 CR"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 130
+
+- id: SPELL_118
+  name: "Memory Begone"
+  effect: |
+    This spell suppresses all the target's personal memories from the last QL minutes. For the spell's duration, the target can neither remember this timeframe nor make checks on knowledge received during that time. However, the target's reflexes, as well as knowledge, and abilities from before that time remain intact and accessible.<br>
+    This effect disorients the target, imposing a level of *Confusion* until the end of the 5th CR
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 5 minutes"
+  durationShort: "QL x 5 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 139
+
+- id: SPELL_120
+  name: "Favilludo"
+  effect: |
+    Surround yourself with dancing sparks in the color of your choice.<br>
+    All attacks against you receive a penalty of -1.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL Combat Rounds"
+  durationShort: "QL CR"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 131
+
+- id: SPELL_121
+  name: "Fish Fin"
+  effect: |
+    Turn into a size category *small* aquatic animal of your choice. For the spell's duration, you receive the animal's physical stats, including attributes, skills, and combat stats.<br>
+    Your LP at the time of transformation stay proportional from regular to animal forms; the same applies when you transform back. Your mental attributes remain, as does your consciousness.<br>
+    The transformation targets only you, not your clothes or equipment.<br>
+    This spell cannot change you into another type of Intelligent Creature.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE (casting) 4 AE per hour"
+  aeCostShort: "8 AE + 4 AE/h"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 132
+
+- id: SPELL_124
+  name: "Mental Images"
+  effect: |
+    The target sees selected images in its mind; such images can include sensory impressions, a warning of impending doom, or a plan for joint action. The target knows these images originate from someone else, so he does not think they are his own, and the images cannot serve as involuntarily distractions. You and your target can be any distance apart when the casting time ends, if you still have a line of sight.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "4 Yards"
+  rangeShort: "4 yd"
+  duration: "QL x 3 Combat Rounds"
+  durationShort: "QL x 3 CR"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 140
+
+- id: SPELL_125
+  name: "Found It"
+  effect: |
+    Determine in which direction an object lies. You must have a magical connection to the item or have carried it with you for at least a month before trying to use this spell to find it. If the object is more than QL x 3 yards away, the spell fails.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "2 AE"
+  aeCostShort: "2 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 133
+
+- id: SPELL_126
+  name: "Hazelbush"
+  effect: |
+    This spell stimulates plant growth. Place a plant or seed next to the object you wish to climb. When the casting time ends, the plant grows 1 yard per CR (up to a maximum of QL x 3 yards) and grants a bonus of QL/2 points to your *Climbing* check when you climb the plant.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "2 Yards"
+  rangeShort: "2 yd"
+  duration: "1 Day"
+  durationShort: "1 Day"
+  target: "Plants"
+  src:
+    - id: US25004E
+      firstPage: 133
+
+- id: SPELL_127
+  name: "Banish Property (Healing)"
+  effect: |
+    You dispel an arcane spellwork with the property Healing if the QL of that spellwork is not higher than the QL of *Banish Property (Healing)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Healing)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 121
+
+- id: SPELL_128
+  name: "Banish Property (Clairvoyance)"
+  effect: |
+    You dispel an arcane spellwork with the property Clairvoyance if the QL of that spellwork is not higher than the QL of *Banish Property (Clairvoyance)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Clairvoyance)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 120
+
+- id: SPELL_129
+  name: "Heptagramma"
+  effect: |
+    If you achieve more QL than the summoning difficulty (summoning difficulties of 0 or higher count as 0), you can exorcise a lesser ghost. This can be a summoned or a free ghost creature. You can also banish ghosts bound to or possessing objects or creatures.<br>
+    When you exorcise the ghost, the heptagram draws it in and returns it to the realm of the dead. Afterward, it cannot reappear in the Third Sphere on its own, but someone can summon it again
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Possessed, Ghosts"
+  src:
+    - id: US25004E
+      firstPage: 134
+
+- id: SPELL_130
+  name: "Stop Heartbeat"
+  effect: |
+    The target's heartbeat rapidly slows to a stop, inflicting 1D3 sDP per CR. The effect ends either with a successful Self-Control check with a penalty equal to the spell's QL, or a *Treat Wounds (Stabilize)* check with a penalty equal to the spell's QL/2. Such checks count as an action. Another person can make the *Treat Wounds* check for the target.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 Combat Rounds"
+  durationShort: "QL x 3 CR"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 147
+
+- id: SPELL_131
+  name: "Hexagramma"
+  effect: |
+    If you achieve more QL than the summoning difficulty (summoning difficulties of 0 or higher count as 0), you can exorcise an elemental spirit. This can be a summoned or a free elemental spirit. You can also banish elemental spirits bound to or possessing objects or creatures.<br>
+    When you exorcise the elemental spirit, the hexagram draws it in and sends it to the Sphere of elements. However, after 24 hours pass, it can return to the Third Sphere on its own.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Elementals"
+  src:
+    - id: US25004E
+      firstPage: 134
+
+- id: SPELL_132
+  name: "Ignorantia"
+  effect: |
+    The target ignores you and your actions. You can move past the target unnoticed or commit a theft right in front of the target's eyes.<br>
+    If you interact with or attack the target during the spell's duration, the spell ends immediately.<br>
+    If the target explicitly observes something like a door or an object, they notice all changes but cannot tell what causes the changes. For example, the target notices a door opening or closing but cannot tell who caused it to move.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 Yards"
+  rangeShort: "16 yd"
+  duration: "QL minutes"
+  durationShort: "QL min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 135
+
+- id: SPELL_133
+  name: "Banish Property (Illusion"
+  effect: |
+    You dispel an arcane spellwork with the property Illusion if the QL of that spellwork is not higher than the QL of *Banish Property (Illusion)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Illusion)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 121
+
+- id: SPELL_134
+  name: "Imperavi"
+  effect: |
+    The target follows a single command from you that does not overtly contradict their self-preservation instinct. This means they may commit a theft, answer a single question, or aid you in battle, but they cannot, for instance, jump off a cliff or eat their own hands.<br>
+    You cannot use this spell to make the target follow different commands throughout the spell's duration (for example, “*I command you to obey all my orders.*”) or truthfully answer several questions. Also, you cannot issue long chains of commands (such as, “*Open the door, walk inside, light a candle, and smash the crate*”); you can issue only single, brief orders.<br>
+    The GM has the final say as to whether an order is valid.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 135
+    - id: US25238E
+      firstPage: 155
+
+- id: SPELL_135
+  name: "Impersona"
+  effect: |
+    You can change your face into any other face you desire. To imitate a specific person's face, you must know that person well and be able to see their face when you cast the spell. The spell does not affect your body, voice, or clothes. For rules governing illusions, see the **Core Rules** Page **258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting) 2 AE per 10 Minutes"
+  aeCostShort: "4 AE + 2 AE/10 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 136
+
+- id: SPELL_136
+  name: "Incendio"
+  effect: |
+    The Incendio sets a Living Creature you select on fire. The damage depends on your QL.
+
+    - **QL 1**: 1D6 DP
+    - **QL 2**: 1D6+2 DP
+    - **QL 3**: 1D6+2 DP, the state *Burning* on a small area
+    - **QL 4**: 1D6+4 DP, the state *Burning* on a small area
+    - **QL 5**: 1D6+6 DP, the state *Burning* on a small area
+    - **QL 6**: 1D6+6 DP, the state *Burning* on a large area
+
+    PRO does not protect against this damage. The spell hits your target automatically. The opponent can neither Dodge nor Parry.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 Yards"
+  rangeShort: "16 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 136
+    - id: US25238E
+      firstPage: 155
+
+- id: SPELL_137
+  name: "Invercano"
+  effect: |
+    If you become the target of an attack spell, you can bounce it back at your enemy using Brawling or your Tradition artifact to Parry with a penalty of -4. If you succeed, the spell ricochets back at the user and reaches its target at the start of the next CR. A combat spell is any spell causing DP or sDP for which the caster rolls at least one die.<br>
+    You cannot deflect spells with an area of effect. If the new target has a different SPI or TOU from the original target, use the ones from the original target regardless. The spell's original range also does not play a role when throwing back the spell.<br>
+    Every time you deflect a spell with Invercano, decrease its QL by 1. If the QL falls to 0, the spell dissipates.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 2 Combat Rounds"
+  durationShort: "QL x 2 CR"
+  target: "Self"
+  src:
+    - id: US25004E
+      firstPage: 136
+
+- id: SPELL_138
+  name: "Carnifilo"
+  effect: |
+    The target receives the state of *Bloodlust* (see **Core Rules** Page **34**).
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL x 2 CR (instead of the usual 2D20 CR for the state of *Bloodlust*)"
+  durationShort: "QL x 2 CR"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- id: SPELL_139
+  name: "Shoo"
+  effect: |
+    You enchant the animal and fill it with *Fear*. Other specific effects depend on the QL:
+
+    **QL 1**: One level of *Fear*, but reduced duration 2 CR.
+    **QL 2**: One level of *Fear*
+    **QL 3**: Two levels of *Fear*
+    **QL 4**: Three levels of *Fear*
+    **QL 5**: Four levels of *Fear*
+    **QL 6**: Four levels of *Fear*, and duration is doubled
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Animals"
+  src:
+    - id: US25004E
+      firstPage: 146
+
+- id: SPELL_140
+  name: "Burden of Old-Age"
+  effect: |
+    The target physically ages in a sudden, drastic manner and becomes geriatric. However, this cannot cause death by old age and the target returns to its original age when the spell's duration ends. All the target's physical actions (such as physical skills and craft skills) receive a QL/2 penalty (this includes combat, so it also affects AT, PA, DO, and RC).<br>
+    After casting the spell, you have QL CR to touch the target and trigger the spell's effect, otherwise the spell fizzles. If the target actively avoids your touch, you need a successful, undefended Brawling attack 2 or an AT 2 with your Tradition artifact to touch them.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- id: SPELL_141
+  name: "Leviathan Lung"
+  effect: |
+    You can sprint during the spell's duration without becoming exhausted. Your SR in *Body Control (Running)* doubles for the spell's duration. During a chase, the doubling takes place before adding the effective MOV.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL Combat Rounds"
+  durationShort: "QL CR"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 138
+
+- id: SPELL_142
+  name: "Manus Illusionis"
+  effect: |
+    Deceive the target's sense of touch. You must cast the illusion on an existing surface. The spell merely changes the sensation of feeling, it does not create something corporeal out of thin air. Only the surface feels different, not the complete object. For rules governing illusions, see the **Core Rules** Page **258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting) 2 AE per 5 Minutes"
+  aeCostShort: "4 AE + 2 AE/5 min"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone (Up to 3 x 3 Yards)"
+  src:
+    - id: US25004E
+      firstPage: 138
+
+- id: SPELL_144
+  name: "Menetekel"
+  effect: |
+    Everything you say appears on an imaginary wall, in any length or width you desire, in an area of up to 100 square feet. Letters and numbers can be any size but do not count as restricting visibility. For rules governing illusions, see the **Core Rules** Page **258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "2 AE"
+  aeCostShort: "2 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL x 30 minutes"
+  durationShort: "QL x 30 min"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 139
+
+- id: SPELL_145
+  name: "Nuntiovolo"
+  effect: |
+    Summon a shape that resembles a bird or bat made of smoke. The creature can carry an object weighing no more than half a pound to a place you designate and can travel a base distance of 20 Middenmiles + 10 Middenmiles per additional 1 AE you spend.<br>
+    If the creature travels further than the maximum distance, it dissipates and drops the item.<br>
+    The creature has MOV 10, without weather impeding its progress. It has QL LP and no DE, although mundane weapons cannot injure it.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "4 Yards"
+  rangeShort: "4 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Demons"
+  src:
+    - id: US25004E
+      firstPage: 140
+
+- id: SPELL_146
+  name: "Objectobscuro"
+  effect: |
+    The target object gradually becomes *Invisible* over the course of the next 20 - (QL x 3) combat rounds. It becomes increasingly translucent until it is finally *Invisible*.<br>
+    Objects and people in or behind the object remain visible. The spell affects objects up to 10 pounds in weight.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE (casting) 4 AE per 5 Minutes"
+  aeCostShort: "8 AE + 4 AE/5 min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 141
+
+- id: SPELL_147
+  name: "Objectofixo"
+  effect: |
+    This spell fixes the target object to the ground. Only a successful *Feat of Strength (Pushing & Bending*, *Lifting*, or *Dragging & Pulling)* check with a penalty equal to the spell's QL x 2 can remove it. If someone can achieve this, the spell's effect ends. The spell affects objects up to 10 pounds in weight.<br>
+    The surface on which you place the item can be level ground or a similar, even surface, such as on a table or a ship's deck. The surface you choose remains movable, so attaching something to sand, loose earth, or a small piece of furniture is pointless.<br>
+    If someone destroys the object while the spell is in effect, debris or the object's contents remain stuck to the surface. When this happens, lifting any one piece - and therefore ending the spell - requires an *Feat of Strength check*.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL minutes"
+  durationShort: "QL min"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 141
+
+- id: SPELL_148
+  name: "Banish Property (Objects)"
+  effect: |
+    You dispel an arcane spellwork with the property Objects if the QL of that spellwork is not higher than the QL of *Banish Property (Objects)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Objects)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 122
+
+- id: SPELL_149
+  name: "Oculus Astralis"
+  effect: |
+    An arcane vision supplements your normal view. It does not provide enough detail to make magical analyses. You can see objects and persons rendered *Invisible* by magic, and you can more easily orient yourself in places imbued with magic.<br>
+    In some places, such as the Limbo, this spell is required for any orientation at all. While using this sight, you receive a modifier of -2 to all skill checks.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Creatures"
+  src:
+    - id: US25004E
+      firstPage: 141
+
+- id: SPELL_150
+  name: "Orcanofaxius"
+  effect: |
+    An air jet shoots out from your fingers, hitting your target in a straight line of sight. You do not need to use an additional action to hit the target after casting this spell; the casting time includes the time the air jet takes to hit the target.<br>
+    The target receives 2D6 + (QL x 2) DP when hit. The air jet is a ranged attack with a ranged weapon and the target can block it or dodge, accordingly. It inflicts structural damage to shields it hits.<br>
+    The air jet hits automatically if the target does not defend against it. If the air jet hits the target, the target's PRO reduces the DP, as usual. Furthermore, if you roll a 1-3 on 1D6, the target receives the state *Prone*.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 Yards"
+  rangeShort: "16 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 142
+
+- id: SPELL_151
+  name: "Orcanosphaero"
+  effect: |
+    A storm ball shoots from your hand in a straight line, hitting your target. You need not spend an additional action to hit the target after casting this spell; the casting time includes the hit. The storm ball explodes upon striking the target or another firm obstacle (such as a wall or a shield). If the storm ball exceeds the range without hitting a target, it simply dissipates.<br>
+    Orcanosphaero has a 5 yard blast radius and may hit your allies. The spell inflicts 2D6 + (QL x 3) DP within 1 yard around the impact. Inanimate objects take structure damage from this spell when hit. Reduce the damage by 3 DP for each additional yard of distance from the point of impact.<br>
+    The storm ball hits automatically if a target does not take active steps to avoid it. To attempt to avoid it, the target must use a defense and make a *Body Control (Combat Maneuvers)* check. If successful, the target manages to move 1 yard away from the center of the explosion per QL. The target's PRO applies, as usual. If you roll a 1-3 on 1D6, the target gains the state *Prone*.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "32 Yards"
+  rangeShort: "32 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 142
+
+- id: SPELL_152
+  name: "Pentagramma"
+  effect: |
+    If you achieve more QL than the summoning difficulty (summoning difficulties of 0 or higher count as 0) you can exorcise a lesser demon. This can be a summoned or a free demon. You can also banish demons bound to or possessing objects or creatures.<br>
+    When you exorcise the demon, the pentagram draws it in and forces it back into the Seventh Sphere.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Demons"
+  src:
+    - id: US25004E
+      firstPage: 142
+
+- id: SPELL_153
+  name: "Physiostabilis"
+  effect: |
+    This spell increases the physical resistance of a target for a short amount of time. The target's TOU improves by QL/2.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "4 AE (casting) 2 AE per 10 Minutes"
+  aeCostShort: "4 AE + 2 AE/10 min"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 143
+
+- id: SPELL_154
+  name: "Plumbumbarum"
+  effect: |
+    The target receives an AT penalty equal to the spell's QL.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "5 Combat Rounds"
+  durationShort: "5 CR"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 143
+
+- id: SPELL_155
+  name: "Projectimago"
+  effect: |
+    Project an optical likeness of yourself to a place you select (the likeness includes clothes and items you wear on your body). Onlookers believe the image is real.<br>
+    The projection mirrors all your movements - if you turn around and jump into the air, it does so, as well. The image appears up to a maximum distance of 5 Middenmiles away, plus one Middenmile for every additional AE you spend. It must also be somewhere you visited before or else be within your line of sight.<br>
+    Your senses do not transmit with the projection, meaning you must be close by to see people's reactions. For rules governing illusions, see the **Core Rules** Page **258**.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE 1 AE for each additional Middenmile"
+  aeCostShort: "8 AE + 1 AE/Km"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 144
+
+- id: SPELL_156
+  name: "Reflectimago"
+  effect: |
+    Create a reflective surface on a smooth object up to 20 square feet in size. This is only an illusion and not a real mirror, which means you cannot use the object to focus the sun's rays or blind someone. For rules governing illusions, see the **Core Rules** Page **258**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "2 AE"
+  aeCostShort: "2 AE"
+  range: "4 Yards"
+  rangeShort: "4 yd"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 144
+
+- id: SPELL_157
+  name: "Regeneratio"
+  effect: |
+    Regenerate QL/2 LP every CR. You can sustain the spell for a maximum of SR combat rounds
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting) 2 AE per CR"
+  aeCostShort: "4 AE + 2 AE/CR"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 145
+
+- id: SPELL_158
+  name: "Sapefacta"
+  effect: |
+    This spell cleans every kind of dirt from Living Creatures (and their clothes) within a radius of QL yards. This can reduce penalties the dirt imposes on social skills such as *Etiquette (Manners)* or *Seduction (Beautify)*.<br>
+    The GM has the final say in such matters. This spell does not affect tattoos or other permanent body alterations.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 145
+
+- id: SPELL_159
+  name: "Ease Pain"
+  effect: |
+    Depending on the QL, this spell instantly removes levels of Pain. The effects do not stack. Use the effects of the highest QL.
+
+    - **QL 1**: 1 level of *Pain*
+    - **QL 2**: 1 level of *Pain*, +1 CON for 1 minute
+    - **QL 3**: 2 levels of *Pain*, +1 CON for 1 minute
+    - **QL 4**: 3 levels of *Pain*, +1 CON for 1 minute
+    - **QL 5**: 4 levels of *Pain*, +1 CON for 1 minute
+    - **QL 6**: 4 levels of *Pain*, +2 CON for 1 minute
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 128
+
+- id: SPELL_160
+  name: "Black and Red"
+  effect: |
+    The target loses LP equal to the QL at the end of every hour.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "8 Hours"
+  durationShort: "8 h"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 123
+
+- id: SPELL_161
+  name: "Black Terror"
+  effect: |
+    The target receives one level of the condition *Fear* when they see anything that is black in color. Darkness does not count as black.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL Hours"
+  durationShort: "QL h"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- id: SPELL_162
+  name: "Skelettarius"
+  effect: |
+    You raise the physical remains of a deceased creature for a short time as an undead. You can raise simple mummies, skeletons, and zombies with this spell; however, your targets may not be larger than size category medium.<br>
+    Raising the undead uses the same mechanics as summoning. The undead creature carries out QL + 1 orders and you can use improvements with it just like demons and elementals (see **Core Rules** Page **263**).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL x 2 Combat Rounds"
+  durationShort: "QL x 2 CR"
+  target: "Intelligent Creatures (Deceased)"
+  src:
+    - id: US25004E
+      firstPage: 146
+
+- id: SPELL_163
+  name: "Solidirid"
+  effect: |
+    A bridge made of dim light, no more than QL x 5 yards long and 1 yard wide, appears in front of your feet. The bridge may arc slightly or be perfectly horizontal, and it does not need to touch the ground at any point.<br>
+    The bridge has 50 structure points. If at any point the bridge holds more than 1,000 pounds, or if something destroys it with force, it collapses and the spell's effects end.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 147
+
+- id: SPELL_164
+  name: "Deafness"
+  effect: |
+    The target is suddenly to able to hear anything and receives the state *Deaf*.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "QL x 5 minutes"
+  durationShort: "QL x 5 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 126
+
+- id: SPELL_165
+  name: "Banish Property (Telekinesis)"
+  effect: |
+    You dispel an arcane spellwork with the property Telekinesis if the QL of that spellwork is not higher than the QL of *Banish Property (Telekinesis)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Telekinesis)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 122
+
+- id: SPELL_166
+  name: "Animal Thoughts"
+  effect: |
+    Read an animal's thoughts and memories - you can access memories formed up to a maximum of QL days ago. What you learn depends on the animal's intelligence, memory, and way of living; for example, you learn little from a goldfish but garner considerably more from a monkey. You must make an *Animal Lore* check to understand the animal's conceptual world. Depending on this check's QL, the GM may give a more detailed description to ensure you interpret the animal's thoughts correctly.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AE (casting), 2 AE per 30 Seconds"
+  aeCostShort: "4 AE + 2 AE/30 s"
+  range: "4 Yards"
+  rangeShort: "4 yd"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Animals"
+  src:
+    - id: US25004E
+      firstPage: 116
+
+- id: SPELL_167
+  name: "Banish Property (Transformation)"
+  effect: |
+    You dispel an arcane spellwork with the property Transformation if the QL of that spellwork is not higher than the QL of *Banish Property (Transformation)*. This banishing spell does not work against magic with an immediate effect, against spellworks whose effect is already completed, or against permanently active spellworks. If you use *Banish Property (Transformation)* against spells with the target category Zone, then only part of it must be within range; however, this costs you more AE.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AE / 16 AE for spellworks with target category Zone"
+  aeCostShort: "8 / 16 AE"
+  range: "8 Yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "All"
+  src:
+    - id: US25004E
+      firstPage: 122
+
+- id: SPELL_168
+  name: "Bend Sound"
+  effect: |
+    Within a QL x 2-yard radius, you can exchange any sound you desire for another. However, the volume remains the same. You can make a voice significantly higher or cause footsteps to sound like low thunder or trumpets. For rules governing illusions, see the **Core Rules** Page **259**.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 123
+
+- id: SPELL_169
+  name: "Wolf Paw"
+  effect: |
+    Turn into a size category *small* land animal (no birds, fish, and so on) of your choice. For the spell's duration, you receive the animal's physical stats, including its attributes, skills, and combat stats.<br>
+    Your LP at the time of transformation stay proportional from regular to animal forms; the same applies when you transform back. You also keep your mental attributes and your consciousness.<br>
+    The transformation targets only you, not your clothes or equipment, and you cannot transform into an Intelligent Creature.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AE (casting) 4 AE per hour"
+  aeCostShort: "8 AE + 4 AE/h"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 148
+
+- id: SPELL_170
+  name: "Caldofrigo"
+  effect: |
+    Change the temperature of an object no larger than a simple clothes chest by /- 100 degrees Celsius (+/- 180 degrees Fahrenheit) from its starting temperature. The caster must state the desired change and cannot change it once set. Also, the temperature change works in one direction only (for example, an object cannot be cooled and then warmed using the same casting).<br>
+    Anyone touching objects that are extremely hot (or extremely cold; just use the same rules) use the rules for *Burning* (see **Core Rules** Page **341**). When the ritual ends, the object returns to its original temperature.<br>
+    Large temperature changes cause 1D6 structure points of damage to most objects. The GM has the final word.
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "QL x 2 minutes"
+  durationShort: "QL x 2 min"
+  target: "Object (mundane objects of up to the size of a chest)"
+  src:
+    - id: US25004E
+      firstPage: 150
+    - id: US25101E
+      firstPage: 168
+
+- id: SPELL_171
+  name: "Nihilogravo"
+  effect: |
+    The ritual creates a cylindrical zone where Dere's gravity does not apply. The spellcaster chooses a spot within the spell's range. Gravity releases everything within a cylinder of radius QL x 15 feet from that spot, by QL x 15 feet tall.<br>
+    The unusual environments cause a penalty of 1 to all checks within the zone. To move while weightless, make a *Swimming (Diving)* check. If successful, you move 3 feet per QL. Accidents, botches, and other effects (GM discretion) cause a person to drift out of the zone and fall back to the ground.<br>
+    Creatures in the zone when the effect ends suffer falling damage (see **Core Rules** Page **340**) as they, too, fall back to the ground. The GM decides they distance they fall
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 5 minutes"
+  durationShort: "QL x 5 min"
+  target: "Zone"
+  src:
+    - id: US25101E
+      firstPage: 168
+
+- id: SPELL_172
+  name: "Accuratum"
+  effect: |
+    Alter a set of attire according to your wishes. This includes cut and color, but not the amount or type of material. You can mend a pair of torn pants, transform a roll of cloth into a gown, or change a plain cloak into a magnificent robe with this ritual.<br>
+    At the GM's discretion, this can reduce penalties to social skills such as *Etiquette (Manners)* or *Seduction (Beautify)*.
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 Hours"
+  durationShort: "QL x 3 h"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 149
+
+- id: SPELL_173
+  name: "Hailstorm and Roar of Thunder"
+  effect: |
+    Create a zone with a radius of QL x 50 yards. Within the zone, you can increase or decrease clouds, precipitation, or wind speed by QL levels. For instance, with a QL 5, you can change the wind speed by 2 levels and the precipitation by 3 levels. At temperatures below freezing, precipitation falls as either snow or hail. The precipitation level may not exceed the cloud level.
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL Hours"
+  durationShort: "QL h"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 150
+
+- id: SPELL_174
+  name: "Mold Hard Object"
+  effect: |
+    Make a rigid object with a size no larger than a chest soft and malleable. You can then reshape the object in an artistic manner, tear a hole in it, or even cut off individual parts. You could, for instance, roll up a door like modeling clay, or easily remove a lock from a door.<br>
+    The GM has the final say as to which items connect to each other (for example, a lock might be part of a door, but a door is not a part of a wall).<br>
+    This ritual does not replace craft skills - you cannot use it to fashion metal into a sharp, durable sword blade. When the ritual's duration ends, the item immediately becomes solid again.
+  castingTime: "30 Minutes"
+  castingTimeShort: "30 min"
+  aeCost: "2/4/8/16 AE for an item the size of a cup/chest/ door/castle gate (you cannot modify this ritual's cost)"
+  aeCostShort: "2/4/8/16 AE"
+  range: "4 Yards"
+  rangeShort: "4 yd"
+  duration: "QL x 2 minutes"
+  durationShort: "QL x 2 min"
+  target: "Objects (profane Objects bis zur Größe einer Truhe)"
+  src:
+    - id: US25004E
+      firstPage: 151
+
+- id: SPELL_175
+  name: "Bond of Suffering"
+  effect: |
+    Transfer another person's sustained LP loss to yourself. The target's wounds heal, and the wounds appear on your body, instead. Transfer no more than QL x 3 lost LP - you can decide to transfer fewer. You cannot transfer so many lost LP that your own LP falls to 0 or below. The ritual's effects begin after the ritual ends, which means this ritual cannot save a dying target from death's door.
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- id: SPELL_176
+  name: "Magic Deprivation"
+  effect: |
+    For the ritual's duration, you can use the target's AE. The target may move as far away as they like after the ritual time; your connection only ends if the target is no longer in the same Sphere as you. While the connection is active, you may spend AE from the target's pool to cast an arcane spellwork.<br>
+    If the target no longer has AE to spend, you must pay any further costs yourself.<br>
+    You cannot spend permanent AE from the target's pool. You may take AE from only one target at a time.
+  castingTime: "30 Minutes"
+  castingTimeShort: "30 min"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 30 minutes"
+  durationShort: "QL x 30 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 151
+
+- id: SPELL_177
+  name: "Memorabia Falsifir"
+  effect: |
+    Remove memories from the target's mind. You cannot select specific memories, only a timeframe of up to QL x 3 days from your chosen starting point.<br>
+    The target remembers being enchanted but cannot remember the deleted information.
+  castingTime: "2 Hours"
+  castingTimeShort: "2 h"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "1 Year"
+  durationShort: "1 Year"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 151
+
+- id: SPELL_178
+  name: "Movimento"
+  effect: |
+    For the ritual's duration, you can run without becoming exhausted, effectively increasing the distance you can travel on foot by QL x 10% for one day's journey (see Strategic Movement in the **Core Rules** Page **349**).
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "8 Hours"
+  durationShort: "8 h"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25004E
+      firstPage: 152
+
+- id: SPELL_179
+  name: "Rest Body"
+  effect: |
+    The LP the target regains during the next Regeneration Phase increase by QL x 2. Moreover, the target's sleep is calm and dreamless if outside influences do not interfere.<br>
+    The ritual cannot prevent poisons and diseases from affecting the target's body during the Regeneration Phase.
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 152
+
+- id: SPELL_180
+  name: "Untouched by Satinav"
+  effect: |
+    For the ritual's duration, you protect an object weighing 10 pounds or less from decay. Time can no longer harm the object, and it does not rot, rust, or decay. This holds true in adverse environments, as well (for instance, in particularly wet or hot areas). However, the ritual does not protect the object from the violent effects like weapons, fire, or acid.
+  castingTime: "30 Minutes"
+  castingTimeShort: "30 min"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 Weeks"
+  durationShort: "QL x 3 Weeks"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 152
+
+- id: SPELL_181
+  name: "Aversion"
+  effect: |
+    Select a small object, no larger than the size of a two-handed weapon or a rope. Targets with SPI 2 or lower ignore the object, even if it is directly in front of them. If the object interacts with the targets - for instance, a sword they previously ignored attacks them - the ritual's effect ends. Simply touching or feeling the object is not enough to break the ritual. The ritual does not affect the caster.
+  castingTime: "30 Minutes"
+  castingTimeShort: "30 min"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 Yards"
+  rangeShort: "16 yd"
+  duration: "QL Hours"
+  durationShort: "QL h"
+  target: "Objects"
+  src:
+    - id: US25004E
+      firstPage: 149
+
+- id: SPELL_182
+  name: "Wind Shaping"
+  effect: |
+    Within a radius of QL yards, shape materials of the element Air as desired, provided they are not part of a creature. This means you can form a zone immune to a storm, or form the shape of smoke and steam. This is a slow process. Shaping air in a specific direction takes 1 CR for every yard of movement.<br>
+    When the ritual's duration ends, the elements you shape become subject to the normal laws of nature once again.
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 10 minutes"
+  durationShort: "QL x 10 min"
+  target: "Zone"
+  src:
+    - id: US25004E
+      firstPage: 153
+    - id: US25006E
+      firstPage: 137
+
+- id: SPELL_183
+  name: "Xenographus"
+  effect: |
+    When you read a text, you get a sense of the meaning of what has been written, even if you do not know the script or language. You understand the written text as well as someone who has the corresponding language at Level II. This effect includes only written words, not spoken ones.<br>
+    The ritual does not aid with non-linguistic difficulties, that is, if the text is encrypted, written in riddles, illegible, or incoherent. Also, you cannot learn a language or a script with this ritual - you can only grasp a text's overall meaning, not that of individual elements.
+  castingTime: "5 Minutes"
+  castingTimeShort: "5 min"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 5 minutes"
+  durationShort: "QL x 5 min"
+  target: "Living Creatures"
+  src:
+    - id: US25004E
+      firstPage: 153

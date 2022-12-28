@@ -1,0 +1,50 @@
+- id: 1
+  name: "nero bluastro"
+- id: 2
+  name: "biondo"
+- id: 3
+  name: "castano"
+- id: 4
+  name: "biondo scuro"
+- id: 5
+  name: "castano scuro"
+- id: 6
+  name: "biondo oro"
+- id: 7
+  name: "grigio"
+- id: 8
+  name: "biondo chiaro"
+- id: 9
+  name: "castano chiaro"
+- id: 10
+  name: "rosso rame"
+- id: 11
+  name: "biondo oro"
+- id: 12
+  name: "medium brown"
+- id: 13
+  name: "rosso"
+- id: 14
+  name: "biondo rossiccio"
+- id: 15
+  name: "bianco neve"
+- id: 16
+  name: "nero"
+- id: 17
+  name: "argento"
+- id: 18
+  name: "biondo pallido"
+- id: 19
+  name: "grigio scuro"
+- id: 20
+  name: "grigio chiaro"
+- id: 21
+  name: "bianco sale"
+- id: 22
+  name: "bianco argento"
+- id: 23
+  name: "rosso fuoco"
+- id: 24
+  name: "bianco"
+- id: 25
+  name: "verde"

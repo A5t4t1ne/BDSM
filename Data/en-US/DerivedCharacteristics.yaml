@@ -1,0 +1,46 @@
+- id: LP
+  name: "Life Points"
+  short: LP
+  calc: "(Race Base Stat + CON + CON)"
+
+- id: AE
+  name: "Arcane Energy"
+  short: AE
+  calc: "(20 for Spellcaster + Primary Attribute)"
+  calcHalfPrimary: "(20 for Spellcaster + Primary Attribute/2)"
+  calcNoPrimary: "(20 for Spellcaster)"
+
+- id: KP
+  name: "Karma Points"
+  short: KP
+  calc: "(20 for Blessed + Primary Attribute)"
+
+- id: SPI
+  name: "Spirit"
+  short: SPI
+  calc: "(Race Base Stat + (COU + SGC + INT)/6)"
+
+- id: TOU
+  name: "Toughness"
+  short: TOU
+  calc: "(Race Base Stat + (CON + CON + STR)/6)"
+
+- id: DO
+  name: "Dodge"
+  short: DO
+  calc: "(AGI/2)"
+
+- id: INI
+  name: "Initiative"
+  short: INI
+  calc: "(COU + AGI)/2"
+
+- id: MOV
+  name: "Movement"
+  short: MOV
+  calc: "(Race Base Stat, phps. One-legged)"
+
+- id: WT
+  name: "Wound Threshold"
+  short: WT
+  calc: "(CON/2)"

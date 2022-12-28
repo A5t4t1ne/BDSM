@@ -1,0 +1,6 @@
+- id: 1
+  name: "Passive"
+- id: 2
+  name: "Base Maneuver"
+- id: 3
+  name: "Special Maneuver"

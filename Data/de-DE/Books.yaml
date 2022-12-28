@@ -1,0 +1,203 @@
+- id: US25001
+  short: RGW
+  name: "Regelwerk"
+  isCore: true
+  isAdultContent: false
+
+- id: US25201
+  short: ABEI
+  name: "Aventurisches Bestiarium I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25002
+  short: AAL
+  name: "Aventurischer Almanach"
+  isCore: true
+  isAdultContent: false
+
+- id: US25514
+  short: K&T
+  name: "Kneipen & Tavernen"
+  isCore: false
+  isAdultContent: false
+
+- id: US25101
+  short: SKR
+  name: "Die Streitenden Königreiche"
+  isCore: false
+  isAdultContent: false
+
+- id: US25206
+  short: RÜSKR
+  name: "Rüstkammer der Streitenden Königreiche"
+  isCore: false
+  isAdultContent: false
+
+- id: US25603
+  short: SKRX
+  name: "Glaube, Macht und Heldenmut: Die Streitenden Königreiche"
+  isCore: false
+  isAdultContent: false
+
+- id: US25003
+  short: AKOI
+  name: "Aventurisches Kompendium I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25208
+  short: ARÜI
+  name: "Aventurische Rüstkammer I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25526
+  short: ANA
+  name: "Aventurische Namen"
+  isCore: false
+  isAdultContent: false
+
+- id: US25004
+  short: AMAI
+  name: "Aventurische Magie I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25005
+  short: AGÖI
+  name: "Aventurisches Götterwirken I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25102
+  short: SWK
+  name: "Die Siebenwindküste"
+  isCore: false
+  isAdultContent: false
+
+- id: US25210
+  short: RÜSWK
+  name: "Rüstkammer der Siebenwindküste"
+  isCore: false
+  isAdultContent: false
+
+- id: US25608
+  short: SWKX
+  name: "Glaube, Macht und Heldenmut: Die Siebenwindküste"
+  isCore: false
+  isAdultContent: false
+
+- id: US25006
+  short: AMAII
+  name: "Aventurische Magie II"
+  isCore: false
+  isAdultContent: false
+
+- id: US25219
+  short: ABEII
+  name: "Aventurisches Bestiarium II"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true
+
+- id: US25216
+  short: "ARÜII"
+  name: "Aventurische Rüstkammer II"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true
+
+- id: US25594
+  short: K&R
+  name: "Katakomben & Ruinen"
+  isCore: false
+  isAdultContent: false
+
+- id: US25213
+  short: WDV
+  name: "Wege der Vereinigungen"
+  isCore: false
+  isAdultContent: true
+  isMissingImplementation: true
+
+- id: US25224
+  short: L&Z
+  name: "Lustschlösser & Zauberwesen"
+  isCore: false
+  isAdultContent: true
+  isMissingImplementation: true
+
+- id: US25407
+  short: K&B
+  name: "Kurtisanen & Bordelle"
+  isCore: false
+  isAdultContent: true
+  isMissingImplementation: true
+
+- id: US25007
+  short: AKOII
+  name: "Aventurisches Kompendium II"
+  isCore: false
+  isAdultContent: false
+
+- id: US25114
+  short: HAV
+  name: "Havena – Versunkene Geheimnisse"
+  isCore: false
+  isAdultContent: false
+
+- id: US25228
+  short: U&T
+  name: "Unendlichkeit & Tiefenrausch"
+  isCore: false
+  isAdultContent: false
+
+- id: US25008
+  short: AMAIII
+  name: "Aventurische Magie III"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true
+
+- id: US25008X
+  short: AMAIII+
+  name: "Aventurische Magie III Bonusmaterial"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true
+
+- id: US25103
+  short: FLU
+  name: "Die Flusslande"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true
+
+- id: US25225
+  short: ATI
+  name: "Aventurische Tiergefährten"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true
+
+- id: US25238
+  short: APA
+  name: "Aventurisches Pandämonium"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true
+
+- id: US25562
+  short: RÜFLU
+  name: "Rüstkammer der Flusslande"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true
+
+- id: US25261
+  short: "G&K"
+  name: "Geisterwald & Knochenklippen"
+  isCore: false
+  isAdultContent: false
+  isMissingImplementation: true

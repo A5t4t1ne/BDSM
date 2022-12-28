@@ -1,0 +1,19 @@
+- id: 1
+  name: "Physical"
+  fullName: "Physical Skills"
+
+- id: 2
+  name: "Social"
+  fullName: "Social Skills"
+
+- id: 3
+  name: "Nature"
+  fullName: "Nature Skills"
+
+- id: 4
+  name: "Knowledge"
+  fullName: "Knowledge Skills"
+
+- id: 5
+  name: "Craft"
+  fullName: "Craft Skills"

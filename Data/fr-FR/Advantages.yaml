@@ -1,0 +1,535 @@
+- id: ADV_0
+  name: "Avantage personnalisé"
+  rules: |
+    *Un emplacement pour les avantages personnalisés, où le nom et la valeur en PAV peuvent être définis.*
+  input: "Nom de l'avantage"
+  src:
+    - id: LDR1
+      firstPage: 1
+
+- id: ADV_1
+  name: "noblesse"
+  rules: |
+    Un héros qui dispose de cet avantage est considéré comme noble par la naissance et il est, de ce fait, doté de privilèges dans sa culture.
+  prerequisites: "Culture with a class system that incorporates an aristocracy."
+  src:
+    - id: LDR1
+      firstPage: 166
+
+- id: ADV_2
+  name: "résistance au vieillissement"
+  rules: |
+    Un PJ avec un tel avantage ne vieillit plus physiquement à partir dʼun certain âge.
+  src:
+    - id: LDR1
+      firstPage: 168
+
+- id: ADV_3
+  name: "fragrance agréable"
+  rules: |
+    Les personnes avec cet avantage exhalent une odeur parfumée qui est perçue par les représentants dʼune grande partie des civilisations de Dère comme agréable.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_4
+  name: "prédisposition"
+  rules: |
+    Certains aventuriers sont particulièrement talentueux et doués dans une compétence donnée.
+  apValue: "Compétence A/B/C/D respectivement 6/12/18/24 PAV"
+  prerequisites: "~~disadvantage Inaptitude pour la même compétence~~, pas plus de trois prédispositions par personne"
+  src:
+    - id: LDR1
+      firstPage: 167
+
+- id: ADV_5
+  name: "ambidextre"
+  rules: |
+    Avec cet avantage, un héros est aussi habile dʼune main que de lʼautre.
+  src:
+    - id: LDR1
+      firstPage: 163
+
+- id: ADV_6
+  name: "nyctalopie"
+  rules: |
+    Sur Dère, il existe des créatures qui voient très bien quand la lumière vient à manquer.
+  src:
+    - id: LDR1
+      firstPage: 166
+
+- id: ADV_7
+  name: "aura affinifer"
+  rules: |
+    Certains lanceurs de sorts sont moins sensibles au contact et au port du fer et de ses alliages que dʼautres.
+  src:
+    - id: LDR1
+      firstPage: 163
+
+- id: ADV_8
+  name: "sens des distances"
+  rules: |
+    À lʼaide de cet avantage, un personnage estime si bien les distances quʼil peut, à un demi-pas près, déterminer la position dʼun objet par rapport à la sienne.
+  src:
+    - id: LDR1
+      firstPage: 169
+
+- id: ADV_9
+  name: "rapidité"
+  rules: |
+    Les personnes ayant cet avantage sont nettement plus véloces que les autres et peuvent franchir de courtes distances en un temps record.
+  src:
+    - id: LDR1
+      firstPage: 167
+
+- id: ADV_10
+  name: "sens du renard"
+  rules: |
+    Le héros sent la présence des pièges que ses sens habituels ne peuvent détecter.
+  src:
+    - id: LDR1
+      firstPage: 169
+
+- id: ADV_11
+  name: "orateur né"
+  rules: |
+    Le héros excelle dans lʼart de motiver autrui, il incarne une certaine forme dʼinspiration.
+  src:
+    - id: LDR1
+      firstPage: 166
+
+- id: ADV_12
+  name: "pouvoir divin"
+  rules: |
+    Seul celui qui a été ordonné prêtre et accepté par sa divinité peut recevoir du karma et accomplir des liturgies.
+  src:
+    - id: LDR1
+      firstPage: 166
+
+- id: ADV_13
+  name: "résistance aux poisons"
+  rules: |
+    Dès la naissance ou par mithridatisation, le héros est plus résistant aux poisons que la normale.
+  src:
+    - id: LDR1
+      firstPage: 168
+
+- id: ADV_14
+  name: "chance"
+  rules: |
+    Pour une raison quelconque, le héros a, dans les moments cruciaux, le soupçon de chance dont il a besoin pour être maître de la situation.
+  src:
+    - id: LDR1
+      firstPage: 164
+
+- id: ADV_15
+  name: "beauté"
+  rules: |
+    Le héros est particulièrement gracieux en comparaison dʼautres membres de son peuple et attrayant pour la plupart des créatures civilisées.
+  src:
+    - id: LDR1
+      firstPage: 163
+
+- id: ADV_16
+  name: "compétence exceptionnelle"
+  rules: |
+    Le héros est particulièrement bon, et meilleur que la moyenne, dans une certaine compétence (talent, sort, liturgie).
+  apValue: "Compétence A/B/C/D : 2/4/6/8 PAV"
+  prerequisites: "~~disadvantage Inaptitude pour la même compétence~~"
+  src:
+    - id: LDR1
+      firstPage: 164
+
+- id: ADV_17
+  name: "technique de combat exceptionnelle"
+  rules: |
+    Le héros est particulièrement doué et bien meilleur que la moyenne dans une technique spécifique de combat.
+  apValue: "Technique de combat B/C/D : 8/12/16 PAV"
+  src:
+    - id: LDR1
+      firstPage: 169
+
+- id: ADV_18
+  name: "sens exceptionnel"
+  rules: |
+    Dès la naissance ou par un entraînement particulier au cours de sa vie, le héros a extrêmement bien développé un sens physique.
+  selectOptions:
+    - id: 1
+      name: "vue"
+      src:
+        - id: LDR1
+          firstPage: 169
+    - id: 2
+      name: "ouïe"
+      src:
+        - id: LDR1
+          firstPage: 169
+    - id: 3
+      name: "odeur & goût"
+      src:
+        - id: LDR1
+          firstPage: 169
+    - id: 4
+      name: "toucher"
+      src:
+        - id: LDR1
+          firstPage: 169
+  apValue: "Sight: 12 adventure points; Hearing: 12 adventure points; Smell & Taste: 6 adventure points; Tactile Sense: 2 adventure points"
+  prerequisites: "~~disadvantage sens restreint pour le même sens~~, ~~disadvantage aveugle~~ (pour la vue), ~~disadvantage surdité~~ (pour l'ouïe)"
+  src:
+    - id: LDR1
+      firstPage: 169
+
+- id: ADV_22
+  name: "résistance à la chaleur"
+  rules: |
+    Les héros disposant dʼune telle résistance souffrent peu de la canicule pour avoir, par exemple, vécu dans la sécheresse du désert ou dans la moiteur de la jungle.
+  src:
+    - id: LDR1
+      firstPage: 168
+
+- id: ADV_23
+  name: "grande énergie astrale"
+  rules: |
+    Le héros possède plus dʼénergie astrale quʼun magicien classique.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_24
+  name: "grande énergie karmique"
+  rules: |
+    Le héros possède plus dʼénergie karmique quʼun prêtre classique.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_25
+  name: "grande énergie vitale"
+  rules: |
+    Le héros possède plus dʼénergie vitale quʼun aventurier classique.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_26
+  name: "grande ténacité mentale"
+  rules: |
+    La volonté du héros ne peut être brisée sans un effort conséquent, les sorts et les liturgies lʼinfluencent plus difficilement.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_27
+  name: "grande ténacité physique"
+  rules: |
+    Poisons, maladies et autres agressions envers le corps du héros font plus rarement effet contre lui.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_28
+  name: "immunité contre"
+  nameInWiki: "immunité contre (poison)"
+  rules: |
+    Depuis la naissance ou pour une quelconque raison, le héros est totalement immunisé contre une maladie particulière.
+  selectOptions:
+    - id: 1
+      name: "arax"
+      src:
+        - id: LDR1
+          firstPage: 342
+    - id: 2
+      name: "kelmon"
+      src:
+        - id: LDR1
+          firstPage: 342
+    - id: 3
+      name: "tulmadron"
+      src:
+        - id: LDR1
+          firstPage: 342
+    - id: 4
+      name: "wurara"
+      src:
+        - id: LDR1
+          firstPage: 342
+    - id: 10
+      name: "poison de crapaud"
+      src:
+        - id: LDR1
+          firstPage: 362
+  apValue: "Half the chosen poison’s level in adventure points"
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_29
+  name: "immunité contre"
+  nameInWiki: "immunité contre (maladie)"
+  rules: |
+    Depuis la naissance ou pour une quelconque raison, le héros est totalement immunisé contre une maladie particulière.
+  selectOptions:
+    - id: 1
+      name: "difar vive"
+      src:
+        - id: LDR1
+          firstPage: 343
+    - id: 2
+      name: "lutanas"
+      src:
+        - id: LDR1
+          firstPage: 343
+    - id: 3
+      name: "délire déferlant"
+      src:
+        - id: LDR1
+          firstPage: 343
+    - id: 4
+      name: "fièvre des marais ou sueur de Brabak"
+      src:
+        - id: LDR1
+          firstPage: 343
+    - id: 5
+      name: "variole de Zorgan"
+      src:
+        - id: LDR1
+          firstPage: 343
+  apValue: "Half the chosen disease’s level in adventure points"
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_30
+  name: "résistance au froid"
+  rules: |
+    Les héros qui disposent dʼune résistance au froid souffrent moins lors de températures glaciales.
+  src:
+    - id: LDR1
+      firstPage: 168
+
+- id: ADV_31
+  name: "résistance aux maladies"
+  rules: |
+    Un aventurier disposant de cet avantage tombe plus rarement malade car il dispose dʼun bon système immunitaire.
+  src:
+    - id: LDR1
+      firstPage: 168
+
+- id: ADV_32
+  name: "résonance magique"
+  input: "Environment"
+  rules: |
+    Certains êtres doués de magie, dans certains environnements ou situations, se sentent particulièrement à lʼaise.
+  selectOptions:
+    - id: 1
+      name: "Créatures des Prairies"
+      src:
+        - id: LDR1
+          firstPage: 168
+    - id: 2
+      name: "Créature de Montagnes"
+      src:
+        - id: LDR1
+          firstPage: 168
+    - id: 3
+      name: "Créature des Glaces"
+      src:
+        - id: LDR1
+          firstPage: 168
+    - id: 4
+      name: "Créature des Mers"
+      src:
+        - id: LDR1
+          firstPage: 168
+    - id: 5
+      name: "Créature de la Nuit"
+      src:
+        - id: LDR1
+          firstPage: 168
+    - id: 6
+      name: "Créature des Forêts"
+      src:
+        - id: LDR1
+          firstPage: 168
+  prerequisitesEnd: "~~disadvantage dissonance magique sur le même environnement~~"
+  src:
+    - id: LDR1
+      firstPage: 168
+
+- id: ADV_33
+  name: "mystique"
+  rules: |
+    Parmi les fidèles, il y a de nombreux prêtres qui suivent une tradition spirituelle et mystique.
+  src:
+    - id: LDR1
+      firstPage: 166
+
+- id: ADV_34
+  name: "veilleur"
+  rules: |
+    Certains êtres peuvent se passer de sommeil pendant une longue période.
+  src:
+    - id: LDR1
+      firstPage: 169
+
+- id: ADV_35
+  name: "pragmatique"
+  rules: |
+    Parmi les fidèles, de nombreux prêtres se tournent vers les affaires laïques plutôt que spirituelles ; ils sont plus rarement transportés dans lʼextase.
+  src:
+    - id: LDR1
+      firstPage: 167
+
+- id: ADV_36
+  name: "richesse"
+  rules: |
+    Le héros dispose de moyens pour acquérir dʼentrée un meilleur équipement.
+  src:
+    - id: LDR1
+      firstPage: 169
+
+- id: ADV_37
+  name: "sens de l'orientation"
+  rules: |
+    Grâce à une boussole interne, le héros a un bon sens de lʼorientation — peu importe quʼil soit dans un environnement couvert comme une forêt, un bâtiment ou une installation souterraine.
+  src:
+    - id: LDR1
+      firstPage: 169
+
+- id: ADV_38
+  name: "contortionniste"
+  rules: |
+    Les contorsionnistes sont en mesure de plier leur corps plus que la normale, peuvent se libérer plus facilement de leurs entraves ou encore se faufiler, par exemple, par des ouvertures quʼune personne ordinaire ne pourrait franchir.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_39
+  name: "résistance à l'ensorcellement"
+  rules: |
+    Par des circonstances inexpliquées, le héros est particulièrement résistant à la magie.
+  src:
+    - id: LDR1
+      firstPage: 168
+
+- id: ADV_40
+  name: "caméléon social"
+  rules: |
+    Certains héros possèdent une capacité innée à évoluer avec aisance dans tous les environnements sociaux.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: "disadvantage Incompetent in social skills"
+  src:
+    - id: LDR1
+      firstPage: 163
+
+- id: ADV_41
+  name: "effacé"
+  rules: |
+    Certaines personnes sont si effacées quʼelles peuvent facilement disparaître dans la foule.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_42
+  name: "régénération améliorée (énergie astrale)"
+  rules: |
+    Cet avantage aide un héros possédant de lʼénergie astrale à obtenir plus de points astraux pendant une phase de régénération.
+  src:
+    - id: LDR1
+      firstPage: 167
+
+- id: ADV_43
+  name: "régénération améliorée (énergie karmique)"
+  rules: |
+    Cet avantage aide un prêtre à obtenir plus de points de karma pendant une phase de régénération.
+  src:
+    - id: LDR1
+      firstPage: 167
+
+- id: ADV_44
+  name: "régénération améliorée (énergie vitale)"
+  rules: |
+    Cet avantage aide un héros à obtenir plus de points de vie pendant une phase de régénération.
+  src:
+    - id: LDR1
+      firstPage: 167
+
+- id: ADV_45
+  name: "aura voilée"
+  rules: |
+    Un lanceur de sorts peut, avec cet avantage, augmenter ses chances de se soustraire aux détections magiques.
+  src:
+    - id: LDR1
+      firstPage: 163
+
+- id: ADV_46
+  name: "rassurant"
+  rules: |
+    Cet avantage octroie au héros un degré de confiance manifeste de la majeure partie des êtres civilisés.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 0
+        replacement: "disadvantage Incompetent in social skills"
+  src:
+    - id: LDR1
+      firstPage: 167
+
+- id: ADV_47
+  name: "combattant-né"
+  rules: |
+    Un héros combattant-né est extrêmement talentueux dans le maniement des armes.
+  apValue: "Technique de combat B/C/D : 5/10/15 PAV"
+  src:
+    - id: LDR1
+      firstPage: 164
+
+- id: ADV_48
+  name: "voix agréable"
+  rules: |
+    Certains êtres peuvent se passer de sommeil pendant une longue période.
+  src:
+    - id: LDR1
+      firstPage: 170
+
+- id: ADV_49
+  name: "coriace"
+  rules: |
+    Avec cet avantage, le héros dispose dʼune résistance impressionnante aux blessures et/ou à la douleur.
+  src:
+    - id: LDR1
+      firstPage: 165
+
+- id: ADV_50
+  name: "pouvoir magique"
+  rules: |
+    Sur Dère, la magie est affaire de don acquis à la naissance.
+  src:
+    - id: LDR1
+      firstPage: 167
+
+- id: ADV_51
+  name: "notion du temps"
+  rules: |
+    Certains aventuriers disposent dʼune horloge interne qui leur donne précisément lʼheure, même sʼils nʼont pas de points de repère comme la position du soleil.
+  src:
+    - id: LDR1
+      firstPage: 166
+
+- id: ADV_52
+  name: "chant diphonique"
+  rules: |
+    Le chant diphonique est une capacité que seuls les Elfes possèdent et qui leur permet de chanter des chansons elfiques.
+  src:
+    - id: LDR1
+      firstPage: 164
+
+- id: ADV_53
+  name: "instinct de Nain"
+  rules: |
+    Lʼinstinct de Nain est surnaturel et permet au héros de découvrir lʼemplacement de portes, cavités ou dʼaccès secrets.
+  src:
+    - id: LDR1
+      firstPage: 166

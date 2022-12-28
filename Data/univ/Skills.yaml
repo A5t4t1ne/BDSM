@@ -1,0 +1,1283 @@
+- id: TAL_1
+# name: Fliegen
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: B
+  enc: "true"
+  gr: 1
+  applications:
+    - id: -1
+    # name: Kunstflug
+      prerequisite:
+        id: SA_1014
+        active: true
+
+- id: TAL_2
+# name: Gaukeleien
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_5
+  ic: A
+  enc: "true"
+  gr: 1
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_101
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_109
+        active: true
+    - id: -3
+      prerequisite:
+        id: SA_131
+        active: true
+  uses:
+    - id: 1
+    # name: Beeindruckende Vorstellung
+      prerequisite:
+        id: SA_997
+        active: true
+        sid: TAL_2
+
+- id: TAL_3
+# name: Klettern
+  check1: ATTR_1
+  check2: ATTR_6
+  check3: ATTR_8
+  ic: B
+  enc: "true"
+  gr: 1
+
+- id: TAL_4
+# name: Körperbeherrschung
+  check1: ATTR_6
+  check2: ATTR_6
+  check3: ATTR_7
+  ic: D
+  enc: "true"
+  gr: 1
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_138
+        active: true
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_96
+        active: true
+
+- id: TAL_5
+# name: Kraftakt
+  check1: ATTR_7
+  check2: ATTR_8
+  check3: ATTR_8
+  ic: B
+  enc: "true"
+  gr: 1
+
+- id: TAL_6
+# name: Reiten
+  check1: ATTR_4
+  check2: ATTR_6
+  check3: ATTR_8
+  ic: B
+  enc: "true"
+  gr: 1
+  applications:
+    - id: -1
+    # name: Kunstreiten
+      prerequisite:
+        id: SA_1015
+        active: true
+
+- id: TAL_7
+# name: Schwimmen
+  check1: ATTR_6
+  check2: ATTR_7
+  check3: ATTR_8
+  ic: B
+  enc: "true"
+  gr: 1
+
+- id: TAL_8
+# name: Selbstbeherrschung
+  check1: ATTR_1
+  check2: ATTR_1
+  check3: ATTR_7
+  ic: D
+  enc: "false"
+  gr: 1
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_25
+        active: true
+    - id: 2
+    # name: Letztes Aufbäumen
+      prerequisite:
+        id: SA_682
+        active: true
+
+- id: TAL_9
+# name: Singen
+  check1: ATTR_2
+  check2: ATTR_4
+  check3: ATTR_7
+  ic: A
+  enc: "maybe"
+  gr: 1
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_127
+        active: true
+    - id: -2
+      prerequisite:
+        id: ADV_52
+        active: true
+  uses:
+    - id: 1
+    # name: Ermutigender Gesang
+      prerequisite:
+        id: SA_107
+        active: true
+    - id: 2
+    # name: Faszinierender Gesang
+      prerequisite:
+        id: SA_108
+        active: true
+    - id: 3
+    # name: Beeindruckende Vorstellung
+      prerequisite:
+        id: SA_997
+        active: true
+        sid: TAL_9
+
+- id: TAL_10
+# name: Sinnesschärfe
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_3
+  ic: D
+  enc: "maybe"
+  gr: 1
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_20
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_149
+        active: true
+    - id: -3
+    # name: Gespür für das Böse
+      prerequisite:
+        id: SA_584
+        active: true
+    - id: -4
+      prerequisite:
+        id: ADV_10
+        active: true
+
+- id: TAL_11
+# name: Tanzen
+  check1: ATTR_2
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: A
+  enc: "true"
+  gr: 1
+  uses:
+    - id: 1
+    # name: Beeindruckende Vorstellung
+      prerequisite:
+        id: SA_997
+        active: true
+        sid: TAL_11
+    - id: 2
+    # name: Sinnlicher Tanz
+      prerequisite:
+        id: SA_1025
+        active: true
+    - id: 3
+    # name: Erotiktänzer/in
+      prerequisite:
+        id: SA_1160
+        active: true
+    - id: 4
+    # name: Nackttänzer/in
+      prerequisite:
+        id: SA_1180
+        active: true
+
+- id: TAL_12
+# name: Taschendiebstahl
+  check1: ATTR_1
+  check2: ATTR_5
+  check3: ATTR_6
+  ic: B
+  enc: "true"
+  gr: 1
+
+- id: TAL_13
+# name: Verbergen
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: C
+  enc: "true"
+  gr: 1
+  uses:
+    - id: 1
+    # name: Hinterhaltsspezialist
+      prerequisite:
+        id: SA_1009
+        active: true
+
+- id: TAL_14
+# name: Zechen
+  check1: ATTR_2
+  check2: ATTR_7
+  check3: ATTR_8
+  ic: A
+  enc: "false"
+  gr: 1
+
+- id: TAL_15
+# name: Bekehren & Überzeugen
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_4
+  ic: B
+  enc: "false"
+  gr: 2
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 3
+  uses:
+    - id: 1
+    # name: Tapferkeit der Unsterblichen
+      prerequisite:
+        id: SA_657
+        active: true
+    - id: 2
+    # name: Gemeinschaftlicher Angriff
+      prerequisite:
+        id: SA_698
+        active: true
+
+- id: TAL_16
+# name: Betören
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_4
+  ic: B
+  enc: "maybe"
+  gr: 2
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 1
+    - id: -2
+    # name: Gestaltung
+      prerequisite:
+        id: SA_1006
+        active: true
+    - id: -3
+    # name: Irritieren
+      prerequisite:
+        id: SA_1006
+        active: true
+
+- id: TAL_17
+# name: Einschüchtern
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  enc: "false"
+  gr: 2
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_98
+        active: true
+    - id: 2
+      prerequisite:
+        id: SA_106
+        active: true
+    - id: 3
+    # name: Einschüchternde Zurechtweisung
+      prerequisite:
+        id: SA_636
+        active: true
+
+- id: TAL_18
+# name: Etikette
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  enc: "false"
+  gr: 2
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_16
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 2
+    - id: -3
+      prerequisite:
+        id: SA_105
+        active: true
+  uses:
+    - id: 1
+    # name: Turnierkenntnis
+      prerequisite:
+        id: SA_1029
+        active: true
+
+- id: TAL_19
+# name: Gassenwissen
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: C
+  enc: "maybe"
+  gr: 2
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 4
+  uses:
+    - id: 1
+    # name: Gerüchte aufschnappen
+      prerequisite:
+        id: SA_1103
+        active: true
+
+- id: TAL_20
+# name: Menschenkenntnis
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: C
+  enc: "false"
+  gr: 2
+  applications:
+    - id: -1
+    # name: Vorlieben erspüren
+      prerequisite:
+        id: SA_1176
+        active: true
+
+- id: TAL_21
+# name: Überreden
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: C
+  enc: "false"
+  gr: 2
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 6
+    - id: -2
+    # name: Berserker beruhigen
+      prerequisite:
+        id: SA_630
+        active: true
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_2
+        active: true
+
+- id: TAL_22
+# name: Verkleiden
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: B
+  enc: "true"
+  gr: 2
+  uses:
+    - id: 1
+    # name: Menschenstimmen imitieren
+      prerequisite:
+        id: SA_1020
+        active: true
+
+- id: TAL_23
+# name: Willenskraft
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: D
+  enc: "false"
+  gr: 2
+  uses:
+    - id: 1
+    # name: Scholar der Akademie Schwert und Stab zu Gareth
+      prerequisite:
+        id: SA_270
+        active: true
+    - id: 2
+    # name: Scholar der Schule der Hellsicht zu Thorwal
+      prerequisite:
+        id: SA_275
+        active: true
+    - id: 3
+    # name: Radscha-Anhänger
+      prerequisite:
+        id: SA_621
+        active: true
+    - id: 4
+    # name: Erotikmasseur/in
+      prerequisite:
+        id: SA_1159
+        active: true
+
+- id: TAL_24
+# name: Fährtensuchen
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: C
+  enc: "true"
+  gr: 3
+
+- id: TAL_25
+# name: Fesseln
+  check1: ATTR_2
+  check2: ATTR_5
+  check3: ATTR_8
+  ic: A
+  enc: "maybe"
+  gr: 3
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_137
+        active: true
+
+- id: TAL_26
+# name: Fischen & Angeln
+  check1: ATTR_5
+  check2: ATTR_6
+  check3: ATTR_7
+  ic: A
+  enc: "maybe"
+  gr: 3
+
+- id: TAL_27
+# name: Orientierung
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_3
+  ic: B
+  enc: "false"
+  gr: 3
+
+- id: TAL_28
+# name: Pflanzenkunde
+  check1: ATTR_2
+  check2: ATTR_5
+  check3: ATTR_7
+  ic: C
+  enc: "maybe"
+  gr: 3
+  applications:
+    - id: -1
+    # name: Pflanzenerkennung
+      prerequisite:
+        id: SA_500
+        active: true
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_97
+        active: true
+
+- id: TAL_29
+# name: Tierkunde
+  check1: ATTR_1
+  check2: ATTR_1
+  check3: ATTR_4
+  ic: C
+  enc: "true"
+  gr: 3
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_30
+        active: true
+    - id: 2
+      prerequisite:
+        id: SA_95
+        active: true
+    - id: 3
+    # name: Viehzucht
+      prerequisite:
+        id: SA_143
+        active: true
+    - id: 4
+    # name: Tierfreundschaft
+      prerequisite:
+        id: SA_524
+        active: true
+    - id: 5
+    # name: Gift melken (Land- und Lufttiere)
+      prerequisite:
+        id: SA_416
+        active: true
+    - id: 6
+    # name: Gift melken (Wassertiere)
+      prerequisite:
+        id: SA_417
+        active: true
+
+- id: TAL_30
+# name: Wildnisleben
+  check1: ATTR_1
+  check2: ATTR_6
+  check3: ATTR_7
+  ic: C
+  enc: "true"
+  gr: 3
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_32
+        active: true
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_114
+        active: true
+
+- id: TAL_31
+# name: Brett- & Glücksspiel
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: A
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 7
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_8
+        active: true
+
+- id: TAL_32
+# name: Geographie
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: B
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_19
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 8
+
+- id: TAL_33
+# name: Geschichtswissen
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: B
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 9
+
+- id: TAL_34
+# name: Götter & Kulte
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: B
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 10
+
+- id: TAL_35
+# name: Kriegskunst
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: B
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 11
+  uses:
+    - id: 1
+    # name: Kamerad des guten Goldes
+      prerequisite:
+        id: SA_627
+        active: true
+    - id: 2
+    # name: Drachenkampf-Taktik
+      prerequisite:
+        id: SA_868
+        active: true
+    - id: 3
+    # name: Ungeheuer-Taktik
+      prerequisite:
+        id: SA_891
+        active: true
+    - id: 4
+    # name: Erweiterte Drachenkampf-Taktik
+      prerequisite:
+        id: SA_960
+        active: true
+
+- id: TAL_36
+# name: Magiekunde
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: C
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 12
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_1
+        active: true
+    - id: 2
+    # name: Scholar der Akademie der Hohen Magie zu Punin
+      prerequisite:
+        id: SA_268
+        active: true
+
+- id: TAL_37
+# name: Mechanik
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_5
+  ic: B
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 13
+    - id: -2
+    # name: Fallen herstellen
+      prerequisite:
+        id: SA_944
+        active: true
+  uses:
+    - id: 1
+    # name: Fallentarnung
+      prerequisite:
+        id: SA_945
+        active: true
+
+- id: TAL_38
+# name: Rechnen
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: A
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 14
+    - id: -2
+      prerequisite:
+        id: SA_33
+        active: true
+    - id: -3
+    # name: Verschlüsselungen
+      prerequisite:
+        id: SA_1013
+        active: true
+
+- id: TAL_39
+# name: Rechtskunde
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: A
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_13
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 15
+
+- id: TAL_40
+# name: Sagen & Legenden
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: B
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 5
+    - id: -2
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 16
+
+- id: TAL_41
+# name: Sphärenkunde
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: B
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 17
+
+- id: TAL_42
+# name: Sternkunde
+  check1: ATTR_2
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: A
+  enc: "false"
+  gr: 4
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_28
+        active: true
+        sid: 18
+  uses:
+    - id: 1
+    # name: Scholar der Töchter Niobaras
+      prerequisite:
+        id: SA_279
+        active: true
+
+- id: TAL_43
+# name: Alchimie
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_5
+  ic: C
+  enc: "true"
+  gr: 5
+
+- id: TAL_44
+# name: Boote & Schiffe
+  check1: ATTR_5
+  check2: ATTR_6
+  check3: ATTR_8
+  ic: B
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_125
+        active: true
+
+- id: TAL_45
+# name: Fahrzeuge
+  check1: ATTR_4
+  check2: ATTR_5
+  check3: ATTR_7
+  ic: A
+  enc: "true"
+  gr: 5
+
+- id: TAL_46
+# name: Handel
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  enc: "false"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_15
+        active: true
+    - id: -2
+    # name: Bine Maschores
+      prerequisite:
+        id: SA_1001
+        active: true
+    - id: -3
+    # name: Buchprüfung
+      prerequisite:
+        id: SA_1120
+        active: true
+  uses:
+    - id: 1
+    # name: Rosstäuscher
+      prerequisite:
+        id: SA_23
+        active: true
+    - id: 2
+    # name: Verwaltung
+      prerequisite:
+        id: SA_113
+        active: true
+
+- id: TAL_47
+# name: Heilkunde Gift
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_3
+  ic: B
+  enc: "true"
+  gr: 5
+
+- id: TAL_48
+# name: Heilkunde Krankheiten
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_7
+  ic: B
+  enc: "true"
+  gr: 5
+
+- id: TAL_49
+# name: Heilkunde Seele
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_7
+  ic: B
+  enc: "false"
+  gr: 5
+  uses:
+    - id: 1
+    # name: Gesunder Geist, gesunder Körper
+      prerequisite:
+        id: SA_641
+        active: true
+    - id: 2
+    # name: Harmonie der Seele
+      prerequisite:
+        id: SA_646
+        active: true
+    - id: 3
+    # name: Wohlklang der Seele
+      prerequisite:
+        id: SA_659
+        active: true
+    - id: 4
+    # name: Rahjasutra-Masseur/in
+      prerequisite:
+        id: SA_1184
+        active: true
+
+- id: TAL_50
+# name: Heilkunde Wunden
+  check1: ATTR_2
+  check2: ATTR_5
+  check3: ATTR_5
+  ic: D
+  enc: "true"
+  gr: 5
+  uses:
+    - id: 1
+    # name: Masseur/in
+      prerequisite:
+        id: SA_1019
+        active: true
+
+- id: TAL_51
+# name: Holzbearbeitung
+  check1: ATTR_5
+  check2: ATTR_6
+  check3: ATTR_8
+  ic: B
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_17
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_103
+        active: true
+    - id: -3
+      prerequisite:
+        id: SA_121
+        active: true
+    - id: -4
+      prerequisite:
+        id: SA_133
+        active: true
+    - id: -5
+      prerequisite:
+        id: SA_134
+        active: true
+    - id: -6
+      prerequisite:
+        id: SA_135
+        active: true
+    - id: -7
+      prerequisite:
+        id: SA_140
+        active: true
+    - id: -8
+      prerequisite:
+        id: SA_144
+        active: true
+    - id: -9
+    # name: Mechanische Konstrukte herstellen
+      prerequisite:
+        id: SA_1154
+        active: true
+  uses:
+    - id: 1
+    # name: Möbelstücke herstellen
+      prerequisite:
+        id: SA_124
+        active: true
+
+- id: TAL_52
+# name: Lebensmittelbearbeitung
+  check1: ATTR_3
+  check2: ATTR_5
+  check3: ATTR_5
+  ic: A
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_26
+        active: true
+    - id: -2
+    # name: Bierbrauen
+      prerequisite:
+        id: SA_998
+        active: true
+    - id: -3
+    # name: Winzerei
+      prerequisite:
+        id: SA_1036
+        active: true
+  uses:
+    - id: 1
+    # name: Konditor
+      prerequisite:
+        id: SA_118
+        active: true
+
+- id: TAL_53
+# name: Lederbearbeitung
+  check1: ATTR_5
+  check2: ATTR_6
+  check3: ATTR_7
+  ic: B
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_133
+        active: true
+
+- id: TAL_54
+# name: Malen & Zeichnen
+  check1: ATTR_3
+  check2: ATTR_5
+  check3: ATTR_5
+  ic: A
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_4
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_75
+        active: true
+    - id: -3
+      prerequisite:
+        id: SA_104
+        active: true
+    - id: -4
+      prerequisite:
+        id: SA_115
+        active: true
+    - id: -5
+      prerequisite:
+        id: SA_117
+        active: true
+    - id: -6
+      prerequisite:
+        id: SA_120
+        active: true
+    - id: -7
+      prerequisite:
+        id: SA_126
+        active: true
+    - id: -8
+      prerequisite:
+        id: SA_141
+        active: true
+    - id: -9
+      prerequisite:
+        id: SA_145
+        active: true
+
+- id: TAL_55
+# name: Metallbearbeitung
+  check1: ATTR_5
+  check2: ATTR_7
+  check3: ATTR_8
+  ic: C
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_17
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_133
+        active: true
+    - id: -3
+      prerequisite:
+        id: SA_135
+        active: true
+    - id: -4
+      prerequisite:
+        id: SA_144
+        active: true
+    - id: -5
+    # name: Spezielle Geschosse herstellen
+      prerequisite:
+        id: SA_859
+        active: true
+    - id: -6
+    # name: Mechanische Konstrukte herstellen
+      prerequisite:
+        id: SA_1154
+        active: true
+
+- id: TAL_56
+# name: Musizieren
+  check1: ATTR_4
+  check2: ATTR_5
+  check3: ATTR_7
+  ic: A
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_116
+        active: true
+  uses:
+    - id: 1
+    # name: Beeindruckende Vorstellung
+      prerequisite:
+        id: SA_997
+        active: true
+        sid: TAL_56
+    - id: 2
+    # name: Ermutigende Darstellung
+      prerequisite:
+        id: SA_1099
+        active: true
+    - id: 3
+    # name: Faszinierende Darstellung
+      prerequisite:
+        id: SA_1102
+        active: true
+
+- id: TAL_57
+# name: Schlösserknacken
+  check1: ATTR_3
+  check2: ATTR_5
+  check3: ATTR_5
+  ic: C
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_7
+        active: true
+    - id: -2
+    # name: Fallen herstellen
+      prerequisite:
+        id: SA_944
+        active: true
+  uses:
+    - id: 1
+    # name: Fallen wieder scharfmachen
+      prerequisite:
+        id: SA_946
+        active: true
+
+- id: TAL_58
+# name: Steinbearbeitung
+  check1: ATTR_5
+  check2: ATTR_5
+  check3: ATTR_8
+  ic: A
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_14
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_31
+        active: true
+    - id: -3
+      prerequisite:
+        id: SA_119
+        active: true
+    - id: -4
+      prerequisite:
+        id: SA_135
+        active: true
+    - id: -5
+      prerequisite:
+        id: SA_144
+        active: true
+    - id: -6
+      prerequisite:
+        id: SA_431
+        active: true
+    - id: -7
+    # name: Minenkenntnis
+      prerequisite:
+        id: SA_999
+        active: true
+    - id: -8
+    # name: Bernstein verformen
+      prerequisite:
+        id: SA_1000
+        active: true
+    - id: -9
+    # name: Porzellanarbeiten
+      prerequisite:
+        id: SA_1022
+        active: true
+    - id: -10
+    # name: Mechanische Konstrukte herstellen
+      prerequisite:
+        id: SA_1154
+        active: true
+  uses:
+    - id: 1
+      prerequisite:
+        id: SA_102
+        active: true
+    - id: 2
+    # name: Unterminieren
+      prerequisite:
+        id: SA_1030
+        active: true
+
+- id: TAL_59
+# name: Stoffbearbeitung
+  check1: ATTR_2
+  check2: ATTR_5
+  check3: ATTR_5
+  ic: A
+  enc: "true"
+  gr: 5
+  applications:
+    - id: -1
+      prerequisite:
+        id: SA_130
+        active: true
+    - id: -2
+      prerequisite:
+        id: SA_133
+        active: true
+    - id: -3
+    # name: Mechanische Konstrukte herstellen
+      prerequisite:
+        id: SA_1154
+        active: true

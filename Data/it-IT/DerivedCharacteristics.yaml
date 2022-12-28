@@ -1,0 +1,46 @@
+- id: LP
+  name: "Punti Vita"
+  short: PV
+  calc: "(Base della Specie + COS + COS)"
+
+- id: AE
+  name: "Punti Astrali"
+  short: PA
+  calc: "20 Dono della magia + Attr. primario"
+  calcHalfPrimary: "(20 Dono della magia + Attr. primario/2)"
+  calcNoPrimary: "(20 Dono della magia)"
+
+- id: KP
+  name: "Punti Karma"
+  short: PK
+  calc: "(20 Grazia divina + Attr. primario)"
+
+- id: SPI
+  name: "Animo"
+  short: Anm
+  calc: "(Base della Specie + (COR+ACU+INT)/6)"
+
+- id: TOU
+  name: "Tenacia"
+  short: Tnc
+  calc: "(Base della Specie + (COS+COS+FOR)/6)"
+
+- id: DO
+  name: "Schivata"
+  short: Scv
+  calc: "(AGI/2)"
+
+- id: INI
+  name: "Iniziativa"
+  short: Ini
+  calc: "(COR+AGI)/2"
+
+- id: MOV
+  name: "Movimento"
+  short: Mov
+  calc: "(Base della Specie ± Vantaggi/Svantaggi)"
+
+- id: WT
+  name: "Wound Threshold"
+  short: WT
+  calc: "(CON/2)"

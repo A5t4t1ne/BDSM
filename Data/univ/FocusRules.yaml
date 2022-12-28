@@ -1,0 +1,64 @@
+- id: FR_1
+# name: Auswirkungen des Sternenfalls
+  subject: 1
+  level: 1
+
+- id: FR_2
+# name: Der komplexe Weg – Alkohol-Regeln im Detail
+  subject: 2
+  level: 1
+
+- id: FR_3
+# name: Verfolgungsjagden
+  subject: 3
+  level: 1
+
+- id: FR_4
+# name: Soziale Konflikte
+  subject: 4
+  level: 1
+
+- id: FR_5
+# name: Herumfragen
+  subject: 4
+  level: 1
+
+- id: FR_6
+# name: Jagd
+  subject: 5
+  level: 1
+
+- id: FR_7
+# name: Nahrungssuche
+  subject: 6
+  level: 1
+
+- id: FR_8
+# name: Recherche
+  subject: 2
+  level: 1
+
+- id: FR_9
+# name: Herstellung
+  subject: 7
+  level: 1
+
+- id: FR_10
+# name: Besondere Handlungsmöglichkeiten im Kampf
+  subject: 8
+  level: 1
+
+- id: FR_11
+# name: Trefferzonen-Regeln
+  subject: 9
+  level: 1
+
+- id: FR_12
+# name: Kampf in drei Dimensionen
+  subject: 9
+  level: 1
+
+- id: FR_13
+# name: Kampfstile
+  subject: 10
+  level: 1

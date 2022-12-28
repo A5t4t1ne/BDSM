@@ -1,0 +1,31 @@
+- id: ATTR_1
+  name: "Moed"
+  short: MO
+
+- id: ATTR_2
+  name: "Slimheid"
+  short: SL
+
+- id: ATTR_3
+  name: "Intuïtie"
+  short: IN
+
+- id: ATTR_4
+  name: "Charisma"
+  short: CH
+
+- id: ATTR_5
+  name: "Vingervaardigheid"
+  short: VV
+
+- id: ATTR_6
+  name: "Behendigheid"
+  short: BE
+
+- id: ATTR_7
+  name: "Constitutie"
+  short: CO
+
+- id: ATTR_8
+  name: "Lichaamskracht"
+  short: LK

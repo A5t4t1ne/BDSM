@@ -1,0 +1,371 @@
+- id: OR_1
+  name: "Kein Bestätigungswurf"
+  description: |
+    Wenn du die Wahrscheinlichkeit von Patzern und Kritischen Erfolgen erhöhen willst, verzichte auf den Einsatz von Bestätigungswürfen bei Eigenschaftsproben. Eine 1 oder 20 ist sofort ein Kritischer Erfolg bzw. Patzer. Dies führt zu gleichhäufigen Patzern und Kritischen Erfolgen (5-%-Chance bei jedem Wurf). Mit einem Bestätigungswurf ist nicht nur die Wahrscheinlichkeit geringer, sondern es kommt ebenso auf das Können (sprich: den Eigenschaftswert) und die Situation (der Modifikator der Probe) an. Durch den Einsatz dieser Optionalregel wird das Spiel etwas weniger komplex.
+  src:
+    - id: US25001
+      firstPage: 20
+
+- id: OR_2
+  name: "Schnellerer Fertigkeitsprobenwurf"
+  description: |
+    Eine Fertigkeitsprobe dauert wesentlich länger als eine Eigenschaftsprobe. Schließlich würfelst du drei Würfel und musst das Ergebnis mit den einzelnen Spielwerten vergleichen. Es gibt jedoch verschiedene Möglichkeiten, die Zeit zu verkürzen: Durch verschiedenfarbige Würfel kannst du die Reihenfolge der Teilproben festlegen. Ein roter Würfel könnte beispielsweise immer für den ersten Eigenschaftswert, ein blauer für den zweiten Wert und ein grüner für den dritten Wert stehen. So kannst du alle Würfel auf einmal werfen und direkt vergleichen.<br>
+    Eine weitere Möglichkeit ist, den am weitesten links liegenden Würfel nach dem Wurf dem ersten Wert und den am weitesten rechts liegenden dem letzten Wert zuzuordnen. Durch den Einsatz dieser Optionalregel bleibt das Spiel gleich komplex.
+  src:
+    - id: US25001
+      firstPage: 22
+
+- id: OR_3
+  name: "Farbige Würfel nach Paramanthus"
+  description: |
+    Paramanthus war ein aventurischer Forscher, der Zusammenhänge zwischen Eigenschaften, Wandelsternen, Farben und Göttern postulierte.<br>
+    Du kannst Paramanthusʼ Zuordnungssystem ebenfalls nutzen und jeder der acht Eigenschaften eine Würfelfarbe zuordnen. Das untenstehende Schaubild zeigt dir, welche Farbe für welche Eigenschaft steht. Sokannst du beim Ablegen einer Probe sofort erkennen,  welches Ergebnis für eine bestimmte Eigenschaft gilt. Für diese Version gibt es ein passendes Würfelset von Ulisses Spiele, das Würfel in den jeweiligen Farben der Eigenschaften enthält. Durch den Einsatz dieser Optionalregel bleibt das Spiel gleich komplex.
+  src:
+    - id: US25001
+      firstPage: 22
+
+- id: OR_4
+  name: "Alternative Eigenschaften bei Proben"
+  description: |
+    Die in diesem Regelbuch angegebenen Eigenschaften der Fertigkeitsproben stellen kein festes Dogma dar. Wenn der Spielleiter eine andere Eigenschaft als passender erachtet, so kann er verlangen, dass auf diese Alternative gewürfelt wird.<br>
+    Manchmal will ein Held, statt wirklich zu klettern, lieber nur in Erfahrung bringen, wie schwierig es ist, die Felswand zu überwinden. In diesem Fall könnte der Spielleiter beispielsweise bei einer Probe auf *Klettern (Bergsteigen)* statt Mut, Gewandtheit und Körperkraft die Eigenschaftskombination Klugheit, Intuition und Intuition wählen. Der Held will schließlich nur die Lage einschätzen, die Wand aber nicht erklimmen, und deshalb spielen Körperliche Eigenschaften keine Rolle. Als Faustregel gilt: Soll eine Probe nur einer Einschätzung dienen, sollte auf KL/IN/IN unter Verwendung des passenden Fertigkeitswerts geprüft werden. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 23
+
+- id: OR_5
+  name: "Gruppensammelproben mit verschiedenen Talenten"
+  description: |
+    Statt alle Spieler auf das gleiche Talent eine Gruppensammelprobe ablegen zu lassen, kann der Meister auch unterschiedliche Talente wählen. Einer der Spieler muss jedoch im eigentlich geforderten Talent eine Probe ablegen.<br>
+    Die übrigen Spieler steuern für den Erfolg jeweils FP/2 zur Sammelprobe durch ein anderes Talent bei, um die QS zu bestimmen. So könnte eine Reise durch die Wildnis vor allem vom Talent *Wildnisleben* abhängen, aber als unterstützende Talente könnten z.B. *Orientierung*, *Klettern* oder *Kraftakt* fungieren. Der Meister muss festlegen, wie viele Helden zusammenarbeiten können. Ansonsten gelten alle übrigen Regeln für Proben und Sammelproben für die unterstützenden Talente.<br>
+    Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 27
+
+- id: OR_6
+  name: "Helden und Meisterpersonen – ein kleiner, aber feiner Unterschied"
+  description: |
+    Schicksalspunkte sind ein seltenes Gut. Aus diesem Grund verfügt auch nicht jeder Derebewohner darüber. Dies bedeutet, dass nur Helden und ein paar wenige Meisterpersonen über die Möglichkeit verfügen, Schips einzusetzen. Sie sind Auserwählte und besondere Persönlichkeiten der Welt.<br>
+    Allerdings könnt ihr auch beschließen, eine andere Option zu wählen:
+
+    - *Kein Schicksal:* Niemand auf Dere besitzt Schicksalspunkte. Die Helden sind genauso wie alle anderen Meisterpersonen. Ignoriere alle Anmerkungen bezüglich Schips, streiche die Vor- und Nachteile Glück und Pech sowie Schicksals-Sonderfertigkeiten und ignoriere Regelbezüge auf Schicksalspunkte bzw. entscheide im Einzelfall. Dies führt allerdings dazu, dass die Helden es wesentlich schwerer haben und ihr Risiko allenthalben steigt.
+    - *Alle sind auserwählt!:* Alle Helden und Meisterpersonen verfügen über Schips. Dies hat den Vorteil, dass du als Meister auch einfachen Menschen bessere Chancen bei ihrem Handeln einräumen kannst, wenn du das möchtest. Allerdings steigt damit der Verwaltungsaufwand von Schips deutlich.
+
+    Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 31
+
+- id: OR_7
+  name: "Andere Möglichkeiten, um Schips zurückzugewinnen"
+  description: |
+    Neben den oben erwähnten Möglichkeiten kann der Meister den Spielern auch Schips geben, wenn sie ihre Rolle gut ausgespielt, das Abenteuer vorangebracht oder die ganze Gruppe zum Lachen gebracht haben. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 31
+
+- id: OR_8
+  name: "Eigenschaftsobergrenze"
+  description: |
+    Wenn du kein offenes Maximum in den Eigenschaftswerten nach Spielbeginn zulassen möchtest, kannst du als Obergrenze die Höchstwerte aus Tabelle unten nach Erfahrungsgrad +2 festlegen. Ein Kompetenter Held könnte somit beispielsweise seine Eigenschaften bis maximal auf 17 steigern (15 + 2).<br>
+    Die Obergrenze verändert sich, wenn der Held einen höheren Erfahrungsgrad erreicht (was mit dem Erwerb von AP einhergeht) und könnte auf EG Legendär ein absolutes Maximum von 20 (18 + 2) erreichen. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 39
+
+- id: OR_9
+  name: "Variables Startkapital nach Erfahrungsgrad"
+  description: |
+    Wenn ihr als Gruppe berücksichtigen wollt, dass erfahrenere Helden mehr Geld haben, dann erhöht jeder Erfahrungsgrad nach Erfahren das Startkapital um 200 Silbertaler. Für jeden Erfahrungsgrad unter Erfahren sinkt das Startkapital um 200 Silbertaler.<br>
+    Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 58
+
+- id: OR_10
+  name: "Kulturkunde"
+  description: |
+    Helden können bei Gesellschafts- und Wissenstalenten eine Erleichterung von 1 erhalten, wenn es um Themen aus ihrer Kultur geht, und eine Erschwernis von 1, wenn sie es mit Themen zu tun haben, die ihre Kultur nicht oder kaum kennt. Der Meister sollte in jedem Fall das letzte Wort haben und aufpassen, dass durch diese Modifikatoren nicht das Spielgleichgewicht gestört wird. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 96
+
+- id: OR_11
+  name: "Talentgruppenprobe"
+  description: |
+    Anstatt bei jedem Talent nachschauen zu müssen, auf welche drei unterschiedlichen Eigenschaften gewürfelt wird, kann auf die Talentgruppenprobe zurückgegriffen werden. Diese Probe funktioniert wie eine normale Fertigkeitsprobe. Der Unterschied ist, dass für jedes Talent innerhalb einer Talentgruppe die drei gleichen Eigenschaften gelten. Als Fertigkeitspunkte werden die Punkte des Talents benutzt, genau wie bei einer gewöhnlichen Fertigkeitsprobe.<br>
+    Bei den Proben wurde darauf geachtet, dass die bei der Talentgruppe häufig auftretenden Eigenschaften benutzt werden. Die Talentgruppenproben stellen also somit eine Art Durchschnittsprobe dar. Durch den Einsatz dieser Optionalregel wird das Spiel etwas weniger komplex.
+
+    Talentgruppe | Talentgruppenprobe
+    :-- | :--
+    Körpertalente | MU/GE/KK
+    Gesellschaftstalente | IN/CH/CH
+    Naturtalente | MU/GE/KO
+    Wissenstalente | KL/KL/IN
+    Handwerkstalente | FF/FF/KO
+  src:
+    - id: US25001
+      firstPage: 184
+
+- id: OR_12
+  name: "Ungewohnter Einsatz von Talenten"
+  description: |
+    Es gibt Talente, die so viele Gebiete umfassen, dass ein Mensch sie mit großer Wahrscheinlichkeit nicht alle gleich gut beherrscht. Mit dem Talent *Fliegen* können die Helden beispielsweise die unterschiedlichsten Arten von fliegenden Wesen und Gegenständen lenken. Ein Meister sollte aber berücksichtigen, dass jemand, der vom Fliegen eines Teppichs Ahnung hat, noch lange nicht weiß, wie man einen Flugdämon steuert.<br>
+    Deshalb gelten bei unbekannten Anwendungen Erschwernisse von bis zu 3. Diese Erschwernisse sollten sich im Laufe der Zeit abbauen, das letzte Wort darüber hat der Meister. Die gleiche Regel lässt sich ebenso bei anderen Talenten anwenden, etwa bei unterschiedlichen Reittieren beim Talent *Reiten* oder verschiedenen Arten von Musikinstrumenten beim *Musizieren*. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 184
+
+- id: OR_13
+  name: "Verrechnung von Eigenschaften bei Routine"
+  description: |
+    Statt einen fixen Wert von 13 in den Eigenschaften anzunehmen und daran festzumachen, ob eine Probe zur Routine erklärt kann, kann der Spielleiter auch gestatten, dass einige Eigenschafswerte weniger Punkte aufweisen. Für jeden Eigenschaftspunkt weniger als 13 muss der Held jedoch einen um 3 höheren FW aufweisen als üblich, um die Probe zur Routine zu erklären. Jemand der also zwei 13er-Werte und einen 12er Wert aufweist, der benötigt einen FW von 10 oder mehr, um Proben mit einem Modifikator von +1 oder besser zur Routine zu erklären (anstatt einem Wert von 7). Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 185
+
+- id: OR_14
+  name: "Regionales Füchsisch"
+  description: |
+    Anstelle einer SF Füchsisch kannst du auch mit mehreren Sonderfertigkeiten Füchsisch spielen. In diesem Fall sind die Zeichen in jeder Stadt anders. Dies macht die Darstellung realistischer, da in jeder Stadt Diebesbanden andere Zinken verwenden, sorgt aber auch dafür, dass ein Held nur noch örtlich begrenzt die SF nutzen kann.<br>
+    Regionales Füchsisch kostet nur 1 AP statt 3 AP. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 217
+
+- id: OR_15
+  name: "Sprachspezialisierungen"
+  description: |
+    Der Held beherrscht einen Dialekt oder eine besondere Form der Sprache (etwa Fachsprachen wie Magier- oder Waidmannsbosparano).<br>
+    Wenn du mit der optionalen Regel von Sprachspezialisierungen spielen möchtest, findest du bei der Kulturbeschreibung  (siehe **Regelwerk** Seite **41**) Vorschläge für solche.
+  src:
+    - id: US25001
+      firstPage: 219
+
+- id: OR_16
+  name: "Initiative für Gegnergruppen"
+  description: |
+    Handlungen der Mitglieder von Gegnergruppen, die alle über den gleichen Initiative-Basiswert verfügen, können einfacher und übersichtlicher abgehandelt werden, wenn man für sie nur eine Initiative auswürfelt und die Mitglieder der Gruppe in der Kampfrunde gleichzeitig handeln. Durch den Einsatz dieser Optionalregel wird das Spiel etwas weniger komplex.
+  src:
+    - id: US25001
+      firstPage: 228
+
+- id: OR_17
+  name: "Höhere Verteidigungswerte"
+  description: |
+    Wenn die Chance einen Treffer einzustecken kleiner sein soll, könnt ihr auch beschließen, dass die Parade generell um 2 oder 4 Punkte höher liegt (und der Ausweichenwert um die Hälfte des Bonus der Parade angehoben wird). Die Verteidigungswerte erhöhen sich sowohl für Helden, als auch für Gegner. Dies bedeutet aber, dass Kämpfe länger dauern werden.<br>
+    Durch die Verwendung dieser Optionalregel bleiben die Regeln gleich komplex.
+  src:
+    - id: US25001
+      firstPage: 228
+
+- id: OR_18
+  name: "Nahkampf-Patzertabelle"
+  description: |
+    Anstatt 1W6+2 SP bei einem Patzer, kann auch diese Tabelle benutzt werden:<br>
+    Ist der Kämpfer unbewaffnet, wird auf das Wurfergebnis 5 addiert, sollte es unter 7 bleiben.\*
+
+    Ergebnis (2W6) | Auswirkung
+    :-- | :--
+    2 Waffe zerstört | Die Waffe ist unwiederbringlich zerstört. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    3 Waffe schwer beschädigt | Die Waffe ist nicht mehr verwendbar, bis sie repariert wird. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    4 Waffe beschädigt | Die Waffe ist beschädigt worden. Alle Proben auf Attacke und Parade sind um 2 erschwert, bis sie repariert wird. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    5 Waffe verloren | Die Waffe ist zu Boden gefallen.
+    6 Waffe stecken geblieben | Die Waffe des Helden ist in einem Baum, einer Holzwand, dem Boden oder Ähnlichem stecken geblieben. Um sie zu befreien, ist 1 Aktion und eine um 1 erschwerte Probe auf *Kraftakt (Ziehen & Zerren)* notwendig.
+    7 Sturz | Der Held stolpert und stürzt, wenn seinem Spieler nicht eine um 2 erschwerte Probe auf *Körperbeherrschung (Balance)* gelingt. Sollte er das nicht schaffen, erhält der Held den Status *Liegend*.
+    8 Stolpern | Der Held stolpert, seine nächste Handlung ist um 2 erschwert.
+    9 Fuß verdreht | Der Held erhält für 3 Kampfrunden eine Stufe *Schmerz*.
+    10 Beule | Der Held hat sich im Eifer des Gefechts den Kopf gestoßen. Er erhält für eine Stunde eine Stufe *Betäubung*.
+    11 Selbst verletzt | Der Held hat sich selbst verletzt und erleidet Schaden. Der Schaden seiner Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt. Bei unbewaffneten Kämpfern wird 1W6 TP angenommen.
+    12 Selbst schwer verletzt | Ein schwerer Eigentreffer des Helden. Der Schaden seiner Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt und dann verdoppelt. Bei unbewaffneten Kämpfern wird 1W6 TP angenommen.
+
+    Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+
+    \*) Spielst du mit den Fokusregeln zu Rüstungsbeschädigungen aus der **Aventurischen Rüstkammer** Seite **115**, so entspricht ein Ergebnis von 2 der *Beschädigungsstufe* IV, eines von 3 der *Beschädigungsstufe* III und eines von 4 der *Beschädigungsstufe* II.
+  src:
+    - id: US25001
+      firstPage: 231
+
+- id: OR_19
+  name: "Mehr Verteidigungen für Meisterpersonen"
+  description: |
+    Die Regeln legen fest, dass nur Helden und Meisterpersonen, die Schicksalspunkte ansammeln können, mehrere Verteidigungen durchführen dürfen. Um Meisterpersonen ohne Schicksalspunkte zu stärken, kann der Meister beschließen, dass diese ebenfalls mehrere Verteidigungen nutzen können. Diese Änderung wird allerdings zu längeren Kämpfen führen. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 232
+
+- id: OR_20
+  name: "Verteidigung-Patzertabelle (ohne Schild)"
+  description: |
+    Anstatt 1W6+2 SP bei einem Patzer, kann auch diese Tabelle benutzt werden:<br>
+    Ist der Kämpfer unbewaffnet, wird auf das Wurfergebnis 5 addiert, sollte es unter 7 bleiben.\*
+
+    Ergebnis (2W6) | Auswirkung
+    :-- | :--
+    2 Waffe zerstört | Die Waffe ist unwiederbringlich zerstört. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    3 Waffe schwer beschädigt | Die Waffe ist nicht mehr verwendbar, bis sie repariert wird. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    4 Waffe beschädigt | Die Waffe ist beschädigt worden. Alle Proben auf Attacke und Parade sind um 2 erschwert, bis sie repariert wird. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    5 Waffe verloren | Die Waffe ist zu Boden gefallen.
+    6 Waffe stecken geblieben | Die Waffe des Helden ist in einem Baum, einer Holzwand, dem Boden oder Ähnlichem stecken geblieben. Um sie zu befreien, ist 1 Aktion und eine um 1 erschwerte Probe auf *Kraftakt (Ziehen & Zerren)* notwendig.
+    7 Sturz | Der Held stolpert und stürzt, wenn seinem Spieler nicht eine um 2 erschwerte Probe auf *Körperbeherrschung (Balance)* gelingt. Sollte er das nicht schaffen, erhält der Held den Status *Liegend*.
+    8 Stolpern | Der Held stolpert, seine nächste Handlung ist um 2 erschwert.
+    9 Fuß verdreht | Der Held erhält für 3 Kampfrunden eine Stufe *Schmerz*.
+    10 Beule | Der Held hat sich im Eifer des Gefechts den Kopf gestoßen. Er erhält für eine Stunde eine Stufe *Betäubung*.
+    11 Selbst verletzt | Der Held hat sich selbst verletzt und erleidet Schaden. Der Schaden seiner Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt. Bei unbewaffneten Kämpfern wird 1W6 TP angenommen.
+    12 Selbst schwer verletzt | Ein schwerer Eigentreffer des Helden. Der Schaden seiner Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt und dann verdoppelt. Bei unbewaffneten Kämpfern wird 1W6 TP angenommen.
+
+    Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 234
+
+- id: OR_21
+  name: "Fernkampf-Patzertabelle"
+  description: |
+    Anstatt 1W6+2 SP bei einem Patzer, kann auch diese Tabelle benutzt werden:\*
+
+    Ergebnis (2W6) | Auswirkung
+    :-- | :--
+    2 Waffe zerstört | Die Waffe ist unwiederbringlich zerstört. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    3 Waffe schwer beschädigt | Die Waffe ist nicht mehr einsetzbar, bis sie repariert wird. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    4 Waffe beschädigt | Die Waffe ist beschädigt worden. Alle Proben auf Fernkampf sind um 4 erschwert, bis sie repariert wird. Bei unzerstörbaren Waffen wird das Ergebnis wie bei 5 behandelt.
+    5 Waffe verloren | Die Waffe ist zu Boden gefallen.
+    6 Kamerad/Unschuldiger getroffen | Das Geschoss trifft aus Versehen einen Freund oder einen am Kampf Unbeteiligten. Ist kein solches Ziel in der Nähe, wird diese Auswirkung wie 11 Selbst verletzt behandelt. Der Schaden der Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt.
+    7 Fehlschuss | Der spektakuläre Fehlschuss trifft ein Objekt (Ladenschild heruntergeschossen, Glasfenster zu Bruch gegangen etc.).
+    8 Zerrung | Der Held hat Rückenschmerzen und erleidet für die nächsten 3 Kampfrunden eine Stufe *Schmerz*.
+    9 Sehne herausgerutscht/Waffe nicht richtig gegriffen/Ladehemmung | Der Held benötigt 2 komplette Kampfrunden, um die Waffe wieder einsatzbereit zu machen.
+    10 Zu konzentriert | Der Held ist mit Zielen oder mit seiner Waffe beschäftigt. Bis zu seiner nächsten Aktion kann er keine Verteidigungen ausführen.
+    11 Selbst verletzt | Der Held hat sich selbst verletzt und erleidet Schaden. Der Schaden der Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt.
+    12 Schwer verletzt | Ein schwerer Eigentreffer. Der Schaden der Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt und dann verdoppelt.
+
+    **Anmerkung:** Geschosse wie Pfeile, Bolzen und Kugeln gelten bei einem Patzer in der Regel als zerstört. Ausnahme sind die Ergebnisse Zerrung, Ladehemmung, und Zu konzentriert. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+
+    \*) Spielst mit den Fokusregeln zu Rüstungsbeschädigungen aus der **Aventurischen Rüstkammer** Seite **115**, so entspricht ein Ergebnis von 2 der *Beschädigungsstufe* IV, eines von 3 der *Beschädigungsstufe* III und eines von 4 der *Beschädigungsstufe* II.
+  src:
+    - id: US25001
+      firstPage: 243
+
+- id: OR_22
+  name: "Verteidigung-Patzertabelle (mit Schild)"
+  description: |
+    Anstatt 1W6+2 SP bei einem Patzer, kann auch diese Tabelle benutzt werden:<br>
+    Versucht der Verteidigende auszuweichen, wird bei einem Ergebnis von 2–6 zusätzlich 5 addiert.\*
+
+    Ergebnis (2W6) | Auswirkung
+    :-- | :--
+    2 Schild zerstört | Der Schild ist unwiederbringlich zerstört. Bei unzerstörbaren Schilden wird das Ergebnis wie bei 5 behandelt.
+    3 Waffe schwer beschädigt | Der Schild ist nicht mehr verwendbar, bis er repariert wird. Bei unzerstörbaren Schilden wird das Ergebnis wie bei 5 behandelt.
+    4 Schild beschädigt | Der Schild ist beschädigt worden. Alle Proben auf Attacke und Parade sind um 2 erschwert, bis sie repariert wird. Bei unzerstörbaren Schilden wird das Ergebnis wie bei 5 behandelt.
+    5 Schild verloren | Der Schild ist zu Boden gefallen.
+    6 Schild stecken geblieben | Der Schild des Helden ist in einem Baum, einer Holzwand, dem Boden oder Ähnlichem stecken geblieben. Um sie zu befreien, ist 1 Aktion und eine um 1 erschwerte Probe auf *Kraftakt (Ziehen & Zerren)* notwendig.
+    7 Sturz | Der Held stolpert und stürzt, wenn seinem Spieler nicht eine um 2 erschwerte Probe auf *Körperbeherrschung (Balance)* gelingt. Sollte er das nicht schaffen, erhält der Held den Status *Liegend*.
+    8 Stolpern | Der Held stolpert, seine nächste Handlung ist um 2 erschwert.
+    9 Fuß verdreht | Der Held erhält für 3 Kampfrunden eine Stufe *Schmerz*.
+    10 Beule | Der Held hat sich im Eifer des Gefechts den Kopf gestoßen. Er erhält für eine Stunde eine Stufe *Betäubung*.
+    11 Selbst verletzt | Der Held hat sich selbst verletzt und erleidet Schaden. Der Schaden seiner Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt. Bei unbewaffneten Kämpfern wird 1W6 TP angenommen.
+    12 Selbst schwer verletzt | Ein schwerer Eigentreffer des Helden. Der Schaden seiner Waffe wird unter Einbeziehung des Schadensbonus ausgewürfelt und dann verdoppelt. Bei unbewaffneten Kämpfern wird 1W6 TP angenommen.
+
+    Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 244
+
+- id: OR_23
+  name: "Mögliche Wiederverwendung von Geschossen"
+  description: |
+    Wenn ein Geschoss getroffen hat, kann man prüfen, ob es noch verwendet werden kann:
+
+    - Pfeile sind nur bei 1 auf W6 noch nutzbar.
+    - Bolzen/Kugeln bei einer 1 und 2 auf W6.
+
+    Bei einem Fehlschuss gilt das Geschoss als verloren.<br>
+    Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 246
+
+- id: OR_24
+  name: "Merkmalsproben"
+  description: |
+    Bei Zaubern und Ritualen sind wie bei Fertigkeiten auch jeweils die drei nötigen Eigenschaften angegeben, auf die die Zauberprobe abgelegt wird. Statt dir bei jedem Zauber zu merken, welche dies sind, kannst du auch die Eigenschaften nach dem Merkmal des Zaubers zuordnen, ähnlich wie bei der Talentgruppenprobe. Dafür sind bei jedem Merkmal die nötigen Eigenschaften angegeben, was es deutlich leichter macht, sie sich zu merken. Durch den Einsatz dieser Optionalregel wird das Spiel etwas weniger komplex.
+
+    Merkmal | Merkmalsprobe
+    :-- | :--
+    Antimagie | MU/KL/CH
+    Dämonisch | MU/IN/CH
+    Einfluss | MU/IN/CH
+    Elementar | MU/KL/CH
+    Heilung | KL/IN/FF
+    Hellsicht | MU/KL/IN
+    Illusion | KL/IN/CH
+    Sphären | MU/CH/KO
+    Objekt | KL/IN/FF
+    Telekinese | KL/FF/KK
+    Verwandlung | KL/IN/KO
+  src:
+    - id: US25001
+      firstPage: 252
+
+- id: OR_25
+  name: "Versickernder Karmastrom"
+  description: |
+    Anders als die Magie, die eine stetig sprudelnde Quelle ist, wird die Karmaenergie von den Göttern verteilt. Auch wenn die Götter nicht jedes Mal, wenn ein Geweihter einen Fehler begeht, sich nicht an die Gesetze der Kirche hält oder ähnliche Vergehen begeht, sofort reagieren und ihm kein Karma mehr verleihen, so kann es doch geschehen, dass die Gottheit irgendwann als Strafe beschließt, die Regeneration von Karma zu blockieren, sodass der Geweihte keine Karmaenergie mehr zurückgewinnen kann. Ob er durch eine Buße das Vertrauen der Gottheit zurückgewinnen kann, ist Meisterentscheid und hängt von dem Vorgehen des Geweihten, dem Vergehen und der jeweiligen Situation ab. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 306
+
+- id: OR_26
+  name: "Keine Patzer bei Liturgien"
+  description: |
+    In früheren Zeiten waren die karmalen Strömungen durch die Ordnung der Götter geprägt. Mittlerweile ist es schwieriger, Karma zu lenken, und es besteht die Chance, dass durch die falsche Anwendung von Sterblichen auch chaotische Effekte entstehen. Die Kirchen und Kulte vermuten dahinter den Sternenfall, ein Ereignis von kosmologischer Größe, dessen Ursachen sie noch nicht verstehen.<br>
+    Jede Spielrunde kann für sich entscheiden, bei Proben auf Liturgien auf Patzer zu verzichten, um dem Ordnungsprinzip der Götter entgegenzukommen. Insbesondere in der Zeit vor dem Sternenfall gab es nur sehr selten diese Effekte. Durch den Einsatz dieser Optionalregel wird das Spiel etwas weniger komplex.
+  src:
+    - id: US25001
+      firstPage: 311
+
+- id: OR_27
+  name: "Göttliche Mission und Eigennutz"
+  description: |
+    Du kannst als Spielleiter einem Geweihten zugestehen, dass sein persönliches Verhalten gegenüber den Prinzipien seines Kultes Einfluss auf die Liturgieprobe hat. Sollte ein Geweihter sich an die Ideale seiner Kirche halten, so kann eine Liturgie eine Erleichterung von 1 erhalten. Geweihte andererseits, die gegen ihren Moralkodex verstoßen, sollten Erschwernisse erhalten, die etwa bei 1 bis 5 liegen. Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 314
+
+- id: OR_28
+  name: "Weniger Regeneration"
+  description: |
+    Die derische Luft ist von Magie durchdrungen, was sich in einer außergewöhnlichen Heilungszeit bemerkbar macht. Selbst schlimmste Verletzungen und Brüche sind innerhalb kurzer Zeit verheilt. Wo ein irdischer Mensch Wochen im Krankenbett zubringen müsste, ist ein derischer Bauer schon wieder erholt und arbeitet auf dem Reisfeld.<br>
+    Wer jedoch Wert auf irdischen Realismus legt, kann für seine Spielrunde beschließen, dass die Bewohner Deres nur mit 1W3 LeP regenerieren und auch sämtliche Bonuspunkte bei der LeP-Regeneration streichen.<br>
+    Durch den Einsatz dieser Optionalregel bleibt das Spiel gleich komplex.
+  src:
+    - id: US25001
+      firstPage: 340
+
+- id: OR_29
+  name: "Genaue Distanz"
+  description: |
+    Im Grunde können Sprünge mit einer einfachen Erfolgsprobe auf Körperbeherrschung abgehandelt werden. Wenn du aber genau wissen möchtest, wie weit ein Held mit genug Anlauf springen kann, kann folgende Detailregel benutzt werden.<br>
+    Die Basis der Sprungweite beträgt die Hälfte der Geschwindigkeit abzüglich BE (nicht gerundet) in Schritt. Hohe Gewandtheit vergrößert zudem die Weite des Sprungs. Jeder Punkt Gewandtheit über 10 bringt 20 Halbfinger. Zu guter Letzt vergrößert eine Probe auf *Körperbeherrschung (Springen)* die Sprungweite um 20 Halbfinger pro Fertigkeitspunkt. Daraus ergibt sich eine Gesamtsprungweite von:
+
+    GS/2 in Schritt + je 20 Halbfinger pro Punkt GE über 10 + je 20 Halbfinger pro FP aus *Körperbeherrschung (Springen)*.
+
+    Wenn aus dem Stand gesprungen wird, wird das Ergebnis der Probe halbiert. Sollte es wichtig sein zu ermitteln, wie hoch ein Held springt, beispielsweise um mit den Händen eine Mauerkrone zu erreichen, gilt folgende Regel:<br>
+    Die Geschwindigkeit mal 10 Halbfinger stellt die Basis der Sprunghöhe dar. Hohe Gewandtheit vergrößert zudem die Höhe des Sprungs. Jeder Punkt Gewandtheit über 10 bringt 10 Halbfinger. Zu guter Letzt vergrößert eine Probe auf *Körperbeherrschung (Springen)* die Sprungweite um 10 Halbfinger pro Fertigkeitspunkt. Daraus ergibt sich eine Gesamtsprunghöhe von:
+
+    GS mal 10 Halbfinger + je 10 Halbfinger pro Punkt GE über 10 + je 10 Halbfinger pro FP aus *Körperbeherrschung (Springen)*.
+
+    Durch den Einsatz dieser Optionalregel wird das Spiel etwas komplexer.
+  src:
+    - id: US25001
+      firstPage: 350
+
+- id: OR_30
+  name: "Nichttödliche Schlägereien"
+  description: |
+    Die vorliegenden Prügel-Regeln sind Optionalregeln, die du verwenden kannst, um einer Kneipenschlägerei mehr Leben einzuhauchen. Die Vorschläge setzen auf Action, Schnelligkeit und Spaß, weniger auf einen realistischen Kampf. Falls du den unbewaffneten Kampf als tödliche Angelegenheit betrachtest und ihn entsprechend so umsetzen möchtest, dann verwende die Regeln aus dem Regelwerk für Raufen.
+
+    Durch den Einsatz dieser Optionalregel gewinnt das Spiel an Komplexität und Schlägereien werden weniger tödlich.
+  src:
+    - id: US25514
+      firstPage: 26

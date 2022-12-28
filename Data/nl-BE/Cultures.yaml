@@ -1,0 +1,499 @@
+- id: C_1
+  name: "Andergasters"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Andergast-Stad, Joborn)"
+  commonMundaneProfessions: "alles behalve Gladiator en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Richtingsgevoel, Gehard"
+  commonDisadvantages: "Karakterfout (Vooroordelen ‒ vooral tegen Nostriërs en vrouwen, Wereldvreemd ‒ tegenover vooruitgang en/of de wereld buiten het koninkrijk), Slechte Eigenschap (Bijgeloof)"
+  uncommonAdvantages: "Sociaal aanpassingsvermogen"
+  uncommonDisadvantages: "Ziektegevoelig"
+  commonNames: |
+    - *Mannelijk:* Arnbold, Borkhelm, Eikwaard, Gartwald, Lodewick, Marik, Stramgert, Wendolyn, Wenzelus, Zoltan
+    - *Vrouwelijk:* Andra, Berga, Domela, Ernka, Hadwiga, Irmela, Larja, Marmelene, Treshka, Wendelinde
+    - *Familienamen:* Alriksboer, Borkmeester, Eickinger, Houwbeiler, Houtgut, Koeboer, Marktboer, Zadelhuber, Zwijnwaert, Zibbelbert
+    - *Adellijke families:* von Andersteen, von Borkenfeld, von Steenboom, von Klauwensteen, von Teshkal
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 96
+      lastPage: 97
+
+- id: C_2
+  name: "Araniërs"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Baburin, Elburum, Llanka, Palmyrabad, Zorgan)"
+  commonMundaneProfessions: "alles behalve Ridder, Gladiator en Stammenkrijger"
+  commonMagicalProfessions: "Heks (vooral Kattenheksen), Magiër (zeldzaam)"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Aanleg voor Sociale talenten, Afstandsgevoel"
+  commonDisadvantages: "Karakterfout (IJdelheid, Vooroordelen – vooral tegen Novadi‘s en magiërs), Slechte eigenschap (Bijgeloof), Broos"
+  uncommonAdvantages: "Kouderesistent"
+  uncommonDisadvantages: "Bloedroes"
+  commonNames: |
+    - *Mannelijk:* Assaf, Djafardeon, Eslam, Faizal, Kazan, Mahdul, Marwamir, Nazir, Seychaban, Zahir
+    - *Vrouwelijk:* Aischanka, Belima, Delilah, Harizeth, Majula, Neraida, Rhayadaque, Shilaldara, Yamira, Zulhaminai
+
+    Namen worden door middel van de tussenvoegsels *ibn* bij mannen en *saba* of *-sunni* bij vrouwen met de naam van de vader of de moeder verbonden, bv. Yamira saba Delilah, Belima Majulasunni of Assaf ibn Eslam.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 98
+      lastPage: 99
+
+- id: C_3
+  name: "Bornlanders"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Festum, Norburg, Notmark, Ouvenmas, Rodebrannt)"
+  commonMundaneProfessions: "alles behalve Gladiator en Stammenkrijger"
+  commonMagicalProfessions: "Heks (vooral padden- en ravenheksen), Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Kouderesistent, Richtingsgevoel, Gehard"
+  commonDisadvantages: "Hittegevoelig, Karakterfout (Vooroordelen - vooral tegen Orks, Goblins, Norbar- den, Al’Anfaners), Slechte Eigenschap (Bijgeloof)"
+  uncommonAdvantages: "Hitteresistent"
+  commonNames: |
+    - *Mannelijk:* Bosjew, Danow, Elkwin, Firunew, Irjan, Jaakon, Jucho, Oswin, Travin, Vito
+    - *Vrouwelijk:* Alwinja, Dunjascha, Elkwinja, Hesinja, Irinja, Jadvine, Karinja, Nadjescha, Rowena, Vanjescha
+    - *Familienamen:* Alwinnen, Baerow, Bornski, Firunkis, Gartimpski, Gerberow, Karenkis, Larinow, Saraski, Timpski
+    - *Adellijke families:* von Saldergem, van Bronduister, von Ouvenstam, von Wosna, van Essenvoorde
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 99
+      lastPage: 100
+
+- id: C_4
+  name: "Fjarningers"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. dorp en aangrenzend gebied)"
+  commonMundaneProfessions: "Handelaar (Ruilhandelaar), Genezer, Jager, Huurling, Stammenkrijger"
+  commonAdvantages: "Afstandsgevoel, Kouderesistent, Richtingsgevoel, Verbeterde regeneratie (Levensenergie), Gehard"
+  commonDisadvantages: "Angst voor (Zee), Bloedroes, Hittegevoelig, Slechte eigenschap (Bijgeloof, Opvliegend), Onbekwaam (Sociale talenten)"
+  uncommonAdvantages: "Hitteresistent, Sociaal Aanpassingsvermogen, Onopvallend"
+  uncommonDisadvantages: "Angst voor (Duisternis, kleine ruimtes of hoogtes), Zwaarlijvig, Koudegevoelig, Ziektegevoelig, Nachtblind, Karakterfout (IJdelheid), Broos"
+  commonNames: |
+    - *Mannelijk:* Asgold, Blotgrim, Engur, Frunobar, Gjallur, Havgrimur, Pandur, Raluf, Surthor, Valbrandar
+    - *Vrouwelijk:* Asgora, Dandagard, Funudara, Gunnlaug, Halfga, Jaldrud, Rangra, Svannlaug, Ulfgard, Ylwa
+    - *Bekende Stammen:* Dubbelbijlvolk, IJsvosvolk, Brullende-Zwaarden-volk
+
+    Achternamen zijn ongebruikelijk, erenamen zoals Berendoder, Vorstkling of Sluipende Dood geliefd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 101
+      lastPage: 102
+
+- id: C_5
+  name: "Horasiërs"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Belhanka, Bethana, Grangor, Kuslik, Methumis, Neetha, Vinsalt)"
+  commonMundaneProfessions: "alles behalve Gladiator, Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Sociaal aanpassingsvermogen"
+  commonDisadvantages: "Karakterfout (Arrogantie, IJdelheid, Vooroordelen - vooral tegen Niet-Horasiërs)"
+  uncommonAdvantages: "Aanleg voor Natuurtalenten"
+  uncommonDisadvantages: "Angst voor (Nauwe ruimtes)"
+  commonNames: |
+    - *Mannelijk:* Alricio, Baduin, Carolan, Cusimo, Duardo, Horadan, Jacopo, Phedro, Quendan, Rondrigo
+    - *Vrouwelijk:* Ardare, Carisia, Elaria, Gylvana, Hesindiane, Pamina, Quedora, Rahjamande, Sanya, Sharina
+    - *Familienamen:* Bosvani, Caranda, Delicado, Marnion, Melior, Novacasa, Spinola, Torrean, Ulfaran, Vansanti
+    - *Adellijke families:* Barazza, Casibelli, Cavarno, Marcia, Sulvano
+
+    Bij edelen wordt voornamelijk een *dy* tussen de voornaam en de familienaam gebruikt, bv. Ardare dy Casibelli.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 102
+      lastPage: 103
+
+- id: C_6
+  name: "Maraskanen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Boran, Jergan, Sinoda, Tuzak)"
+  commonMundaneProfessions: "alles behalve Gladiator, Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonAdvantages: "Gifresistent, Hitteresistent, Ziekteresistent, Richtingsgevoel, Sociaal aanpassingsvermogen"
+  commonDisadvantages: "Karakterfout (Arrogantie, Vooroordelen – vooral tegen Middenrijkers), Slechte eigenschap (Nieuwsgierig)"
+  uncommonAdvantages: "Kouderesistent"
+  uncommonDisadvantages: "Angst voor … (Insecten), Kleurenblind, Slechte eigenschap (Opvliegend)"
+  commonNames: |
+    - *Mannelijk:* Alrech, Brinziber, Denderan, Dschindziber, Feruziber, Firold, Gerbaldijian, Mulziber, Perjin, Vegsziber
+    - *Vrouwelijk:* Bekasabu, Dajida, Fathimajida, Garasab, Harikajida, Madajida, Shinojida, Tsaryscham, Yasindajida, Zulamidjida
+
+    Achternamen zijn niet gebruikelijk, maar vaak wordt het geboortegebied of een bijnaam aan de voornaam toegevoegd, bv. Vegziber von Sinoda of Dajida de lenige.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 103
+      lastPage: 104
+
+- id: C_7
+  name: "Mhanadistani"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Fasar, Khunchom, Rashdul, Thalusa)"
+  commonMundaneProfessions: "alles behalve ridder en stamkrijger"
+  commonMagicalProfessions: "Heks (vooral Kattenheks), Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Geluk, Hitteresistent, Sociaal aanpassingsvermogen"
+  commonDisadvantages: "Karakterfout (IJdelheid, Vooroordelen – vooral tegen Novadi‘s, Middenrijkers, Araniërs, Maraskanen en vrouwen), Slechte eigenschap (Bijgeloof, Hebzucht, Nieuwsgierig)"
+  uncommonAdvantages: "Kouderesistent"
+  uncommonDisadvantages: "Angst voor (Kleine ruimtes en Mensenmassa‘s)"
+  commonNames: |
+    - *Mannelijk:* Abu, Cherek, Dschadir, Farsid, Hamar, Ismeth, Jassafer, Kasim, Shafir, Tarek
+    - *Vrouwelijk:* Chanya, Demeya, Djamilla, Kerime, Manjula, Nassiban, Palmeya, Sajida, Yeshina, Zulhamin
+    - *Erenamen voor mannen:* al-Ahjan (de strijder), al-Ahmad, (de wreker), al-Alam (de geleerde), al-Ankhra (de leeuw), al-Fessir (de listige)
+    - *Erenamen voor vrouwen:* al-Jamila (de schone), ash-Shabra (de schitterende), ash-Shaya (juweel), as-Sarjaban (Araanse kat), bint-al-Laila (dochter van de nacht)
+
+    Namen worden bij mannen met *ibn* en bij vrouwen met *saba* of *-sunni* verbonden aan de naam van de vader of moeder, bv. Djamilla saba Kerime, Zulhamin Yeshinasunni of Cherek ibn Hamar.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 104
+      lastPage: 105
+
+- id: C_8
+  name: "Middenrijkers"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Angbar, Elenvina, Gareth, Griffioenvoorde, Havena, Punin)"
+  commonMundaneProfessions: "alles behalve Stammenkrijger, Gladiator bij hoge uitzondering"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Geluk"
+  commonDisadvantages: "Karakterfout (Vooroordelen – vooral tegen andersgelovigen, elfen, orks, goblins en niet-Middenrijkers), Slechte eigenschap (Bijgeloof)"
+  uncommonAdvantages: "Hitteresistent, Kouderesistent"
+  commonNames: |
+    - *Mannelijk:* Alrik, Cordovan, Darian, Erlan, Gerion, Hagen, Praiodan, Refardeon, Viburn, Yendor
+    - *Vrouwelijk:* Alena, Caya, Dorlen, Elwene, Fiana, Khorena, Oleana, Quisira, Sannah, Xaviera
+    - *Familienamen:* Alfaran, Berlind, Damotil, Vosvel, Grabenzalf, Tuigmaker, Meelhooier, Steenhouwer, Winterkoud, Zandor
+    - *Adellijke families:* van den Berg, van Galahan, van Mersingen, van Streitzig, van Sturmfels
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 106
+      lastPage: 108
+
+- id: C_9
+  name: "Moha’s"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. dorp en aangrenzend gebied)"
+  commonMundaneProfessions: "Handelaar (vooral ruilhandel), Genezer, Jager (vooral Stammenjager), Soldenier, Stammenkrijger"
+  commonAdvantages: "Gifresistent, Geluk, Knap uiterlijk, Hitteresistent, Richtingsgevoel, Slangenmens"
+  commonDisadvantages: "Angst voor (Nauwe ruimtes, Zee, Doden en Ondoden), Koudegevoelig, Lage zielskracht, Karakterfout (Vooroordelen – vooral tegen Niet-Moha’s), Slechte eigenschap (Bijgeloof, Nieuwsgierig)"
+  uncommonAdvantages: "Kouderesistent"
+  uncommonDisadvantages: "Angst voor (Hoogten, Insecten, Reptielen en Spinnen), Ziektegevoelig, Nachtblind, Karakterfout (IJdelheid), Slechte eigenschap (Hebzucht), Onbekwaam in natuurtalenten"
+  commonNames: |
+    - *Woudmensen:* Cankuna (lenig), Kehala (schildpad), Takate (wiens hand altijd bloedig is), Wapiya (wiens handen goed doen), Yako (kat, roofkat)
+    - *Utulu:* Kalimba, Mangabe, Shasiwatu, Tenkile, Usuthu
+    - *Tocamuyac:* Anakena, Ataranga, Kiri, Miru, Rano
+    - *Bekende stammen:* Anoiha, Chirakah, Darna, Haipu, Keke-Wanaq, Miniwatu, Mohaha, Napewanha, Oijaniha, Panaq-Si, Ruwangi, Shokubunga, Tocamuyac
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 108
+      lastPage: 109
+
+- id: C_10
+  name: "Nivesen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. trekgebied)"
+  commonMundaneProfessions: "Handelaar (Ruilhandelaar), Genezer, Jager (vooral Stammenjager), Soldenier, Stammenkrijger"
+  commonAdvantages: "Kouderesistent, Richtingsgevoel"
+  commonDisadvantages: "Angst voor (Kleine ruimtes, Hoogtes, Doden en ondoden)"
+  uncommonAdvantages: "Hitteresistent, Sociaal Aanpassingsvermogen"
+  uncommonDisadvantages: "Zwaarlijvig, Karakterfout"
+  commonNames: |
+    - *Mannelijk:* Arko, Eiko, Garnan, Hunjok, Jurtan, Kinajo, Latu, Nerkjo, Tamperen, Valen
+    - *Vrouwelijk:* Amuri, Dana, Geika, Jalani, Kantala, Liskaju, Myrra, Nirka, Saari, Vaala
+    - *Bekende stammen:* Hokke, Rika-Lie, Takku, Lieska-Leddu, Lieska-Lärna
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 109
+      lastPage: 110
+
+- id: C_11
+  name: "Norbarden"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. trekgebied)"
+  commonMundaneProfessions: "Handelaar, Genezer, Jager, Soldenier, Zwerver"
+  commonMagicalProfessions: "Heks, Magiër (zelden)"
+  commonBlessedProfessions: "Hesindegewijde, Phexgewijde"
+  commonAdvantages: "Kouderesistent, Richtingsgevoel"
+  commonDisadvantages: "Angst voor (Kleine ruimtes, hoogten), Slechte eigenschap (Hebzucht, Nieuwsgierig), Verplichtingen (tegenover stam)"
+  uncommonAdvantages: "Hitteresistent"
+  uncommonDisadvantages: "Karakterfout (Arrogantie), Principieel (van elke soort)"
+  commonNames: |
+    - *Mannelijk:* Aikul, Beril, Darjew, Fadril, Jagotin, Kergil, Laromir, Mikail, Radul, Tuljew
+    - *Vrouwelijk:* Barina, Dagris, Eika, Hetinka, Janka, Kolja, Lexaja, Olja, Slanka, Tuminka
+    - *Familienamen:* Aljeff, Bolscheff, Choprutin, Dagoneff, Garkinen, Janig, Koranzig, Kowalejeff, Lugoltin, Sewerin
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 111
+      lastPage: 112
+
+- id: C_12
+  name: "Noord-Aventurijnen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Enqui, Oblarasim, Paavi, Riva, Uhdenberg)"
+  commonMundaneProfessions: "alles behalve Gladiator en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Afstandsgevoel, Richtingsgevoel, Gehard"
+  commonDisadvantages: "Angst voor (Nauwe ruimtes), Slechte eigenschap (Bijgeloof)"
+  uncommonAdvantages: "Hitteresistent"
+  uncommonDisadvantages: "Ziektegevoelig"
+  commonNames: |
+    De Noord-Aventurijnen gebruiken afhankelijk van hun herkomst Middenrijkse, Nivesische, Norbardse en Thorwalse namen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 110
+      lastPage: 111
+
+- id: C_13
+  name: "Nostriërs"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Nostria-Stad, Salza, Zouthaven)"
+  commonMundaneProfessions: "alles behalve Gladiator en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Richtingsgevoel, Gehard"
+  commonDisadvantages: "Karakterfout (Vooroordelen – vooral tegen Andergasters, Wereldvreemd – tegenover vooruitgang en/of de wereld buiten het koninkrijk), Slechte Eigenschap (Bijgeloof)"
+  uncommonAdvantages: "Sociaal aanpassingsvermogen"
+  uncommonDisadvantages: "Ziektegevoelig"
+  commonNames: |
+    - *Mannelijk:* Ablasion, Basilio, Dorleno, Ingvalion, Jasper, Kasimir, Modeno, Sapertyn, Valputrio, Zarquisio
+    - *Vrouwelijk:* Asmodette, Caristhea, Doranthe, Elida, Gloranthe, Kasmira, Mafizia, Nostriane, Sieghelmina, Yasmina
+    - *Familienamen:* Adabasio, Elgeryn, Kersenaar, Linnewever, Mandelfein, Nosterwit, Salzerin, Tassenneid, Visling, Willemhold
+    - *Adellijke families:* von Visteich, von Salza, von Salzerhaven, von Sappensteel, von Vesselbek
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 112
+      lastPage: 113
+
+- id: C_14
+  name: "Novadi’s"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Keft, Mherwed, Unau)"
+  commonMundaneProfessions: "alles behalve Gladiator en Ridder"
+  commonMagicalProfessions: "Magiër (zelden)"
+  commonAdvantages: "Afstandsgevoel, Hitteresistent, Richtingsgevoel, Moeilijk te betoveren, Gehard"
+  commonDisadvantages: "Angst voor (kleine ruimtes, de zee), Karakterfout (Arrogantie, Vooroordelen - vooral tegen vrouwen en ongelovigen), Principieel (99 Wetten), Slechte Eigenschap (Opvliegend, Wraakzucht)"
+  uncommonAdvantages: "Hittegevoelig, Kouderesistent"
+  commonNames: |
+    - *Mannelijk:* Abdul, Chadim, Habled, Khorim, Omar, Mustafa, Nareb, Rashid, Said, Zahir
+    - *Vrouwelijk:* Aischa, Eshila, Fadime, Laila, Meriban, Nedime, Oyan, Perishan, Ranchel, Shila
+    - *Bekende Stammen:* Beni Ankhara, Beni Arrat, Beni Avad, Beni Brachtar, Beni Erkin, Beni Gadang, Beni Kasim, Beni Kharram, Beni Novad, Beni Schebt, Beni Shadif, Beni Szelemjati, Beni Terkui
+
+    Namen worden met *ben* bij mannen en *saba* of *-sunni* bij vrouwen met de naam van de vader of moeder verbonden, bijvoorbeeld Nedime saba Shila, Ranchel Oyansunni of Omar ben Said. Net als bij de Mhanadistani worden ook bij de Novadi‘s erenamen gebruikt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 113
+      lastPage: 114
+
+- id: C_15
+  name: "Zuid-Aventurijnen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats"
+  commonMundaneProfessions: "alles behalve Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Hitteresistent, Sociaal aanpassingsvermogen"
+  commonDisadvantages: "Koudegevoelig, Karakterfout (Arrogantie, IJdelheid), Slechte eigenschap (Bijgeloof, Hebzucht, Opvliegend, Nieuwsgierig)"
+  uncommonAdvantages: "Kouderesistent"
+  uncommonDisadvantages: "Angst voor (Kleine ruimtes, mensenmassa‘s, Doden en ondoden)"
+  commonNames: |
+    - *Mannelijk:* Alondro, Boromeo, Diago, Firunando, Ghorio, Lucan, Mandolo, Nestario, Ramon, Yuan
+    - *Vrouwelijk:* Consuela, Dolorita, Esmeralda, Jesabela, Katalinya, Marchesca, Phelicitas, Rahjadés, Valería, Ximena
+    - *Familienamen:* Beratas, Cornio, Delazar, Erabenas, Kalando, Lupinez, Malagro, Nirrano, Ramirez, Santana
+    - *Grandenfamilies van Al’Anfa:* Bonareth, Florios, Karinor, Paligan, Zornbrecht
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 117
+      lastPage: 118
+
+- id: C_16
+  name: "Sveltdalers"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Gashok, Lowangen, Tiefhuizen, Tjolmar)"
+  commonMundaneProfessions: "alles behalve Gladiator en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Afstandsgevoel, Richtingsgevoel, Gehard"
+  commonDisadvantages: "Angst voor (Nauwe ruimtes), Karakterfout (Vooroordelen – vooral tegen orks), Slechte eigenschap (Bijgeloof)"
+  uncommonAdvantages: "Hitteresistent"
+  uncommonDisadvantages: "Ziektegevoelig"
+  commonNames: |
+    De Sveltdalers gebruiken dezelfde namen als in het Middenrijk, maar gebruiken vaak afkortingen van hun naam en verbinden deze met hun uiterlijk of hun daden, zoals Haak-Harkon, Messen-Jole of Rode Lu. Namen worden graag tot een lettergreep afgekort.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 115
+      lastPage: 116
+
+- id: C_17
+  name: "Thorwalers"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Olport, Prem, Thorwal-Stad, Waskir)"
+  commonMundaneProfessions: "alles behalve Gladiator, Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonAdvantages: "Afstandsgevoel, Geluk, Richtingsgevoel, Verbeterde regeneratie (Levensenergie), Gehard"
+  commonDisadvantages: "Bloedroes, Karakterfout (Vooroordelen – vooral tegen Al’Anfanen, hagediswezens, Horasiërs en walvisvaarders), Slechte eigenschap (Bijgeloof, Nieuwsgierig, Wraakzucht)"
+  uncommonAdvantages: "Sociaal aanpassingsvermogen"
+  uncommonDisadvantages: "Angst voor (de zee)"
+  commonNames: |
+    - *Mannelijk:* Asleif, Eirik, Frenjar, Garald, Halmar, Laske, Norri, Raskir, Thorwulf, Wulfgrim
+    - *Vrouwelijk:* Askra, Branda, Eilif, Frenja, Janda, Korja, Norhild, Ragna, Sigrun, Thora
+
+    De tweede naam wordt van de ouderlijke voornaam afgeleid, afhankelijk van geslacht *-son* voor mannen en *-dottir* voor vrouwen, bijvoorbeeld Erik Halmarson of Ragna Frejasdottir. Een traditioneel worstelgevecht tussen de ouders bepaalt vaak wiens naam het kind krijgt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 116
+      lastPage: 117
+
+- id: C_18
+  name: "Cyclopiërs"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Rethis, Teremon)"
+  commonMundaneProfessions: "alles behalve Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Heks, Magiër"
+  commonBlessedProfessions: "Borongewijde, Hesindegewijde, Perainegewijde, Phexgewijde, Praiosgewijde, Rondragewijde"
+  commonAdvantages: "Aanleg voor Zwemmen, Afstandsgevoel, Knap Uiterlijk, Richtingsgevoel, Welluidend"
+  commonDisadvantages: "Karakterfout (Arrogantie, IJdelheid, Vooroordelen – vooral tegen Thorwalers)"
+  uncommonAdvantages: "Kouderesistent"
+  uncommonDisadvantages: "Angst voor (de zee)"
+  commonNames: |
+    - *Mannelijk:* Amenelaos, Dariyon, Hephestaios, Kalchas, Meneander, Mermydion, Peleïston, Praiokles, Rahjenÿsios, Ximater
+    - *Vrouwelijk:* Efferdiana, Insina, Korïna, Lanike, Myrtale, Nermaka, Phylinna, Phÿllis, Sapeïdra, Telemache
+    - *Achternamen:* Armedos, Calakis, Egorythios, Garothis, Kalidas, Merogios, Phÿrikos, Sphareïos, Tymemdios, Uÿis
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 100
+      lastPage: 101
+
+- id: C_19
+  name: "Rivierelfen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. dorp en aangrenzend gebied)"
+  commonMagicalProfessions: "Wyldzwerver, Toverwever"
+  commonAdvantages: "Aanleg voor Ambachtstalenten (vooral Varen), Magische afstemming, (Wezen der Auen), Wapenvirtuoos (vooral Bogen)"
+  commonDisadvantages: "Artefactgebonden (Instrument), Karakterfout (Arrogantie, Vooroordelen – vooral tegen niet-elfen, Wereldvreemd – vooral tegenover bezit en Goden), Principieel (Elfs wereldbeeld), Slechte eigenschap (Nieuwsgierig)"
+  uncommonAdvantages: "Aanleg voor kennistalenten"
+  uncommonDisadvantages: "Slechte eigenschap (Hebzucht, Wraakzucht), Onbekwaam in lichaams- en natuurtalenten"
+  commonNames: |
+    - *Mannelijk:* Adalarion, Alarion, Caerleon, Delayar, Dendayar, Edorion, Elanor, Feysiriel, Lindariel, Navarion
+    - *Vrouwelijk:* Alaniel, Caerleon, Daleone, Eldariel, Gailanoe, Lauriel, Mandara, Rhianna, Sanyadriel, Valandriel
+    - *Sibbenamen:* Berkenblad, Dauwglans, Eenhoorngroet, Lichtmos, Zeemaan
+    Elfen bezitten een voornaam en een sibbenaam.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 119
+      lastPage: 120
+
+- id: C_20
+  name: "Firnelfen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. dorp en aangrenzend gebied)"
+  commonMagicalProfessions: "Wyldzwerver, Toverwever"
+  commonAdvantages: "Aanleg voor lichaams- en natuurtalenten, Kouderesistent, Magische afstemming (Wezens van ijs), Richtingsgevoel, Wapenvirtuoos (vooral bogen en Werpwapens)"
+  commonDisadvantages: "Artefactgebonden (Instrument), Karakterfout (Arrogantie, Vooroordelen – vooral tegen niet-elfen, Wereldvreemd – vooral tegenover adel, bezit, geld, Goden, hiërarchie, Religie), Principieel (Elfs wereldbeeld), Onbekwaam in kennistalenten"
+  uncommonAdvantages: "Aanleg voor kennistalenten, Sociaal aanpassingsvermogen"
+  uncommonDisadvantages: "Angst voor (Duisternis, Nauwe ruimtes), Koudegevoelig, Slechte eigenschap (Hebzucht, Wraakzucht), Onbekwaam in Lichaams- en Natuurtalenten"
+  commonNames: |
+    - *Mannelijk:* Alriel, Delavar, Eldariel, Ilcoron, Mandaniel, Mandrion, Osagiel, Sanyarin
+    - *Vrouwelijk:* Alari, Calenleya, Elayoé, Fiannon, Mandaniel, Onioniel, Peaolé, Saliniome, Teleria, Zairi
+    - *Sibbenamen:* IJskristal, Pijlvlucht, Sneeuw- op-de-Toppen, Vorstnacht, Withart
+    Elfen bezitten een voornaam en een sibbenaam.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 118
+      lastPage: 119
+
+- id: C_21
+  name: "Woudelfen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. dorp en aangrenzend gebied)"
+  commonMagicalProfessions: "Wyldzwerver, Toverwever"
+  commonAdvantages: "Aanleg voor Lichaams- en Natuurtalenten, Magische afstemming (Wezen van het woud), Wapenvirtuoos (vooral bogen)"
+  commonDisadvantages: "Angst voor (Nauwe ruimtes), Artefactgebonden (Instrument), Haargebonden kracht, Karakterfout (Arrogantie, Vooroordelen – vooral tegen niet-elfen, wereldvreemd – vooral tegenover adel, bezit, geld, Goden, hiërarchie, religie), Principieel (Elfs wereldbeeld), Onbekwaam in kennistalenten"
+  uncommonAdvantages: "Aanleg voor Kennistalenten, Sociaal aanpassingsvermogen"
+  uncommonDisadvantages: "Slechte eigenschap (Hebzucht, Opvliegend, Wraakzucht), Onbekwaam in lichaams- en natuurtalenten"
+  commonNames: |
+    - *Mannelijk:* Albion, Cinnamon, Elbrenell, Fermion, Floriel, Imion, Lorion, Mandriel, Nurdhavalon, Saladir
+    - *Vrouwelijk:* Allacaya, Cairlinn, Déhaoine, Feyaria, Liloé, Miamiel, Oionel, Rilaona, Shayariel, Valaria
+    - *Sibbenamen:* Avondrood, Esdoorngroet, Kruinglans, Verrepijl, Zonnestraal
+    Elfen bezitten een voornaam en een sibbenaam.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 120
+      lastPage: 121
+
+- id: C_22
+  name: "Aambeelddwergen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. dwergenstad en aangrenzend gebied)"
+  commonMundaneProfessions: "alles behalve Gladiator, Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Magiër (zeer zelden)"
+  commonBlessedProfessions: "Rondragewijde (zelden)"
+  commonAdvantages: "Aanleg voor Ambachtstalenten (vooral Metaalbewerking en Steenbewerking), Verbeterde regeneratie (Levensenergie), Wapenvirtuoos (vooral Kruisbogen, Slagwapens en Tweehandige slagwapens), Gehard"
+  commonDisadvantages: "Angst voor (Zee), Karakterfout (Arrogantie, Vooroordelen – vooral tegen Elfen en Hagedisvolk), Principieel (Dwergse erecode), Slechte eigenschap (Gierig, Hebzucht)"
+  uncommonAdvantages: "Sociaal aanpassingsvermogen"
+  uncommonDisadvantages: "Angst voor (Duisternis, Nauwe ruimtes), Nachtblind, Karakterfout (IJdelheid)"
+  commonNames: |
+    - *Mannelijk:* Andrasch, Ballasch, Cobaltosch, Fobosch, Groin, Ibralosch, Kirgam, Marnax, Pogolosch, Sordolax
+    - *Vrouwelijk:* Agescha, Borascha, Durga, Hogescha, Lavascha, Norturrima
+
+    Dwergennamen bestaan uit de voornaam en een *zoon van ...* / *dochter van ...*, bijvoorbeeld Andrasch zoon van Ballasch of Durga dochter van Lavascha.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 121
+      lastPage: 122
+
+- id: C_23
+  name: "Briljantdwergen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. dwergenstad en aangrenzend gebied)"
+  commonMundaneProfessions: "alles behalve Gladiator, Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Magiër (zeer zelden)"
+  commonBlessedProfessions: "Hesindegewijde (zelden), Phexgewijde (zelden), Rondragewijde (zelden)"
+  commonAdvantages: "Aanleg voor Ambachtstalenten (vooral Metaalbewerking en Steenbewerking), Sociaal aanpassingsvermogen"
+  commonDisadvantages: "Angst voor (de zee), Karakterfout (IJdelheid), Slechte eigenschap (Gierig, Hebzucht, Nieuwsgierig)"
+  uncommonDisadvantages: "Angst voor (Nauwe ruimtes), Bloedroes, Nachtblind"
+  commonNames: |
+    - *Mannelijk:* Angrox, Balum, Cratosch, Gandresch, Grotho, Jandrim, Migosch, Norrin, Rabagasch, Topasch
+    - *Vrouwelijk:* Angalla, Cadrima, Etoscha, Igrima, Magmascha, Segrima
+
+    Dwergennamen bestaan uit de voornaam en een *zoon van ...* / *dochter van ...*, bijvoorbeeld Balum zoon van Grotho of Angalla dochter van Segrima.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 124
+
+- id: C_24
+  name: "Aartsdwergen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. dwergenstad en aangrenzend gebied)"
+  commonMundaneProfessions: "alles behalve Gladiator, Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Magiër (zeer zelden)"
+  commonAdvantages: "Aanleg voor Kennis- of Ambachtstalenten (vooral Geschiedenis, Rechtskunde, Metaalbewerking en Steenbewerking)"
+  commonDisadvantages: "Angst voor (Hoogtes of de zee), Karakterfout (Arrogantie, Vooroordelen – vooral tegen Niet-dwergen), Slechte eigenschap (Gierig, Hebzucht)"
+  uncommonAdvantages: "Sociaal aanpassingsvermogen"
+  uncommonDisadvantages: "Angst voor (Duisternis, Nauwe ruimtes), Nachtblind, Slechte eigenschap (Nieuwsgierig)"
+  commonNames: |
+    - *Mannelijk:* Arthag, Brodrosch, Famburasch, Grimmbart, Huramasch, Kagrim, Partram, Schrobosch, Tarmosch, Xolgrimm
+    - *Vrouwelijk:* Aurulne, Dorella, Halrima, Korunde, Narescha, Topasa
+
+    Dwergennamen bestaan uit de voornaam en een *zoon van ...* / *dochter van ...*, bijvoorbeeld Grimmbart zoon van Xolgrimm of Halrima dochter van Dorella.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 122
+      lastPage: 123
+
+- id: C_25
+  name: "Heuveldwergen"
+  areaKnowledgeShort: "geboorteplaats"
+  areaKnowledge: "afhankelijk van de geboorteplaats (bv. Angbar)"
+  commonMundaneProfessions: "alles behalve Gladiator, Ridder en Stammenkrijger"
+  commonMagicalProfessions: "Magiër (zelden)"
+  commonBlessedProfessions: "Perainegewijde (zelden)"
+  commonAdvantages: "Aanleg voor Sociale- en Ambachtstalenten (Voedsel klaarmaken), Sociaal aanpassingsvermogen"
+  commonDisadvantages: "Angst voor (de zee), Slechte eigenschap (Hebzucht, Nieuwsgierig)"
+  uncommonDisadvantages: "Angst voor (Duisternis, Nauwe ruimtes), Bloedroes, Nachtblind"
+  commonNames: |
+    - *Mannelijk:* Artox, Bengram, Dabrasch, Gerambalosch, Hargasch, Obolosch, Roglom, Tlutasch, Xandaresch, Zinkhal
+    - *Vrouwelijk:* Aurea, Caldera, Garescha, Ingrascha, Thurescha, Xolgima
+    - *Sibbenamen:* Ballin, Breedpan, Buidelzoom, Gromling, Heuvlinger, Zoetbrood
+
+    Heuveldwergen gebruiken voornamen en stamnamen en zien af van de bij de andere dwergenculturen gebruikte naamgeving.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 125

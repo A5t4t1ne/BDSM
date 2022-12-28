@@ -1,0 +1,93 @@
+- id: CT_1
+  name: "Balestre"
+  src:
+    - id: REG001
+      firstPage: 245
+
+- id: CT_2
+  name: "Archi"
+  src:
+    - id: REG001
+      firstPage: 245
+
+- id: CT_3
+  name: "Pugnali"
+  special: |
+    Non puoi usare pugnali per parare armi a catena, armi inastate, armi da impatto a due mani o spade a due mani.
+  src:
+    - id: REG001
+      firstPage: 236
+
+- id: CT_4
+  name: "Armi da scherma"
+  special: |
+    Non puoi usare le armi da scherma per parare armi a catena, armi inastate, armi da impatto a due mani o spade a due mani. Invece, le prove di difesa contro attacchi con armi da scherma subiscono una penalità di 1.
+  src:
+    - id: REG001
+      firstPage: 235
+
+- id: CT_5
+  name: "Armi da impatto"
+  src:
+    - id: REG001
+      firstPage: 235
+
+- id: CT_6
+  name: "Armi a catena"
+  special: |
+    È molto difficile difendersi contro le armi a catena. Le parate contro di esse subiscono una penalità di 2. Gli scudi usano solo il loro bonus standard (la loro Par non viene raddoppiata). Gli attacchi con le armi a catena falliscono criticamente sia con un 19 che con un 20. Non puoi parare con le armi a catena.
+  src:
+    - id: REG001
+      firstPage: 235
+
+- id: CT_7
+  name: "Lance"
+  src:
+    - id: REG001
+      firstPage: 235
+
+- id: CT_9
+  name: "Mani nude"
+  special: |
+    Combattenti disarmati che parano un’arma subiranno comunque l’impatto pieno anche se la parata è andata a buon fine (per cui probabilmente dovrebbero provare a schivare). D’altro canto, se usi un’arma per parare un attacco a mani nude, chi ha sferrato l’attacco soffrirà la metà del danno dell’arma. I combattenti infliggono 1D6 PImp nel combattimento a mani nude, modificato dall’attributo primario con una soglia di 14.
+  src:
+    - id: REG001
+      firstPage: 236
+
+- id: CT_10
+  name: "Scudi"
+  special: |
+    I valori Att e Par degli scudi vengono calcolati come per ogni altra Tecnica di Combattimento. Per la parata con la tecnica *Scudi* si applica però il doppio modificatore di parata dello scudo in uso . Inoltre, gli scudi non impongono penalità per l’uso con la mano non dominante (leggi il **Regolamento** a pag. **238**). Anche attacchi a distanza e attacchi da parte di nemici grandi possono essere parati usando uno scudo. Usare un secondo scudo non aumenta il bonus. Per difenderti contro un attacco a distanza, devi parare attivamente con la Tecnica *Scudi*. Se ti difendi da un attacco con lo scudo, non puoi tentare una seconda parata per quell’attacco con l’arma principale. Puoi usare lo scudo anche per attaccare (con la tecnica relativa).
+  src:
+    - id: REG001
+      firstPage: 236
+
+- id: CT_12
+  name: "Spade"
+  src:
+    - id: REG001
+      firstPage: 236
+
+- id: CT_13
+  name: "Armi inastate"
+  src:
+    - id: REG001
+      firstPage: 235
+
+- id: CT_14
+  name: "Armi da lancio"
+  src:
+    - id: REG001
+      firstPage: 245
+
+- id: CT_15
+  name: "Armi da impatto a due mani"
+  src:
+    - id: REG001
+      firstPage: 235
+
+- id: CT_16
+  name: "Spade a due mani"
+  src:
+    - id: REG001
+      firstPage: 237

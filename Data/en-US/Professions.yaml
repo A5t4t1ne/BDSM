@@ -1,0 +1,1279 @@
+- id: P_1
+  name: "Bard"
+  suggestedAdvantages: "Beautiful Voice, Good Looks, Socially Adaptable"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity), Negative Trait (Curiosity)"
+  unsuitableDisadvantages: "Ugly"
+  src:
+    - id: US25001E
+      firstPage: 129
+
+- id: P_2
+  name: "Guard"
+  suggestedAdvantages: "Increased Life Points, Increased Toughness, Improved Regeneration (Life Points)"
+  suggestedDisadvantages: "Obligations II (mayor, council, town, noble, etc.), Personality Flaw (Arrogance)"
+  unsuitableDisadvantages: "Weak Regeneration (Life Points), Frenzy, Mute"
+  src:
+    - id: US25001E
+      firstPage: 132
+
+- id: P_3
+  name: "Performer"
+  suggestedAdvantages: "Aptitude in Physical Skills, Beautiful Voice, Contortionist, Good Looks, Sense of Range"
+  suggestedDisadvantages: "Negative Traits (Superstition, Curiosity, Vengeance), Personality Flaw (Vanity, Envy)"
+  unsuitableDisadvantages: "Afraid of… (Heights), Blind, Frenzy, Incompetence in Physical Skills, Night-Blind."
+  src:
+    - id: US25001E
+      firstPage: 138
+
+- id: P_4
+  name: "Gladiator"
+  suggestedAdvantages: "Ambidextrous, Good Looks, Increased Life Points, Increased Toughness, Improved Regeneration (Life Points), Rugged Fighter"
+  suggestedDisadvantages: "Frenzy, Personality Flaw (Vanity)"
+  unsuitableAdvantages: "Aptitude for Social Skills"
+  unsuitableDisadvantages: "Weak Regeneration (Life Points), Fat, Sensitive to Pain, Decreased Toughness"
+  src:
+    - id: US25001E
+      firstPage: 131
+
+- id: P_5
+  name: "Merchant"
+  suggestedAdvantages: "Aptitude for Social Skills, Beautiful Voice, Inner Clock, Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Stinginess, Avarice), Personality Flaw (Envy)"
+  unsuitableDisadvantages: "Blind, Frenzy, Personality Flaw (Unworldly), Ugly"
+  src:
+    - id: US25001E
+      firstPage: 137
+
+- id: P_6
+  name: "Healer"
+  suggestedAdvantages: "Immunity to (Disease), Immunity to (Poison), Resistant to Disease, Resistant to Poison"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity), Negative Trait (Avarice)"
+  unsuitableDisadvantages: "Afraid of (Blood, Dead, and Undead), Susceptible to Disease, Susceptible to Poison"
+  src:
+    - id: US25001E
+      firstPage: 133
+
+- id: P_7
+  name: "Courtier"
+  suggestedAdvantages: "Aptitude in Social Skills, Good Looks, Resistant to Poison"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Envy, Vanity), Negative Trait (Avarice, Bad Temper, Stinginess, Vengeance)"
+  unsuitableAdvantages: "Aptitude in Craft Skills"
+  unsuitableDisadvantages: "Frenzy, Incompetence in Social Skills"
+  src:
+    - id: US25001E
+      firstPage: 130
+
+- id: P_8
+  name: "Hunter"
+  suggestedAdvantages: "Direction Sense, Exceptional Sense (Hearing or Sight), Rugged Fighter, Sense of Range"
+  suggestedDisadvantages: "Afraid of… (Confined Spaces)"
+  unsuitableAdvantages: "Socially Adaptable"
+  unsuitableDisadvantages: "Afraid of… (Darkness), Night-blind"
+  src:
+    - id: US25001E
+      firstPage: 134
+
+- id: P_9
+  name: "Warrior"
+  suggestedAdvantages: "Ambidextrous, Improved Regeneration (Life Points), Increased Life Points, Rugged Fighter, Socially Adaptable, Weapon Aptitude"
+  suggestedDisadvantages: "Obligations I-III (employer), Personality Flaw (Arrogance, Vanity), Principles I-II (warrior codex, honorable behavior, protect the weak)"
+  unsuitableAdvantages: "Spellcaster"
+  unsuitableDisadvantages: "Fat, Frenzy, Sensitive to Pain, Weak Regeneration (Life Points)"
+  src:
+    - id: US25001E
+      firstPage: 143
+
+- id: P_11
+  name: "Knight"
+  suggestedAdvantages: "Ambidextrous, Good Looks, Improved Regeneration (Life Points), Increased Life Points, Rich, Rugged Fighter, Socially Adaptable"
+  suggestedDisadvantages: "Obligations II (liege), Personality Flaw (Arrogance, Vanity), Principles I-II (knightly codex, honorable behavior, protect the weak)"
+  unsuitableDisadvantages: "Fat, Frenzy, Weak Regeneration (Life Points)"
+  src:
+    - id: US25001E
+      firstPage: 135
+
+- id: P_12
+  name: "Sailor"
+  suggestedDisadvantages: "Negative Trait (Superstition, Short Temper)"
+  unsuitableDisadvantages: "Afraid of… (Heights, the Sea)"
+  src:
+    - id: US25001E
+      firstPage: 140
+
+- id: P_13
+  name: "Mercenary"
+  suggestedAdvantages: "Direction Sense, Improved Regeneration (Life Points), Increased Life Points"
+  suggestedDisadvantages: "Negative Trait (Superstition, Short Temper)"
+  unsuitableDisadvantages: "Principles, Weak Regeneration (Life Points)"
+  src:
+    - id: US25001E
+      firstPage: 136
+
+- id: P_14
+  name: "Spy"
+  suggestedAdvantages: "Exceptional Sense (Hearing or Sight), Inner Clock, Socially Adaptable"
+  unsuitableDisadvantages: "Negative Trait (Short Temper)"
+  src:
+    - id: US25001E
+      firstPage: 141
+
+- id: P_15
+  name: "Tribal Warrior"
+  suggestedAdvantages: "Direction Sense, Improved Regeneration (Life Points), Increased Life Points, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Frenzy, Obligation I-II (family), Negative Trait (Short Temper, Superstition, Vengeance), Personality Flaw (Arrogance, Prejudice—especially against people outside the tribe)"
+  unsuitableAdvantages: "Aptitude for Social Skills, Socially Adaptable"
+  unsuitableDisadvantages: "Fat, Sensitive to Pain, Slow, Weak Regeneration (Life Points)"
+  src:
+    - id: US25001E
+      firstPage: 142
+
+- id: P_16
+  name: "Rogue"
+  suggestedAdvantages: "Aptitude in Social Skills, Beautiful Voice, Good Looks, Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Avarice, Curiosity, Superstition), Personality Flaw (Vanity)"
+  unsuitableAdvantages: "Frenzy"
+  src:
+    - id: US25001E
+      firstPage: 139
+
+- id: P_17
+  name: "Elven Wyldrunner"
+  suggestedAdvantages: "Darksight II, Direction Sense, Increased Spirit, Sense of Range"
+  suggestedDisadvantages: "Afraid of... (Confined Spaces), Negative Trait (Curiosity)"
+  unsuitableAdvantages: "Socially Adaptable"
+  unsuitableDisadvantages: "Frenzy"
+  src:
+    - id: US25001E
+      firstPage: 145
+
+- id: P_18
+  name: "Elven Spellweaver"
+  suggestedAdvantages: "Darksight II, Direction Sense, Increased Spirit, Sense of Range,"
+  suggestedDisadvantages: "Decreased Toughness, Negative Trait (Curiosity), Personality Flaw (Arrogance)"
+  unsuitableAdvantages: "Socially Adaptable"
+  unsuitableDisadvantages: "Frenzy"
+  src:
+    - id: US25001E
+      firstPage: 144
+
+- id: P_19
+  name: "Cat Witch"
+  subname: Beauty of the Night
+  suggestedAdvantages: "Good Looks, Hidden Aura, Nimble, Pleasant Smelling, Resistant to Aging (only for egg-born), Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Avarice, Vengeance), No Familiar, No Flying Balm, Personality Flaw (Arrogance, Vanity)"
+  unsuitableAdvantages: "Rugged Fighter"
+  unsuitableDisadvantages: "Afraid of (Heights), Ugly"
+  src:
+    - id: US25001E
+      firstPage: 146
+
+- id: P_20
+  name: "Toad Witch"
+  subname: Daughter of the Earth
+  suggestedAdvantages: "Hidden Aura, Improved Regeneration (Arcane Energy), Resistant to Aging (only for egg-born)"
+  suggestedDisadvantages: "Afraid of (Fire), Hair-Bound Power, No Familiar, No Flying Balm, Personality Flaw (Unworldly), Physical Peculiarity"
+  unsuitableAdvantages: "Rugged Fighter, Socially Adaptable"
+  src:
+    - id: US25001E
+      firstPage: 148
+
+- id: P_21
+  name: "Raven Witch"
+  subname: Seer of Today and Tomorrow
+  suggestedAdvantages: "Hidden Aura, Resistant to Aging (only for egg-born)"
+  suggestedDisadvantages: "Negative Trait (Avarice, Curiosity, Vengeance), No Familiar, No Flying Balm, Personality Flaw (Vanity)"
+  unsuitableAdvantages: "Rugged Fighter"
+  unsuitableDisadvantages: "Frenzy"
+  src:
+    - id: US25001E
+      firstPage: 147
+
+- id: P_22
+  name: "Guildless Mage"
+  subname: Student of Magister Dagabor
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Teacher), Personality Flaw (Vanity, Unworldly)"
+  unsuitableDisadvantages: "Decreased Spirit, Frenzy, Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25001E
+      firstPage: 151
+
+- id: P_23
+  name: "Gray Mage"
+  subname: Lowangen School of Transformation
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (academy or the town of Lowangen), Personality Flaw (Unworldly, Vanity), Principles I (help the wounded regardless of status, culture, or race; pacifism; elvish natural worldview)"
+  unsuitableDisadvantages: "Afraid of… (Dead and Undead), Decreased Spirit, Frenzy, Personality Flaw (Prejudice), Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25001E
+      firstPage: 150
+
+- id: P_24
+  name: "Black Mage"
+  subname: Fasar Academy of Mental Power
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Avarice), Obligations II (Academy, or specific teachers at the Academy), Personality Flaw (Arrogance, Vanity)"
+  unsuitableDisadvantages: "Decreased Spirit, Frenzy, Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25001E
+      firstPage: 149
+
+- id: P_25
+  name: "White Mage"
+  subname: Gareth Academy of Sword and Staff
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "protect the Middenrealm and the nobility, faith in the Twelvegods, truthfulness"
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (academy or teacher), Personality Flaw (Vanity)"
+  unsuitableDisadvantages: "Decreased Spirit, Frenzy, Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25001E
+      firstPage: 152
+
+- id: P_26
+  name: "Blessed One of Boron"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Immunity to (Disease), Immunity to (Poison), Inner Clock, Mystic, Pragmatic, Resistant to Disease, Resistant to Poison"
+  suggestedDisadvantages: "Sensitive to Sunlight"
+  unsuitableAdvantages: "Inspire Confidence"
+  unsuitableDisadvantages: "Afraid of… (Dead and Undead), Night-Blind, Sleepwalker, Susceptible to Disease, Susceptible to Poison"
+  src:
+    - id: US25001E
+      firstPage: 153
+    - id: US25005E
+      firstPage: 191
+
+- id: P_27
+  name: "Blessed One of Hesinde"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Increased Spirit, Inner Clock, Inspire Confidence, Mystic, Pragmatic"
+  suggestedDisadvantages: "Negative Trait (Curiosity)"
+  unsuitableDisadvantages: "Frenzy"
+  src:
+    - id: US25001E
+      firstPage: 154
+    - id: US25005E
+      firstPage: 192
+
+- id: P_28
+  name: "Blessed One of Peraine"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Resistant to Disease, Immunity to (Disease), Immunity to (Poison), Increased Spirit, Inspire Confidence, Mystic, Pragmatic, Socially Adaptable"
+  unsuitableAdvantages: "Rich"
+  unsuitableDisadvantages: "Frenzy, Susceptible to Disease, Negative Trait (Avarice), Susceptible to Poison"
+  src:
+    - id: US25001E
+      firstPage: 155
+    - id: US25005E
+      firstPage: 196
+
+- id: P_29
+  name: "Blessed One of Phex"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Ambidextrous, Dwarf’s Nose, Luck, Mystic, Nimble, Pragmatic, Sense of Range, Unremarkable Appearance"
+  suggestedDisadvantages: "Negative Trait (Avarice, Curiosity)"
+  unsuitableDisadvantages: "Bad Luck, Frenzy, Night-Blind"
+  src:
+    - id: US25001E
+      firstPage: 156
+    - id: US25005E
+      firstPage: 195
+
+- id: P_30
+  name: "Blessed One of Praios"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Difficult to Enchant, Increased Spirit, Inner Clock, Inspire Confidence, Mystic, Pragmatic"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity)"
+  unsuitableAdvantages: "Spellcaster"
+  unsuitableDisadvantages: "Frenzy"
+  src:
+    - id: US25001E
+      firstPage: 157
+    - id: US25005E
+      firstPage: 187
+
+- id: P_31
+  name: "Blessed One of Rondra"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Exceptional Combat Technique, Increased Life Points, Increased Spirit, Increased Toughness, Inspire Confidence, Mystic, Pragmatic, Rich, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity)"
+  unsuitableDisadvantages: "Afraid of…, Incompetence in Physical Skills, Sensitive to Pain, Slow"
+  src:
+    - id: US25001E
+      firstPage: 158
+    - id: US25005E
+      firstPage: 188
+
+- id: P_32
+  name: "Adersin Wandering Sword"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Sense of Honor, Duel Code, Protection of the Weak"
+  suggestedAdvantages: "Ambidexterous, Good Looks, Improved Regeneration (Life Points), Increased Life Points, Rich, Rugged Fighter, Socially Adaptable, Weapon Aptitude"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity, Prejudice - especially against warriors, knights, mercenaries), Obligations I (Mentor)"
+  unsuitableAdvantages: "Unremarkable Appearance, all magical and Blessed One advantages"
+  unsuitableDisadvantages: "Fat, Frenzy, Not Free, Poor, Weak Regeneration (Life Points), all magical and Blessed One disadvantages"
+  src:
+    - id: US25003E
+      firstPage: 183
+
+- id: P_33
+  name: "Noble"
+  suggestedAdvantages: "Inspire Confidence, Natural Orator, Rich"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Short Temper, Stinginess, Submissive to Authorities, Wastefulness), Obligations I–II (Liege Lord), Personality Flaw (Arrogance, Vanity, Envy, Feistiness, Spoiled, Prejudice - especially against non-nobles or persons from different cultures), Principles (Upholding the Law, Protecting the Weak, Sense of Honor)"
+  unsuitableAdvantages: "Contortionist, Fox Sense"
+  unsuitableDisadvantages: "Frenzy, Poor, Stigma"
+  src:
+    - id: US25003E
+      firstPage: 200
+
+- id: P_34
+  name: "Baburin Warrior"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Loyalty, Protection of the Weak, Sense of Honor"
+  suggestedAdvantages: "Aptitude (Riding or Driving), Improved Regeneration (Life Points), Increased Life Points, Noble, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Obligations I–II (Academy or Employer), Negative Trait (Submissive to Authorities, Wastefulness), Personality Flaw (Arrogance, Spoiled, Vanity)"
+  unsuitableAdvantages: "All magical and Blessed One advantages"
+  unsuitableDisadvantages: "Fat, Frenzy, Not Free, Poor, Restricted Sense (Sight), Sensitive to Sunlight, Slow, Susceptible to Disease, Weak Regeneration (Life Points), all magical and Blessed One disadvantages"
+  src:
+    - id: US25003E
+      firstPage: 185
+
+- id: P_35
+  name: "Balihoean Warrior"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Loyalty, Protection of the Weak, Sense of Honor"
+  suggestedAdvantages: "Aptitude (Riding or Driving), Improved Regeneration (Life Points), Increased Life Points, Noble, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Obligations I–II (Academy, Employer or Liege Lord)"
+  unsuitableAdvantages: "All magical and Blessed One advantages"
+  unsuitableDisadvantages: "Fat, Frenzy, Not Free, Poor, Sensitive to Sunlight, Slow, Susceptible to Disease, Weak Regeneration (Life Points), all magical and Blessed One disadvantages"
+  src:
+    - id: US25003E
+      firstPage: 186
+
+- id: P_36
+  name: "Farmer"
+  suggestedAdvantages: "Aptitude (Animal Lore or Plant Lore), Luck"
+  suggestedDisadvantages: "Negative Trait (Submissive to Authorities, Superstition), Not Free, Poor, Personality Flaw (Prejudice - especially against nobles, nonhumans, fringe groups, spellcasters)"
+  unsuitableAdvantages: "Rich, Noble, Weapon Aptitude"
+  unsuitableDisadvantages: "Frenzy"
+  src:
+    - id: US25003E
+      firstPage: 192
+
+- id: P_37
+  name: "Dajin Buskur"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Loyalty, Protection of the Weak, Sense of Honor"
+  suggestedAdvantages: "Aptitude (Body Control), Rugged Fighter, Resistant to Poison, Sense of Direction, Weapon Aptitude"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Mentor) Personality Flaw (Arrogance, Prejudice - especially against non-Maraskani)"
+  unsuitableAdvantages: "All magical and Blessed One advantages"
+  unsuitableDisadvantages: "Decrease Life Points, Decreased Toughness, Fat, Frenzy, Night-Blind, Sensitive to Pain, Slow, Weak Regeneration (Life Points), all magical and Blessed One disadvantages"
+  src:
+    - id: US25003E
+      firstPage: 187
+
+- id: P_38
+  name: "Servant"
+  suggestedAdvantages: "Aptitude in Social skills, Luck, Socially Adaptable"
+  suggestedDisadvantages: "Poor, Negative Trait (Superstition)"
+  unsuitableAdvantages: "Noble, Rich, Weapon Aptitude"
+  unsuitableDisadvantages: "Frenzy"
+  src:
+    - id: US25003E
+      firstPage: 204
+
+- id: P_39
+  name: "Elenvinan Warrior"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Loyalty, Protection of the Weak, Sense of Honor"
+  suggestedAdvantages: "Improved Regeneration (Life Points), Increased Life Points, Socially Adaptable, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Obligations I–III (Employer), Personality Flaw (Arrogance, Vanity)"
+  unsuitableAdvantages: "All magical and Blessed One advantages"
+  unsuitableDisadvantages: "Fat, Frenzy, Sensitive to Pain, Weak Regeneration (Life Points), all magical and Blessed One disadvantages"
+  src:
+    - id: US25003E
+      firstPage: 189
+
+- id: P_40
+  name: "Explorer"
+  suggestedAdvantages: "Direction Sense, Dwarf's Nose, Inner Clock, Resistant to Cold, Resistant to Disease, Resistant to Heat, Resistant to Poison, Sense of Range"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Greed)"
+  unsuitableDisadvantages: "Fear of … (Cramped Spaces, Darkness, Heights), Negative Trait (Superstition), Incompetent in Knowledge and Nature skills"
+  src:
+    - id: US25003E
+      firstPage: 191
+
+- id: P_41
+  name: "Fedorino Wandering Sword"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Sense of Honor, Duel Code, Protection of the Weak"
+  suggestedAdvantages: "Ambidexterous, Good Looks, Improved Regeneration (Life Points), Increase Life Points, Rich, Rugged Fighter, Socially Adaptable, Weapon Aptitude"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Gambling Addiction, Wastefulness), Obligations I (Mentor), Personality Flaw (Arrogance, Vanity)"
+  unsuitableAdvantages: "Unremarkable Appearance, all magical and Blessed One advantages"
+  unsuitableDisadvantages: "Fat, Frenzy, Not Free, Poor, Weak Regeneration (Life Points), all magical and Blessed One disadvantages"
+  src:
+    - id: US25003E
+      firstPage: 193
+
+- id: P_42
+  name: "Scholar"
+  suggestedAdvantages: "Aptitude in Knowledge skills, Inspire Confidence"
+  suggestedDisadvantages: "Incompetent in Physical and Social skills, Negative Trait (Curiosity, Naïve), Personality Flaw (Arrogance, Envy, Unworldly, Vanity)"
+  unsuitableAdvantages: "Aptitude in Physical skills"
+  unsuitableDisadvantages: "Frenzy, Negative Trait (Superstitious)"
+  src:
+    - id: US25003E
+      firstPage: 203
+
+- id: P_43
+  name: "Shepherd"
+  suggestedAdvantages: "Luck, Inner Clock, Sense of Direction, Sense of Range"
+  suggestedDisadvantages: "Negative Trait (Superstitious, Curiosity), Poor, Obligations (Employer)"
+  unsuitableAdvantages: "Rich, Natural Orator, Noble"
+  src:
+    - id: US25003E
+      firstPage: 205
+
+- id: P_44
+  name: "Hylailian Warrior"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Loyalty, Protection of the Weak, Sense of Honor"
+  suggestedAdvantages: "Good Looks, Improved Regeneration (Life Points), Increased Life Points, Rich, Rugged Fighter, Socially Adaptable, Weapon Aptitude"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity)"
+  unsuitableAdvantages: "Unremarkable Appearance, all magical and Blessed One advantages"
+  unsuitableDisadvantages: "Fat, Frenzy, Not Free, Personality Flaw (Prejudice), Poor, Weak Regeneration (Life Points), all magical and Blessed One advantages"
+  src:
+    - id: US25003E
+      firstPage: 195
+
+- id: P_45
+  name: "Artist"
+  suggestedAdvantages: "Aptitude in Craft and Knowledge skills"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Personality Flaw (Arrogance, Vanity)"
+  unsuitableDisadvantages: "Blind, Colorblind, Deaf, Frenzy"
+  src:
+    - id: US25003E
+      firstPage: 184
+
+- id: P_46
+  name: "Marwan Sahib-Balayan"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Loyalty, Combat against Lizard Machinations, Protection of the Weak"
+  suggestedAdvantages: "Contortionist, Difficult to enchant, Fox Sense, Immunity to Poison, Increased Spirit, Inner Clock, Resistant to Poison, Sense of Direction, Sense of Range, Weapon Aptitude"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Mentor, Employer), Personality Flaw (Arrogance, Prejudice - especially against lizardfolk, Unpleasant)"
+  unsuitableAdvantages: "Noble, all magical and Blessed One advantages"
+  unsuitableDisadvantages: "Fat, Frenzy, Night-Blind, Slow, Decreased Spirit, all magical and Blessed One disadvantages"
+  src:
+    - id: US25003E
+      firstPage: 197
+
+- id: P_47
+  name: "Mechanicus"
+  suggestedAdvantages: "Aptitude (Mechanics), Exceptional Sense, Inner Clock, Resistant to Heat"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity), Obligations I (Guild)"
+  unsuitableAdvantages: "Exceptional Combat Technique, Weapon Aptitude"
+  unsuitableDisadvantages: "Color-Blind, Frenzy, Incompetent (Mechanics), Susceptible to Heat"
+  src:
+    - id: US25003E
+      firstPage: 198
+
+- id: P_48
+  name: "Mengbilla Warrior"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Loyalty, Protection of the Weak, Sense of Honor"
+  suggestedAdvantages: "Improved Regeneration (Life Points), Increased Life Points, Resistant to Heat, Resistant to Poison, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Negative Trait (Gambling Addiction, Greed for Gold), Obligations I–III (Employer), Personality Flaw (Feistiness, Unpleasant)"
+  unsuitableAdvantages: "Inspire Confidence, all magical and Blessed One advantages"
+  unsuitableDisadvantages: "Fat, Fear of Dead and Undead, Frenzy, Sensitive to Pain, Weak Regeneration (Life Points)"
+  src:
+    - id: US25003E
+      firstPage: 199
+
+- id: P_49
+  name: "Premian Warrior"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Loyalty, Protection of the Weak, Sense of Honor"
+  suggestedAdvantages: "Improved Regeneration (Life Points), Increased Life Points, Rich, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Obligations I (Employer)"
+  unsuitableAdvantages: "Unremarkable Appearance, all magical and Blessed One advantages"
+  unsuitableDisadvantages: "Not Free, Rugged Fighter, Slow, Weak Regeneration (Life Points), Weapon Aptitude, all magical and Blessed One disadvantages"
+  src:
+    - id: US25003E
+      firstPage: 200
+
+- id: P_50
+  name: "Smith"
+  suggestedAdvantages: "Aptitude (Metalworking), Increased Toughness, Resistant to Heat, Rugged Fighter"
+  suggestedDisadvantages: "Obligations (Guild), Restricted Sense (Hearing)"
+  unsuitableAdvantages: "Noble"
+  unsuitableDisadvantages: "Blind, Color-Blind, Decreased Toughness, Fear of Fire, Sensitive to Pain, Susceptible to Heat"
+  src:
+    - id: US25003E
+      firstPage: 206
+
+- id: P_51
+  name: "Escaped Slave"
+  suggestedAdvantages: "Beautiful Voice, Good Looks, Inner Clock, Luck, Socially Adaptable"
+  suggestedDisadvantages: "Maimed, Misfortunate, Mute, Personality Flaw (Submissive to Authorities)"
+  unsuitableAdvantages: "Noble, Weapon Aptitude"
+  src:
+    - id: US25003E
+      firstPage: 190
+
+- id: P_52
+  name: "Soldier"
+  suggestedAdvantages: "Improved Regeneration (Life Points), Increased Life Points, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Obligations I–III (Employer), Poor"
+  unsuitableAdvantages: "Noble, all magical and Blessed One advantages"
+  unsuitableDisadvantages: "Sensitive to Pain, Weak Regeneration (Life Points)"
+  src:
+    - id: US25003E
+      firstPage: 207
+
+- id: P_53
+  name: "Day Laborer"
+  suggestedAdvantages: "Increased Toughness, Resistant to Heat, Rugged Fighter, Unremarkable Appearance"
+  suggestedDisadvantages: "Bad Luck, Fear of Heights, Incompetent in Knowledge skills, Maimed (limbs that are irrelevant for the work), Misfortunate, Negative Trait (Superstition), Not Free, Personality Flaw (Gambling Addiction, Wastefulness), Poor"
+  unsuitableAdvantages: "Noble, Rich"
+  unsuitableDisadvantages: "Fat, Maimed (limb relevant for the work), Sensitive to Pain, Slow"
+  src:
+    - id: US25003E
+      firstPage: 188
+
+- id: P_54
+  name: "Guide"
+  suggestedAdvantages: "Aptitude (Survival), Exceptional Sense (Hearing), Resistant to Bloody Phlegm, Resistant to Brabakan Sweat, Resistant to Heat, Resistant to Poison, Sense of Direction"
+  suggestedDisadvantages: "Incompetent in Social skills"
+  unsuitableAdvantages: "Noble, Resistant to Cold, Socially Adaptable"
+  unsuitableDisadvantages: "Blind, Fear of Insects/Lizards, Night-Blind, Incompetent in Nature skills, Susceptible to Disease, Susceptible to Poison"
+  src:
+    - id: US25003E
+      firstPage: 194
+
+- id: P_55
+  name: "Inkeeper"
+  suggestedAdvantages: "Aptitude (Empathy), Inspire Confidence"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Greed, Greed for Gold, Superstitious)"
+  unsuitableAdvantages: "Noble"
+  unsuitableDisadvantages: "Fear of Cramped Spaces, Incompetent (Empathy), Restricted Sense (Smell & Taste)"
+  src:
+    - id: US25003E
+      firstPage: 196
+
+- id: P_56
+  name: "Pastry Chef"
+  suggestedAdvantages: "Aptitude (Prepare Food), Exceptional Sense (Smell & Taste), Inner Clock, Inspire Confidence, Pleasant Smelling, Resistant to Heat"
+  suggestedDisadvantages: "Fat, Obligations I (Guild), Personality Flaw (Arrogance, Vanity), Slow"
+  unsuitableAdvantages: "Exceptional Combat Technique, Weapon Aptitude"
+  unsuitableDisadvantages: "Color-Blind, Frenzy, Incompetent (Prepare Food), Restricted Sense (Smell & Taste), Susceptible to Heat"
+  src:
+    - id: US25003E
+      firstPage: 201
+
+- id: P_57
+  name: "Ceoladir"
+  prerequisitesStart: "Culture: Middenrealm (from Albernia)"
+  suggestedAdvantages: "Beautiful Voice, Good Looks I, Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations I (Teacher, Patron), Personality Flaw (Arrogance, Vanity)"
+  unsuitableDisadvantages: "Deaf, Mute, Speech Impediment"
+  src:
+    - id: US25004E
+      firstPage: 181
+
+- id: P_58
+  name: "Dervish"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Order of the Dervishes"
+  prerequisitesStart: "Culture: Novadi"
+  suggestedAdvantages: "Increased Spirit, Increased Toughness, Resistant to Heat, Rugged Fighter."
+  suggestedDisadvantages: "Hair-Bound Power, Personality Flaw (Arrogance, Prejudice Against Lizard People and Infidels)"
+  unsuitableAdvantages: "Hidden Aura, Magical Attunement (Creatures of the Night)"
+  unsuitableDisadvantages: "Deaf, Decreased Spirit, Fat, Sensitive to Pain, Slow"
+  src:
+    - id: US25004E
+      firstPage: 182
+
+- id: P_59
+  name: "Guildless Mage"
+  subname: Magister Dagabor's Student
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Teacher), Personality Flaw (Vanity, Unworldly)"
+  unsuitableDisadvantages: "Decreased Spirit, Frenzy, Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25004E
+      firstPage: 192
+
+- id: P_60
+  name: "Guildless Mage"
+  subname: Donnerbach Seminar of Elven Communication and Natural Healing
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 1
+      sid: "Intercultural Understanding, Peaceful Nature"
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Academy, Teacher, Order of the Anconites), Personality Flaw (Vanity, Unworldly)"
+  unsuitableDisadvantages: "Decreased Spirit, Frenzy, Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25004E
+      firstPage: 190
+
+- id: P_61
+  name: "Guildless Mage"
+  subname: Vadif sal Karim's Student
+  prerequisitesStart: "Culture: Novadi"
+  suggestedAdvantages: "Direction Sense, Immunity to (Poison), Improved Regeneration (Arcane Energy), Magical Attunement (Creatures of the Desert), Resistant to Heat"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Superstition), Obligations II (Teacher, Tribe), Personality Flaw (Prejudice Against Infidels and/or Women), Principles (99 Laws of Rastullah)"
+  unsuitableDisadvantages: "Susceptible to Heat, Sensitive to Sunlight"
+  src:
+    - id: US25004E
+      firstPage: 193
+
+- id: P_62
+  name: "Guildless Mage"
+  subname: Khelbara ay Baburia's Student
+  suggestedAdvantages: "Immunity to (Disease), Immunity to (Poison), Increased Toughness, Resistant to Disease, Resistant to Poison"
+  suggestedDisadvantages: "Negative Trait (Avarice, Curiosity, Wastefulness), Personality Flaw (Arrogance, Envy, Vanity), Principles (Peaceful Nature, Vegetarian Lifestyle)"
+  unsuitableAdvantages: "Noble"
+  unsuitableDisadvantages: "Frenzy, Susceptible to Disease"
+  src:
+    - id: US25004E
+      firstPage: 191
+
+- id: P_63
+  name: "Gray Mage"
+  subname: Gerasim School of the Direct Path
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Intercultural Understanding, Peaceful Nature"
+  suggestedAdvantages: "Direction Sense, Nimble, Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Gullible), Obligations II (Guild, Academy, Teacher), Personality Flaw (Arrogance, Vanity), True Name"
+  unsuitableDisadvantages: "Frenzy, Personality Flaw (Prejudice)"
+  src:
+    - id: US25004E
+      firstPage: 183
+
+- id: P_64
+  name: "Gray Mage"
+  subname: Kuslik Hall of Anti-Magic
+  suggestedAdvantages: "Noble, Increased Spirit, Rich"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Spoiled), Obligations II (Guild, Academy, Teacher, Noble House), Personality Flaw (Arrogance, Vanity)"
+  unsuitableDisadvantages: "Not Free, Personality Flaw (Unworldly), Ugly"
+  src:
+    - id: US25004E
+      firstPage: 184
+
+- id: P_65
+  name: "Gray Mage"
+  subname: Thorwal School of Clairvoyance
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit, Natural Orator"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Guild, Academy, Teacher), Personality Flaw (Arrogance), Principles (Defending the Land's Freedom, Political Neutrality, Protecting Those Persecuted for their Views)"
+  unsuitableDisadvantages: "Afraid of (Water), Negative Trait (Spoiled), Personality Flaw (Prejudice, Unworldly)"
+  src:
+    - id: US25004E
+      firstPage: 188
+
+- id: P_66
+  name: "Gray Mage"
+  subname: Punin Academy of High Magic
+  suggestedAdvantages: "Aptitude (One or More Knowledge Skills), Noble, Improved Regeneration (Arcane Energy)"
+  suggestedDisadvantages: "Fat, Obligations II (Guild, Academy, Teacher), Personality Flaw (Arrogance, Unworldly), Slow"
+  unsuitableAdvantages: "Contortionist, Exceptional Combat Technique, Nimble, Rugged Fighter"
+  unsuitableDisadvantages: "Frenzy, Negative Trait (Short Temper)"
+  src:
+    - id: US25004E
+      firstPage: 186
+
+- id: P_67
+  name: "Gray Mage"
+  subname: Zorgan School of Existing Pretense
+  suggestedAdvantages: "Good Looks, Improved Regeneration (Arcane Energy)"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Guild, Academy, Teacher), Personality Flaw (Jealousy, Vanity)"
+  unsuitableAdvantages: "Unremarkable Appearance"
+  unsuitableDisadvantages: "Blind, Colorblind, Deaf, Frenzy, Personality Flaw (Unworldly)"
+  src:
+    - id: US25004E
+      firstPage: 189
+
+- id: P_68
+  name: "Gray Mage"
+  subname: Lowangen Academy of Transformation
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Guild, Academy, Teacher, City of Lowangen), Personality Flaw (Vanity, Unworldly), Principles I (Help the Injured - No Matter Their Station, Culture, or Race; Pacifism, Elvish Natural Worldview)"
+  unsuitableDisadvantages: "Afraid of (Dead and Undead), Decreased Spirit, Frenzy, Personality Flaw (Prejudice), Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25004E
+      firstPage: 185
+
+- id: P_69
+  name: "Gray Mage"
+  subname: Sinoda School of Fourfold Transformation
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Improved Spirit, Resistant to Heat"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Guild, Academy, Teacher), Personality Flaw (Arrogance, Vanity, Prejudiced Against NonMaraskani), Principles (Rur and Gror Faith, Freedom for Maraskan)"
+  unsuitableAdvantages: "Resistant to Cold"
+  unsuitableDisadvantages: "Frenzy, Personality Flaw (Jealous)"
+  src:
+    - id: US25004E
+      firstPage: 187
+
+- id: P_70
+  name: "Hazaqi"
+  prerequisitesStart: "Culture: Zahori"
+  suggestedAdvantages: "Aptitude (Dancing), Good Looks, Hidden Aura"
+  suggestedDisadvantages: "Negative Trait (Short Temper, Vengeance), Obligations II (Teacher, Kinship) Personality Flaw (Arrogance, Vanity)"
+  unsuitableAdvantages: "Noble"
+  unsuitableDisadvantages: "Deaf, Maimed (One Legged), Slow, Ugly"
+  src:
+    - id: US25004E
+      firstPage: 194
+
+- id: P_71
+  name: "Intuitive Mage (Magical Scoundrel)"
+  suggestedAdvantages: "Contortionist, Darksight I, Dwarf's Nose, Fox Sense, Hidden Aura"
+  suggestedDisadvantages: "Magical Restriction, Physical Peculiarity, Stigma, Weak Astral Body, Wild Magic"
+  unsuitableDisadvantages: "Artifact-Bound"
+  src:
+    - id: US25004E
+      firstPage: 197
+
+- id: P_72
+  name: "Majuna"
+  prerequisitesStart: "Culture: Arania"
+  suggestedAdvantages: "Aptitude (Dancing), Good Looks, Nimble"
+  suggestedDisadvantages: "Negative Trait (Gullible), Obligations II (Teacher, Dance Troupe) Personality Flaw (Arrogance, Vanity)"
+  unsuitableDisadvantages: "Deaf, Maimed (One-Legged), Slow, Ugly"
+  src:
+    - id: US25004E
+      firstPage: 198
+
+- id: P_73
+  name: "Qabaloth of the Daughters of Niobara"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Qabalya"
+  suggestedAdvantages: "Exceptional Sense (Sight), Hidden Aura, Increased Spirit, Socially Adaptable, Unremarkable Appearance"
+  suggestedDisadvantages: "Magical Restriction (Curse of the Night), Negative Trait (Curiosity), Personality Flaw (Arrogance, Vanity), Principles (Keeper of the Mysteries of Niobara's Legacy)"
+  unsuitableDisadvantages: "Blind, Decreased Spirit, Night-Blind, Wild Magic"
+  src:
+    - id: US25004E
+      firstPage: 199
+
+- id: P_74
+  name: "Rahkisa"
+  prerequisitesStart: "Culture: Novadi"
+  suggestedAdvantages: "Aptitude (Dancing), Good Looks"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Prejudice), Obligations II (Teacher, Tribe), Personality Flaw (Arrogance, Vanity), Principles (99 Laws of Rastullah)"
+  unsuitableDisadvantages: "Deaf, Maimed (OneLegged), Slow, Ugly"
+  src:
+    - id: US25004E
+      firstPage: 200
+
+- id: P_75
+  name: "Sangara"
+  prerequisitesStart: "Culture: Thorwaler"
+  suggestedAdvantages: "Beautiful Voice, Luck, Magical Attunement (Creature of the Forest), Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Vengeance), Personality Flaw (Arrogance, Unpleasant, Unworldly), Physical Peculiarity, Principles (Faith in Ögnir), Stigma"
+  unsuitableDisadvantages: "Deaf, Mute, Speech Impediment, Susceptible to Cold"
+  src:
+    - id: US25004E
+      firstPage: 201
+
+- id: P_76
+  name: "Illusionist"
+  suggestedAdvantages: "Exceptional Sense, Increased Arcane Power, Natural Orator, Socially Adaptable"
+  suggestedDisadvantages: "Magical Restriction (Curse of the Stage), Negative Trait (Avarice, Curiosity), Personality Flaw (Vanity)"
+  unsuitableAdvantages: "Unremarkable Appearance"
+  unsuitableDisadvantages: "Blind, Colorblind, Deaf,Mute, Speech Impediment"
+  src:
+    - id: US25004E
+      firstPage: 196
+
+- id: P_77
+  name: "Black Mage"
+  subname: Al'Anfa Hall of Illumination
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Avarice, Curiosity), Obligations II (Guild, Academy, Teacher, Grande's Family, Empire), Personality Flaw (Arrogance, Jealousy, Vanity)"
+  unsuitableDisadvantages: "Afraid of (Water), Decreased Spirit, Frenzy"
+  src:
+    - id: US25004E
+      firstPage: 178
+
+- id: P_78
+  name: "Black Mage"
+  subname: Demirion Ophenos's Student
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Vengeance), Obligations II (Teacher), Personality Flaw (Arrogance, Unpleasant), Physical Peculiarity"
+  unsuitableDisadvantages: "Afraid of (Dead and Undead), Decreased Spirit"
+  src:
+    - id: US25004E
+      firstPage: 180
+
+- id: P_79
+  name: "Black Mage"
+  subname: Fasar Academy of Mental Power
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirit"
+  suggestedDisadvantages: "Negative Trait (Avarice, Curiosity), Obligations II (Guild, Academy, Teacher), Personality Flaw (Arrogance, Vanity)"
+  unsuitableDisadvantages: "Decreased Spirit, Frenzy, Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25004E
+      firstPage: 179
+
+- id: P_80
+  name: "Sharisad"
+  prerequisitesStart: "Culture: Tulamydes or Mhanadistani"
+  suggestedAdvantages: "Aptitude (Dancing), Good Looks"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations (Teacher, Patron), Personality Flaw (Arrogance, Vanity)"
+  unsuitableDisadvantages: "Deaf, Maimed (OneLegged), Slow, Ugly"
+  src:
+    - id: US25004E
+      firstPage: 202
+
+- id: P_81
+  name: "White Mage"
+  subname: Gareth Academy of Sword and Staff
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Protect the Middenrealm and its Nobility, Faith in the Twelvegods, Veraciousness"
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirt"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations II (Guild, Academy, Teacher, Middenrealm), Personality Flaw (Vanity)"
+  unsuitableDisadvantages: "Decreased Spirit, Frenzy, Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25004E
+      firstPage: 203
+
+- id: P_82
+  name: "White Mage"
+  subname: Hesindius Lightgaze's Student
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 1
+      sid: "Helpfulness, Banishing Evil"
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirt"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Gullible, Submissive to Authorities), Personality Flaw (Unworldly), Obligations II (Guild, Teacher, Horasian Empire)"
+  unsuitableDisadvantages: "Decreased Regeneration (Arcane Energy), Decreased Spirit, Frenzy, Negative Trait (Short Temper, Vengeance), Personality Flaw (Arrogance, Unpleasant, Short Temper, Vanity)"
+  src:
+    - id: US25004E
+      firstPage: 204
+
+- id: P_83
+  name: "White Mage"
+  subname: Perricum School of Exorcism
+  suggestedAdvantages: "Improved Regeneration (Arcane Energy), Increased Spirt"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Obligations (Guild, Academy, Teacher, Order of the Noionites, Middenrealm), Personality Flaw (Arrogance)"
+  unsuitableDisadvantages: "Afraid of (Dead and Undead), Frenzy, Personality Flaw (Short Temper)"
+  src:
+    - id: US25004E
+      firstPage: 205
+
+- id: P_84
+  name: "Bowyer"
+  suggestedAdvantages: "Range Sense, Exceptional Sense (Sight)"
+  unsuitableAdvantages: "Noble"
+  unsuitableDisadvantages: "Blind, Restricted Sense (Sight), Incompetent (Woodworking), Maimed"
+  src:
+    - id: US25101E
+      firstPage: 142
+
+- id: P_85
+  name: "Dike Builder"
+  suggestedAdvantages: "Direction Sense, Range Sense, Resistant to Cold, Time Sense"
+  suggestedDisadvantages: "Negative Trait (Superstition), Obligations (Landholder)"
+  unsuitableAdvantages: "Noble, Rich"
+  unsuitableDisadvantages: "Blind, Susceptible to Cold, Susceptible to Disease"
+  src:
+    - id: US25101E
+      firstPage: 142
+      lastPage: 143
+
+- id: P_86
+  name: "Lumberjack"
+  suggestedAdvantages: "Talent (Woodworking), Increased Toughness"
+  suggestedDisadvantages: "Decreased Spirit, Negative Trait (Superstitious), Personality Flaw (Unpleasant, Unworldly)"
+  unsuitableAdvantages: "Noble"
+  unsuitableDisadvantages: "Decreased Toughness"
+  src:
+    - id: US25101E
+      firstPage: 143
+
+- id: P_87
+  name: "Knights of the Warring Kingdoms"
+  subname: See Knight
+  prerequisitesStart: "Culture: Nostrian"
+  suggestedAdvantages: "Increased Life Points, Improved Regeneration (Life Points), Rugged Fighter"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity, Prejudices against Andergastans), Principles I-III (Knight's code: behave honorably, protect the weak), Negative Trait (Superstition), Obligations II (Liege)"
+  unsuitableDisadvantages: "Fat, Frenzy, Weak Regeneration (Life Points)"
+  src:
+    - id: US25101E
+      firstPage: 144
+
+- id: P_88
+  name: "Knights of the Warring Kingdoms"
+  subname: Forest Knight
+  prerequisitesStart: "Culture: Andergastan"
+  suggestedAdvantages: "Increased Life Points, Improved Regeneration (Life Points), Rugged Fighter"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity, Prejudices against Nostrians), Principles I-III (Knight's code: behave honorably, protect the weak), Negative Trait (Superstition), Obligations II (Liege)"
+  unsuitableDisadvantages: "Fat, Frenzy, Weak Regeneration (Life Points)"
+  src:
+    - id: US25101E
+      firstPage: 144
+
+- id: P_89
+  name: "Gray Mage"
+  subname: Combat Seminar of Andergast
+  suggestedAdvantages: "Direction Sense, Improved Regeneration (Arcane Energy), Increased Spirit, Range Sense, Rugged Fighter"
+  suggestedDisadvantages: "Negative Trait (Curiosity), Personality Flaw (Prejudice, mostly against Nostrians and Women; Unwordly), Obligations II (Academy, Guild, Kingdom of Andergast)"
+  unsuitableDisadvantages: "Decreased Regeneration (Arcane Energy), Decreased Spirit, Frenzy"
+  src:
+    - id: US25101E
+      firstPage: 145
+
+- id: P_90
+  name: "White Mage"
+  subname: Academy of Light and Darkness in Nostria
+  suggestedAdvantages: "Increased Spirit, Improved Regeneration (Arcane Energy)"
+  suggestedDisadvantages: "Negative Trait (Curious, Unworldly), Obligations II (Academy, Guild, Kingdom of Nostria or Order of the Serpent of Knowledge)"
+  unsuitableDisadvantages: "Afraid of... (Darkness), Decreased Spirit, Frenzy, LightSensitive, Negative Trait (Greed), Night-Blind, Personality Flaw (Arrogance, Vanity), Weak Regeneration (Arcane Energy)"
+  src:
+    - id: US25101E
+      firstPage: 145
+
+- id: P_91
+  name: "Owl Witch"
+  subname: Silent Sisterhood
+  suggestedAdvantages: "Resistant to Aging (only for Egg-Born), Hidden Aura"
+  suggestedDisadvantages: "No Flying Balm, No Familiar, Negative Trait (Curiosity, Short Temper, Vengeance)"
+  src:
+    - id: US25101E
+      firstPage: 146
+
+- id: P_92
+  name: "Serpent Witch"
+  subname: Sisterhood of Knowledge
+  suggestedAdvantages: "Resistant to Aging (only for Egg-Born), Hidden Aura"
+  suggestedDisadvantages: "No Flying Balm, No Familiar, Negative Trait (Curiosity, Short Temper, Vengeance)"
+  unsuitableDisadvantages: "Afraid of…(Snakes)"
+  src:
+    - id: US25101E
+      firstPage: 147
+
+- id: P_93
+  name: "Druid"
+  subname: Augmenter of Power
+  suggestedAdvantages: "Direction Sense, Improved Regeneration (Arcane Energy), Increased Spirit, Resistant to Disease"
+  suggestedDisadvantages: "Negative Trait (Curiosity)"
+  unsuitableAdvantages: "Iron-Attuned Aura"
+  unsuitableDisadvantages: "Weak Regeneration (Arcane Energy), Decreased Spirit, Frenzy"
+  src:
+    - id: US25101E
+      firstPage: 148
+
+- id: P_94
+  name: "Druid"
+  subname: Servant of Sumu
+  suggestedAdvantages: "Direction Sense, Improved Regeneration (Arcane Energy), Increased Spirit, Resistant to Disease"
+  suggestedDisadvantages: "Annoyed by Minor Spirits, Negative Trait (Curiosity)"
+  unsuitableAdvantages: "Iron-Attuned Aura"
+  unsuitableDisadvantages: "Weak Regeneration (Arcane Energy), Decreased Spirit, Frenzy"
+  src:
+    - id: US25101E
+      firstPage: 148
+
+- id: P_95
+  name: "Blessed One of Efferd"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Aptitude (Swimming, Sailing), Darksight I, Direction Sense, Natural Orator, Resistant to Cold, Sense of Range"
+  suggestedDisadvantages: "Personality Flaw (Short Temper), Negative Trait (Superstition)"
+  unsuitableDisadvantages: "Afraid of… (The Sea), Night-Blind, Negative Trait (Vengeance), Not Free, Susceptible to Cold"
+  src:
+    - id: US25005E
+      firstPage: 189
+
+- id: P_96
+  name: "Blessed One of Travia"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Increased Spirit, Inspire Confidence, Mystic, Pragmatic"
+  suggestedDisadvantages: "Negative Trait (Gullible), Poor"
+  unsuitableDisadvantages: "Frenzy, Personality Flaw (Vanity, Unpleasant), Negative Trait (Avarice)"
+  src:
+    - id: US25005E
+      firstPage: 190
+
+- id: P_97
+  name: "Blessed One of Firun"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Direction Sense, Increased Life Points, Increased Spirit, Increased Toughness, Mystic, Pragmatic, Rugged Figh"
+  suggestedDisadvantages: "Personality Flaw (Unpleasant, Unworldly)"
+  unsuitableAdvantages: "Socially Adaptable"
+  unsuitableDisadvantages: "Afraid of (...), Negative Trait (Stinginess, Wastefulness), Personality Flaw (Spoiled), Slow, Sensitive to Pain, Susceptible to Cold"
+  src:
+    - id: US25005E
+      firstPage: 193
+
+- id: P_98
+  name: "Blessed One of Tsa"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Increased Spirit, Increased Toughness, Inspire Confidence, Luck, Mystic, Pragmatic, Resistant to Aging, Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Gullible, Wastefulness), Personality Flaw (Unworldly)"
+  unsuitableAdvantages: "Exceptional Combat Technique, Weapon Aptitude"
+  unsuitableDisadvantages: "Frenzy, Negative Trait (Submissive to Authorities, Vengeance), Personality Flaw (Feistiness)"
+  src:
+    - id: US25005E
+      firstPage: 194
+
+- id: P_99
+  name: "Blessed One of Ingerimm"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Aptitude (Craft Skill), Exceptional Skill (Craft Skill), Inspire Confidence, Mystic, Pragmatic, Resistant to Heat, Rugged Fighter, Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Short Temper), Personality Flaw (Arrogance)"
+  unsuitableAdvantages: "Pleasant Smelling"
+  unsuitableDisadvantages: "Afraid of Fire, Decreased Toughness, Incompetent (Craft Skill), Susceptible to Heat"
+  src:
+    - id: US25005E
+      firstPage: 197
+
+- id: P_100
+  name: "Blessed One of Rahja"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Beautiful Voice, Exceptional Sense, Good Looks, Increased Spirit, Increased Toughness, Inspire Confidence, Mystic, Pleasant Smelling, Pragmatic"
+  suggestedDisadvantages: "Decreased Toughness, Negative Trait (Curiosity), Personality Flaw (Spoiled, Vanity)"
+  unsuitableDisadvantages: "Colorblind, Frenzy, Maimed, Restricted Sense, Speech Impediment, Susceptible to Disease, Ugly"
+  src:
+    - id: US25005E
+      firstPage: 198
+
+- id: P_101
+  name: "Blessed One of Aves"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Church"
+  suggestedAdvantages: "Direction Sense, Increased Spirit, Increased Toughness, Luck, Mystic, Pragmatic, Sense of Range, Socially Adaptable"
+  suggestedDisadvantages: "Negative Trait (Curiosity)"
+  unsuitableDisadvantages: "Frenzy, Misfortune, Negative Trait (Submissive to Authorities), Not Free, Personality Flaw (Spoiled)"
+  src:
+    - id: US25005E
+      firstPage: 199
+
+- id: P_102
+  name: "Blessed One of Ifirn"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Direction Sense, Increased Life Energy, Increased Spirit, Increased Toughness, Inspire Confidence, Mystic, Pragmatic, Rugged Fighter"
+  suggestedDisadvantages: "Negative Trait (Naïve), Personality Flaw (Unworldly)"
+  unsuitableAdvantages: "Socially Adaptable"
+  unsuitableDisadvantages: "Decreased Toughness, Negative Trait (Short Temper, Vengeance), Night-Blind, Personality Flaw (Spoiled), Susceptible to Cold"
+  src:
+    - id: US25005E
+      firstPage: 200
+
+- id: P_103
+  name: "Blessed One of Kor"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Exceptional Combat Technique, Increased Life Points, Increased Spirit, Increased Toughness, Mystic, Pragmatic, Rich, Rugged Fighter, Socially Adaptable, Weapon Aptitude"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Unpleasant), Negative Trait (Short Temper)"
+  unsuitableAdvantages: "Spellcaster"
+  unsuitableDisadvantages: "Afraid of ..., Incompetent (Physical Skills), Sensitive to Pain, Slow"
+  src:
+    - id: US25005E
+      firstPage: 201
+
+- id: P_104
+  name: "Blessed One of Nandus"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Temple, Church"
+  suggestedAdvantages: "Increased Spirit, Inspires Confidence, Mystic, Natural Orator, Pragmatic, Socially Adaptable"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Vanity), Negative Trait (Curiosity)"
+  unsuitableDisadvantages: "Frenzy, Personality Flaw (Submissive to Authority)"
+  src:
+    - id: US25005E
+      firstPage: 202
+
+- id: P_105
+  name: "Blessed One of Swafnir"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Thorwal, Temple, Community"
+  prerequisitesStart: "Culture: Thorwaler"
+  suggestedAdvantages: "Direction Sense, Increased Spirit, Increased Toughness, Inspire Confidence, Mystic, Pragmatic, Rugged Fighter"
+  suggestedDisadvantages: "Negative Trait (Curiosity, Short Temper), Personality Flaw (Prejudiced)"
+  unsuitableAdvantages: "Noble, Socially Adaptable"
+  unsuitableDisadvantages: "Afraid of … (The Ocean), Frenzy, Not Free"
+  src:
+    - id: US25005E
+      firstPage: 203
+
+- id: P_106
+  name: "Amazon"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 1
+      sid: "Castle"
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Obedience, Loyalty, Honor"
+  suggestedAdvantages: "Exceptional Combat Technique, Increased Life Points, Nimble, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Personality Flaw (Arrogance, Prejudiced – especially against men – Unworldly)"
+  unsuitableDisadvantages: "Sensitive to Pain, Slow"
+  src:
+    - id: US25005E
+      firstPage: 204
+
+- id: P_107
+  name: "Draconite"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Order, Magister of Magisters"
+    - id: DISADV_34
+      active: true
+      level: 1
+      sid: "Church of Hesinde, Rules of the Order"
+  suggestedAdvantages: "Increased Spirit, Increased Toughness, Inner Clock, Inspire Confidence, Natural Orator"
+  suggestedDisadvantages: "Personality Flaw (Arrogance), Negative Trait (Curiosity)"
+  unsuitableDisadvantages: "Frenzy"
+  src:
+    - id: US25005E
+      firstPage: 205
+
+- id: P_108
+  name: "Golgarite"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Order"
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Rules of the Order, Church of Boron"
+  suggestedAdvantages: "Increased Life Points, Increased Spirit, Noble, Rugged Fighter, Weapon Aptitude"
+  suggestedDisadvantages: "Bad Luck, Deaf, Mute, Personality Flaw (Unpleasant)"
+  unsuitableDisadvantages: "Afraid of… (Darkness, Death, or Undead)"
+  src:
+    - id: US25005E
+      firstPage: 206
+
+- id: P_109
+  name: "Blessed One the Nameless One"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Conspiracy, Church"
+    - id: DISADV_34
+      active: true
+      level: 1
+      sid: "Church of the Nameless One"
+  suggestedAdvantages: "Increased Spirit, Increased Toughness, Inspire Confidence, Mystic, Pragmatic, Natural Orator, Resistant to Poison, Socially Adaptable"
+  suggestedDisadvantages: "Bad Luck, Maimed, Misfortune, Negative Trait (Avarice, Short Temper, Vengeance), Personality Flaw (Arrogance, Unpleasant), Stigma"
+  unsuitableDisadvantages: "Negative Trait (Naïve)"
+  src:
+    - id: US25005E
+      firstPage: 207

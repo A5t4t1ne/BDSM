@@ -1,0 +1,119 @@
+- id: SPELL_52
+  name: "mords le granit!"
+  effect: |
+    Les aliments solides que la victime touche deviennent de la pierre ou une autre substance que la sorcière a nommée dans la malédiction.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282
+
+- id: SPELL_53
+  name: "sois la proie!"
+  effect: |
+    Lʼodeur de la victime attire toutes sortes de vertébrés carnassiers, qui la considèrent comme  une proie facile.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282
+
+- id: SPELL_54
+  name: "tempête de grêle"
+  effect: |
+    Une violente tempête de grêle sʼabat.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282
+
+- id: SPELL_55
+  name: "mal des sorcières"
+  effect: |
+    La victime souffre soudainement dʼune forte douleur au dos ou à la tête, selon lʼenvie de la sorcière,.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282
+
+- id: SPELL_56
+  name: "jeter le mauvais oeil"
+  effect: |
+    La victime casse des objets accidentellement, oublie des rendez-vous, trébuche sur des obstacles ou gaffe lors de conversation.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282
+
+- id: SPELL_57
+  name: "pestilence"
+  effect: |
+    La sorcière inocule à sa victime une maladie.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282
+
+- id: SPELL_58
+  name: "vol du sommeil"
+  effect: |
+    La victime ne peut pas dormir.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 283
+
+- id: SPELL_59
+  name: "infécondité"
+  effect: |
+    La victime, personne ou animal, nʼest plus en mesure de produire une descendance ou de mettre au monde.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282
+
+- id: SPELL_60
+  name: "éruption de verrues"
+  effect: |
+    La victime développe en quelques minutes de grosses verrues sur le visage et sur les mains.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282
+
+- id: SPELL_61
+  name: "langue paralysée"
+  effect: |
+    La langue et les lèvres de la victime sont paralysées.
+  aeCost: " "
+  aeCostShort: " "
+  duration: " "
+  durationShort: " "
+  src:
+    - id: LDR1
+      firstPage: 282

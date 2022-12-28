@@ -1,0 +1,20 @@
+- id: 1
+  name: "checks on Knowledge skills"
+- id: 2
+  name: "intoxicants"
+- id: 3
+  name: "chases"
+- id: 4
+  name: "checks on Social skills"
+- id: 5
+  name: "hunting"
+- id: 6
+  name: "foraging for and preserving edible plants"
+- id: 7
+  name: "cumulative checks"
+- id: 8
+  name: "actions"
+- id: 9
+  name: "combat"
+- id: 10
+  name: "combat special abilities"

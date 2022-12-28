@@ -1,0 +1,369 @@
+- id: OR_1
+  name: "Geen Bevestigingsworp"
+  description: |
+    Wanneer je de kans op blunders en uitzonderlijke successen groter wil maken, zie dan af van het gebruik van de bevestigingsworp bij eigenschapsproeven. Een 1 of een 20 is dan meteen een uitzonderlijk succes of een Blunder. Dit leidt tot gelijke kansen voor zowel een uitzonderlijk succes als een Blunder (5% kans bij elke worp). Met een bevestigingsworp is niet alleen de kans kleiner, maar ook meer afhankelijk van de kunde van de held (eigenschapswaarde) en de situatie (modificatie op de Proef). Wanneer je deze Vrijblijvende regel inzet, wordt het spel eenvoudiger.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 20
+
+- id: OR_2
+  name: "Snellere Vaardigheidsproef"
+  description: |
+    Een Vaardigheidsproef duurt wezenlijk langer dan een eigenschapsproef. Opeenvolgend werp je drie dobbelstenen en moet het resultaat met de individuele spelwaarden vergelijken. Er zijn echter verschillende mogelijkheden om de benodigde tijd in te korten: Door dobbelstenen met verschillende kleuren te gebruiken kan je de volgorde van de deelproeven vastleggen. Een rode dobbelsteen kan bv. altijd voor de eerste, een blauwe voor de tweede, en een witte voor de derde eigenschapswaarde staan. Zo kan men alle dobbelstenen in een worp werpen en direct vergelijken.
+
+    Een andere mogelijkheid is de meest links liggende dobbelsteen voor de eerste en de meest rechts liggende dobbelsteen voor de laatste eigenschapswaarde te gebruiken. Door gebruik van deze Vrijblijvende regel blijft het spel even ingewikkeld.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 22
+
+- id: OR_3
+  name: "Gekleurde dobbelstenen van Paramanthus"
+  description: |
+    Paramanthus was een Aventurijnse onderzoeker die de samenhang tussen eigenschappen, dwaalsterren, kleuren en Goden poneerde. Men kan de indeling van Paramanthus benutten en aan ieder van de 8 Eigenschappen een kleur dobbelsteen toewijzen. De onderstaande figuur laat je zien welke kleur voor welke eigenschap staat. Zo kan je bij het afleggen van een Proef direct herkennen welke waarde voor welke Eigenschap geldt. Voor deze versie is een passende set dobbelstenen beschikbaar op onze website, die een dobbelsteen in elke eigenschapskleur bevat. Door gebruik van deze Vrijblijvende regel blijft het spel even ingewikkeld.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 22
+
+- id: OR_4
+  name: "Alternatieve Eigenschappen bij Proeven"
+  description: |
+    De in dit regelboek aangegeven Eigenschappen van de Vaardigheidsproeven zijn geen vaststaand dogma. Wanneer een spelleider een andere Eigenschap beter vindt passen, kan hij verlangen dat er tegen deze andere waarde wordt gegooid. Vaak wil een held in plaats van werkelijk te klimmen slechts inschatten hoe moeilijk het is de rotswand te overwinnen. In dit geval kan de spelleider bijvoorbeeld een Proef op *Klimmen (Bergbeklimmen)* kiezen waar Moed, Behendigheid en Lichaamskracht worden vervangen door de eigenschapscombinatie Slimheid, Intuïtie en Intuïtie. De held zal de situatie beoordelen en misschien de wand niet beklimmen, en daarom spelen de lichamelijke eigenschappen geen rol.
+
+    Als vuistregel geldt: Wanneer een Proef alleen een inschatting behelst, zal op SL/IN/IN met gebruik van de passende Vaardigheidswaarde worden gedobbeld. Door de inzet van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 23
+
+- id: OR_5
+  name: "Groepsverzamelproeven met verschillende Talenten"
+  description: |
+    In plaats van alle spelers op hetzelfde Talent een Groepsverzamelproef te laten uitvoeren, kan een meester ook kiezen voor verschillende Talenten. Eén van de spelers moet wel degelijk in het gevraagde Talent een Proef afleggen.
+
+    De overige spelers sturen de Verzamelproef bij via een ander Talent, elk met VaP/2, om de KwG te bepalen. Zo kan een reis door de wildernis vooral van het Talent *Wildernisleven* afhangen, maar als ondersteunende Talenten zouden *Oriëntatie*, *Klimmen* of *Krachttoer* kunnen fungeren. De meester moet vastleggen hoeveel van de helden kunnen samenwerken. Verder gelden alle overige regels voor Proeven en Verzamelproeven voor de ondersteunende Talenten. Door de inzet van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 27
+
+- id: OR_6
+  name: "Helden en meesterpersonages - een klein, maar mooi verschil"
+  description: |
+    Lotspunten zijn een schaars goed. Daarom beschikt niet elke bewoner van Daera erover. Dit betekent dat alleen Helden en enkele meesterpersonages over de mogelijkheid beschikken LotP in te zetten. Zij zijn uitverkoren en bijzondere persoonlijkheden in deze wereld.<br>
+    Je kan natuurlijk ook beslissen een andere optie te kiezen:
+
+    - *Geen Lotspunten:* Niemand op Daera bezit Lotspunten, noch de helden, noch de meesterpersonages. Negeer alle opmerkingen met betrekking op LotP, schrap de voor- en nadelen Geluk en Pech en ook de Lotscompetenties. Negeer regelverwijzingen naar Lotspunten of beslis in individuele gevallen. Dit betekent evenwel dat de helden het wezenlijk moeilijker krijgen en dat hun risico‘s toenemen.
+    - *Iedereen is uitverkoren!:* Alle helden en meesterpersonages beschikken over Lotspunten. Dat heeft het voordeel dat je als meester ook eenvoudige mensen betere kansen bij hun handelingen kan verlenen, wanneer je dat wenst. Het nadeel is de benodigde administratie van alle Lotspunten.
+
+    De inzet van de eerste optie maakt het spel eenwoudiger, de tweede optie maakt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 31
+
+- id: OR_7
+  name: "Andere mogelijkheden om Lotspunten terug te winnen"
+  description: |
+    Naast de hierboven weergegeven mogelijkheden kan de meester de spelers ook met LotP belonen indien zij hun rol goed uitspelen, het avontuur vooruithelpen, of de hele groep aan het lachen hebben gebracht.<br>
+    Door de invoer van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 31
+
+- id: OR_8
+  name: "Bovengrens voor Eigenschappen"
+  description: |
+    Wanneer je na het begin van het spel de eigenschapswaarden toch wil beperken, kun je de bovengrens vastleggen op de maximale waarde uit de tabel naar Ervaringsgraad +2. Een competente held kan daarmee bijvoorbeeld een eigenschap tot maximaal 17 verhogen (15+2).
+
+    Deze bovengrens verandert wanneer een held een hogere Ervaringsgraad bereikt (wat samengaat met het verkrijgen van AP), en kan op de EG legendarisch een absoluut maximum van 20 (18 + 2) bereiken. Door de inzet van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 39
+
+- id: OR_9
+  name: "Variabel startkapitaal naar Ervaringsgraad"
+  description: |
+    Wanneer je als groep van mening bent dat ervaren helden meer geld hebben, dan kan je voor elke Ervaringsgraad boven Ervaren 200 zilveren daalders bijtellen. Voor elke Ervaringsgraad onder Ervaren daalt het startkapitaal met 200 zilveren daalders.
+
+    Door de inzet van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 58
+
+- id: OR_10
+  name: "Cultuurkunde"
+  description: |
+    Helden kunnen op Sociale talenten en Kennistalenten een bonus van 1 krijgen, wanneer het om thema‘s uit hun cultuur gaat, en een verzwaring van 1 als het om thema’s gaat die hun cultuur nauwelijks of niet kent. De meester heeft in elk geval het laatste woord en moet er op letten dat door deze modificaties het spelevenwicht niet wordt verstoord. Door de inzet van deze optionele regel wordt het spel iets ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 96
+
+- id: OR_11
+  name: "Talentgroepsproef"
+  description: |
+    In plaats van telkens te moeten controleren op welke drie verschillende eigenschappen men moet rollen, kan men terugvallen op de Talentgroepsproef. Deze Proef werkt net zoals een normale Vaardigheidsproef. Het verschil is dat bij elk Talent binnen een Talentgroep telkens dezelfde drie eigenschappen gelden. Als vaardigheidspunten gebruikt men de punten van het Talent, net zoals bij een gewone Vaardigheidsproef.
+
+    Bij de Proeven werd er op gelet dat de bij de Talentgroep vaak voorkomende eigenschappen worden gebruikt. De Talentgroepsproeven stellen hiermee dus een soort gemiddelde Proef voor. Het gebruik van deze Vrijblijvende regel maakt het spel eenvoudiger.
+
+    Talentgroep | Talentgroepsproef
+    :-- | :--
+    Lichamelijke talenten | MO/BE/LK
+    Sociale talenten | IN/CH/CH
+    Natuurtalenten | MO/BE/CO
+    Kennistalenten | SL/SL/IN
+    Ambachtstalenten | VV/VV/CO
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 184
+
+- id: OR_12
+  name: "Onwennige toepassing van Talenten"
+  description: |
+    Er bestaan Talenten die zoveel gebieden omvatten, dat een mens ze hoogstwaarschijnlijk niet allemaal even goed beheerst. Met het Talent *Vliegen* kunnen de helden bijvoorbeeld de meest diverse soorten vliegende wezens en voorwerpen besturen. Een Meester moet er in elk geval goed op letten dat iemand die ietwat weet hoe een vliegend tapijt werkt, nog lang geen kaas heeft gegeten van hoe men een vliegende demon bestuurt.<br>
+    Daarom zijn er bij onbekende toepassingen verzwaringen tot 3 voorzien. Deze verzwaringen bouwen zichzelf af in de loop van de tijd. Het laatste woord hierover heeft de Meester. Dezelfde regel wordt ook gebruikt bij andere Talenten, zoals bij verschillende rijdieren met het Talent *Rijden (Dier)* of verschillende soorten muziekinstrumenten bij *Musiceren*. Het gebruik van deze Vrijblijvende regel maakt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 184
+
+- id: OR_13
+  name: "Berekening van Eigenschappen bij Routine"
+  description: |
+    In plaats van een vaste waarde van 13 aan de eigenschappen te binden en hieruit vast te stellen of een Proef routineus kan worden genoemd, kan de spelleider ook toestaan dat enkele eigenschapswaarden een lagere waarde hebben. Voor elke eigenschapswaarde lager dan 13, moet de held echter een VaW hebben die 3 punten hoger is dan normaal om de Proef als routine te kunnen beschouwen. Iemand die dus twee 13-waarden en een 12-waarde heeft, moet een VaW van 10 of meer hebben om Proeven met een modificatie van +1 of hoger als routine te bestempelen (in plaats van een waarde van 7). Het gebruik van deze Vrijblijvende regel maakt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 185
+
+- id: OR_14
+  name: "Regionaal Bargoens"
+  description: |
+    In plaats van met één Competentie Bargoens kan je ook spelen met meerdere Competenties van Regionaal Bargoens. In dit geval zijn de merken in iedere stad anders. Dit maakt de voorstelling realistischer omdat de dievengildes in elke stad andere merken gebruiken. Het betekent evenwel ook dat een held zijn Competentie enkel nog lokaal kan gebruiken. Regionaal Bargoens kost slechts 1 AP ipv 3.<br>
+    Door deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 215
+
+- id: OR_15
+  name: "Taalspecialisatie"
+  description: |
+    De held beheerst een dialect of een bijzondere vorm van de taal (bijvoorbeeld vaktalen zoals Magiërs- of Jagersbosparano).<br>
+    Door deze regel Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 219
+
+- id: OR_16
+  name: "Initiatief voor Tegenstandersgroepen"
+  description: |
+    Handelingen van groepsleden, die allemaal over dezelfde initiatief-basiswaarde beschikken, kunnen vereenvoudigd worden als men voor hen slechts één keer Initiatief rolt. De leden van de groep handelen gelijktijdig in de Gevechtsrondes. Door het gebruik van deze Vrijblijvende regel wordt het spel eenvoudiger.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 228
+
+- id: OR_17
+  name: "Höhere Verteidigungswerte"
+  description: |
+    Als je graag de kans op een treffer kleiner wil maken, kan je binnen je spelersgroep ook beslissen dat de Afweer in het algemeen 2 tot 4 punten hoger ligt (en de Ontwijkwaarde met de helft van de Bonus van de Afweer stijgt). De Verdedigingswaarden worden zowel voor de helden als voor de tegenstanders verhoogd, wat betekent dat gevechten langer kunnen duren.<br>
+    Door het gebruik van deze Vrijblijvende regel blijft het spel even ingewikkeld.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 228
+
+- id: OR_18
+  name: "Blundertabel voor Aanval"
+  description: |
+    In plaats van 1D6+2 SP bij een blunder kan men ook deze tabel toepassen.<br>
+    Als de vechter ongewapend is en minder dan 7 rolt, dan wordt er bij dat resultaat 5 bijgeteld.
+
+    Resultaat (2D6) | Uitwerking
+    :-- | :--
+    2 Wapen vernietigd | Het wapen is onherroepelijk vernietigd. Bij Onbreekbare wapens wordt het resultaat behandeld als een 5.
+    3 Wapen zwaar beschadigd | Het wapen is niet meer te gebruiken tot het wordt hersteld. Bij Onbreekbare wapens wordt het resultaat behandeld als een 5.
+    4 Wapen beschadigd | Het wapen is beschadigd. Alle Proeven op Aanval en Afweer zijn met 2 verzwaard tot het wordt hersteld. Bij Onbreekbare wapens wordt het resultaat behandeld als een 5.
+    5 Wapen verloren | Het wapen is op de grond gevallen
+    6 Wapen steekt vast | Het wapen is in een boom, een houten wand, de grond of iets dergelijks blijven steken. Om het te bevrijden is 1 Actie nodig en een met 1 punt verzwaarde Proef op *Krachttoer (Trekken & Sleuren)*.
+    7 Val | De held struikelt. Als de speler niet slaagt in een met 2 Punten verzwaarde Proef op *Lichaamsbeheersing (Evenwicht)* valt hij en krijgt hij de Status *Liggend*.
+    8 Struikelen | De held struikelt. Zijn volgende Handeling is met twee punten verzwaard.
+    9 Voet omgeslagen | De held krijgt gedurende 3 Gevechtsrondes een Graad *Pijn*.
+    10 Buil | De held heeft zijn hoofd gestoten gedurende het gevecht en lijdt gedurende een uur een Graad *Verdoving*.
+    11 Zichzelf verwond | De held heeft zichzelf verwond en ondergaat Schade. Hiervoor worden de TP van zijn wapen gerold, inclusief de Schadebonus (Negeer BP). Bij ongewapende vechters wordt hier 1D6 TP gebruikt (Negeer BP).
+    12 Zichzelf zwaar verwond | De held heeft zichzelf zwaar verwond en ondergaat Schade. De Schade van zijn wapen wordt gerold, inclusief de Schadebonus (Negeer BP) en vervolgens verdubbeld. Bij ongewapende vechters wordt hier 2D6 gebruikt (Negeer BP).
+
+    Het gebruik van deze Vrijblijvende regel maakt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 231
+      lastPage: 232
+
+- id: OR_19
+  name: "Meerdere Verdedigingen voor meesterpersonages"
+  description: |
+    De regels bepalen dat alleen helden en meesterpersonages die Lotspunten kunnen verzamelen, meerdere Verdedigingen mogen uitvoeren.<br>
+    Om meesterpersonages zonder Lotspunten te versterken, kan de Meester beslissen, dat ook zij meerdere Verdedigingen kunnen uitvoeren. Deze wijziging zal dan wel leiden tot langer durende gevechten.<br>
+    Door het gebruik van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 232
+
+- id: OR_20
+  name: "Blundertabel voor Verdediging"
+  description: |
+    In plaats van 1D6+2 SP bij een blunder kan men ook deze tabel toepassen.<br>
+    Als de vechter ongewapend is en minder dan 7 rolt, dan wordt er bij dat resultaat 5 bijgeteld.
+
+    Resultaat (2D6) | Uitwerking
+    :-- | :--
+    2 Wapen vernietigd | Het wapen is onherroepelijk vernietigd. Bij Onbreekbare wapens wordt het resultaat behandeld als een 5.
+    3 Wapen zwaar beschadigd | Het wapen is niet meer te gebruiken tot het wordt hersteld. Bij Onbreekbare wapens wordt het resultaat behandeld als een 5.
+    4 Wapen beschadigd | Het wapen is beschadigd. Alle Proeven op Aanval en Afweer zijn met 2 verzwaard tot het wordt hersteld. Bij Onbreekbare wapens wordt het resultaat behandeld als een 5.
+    5 Wapen verloren | Het wapen is op de grond gevallen
+    6 Wapen steekt vast | Het wapen is in een boom, een houten wand, de grond of iets dergelijks blijven steken. Om het te bevrijden is 1 Actie nodig en een met 1 punt verzwaarde Proef op *Krachttoer (Trekken & Sleuren)*.
+    7 Val | De held struikelt. Als de speler niet slaagt in een met 2 Punten verzwaarde Proef op *Lichaamsbeheersing (Evenwicht)* valt hij en krijgt hij de Status *Liggend*.
+    8 Struikelen | De held struikelt. Zijn volgende Handeling is met twee Punten verzwaard.
+    9 Voet omgeslagen | De held krijgt gedurende 3 Gevechtsrondes een Graad *Pijn*.
+    10 Buil De held heeft zijn hoofd gestoten gedurende het gevecht en lijdt gedurende een uur een Graad *Verdoving*.
+    11 Zichzelf verwond | De held heeft zichzelf verwond en ondergaat Schade. Hiervoor worden de TP van zijn wapen gerold, inclusief de Schadebonus (Negeer BP). Bij ongewapende vechters wordt hier 1D6 TP gebruikt (Negeer BP).
+    12 Zichzelf zwaar verwond | De held heeft zichzelf zwaar verwond en ondergaat Schade. De Schade van zijn wapen wordt gerold, inclusief de Schadebonus (Negeer BP) en vervolgens verdubbeld. Bij ongewapende vechters wordt hier 2D6 gebruikt (Negeer BP).
+
+    Het gebruik van deze Vrijblijvende regel maakt het spel
+    ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 234
+
+- id: OR_21
+  name: "Blundertabel voor Afstandsgevecht"
+  description: |
+    In plaats van 1D6+2 SP bij een blunder, kan men ook gebruik maken van deze tabel:
+
+    Resultaat (2D6) | Uitwerking
+    :-- | :--
+    2 Wapen vernietigd | Het wapen is onherroepelijk vernietigd. Bij Onbreekbare wapens wordt het resultaat behandeld zoals een 5.
+    3 Wapen zwaar beschadigd | Het wapen is niet meer bruikbaar tot het gerepareerd wordt. Bij Onbreekbare wapens wordt het resultaat behandeld zoals een 5.
+    4 Wapen beschadigd | Het wapen werd beschadigd. Alle Proeven op Afstandsgevecht worden met 4 verzwaard, totdat het hersteld wordt. Bij Onbreekbare wapens wordt het resultaat behandeld zoals een 5.
+    5 Wapen verloren | Het wapen valt op de grond.
+    6 Vriend/onschuldige getroffen | Het wapen treft per ongeluk een vriend of een buitenstaander. Is zo’n doelwit niet in de buurt, dan wordt dit resultaat behandeld zoals een 11. De Schade van het wapen wordt met inbegrip van de Schadebonus gedobbeld.
+    7 Misser | Deze spectaculaire misser raakt een voorwerp (een uithangbord afgeschoten, een glazen venster laten breken, enz.).
+    8 Verrekking | De held krijgt rugpijn en heeft tijdens de volgende 3 Gevechtsrondes een Graad *Pijn*.
+    9 Wapen niet inzetbaar | Pees afgegleden/wapen niet goed vastgehouden/ probleem bij het laden. De held heeft 2 volledige Gevechtsrondes nodig om het wapen weer inzetbaar te maken.
+    10 Te geconcentreerd | De held is bezig met het richten of met zijn wapen. Tot aan zijn volgende Actie kan hij geen Verdedigingen uitvoeren.
+    11 Zichzelf verwond | De held heeft zichzelf verwond en loopt Schade op. De Schade van het wapen wordt met inbegrip van de Schadebonus gerold.
+    12 Zichzelf zwaar verwond | De held heeft zichzelf zwaar verwond. De Schade van het wapen wordt met inbegrip van de Schadebonus gerold en dan verdubbeld.
+
+    **Opmerking:** Projectielen zoals pijlen, bouten en kogels gelden bij een Blunder in principe als vernietigd. Uitzonderingen zijn de resultaten verrekking (8), niet inzetbaar (9) en te geconcentreerd (10).
+
+    Door het gebruik van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 243
+
+- id: OR_22
+  name: "Blundertabel voor Verdediging"
+  description: |
+    In plaats van 1D6+2 SP voor een Blunder, kan men ook gebruik maken van deze tabel.<br>
+    Probeert de verdediger te Ontwijken en rolt hij daarbij minder dan 7, dan wordt er bij dat resultaat 5 bijgeteld.
+
+    Resultaat (2D6) | Uitwerking
+    :-- | :--
+    2 Schild vernietigd | Het Schild is onherroepelijk vernietigd. Bij Onbreekbare schilden wordt het resultaat zoals een 5 behandeld.
+    3 Schild zwaar beschadigd | Men kan het Schild niet meer gebruiken tot het gerepareerd is. Bij Onbreekbare schilden wordt het resultaat zoals een 5 behandeld.
+    4 Schild beschadigd | Het Schild werd beschadigd. Alle Proeven op Aanval en Afweer zijn met 2 verzwaard tot het gerepareerd is. Bij Onbreekbare schilden wordt het resultaat zoals een 5 behandeld.
+    5 Schild verloren | Het Schild is op de grond gevallen
+    6 Schild blijft steken | Het Schild van de held is blijven steken in een boom, een houten muur, in de grond of iets dergelijks. Om het te bevrijden is er 1 Actie nodig en een met 1 verzwaarde Proef op *Krachttoer (Trekken & Sleuren)*.
+    7 Val | De held struikelt. Als de speler niet slaagt in een met 2 Punten verzwaarde Proef op *Lichaamsbeheersing (Evenwicht)* valt hij en krijgt hij de Status *Liggend*.
+    8 Struikelen | De held struikelt. Zijn volgende Handeling is met twee Punten verzwaard.
+    9 Voet omgeslagen | De held krijgt gedurende 3 Gevechtsrondes een Graad *Pijn*.
+    10 Buil De held heeft zijn hoofd gestoten gedurende het gevecht en lijdt gedurende een uur een Graad *Verdoving*.
+    11 Zichzelf verwond | De held heeft zichzelf verwond en ondergaat Schade. Hiervoor worden de TP van zijn wapen gerold, inclusief de Schadebonus (Negeer BP). Bij ongewapende vechters wordt hier 1D6 TP gebruikt (Negeer BP).
+    12 Zichzelf zwaar verwond | De held heeft zichzelf zwaar verwond en ondergaat Schade. De Schade van zijn wapen wordt gerold, inclusief de Schadebonus (Negeer BP) en vervolgens verdubbeld. Bij ongewapende vechters wordt hier 2D6 gebruikt (Negeer BP).
+
+    Door het gebruik van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 244
+
+- id: OR_23
+  name: "Mogelijk hergebruik van projectielen"
+  description: |
+    Als een projectiel zijn doel heeft geraakt, dan kan men testen of het nog kan worden hergebruikt:
+
+    - Pijlen zijn enkel bij 1 op D6 nog bruikbaar.
+    - Bouten en kogels bij 1 en 2 op D6.
+
+    Als men faalt in zijn schietproef wordt het projectiel als verloren beschouwd.<br>
+    Door het gebruik van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 246
+
+- id: OR_24
+  name: "Kenmerkproeven"
+  description: |
+    Bij Spreuken en Rituelen staan de drie noodzakelijke eigenschappen aangegeven waarop de Proef wordt afgenomen, net zoals bij Talenten. In plaats van bij elke Spreuk aan te duiden welke dit zijn, kan je ook de eigenschappen toewijzen aan het Kenmerk van de Spreuk, net zoals bij de Talentgroepsproef. Daarom staan bij elk Kenmerk de benodigde eigenschappen aangegeven, wat het veel gemakkelijker maakt ze te onthouden. Door het gebruik van deze Vrijblijvende regel wordt het spel eenvoudiger.
+
+    Kenmerk | Kenmerkproeven
+    :-- | :--
+    Antimagie | MO/SL/CH
+    Demonisch | MO/IN/CH
+    Elementaal | MO/SL/CH
+    Genezing | SL/IN/VV
+    Helderzicht | MO/SL/IN
+    Illusie | SL/IN/CH
+    Invloed | MO/IN/CH
+    Object | SL/IN/VV
+    Sferen | MO/CH/CO
+    Telekinese | SL/VV/LK
+    Transformatie | SL/IN/CO
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 252
+
+- id: OR_25
+  name: "Opdrogende Karmastroom"
+  description: |
+    Anders dan magie, die een constante, steeds borrelende bron is, wordt de Karmale energie door de Goden geschonken. De Goden zullen niet telkenmale een gewijde een fout begaat of zich niet aan de geboden van de kerk houdt, onmiddellijk reageren en de gewijde geen Karma meer verlenen. Maar het kan toch gebeuren dat de Godheid op een bepaald ogenblik beslist om, als straf, de regeneratie van Karma te blokkeren zodat de gewijde geen Karmale energie meer kan regenereren. Of hij via boetedoening het vertrouwen van de Godheid kan terugwinnen, is een beslissing van de Meester en hangt af van de acties van de gewijde, de overtreding en de situatie. Door het gebruik van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 306
+
+- id: OR_26
+  name: "Geen Blunder bij Liturgieën"
+  description: |
+    In vroegere tijden werden de karmale stromingen door de Goddelijke Orde bepaald. Inmiddels is het moeilijker geworden om Karma te sturen en de kans bestaat dat er door verkeerd gebruik door stervelingen ook chaotische effecten ontstaan. De kerken en culten vermoeden dat de Sterrenval hierachter zit, een gebeurtenis van kosmologische omvang waarvan ze de oorzaken nog niet begrijpen.<br>
+    Elke spelersgroep kan voor zichzelf beslissen om bij Liturgieproeven van Blunders af te zien, om aan het principe van de Goddelijke Orde te voldoen. Vooral in de tijd voor de Sterrenval waren er maar heel zelden dergelijke effecten waar te nemen.<br>
+    Door het gebruik van deze Vrijblijvende regel wordt het spel eenvoudiger.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 311
+
+- id: OR_27
+  name: "Goddelijke missie en eigenbelang"
+  description: |
+    Als spelleider kan je toestaan dat de persoonlijke houding van een gewijde tegenover de principes van zijn cultus invloed uitoefent op de Liturgieproef. Als een gewijde zich aan de idealen van zijn kerk houdt, dan kan de Liturgie een bonus van +1 krijgen. Anderzijds, als een gewijde zijn morele code schendt, dan kan hij malussen oplopen die variëren tussen -1 en -5. Door het gebruik van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 314
+
+- id: OR_28
+  name: "Mindere Regeneratie"
+  description: |
+    De lucht van Daera is doordrongen van magie, wat merkbaar is door een buitengewone genezingstijd. Zelfs de ergste verwondingen en breuken genezen in de kortst mogelijke tijd. Daar waar een mens van de Aarde wekenlang in het ziekbed moet vertoeven, is een boer van Daera weer snel hersteld om op de veld te werken.<br>
+    Wie echter waarde hecht aan het aardse realisme kan voor zijn spelersgroep beslissen dat de bewoners van Daera slechts met 1D3 LeP regenereren en ook alle bonuspunten bij de LeP-regeneratie schrappen.<br>
+    Door het gebruik van deze Vrijblijvende regel blijft het spel even ingewikkeld.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 340
+
+- id: OR_29
+  name: "Exacte afstand"
+  description: |
+    In principe kunnen sprongen met een gewone Succesproef op *Lichaamsbeheersing* worden afgehandeld. Als je echter exact wil weten hoe ver een held kan springen met voldoende aanloop, dan kan de volgende gedetailleerde regel worden gebruikt.<br>
+    De basis van de springafstand bedraagt de helft van de snelheid, verminderd met Ballast (niet afgerond) in pas. Een grote behendigheid vergroot de afstand van de sprong. Elk behendigheidspunt boven de 10 geeft 20 halfvinger extra. Ten slotte vergroot een Proef op *Lichaamsbeheersing (Springen)* de sprongafstand met 20 halfvinger per Vaardigheidspunt. Hieruit ontstaat een totale sprongafstand van:
+
+    (SN/2 - BA) in pas + 20 halfvinger per punt BE boven de 10 + 20 halfvinger per VaP uit *Lichaamsbeheersing (Springen)*.
+
+    Wanneer er wordt gesprongen vanuit een stilstaande positie, dan wordt het resultaat van de Proef gehalveerd. Als het belangrijk is om te bepalen hoe hoog een held springt om bijvoorbeeld met de handen de bovenkant van een muur te bereiken, geldt de volgende regel:<br>
+    De snelheid maal 10 halfvinger vormt de basis van de spronghoogte. Een hoge behendigheid vergroot bovendien de hoogte van de sprong. Elk behendigheidspunt boven de 10 geeft 10 halfvinger. Tenslotte vergroot een Proef op *Lichaamsbeheersing (Springen)* de sprongafstand met 10 halfvinger per vaardigheidspunt. Hieruit ontstaat een totale spronghoogte van:
+
+    (SN x10) halfvinger + 10 halfvinger per punt BE boven de 10 +10 halfvinger per VaP uit *Lichaamsbeheersing (Springen)*.
+
+    Door het gebruik van deze Vrijblijvende regel wordt het spel ingewikkelder.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 350

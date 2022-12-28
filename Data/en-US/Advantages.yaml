@@ -1,0 +1,910 @@
+- id: ADV_0
+  name: "Custom Advantage"
+  rules: |
+    *A placeholder for custom advantages, where name and AP value can be set.*
+  input: "Name of the Advantage"
+  src:
+    - id: US25001E
+      firstPage: 1
+
+- id: ADV_1
+  name: "Noble"
+  rules: |
+    The hero receives respect, enjoys a noble’s privileges, and can gain bonuses from the GM when interacting with people of lower status. For more details, see **Core Rules** page **338**.
+  prerequisites: "Culture with a class system that incorporates an aristocracy."
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_2
+  name: "Resistant to Aging"
+  rules: |
+    The hero is immune to natural and magical aging, and does not suffer the negative effects of old age.
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_3
+  name: "Pleasant Smelling"
+  rules: |
+    Skill checks with *Seduction (Flirting, Romantic Arts)* receive a bonus of 1.
+  range: "1 yard radius"
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_4
+  name: "Aptitude"
+  rules: |
+    A character with the Aptitude advantage can reroll a single D20 in every skill check for the chosen skill. The player rolls 3D20 as usual but picks one die result to reroll, keeping the best result. Aptitudes must be purchased individually for each skill, spell, or liturgical chant. You cannot purchase Aptitude for the same skill more than once (because you cannot use Aptitude to reroll more than one D20 in a check). You cannot invoke this advantage if the skill check results in a double 20 or a triple 20. You cannot pick an Aptitude for a *combat technique* (for this, you must use the advantage Weapon Aptitude, on **Core Rules** page **170**). You can choose to spend a FtP before or after invoking your Aptitude (see page 28), meaning it’s possible to reroll more than once or even combine another FtP effect with an Aptitude.
+  apValue: "A/B/C/D Skill: 6/12/18/24 adventure points"
+  prerequisites: "~~disadvantage Incompetent with the skill~~, no more than three Aptitudes per character"
+  src:
+    - id: US25001E
+      firstPage: 163
+
+- id: ADV_5
+  name: "Ambidextrous"
+  rules: |
+    Heroes with this advantage suffer no penalties to skill checks for using their off hands. In combat, they do not suffer penalties for wielding weapons in their off hands (see **Core Rules** page **238**).
+  src:
+    - id: US25001E
+      firstPage: 163
+
+- id: ADV_6
+  name: "Darksight"
+  rules: |
+    At level I of this advantage, reduce darkness penalties by one level. Level II allows you to ignore all darkness penalties. In complete darkness, Darksight (level I or II) doesn’t work at all and the full penalties for complete darkness apply (see **Core Rules** page **348**).
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_7
+  name: "Iron-Attuned Aura"
+  rules: |
+    With this advantage, you suffer a penalty for every 8 full pounds of weight due to the Iron Ban, not every 4 full pounds, as usual (see **Core Rules** Page **250**).
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_8
+  name: "Sense of Range"
+  rules: |
+    Checks for ranged combat with projectile weapons suffer a penalty of 1 instead of 2 for targets in the range bracket Far. This penalty applies only to projectile weapons, not thrown weapons.
+  range: "200 yards. Beyond that distance, your assessment gets less and less accurate."
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_9
+  name: "Nimble"
+  rules: |
+    Raise your hero’s Movement by 1.
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_10
+  name: "Fox Sense"
+  rules: |
+    The hero can perceive traps that cannot be found with ordinary senses. With this advantage, the hero can use *Fox Sense* as an application for the skill *Perception*.
+  range: "10 yards"
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_11
+  name: "Natural Orator"
+  rules: |
+    Skill checks using *Persuasion (Oration)* receive a bonus of 1.
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_12
+  name: "Blessed"
+  rules: |
+    The hero receives a karma base stat of 20 karma points (KP). Each Blessed One must also begin the game with a *Tradition* (a special ability—see **Core Rules** page **316**), which you must buy separately. Also, you can be consecrated to only one deity at a time— it is not possible to buy another Tradition. A hero who desires to become a Blessed One may acquire this advantage later in life.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_13
+  name: "Resistant to Poison"
+  rules: |
+    Resistant to Poison raises your Toughness and Spirit by 1 per level when resisting poison.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_14
+  name: "Luck"
+  rules: |
+    Your maximum number of FtP (as determined by Experience Level) increases by 1 per level of this advantage. Add any additional FtP to the hero’s total.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_15
+  name: "Good Looks"
+  rules: |
+    The hero receives a bonus of 1 per level of this advantage for checks using *Commerce (Haggling)*, *Fast-Talk (Hard Sell, Manipulate, Subterfuge, Sweet-Talk)*, and *Seduction (Flirting, Romantic Arts)*.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_16
+  name: "Exceptional Skill"
+  rules: |
+    The advantage Exceptional Skill raises the maximum skill rating in the skill by 1. This includes both the maximum at character creation and the final maximum stat (which depends on the highest attribute involved; see **Core Rules** page **39**). The hero doesn’t receive a free skill point, but can start the game with an SR of 11 (instead of 10) when using an Experience Level of *Experienced*. The final maximum also rises by 1 point. You can purchase this advantage four times, but no more than twice for the same skill. If you take the advantage twice for a certain skill, the maximum SR rises by 2.
+  apValue: "A/B/C/D skill: 2/4/6/8 adventure points per raise"
+  prerequisites: "~~disadvantage Incompetent for the skill~~"
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_17
+  name: "Exceptional Combat Technique"
+  rules: |
+    The advantage Exceptional Combat Technique raises the maximum stat in the combat technique by 1. This means both the maximum for character creation and the final maximum stat (depending on the highest attribute involved, see **Core Rules** page **39**). The hero doesn’t receive a point in the technique, but can start the game with a stat of 13 (instead of 12) when using an experience level of *Experienced*. The hero’s final maximum also rises by 1 point. You can purchase this advantage twice, but only once for a particular combat technique.
+  apValue: "B/C/D combat technique: 8/12/16 adventure points"
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_18
+  name: "Exceptional Sense"
+  rules: |
+    A character with Exceptional Sense receives a bonus of 1 for checks with *Perception*, but only if the check uses the named sense. You can choose from the following senses: Sight, Hearing, Smell & Taste, Tactile Sense. You can purchase Exceptional Sense more than once (for different senses), but only once per sense.
+  selectOptions:
+    - id: 1
+      name: "Sight"
+      src:
+        - id: US25001E
+          firstPage: 165
+    - id: 2
+      name: "Hearing"
+      src:
+        - id: US25001E
+          firstPage: 165
+    - id: 3
+      name: "Smell & Taste"
+      src:
+        - id: US25001E
+          firstPage: 165
+    - id: 4
+      name: "Tactile Sense"
+      src:
+        - id: US25001E
+          firstPage: 165
+  apValue: "Sight: 12 adventure points; Hearing: 12 adventure points; Smell & Taste: 6 adventure points; Tactile Sense: 2 adventure points"
+  prerequisites: "~~disadvantage Restricted Sense for the same sense~~, ~~disadvantage Blind~~ (for Sight), ~~disadvantage Deaf~~ (for Hearing)"
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_22
+  name: "Resistant to Heat"
+  rules: |
+    Reduce the hero’s Heat Level by 1, to a minimum of 1 (see **Core Rules** page **347**).
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_23
+  name: "Increased Astral Power"
+  rules: |
+    Raise your AE base stat by 1 point per level of the advantage.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_24
+  name: "Increased Karma Points"
+  rules: |
+    Raise your KP base stat by 1 point per level of the advantage.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_25
+  name: "Increased Life Points"
+  rules: |
+    Raise your LP base stat by 1 point per level of the advantage.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_26
+  name: "Increased Spirit"
+  rules: |
+    Improve the hero’s Spirit base stat by 1.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_27
+  name: "Increased Toughness"
+  rules: |
+    Improve the hero’s Toughness base stat by 1.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_28
+  name: "Immunity to"
+  nameInWiki: "Immunity to (Poison)"
+  rules: |
+    You are immune to a certain type of poison, which has no effect on you at all. Immunity to (Poison) must be purchased for each poison separately.
+  selectOptions:
+    - id: 1
+      name: "Arax"
+      src:
+        - id: US25001E
+          firstPage: 342
+    - id: 2
+      name: "Kelmon"
+      src:
+        - id: US25001E
+          firstPage: 342
+    - id: 3
+      name: "Tulmadron"
+      src:
+        - id: US25001E
+          firstPage: 342
+    - id: 4
+      name: "Wurara"
+      src:
+        - id: US25001E
+          firstPage: 342
+    - id: 5
+      name: "Coucris"
+      src:
+        - id: US25002E
+          firstPage: 131
+    - id: 6
+      name: "Mandragora"
+      src:
+        - id: US25002E
+          firstPage: 131
+    - id: 7
+      name: "Omrais"
+      src:
+        - id: US25002E
+          firstPage: 131
+    - id: 8
+      name: "Sunsura"
+      src:
+        - id: US25002E
+          firstPage: 131
+    - id: 9
+      name: "Cave Spider Poison"
+      src:
+        - id: US25002E
+          firstPage: 159
+    - id: 10
+      name: "Toad Poison"
+      src:
+        - id: US25001E
+          firstPage: 361
+    - id: 11
+      name: "Rat Fungus Poison"
+      src:
+        - id: US25002E
+          firstPage: 174
+    - id: 12
+      name: "Ghouls Poison"
+      src:
+        - id: US25201E
+          firstPage: 47
+    - id: 13
+      name: "Manticore Poison"
+      src:
+        - id: US25201E
+          firstPage: 63
+    - id: 14
+      name: "Morfu Poison"
+      src:
+        - id: US25201E
+          firstPage: 69
+    - id: 15
+      name: "Brabacuda Poison"
+      src:
+        - id: US25201E
+          firstPage: 95
+    - id: 16
+      name: "Yellow-Tailed Scorpion Poison"
+      src:
+        - id: US25201E
+          firstPage: 119
+    - id: 17
+      name: "Kvill Adder Poison"
+      src:
+        - id: US25201E
+          firstPage: 105
+    - id: 18
+      name: "Bird Spider Poison"
+      src:
+        - id: US25201E
+          firstPage: 94
+    - id: 19
+      name: "Rope Serpent Poison"
+      src:
+        - id: US25004E
+          firstPage: 25
+    - id: 20
+      name: "Spitting Cobra Poison"
+      src:
+        - id: US25004E
+          firstPage: 23
+    - id: 21
+      name: "Alcohol"
+      src:
+        - id: US25514E
+          firstPage: 12
+    - id: 31
+      name: "Hollberry Emetic"
+      src:
+        - id: US25101E
+          firstPage: 102
+  apValue: "Half the chosen poison’s level in adventure points"
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_29
+  name: "Immunity to"
+  nameInWiki: "Immunity to (Disease)"
+  rules: |
+    If you are immune to a certain type of disease, you never catch it. Immunity to (Disease) must be purchased for each disease separately.
+  selectOptions:
+    - id: 1
+      name: "Swift Difar"
+      src:
+        - id: US25001E
+          firstPage: 343
+    - id: 2
+      name: "Lutanas"
+      src:
+        - id: US25001E
+          firstPage: 343
+    - id: 3
+      name: "Rapid Mania"
+      src:
+        - id: US25001E
+          firstPage: 343
+          lastPage: 344
+    - id: 4
+      name: "Swamp Fever/Brabak Sweat"
+      src:
+        - id: US25001E
+          firstPage: 344
+    - id: 5
+      name: "Zorgan Pox"
+      src:
+        - id: US25001E
+          firstPage: 344
+    - id: 6
+      name: "Leprosy"
+      src:
+        - id: US25002E
+          firstPage: 127
+    - id: 7
+      name: "Blue Wheeze"
+      src:
+        - id: US25002E
+          firstPage: 127
+    - id: 8
+      name: "Bloody Phlegm"
+      src:
+        - id: US25002E
+          firstPage: 127
+          lastPage: 128
+    - id: 9
+      name: "Dullskull"
+      src:
+        - id: US25002E
+          firstPage: 128
+    - id: 10
+      name: "Efferd's/Dungeon Syndrome"
+      src:
+        - id: US25002E
+          firstPage: 128
+    - id: 11
+      name: "Jaundice/Battlefield Fever"
+      src:
+        - id: US25002E
+          firstPage: 128
+    - id: 12
+      name: "Yearly Fever"
+      src:
+        - id: US25002E
+          firstPage: 129
+    - id: 13
+      name: "Black Rage (Black Rabies)"
+      src:
+        - id: US25002E
+          firstPage: 129
+    - id: 14
+      name: "Rabies"
+      src:
+        - id: US25002E
+          firstPage: 129
+    - id: 15
+      name: "Traumatic Fever"
+      src:
+        - id: US25002E
+          firstPage: 129
+          lastPage: 130
+  apValue: "Half the chosen disease’s level in adventure points"
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_30
+  name: "Resistant to Cold"
+  rules: |
+    Reduce the hero’s Cold Level by 1, to a minimum of 0 (see **Core Rules** page **346**).
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_31
+  name: "Resistant to Disease"
+  rules: |
+    Resistant to Disease raises your Toughness and Spirit by 1 per level for resisting diseases.
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_32
+  name: "Magical Attunement"
+  input: "Environment"
+  rules: |
+    You must choose an environment for this advantage (see below for examples). The spellcaster receives a bonus of 1 with magical skill checks in the chosen environment or situation.
+  selectOptions:
+    - id: 1
+      name: "Creature of the Glades"
+      src:
+        - id: US25001E
+          firstPage: 167
+    - id: 2
+      name: "Creature of the Mountains"
+      src:
+        - id: US25001E
+          firstPage: 167
+    - id: 3
+      name: "Creature of the Ice"
+      src:
+        - id: US25001E
+          firstPage: 167
+    - id: 4
+      name: "Creature of the Sea"
+      src:
+        - id: US25001E
+          firstPage: 167
+    - id: 5
+      name: "Creature of the Night"
+      src:
+        - id: US25001E
+          firstPage: 167
+    - id: 6
+      name: "Creature of the Forest"
+      src:
+        - id: US25001E
+          firstPage: 167
+  prerequisitesEnd: "~~disadvantage Magical Restriction for the same environment~~"
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_33
+  name: "Mystic"
+  rules: |
+    For a mystic, the condition *Rapture* decreases by 1 level every two hours instead of every hour.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_34
+  name: "Needs no Sleep"
+  rules: |
+    Characters with this advantage don’t need to sleep regularly and can stay awake for a week without getting tired. However, they must make up for the lost sleep later. Some races need actual sleep to recover, while others need only meditation or a similar technique. A hero with this advantage who goes without sleep cannot benefit from regular sleep and rest during Regeneration Phases (but can benefit from healing herbs and the skill *Treat Wounds*).
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_35
+  name: "Pragmatic"
+  rules: |
+    For a pragmatic, *Rapture* drops by 1 level per half-hour instead of every hour.
+  src:
+    - id: US25001E
+      firstPage: 168
+
+- id: ADV_36
+  name: "Rich"
+  rules: |
+    The hero receives 250 additional silverthalers per level during character creation.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_37
+  name: "Direction Sense"
+  rules: |
+    Skill checks using *Orienting* receive a bonus of 1.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_38
+  name: "Contortionist"
+  rules: |
+    Checks using *Body Control (Acrobatics, Squirm)* receive a bonus of 1.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_39
+  name: "Difficult to Enchant"
+  rules: |
+    Most spells cast on the hero suffer a penalty of 1. This includes all spells and magical effects with the properties *Clairvoyance*, *Healing*, *Influence*, and *Transformation*, as well as spells modified by *Spirit* or *Toughness*. The penalty applies even if the hero wants the magic to take effect.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_40
+  name: "Socially Adaptable"
+  rules: |
+    Heroes with Socially Adaptable can ignore penalties to social skills that result from class distinctions (see **Core Rules** page **338**). The advantage Socially Adaptable doesn’t fool people of high noble breeding.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: disadvantage Incompetent in social skills
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_41
+  name: "Unremarkable Appearance"
+  rules: |
+    Heroes with this advantage receive a bonus of 1 with *Streetwise (Shadowing)*.
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: ADV_42
+  name: "Improved Regeneration (Arcane Energy)"
+  rules: |
+    During regeneration, the hero receives 1 additional point of AE for each level of the advantage.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_43
+  name: "Improved Regeneration (Karma Points)"
+  rules: |
+    During regeneration, the hero receives 1 additional KP for each level of the advantage.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_44
+  name: "Improved Regeneration (Life Points)"
+  rules: |
+    During regeneration, the hero receives 1 additional LP during regeneration for each level of the advantage.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_45
+  name: "Hidden Aura"
+  rules: |
+    The spellcaster always appears non-magical to undirected magical perception. Anybody trying to find or analyze the spellcaster (by using the spell *Odem Arcanum* or the liturgical chant *See Magic*, for example) suffers a penalty of 3.
+  src:
+    - id: US25001E
+      firstPage: 166
+
+- id: ADV_46
+  name: "Inspire Confidence"
+  rules: |
+    Checks with *Commerce (Haggling)*, *Fast-Talk (Begging, Manipulate, Sweet-Talk)*, or *Persuasion (Conversation, Debate, Oration)* receive a bonus of 1.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 0
+        replacement: disadvantage Incompetent in social skills
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_47
+  name: "Weapon Aptitude"
+  rules: |
+    When making a roll with a combat technique, a Weapon Aptitude allows one reroll of a confirmation roll for critical hits and botches.
+  apValue: "B/C/D combat technique: 5/10/15 adventure points"
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: ADV_48
+  name: "Beautiful Voice"
+  rules: |
+    Skill checks using *Singing* receive a bonus of 1.
+  src:
+    - id: US25001E
+      firstPage: 164
+
+- id: ADV_49
+  name: "Rugged Fighter"
+  rules: |
+    Ignore the effects of the highest level of the condition *Pain* you possess, and suffer the effect of the next lower level instead. So, a hero with three levels of *Pain* only suffers the effect of Level II. *Pain* of Level IV still incapacitates you. Treat *Pain* Level I as if you don’t have any levels of *Pain*.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_50
+  name: "Spellcaster"
+  rules: |
+    The spellcaster receives an arcane energy base stat of 20 AE. This advantage doesn’t include the special ability *Tradition* (see **Core Rules** page **274**), which you must purchase separately. All Spellcasters must start the game with a Tradition. You cannot purchase this advantage later in the game.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_51
+  name: "Inner Clock"
+  rules: |
+    The character has a perfect sense of time and can determine the exact time of day without seeing the sun or using other tools.
+  src:
+    - id: US25001E
+      firstPage: 167
+
+- id: ADV_52
+  name: "Two-Voiced Singing"
+  rules: |
+    A hero can use Two-Voiced Singing and can learn magical elven songs. The hero can use the application *Two-Voiced Singing* for the skill *Singing*.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: ADV_53
+  name: "Dwarf's Nose"
+  rules: |
+    The hero receives a bonus of 1 for *Perception* checks when trying to find secret doors, cavities, hidden drawers, or the like.
+  src:
+    - id: US25001E
+      firstPage: 165
+
+- id: ADV_54
+  name: "Unyelding"
+  rules: |
+    Increase the character's Wound Threshold by 1
+  src:
+    - id: US25003E
+      firstPage: 132
+
+- id: ADV_55
+  name: "Resilient"
+  rules: |
+    Receive a bonus of +1 when making a *Self-Control (Stay Conscious or Ignore Distractions)* check to avoid wound effects.
+  src:
+    - id: US25003E
+      firstPage: 132
+
+- id: ADV_56
+  name: "Affinity for Demons"
+  rules: |
+    The demon, summoned by the caster, automatically performs one additional service (even beyond the maximum of 6).
+  src:
+    - id: US25004E
+      firstPage: 225
+
+- id: ADV_57
+  name: "Affinity for Elementals"
+  rules: |
+    The elemental, summoned by the caster, automatically fulfills one additional service (even beyond the maximum of 6).
+  src:
+    - id: US25004E
+      firstPage: 225
+
+- id: ADV_58
+  name: "Large Spell Selection"
+  rules: |
+    Activate one additional spell per level of this advantage. The additional spell(s) can exceed the maximum limit of three spells. You decide whether to activate these spells at the start of the game, or later.
+  src:
+    - id: US25004E
+      firstPage: 225
+
+- id: ADV_59
+  name: "No Iron Ban"
+  rules: |
+    Ignore the penalties from the Iron Ban (see **Core Rules** Page **255**). You remain unaffected by iron in the form of weapons, armor, or equipment and do not receive penalties when working with the material
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: ADV_60
+  name: "Powerful Magical Melodies"
+  rules: |
+    Enchant targets with up to SPI 3 (instead of SPI 2).
+  src:
+    - id: US25004E
+      firstPage: 225
+
+- id: ADV_61
+  name: "Powerful Magical Dances"
+  rules: |
+    Enchant targets with up to SPI 3 (instead of SPI 2).
+  src:
+    - id: US25004E
+      firstPage: 225
+
+- id: ADV_62
+  name: "Guardian Spirit"
+  rules: |
+    Use the following options at any time without spending an action or a free action.<br>
+    When you roll a botch, spend a Fate Point to merely fail the roll instead of botching it.<br>
+    If you have 5 LP or less, spend 1 Fate Point to regain 1D6 LP. You can use this ability only once per day.
+  src:
+    - id: US25004E
+      firstPage: 225
+
+- id: ADV_63
+  name: "Far Reaching Magical Melodies"
+  rules: |
+    The range of magical dances increases by +2 yards per level of this advantage.
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: ADV_64
+  name: "Far Reaching Magical Dances"
+  rules: |
+    The range of magical melodies increases by +2 yards per level of this advantage
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: ADV_65
+  name: "Basilisk Slayer"
+  rules: |
+    Basilisk slayers are treated with tremendous respect. They are usually invited to high society celebrations and often receive free food and drink in taverns. Social standing for heroes with this advantage counts as being 2 points greater (see **Core Rules** Page **338**). To receive this bonus, other people must know (or at least believe) that the hero is a basilisk slayer
+  prerequisites: "The hero must have killed a Basilisk."
+  src:
+    - id: US25201E
+      firstPage: 120
+
+- id: ADV_66
+  name: "Dragon Slayer"
+  rules: |
+    Dragon slayers are treated with great respect. They are usually invited to high society celebrations and often receive free food and drink in taverns. Social standing for heroes with this advantage counts as being 1 point greater (see **Core Rules** Page **338*). To receive this bonus, other people must know (or at least believe) that the hero is a dragon slayer. In addition, the hero receives a bonus of +1 DP against all kinds of dragons (true dragons and lesser dragons).
+  prerequisites: "The hero must have killed a true dragon."
+  src:
+    - id: US25201E
+      firstPage: 120
+
+- id: ADV_67
+  name: "Fairy Friend"
+  rules: |
+    Checks using Fast-Talk (Hard Sell, Subterfuge, Manipulate, Sweet-Talk) to gain the favor of fairies receive a bonus of 1 to the QL if the check is successful. Note that the total QL can never rise above 6.
+  prerequisites: "~~Advantage Hatred for Fairies (and subtypes)~~,~~Negative Trait Prejudice (Fairies)~~"
+  src:
+    - id: US25201E
+      firstPage: 120
+
+- id: ADV_68
+  name: "Hatred for"
+  nameInWiki: "Hatred for..."
+  input: "Type"
+  rules: |
+    The hero inflicts +1 DP in melee attacks against creatures of the chosen type. You must specify the type of creature when buying this advantage. The AP cost of this advantage is greater for creature types that are more common in Aventuria. You cannot specify broad categories (such as Living Creature or Non-Living Creature) when taking this advantage. In addition to the types and subcategories listed in the Core Rules, you can also choose specific species and cultures. You can even choose your own species/culture (but be warned: this can be difficult to play). The GM has the final say. The AP cost of this advantage is lower when the subcategory is more narrowly defined or there is a smaller chance of experiencing its effects. For more information about creature types and subcategories, see the **Core Rules**, Page *355**.
+  selectOptions:
+    - id: 1
+      name: "Common"
+      src:
+        - id: US25201E
+          firstPage: 120
+    - id: 2
+      name: "Occasional"
+      src:
+        - id: US25201E
+          firstPage: 120
+    - id: 3
+      name: "Rare"
+      src:
+        - id: US25201E
+          firstPage: 120
+  apValue: "Varies"
+  src:
+    - id: US25201E
+      firstPage: 120
+
+- id: ADV_69
+  name: "Iron Stomach"
+  rules: |
+    Heroes with Iron Stomach can eat tough meat as if it were normal meat. You can also eat plants that are hard to digest, without suffering ill effects. At Level II, you can eat inedible meat/plants. Note that this advantage does not let you avoid poisons and disease
+  src:
+    - id: US25201E
+      firstPage: 121
+
+- id: ADV_70
+  name: "Animal Friend"
+  rules: |
+    Checks using *Animal Lore (Domesticated Animals, Wild Animals)* receive a bonus of 1 QL if the check is successful. Note that the QL can never rise above 6
+  prerequisites: "~~Advantage Hatred for… (that type of animal)~~"
+  src:
+    - id: US25201E
+      firstPage: 121
+
+- id: ADV_71
+  name: "Aquatic Creature"
+  rules: |
+    Creatures with this advantage automatically receive the special ability *Underwater Combat (the cost of which is included in this advantage)*. Aquatic creatures can breathe underwater. They can also move through water freely since it is their natural element. They do not need to make checks to avoid drowning
+  prerequisites: "Species, culture, or profession must list Aquatic Creature as an automatic or suggested advantage."
+  src:
+    - id: US25201E
+      firstPage: 121
+    - id: US25101E
+      firstPage: 54
+
+- id: ADV_75
+  name: "Sobers Up Quickly"
+  rules: |
+    The time required to reduce one level of *Stupor* or *Intoxicated* caused by alcohol is decreased by half.
+  src:
+    - id: US25514E
+      firstPage: 13
+
+- id: ADV_76
+  name: "Acolyte"
+  rules: |
+    An acolyte may support a Blessed One of a single Church for which the acolyte has the disadvantages *Principles* and *Obligations*. The acolyte must be within 3 yards of the Blessed One to support them. If the acolyte spends the number of actions required for the liturgical time, the Blessed One receives a bonus of +1 for the liturgical chant. This effect is not cumulative with other acolytes.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: "Principles (Moral Code of a Church)"
+      - index: 2
+        replacement: "Obligations (Church)"
+  src:
+    - id: US25005E
+      firstPage: 227
+
+- id: ADV_77
+  name: "Preacher"
+  rules: |
+    The character receives a new use for *Persuasion (Public Speaking)* and may learn up to three Sermon special abilities, even if they do not have the advantage *Blessed*. The preacher must choose a god when purchasing this advantage. If the preacher receives the ordination to become a Blessed One for the chosen god later, they regain the 10 AP for this advantage or may choose to apply the AP to the cost of the advantage Blessed.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 2
+        replacement: "Principles I (Chosen God)"
+  src:
+    - id: US25005E
+      firstPage: 227
+
+- id: ADV_78
+  name: "Visionary"
+  rules: |
+    The character receives a new use for *Religions (Deity of Choice)* and may learn up to three Vision special abilities, even if they do not have the advantage *Blessed*. The visionary must choose a god when purchasing this advantage. If the visionary receives the ordination to become a Blessed One for the chosen god later, they regain the 10 AP for this advantage or may choose to apply the AP to the cost of the advantage *Blessed*.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 2
+        replacement: "Principles I (Chosen God)"
+  src:
+    - id: US25005E
+      firstPage: 227
+
+- id: ADV_79
+  name: "Many Sermons"
+  rules: |
+    The preacher may learn 4 Sermon special abilities at Level I, and 5 at Level II.
+  src:
+    - id: US25005E
+      firstPage: 227
+
+- id: ADV_80
+  name: "Many Visions"
+  rules: |
+    The visionary may learn 4 Vision special abilities at Level I, and 5 at Level II.
+  src:
+    - id: US25005E
+      firstPage: 227

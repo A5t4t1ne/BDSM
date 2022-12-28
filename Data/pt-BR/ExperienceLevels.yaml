@@ -1,0 +1,21 @@
+- id: EL_1
+  name: "Inexperiente"
+
+- id: EL_2
+  name: "Comum"
+
+- id: EL_3
+  name: "Experiente"
+
+- id: EL_4
+  name: "Competente"
+
+- id: EL_5
+  name: "Magistral"
+
+- id: EL_6
+  name: "Extraordinário"
+
+- id: EL_7
+  name: "Lendário"
+

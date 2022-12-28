@@ -1,0 +1,197 @@
+- id: FR_1
+  name: "Auswirkungen des Sternenfalls"
+  description: |
+    Die deutlich sichtbaren Veränderungen des Sternenfalls können auch regeltechnische Auswirkungen auf das Tun der Helden haben. Jede Probe, die sich auf Sternenkunde bezieht, also allem voran (See-)Navigation, Dämonenbeschwörung, das Herbeirufen von Geistern und Elementaren sowie die Horoskoperstellung, sollte bis auf Weiteres mit einer Erschwernis von 1 Punkt versehen werden, bis sich nach Meisterentscheid der Betreffende an die neuen Gegebenheiten gewöhnt oder er darin andere Gesetzmäßigkeiten erkannt hat. Konkret umfasst dies alle Proben auf Sternkunde in den Anwendungsgebieten *Astrologie*, *Himmelskartographie*, *Kalendarium*.
+  src:
+    - id: US25002
+      firstPage: 239
+
+- id: FR_2
+  name: "Der komplexe Weg – Alkohol-Regeln im Detail"
+  description: |
+    - Immer wenn ein Held eine bestimmte Menge Alkohol getrunken hat, muss der Spieler eine Probe auf *Zechen (Vermeidung von Betäubung durch Rauschmittel)* ablegen. Die Menge entspricht einer Grundeinheit je nach Alkoholsorte: bei Bier ein Humpen, bei Wein ein Becher, bei Schnaps/Spirituosen ein Becherchen.<br>
+      Die Qualitätsstufen bei Zechen geben an, wie viele Punkte der Held für die Giftprobe des Alkohols an Zähigkeit hinzugewinnt. Eine QS entspricht einem zusätzlichen Punkt Zähigkeit. Eine misslungene Probe bedeutet, dass er 1 Punkt von seiner Zähigkeit für die Probe verliert.
+    - Nach der Probe auf Zechen muss eine Giftprobe für den Alkohol abgelegt werden. Alkoholika weisen unterschiedlich starke Wirkungen auf, die du in der Tabelle auf Seite 17 nachschlagen kannst. Der Held erleidet durch Alkohol nicht den Status *Vergiftet* und kann dementsprechend normal regenerieren.
+    - Sollte ein Held mehr als 4 Stufen *Betäubung* durch Alkohol ansammeln, verdoppelt sich für jede Stufe über 4 der Zeitraum, in der er eine Stufe des Zustands abbauen kann. Erleidet der Held mehr als 4 Stufen *Berauscht* (siehe unten), so werden jeweils 4 Stufen davon in 1 Stufe *Betäubung* umgewandelt, die restlichen Stufen *Berauscht* verbleiben.
+    - Trinkt ein Held Alkohol in einer größeren Grundeinheit als vorgesehen (Schnaps im Becher oder Humpen), müssen mehr Proben auf *Zechen* und Giftproben abgelegt werden. Bei Wein im Humpen 2 Proben, bei Schnaps im Becher 4 Proben und im Humpen sogar 10.
+  src:
+    - id: US25514
+      firstPage: 12
+
+- id: FR_3
+  name: "Verfolgungsjagden"
+  description: |
+    Es ist fester Bestandteil eines jeden Heldenlebens, fliehende Schurken einzufangen oder selbst vor ihnen zu flüchten. In solch einem Fall kommt es zu einer Verfolgungsjagd. Die bereits vorgestellten Regeln (siehe **Regelwerk** Seite **349**) gestatten dabei einen einfachen und raschen Ablauf, während die im Folgenden aufgeführten Erweiterungen eine größere Detailtiefe bieten und einzelne Aspekte genauer beleuchten.
+
+    ### Geländetypen
+
+    Die im Rahmen einer Verfolgung erreichte Geschwindigkeit wird maßgeblich durch das vorherrschende Gelände bestimmt. Während es einem Helden zu Fuß auf offenem Gelände beinahe unmöglich ist, einen Berittenen einzuholen, kann dieser seine Vorteile im dichten Wald kaum ausspielen. Zu unterscheiden sind dabei fünf verschiedene Geländetypen.
+
+    - **Offenes Gelände:** Freiflächen behindern das Vorankommen nicht. Hindernisse sind weit und breit nicht zu sehen, während der Boden fest und eben ist. In der Natur finden sich solche Gegebenheiten nur selten und wenn, dann meist in den großen Ebenen des Nordens. Häufiger sind sie im Einflussgebiet der Zivilisation anzutreffen, so fallen beispielsweise ausgebaute, menschenleere Straßen oder große Plätze darunter. Auch die glatte Oberfläche eines Sees bei absoluter Windstille fällt darunter. Der Held mit der höchsten Geschwindigkeit ist unter solchen Bedingungen deutlich im Vorteil.
+    - **Gangbares Gelände:** Gelände ist dann als gangbar zu bezeichnen, wenn es das Vorankommen nur in geringem Maße behindert. Einfacher Pflanzenbewuchs in Form von Getreidefeldern fällt ebenso unter diese Kategorie wie ein leicht hügeliges, aber ansonsten offenes Terrain. Auch fahrbare, aber nicht befestigte Wege sind ihr zuzuordnen, während in Städten breite Straßen zu nennen sind. Im Wasser senkt ein leichter Wellengang die Geschwindigkeit, in der Luft eine frische Brise.
+    - **Normales Gelände:** Einzelne Hindernisse schränken die Möglichkeit ein, das ausgewählte Ziel zu verfolgen. Dies können Baumstümpfe oder niedrige Zäune sein, oder aber Gräben, die die Landschaft durchziehen. Trampelpfade gestatten ebenfalls nur ein eingeschränktes Vorankommen und die zahlreichen Windungen städtischer Gassen verlangsamen eine Person merklich. Das Schwimmen wird durch die Strömung eines kleineren Flusses eingeschränkt, durchschnittlicher Wind behindert beim Fliegen nicht allzu sehr.
+    - **Beschwerliches Gelände:** Hohe Steigungen erfordern nicht nur eine Menge Ausdauer, sondern machen auch eine rasche Verfolgung unmöglich. Enge und kaum ausgetretene Pfade, die sich durch ein Gebirge winden, hemmen die Bewegung daher ebenso wie lichte Wälder. Auch größere Ansammlungen von Wesen, die locker beieinander stehen, stellen Hindernisse dar. Eine starke Strömung erschwert das Schwimmen und starker Wind macht die Fortbewegung in der Luft beschwerlich.
+    - **Schwieriges Gelände:** Zahlreiche Hindernisse hemmen das Vorankommen massiv und negieren beinahe jeden Vorteil einer höheren Geschwindigkeit. Dichtes Dornengestrüpp und undurchdringliche Wälder fallen ebenso darunter wie enge Felsspalten und eine Gasse, durch die sich Menschenmassen drängen. Im Wasser zählt hierzu eine stürmische See, die meterhohe Wellen aufwirft, während das Äquivalent in der Luft tosender Wind ist.
+
+    #### Gelände bei Verfolgungsjagden
+
+    Geländetyp | Effektive GS | Beispiele
+    :-- | :-- | :--
+    Offenes Gelände | GSx2 | freie Fläche, Rennstrecken, stilles Gewässer, Windstille
+    Gangbares Gelände | GSx1,5 | Hügel, hohe Pflanzen, leichter Wellengang, leichte Brise
+    Normales Gelände | GSx1 | Weiden, Gassen, leichte Strömung, durchschnittlicher Wind
+    Beschwerliches Gelände | GSx0,75 | lichter Wald, Menschenansammlung, starke Strömung, starker Wind
+    Schwieriges Gelände | GSx0,5 | dichter Wald, bevölkerte Gassen, stürmische See, tosender Wind
+
+    ### Fortbewegungsarten
+
+    Helden wie Gegner bewegen sich meist zu Fuß fort und die meisten Verfolgungsjagden beginnen, bevor besondere Vorbereitungen getroffen werden können. Hin und wieder stehen den beteiligten Personen jedoch Hilfsmittel zur Verfügung, während in anderen Fällen eine Verfolgung nicht an Land, sondern stattdessen im Wasser oder in der Luft stattfindet. In solchen Situationen werden die notwendigen Proben nicht auf *Körperbeherrschung (Laufen)* abgelegt, sondern stattdessen auf ein von den Umständen abhängiges Talent. Es kann durchaus vorkommen, dass sich das verwendete Talent während der Verfolgungsjagd ändert, beispielsweise wenn ein Fluss durchquert oder ein Fahrzeug erreicht wird.
+
+    - **Verfolgung auf einem Reittier:** Eine Verfolgung oder Flucht auf dem Rücken eines Tiers durchzuführen verbessert die Chancen des Einfangens bzw. Entkommens in hohem Maße. Selbst der schnellste Läufer hat keine Chance, auf flacher Ebene einem Reiter zu entwischen oder ihn einzuholen. Alle Proben der berittenen Partei werden dabei auf *Reiten (Verfolgungsjagden)* abgelegt. Es ist jedoch unmöglich, beritten *Schwieriges Gelände* zu passieren.
+    - **Verfolgung auf einem Fahrzeug:** Während der Flucht mit einem Ochsenkarren wenig Erfolg beschieden sein dürfte, ist die Geschwindigkeit von Kutschen und Streitwagen unübertroffen. Ebenso ist ein Vorankommen im Wasser deutlich einfacher, wenn man über ein Schiff verfügt. Beim Einsatz eines Fahrzeugs werden alle Proben einer Verfolgungsjagd je nach verwendetem Gefährt auf *Boote & Schiffe (Verfolgungsjagden)* oder *Fahrzeuge (Verfolgungsjagden)* abgelegt. Landfahrzeuge können lediglich in *Offenem*, *Gangbarem* oder *Normalem Gelände* verwendet werden.
+    - **Verfolgung im Wasser:** Selten kommt es zu einer längeren Verfolgungsjagd, bei der eine der beteiligten Parteien zum Schwimmen gezwungen wird. Sollte es doch einmal dazu kommen, werden alle Proben auf *Schwimmen (Verfolgungsjagden)* abgelegt. Mit Hindernissen hat ein Schwimmer dabei kaum zu kämpfen, dafür ist seine Geschwindigkeit aber von Strömung und Wellengang abhängig.
+    - **Verfolgung in der Luft:** Vermag sich ein Held in die Lüfte zu erheben, kann er alle Hindernisse am Boden ignorieren und sich zudem meist schneller bewegen als Wesen, die auf ihre Füße angewiesen sind. Auf der anderen Seite ist er den Launen des Windes ausgeliefert, die ihn ebenso behindern können wie ein schwer zu passierendes Gelände. Ein fliegender Held würfelt alle Proben einer Verfolgungsjagd auf *Fliegen (Verfolgungsjagd)*.
+
+    #### GS-Beispiele von Fortbewegungsmitteln
+
+    Fortbewegungsmittel | GS
+    :-- | :--
+    Esel | 11
+    Fliegender Teppich | 14
+    Galeere | 14
+    Hexenbesen | 16
+    Hippogriff | 16
+    Karakil-Dämon | 18
+    Kutsche | 11
+    Pferd | 12
+    Ruderboot | 10
+    Segelboot | 16
+    Segelschiff | 20
+
+    #### Kombination verschiedener Verfolgungsarten
+
+    Prinzipiell ist es möglich, einen Laufenden mit einem Pferd zu verfolgen, oder mit einer Kutsche einen Fliegenden. Hier muss jedoch darauf geachtet werden, dass ein Fliegender immer außerhalb der Reichweite eines am Boden befindlichen Verfolgers bleibt, Reittiere meist wesentlich mehr GS besitzen als ein Held und das Verfolgen eines Boots auf dem Meer mit den meisten Verfolgungsarten schlicht unmöglich ist.
+
+    ### Besondere Situationen
+
+    Jede Verfolgung resultiert entweder in einem Erfolg oder einem Misserfolg, was unterschiedliche Konsequenzen mit sich bringt. Doch neben diesen Standardfällen können auch Situationen auftreten, die ein abweichendes Vorgehen erfordern. Ab welchem Zeitpunkt die Regeln für Verfolgungsjagden gelten, entscheidet der Meister. Es könnte z. B. passieren, dass es nach einer erfolgreichen Flucht (siehe **Regelwerk** Seite **237**) zu einer Verfolgungsjagd kommt.
+
+    - **Gelungene Verfolgung:** Gelingt die Verfolgung, wird der Flüchtende eingeholt und gelangt dadurch in die Angriffsdistanz des Verfolgers. Vermag dieser ein/en Manöver/Befehl auszuführen, das oder der Bewegung und Attacke innerhalb 1 KR abhandelt (beispielsweise *Niederreiten* oder *Sturmangriff*), kann er in der KR des Einholens einen solchen Angriff ausführen. Da der Flüchtende dem Angreifer den Rücken zuwendet, gilt für ihn seine Verteidigung als um 2 gesenkt (es sei denn, er bricht die Flucht ab, siehe nachfolgende Regelung). Beherrscht der Verfolger kein solches Manöver oder möchte es nicht einsetzen, kann er stattdessen einen *Passierschlag* ausführen.<br>
+      Der Flüchtende kann einen Angriff in seinen Rücken natürlich abwenden, indem er die Flucht zu Beginn der KR abbricht und sich stattdessen seinem Verfolger stellt.
+    - **Misslungene Verfolgung:** Die grundlegende Regel ist, dass die Verfolgung misslingt, wenn der Flüchtende nach 5 KR noch nicht eingeholt wurde. Dies bedeutet jedoch nicht zwangsläufig, dass der Verfolgte den Sichtbereich des Verfolgers verlassen haben muss. Gerade auf weiten Ebenen oder auf offener See ist die Sichtweite meist größer als die zum Entkommen nötige Distanz. Dennoch ist auch in solch einem Fall keine weitere Verfolgung möglich. Eine Ausnahme bietet ein Wechsel der Fortbewegungsmethode. Erlangt der Verfolger eine Möglichkeit, sich schneller fortzubewegen, kann eine neue Jagd begonnen werden, solange der Flüchtende noch immer zu sehen ist. Geschehen kann dies beispielsweise, wenn die Helden ihre wartenden Pferde erreichen oder durch einen Zauber beschleunigt werden.
+    - **Misslungene Proben:** Misslingt Verfolger oder Verfolgtem eine der Proben auf *Körperbeherrschung (Laufen)*, bleibt er nicht einfach stehen. Stattdessen kann er sich weiterhin mit seiner normalen GS fortbewegen und erhält lediglich keine Bonuspunkte durch die erreichten FP. Würfelt er hingegen einen Patzer, unterläuft ihm ein unglückliches Missgeschick. Er rutscht aus, stolpert, rennt unbedacht gegen ein Hindernis oder läuft in eine Sackgasse. Dadurch kommt er nicht nur in der laufenden KR nicht voran, sondern muss auch in der folgenden aussetzen. Meist bedeutet dies also das Ende einer Verfolgungsjagd.
+    - **Barrieren:** Der grundlegende Ablauf einer Verfolgungsjagd geht von einem grundsätzlich passierbaren Gelände aus, das eine Fortbewegung zwar verlangsamen, aber nicht gänzlich aufhalten kann. Ist das Glück dem Flüchtenden nicht hold, mag er sich jedoch mit einer Barriere konfrontiert sehen, die nicht mit dem genutzten Verfolgungstalent überwunden werden kann. Dabei kann es sich beispielsweise um eine steile Wand, eine klaffende Schlucht oder eine verschlossene Tür handeln.<br>
+      Soll die Flucht trotzdem nicht aufgegeben werden, muss die Barriere zunächst unter Einsatz eines passenden Talents überwunden werden (beispielsweise *Klettern*, *Körperbeherrschung* oder *Schlösserknacken*). Schwierigkeit und Dauer des Überwindens hängen von der Natur der jeweiligen Barriere ab, im Normalfall ist jedoch keine gleichzeitige Distanzvergrößerung möglich. Sollte die Überwindung jedoch erfolgreich sein, stellt sich für den Verfolger möglicherweise das gleiche Problem und ermöglicht damit ein rascheres Entkommen.
+    - **Hindernisse & Hürden:** Möglichst schnell wegzulaufen stellt keineswegs die einzige Option dar, einen Verfolger abzuschütteln. Stattdessen kann eine flüchtige Person auch versuchen, die Verfolgung zu behindern, indem sie Hürden erschafft. So kann sie beispielsweise Tische umstoßen, Türen versperren oder ein Fass in den Weg rollen.<br>
+      Die Durchführung eines solchen Behinderungsvorhabens kann unterschiedlich aufwendig sein.
+      - Einige solcher Aktionen kosten keine Aktion und können automatisch und parallel zur Verfolgung geschehen.
+      - Es gibt auch Vorhaben, die 1 Aktion kosten.
+      - Und es gibt Vorhaben, die sowohl 1 Aktion kosten, als auch eine Probe verlangen. Passende Proben, um dieses Vorhaben auszulösen, können z. B. *Kraftakt* oder *Körperbeherrschung* sein.
+
+        Die Konsequenzen eines solchen Hindernisses können für den Verfolger entweder die Opferung von 1 Aktion zur Beseitigung oder dem Umgehen des Hindernisses sein, oder er verliert bei der aktuellen Probe für die Verfolgung 1 auf seine GS.<br>
+        Orientiere dich an den folgenden Beispielen:
+
+    #### Beispiele für Hindernisse & Methoden
+
+    Hindernisse und Methoden | Konsequenz für Verfolger Vorhaben
+    :-- | :--
+    Niedergeworfene Person umgehen/\u200büberspringen | –2 GS | automatisch
+    Melonen von einem Basarstand auf den Weg rollen lassen | –2 GS | automatisch
+    Verfolger wird mit Steinchen, Datteln oder anderen kleinen Objekten beworfen | –2 GS | automatisch
+    Karren blockiert Weg | –2 GS | automatisch
+    Rollenden Fässern ausweichen | 1 Aktion, Probe Körperbeherrschung | 1 Aktion, Kraftakt
+    Passanten ausweichen | 1 Aktion, Probe Kraftakt | 1 Aktion, Kraftakt
+  src:
+    - id: US25003
+      firstPage: 27
+      lastPage: 29
+
+- id: FR_4
+  name: "Soziale Konflikte"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 40
+      lastPage: 44
+
+- id: FR_5
+  name: "Herumfragen"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 45
+      lastPage: 46
+
+- id: FR_6
+  name: "Jagd"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 54
+      lastPage: 56
+
+- id: FR_7
+  name: "Nahrungssuche"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 57
+      lastPage: 58
+
+- id: FR_8
+  name: "Recherche"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 72
+      lastPage: 73
+
+- id: FR_9
+  name: "Herstellung"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 92
+      lastPage: 100
+
+- id: FR_10
+  name: "Besondere Handlungsmöglichkeiten im Kampf"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 124
+      lastPage: 128
+
+- id: FR_11
+  name: "Trefferzonen-Regeln"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 128
+      lastPage: 133
+
+- id: FR_12
+  name: "Kampf in drei Dimensionen"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 133
+      lastPage: 137
+
+- id: FR_13
+  name: "Kampfstile"
+  description: |
+    TBD
+  src:
+    - id: US25003
+      firstPage: 145
+      lastPage: 148

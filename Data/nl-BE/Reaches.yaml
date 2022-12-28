@@ -1,0 +1,8 @@
+- id: 1
+  name: "kort"
+- id: 2
+  name: "middel"
+- id: 3
+  name: "lang"
+- id: 4
+  name: "buitengewoon lang"

@@ -1,0 +1,19 @@
+- id: 1
+  name: "Physique"
+  fullName: "Talents physiques"
+
+- id: 2
+  name: "Social"
+  fullName: "Talents sociaux"
+
+- id: 3
+  name: "Nature"
+  fullName: "Talents de nature"
+
+- id: 4
+  name: "Connaissances"
+  fullName: "Connaissances"
+
+- id: 5
+  name: "Savoir-faire"
+  fullName: "Savoir-faire"

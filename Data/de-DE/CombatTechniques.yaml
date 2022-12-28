@@ -1,0 +1,150 @@
+- id: CT_1
+  name: "Armbrüste"
+  src:
+    - id: US25001
+      firstPage: 245
+
+- id: CT_2
+  name: "Bögen"
+  src:
+    - id: US25001
+      firstPage: 245
+
+- id: CT_3
+  name: "Dolche"
+  special: |
+    Mit Dolchen können Kettenwaffen, Stangenwaffen, Zweihandhiebwaffen und Zweihandschwerter nicht pariert werden.
+  src:
+    - id: US25001
+      firstPage: 235
+
+- id: CT_4
+  name: "Fechtwaffen"
+  special: |
+    Mit Fechtwaffen können Kettenwaffen, Stangenwaffen, Zweihandhiebwaffen und Zweihandschwerter nicht pariert werden. Proben auf Verteidigung gegen Fechtwaffen-Attacken sind um 1 erschwert.
+  src:
+    - id: US25001
+      firstPage: 235
+
+- id: CT_5
+  name: "Hiebwaffen"
+  src:
+    - id: US25001
+      firstPage: 235
+
+- id: CT_6
+  name: "Kettenwaffen"
+  special: |
+    Da sie wegen der nur schwer kontrollierbaren Kugeln kaum abzuwehren sind, ist die Parade gegen Kettenwaffen um 2 erschwert. Schilde können darüber hinaus gegen Kettenwaffen nur ihren einfachen Bonus auf die Verteidigung nutzen. Angriffe mit Kettenwaffe gelten bereits ab einem Ergebnis von 19 als Patzer. Mit Kettenwaffen ist keine Parade möglich.
+  src:
+    - id: US25001
+      firstPage: 235
+
+- id: CT_7
+  name: "Lanzen"
+  src:
+    - id: US25001
+      firstPage: 235
+
+- id: CT_8
+  name: "Peitschen"
+  special: |
+    Da sie wegen der nur schwer kontrollierbaren Bewegungen kaum abzuwehren sind, ist  die Parade gegen Peitschen um 2 erschwert. Schilde  können darüber hinaus gegen Peitschen nur ihren  einfachen Bonus auf die Verteidigung nutzen. Angriffe mit Peitschen gelten bereits ab einem Ergebnis von 19 als Patzer. Mit Peitschen ist keine Parade möglich.
+  src:
+    - id: US25003
+      firstPage: 227
+    - id: US25208
+      firstPage: 122
+    - id: US25213
+      firstPage: 232
+
+- id: CT_9
+  name: "Raufen"
+  special: |
+    Unbewaffnete erleiden bei einer erfolgreichen Parade mit Raufen gegen Bewaffnete trotzdem den vollen Schaden (und sollten stattdessen besser ausweichen). Wird eine Raufenattacke mit einer Waffe abgewehrt, erleidet der Angreifer den halben Waffenschaden der Waffe des Gegners. Mittels Raufen richtet ein Kämpfer grundsätzlich einen Schaden von 1W6 TP an, der aber wie üblich über die Leiteigenschaft modifiziert werden kann.
+  src:
+    - id: US25001
+      firstPage: 235
+
+- id: CT_10
+  name: "Schilde"
+  special: |
+    Der Attacke- und Paradewert von Schilden wird wie bei allen anderen Kampftechniken auch berechnet. Die Parade mit der Kampftechnik Schilde ist jedoch um den doppelten Parade-Bonus des jeweiligen Schildes modifiziert und erleidet keine Abzüge durch das Führen mit der falschen Hand. Fernkampfangriffe und Attacken großer Gegner können mit einem Schild geblockt werden. Ein zweiter Schild erhöht diesen Bonus nicht. Um Fernkampfangriffe abzuwehren muss aktiv mit dem Schild pariert werden, eine Parade mit der Hauptwaffe reicht nicht aus. Mit einem Schild kann man auch angreifen.
+  src:
+    - id: US25001
+      firstPage: 236
+
+- id: CT_11
+  name: "Schleudern"
+  src:
+    - id: US25003
+      firstPage: 227
+    - id: US25208
+      firstPage: 122
+
+- id: CT_12
+  name: "Schwerter"
+  src:
+    - id: US25001
+      firstPage: 236
+
+- id: CT_13
+  name: "Stangenwaffen"
+  src:
+    - id: US25001
+      firstPage: 236
+
+- id: CT_14
+  name: "Wurfwaffen"
+  src:
+    - id: US25001
+      firstPage: 245
+
+- id: CT_15
+  name: "Zweihandhiebwaffen"
+  src:
+    - id: US25001
+      firstPage: 236
+
+- id: CT_16
+  name: "Zweihandschwerter"
+  src:
+    - id: US25001
+      firstPage: 236
+
+- id: CT_17
+  name: "Feuerspeien"
+  src:
+    - id: US25003
+      firstPage: 105
+
+- id: CT_18
+  name: "Blasrohre"
+  src:
+    - id: US25208
+      firstPage: 121
+
+- id: CT_19
+  name: "Diskusse"
+  src:
+    - id: US25208
+      firstPage: 122
+
+- id: CT_20
+  name: "Fächer"
+  special: |
+    Fächer ein- oder ausklappen dauert jeweils 1 Aktion.<br>
+    Mit dem ausgeklappten Fächer kann man versuchen, Geschosse (Bolzen, Pfeile, Kugeln, Wurfdolche - und Scheiben u. Ä., nicht aber Wurfspeere und -äxte) wie mit einem Schild zu parieren, allerdings erleidet man bei der Parade zusätzlich zu den üblichen Modifikatoren (siehe **Regelwerk** Seite **244**) noch eine Erschwernis von 1.<br>
+    Mit einem offenen Fächer können nur Nahkampfangriffe der Kampftechniken Raufen, Dolche und Fechtwaffen pariert werden sowie Fernkampftechniken (siehe oben). Nur ein offener Fächer kann als kleiner Schild dienen.<br>
+    Mit geschlossenem Fächer können Waffen aller Kampftechniken außer Kettenwaffen, Zweihandhiebwaffen, Zweihandschwerter und Fernkampftechniken pariert werden. Nur ein geschlossener Fächer kann als Parierwaffe dienen.
+  src:
+    - id: US25216
+      firstPage: 123
+
+- id: CT_21
+  name: "Spießwaffen"
+  special: |
+    Mit überlangen Spießen können keine normalen Paraden ausgeführt werden, außer eventuell Formationsparaden.
+  src:
+    - id: US25216
+      firstPage: 123

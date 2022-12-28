@@ -1,0 +1,31 @@
+- id: ATTR_1
+  name: "Mut"
+  short: MU
+
+- id: ATTR_2
+  name: "Klugheit"
+  short: KL
+
+- id: ATTR_3
+  name: "Intuition"
+  short: IN
+
+- id: ATTR_4
+  name: "Charisma"
+  short: CH
+
+- id: ATTR_5
+  name: "Fingerfertigkeit"
+  short: FF
+
+- id: ATTR_6
+  name: "Gewandtheit"
+  short: GE
+
+- id: ATTR_7
+  name: "Konstitution"
+  short: KO
+
+- id: ATTR_8
+  name: "Körperkraft"
+  short: KK

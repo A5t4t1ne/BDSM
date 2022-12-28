@@ -1,0 +1,532 @@
+- id: ADV_0
+  name: "Vantaggio personalizzato"
+  rules: |
+    *Un segnaposto per vantaggi personalizzati, con un nome ed un costo in PAvv da definire liberamente.*
+  input: "Nome del vantaggio"
+  src:
+    - id: REG001
+      firstPage: 1
+
+- id: ADV_1
+  name: "Nobiltà"
+  rules: |
+    L’eroe riceve rispetto, gode dei privilegi da nobile e può guadagnare dei bonus dal narratore qualora interagisca con persone di posizione inferiore. Per maggiori dettagli, vedi il **Regolamento** a pag. **338**.
+  prerequisites: "Cultura con un sistema di classi che preveda un’aristocrazia."
+  src:
+    - id: REG001
+      firstPage: 167
+
+- id: ADV_2
+  name: "Senza età"
+  rules: |
+    L’eroe è immune all’invecchiamento naturale e magico e non soffre gli effetti negativi della vecchiaia.
+  src:
+    - id: REG001
+      firstPage: 169
+
+- id: ADV_3
+  name: "Odore gradevole"
+  rules: |
+    Le prove di abilità su *Seduzione (Conquistare, Romanticherie)* ricevono un bonus di 1.
+  range: "1 passo."
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_4
+  name: "Attitudine"
+  rules: |
+    Un personaggio con il vantaggio Attitudine può tirare nuovamente uno dei D20 per ogni prova di abilità per l’abilità scelta. Il giocatore tira 3D20 come di norma, sceglie poi uno dei dadi e lo lancia nuovamente, mantenendo il risultato migliore tra i due risultati del dado. Attitudine deve essere acquistata singolarmente per ogni competenza, incantesimo o liturgia. Non puoi acquistare Attitudine per la stessa competenza più di una volta (ossia, non puoi usare Attitudine per rilanciare più di un D20 nella stessa prova). Non puoi servirti di questo vantaggio se dalla prova ottieni un doppio 20 o un triplo 20. Non puoi scegliere un’Attitudine per una tecnica di combattimento (per questa, devi usare il vantaggio Attitudine per le armi, qui sotto). Puoi scegliere di usare un PFato prima o dopo aver utilizzato la tua Attitudine (leggi il **Regolamento** a pag. **29**). Questo sta a significare che è possibile rilanciare più di una volta all’interno di una prova, combinando Attitudine con l’uso di Punti Fato.
+  apValue: "6/12/18/24 Punti Avventura rispettivamente per abilità con Classe di Miglioramento A/B/C/D."
+  prerequisites: "Non c’è lo svantaggio *Incompetenza* nella stessa abilità, non più di tre Attitudini per ogni personaggio."
+  src:
+    - id: REG001
+      firstPage: 165
+
+- id: ADV_5
+  name: "Ambidestrismo"
+  rules: |
+    Non si applicano le penalità riguardanti l’uso della mano non dominante nelle prove di abilità. Nel combattimento a due mani, non si applicano le penalità aggiuntive sull’uso della mano non dominante (leggi il **Regolamento** a pag. **238**).
+  src:
+    - id: REG001
+      firstPage: 164
+
+- id: ADV_6
+  name: "Buiovisione"
+  rules: |
+    Con il livello I di questo vantaggio, riduci le penalità riferite all’oscurità di un livello. Il livello II ti permette di ignorare tutte le penalità riferite all’oscurità. In condizioni di totale oscurità, Buiovisione (di qualsiasi livello) non ha effetto e si applicano tutte le penalità per la completa oscurità (leggi il **Regolamento** a pag. **348**).
+  src:
+    - id: REG001
+      firstPage: 165
+
+- id: ADV_7
+  name: "Aura affine al metallo"
+  rules: |
+   Con questo vantaggio, subisci una penalità ogni 4 sassi di peso a causa del Bando del Ferro, e non ogni 2 sassi, come di norma (leggi il **Regolamento** a pag. **256**).
+  src:
+    - id: REG001
+      firstPage: 165
+
+- id: ADV_8
+  name: "Senso della distanza"
+  rules: |
+    Le prove per i combattimenti a distanza con archi e balestre subiscono una penalità di 1 anziché di 2 per gli obiettivi nel raggio di azione Lontano. Questa penalità non si applica alle armi da lancio.
+  range: "200 passi. Oltre questa distanza, la tua stima si fa sempre meno accurata."
+  src:
+    - id: REG001
+      firstPage: 169
+
+- id: ADV_9
+  name: "Scattante"
+  rules: |
+    Aumenta il Movimento del tuo eroe di 1.
+  src:
+    - id: REG001
+      firstPage: 169
+
+- id: ADV_10
+  name: "Fiuto della volpe"
+  rules: |
+    L’eroe può avvertire trappole che non possono essere trovate con i normali sensi. Con questo vantaggio, l’eroe può usare *Fiuto della volpe* come nuova applicazione per la competenza *Percezione*.
+  range: "10 passi."
+  src:
+    - id: REG001
+      firstPage: 166
+
+- id: ADV_11
+  name: "Naturale eloquio"
+  rules: |
+    Le prove di abilità su *Persuasione (Oratoria)* ricevono un bonus di 1.
+  src:
+    - id: REG001
+      firstPage: 167
+
+- id: ADV_12
+  name: "Grazia divina"
+  rules: |
+    L’eroe riceve un valore base di Energia Karmica di 20 PK. Ogni iniziato dovrà inoltre possedere una abilità speciale Tradizione (vedi il **Regolamento** a pag. **316**), che dovrai acquistare separatamente. È possibile essere devoti ad una sola divinità alla volta: non è possibile acquistare più di una Tradizione. Un eroe che desideri diventare iniziato successivamente alla sua creazione, può acquistare questo vantaggio più avanti nel corso del gioco.
+  src:
+    - id: REG001
+      firstPage: 167
+
+- id: ADV_13
+  name: "Resistenza ai veleni"
+  rules: |
+    Nelle prove di veleno, aumenta la tua Tenacia e il tuo Animo di 1 per ogni livello del vantaggio.
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_14
+  name: "Fortuna"
+  rules: |
+    Il tuo numero massimo di PFato (così come sono determinati dal tuo Livello Esperienza) aumenta di 1 per ogni livello del vantaggio. Il numero di PFato disponibili alla creazione dell’eroe è sempre pari al massimo.
+  src:
+    - id: REG001
+      firstPage: 166
+
+- id: ADV_15
+  name: "Avvenenza"
+  rules: |
+    L’eroe riceve un bonus di 1 per ogni livello di questo vantaggio per le prove su *Commerciare (Contrattare)*, *Parlantina (Affibbiare, Manipolare, Trarsi d’impaccio, Adulare)* e *Seduzione (Conquistare, Romanticherie)*.
+  src:
+    - id: REG001
+      firstPage: 165
+
+- id: ADV_16
+  name: "Abilità eccezionale"
+  rules: |
+    Il vantaggio Abilità eccezionale aumenta di 1 il massimo Livello Abilità (LA) di un’abilità. Questo include sia il massimo per la creazione del personaggio che il valore massimo finale (a seconda dell’attributo maggiore coinvolto, leggi il **Regolamento** a pag. **39**). L’eroe non riceve un punto abilità aggiuntivo, ma può iniziare il gioco con un LA di 11 anziché di 10 (nel caso di un Livello Esperienza Esperto). Puoi acquistare questo vantaggio quattro volte in totale, ma non più di due volte per la stessa abilità. Se scegli il vantaggio due volte per la stessa abilità, il LA massimo aumenta di 2.
+  apValue: "Rispettivamente 2/4/6/8 Punti Avventura per ogni aumento, in base alla Classe di Miglioramento dell’abilità (A/B/C/D)."
+  prerequisites: "Non c’è lo svantaggio Incompetenza per l’abilità."
+  src:
+    - id: REG001
+      firstPage: 163
+
+- id: ADV_17
+  name: "Tecnica di combattimento eccezionale"
+  rules: |
+    Il vantaggio aumenta di 1 il valore massimo del Livello Tecnica di Combattimento, quindi sia il massimo per la creazione del personaggio che il valore massimo finale (a seconda dell’attributo maggiore coinvolto, vedi il **Regolamento** a pag. **39**). L’eroe non riceve un punto nella tecnica, ma può iniziare il gioco con un valore di 13 invece che di 12 (con un Livello di Esperienza Esperto). Anche il valore massimo dell’eroe aumenta di 1 punto. Puoi acquistare questo vantaggio due volte, ma solo una volta per la medesima tecnica di combattimento.
+  apValue: "Rispettivamente 8/12/16 Punti Avventura in base alla Classe di Miglioramento della tecnica di combattimento (B/C/D)."
+  src:
+    - id: REG001
+      firstPage: 170
+
+- id: ADV_18
+  name: "Senso eccezionale"
+  rules: |
+    Un personaggio con Senso eccezionale riceve un bonus di 1 per le prove su *Percezione*, ma solo se la prova usa il senso prescelto. Puoi scegliere tra questi sensi: Vista, Udito, Olfatto e Gusto, Tatto. Puoi acquistare Senso eccezionale più di una volta (per sensi diversi), ma solo una volta per ogni senso.
+  selectOptions:
+    - id: 1
+      name: "Vista"
+      src:
+        - id: REG001
+          firstPage: 169
+    - id: 2
+      name: "Udito"
+      src:
+        - id: REG001
+          firstPage: 169
+    - id: 3
+      name: "Olfatto e Gusto"
+      src:
+        - id: REG001
+          firstPage: 169
+    - id: 4
+      name: "Tatto"
+      src:
+        - id: REG001
+          firstPage: 169
+  apValue: "12 Punti Avventura (vista), 12 Punti Avventura (udito), 6 Punti Avventura (olfatto e gusto), 2 Punti Avventura (tatto)."
+  prerequisites: "Non c’è lo svantaggio Senso carente per lo stesso senso, non c’è lo svantaggio Cecità (per la vista), non c’è lo svantaggio Sordo (per l’udito)."
+  src:
+    - id: REG001
+      firstPage: 165
+
+- id: ADV_22
+  name: "Resistenza al caldo"
+  rules: |
+    Riduce il livello di Caldo dell’eroe di 1, fino ad un minimo di 1 (vedi **Regolamento** a pag. **346**).
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_23
+  name: "Elevata energia astrale"
+  rules: |
+    Aumenta il valore base di Energia Astrale di 1 PA per ogni livello del vantaggio.
+  src:
+    - id: REG001
+      firstPage: 166
+
+- id: ADV_24
+  name: "Elevata energia karmica"
+  rules: |
+    Aumenta il valore base di Energia Karmica di 1 PK per ogni livello del vantaggio.
+  src:
+    - id: REG001
+      firstPage: 166
+
+- id: ADV_25
+  name: "Elevata energia vitale"
+  rules: |
+    Aumenta il valore base di Energia Vitale di 1 PV per ogni livello del vantaggio.
+  src:
+    - id: REG001
+      firstPage: 166
+
+- id: ADV_26
+  name: "Animo forte"
+  rules: |
+    Aumenta il valore base dell’Animo dell’eroe di 1.
+  src:
+    - id: REG001
+      firstPage: 164
+
+- id: ADV_27
+  name: "Elevata tenacia"
+  rules: |
+    Aumenta il valore base di Tenacia dell’eroe di 1.
+  src:
+    - id: REG001
+      firstPage: 166
+
+- id: ADV_28
+  name: "Immunità a… (Veleno)"
+  rules: |
+    Sei immune ad un certo tipo di veleno, il quale non ha nessun tipo di effetto su di te. Questo vantaggio deve essere acquistato separatamente per ogni tipo di veleno.
+  selectOptions:
+    - id: 1
+      name: "Arax"
+      src:
+        - id: REG001
+          firstPage: 342
+    - id: 2
+      name: "Kelmon"
+      src:
+        - id: REG001
+          firstPage: 342
+    - id: 3
+      name: "Tulmadron"
+      src:
+        - id: REG001
+          firstPage: 342
+    - id: 4
+      name: "Wurara"
+      src:
+        - id: REG001
+          firstPage: 342
+  apValue: "Metà del livello del veleno scelto, in Punti Avventura."
+  src:
+    - id: REG001
+      firstPage: 167
+
+- id: ADV_29
+  name: "Immunità a… (Malattia)"
+  rules: |
+    Se sei immune ad un certo tipo di malattia, non la contrarrai mai nel corso della tua vita. Questo vantaggio deve essere acquistato separatamente per ogni tipo di malattia.
+  selectOptions:
+    - id: 1
+      name: "Difar sciolto"
+      src:
+        - id: REG001
+          firstPage: 343
+    - id: 2
+      name: "Lutanas"
+      src:
+        - id: REG001
+          firstPage: 344
+    - id: 3
+      name: "Pazzia fulminante"
+      src:
+        - id: REG001
+          firstPage: 344
+          lastPage: 344
+    - id: 4
+      name: "Febbre palustre / Sudore di Brabak"
+      src:
+        - id: REG001
+          firstPage: 343
+    - id: 5
+      name: "Vaiolo di Zorgan"
+      src:
+        - id: REG001
+          firstPage: 344
+  apValue: "Metà del livello della malattia scelta, in Punti Avventura."
+  src:
+    - id: REG001
+      firstPage: 167
+
+- id: ADV_30
+  name: "Resistenza al freddo"
+  rules: |
+    Riduce il livello di Freddo dell’eroe di 1, fino a un minimo di 0 (vedi **Regolamento** a pag. **346**).
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_31
+  name: "Resistenza alle malattie"
+  rules: |
+    Nelle prove di malattia, aumenta la tua Tenacia e il tuo Animo di 1 per ogni livello del vantaggio.
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_32
+  name: "Armonia astrale"
+  input: "Ambiente"
+  rules: |
+    Devi scegliere un ambiente per questo vantaggio. L’eroe riceve un bonus di 1 per le prove di abilità magiche in quello specifico ambiente.
+  selectOptions:
+    - id: 1
+      name: "Creature delle Rive"
+      src:
+        - id: REG001
+          firstPage: 164
+    - id: 2
+      name: "Creature delle Montagne"
+      src:
+        - id: REG001
+          firstPage: 164
+    - id: 3
+      name: "Creature del Ghiaccio"
+      src:
+        - id: REG001
+          firstPage: 164
+    - id: 4
+      name: "Creature del Mare"
+      src:
+        - id: REG001
+          firstPage: 164
+    - id: 5
+      name: "Creature della Notte"
+      src:
+        - id: REG001
+          firstPage: 164
+    - id: 6
+      name: "Creature della Foresta"
+      src:
+        - id: REG001
+          firstPage: 164
+  prerequisitesEnd: "Vantaggio Dono della magia, non c’è lo svantaggio Restrizione astrale per lo stesso ambiente."
+  src:
+    - id: REG001
+      firstPage: 167
+
+- id: ADV_33
+  name: "Misticismo"
+  rules: |
+    Per un mistico, la condizione Estraniamento diminuisce di 1 livello ogni 2 ore anziché ogni ora.
+  src:
+    - id: REG001
+      firstPage: 167
+
+- id: ADV_34
+  name: "Veglia"
+  rules: |
+    I personaggi con questo vantaggio non sentono il bisogno di dormire regolarmente e possono stare svegli per un’intera settimana senza stancarsi. Dovranno comunque recuperare il sonno perduto più avanti. Alcune specie necessitano di dormire veramente per recuperare, mentre ad altre basta la meditazione o una tecnica simile. Un eroe con questo vantaggio che resiste senza dormire non trarrà benefici da un sonno e da un riposo regolare durante la fase di rigenerazione (ma può beneficiare di erbe curative e della competenza *Curare ferite*).
+  src:
+    - id: REG001
+      firstPage: 170
+
+- id: ADV_35
+  name: "Pragmatismo"
+  rules: |
+    Per un pragmatico, Estraniamento scende di 1 livello ogni mezz’ora anziché ogni ora.
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_36
+  name: "Ricchezza"
+  rules: |
+    L’eroe riceve 250 Talleri d’argento aggiuntivi per ogni livello durante la creazione del personaggio.
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_37
+  name: "Senso dell'orientamento"
+  rules: |
+    Le prove di abilità su *Orientamento* ricevono un bonus di 1.
+  src:
+    - id: REG001
+      firstPage: 169
+
+- id: ADV_38
+  name: "Contorsionismo"
+  rules: |
+    Le prove su *Controllo del corpo (Acrobazie, Divincolarsi)* ricevono un bonus di 1.
+  src:
+    - id: REG001
+      firstPage: 166
+
+- id: ADV_39
+  name: "Insensibilità alla magia"
+  rules: |
+    La maggior parte degli incantesimi lanciati contro l’eroe soffrono una penalità di 1. Questo include tutti gli incantesimi e gli effetti magici con gli aspetti Chiaroveggenza, Condizionamento, Taumaturgia e Trasmutazione, così come gli incantesimi modificati da Animo o da Tenacia. La penalità si applica anche se l’eroe stesso desidera che la magia faccia effetto.
+  src:
+    - id: REG001
+      firstPage: 167
+
+- id: ADV_40
+  name: "Adattabilità sociale"
+  rules: |
+    Gli eroi con Adattabilità sociale possono ignorare le penalità sulle competenze sociali risultanti da distinzioni di rango (leggi il **Regolamento** a pag. **338**). Il vantaggio Adattabilità sociale non è sufficiente ad ingannare le persone dell’alta nobiltà.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: Non c’è lo svantaggio Incompetenza in una delle competenze sociali, non c’è lo svantaggio Asservimento
+  src:
+    - id: REG001
+      firstPage: 163
+
+- id: ADV_41
+  name: "Aspetto anonimo"
+  rules: |
+    Gli eroi con questo vantaggio ricevono un bonus di 1 su *Vita da strada (Pedinare)*.
+  src:
+    - id: REG001
+      firstPage: 164
+
+- id: ADV_42
+  name: "Rigenerazione astrale accelerata"
+  rules: |
+    Durante la rigenerazione, l’eroe riceve 1 punto aggiuntivo di PA per ogni livello del vantaggio.
+  src:
+    - id: REG001
+      firstPage: 169
+
+- id: ADV_43
+  name: "Rigenerazione karmica accelerata"
+  rules: |
+    Durante la rigenerazione, l’eroe riceve 1 punto aggiuntivo di PK per ogni livello del vantaggio.
+  src:
+    - id: REG001
+      firstPage: 169
+
+- id: ADV_44
+  name: "Rigenerazione vitale accelerata"
+  rules: |
+    Durante la rigenerazione, l’eroe riceve 1 punto aggiuntivo di PV per ogni livello del vantaggio.
+  src:
+    - id: REG001
+      firstPage: 169
+
+- id: ADV_45
+  name: "Aura occultata"
+  rules: |
+    Il lanciatore di incantesimi appare non magico alla percezione non diretta della magia. Chiunque tenti di trovare o analizzare l’eroe (usando l’incantesimo *Odem Arcanum* o la liturgia *Sentore Magico*, ad esempio) subisce una penalità di 3.
+  src:
+    - id: REG001
+      firstPage: 165
+
+- id: ADV_46
+  name: "Affabilità"
+  rules: |
+    Le prove su *Commerciare (Contrattare)*, *Parlantina (Mendicare, Manipolare, Adulare)* o *Persuasione (Convincere, Dibattito, Oratoria)* ricevono un bonus di 1.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 0
+        replacement: Non c’è lo svantaggio Incompetenza su una delle competenze sociali.
+  src:
+    - id: REG001
+      firstPage: 163
+
+- id: ADV_47
+  name: "Attitudine per le armi"
+  rules: |
+    In una prova su una tecnica di combattimento, questo vantaggio permette un rilancio di un tiro di conferma per i colpi da maestro ed i fallimenti critici.
+  apValue: "Rispettivamente 5/10/15 Punti Avventura in base alla Classe di Miglioramento della tecnica di combattimento (B/C/D)."
+  src:
+    - id: REG001
+      firstPage: 165
+
+- id: ADV_48
+  name: "Voce incantevole"
+  rules: |
+    Le prove abilità su *Cantare* ricevono un bonus di 1.
+  src:
+    - id: REG001
+      firstPage: 170
+
+- id: ADV_49
+  name: "Osso duro"
+  rules: |
+    Ignora gli effetti della condizione Dolore che si possiede e applica invece l’effetto del livello appena inferiore. Un eroe con tre livelli di Dolore soffrirà solo degli effetti del livello II. Una condizione di Dolore livello IV continua a renderlo incapacitato. Considera il livello I di Dolore come se l’eroe non avesse nessun livello di Dolore.
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_50
+  name: "Dono della magia"
+  rules: |
+    Il lanciatore di incantesimi riceve un valore base di Energia Astrale di 20 PA. Questo vantaggio non include l’abilità speciale Tradizione (leggi il **Regolamento** a pag. **274**), che dovrai acquistare separatamente. Tutti i lanciatori di incantesimi devono iniziare il gioco con una Tradizione. Non puoi acquistare questo vantaggio nel corso del gioco.
+  src:
+    - id: REG001
+      firstPage: 166
+
+- id: ADV_51
+  name: "Orologio interiore"
+  rules: |
+    Il personaggio ha un perfetto senso del tempo e può determinare l’esatto momento della giornata anche senza vedere il sole o usare altri strumenti.
+  src:
+    - id: REG001
+      firstPage: 168
+
+- id: ADV_52
+  name: "Canto a due voci"
+  rules: |
+    Un eroe può usare canto a due voci e può imparare le canzoni magiche degli elfi. Può inoltre guadagnare la nuova applicazione *Canto a due voci* per la competenza *Cantare*.
+  src:
+    - id: REG001
+      firstPage: 165
+
+- id: ADV_53
+  name: "Fiuto nanico"
+  rules: |
+    L’eroe riceve un bonus di 1 per le prove su *Percezione* quando è alla ricerca di porte segrete, cavità, cassetti nascosti o cose simili.
+  src:
+    - id: REG001
+      firstPage: 166

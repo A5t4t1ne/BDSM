@@ -1,0 +1,1650 @@
+- id: SA_1
+  name: "Analista"
+  rules: |
+    A habilidade especial *Analista* lhe permite analisar artefatos, criaturas mágicas e feitiços. Heróis e heroínas com esta HE podem fazer um teste usando *Conhecimento de Magia (aplicação apropriada)* e acumular mais NQ que o usual (veja *Analise Mágica* na página **261**). Dependendo do NQ, você tem uma imagem mais clara dos usos do objeto, o tipo de criatura ou o efeito mágico do feitiço. Esta HE lhe concede a nova aplicação Analista para a perícia *Conhecimento de Magia*.
+  src:
+    - id: US25001E
+      firstPage: 210
+  errata:
+    - date: 2019-11-14
+      description: A perícia não garante uma nova aplicação mas sim um novo uso para *Conhecimento de Magia*
+
+- id: SA_2
+  name: "LiderarLiderar"
+  rules: |
+    Esta habilidade especial concede a nova aplicação de Liderar para a perícia *Lábia*, que pode ser usada para ajudar seus companheiros durante o combate.<br>
+    Gaste uma ação e faça um teste usando *Lábia (Venda Difícil, Manipular, Bajular)* para ajudar até NQ+1 outras pessoas. Você deve ser capaz de ver e ouvir os destinatários, e os alvos devem ser capazes de ouvir o conselho. Sucesso concede aos beneficiários um bônus de +1 em AT, + 1 de Defesa e +1 de CD para a próxima rodada de combate (este bônus não é cumulativo com outros usos do *Liderar*).
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: SA_3
+  name: "Segredo do Ofício"
+  rules: |
+    Para aprender um segredo do ofício, a personagem precisa de um tutor e, para compreendêlo adequadamente, deve satisfazer todos os prérequisitos. Aprender um segredo do ofício tem um custo determinado em PAs, como listado na tabela *Exemplos de Segredos do Ofício*.
+  selectOptions:
+    - id: 1
+      name: "Antídoto"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 2
+      name: "Vidro"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 3
+      name: "Poção de Cura"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 4
+      name: "Poção do Amor"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 5
+      name: "Porcelana"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 6
+      name: "Elixir da Invisibilidade"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 7
+      name: "Transformation Elixir"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 8
+      name: "Unguento de Arma"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 9
+      name: "Poção da Vontade"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 10
+      name: "Poção Mágica"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 11
+      name: "Al'Gebra"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 12
+      name: "Boltan"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 13
+      name: "Sinfonia"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 14
+      name: "Arco Élfico"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 15
+      name: "Garadan"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 16
+      name: "Geometria Avançada"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 17
+      name: "Jogo dos Camelos"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 18
+      name: "Espineta"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 19
+      name: "Harpa Alta"
+      src:
+        - id: US25001E
+          firstPage: 215
+    - id: 20
+      name: "Relógios"
+      src:
+        - id: US25001E
+          firstPage: 215
+  prerequisites: "depende do segredo do ofício"
+  src:
+    - id: US25001E
+      firstPage: 215
+
+- id: SA_4
+  name: "Falsificação"
+  rules: |
+    A personagem pode falsificar cartas e documentos. Com esta habilidade especial, o herói aprende a nova aplicação *Falsificação* para a perícia *Habilidade Artística*.
+  src:
+    - id: US25001E
+      firstPage: 213
+
+- id: SA_5
+  name: "Vontade de Ferro"
+  rules: |
+    Melhore seu *Espírito* em um por nível (e sofra uma penalidade de ação de um por nível), desde que você se concentre e permaneça focado. Em caso de dúvida, faça uma teste de *Autocontrole* (veja a página **187**).<br>
+    Vontade de Ferro não tem efeito se você dormir, ficar sob a a condição *Inconsciente* ou parar de se concentrar. Quando o efeito termina, você sofre um nível da condição *Confusão* (veja a página **34**).
+  src:
+    - id: US25001E
+      firstPage: 217
+
+- id: SA_6
+  name: "Idioma: Leque Dobrável"
+  rules: |
+    Você pode usar o *Idioma do Leque Dobrável* para falar com alguém que também tem essa habilidade especial, sem usar palavras. *Idioma do Leque Dobrável* requer o uso de um leque.
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: SA_7
+  name: "Desarmar Armadilhas"
+  rules: |
+    A habilidade especial concede o uso da nova aplicação *Desarmar Armadilhas* para a perícia *Arrombamento*.
+  src:
+    - id: US25001E
+      firstPage: 211
+
+- id: SA_8
+  name: "Trapaça"
+  rules: |
+    Você pode repetir um teste fracassado de *Jogos* (desde que não tenha sido um fiasco). Para notar uma trapaça, a vítima deve fazer um teste usando *Percepção (Perceber)* contra *Jogos (aplicação)*. Trapacear é uma aplicação de *Jogos*.
+  src:
+    - id: US25001E
+      firstPage: 217
+
+- id: SA_9
+  name: "Especialização em Perícia"
+  nameInWiki: "Especialização em Perícia (Perícia)"
+  rules: |
+    A personagem recebe um bônus de graduação de perícia de 2 ao fazer um teste usando a aplicação. Heróis ou heroínas podem se especializar em um máximo de três aplicações por perícia. O bônus desta aplicação pode elevar a GP da perícia acima do máximo normal (como determinado pelo Nível de Experiência durante a criação de personagem — veja a página **41**).
+    A hero receives a skill rating bonus of 2 when making a check using the application. Heroes can specialize in a maximum of three applications per skill. This application’s bonus can raise the skill’s SR above the normal maximum (as determined by Experience Level during hero creation—see **Core Rules** page **39**).
+  apValue: "Perícia A/B/C/D: 1/2/3/4 pontos de aventura para a primeira Especialização, 2/4/6/8 pontos de aventura para a segunda Especialização, 3/6/9/12 pontos de aventura para a terceira Especialização."
+  prerequisites: "Graduação de perícia 6 (primeira Especialização), graduação de perícia 12 (segunda Especialização), graduação de perícia 18 (terceira Especialização)"
+  src:
+    - id: US25001E
+      firstPage: 211
+
+- id: SA_10
+  name: "Pescador"
+  rules: |
+    Com esta habilidade especial o você obtém êxito maior quando pesca. Com um teste de *Pesca* bem-sucedido, você recebe 1 NQ adicional de comida. O GM deve decidir se há peixes comestíveis suficientes ou outras criaturas marinhas no corpo de água escolhido.
+  src:
+    - id: US25001E
+      firstPage: 215
+
+- id: SA_11
+  name: "Idioma: RaposoIdioma: Raposo"
+  rules: |
+    O herói pode ler e escrever em Raposo.
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: SA_12
+  name: "Conhecimento de Terreno"
+  rules: |
+    Se você tiver *Conhecimento de Terreno*, você recebe 1 de bônus para testes usando as seguintes perícias quando no ambiente escolhido: *Conhecimento de Animais*, *Conhecimento de Plantas*, *Orientação*, *Rastrear*, *Sobrevivência*.
+    *Conhecimento de Terreno* deve ser adquirido individualmente para cada um dos seguintes: Cavernas, Terras Cultivada, Desertos, Florestas, Gelo, Selvas, Montanhas, Mares, Estepes, Pântanos.
+  selectOptions:
+    - id: 1
+      name: "Selva"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 2
+      name: "Gelo"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 3
+      name: "Montanhas"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 4
+      name: "Cavernas"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 5
+      name: "Terras Cultivada"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 6
+      name: "Mares"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 7
+      name: "Estepes"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 8
+      name: "Pântanos"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 9
+      name: "Florestas"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+    - id: 10
+      name: "Desertos"
+      src:
+        - id: US25001E
+          firstPage: 210
+          lastPage: 211
+  prerequisites: "Você deve ter vivido pelo menos seis meses no terreno escolhido."
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: SA_13
+  name: "Leis da Guilda"
+  rules: |
+    Você pode usar a nova aplicação *Leis da Guilda* para a perícia *Leis*.
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: SA_14
+  name: "Soprar Vidro"
+  rules: |
+    O herói ou heroína pode criar objetos de vidro, como vasos e garrafas, através de vidro soprado. Note que isto não confere conhecimento da fórmula *complexa* para a produção de vidro, que requer um *segredo de ofício* (veja a página **215**). Esta habilidade especial concede o uso da nova aplicação *Soprar Vidro* para a perícia *Alvenaria*.
+  src:
+    - id: US25001E
+      firstPage: 217
+
+- id: SA_15
+  name: "Vender Mercadorias Roubadas"
+  rules: |
+    A personagem com esta habilidade especial pode usar a nova aplicação de *Vender Bens Roubados* para a perícia *Comércio*, e pode vender bens roubados através de contatos.
+  prerequisitesStart: "Conhecimento de Área do local onde as mercadorias serão vendidas"
+  src:
+    - id: US25001E
+      firstPage: 217
+
+- id: SA_16
+  name: "Heráldica"
+  rules: |
+    Heróis ou heroínas podem reconhecer brasões de armas e estão familiarizados com a lei heráldica e as árvores familiares.<br>
+    Você recebe a nova aplicação Heráldica e *Árvores Familiares* para a perícia *Etiqueta*.
+  src:
+    - id: US25001E
+      firstPage: 213
+
+- id: SA_17
+  name: "Fabricar Instrumentos"
+  rules: |
+    O herói pode criar instrumentos como trompetes, flautas, gaitas de foles, alaúdes, tambores, sinos e trombetas. Esta habilidade especial permite a utilização da nova aplicação *Fabricar Instrumentos* para *Marcenaria* e *Metalurgia*.
+  prerequisites: "Os PPs para Marcenaria e Metalurgia combinados devem ter uma soma de pelo menos 12."
+  src:
+    - id: US25001E
+      firstPage: 213
+
+- id: SA_18
+  name: "Caçador"
+  rules: |
+    Com esta habilidade especial, o herói ou heroína obtém maior sucesso quando caça e pode adquirir 1 NQ adicional de comida ao usar *Conhecimento de Animais* para juntar alimento.<br>
+    O MJ deve decidir se existem animais de caça suficientes na região.
+  prerequisitesStart: "Combate à Distância 10"
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: SA_19
+  name: "Cartografia"
+  rules: |
+    Esta habilidade especial permite que o herói ou heroína faça mapas e concede o uso da nova aplicação de *Cartografia* para a perícia *Geografia*.
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: SA_20
+  name: "Leitura Labial"
+  rules: |
+    A habilidade especial permite o uso da nova aplicação *Leitura Labial* para a perícia *Percepção*.
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: SA_21
+  name: "Perito em Improvisação"
+  rules: |
+    Ignore até 2 pontos de penalidades em testes de perícia decorrentes do uso de ferramentas e materiais de má qualidade. Todas as outras penalidades ainda se aplicam. Por exemplo, uma personagem que sofre 3 de penalidade em *Metalurgia* devido à falta de ferramentas necessárias pode fazer o teste com uma penalidade de apenas 1.
+  src:
+    - id: US25001E
+      firstPage: 215
+
+- id: SA_22
+  name: "Conhecimento de Área"
+  nameInWiki: "Conhecimento de Área (Área Específica)"
+  input: "Área"
+  rules: |
+    Conhecimento de Área concede 1 de bônus para os testes usando *Manha* e *Orientação* no local escolhido.<br>
+    Conhecimento de Área deve ser comprado para cada área. Isto pode ser uma aldeia e seus arredores, uma pequena cidade, um bairro em uma cidade, uma trilha ou até mesmo uma estrada.
+  prerequisites: "Você deve ter vivido no minimo 6 meses no local ou pelo menos ter viajado através dele muitas dezenas de vezes."
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: SA_23
+  name: "Falsificador de Cavalos"
+  rules: |
+    Faz cavalos, pôneis e outros animais domésticos parecerem mais saudáveis ou mais jovens do que realmente são. A personagem ganha o uso da nova aplicação *Falsificar Cavalos* para a perícia *Comércio*.<br>
+    Role duas vezes ao fazer um teste usando *Comércio (Pechinchar)* para vender gado, mantendo o melhor resultado. Para ver através deste tipo de ardil, o alvo deve fazer um teste competitivo usando *Conhecimento de Animais (Animais Domesticados)* contra o *Conhecimento de Animais (Animais Domesticados)* do falsificador de cavalos.
+  src:
+    - id: US25001E
+      firstPage: 213
+
+- id: SA_24
+  name: "Coletor"
+  rules: |
+    Com esta habilidade especial você é mais bem-sucedido quando coleta comida. Quando usa *Conhecimento de Plantas* para juntar alimento, você adquire 1 NQ adicional de comida. O MJ deve decidir se existem plantas comestíveis suficientes na região.
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: SA_25
+  name: "Ignorar a Dor"
+  rules: |
+    Esta habilidade especial lhe concede um novo uso para a perícia *Autocontrole (Ficar Consciente)*. Ao sofrer da condição *Dor*, um teste bem-sucedido usando *Autocontrole (Ficar Consciente)* permite que o herói ignore um nível de *Dor* por NQ. A dor permanece suprimida pela duração do combate (mas não mais de uma hora). Você deve ter pelo menos um nível de *Dor* para invocar esta habilidade especial. Usar *Ignorar a Dor* é uma ação livre. Quando o efeito termina, o herói recebe um nível da condição *Confusão* que se junta a quaisquer níveis restantes de *Dor*.
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: SA_26
+  name: "Destilação"
+  rules: |
+    Você pode destilar álcool forte. Com esta habilidade especial, você aprende a nova aplicação *Destilação* para a perícia *Preparar Alimento*.
+  src:
+    - id: US25001E
+      firstPage: 211
+
+- id: SA_27
+  name: "AlfabetizaçãoAlfabetização"
+  rules: |
+    Você sabe ler e escrever a escrita de um idioma específico. *Alfabetização* deve ser comprada separadamente para cada idioma. Para uma lista de escritas, veja a página **218**.
+  selectOptions:
+    - id: 1
+      name: "Alaanico Antigo"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 2
+      name: "Pictogramas Angram"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 3
+      name: "Chrmk"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 4
+      name: "Chuchas"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 5
+      name: "Glifos Sagrados de Unau"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 6
+      name: "Runas Hjaldinianas"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 7
+      name: "Alfabeto Imperial"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 8
+      name: "Alfabeto Isdira e Asdhariano"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 9
+      name: "Alfabeto Kuslik"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 10
+      name: "Alfabeto de Nanduria"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 11
+      name: "Runas Rogolanas"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 12
+      name: "Runas Thorwalianas"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 13
+      name: "Escrita Trollesa de imagens espaciais"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 14
+      name: "Alfabeto Tulamidiano"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 15
+      name: "Alfabeto Tulamidiano Antigo"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 16
+      name: "Alfabeto Zhayad"
+      src:
+        - id: US25001E
+          firstPage: 220
+  apValue: "2 a 8 pontos de aventura"
+  prerequisitesStart: "idioma associado"
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: SA_28
+  name: "Escrever"
+  rules: |
+    Você pode escolher a habilidade especial *Escrever* para diferentes áreas: romances, poesia, panfletos políticos, histórias de crimes, contos de fadas, novelas ou publicações profissionais.<br>
+    Esta habilidade especial lhe permite usar uma nova aplicação: *Etiqueta (Poesia)*, *Lábia (Novelas)*, *Manha (Histórias de Crime)*, *Mitos e Lendas (Contos de Fadas)*, *Persuasão (Panfletos Políticos)*, *Sedução (Romance)*, ou uma *perícia de conhecimento (Publicações Profissionais)* apropriada.
+  selectOptions:
+    - id: 1
+      name: "Romance"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 2
+      name: "Poesia"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 3
+      name: "Panfletos Políticos"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 4
+      name: "Histórias de Crime"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 5
+      name: "Contos de Fadas"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 6
+      name: "Novelas"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 7
+      name: "Publicações Profissionais: Jogos"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 8
+      name: "Publicações Profissionais: Geografia"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 9
+      name: "Publicações Profissionais: História"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 10
+      name: "Publicações Profissionais: Religião"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 11
+      name: "Publicações Profissionais: Guerra"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 12
+      name: "Publicações Profissionais: Conhecimento de Magia"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 13
+      name: "Publicações Profissionais: Mecânica"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 14
+      name: "Publicações Profissionais: Matemática"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 15
+      name: "Publicações Profissionais: Lei"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 16
+      name: "Publicações Profissionais: Mitos e Lendas"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 17
+      name: "Publicações Profissionais: Conhecimento das Esferas"
+      src:
+        - id: US25001E
+          firstPage: 211
+    - id: 18
+      name: "Publicações Profissionais: Astronomia"
+      src:
+        - id: US25001E
+          firstPage: 211
+  apValueAppend: por área
+  prerequisites: "escrita apropriada, *idioma* III, perícias dependendo da área (*Etiqueta* 4 para poesia, *Lábia* 4 para contos de fadas e novelas, *Persuasão* 4 para panfletos políticos, *Sedução* 4 para romances, *Manha* 4 para histórias de crime, uma *perícia de conhecimento apropriada* 4 para publicações profissionais)."
+  src:
+    - id: US25001E
+      firstPage: 211
+
+- id: SA_29
+  name: "Idioma"
+  rules: |
+    Você fala o idioma no nível escolhido de fluência. Para ler e escrever o idioma, você também deve comprar a habilidade especial de Alfabetização adequada (veja a página **218**).
+  selectOptions:
+    - id: 1
+      name: "Alaanico"
+      specializations:
+        - "Gajka"
+        - "Takellen"
+      src:
+        - id: US25001E
+          firstPage: 218
+    - id: 2
+      name: "Angram"
+      src:
+        - id: US25001E
+          firstPage: 218
+    - id: 3
+      name: "Asdhariano"
+      specializations:
+        - "Shakagorano"
+      src:
+        - id: US25001E
+          firstPage: 218
+    - id: 4
+      name: "Atak"
+      specializations:
+        - "Tulamidiano"
+        - "Douraterrano"
+      src:
+        - id: US25001E
+          firstPage: 218
+    - id: 5
+      name: "Aureliano"
+      src:
+        - id: US25001E
+          firstPage: 218
+    - id: 6
+      name: "Bosparano"
+      specializations:
+        - "Bosparano Clerical"
+        - "Bosparano dos Magos"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 7
+      name: "Fjarnês"
+      specializationInput: "Vários dialetos tribais"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 8
+      name: "Garetiano"
+      specializations:
+        - "Aretiano"
+        - "Horatiano"
+        - "Natandico"
+        - "Brabaciano"
+        - "Maraskano"
+        - "Albernediano"
+        - "Andergastiano"
+        - "Caripto"
+        - "Gatamo"
+        - "Nostriano"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 9
+      name: "Goblinóide"
+      specializationInput: "Vários dialetos tribais"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 10
+      name: "Isdira"
+      specializationInput: "Depende da tribo élfica"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 11
+      name: "Mohiano"
+      specializationInput: "Vários dialetos tribais"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 12
+      name: "Nujuka"
+      specializationInput: "Vários dialetos tribais"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 13
+      name: "Ógrico"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 14
+      name: "Oloarkh"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 15
+      name: "Ologhaijan"
+      specializationInput: "Vários dialetos tribais"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 16
+      name: "Língua do Corvo" 
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 17
+      name: "Rogolano"
+      specializationInput: "Depende da tribo anã"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 18
+      name: "Rssahh"
+      specializationInput: "Depende do povo lagarto"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 19
+      name: "Ruuz"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 20
+      name: "Saga Thorwaliana"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 21
+      name: "Thorwaliano"
+      specializations:
+        - "Thorwaliano do Norte"
+        - "Thorwaliano do Sul"
+        - "Waskir das Terras Altas"
+      src:
+        - id: US25001E
+          firstPage: 219
+    - id: 22
+      name: "Trollês"
+      specializationInput: "Vários dialetos tribais"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 23
+      name: "Tulamidano"
+      specializations:
+        - "Araniano"
+        - "Novadiano de Khôm"
+        - "Tulamidiano Maraskano"
+        - "Mhanadistano Balashidiano"
+        - "Zahorishiano"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 24
+      name: "Tulamidiano Antigo"
+      specializationInput: "Depende da região"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 25
+      name: "Zelemjano"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 26
+      name: "Zhayad"
+      src:
+        - id: US25001E
+          firstPage: 220
+    - id: 27
+      name: "Ciclopeano"
+      src:
+        - id: US25001E
+          firstPage: 220
+  prerequisites: "O nível anterior da habilidade especial (exceção: Nível I)"
+  src:
+    - id: US25001E
+      firstPage: 213
+
+- id: SA_30
+  name: "Imitação"
+  rules: |
+    Esta habilidade especial concede ao herói ou heroína a nova aplicação *Imitação* para a perícia *Conhecimento de Animais*. Tornando possível imitar ruídos de animais usando *Conhecimento de Animais*.
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: SA_31
+  name: "Cerâmica"
+  rules: |
+    O herói ou heroína pode fazer produtos de cerâmica. Com esta habilidade especial, você aprende a nova aplicação *Cerâmica* para a perícia *Alvenaria*.
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: SA_32
+  name: "Prever o Tempo"
+  rules: |
+    Esta habilidade especial permite usar a nova aplicação *Prever o Tempo* para a perícia *Sobrevivência*. O herói pode usar a perícia para prever o tempo.
+  src:
+    - id: US25001E
+      firstPage: 215
+
+- id: SA_33
+  name: "Numerologia"
+  rules: |
+    Esta habilidade especial concede o uso da nova aplicação Numerologia para a perícia *Matemática*. O herói ou heroína conhece os mistérios dos números e pode ler suas mensagens secretas – ou impressionar os outros com esse conhecimento.
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: SA_34
+  name: "Aprimorar Ataque"
+  rules: |
+    Heróis podem usar PD para aprimorar o seu resultado de Ataque.
+  src:
+    - id: US25001E
+      firstPage: 217
+
+- id: SA_35
+  name: "Aprimorar Esquiva"
+  rules: |
+    PDs podem ser usados para aprimorar o seu resultado de Esquiva.
+  src:
+    - id: US25001E
+      firstPage: 218
+
+- id: SA_36
+  name: "Aprimorar Atributo"
+  rules: |
+    Heróis ou heroínas podem usar PD para aprimorar o resultado um único dado (Atributo).
+  src:
+    - id: US25001E
+      firstPage: 217
+
+- id: SA_37
+  name: "Aprimorar Combate à Distância"
+  rules: |
+    PDs podem ser usados para aprimorar o seu resultado de Combate à Distância.
+  src:
+    - id: US25001E
+      firstPage: 218
+
+- id: SA_38
+  name: "Aprimorar Esquiva"
+  rules: |
+    PDs podem ser usados para aprimorar o seu resultado de Esquiva.
+  src:
+    - id: US25001E
+      firstPage: 218
+
+- id: SA_39
+  name: "Vigilância"
+  rules: |
+    Um herói ou heroína sofrendo do estado *Surpreso* pode gastar um PD para removê-lo de uma vez.
+  src:
+    - id: US25001E
+      firstPage: 218
+
+- id: SA_40
+  name: "Prontidão" 
+  rules: |
+    Receba 2 de bônus em testes usando *Percepção (Detectar Emboscada)* para notar inimigos antes de uma emboscada ou quando testa para surpresa.
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: SA_41
+  name: "Acostumado com Sobrecarga"
+  rules: |
+    Um herói ou heroína com esta HE sofre *Sobrecarga* de armadura como se usasse uma armadura mais leve. Use as penalidades para a armadura que é de 2 passos (na tabela de Armaduras — veja a página **231**) mais leve por nível de Acostumado com Sobrecarga. Por exemplo, uma personagem com Acostumado com Sobrecarga I que coloque uma armadura de placas sofre penalidades (para SOB, MOV e INI) como se vestisse uma armadura de pano ou jaquetão em vez disso (uma armadura de pano ou jaquetão é quatro níveis mais leve do que a armadura de placas na tabela de Armaduras — veja a página **231**). A PRO da armadura não muda.
+  src:
+    - id: US25001E
+      firstPage: 240
+
+- id: SA_42
+  name: "Combate com Duas Armas"
+  rules: |
+    Reduza em 1 a penalidade para Ataque e Aparar por cada nível nesta habilidade especial. Note que o Nível II reduz as penalidades para 0. Mais informações sobre combate com duas armas aparecem na página **233**.
+  src:
+    - id: US25001E
+      firstPage: 241
+
+- id: SA_43
+  name: "Combate Montado"
+  rules: |
+    Você pode dar comandos especiais a sua montaria, tais como Atropelar ou Carga Montada (veja a página **234**).
+  src:
+    - id: US25001E
+      firstPage: 241
+
+- id: SA_44
+  name: "Arqueiro Montado"
+  rules: |
+    Os tiros não são penalizados quando a montaria do arqueiro está em passo. Se a montaria está galopando, a penalidade é de apenas 4. Apenas tiros de sorte atingem o seu alvo quando a montaria está trotando, exigindo um 1 em 1D20 para acertar, como de costume (veja a página **235**). Além disso, esta HE permite que o arqueiro dispare para trás enquanto a montaria está galopando.
+  src:
+    - id: US25001E
+      firstPage: 241
+
+- id: SA_45
+  name: "Combate com Uma Mão"
+  rules: |
+    O lutador recebe +1 no AT, AP e DN quando luta com apenas uma arma, mas não pode usar uma segunda arma, um escudo, uma arma de aparar ou qualquer outro item.
+  src:
+    - id: US25001E
+      firstPage: 241
+
+- id: SA_46
+  name: "Desarmar"
+  rules: |
+    Para derrubar a arma da mão do seu oponente, faça um ataque com uma penalidade de 4 (6 contra armas de duas mãos). O alvo pode defender-se normalmente contra este ataque. Se a defesa falhar, o alvo larga a arma e o ataque causa DN 1D3. Para recuperar a arma, o alvo deve usar as regras para apanhar itens em combate (veja a pág. **234**). Esta habilidade especial não pode afetar escudos.
+  penalty: "-4/-6"
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_47
+  name: "Senso de Combate"
+  rules: |
+    Ataques de oportunidade feitos contra o herói ou heroína sofrem uma penalidade adicional de 4.
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: SA_48
+  name: "Finta"
+  rules: |
+    Ataque com uma penalidade igual ao nível desta habilidade especial. Se você acertar, a defesa do adversário sofre uma penalidade de 2 por nível nesta habilidade especial.
+  penalty: "-1/-2/-3"
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_49
+  name: "Agarrar"
+  rules: |
+    Você só pode agarrar oponentes de uma categoria de tamanho igual ou menor. Agarrar requer um teste bem-sucedido de *Briga*. Um adversário que não consiga se defender está preso. Um oponente agarrado ganha os estados de caído e preso. Para escapar, o oponente deve fazer um teste bem-sucedido usando *Façanha de Força (Puxar e Empurrar)*. Você não pode se defender enquanto estiver segurando um oponente. Você precisa de ambas as mãos livres para agarrar um inimigo.
+  penalty: "0"
+  src:
+    - id: US25001E
+      firstPage: 241
+
+- id: SA_50
+  name: "Golpe De Martelo"
+  rules: |
+    Este ataque sofre uma penalização de 2, mas você adiciona 1D6 de extra ao dano infligido. Se esta manobra falhar, o alvo pode fazer um ataque de oportunidade contra você.
+  penalty: "-2"
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_51
+  name: "Reflexos de Combate"
+  rules: |
+    Aumente a sua base de INI em 1 por nível nesta habilidade especial.
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: SA_52
+  name: "Lâmina de Aparar"
+  rules: |
+    Adicione 1 ao bônus passivo de AP com armas de aparar.
+  src:
+    - id: US25001E
+      firstPage: 243
+
+- id: SA_53
+  name: "Bloqueio Cruzado"
+  rules: |
+    Para usar adagas e armas de esgrima para aparar armas de correntes, armas de haste, armas de impacto de duas mãos e espadas de duas mãos, você precisa desta habilidade especial. Você também deve usar uma dessas armas em cada mão. Quando aparando desta forma, você não recebe nenhuma penalidade por usar a sua mão inábil.
+  src:
+    - id: US25001E
+      firstPage: 241
+
+- id: SA_54
+  name: "Investida"
+  rules: |
+    Uma personagem montada que deseje usar uma lança para atacar um inimigo deve usar o *comando* de montaria de Investida (veja as *Regras para Combate Montado*, página **234**, para mais detalhes). Investida deve ser usada em um galope pleno. Faça um teste usando *Montaria (Manobras de Combate)*, e, em seguida, faça um teste de ataque com Lanças (que não requer outra ação, contando como parte do comando). A personagem e sua montaria não precisam reduzir seu movimento após o ataque.<br>
+    Investida não pode ser aparada com uma arma, mas pode ser esquivada ou aparada com um escudo. Depois de um sucesso, ou se o defensor aparar com sucesso, o cavaleiro geralmente solta a lança para evitar ser derrubado da sela pelo impacto. Se a investida for bem-sucedida, aumente o DN em 2 + (metade do movimento da montaria).<br>
+    Você pode encontrar as estatísticas de uma lança de guerra na página **365**.
+  src:
+    - id: US25001E
+      firstPage: 243
+
+- id: SA_55
+  name: "Tiro/Arremesso Preciso"
+  rules: |
+    Ao fazer um ataque à distância, você sofre uma penalidade de 2 por nível nesta habilidade especial. Se acertar, aumente seu dano em 2 pontos por nível nesta habilidade especial.
+  penalty: "-2/-4/-6"
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: SA_56
+  name: "Estocada Certeira"
+  rules: |
+    Seu ataque sofre 2 de penalidade por nível nesta habilidade especial. Se acertar, aumente seu dano em 2 pontos por nível nesta habilidade especial.
+  penalty: "-2/-4/-6"
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_57
+  name: "Contra-Ataque"
+  rules: |
+    Faça um aparar com 2 de penalidade e, se for bemsucedido, faça um ataque de oportunidade contra seu atacante (veja a página **231**). Você precisa anunciar que pretende usar esta manobra antes que o atacante faça sua rolagem. Ao fazer um contra-ataque, você não pode realizar mais defesas durante esta rodada de combate. Você não pode combinar um contra-ataque com uma manobra básica.
+  penalty: "-2 (em aparar)"
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_58
+  name: "Varredura"
+  rules: |
+    Varredura I lhe permite atacar dois inimigos ao mesmo tempo, enquanto Varredura II permite atacar três inimigos. Oponentes podem reagir a este ataque individualmente. O seu primeiro ataque sofre uma penalidade de 2, o segundo sofre uma penalidade de 6, e o terceiro sofre uma penalidade de 10. Faça rolagens de dano separadas contra cada inimigo que não consiga defender.<br>
+    Num fiasco em um dos ataque, todos os ataques restantes da varredura para essa rodada de combate são perdidos.
+  penalty: "-2 (primeiro ataque); -6( segundo ataque); -10 (terceiro ataque)"
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: SA_59
+  name: "Quebrador de Escudos"
+  rules: |
+    Ataque o escudo do seu oponente diretamente. O adversário pode tentar esquivar ou aparar usando o escudo, mas não pode usar o bônus de aparar dele contra este ataque. Se o aparar ou a esquiva falhar, subtraia o dano da sua arma dos pontos de estrutura do escudo. Quando os pontos do escudo chegarem a 0, o escudo é destruído. Esta manobra especial pode ser usada apenas contra oponentes que estão usando escudos. Mais sobre pontos de estrutura aparece na página **346**.
+  penalty: "+/- 0"
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: SA_60
+  name: "Recarregar Rápido"
+  nameInWiki: "Recarregar Rápido (Técnica de Combate)"
+  rules: |
+    O tempo para recarregar arcos e preparar armas de arremesso é reduzido em 1 ação. Recarregar bestas leva apenas metade do número de ações normalmente necessárias. Esta habilidade especial deve ser comprada individualmente para cada técnica de combate à distância (Arcos, Bestas e Armas de Arremesso). Mais informações sobre os tempos de recarga aparecem na pág. **238**.
+  selectOptions:
+    - id: 1
+      name: "Bestas"
+      src:
+        - id: US25001E
+          firstPage: 244
+    - id: 2
+      name: "Arcos"
+      src:
+        - id: US25001E
+          firstPage: 244
+    - id: 3
+      name: "Armas de Arremesso"
+      src:
+        - id: US25001E
+          firstPage: 244
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: SA_61
+  name: "Saque Rápido"
+  rules: |
+    Você só precisa de uma ação livre, não de uma ação regular, para sacar uma arma.
+  src:
+    - id: US25001E
+      firstPage: 244
+
+- id: SA_62
+  name: "Carga"
+  rules: |
+    Carga só pode ser usada quando o atacante tem uma distância de corrida de pelo menos 4 metros e um MOV de pelo menos 4. Este movimento é considerado parte da ação que você usa para atacar. O defensor pode fazer uma defesa normal. Se a carga for bem-sucedida, adicione um bônus de 2 + (metade do seu MOV) ao dano. Se a carga falhar, o oponente pode fazer um ataque de oportunidade contra o atacante. Você não pode combinar esta manobra especial com a manobra básica de Finta.
+  penalty: "-2"
+  src:
+    - id: US25001E
+      firstPage: 241
+
+- id: SA_63
+  name: "Estocada Mortal"
+  rules: |
+    O teste de ataque para Estocada Mortal sofre uma penalidade de 2, mas adiciona 1D6 a rolagem de dano. Se esta manobra falhar, o alvo pode fazer um ataque de oportunidade contra você.
+  penalty: "-2"
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_64
+  name: "Esquiva Aprimorada"
+  rules: |
+    Cada nível nesta habilidade especial melhora sua esquiva em 1. Para usar esta habilidade especial, você não pode vestir nada mais pesado do que roupas normais.
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_65
+  name: "Postura Defensiva"
+  rules: |
+    Aumente a defesa em 4 para a rodada de combate atual. Você deve anunciar a postura defensiva no início da rodada de combate e não pode realizar qualquer outra ação nela.
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_66
+  name: "Massacre"
+  rules: |
+    Aumente seu ataque em 2 pela rodada de combate atual. Você não pode fazer nenhuma defesa durante essa rodada. Massacre deve ser anunciado do início da rodada. Massacre não pode ser usado quando *caído*.
+  src:
+    - id: US25001E
+      firstPage: 243
+
+- id: SA_67
+  name: "Golpe Fort"
+  rules: |
+    Seu ataque sofre 2 de penalidade por nível nesta habilidade especial. Se você acertar, adicione 2 pontos de dano por nível da habilidade especial.
+  penalty: "-2/-4/-6"
+  src:
+    - id: US25001E
+      firstPage: 243
+
+- id: SA_68
+  name: "Projeção"
+  rules: |
+    Primeiro você deve agarrar seu oponente (veja a habilidade especial *Agarrar*, página **241**). Um oponente agarrado ganha os estados de *caído* e *preso*. Para projetar o inimigo, faça um novo ataque de *Briga* com uma penalidade de 2. Se você for bem-sucedido e o inimigo não se defender, o inimigo acaba no chão novamente (e continua com o estado *caído*). A projeção causa apenas DN 1D3 (ignorando PRO), mas se o oponente cair em uma fogueira ou de um penhasco como resultado, bem, isso pode causar muito mais dano.
+  penalty: "-2"
+  src:
+    - id: US25001E
+      firstPage: 243
+
+- id: SA_69
+  name: "Derrubar"
+  rules: |
+    O seu ataque sofre uma penalidade de 4 e o seu oponente pode se defender. Se o ataque for bem-sucedido e a defesa do oponente falhar, ele é derrubado e ganha o estado *caído*. Este ataque causa DN 1D3 (ignorando PRO).
+  penalty: "-4"
+  src:
+    - id: US25001E
+      firstPage: 242
+
+- id: SA_70
+  name: "Tradição (Mago de Guilda)"
+  rules: |
+    - Um feitiço lançado na Tradição dos magos de guilda requer uma linha de visão para o alvo, gestos mágicos e entoar um encanto mágico de forma aberta e óbvia.
+    - Magos de guilda podem escolher um feitiço de uma Tradição desconhecida durante a Criação de personagem. Eles podem então conjurar este feitiço como se fosse um feitiço da própria Tradição do mago. Traduzir um feitiço desta forma requer muito esforço e só pode ser alcançado numa academia.
+    - Feitiços de Magos de Guilda podem ser escritos em livros de feitiços e pergaminhos. Magos podem então aprender o feitiço através desta fonte escrita sem a ajuda de um tutor.
+    - Magos de guilda podem criar e usar artefatos especiais de sua Tradição (como os cajados de mago).
+    - O principal atributo desta Tradição é a Sagacidade.
+  src:
+    - id: US25001E
+      firstPage: 267
+
+- id: SA_71
+  name: "Esconder Aura"
+  rules: |
+    Ao usar esta habilidade, o seu talento mágico permanece completamente escondido da percepção mágica indireta. Esconder-se de tentativas diretas para determinar se você tem habilidades mágicas requer um teste bem-sucedido de *Força de Vontade*. Testes de cânticos litúrgicos ou feitiços de clarividência conjurados sobre uma personagem para este propósito são penalizados em um terço dos PPs do teste de *Força de Vontade* da personagem (pelo menos 1). Você não pode conjurar nem manter feitiços enquanto camuflando a sua aura. Você pode combinar *Esconder Aura* com a vantagem *Aura Escondida*. Usar esta habilidade especial requer 1 ação e pode ser temporariamente interrompido pelo conjurador (isso também requer uma ação). Desligar o *Esconder Aura* provoca um nível de *Confusão* no conjurador. O efeito termina quando o conjurador desativa *Esconder Aura*, adormece ou recebe a condição *Inconsciente*.
+    While using this ability, your magical talent remains completely hidden from undirected magical perception. Hiding from directed attempts to determine if you have magical abilities requires a successful *Willpower* check. Checks for liturgical chants or clairvoyance spells cast on a character for this purpose suffer a penalty equal to one-third of the character’s *Willpower* check SP (at least 1). You can neither cast spells nor sustain cast spells while cloaking your aura. You can combine *Hide Aura* with the advantage *Hidden Aura*. Using this special ability requires 1 action, and it can be temporarily halted by the spellcaster (this also requires one action). Turning off *Hide Aura* inflicts one level of the condition *Confusion* on the spellcaster. The effect ends when the spellcaster deactivates *Hide Aura*, falls asleep, or receives the condition *Unconscious*.
+  src:
+    - id: US25001E
+      firstPage: 277
+
+- id: SA_72
+  name: "Conhecimento de Propriedade"
+  rules: |
+    *Conhecimento de Propriedade* deve ser comprado para uma propriedade específica (Influência, Cura, etc.). Você deve ter *Conhecimento de Propriedade* de uma propriedade específica para aprimorar um feitiço com ela acima da GP 14. Além disso, você pode usar alterações em feitiços ativos de uma Tradição desconhecida que tenham essa propriedade. Para comprar *Conhecimento de Propriedade* para uma propriedade específica, você deve conhecer três feitiços com que ela em uma GP de 10 ou superior, e deve passar tempo estudando as peculiaridades desta (por exemplo, através da realização de pesquisas em uma academia especializada na propriedade, ou encontrando um tutor experiente nela). 
+    Uma vez que você adquira *Conhecimento de Propriedade* para uma propriedade específica, não há limitações especiais para aprimorar feitiços com ela, além do máximo habitual para perícias (veja a página **347**).
+  selectOptions:
+    - id: 1
+      name: "AntiMagia"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 2
+      name: "Demoniaca"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 3
+      name: "Influência"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 4
+      name: "Elemental"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 5
+      name: "Cura"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 6
+      name: "Clarividência"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 7
+      name: "Ilusão"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 8
+      name: "Esferas"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 9
+      name: "Objeto"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 10
+      name: "Telecinese"
+      src:
+        - id: US25001E
+          firstPage: 276
+    - id: 11
+      name: "Transformação"
+      src:
+        - id: US25001E
+          firstPage: 276
+  apValue: "10 pontos de aventura para o primeiro Conhecimento de Propriedade, 20 pontos de aventura para o segundo, 40 pontos de aventura para o terceiro."
+  prerequisitesEnd: "3 encantamentos com a propriedade em GP 10 ou mais"
+  src:
+    - id: US25001E
+      firstPage: 276
+
+- id: SA_73
+  name: "Truques Fortes"
+  rules: |
+    Os seus truques têm um NQ de 2 em vez de 1.
+  src:
+    - id: US25001E
+      firstPage: 277
+
+- id: SA_74
+  name: "Portões Proibidos"
+  rules: |
+    Você pode usar PVs em vez de EA para conjurar feitiços. Você deve gastar pelo menos 1 de EA por feitiço. Fazê-lo é muito doloroso e requer um teste bem-sucedido de *Autocontrole*. Se o teste falhar, o feitiço também falha (e como qualquer feitiço fracassado, você deve pagar metade do custo normal). Você deve pagar por feitiços com EA primeiro e só pode extrair dos seus PVs quando resta pouquíssima EA.
+  src:
+    - id: US25001E
+      firstPage: 277
+
+- id: SA_75
+  name: "Símbolos Mágicos"
+  rules: |
+    Você recebe a nova aplicação *Desenhar Símbolos Mágicos* para a perícia *Habilidade Artística*. Para mais informações sobre os círculos de proteção e aprisionamento, veja a página **258**.
+  src:
+    - id: US25001E
+      firstPage: 277
+
+- id: SA_76
+  name: "Vinculo do Cajado"
+  effect: |
+    *Vínculo do Cajado* é o primeiro encantamento lançado sobre o cajado de um mago e serve para vinculálo ao mago. Além disso, torna o cajado inquebrável, embora a madeira mantenha a sua flexibilidade. Apenas um feitiço direto de anti-magia, um feitiço de *Ignifaxius* ou uma chama elemental, que arde mais quente do que a baforada de um dragão, pode destruí-lo. O cajado é uma arma mágica que não pode ser encantada com rituais como *Arcanovi* ou outros feitiços. Um mago só pode possuir um cajado por vez. Vincular um cajado tem um custo único de 2 de EA permanente. O mago pode tentar quebrar a conexão com um cajado, afim de se vincular a um novo. Após a morte de um mago, o cajado perde toda a EA permanente e toda a sua magia depois de 24 horas.
+  volume: "0 pontos"
+  bindingCost: "2 de EA permanente"
+  src:
+    - id: US25001E
+      firstPage: 270
+
+- id: SA_77
+  name: "Dobrar Dimensões"
+  effect: |
+    O cajado pode dobrar o seu comprimento sem perder a circunferência. O efeito termina quando o mago larga o cajado ou deseja que o efeito termine. Este encantamento transforma um cajado curto numa arma de alcance médio. Da mesma forma, um cajado médio torna-se uma arma de alcance longo (e requer *Armas de Haste* para manejar), enquanto um cajado de alcance longo se extende tanto que você não pode mais usá-lo como uma arma.
+  volume: "2 pontos"
+  aeCost: "1 EA"
+  src:
+    - id: US25001E
+      firstPage: 269
+
+- id: SA_78
+  name: "Chama Eterna"
+  effect: |
+    Você pode incendiar uma das pontas do cajado com apenas um pensamento. Ela queima como uma tocha, e o fogo é tão brilhante e quente como uma chama natural, mas não consome o cajado. *Chama Eterna* não tem nenhum benefício real em combate. O efeito termina automaticamente após uma hora, ou se o mago sofrer o estado de *Inconsciente*.
+  volume: "2 pontos"
+  aeCost: "1 EA"
+  src:
+    - id: US25001E
+      firstPage: 268
+
+- id: SA_79
+  name: "Espada de Fogo"
+  effect: |
+    Isso transforma o cajado em uma arma flamejante, na forma de uma espada longa ou, em algumas culturas,uma cimitarra. A *Espada de Fogo* é uma arma mágica e causa danos adicionais a criaturas suscetíveis ao fogo. Ela causa DN 1D6+7, mas no geral usa todas as outras estatísticas de uma espada longa. O cajado deve ter pelo menos um metro de comprimento para se tornar uma *Espada de Fogo*.<br>
+    Você pode usar *Espada de Fogo* de duas maneiras, como a seguir. 
+
+    - Manejá-la como uma espada normal com a técnica de combate de Espadas. Se tiver um fiasco, a espada volta a ser o cajado de mago. Este uso custa 1 de EA por rodada.
+    - Fazê-la voar e lutar com telecinesia. Você usa a técnica de combate de Espadas e o seu ataque para golpear. Seu Movimento é 8. Você tem de se concentrar para controlar a espada. Fazer a *Espada de Fogo* voar de forma coordenada é uma *ação longa* (veja a pág. **224**). 
+
+    Se a espada alguma vez se afastar de você por mais de 32 metros, o efeito acaba e a espada reverte para um cajado. Esta ativação custa 2 de EA por rodada.<br>
+    Para agarrar uma *Espada de Fogo* voadora, faça um ataque bem-sucedido com *Briga* e a habilidade especial Agarrar (a espada tem *Façanha de Força* 10 com 14 em todos os atributos e AP igual a metade de seu AT).
+  volume: "7 pontos"
+  aeCost: "3 de EA, depois 1 ou 2 de EA por rodada de combate"
+  src:
+    - id: US25001E
+      firstPage: 269
+
+- id: SA_80
+  name: "Foco de Poder"
+  effect: |
+    Gasta menos 1 de EA em cada feitiço, desde que tenha o cajado na mão. Aplique esta redução depois de calcular todos os outros modificadores. Não se pode reduzir o custo para menos de 1 de EA. Você não poupa nenhuma EA quando o cajado está agindo como uma *Espada de Fogo*, uma *Chama Eterna*, uma tocha ou qualquer outra coisa que não seja o cajado de um mago. Você deve segurar o cajado na mão para usar este encantamento.
+  volume: "6 pontos"
+  src:
+    - id: US25001E
+      firstPage: 269
+
+- id: SA_81
+  name: "Foco de Propriedade"
+  effect: |
+    Escolha uma propriedade para ser beneficiada pelo foco. Testes para feitiços com esta propriedade receberão 1 de bônus. Você pode conjurar mais de um foco de propriedade (para propriedades diferentes) em um cajado. Você não recebe o bônus quando o cajado está agindo como uma *Espada de Fogo*, uma *Chama Eterna*, uma tocha ou qualquer outra coisa que não seja o cajado de um mago. Você deve segurar o cajado na mão para usar este encantamento.
+  selectOptions:
+    - id: 1
+      name: "Antimagia"
+      src:
+        - id: US250010
+          firstPage: 277
+    - id: 2
+      name: "Demoniaca"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 3
+      name: "Influência"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 4
+      name: "Elemental"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 5
+      name: "Cura"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 6
+      name: "Clarividência"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 7
+      name: "Ilusão"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 8
+      name: "Esferas"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 9
+      name: "Objeto"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 10
+      name: "Telecinese"
+      src:
+        - id: US25001E
+          firstPage: 270
+    - id: 11
+      name: "Transformação"
+      src:
+        - id: US25001E
+          firstPage: 270
+  volume: "8 pontos"
+  property: "Conforme escolhida"
+  prerequisitesEnd: "Conhecimento de Propriedade aplicável"
+  src:
+    - id: US25001E
+      firstPage: 270
+
+- id: SA_82
+  name: "Corda do Adepto"
+  effect: |
+    Você transforma o cajado numa corda indestrutível de 10 metros de comprimento. Quando lançada, a corda enrolase em torno de objetos. Desde que toque na corda, você pode atar e desamarrar nós com um pensamento, realizando 1 ação para cada. Você não pode usar este efeito para prender pessoas que não estejam sofrendo do estado *Imobilizado*. Se largar a corda, ela volta a ser um cajado.
+  volume: "2 pontos"
+  aeCost: "1 EA"
+  src:
+    - id: US25001E
+      firstPage: 269
+
+- id: SA_83
+  name: "Chamado do Cajado"
+  effect: |
+    Você pode convocar o cajado para magicamente vir até você. Ele voa com um Movimento de 15 ao longo da rota mais curta possível e evita obstáculos. O cajado atravessa janelas, mas pode ser detido por paredes de madeira ou pedra. Você não precisa ver seu cajado para usar *Chamado do Cajado*.
+  volume: "3 pontos"
+  aeCost: "1 EA"
+  src:
+    - id: US25001E
+      firstPage: 269
+
+- id: SA_84
+  name: "Conexão com Familiar"
+  rules: |
+    As bruxas podem usar esta habilidade especial para criar uma forte ligação emocional e mágica com um familiar. Se comprado durante a criação do herói, uma bruxa pode começar o jogo ligada a um familiar. Em certos casos, conjuradores de outras Tradições podem se ligar a familiares, também. O MJ tem a palavra final.
+  prerequisites: "Tradição das Bruxas (talvez outras Tradições)"
+  src:
+    - id: US25001E
+      firstPage: 271
+
+- id: SA_85
+  name: "Unguento de Voo"
+  rules: |
+    Esta habilidade especial permite às bruxas fabricar unguento de voo durante a anual Noite das Bruxas, e então usar objetos que foram cobertos com o Unguento. O unguento de voo transforma um objeto de madeira tão grande quanto uma mesa em um instrumento de voo controlável por um período de um ano. Unguento de voo não altera a forma, estabilidade ou peso do item, e o item pode ser controlado apenas pela bruxa que selecionou o objeto e aplicou o Unguento. Cada bruxa recebe apenas unguento de voo o suficiente para aplicar em um instrumento de voo, e o Unguento deve ser aplicado durante a reunião da Noite das Bruxas. As bruxas que perdem os seus instrumentos de voo têm de esperar até à próxima Noite das Bruxas para substituí-lo.
+  src:
+    - id: US25001E
+      firstPage: 273
+
+- id: SA_86
+  name: "Tradição (Igreja de Praios)"
+  rules: |
+    - Abençoados de Praios recebem um bônus de 2 (em vez de 1) pela alteração litúrgica *Forçar*.
+    - Quando a magia é usada contra os Abençoados de Praios, o seu Espírito efetivo melhora em 1.
+    - Abençoados de Praios devem aderir ao código moral de sua Igreja (Princípios)—veja abaixo. Você deve pegar esta desvantagem se deseja jogar com um Abençoado da Igreja de Praios.
+    - Perícias Favorecidas: *Conhecimento das Esferas*, *Conhecimento de Magia*, *Empatia*, *Etiqueta*, *Força De Vontade*, *Intimidação*, *Leis*, *Orientação*, *Persuasão*, *Religiões*
+    - O principal atributo desta Tradição é a Sagacidade.
+  src:
+    - id: US25001E
+      firstPage: 312
+
+- id: SA_87
+  name: "Conhecimento de Aspecto"
+  rules: |
+    Abençoados com esta habilidade especial ganham uma compreensão mais profunda de um aspecto. Você pode comprar Conhecimento de Aspecto para um aspecto específico (veja a página **302**), bem como para Conhecimento de Aspecto (geral), que se aplica a cânticos litúrgicos com o aspecto de "geral.”<br>
+    Somente os Abençoados com esta habilidade especial podem aprimorar seus cânticos litúrgicos além da GP 14.<br>
+    Uma vez que você compra Conhecimento de Aspecto, a sua única limitação especial para aprimorar os cânticos litúrgicos é o habitual máximo para perícias relacionado a estatística (veja a pág. **347**).
+  selectOptions:
+    - id: 1
+      name: "Geral"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 2
+      name: "Antimagia"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 3
+      name: "Ordem"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 4
+      name: "Shield"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 5
+      name: "Tempestade"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 6
+      name: "Morte"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 7
+      name: "Sonho"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 8
+      name: "Magia"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 9
+      name: "Conhecimento"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 10
+      name: "Comércio"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 11
+      name: "Sombra"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 12
+      name: "Cura"
+      src:
+        - id: US25001E
+          firstPage: 316
+    - id: 13
+      name: "Agricultura"
+      src:
+        - id: US25001E
+          firstPage: 316
+  apValue: "15 pontos de aventura para o primeiro Conhecimento de Aspecto, 25 pontos de aventura para o segundo, e 45 pontos de aventura para o terceiro."
+  prerequisitesEnd: "três cânticos litúrgicos e cerimônias do aspecto apropriado com GP 10"
+  src:
+    - id: US25001E
+      firstPage: 316
+
+- id: SA_88
+  name: "Foco"
+  rules: |
+    O herói ou heroína é mais difícil de distrair quando conjurando cânticos litúrgicos ou cerimônias. Testes usando *Controle Corporal (Ignorar Distrações)* recebem 1 de bônus.
+  src:
+    - id: US25001E
+      firstPage: 316
+
+- id: SA_89
+  name: "Força da Fé"
+  rules: |
+    Demônios menores não podem tocar ou atacar o Abençoado enquanto este permanecer imóvel e concentrado.
+  src:
+    - id: US25001E
+      firstPage: 316
+
+- id: SA_90
+  name: "Bênção Poderosas"
+  rules: |
+    Suas bênçãos têm um NQ de 2 em vez de 1.
+  src:
+    - id: US25001E
+      firstPage: 316
+
+- id: SA_91
+  name: "Círculo de Proteção ou de Aprisionamento Contra Elementais"
+  aeCost: "4 EA"
+  protectiveCircle: |
+    Elementais e espíritos menores não podem entrar no círculo.
+  wardingCircle: |
+    O primeiro elemental que ficar a menos de 7 metros do círculo é puxado para dentro dele e não pode sair pela duração.
+  src:
+    - id: US25001E
+      firstPage: 259
+
+- id: SA_92
+  name: "Círculo de Proteção ou de Aprisionamento Contra Gênios"
+  aeCost: "8 EA"
+  protectiveCircle: |
+    Gênios não podem entrar no círculo.
+  wardingCircle: |
+    O primeiro gênio que ficar a menos de 7 metros do círculo é puxado para dentro dele e não pode sair pela duração.
+  src:
+    - id: US25001E
+      firstPage: 259
+
+- id: SA_93
+  name: "Círculo de Proteção ou de Aprisionamento Contra Demônios Menores"
+  aeCost: "4 EA"
+  protectiveCircle: |
+    Demônios menores não podem entrar no círculo.
+  wardingCircle: |
+    O primeiro demônio que ficar a menos de 7 metros do círculo é puxado para dentro dele e não pode sair pela duração.
+  src:
+    - id: US25001E
+      firstPage: 259
+
+- id: SA_94
+  name: "Círculo de Proteção ou de Aprisionamento Contra Demônios com Chifres"
+  aeCost: "8 EA"
+  protectiveCircle: |
+    Demônios com até 5 chifres não podem entrar no círculo.
+  wardingCircle: |
+    O primeiro demônio com até 5 chifres que ficar a menos de 7 metros do círculo é puxado para dentro dele e não pode sair pela duração.
+  src:
+    - id: US25001E
+      firstPage: 259
+
+- id: SA_255
+  name: "Tradição (Bruxa)"
+  rules: |
+    - Feitiços na tradição da bruxa requerem uma linha de visão e gestos e encantos na maioria das vezes discretos.
+    - Bruxas devem ter contato com o solo (mas elas não têm que estar descalças; usar sapatos enquanto estão no solo ou sob um piso é permitido). Conjuração sofre 1 de penalidade por metro de distância do solo, com uma penalidade máxima de 8. Enquanto sobre grandes massas de água, a superfície da água conta como solo. Edifícios, torres e pontes também contam como solo.
+    - Quando feitiços de bruxas falham, as bruxas devem pagar um terço da EA (não metade da EA, como com os magos).
+    - Quando as bruxas sentem emoções fortes condizentes com o feitiço, elas recebem um bônus de, no máximo, 2 pontos. Quando os seus sentimentos são artificialmente atenuados (com folhas de ilmen, por exemplo), ou quando conjuram feitiços em contradição com os seus sentimentos, elas sofrem uma penalidade de não mais que 2.
+    - Bruxas podem se colocar em um frenesi de emoção por uma ou duas rodadas de combate para ganhar um bônus de 1 por rodada, até um máximo de 2. Isto exige concentração (veja a página **277**) e uma ação livre.
+    - Bruxas podem se ligar a familiares, aprender maldições e criar artefatos da Tradição Satuariana (como instrumentos de voo).
+    - O principal atributo desta Tradição é o Carisma.
+  src:
+    - id: US25001E
+      firstPage: 270
+
+- id: SA_345
+  name: "Tradição (Élfica)"
+  rules: |
+    - Feitiços da Tradição élfica requerem gestos mágicos e linha de visão para o alvo. Além disso, o conjurador deve cantar ou falar qualquer fórmula necessária.
+    - Feitiços da Tradição élfica duram o dobro da duração estabelecida quando conjurados por um elfo.
+    - Elfos podem aprender e usar canções mágicas dos elfos (elfos cumprem o pré-requisito de *Canto de Duas Vozes*).
+    - O principal atributo desta Tradição é a Intuição.
+  src:
+    - id: US25001E
+      firstPage: 275
+
+- id: SA_682
+  name: "Tradição (Igreja de Rondra)"
+  rules: |
+    - O Abençoado recebe um novo uso para o *Autocontrole (Ficar Consciente)*, como se segue: Abençoados de Rondra *incapacitados* por condições ainda podem realizar um ataque ou defesa por rodada de combate se eles tiverem sucesso em um teste de *Autocontrole (Ficar consciente)*.
+    - *Destemor*: Personagens com esta vantagem ignoram os efeitos do mais alto nível de *Medo* que ganharem, e em vez disso sofrem os efeitos do nível logo abaixo (eles ainda são *incapacitados* no Nível IV). Por exemplo, um Abençoado de Rondra com três níveis de *Medo* sofre apenas os efeitos do Nível II.
+    - Abençoados de Rondra devem aderir ao código moral de sua Igreja (Princípios)—veja abaixo. Você deve pegar esta desvantagem se deseja jogar com um Abençoado da Igreja de Rondra.
+    - Perícias Favorecidas: *todas as técnicas de combate corpo a corpo*, *Autocontrole*, *Controle Corporal*, *Façanha de Força*, *Guerra*, *Montaria*, *Religiões*
+    - O principal atributo desta Tradição é a Coragem.
+  src:
+    - id: US25001E
+      firstPage: 313
+
+- id: SA_683
+  name: "Tradição (Igreja de Boron)"
+  rules: |
+    - Abençoados de Boron causam o dobro de dano contra oponentes mortos-vivos (role o dano, multiplique o resultado por dois e então subtraia PRO).
+    - *Acostumado à Escuridão*: Reduz o efeito dos modificadores de visibilidade da escuridão em um nível (trate o Nível II como I, e assim por diante). Note que você ainda não pode enxergar na escuridão total.
+    - Abençoados de Boron devem aderir ao código moral de sua Igreja (Princípios)—veja abaixo. Você deve pegar esta desvantagem se deseja jogar com um Abençoado da Igreja de Boron.
+    - Perícias Favorecidas: *Astronomia*, *Autocontrole*, *Boêmia*, *Conhecimento das Esferas*, *Empatia*, *Força de Vontade*, *Furtividade*, *Intimidação*, *Religiões*, *Tratar a Alma*, *Tratar Doenças*, *Tratar Ferimentos*, *Tratar Venenos*
+    - O principal atributo desta Tradição é a Coragem.
+  src:
+    - id: US25001E
+      firstPage: 313
+
+- id: SA_684
+  name: "Tradição (Igreja de Hesinde)"
+  rules: |
+    - Abençoados de Hesinde recebem um bônus de 1 em testes de *Percepção* para detectar ilusões.
+    - *Mente Limpa*: O Abençoado ignora o mais alto nível da condição *Confusão*, sofrendo o nível logo abaixo ao invés disso (trate *Confusão* II como *Confusão* I, e assim por diante). O Nível IV ainda causa incapacitação.
+    - Os abençoados de Hesinde devem aderir ao código moral de Sua Igreja (princípios) — veja abaixo. Você deve pegar esta desvantagem se deseja jogar com um Abençoado da Igreja de Hesinde.
+    - Perícias Favorecidas: *Alquimia*, *Astronomia*, *Conhecimento de Animais*, *Conhecimento das Esferas*, *Conhecimento de Magia*, *Conhecimento de Plantas*, *Força de Vontade*, *Geografia*, *História*, *Leis*, *Matemática*, *Mecânica*, *Mitos e Lendas*, *Percepção*, *Persuasão*, *Religiões*
+    - O principal atributo desta Tradição é a Sagacidade.
+  src:
+    - id: US25001E
+      firstPage: 314
+
+- id: SA_685
+  name: "Tradição (Igreja de Phex)"
+  rules: |
+    - Quando usar PDs para rerrolar um teste (não importa quantos dados você rerrola), quem joga com um Abençoado de Phex pode manter o melhor resultado.
+    - O desempenho de feitiços cerimoniais assume a forma de uma barganha com Phex. Abençoados recebem +1 para o teste quando sacrificam 5 táleres de prata por nível de Aprimoramento da cerimônia (5 táleres de prata para uma cerimônia com um custo de Aprimoramento de A, 10 para um custo de B, e assim por diante).
+    - Abençoados de Phex devem aderir ao código moral de sua Igreja (Princípios)—veja abaixo. Você deve pegar esta desvantagem se deseja jogar com um Abençoado da Igreja de Phex.
+    - Perícias Favorecidas: *Arrombamento*, *Astronomia*, *Comércio*, *Disfarce*, *Escalada*, *Furtividade*, *Jogos*, *Lábia*, *Leis*, *Manha*, *Matemática*, *Percepção*, *Prestidigitação*, *Punga*, *Religiões*
+    - O principal atributo desta Tradição é a Intuição.
+  src:
+    - id: US25001E
+      firstPage: 315
+
+- id: SA_686
+  name: "Tradição (Igreja de Peraine)"
+  rules: |
+    - Quando administrando Bênçãos de Cura Menores, os receptores recebem 2 PVs em vez de 1.
+    - *Resistente a Doenças*: Mesmo que um teste de doença contra o Abençoado seja bem sucedido, a doença inflige sua progressão mais branda. Se o teste falhar, o Abençoado não contrai a doença.
+    - Abençoados de Peraine devem aderir ao código moral de sua Igreja (Princípios)—veja abaixo. Você deve pegar esta desvantagem se deseja jogar com um Abençoado da Igreja de Peraine.
+    - Perícias Favorecidas: *Boêmia*, *Conhecimento de Animais*, *Conhecimento de Plantas*, *Empatia*, *Força de Vontade*, *Mitos e Lendas*, *Pesca*, *Persuasão*, *Religiões*, *Tratar a Alma*, *Tratar Doenças*, *Tratar Ferimentos*, *Tratar Venenos*
+    - O principal atributo desta Tradição é a Intuição.
+  src:
+    - id: US25001E
+      firstPage: 315
+
+- id: SA_699
+  name: "Especialização em Idioma"
+  rules: |
+    Saber e usar uma Especialização em Idioma concede ao herói ou heroína 1 de bônus para *Lábia (Venda Difícil)*, desde que a outra pessoa fale o mesmo dialeto. O MJ decide se o bônus se aplica. Uma personagem com um dialeto pode sofrer uma penalidade de 1 em algumas situações, como quando a outra pessoa tem dificuldade em entender o que está sendo dito.<br>
+    O uso desta regra opcional torna o jogo um pouco mais complexo.
+  prerequisites: "idioma relevante em nível III."
+  src:
+    - id: US25001E
+      firstPage: 213

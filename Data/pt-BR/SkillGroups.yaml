@@ -1,0 +1,19 @@
+- id: 1
+  name: "Físicas"
+  fullName: "Perícias Físicas"
+
+- id: 2
+  name: "Sociais"
+  fullName: "Perícias Sociais"
+
+- id: 3
+  name: "Naturais"
+  fullName: "Perícias Naturais"
+
+- id: 4
+  name: "Conhecimento"
+  fullName: "Perícias de Conhecimento"
+
+- id: 5
+  name: "Ofício"
+  fullName: "Perícias de Ofício"

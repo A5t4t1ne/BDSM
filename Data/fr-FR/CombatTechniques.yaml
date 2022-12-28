@@ -1,0 +1,93 @@
+- id: CT_1
+  name: "Arbalètes"
+  src:
+    - id: LDR1
+      firstPage: 245
+
+- id: CT_2
+  name: "Arcs"
+  src:
+    - id: LDR1
+      firstPage: 245
+
+- id: CT_3
+  name: "Dagues"
+  special: |
+    une dague ne permet pas de parer les armes à chaîne, les armes dʼhast, les haches et masses à deux mains ni les épées à deux mains.
+  src:
+    - id: LDR1
+      firstPage: 236
+
+- id: CT_4
+  name: "Armes de duel"
+  special: |
+    les armes de duel ne permettent pas de parer les armes à chaîne, les armes dʼhast, les haches et masses à deux mains ni les épées à deux mains. Les épreuves dʼaction défensive contre les attaques avec les armes de duel subissent un malus de –1.
+  src:
+    - id: LDR1
+      firstPage: 235
+
+- id: CT_5
+  name: "Haches & masses"
+  src:
+    - id: LDR1
+      firstPage: 236
+
+- id: CT_6
+  name: "Armes à chaîne"
+  special: |
+    en raison de la difficulté à maîtriser les boulets, la parade contre une arme à chaîne subit un malus de –2. Lorsque lʼon pare une attaque dʼarme à chaîne avec un bouclier, on ne peut utiliser que le bonus simple à lʼaction défensive. Lorsque lʼon se bat avec une arme à chaîne, la maladresse survient avec un résultat de 19 ou 20 au dé. Il est impossible de parer avec une arme à chaîne.
+  src:
+    - id: LDR1
+      firstPage: 235
+
+- id: CT_7
+  name: "Lances"
+  src:
+    - id: LDR1
+      firstPage: 237
+
+- id: CT_9
+  name: "Bagarre"
+  special: |
+    lorsquʼun combattant pare à mains nues une attaque avec arme, il encaisse malgré tout la totalité des dégâts (il a donc intérêt à esquiver à la place). Si une attaque à mains nues est parée avec une arme, lʼattaquant encaisse la moitié des dégâts de lʼarme du défenseur. Lors dʼune bagarre, un combattant inflige des dégâts valant 1D6 PI, mais qui peuvent être modifiés par la qualité principale.
+  src:
+    - id: LDR1
+      firstPage: 235
+
+- id: CT_10
+  name: "Boucliers"
+  special: |
+    les valeurs dʼattaque et de parade sont calculées comme pour les autres techniques de combat. Lorsque lʼon pare en utilisant la technique de combat boucliers, le bonus de parade du bouclier est doublé, et le défenseur ne subit pas de malus dû au fait quʼil le manipule avec sa main non-dominante. Le bouclier permet de bloquer les attaques à distance ainsi que les attaques des adversaires de grande taille. Un second bouclier ne donne pas de bonus supplémentaire. Pour parer une attaque à distance, il faut utiliser le bouclier activement ; il nʼest pas possible de parer avec lʼarme principale. Il est possible dʼattaquer avec un bouclier.
+  src:
+    - id: LDR1
+      firstPage: 235
+
+- id: CT_12
+  name: "Épées"
+  src:
+    - id: LDR1
+      firstPage: 236
+
+- id: CT_13
+  name: "Armes d'hast"
+  src:
+    - id: LDR1
+      firstPage: 235
+
+- id: CT_14
+  name: "Armes de jet"
+  src:
+    - id: LDR1
+      firstPage: 245
+
+- id: CT_15
+  name: "Haches & masses à deux mains"
+  src:
+    - id: LDR1
+      firstPage: 237
+
+- id: CT_16
+  name: "Épées à deux mains"
+  src:
+    - id: LDR1
+      firstPage: 236

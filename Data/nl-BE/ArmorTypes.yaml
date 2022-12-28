@@ -1,0 +1,14 @@
+- id: 1
+  name: "Normale kledij"
+- id: 2
+  name: "Zware kledij"
+- id: 3
+  name: "Linnen pantser"
+- id: 4
+  name: "Leder pantser"
+- id: 6
+  name: "Maliënkolder"
+- id: 7
+  name: "Subbenpantser"
+- id: 8
+  name: "Platenpantser"

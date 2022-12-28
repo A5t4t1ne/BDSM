@@ -1,0 +1,106 @@
+- id: COND_1
+  name: "Ballast"
+  levelDescription: "Aantal"
+  level1: |
+    Licht belast, Proeven op Talenten die door Ballast verzwaard zijn -1, AV -1, AW -1, INI -1, SN -1
+  level2: |
+    Belast, Proeven op Talenten die door Ballast verzwaard zijn -2, AV -2, AW -2, INI -2, SN -2
+  level3: |
+    Zwaar belast, Proeven op Talenten die door Ballast verzwaard zijn -3, AV -3, AW -3, INI -3, SN -3
+  level4: |
+    *Handelingsonbekwaam* tot men de last laat vallen
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 32
+      lastPage: 33
+
+- id: COND_2
+  name: "Verdoving"
+  levelDescription: "Verdovingsgraad"
+  level1: |
+    Licht aangeslagen, alle Proeven -1
+  level2: |
+    Aangeslagen, alle Proeven -2
+  level3: |
+    Zwaar aangeslagen, alle Proeven -3
+  level4: |
+    *Handelingsonbekwaam*
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 33
+      lastPage: 34
+
+- id: COND_3
+  name: "Vervoering"
+  levelDescription: "Vervoeringsgraad"
+  level1: |
+    Lichte vervoering, alle Proeven op Talenten en Spreuken die de God van de gewijde niet gevallig zijn -1.
+  level2: |
+    Vervoering, alle Proeven op Talenten en Spreuken die de God van de gewijde gevallig zijn +1, alle andere -2.
+  level3: |
+    Goddelijk beroerd, alle Proeven op Talenten en Spreuken die de God van de gewijde gevallig zijn +2, alle andere -3.
+  level4: |
+    Een werktuig Gods, alle Proeven op Talenten en Spreuken die de God van de gewijde gevallig zijn +3, alle andere met 4 verzwaard.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 34
+
+- id: COND_4
+  name: "Angst"
+  levelDescription: "Angstgraad"
+  level1: |
+    Ongerust, alle Proeven -1
+  level2: |
+    Bang, alle Proeven -2
+  level3: |
+    In paniek, alle Proeven -3
+  level4: |
+    Catatonisch, *Handelingsonbekwaam*
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 32
+
+- id: COND_5
+  name: "Paralyse"
+  levelDescription: "Paralysegraad"
+  level1: |
+    Licht verstijfd, alle Proeven, die beweging of spraak vereisen -1, SN nog maar 75 %
+  level2: |
+    Verstijfd, alle Proeven, die beweging of spraak vereisen -2, SN nog maar 50 %
+  level3: |
+    Kan nauwelijks meer bewegen, alle Proeven, die beweging of spraak vereisen -3, SN nog maar 25 %
+  level4: |
+    *Bewegingsonbekwaam*
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 33
+
+- id: COND_6
+  name: "Pijn"
+  levelDescription: "Pijngraad"
+  level1: |
+    Lichte pijn, alle Proeven -1, SN -1
+  level2: |
+    Aanhoudende pijn, alle Proeven -2, SN -2
+  level3: |
+    Sterke pijn, alle Proeven -3, SN -3
+  level4: |
+    *Handelingsonbekwaam*, anders alle Proeven -4
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 33
+
+- id: COND_7
+  name: "Verwarring"
+  levelDescription: "Verwarringsgraad"
+  level1: |
+    Licht verward, alle Proeven -1
+  level2: |
+    Verward, alle Proeven -2
+  level3: |
+    Zeer verward, alle Proeven -3, complexe handelingen zoals Spreuken, Liturgieën en de aanwending van Kennistalenten zijn onmogelijk
+  level4: |
+    *Handelingsonbekwaam*
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 34

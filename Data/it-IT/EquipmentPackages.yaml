@@ -1,0 +1,17 @@
+- id: EPKG_1
+  name: "Pacchetto da viaggio"
+  src:
+    - id: REG001
+      firstPage: 364
+
+- id: EPKG_2
+  name: "Pacchetto per la selva"
+  src:
+    - id: REG001
+      firstPage: 365
+
+- id: EPKG_3
+  name: "Pacchetto da città"
+  src:
+    - id: REG001
+      firstPage: 365

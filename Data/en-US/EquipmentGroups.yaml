@@ -1,0 +1,54 @@
+- id: 1
+  name: "Melee Weapons"
+- id: 2
+  name: "Ranged Weapons"
+- id: 3
+  name: "Ammunition"
+- id: 4
+  name: "Armor"
+- id: 5
+  name: "Weapon Accessories"
+- id: 6
+  name: "Clothes"
+- id: 7
+  name: "Travel Gear and Tools"
+- id: 8
+  name: "Illumination"
+- id: 9
+  name: "Bandages and Remedies"
+- id: 10
+  name: "Containers"
+- id: 11
+  name: "Ropes and Chains"
+- id: 12
+  name: "Thieves' Tools"
+- id: 13
+  name: "Tools of the Trade"
+- id: 14
+  name: "Orienteering Aids"
+- id: 15
+  name: "Jewelry"
+- id: 16
+  name: "Gems and Precious Stones"
+- id: 17
+  name: "Stationary"
+- id: 18
+  name: "Books"
+- id: 19
+  name: "Magical Artifacts"
+- id: 20
+  name: "Alchemicae"
+- id: 21
+  name: "Poisons"
+- id: 22
+  name: "Healing Herbs"
+- id: 23
+  name: "Musical Instruments"
+- id: 24
+  name: "Luxury Goods"
+- id: 25
+  name: "Animals"
+- id: 26
+  name: "Animal Care"
+- id: 27
+  name: "Vehicles"

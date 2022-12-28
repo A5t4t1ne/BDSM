@@ -1,0 +1,280 @@
+- id: SPELL_208
+# name: Tanz der Angriffslust
+  check1: ATTR_4
+  check2: ATTR_6
+  check3: ATTR_7
+  ic: C
+  musictraditions:
+    - 1
+    - 2
+  property: 3
+
+- id: SPELL_209
+# name: Tanz der Beweglichkeit
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 3
+  property: 5
+
+- id: SPELL_210
+# name: Tanz der Bilder
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: A
+  musictraditions:
+    - 1
+    - 2
+    - 3
+    - 4
+  property: 3
+
+- id: SPELL_211
+# name: Tanz der Erlösung
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: C
+  musictraditions:
+    - 1
+    - 2
+    - 3
+    - 4
+  property: 1
+
+- id: SPELL_212
+# name: Tanz der Ermutigung
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: C
+  musictraditions:
+    - 1
+    - 2
+    - 3
+    - 4
+  property: 5
+
+- id: SPELL_213
+# name: Tanz der Heilung
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 2
+    - 4
+  property: 5
+
+- id: SPELL_214
+# name: Tanz der Liebe
+  check1: ATTR_4
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 1
+    - 3
+    - 4
+  property: 3
+
+- id: SPELL_215
+# name: Tanz der Linderung
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: A
+  musictraditions:
+    - 3
+  property: 5
+
+- id: SPELL_216
+# name: Tanz der magischen Gemeinschaft
+  check1: ATTR_2
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 4
+  property: 3
+
+- id: SPELL_217
+# name: Tanz der Täuschung
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 1
+  property: 3
+
+- id: SPELL_218
+# name: Tanz der Träume
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: A
+  musictraditions:
+    - 1
+    - 2
+  property: 3
+
+- id: SPELL_219
+# name: Tanz der Unantastbarkeit
+  check1: ATTR_6
+  check2: ATTR_7
+  check3: ATTR_8
+  ic: B
+  musictraditions:
+    - 3
+  property: 1
+
+- id: SPELL_220
+# name: Tanz der Unverletzbarkeit
+  check1: ATTR_6
+  check2: ATTR_7
+  check3: ATTR_8
+  ic: B
+  musictraditions:
+    - 3
+    - 4
+  property: 5
+
+- id: SPELL_221
+# name: Tanz der Verteidigung
+  check1: ATTR_3
+  check2: ATTR_6
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 4
+  property: 5
+
+- id: SPELL_222
+# name: Tanz der Verwirrung
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: C
+  musictraditions:
+    - 1
+    - 2
+  property: 3
+
+- id: SPELL_223
+# name: Tanz der Wacht
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 2
+  property: 3
+
+- id: SPELL_224
+# name: Tanz der Wahrheit
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: C
+  musictraditions:
+    - 3
+    - 4
+  property: 3
+
+- id: SPELL_225
+# name: Tanz der Weisheit
+  check1: ATTR_2
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: C
+  musictraditions:
+    - 3
+  property: 5
+
+- id: SPELL_226
+# name: Tanz des Begehrens
+  check1: ATTR_4
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 2
+  property: 3
+
+- id: SPELL_227
+# name: Tanz des Blutrausches
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: D
+  musictraditions:
+    - 1
+  property: 3
+
+- id: SPELL_228
+# name: Tanz des Feuers
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 1
+  property: 4
+
+- id: SPELL_229
+# name: Tanz des Handels
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 1
+    - 3
+  property: 3
+
+- id: SPELL_230
+# name: Tanz des Jagdglücks
+  check1: ATTR_4
+  check2: ATTR_6
+  check3: ATTR_7
+  ic: B
+  musictraditions:
+    - 2
+  property: 5
+
+- id: SPELL_231
+# name: Tanz des Jagdpechs
+  check1: ATTR_4
+  check2: ATTR_6
+  check3: ATTR_7
+  ic: A
+  musictraditions:
+    - 2
+  property: 5
+
+- id: SPELL_232
+# name: Tanz des Ungehorsams
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_6
+  ic: B
+  musictraditions:
+    - 4
+  property: 5
+
+- id: SPELL_233
+# name: Tanz ohne Ende
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: D
+  musictraditions:
+    - 1
+    - 2
+    - 3
+    - 4
+  property: 3

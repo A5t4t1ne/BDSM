@@ -1,0 +1,20 @@
+- id: 1
+  name: "Proben auf Wissenstalente"
+- id: 2
+  name: "Rauschmittel"
+- id: 3
+  name: "Verfolgungsjagden"
+- id: 4
+  name: "Proben auf Gesellschaftstalente"
+- id: 5
+  name: "Jagd"
+- id: 6
+  name: "Nahrungssuche und Haltbarmachung"
+- id: 7
+  name: "Sammelproben"
+- id: 8
+  name: "Handlungen/Aktionen"
+- id: 9
+  name: "Kampf"
+- id: 10
+  name: "Kampfsonderfertigkeiten"

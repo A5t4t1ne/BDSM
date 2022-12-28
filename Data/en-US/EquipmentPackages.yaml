@@ -1,0 +1,17 @@
+- id: EPKG_1
+  name: "Travel Package"
+  src:
+    - id: US25001E
+      firstPage: 364
+
+- id: EPKG_2
+  name: "Wilderness Package"
+  src:
+    - id: US25001E
+      firstPage: 364
+
+- id: EPKG_3
+  name: "City Package"
+  src:
+    - id: US25001E
+      firstPage: 364

@@ -1,0 +1,47 @@
+- id: R_1
+  name: "Mensen"
+  attributeAdjustments: "een Eigenschap naar keuze +1"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 88
+      lastPage: 90
+
+- id: R_2
+  name: "Elfen"
+  attributeAdjustments: "IN en BE +1; SL of LK -2"
+  automaticAdvantages: "Tovenaar, Tweestemmige zang"
+  stronglyRecommendedAdvantages: "Ouderdomsresistent, Duisterzicht I, Wakend"
+  stronglyRecommendedDisadvantages: "Gevoelige reukzin, Onbekwaam (Drinken)"
+  commonAdvantages: "Aanleg (Zingen, Musiceren), Tweehandig, Duisterzicht II, Vlug, Gifresistent, Knap uiterlijk, Uitzonderlijk zintuig (Gehoor of Zicht), Immuun voor (Zwarte Woede, Hondsdolheid, Lycanthropie), Ziekteresistent, Richtingsgevoel, Slangenmens, Verbeterde regeneratie (Astrale energie), Welluidend"
+  commonDisadvantages: "Haargebonden kracht, Geplaagd door mindere geesten, Ware naam"
+  uncommonAdvantages: "Hitteresistent, Moeilijk te betoveren, Dwergenneus"
+  uncommonDisadvantages: "Bloedroes, Beperkt zintuig, Zwaarlijvig, Nachtblind"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 90
+      lastPage: 91
+
+- id: R_3
+  name: "Halfelfen"
+  attributeAdjustments: "een Eigenschap naar keuze +1"
+  commonAdvantages: "Aanleg (Zingen, Musiceren), Tweehandig, Duisterzicht I, Vlug, Knap uiterlijk, Uitzonderlijk zintuig (Gehoor of Zicht), Slangenmens, Welluidend, Tovenaar, Tweestemmige zang"
+  commonDisadvantages: "Gevoelige reukzin, Ware naam"
+  uncommonAdvantages: "Moeilijk te betoveren, Dwergenneus"
+  uncommonDisadvantages: "Bloedroes, Zwaarlijvig, Ziektegevoelig"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 92
+
+- id: R_4
+  name: "Dwergen"
+  attributeAdjustments: "CO en LK +1; CH of BE -2"
+  stronglyRecommendedAdvantages: "Duisterzicht I, Immuun voor (Tulmadron)"
+  stronglyRecommendedDisadvantages: "Onbekwaam (Zwemmen)"
+  commonAdvantages: "Duisterzicht II, Hitteresistent, Hoge Weerstand, Ziekteresistent, Richtingsgevoel, Moeilijk te betoveren, Gehard, Dwergenneus"
+  commonDisadvantages: "Bloedroes"
+  uncommonAdvantages: "Slangenmens, Welluidend, Tovenaar"
+  uncommonDisadvantages: "Hittegevoelig, Nachtblind, Lage Zielskracht, Lage Weerstand, Broos"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 93
+      lastPage: 94

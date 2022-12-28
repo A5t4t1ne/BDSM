@@ -1,0 +1,50 @@
+- id: 1
+  name: "negro azulado"
+- id: 2
+  name: "loiro"
+- id: 3
+  name: "castanho"
+- id: 4
+  name: "loiro escuro"
+- id: 5
+  name: "castanho escuro"
+- id: 6
+  name: "loiro dourado"
+- id: 7
+  name: "cinza"
+- id: 8
+  name: "loiro claro"
+- id: 9
+  name: "castanho claro"
+- id: 10
+  name: "ruivo acobreado"
+- id: 11
+  name: "loiro médio"
+- id: 12
+  name: "castanho médio"
+- id: 13
+  name: "vermelho"
+- id: 14
+  name: "ruivo"
+- id: 15
+  name: "branco-neve"
+- id: 16
+  name: "preto"
+- id: 17
+  name: "prata"
+- id: 18
+  name: "loiro esbranquiçado"
+- id: 19
+  name: "preto-acinzentado"
+- id: 20
+  name: "cinza claro"
+- id: 21
+  name: "branco-sal"
+- id: 22
+  name: "prateado esbranquiçado"
+- id: 23
+  name: "vermelho fogo"
+- id: 24
+  name: "branco"
+- id: 25
+  name: "verde"

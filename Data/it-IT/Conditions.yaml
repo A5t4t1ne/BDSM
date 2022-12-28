@@ -1,0 +1,120 @@
+- id: COND_1
+  name: "Impiccio"
+  level1: |
+    Lievemente impicciato, prove sulle abilità interessate dall’impiccio -1, Attacco -1, Difesa -1, Ini -1, Mov -1
+  level2: |
+    Impicciato, prove sulle abilità interessate dall’impiccio -2, Attacco -2, Difesa -2, Ini -2, Mov -2 
+  level3: |
+    Pesantemente impicciato, prove sulle abilità interessate dall’impiccio -3, Attacco -3, Difesa -3, Ini -3, Mov -3 
+  level4: |
+    Incapacitato finché non viene ridotto il carico
+  src:
+    - id: REG001
+      firstPage: 33
+
+- id: COND_2
+  name: "Stordimento"
+  level1: |
+    Leggermente intontito, tutte le prove -1
+  level2: |
+    Frastornato, tutte le prove -2
+  level3: |
+    Rimbambito, tutte le prove -3
+  level4: |
+    Stordito, incapacitato
+  src:
+    - id: REG001
+      firstPage: 34
+
+- id: COND_3
+  name: "Estraniamento"
+  level1: |
+    Lievemente estraniato, -1 su prove di abilità non gradite alla divinità 
+  level2: |
+    Estraniato, +1 sulle prove di abilità gradite alla divinità, -2 su tutte le altre
+  level3: |
+    Divinamente ispirato, +2 sulle prove di abilità gradite alla divinità, -3 su tutte le altre
+  level4: |
+    Strumento divino, +3 sulle prove di abilità gradite alla divinità, -4 su tutte le altre
+  src:
+    - id: REG001
+      firstPage: 32
+      lastPage: 33
+
+- id: COND_4
+  name: "Paura"
+  level1: |
+    Inquieto, tutte le prove -1
+  level2: |
+    Spaventato, tutte le prove -2
+  level3: |
+    Terrorizzato, tutte le prove -3
+  level4: |
+    Catatonico, incapacitato
+  src:
+    - id: REG001
+      firstPage: 34
+      lastPage: 34
+
+- id: COND_5
+  name: "Paralisi"
+  level1: |
+    Lievemente intorpidito, prove che richiedono movimento o voce -1, Mov ridotto al 75%
+  level2: |
+    Intorpidito, prove che richiedono movimento o voce -2, Mov ridotto al 50%
+  level3: |
+    Pressoché immobile, prove che richiedono movimento o voce -3, Mov ridotto al 25%
+  level4: |
+    Immobilizzato, incapacitato
+  src:
+    - id: REG001
+      firstPage: 34
+
+- id: COND_6
+  name: "Dolore"
+  level1: |
+    Lievi dolori, tutte le prove -1, Mov -1
+  level2: |
+    Dolore forte, tutte le prove -2, Mov -2
+  level3: |
+    Dolore intenso, tutte le prove -3, Mov -3
+  level4: |
+    Incapacitato, tutte le prove -4
+  src:
+    - id: REG001
+      firstPage: 32
+
+- id: COND_7
+  name: "Confusione"
+  level1: |
+    Lievemente confuso, penalità su tutte le prove -1
+  level2: |
+    Confuso, tutte le prove -2
+  level3: |
+    Molto confuso, tutte le prove -3, attività complesse come incantesimi, liturgie e uso competenze conoscitive sono impossibili
+  level4: |
+    Incapacitato
+  src:
+    - id: REG001
+      firstPage: 32
+
+- id: COND_8
+  name: "Animosity"
+  description: |
+    The GM decides whether and how often somebody suffers a level of the condition *Animosity*. Most strangers passing through the land rarely suffer even one level. It mainly affects Nostrians and Andergastans who have lived here all their lives and their Hatred always focuses on the inhabitants of the neighboring realm. The Hatred usually takes many years to manifest. On the rare occasions when an outsider suffers a level of *Animosity*, the focus of their hatred depends on the local Animal King, which means they usually begin to hate the inhabitants of the land they are not in now.
+
+    *Animosity* does not disappear by itself, and usually only increases in intensity. *Animosity* is counteracted only by certain spells or liturgical chants, or the skill *Treat Soul*. Also, affected individuals lose one level of *Animosity* after spending at least four weeks outside of Nostria and Andergast, and lose another level for each successive month spent away. This does not mean that they automatically stop hating their archenemy, but at least their minds clear and they gain the ability to decide for themselves.
+
+    A successful check with *Treat Soul* removes one level of *Animosity*, though only one such check is allowed per week. Someone with *Animosity* level IV can only be treated by powerful magic or the will of the gods.
+  levelDescription: "Animosity Level"
+  level1: |
+    Suffer the negative trait *Enmity towards Andergastans/Nostrians* and actively insult, bully, or even attack the target of their enmity. *Willpower* checks to resist this enmity suffer a penalty of 1.
+  level2: |
+    *Willpower* checks to resist the enmity suffer a penalty of 1.
+  level3: |
+    *Willpower* checks to resist the enmity suffer a penalty of 3.
+  level4: |
+    Receive the advantage *Hatred for Andergastans/Nostrians*. *Willpower* checks to resist the enmity fail automatically.
+  src:
+    - id: US25101E
+      firstPage: 177

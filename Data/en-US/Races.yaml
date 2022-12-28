@@ -1,0 +1,45 @@
+- id: R_1
+  name: "Humans"
+  attributeAdjustments: "one attribute of your choice +1"
+  src:
+    - id: US25001E
+      firstPage: 89
+
+- id: R_2
+  name: "Elves"
+  attributeAdjustments: "INT and AGI +1; SGC or STR -2"
+  automaticAdvantages: "Spellcaster, Two-Voiced Singing"
+  stronglyRecommendedAdvantages: "Darksight I, Needs No Sleep, Resistant to Aging"
+  stronglyRecommendedDisadvantages: "Incompetence (Carousing), Sensitive Nose"
+  commonAdvantages: "Ambidextrous, Aptitude (Singing, Music), Beautiful Voice, Contortionist, Darksight II, Direction Sense, Exceptional Sense (Hearing or Sight), Good Looks, Immunity (Black Rabies, Rabies, Lycanthropy), Improved Regeneration (Arcane Energy), Nimble, Resistant to Disease, Resistant to Poison"
+  commonDisadvantages: "Annoyed by Minor Spirits, Hair-Bound Power, True Name"
+  uncommonAdvantages: "Difficult to Enchant, Dwarf’s Nose, Resistant to Heat"
+  uncommonDisadvantages: "Fat, Frenzy, Night-Blind, Restricted Sense"
+  src:
+    - id: US25001E
+      firstPage: 91
+
+- id: R_3
+  name: "Half Elves"
+  attributeAdjustments: "one attribute of your choice +1"
+  commonAdvantages: "Ambidextrous, Aptitude (Singing, Music), Beautiful Voice, Contortionist, Darksight I, Exceptional Sense (Hearing or Sight), Good Looks, Nimble, Spellcaster, Two-Voiced Singing"
+  commonDisadvantages: "Sensitive Nose, True Name"
+  uncommonAdvantages: "Difficult to Enchant, Dwarf’s Nose"
+  uncommonDisadvantages: "Fat, Frenzy, Susceptible to Disease"
+  src:
+    - id: US25001E
+      firstPage: 92
+
+- id: R_4
+  name: "Dwarves"
+  attributeAdjustments: "CON and STR +1; CHA or AGI -2"
+  stronglyRecommendedAdvantages: "Darksight I, Immunity to Tulmadron (a poison)"
+  stronglyRecommendedDisadvantages: "Incompetence (Swimming)"
+  commonAdvantages: "Darksight II, Difficult to Enchant, Direction Sense, Dwarf’s Nose, Increased Toughness, Resistant to Disease, Resistant to Heat, Rugged Fighter"
+  commonDisadvantages: "Frenzy"
+  uncommonAdvantages: "Beautiful Voice, Contortionist, Spellcaster"
+  uncommonDisadvantages: "Decreased Spirit, Decreased Toughness, Night-Blind, Sensitive to Pain, Susceptible to Heat"
+  src:
+    - id: US25001E
+      firstPage: 94
+

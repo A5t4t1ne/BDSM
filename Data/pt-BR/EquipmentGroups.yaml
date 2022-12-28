@@ -1,0 +1,54 @@
+- id: 1
+  name: "Armas de Combate Corpo a Corpo"
+- id: 2
+  name: "Armas de Longo Alcance"
+- id: 3
+  name: "Munição"
+- id: 4
+  name: "Armadura"
+- id: 5
+  name: "Acessórios de Armas"
+- id: 6
+  name: "Roupas"
+- id: 7
+  name: "Equipamentos e Ferramentas de Viagem"
+- id: 8
+  name: "Iluminação"
+- id: 9
+  name: "Ataduras e Remédios"
+- id: 10
+  name: "Recipientes"
+- id: 11
+  name: "Ropes and Chains"
+- id: 12
+  name: "Ferramentas de Ladrão"
+- id: 13
+  name: "Ferramentas de Ofício"
+- id: 14
+  name: "Instrumentos de Orientação"
+- id: 15
+  name: "Joalheria"
+- id: 16
+  name: "Gemas e Pedas Preciosas"
+- id: 17
+  name: "Papelaria"
+- id: 18
+  name: "Livros"
+- id: 19
+  name: "Artefatos Mágicos"
+- id: 20
+  name: "Alquímicos"
+- id: 21
+  name: "Venenos"
+- id: 22
+  name: "Ervas Curativas"
+- id: 23
+  name: "Instrumentos Musicais"
+- id: 24
+  name: "Artigos de Luxo"
+- id: 25
+  name: "Animais"
+- id: 26
+  name: "Cuidados com os Animais"
+- id: 27
+  name: "Veículos"

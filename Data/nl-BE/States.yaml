@@ -1,0 +1,140 @@
+- id: STATE_1
+  name: "Bewegingsonbekwaam"
+  description: |
+    Onder andere paralyse, drijfzand of vastbinden kunnen ertoe leiden dat personen zich niet meer kunnen bewegen. Ze kunnen wel nog normaal observeren en handelingen uitvoeren waarvoor ze geen lichamelijke beweging nodig hebben. Voorbeelden hiervan zijn de meeste toepassingen van Kennistalenten of het uitvoeren van Spreuken zonder het gebruik van gebaren of formules.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 34
+
+- id: STATE_2
+  name: "Bewusteloos"
+  description: |
+    Als een persoon slaapt of een zeer harde klap op zijn hoofd heeft gekregen, wordt hij als bewusteloos beschouwd. Hoewel z‘n lichaam geen beperkingen heeft, is zijn geest elders of inactief. Bijkomend heeft de held ook nog de Status *Handelingsonbekwaam*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 34
+
+- id: STATE_3
+  name: "Blind"
+  description: |
+    Een blind persoon kan zijn gezichtsvermogen niet gebruiken. Een oorzaak hiervan kan het Nadeel Blind zijn maar ook volledige duisternis of gewoonweg een blinddoek.<br>
+    In hoeverre een blinde persoon zich kan oriënteren is afhankelijk van zijn andere zintuigen. Zelfs voor simpele acties kan een Proef op *Zintuigen* worden gevraagd.<br>
+    Een blinde persoon kan heel wat Talenten niet uitvoeren en vele zijn verzwaard.<br>
+    Welke Talenten helemaal niet of alleen verzwaard kunnen worden uitgevoerd is afhankelijk van de situatie en wordt door de spelleider beslist.<br>
+    In een gevecht moet een blinde krijger minstens ruwweg bewust zijn van de positie van zijn tegenstander, bijvoorbeeld omdat hij hem kan horen. Hierbij is er een Vergelijkingsproef *Zintuigen (Zoeken)* tegen *Verbergen (Sluipen)* vereist. Als de blinde krijger hier succesvol blijkt, mag hij aanvallen en verdedigingen tegen zijn tegenstrever uitvoeren. Melee-aanvallen worden hier gehalveerd, afstandsaanvallen zijn pure gelukstreffers (een gerolde 1 met 1D20). Dit laatste geldt ook voor verdedigingen bij meleegevechten. Verdediging tegen afstandsaanvallen is onmogelijk. Spreuken en Liturgieën op anderen kunnen alleen succesvol zijn als de blinde zijn doelwit kan aanraken.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 34
+      lastPage: 35
+
+- id: STATE_4
+  name: "Bloedroes"
+  description: |
+    Zodra een held deze Status bereikt, krijgt hij vanaf de volgende Gevechtsronde een bonus van +4 op alle melee-aanvallen en veroorzaakt +2 trefpunten, maar kan zich niet meer verdedigen, afstandsaanvallen uitvoeren of Talenten gebruiken (buiten Lichamelijke talenten en *Intimideren*). Hij kan nog enkel de Gevechtscompetentie IJzerslag gebruiken. Bovendien zijn Proeven op *Krachttoer* met 2 verlicht en de held negeert alle aftrekken door de Toestand *Pijn*.<br>
+    De exacte duur in Gevechtsrondes wordt in het geheim door de spelleider met 2D20 bepaald. In deze tijdsspanne valt de held eerst zijn vijanden aan. Als deze allemaal buiten strijd zijn, dan valt hij de eerste de beste aan, zoals passieve kijkers of zijn metgezellen.<br>
+    Is er niemand meer binnen zijn gezichtsveld, dan begint hij zinloos in het rond te brullen. Na zijn Bloedroes ondergaat de held twee graden *Verdoving*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 35
+
+- id: STATE_5
+  name: "Brandend"
+  description: |
+    De kleding van de held heeft vuur gevat en de held lijdt, zolang de Status aanhoudt, vuurschade. Om zo’n vuur te doven is een succesvolle Proef vereist op *Lichaamsbeheersing*. Op een kleine oppervlakte wordt deze afgelegd zonder verzwaring. Als een groter gebied getroffen werd geldt een verzwaring van 1 en als de persoon volledig in brand staat zelfs een verzwaring van 2. De Proef mag elke Gevechtsronde eenmaal worden afgelegd.<br>
+    Ook helpers kunnen voor de brandende persoon de Proef afleggen. Hierbij is er in totaal ook maar een Proef per Gevechtsronde en per brandende persoon toegestaan. Blussen met water, zand of andere hulpmiddelen kan eveneens. Of hier een Proef noodzakelijk is, en hoe lang het duurt voor de held geblust is, beslist de meester.<br>
+    Als de persoon met een zuur werd overgoten zijn dezelfde regels van toepassing, maar hier is dringend een grote hoeveelheid water of een ander bruikbaar hulpmiddel nodig om het zuur af te kunnen wassen of te neutraliseren. Anders mag er geen Proef op *Lichaamsbeheersing* worden afgelegd. Meer over vuuren zuurschade kan je terugvinden in het HOOFDSTUK **Detailregels**, op **Regelwerk** bladzijde **341**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 35
+
+- id: STATE_6
+  name: "Ingesloten"
+  description: |
+    Als een persoon zich in een benauwde omgeving bevindt, bijvoorbeeld in kleine ruimtes, nauwe tunnels of in een dichte menigte, dan geldt dit als een ingesloten omgeving.<br>
+    In zo’n situatie lijdt de persoon aan de Status *Ingesloten*. Hij kan zich dan alleen nog beperkt bewegen, wat vooral een nadeel is tijdens een gevecht.<br>
+    Wapens met een korte reikwijdte hebben hier geen aftrek. Wapens met een middellange reikwijdte daarentegen worden verzwaard met 4 op aanval en afweer. Lange wapens hebben zelfs verzwaringen van 8.<br>
+    Gebruik van Talenten kan in zulke situaties tot 2 worden verzwaard. Spreuken en Liturgieën worden normaal gezien niet negatief beïnvloed als de gebruiker ingesloten is.
+
+    Soort | AV | AW
+    :-- | :-- | :--
+    Korte wapens | +/-0 | +/-0
+    Middellange wapens | -4 | -4
+    Lange wapens | -8 | -8
+    Kleine schilden | -2 | -2
+    Middelgrote schilden | -4 | -3
+    Grote schilden | -6 | -4
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36
+
+- id: STATE_7
+  name: "Gefixeerd"
+  description: |
+    Wanneer iemand aan de grond vastkleeft of door ranken of vallen ter plaatse wordt gehouden, dan wordt dit Gefixeerd genoemd. De SN zakt tot 0 en de Ontwijkwaarde zakt met 4 punten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36
+
+- id: STATE_8
+  name: "Handelingsonbekwaam"
+  description: |
+    De persoon is door Toestanden of andere modificaties dermate getroffen dat hij niet meer kan handelen. Zijn SN zakt naar 0 en hij kan geen acties of verdedigingen meer uitvoeren. In de meeste omstandigheden wordt hij als liggend beschouwd. Afhankelijk van de situatie kan de spelleider het toestaan vrije acties uit te voeren zodat de held kan praten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36
+
+- id: STATE_9
+  name: "Ziek"
+  description: |
+    De held heeft een ziekte opgelopen. Zolang de ziekte niet afneemt of de held niet genezen wordt, kan hij niet meer regenereren door een normale regeneratiefase (**Regewerk** bladzijde *339*). Als hij niet minstens elke dag een regeneratiefase gebruikt om te genezen (zoals bv. slaap of bedrust), dan verliest hij 1D3 levenspunten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36
+
+- id: STATE_10
+  name: "Liggend"
+  description: |
+    Of hij nu juist wakker wordt of hij werd tegen de grond gesmeten, deze persoon bevindt zich in een liggende positie. In het bijzonder bij een gevecht leidt dit tot enige modificaties. Zolang de persoon ligt, kan deze zich maar zeer langzaam voortbewegen (SN 1). Zijn verdediging is met 2 verzwaard en zijn aanvallen met 4. Wie wil opstaan heeft 1 actie nodig. Als een tegenstander zich op aanvalsafstand bevindt, dan kan deze bovendien een Gelegenheidsaanval uitvoeren. Om zo’n aanval te vermijden, kan de held een Proef op *Lichaamsbeheersing (Gevechtsmaneuvers)* afleggen. Indien hij hierin slaagt, vindt er geen Gelegenheidsaanval plaats.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36
+
+- id: STATE_11
+  name: "Stom"
+  description: |
+    De held kan niet spreken, wat zijn communicatie duidelijk beperkt. Personen met deze Status kunnen problemen hebben bij Spreuken.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36
+
+- id: STATE_12
+  name: "Doof"
+  description: |
+    Deze persoon kan niets horen, wat zijn communicatie duidelijk beperkt. Personen met deze Status kunnen geen Proeven op *Zintuigen* afleggen die enkel betrekking hebben op horen. Proeven op *Zintuigen (Hinderlagen ontdekken)* zijn met 3 verzwaard.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 35
+
+- id: STATE_13
+  name: "Verrast"
+  description: |
+    De normale gevechtshandelingen gaan ervanuit dat alle partijen hun tegenstander kunnen zien of waarnemen. Maar er zijn situaties zoals bijvoorbeeld hinderlagen waarbij men verrast wordt. Tegen verraste personen mag men een actie uitvoeren, waartegen geen verdediging mogelijk is. Pas daarna begint de normale Gevechtsronde.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36
+
+- id: STATE_14
+  name: "Onzichtbaar"
+  description: |
+    De persoon is visueel niet meer waarneembaar. Natuurlijk is ze desondanks hoor-, ruik- en tastbaar. Bij een gevecht kan een onzichtbaar persoon slechts worden aangevallen als de aanvaller weet heeft van haar bestaan en ruwweg haar positie kent. Hiervoor moet een Vergelijkingsproef *Zintuigen (Zoeken)* tegen *Verbergen (Sluipen)* afgelegd worden. Als de aanvaller de Proef wint, mag hij Aanvallen en Verdedigingen uitvoeren tegen de onzichtbare. Alle aanvalswaarden worden gehalveerd, afstandsaanvallen zijn pure gelukstreffers (een gerolde 1 met 1D20). Verdedigingen tegen aanvallen van een onzichtbare zijn ook een kwestie van geluk (een gerold 1 met 1D20). Verdedigingen tegen afstandsaanvallen van een onzichtbare zijn onmogelijk. Spreuken en Liturgieën hebben alleen effect op een onzichtbare als de uitvoerder de onzichtbare aanraakt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36
+
+- id: STATE_15
+  name: "Vergiftigd"
+  description: |
+    De held werd vergiftigd. Zolang het gif actief is, kan de held niet meer regenereren via een normale regeneratiefase.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 36

@@ -1,0 +1,40 @@
+- id: 1
+  name: "amethyst purple"
+- id: 2
+  name: "amber"
+- id: 3
+  name: "blue"
+- id: 4
+  name: "brown"
+- id: 5
+  name: "dark brown"
+- id: 6
+  name: "dark purple"
+- id: 7
+  name: "icy gray"
+- id: 8
+  name: "gold flecks"
+- id: 9
+  name: "gray"
+- id: 10
+  name: "gray-blue"
+- id: 11
+  name: "green"
+- id: 12
+  name: "light brown"
+- id: 13
+  name: "ruby red"
+- id: 14
+  name: "sapphire blue"
+- id: 15
+  name: "black"
+- id: 16
+  name: "black-brown"
+- id: 17
+  name: "silver-gray"
+- id: 18
+  name: "emerald green"
+- id: 19
+  name: "red"
+- id: 20
+  name: "purple"

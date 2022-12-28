@@ -1,0 +1,31 @@
+- id: ATTR_1
+  name: "Coragem"
+  short: COR
+
+- id: ATTR_2
+  name: "Sagacidade"
+  short: SAG
+
+- id: ATTR_3
+  name: "Intuição"
+  short: INT
+
+- id: ATTR_4
+  name: "Carisma"
+  short: CAR
+
+- id: ATTR_5
+  name: "Destreza"
+  short: DES
+
+- id: ATTR_6
+  name: "Agilidade"
+  short: AGI
+
+- id: ATTR_7
+  name: "Constituição"
+  short: CON
+
+- id: ATTR_8
+  name: "Força"
+  short: For

@@ -1,0 +1,18 @@
+- id: 1
+  name: "Abiti normali"
+- id: 2
+  name: "Abiti pesanti"
+- id: 3
+  name: "Corpetto imbottito"
+- id: 4
+  name: "Corpetto di cuoio"
+- id: 5
+  name: "Armatura di legno"
+- id: 6
+  name: "Cotta di maglia"
+- id: 7
+  name: "Armatura a scaglie"
+- id: 8
+  name: "Armatura a piastre"
+- id: 9
+  name: "Armatura da torneo"

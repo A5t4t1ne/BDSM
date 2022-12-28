@@ -1,0 +1,404 @@
+- id: OR_1
+  name: "Nessun tiro di conferma"
+  description: |
+    Vorresti più successi e fallimenti critici nel tuo gioco? Non usare i tiri di conferma. In questo modo ogni 1 sarà un successo critico e ogni 20 un fallimento critico (ad ogni tiro avrai il 5% di probabilità di ottenere uno dei due risultati critici).
+
+    L’uso dei tiri di conferma abbassa le probabilità di successo e di fallimento critico, che dipenderanno più dai valori degli attributi degli eroi e dai modificatori assegnati dal narratore.
+  src:
+    - id: REG001
+      firstPage: 20
+
+- id: OR_2
+  name: "Prove di abilità rapide ed indolori"
+  description: |
+    Le prove di abilità richiedono più tempo rispetto alle prove di attributo. Del resto dovrai tirare tre dadi invece di uno singolo e tenere traccia dei punti consumati. Ci sono diversi modi per velocizzare questo procedimento.
+
+    Prima di tutto, puoi scegliere D20 di diversi colori e assegnare un colore a ogni tiro. Per esempio, puoi decidere di usare sempre il tuo dado rosso per il primo tiro, il dado bianco per il secondo ed il dado blu per il terzo. È facile da ricordare e saprai immediatamente quale risultato è associato a quale prova, confrontando rapidamente i risultati con gli attributi.
+
+    Un altro metodo è tirare 3D20 e assegnare il dado che si trova più lontano alla tua sinistra alla prima prova, quello in mezzo alla seconda e quello più lontano alla tua destra alla terza.
+
+    Entrambi i metodi velocizzeranno il gioco.
+  src:
+    - id: REG001
+      firstPage: 22
+
+- id: OR_3
+  name: "Dadi colorati secondo Paramanthus"
+  description: |
+    Paramanthus era uno studioso di Aventuria che postulò una connessione tra gli attributi personali, gli astri erranti, i colori e le divinità.
+
+    Puoi usare questo sistema di corrispondenze, registrato negli scritti di Paramanthus, e assegnare dei dadi colorati agli attributi dei tuoi personaggi. La figura sotto questo riquadro ti mostra i colori connessi ai vari attributi. Usando questo sistema, potrai assegnare più facilmente i dadi durante le prove di abilità e confrontare rapidamente i risultati con i relativi attributi.
+
+    Questa opzione non cambia nessuna regola, ma aiuta a velocizzare le prove di abilità.
+  src:
+    - id: REG001
+      firstPage: 22
+
+- id: OR_4
+  name: "Attributi alternativi per le prove di abilità "
+  description: |
+    Gli attributi collegati alle prove di abilità non sono scolpiti nella pietra. Come narratore hai la facoltà di cambiare gli attributi usati in una prova di abilità se pensi che ce ne siano altri più attinenti alla situazione specifica.
+
+    Per esempio, se un eroe vuole sapere soltanto come scalare una parete rocciosa, invece di andare a scalarla effettivamente, potrai richiedere una prova su Arrampicarsi (Montagne) usando Acume/Intuito/Intuito anziché gli attributi normalmente previsti, ossia Coraggio/Agilità/Forza. Dopotutto, studiare una parete rocciosa e prepararsi alla salita difficilmente sarà un compito di natura fisica.
+
+    Questa regola opzionale rende il gioco un po’ più complicato.
+  src:
+    - id: REG001
+      firstPage: 23
+
+- id: OR_5
+  name: "Prove cumulative con diverse abilità"
+  description: |
+    Anziché far lanciare i dadi agli eroi sulla stessa abilità, il narratore può decidere che alcuni giocatori facciano la prova su altre abilità ugualmente adatte al compito. Per esempio, un viaggio attraverso la selva potrebbe dipendere per la maggior parte dalla competenza Sopravvivenza, ma anche Orientamento, Arrampicarsi e Prova di forza potrebbero tutte essere competenze di supporto coerenti con l’attività da svolgere.
+
+    In questo caso deve esserci almeno un eroe a sostenere una prova nell’abilità principale della prova, mentre a discrezione del narratore gli altri eroi dovranno cimentarsi nelle prove di supporto. Nel caso delle prove su abilità di supporto, i Punti Abilità (PAb) rimasti vanno dimezzati prima di determinare il LQ finale con cui l’eroe contribuisce alla prova cumulativa.
+
+    Tutte le altre regole per le prove cumulative si applicano.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 27
+
+- id: OR_6
+  name: "Eroi e personaggi non giocanti: una differenza sottile, ma importante!"
+  description: |
+    I Punti Fato sono molto rari. Non tutti su Dere possono attingere al Fato così facilmente come gli eroi: solo pochissimi personaggi non giocanti riescono a farlo. Gli eroi (e questi rari PNG) sono dei prescelti, individui speciali nel mondo de Uno Sguardo nel Buio.
+
+    Puoi comunque decidere di usare regole differenti, come segue:
+
+    - Il Fato non esiste! Nessuno a Dere possiede Punti Fato. Gli eroi sono esattamente come tutti gli altri. Se scegli questa opzione, ignora tranquillamente tutte le regole riguardanti i Punti Fato. Questo renderà il gioco più semplice, ma fai attenzione: Aventuria, in questo caso, sarà molto più pericolosa e gli eroi non potranno più modificare i tiri dei dadi a loro piacimento. Un fallimento, in circostanze letali, può essere definitivo.
+    - Tutti sono prescelti! Sia gli eroi che i personaggi non giocanti dispongono di Punti Fato e possono utilizzarli a loro piacimento. Ciò è particolarmente vantaggioso per il narratore poiché aumenta le possibilità di manipolare gli eventi in favore di personaggi di contorno e degli antagonisti. Dall’altro lato, gestire i PFato di tanti personaggi richiederà un maggiore sforzo.
+
+    Questa regola opzionale rende il gioco più complesso.
+  src:
+    - id: REG001
+      firstPage: 31
+
+- id: OR_7
+  name: "Altre modalità per riguadagnare PFato"
+  description: |
+    Oltre alle opzioni presentate nelle regole, il narratore può accordare la restituzione di PFato per aver fatto del buon gioco di ruolo, per aver contribuito in modo significativo a far procedere l’avventura o—perché no—per aver fatto ridere tutta la tavolata. Ciò incoraggia la partecipazione dei giocatori e può contribuire ad una migliore esperienza di gioco di ruolo.
+  src:
+    - id: REG001
+      firstPage: 31
+
+- id: OR_8
+  name: "Punteggio massimo per gli attributi"
+  description: |
+    Se non vuoi permettere un indefinito miglioramento degli attributi dopo l’inizio del gioco, puoi limitarli al valore massimo iniziale garantito dal Livello Esperienza dell’eroe più 2. In questo modo, un eroe capace potrà arrivare ad avere al più un valore di 17 (ossia 15+2).
+
+    Mano a mano che gli eroi acquisiscono esperienza dalle loro avventure, incrementano anche il loro Livello Esperienza. Ad ogni nuovo LE, anche il valore massimo degli attributi incrementa. Ad un LE di “Leggendario”, il valore massimo degli attributi dell’eroe sarà di 20 (18+2).
+
+    Questa regola opzionale rende il gioco leggermente più complesso.
+  src:
+    - id: REG001
+      firstPage: 39
+
+- id: OR_9
+  name: "Capitale variabile in base all’Esperienza"
+  description: |
+    Quando vengono creati dei personaggi con un Livello di Esperienza superiore a Esperto, è possibile aggiungere 200 Talleri al capitale iniziale di ogni eroe. Al contrario, per ogni livello inferiore ad Esperto andranno sottratti 200 Talleri dal capitale. Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 58
+
+- id: OR_10
+  name: "Bagaglio culturale"
+  description: |
+   Gli eroi possono ricevere un bonus di 1 per competenze Sociali e Conoscitive se la prova riguarda argomenti della loro cultura natia. Allo stesso modo, possono subire una penalità di 1 se la prova riguarda argomenti di una cultura sconosciuta alla propria o su cui l’eroe ha poca esperienza. Il narratore ha l’ultima parola ma dovrebbe prestare attenzione nel mantenere l’equilibrio. Questa regola rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 96
+
+- id: OR_11
+  name: "Prova di abilità per categoria"
+  description: |
+    Anziché tener traccia di quali tre attributi hai bisogno per ogni competenza, puoi fare una prova di abilità generalizzata sulla categoria della competenza in questione. Questa prova funziona esattamente come una normale prova di abilità, tranne che per il fatto che tutte le competenze appartenenti allo stesso gruppo useranno gli stessi attributi per le prove. Usa il Livello Abilità come riserva per i Punti abilità come per una normale prova. Nel determinare gli attributi di prova, sono stati scelti tre attributi utilizzati dalla maggior parte delle competenze nelle rispettive categorie. In questo senso, le prove di abilità per categoria rappresentano una specie di “prova media” della categoria.
+
+    Questa regola opzionale rende il gioco un po’ più semplice.
+
+    Categoria di competenze | Prova di abilità
+    :-- | :--
+    Fisiche | COR/AGI/FOR
+    Sociali | INT/CAR/CAR
+    Naturali | COR/AGI/COS
+    Conoscitive| ACU/ACU/INT
+    Artigianali | DES/DES/COS
+  src:
+    - id: REG001
+      firstPage: 184
+
+- id: OR_12
+  name: "Uso inconsueto delle competenze"
+  description: |
+    Una competenza potrebbe essere talmente ampia che un eroe difficilmente sarà capace allo stesso modo in tutte le sue diverse aree. Per esempio, la competenza Volare potenzialmente permette all’eroe di controllare molti tipi diversi di oggetti volanti, ma il narratore dovrebbe tenere a mente che qualcuno che sa come controllare un tappeto magico non necessariamente potrebbe essere ugualmente abile con un demone volante.
+
+    Per questa ragione, un uso inconsueto della competenza potrebbe comportare una penalità fino a 3 punti. Queste penalità di solito si riducono nel tempo, ma è il narratore ad avere l’ultima parola. Lo stesso si applica per le altre competenze, come ad esempio Cavalcare per controllare diversi tipi di animali da monta o Musica per suonare diversi tipi di strumenti.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 184
+
+- id: OR_13
+  name: "Compensazione degli attributi per le prove di routine"
+  description: |
+    Invece di usare sempre un valore di attributo fisso di 13 per decidere se una prova si qualifichi come prova di routine, il narratore può decidere di concedere una prova di routine anche con qualche attributo con un valore minore. Per ogni punto attributo sotto al 13, l’eroe dovrà avere un LA di tre punti maggiore rispetto al normale. Perciò, per una prova con modificatori +1, per esempio, un personaggio con due attributi a 13 e uno a 12 necessita di un LA di almeno 10 (anziché 7) perché la prova sia qualificata come di routine.
+  src:
+    - id: REG001
+      firstPage: 185
+
+- id: OR_14
+  name: "Volpesco regionale"
+  description: |
+    Il narratore può decidere che esistano diverse abilità speciali Volpesco anziché una soltanto, nel qual caso la forma scritta differisce di città in città. Questo rende il mondo del gioco più realistico, ma significa anche che i personaggi possono sfruttare vantaggiosamente questa abilità speciale solo nella loro area di appartenenza.
+
+    Il Volpesco regionale costa 1 PAvv anziché 3 PAvv.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 220
+
+- id: OR_15
+  name: "Specializzazione della lingua"
+  description: |
+    L’eroe conosce un dialetto o una speciale forma di linguaggio (come una lingua professionale, ad esempio il Bosparano dei maghi).
+
+    L’uso di questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 218
+
+- id: OR_16
+  name: "Iniziativa per gruppi di nemici "
+  description: |
+    Puoi organizzare le azioni di gruppi nemici con lo stesso valore base di Iniziativa tirando una sola volta per iniziativa e facendo agire tutti i membri del gruppo nello stesso momento, durante ogni turno di combattimento.
+
+    Questa regola opzionale rende il gioco un po’ meno complesso.
+  src:
+    - id: REG001
+      firstPage: 228
+
+- id: OR_17
+  name: "Valori di difesa più alti"
+  description: |
+    Se si desidera diminuire le probabilità che i colpi vadano a segno, è possibile decidere di aumentare generalmente i valori di Parata di 2 o 4 punti (e allo stesso tempo, aumentare di 1 o 2 punti la Schivata). Da notare che sia i personaggi giocanti che i PNG avranno valori di difesa migliorata, per cui la risoluzione di un combattimento richiederà più tempo.
+
+    Questa regola opzionale non influenza la complessità del gioco.
+  src:
+    - id: REG001
+      firstPage: 228
+
+- id: OR_18
+  name: "Fallimenti critici di attacco in mischia"
+  description: |
+    Anziché subire semplicemente 1D6+2 PFer nel caso di un fallimento critico, puoi usare la seguente tabella per determinare le conseguenze. Se il combattente è disarmato e ottieni in risultato minore di 7, aggiungi 5 al risultato (questo evita i risultati che riguardano le armi).
+
+    Risultato (2D6) | Conseguenze
+    :-- | :--
+    2: Arma distrutta | L’arma è irreparabilmente distrutta. Se l’arma è indistruttibile, leggi il risultato 5.
+    3: Arma seriamente danneggiata | L’arma non potrà più essere utilizzata prima di essere riparata. Se l’arma è indistruttibile, leggi il risultato 5.
+    4: Arma danneggiata | L’arma è danneggiata. Tutte le prove su Attacco e Parata subiscono una penalità di 2 finché l’arma non venga riparata. Se  l’arma è indistruttibile, leggi il risultato 5.
+    5: Arma perduta| L’arma cade a terra (leggi il **Regolamento** a pag. **239**).
+    6: Arma incastrata | L’arma è incastrata in un albero, in una parete di legno, a terra o in un altro posto del genere. Liberarla richiede 1 azione e una prova su Prova di forza (Trascinare e spingere) con una penalità di 1.
+    7: Caduta | Fai una prova su Controllo del corpo (Equilibrio) con una penalità di 2 o cadi a terra e ricevi lo stato di Atterrato (leggi il **Regolamento** a pag. **34**).
+    8: Passo falso | Inciampi e subisci una penalità di 2 sulla tua prossima azione.
+    9: Caviglia slogata| Subisci un livello della condizione Dolore per 3 turni di combattimento.
+    10: Bernoccolo | Sbatti la testa nel caos del combattimento, subendo un livello della condizione Stordimento per la prossima ora.
+    11: Ferita autoinflitta| Subisci un colpo i cui PImp si determinano usando la tua stessa arma, compreso il bonus dato dall’attributo primario. Se sei disarmato, subisci 1D6 PImp.
+    12: Grave ferita autoinflitta| Subisci un colpo i cui PImp si determinano usando la tua stessa arma, compreso il bonus dato dall’attributo primario, e raddoppiando il risultato. Se sei disarmato, subisci 2D6 PImp.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 231
+      lastPage: 232
+
+- id: OR_19
+  name: "Più difese per personaggi non giocanti"
+  description: |
+    Le regole dicono che solo gli eroi ed i PNG con Punti Fato possono mettere in atto più di una difesa ogni turno di combattimento. Il narratore può rafforzare i PNG che non possiedono PFato permettendo loro di tentare più di una difesa per turno (ovviamente con le relative penalità), ma questa modifica può avere, come risultato, dei combattimenti più lunghi.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 232
+
+- id: OR_20
+  name: "Fallimenti critici di difesa in mischia"
+  description: |
+    Anziché subire semplicemente 1D6+2 PFer nel caso di un fallimento critico, puoi usare la seguente tabella per determinare le conseguenze. Se il combattente è disarmato (o sta schivando) e ottieni in risultato minore di 7, aggiungi 5 al risultato (questo evita i risultati che riguardano le armi).
+
+    Risultato (2D6) | Conseguenze
+    :-- | :--
+    2: Arma distrutta| L’arma è irreparabilmente distrutta. Se l’arma è indistruttibile, leggi il risultato 5.
+    3: Arma seriamente danneggiata| L’arma non potrà più essere utilizzata prima di essere riparata. Se l’arma è indistruttibile, leggi il risultato 5.
+    4: Arma danneggiata | L’arma è danneggiata. Tutte le prove su Attacco e Parata subiscono una penalità di 2 finché l’arma non viene riparata. Se l’arma è indistruttibile, leggi il risultato 5.
+    5: Arma perduta | L’arma cade a terra (leggi il **Regolamento** a pag. **239**).
+    6: Arma incastrata| L’arma è incastrata in un albero, in una parete di legno, a terra o in un altro posto del genere. Liberarla richiede 1 azione e una prova su Prova di forza (Trascinare e spingere) con una penalità di 1.
+    7: Caduta | Fai una prova su Controllo del corpo (Equilibrio) con una penalità di 2 o cadi a terra e ricevi lo stato di Atterrato (leggi il **Regolamento** a pag. **34**).
+    8: Passo falso | Inciampi e subisci una penalità di 2 sulla tua prossima azione.
+    9: Caviglia slogata | Subisci un livello della condizione Dolore per 3 turni di combattimento.
+    10: Bernoccolo | Sbatti la testa nel caos del combattimento, subendo un livello della condizione Stordimento per la prossima ora.
+    11: Ferita autoinflitta| Subisci un colpo i cui PImp si determinano usando la tua stessa arma, compreso il bonus dato dall’attributo primario. Se sei disarmato, subisci 1D6 PImp.
+    12: Grave ferita autoinflitta | Subisci un colpo i cui PImp si determinano usando la tua stessa arma, compreso il bonus dato dall’attributo primario, e raddoppiando il risultato. Se sei disarmato, subisci 2D6 PImp.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 234
+
+- id: OR_21
+  name: "Fallimenti critici di attacco a distanza"
+  description: |
+    Anziché subire semplicemente 1D6+2 PFer nel caso di un fallimento critico, puoi usare la seguente tabella per determinare le conseguenze.
+
+    Risultato (2D6) | Conseguenze
+    :-- | :--
+    2: Arma distrutta| L’arma è irreparabilmente distrutta. Se l’arma è indistruttibile, leggi il risultato 5.
+    3: Arma seriamente danneggiata | L’arma non potrà più essere utilizzata prima di essere riparata. Se l’arma è indistruttibile, leggi il risultato 5.
+    4: Arma danneggiata | L’arma è danneggiata. Tutte le prove su Attacco e Parata subiscono una penalità di 4 finché l’arma non viene riparata. Se l’arma è indistruttibile, leggi il risultato 5.
+    5: Arma perduta | L’arma cade a terra (leggi il **Regolamento** a pag. **239**).
+    6: Fuoco amico | L’attacco colpisce malavvertitamente un amico o una persona non coinvolta nel combattimento. Se non ci sono bersagli possibili nei dintorni, leggi il risultato 11.
+    7: Ops | Il proiettile colpisce un oggetto in maniera catastrofica (un’insegna viene staccata, una finestra viene rotta, ecc…).
+    8: Stiratura | Soffri di mal di schiena e stiramenti muscolari (un livello di Dolore) per i prossimi 3 turni di combattimento
+    9: Corda sfilata/Arma impugnata male/Arma inceppata | Necessiti dei prossimi 2 turni di combattimento per fare in modo che l’arma sia nuovamente pronta per essere usata.
+    10: Troppo concentrato | Rimani assorto mentre prendi la mira o prepari l’arma. Fino alla prossima azione non puoi eseguire azioni di difesa.
+    11: Ferita autoinflitta | Subisci un colpo i cui PImp si determinano usando la tua stessa arma, compreso il bonus dato dall’attributo primario. Se sei disarmato, subisci 1D6 PImp.
+    12: Grave ferita autoinflitta | Subisci un colpo i cui PImp si determinano usando la tua stessa arma, compreso il bonus dato dall’attributo primario, e raddoppiando il risultato. Se sei disarmato, subisci 2D6 PImp.
+
+    Nota: munizioni come frecce, dardi e proiettili, in caso di fallimento critico, si considerano generalmente come distrutti, eccetto con i risultati 8, 9 e 10.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 243
+
+- id: OR_22
+  name: "Fallimenti critici di difesa a distanza"
+  description: |
+    Anziché subire semplicemente 1D6+2 PFer nel caso di un fallimento critico, puoi usare la seguente tabella per determinare le conseguenze. Se il combattente sta cercando di schivare e ottieni in risultato minore di 7, aggiungi 5 al risultato (questo evita i risultati che riguardano le armi).
+
+    Risultato (2D6) | Conseguenze
+    :-- | :--
+    2: Scudo distrutto | Lo scudo è irreparabilmente distrutto. Se lo scudo è indistruttibile, leggi il risultato 5.
+    3: Scudo seriamente danneggiato| Lo scudo non potrà più essere utilizzato prima di essere riparato. Se lo scudo è indistruttibile, leggi il risultato 5.
+    4: Scudo danneggiato | Lo scudo è danneggiato. Tutte le prove su Attacco e Parata subiscono una penalità di 2 finché lo scudo non viene riparato. Se lo scudo è indistruttibile, leggi il risultato 5.
+    5: Scudo perduto | Lo scudo cade a terra (leggi il **Regolamento** a pag. **239**).
+    6: Scudo incastrato | Lo scudo è rimasto incastrato tra le fronde, in una porta, tra dei mobili o in un altro posto del genere. Liberarlo richiede 1 azione e una prova su Prova di forza (Trascinare e spingere) con una penalità di 1.
+    7: Caduta | Fai una prova su Controllo del corpo (Equilibrio) con una penalità di 2 o cadi a terra e ricevi lo stato di Atterrato (leggi il **Regolamento** a pag. **34**).
+    8: Passo falso | Inciampi e subisci una penalità di 2 sulla tua prossima azione.
+    9: Caviglia slogata | Subisci un livello della condizione Dolore per 3 turni di combattimento.
+    10: Bernoccolo | Sbatti la testa nel caos del combattimento, subendo un livello della condizione Stordimento per la prossima ora.
+    11: Ferita autoinflitta | Subisci un colpo i cui PImp si determinano usando la tua arma principale, compreso il bonus dato dall’attributo primario. Se non hai un’arma, subisci 1D6 PImp.
+    12: Grave ferita autoinflitta | Subisci un colpo i cui PImp si determinano usando la tua arma principale, compreso il bonus dato dall’attributo primario, e raddoppiando il risultato. Se non hai un’arma, subisci 2D6 PImp.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 244
+
+- id: OR_23
+  name: "Possibile riutilizzo di munizioni per armi a distanza"
+  description: |
+    Un proiettile che ha colpito il suo bersaglio può essere potenzialmente recuperato. Fai un tiro di 1D6 per determinarne lo stato:
+
+    - Le frecce possono essere riutilizzate con un risultato di 1 con 1D6.
+    - Dardi e altri proiettili possono essere riutilizzati con un risultato di 1 o 2 con 1D6.
+
+    Se il tiro non è andato a segno, il proiettile viene generalmente considerato perso.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 246
+
+- id: OR_24
+  name: "Prove per aspetto magico"
+  description: |
+    Come le prove di abilità, anche le prove magiche per gli incantesimi si basano su tre attributi. Ma anziché memorizzare od annotare tutti questi attributi, puoi fare una prova per aspetto magico che usa gli attributi associati all’aspetto di un incantesimo, similmente alle prove di abilità di gruppo (leggi il **Regolamento** a pag. **184**). La seguente tabella elenca ogni attributo associato all’aspetto, che userai per questo tipo di prove.
+
+    Questa regola opzionale rende il gioco un po’ più semplice.
+
+    Aspetto | Prova
+    :-- | :--
+    Anti-magia | COR/ACU/CAR
+    Chiaroveggenza | COR/ACU/INT
+    Condizionamento | COR/INT/CAR
+    Demoni | COR/INT/CAR
+    Elementi | COR/ACU/CAR
+    Illusionismo | ACU/INT/CAR
+    Oggetti | ACU/INT/DES
+    Sfere | COR/CAR/COS
+    Taumaturgia | ACU/INT/DES
+    Telecinesi | ACU/DES/FOR
+    Trasmutazione | ACU/INT/COS
+  src:
+    - id: REG001
+      firstPage: 252
+
+- id: OR_25
+  name: "Karma limitato"
+  description: |
+    Diversamente dalla magia, che è una fonte inesauribile, sono gli dèi a distribuire ai loro iniziati l’energia karmica, a loro totale discrezione.
+
+    Gli dèi possono essere misericordiosi e decidere di non negare PK agli iniziati che abbiano commesso piccoli errori o infranto le regole della chiesa ma a volte, in casi di gravi violazioni, un dio può bloccare la rigenerazione di PK del colpevole come punizione. Finché il dio non sarà soddisfatto, l’iniziato non potrà recuperare i suoi Punti Karma.
+
+    Il narratore decide se un iniziato punito in tal modo possa riconquistare la fiducia del dio con una penitenza. La redenzione dipenderà dalle azioni dell’iniziato, dal crimine commesso e dalle circostanze.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 306
+
+- id: OR_26
+  name: "Nessun fallimento critico per le liturgie"
+  description: |
+    In passato, il flusso di energia karmica è sempre stato costante ed affidabile, regolato dall’eterno ordine degli dèi. Oggigiorno invece è più difficile incanalare il karma. È dunque possibile che i mortali soffrano di effetti caotici (vale a dire, fallimenti critici) quando attingono alle forze karmiche. Alcune chiese e culti danno la colpa di ciò ad un recente evento di proporzioni cosmiche, noto come Pioggia Celeste, la cui origine non è ancora stata studiata e compresa appieno.
+
+    Il gruppo di gioco può decidere se usare i fallimenti critici per le liturgie o non ammetterli (optando a tutti gli effetti per un rassicurante ed eterno ordine divino).
+
+    Optare per i fallimenti critici per le liturgie rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 311
+
+- id: OR_27
+  name: "In missione per conto proprio"
+  description: |
+    Come narratore, puoi far in modo che il comportamento di un iniziato influenzi le sue prove liturgiche. Quando promuove gli ideali della propria chiesa o segue i dettami della propria divinità, potrà ottenere un bonus di 1 sulle prove. D’altro canto, nel caso dovesse violare il codice morale divino o agire in modo discutibile, potrebbe subire una penalità fino a -5.
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 312
+
+- id: OR_28
+  name: "Rigenerazione debole"
+  description: |
+    La magia che pervade l’aria di Dere dona ai suoi abitanti una guarigione particolarmente veloce. Anche le ferite più gravi e le ossa rotte guariscono in tempi incredibilmente brevi. Sulla Terra, un umano con due gambe rotte sarebbe costretto a letto per moltissimo tempo, mentre un contadino di Aventuria nelle stesse condizioni riesce a tornare al suo lavoro nei campi in tempi decisamente più rapidi.
+
+    Se preferisci un tocco di realismo in più per il tuo gioco, puoi però eliminare tutti i bonus sulla rigenerazione dei PV e fare in modo che gli abitanti di Dere possano rigenerare solo 1D3 PV durante ciascuna fase di rigenerazione.
+
+    Questa regola opzionale non influenza la complessità del gioco.
+  src:
+    - id: REG001
+      firstPage: 340
+
+- id: OR_29
+  name: "Distanza esatta"
+  description: |
+    Normalmente, un salto richiede una prova semplice su Controllo del corpo. Se è necessario determinare con esattezza la distanza che un personaggio percorrerà grazie ad un salto in corsa, usa il seguente calcolo.
+
+    La distanza di base del salto è un numero di passi pari a metà del Mov meno Impiccio (arrotondando per difetto). L’agilità migliora la lunghezza di un salto in lungo in corsa: ogni punto di Agilità oltre il 10 aggiunge altre 20 mezzedita. Infine, una prova su Controllo del corpo (Saltare) aumenta la distanza di 20 mezzedita per ogni Punto Abilità (PAb) conservato. Riassumento: Distanza in passi = Mov / 2 + (0,2 × punti Agilità sopra 10) + (0,2 × PAb)
+
+    Nel caso sia importante sapere quanto in alto un eroe può saltare (per arrivare in cima ad una parete, per esempio), usa il calcolo che segue.
+
+    L’altezza base di un salto in alto in corsa è un numero di passi pari al Mov diviso per 10. L’agilità migliora l’altezza raggiunta: ogni punto di Agilità oltre il 10 aggiunge altre 10 mezzedita. Infine, una prova su Controllo del corpo (Saltare) aumenta l’altezza di 10 mezzedita per ogni Punto Abilità (PAb). Riassumendo: Altezza in passi = Mov × 0,1 + (0,1 × punti Agilità sopra 10) + (0,1 × PAb)
+
+    Questa regola opzionale rende il gioco un po’ più complesso.
+  src:
+    - id: REG001
+      firstPage: 350

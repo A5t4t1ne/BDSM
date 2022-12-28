@@ -1,0 +1,470 @@
+- id: SPELL_208
+  name: "Dance Of Aggression"
+  nameByTradition:
+    - id: 1
+      name: "Korsana"
+    - id: 2
+      name: "Kor’s Stomp"
+  effect: |
+    This dance sows discord and wrath among its viewers. All audience members with SPI 2 or lower receive the *Negative Trait (Quick Temper)*, if they do not already have it. While the dance continues, they must also make a successful *Willpower (Resist Intimidation)* check with a QL/2 penalty or they get into an argument with another audience member. Audience members that already possess the* Negative Trait (Quick Temper)* receive an additional penalty of -1 to their check. Arguers do not automatically resort to physical violence. The GM decides the exact repercussions, depending on the situation and the *Willpower* check results.<br>
+    The effect lasts for 30 minutes after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "12 AE"
+  aeCostShort: "12 AE"
+  src:
+    - id: US25004E
+      firstPage: 58
+
+- id: SPELL_209
+  name: "Dance Of Agility"
+  nameByTradition:
+    - id: 3
+      name: "Rastullah’s Breeze"
+  effect: |
+    The dancer receives a bonus of QL/2 to *MOV* and *Dodge*. The effect lasts for one hour after the dance ends.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 58
+
+- id: SPELL_210
+  name: "Dance Of Images"
+  nameByTradition:
+    - id: 1
+      name: "El Vanidad"
+    - id: 2
+      name: "Phex’s Jewelry"
+    - id: 3
+      name: "Shimja’s Rapture"
+    - id: 4
+      name: "Ecstasy of Images"
+  effect: |
+    Dictate a quick succession of images and colors that audience members see in their minds. The images cannot tell a complex story but can create brief scenes. The greater the QL, the more vivid and impressive the images become.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  src:
+    - id: US25004E
+      firstPage: 60
+
+- id: SPELL_211
+  name: "Dance Of Salvation"
+  nameByTradition:
+    - id: 1
+      name: "Zarparda"
+    - id: 2
+      name: "Hesinde’s Power"
+    - id: 3
+      name: "Marhibo’s Hand"
+    - id: 4
+      name: "Yasmina’s Salvation"
+  effect: |
+    Attempt to free one audience member from *Influence* magic, including the following arcane spellworks or magical actions.
+
+    - A spellwork with the property *Influence*
+    - A witch's curse
+    - A dominion ritual
+
+    To break the arcane spellwork or counter the magical action's effect, your dance must achieve equal or greater QL.<br>
+    You must dance for 30 minutes.<br>
+    The effect persists after the dance ends, even if you leave the dance radius.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "10 AE"
+  aeCostShort: "10 AE"
+  src:
+    - id: US25004E
+      firstPage: 60
+
+- id: SPELL_212
+  name: "Dance Of Encouragement"
+  nameByTradition:
+    - id: 1
+      name: "Pavoneo"
+    - id: 2
+      name: "Rondra’s Courage"
+    - id: 3
+      name: "Rhondara’s Challenge"
+    - id: 4
+      name: "Dshamilla’s Encouragement"
+  effect: |
+    Select up to six audience members. Each becomes more confident and brave. They receive different bonuses, depending on QL. Bonuses are cumulative; for example, at QL 3 each target receives a total of 2 COU and 1 SPI.<br>
+    The effect lasts for 30 minutes after the dance ends.
+
+    - **QL 1**: 1 COU
+    - **QL 2**: 1 SPI
+    - **QL 3**: 1 COU
+    - **QL 4**: 1 TOU
+    - **QL 5**: 1 COU
+    - **QL 6**: 1 AT
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  src:
+    - id: US25004E
+      firstPage: 59
+
+- id: SPELL_213
+  name: "Dance Of Healing"
+  nameByTradition:
+    - id: 2
+      name: "Peraine’s Love"
+    - id: 4
+      name: "Suleika’s Ardor"
+  effect: |
+    Select up to QL/2 audience members within range. Each regains 1D6 LP when the dance ends (roll separately for each target). A person can only profit from this dance's effect once per day.<br>
+    The effect stays active after the dance finishes and the dancer leaves the area.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 59
+
+- id: SPELL_214
+  name: "Dance Of Love"
+  nameByTradition:
+    - id: 1
+      name: "Rahjarra"
+    - id: 3
+      name: "Khabla’s Temptation"
+    - id: 4
+      name: "Love’s Dance"
+  effect: |
+    All audience members feel great affinity towards you during the dance. Select QL/2 audience members with SPI 2 or lower who also have a general interest in your race and gender; The targets are head over heels in love with you. They are inflamed in passion to the dancer and will offer themselves to you, if you so wish. Targets receive a QL/2 penalty to *Willpower (Resist Seduction)* checks. This dance does not affect audience members who live an ascetic way of life.<br>
+    The effect persists for three hours after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 60
+
+- id: SPELL_215
+  name: "Dance Of Soothing"
+  nameByTradition:
+    - id: 3
+      name: "Perhina’s Blessing"
+  effect: |
+    Neutralize a disease or poison affecting one audience member. Your dance heals and removes corresponding *Diseased* or *Poisoned* levels equal to the QL you achieve. Each audience member can benefit from this effect only once per day.<br>
+    The effect persists after the dance ends, even if you leave the dance radius.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "*Poison* or *Disease* level x 3 in AE"
+  aeCostShort: "PC/DC x 3 AE"
+  src:
+    - id: US25004E
+      firstPage: 61
+
+- id: SPELL_216
+  name: "Dance Of Magic Community"
+  nameByTradition:
+    - id: 4
+      name: "Wizards’ Communion"
+  effect: |
+    Select up to six willing spellcasters in the audience. These spellcasters may draw from each other's AE pools for up to one hour after the dance ends. However, each spellcaster must consent to such use. The dance does not affect the dancer.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "10 AE"
+  aeCostShort: "10 AE"
+  src:
+    - id: US25004E
+      firstPage: 60
+
+- id: SPELL_217
+  name: "Dance Of Deception"
+  nameByTradition:
+    - id: 1
+      name: "Selinata"
+  effect: |
+    Select up to six audience members with SPI 2 or lower. They become easy to manipulate and deceive. Their *Empathy* checks receive a penalty of -1 and *FastTalk* checks against them receive a bonus of 2.<br>
+    The effect lasts QLx10 minutes after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "10 AE"
+  aeCostShort: "10 AE"
+  src:
+    - id: US25004E
+      firstPage: 58
+
+- id: SPELL_218
+  name: "Dance Of Dreams"
+  nameByTradition:
+    - id: 1
+      name: "Madaya"
+    - id: 2
+      name: "Bishdariel’s Dream"
+  effect: |
+    Select one audience member. The dancer knows when that person next falls asleep and decides what they dream. The dancer cannot harm the target in any way by doing so and does not enter the dream personally. But the dancer can select anything from nightmares to pleasant dreams.<br>
+    The target does not need to remain within a certain range after the dancer's performance; the effect still takes place. This dance can affect a target who is already dreaming, the sleeping person naturally does not have the see the dancer, but still needs to be in range. In this case the dancer gains a bonus of 1 to the *dance* check. The greater the QL, the more intense the target's dream.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "6 AE"
+  aeCostShort: "6 AE"
+  src:
+    - id: US25004E
+      firstPage: 59
+
+- id: SPELL_219
+  name: "Dance Of Sanctity"
+  nameByTradition:
+    - id: 3
+      name: "Dance for Rastullah"
+  effect: |
+    The dancer's skin gains magical protection like that granted by a *Gardianum spell* (see **Core Rules** Page **291**), except it protects only the body. This protection has a shield strength of QL x 2 and lasts until the shield strength falls to 0 or less, or 30 minutes pass - whichever happens first.<br>
+    The effect persists after the dance ends, even if the dancer leaves the dance radius.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "6 AE"
+  aeCostShort: "6 AE"
+  src:
+    - id: US25004E
+      firstPage: 61
+
+- id: SPELL_220
+  name: "Dance Of Invulnerability"
+  nameByTradition:
+    - id: 3
+      name: "Rastullah’s Protection"
+    - id: 4
+      name: "War Dance"
+  effect: |
+    This dance covers the caster's skin with magical protection like that granted by a *Gardianum spell* (see **Core Rules** Page **291**), except it absorbs DP from weapons instead of DP caused by AE and only protects the body. The protection has a shield strength of QL x 2 and expires when the shield strength falls to 0 or lower, or after 30 minutes pass - whichever happens first.<br>
+    The effect persists after the dance ends, even if the dancer leaves the area.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 60
+
+- id: SPELL_221
+  name: "Dance Of Protection"
+  nameByTradition:
+    - id: 4
+      name: "Dimiona’s Protection"
+  effect: |
+    Select up to six targets (including yourself). Each receives a bonus of 1 to all defenses.<br>
+    The effect persists for QL minutes after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 60
+
+- id: SPELL_222
+  name: "Dance Of Confusion"
+  nameByTradition:
+    - id: 1
+      name: "El Daffar"
+    - id: 2
+      name: "Mind Relaxation"
+  effect: |
+    Select up to six audience members with SPI 2 or lower. Each receives two levels of *Confusion*.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "10 AE"
+  aeCostShort: "10 AE"
+  src:
+    - id: US25004E
+      firstPage: 58
+
+- id: SPELL_223
+  name: "Dance Of Vigilance"
+  nameByTradition:
+    - id: 2
+      name: "Praios’ Protection"
+  effect: |
+    Create a zone with a 20-yard radius. People with SPI 2 or lower have difficulty entering the zone and you notice immediately if they do. Entering the zone requires a successful *Willpower (Face Threats)* check with a QL/2 penalty, and people can attempt such a check only once per hour. The caster knows when Intelligent Creatures enter the zone, but does not know specifics (such as whom, or how many).<br>
+    The effect persists for 12 hours after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "12 AE"
+  aeCostShort: "12 AE"
+  src:
+    - id: US25004E
+      firstPage: 61
+
+- id: SPELL_224
+  name: "Dance Of Truth"
+  nameByTradition:
+    - id: 3
+      name: "Heshinja’s Gaze"
+    - id: 4
+      name: "Hasnabah’s Truth"
+  effect: |
+    Read the current thoughts of up to QL/2 audience members. This does not allow a targeted search through their memories. Affected audience members notice that something foreign is reading their thoughts with a *Perception* check with a QL/2 penalty. If successful, they can send out deceiving information or simply fill their thoughts with useless clutter, interior monologue, or singing by making a *Willpower* check with a penalty of half the QL from your dance check.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "12 AE"
+  aeCostShort: "12 AE"
+  src:
+    - id: US25004E
+      firstPage: 61
+
+- id: SPELL_225
+  name: "Dance Of Wisdom"
+  nameByTradition:
+    - id: 3
+      name: "Orhima’s Dance"
+  effect: |
+    Select up to six audience members. Each becomes more sagacious and cunning. They receive different bonuses, depending on your QL. The bonuses are cumulative; for example, at QL 3, each target gains a total of 2 SGC and 1SPI. The effect persists for 30 minutes after the dance ends.
+
+    - **QL 1**: 1 SGC
+    - **QL 2**: 1 SPI
+    - **QL 3**: 1 SGC
+    - **QL 4**: 1 SPI
+    - **QL 5**: 1 SGC
+    - **QL 6**: 1 PA
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  src:
+    - id: US25004E
+      firstPage: 61
+
+- id: SPELL_226
+  name: "Dance Of Desire"
+  nameByTradition:
+    - id: 2
+      name: "Rahja’s Desire"
+  effect: |
+    While you dance, each audience member with SPI 2 or lower daydreams, feels desires pleasing unto Rahja, and looks for like-minded people. They receive a bonus of 1 to their *Seduction* checks and a penalty of -2 to their *Willpower (Resist Seduction)* checks. You must dance for at least 15 minutes.<br>
+    The effect lasts QL x 30 minutes after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 58
+
+- id: SPELL_227
+  name: "Dance Of Bloodlust"
+  nameByTradition:
+    - id: 1
+      name: "Odionyo"
+  effect: |
+    Select up to six audience members with SPI 2 or lower. Each receives the state of *Bloodlust* for QLx2 CR. After they enter this state, they attack other audience members and then move on to other people in their vicinity. You are the only person they do not attack.<br>
+    The effect lasts until the *bloodlust* ends
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  src:
+    - id: US25004E
+      firstPage: 58
+
+- id: SPELL_228
+  name: "Dance Of Fire"
+  nameByTradition:
+    - id: 1
+      name: "Angaranya"
+  effect: |
+    Ignite up to QL fires within a 16-yard radius. Only dry straw, grass, wood, or other easily flammable materials can ignite. The dance does not affect items or clothes currently worn on the body. Each fire starts as the size of a candle flame and grows and spreads like a normal fire
+  duration: "Short, One-Time"
+  durationShort: "Short"
+  aeCost: "2 AE per fire"
+  aeCostShort: "2 AE/fire"
+  src:
+    - id: US25004E
+      firstPage: 59
+
+- id: SPELL_229
+  name: "Dance Of Commerce"
+  nameByTradition:
+    - id: 1
+      name: "Phesoya"
+    - id: 3
+      name: "Rastullah’s Foresight"
+  effect: |
+    Select up to six audience members with SPI 2 or lower. Each receives a QL/2 bonus or penalty to their *Commerce (Haggling)* checks. You decide which audience members receive bonuses and which receive penalties.<br>
+    The effect continues for QL x 3 minutes after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 58
+
+- id: SPELL_230
+  name: "Dance Of Hunting Success"
+  nameByTradition:
+    - id: 2
+      name: "Firun’s Hunt"
+  effect: |
+    Select up to six willing audience members. Each receives a bonus of 1 to *Animal Lore (Wild Animals)* checks when hunting. The targets do not need to remain within a certain range after your performance.<br>
+    The effect lasts QL hours after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "6 AE"
+  aeCostShort: "6 AE"
+  src:
+    - id: US25004E
+      firstPage: 59
+
+- id: SPELL_231
+  name: "Dance Of Hunting Failure"
+  nameByTradition:
+    - id: 2
+      name: "The Animal’s Victory"
+  effect: |
+    Select up to six audience members. Each receives a penalty of -2 to *Animal Lore (Wild Animals)* checks when hunting. After your performance, the targets do not need to remain within a certain range for the effect to take place.<br>
+    The effect lasts QL hours after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 59
+
+- id: SPELL_232
+  name: "Dance Of Defiance"
+  nameByTradition:
+    - id: 4
+      name: "Karima’s Defiance"
+  effect: |
+    The dancer's SPI increases by QL/2.<br>
+    The effect lasts for 30 minutes after the dance ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 58
+
+- id: SPELL_233
+  name: "Dance Without End"
+  nameByTradition:
+    - id: 1
+      name: "Suenyo"
+    - id: 2
+      name: "Satinav’s Gift"
+    - id: 3
+      name: "Nahema’s Dream"
+    - id: 4
+      name: "Endless Dance"
+  effect: |
+    After you dance for 20 minutes, all audience members with SPI 2 or lower become spellbound by your performance and believe the dance continues for QL hours longer, even if you leave the area. While under the effects of your dance, they receive the state *Immobilized*. An affected person who receives at least 1 DP (ignoring PRO) recovers from the spell's effects.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "12 AE"
+  aeCostShort: "12 AE"
+  src:
+    - id: US25004E
+      firstPage: 61

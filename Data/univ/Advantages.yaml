@@ -1,0 +1,1552 @@
+- id: ADV_0
+# name: Custom Advantage
+  cost: 0
+  gr: 1
+
+- id: ADV_1
+# name: Adel
+  cost: 5
+  levels: 3
+  max: 1
+  gr: 1
+
+- id: ADV_2
+# name: Altersresistenz
+  cost: 5
+  max: 1
+  hasToBeCommonOrSuggestedByRCP: true
+  gr: 1
+
+- id: ADV_3
+# name: Angenehmer Geruch
+  cost: 6
+  max: 1
+  gr: 1
+
+- id: ADV_4
+# name: Begabung
+  cost:
+    - 6
+    - 12
+    - 18
+    - 24
+  max: 3
+  selectOptionCategories:
+    - category: SKILLS
+    - category: SPELLS
+    - category: LITURGICAL_CHANTS
+  activatablePrerequisites:
+    - id: DISADV_48
+      active: false
+      sid: sel
+  gr: 1
+
+- id: ADV_5
+# name: Beidhändig
+  cost: 15
+  max: 1
+  gr: 1
+
+- id: ADV_6
+# name: Dunkelsicht
+  cost: 10
+  levels: 2
+  max: 1
+  hasToBeCommonOrSuggestedByRCP: true
+  activatablePrerequisites:
+    - id: DISADV_25
+      active: false
+  gr: 1
+
+- id: ADV_7
+# name: Eisenaffine Aura
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: ADV_8
+# name: Entfernungssinn
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_5
+      active: false
+    - id: DISADV_7
+      active: false
+      sid: 1
+    - id: DISADV_11
+      active: false
+    - id: DISADV_51
+      active: false
+      sid: 2
+  gr: 1
+
+- id: ADV_9
+# name: Flink
+  cost: 8
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_4
+      active: false
+    - id: DISADV_12
+      active: false
+    - id: DISADV_51
+      active: false
+      sid: 3
+  gr: 1
+
+- id: ADV_10
+# name: Fuchssinn
+  cost: 15
+  max: 1
+  gr: 1
+
+- id: ADV_11
+# name: Geborener Redner
+  cost: 4
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_46
+      active: false
+  gr: 1
+
+- id: ADV_12
+# name: Geweihter
+  cost: 25
+  max: 1
+  gr: 1
+
+- id: ADV_13
+# name: Giftresistenz
+  cost: 10
+  levels: 2
+  max: 1
+  gr: 1
+
+- id: ADV_14
+# name: Glück
+  cost: 30
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_31
+      active: false
+  gr: 1
+
+- id: ADV_15
+# name: Gutaussehend
+  cost: 20
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_14
+      active: false
+  gr: 1
+
+- id: ADV_16
+# name: Herausragende Fertigkeit
+  cost:
+    - 2
+    - 4
+    - 6
+    - 8
+  max: 4
+  selectOptionCategories:
+    - category: SKILLS
+    - category: SPELLS
+    - category: LITURGICAL_CHANTS
+  activatablePrerequisites:
+    - id: DISADV_48
+      active: false
+      sid: sel
+  gr: 1
+
+- id: ADV_17
+# name: Herausragende Kampftechnik
+  cost:
+    - 4
+    - 8
+    - 12
+    - 16
+  max: 2
+  selectOptionCategories:
+    - category: COMBAT_TECHNIQUES
+  gr: 1
+
+- id: ADV_18
+# name: Herausragender Sinn
+  selectOptions:
+    - id: 1
+      # name: Sicht
+      cost: 12
+      activatablePrerequisites:
+        - id: DISADV_5
+          active: false
+        - id: DISADV_7
+          active: false
+          sid: 1
+    - id: 2
+      # name: Gehör
+      cost: 12
+      activatablePrerequisites:
+        - id: DISADV_7
+          active: false
+          sid: 2
+        - id: DISADV_47
+          active: false
+    - id: 3
+      # name: Geruch & Geschmack
+      cost: 6
+      activatablePrerequisites:
+        - id: DISADV_7
+          active: false
+          sid: 3
+    - id: 4
+      # name: Tastsinn
+      cost: 2
+      activatablePrerequisites:
+        - id: DISADV_7
+          active: false
+          sid: 4
+  gr: 1
+
+- id: ADV_22
+# name: Hitzeresistenz
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_15
+      active: false
+  gr: 1
+
+- id: ADV_23
+# name: Hohe Astralkraft
+  cost: 6
+  levels: 7
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+    - id: DISADV_26
+      active: false
+  gr: 2
+
+- id: ADV_24
+# name: Hohe Karmalkraft
+  cost: 6
+  levels: 7
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: true
+    - id: DISADV_27
+      active: false
+  gr: 3
+
+- id: ADV_25
+# name: Hohe Lebenskraft
+  cost: 6
+  levels: 7
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_28
+      active: false
+  gr: 1
+
+- id: ADV_26
+# name: Hohe Seelenkraft
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_29
+      active: false
+  gr: 1
+
+- id: ADV_27
+# name: Hohe Zähigkeit
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_30
+      active: false
+  gr: 1
+
+- id: ADV_28
+# name: Immunität gegen (Gift)
+  selectOptions:
+    - id: 1
+      # name: Arax
+      cost: 2
+    - id: 2
+      # name: Kelmon
+      cost: 1
+    - id: 3
+      # name: Tulmadron
+      cost: 2
+    - id: 4
+      # name: Wurara
+      cost: 1
+    - id: 5
+      # name: Kukris
+      cost: 2
+    - id: 6
+      # name: Mandragora
+      cost: 1
+    - id: 7
+      # name: Omrais
+      cost: 2
+    - id: 8
+      # name: Sunsura
+      cost: 2
+    - id: 9
+      # name: Höhlenspinnengift
+      cost: 2
+    - id: 10
+      # name: Krötengift
+      cost: 2
+    - id: 11
+      # name: Rattenpilzgift
+      cost: 2
+    - id: 12
+      # name: Ghulgift
+      cost: 3
+    - id: 13
+      # name: Mantikorgift
+      cost: 3
+    - id: 14
+      # name: Morfugift
+      cost: 1
+    - id: 15
+      # name: Brabacudagift
+      cost: 1
+    - id: 16
+      # name: Gelbschwanzskorpiongift
+      cost: 2
+    - id: 17
+      # name: Kvillottergift
+      cost: 2
+    - id: 18
+      # name: Vogelspinnengift
+      cost: 1
+    - id: 19
+      # name: Seilschlangengift
+      cost: 2
+    - id: 20
+      # name: Speikobragift
+      cost: 4
+    - id: 21
+      # name: Alkohol
+      cost: 2
+    - id: 22
+      # name: Angstgift
+      cost: 3
+    - id: 23
+      # name: Arachnae
+      cost: 1
+    - id: 24
+      # name: Betäubungsgift
+      cost: 3
+    - id: 25
+      # name: Boabungaha
+      cost: 3
+    - id: 26
+      # name: Charyb‘Ytt‘ Traum
+      cost: 2
+    - id: 27
+      # name: Drachenspeichel
+      cost: 3
+    - id: 28
+      # name: Feuerzunge
+      cost: 2
+    - id: 29
+      # name: Gonede
+      cost: 2
+    - id: 30
+      # name: Halbgift
+      cost: 3
+    - id: 31
+      # name: Hollenbeerenbrechmittel
+      cost: 2
+    - id: 32
+      # name: Höhlenbovistgift
+      cost: 1
+    - id: 33
+      # name: Marbos Ruhe
+      cost: 3
+    - id: 34
+      # name: Margolaschabführmittel
+      cost: 3
+    - id: 35
+      # name: Purpurblitz
+      cost: 3
+    - id: 36
+      # name: Schattenneblergift
+      cost: 2
+    - id: 37
+      # name: Schwarzer Lotus
+      cost: 2
+    - id: 38
+      # name: Tinzal
+      cost: 2
+    - id: 39
+      # name: Urkaritgift
+      cost: 2
+    - id: 40
+      # name: Visarnetgift
+      cost: 2
+  gr: 1
+
+- id: ADV_29
+# name: Immunität gegen (Krankheit)
+  selectOptions:
+    - id: 1
+      # name: Flinker Difar
+      cost: 1
+    - id: 2
+      # name: Lutanas
+      cost: 2
+    - id: 3
+      # name: Rascher Wahn
+      cost: 3
+    - id: 4
+      # name: Sumpffieber/Brabaker Schweiß
+      cost: 2
+    - id: 5
+      # name: Zorganpocken
+      cost: 3
+    - id: 6
+      # name: Aussatz
+      cost: 3
+    - id: 7
+      # name: Blaue Keuche
+      cost: 3
+    - id: 8
+      # name: Blutiger Rotz
+      cost: 2
+    - id: 9
+      # name: Dumpfschädel
+      cost: 1
+    - id: 10
+      # name: Efferd-/Kerkersieche
+      cost: 1
+    - id: 11
+      # name: Gilbe/Schlachtfeldfieber
+      cost: 1
+    - id: 12
+      # name: Jahresfieber
+      cost: 2
+    - id: 13
+      # name: Schwarze Wut
+      cost: 2
+    - id: 14
+      # name: Tollwut
+      cost: 3
+    - id: 15
+      # name: Wundfieber
+      cost: 3
+    - id: 16
+      # name: Augenpest
+      cost: 3
+    - id: 17
+      # name: Paralyse/Basiliskenblick
+      cost: 2
+    - id: 18
+      # name: Blutkrächzen
+      cost: 2
+    - id: 19
+      # name: Grasse
+      cost: 2
+    - id: 20
+      # name: Gänsepusteln
+      cost: 1
+    - id: 21
+      # name: Herbstpocken
+      cost: 2
+    - id: 22
+      # name: Horasierkrankheit
+      cost: 3
+    - id: 23
+      # name: Karmesin
+      cost: 2
+    - id: 24
+      # name: Leichenblässe
+      cost: 2
+    - id: 25
+      # name: Lykanthropie
+      cost: 3
+    - id: 26
+      # name: Marder-/Orkenkrätze
+      cost: 2
+    - id: 27
+      # name: Rotbacke
+      cost: 1
+    - id: 28
+      # name: Schlafkrankheit
+      cost: 3
+    - id: 29
+      # name: Triefnase
+      cost: 1
+    - id: 30
+      # name: Bleiche Sieche
+      cost: 3
+    - id: 31
+      # name: Reißwasserseuche
+      cost: 3
+  gr: 1
+
+- id: ADV_30
+# name: Kälteresistenz
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_16
+      active: false
+  gr: 1
+
+- id: ADV_31
+# name: Krankheitsresistenz
+  cost: 10
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_21
+      active: false
+  gr: 1
+
+- id: ADV_32
+# name: Magische Einstimmung
+  cost: 40
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: ADV_33
+# name: Mystiker
+  cost: 20
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: true
+    - id: ADV_35
+      active: false
+  gr: 3
+
+- id: ADV_34
+# name: Nichtschläfer
+  cost: 8
+  max: 1
+  hasToBeCommonOrSuggestedByRCP: true
+  gr: 1
+
+- id: ADV_35
+# name: Pragmatiker
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: true
+    - id: ADV_33
+      active: false
+  gr: 3
+
+- id: ADV_36
+# name: Reich
+  cost: 1
+  levels: 10
+  max: 1
+  gr: 1
+
+- id: ADV_37
+# name: Richtungssinn
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_48
+      active: false
+      sid: TAL_27
+  gr: 1
+
+- id: ADV_38
+# name: Schlangenmensch
+  cost: 6
+  max: 1
+  gr: 1
+
+- id: ADV_39
+# name: Schwer zu verzaubern
+  cost: 15
+  max: 1
+  hasToBeCommonOrSuggestedByRCP: true
+  gr: 1
+
+- id: ADV_40
+# name: Soziale Anpassungsfähigkeit
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_49
+      active: false
+    - id: DISADV_48
+      active: false
+      sid: gr
+      sid2: 2
+  gr: 1
+
+- id: ADV_41
+# name: Unscheinbar
+  cost: 4
+  max: 1
+  gr: 1
+
+- id: ADV_42
+# name: Verbesserte Regeneration (Astralenergie)
+  cost: 10
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+    - id: DISADV_38
+      active: false
+  gr: 2
+
+- id: ADV_43
+# name: Verbesserte Regeneration (Karmaenergie)
+  cost: 10
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: true
+    - id: DISADV_39
+      active: false
+  gr: 3
+
+- id: ADV_44
+# name: Verbesserte Regeneration (Lebensenergie)
+  cost: 10
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_40
+      active: false
+  gr: 1
+
+- id: ADV_45
+# name: Verhüllte Aura
+  cost: 20
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: ADV_46
+# name: Vertrauenerweckend
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_48
+      active: false
+      sid: gr
+      sid2: 2
+  gr: 1
+
+- id: ADV_47
+# name: Waffenbegabung
+  cost:
+    - 0
+    - 5
+    - 10
+    - 15
+  max: 1
+  selectOptionCategories:
+    - category: COMBAT_TECHNIQUES
+  gr: 1
+
+- id: ADV_48
+# name: Wohlklang
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_46
+      active: false
+  gr: 1
+
+- id: ADV_49
+# name: Zäher Hund
+  cost: 20
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_55
+      active: false
+  gr: 1
+
+- id: ADV_50
+# name: Zauberer
+  cost: 25
+  max: 1
+  gr: 1
+
+- id: ADV_51
+# name: Zeitgefühl
+  cost: 2
+  max: 1
+  gr: 1
+
+- id: ADV_52
+# name: Zweistimmiger Gesang
+  cost: 5
+  max: 1
+  hasToBeCommonOrSuggestedByRCP: true
+  gr: 1
+
+- id: ADV_53
+# name: Zwergennase
+  cost: 8
+  max: 1
+  gr: 1
+
+- id: ADV_54
+# name: Eisern
+  cost: 5
+  max: 1
+  gr: 1
+
+- id: ADV_55
+# name: Hart im nehmen
+  cost: 3
+  max: 1
+  gr: 1
+
+- id: ADV_56
+# name: Affinität zu Dämonen
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+    - id: ADV_57
+      active: false
+  gr: 2
+
+- id: ADV_57
+# name: Affinität zu Elementaren
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+    - id: ADV_56
+      active: false
+  gr: 2
+
+- id: ADV_58
+# name: Große Zauberauswahl
+  cost: 8
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id:
+        - SA_679
+        - SA_1221
+      active: true
+    - id: DISADV_59
+      active: false
+  gr: 2
+
+- id: ADV_59
+# name: Kein Bann des Eisen
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: SA_680
+      active: true
+    - id: ADV_7
+      active: false
+  gr: 2
+
+- id: ADV_60
+# name: Machtvolle Zaubermelodien
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: SA_677
+      active: true
+    - id: DISADV_60
+      active: false
+  gr: 2
+
+- id: ADV_61
+# name: Machtvolle Zaubertänze
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: SA_678
+      active: true
+    - id: DISADV_61
+      active: false
+  gr: 2
+
+- id: ADV_62
+# name: Schutzgeist
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id:
+        - SA_679
+        - SA_680
+      active: true
+  gr: 2
+
+- id: ADV_63
+# name: Weitreichende Zaubermelodien
+  cost: 5
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: SA_677
+      active: true
+    - id: DISADV_62
+      active: false
+  gr: 2
+
+- id: ADV_64
+# name: Weitreichende Zaubertänze
+  cost: 5
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: SA_678
+      active: true
+    - id: DISADV_63
+      active: false
+  gr: 2
+
+- id: ADV_65
+# name: Basiliskentöter
+  cost: 10
+  max: 1
+  gr: 1
+
+- id: ADV_66
+# name: Drachentöter
+  cost: 10
+  max: 1
+  gr: 1
+
+- id: ADV_67
+# name: Feenfreund
+  cost: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_68
+      active: false
+    - id: DISADV_33
+      active: false
+      sid: 7
+  gr: 1
+
+- id: ADV_68
+# name: Hass auf …
+  max: 1
+  selectOptions:
+    - id: 1
+      # name: Häufig
+      cost: 15
+    - id: 2
+      # name: Gelegentlich
+      cost: 10
+    - id: 3
+      # name: Selten
+      cost: 5
+  gr: 1
+
+- id: ADV_69
+# name: Saumagen
+  cost: 2
+  levels: 2
+  max: 1
+  gr: 1
+
+- id: ADV_70
+# name: Tierfreund
+  cost: 10
+  max: 1
+  gr: 1
+
+- id: ADV_71
+# name: Wasserlebewesen
+  cost: 15
+  max: 1
+  hasToBeCommonOrSuggestedByRCP: true
+  gr: 1
+
+- id: ADV_72
+# name: Allerweltsname
+  cost: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_74
+      active: false
+    - id: DISADV_67
+      active: false
+    - id: DISADV_69
+      active: false
+    - id: DISADV_70
+      active: false
+  gr: 1
+
+- id: ADV_73
+# name: Gutes Namensgedächtnis
+  cost: 2
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_68
+      active: false
+  gr: 1
+
+- id: ADV_74
+# name: Heldenhafter Name
+  cost: 8
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_72
+      active: false
+    - id: DISADV_67
+      active: false
+    - id: DISADV_69
+      active: false
+    - id: DISADV_70
+      active: false
+  gr: 1
+
+- id: ADV_75
+# name: Schnell wieder auf den Beinen
+  cost: 2
+  max: 1
+  gr: 1
+
+- id: ADV_76
+# name: Akoluth
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: false
+    - id: DISADV_34
+      active: true
+    - id: DISADV_50
+      active: true
+  gr: 1
+
+- id: ADV_77
+# name: Prediger
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: false
+    - id: ADV_78
+      active: false
+    - id: DISADV_34
+      active: true
+  gr: 1
+
+- id: ADV_78
+# name: Visionär
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: false
+    - id: ADV_77
+      active: false
+    - id: DISADV_34
+      active: true
+  gr: 1
+
+- id: ADV_79
+# name: Zahlreiche Predigten
+  cost: 8
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_77
+      active: true
+    - id: DISADV_72
+      active: false
+  gr: 1
+
+- id: ADV_80
+# name: Zahlreiche Visionen
+  cost: 8
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_78
+      active: true
+    - id: DISADV_73
+      active: false
+  gr: 1
+
+- id: ADV_81
+# name: Feenblut (Blütenfee)
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_82
+      active: false
+    - id: ADV_83
+      active: false
+    - id: ADV_84
+      active: false
+    - id: ADV_124
+      active: false
+    - id: ADV_125
+      active: false
+    - id: ADV_126
+      active: false
+  gr: 1
+
+- id: ADV_82
+# name: Feenblut (Dryade)
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: false
+    - id: ADV_83
+      active: false
+    - id: ADV_84
+      active: false
+    - id: ADV_124
+      active: false
+    - id: ADV_125
+      active: false
+    - id: ADV_126
+      active: false
+  gr: 1
+
+- id: ADV_83
+# name: Feenblut (Großer Eberbiestinger)
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: false
+    - id: ADV_82
+      active: false
+    - id: ADV_84
+      active: false
+    - id: ADV_124
+      active: false
+    - id: ADV_125
+      active: false
+    - id: ADV_126
+      active: false
+  gr: 1
+
+- id: ADV_84
+# name: Feenblut (Nixer)
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: false
+    - id: ADV_82
+      active: false
+    - id: ADV_83
+      active: false
+    - id: ADV_124
+      active: false
+    - id: ADV_125
+      active: false
+    - id: ADV_126
+      active: false
+  gr: 1
+
+- id: ADV_85
+# name: Animalische Kraft
+  cost: 12
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_83
+      active: true
+  gr: 1
+
+- id: ADV_86
+# name: Blumenduft
+  cost: 8
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: true
+  gr: 1
+
+- id: ADV_87
+# name: Dickes Fell
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_83
+      active: true
+  gr: 1
+
+- id: ADV_88
+# name: Einblicke ins Verborgene
+  cost: 8
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: true
+  gr: 1
+
+- id: ADV_89
+# name: Glatte Haut
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_84
+      active: true
+  gr: 1
+
+- id: ADV_90
+# name: Harmonie des Waldes
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_82
+      active: true
+  gr: 1
+
+- id: ADV_91
+# name: Kraft der Bäume
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_82
+      active: true
+  gr: 1
+
+- id: ADV_92
+# name: Leichter Gang
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: true
+  gr: 1
+
+- id: ADV_93
+# name: Seesprache
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_84
+      active: true
+  gr: 1
+
+- id: ADV_94
+# name: Tierische Kampfgefährten
+  cost: 12
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_83
+      active: true
+  gr: 1
+
+- id: ADV_95
+# name: Verführerische Gestalt
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_82
+      active: true
+  gr: 1
+
+- id: ADV_96
+# name: Wasser des Lebens
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_84
+      active: true
+  gr: 1
+
+- id: ADV_97
+# name: Unbeschwertes Zaubern
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: SA_726
+      active: true
+  gr: 2
+
+- id: ADV_98
+# name: Begabte/r Aufreißer/in
+  cost: 5
+  max: 1
+  gr: 1
+
+- id: ADV_99
+# name: Einkommen
+  cost:
+    - 0
+    - 2
+    - 6
+    - 20
+    - 60
+    - 200
+  noMaxAPInfluence: true
+  levels: 6
+  max: 1
+  gr: 1
+
+- id: ADV_100
+# name: Natürlicher Rüstungsschutz
+  cost: 20
+  levels: 2
+  max: 1
+  hasToBeCommonOrSuggestedByRCP: true
+  gr: 1
+
+- id: ADV_101
+# name: Ausdauernde/r Liebhaber/in
+  cost: 12
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_77
+      active: false
+    - id: DISADV_82
+      active: false
+  gr: 1
+
+- id: ADV_102
+# name: Begabte/r Aufreißer/in
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_77
+      active: false
+    - id: ADV_117
+      active: false
+  gr: 1
+
+- id: ADV_103
+# name: Erotische Ausstrahlung
+  cost: 8
+  max: 1
+  gr: 1
+
+- id: ADV_104
+# name: Erotische Stimme
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_46
+      active: false
+    - id: DISADV_80
+      active: false
+  gr: 1
+
+- id: ADV_105
+# name: Freudenfluss
+  cost: 3
+  max: 1
+  sexPrerequisite: f
+  gr: 1
+
+- id: ADV_106
+# name: Fruchtbar
+  cost: 5
+  max: 1
+  gr: 1
+
+- id: ADV_107
+# name: Große Blase
+  cost: 3
+  max: 1
+  gr: 1
+
+- id: ADV_108
+# name: Guter Geschmack
+  cost: 3
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_79
+      active: false
+  gr: 1
+
+- id: ADV_109
+# name: Hypnotische(s) Brüste / Gesäß / Gemächt
+  cost: 12
+  max: 1
+  gr: 1
+
+- id: ADV_110
+# name: Jungfrau
+  cost: 12
+  max: 1
+  gr: 1
+
+- id: ADV_111
+# name: Levthangeküsst
+  cost: 8
+  levels: 2
+  max: 1
+  gr: 1
+
+- id: ADV_112
+# name: Potent
+  cost: 12
+  max: 1
+  gr: 1
+
+- id: ADV_113
+# name: Rahjageküsst
+  cost: 20
+  max: 1
+  gr: 1
+
+- id: ADV_114
+# name: Resistenz gegen Geschlechtskrankheiten
+  cost: 3
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_21
+      active: false
+    - id: ADV_31
+      active: false
+  gr: 1
+
+- id: ADV_115
+# name: Stattlicher Penis
+  cost: 10
+  max: 1
+  sexPrerequisite: m
+  gr: 1
+
+- id: ADV_116
+# name: Traumhafter Po
+  cost: 8
+  max: 1
+  gr: 1
+
+- id: ADV_117
+# name: Treu
+  cost: 5
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_81
+      active: false
+  gr: 1
+
+- id: ADV_118
+# name: Vorliebe (Sexpraktik)
+  cost: 3
+  levels: 2
+  max: 3
+  activatablePrerequisites:
+    - id: DISADV_75
+      active: false
+  gr: 1
+
+- id: ADV_119
+# name: Wohlgeformte Brüste
+  cost: 15
+  max: 1
+  gr: 1
+
+- id: ADV_120
+# name: Wunderschöne Vagina
+  cost: 8
+  max: 1
+  sexPrerequisite: f
+  gr: 1
+
+- id: ADV_121
+# name: Wolfsblut
+  cost: 15
+  max: 1
+  racePrerequisite: R_1
+  culturePrerequisite: C_10
+  gr: 1
+
+- id: ADV_122
+# name: Wolfsgebiss
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_121
+      active: true
+  gr: 1
+
+- id: ADV_123
+# name: Wolfskind
+  cost: 20
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_121
+      active: true
+  gr: 1
+
+- id: ADV_124
+# name: Dschinnenblut (Rosendschinn)
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: false
+    - id: ADV_82
+      active: false
+    - id: ADV_83
+      active: false
+    - id: ADV_84
+      active: false
+    - id: ADV_125
+      active: false
+    - id: ADV_126
+      active: false
+  gr: 1
+
+- id: ADV_125
+# name: Feenblut (Levschy)
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: false
+    - id: ADV_82
+      active: false
+    - id: ADV_83
+      active: false
+    - id: ADV_84
+      active: false
+    - id: ADV_124
+      active: false
+    - id: ADV_126
+      active: false
+  gr: 1
+
+- id: ADV_126
+# name: Feenblut (Vila)
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_81
+      active: false
+    - id: ADV_82
+      active: false
+    - id: ADV_83
+      active: false
+    - id: ADV_84
+      active: false
+    - id: ADV_125
+      active: false
+    - id: ADV_124
+      active: false
+  gr: 1
+
+- id: ADV_127
+# name: Betörender Duft
+  cost: 12
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_124
+      active: true
+  gr: 1
+
+- id: ADV_128
+# name: Muttererde
+  cost: 12
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_124
+      active: true
+  gr: 1
+
+- id: ADV_129
+# name: Rosenliebe
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_124
+      active: true
+  gr: 1
+
+- id: ADV_130
+# name: Ekstatisches Verlangen
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_125
+      active: true
+  gr: 1
+
+- id: ADV_132
+# name: Gabe der Sonne
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_126
+      active: true
+  gr: 1
+
+- id: ADV_134
+# name: Lustvolle Ausschweifung
+  cost: 12
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_125
+      active: true
+  gr: 1
+
+- id: ADV_135
+# name: Rausch der Leidenschaft
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_126
+      active: true
+  gr: 1
+
+- id: ADV_136
+# name: Reigen der Liebe
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_126
+      active: true
+  gr: 1
+
+- id: ADV_138
+# name: Wilde Erregung
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_125
+      active: true
+  gr: 1
+
+- id: ADV_139
+# name: Koboldfreund
+  cost: 3
+  max: 1
+  gr: 1
+
+- id: ADV_140
+# name: Blutzauberer
+  cost: 0
+  max: 1
+  activatablePrerequisites:
+    - id: SA_1366
+      active: true
+  gr: 3

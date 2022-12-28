@@ -1,0 +1,46 @@
+- id: LP
+  name: "Énergie vitale"
+  short: EV
+  calc: "(Base peuple + CN + CN)"
+
+- id: AE
+  name: "Énergie astrale"
+  short: EA
+  calc: "(20 de la CS pouvoir magique + Qualité principale de tradition)"
+  calcHalfPrimary: "(20 de la CS pouvoir magique + Qualité principale de tradition/2)"
+  calcNoPrimary: (20 de la CS pouvoir magique)
+
+- id: KP
+  name: "Énergie karmique"
+  short: EK
+  calc: "(20 de la CS pouvoir divin + Qualité principale de tradition)"
+
+- id: SPI
+  name: "Ténacité mentale"
+  short: TM
+  calc: "(Base peuple + (CO + IN + IU)/6)"
+
+- id: TOU
+  name: "Ténacité physique"
+  short: TP
+  calc: "(Base peuple + (CN + CN + FO)/6)"
+
+- id: DO
+  name: "Esquive"
+  short: ESQ
+  calc: "(AG/2)"
+
+- id: INI
+  name: "Initiative"
+  short: INI
+  calc: "(CO + AG)/2"
+
+- id: MOV
+  name: "Vitesse"
+  short: VI
+  calc: "(Base peuple, plus/moins points via avantages/désavantages)"
+
+- id: WT
+  name: "Seuil de blessure"
+  short: SB
+  calc: "(CO/2)"

@@ -1,0 +1,5 @@
+- id: LDR1
+  short: LdR
+  name: "Livre des règles"
+  isCore: true
+  isAdultContent: false

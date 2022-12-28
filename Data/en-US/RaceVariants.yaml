@@ -1,0 +1,40 @@
+- id: RV_1
+  name: "Middenrealmers"
+
+- id: RV_2
+  name: "Nivese"
+  commonAdvantages: "Resistant to Cold, Sense of Range"
+  commonDisadvantages: "Susceptible to Heat"
+
+- id: RV_3
+  name: "Norbards"
+
+- id: RV_4
+  name: "Thorwalers"
+  commonAdvantages: "Increased Toughness, Rugged Fighter"
+  commonDisadvantages: "Frenzy, Decreased Spirit"
+
+- id: RV_5
+  name: "Tulamydes"
+  commonAdvantages: "Resistant to Heat"
+  commonDisadvantages: "Susceptible to Cold"
+
+- id: RV_6
+  name: "Forest Folk"
+  commonAdvantages: "Immunity to Wurara (a poison), Immunity to Swift Difar (a disease), Immunity to Brabak Sweat (a disease), Pleasant Smelling, Resistant to Heat"
+  commonDisadvantages: "Susceptible to Cold"
+
+- id: RV_7
+  name: "Utulus"
+  commonAdvantages: "Immunity to Wurara (a poison), Immunity to Swift Difar (a disease), Immunity to Brabak Sweat (a disease), Pleasant Smelling, Resistant to Heat"
+  commonDisadvantages: "Susceptible to Cold"
+
+- id: RV_8
+  name: "Glade Elves"
+
+- id: RV_9
+  name: "Firnelves"
+
+- id: RV_10
+  name: "Wood Elves"
+

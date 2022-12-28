@@ -1,0 +1,8 @@
+- id: 1
+  name: "Kurz"
+- id: 2
+  name: "Mittel"
+- id: 3
+  name: "Lang"
+- id: 4
+  name: "Überlang"

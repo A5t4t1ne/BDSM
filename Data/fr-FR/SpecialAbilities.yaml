@@ -1,0 +1,1580 @@
+- id: SA_0
+  name: "Capacité spéciale personnalisée"
+  rules: |
+    *Un emplacement pour les capacités spéciales personnalisées, où le nom et la valeur en PAV peuvent être définis.*
+  input: "Nom de la capacité spéciale"
+  src:
+    - id: LDR1
+      firstPage: 1
+
+- id: SA_1
+  name: "analyste"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 215
+
+- id: SA_2
+  name: "chef"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 215
+
+- id: SA_3
+  name: "secret professionnel"
+  rules: |
+    N/D
+  selectOptions:
+    - id: 1
+      name: "antidote"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 2
+      name: "verre"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 3
+      name: "potion de guérison"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 4
+      name: "philtre d'amour"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 5
+      name: "porcelaine"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 6
+      name: "élixir d'invisibilité"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 7
+      name: "élixir de transformation"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 8
+      name: "baume des armes"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 9
+      name: "potion de volonté"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 10
+      name: "potion magique"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 11
+      name: "al'gebra"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 12
+      name: "boltan"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 13
+      name: "vielle"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 14
+      name: "arc elfique"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 15
+      name: "garadan"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 16
+      name: "géométrie"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 17
+      name: "jeu des chameaux"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 18
+      name: "épinette"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 19
+      name: "harpe"
+      src:
+        - id: LDR1
+          firstPage: 219
+    - id: 20
+      name: "mouvement d'horlogerie"
+      src:
+        - id: LDR1
+          firstPage: 219
+  prerequisites: "selon le secret professionnel."
+  src:
+    - id: LDR1
+      firstPage: 219
+
+- id: SA_4
+  name: "falsificateur de documents"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 217
+
+- id: SA_5
+  name: "volonté de fer"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 220
+
+- id: SA_6
+  name: "langage de l'éventail"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 217
+
+- id: SA_7
+  name: "désamorcer des pièges"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 216
+
+- id: SA_8
+  name: "tricherie"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 220
+
+- id: SA_9
+  name: "spécialisation de compétence"
+  nameInWiki: "spécialisation de compétence (talent)"
+  rules: |
+    N/D
+  apValue: "compétence A/B/C/D : 1/2/3/4 point(s) dʼaventure pour la première spécialisation ; 2/4/6/8 points  dʼaventure pour la deuxième spécialisation, 3/6/9/12 points dʼaventure pour la troisième spécialisation."
+  prerequisites: "Skill rating 6 (first Specialization), skill rating 12 (second Specialization), Skill Rating 18 (third Specialization)"
+  src:
+    - id: LDR1
+      firstPage: 220
+
+- id: SA_10
+  name: "pêcheur"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 218
+
+- id: SA_11
+  name: "esgoupil"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 216
+
+- id: SA_12
+  name: "connaissance des terrains"
+  rules: |
+    N/D
+  selectOptions:
+    - id: 1
+      name: "jungle"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 2
+      name: "glace et neige"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 3
+      name: "montagne"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 4
+      name: "cavernes"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 5
+      name: "cultures"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 6
+      name: "mer"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 7
+      name: "steppes"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 8
+      name: "marais"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 9
+      name: "forêt"
+      src:
+        - id: LDR1
+          firstPage: 215
+    - id: 10
+      name: "désert"
+      src:
+        - id: LDR1
+          firstPage: 215
+  prerequisites: "avoir vécu 6 mois dans la localité ou avoir parcouru la route à de multiples reprises."
+  src:
+    - id: LDR1
+      firstPage: 215
+
+- id: SA_13
+  name: "droit des guildes de magiciens"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 216
+
+- id: SA_14
+  name: "soufflage de verre"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 219
+
+- id: SA_15
+  name: "recel"
+  rules: |
+    N/D
+  prerequisitesStart: "Area Knowledge of the location where goods are to be sold"
+  src:
+    - id: LDR1
+      firstPage: 219
+
+- id: SA_16
+  name: "héraldique"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 217
+
+- id: SA_17
+  name: "facture d'instruments"
+  rules: |
+    N/D
+  prerequisites: "the SR for Woodworking and Metalworking combined must add up to at least 12"
+  src:
+    - id: LDR1
+      firstPage: 217
+
+- id: SA_18
+  name: "chasseur"
+  rules: |
+    N/D
+  prerequisitesStart: "Ranged Combat 10"
+  src:
+    - id: LDR1
+      firstPage: 215
+
+- id: SA_19
+  name: "cartographie"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 215
+
+- id: SA_20
+  name: "lire sur les lèvres"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 218
+
+- id: SA_21
+  name: "maître de l'improvisation"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 218
+
+- id: SA_22
+  name: "connaissance locale"
+  nameInWiki: "connaissance locale (localité)"
+  input: "Area"
+  rules: |
+    N/D
+  prerequisites: "6 Monate lang an diesem Ort gelebt oder Weg dutzendfach bereist haben"
+  src:
+    - id: LDR1
+      firstPage: 215
+
+- id: SA_23
+  name: "maquignon"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 218
+
+- id: SA_24
+  name: "cueilleur"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 216
+
+- id: SA_25
+  name: "dominer la douleur"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 216
+
+- id: SA_26
+  name: "distiller"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 216
+
+- id: SA_27
+  name: "écriture"
+  rules: |
+    N/D
+  selectOptions:
+    - id: 1
+      name: "alaani ancien"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 2
+      name: "pictographie angram"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 3
+      name: "chrmk"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 4
+      name: "chuchas"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 5
+      name: "glyphes sacrés d'Unao"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 6
+      name: "runes hjaldings"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 7
+      name: "signes impériaux"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 8
+      name: "signes isdiras et signes asdharias"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 9
+      name: "signes kusliks"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 10
+      name: "signes nandurias"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 11
+      name: "runes rogolanes"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 12
+      name: "runes thorvalques"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 13
+      name: "pictographie spatiale trolle"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 14
+      name: "signes tulamidyas"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 15
+      name: "signes tulamidyas archaïques"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 16
+      name: "signes zhayads"
+      src:
+        - id: LDR1
+          firstPage: 216
+  prerequisitesStart: "associated language"
+  src:
+    - id: LDR1
+      firstPage: 216
+
+- id: SA_28
+  name: "écrivain professionnel"
+  rules: |
+    N/D
+  selectOptions:
+    - id: 1
+      name: "Romance Novels"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 2
+      name: "Poetry"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 3
+      name: "Political Pamphlets"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 4
+      name: "Crime Stories"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 5
+      name: "Fairy Tales"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 6
+      name: "Novels"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 7
+      name: "Professional Publications: Gambling"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 8
+      name: "Professional Publications: Geography"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 9
+      name: "Professional Publications: History"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 10
+      name: "Professional Publications: Religions"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 11
+      name: "Professional Publications: Warfare"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 12
+      name: "Professional Publications: Magical Lore"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 13
+      name: "Professional Publications: Mechanics"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 14
+      name: "Professional Publications: Math"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 15
+      name: "Professional Publications: Law"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 16
+      name: "Professional Publications: Myth & Legends"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 17
+      name: "Professional Publications: Sphere Lore"
+      src:
+        - id: LDR1
+          firstPage: 216
+    - id: 18
+      name: "Professional Publications: Astronomy"
+      src:
+        - id: LDR1
+          firstPage: 216
+  apValueAppend: "per area"
+  prerequisites: "appropriate script, language III, skills depending on the area (Etiquette 4 for poetry, Fast-Talk 4 for fairy tales and novels, Persuasion 4 for political pamphlets, Seduction 4 for romance novels, Streetwise 4 for crime stories, an appropriate knowledge skill 4 for professional publications)"
+  src:
+    - id: LDR1
+      firstPage: 216
+
+- id: SA_29
+  name: "langue"
+  rules: |
+    N/D
+  selectOptions:
+    - id: 1
+      name: "alaani"
+      specializations:
+        - "gaïka"
+        - "takel"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 2
+      name: "angram"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 3
+      name: "asdharia"
+      specializations:
+        - "shakargoran"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 4
+      name: "atak"
+      specializations:
+        - "tulamide"
+        - "orlandais"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 5
+      name: "auréliani"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 6
+      name: "bosparano"
+      specializations:
+        - "bosparano des chasseurs"
+        - "bosparano ecclésiastique"
+        - "bosparano des magiciens"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 7
+      name: "fjarning"
+      specializationInput: "Différents dialectes de tribus"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 8
+      name: "garéthi"
+      specializations:
+        - "arétya"
+        - "horathi"
+        - "sourcelandais"
+        - "brabaci"
+        - "maraskani"
+        - "albernat"
+        - "andergastien"
+        - "charypto"
+        - "gatamo"
+        - "nostrien"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 9
+      name: "gobelinique"
+      specializationInput: "Différents dialectes de tribus"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 10
+      name: "isdira"
+      specializationInput: "Suivant le peuple elfe"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 11
+      name: "mohique"
+      specializationInput: "Différents dialectes de tribus"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 12
+      name: "nujuka"
+      specializationInput: "Différents dialectes de tribus"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 13
+      name: "ogre"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 14
+      name: "oloarkh"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 15
+      name: "ologhaïan"
+      specializationInput: "Différents dialectes de tribus"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 16
+      name: "langue des Corbeaux"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 17
+      name: "rogolan"
+      specializationInput: "Suivant le peuple Nain"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 18
+      name: "rssahh"
+      specializationInput: "Suivant le peuple saurien"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 19
+      name: "ruuz"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 20
+      name: "sagathorvalque"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 21
+      name: "thorvalque"
+      specializations:
+        - "nord de Thorval"
+        - "sud de Thorval"
+        - "hautes terres de Vaskir"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 22
+      name: "troll"
+      specializationInput: "Différents dialectes de tribus"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 23
+      name: "tulamidya"
+      specializations:
+        - "aranien"
+        - "novadi du Khôm"
+        - "maraskani-tulamidya"
+        - "mhanadistani-balashidien"
+        - "zahorien"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 24
+      name: "tulamidya archaïque"
+      specializationInput: "Suivant la région"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 25
+      name: "zélemja"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 26
+      name: "zhayad"
+      src:
+        - id: LDR1
+          firstPage: 217
+    - id: 27
+      name: "cyclopéen"
+      src:
+        - id: LDR1
+          firstPage: 217
+  prerequisites: "Je die Vorgängerstufe der Sonderfertigkeit (Ausnahme: Stufe I)"
+  src:
+    - id: LDR1
+      firstPage: 217
+
+- id: SA_30
+  name: "imitation des cris d'animaux"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 217
+
+- id: SA_31
+  name: "poterie"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 219
+
+- id: SA_32
+  name: "prévoir le temps"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 219
+
+- id: SA_33
+  name: "numérologie"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 218
+
+- id: SA_34
+  name: "améliorer l'attaque"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 220
+
+- id: SA_35
+  name: "améliorer l'esquive"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 222
+
+- id: SA_36
+  name: "améliorer une qualité"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 222
+
+- id: SA_37
+  name: "améliorer l'attaque à distance"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 220
+
+- id: SA_38
+  name: "améliorer la parade"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 222
+
+- id: SA_39
+  name: "vigilance"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 222
+
+- id: SA_40
+  name: "détection des embuscades"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 249
+
+- id: SA_41
+  name: "habitude à l'encombrement"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 249
+
+- id: SA_42
+  name: "combat à deux armes"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 248
+
+- id: SA_43
+  name: "combat monté"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 248
+
+- id: SA_44
+  name: "tir monté"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 250
+
+- id: SA_45
+  name: "combat à une main"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 248
+
+- id: SA_46
+  name: "désarmement"
+  rules: |
+    N/D
+  penalty: "−4/−6"
+  src:
+    - id: LDR1
+      firstPage: 248
+
+- id: SA_47
+  name: "intuition tactique"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 249
+
+- id: SA_48
+  name: "feinte"
+  rules: |
+    N/D
+  penalty: "−1/−2/−3"
+  src:
+    - id: LDR1
+      firstPage: 249
+
+- id: SA_49
+  name: "immobilisation"
+  rules: |
+    N/D
+  penalty: "0"
+  src:
+    - id: LDR1
+      firstPage: 249
+
+- id: SA_50
+  name: "coup de marteau"
+  rules: |
+    N/D
+  penalty: "−2"
+  src:
+    - id: LDR1
+      firstPage: 248
+
+- id: SA_51
+  name: "réflexes de combat"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 250
+
+- id: SA_52
+  name: "pare-lame"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 250
+
+- id: SA_53
+  name: "blocage en croix"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 246
+
+- id: SA_54
+  name: "charge à la lance"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 247
+
+- id: SA_55
+  name: "jet / tir précis"
+  rules: |
+    N/D
+  penalty: "−2/−4/−6"
+  src:
+    - id: LDR1
+      firstPage: 250
+
+- id: SA_56
+  name: "botte secrète"
+  rules: |
+    N/D
+  penalty: "−2/−4/−6"
+  src:
+    - id: LDR1
+      firstPage: 247
+
+- id: SA_57
+  name: "riposte"
+  rules: |
+    N/D
+  penalty: "−2 (for the parry)"
+  src:
+    - id: LDR1
+      firstPage: 250
+
+- id: SA_58
+  name: "attaque à la ronde"
+  rules: |
+    N/D
+  penalty: "−2 (first attack); −6 (second attack); −10 (third attack)"
+  src:
+    - id: LDR1
+      firstPage: 246
+
+- id: SA_59
+  name: "briseur de bouclier"
+  rules: |
+    N/D
+  penalty: "+/− 0"
+  src:
+    - id: LDR1
+      firstPage: 247
+
+- id: SA_60
+  name: "chargement rapide"
+  nameInWiki: "chargement rapide (technique de combat)"
+  rules: |
+    N/D
+  selectOptions:
+    - id: 1
+      name: "arbalètes"
+      src:
+        - id: LDR1
+          firstPage: 248
+    - id: 2
+      name: "arcs"
+      src:
+        - id: LDR1
+          firstPage: 248
+    - id: 3
+      name: "armes de jet"
+      src:
+        - id: LDR1
+          firstPage: 248
+  src:
+    - id: LDR1
+      firstPage: 248
+
+- id: SA_61
+  name: "dégainage rapide"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 248
+
+- id: SA_62
+  name: "charge en mêlée"
+  rules: |
+    N/D
+  penalty: "−2"
+  src:
+    - id: LDR1
+      firstPage: 247
+
+- id: SA_63
+  name: "botte mortelle"
+  rules: |
+    N/D
+  penalty: "−2"
+  src:
+    - id: LDR1
+      firstPage: 247
+
+- id: SA_64
+  name: "esquive améliorée"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 249
+
+- id: SA_65
+  name: "posture défeensive"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 250
+
+- id: SA_66
+  name: "attaque à outrance"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 246
+
+- id: SA_67
+  name: "coup cinglant"
+  rules: |
+    N/D
+  penalty: "−2/−4/−6"
+  src:
+    - id: LDR1
+      firstPage: 248
+
+- id: SA_68
+  name: "projection"
+  rules: |
+    N/D
+  penalty: "−2"
+  src:
+    - id: LDR1
+      firstPage: 250
+
+- id: SA_69
+  name: "fauchage"
+  rules: |
+    N/D
+  penalty: "−4"
+  src:
+    - id: LDR1
+      firstPage: 249
+
+- id: SA_70
+  name: "tradition (magicien de guilde)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 275
+
+- id: SA_71
+  name: "dissimulation d'aura"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 284
+
+- id: SA_72
+  name: "maîtrise du domaine"
+  rules: |
+    N/D
+  selectOptions:
+    - id: 1
+      name: "antimagie"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 2
+      name: "démonique"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 3
+      name: "influence"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 4
+      name: "élémentaire"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 5
+      name: "guérison"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 6
+      name: "clairvoyance"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 7
+      name: "illusion"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 8
+      name: "sphères"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 9
+      name: "objet"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 10
+      name: "télékinésie"
+      src:
+        - id: LDR1
+          firstPage: 284
+    - id: 11
+      name: "transformation"
+      src:
+        - id: LDR1
+          firstPage: 284
+  prerequisitesEnd: "3 enchantments with the property at SR 10 or higher"
+  src:
+    - id: LDR1
+      firstPage: 284
+
+- id: SA_73
+  name: "tours de magie puissants"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 285
+
+- id: SA_74
+  name: "portes interdites"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 285
+
+- id: SA_75
+  name: "signes magiques"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 285
+
+- id: SA_76
+  name: "lien (bâton de magicien)"
+  effect: |
+    The *Binding of the Staff* is the first staff enchantment cast on a mage’s staff and serves to bind the staff to the mage. In addition, it renders the staff unbreakable, even though the wood retains its flexibility. Only a directed anti-magic spell, an *Ignifaxius* spell, or an elemental fire burning hotter than a dragon’s breath can destroy it. The staff is a magical weapon that cannot be enchanted with rituals like *Arcanovi* or other spells. A mage can possess only one staff at a time. Binding a staff has a one-time cost of 2 permanent AE. The mage can try to break the connection to a staff in order to bind a new one. After a mage’s death, the staff loses all permanent AE and all of its magic after 24 hours.
+  volume: "0 points"
+  src:
+    - id: LDR1
+      firstPage: 277
+
+- id: SA_77
+  name: "double taille"
+  effect: |
+    The staff can double its length without losing girth. The effect ends when the mage lets go of the staff or wills the effect to end. This enchantment makes a short staff into a medium reach weapon. Similarly, a medium staff becomes a long reach weapon (and requires *Polearms* to wield), while a long reach staff lengthens so much that you can no longer use it as a weapon.
+  volume: "2 points"
+  src:
+    - id: LDR1
+      firstPage: 276
+
+- id: SA_78
+  name: "flamme éternelle"
+  effect: |
+    You can set one end of the staff ablaze with just a thought. It burns like a torch, and the fire is as bright and hot as a natural fire, but it does not consume the staff. *Eternal Flame* has no real benefit in combat. The effect ends automatically after one hour, or if the mage suffers the state *unconscious*.
+  volume: "2 points"
+  src:
+    - id: LDR1
+      firstPage: 277
+
+- id: SA_79
+  name: "épée de flammes"
+  effect: |
+    This turns the staff into a hotly burning flame weapon, in the shape of either a long sword or, in some cultures, a scimitar. The *Sword of Flame* is a magical weapon and does extra damage to creatures susceptible to fire. It does 1D6+7 DP but otherwise uses all other stats for a long sword. The staff must be at least one yard long to become a *Sword of Flame*.<br>
+    You can use the *Sword of Flame* in two ways, as follows.
+
+    - You can wield it like a normal sword with the combat technique Swords. If you botch, the sword turns back into a mage’s staff. This use costs 1 AE per round.
+    - You can make it fly and fight using telekinesis. You use the combat technique Swords and your attack stat for attacks. It moves with Movement 8. You must concentrate to control the sword. Making the *Sword of Flame* fly in a coordinated way is a *long action* (see **Core Rules**page **228**).
+
+    If the sword ever moves more than 32 yards away from you, the effect ends and the sword reverts to a staff. This activation costs 2 AE per round.<br>
+    To grab a flying *Sword of Flame*, make a successful attack with *Brawling* and the special ability Grapple (the sword has *Feat of Strength* 10 with 14 in all attributes, and PA equal to half of its AT).
+  volume: "7 points"
+  src:
+    - id: LDR1
+      firstPage: 276
+
+- id: SA_80
+  name: "focus astral"
+  effect: |
+    Spend one less AE on every spell as long as you have the staff in hand. Apply this reduction after calculating all other modifiers. You cannot reduce the cost to less than 1 AE. You do not save any AE when the staff is acting as a *Sword of Flame*, an *Eternal Flame*, a torch, or anything else other than a mage’s staff. You must hold the staff in hand to use this enchantment.
+  volume: "6 points"
+  src:
+    - id: LDR1
+      firstPage: 277
+
+- id: SA_81
+  name: "focus de domaine"
+  effect: |
+    Choose a property to be aided by the focus. Checks for spells with this property then receive a bonus of 1. You can cast more than one property focus (for different properties) on a staff. You don’t get the bonus when the staff is acting as a *Sword of Flame*, an *Eternal Flame*, a torch, or anything else other than a mage’s staff. You must hold the staff in hand to use this enchantment.
+  selectOptions:
+    - id: 1
+      name: "antimagie"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 2
+      name: "démonique"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 3
+      name: "influence"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 4
+      name: "élémentaire"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 5
+      name: "guérison"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 6
+      name: "clairvoyance"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 7
+      name: "illusion"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 8
+      name: "sphères"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 9
+      name: "objet"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 10
+      name: "télékinésie"
+      src:
+        - id: LDR1
+          firstPage: 277
+    - id: 11
+      name: "transformation"
+      src:
+        - id: LDR1
+          firstPage: 277
+  volume: "8 points"
+  property: "suivant le domaine."
+  prerequisitesEnd: "appropriate Property Knowledge"
+  src:
+    - id: LDR1
+      firstPage: 277
+
+- id: SA_82
+  name: "corde de l'adepte"
+  effect: |
+    You can turn the staff into a 10-yard-long rope. When thrown, the rope coils itself around objects. As long as you touch the rope, you can tie and untie knots with a thought, taking 1 action each. You cannot use this effect to bind persons who aren’t suffering the state *immobilized*. If you let go of the rope, it turns back into a staff.
+  volume: "2 points"
+  src:
+    - id: LDR1
+      firstPage: 276
+
+- id: SA_83
+  name: "rappel (bâton de magicien)"
+  effect: |
+    You can call the staff to magically come to you. It flies with a Movement of 15 along the shortest possible route and dodges obstacles. The staff smashes through windows but can be held back by walls of wood or stone. You do not need to see your staff to use *Staff Apportation*.
+  volume: "3 points"
+  src:
+    - id: LDR1
+      firstPage: 278
+
+- id: SA_84
+  name: "lien (familier)"
+  rules: |
+    Witches can use this special ability to create a strong emotional and magical connection with a familiar. If purchased during hero creation, a witch can start the game with a bound familiar. In certain cases, spellcasters from other Traditions can bind familiars, too. The GM has the final say.
+  prerequisites: "Tradition Witch (maybe other Traditions)"
+  src:
+    - id: LDR1
+      firstPage: 279
+
+- id: SA_85
+  name: "onguent de vol"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 281
+
+- id: SA_86
+  name: "tradition (Église de Praïos)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 317
+
+- id: SA_87
+  name: "maîtrise de l'aspect"
+  rules: |
+    N/D
+  selectOptions:
+    - id: 1
+      name: "général"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 2
+      name: "antimagie"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 3
+      name: "ordre"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 4
+      name: "bouclier"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 5
+      name: "orage"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 6
+      name: "mort"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 7
+      name: "rêve"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 8
+      name: "magie"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 9
+      name: "savoir"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 10
+      name: "commerce"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 11
+      name: "ombres"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 12
+      name: "guérison"
+      src:
+        - id: LDR1
+          firstPage: 321
+    - id: 13
+      name: "agriculture"
+      src:
+        - id: LDR1
+          firstPage: 321
+  apValue: "15 points dʼaventure pour la première maîtrise dʼaspect, 25 points dʼaventure pour la deuxième, 45 points dʼaventure pour la troisième."
+  prerequisitesEnd: "three liturgical chants and ceremonies of the appropriate aspect with SR 10"
+  src:
+    - id: LDR1
+      firstPage: 321
+
+- id: SA_88
+  name: "imperturbabilité"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 321
+
+- id: SA_89
+  name: "force de la foi"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 321
+
+- id: SA_90
+  name: "bénédictions puissantes"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 321
+
+- id: SA_91
+  name: "Cercle de bannissement/protection contre les esprits élémentaires"
+  protectiveCircle: |
+    N/D
+  wardingCircle: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 266
+
+- id: SA_92
+  name: "Cercle de bannissement/protection contre les djinns"
+  protectiveCircle: |
+    N/D
+  wardingCircle: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 266
+
+- id: SA_93
+  name: "Cercle de bannissement/protection contre les démons inférieurs"
+  protectiveCircle: |
+    N/D
+  wardingCircle: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 266
+
+- id: SA_94
+  name: "Cercle de bannissement/protection contre les démons cornus"
+  protectiveCircle: |
+    N/D
+  wardingCircle: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 266
+
+- id: SA_255
+  name: "tradition (sorcière)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 278
+
+- id: SA_345
+  name: "tradition (elfe)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 283
+
+- id: SA_682
+  name: "tradition (Église de Rondra)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 317
+
+- id: SA_683
+  name: "tradition (Église de Boron)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 318
+
+- id: SA_684
+  name: "tradition (Église de Hesinde)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 319
+
+- id: SA_685
+  name: "tradition (Église de Phex)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 320
+
+- id: SA_686
+  name: "tradition (Église de Peraine)"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 320
+
+- id: SA_699
+  name: "spécialisation linguistique"
+  rules: |
+    N/D
+  src:
+    - id: LDR1
+      firstPage: 218

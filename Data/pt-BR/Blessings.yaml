@@ -1,0 +1,132 @@
+- id: BLESSING_1
+  name: "Bênção do Juramento"
+  effect: |
+    Você ajuda alguém a fazer um juramento. Os destinatários devem prestar o juramento voluntariamente, e então pode ser quebrada fazendo um teste de Força de Vontade com uma penalidade de 1.
+  range: "4 metros"
+  duration: "1 ano"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 318
+
+- id: BLESSING_2
+  name: "Bênção do Fogo"
+  effect: |
+    Uma pequena chama aparece na ponta do dedo indicador. Ela é brilhante o suficiente para iluminar uma sala, e é suficiente para acender uma vela. A chama não te machuca (mas você pode ser ferido por fogos acesos com a Bênção do Fogo). A chama queima tão intensamente como uma vela normal (veja **Livro de Regras** na página 374).
+  range: "Pessoal"
+  duration: "5 minutos"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 318
+
+- id: BLESSING_3
+  name: "Bênção do Nascimento"
+  effect: |
+    Abençoa e acolhe recém-nascidos na comunidade de fiéis e os protege contra sequestros por kobolds, fadas e demônios menores durante a duração da bênção (até 12 anos – veja abaixo). Você pode conceder esta bênção até 12 dias após o nascimento de uma criança. Se você esperar mais para conjurar a bênção, ela não tem efeito.
+  range: "Toque"
+  duration: "Na congregação dos Doze Divinos, dura até o 12º ano de vida da criança."
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 318
+
+- id: BLESSING_4
+  name: "Bênção da Sorte"
+  effect: |
+    Uma vez durante a duração da bênção, o alvo experimenta um pouco de sorte. Exemplos incluem adicionar 1 PP após fazer um teste de perícia, a fim de alcançar um NQ mais elevado.
+  range: "Toque"
+  duration: "12 horas"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 317
+
+- id: BLESSING_5
+  name: "Bênão da Sepultura"
+  effect: |
+    Você abençoa a sepultura de uma pessoa morta. Qualquer pessoa que deseje exumar o corpo ou danificar a sepultura deve fazer um teste de Força de vontade (Enfrentar Ameaças) com 1 de penalidade. Fracasso significa que a pessoa tem um mau pressentimento e se abstém de danificar a sepultura. Feitiços necromânticos e rituais dirigidos ao ocupante do túmulo sofrem uma penalidade de 1, desde que o corpo permaneça dentro de sua sepultura consagrada.
+  range: "Toque"
+  duration: "12 meses"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 317
+
+- id: BLESSING_6
+  name: "Bênção da Harmonia"
+  effect: |
+    Os destinatários experimentam sentimentos positivos pelo resto do dia. Qualquer coisa que causa a condição Medo sofre uma penalidade de 1.
+  range: "Toque"
+  duration: "12 horas"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 317
+
+- id: BLESSING_7
+  name: "Bênção de Cura Menor"
+  effect: |
+    O destinatário ganha 1 PV. Uma pessoa só pode receber esta bênção uma vez por dia.
+  range: "Toque"
+  duration: "Imediata"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 317
+
+- id: BLESSING_8
+  name: "Bênção de Proteção Menor"
+  effect: |
+    Esta bênção de proteção pode afastar criaturas profanas. Ela pode parar os seguintes tipos de criaturas: mortosvivos (irracionais) e demônios (demônios menores). Ao preparar a bênção, você deve decidir qual dos dois tipos de criaturas irá repelir. O tipo de criatura escolhido não pode entrar na área abençoada durante a duração da bênção. Se a criatura for forçada a entrar na área, ela tenta sair imediatamente.
+    A zona da *Bênção de Proteção Menor* tem um raio máximo de 4 metros, mas pode ser menor. A zona de proteção é estacionária e não se move com você. Se as pessoas dentro se movem para a borda da zona para atacar corpo a corpo criaturas à espreita, as criaturas também podem atacar.
+  range: "4 metros"
+  duration: "4 rodadas de combate"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 317
+
+- id: BLESSING_9
+  name: "Bênção do Alimento"
+  effect: |
+    A comida abençoada é saborosa e nutritiva. Esta bênção neutraliza venenos até o Nível 2 e elimina todos as outras contaminações do alimento. A bênção afeta alimentos equivalentes a uma porção para uma pessoa.
+  range: "Toque"
+  duration: "Imediata"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 318
+
+- id: BLESSING_10
+  name: "Bênção da Força"
+  effect: |
+    O receptor não sente exaustão e pode rerrolar um dado ao fazer um único teste de *Autocontrole (Ficar Consciente)* (como se usasse uma Aptidão). Uma pessoa só pode receber uma *Bênção de Força* por dia.
+  range: "Pessoal"
+  duration: "12 rodadas de combate"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 317
+
+- id: BLESSING_11
+  name: "Bênção da Bebida"
+  effect: |
+    Aqueles que consomem a bebida abençoada se sentem refrescados. Esta bênção neutraliza venenos até o Nível 2 e elimina todos as outras contaminações de uma bebida. A bênção afeta um litro de líquido (o suficiente para uma pessoa).
+  range: "Toque"
+  duration: "Imediata"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 317
+
+- id: BLESSING_12
+  name: "Bênção da Sabedoria"
+  effect: |
+    Os destinatários desta bênção desfrutam de sabedoria recém-descoberta. Eles podem se concentrar melhor na resolução de problemas, e podem rerrolar um dado ao fazerem um único teste usando uma Perícia de Conhecimento. Uma pessoa só pode receber uma *Bênção de Sabedoria* por dia.
+  range: "Toque"
+  duration: "12 horas"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 317

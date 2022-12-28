@@ -1,0 +1,20 @@
+- id: 1
+  name: "Normale Kleidung"
+- id: 2
+  name: "Schwere Kleidung"
+- id: 3
+  name: "Stoffrüstung"
+- id: 4
+  name: "Lederrüstung"
+- id: 5
+  name: "Holzrüstung"
+- id: 6
+  name: "Kettenrüstung"
+- id: 7
+  name: "Schuppenrüstung"
+- id: 8
+  name: "Plattenrüstung"
+- id: 9
+  name: "Turnierrüstung"
+- id: 10
+  name: "Gestechrüstung"

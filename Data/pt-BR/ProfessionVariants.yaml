@@ -1,0 +1,187 @@
+- id: PV_1
+  name: "Contador de histórias"
+
+- id: PV_2
+  name: "Haimamud"
+  concludingText: "Haimamudim devem escolher Araniano, Mhanadistano ou Novadi como a sua cultura."
+
+- id: PV_3
+  name: "Skald"
+  concludingText: "Skalds devem escolher Thorwale como sua cultura."
+
+- id: PV_4
+  name: "Capataz"
+
+- id: PV_5
+  name: "Carcereiro"
+
+- id: PV_7
+  name: "Portageiro"
+
+- id: PV_8
+  name: "Acrobata"
+
+- id: PV_9
+  name: "Domador de Animais"
+
+- id: PV_10
+  name: "Lançador de Facas"
+
+- id: PV_11
+  name: "Palhaço"
+
+- id: PV_12
+  name: "Vidente"
+
+- id: PV_13
+  name: "Pugilista"
+
+- id: PV_14
+  name: "Lutadaor de Exibição"
+
+- id: PV_15
+  name: "Vendedor Ambulante"
+
+- id: PV_16
+  name: "Comerciante de longa distância"
+
+- id: PV_17
+  name: "Cambista"
+
+- id: PV_18
+  name: "Mascate"
+
+- id: PV_19
+  name: "Negociante"
+  concludingText: "Negociantes devem escolher Fjarning, Moha ou Niveseano como a sua cultura"
+
+- id: PV_20
+  name: "Parteira"
+
+- id: PV_21
+  name: "Médico"
+
+- id: PV_22
+  name: "Charlatão"
+
+- id: PV_23
+  name: "Arrancador de Dentes"
+
+- id: PV_24
+  name: "Descendente Nobre"
+
+- id: PV_25
+  name: "Diplomata"
+
+- id: PV_26
+  name: "Dama-de-Companhia"
+  concludingText: "Damas-de-Companhia devem ser mulheres e deve escolher Andergastiano como sua cultura."
+
+- id: PV_27
+  name: "Procrastinador"
+
+- id: PV_28
+  name: "Grande Caçador"
+
+- id: PV_29
+  name: "Caçador de Recompensas"
+
+- id: PV_30
+  name: "Caçador de Escravos"
+  concludingText: "culturas comuns: Araniano, Aventuriano do Sul, Mhanadistano, Novadi"
+
+- id: PV_31
+  name: "Caçador Tribal"
+
+- id: PV_36
+  name: "Cavaleiro da Corte"
+
+- id: PV_37
+  name: "Cavaleiro Ladrão"
+
+- id: PV_38
+  name: "Cavaleiro Andante"
+
+- id: PV_39
+  name: "Pescador"
+
+- id: PV_40
+  name: "Pirata"
+
+- id: PV_41
+  name: "Baleeiro"
+
+- id: PV_42
+  name: "Caçador de Focas"
+
+- id: PV_43
+  name: "Vanguarda"
+
+- id: PV_44
+  name: "Infantaria Leve"
+
+- id: PV_45
+  name: "Infantaria Pesada"
+
+- id: PV_46
+  name: "Agente Secreto"
+
+- id: PV_47
+  name: "Assassino"
+
+- id: PV_48
+  name: "Mendigo"
+
+- id: PV_49
+  name: "Ladrão"
+
+- id: PV_50
+  name: "Gatuno"
+
+- id: PV_51
+  name: "Vigarista"
+
+- id: PV_52
+  name: "Apostador"
+
+- id: PV_54
+  name: "Servo de Bishdariel"
+
+- id: PV_55
+  name: "Servo de Golgaris"
+
+- id: PV_56
+  name: "Pastori"
+
+- id: PV_57
+  name: "Satri"
+
+- id: PV_58
+  name: "Curandeiro"
+
+- id: PV_59
+  name: "Semeador"
+
+- id: PV_60
+  name: "Pungista"
+
+- id: PV_61
+  name: "Mercador"
+
+- id: PV_62
+  name: "Assaltante"
+
+- id: PV_63
+  name: "Legalista"
+
+- id: PV_64
+  name: "Principista"
+
+- id: PV_65
+  name: "Salutarista"
+
+- id: PV_66
+  name: "Tradicionalista"
+
+- id: PV_67
+  name: "Honra"

@@ -1,0 +1,10 @@
+- id: 1
+  name: "Não-Livre"
+- id: 2
+  name: "Livre"
+- id: 3
+  name: "Nobre Menor"
+- id: 4
+  name: "Nobre"
+- id: 5
+  name: "Aristocrata"

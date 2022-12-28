@@ -1,0 +1,44 @@
+- id: R_1
+  name: "Humain"
+  attributeAdjustments: "Une qualité au choix +1"
+  src:
+    - id: LDR1
+      firstPage: 88
+
+- id: R_2
+  name: "Elfe"
+  attributeAdjustments: "IU et AG +1; IN ou FO -2"
+  automaticAdvantages: "pouvoir magique, chant diphonique"
+  stronglyRecommendedAdvantages: "nyctalopie I, veilleur, résistance au vieillissement"
+  stronglyRecommendedDisadvantages: "inaptitude (alcools & drogues), odorat sensible"
+  commonAdvantages: "ambidextre, prédisposition (chant, musique), voix agérable, contortionniste, nyctalopie II, sens de l'orientation, sens exceptionnel (ouïe ou vue), beauté, immunité contre (rage noire, rage, lycanthropie), régénération améliorée (énergie astrale), rapidité, résistance aux maladies, résistance aux poisons"
+  commonDisadvantages: "esprits mineurs importuns, force astrale liée au corps, nom essentiel"
+  uncommonAdvantages: "résistance à l'ensorcellement, instinct de Nain, résistance à la chaleur"
+  uncommonDisadvantages: "obésité, rage sanguinaire, cécité nocturne, sens restreint"
+  src:
+    - id: LDR1
+      firstPage: 90
+
+- id: R_3
+  name: "Demi-Elfe"
+  attributeAdjustments: "Une qualité au choix +1"
+  commonAdvantages: "ambidextre, prédisposition (chant, musique), voix agréable, contortionniste, nyctalopie I, sens exceptionnel (ouïe ou vue), beauté, rapide, pouvoir magique, chant diphonique"
+  commonDisadvantages: "odorat sensible, nom essentiel"
+  uncommonAdvantages: "instinct de Nain, résistance à l'ensorcellement"
+  uncommonDisadvantages: "obésité, rage sanguinaire, sensibilité aux maladies"
+  src:
+    - id: LDR1
+      firstPage: 92
+
+- id: R_4
+  name: "Nain"
+  attributeAdjustments: "CN et FO +1; CH ou AG -2"
+  stronglyRecommendedAdvantages: "immunité contre le tulmadron, nyctalopie I"
+  stronglyRecommendedDisadvantages: "inaptitude (natation)"
+  commonAdvantages: "coriace, grande ténacité physique, instinct de Nain, nyctalopie II, résistance à lʼensorcellement, résistance à la chaleur, résistance aux maladies, sens de lʼorientation"
+  commonDisadvantages: "rage sanguinaire"
+  uncommonAdvantages: "contorsionniste, pouvoir magique, voix agréable"
+  uncommonDisadvantages: "cécité nocturne, faible ténacité mentale, faible ténacité physique, fragile, sensibilité à la chaleur"
+  src:
+    - id: LDR1
+      firstPage: 93

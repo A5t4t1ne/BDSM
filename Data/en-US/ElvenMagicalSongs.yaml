@@ -1,0 +1,59 @@
+- id: SPELL_62
+  name: "Song of Memory"
+  effect: |
+    Elves play this song to accurately recall a memory of something that happened long ago. The spellcaster must play for 5 minutes for each year that the event lies in the past. In addition, they must play for a length of time equal to the duration of the event that they wish to recall.
+  aeCost: "1 AE per 5 minutes"
+  aeCostShort: "1 AE per 5 min "
+  src:
+    - id: US25001E
+      firstPage: 284
+
+- id: SPELL_63
+  name: "Song of Peace"
+  effect: |
+    After five minutes of playing, the song creates a zone of peace (QL x 3 yards radius) around the elf. As long as the elf continues to play, animals and intelligent creatures lose all interest in using violence against each other or the elf. Resisting this feeling of peace requires a Willpower check with a penalty equal to the *Song of Peace’s* QL x 2. You can still defend yourself while affected by the *Song of Peace*. It does not affect unnatural creatures such as undead, demons, elementals, or golems.
+  aeCost: "2 AE per 5 minutes"
+  aeCostShort: "2 AE per 5 min "
+  src:
+    - id: US25001E
+      firstPage: 284
+
+- id: SPELL_64
+  name: "Song of Friendship"
+  effect: |
+    Two elves who play the *Song of Friendship* together forge a solid bond of companionship. This can happen only once during an elf’s lifetime. The song consists of three stanzas, each lasting one hour, and which must be played on three consecutive days simultaneously by both participants. Elves connected by this song feel each other’s presence and can perceive each other’s strong emotions over great distances. They can cast the spell *Balsam* on each other even if they have spent all of their AE (in such cases, they can use the spell to transfer LP from one to the other, as needed).
+  aeCost: "4 AE per hour, 1 permanent AE for the last stanza"
+  aeCostShort: "4 AE per h/1 pAE"
+  src:
+    - id: US25001E
+      firstPage: 283
+
+- id: SPELL_65
+  name: "Melody of Artistry"
+  effect: |
+    Checks with craft skills made by elves singing the *Melody of Artistry* receive a bonus equal to the ritual’s QL.
+  aeCost: "4 AE per hour"
+  aeCostShort: "4 AE per h"
+  src:
+    - id: US25001E
+      firstPage: 283
+
+- id: SPELL_66
+  name: "Song of Sorrow"
+  effect: |
+    By weaving questions into this song, elves can learn if a good friend is well or sick (or even dead), or perhaps fearing imminent death, or instead happy and content. This song confers general impressions—it cannot transmit clear thought images. The farther the friend is from the singer, the longer the song takes to sing. The elf must sing for five minutes per 100 miles of distance.
+  aeCost: "2 AE per 5 minutes"
+  aeCostShort: "2 AE per 5 min "
+  src:
+    - id: US25001E
+      firstPage: 284
+
+- id: SPELL_67
+  name: "Magical Melody"
+  effect: |
+    Elves who play this melody undisturbed for an hour fall into a trance-like state in which they become attuned to the arcane currents of their surroundings. When they awaken from this half-hour trance, all of their checks for spells and rituals receive a bonus (+1 for QL 1 to 3, or +2 for QL 4 to 6) until the next sunrise.
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25001E
+      firstPage: 283

@@ -1,0 +1,132 @@
+- id: CT_1
+  name: "Crossbows"
+  src:
+    - id: US25001E
+      firstPage: 245
+
+- id: CT_2
+  name: "Bows"
+  src:
+    - id: US25001E
+      firstPage: 245
+
+- id: CT_3
+  name: "Daggers"
+  special: |
+    You cannot use daggers to parry chain weapons, polearms, two-handed impact weapons, or two-handed swords.
+  src:
+    - id: US25001E
+      firstPage: 235
+
+- id: CT_4
+  name: "Fencing Weapons"
+  special: |
+    You cannot use fencing weapons to parry chain weapons, polearms, two-handed impact weapons, or two-handed swords. Defense checks against attacks by fencing weapons suffer a penalty of 1.
+  src:
+    - id: US25001E
+      firstPage: 235
+
+- id: CT_5
+  name: "Impact Weapons"
+  src:
+    - id: US25001E
+      firstPage: 235
+
+- id: CT_6
+  name: "Chain Weapons"
+  special: |
+    It’s harder to defend against chain weapons. Parries against them suffer a penalty of 2. Shields use only their normal bonus against chain weapons (their PA is not doubled). Attacks with chain weapons botch on a 19 or 20. You cannot parry with chain weapons.
+  src:
+    - id: US25001E
+      firstPage: 235
+
+- id: CT_7
+  name: "Lances"
+  src:
+    - id: US25001E
+      firstPage: 235
+
+- id: CT_8
+  name: "Whips"
+  special: |
+    Targets suffer a -2 penalty to PA versus whips. Shields apply their simple defense bonus against whips. When attacking, whips botch on rolls of 19+. Whips cannot parry
+  src:
+    - id: US25003E
+      firstPage: 227
+    - id: US25208E
+      firstPage: 122
+
+- id: CT_9
+  name: "Brawling"
+  special: |
+    Unarmed combatants who parry a weapon still suffer full damage even if the parry is successful (so they probably should try to dodge instead). On the other hand, if you use a weapon to parry a brawling attack, the attacker suffers half the weapon’s damage. Combatants deal 1D6 DP when brawling, as modified by the primary attribute (see above).
+  src:
+    - id: US25001E
+      firstPage: 235
+
+- id: CT_10
+  name: "Shields"
+  special: |
+    AT and PA stats of shields are calculated like any other combat technique. Parrying with a shield grants double the shield’s parry bonus and doesn’t impose a penalty for using the off hand. Ranged combat attacks and attacks from large enemies can also be parried using a shield. Using a second shield doesn’t increase the bonus. To defend against a ranged combat attack, you must parry actively with the shield. When parrying with a shield, you cannot also parry with your main weapon. You can use a shield to attack.
+  src:
+    - id: US25001E
+      firstPage: 236
+
+- id: CT_11
+  name: "Slings"
+  src:
+    - id: US25003E
+      firstPage: 227
+    - id: US25208E
+      firstPage: 122
+
+- id: CT_12
+  name: "Swords"
+  src:
+    - id: US25001E
+      firstPage: 236
+
+- id: CT_13
+  name: "Polearms"
+  src:
+    - id: US25001E
+      firstPage: 235
+
+- id: CT_14
+  name: "Thrown Weapons"
+  src:
+    - id: US25001E
+      firstPage: 245
+
+- id: CT_15
+  name: "Two-Handed Impact Weapons"
+  src:
+    - id: US25001E
+      firstPage: 236
+
+- id: CT_16
+  name: "Two-Handed Swords"
+  src:
+    - id: US25001E
+      firstPage: 236
+
+- id: CT_17
+  name: "Spitting Fire"
+  special: |
+    Require Fire-Eater Special Ability
+  src:
+    - id: US25003E
+      firstPage: 106
+
+- id: CT_18
+  name: "Blowguns"
+  src:
+    - id: US25208E
+      firstPage: 122
+
+- id: CT_19
+  name: "Discuses"
+  src:
+    - id: US25208E
+      firstPage: 122
+

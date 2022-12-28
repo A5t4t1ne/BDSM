@@ -1,0 +1,407 @@
+- id: OR_1
+  name: "Sem Rolagem de Confirmação"
+  description: |
+    Você gostaria de ter mais críticos e fiascos no seu jogo? Se a resposta é sim, não use a rolagem de confirmação. Com esta opção, cada 1 é um sucesso crítico e cada 20 é um fiasco (uma chance de 10% de obter um desses dois resultados em uma rolagem). Além disso, abandonar a rolagem de confirmação torna o jogo um pouco mais simples.
+
+    O uso de rolagens de confirmação diminui suas chances de rolar críticos e fiascos, e tais rolagens dependem mais dos valores de atributos e modificadores atribuídos pelo MJ.
+  src:
+    - id: US25001E
+      firstPage: 22
+
+- id: OR_2
+  name: "Testes de Perícia na Via Expressa"
+  description: |
+    Os Testes de Perícia levam mais tempo para resolver do que testes simples de atributos, porque você precisa rolar três dados. Além disso, você sempre tem uma chance de rolar críticos ou fiascos, você pode precisar usar PPs para ajustar rolagens e assim por diante. Existem várias formas de acelerar este processo.
+    
+    Em primeiro lugar, você pode escolher D20s de cores diferentes e atribuir uma cor a cada rolagem individual. Por exemplo, você pode decidir usar um dado vermelho para a primeira rolagem, um dado branco para a segunda, e um dado azul para a terceira. É fácil de lembrar, e não importa onde pararem seus dados, você sabe imediatamente qual dado vai com qual teste. 
+
+    Outro método é rolar 3D20 e atribuir o dado mais distante à sua esquerda para o primeiro teste, o dado do meio para o segundo teste, e o mais distante à sua direita para o terceiro.
+
+    Ambos os métodos aceleram o jogo.
+  src:
+    - id: US25001E
+      firstPage: 24
+
+- id: OR_3
+  name: "Dados Coloridos, de Acordo com Paramanthus"
+  description: |
+    Paramanthus foi um pesquisador Aventuriano que postulou uma conexão entre atributos pessoais, estrelas errantes, cores e os deuses.
+
+    Você pode usar o sistema de Paramanthus gravado em seus escritos e atribuir dados coloridos para os atributos de seu herói ou heroína. A imagem ao lado desta caixa mostra-lhe as cores ligadas aos vários atributos. Se você usar este sistema, você pode dizer mais facilmente qual dado pertence a qual atributo em um teste de perícia. Os dados devem estar disponíveis nestas cores em qualquer boa loja de jogos.
+
+    Esta opção não altera quaisquer regras, mas ajuda a acelerar os testes de perícia.
+  src:
+    - id: US25001E
+      firstPage: 22
+
+- id: OR_4
+  name: "Usando Atributos Alternativos em Testes de Perícia"
+  description: |
+    Os atributos ligados aos testes de perícia não estão escritos em pedra. Como MJ você pode alterar os atributos usados em um teste de perícia se você acha que diferentes atributos funcionariam melhor nessa situação.
+
+    Por exemplo, se um herói só quer saber como escalar uma determinada face rochosa ao invés de realmente sair e escalá-la, o MJ pode pedir um teste de *Escalada (Montanhas)* usando Sagacidade/Intuição/Intuição ao invés de Coragem/Agilidade/Força. Afinal de contas, simplesmente lembrar-se de como subir uma face rochosa não é uma tarefa física.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 25
+
+- id: OR_5
+  name: "Testes Cumulativos em Grupo Usando Múltiplas Perícias"
+  description: |
+    Ao invés de fazer todos os heróis ou heroínas rolarem para a mesma habilidade, o MJ pode decidir fazer alguns dos jogadores rolarem outras perícias que também se encaixam na tarefa. Por exemplo, uma viagem através da natureza pode depender principalmente de *Sobrevivênci*a, mas *Orientação*, *Escalada* e *Façanha de Força* podem todas serem perícias de suporte aceitáveis. Um personagem deve fazer um teste para a perícia primária (a perícia que é mais adequada para a tarefa). Determinar o NQ como de costume, com as seguintes exceções.
+
+    - Heróis fazendo testes para perícias de apoio devem antes dividir seus PPs restantes por 2 antes de determinar o NQ para seus testes de perícia.
+    - O MJ determina quantas personagens podem participar em testes de grupo, bem como quais perícias são adequadas para uso como perícias primárias ou de apoio.
+    
+    São aplicáveis todas as outras regras relativas a testes cumulativos.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 29
+
+- id: OR_6
+  name: "Heróis, Heroínas e PNJs – Uma Sutil mas Importante Diferença"
+  description: |
+    Pontos de Destino são muito raros. Nem todos em Dere podem tirar proveito de seu destino tão facilmente quanto os heróis e heroínas, e apenas alguns PNJs são capazes de fazê-lo. As PJs (e raras PNJs) são escolhidas, pessoas especiais no mundo de *The Dark Eye*.
+
+    No entanto, você pode decidir usar regras diferentes, conforme se segue.
+
+
+    - Nenhum Destino: ninguém em Dere possui Pontos de Destino. Os heróis e heroínas são como todos os outros. Se você escolher esta opção, simplesmente ignore todas as regras relativas ao destino e PD. Isso torna o jogo mais fácil de jogar, mas também torna Aventuria muito mais perigosa, uma vez que os heróis não podem mais influenciar as rolagens de dados e circunstâncias gastando PD.
+    - Todos são escolhidos: heróis, vilões e todos as PNJs imagináveis possuem PD e são capazes de usálos. Isso é principalmente vantajoso para o MJ, pois aumenta as chances de sucesso para pessoas normais, personagens de apoio e vilões. Por outro lado, a gestão do PD exigirá mais esforço.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 32
+
+- id: OR_7
+  name: "Outras Formas de Recuperar Pontos de Destino"
+  description: |
+    Além das opções apresentadas nas regras, O MJ também pode conceder o retorno de PD por uma boa interpretação, avançar a aventura ou fazer o grupo rir. Isto incentiva a participação entre os jogadores e deve estimular uma melhor experiência de interpretação.
+  src:
+    - id: US25001E
+      firstPage: 33
+
+- id: OR_8
+  name: "Pontuação Máxima Dos Atributos"
+  description: |
+    Se não quiser permitir o aprimoramento sem limites de atributos após o início do jogo, você pode limitar os atributos a 2 pontos acima do valor inicial máximo concedido pelo Nível de Experiência da personagem. Desta forma, um herói ou heroína competente pode ter valores de atributos até 17 (15 + 2).
+
+    À medida que ganham experiência de aventuras, seus Níveis de Experiência aumentam. Com cada novo Nível de Experiência, seus valores máximos de atributos também aumentam. Em um NE Lendário, os valores dos atributos das personagens têm um máximo de 20 (18 + 2).
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 41
+
+- id: OR_9
+  name: "Riqueza Inicial Variável, Baseada no Nível de Experiência"
+  description: |
+    Se o seu grupo acha que heróis com mais experiência devem carregar mais dinheiro (ou pelo menos provavelmente ter acesso a mais dinheiro), você pode simplesmente aumentar a riqueza inicial de um herói em 200 táleres de prata por cada NE acima de Experiente. No entanto, isso também significaria que heróis menos experientes carregam menos dinheiro, o que significa que você deve reduzir a sua riqueza inicial em 200 táleres de prata por cada NE abaixo de Experiente. Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 61
+
+- id: OR_10
+  name: "Conhecimento Cultural"
+  description: |
+    Os heróis podem receber 1 de bônus em perícias Sociais e de Conhecimento se o teste diz respeito a tópicos de sua cultura nativa. Do mesmo modo, podem sofrer uma penalidade de 1 se o teste diz respeito a temas com os quais a sua cultura tem pouca ou nenhuma experiência. O MJ tem a última palavra, mas deve ter o cuidado de manter o equilíbrio. Esta regra torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 98
+
+- id: OR_11
+  name: "Testes de Grupo de Perícias"
+  description: |
+    Em vez de manter o controle de quais três atributos você precisa para cada perícia, você pode optar por fazer um teste de grupo de perícias. Esse teste funciona exatamente como um teste de perícia regular, exceto que todas as perícias em um grupo usam os mesmos atributos para os testes. Use a graduação de perícia para os seus PPs, como com um teste de perícia regular.
+
+    Esta regra opcional torna o jogo um pouco menos complexo.
+    This optional rule makes the game a little less complex.
+
+    Grupo de Perícias | Teste de Grupo de Perícias
+    :-- | :--
+    Perícias Físicas | COR/AGI/FOR
+    Perícias Sociais | INT/CAR/CAR
+    Perícias Naturais | COR/AGI/CON
+    Perícias de Conhecimento | SAG/SAG/INT
+    Perícias de Ofício | DES/DES/CON
+  src:
+    - id: US25001E
+      firstPage: 184
+
+- id: OR_12
+  name: "Uso de Perícias Desconhecidas"
+  description: |
+    Uma perícia pode ser tão abrangente que é improvável que um herói ou heroína seja bom em todas as suas diversas áreas. Por exemplo, a perícia *Voar*, potencialmente permite que a personagem controle muitos tipos diferentes de coisas voadoras, mas o MJ deve ter em mente que alguém que sabe como usar um tapete mágico não necessariamente sabe como direcionar um demônio voador.
+
+    Por essa razão, um uso desconhecido pode incorrer em uma penalidade de até 3 pontos. Estas penalidades geralmente diminuem ao longo do tempo, mas o MJ tem a última palavra. O mesmo se aplica a outras perícias, como o uso de *Montaria* para controlar diferentes tipos de montarias, ou Música para tocar diferentes tipos de instrumentos musicais.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 184
+
+- id: OR_13
+  name: "Compensando Atributos para Testes de Rotina"
+  description: |
+    Em vez de usar sempre um valor de atributo fixo de 13 para decidir se um teste se qualifica como rotina, O MJ pode decidir dar a alguns atributos um valor mais baixo. Para cada ponto de atributo abaixo de 13, a personagem deve ter uma GP três pontos mais elevada do que o habitual para que o teste se qualifique como rotina. Desse modo, para testes com modificadores de +1, por exemplo, uma personagem com dois atributos em 13 e um em 12 precisa de uma GP de pelo menos 10 (em vez de 7) para que o teste se qualifique como rotina.
+  src:
+    - id: US25001E
+      firstPage: 185
+
+- id: OR_14
+  name: "Raposo Regional"
+  description: |
+    O MJ pode decidir que várias habilidades especiais de Raposo existem em vez de apenas uma, caso em que a forma escrita difere de cidade para cidade. Isso torna o mundo do jogo mais realista, mas também significa que as personagens podem usar essa habilidade especial apenas perto de sua área de origem.
+
+    Raposo Regional custa 1 PA em vez de 3.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 214
+
+- id: OR_15
+  name: "Especialização em Idioma"
+  description: |
+    O herói conhece um dialeto ou uma forma especial de um idioma (como um idioma profissional, como o Bosparano dos Magos ou o Bosparano dos Caçadores).
+
+    O uso desta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 213
+
+- id: OR_16
+  name: "Iniciativa Para Grupos de Inimigos"
+  description: |
+    Você pode organizar as ações de grupos de inimigos com a mesma INI, rolando uma única vez e tendo todos os membros agindo ao mesmo tempo durante cada rodada de combate.
+
+    Esta regra opcional torna o jogo um pouco menos complexo.
+  src:
+    - id: US25001E
+      firstPage: 223
+
+- id: OR_17
+  name: "Estatísticas de Defesa Mais Altas"
+  description: |
+    Se você quiser diminuir as chances de sua personagem ser atingida, você pode optar por aumentar o Aparar de personagens em geral em 2 ou 4 pontos (também aumentando a Esquiva pela metade deste total). Note que tanto as personagens jogadoras quanto as PNJs podem aumentar as estatísticas de defesa, o que significa que os combates demorarão mais tempo para se resolver.
+
+    Esta regra opcional não altera o nível de complexidade do jogo.
+  src:
+    - id: US25001E
+      firstPage: 224
+
+- id: OR_18
+  name: "Tabela de Fiascos para Combate Corpo a Corpo"
+  description: |
+    Em vez de receber DN 1D6+2 em um fiasco, você pode usar a seguinte tabela. Se o combatente que fracassou estiver desarmado, adicione 5 ao resultado de uma rolagem de 6 ou menos.
+
+    Resultado (2D6) | Efeito
+    :-- | :--
+    2 Arma Destruída | A arma está irreparavelmente destruída. Se a arma for inquebrável, veja o resultado # 5.
+    3 Arma Seriamente Danificada | A arma não pode ser usada até ser reparada. Se a arma for inquebrável, veja o resultado # 5.
+    4 Arma Danificada | A arma está danificada. Todas os testes contra ataque e aparar sofrem 2 de penalidade até a arma ser reparada. Se a arma for inquebrável, veja o resultado # 5.
+    5 Arma Perdida | A arma cai no chão (veja a página **234**).
+    6 Arma Presa | TA arma do herói está presa em uma árvore, numa parede de madeira, no chão ou algo parecido. Libertá-la leva 1 ação e um teste usando *Façanha de Força (Puxar e Empurrar)* com uma penalidade de 1.
+    7 Queda | Faça um teste usando *Controle Corporal (Equilíbrio)* com 2 de penalidade, ou então cai no chão e recebe o estado *Caído* (veja a página **36**).
+    8 Tropeção | Tropeça e sofre 2 de penalidade na sua próxima ação.
+    9 Tornozelo Torcido | TSofre um nível da condição *Dor* por 3 rodadas de combate..
+    10 Pancada | Bate com a cabeça no caos do combate e sofre um nível da condição *Confusão* durante uma hora.
+    11 Fere a Si Mesmo | Sofre o dano de sua própria arma, incluindo o bônus de dano (ignorando PRO). Se estiver desarmado, recebe DN 1D6 (ignorando PRO).
+    12 Fere Severamente a Si Mesmo | Sofre o dobro do dano de sua própria arma, incluindo o bônus de dano (ignorando PRO). Se estiver desarmado, recebe DN 2D6 (ignorando PRO).
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 227
+      lastPage: 227
+
+- id: OR_19
+  name: "Mais Defesas para PNJs"
+  description: |
+    As regras dizem que só heróis e PNJs com PD podem fazer mais de uma defesa por rodada de combate. O MJ pode reforçar as PNJs que não possuem PD, permitindo-lhes usar mais de uma defesa por rodada de combate (com as penalidades aplicáveis, é claro), mas esta mudança pode levar a combates mais longos.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 228
+
+- id: OR_20
+  name: "Tabela de Fiascos em Defesa"
+  description: |
+    Em vez de sofrer o padrão de DN 1D6+2 por um fiasco de defesa, você pode rolar na seguinte tabela. Se o combatente estiver desarmado e rolar um 6 ou menos, adicione 5 ao resultado.
+
+    Resultado (2D6) | Efeito
+    :-- | :--
+    2 Arma Destruída | A arma está irreparavelmente destruída. Se a arma for inquebrável, veja o resultado # 5.
+    3 Arma Seriamente Danificada | Você não pode usar a arma até ela ser reparada. Se a arma for inquebrável, veja o resultado # 5.
+    4 Arma Danificada | A arma está danificada. Todas os testes contra Ataque e Aparar sofrem 2 de penalidade até a arma ser reparada. Se a arma for inquebrável, veja o resultado # 5.
+    5 Arma Perdida | A arma cai no chão (veja a página **234**).
+    6 Arma Presa | A arma do herói está presa em uma árvore, numa parede de madeira, no chão ou algo parecido. Libertá-la leva 1 ação e um teste usando *Façanha de Força (Puxar e Empurrar)* com 1 de penalidade.
+    7 Queda | Faça um teste usando *Controle Corporal (Equilíbrio)* com 2 de penalidade, ou então cai no chão e recebe o estado *Caído* (veja a página **36**).
+    8 Tropeção | Tropeça e sofre 2 de penalidade na sua próxima ação.
+    9 Tornozelo Torcido | Sofre um nível da condição *Dor* por 3 rodadas de combate.
+    10 Pancada | Bate com a cabeça no caos do combate e sofre um nível da condição *Estupor* durante uma hora.
+    11 Fere a Si Mesmo | Fere a si mesmo. Sofre o dano de sua própria arma, incluindo o bônus de dano (ignorando PRO). Combatentes desarmados sofrem DN 1D6 (ignorando PRO).
+    12 Fere Severamente a Si Mesmo | Sofre o dobro do dano de sua própria arma, incluindo o bônus de dano (ignorando PRO). Combatentes desarmados sofrem DN 2D6 (ignorando PRO).
+
+    Usar esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 229
+
+- id: OR_21
+  name: "Tabela de Fiascos para Combate à Distância"
+  description: |
+    Opcionalmente, em vez de sofrer sempre DN 1D6+2 por um fiasco, você pode rolar nesta tabela.
+
+    Resultado (2D6) | Efeito
+    :-- | :--
+    2 Arma Destruída | A arma está irreparavelmente destruída. Se a arma é inquebrável, o resultado é tratado como um resultado de 5.
+    3 Arma Seriamente Danificada | Você não pode usar a arma até ela ser reparada. Se a arma é inquebrável, o resultado é tratado como um resultado de 5.
+    4 Arma Danificada | A arma está danificada. Todas os testes contra Combate a Distância sofrem 4 de penalidade até a arma ser reparada. Se a arma é inquebrável, o resultado é tratado como um resultado de 5.
+    5 Largar a Arma | A arma cai no chão (veja a pg. **234**).
+    6 Companheiro ou Espectador Atingido | Atinge um amigo ou um espectador inocente determinado aleatoriamente. Se tais alvos não estiverem próximos, utilize o Resultado 11: Fere a si mesmo. A arma provoca dano normal, incluindo o bônus de dano habitual.
+    7 Tiro Perdido | O tiro falha de uma forma espetacular e atinge um objeto (atinge a placa de uma loja, quebra uma janela ou alguma coisa assim).
+    8 Distensão Muscular* | O herói experimenta um espasmo repentino nas costas e sofre um nível da condição *Dor* pelas próximas 3 rodadas de combate.
+    9 Corda Escorregadia/ Pegada Escorregadia / Emperrada* | Leve duas rodadas de combate completas para tornar sua arma utilizável novamente.
+    10 Muito Concentrado* |Você está muito concentrando em mirar ou está ocupado com a arma e não pode realizar defesas até sua próxima ação.
+    11 Fere a Si Mesmo | Você fere a si mesmo e sofre dano. Receba o dano normal da arma, incluindo o bônus de dano.
+    12 Fere Severamente a Si Mesmo | Você fere seriamente a si mesmo e sofre dano. Role o dano normal da arma, incluindo o bônus de dano, e duplique o resultado.
+
+    **Observações:** Projéteis como flechas, virotes e balas geralmente são destruídos quando você tem um fiasco, exceto para os resultados de Distensão Muscular, Emperrado e Muito Concentrado.
+
+    Usar esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 238
+
+- id: OR_22
+  name: "Tabela de Fiascos para Combate à Distância"
+  description: |
+    Opcionalmente, ao invés de aplicar um dano padrão de 1D6+2 para um fiasco na defesa contra um ataque à distância, você pode usar a seguinte tabela. Se o defensor tentou esquivar, adicione 5 aos resultados de 2 a 6 nesta tabela.
+
+    Resultado (2D6) | Efeito
+    :-- | :--
+    2 Escudo Destruído | O escudo está irreparavelmente destruído. Se o escudo for inquebrável, use o resultado # 5.
+    3 Escudo Seriamente Danificado | Você não pode usar o escudo novamente até que ele seja reparado. Se o escudo for inquebrável, use o resultado # 5.
+    4 Escudo Danificado | O escudo é danificado. Todas os testes contra Ataque e Aparar sofrem 2 de penalidade até o escudo ser reparado. Se o escudo for inquebrável, use o resultado # 5.
+    5 Escudo Perdido| O escudo cai no chão (veja a pág. **234**).
+    6 Escudo Preso | O escudo está preso no chão, em uma árvore, numa parede de madeira ou algo parecido. Libertála leva 1 ação e um teste usando *Façanha de Força (Puxar e Empurrar)* com 1 de penalidade.
+    7 Tropeção | Tropeça e sofre 2 de penalidade na sua próxima ação.
+    8 Queda | Tropeça e cai, se falhar em um teste usando *Controle Corporal (Equilíbrio)* com uma penalidade de 2. Falha também causa o estado de *caído* (veja a pág. **36**).
+    9 Tornozelo Torcido | Sofre um nível da condição *Dor* por 3 rodadas de combate.
+    10 Pancada | Bate com a cabeça no caos do combate e sofre um nível da condição *Estupor* durante uma hora.
+    11 Fere a Si Mesmo | Fere a si mesmo e sofre o dano da sua arma. Um combatente desarmado sofre DN 1D6.
+    12 Fere Severamente a Si Mesmo | Fere gravemente a si mesmo, sofrendo o dobro do dano da sua arma. Um combatente desarmado sofre DN 2D6.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 239
+
+- id: OR_23
+  name: "Reutilização de Projéteis de Armas de Longo Alcance"
+  description: |
+    Se você recuperar um projétil depois que atingir seu alvo, role para determinar se ele pode ser imediatamente reutilizado.
+    
+    - Flechas podem ser utilizadas novamente em um resultado de 1 em 1D6
+    - Virotes e balas podem ser utilizadas novamente em um resultado de 1 ou 2 em 1D6
+
+    Se você falhar, a munição será considerada inutilizável.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 246
+
+- id: OR_24
+  name: "Testes de Propriedade"
+  description: |
+    Assim como testes de perícia, testes de magia para feitiços usam três atributos. Mas em vez de memorizar ou escrever todos esses atributos, você pode fazer um teste de propriedade que usa os atributos associados com a propriedade de um feitiço, semelhante ao teste de grupo de perícias (veja a página **184**). A tabela a seguir lista os atributos associados de cada propriedade, os quais você usa para testes de propriedade.
+
+    Esta regra opcional torna o jogo um pouco menos complexo.
+
+    Propriedade | Teste de Propriedade
+    :-- | :--
+    Antimagia | COR/SAG/CAR
+    Clarividência | COR/SAG/INT
+    Demoníaca | COR/INT/CAR
+    Elemental | COR/SAG/CAR
+    Cura | SAG/INT/DES
+    Ilusão | SAG/INT/CAR
+    Influência | COR/INT/CAR
+    Objeto | SAG/INT/DES
+    Esferas | COR/CAR/CON
+    Telecinese | SAG/DES/FOR
+    Transformação | SAG/INT/CON
+  src:
+    - id: US25001E
+      firstPage: 246
+
+- id: OR_25
+  name: "Karma Limitado"
+  description: |
+    Ao contrário da magia, que é uma fonte inesgotável, os deuses distribuem PKs diretamente e com mais moderação.
+    
+    Os deuses nem sempre negam PKs aos Abençoados por cometerem erros ou não cumprirem as regras da Igreja, mas às vezes, em casos de infrações graves, um deus bloqueia a regeneração de PKs do infrator como punição. Até que o deus esteja satisfeito, o Abençoado é incapaz de recuperar PKs.
+
+    O MJ decide se um abençoado punido desta maneira pode recuperar a confiança do deus fazendo penitência. A redenção depende das ações do Abençoado, do crime e das circunstâncias.
+    
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 302
+
+- id: OR_26
+  name: "Não Há Fiascos para Cânticos Litúrgicos?"
+  description: |
+    No passado, as correntes kármicas eram conduzidas pela ordem dos deuses. Hoje em dia é mais difícil canalizar o karma, e é possível que os mortais sofram efeitos caóticos (isto é, fiascos) enquanto usam PKs. Várias Igrejas e cultos põe a culpa desta mudança em um evento de proporções cósmicas chamado "Queda das Estrelas", cuja origem elas não entendem totalmente.
+    
+    Fiascos eram extremamente raros antes da Queda das Estrelas. Cada grupo pode decidir se deve usar fiascos para cânticos litúrgicos (efetivamente escolhendo o seu grau preferido da ordem dos deuses).
+
+    Permitir fiascos para cânticos litúrgicos torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 307
+
+- id: OR_27
+  name: "Missão Divina e Egoísmo"
+  description: |
+    Como um MJ, você pode permitir que o comportamento de um Abençoado influencie os testes litúrgicos. Ao defender os ideais de suas Igrejas, os abençoados podem receber 1 de bônus. Por outro lado, os Abençoados que ocasionalmente violem seus códigos morais devem sofrer uma penalidade de até 5.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 309
+
+- id: OR_28
+  name: "Regeneração Mais Fraca"
+  description: |
+    A magia imbui o próprio ar de Dere, conferindo uma cura notavelmente rápida aos seres vivos. Mesmo feridas sérias e ossos partidos saram em um tempo surpreendentemente curto. Um humano terrestre com duas pernas quebradas ainda estaria de cama muito tempo depois de um agricultor Aventuriano com as mesmas lesões já ter se curado e voltado a trabalhar nos campos.
+
+    Se você quer mais realismo em seu jogo, você pode descartar todos os bônus para a regeneração de PVs e decretar que os habitantes de Dere regeneram apenas 1D3 PVs por Fase de Regeneração.
+
+    Esta regra opcional não altera a complexidade do jogo.
+  src:
+    - id: US25001E
+      firstPage: 336
+
+- id: OR_29
+  name: "Distância Exata"
+  description: |
+    Normalmente, saltar requer um teste simples de *Controle Corporal*. Para determinar exatamente quão longe uma personagem chega após um salto com corrida, use o seguinte cálculo. O comprimento base do salto é um número de metros igual a metade do MOV menos SOB (não arredondado). Agilidade alta melhora o comprimento de um salto em distância – cada ponto de agilidade acima de 10 acrescenta mais 25 centímetros a distância. Você também pode tentar melhorar o comprimento do salto com um teste de *Controle Corporal (Saltar)*, ganhando +25 centímetros por ponto de perícia.
+
+    Resumindo, a distância total de salto em distância com corrida = (MOV/2 – SOB) metros, + 25 centímetros por ponto de AGI acima de 10, + 25 centímetros por PP do *Controle Corporal (Saltar)*. Se você fizer um salto longo parado, reduza pela metade a distância total.
+    
+    Se for importante saber quão alto um herói ou heroína pode saltar (para se agarrar ao topo de uma parede, por exemplo), use a seguinte regra: a altura básica do salto em altura é igual ao Movimento multiplicado por 12,5 cm. Agilidade alta pode melhorar a altura de um salto em altura – cada ponto de agilidade acima de 10 acrescenta mais doze centímetros e meio. Você também pode tentar melhorar o comprimento do salto com um teste de *Controle Corporal (Saltar)*, ganhando doze centímetros e meio por PP.
+    
+    Resumindo, a distância total de salto em altura com corrida = (MOV x 12,5) centímetros, + 12,5 centímetros por ponto de AGI acima de 10, + 12,5 centímetros por PP do *Controle Corporal (Saltar)*.
+
+    Esta regra opcional torna o jogo um pouco mais complexo.
+  src:
+    - id: US25001E
+      firstPage: 346

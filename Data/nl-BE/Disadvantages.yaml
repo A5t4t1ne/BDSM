@@ -1,0 +1,1033 @@
+- id: DISADV_0
+  name: "Nadeel op maat"
+  rules: |
+    *Een plaats voor nadelen op maat, waarvan de naam en AP van kan worden gekozen.*
+  input: "Naam van het Nadeel"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 1
+
+- id: DISADV_1
+  name: "Angst voor"
+  input: "oorzaak"
+  rules: |
+    Per graad van dit nadeel ondergaat de held een graad van de Toestand *Angst*, zolang hij aan de oorzaak ervan is blootgesteld.
+  selectOptions:
+    - id: 1
+      name: "bloed"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+    - id: 2
+      name: "duisternis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+    - id: 3
+      name: "hoogten"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+    - id: 4
+      name: "insecten"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+    - id: 5
+      name: "de zee"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+    - id: 6
+      name: "zoals reptielen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+    - id: 7
+      name: "nauwe ruimtes"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+    - id: 8
+      name: "spinnen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+    - id: 9
+      name: "doden en ondoden"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 170
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 170
+
+- id: DISADV_2
+  name: "Arm"
+  rules: |
+    Door het Nadeel Arm krijgt de held bij zijn ontstaan 250 zilveren daalders minder per graad. Kiest hij dus voor 3 graden Arm, dan begint hij zonder startkapitaal en bezit slechts het kledijpakket van de categorie Onvrij.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 170
+
+- id: DISADV_3
+  name: "Artefactgebonden"
+  rules: |
+    Als de held geen rechtstreeks contact heeft met het artefact (dit betekent: contact met de huid), valt toveren hem moeilijk. Dit Nadeel verzwaart Spreuken met 1, als de voorwaarde van lichamelijk contact niet is vervuld. Als het artefact wordt vernietigd, dan is het moeilijk voor hem om te toveren tot hij een nieuw voorwerp van gelijke makelij heeft vervaardigd, waarin de artefactbinding automatisch overvloeit.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 170
+      lastPage: 171
+
+- id: DISADV_4
+  name: "Sloom"
+  rules: |
+    Door Sloom verliest de held 1 punt van zijn SN- Stamwaarde.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 178
+
+- id: DISADV_5
+  name: "Blind"
+  rules: |
+    Door het Nadeel wordt het gebruik van vele Vaardigheden verzwaard of zelfs onmogelijk gemaakt. Dit geldt eveneens voor de Competenties. Welke handelingen met hoeveel verzwaard worden of zelfs onmogelijk zijn, beslist de Meester. De blindheid is niet geneesbaar, uitgezonderd door een groot Wonder. De held heeft de Status *Blind*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 171
+
+- id: DISADV_6
+  name: "Bloedroes"
+  rules: |
+    De held krijgt bij speciale omstandigheden de Status *Bloedroes*. De Bloedroes wordt actief wanneer hij door een aanval een graad van de Toestand *Pijn* krijgt, of zijn Proef op *Wilskracht* tegen het activeren van de Slechte eigenschap (Opvliegend) mislukt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 171
+
+- id: DISADV_7
+  name: "Beperkt zintuig"
+  rules: |
+    Wie over een Beperkt zintuig beschikt, heeft een verzwaring van 2 op zijn Proeven voor *Zintuigen*, als deze Proeven betrekking hebben op het betreffende zintuig. De volgende zintuigen komen hiervoor in aanmerking: zicht, gehoor, geur & smaakzin, tastzin. Een held kan maximaal over twee beperkte zintuigen beschikken.<br>
+    Beperkt zicht verzwaart bovendien de Proeven op Afstandsgevecht met 2.
+  selectOptions:
+    - id: 1
+      name: "Zicht"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 171
+    - id: 2
+      name: "Gehoor"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 171
+    - id: 3
+      name: "Geur & Smaak"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 171
+    - id: 4
+      name: "Tast"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 171
+  apValue: "Zicht: −15 AP; Gehoor: −10 AP; Geur & Smaak: −6 AP; Tast: −2 AP"
+  prerequisites: "~~Voordeel Uitstekend Zintuig voor datzelfde zintuig~~, ~~Nadeel Blind~~ (bij Zicht), ~~Nadeel Doof~~ (bij Gehoor)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 171
+
+- id: DISADV_11
+  name: "Kleurenblind"
+  rules: |
+    Voor deze avonturier zijn kleuren niet te herkennen. Dit kan een negatieve invloed hebben op enkele Proeven zoals *Alchemie* („rode vloeistof bij de groene vloeistof gieten.“), bij het herkennen van een blazoen (*Etiquette*) of bij *Oriëntatie* in de jungle. Of er een Proef kan worden afgelegd en hoe groot de verzwaring is, wordt door de Meester beslist.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 173
+      lastPage: 174
+
+- id: DISADV_12
+  name: "Zwaarlijvig"
+  rules: |
+    Het Nadeel heeft als gevolg dat Proeven op *Klimmen*, *Lichaamsbeheersing*, *Dansen* en *Verbergen* met 1 verzwaard zijn.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 179
+
+- id: DISADV_13
+  name: "Gifgevoelig"
+  rules: |
+    Gifgevoeligheid verslechtert de Weerstand en de Zielskracht met 1 per graad bij het weerstaan van gif.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 172
+
+- id: DISADV_14
+  name: "Lelijk"
+  rules: |
+    Bij elke graad van dit Nadeel ondervindt de held een verzwaring van 1 op *Verleiden (Flirten, Minnekunst)*, *Overhalen (Manipuleren, Vleien)* en *Handel (Afdingen)*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+
+- id: DISADV_15
+  name: "Hittegevoelig"
+  rules: |
+    Hittegraden worden met 1 graad verhoogd zodra de held minstens onder Hittegraad 2 lijdt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 173
+
+- id: DISADV_16
+  name: "Koudegevoelig"
+  rules: |
+    Koudegraden worden met 1 graad verhoogd zodra de held minstens onder koudegraad 1 lijdt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+
+- id: DISADV_17
+  name: "Geen vliegzalf"
+  rules: |
+    De held kan de Competentie Vliegzalf niet aankopen. Hierdoor wordt de Competentie Traditie (Heks) 10 AP goedkoper.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: "Magische traditie kan Competentie Vliegzalf kiezen"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 171
+      lastPage: 172
+
+- id: DISADV_18
+  name: "Geen vertrouweling"
+  rules: |
+    De held kan de Competentie Vertrouwelingsbinding niet aankopen. Hierdoor wordt de Competentie Traditie (Heks) 10 AP goedkoper.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: "Magische traditie kan Competentie Vertrouwelingsbinding kiezen"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 171
+
+- id: DISADV_19
+  name: "Haargebonden kracht"
+  rules: |
+    Van zodra de held, om welke reden dan ook, een deel van zijn prachtige haargroei inboet (bv. door het af te knippen, vuur, enz.; onafhankelijk van de lengte), verliest hij onmiddellijk 10 Astraalpunten (tot een minimum van 0). Deze kunnen op een normale manier worden geregenereerd. Het normale, natuurlijke haarverlies geldt niet als verlies van de haardos.
+  prerequisitesEnd: het ras van de tovenaar moet over haren beschikken
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 172
+      lastPage: 173
+
+- id: DISADV_20
+  name: "Opvallend lichaamskenmerk"
+  input: "lichaamskenmerk"
+  rules: |
+    Een held mag maximum twee Opvallende lichaamskenmerken kiezen. De lichamelijke afwijking kan af en toe verzwaringen op Sociale talenten veroorzaken vanwege bijgeloof of wantrouwen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 175
+
+- id: DISADV_21
+  name: "Ziektegevoelig"
+  rules: |
+    Ziektegevoelig vermindert de Weerstand en de Zielskracht met 1 per graad als het gaat om het weerstaan van ziekten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 179
+
+- id: DISADV_22
+  name: "Geplaagd door mindere geesten"
+  rules: |
+    Telkens de tovenaar Astrale energie gebruikt, werpt hij met de D20. Als het resultaat gelijk of lager is dan de aangewende  hoeveelheid Astrale energie, duiken er mindere geesten op die de tovenaar lastigvallen. Welk soort van mindere geesten verschijnen beslist de spelleider, afhankelijk van de situatie. Voorbeelden zijn Windzakken, die het haar van de tovenaar zelfs bij complete windstilte laten golven, Traanlingen die onder de ogen gaan zitten of Vuurwriemels, die voorwerpen van de tovenaar kunnen verhitten of zelfs verkolen. Bovendien zijn alle Vaardigheidsproeven als gevolg van de afleiding met 1 verzwaard. De mindere geesten blijven gedurende 10 minuten actief voordat ze vanzelf weer verdwijnen. Zijn er door meerdere Spreuken extra mindere geesten verschenen, dan worden de malussen toch niet groter.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 172
+
+- id: DISADV_23
+  name: "Gevoelig voor zonlicht"
+  rules: |
+    De held loopt een graad *Pijn* op van zodra hij blootgesteld wordt aan zonlicht dat sterker is dan schemerlicht. Deze reactie kan worden voorkomen als de getroffene zijn volledige lichaam inclusief zijn ogen afschermt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 172
+
+- id: DISADV_24
+  name: "Magische beperking"
+  input: "omgeving"
+  rules: |
+    In de omgeving waarvoor het Nadeel geldt, heeft de tovenaar bij magische Vaardigheidsproeven geen verzwaringen, maar krijgen een verzwaring van 1 in alle andere omgevingen.
+  selectOptions:
+    - id: 1
+      name: "Vloek der Auen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 175
+    - id: 2
+      name: "Vloek der Bergen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 175
+    - id: 3
+      name: "Vloek des Ijs"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 175
+    - id: 4
+      name: "Vloek der Zeeën"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 175
+    - id: 5
+      name: "Vloek der Nacht"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 175
+    - id: 6
+      name: "Vloek der Wouden"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 175
+    - id: 7
+      name: "Vloek der Lichts"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 175
+  apValueAppend: "(Bladzijde **166**, **Magische afstemming**)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+      lastPage: 175
+
+- id: DISADV_25
+  name: "Nachtblind"
+  rules: |
+    Van zodra de held minstens één graad Zichtverzwaring door duisternis lijdt, wordt deze verzwaring voor hem met een graad verhoogd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 175
+
+- id: DISADV_26
+  name: "Lage astrale kracht"
+  rules: |
+    De AE-stamwaarde zakt door dit Nadeel met 1 punt per graad van het Nadeel.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+
+- id: DISADV_27
+  name: "Lage karmale kracht"
+  rules: |
+    De KE-stamwaarde zakt door dit nadeel met 1 punt per graad van het Nadeel.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+
+- id: DISADV_28
+  name: "Lage levenskracht"
+  rules: |
+    De LE-stamwaarde zakt door dit Nadeel met 1 punt per graad van het Nadeel.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+
+- id: DISADV_29
+  name: "Lage zielskracht"
+  rules: |
+    De ZK-stamwaarde van de held wordt met 1 verminderd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+
+- id: DISADV_30
+  name: "Lage weerstand"
+  rules: |
+    De WS-stamwaarde van de held wordt met 1 verminderd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+
+- id: DISADV_31
+  name: "Pech"
+  rules: |
+    De held start per graad van het Nadeel met 1 Lotspunt minder dan normaal. Zijn maximum aan Lotspunten zakt hierdoor met een punt per graad. Het aantal LotP mag hierdoor niet onder 0 zakken.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 175
+
+- id: DISADV_32
+  name: "Pechvogel"
+  rules: |
+    Bij elk willekeurige toewijzing door de Spelleider (Welke held wordt door de pijl getroffen? Wie van de groep stond in de buurt van de valstrik toen die werd geactiveerd?) zijn de kansen bij een avonturier met dit Nadeel minstens dubbel zo groot als die van een held zonder Pechvogel. Het Nadeel komt in de groep best niet bij alle helden voor omdat het Nadeel zichzelf anders neutraliseert. Bijgevolg vereist de keuze van Pechvogel overleg met de Spelleider.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 175
+
+- id: DISADV_33
+  name: "Karakterfout"
+  rules: |
+    In de passende omstandigheden kan de Meester een verzwaring van 1 voor de aangegeven vaardigheden uitspreken als hem dit gepast lijkt. Er mogen tot twee Karakterfouten per held worden gekozen.
+  selectOptions:
+    - id: 1
+      name: "Arrogantie"
+      description: |
+        De held denkt dat hij beter is dan de rest en laat dit aan iedereen merken.
+        Mogelijke complicaties: *Handel (Afdingen)* en Sociale talenten behalve *Intimideren* en *Wilskracht*.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 173
+    - id: 2
+      name: "IJdelheid"
+      description: |
+        De held heeft er een hekel aan ongepast gekleed te zijn, een onver-zorgd kapsel te hebben of uiterlijk niet helemaal op zijn best te zijn.
+        Mogelijke complicaties: Alle Sociale talenten.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 173
+    - id: 3
+      name: "Afgunst"
+      description: |
+        Een held met deze karakterfout verlangt naar de rijkdom, de vrouw of het wapen van anderen.
+        Mogelijke complicaties: op *Handel (Afdingen)* en Sociale talenten behalve *Intimideren* en *Wilskracht*.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 173
+    - id: 4
+      name: "Twistziek"
+      description: |
+        Iedereen maakt weleens ruzie, maar deze held maakt zichzelf ongeliefd omdat hij voortdurend om de pietluttigste redenen met anderen in aanvaring komt.
+        Mogelijke complicaties: op *Handel (Afdingen)* en Soci- ale talenten behalve *Intimideren* en *Wilskracht*.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 173
+    - id: 5
+      name: "Sinister"
+      description: |
+        De held heeft een onaangename aura. Dit uit zich in een doordringende blik zijn, een knorrige aard, of een onverklaarbaar gevoel van dreiging.
+        Mogelijke complicaties: Alle Sociale talenten behalve *Intimideren* en *Wilskracht*.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 173
+    - id: 6
+      name: "Verwend"
+      description: |
+        Verwende helden laten zich graag bedienen, zijn lui en vermijden elke inspanning. Zonder de nodige gemakken wordt de held al snel onaangenaam, zeurderig of agressief.
+        Mogelijke complicaties: Alle Sociale talenten.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 173
+    - id: 7
+      name: "Vooroordelen"
+      description: |
+        Sommige helden hebben sterke vooroordelen ten opzichte van niet-mensen, vrouwen, mannen, tovenaars, bepaalde godsdiensten of andere groepen. Interactie met deze groepen is een echte uitdaging voor deze held. Vooroordelen kunnen meerdere keren worden gekozen, maar je krijgt maar één keer de AP-Kosten.
+        Mogelijke complicaties: op *Handel (Afdingen)* en Sociale talenten behalve *Intimideren* en *Wilskracht*.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 173
+    - id: 8
+      name: "Wereldvreemd"
+      description: |
+        De held weet weinig over vele aspecten van het dagelijks leven  op Daera:  hij heeft geen begrip van geld of sociaal gedrag, de regels van de etiquette zijn hem volledig onbekend of hij heeft geen gevoel voor de prestaties van de beschaving. Zoals bij Vooroordelen moet deze Karakterfout worden beperkt tot bepaalde gebieden, bv. Adel, eigendom, vooruitgang, geld, Goden, hiërarchieën, religie, wereld buiten de eigen cultuur. Wereldvreemd kan meerdere keren worden geselecteerd, maar je krijgt enkel de AP- Kosten voor twee gebieden (een totaal van -20 AP).
+        Mogelijke complicaties: op *Handel (Afdingen)* en alle Sociale talenten.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 173
+  apValue: "Afhankelijk van de Karakterfout"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 173
+
+- id: DISADV_34
+  name: "Principieel"
+  input: "principe"
+  rules: |
+    Principieel is verdeeld in drie graden. Terwijl de eerste graad de held slechts licht beperkt, is de tweede graad al veeleisender en de laatste graad benadeelt de held heel erg. Een held kan meerdere principes volgen, maar hij krijgt slechts éénmaal avontuurpunten voor het Nadeel (voor de hoogste graad). Wie tegen zijn principes ingaat, loopt een verzwaring van 1 op bij alle Vaardigheidsproeven. Deze Toestand houdt minstens een uur aan. Over de exacte periode beslist de Meester, waarbij hij de ernst van het vergrijp in overweging neemt.
+  selectOptions:
+    - id: 1
+      name: "De 99 Wetten van Rastullah"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 2
+      name: "Morale code van de Hesindekerk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 319
+    - id: 3
+      name: "Morale code van de Phexkerk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 319
+    - id: 4
+      name: "Morale code van de Perainekerk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 320
+    - id: 5
+      name: "Eervol gedrag van ridders"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 6
+      name: "Eervol gedrag van krijgers"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 7
+      name: "Elfs Wereldbeeld"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 8
+      name: "Morale code van de Boronkerk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 318
+    - id: 9
+      name: "Morale code van de Praioskerk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 317
+    - id: 10
+      name: "Morale code van de Rondrakerk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 318
+    - id: 11
+      name: "Dwergse erecode"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 12
+      name: "Strenge pacifist"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 175
+
+- id: DISADV_35
+  name: "Slaapwandelaar"
+  rules: |
+    Geen enkele held zou meer dan éénmaal per week moeten slaapwandelen. De dag na het slaapwandelen heeft de held 24 uur lang een graad van de Toestand *Verdoving* door de geringe nachtrust. De regeneratie van de held wordt met 1 verminderd in de nacht waarin hij slaapwandelt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 176
+
+- id: DISADV_36
+  name: "Slechte gewoonte"
+  input: "gewoonte"
+  rules: |
+    Een held mag zoveel Slechte gewoontes kiezen als hij wil, maar krijgt hierdoor in totaal maximaal 6 AP. In zeldzame gevallen kan de Spelleider ook tot verzwarin- gen op Sociale talenten beslissen.
+  selectOptions:
+    - id: 1
+      name: "Blootvoeter"
+      description: |
+        Hoewel het in zijn cultuur gebruikelijk is schoenen te dragen, loopt de avonturier voortdurend blootsvoets rond – zelfs bij edelen of slecht weer.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 2
+      name: "Seksuele intimidatie"
+      description: |
+        De held staart bij mooie vrouwen of heren naar het decolleté of het achterwerk of geeft voortdurend schunnige opmerkingen.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 3
+      name: "Derde persoon"
+      description: |
+        De held spreekt steeds in de derde persoon over zichzelf („Alrik vindt dit lekker, Alrik had gaarne nog een Ferdoker Bier.“).
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 4
+      name: "Tutoyeerder"
+      description: |
+        Hoewel het gepast zou zijn, kan de held niemand met „u“ aanspreken, zelfs de belangrijkste hoogwaardigheidsbekleders niet. Hij spreekt iedereen met „je“ of „jij“ aan.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 5
+      name: "Altijd de eerste"
+      description: |
+        Of het nu gaat om de keuze van een kamer in de herberg of bij het inkopen bij een kramer, de held moet en zal steeds de eerste zijn.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 6
+      name: "Huilebalk"
+      description: |
+        Of het nu is uit angst, vreugde, verdriet of woede, men kan de held makkelijk laten wenen.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 7
+      name: "Hypochonder"
+      description: |
+        De held denkt voortdurend dat hij een verschrikkelijke ziekte zou kunnen oplopen, zelfs als hij een blakende gezondheid geniet of een besmetting uitermate onwaarschijnlijk is. Als hij daadwerkelijk echt eens ziek is, dan denkt hij meteen het allerergste.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 8
+      name: "Jongen"
+      description: |
+        Als de avonturier met iemand praat, eindigen zijn zinnen vaak met „jongen“, zelfs bij vrouwen („Niet slecht, jongen. Dat heb je goed gedaan, jongen“).
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 9
+      name: "Langslaper"
+      description: |
+        De avonturier slaapt graag uit – als men hem wekt is hij buitengewoon slecht geluimd.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 10
+      name: "Links-Rechts"
+      description: |
+        Het personage verwart voortdurend links en rechts.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 11
+      name: "Mijn kind"
+      description: |
+        De held begint of beëindigt haast elk gesprek met de woorden „mijn kind“.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 12
+      name: "Nagelbijter"
+      description: |
+        Steeds als hij niets te doen heeft bijt het personage op zijn nagels.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 13
+      name: "Neus-/Oorpeuteraar"
+      description: |
+        De held heeft de dwangmatige gewoonte om met zijn vinger in neus of oor te peuteren.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 14
+      name: "Zenuwpees"
+      description: |
+        Rustig afwachten is voor de avonturier buitengewoon moeilijk. Hij ijsbeert door de kamer, gaat zitten, staat weer op – en herhaalt dat patroon de hele tijd tot er eindelijk iets gebeurt.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 15
+      name: "Schoonmaakwoede"
+      description: |
+        De held lijdt aan een poetsdwang – hij moet en zal voorwerpen of kamers steeds schoon houden.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 16
+      name: "Roker"
+      description: |
+        De held is een gepassioneerd maar niet verslaafd genotsroker. Als hij eens geen tabak ter beschikking heeft, zal hij dat luidkeels en voortdurend lamenteren, maar hij ondervindt voor de rest geen nadelen.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 17
+      name: "Praten als een waterval"
+      description: |
+        Als de held met anderen praat, spreekt hij zo snel dat men zich moet concentreren om hem te kunnen volgen.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 18
+      name: "Slechte tafelmanieren"
+      description: |
+        De avonturier slurpt en boert, gebruikt geen bestek of eet alles voor de neus van zijn gezellen op.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 19
+      name: "In zichzelf praten"
+      description: |
+        Bij het nadenken of in ongepaste situaties praat de held graag met of in zichzelf.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 20
+      name: "Slordig"
+      description: |
+        Overal waar de held de nacht of zijn leven doorbrengt, laat hij kledij en spullen rondslingeren.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+    - id: 21
+      name: "Wij"
+      description: |
+        De held praat steeds over zichzelf in het meervoud („wij verstaan wat je zegt.“).
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 177
+  apValueAppend: "per Slechte gewoonte"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 177
+
+- id: DISADV_37
+  name: "Slechte eigenschap"
+  rules: |
+    In elke situatie waarbij de held mogelijk wordt geconfronteerd met zijn Slechte eigenschap, moet hij een Proef op Wilskracht doorstaan om zich te kunnen beheersen. Slaagt hij in deze Proef, dan is alles in orde. Anders moet hij overeenkomstig de Slechte eigenschap reageren. Zijn Slechte eigenschap heeft hem net zolang in zijn greep als dat hij aan   de oorzaak ervan is blootgesteld. De Meester kan voor de Proef op *Wilskracht* naargelang de oorzaak verzwaringen of verlichtingen bepalen. Er mogen tot twee slechte eigenschappen per held worden gekozen. Combinaties, die elkaar opheffen (bv. Gierig en Spilzucht) mogen niet worden gekozen. Het laatste woord hierover ligt bij de spelleider.
+  selectOptions:
+    - id: 1
+      name: "Bijgeloof"
+      description: |
+        De held wijkt voor zwarte katten, ongeluksgetallen en andere slechte voortekenen.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 2
+      name: "Gezagsgetrouw"
+      description: |
+        De held twijfelt niet  aan de woorden van hogergeplaatste personen, zelfs als ze onlogische bevelen uitdelen of ongeloofwaardig zijn.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 3
+      name: "Gierig"
+      description: |
+        Eens de held goud of andere waardevolle voorwerpen bezit, dan geeft hij ze maar ongaarne weer af. Liever doet hij zichzelf en anderen financieel tekort en neemt hij er zelfs onnodige risico‘s bij om geen geld uit te hoeven geven.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 4
+      name: "Hebzucht"
+      description: |
+        Hebzuchtige helden laten alle voorzichtigheid varen als het erom gaat een schatkist of andere waardevolle voorwerpen te onderzoeken en zich toe te eigenen.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 5
+      name: "Opvliegend"
+      description: |
+        De held is heel prikkelbaar en neigt tot woede-uitbarstingen, die weliswaar doorgaans slechts kort duren, maar toch tot gewelddadig gedrag kunnen leiden.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 6
+      name: "Kleptomanie"
+      description: |
+        Sommige avonturiers stelen omwille van het stelen zelf, of de buit nu intrinsieke waarde bezit of niet, zonder over de gevolgen na te denken.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 7
+      name: "Naïef"
+      description: |
+        De held is goedhartig en naïef, vertrouwt de verkeerde mensen en kan zich nauwelijks voorstellen dat velen niet het beste met hem voorhebben. Ook na teleurstellingen wordt hij niet voorzichtiger.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 8
+      name: "Nieuwsgierig"
+      description: |
+        Iedere avonturier is nieuwsgierig, maar sommigen worden zo gedreven door hun nieuwsgierigheid dat ze onnodige risico’s aangaan om ze te bevredigen.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 9
+      name: "Wraakzucht"
+      description: |
+        Terwijl opvliegende helden onmiddellijk hun woede koelen, handelen wraakzuchtige helden doordachter. Ze plannen op lange termijn hoe ze zich kunnen wreken als ze worden gekrenkt, hoe klein deze krenkingen ook waren.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 10
+      name: "Gokverslaving"
+      description: |
+        Gokverslaafde helden laten zich snel verleiden tot riskant geluksspel en weddenschappen. Vaak leidt de gokverslaving tot hoge speelschulden.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+    - id: 11
+      name: "Spilzucht"
+      description: |
+        Geld blijft niet lang in het bezit van deze held. Hij spendeert handenvol geld aan zinloze dingen.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 176
+  apValue: "Afhankelijk van de Slechte eigenschap"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 176
+
+- id: DISADV_38
+  name: "Slechte regeneratie (Astrale energie)"
+  rules: |
+    Bij elke graad van het Nadeel moet de held bij een regeneratieworp 1 punt aftrekken (tot op een minimum van 0).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 177
+
+- id: DISADV_39
+  name: "Slechte regeneratie (Karmale energie)"
+  rules: |
+    Bij elke graad van het Nadeel moet de held bij een regeneratieworp 1 punt aftrekken (tot op een minimum van 0).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 177
+
+- id: DISADV_40
+  name: "Slechte regeneratie (Levensenergie)"
+  rules: |
+    Bij elke graad van het Nadeel moet de held bij een regeneratieworp 1 punt aftrekken (tot op een minimum van 0).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 177
+
+- id: DISADV_41
+  name: "Zwak astraallichaam"
+  rules: |
+    Telkens de held Astraalpunten uitgeeft, verliest hij bijkomend een Astraalpunt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 179
+
+- id: DISADV_42
+  name: "Zwak karmaallichaam"
+  rules: |
+    Telkens de held Karmapunten uitgeeft, verliest hij bijkomend een Karmapunt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 179
+
+- id: DISADV_43
+  name: "Gevoelige reukzin"
+  rules: |
+    Zolang de held is blootgesteld aan de geur, is hij onderworpen aan een graad *Verwarring*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 172
+
+- id: DISADV_44
+  name: "Spraakgebrek"
+  rules: |
+    Bij Sociale talenten (buiten *Mensenkennis* en *Wilskracht*) en *Handel (Afdingen)* kan hij, na beslissing van de Meester, een verzwaring van 1 oplopen als het erom gaat met andere personen te spreken.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 178
+
+- id: DISADV_45
+  name: "Stigma"
+  input: "Stigma"
+  rules: |
+    De Meester kan een verzwaring van 1 opleggen voor Sociale talenten (uitgezonderd *Intimideren*, *Mensenkennis* en *Wilskracht*) en *Handel (Afdingen)*, als hij dit passend vindt. Een held kan het Nadeel maar éénmaal kiezen.
+  selectOptions:
+    - id: 1
+      name: "Albino"
+      description: |
+        Een albino heeft is geboren met een gebrek aan kleurpigmenten, zodat huid en haar wit zijn. De ogen hebben bovendien een roodachtige of violette schijn. Ze gelden als ongeluksbrengers en zijn in de meeste samenlevingen buitenbeentjes. Vaak bezitten albino‘s bovendien nog het Nadeel Gevoelig voor zonlicht.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+    - id: 2
+      name: "Brandmerk"
+      description: |
+        Een slaventeken of een brandmerk in Zhayad valt op en zet mensen aan het denken over de levensloop van de held.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+    - id: 3
+      name: "Groen Haar"
+      description: |
+        Door een magisch experiment, de ingreep van een demon of door een erfvloek zijn de haren van de held groen. Ook afknippen haalt niets uit, omdat de haren haast onmiddellijk weer teruggroeien, terwijl de afgeknipte haren vrijwel meteen in het niets verdwijnen. Kleurmiddelen blijken niet te werken.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+    - id: 4
+      name: "Katachtige ogen"
+      description: |
+        De vorm van de ogen is katachtig, wat exotisch en bevreemdend overkomt.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+    - id: 5
+      name: "Slangenschubben"
+      description: |
+        Een deel van het lichaam van de avonturier is bedekt met schubben in plaats van huid.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 178
+
+- id: DISADV_46
+  name: "Stom"
+  rules: |
+    De held kan zich in de meeste gevallen tegenover andere personen niet verstaanbaar maken (buiten gebarentaal of schrift). Het inzetten van Spreuken of andere handelingen die gesproken taal behoeven zijn onmogelijk of heel sterk verzwaard. De held heeft de Status *Stom*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 178
+
+- id: DISADV_47
+  name: "Doof"
+  rules: |
+    De held kan geen Proeven op *Zintuigen* afleggen die met het gehoor te maken hebben. Hij heeft de Status *Doof*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 171
+
+- id: DISADV_48
+  name: "Onbekwaam"
+  rules: |
+    De held moet bij een Proef op de Vaardigheid de beste worp opnieuw rollen. Het tweede resultaat is beslissend. Een avonturier kan maximum twee onbekwaamheden bezitten.
+  prerequisites: "~~Voordeel Aanleg voor dezelfde Vaardigheid~~, maximaal 2 onbekwaamheden"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 175
+
+- id: DISADV_49
+  name: "Onvrij"
+  rules: |
+    De held kan een verzwaring krijgen wanneer hij als onvrije leden van een hogere klasse met zijn Sociale talenten wil beïnvloeden. Bovendien heeft hij in zijn cultuur te maken met onderdrukking, geniet zo goed als geen wettelijke bescherming en geldt als eigendom van iemand van een hogere klasse. Meer hierover vind je te- rug op bladzijde **338**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 175
+
+- id: DISADV_50
+  name: "Verplichtingen"
+  input: "Verplichting"
+  rules: |
+    De held moet de aanwijzingen opvolgen van diegene waaraan hij dit verplicht is of met de gevolgen leven. Een held kan aan meerdere instellingen of personen Verplichtingen hebben, maar hij krijgt maar eenmaal avontuurpunten voor het Nadeel (en wel voor de hoogste verplichtingsgraad).
+  selectOptions:
+    - id: 1
+      name: "Sibbelid tegenover de sibbe"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+    - id: 2
+      name: "Een held met aanzienlijke schulden"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+    - id: 3
+      name: "Een vazal tegenover zijn leenheer"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+    - id: 4
+      name: "Een gewijde tegenover zijn kerk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+    - id: 5
+      name: "Een gewijde tegenover zijn tempel"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+    - id: 6
+      name: "Een magiër tegenover zijn leermeester"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+    - id: 7
+      name: "Een magiër tegenover zijn academie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+    - id: 8
+      name: "Een magiër tegenover zijn gilde"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+    - id: 9
+      name: "Een lid van een radicale sekte tegenover de aanvoerders van de groep"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 179
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 179
+
+- id: DISADV_51
+  name: "Verminkt"
+  rules: |
+    Veel Vaardigheidsproeven kunnen door de verminking verzwaard of onmogelijk zijn. De beslissing hierover ligt bij de Spelleider, afhankelijk van de situatie.
+
+    - **Eén arm:**Eén van de armen van het personage ontbreekt ten minste tot aan de elleboog.
+    - **Eén been:** De held heeft slechts één been, het andere is geamputeerd tot onder de knie. De SN-Stamwaarde is gehalveerd. Krukken en eenvoudige protheses, zoals een houten been, helpen niet tegen deze vermindering van de Snelheid.
+    - **Eén hand:** De avonturier mist een hand.
+    - **Eén oog:** Eén van de ogen van de held is blind of ontbreekt. Aanvallen met afstandswapens zijn daardoor met 4 punten verzwaard.
+    - **Eén oor:** Eén van de oren is afgesneden of verminkt. Proeven op *Zintuigen* in verband met horen zijn voor de held standaard met 1 punt verzwaard.
+  selectOptions:
+    - id: 1
+      name: "Eén arm"
+      description: |
+        Eén van de armen van het personage ontbreekt ten minste tot aan de elleboog.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+    - id: 2
+      name: "Eén oog"
+      description: |
+        Eén van de ogen van de held is blind of ontbreekt. Aanvallen met afstandswapens zijn daardoor met 4 punten verzwaard.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+    - id: 3
+      name: "Eén been"
+      description: |
+        De held heeft slechts één been, het andere is geamputeerd tot onder de knie. De SN-Stamwaarde is gehalveerd. Krukken en eenvoudige protheses, zoals een houten been, helpen niet tegen deze vermindering van de Snelheid.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+    - id: 4
+      name: "Eén hand"
+      description: |
+        De avonturier mist een hand.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+    - id: 5
+      name: "Eén oor"
+      description: |
+        Eén van de oren is afgesneden of verminkt. Proeven op *Zintuigen* in verband met horen zijn voor de held standaard met 1 punt verzwaard.
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 178
+  apValue: "één arm: −30 AP; één been: −30 AP; één hand: −20 AP; één oog: −10 AP; één oor: −5 AP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 178
+
+- id: DISADV_52
+  name: "Ware naam"
+  rules: |
+    Als een tovenaar een Spreuk inzet tegen  een doel, wiens ware naam hij kent (en die over dit Nadeel beschikt), dalen de Zielskracht en de Weerstand van het doelwit met 4, waardoor het gemakkelijker te betoveren is.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 179
+
+- id: DISADV_53
+  name: "Wilde magie"
+  rules: |
+    Een rol van 19 wordt bij Vaardigheidsproeven op Spreuken of Rituelen, met het oog op de bepaling van een Blunder, net als een 20 beoordeeld.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 179
+
+- id: DISADV_54
+  name: "Magiegevoelig"
+  rules: |
+    Tegenover magie zijn Zielskracht en Weerstand per graad 1 punt lager dan normaal.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 174
+
+- id: DISADV_55
+  name: "Broos"
+  rules: |
+    Verzwaringen door de Toestand Pijn worden behandeld alsof ze een graad hoger zijn. De held wordt daardoor reeds bij graad III *Handelingsonbekwaam*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 171

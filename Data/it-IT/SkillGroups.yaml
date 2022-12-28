@@ -1,0 +1,19 @@
+- id: 1
+  name: "Fisiche"
+  fullName: "Competenze fisiche"
+
+- id: 2
+  name: "Sociali"
+  fullName: "Competenze sociali"
+
+- id: 3
+  name: "Naturali"
+  fullName: "Competenze naturali"
+
+- id: 4
+  name: "Conoscitive"
+  fullName: "Competenze conoscitive"
+
+- id: 5
+  name: "Artigianali"
+  fullName: "Competenze artigianali"

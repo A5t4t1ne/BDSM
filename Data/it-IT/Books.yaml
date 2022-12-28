@@ -1,0 +1,5 @@
+- id: REG001
+  short: RB
+  name: "Regolamento"
+  isCore: true
+  isAdultContent: false

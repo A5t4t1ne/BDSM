@@ -1,0 +1,59 @@
+- id: SPELL_62
+  name: "Canto dei ricordi"
+  effect: |
+    Gli elfi suonano questa musica per richiamare alla memoria in modo esatto qualcosa accaduto molto tempo prima. Il canto va suonato 5 minuti per ogni anno che è trascorso da quell’evento e si protrae per un periodo di tempo pari alla durata dell’evento che si intende riportare alla memoria.
+  aeCost: "1 PA ogni 5 minuti"
+  aeCostShort: "1 PA/5 min"
+  src:
+    - id: REG001
+      firstPage: 283
+
+- id: SPELL_63
+  name: "Canto della pace"
+  effect: |
+    Dopo cinque minuti in cui viene suonata, la canzone crea una zona di pace (con un raggio pari a LQ × 3 passi) attorno all’elfo. Finché continuerà a suonare, gli animali e le creature intelligenti perderanno tutto il loro interesse nell’uso di violenza contro gli altri o contro l’elfo stesso. Resistere a questo sentimento di pace richiede una prova su *Forza di volontà* con una penalità uguale al LQ × 2 del canto. Questa magia non condiziona creature innaturali come non-morti, demoni, elementali o golem.
+  aeCost: "2 PA ogni 5 minuti"
+  aeCostShort: "2 PA/5 min"
+  src:
+    - id: REG001
+      firstPage: 284
+
+- id: SPELL_64
+  name: "Canto dell'amicizia"
+  effect: |
+    Due elfi che suonano questo canto insieme instaurano un solido legame di fratellanza. Ciò può accadere una sola volta nella vita di un elfo. Il canto consiste in tre strofe, ognuna della durata di un’ora e che devono essere suonate simultaneamente dai due partecipanti in tre giorni consecutivi. Un elfo unito da questo canto percepisce forti emozioni provate dall’altro, anche a grandi distanze. Potrà lanciare l’incantesimo Balsamon et medicina sull’altro anche se non dispone di PA, andando a trasferire i suoi PV sull’altro, in caso di necessità.
+  aeCost: "4 PA ogni ora, 1 PA permanente per l’ultima strofa"
+  aeCostShort: "4 PA ogni ora/1 PA perm"
+  src:
+    - id: REG001
+      firstPage: 283
+
+- id: SPELL_65
+  name: "Melodia del talento"
+  effect: |
+    Le prove sulle le competenze artigianali eseguite dall’elfo mentre cantano questa melodia, ricevono un bonus pari al LQ del rituale.
+  aeCost: "4 PA ogni ora"
+  aeCostShort: "4 PA/ora"
+  src:
+    - id: REG001
+      firstPage: 284
+
+- id: SPELL_66
+  name: "Canto dell'inquietudine"
+  effect: |
+    L’elfo intreccia nel canto delle domande, che vorrebbe porre ad un caro amico. In questo modo potrà sapere se l’amico in questione è ammalato (o morto, nel peggiore dei casi), se teme una morte imminente o al contrario se è felice e contento. Questo canto non trasmette delle chiare immagini mentali, ma solo delle impressioni generali. Più lontano è l’amico da colui che canta, più lungo dovrà essere il canto. L’elfo deve cantare 5 minuti per ogni 100 miglia di distanza.
+  aeCost: "2 PA ogni 5 minuti"
+  aeCostShort: "2 PA/5 min "
+  src:
+    - id: REG001
+      firstPage: 284
+
+- id: SPELL_67
+  name: "Melodia della magia"
+  effect: |
+    Gli elfi che suonano questa melodia indisturbati per un’ora cadono in uno stato di trance grazie al quale entrano in sintonia con le correnti astrali dell’ambiente che li circonda. Quando, dopo mezz’ora, si risvegliano da questo stato, tutte le loro prove per incantesimi e rituali ricevono un bonus (+1 per LQ 1–3, +2 per LQ 4–6) fino all’alba seguente. 
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  src:
+    - id: REG001
+      firstPage: 284

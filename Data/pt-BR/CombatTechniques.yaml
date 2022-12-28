@@ -1,0 +1,93 @@
+- id: CT_1
+  name: "Bestas"
+  src:
+    - id: US25001E
+      firstPage: 239
+
+- id: CT_2
+  name: "Arcos"
+  src:
+    - id: US25001E
+      firstPage: 239
+
+- id: CT_3
+  name: "Adagas"
+  special: |
+    Não se pode usar adagas para aparar armas de corrente, armas de haste, armas de impacto de duas mãos ou espadas de duas mãos.
+  src:
+    - id: US25001E
+      firstPage: 231
+
+- id: CT_4
+  name: "Armas de Esgrima"
+  special: |
+    Não se pode usar armas de esgrima para aparar armas de corrente, armas de haste, armas de impacto de duas mãos ou espadas de duas mãos. Testes de defesa contra ataques com armas de esgrima sofrem 1 de penalidade.
+  src:
+    - id: US25001E
+      firstPage: 231
+
+- id: CT_5
+  name: "Armas de Impacto"
+  src:
+    - id: US25001E
+      firstPage: 231
+
+- id: CT_6
+  name: "Armas de Corrente"
+  special: |
+    É mais difícil defender-se contra as armas de corrente. Aparar contra elas sofre 2 de penalidade. Os escudos usam apenas seu bônus normal contra as armas de corrente (seu AP não é dobrado). Ataques com armas de corrente tem um fiasco com um 19 ou 20. Você não pode aparar com armas de corrente.
+  src:
+    - id: US25001E
+      firstPage: 230
+
+- id: CT_7
+  name: "Lanças"
+  src:
+    - id: US25001E
+      firstPage: 231
+
+- id: CT_9
+  name: "Briga"
+  special: |
+    Combatentes desarmados aparando uma arma ainda sofrem dano total, mesmo se o aparar for bem-sucedido (então, provavelmente, devem tentar se esquivar ao invés disso). Por outro lado, se você usar uma arma para aparar um ataque de briga, o atacante sofre metade do dano da arma. Combatentes causam DN 1D6 quando brigam, modificado pelo atributo primário (veja a seguir).
+  src:
+    - id: US25001E
+      firstPage: 230
+
+- id: CT_10
+  name: "Escudos"
+  special: |
+    AT e AP de escudos são calculados como qualquer outra técnica de combate. Aparar com um escudo concede o dobro do bônus de aparar do escudo e não impõe uma penalidade por usar a mão inábil (veja a página 233). Ataques de combate à distância e ataques de inimigos grandes também podem ser aparados usando um escudo. Usar um segundo escudo não aumenta o bônus. Para se defender de um ataque de combate à distância, você precisa aparar ativamente com o escudo. Quando aparando com um escudo, você também não pode aparar com a sua arma principal. Você pode usar um escudo para atacar.
+  src:
+    - id: US25001E
+      firstPage: 231
+
+- id: CT_12
+  name: "Espadas"
+  src:
+    - id: US25001E
+      firstPage: 231
+
+- id: CT_13
+  name: "Armas de Haste"
+  src:
+    - id: US25001E
+      firstPage: 231
+
+- id: CT_14
+  name: "Armas de Arremesso"
+  src:
+    - id: US25001E
+      firstPage: 239
+
+- id: CT_15
+  name: "Armas de Impacto de Duas Mãos"
+  src:
+    - id: US25001E
+      firstPage: 231
+
+- id: CT_16
+  name: "Espadas de Duas Mãos"
+  src:
+    - id: US25001E
+      firstPage: 231

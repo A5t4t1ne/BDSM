@@ -1,0 +1,2715 @@
+- id: ITEMTPL_1
+  name: "Basiliskentong"
+  versions:
+    note: |
+      Gewijd (Hesinde; naamloze); Hesindegewijde wapens kunnen alleen door Hesindegewijden worden gekocht. Helden kunnen geen naamloos gewijd wapen verkrijgen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_2
+  name: "Dolk"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_3
+  name: "Drakentand"
+  versions:
+    note: |
+      Enkel dwergen kunnen bij de heldencreatie een drakentand kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_4
+  name: "Pareerdolk"
+  versions:
+    note: |
+      Pareerwapen (AW-bonus +1 voor het hoofdwapen)
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_5
+  name: "Mes"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_6
+  name: "Zware dolk"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_7
+  name: "Waqqif"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_8
+  name: "Floret"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_9
+  name: "Rapier"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_10
+  name: "Wolfsmes"
+  versions:
+    note: |
+      Enkel Rivier- of Woudelfen kunnen bij de heldencreatie een wolfsmes kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_11
+  name: "Brabakbengel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_12
+  name: "Knots"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_13
+  name: "Knuppel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_14
+  name: "Lindwjirmslachter"
+  versions:
+    note: |
+      Enkel dwergen kunnen bij de heldencreatie een lindwjirmslachter kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_15
+  name: "Magiërstaf (kort)"
+  versions:
+    note: |
+      Enkel magiërs kunnen bij de heldencreatie een magiërstaf kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_16
+  name: "Magiërstaf (middel)"
+  versions:
+    note: |
+      Enkel magiërs kunnen bij de heldencreatie een magiërstaf kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_17
+  name: "Molokdezjnaja"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_18
+  name: "Orkneus"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_19
+  name: "Ravenbek"
+  versions:
+    note: |
+      Gewijd (Boron); Borongewijde wapens kunnen alleen door Borongewijden worden gekocht.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_20
+  name: "Zonnescepter"
+  versions:
+    note: |
+      Gewijd (Praios); Praiosgewijde wapens kunnen alleen door Praiosgewijden worden gekocht.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_21
+  name: "Strijdbijl"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_22
+  name: "Strijdknots"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_23
+  name: "Strijdvlegel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_24
+  name: "Strijdlans"
+  versions:
+    note: |
+      Dit wapen kan alleen worden gebruikt bij een lansaanval.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_25
+  name: "Boksijzer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 366
+
+- id: ITEMTPL_26
+  name: "Houten schild"
+  versions:
+    note: |
+      Klein schild, 20 structuurpunten
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_27
+  name: "Lederen schild"
+  versions:
+    note: |
+      Klein schild, 15 structuurpunten
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_28
+  name: "Thorwaals schild"
+  versions:
+    note: |
+      Middelgroot schild, 25 structuurpunten
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_29
+  name: "Groot schild"
+  versions:
+    note: |
+      Groot schild, 30 structuurpunten, bovendien –1 AV op het hoofdwapen
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367
+
+- id: ITEMTPL_30
+  name: "Barbarenzwaard"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_31
+  name: "Entermes"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_32
+  name: "Kapmes"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_33
+  name: "Khunchomer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_34
+  name: "Kortzwaard"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_35
+  name: "Langzwaard"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_36
+  name: "Robbendoder"
+  versions:
+    note: |
+      Enkel firnelfen kunnen bij de heldencreatie een robbendoder kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_37
+  name: "Sabel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_38
+  name: "Slavendood"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_39
+  name: "Drietand"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_40
+  name: "Dschadra"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_41
+  name: "Hellebaard"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_42
+  name: "Houten speer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_43
+  name: "Vechtstaf"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_44
+  name: "Magiërstaf (lang)"
+  versions:
+    note: |
+      Enkel magiërs kunnen bij de heldencreatie een magiërstaf kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_45
+  name: "Speer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_46
+  name: "Dubbele lelie"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_47
+  name: "Anderhalfhander"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_48
+  name: "Dubbelkhunchomer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_49
+  name: "Grote slavendood"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_50
+  name: "Rondrakam"
+  versions:
+    note: |
+      Gewijd (Rondra); Enkel Rondragewijden kunnen een Rondrakam en Rondragewijde wapens kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_51
+  name: "Tuzakmes"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_52
+  name: "Tweehander"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_53
+  name: "Barbarenstrijdbijl"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_54
+  name: "Rotskliever"
+  versions:
+    note: |
+      Enkel dwergen kunnen bij de heldencreatie een rotskliever kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_55
+  name: "Strijdhamer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_56
+  name: "Dwergenmoker"
+  versions:
+    note: |
+      Enkel dwergen kunnen bij de heldencreatie een dwergenmoker kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 368
+
+- id: ITEMTPL_57
+  name: "Balestrina"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_58
+  name: "Ijzerwouder"
+  versions:
+    note: |
+      Magazijn (voor 10 schoten); 2 acties per schot, 10 acties om het magazijn te vervangen
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_59
+  name: "Handkruisboog"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_60
+  name: "Lichte Kruisboog"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_61
+  name: "Zware Kruisboog"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_62
+  name: "Elfenboog"
+  versions:
+    note: |
+      Enkel elfen kunnen bij de heldencreatie een elfenboog kopen.
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_63
+  name: "Composietboog"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_64
+  name: "Korte boog"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_65
+  name: "Lange boog"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_66
+  name: "Snijtand"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_67
+  name: "Stehen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_68
+  name: "Werpbijl"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_69
+  name: "Werpdolk"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_70
+  name: "Werpknots"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_71
+  name: "Werpring"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_72
+  name: "Werpschijf"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_73
+  name: "Werpspeer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_74
+  name: "Werpster"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 372
+
+- id: ITEMTPL_75
+  name: "Pijl"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 373
+
+- id: ITEMTPL_76
+  name: "Bout"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 373
+
+- id: ITEMTPL_77
+  name: "Kogel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 373
+
+- id: ITEMTPL_78
+  name: "Normale kledij"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_79
+  name: "Pels"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_80
+  name: "Zware kledij"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_81
+  name: "Winterkleding"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_82
+  name: "Linnen pantser"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_83
+  name: "Gambeson"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_84
+  name: "Lederpantser"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_85
+  name: "Maliënkolder"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_86
+  name: "Schubbenpantser"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_87
+  name: "Licht platenpantser"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_88
+  name: "Boogpees"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_89
+  name: "Dolkschede"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_90
+  name: "Pijlenkoker (voor 20 pijlen of bouten)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_91
+  name: "Zwaardschede"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_92
+  name: "Onderkledij voor Metalen wapenrusting"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_93
+  name: "Wapenonderhoudsset (Slijpsteen, doeken)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_94
+  name: "Balkleed"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_95
+  name: "Baret"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_96
+  name: "Borstdoek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_97
+  name: "Vilten hoed"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_98
+  name: "Kaproen (soort kap)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_99
+  name: "Halsdoek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_100
+  name: "Hemd"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_101
+  name: "Broek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_102
+  name: "Broek met zakken"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_103
+  name: "Jas"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_104
+  name: "Kaftan"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_105
+  name: "Kapmantel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_106
+  name: "Jurk"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_107
+  name: "Korset"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_108
+  name: "Pij"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_109
+  name: "Lederen riem"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_110
+  name: "Lederen handschoenen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_111
+  name: "Lederen hoed met brede rand"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_112
+  name: "Lederen mantel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_113
+  name: "Lederen schoenen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_114
+  name: "Lederen schort met zakken"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_115
+  name: "Lederen laarzen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_116
+  name: "Lendenschort"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_117
+  name: "Magiërsgewaad"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_118
+  name: "Mantel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_119
+  name: "Nachthemd"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_120
+  name: "Pelsen wanten"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_121
+  name: "Pelsgevoerde laarzen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_122
+  name: "Pelzmütze"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_123
+  name: "Rok"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_124
+  name: "Sandalen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_125
+  name: "Sjaal"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_126
+  name: "Sluier"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_127
+  name: "Kanten lijfje"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_128
+  name: "Zijden sjerp"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_129
+  name: "Zijden kousen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_130
+  name: "Strohoed"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_131
+  name: "Tuniek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_132
+  name: "Tulband"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_133
+  name: "Onderbroek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_134
+  name: "Onderkleed"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 374
+
+- id: ITEMTPL_135
+  name: "Wapenrok"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_136
+  name: "Vest"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_137
+  name: "Wollen kousen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_138
+  name: "Kledingpakket: Onvrij"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_139
+  name: "Kledingpakket: Vrij"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_140
+  name: "Kledingpakket: Lage adel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_141
+  name: "Kledingpakket: Adel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_142
+  name: "Kledingpakket: Hoge adel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_143
+  name: "Hengel met visdraad (10 pas)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_144
+  name: "Beker"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_145
+  name: "Bijl/handbijl"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_146
+  name: "Bezem"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_147
+  name: "Braadspies (ijzer)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_148
+  name: "Drietand"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_149
+  name: "Dorsvlegel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_150
+  name: "Eetbestek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_151
+  name: "Vijl"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_152
+  name: "Takel (voor 250 steen)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_153
+  name: "Hamer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_154
+  name: "Handboor"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_155
+  name: "Handzaag"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_156
+  name: "Hangmat"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_157
+  name: "Kapmes"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_158
+  name: "Houthakkersbijl"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_159
+  name: "Houten schaal"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_160
+  name: "Houten bord"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_161
+  name: "Klimhaken (10 stuks)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_162
+  name: "Kruik"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_163
+  name: "Koperen ketel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_164
+  name: "Lijm"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_165
+  name: "Beitel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_166
+  name: "Mes"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_167
+  name: "Naald en draad"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_168
+  name: "Spijkers (10 stuks)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_169
+  name: "Pan"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_170
+  name: "Schop"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_171
+  name: "Schaar"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_172
+  name: "Slaapzak"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_173
+  name: "Sneeuwschoenen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_174
+  name: "Spade"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_175
+  name: "Pikhouweel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_176
+  name: "Touwladder (per pas)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_177
+  name: "Wollen deken"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_178
+  name: "Tang"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_179
+  name: "Tent (1 persoon)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_180
+  name: "Tent (2 personen)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_181
+  name: "Proviand (1 dag)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 375
+
+- id: ITEMTPL_182
+  name: "Fakkel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_183
+  name: "Gwen Petryl (vuistgroot)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_184
+  name: "Kaarsen (10 stuks)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_185
+  name: "Lantaarn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_186
+  name: "Olielamp"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_187
+  name: "Dimbare lantaarn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_188
+  name: "Vuursteen en staal"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_189
+  name: "Kandelaar"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_190
+  name: "Lampolie (12 uur)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_191
+  name: "Tondel (25 porties)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_192
+  name: "Tondeldoos (plaats voor 25 porties)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_193
+  name: "Bloedzuiger"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_194
+  name: "Chirurgische instrumenten"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_195
+  name: "Schedelboor"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_196
+  name: "Laatkop (aderlating)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_197
+  name: "Verband (10 stuks)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_198
+  name: "Wondnaaisetje"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_199
+  name: "Veldfles"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_200
+  name: "Geldbuidel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_201
+  name: "Geldriem"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_202
+  name: "Gordeltas"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_203
+  name: "Draagkorf"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_204
+  name: "Lederen ransel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_205
+  name: "Lederen rugzak"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_206
+  name: "Fiool"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_207
+  name: "Poederdoos"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_208
+  name: "Zak"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_209
+  name: "Schminkdoos"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_210
+  name: "Tiegel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_211
+  name: "Drinkhoorn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_212
+  name: "Kist"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_213
+  name: "Linnen buidel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 376
+
+- id: ITEMTPL_214
+  name: "Schoudertas"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_215
+  name: "Vase"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_216
+  name: "Waterzak"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_217
+  name: "Bindtouw (per pas)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_218
+  name: "Ketting (per pas)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_219
+  name: "Klimtouw (per pas)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_220
+  name: "Koord (per 10 pas)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_221
+  name: "Breekijzer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_222
+  name: "Loper"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_223
+  name: "Valse baard"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_224
+  name: "Werphaak"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_225
+  name: "Archaïsch laboratorium"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_226
+  name: "Heksenkeuken"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_227
+  name: "Alchemistenlaboratorium"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_228
+  name: "Fijne mechanische hulpmiddelen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_229
+  name: "Graveermateriaal"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_230
+  name: "Cartografisch gereedschap"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_231
+  name: "Naaidoosje"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_232
+  name: "Tatoeagemateriaal"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_233
+  name: "Timmermanskist"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_234
+  name: "Abacus"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_235
+  name: "Astrolabium"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_236
+  name: "Barnsteenbril"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_237
+  name: "Telescoop"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_238
+  name: "Zuidwijzer (kompas)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_239
+  name: "Kwadrant"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_240
+  name: "Zandloper"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_241
+  name: "Vinsalter ei (zakhorloge)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 377
+
+- id: ITEMTPL_242
+  name: "Amulet, Brons"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_243
+  name: "Amulet, Zilver"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_244
+  name: "Amulet, Goud"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_245
+  name: "Armband, Brons"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_246
+  name: "Armband, Zilver"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_247
+  name: "Armband, Goud"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_248
+  name: "Fibula (mantelspeld), Brons"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_249
+  name: "Fibula (mantelspeld), Zilver"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_250
+  name: "Fibula (mantelspeld), Goud"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_251
+  name: "Halsketting, Brons"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_252
+  name: "Halsketting, Zilver"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_253
+  name: "Halsketting, Goud"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_254
+  name: "Oorring, Brons"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_255
+  name: "Oorring, Zilver"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_256
+  name: "Oorring, Goud"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_257
+  name: "Ring, Brons"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_258
+  name: "Ring, Zilver"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_259
+  name: "Ring, Goud"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_260
+  name: "Tiara, Brons"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_261
+  name: "Tiara, Zilver"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_262
+  name: "Tiara, Goud"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_263
+  name: "Amethist"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_264
+  name: "Aquamarijn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_265
+  name: "Aventurijn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_266
+  name: "Bergkristal"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_267
+  name: "Barnsteen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_268
+  name: "Diamant"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_269
+  name: "Granaat"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_270
+  name: "Groene jade"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_271
+  name: "Kornalijn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_272
+  name: "Lapis lazuli"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_273
+  name: "Maansteen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_274
+  name: "Onyx"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_275
+  name: "Opaal"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_276
+  name: "Parel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_277
+  name: "Robijn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_278
+  name: "Saffier"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_279
+  name: "Smaragd"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_280
+  name: "Topaas"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_281
+  name: "Turkoois"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_282
+  name: "Ganzenveder"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_283
+  name: "Vedermes"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_284
+  name: "Houtskoolstift"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_285
+  name: "Krijt"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_286
+  name: "Papier (1 blad)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_287
+  name: "Perkament (1 blad)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_288
+  name: "Penseel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_289
+  name: "Zegelwas"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_290
+  name: "Dagboek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_291
+  name: "Inkt"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 378
+
+- id: ITEMTPL_292
+  name: "Brevier der Twaalfgoddelijke onderwijzing"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_293
+  name: "Codex Albyricus"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_294
+  name: "Encyclopaedia Magica"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_295
+  name: "Den Hulprycken Leydraedt van den Reysenden Adept"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_296
+  name: "Armband van Wilskracht"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_297
+  name: "Firnkling"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_298
+  name: "Antidotum"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_299
+  name: "Heeldrank"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_300
+  name: "Liefdesdrank"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_301
+  name: "Onzichtbaarheidselixir"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_302
+  name: "Transformatie-elixir"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_303
+  name: "Wapenbalsem"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_304
+  name: "Wilsdronk"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_305
+  name: "Toverdrank"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 379
+
+- id: ITEMTPL_306
+  name: "Arax"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_307
+  name: "Kelmon"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_308
+  name: "Tulmadron"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_309
+  name: "Wurara"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_310
+  name: "Alruin"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_311
+  name: "Axordaboom/Xordai"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_312
+  name: "Donf"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_313
+  name: "Muggenschrik"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_314
+  name: "Gulmond"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_315
+  name: "Lulanie"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_316
+  name: "Wirselkruid"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_317
+  name: "Draailier"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_318
+  name: "Bazuin"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_319
+  name: "Fluit"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_320
+  name: "Handharp"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_321
+  name: "Kabasfluit"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_322
+  name: "Luit"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_323
+  name: "Pijpzak"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_324
+  name: "Schel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_325
+  name: "Signaalhoorn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_326
+  name: "Spinet"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_327
+  name: "Staande harp"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_328
+  name: "Trommel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_329
+  name: "Badolie"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_330
+  name: "Bier (klein vaatje)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_331
+  name: "Brandglas"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_332
+  name: "Bordspel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_333
+  name: "Borstel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_334
+  name: "Godenfiguurtjes"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_335
+  name: "Handspiegel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_336
+  name: "Jongleerbal"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_337
+  name: "Koffie (geroosterd)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_338
+  name: "Cacao"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_339
+  name: "Kam"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_340
+  name: "Kristallen bol"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_341
+  name: "Lippenrood"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_342
+  name: "Nagelvijl"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_343
+  name: "Parfum"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_344
+  name: "Peper"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_345
+  name: "Poeder"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_346
+  name: "Jenever"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_347
+  name: "Chocolade"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_348
+  name: "Spons"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_349
+  name: "Zeef"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_350
+  name: "Speelkaarten"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_351
+  name: "Muziekdoos"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_352
+  name: "Stokpaardje"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_353
+  name: "Stoffen pop"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_354
+  name: "Tabak"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_355
+  name: "Tabaksdoos"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_356
+  name: "Tabakspijp"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_357
+  name: "Zakdoek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_358
+  name: "Waterpijp"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_359
+  name: "Wijn"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_360
+  name: "Dobbelstenen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 380
+
+- id: ITEMTPL_361
+  name: "Hond"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_362
+  name: "Paard"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_363
+  name: "Muildier"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_364
+  name: "Pony"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_365
+  name: "Hals- en leiband"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_366
+  name: "Hoefijzer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_367
+  name: "Pakzadel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_368
+  name: "Rijzadel"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_369
+  name: "Zadeldeken"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_370
+  name: "Zadeltas"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_371
+  name: "Sporen"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_372
+  name: "Roskam"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_373
+  name: "Toom"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_374
+  name: "Hondenvoer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_375
+  name: "Paardenvoer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_376
+  name: "Ponyvoer"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_377
+  name: "Bolderkar"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_378
+  name: "Kar (éénasser)"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_379
+  name: "Kleine roeiboot"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_380
+  name: "Kleine zeilboot"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_381
+  name: "Koets"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 381
+
+- id: ITEMTPL_796
+  name: "Ravenbek"
+  versions:
+    src:
+      - id: LTP-OdM-R0001
+        firstPage: 367

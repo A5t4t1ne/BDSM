@@ -1,0 +1,59 @@
+- id: SPELL_62
+  name: "mélodie du souvenir"
+  effect: |
+    Avec cette mélodie, lʼElfe est capable de se rappeler un souvenir dʼun temps passé depuis longtemps.
+  aeCost: " "
+  aeCostShort: " "
+  src:
+    - id: LDR1
+      firstPage: 284
+
+- id: SPELL_63
+  name: "chanson de la paix"
+  effect: |
+    Cette chanson produit autour de lʼElfe une zone de paix.
+  aeCost: " "
+  aeCostShort: " "
+  src:
+    - id: LDR1
+      firstPage: 284
+
+- id: SPELL_64
+  name: "chanson de l'amitié"
+  effect: |
+    Avec la chanson de lʼamitié, deux Elfes qui jouent en commun peuvent tisser un lien solide dʼamitié entre eux.
+  aeCost: " "
+  aeCostShort: " "
+  src:
+    - id: LDR1
+      firstPage: 283
+
+- id: SPELL_65
+  name: "mélodie de l'habileté"
+  effect: |
+    Les épreuves des talents du groupe savoir-faire, que lʼElfe utilise pendant la mélodie de lʼhabileté, bénéficient dʼun bonus.
+  aeCost: " "
+  aeCostShort: " "
+  src:
+    - id: LDR1
+      firstPage: 284
+
+- id: SPELL_66
+  name: "chant du souci"
+  effect: |
+    LʼElfe entrelace dans la chanson des questions quʼil se pose au sujet dʼun bon ami.
+  aeCost: " "
+  aeCostShort: " "
+  src:
+    - id: LDR1
+      firstPage: 284
+
+- id: SPELL_67
+  name: "mélodie de la magie"
+  effect: |
+    Si lʼElfe joue cette mélodie pendant une heure sans être perturbé, il peut se placer dans un état semblable à la transe.
+  aeCost: " "
+  aeCostShort: " "
+  src:
+    - id: LDR1
+      firstPage: 284

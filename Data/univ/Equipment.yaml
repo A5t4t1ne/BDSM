@@ -1,0 +1,9741 @@
+# TODO: Check for duplicates
+- id: ITEMTPL_1
+# name: Basiliskenzunge
+  price: 50
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_2
+# name: Dolch
+  price: 45
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 1
+    length: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_3
+# name: Drachenzahn
+  price: 70
+  weight: 0.75
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 40
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_4
+# name: Linkhand
+  price: 90
+  weight: 0.75
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 1
+    length: 30
+    isParryingWeapon: true
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_5
+# name: Messer
+  price: 10
+  weight: 0.25
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 1
+    length: 25
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_6
+# name: Schwerer Dolch
+  price: 60
+  weight: 0.75
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 35
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_7
+# name: Waqqif
+  price: 60
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 45
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_8
+# name: Florett
+  price: 300
+  weight: 0.5
+  special:
+    combatTechnique: CT_4
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 1
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_9
+# name: Rapier
+  price: 200
+  weight: 1
+  special:
+    combatTechnique: CT_4
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 1
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_10
+# name: Wolfsmesser
+  price: 300
+  weight: 0.5
+  special:
+    combatTechnique: CT_4
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 1
+    pa: 1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_11
+# name: Brabakbengel
+  price: 170
+  weight: 2
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_12
+# name: Keule
+  price: 3
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_13
+# name: Knüppel
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_14
+# name: Lindwurmschläger
+  price: 90
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_15
+# name: Magierstab, kurz
+  price: 40
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_16
+# name: Magierstab, mittel
+  price: 60
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_17
+# name: Molokdeschnaja
+  price: 95
+  weight: 1.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_18
+# name: Orknase
+  price: 120
+  weight: 1.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 110
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_19
+# name: Rabenschnabel
+  price: 105
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 110
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_20
+# name: Sonnenzepter
+  price: 250
+  weight: 1.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 70
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_21
+# name: Streitaxt
+  price: 105
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_22
+# name: Streitkolben
+  price: 105
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_23
+# name: Morgenstern
+  price: 110
+  weight: 1.5
+  special:
+    combatTechnique: CT_6
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 14
+    at: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_24
+# name: Kriegslanze
+  price: 100
+  weight: 3.75
+  special:
+    combatTechnique: CT_7
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 6
+    length: 300
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_25
+# name: Schlagring
+  price: 25
+  weight: 0.25
+  special:
+    combatTechnique: CT_9
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 1
+    length: 10
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_26
+# name: Holzschild
+  price: 50
+  weight: 3.5
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: -4
+    pa: 1
+    reach: 1
+    structurePoints: 20
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_27
+# name: Lederschild
+  price: 30
+  weight: 2
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: -4
+    pa: 1
+    reach: 1
+    structurePoints: 20
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_28
+# name: Thorwalerschild
+  price: 70
+  weight: 4.5
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: -5
+    pa: 2
+    reach: 1
+    structurePoints: 25
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_29
+# name: Großschild
+  price: 100
+  weight: 6
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: -6
+    pa: 3
+    reach: 1
+    structurePoints: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_30
+# name: Barbarenschwert
+  price: 140
+  weight: 1.5
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 15
+    at: -1
+    pa: -1
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_31
+# name: Entermesser
+  price: 120
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 2
+    length: 75
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_32
+# name: Haumesser
+  price: 100
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 2
+    length: 70
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_33
+# name: Khunchomer
+  price: 210
+  weight: 1.25
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_34
+# name: Kurzschwert
+  price: 140
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 1
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_35
+# name: Langschwert
+  price: 200
+  weight: 1
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_36
+# name: Robbentöter
+  price: 200
+  weight: 1
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_37
+# name: Säbel
+  price: 180
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_38
+# name: Sklaventod
+  price: 210
+  weight: 1.25
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_39
+# name: Dreizack
+  price: 80
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_40
+# name: Dschadra
+  price: 60
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_41
+# name: Hellebarde
+  price: 160
+  weight: 2.5
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 15
+    at: 0
+    pa: -2
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_42
+# name: Holzspeer
+  price: 1
+  weight: 1
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_43
+# name: Kampfstab
+  price: 40
+  weight: 1
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: 0
+    pa: 2
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_44
+# name: Magierstab, lang
+  price: 80
+  weight: 0.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 16
+    at: -1
+    pa: 2
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_45
+# name: Speer
+  price: 45
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_46
+# name: Zweililien
+  price: 200
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 2
+    reach: 2
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_47
+# name: Anderthalbhänder
+  price: 320
+  weight: 2
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 2
+    length: 140
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_48
+# name: Doppelkhunchomer
+  price: 320
+  weight: 2
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 130
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_49
+# name: Großer Sklaventod
+  price: 320
+  weight: 2
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 140
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_50
+# name: Rondrakamm
+  price: 340
+  weight: 2
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 130
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_51
+# name: Tuzakmesser
+  price: 360
+  weight: 1.75
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 2
+    length: 130
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_52
+# name: Zweihänder
+  price: 360
+  weight: 2.5
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -3
+    reach: 2
+    length: 160
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_53
+# name: Barbarenstreitaxt
+  price: 175
+  weight: 3.5
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 13
+    at: 0
+    pa: -4
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_54
+# name: Felsspalter
+  price: 200
+  weight: 3
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 13
+    at: 0
+    pa: -2
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_55
+# name: Kriegshammer
+  price: 170
+  weight: 3
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 13
+    at: 0
+    pa: -3
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_56
+# name: Zwergenschlägel
+  price: 100
+  weight: 3
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 13
+    at: 0
+    pa: -1
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_57
+# name: Balestrina
+  price: 120
+  weight: 0.75
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    length: 40
+    closeRange: 5
+    mediumRange: 25
+    farRange: 40
+    reloadTime: 2
+    ammunition: ITEMTPL_77
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_58
+# name: Eisenwalder
+  price: 500
+  weight: 3.75
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    length: 90
+    closeRange: 10
+    mediumRange: 50
+    farRange: 80
+    reloadTime:
+      - 2
+      - 10
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_59
+# name: Handarmbrust
+  price: 100
+  weight: 0.75
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    length: 40
+    closeRange: 5
+    mediumRange: 25
+    farRange: 40
+    reloadTime: 3
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_60
+# name: Leichte Armbrust
+  price: 180
+  weight: 3.25
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    length: 110
+    closeRange: 10
+    mediumRange: 50
+    farRange: 80
+    reloadTime: 8
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_61
+# name: Schwere Armbrust
+  price: 360
+  weight: 7.25
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 6
+    length: 80
+    closeRange: 20
+    mediumRange: 100
+    farRange: 160
+    reloadTime: 15
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_62
+# name: Elfenbogen
+  price: 400
+  weight: 0.5
+  special:
+    combatTechnique: CT_2
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    length: 180
+    closeRange: 50
+    mediumRange: 100
+    farRange: 200
+    reloadTime: 1
+    ammunition: ITEMTPL_75
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_63
+# name: Kompositbogen
+  price: 160
+  weight: 0.75
+  special:
+    combatTechnique: CT_2
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 7
+    length: 140
+    closeRange: 20
+    mediumRange: 100
+    farRange: 160
+    reloadTime: 2
+    ammunition: ITEMTPL_75
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_64
+# name: Kurzbogen
+  price: 45
+  weight: 0.5
+  special:
+    combatTechnique: CT_2
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    length: 130
+    closeRange: 10
+    mediumRange: 50
+    farRange: 80
+    reloadTime: 1
+    ammunition: ITEMTPL_75
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_65
+# name: Langbogen
+  price: 80
+  weight: 0.75
+  special:
+    combatTechnique: CT_2
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 8
+    length: 200
+    closeRange: 20
+    mediumRange: 100
+    farRange: 160
+    reloadTime: 2
+    ammunition: ITEMTPL_75
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_66
+# name: Schneidzahn
+  price: 80
+  weight: 1
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    length: 50
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_67
+# name: Stein
+  weight: 1
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    length: 45
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_68
+# name: Wurfbeil
+  price: 50
+  weight: 0.75
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    length: 40
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_69
+# name: Wurfdolch
+  price: 45
+  weight: 0.5
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    length: 30
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_70
+# name: Wurfkeule
+  price: 5
+  weight: 1
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 50
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_71
+# name: Wurfring
+  price: 30
+  weight: 0.25
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    length: 10
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_72
+# name: Wurfscheibe
+  price: 30
+  weight: 0.25
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    length: 10
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_73
+# name: Wurfspeer
+  price: 40
+  weight: 0.75
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 110
+    closeRange: 5
+    mediumRange: 25
+    farRange: 40
+    reloadTime: 2
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_74
+# name: Wurfstern
+  price: 30
+  weight: 0.25
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    length: 10
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_75
+# name: Pfeil
+  price: 0.4
+  gr: 3
+
+- id: ITEMTPL_76
+# name: Bolzen
+  price: 0.2
+  gr: 3
+
+- id: ITEMTPL_77
+# name: Kugel
+  price: 0.5
+  gr: 3
+
+- id: ITEMTPL_78
+# name: Normale Kleidung
+  weight: 1
+  special:
+    protection: 0
+    encumbrance: 0
+    hasAdditionalPenalties: false
+    armorType: 1
+  gr: 4
+
+- id: ITEMTPL_79
+# name: Felle
+  weight: 1
+  special:
+    protection: 0
+    encumbrance: 0
+    hasAdditionalPenalties: false
+    armorType: 1
+  gr: 4
+
+- id: ITEMTPL_80
+# name: Schwere Kleidung
+  weight: 2
+  special:
+    protection: 1
+    encumbrance: 0
+    hasAdditionalPenalties: true
+    armorType: 2
+  gr: 4
+
+- id: ITEMTPL_81
+# name: Winterkleidung
+  weight: 2
+  special:
+    protection: 1
+    encumbrance: 0
+    hasAdditionalPenalties: true
+    armorType: 2
+  gr: 4
+
+- id: ITEMTPL_82
+# name: Stoffrüstung
+  price: 75
+  weight: 3
+  special:
+    protection: 2
+    encumbrance: 1
+    hasAdditionalPenalties: false
+    armorType: 3
+  gr: 4
+
+- id: ITEMTPL_83
+# name: Gambeson
+  price: 75
+  weight: 3
+  special:
+    protection: 2
+    encumbrance: 1
+    hasAdditionalPenalties: false
+    armorType: 3
+  gr: 4
+
+- id: ITEMTPL_84
+# name: Lederüstung
+  price: 150
+  weight: 6
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_85
+# name: Kettenrüstung
+  price: 250
+  weight: 12
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 6
+  gr: 4
+
+- id: ITEMTPL_86
+# name: Schuppenrüstung
+  price: 400
+  weight: 18
+  special:
+    protection: 5
+    encumbrance: 2
+    hasAdditionalPenalties: true
+    armorType: 7
+  gr: 4
+
+- id: ITEMTPL_87
+# name: Plattenrüstung
+  price: 750
+  weight: 25
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 8
+  gr: 4
+
+- id: ITEMTPL_88
+# name: Bogensehne
+  price: 1
+  weight: 0.05
+  gr: 5
+
+- id: ITEMTPL_89
+# name: Dolchscheide
+  price: 5
+  weight: 0.25
+  gr: 5
+
+- id: ITEMTPL_90
+# name: Köcher, für 20 Pfeile oder Bolzen
+  price: 15
+  weight: 0.75
+  gr: 5
+
+- id: ITEMTPL_91
+# name: Schwertscheide
+  price: 12
+  weight: 0.75
+  gr: 5
+
+- id: ITEMTPL_92
+# name: Unterkleidung für Metallrüstungen
+  price: 12
+  weight: 2.5
+  gr: 5
+
+- id: ITEMTPL_93
+# name: Waffenpflegeset (Schleifstein, Tücher)
+  price: 1
+  weight: 1
+  gr: 5
+
+- id: ITEMTPL_94
+# name: Ballkleid
+  price: 350
+  weight: 1.5
+  gr: 6
+
+- id: ITEMTPL_95
+# name: Barett
+  price: 1
+  weight: 0.1
+  gr: 6
+
+- id: ITEMTPL_96
+# name: Brusttuch
+  price: 0.3
+  weight: 0.2
+  gr: 6
+
+- id: ITEMTPL_97
+# name: Filzhut
+  price: 0.5
+  weight: 0.1
+  gr: 6
+
+- id: ITEMTPL_98
+# name: Gugel
+  price: 2
+  weight: 0.2
+  gr: 6
+
+- id: ITEMTPL_99
+# name: Halstuch
+  price: 4
+  weight: 0.1
+  gr: 6
+
+- id: ITEMTPL_100
+# name: Hemd
+  price: 3
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_101
+# name: Hose
+  price: 3
+  weight: 0.75
+  gr: 6
+
+- id: ITEMTPL_102
+# name: Hose mit Hosentasche
+  price: 3
+  weight: 0.75
+  gr: 6
+
+- id: ITEMTPL_103
+# name: Jacke
+  price: 5
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_104
+# name: Kaftan
+  price: 7.5
+  weight: 1.25
+  gr: 6
+
+- id: ITEMTPL_105
+# name: Kapuzenumhang
+  price: 6
+  weight: 2
+  gr: 6
+
+- id: ITEMTPL_106
+# name: Kleid
+  price: 6
+  weight: 1.5
+  gr: 6
+
+- id: ITEMTPL_107
+# name: Korsett
+  price: 150
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_108
+# name: Kutte
+  price: 2.5
+  weight: 2
+  gr: 6
+
+- id: ITEMTPL_109
+# name: Ledergürtel
+  price: 3
+  weight: 0.2
+  gr: 6
+
+- id: ITEMTPL_110
+# name: Lederhandschuhe
+  price: 0.3
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_111
+# name: Lederhut mit breiter Krempe
+  price: 10
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_112
+# name: Ledermantel
+  price: 75
+  weight: 3
+  gr: 6
+
+- id: ITEMTPL_113
+# name: Lederschuhe
+  price: 5
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_114
+# name: Lederschürze mit Taschen
+  price: 7
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_115
+# name: Lederstiefel
+  price: 12
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_116
+# name: Lendenschurz
+  price: 0.3
+  weight: 0.2
+  gr: 6
+
+- id: ITEMTPL_117
+# name: Magierrobe
+  price: 120
+  weight: 3
+  special:
+    structurePoints: 6
+  gr: 6
+
+- id: ITEMTPL_118
+# name: Mantel
+  price: 7
+  weight: 1.5
+  special:
+    structurePoints: 6
+  gr: 6
+
+- id: ITEMTPL_119
+# name: Nachthemd
+  price: 1.5
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_120
+# name: Pelzfäustlinge
+  price: 6
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_121
+# name: Pelzgefütterte Stiefel
+  price: 24
+  weight: 2.5
+  gr: 6
+
+- id: ITEMTPL_122
+# name: Pelzmütze
+  price: 6
+  weight: 0.75
+  gr: 6
+
+- id: ITEMTPL_123
+# name: Rock
+  price: 3
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_124
+# name: Sandalen
+  price: 2
+  weight: 0.75
+  gr: 6
+
+- id: ITEMTPL_125
+# name: Schal
+  price: 0.5
+  weight: 0.2
+  gr: 6
+
+- id: ITEMTPL_126
+# name: Schleier
+  price: 20
+  weight: 0.05
+  gr: 6
+
+- id: ITEMTPL_127
+# name: Schnürmieder
+  price: 20
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_128
+# name: Seidenschärpe
+  price: 20
+  weight: 0.1
+  gr: 6
+
+- id: ITEMTPL_129
+# name: Seidenstrümpfe
+  price: 80
+  weight: 0.1
+  gr: 6
+
+- id: ITEMTPL_130
+# name: Strohhut
+  price: 0.2
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_131
+# name: Tunika
+  price: 1.5
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_132
+# name: Turban
+  price: 0.8
+  weight: 0.75
+  gr: 6
+
+- id: ITEMTPL_133
+# name: Unterhosen
+  price: 1
+  weight: 0.5
+  special:
+    structurePoints: 3
+  gr: 6
+
+- id: ITEMTPL_134
+# name: Unterkleid
+  price: 5
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_135
+# name: Wappenrock
+  price: 5
+  weight: 0.75
+  gr: 6
+
+- id: ITEMTPL_136
+# name: Weste
+  price: 3
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_137
+# name: Wollstrümpfe
+  price: 0.5
+  weight: 0.1
+  gr: 6
+
+- id: ITEMTPL_138
+# name: Kleidungsset: Unfrei
+  price: 5
+  gr: 6
+
+- id: ITEMTPL_139
+# name: Kleidungsset: Frei
+  price: 25
+  gr: 6
+
+- id: ITEMTPL_140
+# name: Kleidungsset: Niederadel
+  price: 150
+  gr: 6
+
+- id: ITEMTPL_141
+# name: Kleidungsset: Adel
+  price: 1000
+  gr: 6
+
+- id: ITEMTPL_142
+# name: Kleidungsset: Hochadel
+  price: 1500
+  gr: 6
+
+- id: ITEMTPL_143
+# name: Angel mit Angelschnur
+  price: 3
+  weight: 0.5
+  gr: 7
+
+- id: ITEMTPL_144
+# name: Becher
+  price: 0.3
+  weight: 0.1
+  gr: 7
+
+- id: ITEMTPL_145
+# name: Beil/Handaxt
+  price: 20
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 40
+    structurePoints: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 7
+
+- id: ITEMTPL_146
+# name: Besen
+  price: 0.5
+  weight: 0.75
+  gr: 7
+
+- id: ITEMTPL_147
+# name: Bratspieß
+  price: 16
+  weight: 3
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold:
+      - 14
+      - 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 60
+    structurePoints: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 7
+
+- id: ITEMTPL_148
+# name: Dreizack
+  price: 50
+  weight: 2
+  gr: 7
+
+- id: ITEMTPL_149
+# name: Dreschflegel
+  price: 15
+  weight: 1.5
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: -2
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: true
+  gr: 7
+
+- id: ITEMTPL_150
+# name: Essbesteck
+  price: 0.5
+  weight: 0.1
+  gr: 7
+
+- id: ITEMTPL_151
+# name: Feile
+  price: 15
+  weight: 0.5
+  gr: 7
+
+- id: ITEMTPL_152
+# name: Flaschenzug für 250 Stein
+  price: 55
+  weight: 5
+  gr: 7
+
+- id: ITEMTPL_153
+# name: Hammer
+  price: 3
+  weight: 0.5
+  gr: 7
+
+- id: ITEMTPL_154
+# name: Handbohrer
+  price: 7
+  weight: 1
+  gr: 7
+
+- id: ITEMTPL_155
+# name: Handsäge
+  price: 5
+  weight: 0.5
+  gr: 7
+
+- id: ITEMTPL_156
+# name: Hängematte
+  price: 2
+  weight: 2
+  gr: 7
+
+- id: ITEMTPL_157
+# name: Haumesser
+  price: 20
+  weight: 0.75
+  gr: 7
+
+- id: ITEMTPL_158
+# name: Holzfälleraxt
+  price: 80
+  weight: 1.5
+  gr: 7
+
+- id: ITEMTPL_159
+# name: Holzschale
+  price: 0.8
+  weight: 0.2
+  gr: 7
+
+- id: ITEMTPL_160
+# name: Holzteller
+  price: 0.9
+  weight: 0.25
+  gr: 7
+
+- id: ITEMTPL_161
+# name: Kletterhaken, 10 Stück
+  price: 27
+  weight: 1
+  special:
+    structurePoints: 10
+  gr: 7
+
+- id: ITEMTPL_162
+# name: Krug
+  price: 1.5
+  weight: 0.75
+  gr: 7
+
+- id: ITEMTPL_163
+# name: Kupferkessel
+  price: 24
+  weight: 4
+  special:
+    structurePoints: 60
+  gr: 7
+
+- id: ITEMTPL_164
+# name: Leim
+  price: 1
+  weight: 1
+  gr: 7
+
+- id: ITEMTPL_165
+# name: Meißel
+  price: 5.5
+  weight: 0.2
+  gr: 7
+
+- id: ITEMTPL_166
+# name: Messer
+  price: 10
+  weight: 0.25
+  gr: 7
+
+- id: ITEMTPL_167
+# name: Nadel- und Zwirnset
+  price: 4.5
+  weight: 0.1
+  gr: 7
+
+- id: ITEMTPL_168
+# name: Nägel, 10 Stück
+  price: 0.6
+  weight: 0.1
+  gr: 7
+
+- id: ITEMTPL_169
+# name: Pfanne
+  price: 12
+  weight: 2
+  gr: 7
+
+- id: ITEMTPL_170
+# name: Schaufel
+  price: 8.5
+  weight: 2
+  gr: 7
+
+- id: ITEMTPL_171
+# name: Schere
+  price: 5
+  weight: 0.25
+  gr: 7
+
+- id: ITEMTPL_172
+# name: Schlafsack
+  price: 7
+  weight: 2
+  special:
+    structurePoints: 7
+  gr: 7
+
+- id: ITEMTPL_173
+# name: Schneeschuhe
+  price: 6.5
+  weight: 1
+  special:
+    structurePoints: 7
+  gr: 7
+
+- id: ITEMTPL_174
+# name: Spaten
+  price: 8.5
+  weight: 2
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 13
+    at: -2
+    pa: -4
+    reach: 2
+    length: 90
+    structurePoints: 15
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 7
+
+- id: ITEMTPL_175
+# name: Spitzhacke
+  price: 20
+  weight: 2.75
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 13
+    at: -1
+    pa: -5
+    reach: 2
+    length: 70
+    structurePoints: 15
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 7
+
+- id: ITEMTPL_176
+# name: Strickleiter, pro Schritt
+  price: 2.5
+  weight: 0.5
+  special:
+    structurePoints: 5
+  gr: 7
+
+- id: ITEMTPL_177
+# name: Wolldecke
+  price: 2
+  weight: 1.5
+  special:
+    structurePoints: 7
+  gr: 7
+
+- id: ITEMTPL_178
+# name: Zange
+  price: 6
+  weight: 0.5
+  gr: 7
+
+- id: ITEMTPL_179
+# name: Zelt, 1 Person
+  price: 14.5
+  weight: 3
+  special:
+    structurePoints: 7
+  gr: 7
+
+- id: ITEMTPL_180
+# name: Zelt, 2 Personen
+  price: 25
+  weight: 6
+  special:
+    structurePoints: 7
+  gr: 7
+
+- id: ITEMTPL_181
+# name: Proviant für 1 Tag
+  price: 0.5
+  weight: 1.5
+  special:
+    structurePoints: 2
+  gr: 7
+
+- id: ITEMTPL_182
+# name: Fackel
+  price: 0.5
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 40
+    structurePoints: 20
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 8
+
+- id: ITEMTPL_183
+# name: Gwen-Petryl-Stein, faustgroß
+  price: 1000
+  weight: 0.75
+  special:
+    structurePoints: 80
+  gr: 8
+
+- id: ITEMTPL_184
+# name: Kerzen, 10 Stück
+  price: 6
+  weight: 0.5
+  special:
+    structurePoints: 2
+  gr: 8
+
+- id: ITEMTPL_185
+# name: Laterne
+  price: 8
+  weight: 0.5
+  special:
+    structurePoints: 8
+  gr: 8
+
+- id: ITEMTPL_186
+# name: Öllampe
+  price: 0.5
+  weight: 0.25
+  special:
+    structurePoints: 4
+  gr: 8
+
+- id: ITEMTPL_187
+# name: Abblendlaterne
+  price: 15
+  weight: 1.5
+  gr: 8
+
+- id: ITEMTPL_188
+# name: Feuerstein und Stahl
+  price: 3
+  weight: 0.25
+  special:
+    structurePoints:
+      - 4
+      - 12
+  gr: 8
+
+- id: ITEMTPL_189
+# name: Kerzenständer
+  price: 11.5
+  weight: 0.75
+  gr: 8
+
+- id: ITEMTPL_190
+# name: Lampenöl, 12 Stunden Brennzeit
+  price: 0.2
+  weight: 0.5
+  gr: 8
+
+- id: ITEMTPL_191
+# name: Zunder, 25 Portionen
+  price: 0.2
+  weight: 0.025
+  special:
+    structurePoints: 1
+  gr: 8
+
+- id: ITEMTPL_192
+# name: Zunderdose (Platz für 25 Portionen)
+  price: 1
+  weight: 0.2
+  special:
+    structurePoints: 10
+  gr: 8
+
+- id: ITEMTPL_193
+# name: Blutegel
+  price: 0.3
+  weight: 0.001
+  gr: 9
+
+- id: ITEMTPL_194
+# name: Chirurgische Instrumente
+  price: 80
+  weight: 1.5
+  gr: 9
+
+- id: ITEMTPL_195
+# name: Schädelbohrer
+  price: 17
+  weight: 1
+  gr: 9
+
+- id: ITEMTPL_196
+# name: Schröpfglas
+  price: 2
+  weight: 0.25
+  gr: 9
+
+- id: ITEMTPL_197
+# name: Verband, 10 Stück
+  price: 12.5
+  weight: 0.05
+  special:
+    structurePoints: 3
+  gr: 9
+
+- id: ITEMTPL_198
+# name: Wundnähzeug
+  price: 4.5
+  weight: 0.1
+  gr: 9
+
+- id: ITEMTPL_199
+# name: Feldflasche
+  price: 6
+  weight: 0.25
+  special:
+    structurePoints: 12
+  gr: 10
+
+- id: ITEMTPL_200
+# name: Geldbeutel
+  price: 1
+  weight: 0.05
+  special:
+    structurePoints: 2
+  gr: 10
+
+- id: ITEMTPL_201
+# name: Geldkatze
+  price: 2
+  weight: 0.1
+  special:
+    structurePoints: 3
+  gr: 10
+
+- id: ITEMTPL_202
+# name: Gürteltasche
+  price: 4
+  weight: 0.25
+  special:
+    structurePoints: 3
+  gr: 10
+
+- id: ITEMTPL_203
+# name: Kiepe
+  price: 7
+  weight: 2
+  gr: 10
+
+- id: ITEMTPL_204
+# name: Lederranzen
+  price: 17
+  weight: 1
+  gr: 10
+
+- id: ITEMTPL_205
+# name: Lederrucksack
+  price: 34
+  weight: 2
+  special:
+    structurePoints: 8
+  gr: 10
+
+- id: ITEMTPL_206
+# name: Phiole
+  price: 2
+  weight: 0.1
+  special:
+    structurePoints: 2
+  gr: 10
+
+- id: ITEMTPL_207
+# name: Puderdöschen
+  price: 6
+  weight: 0.25
+  gr: 10
+
+- id: ITEMTPL_208
+# name: Sack
+  price: 1
+  weight: 0.75
+  gr: 10
+
+- id: ITEMTPL_209
+# name: Schmuckkästchen
+  price: 20
+  weight: 1
+  gr: 10
+
+- id: ITEMTPL_210
+# name: Tiegel
+  price: 0.5
+  weight: 0.25
+  gr: 10
+
+- id: ITEMTPL_211
+# name: Trinkhorn
+  price: 0.5
+  weight: 0.25
+  gr: 10
+
+- id: ITEMTPL_212
+# name: Truhe
+  price: 18
+  weight: 5
+  gr: 10
+
+- id: ITEMTPL_213
+# name: Tuchbeutel
+  price: 0.75
+  weight: 0.5
+  gr: 10
+
+- id: ITEMTPL_214
+# name: Umhängetasche
+  price: 8.5
+  weight: 0.5
+  special:
+    structurePoints: 6
+  gr: 10
+
+- id: ITEMTPL_215
+# name: Vase
+  price: 1
+  weight: 2
+  gr: 10
+
+- id: ITEMTPL_216
+# name: Wasserschlauch
+  price: 5.5
+  weight: 0.25
+  special:
+    structurePoints: 5
+  gr: 10
+
+- id: ITEMTPL_217
+# name: Fesselseil, Hanf, pro Schritt
+  price: 0.3
+  weight: 0.25
+  special:
+    structurePoints: 5
+  gr: 11
+
+- id: ITEMTPL_218
+# name: Kette, pro Schritt
+  price: 12
+  weight: 2
+  gr: 11
+
+- id: ITEMTPL_219
+# name: Kletterseil, pro Schritt
+  price: 0.3
+  weight: 0.5
+  special:
+    structurePoints: 5
+  gr: 11
+
+- id: ITEMTPL_220
+# name: Schnur, pro 10 Schritt
+  price: 0.5
+  weight: 0.1
+  gr: 11
+
+- id: ITEMTPL_221
+# name: Brecheisen
+  price: 26
+  weight: 5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: -1
+    pa: -3
+    reach: 2
+    length: 50
+    structurePoints: 70
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 12
+
+- id: ITEMTPL_222
+# name: Dietrich
+  price: 5
+  weight: 0.25
+  special:
+    structurePoints: 20
+  gr: 12
+
+- id: ITEMTPL_223
+# name: Falscher Bart
+  price: 2
+  weight: 0.2
+  gr: 12
+
+- id: ITEMTPL_224
+# name: Wurfhaken
+  price: 7
+  weight: 1
+  special:
+    structurePoints: 20
+  gr: 12
+
+- id: ITEMTPL_225
+# name: Archaisches Labor
+  price: 200
+  weight: 30
+  gr: 13
+
+- id: ITEMTPL_226
+# name: Hexenküche
+  price: 1000
+  weight: 200
+  gr: 13
+
+- id: ITEMTPL_227
+# name: Alchimistenlabor
+  price: 5000
+  weight: 1000
+  gr: 13
+
+- id: ITEMTPL_228
+# name: Feinmechanikerwerkzeug
+  price: 100
+  weight: 0.5
+  gr: 13
+
+- id: ITEMTPL_229
+# name: Gravurwerkzeug
+  price: 30
+  weight: 0.5
+  gr: 13
+
+- id: ITEMTPL_230
+# name: Kartographiewerkzeug
+  price: 50
+  weight: 0.25
+  special:
+    structurePoints: 4
+  gr: 13
+
+- id: ITEMTPL_231
+# name: Nähkästchen
+  price: 10
+  weight: 0.25
+  gr: 13
+
+- id: ITEMTPL_232
+# name: Tätowierwerkzeug
+  price: 20
+  weight: 0.5
+  gr: 13
+
+- id: ITEMTPL_233
+# name: Zimmermannskasten
+  price: 50
+  weight: 5
+  gr: 13
+
+- id: ITEMTPL_234
+# name: Abakus
+  price: 10
+  weight: 0.5
+  gr: 14
+
+- id: ITEMTPL_235
+# name: Astrolabium
+  price: 250
+  weight: 3
+  special:
+    structurePoints: 10
+  gr: 14
+
+- id: ITEMTPL_236
+# name: Bernsteinbrille
+  price: 1000
+  weight: 0.1
+  gr: 14
+
+- id: ITEMTPL_237
+# name: Fernrohr
+  price: 150
+  weight: 1.25
+  special:
+    structurePoints: 25
+  gr: 14
+
+- id: ITEMTPL_238
+# name: Kompass (Südweiser)
+  price: 6
+  weight: 0.25
+  special:
+    structurePoints: 4
+  gr: 14
+
+- id: ITEMTPL_239
+# name: Quadrant
+  price: 70
+  weight: 0.75
+  special:
+    structurePoints: 10
+  gr: 14
+
+- id: ITEMTPL_240
+# name: Stundenglas
+  price: 40
+  weight: 0.5
+  gr: 14
+
+- id: ITEMTPL_241
+# name: Taschenuhr (Vinsalter Ei)
+  price: 800
+  weight: 0.25
+  special:
+    structurePoints: 6
+  gr: 14
+
+- id: ITEMTPL_242
+# name: Amulett, Bronze
+  price: 7.5
+  weight: 0.05
+  gr: 15
+
+- id: ITEMTPL_243
+# name: Amulett, Silber
+  price: 12
+  weight: 0.05
+  gr: 15
+
+- id: ITEMTPL_244
+# name: Amulett, Gold
+  price: 107
+  weight: 0.1
+  gr: 15
+
+- id: ITEMTPL_245
+# name: Armreif, Bronze
+  price: 5.5
+  weight: 0.05
+  gr: 15
+
+- id: ITEMTPL_246
+# name: Armreif, Silber
+  price: 10
+  weight: 0.05
+  gr: 15
+
+- id: ITEMTPL_247
+# name: Armreif, Gold
+  price: 105
+  weight: 0.1
+  gr: 15
+
+- id: ITEMTPL_248
+# name: Fibel, Bronze
+  price: 5.25
+  weight: 0.025
+  gr: 15
+
+- id: ITEMTPL_249
+# name: Fibel, Silber
+  price: 7.5
+  weight: 0.025
+  gr: 15
+
+- id: ITEMTPL_250
+# name: Fibel, Gold
+  price: 55
+  weight: 0.05
+  gr: 15
+
+- id: ITEMTPL_251
+# name: Halskette, Bronze
+  price: 6.5
+  weight: 0.15
+  gr: 15
+
+- id: ITEMTPL_252
+# name: Halskette, Silber
+  price: 22
+  weight: 0.15
+  gr: 15
+
+- id: ITEMTPL_253
+# name: Halskette, Gold
+  price: 157
+  weight: 0.3
+  gr: 15
+
+- id: ITEMTPL_254
+# name: Ohrring, Bronze
+  price: 7.25
+  weight: 0.025
+  gr: 15
+
+- id: ITEMTPL_255
+# name: Ohrring, Silber
+  price: 9.5
+  weight: 0.025
+  gr: 15
+
+- id: ITEMTPL_256
+# name: Ohrring, Gold
+  price: 57
+  weight: 0.05
+  gr: 15
+
+- id: ITEMTPL_257
+# name: Ring, Bronze
+  price: 5.25
+  weight: 0.025
+  gr: 15
+
+- id: ITEMTPL_258
+# name: Ring, Silber
+  price: 7.5
+  weight: 0.025
+  gr: 15
+
+- id: ITEMTPL_259
+# name: Ring, Gold
+  price: 55
+  weight: 0.05
+  gr: 15
+
+- id: ITEMTPL_260
+# name: Stirnreif, Bronze
+  price: 8
+  weight: 0.1
+  gr: 15
+
+- id: ITEMTPL_261
+# name: Stirnreif, Silber
+  price: 17
+  weight: 0.1
+  gr: 15
+
+- id: ITEMTPL_262
+# name: Stirnreif, Gold
+  price: 207
+  weight: 0.2
+  gr: 15
+
+- id: ITEMTPL_263
+# name: Amethyst
+  price: 1.5
+  gr: 16
+
+- id: ITEMTPL_264
+# name: Aquamarin
+  price: 18
+  gr: 16
+
+- id: ITEMTPL_265
+# name: Aventurin
+  price: 2.5
+  gr: 16
+
+- id: ITEMTPL_266
+# name: Bergkristall
+  price: 2
+  gr: 16
+
+- id: ITEMTPL_267
+# name: Bernstein
+  price: 90
+  gr: 16
+
+- id: ITEMTPL_268
+# name: Diamant
+  price: 150
+  gr: 16
+
+- id: ITEMTPL_269
+# name: Granat
+  price: 8
+  gr: 16
+
+- id: ITEMTPL_270
+# name: Grüne Jade
+  price: 20
+  gr: 16
+
+- id: ITEMTPL_271
+# name: Karneol
+  price: 2
+  gr: 16
+
+- id: ITEMTPL_272
+# name: Lapislazuli
+  price: 17
+  gr: 16
+
+- id: ITEMTPL_273
+# name: Mondstein
+  price: 1
+  gr: 16
+
+- id: ITEMTPL_274
+# name: Onyx
+  price: 1.5
+  gr: 16
+
+- id: ITEMTPL_275
+# name: Opal
+  price: 22
+  gr: 16
+
+- id: ITEMTPL_276
+# name: Perle
+  price: 70
+  gr: 16
+
+- id: ITEMTPL_277
+# name: Rubin
+  price: 140
+  gr: 16
+
+- id: ITEMTPL_278
+# name: Saphir
+  price: 120
+  gr: 16
+
+- id: ITEMTPL_279
+# name: Smaragd
+  price: 110
+  gr: 16
+
+- id: ITEMTPL_280
+# name: Topas
+  price: 20
+  gr: 16
+
+- id: ITEMTPL_281
+# name: Türkis
+  price: 15
+  gr: 16
+
+- id: ITEMTPL_282
+# name: Federkiel
+  price: 0.1
+  weight: 0.05
+  gr: 17
+
+- id: ITEMTPL_283
+# name: Federmesser
+  price: 3
+  weight: 0.2
+  gr: 17
+
+- id: ITEMTPL_284
+# name: Kohlestift
+  price: 0.2
+  weight: 0.05
+  gr: 17
+
+- id: ITEMTPL_285
+# name: Kreide
+  price: 0.2
+  weight: 0.05
+  special:
+    structurePoints: 2
+  gr: 17
+
+- id: ITEMTPL_286
+# name: Papier, 1 Blatt
+  price: 0.1
+  weight: 0.05
+  special:
+    structurePoints: 1
+  gr: 17
+
+- id: ITEMTPL_287
+# name: Pergament, 1 Blatt
+  price: 1
+  weight: 0.05
+  special:
+    structurePoints: 2
+  gr: 17
+
+- id: ITEMTPL_288
+# name: Pinsel
+  price: 1
+  weight: 0.05
+  gr: 17
+
+- id: ITEMTPL_289
+# name: Siegelwachs
+  price: 3
+  weight: 0.1
+  gr: 17
+
+- id: ITEMTPL_290
+# name: Tagebuch
+  price: 11
+  weight: 1.5
+  gr: 17
+
+- id: ITEMTPL_291
+# name: Tinte
+  price: 1
+  weight: 0.1
+  gr: 17
+
+- id: ITEMTPL_292
+# name: Brevier der zwölfgöttlichen Unterweisung
+  price: 75
+  weight: 1
+  special:
+    structurePoints: 15
+  gr: 18
+
+- id: ITEMTPL_293
+# name: Codex Albyricus
+  price: 300
+  weight: 1
+  special:
+    structurePoints: 15
+  gr: 18
+
+- id: ITEMTPL_294
+# name: Encyclopaedia Magica
+  price: 800
+  weight: 2
+  special:
+    structurePoints: 20
+  gr: 18
+
+- id: ITEMTPL_295
+# name: Hilffreycher Leytfaden des wandernden Adepten
+  price: 150
+  weight: 2
+  special:
+    structurePoints: 20
+  gr: 18
+
+- id: ITEMTPL_296
+# name: Armreif der Willensstärke
+  price: 1050
+  gr: 19
+
+- id: ITEMTPL_297
+# name: Firnklinge
+  price: 1680
+  gr: 19
+
+- id: ITEMTPL_298
+# name: Antidot
+  price: 65
+  gr: 20
+
+- id: ITEMTPL_299
+# name: Heiltrank
+  price: 60
+  gr: 20
+
+- id: ITEMTPL_300
+# name: Liebestrunk
+  price: 80
+  gr: 20
+
+- id: ITEMTPL_301
+# name: Unsichtbarkeitselixier
+  price: 80
+  gr: 20
+
+- id: ITEMTPL_302
+# name: Verwandlungselixier
+  price: 80
+  gr: 20
+
+- id: ITEMTPL_303
+# name: Waffenbalsam
+  price: 110
+  gr: 20
+
+- id: ITEMTPL_304
+# name: Willenstrunk
+  price: 100
+  gr: 20
+
+- id: ITEMTPL_305
+# name: Zaubertrank
+  price: 100
+  gr: 20
+
+- id: ITEMTPL_306
+# name: Arax
+  price: 100
+  gr: 21
+
+- id: ITEMTPL_307
+# name: Kelmon
+  price: 300
+  gr: 21
+
+- id: ITEMTPL_308
+# name: Tulmadron
+  price: 1250
+  gr: 21
+
+- id: ITEMTPL_309
+# name: Wurara
+  price: 100
+  gr: 21
+
+- id: ITEMTPL_310
+# name: Alraune
+  price: 5
+  gr: 22
+
+- id: ITEMTPL_311
+# name: Axorda-Baum
+  price: 4
+  gr: 22
+
+- id: ITEMTPL_312
+# name: Donf
+  price: 12
+  gr: 22
+
+- id: ITEMTPL_313
+# name: Egelschreck
+  price: 12
+  gr: 22
+
+- id: ITEMTPL_314
+# name: Gulmond
+  price: 6.2
+  gr: 22
+
+- id: ITEMTPL_315
+# name: Lulanie
+  price: 10
+  gr: 22
+
+- id: ITEMTPL_316
+# name: Wirselkraut
+  price: 2.2
+  gr: 22
+
+- id: ITEMTPL_317
+# name: Drehleier
+  price: 200
+  weight: 2
+  gr: 23
+
+- id: ITEMTPL_318
+# name: Fanfare
+  price: 50
+  weight: 1
+  gr: 23
+
+- id: ITEMTPL_319
+# name: Flöte
+  price: 2
+  weight: 0.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 14
+    at: -1
+    pa: -4
+    reach: 1
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 23
+
+- id: ITEMTPL_320
+# name: Handharfe
+  price: 100
+  weight: 1
+  gr: 23
+
+- id: ITEMTPL_321
+# name: Kabasflöte
+  price: 4
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 14
+    at: -1
+    pa: -4
+    reach: 1
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 23
+
+- id: ITEMTPL_322
+# name: Laute
+  price: 150
+  weight: 2
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -1
+    pa: -3
+    reach: 1
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 23
+
+- id: ITEMTPL_323
+# name: Sackpfeife
+  price: 30
+  weight: 2
+  gr: 23
+
+- id: ITEMTPL_324
+# name: Schelle
+  price: 1
+  weight: 0.05
+  gr: 23
+
+- id: ITEMTPL_325
+# name: Signalhorn
+  price: 3
+  weight: 1
+  gr: 23
+
+- id: ITEMTPL_326
+# name: Spinett
+  price: 4000
+  weight: 100
+  gr: 23
+
+- id: ITEMTPL_327
+# name: Standharfe
+  price: 550
+  weight: 5.5
+  gr: 23
+
+- id: ITEMTPL_328
+# name: Trommel
+  price: 15
+  weight: 0.5
+  gr: 23
+
+- id: ITEMTPL_329
+# name: Badeöl
+  price: 100
+  weight: 1
+  gr: 24
+
+- id: ITEMTPL_330
+# name: Bier, kleines Fässchen
+  price: 0.16
+  weight: 2
+  gr: 24
+
+- id: ITEMTPL_331
+# name: Brennglas
+  price: 65
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_332
+# name: Brettspiel
+  price: 5
+  weight: 1
+  gr: 24
+
+- id: ITEMTPL_333
+# name: Bürste
+  price: 4
+  weight: 0.25
+  gr: 24
+
+- id: ITEMTPL_334
+# name: Götterfigürchen
+  price: 3
+  weight: 0.2
+  special:
+    structurePoints: 3
+  gr: 24
+
+- id: ITEMTPL_335
+# name: Handspiegel
+  price: 60
+  weight: 0.5
+  gr: 24
+
+- id: ITEMTPL_336
+# name: Jonglierball
+  price: 0.5
+  weight: 0.2
+  gr: 24
+
+- id: ITEMTPL_337
+# name: Kaffee, geröstet
+  price: 20
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_338
+# name: Kakao
+  price: 4
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_339
+# name: Kamm
+  price: 1
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_340
+# name: Kristallkugel
+  price: 2000
+  weight: 1.5
+  gr: 24
+
+- id: ITEMTPL_341
+# name: Lippenrot
+  price: 10
+  weight: 0.05
+  gr: 24
+
+- id: ITEMTPL_342
+# name: Nagelfeile
+  price: 20
+  weight: 0.05
+  gr: 24
+
+- id: ITEMTPL_343
+# name: Parfüm
+  price: 120
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 24
+
+- id: ITEMTPL_344
+# name: Pfeffer
+  price: 4.5
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_345
+# name: Puder
+  price: 5
+  weight: 0.05
+  gr: 24
+
+- id: ITEMTPL_346
+# name: Schnaps
+  price: 2
+  weight: 1
+  gr: 24
+
+- id: ITEMTPL_347
+# name: Schokolade
+  price: 5
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_348
+# name: Schwamm
+  price: 2
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_349
+# name: Seife
+  price: 1
+  weight: 0.5
+  special:
+    structurePoints: 4
+  gr: 24
+
+- id: ITEMTPL_350
+# name: Spielkarten
+  price: 5
+  weight: 0.25
+  gr: 24
+
+- id: ITEMTPL_351
+# name: Spieluhr
+  price: 400
+  weight: 0.25
+  gr: 24
+
+- id: ITEMTPL_352
+# name: Steckenpferd
+  price: 3
+  weight: 1
+  gr: 24
+
+- id: ITEMTPL_353
+# name: Stoffpuppe
+  price: 1
+  weight: 0.25
+  gr: 24
+
+- id: ITEMTPL_354
+# name: Tabak
+  price: 0.1
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_355
+# name: Tabakdose
+  price: 3
+  weight: 0.05
+  gr: 24
+
+- id: ITEMTPL_356
+# name: Tabakspfeife
+  price: 5
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_357
+# name: Taschentuch
+  price: 2
+  weight: 0.1
+  gr: 24
+
+- id: ITEMTPL_358
+# name: Wasserpfeife
+  price: 30
+  weight: 1
+  special:
+    structurePoints: 6
+  gr: 24
+
+- id: ITEMTPL_359
+# name: Wein
+  price: 0.45
+  weight: 1
+  gr: 24
+
+- id: ITEMTPL_360
+# name: Würfel, sechsseitig
+  price: 0.5
+  weight: 0.05
+  special:
+    structurePoints: 5
+  gr: 24
+
+- id: ITEMTPL_361
+# name: Hund
+  price: 4
+  gr: 25
+
+- id: ITEMTPL_362
+# name: Pferd
+  price: 750
+  gr: 25
+
+- id: ITEMTPL_363
+# name: Maultier
+  price: 250
+  gr: 25
+
+- id: ITEMTPL_364
+# name: Pony
+  price: 250
+  gr: 25
+
+- id: ITEMTPL_365
+# name: Halsband und Leine
+  price: 1
+  weight: 0.5
+  gr: 26
+
+- id: ITEMTPL_366
+# name: Hufeisen
+  price: 4
+  weight: 0.5
+  gr: 26
+
+- id: ITEMTPL_367
+# name: Packsattel
+  price: 30
+  weight: 10
+  gr: 26
+
+- id: ITEMTPL_368
+# name: Reitsattel
+  price: 60
+  weight: 6
+  gr: 26
+
+- id: ITEMTPL_369
+# name: Satteldecke
+  price: 1
+  weight: 0.75
+  gr: 26
+
+- id: ITEMTPL_370
+# name: Satteltasche
+  price: 17
+  weight: 1
+  gr: 26
+
+- id: ITEMTPL_371
+# name: Sporen
+  price: 6
+  weight: 0.25
+  gr: 26
+
+- id: ITEMTPL_372
+# name: Striegelzeug
+  price: 16
+  weight: 1
+  gr: 26
+
+- id: ITEMTPL_373
+# name: Zügel und Zaumzeug
+  price: 15
+  weight: 1
+  gr: 26
+
+- id: ITEMTPL_374
+# name: Hundefutter
+  price: 0.2
+  gr: 26
+
+- id: ITEMTPL_375
+# name: Pferdefutter
+  price: 0.5
+  gr: 26
+
+- id: ITEMTPL_376
+# name: Ponyfutter
+  price: 0.3
+  gr: 26
+
+- id: ITEMTPL_377
+# name: Bollerwagen
+  price: 60
+  gr: 27
+
+- id: ITEMTPL_378
+# name: Karren, einachsig
+  price: 180
+  gr: 27
+
+- id: ITEMTPL_379
+# name: Kleines Ruderboot
+  price: 1200
+  gr: 27
+
+- id: ITEMTPL_380
+# name: Kleines Segelboot
+  price: 6500
+  gr: 27
+
+- id: ITEMTPL_381
+# name: Kutsche
+  price: 2000
+  gr: 27
+
+- id: ITEMTPL_382
+# name: Nudel-/Teigholz
+  price: 10
+  weight: 1.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 40
+    structurePoints: 10
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 13
+
+- id: ITEMTPL_383
+# name: Schmiedehammer
+  price: 100
+  weight: 1.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: -3
+    reach: 2
+    length: 70
+    structurePoints: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 13
+
+- id: ITEMTPL_384
+# name: Sichel
+  price: 10
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: -1
+    pa: -2
+    reach: 1
+    length: 60
+    structurePoints: 12
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 13
+
+- id: ITEMTPL_385
+# name: Turnierlanze
+  price: 30
+  weight: 3
+  special:
+    combatTechnique: CT_7
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 8
+    length: 300
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_386
+# name: Fuhrmannspeitsche
+  price: 20
+  weight: 3
+  special:
+    combatTechnique: CT_8
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: 0
+    reach: 3
+    length: 250
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_387
+# name: Breitschwert
+  price: 180
+  weight: 1.5
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: -1
+    pa: -1
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_388
+# name: Parazonium (zyklopäisches Kurzschwert)
+  price: 140
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 1
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_389
+# name: Scimshar (tulamidisches Kurzschwert)
+  price: 140
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_390
+# name: Turnierschwert
+  price: 20
+  weight: 0.5
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_391
+# name: Hirtenstab
+  price: 10
+  weight: 0.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 15
+    at: 0
+    pa: 2
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_392
+# name: Kriegsflegel
+  price: 50
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: -1
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_393
+# name: Pailos
+  price: 300
+  weight: 4.5
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: -1
+    pa: -2
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_394
+# name: Sense
+  price: 40
+  weight: 1.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 16
+    at: -2
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: true
+  gr: 13
+
+- id: ITEMTPL_395
+# name: Sturmsense
+  price: 60
+  weight: 1.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 16
+    at: -1
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_396
+# name: Turnierzweihänder
+  price: 40
+  weight: 2.25
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold:
+      - 16
+      - 16
+    at: 0
+    pa: -2
+    reach: 2
+    length: 160
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_397
+# name: Schleuder
+  price: 5
+  weight: 0.25
+  special:
+    combatTechnique: CT_11
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 50
+    closeRange: 5
+    mediumRange: 25
+    farRange: 60
+    reloadTime: 2
+    ammunition: ITEMTPL_398
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_398
+# name: Steinchen
+  price: 0.1
+  gr: 3
+
+- id: ITEMTPL_399
+# name: Holzrüstung
+  price: 300
+  weight: 10
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 5
+  gr: 4
+
+- id: ITEMTPL_400
+# name: Hornrüstung
+  price: 140
+  weight: 10
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_401
+# name: Knochenrüstung
+  price: 80
+  weight: 6
+  special:
+    protection: 2
+    encumbrance: 1
+    hasAdditionalPenalties: false
+    armorType: 3
+  gr: 4
+
+- id: ITEMTPL_402
+# name: Turnierrüstung
+  price: 3000
+  weight: 40
+  special:
+    protection: 8
+    encumbrance: 5
+    hasAdditionalPenalties: false
+    armorType: 9
+  gr: 4
+
+- id: ITEMTPL_403
+# name: Armillarsphäre
+  price: 150
+  weight: 3.5
+  special:
+    structurePoints: 8
+  gr: 14
+
+- id: ITEMTPL_404
+# name: Boltankartenset, Stoff
+  price: 5
+  weight: 0.25
+  special:
+    structurePoints: 1
+  gr: 24
+
+- id: ITEMTPL_405
+# name: Boltankartenset, Papier
+  price: 20
+  weight: 0.2
+  special:
+    structurePoints: 2
+  gr: 24
+
+- id: ITEMTPL_406
+# name: Boltankartenset, Stoff, gezinkt
+  price: 10
+  weight: 0.25
+  special:
+    structurePoints: 1
+  gr: 24
+
+- id: ITEMTPL_407
+# name: Boltankartenset, Papier, gezinkt
+  price: 40
+  weight: 0.2
+  special:
+    structurePoints: 2
+  gr: 24
+
+- id: ITEMTPL_408
+# name: Brechstange
+  price: 38
+  weight: 6
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 13
+    at: -1
+    pa: -3
+    reach: 2
+    length: 100
+    structurePoints: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 12
+
+- id: ITEMTPL_409
+# name: Dietrichset (6 unterschiedliche Dietriche)
+  price: 50
+  weight: 1.5
+  special:
+    structurePoints: 20
+  gr: 12
+
+- id: ITEMTPL_410
+# name: Fernrohr, zusammenschiebbar
+  price: 400
+  weight: 1
+  special:
+    structurePoints: 18
+  gr: 14
+
+- id: ITEMTPL_411
+# name: Fernrohr, kleines
+  price: 75
+  weight: 0.5
+  special:
+    structurePoints: 10
+  gr: 14
+
+- id: ITEMTPL_412
+# name: Fernrohr, großes
+  price: 1500
+  weight: 5
+  special:
+    structurePoints: 35
+  gr: 14
+
+- id: ITEMTPL_413
+# name: Fesselseil, Leder, pro Schritt
+  price: 0.4
+  weight: 0.25
+  special:
+    structurePoints: 5
+  gr: 11 # TODO: Also: 30
+
+- id: ITEMTPL_414
+# name: Gwen-Petryl-Stein, kopfgroß
+  price: 10000
+  weight: 7.5
+  special:
+    structurePoints: 120
+  gr: 8
+
+- id: ITEMTPL_415
+# name: Gwen-Petryl-Stein, fingerkuppengroß
+  price: 100
+  weight: 0.075
+  special:
+    structurePoints: 40
+  gr: 8
+
+- id: ITEMTPL_416
+# name: Herbarium Kuslikum
+  price: 250
+  weight: 1
+  special:
+    structurePoints: 15
+  gr: 18
+
+- id: ITEMTPL_417
+# name: Kamelspiel
+  price: 5
+  weight: 1
+  special:
+    structurePoints: 5
+  gr: 24
+
+- id: ITEMTPL_418
+# name: Kamelspiel, gezinkt
+  price: 20
+  weight: 1
+  special:
+    structurePoints: 5
+  gr: 24
+
+- id: ITEMTPL_419
+# name: Stundenkerze, 1 Stück
+  price: 3
+  weight: 0.1
+  special:
+    structurePoints: 2
+  gr: 8
+
+- id: ITEMTPL_420
+# name: Zauberkerze, 1 Stück
+  price: 10
+  weight: 0.1
+  special:
+    structurePoints: 3
+  gr: 8
+
+- id: ITEMTPL_421
+# name: Seidenseil, pro Schritt
+  price: 1
+  weight: 0.2
+  special:
+    structurePoints: 3
+  gr: 11
+
+- id: ITEMTPL_422
+# name: Kompass (Südweiser), Metallgehäuse
+  price: 60
+  weight: 0.3
+  special:
+    structurePoints: 7
+  gr: 14
+
+- id: ITEMTPL_423
+# name: Zauberkreide
+  price: 10
+  weight: 0.1
+  special:
+    structurePoints: 3
+  gr: 17
+
+- id: ITEMTPL_424
+# name: Leichtes Magiergewand
+  price: 120
+  weight: 3
+  special:
+    structurePoints: 6
+  gr: 6
+
+- id: ITEMTPL_425
+# name: Großes Magiergewand
+  price: 120
+  weight: 3
+  special:
+    structurePoints: 6
+  gr: 6
+
+- id: ITEMTPL_426
+# name: Beschwörungsgewand
+  price: 120
+  weight: 3
+  special:
+    structurePoints: 6
+  gr: 6
+
+- id: ITEMTPL_427
+# name: Konventsgewand
+  price: 120
+  weight: 3
+  special:
+    structurePoints: 6
+  gr: 6
+
+- id: ITEMTPL_428
+# name: Reisegewand für Magier
+  price: 120
+  weight: 3
+  special:
+    structurePoints: 6
+  gr: 6
+
+- id: ITEMTPL_429
+# name: Papier, gutes, 1 Blatt
+  price: 0.3
+  weight: 0.05
+  special:
+    structurePoints: 2
+  gr: 17
+
+- id: ITEMTPL_430
+# name: Pergament, gutes, 1 Blatt
+  price: 3
+  weight: 0.05
+  special:
+    structurePoints: 3
+  gr: 17
+
+- id: ITEMTPL_431
+# name: Prems Tierleben
+  price: 250
+  weight: 1
+  special:
+    structurePoints: 15
+  gr: 18
+
+- id: ITEMTPL_432
+# name: Seife, parfümiert
+  price: 5
+  weight: 0.5
+  special:
+    structurePoints: 4
+  gr: 24
+
+- id: ITEMTPL_433
+# name: Vademecum für das Waffenhandwerk
+  price: 150
+  weight: 1
+  special:
+    structurePoints: 15
+  gr: 18
+
+- id: ITEMTPL_434
+# name: Vorhängeschloss
+  price: 10
+  weight: 3
+  special:
+    structurePoints: 100
+  gr: 11
+
+- id: ITEMTPL_435
+# name: Phraischafwolldecke
+  price: 8
+  weight: 1.5
+  special:
+    structurePoints: 4
+  gr: 7
+
+- id: ITEMTPL_436
+# name: Würfel, sechsseitig, gezinkt
+  price: 2
+  weight: 0.06
+  special:
+    structurePoints: 5
+  gr: 24
+
+- id: ITEMTPL_437
+# name: Würfel, zwanzigseitig
+  price: 3
+  weight: 0.06
+  special:
+    structurePoints: 6
+  gr: 24
+
+- id: ITEMTPL_438
+# name: Würfel, zwanzigseitig, gezinkt
+  price: 12
+  weight: 0.07
+  special:
+    structurePoints: 6
+  gr: 24
+
+- id: ITEMTPL_439
+# name: Zelt, 4 Personen
+  price: 40
+  weight: 8
+  special:
+    structurePoints: 8
+  gr: 7
+
+- id: ITEMTPL_440
+# name: Großzelt, 12 Personen
+  price: 200
+  weight: 20
+  special:
+    structurePoints: 60
+  gr: 7
+
+- id: ITEMTPL_441
+# name: Seife mit Tuch
+  price: 1
+  weight: 0.5
+  special:
+    combatTechnique: CT_6
+    damageDiceNumber: 1
+    damageDiceSides: 3
+    damageThreshold: 14
+    at: -1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_442
+# name: Wurfhaken mit Kletterseil
+  price: 7.3
+  weight: 1.5
+  special:
+    combatTechnique: CT_6
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -2
+    reach: 3
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_443
+# name: Hakendolch
+  price: 80
+  weight: 1.25
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -1
+    pa: 0
+    reach: 1
+    length: 60
+    isParryingWeapon: true
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_444
+# name: Jagdmesser
+  price: 50
+  weight: 0.25
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 1
+    length: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_445
+# name: Katar
+  price: 50
+  weight: 1.25
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 13
+    at: 0
+    pa: -1
+    reach: 1
+    length: 40
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_446
+# name: Mengbilar
+  price: 120
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 1
+    length: 25
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_447
+# name: Ogerfänger
+  price: 100
+  weight: 1
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 35
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_448
+# name: Stockdegen
+  price: 350
+  weight: 1
+  special:
+    combatTechnique: CT_4
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: 1
+    pa: 0
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_449
+# name: Ochsenherde
+  price: 260
+  weight: 6
+  special:
+    combatTechnique: CT_6
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 14
+    at: -2
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_450
+# name: Ogerschelle
+  price: 180
+  weight: 4
+  special:
+    combatTechnique: CT_6
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: -2
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_451
+# name: Orchidee
+  price: 60
+  weight: 1
+  special:
+    combatTechnique: CT_9
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 1
+    length: 40
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_452
+# name: Panzerarm
+  price: 70
+  weight: 1
+  special:
+    combatTechnique: CT_9
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_453
+# name: Faustschild
+  price: 40
+  weight: 1
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: -3
+    pa: 0
+    reach: 1
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_454
+# name: Amazonensäbel
+  price: 200
+  weight: 2
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_455
+# name: Nachtwind
+  price: 250
+  weight: 1.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_456
+# name: Glefe
+  price: 50
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 15
+    at: 0
+    pa: -2
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_457
+# name: Jagdspieß
+  price: 80
+  weight: 1.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_458
+# name: Schnitter
+  price: 80
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 15
+    at: -1
+    pa: -1
+    reach: 3
+    length: 130
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_459
+# name: Warunker Hammer
+  price: 300
+  weight: 3.75
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 14
+    at: 0
+    pa: -3
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_460
+# name: Richtschwert
+  price: 600
+  weight: 5
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 14
+    at: -2
+    pa: -3
+    reach: 2
+    length: 130
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_461
+# name: Balläster-Armbrust
+  price: 200
+  weight: 3
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    length: 80
+    closeRange: 20
+    mediumRange: 60
+    farRange: 100
+    reloadTime: 2
+    ammunition: ITEMTPL_77
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_462
+# name: Blasrohr
+  price: 40
+  weight: 0.5
+  special:
+    combatTechnique: CT_18
+    damageDiceNumber: 1
+    damageDiceSides: 2
+    length: 60
+    closeRange: 5
+    mediumRange: 20
+    farRange: 40
+    reloadTime: 2
+    ammunition: ITEMTPL_463
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_463
+# name: Blasrohrpfeil
+  price: 1
+  gr: 3
+
+- id: ITEMTPL_464
+# name: Diskus
+  price: 25
+  weight: 0.75
+  special:
+    combatTechnique: CT_19
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 30
+    closeRange: 5
+    mediumRange: 25
+    farRange: 40
+    reloadTime: 2
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_465
+# name: Wurfnetz
+  price: 35
+  weight: 2
+  special:
+    combatTechnique: CT_14
+    length: 350
+    closeRange: 1
+    mediumRange: 3
+    farRange: 5
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_466
+# name: Iryanrüstung
+  price: 250
+  weight: 5
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_467
+# name: Kettenhemd
+  price: 250
+  weight: 10
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 6
+  gr: 4
+
+- id: ITEMTPL_468
+# name: Krötenhaut
+  price: 200
+  weight: 5
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_469
+# name: Lederharnisch
+  price: 150
+  weight: 6
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_470
+# name: Leichte Platte
+  price: 400
+  weight: 15
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 8
+  gr: 4
+
+- id: ITEMTPL_471
+# name: Schuppenpanzer
+  price: 400
+  weight: 18
+  special:
+    protection: 5
+    encumbrance: 2
+    hasAdditionalPenalties: true
+    armorType: 7
+  gr: 4
+
+- id: ITEMTPL_472
+# name: Spiegelpanzer
+  price: 350
+  weight: 13
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 6
+  gr: 4
+
+- id: ITEMTPL_473
+# name: Tuchrüstung
+  price: 75
+  weight: 3
+  special:
+    protection: 2
+    encumbrance: 1
+    hasAdditionalPenalties: false
+    armorType: 3
+  gr: 4
+
+- id: ITEMTPL_474
+# name: Druidendolch
+  price: 60
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 15
+    at: -1
+    pa: 0
+    reach: 1
+    length: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_475
+# name: Eberfänger
+  price: 60
+  weight: 1
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 40
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_476
+# name: Deichgabel
+  price: 30
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: -1
+    pa: -2
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_477
+# name: Hirschfänger
+  price: 100
+  weight: 1
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold:
+      - 14
+      - 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_478
+# name: Saufeder
+  price: 100
+  weight: 1.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_479
+# name: Holzfälleraxt
+  price: 80
+  weight: 4
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 13
+    at: 0
+    pa: -4
+    reach: 2
+    length: 110
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_480
+# name: Stakaxt
+  price: 40
+  weight: 3
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 13
+    at: 0
+    pa: -2
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_481
+# name: Andergaster
+  price: 400
+  weight: 3.25
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 14
+    at: 0
+    pa: -4
+    reach: 2
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_482
+# name: Nostrianer
+  price: 400
+  weight: 3.25
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 14
+    at: 0
+    pa: -4
+    reach: 2
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_483
+# name: Nostrischer Langbogen
+  price: 100
+  weight: 1
+  special:
+    combatTechnique: CT_2
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 8
+    length: 200
+    closeRange: 20
+    mediumRange: 120
+    farRange: 180
+    reloadTime: 2
+    ammunition: ITEMTPL_75
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_484
+# name: Adlerfedern
+  price: 5
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_485
+# name: Asche
+  price: 0.01
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_486
+# name: Blut
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_487
+# name: Echsen- oder Schlangenschuppen
+  price: 0.01
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_488
+# name: Eigenblut
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_489
+# name: Eiskristalle, Eiswasser
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_490
+# name: Kirschblüten
+  price: 0.01
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_491
+# name: Mehl
+  price: 0.01
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_492
+# name: Saatgut
+  price: 0.01
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_493
+# name: Salbungsöl
+  price: 0.01
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_494
+# name: Sternenstaub
+  price: 1
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_495
+# name: Tharf
+  price: 1
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_496
+# name: Weihwasser
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_497
+# name: Zugvogelfedern
+  price: 0.03
+  special:
+    structurePoints: 1
+  gr: 28
+
+- id: ITEMTPL_498
+# name: Annalen des Götteralters
+  price: 50
+  weight: 2
+  gr: 18
+
+- id: ITEMTPL_499
+# name: Großer aventurischer Atlas, zeitgenössische Ausgabe
+  price: 1200
+  weight: 3
+  gr: 18
+
+- id: ITEMTPL_500
+# name: Rahjasutra, Elrem-al'Moran-Ausgabe
+  price: 200
+  gr: 18
+
+- id: ITEMTPL_501
+# name: Rahjasutra, Zweitkopie
+  price: 200
+  gr: 18
+
+- id: ITEMTPL_502
+# name: Vademecum
+  price: 150
+  gr: 18
+
+- id: ITEMTPL_503
+# name: Buch der Schlange
+  price: 90
+  weight: 1.5
+  special:
+    structurePoints: 18
+  gr: 29
+
+- id: ITEMTPL_504
+# name: Einhornstirnband
+  price: 23
+  weight: 0.3
+  special:
+    structurePoints: 3
+  gr: 29
+
+- id: ITEMTPL_505
+# name: Gänsebeutel
+  price: 25
+  weight: 0.25
+  special:
+    structurePoints: 4
+  gr: 29
+
+- id: ITEMTPL_506
+# name: Grüne Handschuhe
+  price: 10
+  weight: 1
+  special:
+    structurePoints: 12
+  gr: 29
+
+- id: ITEMTPL_507
+# name: Mondamulett
+  price: 80
+  weight: 0.1
+  special:
+    structurePoints: 10
+  gr: 29
+
+- id: ITEMTPL_508
+# name: Prisma
+  price: 50
+  weight: 0.1
+  special:
+    structurePoints: 25
+  gr: 29
+
+- id: ITEMTPL_509
+# name: Roter Schleier
+  price: 100
+  weight: 0.05
+  special:
+    structurePoints: 1
+  gr: 29
+
+- id: ITEMTPL_510
+# name: Opferdolch des Namenlosen (Basiliskenzunge)
+  price: 50
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_511
+# name: Firunsmesser
+  price: 60
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 1
+    length: 35
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_512
+# name: Ingerimmshammer
+  price: 125
+  weight: 1.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 70
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_513
+# name: Amazonenschild
+  price: 85
+  weight: 3.5
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: -5
+    pa: 2
+    reach: 1
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_514
+# name: Walschild
+  price: 85
+  weight: 3.5
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: -5
+    pa: 2
+    reach: 1
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_515
+# name: Avesstab
+  price: 25
+  weight: 0.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 15
+    at: 0
+    pa: 2
+    reach: 3
+    length: 170
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_516
+# name: Efferdbart
+  price: 100
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: 1
+    reach: 3
+    length: 160
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_517
+# name: Wanderstab
+  price: 12
+  weight: 1
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 14
+    at: 0
+    pa: 2
+    reach: 3
+    length: 170
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_518
+# name: Korspieß
+  price: 400
+  weight: 3.5
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 13
+    at: 0
+    pa: -3
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_519
+# name: Efferdbart
+  price: 100
+  weight: 2
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    length: 160
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 2
+    isImprovisedWeapon: true
+  gr: 2
+
+- id: ITEMTPL_520
+# name: Amazonenrüstung
+  price: 600
+  weight: 8
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 8
+  gr: 4
+
+- id: ITEMTPL_521
+# name: Ifirnmantel
+  price: 150
+  weight: 2
+  special:
+    protection: 1
+    encumbrance: 0
+    hasAdditionalPenalties: true
+    armorType: 2
+  gr: 4
+
+- id: ITEMTPL_522
+# name: Pantherrüstung
+  price: 800
+  weight: 23
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 8
+  gr: 4
+
+- id: ITEMTPL_523
+# name: Schuppengewand
+  price: 50
+  weight: 1
+  special:
+    protection: 1
+    encumbrance: 0
+    hasAdditionalPenalties: true
+    armorType: 2
+  gr: 4
+
+- id: ITEMTPL_524
+# name: Albernischer Langdolch
+  price: 55
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 45
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_525
+# name: Windhager Drachenmesser
+  price: 60
+  weight: 0.75
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 35
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_526
+# name: Shillelagh (Wurzelholzkeule)
+  price: 5
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 13
+    at: 0
+    pa: -2
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_527
+# name: Havener Buckler (Vollmetallbuckler)
+  price: 40
+  weight: 1
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: -3
+    pa: 0
+    reach: 1
+    length: 25
+    isParryingWeapon: true
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_528
+# name: Albernische Bauernwehr
+  price: 80
+  weight: 1
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold:
+      - 15
+      - 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 65
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_529
+# name: Albernisches Entermesser
+  price: 120
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 2
+    length: 75
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_530
+# name: Albernisches Langschwert
+  price: 180
+  weight: 1.5
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: -1
+    pa: -1
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_531
+# name: Harbener Säbel
+  price: 200
+  weight: 0.9
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_532
+# name: Havener Messer
+  price: 200
+  weight: 0.5
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 75
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_533
+# name: Seesäbel
+  price: 180
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_534
+# name: Cruaghairm (Windhager Hakenaxt)
+  price: 200
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 1
+    reach: 2
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_535
+# name: Neckerdreizack
+  price: 80
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_536
+# name: Usascoall (Albernische Spießaxt)
+  price: 160
+  weight: 2.5
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 14
+    at: 0
+    pa: -2
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_537
+# name: Albernischer Anderthalbhänder
+  price: 360
+  weight: 2.25
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 2
+    length: 140
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_538
+# name: Albernischer Langbogen
+  price: 80
+  weight: 0.75
+  special:
+    combatTechnique: CT_2
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 8
+    length: 200
+    closeRange: 20
+    mediumRange: 100
+    farRange: 160
+    reloadTime: 2
+    ammunition: ITEMTPL_75
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_539
+# name: Windhager Schleuder
+  price: 5
+  weight: 0.25
+  special:
+    combatTechnique: CT_11
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 50
+    closeRange: 5
+    mediumRange: 25
+    farRange: 60
+    reloadTime: 2
+    ammunition: ITEMTPL_398
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_540
+# name: Gaoraith (Albernische Wurfaxt)
+  price: 100
+  weight: 1.25
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    length: 50
+    closeRange: 2
+    mediumRange: 10
+    farRange: 25
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_541
+# name: Feuersteinchen
+  price: 0.1
+  gr: 3
+
+- id: ITEMTPL_542
+# name: Torfgabel
+  price: 25
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: -1
+    pa: -3
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 7
+
+- id: ITEMTPL_543
+# name: Spealleagh
+  price: 200
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 1
+    reach: 2
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_544
+# name: Havener Lederharnisch
+  price: 180
+  weight: 5
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_545
+# name: Matrosenkleidung
+  price: 25
+  weight: 2
+  special:
+    protection: 1
+    encumbrance: 0
+    hasAdditionalPenalties: true
+    armorType: 2
+  gr: 4
+
+- id: ITEMTPL_546
+# name: Eichhafener
+  price: 440
+  weight: 3.5
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 14
+    at: 0
+    pa: -4
+    reach: 2
+    length: 220
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_547
+# name: Harmlyner
+  price: 440
+  weight: 3.5
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 14
+    at: 0
+    pa: -4
+    reach: 2
+    length: 220
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_548
+# name: Andergaster Langschwert
+  price: 200
+  weight: 1.25
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_549
+# name: Nostrisches Langschwert
+  price: 200
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_550
+# name: Streitaxt der Streitenden Königreiche
+  price: 105
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_551
+# name: Streitkolben der Streitenden Königreiche
+  price: 105
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_552
+# name: Turnierschild der Streitenden Königreiche
+  price: 30
+  weight: 3.5
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: -4
+    pa: 1
+    reach: 1
+    structurePoints: 25
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_553
+# name: Zauberstab aus Steineiche
+  price: 380
+  weight: 1
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 16
+    at: -1
+    pa: 2
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_554
+# name: Alchimistenschale
+  price: 20
+  weight: 0.5
+  gr: 13
+
+- id: ITEMTPL_555
+# name: Bastmatte
+  price: 10
+  weight: 0.75
+  gr: 24
+
+- id: ITEMTPL_556
+# name: Brett
+  price: 1
+  weight: 1.5
+  gr: 7
+
+- id: ITEMTPL_557
+# name: Fass
+  price: 30
+  weight: 20
+  gr: 10
+
+- id: ITEMTPL_558
+# name: Gildenmagische Magierkugel
+  price: 30
+  weight: 2
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 13
+    at: -1
+    pa: -4
+    reach: 1
+    length: 10
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_559
+# name: Handpuppe
+  price: 0.5
+  weight: 0.2
+  gr: 24
+
+- id: ITEMTPL_560
+# name: Hexenbesen
+  price: 0.5
+  weight: 0.75
+  gr: 7
+
+- id: ITEMTPL_561
+# name: Hexenkessel
+  price: 24
+  weight: 4
+  gr: 10
+
+- id: ITEMTPL_562
+# name: Maraskanische Hartholzrüstung
+  price: 300
+  weight: 10
+  gr: 4
+
+- id: ITEMTPL_563
+# name: Matrosenhut
+  price: 4
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_564
+# name: Narrenkappe
+  price: 5
+  weight: 1.25
+  gr: 6
+
+- id: ITEMTPL_565
+# name: Stoffpuppe
+  price: 1
+  weight: 0.25
+  gr: 24
+
+- id: ITEMTPL_566
+# name: Zaunpfahl
+  price: 3
+  weight: 2
+  gr: 7
+
+- id: ITEMTPL_567
+# name: Gildenmagische Magierkugel (Wurfwaffe)
+  price: 30
+  weight: 2
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    length: 10
+    closeRange: 3
+    mediumRange: 6
+    farRange: 9
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_568
+# name: Amboss, groß
+  price: 300
+  weight: 350
+  special:
+    structurePoints: 5000
+  gr: 7
+
+- id: ITEMTPL_569
+# name: Amboss, klein
+  price: 200
+  weight: 25
+  special:
+    structurePoints: 500
+  gr: 7
+
+- id: ITEMTPL_570
+# name: Reiseamboss
+  price: 250
+  weight: 150
+  special:
+    structurePoints: 3000
+  gr: 7
+
+- id: ITEMTPL_571
+# name: Brotbeutel, groß
+  price: 0.6
+  weight: 0.1
+  special:
+    structurePoints: 2
+  gr: 10
+
+- id: ITEMTPL_572
+# name: Brotbeutel, klein
+  price: 0.3
+  weight: 0.05
+  special:
+    structurePoints: 1
+  gr: 10
+
+- id: ITEMTPL_573
+# name: Hochwertiges Instrumentarium
+  price: 160
+  weight: 2
+  special:
+    structurePoints: 8
+  gr: 9
+
+- id: ITEMTPL_574
+# name: Edle Kleidung
+  price: 100
+  weight: 2
+  special:
+    structurePoints: 3
+  gr: 6
+
+- id: ITEMTPL_575
+# name: Chorhoper Tinte
+  price: 4
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 17
+
+- id: ITEMTPL_576
+# name: Federkiel, Gans
+  price: 0.1
+  weight: 0.05
+  special:
+    structurePoints: 1
+  gr: 17
+
+- id: ITEMTPL_577
+# name: Federkiel, Pelikan
+  price: 0.3
+  weight: 0.06
+  special:
+    structurePoints: 1
+  gr: 17
+
+- id: ITEMTPL_578
+# name: Federkiel, Schwan
+  price: 0.4
+  weight: 0.06
+  special:
+    structurePoints: 1
+  gr: 17
+
+- id: ITEMTPL_579
+# name: Federkiel, Storch
+  price: 0.2
+  weight: 0.08
+  special:
+    structurePoints: 1
+  gr: 17
+
+- id: ITEMTPL_580
+# name: Gallustinte
+  price: 1
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 17
+
+- id: ITEMTPL_581
+# name: Purpurtinte
+  price: 8
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 17
+
+- id: ITEMTPL_582
+# name: Tintenfäßchen, einfach
+  price: 2
+  weight: 0.2
+  special:
+    structurePoints: 10
+  gr: 17
+
+- id: ITEMTPL_583
+# name: Tintenfäßchen, edel
+  price: 5
+  weight: 0.25
+  special:
+    structurePoints: 15
+  gr: 17
+
+- id: ITEMTPL_584
+# name: Fleischerbeil
+  price: 25
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: -1
+    pa: -3
+    reach: 2
+    length: 35
+    structurePoints: 25
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 13
+
+- id: ITEMTPL_585
+# name: Jonglierball mit Gewichten
+  price: 0.8
+  weight: 0.3
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 3
+    damageFlat: 1
+    closeRange: 2
+    mediumRange: 4
+    farRange: 8
+    reloadTime: 1
+    isImprovisedWeapon: true
+  gr: 24
+
+- id: ITEMTPL_586
+# name: Keffiya
+  price: 0.6
+  weight: 0.3
+  special:
+    structurePoints: 3
+  gr: 6
+
+- id: ITEMTPL_587
+# name: Kopftuch
+  price: 0.5
+  weight: 0.25
+  special:
+    structurePoints: 3
+  gr: 6
+
+- id: ITEMTPL_588
+# name: Piratenkopftuch
+  price: 0.6
+  weight: 0.25
+  special:
+    structurePoints: 4
+  gr: 6
+
+- id: ITEMTPL_589
+# name: Schneiderschere
+  price: 7
+  weight: 0.3
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold:
+      - 16
+      - 16
+    at: -2
+    pa: -3
+    reach: 1
+    length: 20
+    structurePoints: 12
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 7
+
+- id: ITEMTPL_590
+# name: Storchenmaske
+  price: 8
+  weight: 0.5
+  special:
+    structurePoints: 5
+  gr: 9
+
+- id: ITEMTPL_591
+# name: Gesundheitssteigernde Essenzen, 1 Anwendung
+  price: 5
+  weight: 0.25
+  special:
+    structurePoints: 1
+  gr: 9
+
+- id: ITEMTPL_592
+# name: Knaster
+  price: 0.05
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 24
+
+- id: ITEMTPL_593
+# name: Methumis-Tabak
+  price: 0.2
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 24
+
+- id: ITEMTPL_594
+# name: Mochorka, nordischer Tabak
+  price: 0.05
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 24
+
+- id: ITEMTPL_595
+# name: Mohacca
+  price: 0.6
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 24
+
+- id: ITEMTPL_596
+# name: Tabakbeutel
+  price: 0.3
+  weight: 0.05
+  special:
+    structurePoints: 1
+  gr: 24
+
+- id: ITEMTPL_597
+# name: Reisetruhe
+  price: 22
+  weight: 6
+  special:
+    structurePoints: 80
+  gr: 10
+
+- id: ITEMTPL_598
+# name: Schatztruhe
+  price: 25
+  weight: 6
+  special:
+    structurePoints: 140
+  gr: 10
+
+- id: ITEMTPL_599
+# name: Seekiste
+  price: 20
+  weight: 7
+  special:
+    structurePoints: 120
+  gr: 10
+
+- id: ITEMTPL_600
+# name: Vorschlaghammer
+  price: 30
+  weight: 5
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -1
+    pa: -4
+    reach: 2
+    length: 80
+    structurePoints: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: true
+  gr: 13
+
+- id: ITEMTPL_601
+# name: Wolfsfell
+  price: 5
+  weight: 2
+  special:
+    structurePoints: 7
+  gr: 4
+
+- id: ITEMTPL_602
+# name: Wie man kämpft, reitet und Bier trinkt
+  price: 30
+  weight: 0.75
+  special:
+    structurePoints: 17
+  gr: 18
+
+- id: ITEMTPL_603
+# name: Arbach
+  price: 120
+  weight: 2.5
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: -1
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_604
+# name: Bastardschwert
+  price: 200
+  weight: 3
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 13
+    at: 0
+    pa: -2
+    reach: 2
+    length: 110
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_605
+# name: Bock
+  price: 80
+  weight: 3
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 16
+    at: 0
+    pa: -3
+    reach: 1
+    length: 30
+    structurePoints: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_606
+# name: Boronsichel
+  price: 80
+  weight: 4
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 16
+    at: 0
+    pa: -2
+    reach: 2
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_607
+# name: Byakka
+  price: 90
+  weight: 3.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_608
+# name: Degen
+  price: 150
+  weight: 0.75
+  special:
+    combatTechnique: CT_4
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 15
+    at: 0
+    pa: 1
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_609
+# name: Dornenkeule
+  price: 13
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_610
+# name: Drachentöter
+  price: 1500
+  weight: 10
+  special:
+    combatTechnique: CT_21
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold:
+      - 16
+      - 16
+    at: 0
+    reach: 4
+    length: 400
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_611
+# name: Druidendolch aus Vulkanglas
+  price: 60
+  weight: 1
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 15
+    at: -1
+    pa: 0
+    reach: 1
+    length: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_612
+# name: Geißel
+  price: 14
+  weight: 1.5
+  special:
+    combatTechnique: CT_6
+    damageDiceNumber: 1
+    damageDiceSides: 3
+    damageThreshold: 16
+    at: -2
+    reach: 2
+    length: 140
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_613
+# name: Großer Lederschild
+  price: 45
+  weight: 2.5
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: -5
+    pa: 2
+    reach: 1
+    structurePoints: 20
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_614
+# name: Gruufhai
+  price: 120
+  weight: 4.5
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 13
+    at: -1
+    pa: -3
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_615
+# name: Hakenspieß
+  price: 70
+  weight: 4
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -2
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_616
+# name: Hauswehr
+  price: 50
+  weight: 1
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold:
+      - 15
+      - 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 65
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_617
+# name: Kettenstab
+  price: 120
+  weight: 2.5
+  special:
+    combatTechnique: CT_6
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_618
+# name: Knochendolch
+  price: 9
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 1
+    length: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_619
+# name: Knochenkeule
+  price: 0.6
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_620
+# name: Kriegsfächer
+  price: 200
+  weight: 1.25
+  special:
+    combatTechnique: CT_20
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: -3
+    pa: 0
+    reach: 1
+    length: 40
+    structurePoints: 15
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_621
+# name: Kusliker Säbel
+  price: 160
+  weight: 1.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_622
+# name: Langdolch
+  price: 55
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 1
+    length: 45
+    isParryingWeapon: true
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_623
+# name: Magierdegen
+  price: 250
+  weight: 0.5
+  special:
+    combatTechnique: CT_4
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 16
+    at: 0
+    pa: 2
+    reach: 2
+    length: 75
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_624
+# name: Neethaner Langaxt
+  price: 23
+  weight: 4
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -2
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_625
+# name: Neunschwänzige
+  price: 18
+  weight: 2
+  special:
+    combatTechnique: CT_8
+    damageDiceNumber: 1
+    damageDiceSides: 3
+    damageFlat: 1
+    damageThreshold: 15
+    at: -2
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_626
+# name: Neunschwänzige mit Metallstücken/Dornen
+  price: 25
+  weight: 2.1
+  special:
+    combatTechnique: CT_8
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 15
+    at: -2
+    reach: 2
+    length: 90
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_627
+# name: Partisane
+  price: 100
+  weight: 3.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -2
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_628
+# name: Pike
+  price: 50
+  weight: 4.25
+  special:
+    combatTechnique: CT_21
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    reach: 4
+    length: 350
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_629
+# name: Rimkur
+  price: 250
+  weight: 2.25
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -2
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_630
+# name: Scheibendolch
+  price: 60
+  weight: 1
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: 0
+    pa: -3
+    reach: 1
+    length: 45
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_631
+# name: Steinbeil
+  price: 4
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 40
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_632
+# name: Steinhammer
+  price: 20
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -3
+    reach: 2
+    length: 70
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_633
+# name: Stoßspeer
+  price: 100
+  weight: 3.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_634
+# name: Turmschild
+  price: 120
+  weight: 7
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: -6
+    pa: 3
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_635
+# name: Turnierschild
+  price: 30
+  weight: 3.5
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: -4
+    pa: 1
+    reach: 1
+    length: 300
+    structurePoints: 25
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_636
+# name: Verstärkte Holzschild
+  price: 70
+  weight: 4
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: -4
+    pa: 1
+    reach: 1
+    structurePoints: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_637
+# name: Veteranenhand
+  price: 150
+  weight: 3
+  special:
+    combatTechnique: CT_9
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold:
+      - 14
+      - 14
+    at: 0
+    pa: -2
+    reach: 1
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_638
+# name: Wurmspieß
+  price: 120
+  weight: 4
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -2
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_639
+# name: Zwergenskraja
+  price: 100
+  weight: 2
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 13
+    at: 0
+    pa: -1
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_640
+# name: Brandpfeile
+  price: 1.6
+  gr: 3
+
+- id: ITEMTPL_641
+# name: Brandbolzen
+  price: 0.8
+  gr: 3
+
+- id: ITEMTPL_642
+# name: Jagdpfeile
+  price: 0.4
+  gr: 3
+
+- id: ITEMTPL_643
+# name: Jagdbolzen
+  price: 0.2
+  gr: 3
+
+- id: ITEMTPL_644
+# name: Kettenbrecher-Pfeile
+  price: 2.4
+  gr: 3
+
+- id: ITEMTPL_645
+# name: Kettenbrecher-Bolzen
+  price: 1.2
+  gr: 3
+
+- id: ITEMTPL_646
+# name: Kriegspfeile
+  price: 1.6
+  gr: 3
+
+- id: ITEMTPL_647
+# name: Kriegsbolzen
+  price: 0.8
+  gr: 3
+
+- id: ITEMTPL_648
+# name: Panzerbrecher-Pfeile
+  price: 4.8
+  gr: 3
+
+- id: ITEMTPL_649
+# name: Panzerbrecher-Bolzen
+  price: 2.4
+  gr: 3
+
+- id: ITEMTPL_650
+# name: Pferde-Pfeile
+  price: 2.8
+  gr: 3
+
+- id: ITEMTPL_651
+# name: Pferde-Bolzen
+  price: 1.4
+  gr: 3
+
+- id: ITEMTPL_652
+# name: Sehnenschneider-Pfeile
+  price: 2
+  gr: 3
+
+- id: ITEMTPL_653
+# name: Sehnenschneider-Bolzen
+  price: 1
+  gr: 3
+
+- id: ITEMTPL_654
+# name: Singende Pfeile
+  price: 0.8
+  gr: 3
+
+- id: ITEMTPL_655
+# name: Singende Bolzen
+  price: 0.4
+  gr: 3
+
+- id: ITEMTPL_656
+# name: Stumpfe Pfeile
+  price: 1.6
+  gr: 3
+
+- id: ITEMTPL_657
+# name: Stumpfe Bolzen
+  price: 0.8
+  gr: 3
+
+- id: ITEMTPL_658
+# name: Gürtelhalter
+  price: 40
+  gr: 5
+
+- id: ITEMTPL_659
+# name: Hüftköcher
+  price: 25
+  gr: 5
+
+- id: ITEMTPL_660
+# name: Improvisierte Brandpfeile
+  price: 0.8
+  gr: 3
+
+- id: ITEMTPL_661
+# name: Improvisierte Brandbolzen
+  price: 0.4
+  gr: 3
+
+- id: ITEMTPL_662
+# name: Munitionstasche
+  price: 15
+  gr: 5
+
+- id: ITEMTPL_663
+# name: Repetier-Magazin (3 Schuss)
+  price: 120
+  gr: 5
+
+- id: ITEMTPL_664
+# name: Repetier-Magazin (7 Schuss)
+  price: 350
+  gr: 5
+
+- id: ITEMTPL_665
+# name: Widerhaken-Pfeile
+  price: 1.2
+  gr: 3
+
+- id: ITEMTPL_666
+# name: Widerhaken-Bolzen
+  price: 0.6
+  gr: 3
+
+- id: ITEMTPL_667
+# name: Oger-Keule
+  price: 10
+  weight: 6
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 7
+    damageThreshold: 22
+    at: 0
+    pa: 0
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_668
+# name: Yeti-Keule
+  price: 9
+  weight: 5.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 7
+    damageThreshold: 18
+    at: 0
+    pa: 0
+    reach: 3
+    length: 190
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_669
+# name: Troll-Axt
+  price: 500
+  weight: 12
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 3
+    damageDiceSides: 6
+    damageFlat: 12
+    damageThreshold: 26
+    at: 0
+    pa: 0
+    reach: 4
+    length: 280
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_670
+# name: Zyklopen-Hammer
+  price: 700
+  weight: 15
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 12
+    damageThreshold: 22
+    at: 0
+    pa: 0
+    reach: 4
+    length: 250
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_671
+# name: Balestra
+  price: 200
+  weight: 2.75
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 80
+    closeRange: 10
+    mediumRange: 35
+    farRange: 60
+    reloadTime: 4
+    ammunition: ITEMTPL_77
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_672
+# name: Borndorn
+  price: 65
+  weight: 0.75
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 45
+    closeRange: 2
+    mediumRange: 10
+    farRange: 15
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_673
+# name: Fledermaus
+  price: 400
+  weight: 0.5
+  special:
+    combatTechnique: CT_11
+    length: 180
+    closeRange: 5
+    mediumRange: 10
+    farRange: 20
+    reloadTime: 2
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_674
+# name: Granatapfel
+  price: 200
+  weight: 1
+  special:
+    combatTechnique: CT_14
+    closeRange: 2
+    mediumRange: 4
+    farRange: 8
+    reloadTime: 2
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_675
+# name: Hylailer Feuer
+  price: 150
+  gr: 20
+
+- id: ITEMTPL_676
+# name: Kriegsbogen
+  price: 100
+  weight: 1
+  special:
+    combatTechnique: CT_2
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 8
+    length: 140
+    closeRange: 25
+    mediumRange: 50
+    farRange: 100
+    reloadTime: 2
+    ammunition: ITEMTPL_75
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_677
+# name: Stabschleuder
+  price: 15
+  weight: 1
+  special:
+    combatTechnique: CT_11
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    closeRange: 10
+    mediumRange: 20
+    farRange: 60
+    reloadTime: 2
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_678
+# name: Windenarmbrust
+  price: 450
+  weight: 7.25
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 6
+    length: 80
+    closeRange: 25
+    mediumRange: 100
+    farRange: 200
+    reloadTime: 25
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_679
+# name: Wurfmesser
+  price: 30
+  weight: 0.5
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    length: 30
+    closeRange: 2
+    mediumRange: 5
+    farRange: 10
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_680
+# name: Bronzeharnisch
+  price: 250
+  weight: 12
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 8
+  gr: 4
+
+- id: ITEMTPL_681
+# name: Eisenmantel
+  price: 200
+  weight: 7
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_682
+# name: Fellrüstung
+  price: 20
+  weight: 1.5
+  special:
+    protection: 0
+    encumbrance: 0
+    hasAdditionalPenalties: false
+    armorType: 1
+  gr: 4
+
+- id: ITEMTPL_683
+# name: Fünflagenharnisch
+  price: 200
+  weight: 7
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_684
+# name: Gambeson
+  price: 105
+  weight: 3
+  special:
+    protection: 2
+    encumbrance: 1
+    hasAdditionalPenalties: false
+    armorType: 3
+  gr: 4
+
+- id: ITEMTPL_685
+# name: Garether Platte
+  price: 1800
+  weight: 34
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 10
+  gr: 4
+
+- id: ITEMTPL_686
+# name: Gestechrüstung
+  price: 2500
+  weight: 35
+  special:
+    protection: 7
+    encumbrance: 4
+    hasAdditionalPenalties: false
+    armorType: 10
+  gr: 4
+
+- id: ITEMTPL_687
+# name: Gladiatorenrüstung
+  price: 100
+  weight: 4
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_688
+# name: Hartholzharnisch
+  price: 300
+  weight: 10
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 5
+  gr: 4
+
+- id: ITEMTPL_689
+# name: Kettenweste
+  price: 200
+  weight: 8
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 6
+  gr: 4
+
+- id: ITEMTPL_690
+# name: Kürass
+  price: 250
+  weight: 12
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 8
+  gr: 4
+
+- id: ITEMTPL_691
+# name: Kurbul
+  price: 180
+  weight: 7
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_692
+# name: Lamellar
+  price: 380
+  weight: 17
+  special:
+    protection: 5
+    encumbrance: 2
+    hasAdditionalPenalties: true
+    armorType: 7
+  gr: 4
+
+- id: ITEMTPL_693
+# name: Langes Kettenhemd
+  price: 300
+  weight: 12
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 6
+  gr: 4
+
+- id: ITEMTPL_694
+# name: Lindwurmhaut
+  price: 120
+  weight: 6
+  special:
+    protection: 3
+    encumbrance: 1
+    hasAdditionalPenalties: true
+    armorType: 4
+  gr: 4
+
+- id: ITEMTPL_695
+# name: Mammutonpanzer
+  price: 500
+  weight: 10
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 5
+  gr: 4
+
+- id: ITEMTPL_696
+# name: Reiterharnisch
+  price: 2000
+  weight: 20
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 8
+  gr: 4
+
+- id: ITEMTPL_697
+# name: Schwere Platte
+  price: 2200
+  weight: 32
+  special:
+    protection: 7
+    encumbrance: 4
+    hasAdditionalPenalties: false
+    armorType: 10
+  gr: 4
+
+- id: ITEMTPL_698
+# name: Skorpionhemd
+  price: 300
+  weight: 12
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 6
+  gr: 4
+
+- id: ITEMTPL_699
+# name: Wattierter Waffenrock
+  price: 90
+  weight: 3
+  special:
+    protection: 2
+    encumbrance: 1
+    hasAdditionalPenalties: false
+    armorType: 3
+  gr: 4
+
+# - id: ITEMTPL_700
+# # name: Baburiner Hut
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_701
+# # name: Drachenhelm
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_702
+# # name: Flügelhelm
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_703
+# # name: Gladiatorenhelm
+#   price: 15
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 4
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_704
+# # name: Kettenhaube
+#   price: 25
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 6
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_705
+# # name: Lederhelm
+#   price: 15
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 4
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_706
+# # name: Maskenhelm
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_707
+# # name: Morion
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_708
+# # name: Schaller
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_709
+# # name: Sturmhaube
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_710
+# # name: Tellerhelm
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_711
+# # name: Tobrischer Hut
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_712
+# # name: Topfhelm
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_713
+# # name: Wolfshelm
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+# - id: ITEMTPL_714
+# # name: Zwergenhelm
+#   price: 75
+#   weight: 2.5
+#   special:
+#     combatTechnique:
+#     damageDiceNumber:
+#     damageDiceSides:
+#     damageFlat:
+#     damageThreshold:
+#       attribute:
+#       threshold:
+#     at:
+#     pa:
+#     reach:
+#     length: 8
+#     isParryingWeapon: false
+#     isTwoHandedWeapon: false
+#     isImprovisedWeapon: false
+#   gr: 4
+
+- id: ITEMTPL_715
+# name: Schlachtermesser
+  price: 40
+  weight: 1
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: -1
+    pa: -3
+    reach: 1
+    length: 35
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 13
+
+- id: ITEMTPL_716
+# name: Elfendolch
+  price: 100
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: 0
+    pa: 0
+    reach: 1
+    length: 40
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_717
+# name: Aleeza
+  price: 250
+  weight: 0.5
+  special:
+    combatTechnique: CT_4
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 16
+    at: 1
+    pa: 1
+    reach: 2
+    length: 95
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_718
+# name: Brillantzwergischer Buckler
+  price: 50
+  weight: 1
+  special:
+    combatTechnique: CT_10
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold: 16
+    at: -3
+    pa: 0
+    reach: 1
+    structurePoints: 25
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_719
+# name: Brillantzwergisches Kurzschwert
+  price: 100
+  weight: 1
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold:
+      - 14
+      - 14
+    at: 0
+    pa: 0
+    reach: 1
+    length: 70
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_720
+# name: Elfenspeer
+  price: 120
+  weight: 1.25
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: 0
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_721
+# name: Mistgabel
+  price: 55
+  weight: 1.5
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold:
+      - 15
+      - 15
+    at: -1
+    pa: -2
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: true
+  gr: 13
+
+- id: ITEMTPL_722
+# name: Holzkeil
+  price: 1
+  weight: 0.25
+  special:
+    structurePoints: 10
+  gr: 13
+
+- id: ITEMTPL_723
+# name: Metallkeil
+  price: 4
+  weight: 0.75
+  special:
+    structurePoints: 25
+  gr: 13
+
+- id: ITEMTPL_724
+# name: Eulentränen
+  price: 15
+  gr: 20
+
+- id: ITEMTPL_725
+# name: Kaltes Licht
+  price: 22
+  gr: 20
+
+- id: ITEMTPL_726
+# name: Leuchtkreide
+  price: 18
+  gr: 20
+
+- id: ITEMTPL_727
+# name: Pyrophor
+  price: 15
+  gr: 20
+
+- id: ITEMTPL_728
+# name: Trunk der ruhigen Hand
+  price: 30
+  gr: 20
+
+- id: ITEMTPL_729
+# name: Tiefendorn
+  price: 80
+  weight: 2
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: 1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_730
+# name: Charib’Yzz-Dolch
+  price: 60
+  weight: 2
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -1
+    reach: 2
+    length: 65
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_731
+# name: Krakensilberspeer
+  price: 80
+  weight: 2.25
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -1
+    reach: 3
+    length: 200
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_732
+# name: Gwen-Petryl-Stein, sandkorngroß
+  price: 1
+  weight: 0.00075
+  special:
+    structurePoints: 1
+  gr: 8
+
+- id: ITEMTPL_733
+# name: Gwen-Petryl-Stein, gerstenkorngroß
+  price: 10
+  weight: 0.0075
+  special:
+    structurePoints: 1
+  gr: 8
+
+- id: ITEMTPL_734
+# name: Charyb’Yzz’ Traum
+  price: 50
+  gr: 20
+
+- id: ITEMTPL_735
+# name: Muränenbiss
+  price: 200
+  gr: 20
+
+- id: ITEMTPL_736
+# name: Totenbleiche
+  price: 10
+  gr: 20
+
+- id: ITEMTPL_737
+# name: Wasserodem
+  price: 100
+  gr: 20
+
+- id: ITEMTPL_738
+# name: Efferdfigürchen
+  price: 3
+  weight: 0.2
+  gr: 24
+
+- id: ITEMTPL_739
+# name: Goldamulett
+  price: 107
+  weight: 0.1
+  gr: 15
+
+- id: ITEMTPL_740
+# name: Perlen
+  price: 350
+  weight: 0.01
+  gr: 15
+
+- id: ITEMTPL_741
+# name: Halbwegs wasserfeste Lederstiefel
+  price: 20
+  weight: 1
+  gr: 1
+
+- id: ITEMTPL_742
+# name: Kettenhemdbikini
+  price: 100
+  weight: 2
+  special:
+    protection: 1
+    encumbrance: 0
+    hasAdditionalPenalties: true
+    armorType: 6
+  gr: 4
+
+- id: ITEMTPL_743
+# name: Ingerimms Hammer
+  price: 300
+  weight: 2
+  special:
+    structurePoints: 15
+  gr: 30
+
+- id: ITEMTPL_744
+# name: Olisbos
+  price: 10
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 1
+    length: 20
+    structurePoints: 8
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_745
+# name: Olisbosgürtel
+  price: 15
+  weight: 0.75
+  special:
+    structurePoints: 10
+  gr: 30
+
+- id: ITEMTPL_746
+# name: Phallusstab
+  price: 30
+  weight: 1.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -2
+    pa: -2
+    reach: 2
+    length: 40
+    structurePoints: 12
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_747
+# name: Ballknebel
+  price: 22
+  weight: 0.25
+  special:
+    structurePoints: 4
+  gr: 30
+
+- id: ITEMTPL_748
+# name: Handschellen
+  price: 12
+  weight: 1
+  special:
+    structurePoints: 120
+  gr: 30
+
+- id: ITEMTPL_750
+# name: Seidentuch
+  price: 20
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 30
+
+- id: ITEMTPL_751
+# name: Brabaker Rohr
+  price: 10
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 80
+    structurePoints: 20
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_752
+# name: Folterkerze
+  price: 1
+  weight: 0.1
+  special:
+    structurePoints: 1
+  gr: 30
+
+- id: ITEMTPL_753
+# name: Klammer
+  price: 2
+  weight: 0.2
+  special:
+    structurePoints: 3
+  gr: 30
+
+- id: ITEMTPL_754
+# name: Lustpeitsche
+  price: 14
+  weight: 1.5
+  special:
+    combatTechnique: CT_8
+    damageDiceNumber: 1
+    damageDiceSides: 3
+    damageThreshold: 16
+    at: -1
+    reach: 3
+    length: 140
+    structurePoints: 8
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_755
+# name: Neunschwänzige
+  price: 18
+  weight: 2
+  special:
+    combatTechnique: CT_8
+    damageDiceNumber: 1
+    damageDiceSides: 3
+    damageFlat: 1
+    damageThreshold: 15
+    at: -2
+    reach: 2
+    length: 90
+    structurePoints: 9
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_756
+# name: Paddel
+  price: 5
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 60
+    structurePoints: 5
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_757
+# name: Reitgerte
+  price: 10
+  weight: 0.75
+  special:
+    combatTechnique: CT_8
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageThreshold:
+      attribute: ATTR_8
+      threshold: 16
+    at: 0
+    pa: -3
+    reach: 2
+    length: 100
+    structurePoints: 4
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 1
+
+- id: ITEMTPL_758
+# name: Streichelfeder
+  price: 3
+  weight: 0.3
+  special:
+    structurePoints: 2
+  gr: 30
+
+- id: ITEMTPL_759
+# name: Gleitmittel, 1 Anwendung
+  price: 5
+  weight: 0.1
+  gr: 30
+
+- id: ITEMTPL_760
+# name: Massageöl, 1 Anwendung
+  price: 10
+  weight: 0.2
+  gr: 30
+
+- id: ITEMTPL_761
+# name: Spucke, 1 Anwendung
+  gr: 30
+
+- id: ITEMTPL_762
+# name: Keuschheitsgürtel
+  price: 100
+  weight: 4
+  special:
+    structurePoints: 100
+  gr: 30
+
+- id: ITEMTPL_763
+# name: Korsett
+  price: 150
+  weight: 1.25
+  special:
+    structurePoints: 6
+  gr: 30
+
+- id: ITEMTPL_764
+# name: Ledermontur
+  price: 60
+  weight: 1.5
+  special:
+    structurePoints: 12
+  gr: 30
+
+- id: ITEMTPL_765
+# name: Reizwäsche
+  price: 50
+  weight: 1.5
+  special:
+    structurePoints: 8
+  gr: 30
+
+- id: ITEMTPL_766
+# name: Schmuckringe- und Steine
+  price: 10
+  weight: 0.025
+  special:
+    structurePoints: 5
+  gr: 30
+
+- id: ITEMTPL_767
+# name: Rosentätowierung
+  price: 250
+  gr: 30
+
+- id: ITEMTPL_768
+# name: Tätowierung
+  price: 15
+  gr: 30
+
+- id: ITEMTPL_769
+# name: Liebesperlen
+  price: 5
+  weight: 0.2
+  special:
+    structurePoints: 10
+  gr: 30
+
+- id: ITEMTPL_770
+# name: Penisring
+  price: 8
+  weight: 0.1
+  special:
+    structurePoints: 7
+  gr: 30
+
+- id: ITEMTPL_771
+# name: Po-Stöpsel
+  price: 8
+  weight: 0.25
+  special:
+    structurePoints: 10
+  gr: 30
+
+- id: ITEMTPL_772
+# name: Po-Stöpsel mit Tierschwanz
+  price: 25
+  weight: 0.5
+  special:
+    structurePoints: 10
+  gr: 30
+
+- id: ITEMTPL_773
+# name: Erotische Statuette
+  price: 12
+  weight: 1
+  special:
+    structurePoints: 10
+  gr: 30
+
+- id: ITEMTPL_774
+# name: Potenztalisman
+  price: 3
+  weight: 0.2
+  special:
+    structurePoints: 3
+  gr: 30
+
+- id: ITEMTPL_776
+# name: Widderkeule
+  price: 70
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 70
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_777
+# name: Bolzen-Balestrina
+  price: 240
+  weight: 0.75
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    length: 40
+    closeRange: 6
+    mediumRange: 28
+    farRange: 44
+    reloadTime: 2
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_778
+# name: Schwarzer Wein
+  price: 70
+  gr: 21
+
+- id: ITEMTPL_779
+# name: Dornrosen
+  price: 3
+  gr: 21
+
+- id: ITEMTPL_780
+# name: Schwarzer Weinstock
+  price: 3
+  gr: 21
+
+- id: ITEMTPL_781
+# name: Dornrosenzweig
+  price: 10
+  weight: 0.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: -1
+    pa: -3
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_782
+# name: Bakka
+  price: 50
+  weight: 0.75
+  special:
+    combatTechnique: CT_9
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold:
+      - 14
+      - 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 40
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_783
+# name: Chablak-Dolch
+  price: 50
+  weight: 0.75
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 1
+    length: 40
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_784
+# name: Dagla-Schwert
+  price: 180
+  weight: 2
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 105
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_785
+# name: Harigastur-Bronzeschwert
+  price: 180
+  weight: 1.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 15
+    at: -1
+    pa: -1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_786
+# name: Nipauka-Axt
+  price: 140
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_787
+# name: Nivesischer Wolfsspeer (2H)
+  price: 140
+  weight: 1
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -1
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_788
+# name: Druidensichel
+  price: 70
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 15
+    at: -2
+    pa: -2
+    reach: 1
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_789
+# name: Alchimistensäure
+  price: 100
+  gr: 20
+
+- id: ITEMTPL_790
+# name: Angstgift
+  price: 120
+  gr: 20
+
+- id: ITEMTPL_791
+# name: Berserkerelixier
+  price: 140
+  gr: 20
+
+- id: ITEMTPL_792
+# name: Schwadenbeutel
+  price: 80
+  gr: 20
+
+- id: ITEMTPL_793
+# name: Stinktöpfchen
+  price: 80
+  gr: 20
+
+- id: ITEMTPL_794
+# name: Zielwasser
+  price: 60
+  gr: 20
+
+- id: ITEMTPL_795
+# name: Wanderstab (2H)
+  price: 10
+  weight: 0.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: 2
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_796
+# name: Rabenschnabel
+  price: 90
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 110
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_797
+# name: Armbrustfalle
+  weight: 0.75
+  special:
+    structurePoints: 4
+  gr: 12
+
+- id: ITEMTPL_798
+# name: Ausfahrbarer Regenschirm
+  price: 20
+  weight: 1
+  special:
+    structurePoints: 4
+  gr: 24
+
+- id: ITEMTPL_799
+# name: Flaschenzug, pro Rolle
+  price: 15
+  weight: 1
+  special:
+    structurePoints: 10
+  gr: 11
+
+- id: ITEMTPL_800
+# name: Kombinationsschloss
+  price: 200
+  weight: 1.5
+  special:
+    structurePoints: 200
+  gr: 7
+
+- id: ITEMTPL_801
+# name: Sackuhr
+  price: 800
+  weight: 0.25
+  special:
+    structurePoints: 6
+  gr: 24
+
+- id: ITEMTPL_802
+# name: Springarm
+  price: 40
+  weight: 1
+  special:
+    structurePoints: 10
+  gr: 12
+
+- id: ITEMTPL_803
+# name: Angbarer Sappeursaxt
+  price: 85
+  weight: 1.25
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_804
+# name: Elenviner Reiterhammer
+  price: 100
+  weight: 2
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_805
+# name: Lûrer Lindwurmschläger
+  price: 90
+  weight: 1
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_806
+# name: Senaloscher Sehnenschneider
+  price: 100
+  weight: 2
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 13
+    at: 0
+    pa: -1
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_807
+# name: Ferdoker Kriegslanze
+  price: 120
+  weight: 2.75
+  special:
+    combatTechnique: CT_7
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 16
+    at: 1
+    length: 300
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_808
+# name: Gratenfelser Malchus
+  price: 130
+  weight: 1.25
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold:
+      - 16
+      - 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 80
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_809
+# name: Koscher Langschwert
+  price: 200
+  weight: 1.25
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_810
+# name: Nordmärker Langschwert
+  price: 200
+  weight: 1
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 105
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_811
+# name: Hügelzwergisches Kurzschwert
+  price: 140
+  weight: 0.75
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold:
+      - 14
+      - 14
+    at: 0
+    pa: 0
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_812
+# name: Gratenfelser Ahlspieß
+  price: 120
+  weight: 3.5
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold:
+      - 14
+      - 14
+    at: 0
+    pa: -1
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_813
+# name: Albenhuser Rossschinder
+  price: 70
+  weight: 4
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -2
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_814
+# name: Nordmärker Mordaxt
+  price: 140
+  weight: 2.25
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -1
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_815
+# name: Xorloscher Wurmspieß
+  price: 150
+  weight: 4.5
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 5
+    damageThreshold:
+      - 15
+      - 15
+    at: 0
+    pa: -3
+    reach: 3
+    length: 180
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_816
+# name: Eisenhütter Kriegshammer
+  price: 280
+  weight: 4
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 14
+    at: 0
+    pa: -2
+    reach: 2
+    length: 130
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_817
+# name: Muroloscher Zwergenschlägel
+  price: 140
+  weight: 3
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 6
+    damageThreshold: 13
+    at: 0
+    pa: -1
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_818
+# name: Waldwachter Felsspalter
+  price: 220
+  weight: 3.5
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 12
+    at: 0
+    pa: -3
+    reach: 2
+    length: 120
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_819
+# name: Koscher Kurzbogen
+  price: 45
+  weight: 0.4
+  special:
+    combatTechnique: CT_2
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    length: 110
+    closeRange: 10
+    mediumRange: 50
+    farRange: 80
+    reloadTime: 1
+    ammunition: ITEMTPL_75
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_820
+# name: Angbarer Mauerwehr
+  price: 350
+  weight: 3
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 70
+    closeRange: 10
+    mediumRange: 30
+    farRange: 50
+    reloadTime:
+      - 1
+      - 12
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_821
+# name: Isenhager Armbrust
+  price: 270
+  weight: 5.25
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 2
+    length: 95
+    closeRange: 15
+    mediumRange: 75
+    farRange: 120
+    reloadTime: 10
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_822
+# name: Waldwachter Armbrust
+  price: 400
+  weight: 6.5
+  special:
+    combatTechnique: CT_1
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 6
+    length: 65
+    closeRange: 15
+    mediumRange: 75
+    farRange: 120
+    reloadTime: 14
+    ammunition: ITEMTPL_76
+    isImprovisedWeapon: false
+  gr: 2
+
+- id: ITEMTPL_823
+# name: Holzhammer
+  price: 3
+  weight: 0.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: -1
+    pa: -3
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 7
+
+- id: ITEMTPL_824
+# name: Koscher Grevenstecken
+  price: 18
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 16
+    at: -1
+    pa: -2
+    reach: 2
+    length: 60
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 7
+
+- id: ITEMTPL_825
+# name: Schmiedewerkzeug
+  weight: 1.5
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 3
+    damageThreshold: 14
+    at: -1
+    pa: -2
+    reach: 2
+    length: 55
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: true
+  gr: 7
+
+- id: ITEMTPL_826
+# name: Koscher Gambeson
+  price: 80
+  weight: 3.25
+  special:
+    protection: 2
+    encumbrance: 1
+    hasAdditionalPenalties: false
+    armorType: 3
+  gr: 4
+
+- id: ITEMTPL_827
+# name: Albenhuser Plattenharnisch
+  price: 275
+  weight: 12
+  special:
+    protection: 6
+    encumbrance: 3
+    hasAdditionalPenalties: false
+    armorType: 8
+  gr: 4
+
+- id: ITEMTPL_828
+# name: Nordmärker Ritterrüstung
+  price: 2200
+  weight: 38
+  special:
+    protection: 7
+    encumbrance: 4
+    hasAdditionalPenalties: false
+    armorType: 10
+  gr: 4
+
+- id: ITEMTPL_829
+# name: Isnatoscher Kettengeflecht
+  price: 320
+  weight: 8
+  special:
+    protection: 4
+    encumbrance: 2
+    hasAdditionalPenalties: false
+    armorType: 6
+  gr: 4
+
+- id: ITEMTPL_830
+# name: Einbeere
+  price: 7
+  gr: 22
+
+- id: ITEMTPL_831
+# name: Joruga
+  price: 21
+  gr: 22
+
+- id: ITEMTPL_832
+# name: Neckerkraut
+  price: 3.5
+  gr: 22
+
+- id: ITEMTPL_833
+# name: Sansaro
+  price: 18
+  gr: 22
+
+- id: ITEMTPL_834
+# name: Quinja
+  price: 6.5
+  gr: 22
+
+- id: ITEMTPL_835
+# name: Traschbart
+  price: 18
+  gr: 22
+
+- id: ITEMTPL_836
+# name: Yagannuss
+  price: 6.5
+  gr: 22
+
+- id: ITEMTPL_837
+# name: Carlog
+  price: 2.2
+  gr: 22
+
+- id: ITEMTPL_838
+# name: Margolasch
+  price: 1.2
+  gr: 22
+
+- id: ITEMTPL_839
+# name: Schattennebler
+  price: 2.2
+  gr: 22
+
+- id: ITEMTPL_840
+# name: Weißdorn
+  price: 12
+  gr: 22
+
+- id: ITEMTPL_841
+# name: Hollbeere
+  price: 8
+  gr: 22
+
+- id: ITEMTPL_842
+# name: Mibelrohr
+  price: 24
+  gr: 22
+
+- id: ITEMTPL_843
+# name: Tarnele
+  price: 6
+  gr: 22
+
+- id: ITEMTPL_844
+# name: Koboldpilz
+  price: 1
+  gr: 22
+
+- id: ITEMTPL_845
+# name: Korsblümchen
+  price: 0.02
+  gr: 22
+
+- id: ITEMTPL_846
+# name: Roter Drachenschlund
+  gr: 22
+
+- id: ITEMTPL_847
+# name: Bleichmohn
+  price: 50
+  gr: 22
+
+- id: ITEMTPL_848
+# name: Chonchinis
+  price: 9
+  gr: 22
+
+- id: ITEMTPL_849
+# name: Feuermoos
+  price: 15
+  gr: 22
+
+- id: ITEMTPL_850
+# name: Phosphorpilz
+  price: 4
+  gr: 22
+
+- id: ITEMTPL_851
+# name: Krakenseerose
+  price: 13
+  gr: 22
+
+- id: ITEMTPL_852
+# name: Felsenmilch
+  price: 3.5
+  gr: 22
+
+- id: ITEMTPL_853
+# name: Eunuchenkraut
+  price: 5
+  gr: 22
+
+- id: ITEMTPL_854
+# name: Ingrimwurzel
+  price: 5
+  gr: 22
+
+- id: ITEMTPL_855
+# name: Kajubo
+  price: 2.2
+  gr: 22
+
+- id: ITEMTPL_856
+# name: Schlangentang
+  price: 1
+  gr: 22
+
+- id: ITEMTPL_857
+# name: Koschbasalt-Kästchen
+  price: 100
+  weight: 2
+  gr: 10
+
+- id: ITEMTPL_858
+# name: Bäckerschürze
+  price: 6
+  weight: 0.5
+  gr: 6
+
+- id: ITEMTPL_859
+# name: Brauerschürze
+  price: 15
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_860
+# name: Holzpantinen
+  price: 4
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_861
+# name: Kappe
+  price: 2
+  weight: 0.25
+  gr: 6
+
+- id: ITEMTPL_862
+# name: Kittel
+  price: 1
+  weight: 0.25
+  gr: 6
+
+- id: ITEMTPL_863
+# name: Schaube
+  price: 50
+  weight: 1.5
+  gr: 6
+
+- id: ITEMTPL_864
+# name: Schmiedeschürze
+  price: 25
+  weight: 1.25
+  gr: 6
+
+- id: ITEMTPL_865
+# name: Schuhe
+  price: 5
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_866
+# name: Schürze
+  price: 1
+  weight: 0.25
+  gr: 6
+
+- id: ITEMTPL_867
+# name: Stiefel
+  price: 12
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_868
+# name: Tracht
+  price: 12
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_869
+# name: Wams
+  price: 7
+  weight: 1
+  gr: 6
+
+- id: ITEMTPL_870
+# name: Addiermaschine
+  price: 2000
+  weight: 3
+  gr: 24
+
+- id: ITEMTPL_871
+# name: Angbarer Handpuppe
+  price: 3
+  weight: 0.25
+  gr: 7
+
+- id: ITEMTPL_872
+# name: Bottich, 15l
+  price: 2
+  weight: 1.25
+  gr: 10
+
+- id: ITEMTPL_873
+# name: Fass, 60l
+  price: 4
+  weight: 5
+  gr: 10
+
+- id: ITEMTPL_874
+# name: Ferdoker Zinnfigur
+  price: 4
+  weight: 0.3
+  gr: 24
+
+- id: ITEMTPL_875
+# name: Holzeimer, 5l
+  price: 3
+  weight: 0.75
+  gr: 10
+
+- id: ITEMTPL_876
+# name: Hügelzwergische Pfeife
+  price: 15
+  weight: 0.2
+  gr: 24
+
+- id: ITEMTPL_877
+# name: Zinsspindel
+  price: 6000
+  weight: 4
+  gr: 24
+
+- id: ITEMTPL_878
+# name: Zwergisches Essgeschirr aus Zinn
+  price: 30
+  weight: 2
+  gr: 7
+
+- id: ITEMTPL_879
+# name: Zwergisches Schloss
+  price: 100
+  weight: 3
+  gr: 11
+
+- id: ITEMTPL_880
+# name: Brotbeutel Kosch
+  price: 0.5
+  weight: 1.5
+  gr: 7
+
+- id: ITEMTPL_881
+# name: Brotbeutel Nordmarken
+  price: 0.5
+  weight: 1.5
+  gr: 7
+
+- id: ITEMTPL_882
+# name: Bannschwert, klein (Dolch)
+  price: 45
+  weight: 0.5
+  special:
+    combatTechnique: CT_3
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: 0
+    reach: 1
+    length: 30
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_883
+# name: Bannschwert, mittel (Langschwert)
+  price: 200
+  weight: 1
+  special:
+    combatTechnique: CT_12
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 15
+    at: 0
+    pa: 0
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_884
+# name: Bannschwert, groß (Zweihänder)
+  price: 260
+  weight: 2.5
+  special:
+    combatTechnique: CT_16
+    damageDiceNumber: 2
+    damageDiceSides: 6
+    damageFlat: 4
+    damageThreshold: 14
+    at: 0
+    pa: -3
+    reach: 2
+    length: 160
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_885
+# name: Magierstab, kurz
+  price: 40
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_886
+# name: Magierstab, mittel
+  price: 60
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_887
+# name: Magierstab, lang
+  price: 80
+  weight: 0.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 16
+    at: -1
+    pa: +2
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_888
+# name: Zauberkugel
+  price: 30
+  weight: 2
+  special:
+    combatTechnique: CT_15
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 13
+    at: -1
+    pa: -4
+    reach: 1
+    length: 10
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_889
+# name: Zauberstecken, kurz
+  price: 30
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 1
+    length: 50
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_890
+# name: Zauberstecken, mittel
+  price: 45
+  weight: 0.75
+  special:
+    combatTechnique: CT_5
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 14
+    at: 0
+    pa: -1
+    reach: 2
+    length: 100
+    isParryingWeapon: false
+    isTwoHandedWeapon: false
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_891
+# name: Zauberstecken, lang (2H)
+  price: 60
+  weight: 0.75
+  special:
+    combatTechnique: CT_13
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 2
+    damageThreshold: 16
+    at: -1
+    pa: +2
+    reach: 3
+    length: 150
+    isParryingWeapon: false
+    isTwoHandedWeapon: true
+    isImprovisedWeapon: false
+  gr: 1
+
+- id: ITEMTPL_892
+# name: Zauberkugel (Wurfwaffe)
+  price: 30
+  weight: 2
+  special:
+    combatTechnique: CT_14
+    damageDiceNumber: 1
+    damageDiceSides: 6
+    damageFlat: 1
+    length: 10
+    closeRange: 3
+    mediumRange: 6
+    farRange: 9
+    reloadTime: 1
+    isImprovisedWeapon: false
+  gr: 1

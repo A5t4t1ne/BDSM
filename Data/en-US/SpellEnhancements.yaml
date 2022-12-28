@@ -1,0 +1,3100 @@
+- target: SPELL_89
+  level1:
+    id: 1
+    name: "Stronger Shield"
+    effect: |
+      The shield's strength increases to QL x 4.
+  level2:
+    id: 2
+    name: "Wider Radius"
+    effect: |
+      The spell's radius increases to 5 yards. This costs you an additional 4 AE and does not increase the shield's strength.
+  level3:
+    id: 3
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. The shield's strength is only QL x 2. You can only transfer this spell to Intelligent Creatures.
+  src:
+    - id: US25004E
+      firstPage: 114
+
+- target: SPELL_90
+  level1:
+    id: 4
+    name: "Exemption"
+    effect: |
+      Decide to ignore alcohol and other intoxicating substances. You designate which substances the spell ignores.
+  level2:
+    id: 5
+    name: "Greater Extent"
+    effect: |
+      Enchant greater amounts of food and drink. This costs you an additional 2 AE per 10 additional pounds.
+  level3:
+    id: 6
+    name: "Flawless Taster"
+    effect: |
+      Increase the QL of a successful check by 1 QL (up to a maximum of 6 QL) for every additional 4 AE you spend.
+  src:
+    - id: US25004E
+      firstPage: 115
+
+- target: SPELL_91
+  level1:
+    id: 7
+    name: "Medium Animals"
+    effect: |
+      Transform into a size category medium flying animal. This costs you an additional 5 AE.
+  level2:
+    id: 8
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  level3:
+    id: 9
+    name: "Large Animals"
+    effect: |
+      Transform into a size category large flying animal. This costs you an additional 6 AE. Prerequisite: Spell enhancement *Medium Animals*.
+  src:
+    - id: US25004E
+      firstPage: 128
+
+- target: SPELL_92
+  level1:
+    id: 10
+    name: "Target Category Objects"
+    effect: |
+      The spell's target category includes Objects. They receive damage, but not the state *Prone*. At the GM's discretion, a spell that achieves sufficient QL can push or otherwise move objects weighing up to 200 pounds.
+  level2:
+    id: 11
+    name: "Thrown Back Farther"
+    effect: |
+      Double the distance you throw the target back.
+  level3:
+    id: 12
+    name: "Ore Destroyer"
+    effect: |
+      Double the DP against targets with the element Ore. This costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 115
+
+- target: SPELL_93
+  level1:
+    id: 13
+    name: "Two Targets"
+    effect: |
+      Cast Nightmare Shape on two targets at the same time. The second target costs you an additional 2 AE.
+  level2:
+    id: 14
+    name: "Four Targets"
+    effect: |
+      Cast Nightmare Shape on up to four targets at the same time. Every target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Two Targets*.
+  level3:
+    id: 15
+    name: "Eight Targets"
+    effect: |
+      Cast Nightmare Shape on up to eight targets at the same time. Every target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Four Targets*.
+  src:
+    - id: US25004E
+      firstPage: 140
+
+- target: SPELL_94
+  level1:
+    id: 16
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can transfer this spell only to Intelligent Creatures.
+  level2:
+    id: 17
+    name: "Even Farther"
+    effect: |
+      Your voice's range quadruples. This costs you an additional 4 AE.
+  level3:
+    id: 18
+    name: "Thundering Voice"
+    effect: |
+      Living Creatures within a 10-yard radius find the volume of your voice so unpleasant that all skill checks receive a penalty of -1 while you speak.
+  src:
+    - id: US25004E
+      firstPage: 116
+
+- target: SPELL_95
+  level1:
+    id: 19
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures.
+  level2:
+    id: 20
+    name: "Longer Duration"
+    effect: |
+      The spell's duration increases to QL x 3 CR.
+  level3:
+    id: 21
+    name: "Wider Radius"
+    effect: |
+      The spell's radius increases to QL x 3 yards.
+  src:
+    - id: US25004E
+      firstPage: 148
+
+- target: SPELL_68
+  level1:
+    id: 22
+    name: "Wider Range"
+    effect: |
+      The spell's range increases to two yards.
+  level2:
+    id: 23
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you can lower three levels of *Fear*, you may lower one level from each of three targets or decide to lower two levels from one target and one level from another. However, when doing so, you negate any increase to COU.
+  level3:
+    id: 24
+    name: "Two Targets"
+    effect: |
+      Cast Ease Fears on two targets at the same time. The second target costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 128
+
+- target: SPELL_96
+  level1:
+    id: 25
+    name: "Intense Ray"
+    effect: |
+      The target automatically receives 1 level of *Encumbrance* when hit; no dice roll is needed. This costs you an additional 2 AE.
+  level2:
+    id: 26
+    name: "Winding Ray"
+    effect: |
+      The target has greater difficulty avoiding the attack. Targets receive an additional penalty of -2 to their Dodge result. This costs you an additional 2 AE.
+  level3:
+    id: 27
+    name: "Two Targets"
+    effect: |
+      Cast Archofaxius on two targets at the same time. The AE costs are doubled.
+  src:
+    - id: US25004E
+      firstPage: 116
+
+- target: SPELL_97
+  level1:
+    id: 28
+    name: "Intense Explosion"
+    effect: |
+      The target automatically receives 1 level of *Encumbrance* when hit, no dice roll is needed. This costs you an additional 4 AE.
+  level2:
+    id: 29
+    name: "FastBall"
+    effect: |
+      Targets receive an additional penalty of -1 to Dodge. This costs you an additional 4 AE.
+  level3:
+    id: 30
+    name: "Wider Range"
+    effect: |
+      The explosion's radius increases to 7 yards. This costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 117
+
+- target: SPELL_98
+  level1:
+    id: 31
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 32
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*
+  level3:
+    id: 33
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 117
+
+- target: SPELL_99
+  level1:
+    id: 34
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures. This costs you an additional 2 AE.
+  level2:
+    id: 35
+    name: "Fast Increase"
+    effect: |
+      Casting the spell takes only 1 action, but it increases CHA by only +1 at QL 1-3, and +2 at QL 4-6. The SPI does not increase at all.
+  level3:
+    id: 36
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 118
+
+- target: SPELL_100
+  level1:
+    id: 37
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures. This costs you an additional 2 AE.
+  level2:
+    id: 38
+    name: "Fast Increase"
+    effect: |
+      Casting the spell takes only 1 action, but it increases DEX by only +1 at QL 1-3, and +2 at QL 4-6. RC does not increase at all.
+  level3:
+    id: 39
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 118
+
+- target: SPELL_101
+  level1:
+    id: 40
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures. This costs you an additional 2 AE.
+  level2:
+    id: 41
+    name: "Fast Increase"
+    effect: |
+      Casting the spell takes only 1 action, but it increases SGC by only +1 at QL 1-3, and +2 at QL 4-6. SPI does not increase at all.
+  level3:
+    id: 42
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 118
+
+- target: SPELL_70
+  level1:
+    id: 43
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures. This costs you an additional 2 AE.
+  level2:
+    id: 44
+    name: "Fast Increase"
+    effect: |
+      Casting the spell takes only 1 action, but it increases STR by only +1 at QL 1-3, and +2 at QL 4-6. TOU does not increase at all.
+  level3:
+    id: 45
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 119
+
+- target: SPELL_102
+  level1:
+    id: 46
+    name: "Two Targets"
+    effect: |
+      Cast Awaken on two targets at the same time. The second target costs you an additional 2 AE.
+  level2:
+    id: 47
+    name: "Four Targets"
+    effect: |
+      Cast Awaken on up to four targets at the same time. Each target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Two Targets*.
+  level3:
+    id: 48
+    name: "Mass Awakening"
+    effect: |
+      Cast Awaken on any number of targets within range at the same time. Each target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Four Targets*.
+  src:
+    - id: US25004E
+      firstPage: 120
+
+- target: SPELL_103
+  level1:
+    id: 49
+    name: "Out of Limbo"
+    effect: |
+      Cast Eye of Limbo while in the Limbo to pull people and objects from Limbo into the Third Sphere.
+  level2:
+    id: 50
+    name: "Stronger Pull"
+    effect: |
+      Targets' *Feat of Strength* checks receive an additional penalty of -1 due to the stronger pull.
+  level3:
+    id: 51
+    name: "Wider Radius"
+    effect: |
+      The vortex's radius doubles.
+  src:
+    - id: US25004E
+      firstPage: 130
+
+- target: SPELL_104
+  level1:
+    id: 52
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 53
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 54
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 119
+
+- target: SPELL_105
+  level1:
+    id: 55
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 56
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 57
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 119
+
+- target: SPELL_106
+  level1:
+    id: 58
+    name: "Two Targets"
+    effect: |
+      Cast Chains and Shackles on two targets at the same time. This costs you an additional 2 AE.
+  level2:
+    id: 59
+    name: "Four Targets"
+    effect: |
+      Cast Chains and Shackles on up to four targets at the same time. Each additional target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Two Targets*.
+  level3:
+    id: 60
+    name: "Eight Targets"
+    effect: |
+      Cast Chains and Shackles on up to eight targets at the same time. Each additional target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Four Targets*.
+  src:
+    - id: US25004E
+      firstPage: 125
+
+- target: SPELL_107
+  level1:
+    id: 61
+    name: "Mental Attributes"
+    effect: |
+      Choose from the following categories to reveal, as well: mental attributes, AE and SPI, spells, mental advantages and disadvantages, mental special abilities and magical special abilities, and knowledge skills.
+  level2:
+    id: 62
+    name: "Two Targets"
+    effect: |
+      Cast Gaze into the Essence on two targets at the same time. The second target costs you an additional 2 AE.
+  level3:
+    id: 63
+    name: "Four Targets"
+    effect: |
+      Cast Gaze into the Essence on up to four targets at the same time. Each target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Two Targets*.
+  src:
+    - id: US25004E
+      firstPage: 133
+
+- target: SPELL_108
+  level1:
+    id: 64
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures.
+  level2:
+    id: 65
+    name: "Visual Impairment"
+    effect: |
+      After the spell's duration ends, the target is still visual impaired for an additional QL hours. All checks requiring eyesight receive a penalty of -1 during this time.
+  level3:
+    id: 66
+    name: "Two Targets"
+    effect: |
+      Cast Blindness on two targets at the same time. This costs you an additional 8 AE.
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- target: SPELL_109
+  level1:
+    id: 67
+    name: "Conceal Equipment"
+    effect: |
+      The camouflage effect includes armor, equipment, and weapons with a reach of up to medium worn on the body.
+  level2:
+    id: 68
+    name: "Invisible Stalker"
+    effect: |
+      The camouflage effect persists while moving; for instance, during battle. While in battle, enemies suffer an AT penalty of -2 to hit you.
+  level3:
+    id: 69
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to other intelligent creatures.
+  src:
+    - id: US25004E
+      firstPage: 125
+
+- target: SPELL_71
+  level1:
+    id: 70
+    name: "Longer Duration 1"
+    effect: |
+      The spell's duration increases to 2 hours.
+  level2:
+    id: 71
+    name: "Longer Duration 2"
+    effect: |
+      The spell's duration increases to 8 hours. Prerequisite: *Longer Duration I*.
+  level3:
+    id: 72
+    name: "Longer Duration 3"
+    effect: |
+      The spell's duration increases to 24 hours. Prerequisite: *Longer Duration II*.
+  src:
+    - id: US25004E
+      firstPage: 125
+
+- target: SPELL_72
+  level1:
+    id: 73
+    name: "Target Category Objects"
+    effect: |
+      The spell's target category includes Objects. The object receives damage but not levels of *Paralysis*.
+  level2:
+    id: 74
+    name: "Bound"
+    effect: |
+      The target receives the state *Bound* until the end of the next CR.
+  level3:
+    id: 75
+    name: "Humus Destroyer"
+    effect: |
+      Double the DP when using this spell against targets from the element of Humus. This costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 126
+
+- target: SPELL_110
+  level1:
+    id: 76
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 77
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 78
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 120
+
+- target: SPELL_111
+  level1:
+    id: 79
+    name: "Protective Skin"
+    effect: |
+      The shield strength increases to AE + (QL x 4) but protects only you.
+  level2:
+    id: 80
+    name: "Wider Radius"
+    effect: |
+      The dome's radius increases to 5 yards. This costs you 4 AE extra; these AE do not increase the shield strength.
+  level3:
+    id: 81
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. The shield strength is only QL x 2. You can transfer this spell only to Intelligent Creatures.
+  src:
+    - id: US25004E
+      firstPage: 127
+
+- target: SPELL_112
+  level1:
+    id: 82
+    name: "Ghost Zone"
+    effect: |
+      The spell also works against ghosts.
+  level2:
+    id: 83
+    name: "Fairy Zone"
+    effect: |
+      The spell also works against fairy creatures. Prerequisite: Spell enhancement *Ghost Zone*.
+  level3:
+    id: 84
+    name: "Pervasive"
+    effect: |
+      All affected creatures receive 1 sDP for every CR they remain within the zone.
+  src:
+    - id: US25004E
+      firstPage: 127
+
+- target: SPELL_113
+  level1:
+    id: 85
+    name: "Increased Destructive Power 1"
+    effect: |
+      The damage you cause increases to QL x 20 SP.
+  level2:
+    id: 86
+    name: "Increased Destructive Power 2"
+    effect: |
+      The damage you cause increases to QL x 30 SP. Prerequisite: Spell enhancement *Increased Destructive Power I*.
+  level3:
+    id: 87
+    name: "Greater Range of Destruction"
+    effect: |
+      Smaller objects up to two yards away from the target also receive damage; for example, chairs next to an affected table, but not individual bricks in a wall. Prerequisite: Spell enhancement *Increased Destructive Power II*.
+  src:
+    - id: US25004E
+      firstPage: 127
+
+- target: SPELL_73
+  level1:
+    id: 88
+    name: "Wider Radius"
+    effect: |
+      The spell's radius increases to QL x 3 yards.
+  level2:
+    id: 89
+    name: "Terrifying Darkness"
+    effect: |
+      The darkness is so terrifying that all Living Creatures within the zone must make a *Willpower (Face Threats)* check or receive one level of *Fear*.
+  level3:
+    id: 90
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 126
+
+- target: SPELL_74
+  level1:
+    id: 91
+    name: "Greater Distance"
+    effect: |
+      The shadow can move up to 20 yards away.
+  level2:
+    id: 92
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  level3:
+    id: 93
+    name: "Improved Shadow"
+    effect: |
+      All the shadow's attributes increase by +1.
+  src:
+    - id: US25004E
+      firstPage: 129
+
+- target: SPELL_114
+  level1:
+    id: 94
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 95
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 96
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 121
+
+- target: SPELL_115
+  level1:
+    id: 97
+    name: "Metal Items"
+    effect: |
+      The spell causes QL x 10 additional structure point damage to metal objects, weapons and armor are not affected.
+  level2:
+    id: 98
+    name: "Modify Casting Time"
+    effect: |
+      You can use a modification on this spell's casting time.
+  level3:
+    id: 99
+    name: "Extended Range of Destruction"
+    effect: |
+      The spell affects all metal objects within 2 yards of the targeted object.
+  src:
+    - id: US25004E
+      firstPage: 137
+
+- target: SPELL_116
+  level1:
+    id: 100
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 101
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 102
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 121
+
+- target: SPELL_117
+  level1:
+    id: 103
+    name: "Short Reply"
+    effect: |
+      The target can send you a short reply - for instance, a short Yes or No - as if by telepathy.
+  level2:
+    id: 104
+    name: "Multiple Targets"
+    effect: |
+      Enchant up to QL targets. Prerequisite: Spell enhancement *Short Reply*.
+  level3:
+    id: 105
+    name: "Line of Communication"
+    effect: |
+      All targets can communicate mentally with you, but not with each other. This costs you an additional 4 AE. Prerequisite: Spell enhancement *Multiple Targets*.
+  src:
+    - id: US25004E
+      firstPage: 130
+
+- target: SPELL_118
+  level1:
+    id: 106
+    name: "Longer Duration 1"
+    effect: |
+      The spell's duration increases to QL hours.
+  level2:
+    id: 107
+    name: "Longer Duration 2"
+    effect: |
+      The spell's duration increases to QL days. Prerequisite: Spell enhancement *Longer Duration I*.
+  level3:
+    id: 108
+    name: "Longer Duration 3"
+    effect: |
+      The spell's duration increases to QL weeks. Prerequisite: Spell enhancement *Longer Duration II*.
+  src:
+    - id: US25004E
+      firstPage: 139
+
+- target: SPELL_119
+  level1:
+    id: 109
+    name: "Through Ore"
+    effect: |
+      The spell also works through Ore up to 1 yard thick.
+  level2:
+    id: 110
+    name: "Through Ice"
+    effect: |
+      The spell also works through Ice up to 1 yard thick. Prerequisite: Spell enhancement *Through Ore*.
+  level3:
+    id: 111
+    name: "Specific Living Creature"
+    effect: |
+      Designate and search for a certain type of Living Creature with the spell (such as dogs, humans, or horses).
+  src:
+    - id: US25004E
+      firstPage: 130
+
+- target: SPELL_120
+  level1:
+    id: 112
+    name: "Candlelight"
+    effect: |
+      The light is as bright as a candle and counts as a light source.
+  level2:
+    id: 113
+    name: "Hot Aura"
+    effect: |
+      The aura causes 1 sDP to an opponent who rolls a 1 on 1D6 when making a close combat attack against you.
+  level3:
+    id: 114
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  src:
+    - id: US25004E
+      firstPage: 131
+
+- target: SPELL_121
+  level1:
+    id: 115
+    name: "Medium Animals"
+    effect: |
+      Transform into a size category *medium* aquatic animal. This costs you an additional 5 AE.
+  level2:
+    id: 116
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  level3:
+    id: 117
+    name: "Large Animals"
+    effect: |
+      Transform into a size category *large* aquatic animal. This costs you an additional 6 AE. Prerequisite: Spell enhancement *Medium Animals*.
+  src:
+    - id: US25004E
+      firstPage: 132
+
+- target: SPELL_122
+  level1:
+    id: 118
+    name: "Re-closeable"
+    effect: |
+      If you do not damage it, the lock closes again after the spell's duration ends.
+  level2:
+    id: 119
+    name: "Trap Sense"
+    effect: |
+      Sense whether a trap secures the lock. You cannot disarm the trap with this spell.
+  level3:
+    id: 120
+    name: "The Priest-Emperors Are Coming!"
+    effect: |
+      Open all locks during the spell's duration (or make checks to do so easier as per the spell's effect). To do so, you must touch the locks and pay an additional 1 AE per lock.
+  src:
+    - id: US25004E
+      firstPage: 132
+
+- target: SPELL_123
+  level1:
+    id: 121
+    name: "Higher Wall"
+    effect: |
+      The wall's height increases to 5 yards.
+  level2:
+    id: 122
+    name: "Cylinder"
+    effect: |
+      The wall curves and encircles you. Its height increases to 3 yards, and its radius is QL yards.
+  level3:
+    id: 123
+    name: "Cover"
+    effect: |
+      The wall has the same dimensions as the spell enhancement Cylinder; however, the top is closed. Prerequisite: Spell enhancement *Cylinder*.
+  src:
+    - id: US25004E
+      firstPage: 132
+
+- target: SPELL_124
+  level1:
+    id: 124
+    name: "Short Reply"
+    effect: |
+      The target can send you a short reply - for instance, a Yes or No - as if using telepathy.
+  level2:
+    id: 125
+    name: "Multiple Targets"
+    effect: |
+      Enchant up to QL targets. Prerequisite: Spell enhancement *Short Reply*.
+  level3:
+    id: 126
+    name: "Line of Communication"
+    effect: |
+      All targets can communicate with you - but not with each other - as if by telepathy. This costs you an additional 4 AE. Prerequisite: Spell enhancement *Multiple Targets*.
+  src:
+    - id: US25004E
+      firstPage: 140
+
+- target: SPELL_125
+  level1:
+    id: 127
+    name: "Wider Range 1"
+    effect: |
+      The object you are searching for can be up to QL x 5 yards away.
+  level2:
+    id: 128
+    name: "Wider Range 2"
+    effect: |
+      The object you are searching for can be up to QL x 10 yards away. Prerequisite: *Wider Range I*.
+  level3:
+    id: 129
+    name: "Wider Range 3"
+    effect: |
+      The object you are searching for can be up to QL x 50 yards away. Prerequisite: *Wider Range II*.
+  src:
+    - id: US25004E
+      firstPage: 133
+
+- target: SPELL_126
+  level1:
+    id: 130
+    name: "Formed Growth"
+    effect: |
+      Within its ability, the plant can take a form you predefine.
+  level2:
+    id: 131
+    name: "Longer Duration"
+    effect: |
+      The spell's duration increases to 1 week.
+  level3:
+    id: 132
+    name: "Much Longer Duration"
+    effect: |
+      The spell's duration increases to 1 month. Prerequisite: *Longer Duration*.
+  src:
+    - id: US25004E
+      firstPage: 133
+
+- target: SPELL_127
+  level1:
+    id: 133
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 134
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 135
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 121
+
+- target: SPELL_128
+  level1:
+    id: 136
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 137
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 138
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 120
+
+- target: SPELL_129
+  level1:
+    id: 139
+    name: "Modify Casting Time"
+    effect: |
+      You can use a modification on this spell's casting time.
+  level2:
+    id: 140
+    name: "Two ghosts"
+    effect: |
+      Cast Heptagramma on two ghosts at the same time. The summoning difficulty of both ghosts may not be higher than your QL. This costs you an additional 4 AE.
+  level3:
+    id: 141
+    name: "Three ghosts"
+    effect: |
+      Cast Heptagramma on three ghosts at the same time. The summoning difficulty of all ghosts may not be higher than your QL. This costs you an additional 4 AE for each ghost after the first. Prerequisite: Spell enhancement *Two Ghosts*.
+  src:
+    - id: US25004E
+      firstPage: 134
+
+- target: SPELL_130
+  level1:
+    id: 142
+    name: "Greater Anguish 1"
+    effect: |
+      The spell causes 1D3+1 sDP per CR.
+  level2:
+    id: 143
+    name: "Greater Anguish 2"
+    effect: |
+      The spell causes 1D3+2 sDP per CR. Prerequisite: spell enhancement *Greater Anguish I*.
+  level3:
+    id: 144
+    name: "Greater Anguish 3"
+    effect: |
+      The spell causes 1D3+3 sDP per CR. Prerequisite: spell enhancement *Greater Anguish II*.
+  src:
+    - id: US25004E
+      firstPage: 147
+
+- target: SPELL_131
+  level1:
+    id: 145
+    name: "Modify Casting Time"
+    effect: |
+      You can use a modification on this spell's casting time.
+  level2:
+    id: 146
+    name: "Two Elementare"
+    effect: |
+      Cast Hexagramma on two elementals at the same time. The summoning difficulty of both elementals may not be higher than your QL. This costs you an additional 8 AE.
+  level3:
+    id: 147
+    name: "Drei Elementare"
+    effect: |
+      Cast Hexagramma on up to three elementals at the same time. The summoning difficulty of all elementals may not be higher than your QL. This costs you an additional 8 AE for each elemental spirit after the first. Prerequisite: Spell enhancement *Two Elementals*.
+  src:
+    - id: US25004E
+      firstPage: 134
+
+- target: SPELL_79
+  level1:
+    id: 148
+    name: "Blackout"
+    effect: |
+      After the spell's duration ends, the target receives 1 level of *Confusion*.
+  level2:
+    id: 149
+    name: "Intense Muscle Cramps"
+    effect: |
+      After the spell's duration ends, the target receives 1 level of *Stupor*.
+  level3:
+    id: 150
+    name: "Longer Touch Duration"
+    effect: |
+      After casting the spell, you have QL x 2 CR, instead of QL CR, to touch your target.
+  src:
+    - id: US25004E
+      firstPage: 115
+
+- target: SPELL_80
+  level1:
+    id: 151
+    name: "Intensive Explosion"
+    effect: |
+      The target automatically receives the state *Burning* when hit by the explosion, no dice roll is needed. This costs you an additional 4 AE.
+  level2:
+    id: 152
+    name: "Fastball"
+    effect: |
+      Targets receive an additional penalty of -1 to *Dodge*. This costs you an additional 4 AE.
+  level3:
+    id: 153
+    name: "Wider Range"
+    effect: |
+      The explosion's radius increases to 7 yards. This costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 135
+
+- target: SPELL_132
+  level1:
+    id: 154
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures.
+  level2:
+    id: 155
+    name: "Increased Duration"
+    effect: |
+      The duration increases to QL x 5 minutes.
+  level3:
+    id: 156
+    name: "Transfer to Someone Else"
+    effect: |
+      Transfer the spell's effects to someone else. To do so, you must touch the other person while casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 135
+
+- target: SPELL_133
+  level1:
+    id: 157
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 158
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 159
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 121
+
+- target: SPELL_134
+  level1:
+    id: 160
+    name: "Without Touch"
+    effect: |
+      The spell's Range increases to 1 yard.
+  level2:
+    id: 161
+    name: "More Orders"
+    effect: |
+      Give the target up to QL/2 orders.
+  level3:
+    id: 162
+    name: "No Recollection"
+    effect: |
+      Decide whether the target remembers all, some, or none of the actions the target performs while under the spell's influence. You may choose which memories remain.
+  src:
+    - id: US25004E
+      firstPage: 135
+
+- target: SPELL_135
+  level1:
+    id: 163
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 164
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 165
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 136
+
+- target: SPELL_136
+  level1:
+    id: 166
+    name: "Target Category Objects"
+    effect: |
+      The spell's Target Category includes Objects, which receive damage without gaining the state *Burning*. Flammable objects can still catch fire.
+  level2:
+    id: 167
+    name: "Increased Damage"
+    effect: |
+      The spell causes an additional +1 DP.
+  level3:
+    id: 168
+    name: "Water Destroyer"
+    effect: |
+      Inflict 2 x DP against targets with the element Water. This costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 136
+
+- target: SPELL_137
+  level1:
+    id: 169
+    name: "Improved Reaction 1"
+    effect: |
+      The Parry check to repel the spell only has a penalty of -2.
+  level2:
+    id: 170
+    name: "Improved Reaction 2"
+    effect: |
+      The Parry check to repel the spell has no penalty. Prerequisite: Spell enhancement *Improved Reaction I*.
+  level3:
+    id: 171
+    name: "Deflect to a Third Person"
+    effect: |
+      With an additional penalty of -4 to your Parry check, you may deflect the spell to a third person. This person may not be farther away from you than the spellcaster who originally cast the combat spell and must be from the same target category.
+  src:
+    - id: US25004E
+      firstPage: 136
+
+- target: SPELL_138
+  level1:
+    id: 172
+    name: "Violent Madman"
+    effect: |
+      The target's bonuses to AT and DP increase by an additional +1 (for a total of +5 and +3, respectively).
+  level2:
+    id: 173
+    name: "Foreseeable End"
+    effect: |
+      Determine when casting the spell if you want the *Bloodlust* to end sooner than the QL result dictates.
+  level3:
+    id: 174
+    name: "Only Specific Targets"
+    effect: |
+      Select targets you want to exclude from the enchanted target's attacks.
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- target: SPELL_81
+  level1:
+    id: 175
+    name: "Exemption"
+    effect: |
+      Decide not to neutralize alcohol and other intoxicating substances. You designate which substances to ignore.
+  level2:
+    id: 176
+    name: "Flawless Neutralizer"
+    effect: |
+      Increase a successful check's QL by 1 for every additional 4 AE you spend (up to a maximum of 6 QL).
+  level3:
+    id: 177
+    name: "Two Targets"
+    effect: |
+      Cast Klarum Purum on two targets at the same time. The second target costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 137
+
+- target: SPELL_139
+  level1:
+    id: 178
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you cause three levels of *Fear*, you may add one level to each of three targets or decide to add two levels to one target and one level to another.
+  level2:
+    id: 179
+    name: "Longer Effects"
+    effect: |
+      The spell's duration increases to QL x 5 minutes.
+  level3:
+    id: 180
+    name: "Two Targets"
+    effect: |
+      You can cast Shoo! on two targets at the same time. The second target costs you an additional 2 AE.
+  src:
+    - id: US25004E
+      firstPage: 146
+
+- target: SPELL_140
+  level1:
+    id: 181
+    name: "Longer Duration 1"
+    effect: |
+      The spell's duration increases to QL x 5 minutes.
+  level2:
+    id: 182
+    name: "Longer Touch Duration"
+    effect: |
+      After casting the spell, you have QL x 2 CR to touch the target.
+  level3:
+    id: 183
+    name: "Longer Duration 2"
+    effect: |
+      The spell's duration increases to QL hours. Prerequisite: *Spell enhancement Longer Duration I*.
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- target: SPELL_141
+  level1:
+    id: 184
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  level2:
+    id: 185
+    name: "Other Actions"
+    effect: |
+      The spell's effects also apply to other skill checks during chases; for instance, *Swimming*, *Climbing*, or *Sailing* when you must row.
+  level3:
+    id: 186
+    name: "Longer Duration"
+    effect: |
+      The spell's duration increases to QL x 3 CR.
+  src:
+    - id: US25004E
+      firstPage: 138
+
+- target: SPELL_142
+  level1:
+    id: 187
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 188
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 189
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 138
+
+- target: SPELL_143
+  level1:
+    id: 190
+    name: "Remember More"
+    effect: |
+      Memorize impressions for QL x 15 minutes.
+  level2:
+    id: 191
+    name: "Remember Even More"
+    effect: |
+      Memorize impressions for QL x 1 hour. Prerequisite: Spell enhancement *Remember More*.
+  level3:
+    id: 192
+    name: "Longer Duration"
+    effect: |
+      The spell's duration increases to 5 years.
+  src:
+    - id: US25004E
+      firstPage: 138
+
+- target: SPELL_144
+  level1:
+    id: 193
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 194
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 195
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 139
+
+- target: SPELL_145
+  level1:
+    id: 196
+    name: "Greater Base Range"
+    effect: |
+      The creature's base range increases to 50 Middenmiles.
+  level2:
+    id: 197
+    name: "Greater Flying Range"
+    effect: |
+      The creature can cover 25 more Middenmiles (instead of 10) per additional AE you spend.
+  level3:
+    id: 198
+    name: "Fast Creature"
+    effect: |
+      The creature's MOV increases to 20.
+  src:
+    - id: US25004E
+      firstPage: 140
+
+- target: SPELL_146
+  level1:
+    id: 199
+    name: "Longer Duration"
+    effect: |
+      The effect lasts 30 minutes longer for every additional 4 AE you spend.
+  level2:
+    id: 200
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  level3:
+    id: 201
+    name: "Invisible Contents"
+    effect: |
+      Up to 20 pounds of the item's contents also turn *Invisible*.
+  src:
+    - id: US25004E
+      firstPage: 141
+
+- target: SPELL_147
+  level1:
+    id: 202
+    name: "Longer Duration"
+    effect: |
+      The spell's duration increases to QL hours.
+  level2:
+    id: 203
+    name: "Greater Weight"
+    effect: |
+      The object may weigh up to 50 pounds.
+  level3:
+    id: 204
+    name: "Walls and Ceilings"
+    effect: |
+      You may attach the object to walls and/or ceilings.
+  src:
+    - id: US25004E
+      firstPage: 141
+
+- target: SPELL_148
+  level1:
+    id: 205
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 206
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 207
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 122
+
+- target: SPELL_149
+  level1:
+    id: 208
+    name: "Longer Duration 1"
+    effect: |
+      The spell's duration increases to QL x 5 minutes.
+  level2:
+    id: 209
+    name: "Longer Duration 2"
+    effect: |
+      The spell's duration increases to QL x 10 minutes. Prerequisite: Spell enhancement *Longer Duration I*.
+  level3:
+    id: 210
+    name: "Longer Duration 3"
+    effect: |
+      The spell's duration increases to QL x 30 minutes. Prerequisite: Spell enhancement *Longer Duration II*.
+  src:
+    - id: US25004E
+      firstPage: 141
+
+- target: SPELL_150
+  level1:
+    id: 211
+    name: "Intense Ray"
+    effect: |
+      The target automatically receives the state of *Prone* when hit (no dice role needed). This costs you an additional 2 AE.
+  level2:
+    id: 212
+    name: "Winding Ray"
+    effect: |
+      The target receives an additional penalty of -2 to Dodge. This costs you an additional 2 AE.
+  level3:
+    id: 213
+    name: "Two Targets"
+    effect: |
+      Cast Orcanofaxius on two targets at the same time. The AE costs are doubled.
+  src:
+    - id: US25004E
+      firstPage: 142
+
+- target: SPELL_151
+  level1:
+    id: 214
+    name: "Intensive Explosion"
+    effect: |
+      The target automatically receives of the state *Prone* when hit. This costs you an additional 4 AE.
+  level2:
+    id: 215
+    name: "Fast Ball"
+    effect: |
+      The target receives an additional penalty of -1 to Dodge. This costs you an additional 4 AE.
+  level3:
+    id: 216
+    name: "Wider Range"
+    effect: |
+      The explosion's radius increases to 7 yards. This costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 142
+
+- target: SPELL_152
+  level1:
+    id: 217
+    name: "Modify Casting Time"
+    effect: |
+      You can use a modification on this spell's casting time.
+  level2:
+    id: 218
+    name: "Two Dämonen"
+    effect: |
+      Cast Pentagramma on two demons at the same time. The combined summoning difficulty of both demons may not be higher than your QL. This costs you an additional 8 AE.
+  level3:
+    id: 219
+    name: "Drei Dämonen"
+    effect: |
+      Cast Pentagramma on three demons at the same time. The combined summoning difficulty of all demons may not be higher than your QL. This costs you an additional 8 AE for each demon after the first. Prerequisite: Spell enhancement *Two Demons*.
+  src:
+    - id: US25004E
+      firstPage: 142
+
+- target: SPELL_153
+  level1:
+    id: 220
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you gain 3 levels of TOU, you may add 1 level to each of 3 targets or decide to add 2 levels to 1 target and 1 level to another.
+  level2:
+    id: 221
+    name: "Fast Increase"
+    effect: |
+      TOU increases by +1 at QL 1-3, and by +2 at QL 4-6. The spell takes only 2 actions to cast but incurs a casting penalty of -2.
+  level3:
+    id: 222
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 143
+
+- target: SPELL_154
+  level1:
+    id: 223
+    name: "Lower Parry"
+    effect: |
+      Additionally, the target receives a QL/2 penalty to their Parry check.
+  level2:
+    id: 224
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures.
+  level3:
+    id: 225
+    name: "Two Targets"
+    effect: |
+      Cast Plumbumbarum on two targets at the same time. The second target costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 143
+
+- target: SPELL_155
+  level1:
+    id: 226
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 227
+    name: "Good Illusion 2"
+    effect: |
+      Select up to six audience members with SPI 2 or lower. Each receives the state of *Bloodlust* for QLx2 CR. After they enter this state, they attack other audience members and then move on to other people in their vicinity. You are the only person they do not attack.<br>
+      The effect lasts until the *Bloodlust* ends.
+  level3:
+    id: 228
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 144
+
+- target: SPELL_156
+  level1:
+    id: 229
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 230
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 231
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 144
+
+- target: SPELL_157
+  level1:
+    id: 232
+    name: "Modify Casting Time"
+    effect: |
+      You can use a modification on this spell's casting time.
+  level2:
+    id: 233
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  level3:
+    id: 234
+    name: "Range 8 Yards"
+    effect: |
+      The spell's range increases to 8 yards. You may also cast the spell on others. Prerequisite: Spell enhancement *Affect Another*.
+  src:
+    - id: US25004E
+      firstPage: 145
+
+- target: SPELL_158
+  level1:
+    id: 235
+    name: "Smells"
+    effect: |
+      The spell also removes odors.
+  level2:
+    id: 236
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures.
+  level3:
+    id: 237
+    name: "Wider Radius"
+    effect: |
+      The spell's radius increases to QL x 2 yards.
+  src:
+    - id: US25004E
+      firstPage: 145
+
+- target: SPELL_159
+  level1:
+    id: 238
+    name: "Greater Range"
+    effect: |
+      The spell's range increases to two yards.
+  level2:
+    id: 239
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you can lower three levels of *Pain*, you may lower one level from each of three targets or decide to lower two levels from one target and one level from another. However, when doing so, you negate any increase to COU.
+  level3:
+    id: 240
+    name: "Two Targets"
+    effect: |
+      Cast Ease Fears on two targets at the same time. The second target costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 128
+
+- target: SPELL_160
+  level1:
+    id: 241
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures.
+  level2:
+    id: 242
+    name: "Weakening"
+    effect: |
+      At the end of every hour, all the target's physical attributes also decrease by 1 (to a minimum value of 6). These instantly regenerate at the end of the duration.
+  level3:
+    id: 243
+    name: "Death Curse"
+    effect: |
+      Sacrifice as many of your own LP as you like to cause an equal amount of sDP to the target at the end of the first hour.
+  src:
+    - id: US25004E
+      firstPage: 123
+
+- target: SPELL_161
+  level1:
+    id: 244
+    name: "Different Color"
+    effect: |
+      The spellcaster can choose a color other than black for the target to fear.
+  level2:
+    id: 245
+    name: "Longer Duration"
+    effect: |
+      The spell's duration is QL x 2 hours.
+  level3:
+    id: 246
+    name: "Greater Fear"
+    effect: |
+      The target sustains two levels of *Fear* instead of one.
+  src:
+    - id: US25004E
+      firstPage: 124
+
+- target: SPELL_84
+  level1:
+    id: 247
+    name: "Predict Combat Actions"
+    effect: |
+      Predict your opponent's actions in combat. Your defense against this opponent receives a bonus of +1. Five seconds of the spell's duration are equal to 1 CR.
+  level2:
+    id: 248
+    name: "Unnoticed"
+    effect: |
+      The target receives a QL x 2 penalty to their *Perception* check to notice you are peering into their mind.
+  level3:
+    id: 249
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 145
+
+- target: SPELL_162
+  level1:
+    id: 250
+    name: "More Orders"
+    effect: |
+      The creature performs QL + 2 orders.
+  level2:
+    id: 251
+    name: "Longer Duration"
+    effect: |
+      The duration changes to QL x 5 combat rounds.
+  level3:
+    id: 252
+    name: "Powerful Being"
+    effect: |
+      When summoning the creature, you can give it the same improvements twice.
+  src:
+    - id: US25004E
+      firstPage: 146
+
+- target: SPELL_163
+  level1:
+    id: 253
+    name: "More Structure Points"
+    effect: |
+      The bridge has 100 structure points instead of 50.
+  level2:
+    id: 254
+    name: "Increased Weight"
+    effect: |
+      The bridge can carry up to 2,000 pounds before collapsing.
+  level3:
+    id: 255
+    name: "Longer Bridge"
+    effect: |
+      The bridge's length increases to QL x 10 yards.
+  src:
+    - id: US25004E
+      firstPage: 147
+
+- target: SPELL_164
+  level1:
+    id: 256
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures.
+  level2:
+    id: 257
+    name: "Hearing Difficulties"
+    effect: |
+      After the spell's duration ends, the target is still hearing impaired for an additional QL hours. All checks requiring hearing receive a penalty of -1 during this time.
+  level3:
+    id: 258
+    name: "Two Targets"
+    effect: |
+      Cast Deafness on two targets at the same time. The second target costs you an additional 2 AE.
+  src:
+    - id: US25004E
+      firstPage: 126
+
+- target: SPELL_165
+  level1:
+    id: 259
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 260
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 261
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 122
+
+- target: SPELL_166
+  level1:
+    id: 262
+    name: "Improved Defense"
+    effect: |
+      Defenses against the spell's target receive a QL/2 bonus.
+  level2:
+    id: 263
+    name: "Increased Range"
+    effect: |
+      The spell's range increases to 16 yards.
+  level3:
+    id: 264
+    name: "More Targets"
+    effect: |
+      The spell can enchant QL targets of the same kind - for instance, multiple wolves from a pack - within range.
+  src:
+    - id: US25004E
+      firstPage: 116
+
+- target: SPELL_167
+  level1:
+    id: 265
+    name: "Increase Range"
+    effect: |
+      The spell modification Increase Range has no penalty.
+  level2:
+    id: 266
+    name: "Reduce Casting Time"
+    effect: |
+      The spell modification Reduce Casting Time has no penalty.
+  level3:
+    id: 267
+    name: "Reduce Cost"
+    effect: |
+      The spell modification Reduce Cost has no penalty.
+  src:
+    - id: US25004E
+      firstPage: 122
+
+- target: SPELL_168
+  level1:
+    id: 268
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 269
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 270
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 123
+
+- target: SPELL_169
+  level1:
+    id: 271
+    name: "Medium Animals"
+    effect: |
+      Transform into a size category *medium* land animal. This costs you an additional 5 AE.
+  level2:
+    id: 272
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  level3:
+    id: 273
+    name: "Large Animals"
+    effect: |
+      Transform into a size category *large* land animal. This costs you an additional 6 AE. Prerequisite: spell enhancement *Medium Animals*.
+  src:
+    - id: US25004E
+      firstPage: 148
+
+- target: SPELL_172
+  level1:
+    id: 274
+    name: "Gaukelei Advantage"
+    effect: |
+      Receive a +1 bonus to *Gaukelei* because your clothes fit the occasion.
+  level2:
+    id: 275
+    name: "Etiquette Advantage"
+    effect: |
+      Receive a +1 bonus to *Etiquette* because your clothes fit the occasion. Prerequisite: Ritual enhancement *Gaukelei Advantage*.
+  level3:
+    id: 276
+    name: "Streetwise Advantage"
+    effect: |
+      Receive a +1 bonus to *Streetwise* because your clothes fit the occasion. Prerequisite: Ritual enhancement *Etiquette Advantage*.
+  src:
+    - id: US25004E
+      firstPage: 149
+
+- target: SPELL_170
+  level1:
+    id: 277
+    name: "Higher/Lower Temperature 1"
+    effect: |
+      Change the temperature by +/- 200 degrees C (+/-392 degrees F). The damage to items increases to 2D6 SP.
+  level2:
+    id: 278
+    name: "Higher/Lower Temperature 2"
+    effect: |
+      Change the temperature by +/- 500 degrees C (+/-932 degrees F). The damage to items increases to 3D6 SP. Prerequisite: Ritual enhancement *Higher/Lower Temperature I*.
+  level3:
+    id: 279
+    name: "Higher/Lower Temperature 3"
+    effect: |
+      Change the temperature by +/- 1,000 degrees C (+/-1832 degrees F). The damage to items increases to 4D6 SP. Prerequisite: Ritual enhancement *Higher/Lower Temperature II*.
+  src:
+    - id: US25004E
+      firstPage: 150
+
+- target: SPELL_173
+  level1:
+    id: 280
+    name: "Longer Duration"
+    effect: |
+      The ritual's duration increases to QL x 2 hours.
+  level2:
+    id: 281
+    name: "Wider Radius"
+    effect: |
+      The effective radius increases to QL x 100 yards.
+  level3:
+    id: 282
+    name: "Wider Range"
+    effect: |
+      The ritual's range increases to 512 yards. You can no longer use a modification on this ritual's range.
+  src:
+    - id: US25004E
+      firstPage: 150
+
+- target: SPELL_174
+  level1:
+    id: 283
+    name: "Larger Objects 1"
+    effect: |
+      Mold objects no larger than a door.
+  level2:
+    id: 284
+    name: "Longer Duration"
+    effect: |
+      The ritual's duration increases to QL x 5 minutes.
+  level3:
+    id: 285
+    name: "Larger Objects 2"
+    effect: |
+      Mold objects no larger than a castle gate. Prerequisite: Ritual enhancement *Larger Objects I*.
+  src:
+    - id: US25004E
+      firstPage: 151
+
+- target: SPELL_175
+  level1:
+    id: 286
+    name: "Transfer Disease"
+    effect: |
+      Instead of lost LP, you can transfer a target's disease to yourself. The disease level must not exceed the ritual's QL.
+  level2:
+    id: 287
+    name: "Transfer Poison"
+    effect: |
+      Instead of lost LP, you can transfer a target's poison to yourself. The poison level must not exceed the ritual's QL.
+  level3:
+    id: 288
+    name: "Volunteer"
+    effect: |
+      Instead of transferring the target's lost LP to yourself, you can transfer them to a volunteer.
+  src:
+    - id: US25004E
+      firstPage: 149
+
+- target: SPELL_176
+  level1:
+    id: 289
+    name: "Instant Deprivation"
+    effect: |
+      Immediately take the target's AE at the end of the ritual and add it to your own pool. You can deprive a target of up to QL x 4 AE, but you may not exceed your own maximum AE value.
+  level2:
+    id: 290
+    name: "Longer Duration"
+    effect: |
+      The ritual's duration increases to QL hours.
+  level3:
+    id: 291
+    name: "Two Targets"
+    effect: |
+      Take AE from up to two targets at the same time.
+  src:
+    - id: US25004E
+      firstPage: 151
+
+- target: SPELL_177
+  level1:
+    id: 292
+    name: "Without Recollection"
+    effect: |
+      The target cannot recall being enchanted.
+  level2:
+    id: 293
+    name: "Phases"
+    effect: |
+      The timeframe you delete from the target's memory need not be continuous; you can break the days you delete into two or three chunks.
+  level3:
+    id: 294
+    name: "Other Memories"
+    effect: |
+      Replace the memory you delete from the target with another; its quality depends on your QL.
+  src:
+    - id: US25004E
+      firstPage: 151
+
+- target: SPELL_178
+  level1:
+    id: 295
+    name: "More Targets"
+    effect: |
+      Touch up to QL additional targets. They also profit from the ritual's effects. Each additional target costs you an additional 2 AE.
+  level2:
+    id: 296
+    name: "Change Target Category 1"
+    effect: |
+      Target Living Creatures of size categories *tiny*, *small*, or *medium*. Prerequisite: Spell enhancement More Targets.
+  level3:
+    id: 297
+    name: "Change Target Category 2"
+    effect: |
+      Target Living Creatures of size categories *tiny*, *small*, *medium*, or *large*. Prerequisite: Spell enhancement *Change Target Category I*.
+  src:
+    - id: US25004E
+      firstPage: 152
+
+- target: SPELL_179
+  level1:
+    id: 298
+    name: "Modify Costs"
+    effect: |
+      You can use a modification on this ritual's cost.
+  level2:
+    id: 299
+    name: "Short Regeneration Phase"
+    effect: |
+      A Regeneration Phase requires 4 hours instead of the usual 6.
+  level3:
+    id: 300
+    name: "Longer Lasting Effect"
+    effect: |
+      The target also receives additional QL LP during the second Regeneration Phase after you cast this ritual. The initial ritual effects still apply.
+  src:
+    - id: US25004E
+      firstPage: 152
+
+- target: SPELL_180
+  level1:
+    id: 301
+    name: "Greater Weight"
+    effect: |
+      The protected object can weigh up to 22 pounds.
+  level2:
+    id: 302
+    name: "Longer Duration 1"
+    effect: |
+      The ritual's duration increases to QL x 3 months.
+  level3:
+    id: 303
+    name: "Longer Duration 2"
+    effect: |
+      The ritual's duration increases to QL x 3 years. Prerequisite: Ritual enhancement *Longer Duration I*.
+  src:
+    - id: US25004E
+      firstPage: 152
+
+- target: SPELL_181
+  level1:
+    id: 304
+    name: "Not Everyone"
+    effect: |
+      Name any number of people. The ritual does not affect them.
+  level2:
+    id: 305
+    name: "Larger Objects"
+    effect: |
+      Enchant objects no larger than a door.
+  level3:
+    id: 306
+    name: "Longer Duration"
+    effect: |
+      The ritual's duration increases to QL days.
+  src:
+    - id: US25004E
+      firstPage: 149
+
+- target: SPELL_182
+  level1:
+    id: 307
+    name: "Wider Radius"
+    effect: |
+      The ritual's radius increases to QL x 2 yards.
+  level2:
+    id: 308
+    name: "Longer Duration 1"
+    effect: |
+      The ritual's duration increases to QL hours.
+  level3:
+    id: 309
+    name: "Longer Duration 2"
+    effect: |
+      The ritual's duration increases to QL x 2 hours. Prerequisite: Ritual enhancement *Longer Duration I*.
+  src:
+    - id: US25004E
+      firstPage: 153
+
+- target: SPELL_183
+  level1:
+    id: 310
+    name: "Longer Duration 1"
+    effect: |
+      The ritual's duration increases to QL x 30 minutes.
+  level2:
+    id: 311
+    name: "Longer Duration 2"
+    effect: |
+      The ritual's duration increases to QL hours. Prerequisite: *Longer Duration I*.
+  level3:
+    id: 312
+    name: "Better Comprehension"
+    effect: |
+      Understand the text as well as someone who has the corresponding language at Level III.
+  src:
+    - id: US25004E
+      firstPage: 153
+
+- target: SPELL_1
+  level1:
+    id: 313
+    name: "Sharpen Individual Sense"
+    effect: |
+      The spell affects only one sense (sight, hearing, smell, taste, or touch). You then receive a bonus of QL + 4 (instead of QL +3) to corresponding *Perception* checks for that sense.
+  level2:
+    id: 314
+    name: "Tracking"
+    effect: |
+      The target receives a bonus of +1 to Tracking checks.
+  level3:
+    id: 315
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 156
+
+- target: SPELL_2
+  level1:
+    id: 316
+    name: "Two Items"
+    effect: |
+      Analyze up to two items at the same time.
+  level2:
+    id: 317
+    name: "Three Items"
+    effect: |
+      Analyze up to three items at the same time. Prerequisite: Spell enhancement *Two Items*.
+  level3:
+    id: 318
+    name: "Four Items"
+    effect: |
+      Analyze up to four items at the same time. Prerequisite: Spell enhancement *Three Items*.
+  src:
+    - id: US25004E
+      firstPage: 154
+
+- target: SPELL_3
+  level1:
+    id: 319
+    name: "Target Category Object"
+    effect: |
+      The spell's Target Category includes Objects. An object no larger than an average house receives PRO against SP.
+  level2:
+    id: 320
+    name: "Hard Shell"
+    effect: |
+      The caster can gain PRO 4. The AE costs are 32 AE (you cannot use a modification on this enhancement's cost).
+  level3:
+    id: 321
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures. The spell's costs increase by one category (from 4 to 8; from 8 to 16; and so on).
+  src:
+    - id: US25004E
+      firstPage: 154
+
+- target: SPELL_4
+  level1:
+    id: 322
+    name: "Faster 1"
+    effect: |
+      The MOV increases to MOV x 3. Whenever the enchanted person moves faster than MOV x 2, they must make a *Body Control (Running)* check. If they fail, they take damage as if falling from a height of two yards (see **Core Rules** Page **340**).
+  level2:
+    id: 323
+    name: "Faster 2"
+    effect: |
+      The MOV increases to MOV x 4. Whenever the enchanted person moves faster than MOV x 2, they must make a *Body Control (Running)* check with a penalty of -2. If they fail, they take damage as if falling from a height of three yards. Prerequisite: Spell enhancement *Faster I*.
+  level3:
+    id: 324
+    name: "Faster 3"
+    effect: |
+      The MOV increases to MOV x 5. Whenever the enchanted person moves faster than MOV x 2, they must make a Body *Control (Running)* check with a penalty of -4. If they fail, they take damage as if falling from a height of four yards. Prerequisite: Spell enhancement *Faster II*.
+  src:
+    - id: US25004E
+      firstPage: 154
+
+- target: SPELL_5
+  level1:
+    id: 325
+    name: "Two Targets"
+    effect: |
+      You can cast Balsam Salabunde on two targets at the same time. You must pay the AE costs for each individual target.
+  level2:
+    id: 326
+    name: "Four Targets"
+    effect: |
+      You can cast Balsam Salabunde on up to four targets at the same time. You must pay the AE costs for each individual target. Prerequisite: spell enhancement Two Targets.
+  level3:
+    id: 327
+    name: "Target Category Living Creatures"
+    effect: |
+      The spell's target category includes Living Creatures.
+  src:
+    - id: US25004E
+      firstPage: 154
+
+- target: SPELL_6
+  level1:
+    id: 328
+    name: "Successful Influence 1"
+    effect: |
+      When the spell's duration ends, the person you enchant can make a *Willpower* check with a bonus of +2. If they fail, they do not realize you enchanted them.
+  level2:
+    id: 329
+    name: "Successful Influence 2"
+    effect: |
+      When the spell's duration ends, the person you enchant can make a *Willpower* check. If they fail, they do not realize you enchanted them. Prerequisite: Spell enhancement *Successful Influence I*.
+  level3:
+    id: 330
+    name: "Successful Influence 3"
+    effect: |
+      When the spell's duration ends, the person you enchant can make a *Willpower* check with a penalty of -2. If they fail, they do not realize you enchanted them. Prerequisite: Spell enhancement *Successful Influence II*.
+  src:
+    - id: US25004E
+      firstPage: 154
+
+- target: SPELL_7
+  level1:
+    id: 331
+    name: "Predict Combat Actions"
+    effect: |
+      Predict your enchanted opponent's actions in combat. Your defense against this opponent receives a bonus of +1. Five seconds of the spell's duration are equal to 1 CR.
+  level2:
+    id: 332
+    name: "Unnoticed"
+    effect: |
+      The target receives a QL x 2 penalty to their Perception check to try to notice the enchantment.
+  level3:
+    id: 333
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 157
+
+- target: SPELL_8
+  level1:
+    id: 334
+    name: "Two Targets"
+    effect: |
+      Cast Blinding Flash on two targets at the same time. The second target costs you an additional 2 AE.
+  level2:
+    id: 335
+    name: "Four Targets"
+    effect: |
+      Cast Blinding Flash on up to four targets at the same time. Each target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Two Targets*.
+  level3:
+    id: 336
+    name: "Eight Targets"
+    effect: |
+      Cast Blinding Flash on up to eight targets at the same time. Each target after the first costs you an additional 2 AE. Prerequisite: Spell enhancement *Four Targets*.
+  src:
+    - id: US25004E
+      firstPage: 155
+
+- target: SPELL_9
+  level1:
+    id: 337
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you cause 3 levels of *Pain*, you may add 1 level to each of three targets or decide to add 2 levels to one target and 1 level to another.
+  level2:
+    id: 338
+    name: "Longer Effects"
+    effect: |
+      The spell's duration increases to QL x 3 CR.
+  level3:
+    id: 339
+    name: "Two Targets"
+    effect: |
+      Cast Corpofesso on two targets at the same time. This costs you an additional 8 AE.
+  src:
+    - id: US25004E
+      firstPage: 155
+
+- target: SPELL_10
+  level1:
+    id: 340
+    name: "Wider Radius"
+    effect: |
+      The spell's radius increases to QL x 3 yards.
+  level2:
+    id: 341
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  level3:
+    id: 342
+    name: "Unimpressed Spellcaster"
+    effect: |
+      Receive only half the penalty when casting in the zone you create.
+  src:
+    - id: US25004E
+      firstPage: 155
+
+- target: SPELL_11
+  level1:
+    id: 343
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 344
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 345
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 156
+
+- target: SPELL_12
+  level1:
+    id: 346
+    name: "Spread Effects"
+    effect: |
+      Spread the QL between two targets. You must touch both targets to do so.
+  level2:
+    id: 347
+    name: "Long Lasting"
+    effect: |
+      The spell's duration increases to QL x 2 minutes.
+  level3:
+    id: 348
+    name: "Second Shot"
+    effect: |
+      A second shot at the same target receives a QL/2 bonus, if you fire it within the spell's duration.
+  src:
+    - id: US25004E
+      firstPage: 157
+
+- target: SPELL_13
+  level1:
+    id: 349
+    name: "Light Regulation"
+    effect: |
+      For the spell's duration, you can make the Glow Sphere orb lighter or darker (up to a maximum of the spell's QL), as you wish.
+  level2:
+    id: 350
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  level3:
+    id: 351
+    name: "Anchored"
+    effect: |
+      Anchor the Glow Sphere to another person; the light remains within 8 yards of that person and moves as they do. You can only transfer this spell to Intelligent Creatures.
+  src:
+    - id: US25004E
+      firstPage: 157
+
+- target: SPELL_14
+  level1:
+    id: 352
+    name: "Spread Damage 1"
+    effect: |
+      Select two targets within range and spread the damage in any ratio you desire between both targets.
+  level2:
+    id: 353
+    name: "Spread Damage 2"
+    effect: |
+      Select three targets within range and spread the damage in any ratio you desire between the targets. Prerequisite: Spell enhancement *Spread Damage I*.
+  level3:
+    id: 354
+    name: "Two Targets"
+    effect: |
+      Cast Fulminictus on two targets at the same time. This doubles the spell's AE costs.
+  src:
+    - id: US25004E
+      firstPage: 156
+
+- target: SPELL_15
+  level1:
+    id: 355
+    name: "Stronger Shield"
+    effect: |
+      The shield strength increases to AE + (QL x 4).
+  level2:
+    id: 356
+    name: "Wider Radius"
+    effect: |
+      The dome's radius increases to 5 yards. This costs you an additional 4 AE.
+  level3:
+    id: 357
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. However, the shield strength is only AE + (QL x 2). You can only transfer this spell to Intelligent Creatures.
+  src:
+    - id: US25004E
+      firstPage: 156
+
+- target: SPELL_16
+  level1:
+    id: 358
+    name: "Successful Influence 1"
+    effect: |
+      When the spell's duration ends, the target must make a *Willpower* check with a bonus of +2 or fail to realize you enchanted them.
+  level2:
+    id: 359
+    name: "Successful Influence 2"
+    effect: |
+      When the spell's duration ends, the target must make a *Willpower* check or fail to realize you enchanted them. Prerequisite: Spell enhancement *Successful Influence I*.
+  level3:
+    id: 360
+    name: "Successful Influence 3"
+    effect: |
+      When the spell's duration ends, the target must make a *Willpower* check with a -2 penalty or fail to realize you enchanted them. Prerequisite: Spell enhancement *Successful Influence II*.
+  src:
+    - id: US25004E
+      firstPage: 159
+
+- target: SPELL_17
+  level1:
+    id: 361
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 362
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 363
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 157
+
+- target: SPELL_18
+  level1:
+    id: 364
+    name: "Vaporize"
+    effect: |
+      Defense against the spitting attack has a penalty of -2.
+  level2:
+    id: 365
+    name: "Increased Spitting Range"
+    effect: |
+      The spitting range increases to 6 yards.
+  level3:
+    id: 366
+    name: "Aftereffects"
+    effect: |
+      The target of a successful Witch's Bile attack receives an additional 1D3 + QL/2 DP at the end of the following CR.
+  src:
+    - id: US25004E
+      firstPage: 162
+
+- target: SPELL_19
+  level1:
+    id: 367
+    name: "Retractable Claws"
+    effect: |
+      You can retract the claws. This requires 1 free action.
+  level2:
+    id: 368
+    name: "Climbing Aid"
+    effect: |
+      The claws grant a QL/2 bonus to *Climbing* checks.
+  level3:
+    id: 369
+    name: "Sharp Claws"
+    effect: |
+      The claws cause 1D6+4 DP.
+  src:
+    - id: US25004E
+      firstPage: 162
+
+- target: SPELL_20
+  level1:
+    id: 370
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you cause 3 levels of *Fear*, you may add 1 level to each of three targets or decide to add 2 levels to one target and 1 level to another.
+  level2:
+    id: 371
+    name: "Longer Effects"
+    effect: |
+      The spell's duration increases to QL x 4 minutes.
+  level3:
+    id: 372
+    name: "Two Targets"
+    effect: |
+      Cast Horriphobus on two targets at the same time. The second target costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 157
+
+- target: SPELL_21
+  level1:
+    id: 373
+    name: "Intense Ray"
+    effect: |
+      The target receives the state *Burning* automatically when hit; no dice roll is needed. This costs you an additional 2 AE.
+  level2:
+    id: 374
+    name: "Winding Ray"
+    effect: |
+      Targets receive an additional penalty of -2 to their Dodge roll. This costs you an additional 2 AE.
+  level3:
+    id: 375
+    name: "Two Targets"
+    effect: |
+      Cast Ignifaxius on two targets at the same time. The second target costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 158
+
+- target: SPELL_22
+  level1:
+    id: 376
+    name: "Greater Amount"
+    effect: |
+      The amount of demonic essence increases to three ounces per QL.
+  level2:
+    id: 377
+    name: "Tremendous Amount"
+    effect: |
+      The amount of demonic essence increases to seven ounces per QL. Prerequisite: Spell enhancement *Greater Amount*.
+  level3:
+    id: 378
+    name: "Vast Amount"
+    effect: |
+      The amount of demonic essence increases to 13 ounces per QL. Prerequisite: Spell enhancement Tremendous Amount*.
+  src:
+    - id: US25004E
+      firstPage: 158
+
+- target: SPELL_23
+  level1:
+    id: 379
+    name: "Sustain Longer"
+    effect: |
+      Sustain the spell for one additional hour per 1 AE you spend.
+  level2:
+    id: 380
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  level3:
+    id: 381
+    name: "Multiple Living Creatures"
+    effect: |
+      The spell's Target Category includes Living Creatures. You can cast Cat Eyes on up to QL targets at the same time. Each creature after the first costs you an additional 1 AE.
+  src:
+    - id: US25004E
+      firstPage: 155
+
+- target: SPELL_24
+  level1:
+    id: 382
+    name: "Higher and Farther 1"
+    effect: |
+      Increase the jump's length to QL +5 and its height to QL+1 yards.
+  level2:
+    id: 383
+    name: "Higher and Farther 2"
+    effect: |
+      The jump's length increases to QL +7 and its height to QL +3 yards. Prerequisite: Spell enhancement *Higher and Farther I*.
+  level3:
+    id: 384
+    name: "Nimble Toad"
+    effect: |
+      The target can jump once each CR for a total of QL CR.
+  src:
+    - id: US25004E
+      firstPage: 161
+
+- target: SPELL_25
+  level1:
+    id: 385
+    name: "Greater Amount"
+    effect: |
+      The amount of the element increases to three ounces per QL.
+  level2:
+    id: 386
+    name: "Tremendous Amount"
+    effect: |
+      The amount of the element increases to seven ounces per QL. Prerequisite: Spell enhancement *Greater Amount*.
+  level3:
+    id: 387
+    name: "Vast Amount"
+    effect: |
+      The amount of the element increases to 13 ounces per QL. Prerequisite: Spell enhancement *Tremendous Amount*.
+  src:
+    - id: US25004E
+      firstPage: 158
+
+- target: SPELL_26
+  level1:
+    id: 388
+    name: "More Weight"
+    effect: |
+      Move up to 6 pounds.
+  level2:
+    id: 389
+    name: "Improved Stats"
+    effect: |
+      Your physical attributes increase to QL + 9 for skill checks.
+  level3:
+    id: 390
+    name: "Further Improved Stats"
+    effect: |
+      Your physical attributes increase to QL + 11 for skill checks. Prerequisite: Spell enhancement *Improved Stats*.
+  src:
+    - id: US25004E
+      firstPage: 158
+
+- target: SPELL_27
+  level1:
+    id: 391
+    name: "Greater Weight"
+    effect: |
+      Spend only 1 AE for every 20 pounds of weight.
+  level2:
+    id: 392
+    name: "Tremendous Weight"
+    effect: |
+      Spend only 1 AE for every 30 pounds of weight. Prerequisite: Spell enhancement *Greater Weight*.
+  level3:
+    id: 393
+    name: "Multiple Objects"
+    effect: |
+      Move multiple objects; their total weight may not exceed your limit.
+  src:
+    - id: US25004E
+      firstPage: 158
+
+- target: SPELL_28
+  level1:
+    id: 394
+    name: "Wandering Fog"
+    effect: |
+      The Wall of Fog moves (MOV 4) and changes its form according to your wishes.
+  level2:
+    id: 395
+    name: "Long Duration"
+    effect: |
+      The spell's duration increases to QL hours.
+  level3:
+    id: 396
+    name: "Dense Fog"
+    effect: |
+      The fog imposes a level 3 visibility modifier.
+  src:
+    - id: US25004E
+      firstPage: 162
+
+- target: SPELL_29
+  level1:
+    id: 397
+    name: "Good Illusion 1"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -1.
+  level2:
+    id: 398
+    name: "Good Illusion 2"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -2. Prerequisite: Spell enhancement *Good Illusion I*.
+  level3:
+    id: 399
+    name: "Good Illusion 3"
+    effect: |
+      The target's *Perception* check to spot the deception receives an additional penalty of -3. Prerequisite: Spell enhancement *Good Illusion II*.
+  src:
+    - id: US25004E
+      firstPage: 159
+
+- target: SPELL_30
+  level1:
+    id: 400
+    name: "Two Items"
+    effect: |
+      Cast Odem Arcanum on two items at the same time.
+  level2:
+    id: 401
+    name: "Linear Sight"
+    effect: |
+      See all magical objects and creatures in one direction - up to 8 yards away - for 1 CR. You cannot change your facing and may only look in one general direction. Since you cannot concentrate on specific objects, halve your QL before consulting the table. This type of magical perception is called *undirected perception*.
+  level3:
+    id: 402
+    name: "All-Around Vision"
+    effect: |
+      Receive all-around vision within 8 yards for 1 CR. You can rotate in place but may not move away from that spot. If the spell succeeds, you automatically receive only 1 QL but can see all magical objects and creatures within range. This type of magical perception is called *undirected perception*.
+  src:
+    - id: US25004E
+      firstPage: 159
+
+- target: SPELL_31
+  level1:
+    id: 403
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you cause 3 levels of *Paralysis*, you may add 1 level to each of three targets or decide to add 2 levels to one target and 1 level to another.
+  level2:
+    id: 404
+    name: "Longer Effects"
+    effect: |
+      The duration increases to QL x 3 minutes.
+  level3:
+    id: 405
+    name: "Two Targets"
+    effect: |
+      Cast Paralysis on two targets at the same time. The second target costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 159
+
+- target: SPELL_32
+  level1:
+    id: 406
+    name: "Seeing and Hearing"
+    effect: |
+      Hear as well as see through an object.
+  level2:
+    id: 407
+    name: "Brightness"
+    effect: |
+      Ignore QL/2 levels of visibility modifiers due to natural darkness if poor lighting inhibits your ability to see behind an object.
+  level3:
+    id: 408
+    name: "Casting Through Walls"
+    effect: |
+      Enchant targets behind an object or wall if you can see them. You receive a penalty of -1 when attempting to cast a spell through an obstacle.
+  src:
+    - id: US25004E
+      firstPage: 159
+
+- target: SPELL_33
+  level1:
+    id: 409
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you generate three levels of Spirit, you may add one level to each of three targets or decide to add two levels to one target and one level to another.
+  level2:
+    id: 410
+    name: "Fast Increase"
+    effect: |
+      SPI increases by +1 at QL 1-3, and by +2 at QL 4-6. Also, the spell takes only 2 actions to cast but incurs a penalty of -2.
+  level3:
+    id: 411
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 160
+
+- target: SPELL_34
+  level1:
+    id: 412
+    name: "Wide-Range Fighting Stick"
+    effect: |
+      The object fights up to 32 yards away.
+  level2:
+    id: 413
+    name: "Stronger Broom"
+    effect: |
+      The object receives a bonus of +2 INI and +1 DP.
+  level3:
+    id: 414
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 156
+
+- target: SPELL_35
+  level1:
+    id: 415
+    name: "More Questions"
+    effect: |
+      The target must truthfully answer QL + 2 questions.
+  level2:
+    id: 416
+    name: "Answers with Numbers"
+    effect: |
+      The target can answer questions whose answers are numbers. For example, if asked how many guests attended a party, the target might answer, “42.”
+  level3:
+    id: 417
+    name: "Answers with Timing"
+    effect: |
+      The target can answer questions about an event's timing. For example, if asked when the Empress left for Gareth, the target might say, “Three days ago.”
+  src:
+    - id: US25004E
+      firstPage: 160
+
+- target: SPELL_36
+  level1:
+    id: 418
+    name: "Equal"
+    effect: |
+      Turn the target into another creature of the same size (such as a human into a deer or a chicken into a pheasant).
+  level2:
+    id: 419
+    name: "Mental Abilities"
+    effect: |
+      The target retains all mental capabilities while transformed and can remember everything after turning back.
+  level3:
+    id: 420
+    name: "Longer Duration"
+    effect: |
+      The spell's duration increases to QL days.
+  src:
+    - id: US25004E
+      firstPage: 160
+
+- target: SPELL_37
+  level1:
+    id: 421
+    name: "Longer Duration 1"
+    effect: |
+      The spell's duration increases to QL x 5 minutes.
+  level2:
+    id: 422
+    name: "Increased Range"
+    effect: |
+      The spell's range increases to 16 yards.
+  level3:
+    id: 423
+    name: "Longer Duration 2"
+    effect: |
+      The spell's duration increases to QL x 10 minutes. Prerequisite: Spell enhancement *Longer Duration I*.
+  src:
+    - id: US25004E
+      firstPage: 159
+
+- target: SPELL_38
+  level1:
+    id: 424
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  level2:
+    id: 425
+    name: "Longer Duration"
+    effect: |
+      The spell's duration increases to QL x 4 hours.
+  level3:
+    id: 426
+    name: "True Beauty"
+    effect: |
+      All Living Creatures receive a penalty of -1 to AT, RC, and any spells and liturgical chants they employ against the target.
+  src:
+    - id: US25004E
+      firstPage: 160
+
+- target: SPELL_39
+  level1:
+    id: 427
+    name: "Different Costs"
+    effect: |
+      The AE costs to sustain the spell are 4 AE per 30 minutes.
+  level2:
+    id: 428
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  level3:
+    id: 429
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 160
+
+- target: SPELL_40
+  level1:
+    id: 430
+    name: "Spread Effects"
+    effect: |
+      Spread the spell's effects among multiple targets. You must specify the targets before you cast the spell. For instance, if you inflict 3 levels of *Stupor*, you may add one level to each of three targets or decide to add two levels to one target and one level to another.
+  level2:
+    id: 431
+    name: "Longer Effects"
+    effect: |
+      The spell's duration increases to QL x 4 minutes.
+  level3:
+    id: 432
+    name: "Two Targets"
+    effect: |
+      Cast Somnigravis on two targets at the same time. The second target costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 161
+
+- target: SPELL_41
+  level1:
+    id: 433
+    name: "Works Through Clothes"
+    effect: |
+      The spell's effects work through gloves and shoes.
+  level2:
+    id: 434
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  level3:
+    id: 435
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 161
+
+- target: SPELL_42
+  level1:
+    id: 436
+    name: "Affect Another"
+    effect: |
+      The Range changes to Touch. You can only transfer this spell to Intelligent Creatures.
+  level2:
+    id: 437
+    name: "Lower Costs"
+    effect: |
+      The AE costs to sustain the spell are 2 AE per 30 minutes.
+  level3:
+    id: 438
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  src:
+    - id: US25004E
+      firstPage: 161
+
+- target: SPELL_43
+  level1:
+    id: 439
+    name: "Greater Weight"
+    effect: |
+      Transport up to QL x 20 pounds of items with you.
+  level2:
+    id: 440
+    name: "Greater Teleportation Options"
+    effect: |
+      The teleportation's range increases to QL x 10 Middenmiles. This costs you an additional 1 AE for every 3 Middenmiles you teleport.
+  level3:
+    id: 441
+    name: "Transport"
+    effect: |
+      Transport a second Intelligent Creature of your own size category or smaller. The maximum weight allowance for equipment is still the same for the combined equipment of both travelers. This base costs are 16 AE.
+  src:
+    - id: US25004E
+      firstPage: 161
+
+- target: SPELL_44
+  level1:
+    id: 442
+    name: "Lower Costs"
+    effect: |
+      The AE costs to sustain the spell are 8 AE for 30 minutes.
+  level2:
+    id: 443
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  level3:
+    id: 444
+    name: "Invisible Clothes"
+    effect: |
+      Clothes also become *Invisible*. This does not apply to weapons, armor (anything with PRO 1 or more), or larger items.
+  src:
+    - id: US25004E
+      firstPage: 162
+
+- target: SPELL_45
+  level1:
+    id: 445
+    name: "Lower Costs"
+    effect: |
+      The AE costs to sustain the spell are 4 AE per 30 minutes.
+  level2:
+    id: 446
+    name: "Fixed Duration"
+    effect: |
+      The spell does not count as sustained. Instead, you determine the duration and corresponding AE costs when casting the spell.
+  level3:
+    id: 447
+    name: "Multiple Targets"
+    effect: |
+      Cast Breathe Water on an additional QL targets by touching them. After you cast the spell, you need not remain in contact - they can move away from you. This costs you an additional 8 AE.
+  src:
+    - id: US25004E
+      firstPage: 155
+
+- target: SPELL_46
+  level1:
+    id: 448
+    name: "Lower Ritual Time"
+    effect: |
+      The ritual time decreases to 4 hours.
+  level2:
+    id: 449
+    name: "Lowered Penalty 1"
+    effect: |
+      Subtract 1 from the penalty for additional charges from the Arcanovi check. This enhancement cannot reduce these penalties below 0.
+  level3:
+    id: 450
+    name: "Lowered Penalty 2"
+    effect: |
+      Subtract 1 from the penalty for additional charges from the Arcanovi check and the spell check of the stored spell when creating the artifact. This enhancement cannot reduce these penalties below 0. Prerequisite: Spell enhancement *Lowered Penalty I*.
+  src:
+    - id: US25004E
+      firstPage: 162
+
+- target: SPELL_47
+  level1:
+    id: 451
+    name: "More Services"
+    effect: |
+      Ask the creature for up to QL + 2 services.
+  level2:
+    id: 452
+    name: "Longer Service"
+    effect: |
+      The creature automatically ends its service to you at the end of one week (instead of one day).
+  level3:
+    id: 453
+    name: "Powerful Creature"
+    effect: |
+      Give the creature the same advantages twice during summoning.
+  src:
+    - id: US25004E
+      firstPage: 163
+
+- target: SPELL_48
+  level1:
+    id: 454
+    name: "More Services"
+    effect: |
+      Ask the creature for up to QL + 2 services.
+  level2:
+    id: 455
+    name: "Longer Service"
+    effect: |
+      The creature automatically ends its service to you at the end of one week (instead of one day).
+  level3:
+    id: 456
+    name: "Powerful Creature"
+    effect: |
+      Give the creature the same advantages twice during summoning.
+  src:
+    - id: US25004E
+      firstPage: 163
+
+- target: SPELL_49
+  level1:
+    id: 457
+    name: "More Services"
+    effect: |
+      Ask the creature for up to QL + 2 services.
+  level2:
+    id: 458
+    name: "Longer Service"
+    effect: |
+      The creature automatically ends its service to you at the end of one week (instead of one day).
+  level3:
+    id: 459
+    name: "Powerful Creature"
+    effect: |
+      Give the creature the same advantages twice during summoning.
+  src:
+    - id: US25004E
+      firstPage: 163
+
+- target: SPELL_50
+  level1:
+    id: 460
+    name: "More Services"
+    effect: |
+      Ask the creature for up to QL + 2 services.
+  level2:
+    id: 461
+    name: "Longer Service"
+    effect: |
+      The creature automatically ends its service to you at the end of one week (instead of one day).
+  level3:
+    id: 462
+    name: "Powerful Creature"
+    effect: |
+      Give the creature the same advantages twice during summoning.
+  src:
+    - id: US25004E
+      firstPage: 163
+
+- target: SPELL_51
+  level1:
+    id: 463
+    name: "Shortened Ritual Time"
+    effect: |
+      The ritual time decreases to 4 hours.
+  level2:
+    id: 464
+    name: "Choice of Bearer"
+    effect: |
+      The weapon is only magical if people you select wield it.
+  level3:
+    id: 465
+    name: "Hatred of…"
+    effect: |
+      The weapon causes +1 DP against a specific creature type. You must choose the creature type before enchanting the weapon (demons, undead, humans, and so on). This costs you an additional 4 AE.
+  src:
+    - id: US25004E
+      firstPage: 163

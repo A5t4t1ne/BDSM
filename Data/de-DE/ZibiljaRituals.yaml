@@ -1,0 +1,257 @@
+- id: SPELL_468
+  name: "Bienenfleiß"
+  effect: |
+    Die Zibilja überträgt ihr Schlafbedürfnis auf einen Bienenstock. Die Bienen schlafen ein, von der Zibilja fällt jede Müdigkeit ab und sie erhält während der Wirkungsdauer den Vorteil *Nichtschläfer*. Die Zibilja kann das Ritual auch auf ein anderes Sippenmitglied anwenden, der statt ihrer den Vorteil erhält. Das Ziel muss in diesem Fall während der Zauberdauer von der Zibilja berührt werden.
+  ritualTime: "30 Minuten"
+  ritualTimeShort: "30 min"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "QS Tage"
+  durationShort: "QS d"
+  target: "Kulturschaffende"
+  src:
+    - id: US25008
+      firstPage: 44
+
+- id: SPELL_469
+  name: "Band zur Ware"
+  effect: |
+    Die Zibilja berührt einen Gegenstand und weiß fortan, wo er sich befindet und wer ihn bei sich trägt. Sollte sie die Person nicht persönlich kennen, so weiß sie nur, wie diese aussieht, kennt aber nicht deren Namen. Proben auf *Orientierung*, bei denen der Ort des Gegenstands als Richtungsangabe helfen könnte, sind allerdings nicht erleichtert. Sobald die Zibilja dieses Ritual erneut vollführt, kann sie den alten Gegenstand nicht mehr erspüren, da die magische Verbindung durchtrennt wurde und nun ein magisches Band mit dem neuen Gegenstand geknüpft wurde.
+  ritualTime: "30 Minuten"
+  ritualTimeShort: "30 min"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "QS Monate oder bis ein neuer Gegenstand von der Zibilja verzaubert wurde"
+  durationShort: "QS Monate"
+  target: "Objekte"
+  src:
+    - id: US25008
+      firstPage: 44
+
+- id: SPELL_470
+  name: "Bienenkönigin"
+  effect: |
+    Die Zibilja vernetzt mit diesem Ritual ihren Geist mit allen freiwilligen Zielen ihrer Sippe. Die Sippenmitglieder müssen sich zu Beginn des Rituals in einem Radius von 2 Meilen um die Zibilja herum aufhalten. Während der Wirkung kann die Zibilja, wenn sie dies wünscht, die Handlungen der Ziele bestimmen, so als ob sie den Körper und den Geist steuern würde. Sie kann dies bei allen Zielen gleichzeitig tun. Kämpfen beherrschte Ziele zusammen in Angriffsdistanz gegen einen Feind, dann gilt, dass sie in +1 VW erhalten. Außerdem sind Gruppensammelproben für die Ziele um 1 erleichtert, wenn sie zusammenarbeiten.
+  ritualTime: "8 Stunden"
+  ritualTimeShort: "8 h"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "2 Meilen"
+  rangeShort: "2 km"
+  duration: "QS Stunden"
+  durationShort: "QS h"
+  target: "Kulturschaffende"
+  src:
+    - id: US25008
+      firstPage: 44
+
+- id: SPELL_471
+  name: "Bienensuche"
+  effect: |
+    Die Zibilja bittet einen Bienenschwarm, jemanden oder etwas zu suchen. Die Bienen breiten sich in einem Radius von QS Meilen aus und kehren zur Zibilja zurück, wenn sie etwas gefunden haben oder die Wirkungsdauer vorüber ist. Bei gelungener Suche zeigen einige der Bienen das Versteck des Gesuchten. Um sich erfolgreich vor den Bienen zu verstecken, muss eine Probe auf *Verbergen (Sich verstecken)* erschwert um QS/2 gelingen.
+  ritualTime: "5 Minuten"
+  ritualTimeShort: "5 min"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "4 Schritt"
+  rangeShort: "4 m"
+  duration: "1 Stunde"
+  durationShort: "1 h"
+  target: "Tiere (Bienen)"
+  src:
+    - id: US25008
+      firstPage: 44
+      lastPage: 45
+
+- id: SPELL_472
+  name: "Bienentanz"
+  effect: |
+    Die Zibilja tanzt zusammen mit ihrer Sippe einen Tanz und vergräbt eine Bienenwachstafel im Boden. Alle Sippenmitglieder, die an dem Tanz teilgenommen haben, inklusive der Zibilja, können intuitiv wieder zu dem Ort zurückfinden. Proben auf *Orientierung*, bei denen der Tanzplatz als Richtungsangabe helfen könnte, sind allerdings nicht erleichtert. Sobald die Zibilja dieses Ritual erneut vollführt, kann weder sie noch eines der Sippenmitglieder den alten Tanzplatz intuitiv ansteuern, da die magische Verbindung durchtrennt wurde und nun ein magisches Band mit dem neuen Ort geknüpft wurde.
+  ritualTime: "2 Stunden"
+  ritualTimeShort: "2 h"
+  aeCost: "4 AsP + 2 pro angefangenen 10 Teilnehmern außer der Zibilja"
+  aeCostShort: "4+ AsP"
+  range: "Die Teilnehmer müssen sich auf dem Tanzplatz befinden, der einen maximalen Radius von 16 Schritt umfassen darf"
+  rangeShort: "Platz/16 m"
+  duration: "QS Jahre oder bis ein neuer Tanzplatz von der Zibilja verzaubert wurde"
+  durationShort: "QS a"
+  target: "Kulturschaffende"
+  src:
+    - id: US25008
+      firstPage: 45
+
+- id: SPELL_473
+  name: "Sicheres Lager"
+  effect: |
+    Die Zibilja wählt einen Lagerplatz aus, durchschreitet ihn und stellt ein Glas Honig und eine Mokoscha-Statuette ab. Das Lager ist anschließend magisch aufgeladen, was dazu führt, dass alle Personen, die zur Sippe der Zibilja gehören +1 LeP (und +1 AsP und/oder +1 KaP, sofern sie darüber verfügen) zusätzlich bei der Regeneration erhalten, wenn sie im Lager schlafen. Zudem sind Proben auf *Sinnesschärfe* um 1 erleichtert, wenn es darum geht, dass eines der Sippenmitglieder einen Eindringling im Lager bemerken soll.
+  ritualTime: "30 Minuten"
+  ritualTimeShort: "30 min"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "maximal 32 Schritt Radius"
+  rangeShort: "max 32 m"
+  duration: "QS/2 Tage"
+  durationShort: "QS/2 d"
+  target: "Zone"
+  src:
+    - id: US25008
+      firstPage: 45
+
+- id: SPELL_474
+  name: "Siegel des Grabes"
+  effect: |
+    Dieses Ritual wird dazu benutzt, um norbardische Gräber mit schweren Steinen zu verschließen. Der Felsen wird am Boden befestigt, mit dafür vorbereiteter Farbe bemalt und kann nicht mehr bewegt werden. Bei dem Boden kann es sich auch um andere waagerechte Flächen wie z. B. Tische oder Schiffsplanken handeln. Der gewählte Untergrund ist nicht dagegen gefeit, bewegt zu werden, wodurch eine Befestigung an Sand, lockerer Erde oder kleinen Möbelstücken meist nur wenig Sinn ergibt. Wird das Objekt während der Wirkungsdauer zerstört, haften stattdessen seine Trümmerstücke am Boden. In diesem Fall muss nur für eines der Stücke eine Probe auf *Kraftakt (Ziehen & Zerren)* gelingen, um den Zauber für alle Teile vorzeitig enden zu lassen.
+  ritualTime: "8 Stunden"
+  ritualTimeShort: "8 h"
+  aeCost: "32 AsP"
+  aeCostShort: "32 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "QS Jahrhunderte"
+  durationShort: "QS Jahrhunderte"
+  target: "Objekte (Felsblöcke)"
+  src:
+    - id: US25008
+      firstPage: 45
+      lastPage: 46
+
+- id: SPELL_475
+  name: "Traumerinnerung"
+  effect: |
+    Die Zibilja kann sich ihre oder einem freiwilligen Ziel seine Träume wieder in Erinnerung rufen. Die Erinnerung ist absolut klar, auch wenn sich das Ziel vorher kaum an den Traum erinnern konnte. Die Zibilja muss den Traum kennen, ein freiwilliges Ziel muss also zumindest eine vage Erinnerung daran haben und ihn benennen können. Der Traum darf nicht länger als QS Tage her sein.
+  ritualTime: "30 Minuten"
+  ritualTimeShort: "30 min"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "sofort"
+  durationShort: "sofort"
+  target: "Kulturschaffende"
+  src:
+    - id: US25008
+      firstPage: 46
+
+- id: SPELL_476
+  name: "Traumseherin"
+  effect: |
+    Die Zibilja dringt in den Traum eines Sippenmitglieds ein und kann ihm so bei der Verarbeitung des Geschehens beiseite stehen. Das Ziel muss zu Beginn des Rituals schlafen. Proben auf *Heilkunde Seele* und *Menschenkenntnis* sind nach dem Erwachen für die Zibilja gegenüber dem Ziel für 24 Stunden um QS/2 erleichtert. Meist erwacht das Ziel am Ende der Zauberdauer. Das letzte Wort darüber hat der Meister.
+  ritualTime: "2 Stunden"
+  ritualTimeShort: "2 h"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "maximal 12 Stunden"
+  durationShort: "max 12 h"
+  target: "Kulturschaffende"
+  src:
+    - id: US25008
+      firstPage: 46
+
+- id: SPELL_477
+  name: "Unglücksgefäß"
+  effect: |
+    Die Zibilja wählt eine irdene Schüssel aus, gibt eine materielle Komponente von maximal 6 Sippenmitgliedern hinein (beispielsweise ein paar Haare oder Spucke), verschließt die Schüssel und Bienenwachs und spricht Verse aus dem *Seffer Manich* darüber. Sollte einem der Sippenmitglieder ein Unglück widerfahren, so absorbiert die Schüssel das Pech. Konkret bedeutet dies, dass ein Patzer als normaler Misserfolg gewertet wird. Die Schüssel kann bis zu QS Unglücke absorbieren. Wo sich die Sippenmitglieder aufhalten, ist dabei nicht relevant, solange sie sich noch auf dem gleichen Kontinent aufhalten.
+  ritualTime: "2 Stunden"
+  ritualTimeShort: "2 h"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "maximal 7 Tage"
+  durationShort: "max 7 d"
+  target: "Kulturschaffende"
+  src:
+    - id: US25008
+      firstPage: 46
+
+- id: SPELL_478
+  name: "Wachshaut"
+  effect: |
+    Ein Leichnam wird vor dem Verfaulen bewahrt, sodass Insekten und Aasfressern ihn nicht anrühren.
+  ritualTime: "2 Stunden"
+  ritualTimeShort: "2 h"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "QS Jahrhunderte"
+  durationShort: "QS Jahrhunderte"
+  target: "Objekte (Leichen)"
+  src:
+    - id: US25008
+      firstPage: 46
+
+- id: SPELL_479
+  name: "Wachskonservierung"
+  effect: |
+    Ein Gefäß von maximal Vasengröße bzw. einem Schritt Höhe, wird mit Bienenwachs verschlossen, um den Inhalt zu konservieren. Die Wirkung endet, sobald die Versiegelung gebrochen wird.
+  ritualTime: "30 Minuten"
+  ritualTimeShort: "30 min"
+  aeCost: "4 Asp"
+  aeCostShort: "4 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "QS Jahrhunderte"
+  durationShort: "QS Jahrhunderte"
+  target: "Objekte (Gefäße)"
+  src:
+    - id: US25008
+      firstPage: 46
+
+- id: SPELL_480
+  name: "Wachsmumie"
+  effect: |
+    Ein Leichnam wird durch Magie mumifiziert und verteidigt ein von der Zibilja benanntes Grab. Die Mumie greift alle Eindringlinge an, die nicht der Sippe der Zibilja angehören, sobald sie sich ihm bis auf 8 Schritt genähert haben. Das Grab verlässt die Mumie jedoch nicht.
+  ritualTime: "2 Stunden"
+  ritualTimeShort: "2 h"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "QS Jahrhunderte"
+  durationShort: "QS Jahrhunderte"
+  target: "Objekte (Leichen)"
+  src:
+    - id: US25008
+      firstPage: 46
+
+- id: SPELL_481
+  name: "Warenchronik"
+  effect: |
+    Manche Gerüchte besagen, dass die Zibilja die Waren von Fremden manchmal besser kennen als diese selbst. Dieses Ritual, dem Zauber <span class="name--spell">Objectovoco</span> ähnlich, ist der Grund dafür. Der Gegenstand muss auf QS Fragen wahrheitsgemäß antworten. Die Fragen müssen mit Ja oder Nein zu beantworten sein. Auf andere Fragen kann der Gegenstand schweigen. Die Wahrnehmung von Gegenständen ist begrenzt, ebenso deren Intelligenz. Sie nehmen nur wahr, was in einer Reichweite von ca. 3 Schritt um sie herum geschieht. Ein einfaches Objekt wie ein Stein ist zudem nicht so klug wie ein komplexer Gegenstand, etwa eine Uhr. Alle Fragen und Antworten finden per Gedankenübertragung statt und müssen nicht ausgesprochen werden.
+  ritualTime: "5 Minuten"
+  ritualTimeShort: "5 min"
+  aeCost: "2 AsP"
+  aeCostShort: "2 AsP"
+  range: "Berührung"
+  rangeShort: "Berührung"
+  duration: "sofort"
+  durationShort: "sofort"
+  target: "Objekte"
+  src:
+    - id: US25008
+      firstPage: 46
+      lastPage: 47
+
+- id: SPELL_482
+  name: "Weisheit der Schrift"
+  effect: |
+    Die Zibilja liest aus dem *Seffer Manich* vor und kann mit dem Vortrag ein Sippenmitglied zum einen leichter überzeugen, zum anderen ihm bestehende Ängste für eine bestimmte Zeit nehmen. Proben auf *Bekehren & Überzeugen* und *Überreden* sind gegenüber dem Sippenmitglied für die Zibilja um QS/2 erleichtert. Zudem verliert das Ziel auch den Nachteil *Angst vor …* vor einer bestimmten, von der Zibilja ausgewählten Angst in Höhe von QS/2 Stufen des Nachteils.
+  ritualTime: "30 Minuten"
+  ritualTimeShort: "30 min"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "4 Schritt"
+  rangeShort: "4 m"
+  duration: "QS Stunden"
+  durationShort: "QS h"
+  target: "Kulturschaffende"
+  src:
+    - id: US25008
+      firstPage: 47

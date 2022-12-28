@@ -1,0 +1,132 @@
+- id: BLESSING_1
+  name: "Benedizione del giuramento"
+  effect: |
+    Questa benedizione permette di fare un giuramento vincolante. Il bersaglio dovrà fare il giuramento volontariamente e, dopo averlo fatto, lo percepirà come vincolante. Questa benedizione può essere spezzata con una prova su *Forza di volontà* con una penalità di 1.
+  range: "4 passi"
+  duration: "1 anno"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_2
+  name: "Benedizione del fuoco"
+  effect: |
+    Una piccola fiamma scaturirà dalla punta dell’indice di chi ha eseguito la benedizione. Sarà abbastanza forte da illuminare una stanza e sufficiente ad accendere una candela. La fiamma in sé non fa del male, ma i fuochi accesi con questa benedizione potrebbero. La fiamma è luminosa quanto quella di una normale candela.
+  range: " Sé stesso"
+  duration: "5 minuti"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_3
+  name: "Benedizione della nascita"
+  effect: |
+    Con questa benedizione si dà il benvenuto ai nuovi nati nella comunità di fedeli, che verranno così protetti contro i rapimenti da parte di coboldi, fate e demoni minori per tutta la durata della benedizione (ossia fino a che non avranno compiuto 12 anni). Puoi eseguire questa benedizione fino a 12 giorni dopo la nascita del bambino. Se aspetti oltre, non avrà alcun effetto.
+  range: "Tocco"
+  duration: "Nella congrega dei Dodici, dura fino al dodicesimo anno di età del bambino"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_4
+  name: "Benedizione della fortuna"
+  effect: |
+    Mentre la benedizione è in corso, il bersaglio può sperimentare una singola volta un pizzico di fortuna. Dopo aver fatto una prova, potrà aggiungere 1 PAb al risultato. Questo permette di superare una prova altrimenti fallita oppure di raggiungere un LQ superiore.
+  range: "Tocco"
+  duration: "12 ore"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_5
+  name: "Benedizione del sepolcro"
+  effect: |
+    L’iniziato benedice il sepolcro di una persona defunta. Chiunque desideri riesumare il corpo o danneggiare la tomba dovrà fare una prova su *Forza di volontà (Fronteggiare minacce)* con una penalità di 1. Il fallimento porterà quella persona ad avere un brutto presentimento e quindi a rinunciare al danneggiamento del sepolcro. Tutta la magia che ha come bersaglio il defunto subisce una penalità di 1 fintanto che il corpo rimarrà all’interno del suo sepolcro benedetto.
+  range: "Tocco"
+  duration: "12 mesi"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_6
+  name: "Benedizione dell’armonia"
+  effect: |
+   I bersagli di questa benedizione proveranno per tutto il giorno dei sentimenti estremamente positivi. Tutti gli effetti che potrebbero causare la condizione Paura subiscono una penalità di 1.
+  range: "Tocco"
+  duration: "12 ore"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 322
+
+- id: BLESSING_7
+  name: "Benedizione della guarigione"
+  effect: |
+    Il destinatario guadagna 1 PV. Si può ricevere questa benedizione solo una volta al giorno.
+  range: "Tocco"
+  duration: "Immediata"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_8
+  name: "Benedizione della protezione"
+  effect: |
+    Questa benedizione protegge da morti viventi privi di coscienza (come gli zombi) ed i demoni minori. Usando la benedizione dovrai decidere quale tipo di creatura allontanare e la zona da benedire. Creature del tipo scelto non potranno entrare nella zona per l’intera durata della benedizione. Se la creatura è costretta ad entrare nella zona, cercherà in ogni modo di uscirne al più presto.<br>
+    La zona scelta può avere un raggio massimo pari a 4 passi, ma può essere più piccola. Inoltre, la zona di protezione è immobile: se la persona all’interno dell’area si sposta al suo margine per attaccare delle creature, queste potranno attaccare a loro volta.
+  range: "4 passi"
+  duration: "4 turni di combattimento"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_9
+  name: "Benedizione delle vivande"
+  effect: |
+    Il cibo benedetto è gustoso e altamente nutriente. Questa benedizione neutralizza i veleni fino al livello 2 ed elimina qualsiasi altra contaminazione dal cibo. La benedizione ha effetto su una porzione qualsiasi di cibo per una persona al massimo.
+  range: "Tocco"
+  duration: "Immediata"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_10
+  name: "Benedizione del vigore"
+  effect: |
+    Il bersaglio della benedizione non si affatica e non sente stanchezza. Può ritirare un dado durante una singola prova su *Autocontrollo (Restare cosciente)*, come se avesse il vantaggio Attitudine (vedi il **Regolamento** a pag. **165**). Una persona può ricevere una sola Benedizione del vigore al giorno.
+  range: "Sé stesso"
+  duration: "12 turni di combattimento"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 323
+
+- id: BLESSING_11
+  name: "Benedizione delle acque"
+  effect: |
+    Coloro che consumeranno una bevanda così benedetta si sentiranno molto rinfrescati. La benedizione neutralizza i veleni fino al livello 2 ed elimina qualsiasi altro tipo di contaminazione dalla bevanda. Ha effetto su circa 1 litro di liquidi.
+  range: "Tocco"
+  duration: "Immediata"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 322
+
+- id: BLESSING_12
+  name: "Benedizione della conoscenza"
+  effect: |
+    I destinatari di questa benedizione godono di una migliorata capacità di discernimento. Possono concentrarsi meglio nella risoluzione di un problema e quindi ritirare un dado durante una singola prova su una competenza conoscitiva (come se avessero il vantaggio Attitudine, vedi il **Regolamento** a pag. **165**). Una persona può ricevere una sola Benedizione della conoscenza al giorno. Dopo la prova, la benedizione smette di avere effetto.
+  range: "Tocco"
+  duration: "12 ore"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 322

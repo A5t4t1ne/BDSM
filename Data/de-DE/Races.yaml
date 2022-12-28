@@ -1,0 +1,44 @@
+- id: R_1
+  name: "Menschen"
+  attributeAdjustments: "eine beliebige Eigenschaft nach Wahl +1"
+  src:
+    - id: US25001
+      firstPage: 89
+
+- id: R_2
+  name: "Elfen"
+  attributeAdjustments: "IN und GE +1; KL oder KK -2"
+  automaticAdvantages: "Zauberer, Zweistimmiger Gesang"
+  stronglyRecommendedAdvantages: "Altersresistenz, Dunkelsicht I, Nichtschläfer"
+  stronglyRecommendedDisadvantages: "Sensibler Geruchssinn, Unfähig (Zechen)"
+  commonAdvantages: "Begabung (Singen, Musizieren), Beidhändig, Dunkelsicht II, Flink, Giftresistenz, Gutaussehend, Herausragender Sinn (Gehör und Sicht), Immunität gegen (Schwarze Wut, Tollwut, Lykanthropie), Krankheitsresistenz, Richtungssinn, Schlangenmensch, Verbesserte Regeneration (Astralenergie), Wohlklang"
+  commonDisadvantages: "Körpergebundene Kraft, Lästige Mindergeister, Wahrer Name"
+  uncommonAdvantages: "Hitzeresistenz, Schwer zu verzaubern, Zwergennase"
+  uncommonDisadvantages: "Blutrausch, Eingeschränkter Sinn, Fettleibig, Nachtblind"
+  src:
+    - id: US25001
+      firstPage: 91
+
+- id: R_3
+  name: "Halbelfen"
+  attributeAdjustments: "eine beliebige Eigenschaft nach Wahl +1"
+  commonAdvantages: "Begabung (Singen, Musizieren), Beidhändig, Dunkelsicht I, Flink, Gutaussehend, Herausragender Sinn (Gehör und Sicht), Schlangenmensch, Wohlklang, Zauberer, Zweistimmiger Gesang"
+  commonDisadvantages: "Sensibler Geruchssinn, Wahrer Name"
+  uncommonAdvantages: "Schwer zu verzaubern, Zwergennase"
+  uncommonDisadvantages: "Blutrausch, Fettleibig, Krankheitsanfällig"
+  src:
+    - id: US25001
+      firstPage: 92
+
+- id: R_4
+  name: "Zwerge"
+  attributeAdjustments: "KO und KK +1; CH oder GE -2"
+  stronglyRecommendedAdvantages: "Dunkelsicht I, Immunität gegen Tulmadron"
+  stronglyRecommendedDisadvantages: "Unfähig (Schwimmen)"
+  commonAdvantages: "Dunkelsicht II, Hitzeresistenz, Hohe Zähigkeit, Krankheitsresistenz, Richtungssinn, Schwer zu verzaubern, Zäher Hund, Zwergennase"
+  commonDisadvantages: "Blutrausch"
+  uncommonAdvantages: "Schlangenmensch, Wohlklang, Zauberer"
+  uncommonDisadvantages: "Hitzeempfindlich, Nachtblind, Niedrige Seelenkraft, Niedrige Zähigkeit, Zerbrechlich"
+  src:
+    - id: US25001
+      firstPage: 94

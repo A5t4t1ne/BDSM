@@ -1,0 +1,412 @@
+- id: SPELL_184
+  name: "Melody Of Aggression"
+  nameByTradition:
+    - id: 3
+      name: "Ögnir’s Discord"
+  effect: |
+    This melody sows discord and wrath among its listeners. All listeners with SPI 2 or lower receive the *Negative Trait (Short Temper)*, if they do not already have it. For the melody's duration, they must make successful *Willpower (Resist Intimidation)* checks with a penalty of QL/2 or they start arguing with another listener. If they already have the *Negative Trait (Short Temper)*, their checks receive an additional penalty of -1. The argument need not end in physical violence. The GM determines the repercussions, depending on the situation and the results of *Willpower* checks. The effect lasts for 30 minutes after the melody ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 44
+
+- id: SPELL_185
+  name: "Melody Of Salvation"
+  nameByTradition:
+    - id: 1
+      name: "Parinor’s Salvation"
+  effect: |
+    Select one person among the listeners. Your melody frees the target from all Influence magic.<br>
+    To break the influence of a spellwork or magical action, your melody's QL must equal or exceed that of the spell or magical action to negate its effects.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "10 AE"
+  aeCostShort: "10 AE"
+  src:
+    - id: US25004E
+      firstPage: 47
+
+- id: SPELL_186
+  name: "Melody Of Encouragement"
+  nameByTradition:
+    - id: 1
+      name: "The Sword King’s Courage"
+    - id: 2
+      name: "Courage of the All-One"
+    - id: 3
+      name: "Ulramnir’s Courage"
+  effect: |
+    Select up to QL listeners. Each becomes more confident and brave. Depending on the QL, the listeners gain different bonuses. The bonuses are cumulative; at QL 3, for example, the target receives a total of 2 COU and 1SPI.<br>
+    The effect lasts for 30 minutes after the melody ends.
+
+    - **QL 1:** 1 COU
+    - **QL 2:** 1 SPI
+    - **QL 3:** 1 COU
+    - **QL 4:** 1 TOU
+    - **QL 5**: 1 COU
+    - **QL 6**: 1 AT
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 45
+
+- id: SPELL_187
+  name: "Melody Of Fairies"
+  nameByTradition:
+    - id: 1
+      name: "Farindel’s Song"
+  effect: |
+    This melody attracts any fairies within range. To resist the temptation to move toward the caster, they must make a *Willpower* check with a penalty of QL/2. Affected fairies cannot attack you while the melody endures, but they need not act friendly toward you, either. However, after a failed check, the fairy acts curious about you.<br>
+    This melody does not affect Fea or Fairy Kings
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 45
+
+- id: SPELL_188
+  name: "Melody Of Flames"
+  nameByTradition:
+    - id: 2
+      name: "Blaze of the Sun"
+    - id: 3
+      name: "Dravina’s Flames"
+  effect: |
+    QL/2 selected targets within range ignite. The targets must be flammable, inanimate objects; you cannot set living creatures on fire. However, targets wearing flammable clothes receive the state *Burning* (small area; see **Core Rules** Page **341**).<br>
+    The effect continues after the melody ends, even if you move out of range of the target(s) . The fire is extinguishable manually
+  duration: "Short, One-Time"
+  durationShort: "Short"
+  aeCost: "10 AE"
+  aeCostShort: "10 AE"
+  src:
+    - id: US25004E
+      firstPage: 45
+
+- id: SPELL_189
+  name: "Melody Of Friendship"
+  nameByTradition:
+    - id: 1
+      name: "Cuanu’s Brotherhood"
+  effect: |
+    Influence up to QL listeners within hearing range. The listeners must have a neutral or better attitude toward you (see **Core Rules** Page **288**or **Aventuria Compendium** Page **41**; Level 5 of the spell *Bannbaladin*). Their attitude improves by one level during the next 24 hours.
+  duration: "Short, One-Time"
+  durationShort: "Short"
+  aeCost: "2 AE for the first person; 1 AE for each additional person"
+  aeCostShort: "2 AE + 1 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 45
+
+- id: SPELL_190
+  name: "Melody Of Speed"
+  nameByTradition:
+    - id: 2
+      name: "Dervishes’ Dance"
+  effect: |
+    The caster receives 1 MOV and 1 Dodge from this melody.<br>
+    The effect lasts QL x 10 minutes after the melody ends.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "6 AE"
+  aeCostShort: "6 AE"
+  src:
+    - id: US25004E
+      firstPage: 47
+
+- id: SPELL_191
+  name: "Melody Of Healing"
+  nameByTradition:
+    - id: 1
+      name: "Song of the Stork"
+    - id: 2
+      name: "Rastullah’s Mercy"
+  effect: |
+    Select QL listeners within range. Each regains 1D3 LP after the melody ends (each makes their own roll). A person can only profit from this melody's effect once per day.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  src:
+    - id: US25004E
+      firstPage: 45
+
+- id: SPELL_192
+  name: "Melody Of Deception"
+  nameByTradition:
+    - id: 3
+      name: "Albic Deception"
+  effect: |
+    Select up to six listeners with an SPI of 2 or lower. The Melody of Deception renders them easier to manipulate and deceive. The listeners' *Empathy* checks receive a -1 penalty.<br>
+    The effect lasts for QL x 10 minutes after the melody ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "4 AE for the first person; 2 AE for each additional person"
+  aeCostShort: "4 AE + 2 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 44
+
+- id: SPELL_193
+  name: "Melody Of Reconciliation"
+  nameByTradition:
+    - id: 3
+      name: "Ögnir’s Reconciliation"
+  effect: |
+    All argumentative listeners with SPI 2 or lower end their dispute immediately, unless they make a successful *Willpower* check with a penalty of QL/2. This does not mean the listeners become friends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "10 AE"
+  aeCostShort: "10 AE"
+  src:
+    - id: US25004E
+      firstPage: 46
+
+- id: SPELL_194
+  name: "Melody Of Confusion"
+  nameByTradition:
+    - id: 1
+      name: "Alone in Farindel Forest"
+    - id: 3
+      name: "Dwarven Confusion"
+  effect: |
+    Select up to six listeners with SPI 2 or lower to receive two Levels of *Confusion* for the duration of the melody.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 44
+
+- id: SPELL_195
+  name: "Melody Of Wisdom"
+  nameByTradition:
+    - id: 3
+      name: "Firnir’s Counsel"
+  effect: |
+    Select up to six listeners. Each becomes more sagacious and cunning. They receive different bonuses, depending on your QL (see below). The bonuses are cumulative, meaning at QL 3, the listener gains a total of 2 SGC and 1SPI.<br>
+    The effect lasts for 30 minutes after the melody ends.
+
+    - **QL 1**: 1 SGC
+    - **QL 2**: 1 SPI
+    - **QL 3**: 1 SGC
+    - **QL 4**: 1 SPI
+    - **QL 5**: 1 SGC
+    - **QL 6**: 1 PA
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 47
+
+- id: SPELL_196
+  name: "Melody Of The Desert"
+  nameByTradition:
+    - id: 2
+      name: "Storm of the Desert"
+  effect: |
+    Select up to six voluntary targets. Each receives a bonus of 1 to their *Riding* checks and their *Lance AT*.<br>
+    The effect lasts QL x 30 minutes after the melody ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "4 AE for the first person; 2 AE for each additional person"
+  aeCostShort: "4 AE + 2 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 46
+
+- id: SPELL_197
+  name: "Melody Of Toughness"
+  nameByTradition:
+    - id: 2
+      name: "Call of War"
+  effect: |
+    Select up to six listeners. They receive 1 AT and ignore all levels of the condition *Pain* up to and including *Pain* III. However, at *Pain* IV they still become *Incapacitated*.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 47
+
+- id: SPELL_198
+  name: "Melody Of Earthquakes"
+  nameByTradition:
+    - id: 3
+      name: "Ingerimm’s Grumbling"
+  effect: |
+    Create cracks in the ground that run outward from your position. Within the melody's radius, the earth begins to quake; however, this does not lead to significant structural changes or faults. Everyone within the radius (except you) must make a *Body Control (Balance)* check with a bonus of 1 for every full five yards of distance from the epicenter. All who fail the check receive the state *Prone*.<br>
+    This melody only affects earthy or rocky ground; it does not affect snow, ice, swampland, water, or other such surfaces.<br>
+    This melody does not work while aboard a ship or inside a building.<br>
+    The effect is complete after 4 - (QL/2) CR and you need not continue to sing. The threat of falling applies only once to each person; further *Body Control* checks are not needed.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  src:
+    - id: US25004E
+      firstPage: 44
+
+- id: SPELL_199
+  name: "Melody Of Lulling"
+  nameByTradition:
+    - id: 1
+      name: "Bishdariel’s Lullaby"
+  effect: |
+    Select up to QL x 2 listeners. Your melody fascinates them so much they listen to your entire performance (maximum of 5 minutes). Your performance distracts them, giving them a penalty of -1 to all *Perception* checks.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 46
+
+- id: SPELL_200
+  name: "Melody Of Commerce"
+  nameByTradition:
+    - id: 1
+      name: "Phex’s Melody"
+    - id: 2
+      name: "Wisdom of the Merchant"
+    - id: 3
+      name: "Frenaja’s Bargain"
+  effect: |
+    Select up to QL/2 listeners with SPI 2 or lower. Each receives a bonus of 1 or a penalty of -1 to their *Commerce (Haggling)* checks. You decide which listeners receive bonuses and which receive penalties.<br>
+    The effect lasts for QL x 10 minutes after the melody ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "4 AE for the first person; 2 AE for each additional person"
+  aeCostShort: "4 AE + 2 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 44
+
+- id: SPELL_201
+  name: "Melody Of Combat"
+  nameByTradition:
+    - id: 1
+      name: "In Rondra’s Honor"
+  effect: |
+    Select up to QL people within range. Each receives 1 AT and 1 to defend for the melody's duration.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 44
+
+- id: SPELL_202
+  name: "Melody Of Magical Damage"
+  nameByTradition:
+    - id: 1
+      name: "Rondra’s Battle Song"
+    - id: 2
+      name: "Strengthening of the Faithful"
+  effect: |
+    Select up to QL voluntary listeners. Magic imbues each one so strongly that their close-combat attacks (whether armed or unarmed) count as magical attacks.<br>
+    The effect lasts for QL x 5 minutes after the melody ends.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 46
+
+- id: SPELL_203
+  name: "Melody Of The Sea"
+  nameByTradition:
+    - id: 1
+      name: "Beleman’s Breath"
+    - id: 3
+      name: "Swafnir’s Call"
+  effect: |
+    Select up to six voluntary listeners. Your melody gives them courage to navigate a boat or ship, making their task easier. Each receives a bonus of 1 to all *Sailing* checks. The effect lasts for 12 hours after the melody ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "4 AE for the first person; 2 AE for each additional person"
+  aeCostShort: "4 AE + 2 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 47
+
+- id: SPELL_204
+  name: "Melody Of Rapture"
+  nameByTradition:
+    - id: 2
+      name: "Rapture of the Titans"
+  effect: |
+    Select up to six listeners with SPI 2 or lower. Each receives two levels of *Stupor*.<br>
+    The effect lasts for 30 minutes after the melody ends
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 46
+
+- id: SPELL_205
+  name: "Melody Of The Wind"
+  nameByTradition:
+    - id: 2
+      name: "Breath of the All-One"
+    - id: 3
+      name: "Efhard’s Wind"
+  effect: |
+    Call forth a strong wind that causes sand, fallen leaves, and other debris to swirl through the air. The swirling debris imposes a visibility modifier of QL/2 within the melody's radius, which affects you, as well.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "6 AE"
+  aeCostShort: "6 AE"
+  src:
+    - id: US25004E
+      firstPage: 47
+
+- id: SPELL_206
+  name: "Melody Of Magical Protection"
+  nameByTradition:
+    - id: 2
+      name: "Rastullah’s Protection"
+    - id: 3
+      name: "Runja’s Protection"
+  effect: |
+    Select up to six voluntary listeners. Each receives a bonus of 1 to SPI and TOU against arcane spellworks and magical actions. The effect lasts QL x 10 minutes after the melody ends.
+  duration: "Long, One-Time"
+  durationShort: "Long"
+  aeCost: "8 AE for the first person; 4 AE for each additional person"
+  aeCostShort: "8 AE + 4 AE / Add. Pers."
+  src:
+    - id: US25004E
+      firstPage: 46
+
+- id: SPELL_207
+  name: "Melody Of Reluctance"
+  nameByTradition:
+    - id: 1
+      name: "Ode to Lutisana"
+    - id: 2
+      name: "Wrath of the Godfearing"
+  effect: |
+    Select up to QL x 2 enemies with SPI 2 or lower within hearing range. They become fearful of you and your companions. If the two parties engage in combat within the next five minutes, the affected enemies hesitate to make their first attack, even if their Initiative allows them to act before you and your companions. Individual enemies can try to resist by making a *Willpower* check with a penalty of QL. If more than QL x 2 valid targets are present, you select which enemies the melody affects. After the enemy side takes at least one free action, or after 2 CR, the enemies attack as usual.<br>
+    The melody affects attacks only, not other actions.
+  duration: "Short, Sustainable"
+  durationShort: "Short (S)"
+  aeCost: "12 AE"
+  aeCostShort: "12 AE"
+  src:
+    - id: US25004E
+      firstPage: 46

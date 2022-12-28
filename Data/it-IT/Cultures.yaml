@@ -1,0 +1,482 @@
+- id: C_1
+  name: "Andergastiana"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Andergast città, Joborn, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Osso duro, Senso dell’orientamento"
+  commonDisadvantages: "Caratteristica negativa (Superstizione), Difetto caratteriale (Pregiudizi, soprattutto nei confronti di nostriaci e donne; Estraneità, soprattutto nei confronti del progresso al di fuori del proprio regno)"
+  uncommonAdvantages: "Adattabilità sociale"
+  uncommonDisadvantages: "Suscettibilità alle malattie"
+  commonNames: |
+    - *Maschile:* Arniboldo, Borchelmo, Fortigherto, Ludewik, Marik, Quercibaldo, Roveroldo, Verdiboldo, Wendolyn, Wenzelao, Zoltan
+    - *Femminile:* Andra, Berga, Domela, Ernka, Hadwiga, Irmela, Larja, Marmelunda, Treshka, Wendelina
+    - *Nome di famiglia:* Alricobraccio, Bancaracci, Borchimastro, Legnaroli, Mazzaforte, Porcioste, Querciaforata, Roverolo, Scurodegni, Sellopede, Vacchieri, Zibbeliberti
+    - *Famiglie nobili:* de Anderpetra, de Quercifurvo, de Brancapitrusa, de Scorzibraida, de Teshkal, della Roverepetra
+  src:
+    - id: REG001
+      firstPage: 96
+
+- id: C_2
+  name: "Araniana"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Baburin, Elburum, Llanka, Palmyrabad, Zorgan, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Cavaliere, Gladiatore e Guerriero tribale"
+  commonMagicalProfessions: "Strega (soprattutto Strega dei gatti), Mago (raro)"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Attitudine in competenze sociali, Senso della distanza"
+  commonDisadvantages: "Caratteristica negativa (Superstizione), Difetto caratteriale (Vanità; Pregiudizi, soprattutto nei confronti di Novadi e maghi), Gracilità"
+  uncommonAdvantages: "Resistenza al freddo"
+  uncommonDisadvantages: "Furia sanguinaria"
+  commonNames: |
+    - *Maschile:* Assaf, Djafardeon, Eslam, Faizal, Kazan, Mahdul, Marwamir, Nazir, Seychaban, Zahir
+    - *Femminile:* Aishanka, Belima, Delilah, Harizeth, Majula, Neraida, Rhayadaque, Shilaldara, Yamira, Zulhaminai
+    - I nomi vengono combinati con quelli dei genitori, con ibn nel caso degli uomini e con saba o -sunni nel caso delle donne. Ad esempio: Yamira saba Delihah, Belima Majulasunni oppure Assaf ibn Eslam
+  src:
+    - id: REG001
+      firstPage: 98
+
+- id: C_3
+  name: "Bornese"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Festum, Roccanorda, Stentjmar, Ouvenmas, Rodebrannt, ecc)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore e Guerriero tribale"
+  commonMagicalProfessions: "Strega (soprattutto Strega dei rospi e Strega dei corvi), Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Osso duro, Resistenza al freddo, Senso dell’orientamento"
+  commonDisadvantages: "Caratteristica negativa (Superstizione), Difetto caratteriale (Pregiudizi, soprattutto nei confronti di orchi, goblin, al’anfani e norbardi), Suscettibilità al caldo"
+  uncommonAdvantages: "Resistenza al caldo"
+  commonNames: |
+    - *Maschile:* Bosjew, Danow, Elkwin, Firunew, Irjan, Jaakon, Jucho, Oswin, Travin, Vito
+    - *Femminile:* Alwinja, Dunjascha, Elkwinja, Hesinja, Irinja, Jadvine, Karinja, Nadjesha, Rowena, Vanjesha
+    - *Nome di famiglia:* Alwinnen, Baerow, Bornski, Firunkis, Gartimpski, Gerberow, Karenkis, Larinow, Saraski, Timpski
+    - *Famiglie nobili:* di Frassilonca, di Fontefosca, di Germisald, di Ouvenfust, di Wosna
+  src:
+    - id: REG001
+      firstPage: 101
+
+- id: C_4
+  name: "Fjarninga"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (villaggio e dintorni)"
+  commonMundaneProfessions: "Mercante (soprattutto baratto), Guaritore, Cacciatore, Mercenario, Guerriero tribale"
+  commonAdvantages: "Osso duro , Resistenza al freddo, Rigenerazione vitale accelerata, Senso dell’orientamento, Senso della distanza"
+  commonDisadvantages: "Caratteristica negativa (Superstizione, Iracondia), Furia sanguinaria, Incompetenza in Competenze sociali, Paura di… (Mare), Suscettibilità al caldo"
+  uncommonAdvantages: "Adattabilità sociale, Aspetto anonimo, Resistenza al caldo"
+  uncommonDisadvantages: "Cecità notturna, Corpulenza, Difetto caratteriale (Vanità), Gracilità, Paura di… (Oscurità, Spazi chiusi o Altezze), Suscettibilità al freddo, Suscettibilità alle malattie"
+  commonNames: |
+    - *Maschile:* Asgold, Blotgrim, Engur, Frunobar, Gjallur, Havgrimur, Pandur, Raluf, Surthor, Valbrandar
+    - *Femminile:* Asgora, Dandagard, Funudara, Gunnlaug, Halfga, Jaldrud, Rangra, Svannlaug, Ulfgard, Ylwa
+    - *Tribù note:* Gente dell’ascia bipenne, Gente della volpe dei ghiacci, Gente delle spade ululanti
+
+    I cognomi sono inusuali, mentre sono apprezzati titoli onorifici come ‘Sterminaorsi’, ‘Lamagelida’ oppure ‘Morte silenziosa’.
+  src:
+    - id: REG001
+      firstPage: 103
+
+- id: C_5
+  name: "Horasiana"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Belhanka, Bethana, Grangor, Kuslik, Methumis, Neetha, Vinsalt, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore, Cavaliere e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Adattabilità sociale"
+  commonDisadvantages: "Difetto caratteriale (Arroganza, Vanità, Pregiudizi nei confronti di non-horasiani)"
+  uncommonAdvantages: "Attitudine in Competenze naturali"
+  uncommonDisadvantages: "Paura di… (Spazi chiusi)"
+  commonNames: |
+    - *Maschile:* Alricio, Baduin, Carolan, Cusimo, Duardo, Horadan, Jacopo, Phedro, Quendan, Rondrigo
+    - *Femminile:* Ardare, Carisia, Elaria, Gylvana, Hesindiane, Pamina, Quedora, Rahjamande, Sanya, Sharina
+    - *Nome di famiglia:* Bosvani, Caranda, Delicado, Marnion, Melior, Novacasa, Spinola, Torrean, Ulfaran, Vansanti
+    - *Famiglie nobili:* Barazza, Casibelli, Cavarno, Marcia, Sulvano
+
+    Nel caso di famiglie nobili, spesso si utilizza un *dy* tra nome e cognome. Ad esempio *Ardare dy Casibelli*.
+  src:
+    - id: REG001
+      firstPage: 104
+
+- id: C_6
+  name: "Maraskana"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Boran, Jergan, Sinoda, Tuzak, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore, Cavaliere e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonAdvantages: "Adattabilità sociale, Resistenza ai veleni, Resistenza al caldo, Resistenza alle malattie, Senso dell’orientamento"
+  commonDisadvantages: "Caratteristica negativa (Curiosità), Difetto caratteriale (Arroganza; Pregiudizi, soprattutto nei confronti di gente dalle Terre Centrali)"
+  uncommonAdvantages: "Resistenza al freddo"
+  uncommonDisadvantages: "Caratteristica negativa (Iracondia), Cecità ai colori, Paura di… (Insetti)"
+  commonNames: |
+    - *Maschile:* Alrek, Brinziber, Denderan, Dshindziber, Feruziber, Firold, Gerbaldijian, Mulziber, Perjin, Vegsziber
+    - *Femminile:* Bekasabu, Dajida, Fathimajida, Garasab, Harikajida, Madajida, Shinojida, Tsarysham, Yasindajida, Zulamidjida
+
+    I maraskani non usano cognomi, ma usano spesso il luogo di origine o un soprannome per identificare le persone. Ad esempio *Vegziber da Sinoda* oppure *Dajida la veloce*.
+  src:
+    - id: REG001
+      firstPage: 105
+
+- id: C_7
+  name: "Mhanadistana"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Fasar, Khunchom, Rashdul, Thalusa, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Cavaliere e Guerriero tribale"
+  commonMagicalProfessions: "Strega (soprattutto Strega dei gatti), Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Adattabilità sociale, Fortuna, Resistenza al caldo"
+  commonDisadvantages: "Caratteristica negativa (Superstizione, Cupidigia, Curiosità), Difetto caratteriale (Vanità; Pregiudizi nei confronti dei novadi, medioimperiali, araniani, maraskani e donne)"
+  uncommonAdvantages: "Resistenza al freddo"
+  uncommonDisadvantages: "Paura di… (Spazi chiusi, Agorafobia)"
+  commonNames: |
+    - *Maschile:* Abu, Cherek, Dschadir, Farsid, Hamar, Ismeth, Jassafer, Kasim, Shafir, Tarek
+    - *Femminile:* Chanya, Demeya, Djamilla, Kerime, Manjula, Nassiban, Palmeya, Sajida, Yeshina, Zulhamin
+    - *Onorifici per uomini:* al-Ahjan (il combattivo), al-Ahmad (il vendicativo), al-Alam (il saggio), al-Ankhra (il leone), al-Fessir (il furbo)
+    - *Onorifici per donne:* al-Jamila (la bella), ash-Shabra (la luminosa), ash-Shaya (il gioiello), as-Sarjaban (la gatta araniana), bint-al-Laila (la figlia della notte)
+
+    I nomi vengono combinati con quelli del padre o della madre con ibn per gli uomini e saba o -sunni per le donne. Ad esempio Djamilla saba Kerime, Zulhamin Yeshinasunni oppure Cherek ibn Hamar.
+  src:
+    - id: REG001
+      firstPage: 109
+
+- id: C_8
+  name: "Medioimperiale"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Angbar, Elenvina, Gareth, Castelgrifone, Havena, Punin, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Guerriero tribale, la professione del Gladiatore è molto rara"
+  commonMagicalProfessions: "Strega, Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Fortuna"
+  commonDisadvantages: "Caratteristica negativa (Superstizione), Difetto caratteriale (Pregiudizi, soprattutto verso gente di altre religioni, elfi, orchi, goblin e stranieri)"
+  uncommonAdvantages: "Resistenza al caldo, Resistenza al freddo"
+  commonNames: |
+    - *Maschile:* Alrik, Cordovan, Darian, Erlan, Gerion, Hagen, Jan, Praiodan, Refardeon, Viburn, Yendor
+    - *Femminile:* Alena, Caya, Dorlen, Elwene, Fiana, Khorena, Oleana, Quisira, Sannah, Xaviera
+    - *Nome di famiglia:* Alfaran, Berlind, Damotil, Fossalb, Jelvern, Karfariner, Marlfaber, Petrominl, Volphell, Zandor
+    - *Famiglie nobili:* dal Monte, di Galahan, di Mersinga, di Roccatempesta, di Strillzig
+  src:
+    - id: REG001
+      firstPage: 106
+
+- id: C_9
+  name: "Moha"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Villaggio e dintorni)"
+  commonMundaneProfessions: "Mercante (soprattutto baratto), Guaritore, Cacciatore (della tribù), Mercenario, Guerriero tribale"
+  commonAdvantages: "Avvenenza, Contorsionismo, Fortuna, Resistenza ai veleni, Resistenza al caldo, Senso dell’orientamento"
+  commonDisadvantages: "Animo debole, Caratteristica negativa (Superstizione, Curiosità), Difetto caratteriale (Pregiudizi nei confronti dei non-Moha), Paura di… (Spazi chiusi, Mare, Morti e non-morti), Suscettibilità al freddo"
+  uncommonAdvantages: "Resistenza al freddo"
+  uncommonDisadvantages: "Caratteristica negativa (Cupidigia), Cecità notturna, Difetto caratteriale (Vanità), Incompetenza in Competenze naturali, Paura di… (Altezze, Insetti, Rettili, Ragni), Suscettibilità alle malattie"
+  commonNames: |
+    - *Uomini delle foreste:* Cankuna (colui-che-è-scattante), Kehala (tartaruga), Takate (la-cui-mano-è-insanguinata), Wapiya (la-cui-mano-fa-bene), Yako (felino)
+    - *Utulu:* Kalimba, Mangabe, Shasiwatu, Tenkile, Usuthu
+    - *Tocamuyac:* Anakena, Ataranga, Kiri, Miru, Rano
+    - *Tribù note:* Anoiha, Chirakah, Darna, Haipu, Keke-Wanaq, Miniwatu, Mohaha, Napewanha, Oijaniha, Panaq-Si, Ruwangi, Shokubunga, Tocamuyac
+
+    I nomi Moha sono al tempo stesso maschili e femminili, senza distinzioni.
+  src:
+    - id: REG001
+      firstPage: 110
+
+- id: C_10
+  name: "Nivese"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (zona abitualmente percorsa)"
+  commonMundaneProfessions: "Mercante (soprattutto baratto), Guaritore, Cacciatore (soprattutto della tribù), Mercenario, Guerriero tribale"
+  commonAdvantages: "Resistenza al freddo, Senso dell’orientamento"
+  commonDisadvantages: "Paura di… (Spazi chiusi, Altezze, Morti e non-morti)"
+  uncommonAdvantages: "Adattabilità sociale, Resistenza al caldo"
+  uncommonDisadvantages: "Caratteristica negativa (Cupidigia), Corpulenza, Difetto caratteriale (Arroganza)"
+  commonNames: |
+    - *Maschile:* Arko, Eiko, Garnan, Hunjok, Jurtan, Kinajo, Latu, Nerkjo, Tamperen, Valen
+    - *Femminile:* Amuri, Dana, Geika, Jalani, Kantala, Liskaju, Myrra, Nirka, Saari, Vaala
+    - *Tribù conosciute:* Hokke, Rika-Lie, Takku, Lieska-Leddu, Lieska-Lärna
+  src:
+    - id: REG001
+      firstPage: 111
+
+- id: C_11
+  name: "Norbarda"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (zona abitualmente percorsa)"
+  commonMundaneProfessions: "Mercante, Guaritore, Cacciatore, Mercenario, Canaglia"
+  commonMagicalProfessions: "Strega, Mago (raro)"
+  commonBlessedProfessions: "Iniziato di Hesinde, Iniziato di Phex"
+  commonAdvantages: "Resistenza al freddo, Senso dell’orientamento"
+  commonDisadvantages: "Paura di… (Spazi chiusi, Altezze), Caratteristica negativa (Cupidigia, Curiosità), Doveri (Tribù)"
+  uncommonAdvantages: "Resistenza al caldo"
+  uncommonDisadvantages: "Difetto caratteriale (Arroganza), Integrità (di qualsiasi tipo)"
+  commonNames: |
+    - *Maschile:* Aikul, Beril, Darjew, Fadril, Jagotin, Kergil, Laromir, Mikail, Radul, Tuljew
+    - *Femminile:* Barina, Dagris, Eika, Hetinka, Janka, Kolja, Lexaja, Olja, Slanka, Tuminka
+    - *Nome di famiglia:* Aljeff, Bolsheff, Choprutin, Dagoneff, Garkinen, Janig, Koranzig, Kowalejeff, Lugoltin, Sewerin
+  src:
+    - id: REG001
+      firstPage: 112
+
+- id: C_12
+  name: "Aventuriana del nord"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Enqui, Oblarasim, Paavi, Riva, Udimonte, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Osso duro, Senso dell’orientamento, Senso della distanza"
+  commonDisadvantages: "Caratteristica negativa (Superstizione) , Paura di… (Spazi chiusi)"
+  uncommonAdvantages: "Resistenza al caldo"
+  uncommonDisadvantages: " Suscettibilità alle malattie"
+  commonNames: |
+    I nordaventuriani utilizzano nomi dell’Impero di Mezzo, nivesi, norbardici o thorwaliani, a seconda della loro origine.
+  src:
+    - id: REG001
+      firstPage: 99
+
+- id: C_13
+  name: "Nostriaca"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Nostria città, Salea, Portosalea, ecc)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Osso duro, Senso dell’orientamento"
+  commonDisadvantages: "Caratteristica negativa (Superstizione), Difetto caratteriale (Pregiudizi, soprattutto nei confronti di andergastiani; Estraneità, soprattutto nei confronti del progresso al di fuori del proprio regno)"
+  uncommonAdvantages: "Adattabilità sociale"
+  uncommonDisadvantages: "Suscettibilità alle malattie"
+  commonNames: |
+    - *Maschile:* Ablasion, Basilio, Dorleno, Ingvalion, Jasper, Kasimir, Modeno, Sapertyn, Valputrio, Zarquisio
+    - *Femminile:* Asmodette, Caristhea, Doranthe, Elida, Gloranta, Kasmira, Mafizia, Nostriane, Sieghelmina, Yasmina
+    - *Nome di famiglia:* Adabasyo, Borselbaldi, Elgeryn, Itthysing, Mandolfin, Nosteralb, Prunibondi, Salealdi, Stagnasi, Telolyn, Wilmold
+    - *Famiglie nobili*: de Pescostagna, de Portosalea, de Salea, de Sappafossi, de Vasselbek
+  src:
+    - id: REG001
+      firstPage: 113
+
+- id: C_14
+  name: "Novadi"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Keft, Mherwed, Unau, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore e Cavaliere"
+  commonMagicalProfessions: "Mago (raro)"
+  commonAdvantages: "Senso della distanza, Resistenza al caldo, Senso dell’orientamento, Impassibilità alla magia, Osso duro"
+  commonDisadvantages: "Paura di… (Spazi chiusi, Mare), Difetto caratteriale (Arroganza; Pregiudizi, soprattutto nei confronti di donne ed infedeli), Integrità (99 Leggi), Caratteristica negativa (Iracondia, Vendicatività)"
+  uncommonAdvantages: "Resistenza al freddo"
+  uncommonDisadvantages: "Suscettibilità al caldo"
+  commonNames: |
+    - *Maschile:* Abdul, Chadim, Habled, Khorim, Omar, Mustafa, Nareb, Rashid, Said, Zahir
+    - *Femminile:* Aisha, Eshila, Fadime, Laila, Meriban, Nedime, Oyan, Perishan, Ranchel, Shila
+    - *Tribù conosciute:* Beni Ankhara, Beni Arrat, Beni Avad, Beni Braktar, Beni Erkin, Beni Gadang, Beni Kasim, Beni Kharram, Beni Novad, Beni Shebt, Beni Shadif, Beni Szelemjati, Beni Terkui
+
+    I nomi vengono collegati con quelli del padre o della madre con saba per gli uomini e -sunni per le donne. Ad esempio, Nedime saba Shila, Ranchel Oyansunni oder Omar ben Said. Come per i Mhanadistani, anche i Novadi utilizzano frequentemente dei titoli onorifici.
+  src:
+    - id: REG001
+      firstPage: 114
+
+- id: C_15
+  name: "Aventuriana del sud"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa"
+  commonMundaneProfessions: "Tutte eccetto Cavaliere e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Adattabilità sociale, Resistenza al caldo"
+  commonDisadvantages: "Caratteristica negativa (Superstizione, Cupidigia, Iracondia o Curiosità), Difetto caratteriale (Arroganza, Vanità), Suscettibilità al freddo"
+  uncommonAdvantages: "Resistenza al freddo"
+  uncommonDisadvantages: "Paura di… (Spazi chiusi, Agorafobia, Morti e non-morti)"
+  commonNames: |
+    - *Maschile:* Alondro, Boromeo, Diago, Firunando, Ghorio, Lucan, Mandolo, Nestario, Ramon, Yuan
+    - *Femminile:* Consuela, Dolorita, Esmeralda, Jesabela, Katalinya, Marchesca, Phelicitas, Rahjadés, Valería, Ximena
+    - *Nome di famiglia:* Beratas, Cornio, Delazar, Erabenas, Kalando, Lupinez, Malagro, Nirrano, Ramirez, Santana
+    - *Famiglie dei Grandi di Al’Anfas:* Ardobrekt, Bonareth, Florios, Karinor, Paligan
+  src:
+    - id: REG001
+      firstPage: 100
+
+- id: C_16
+  name: "Svelltica"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Gashok, Lowangen, Bassoborgo, Tjolmar, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Senso della distanza, Senso dell’orientamento, Osso duro"
+  commonDisadvantages: "Paura di… (Spazi chiusi), Difetto caratteriale (Pregiudizi nei confronti degli orchi), Caratteristica negativa (Superstizione)"
+  uncommonAdvantages: "Resistenza al caldo"
+  uncommonDisadvantages: "Suscettibilità alle malattie"
+  commonNames: |
+    Gli svelltici usano gli stessi nomi che sono comuni nell’Impero di Mezzo, ma spesso li abbreviano e li collegano a tratti del loro aspetto, personalità o occupazione. Ad esempio: Uncino-Hurkon, Coltello-Jole, Rossa Lu. Molti nomi vengono ridotti ad una singola sillaba.
+  src:
+    - id: REG001
+      firstPage: 115
+
+- id: C_17
+  name: "Thorwaliana"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Olport, Prem, Thorwal città, Waskir, ecc…)"
+  commonMundaneProfessions: "tutte eccetto Gladiatore, Cavaliere e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonAdvantages: "Fortuna, Osso duro, Rigenerazione vitale accelerata, Senso dell’orientamento, Senso della distanza"
+  commonDisadvantages: "Caratteristica negativa (Superstizione, Curiosità, Vendicatività), Difetto caratteriale (Pregiudizi, soprattutto nei confronti di al’anfiani, uomini lucertola, horasiani e balenieri), Furia sanguinaria"
+  uncommonAdvantages: "Adattabilità sociale"
+  uncommonDisadvantages: "Paura di… (Mare)"
+  commonNames: |
+    - *Maschile:* Asleif, Eirik, Frenjar, Garald, Halmar, Laske, Norri, Raskir, Thorwulf, Wulfgrimm
+    - *Femminile:* Askra, Branda, Eilif, Frenja, Janda, Korja, Norhild, Ragna, Sigrun, Thora
+
+    Il secondo nome viene determinato dal nome proprio di uno dei genitori, con il suffisso -son per i figli maschi e -dottir per le figlie femmine. Ad esempio, Eirk Halmarson oppure Ragna Frenjasdottir. Chi dei genitori darà il nome al figlio viene solitamente determinato tramite una tradizionale lotta corpo a corpo.
+  src:
+    - id: REG001
+      firstPage: 116
+
+- id: C_18
+  name: "Ciclopeidana"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Rethis, Teremon, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Cavaliere e Guerriero tribale"
+  commonMagicalProfessions: "Strega, Mago"
+  commonBlessedProfessions: "Iniziato di Boron, Iniziato di Hesinde, Iniziato di Peraine, Iniziato di Phex, Iniziato di Praios, Iniziato di Rondra"
+  commonAdvantages: "Attitudine in Nuotare, Avvenenza, Senso dell’orientamento, Senso della distanza, Voce incantevole"
+  commonDisadvantages: "Difetto caratteriale (Arroganza; Vanità; Pregiudizi, soprattutto nei confronti di thorwaliani)"
+  uncommonAdvantages: "Resistenza al freddo"
+  uncommonDisadvantages: "Paura di… (Mare)"
+  commonNames: |
+    - *Maschile:* Amenelaos, Dariyon, Hephestaios, Kalchas, Meneander, Mermydion, Peleïston, Praiocles, Rahjenÿsios, Ximater
+    - *Femminile:* Efferdiana, Insina, Korïna, Lanike, Myrtale, Nermaka, Phylinna, Phÿllis, Sapeïdra, Telemache
+    - *Cognomi:* Armedos, Calakis, Egorythios, Garothis, Kalidas, Merogios, Phÿrikos, Sphareïos, Tymemdios, Uÿis
+  src:
+    - id: REG001
+      firstPage: 102
+
+- id: C_19
+  name: "Elfi delle rive"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (villaggio e dintorni)"
+  commonMagicalProfessions: "Esploraselve, Tessimagia"
+  commonAdvantages: "Armonia astrale (Creatura delle rive), Attitudine in Competenze artigianali (soprattutto Navigare), Attitudine per le armi (soprattutto Archi)"
+  commonDisadvantages: "Caratteristica negativa (Curiosità), Difetto caratteriale (Arroganza; Pregiudizi nei confronti di non-elfi; Estraneità al concetto di proprietà privata e divinità), Integrità (Filosofia elfica), Vincolo con artefatto (Strumento musicale)"
+  uncommonAdvantages: "Attitudine in Competenze conoscitive"
+  uncommonDisadvantages: "Caratteristica negativa (Cupidigia, Vendicatività), Incompetenza in Competenze fisiche e naturali"
+  commonNames: |
+    - *Maschile:* Adalarion, Alarion, Caerleon, Delayar, Dendayar, Edorion, Elanor, Feysiriel, Lindariel, Navarion
+    - *Femminile:* Alaniel, Caerleon, Daleone, Eldariel, Gailanoe, Lauriel, Mandara, Rhianna, Sanyadriel, Valandriel
+    - *Nomi di tribù*: Fogliadibetulla, Laghiluna, Lucedirugiada, Muschiolucente, Sorrisodidaino
+
+    Gli elfi si identificano con un nome proprio ed il nome della tribù.
+  src:
+    - id: REG001
+      firstPage: 119
+
+- id: C_20
+  name: "Elfi delle brine"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (villaggio e dintorni)"
+  commonMagicalProfessions: "Esploraselve, Tessimagia"
+  commonAdvantages: "Armonia astrale (Creatura del ghiaccio), Attitudine in Competenze fisiche e naturali, Attitudine per le armi (soprattutto Archi e Armi da lancio), Resistenza al freddo, Senso dell’orientamento"
+  commonDisadvantages: " Difetto caratteriale (Arroganza; Pregiudizi nei confronti di non-elfi; Estraneità al concetto di nobiltà, proprietà privata, denaro, divinità, gerarchie, religione), Incompetenza in Competenze conoscitive, Integrità (Filosofia elfica), Vincolo con artefatto (Strumento musicale)"
+  uncommonAdvantages: "Adattabilità sociale, Attitudine in Competenze conoscitive"
+  uncommonDisadvantages: "Caratteristica negativa (Cupidigia, Vendicatività), Incompetenza in Competenze fisiche e naturali, Paura di… (Oscurità, Spazi chiusi), Suscettibilità al freddo"
+  commonNames: |
+    - *Maschile:* Alriel, Delavar, Eldariel, Ilcoron, Mandaniel, Mandrion, Osagiel, Sanyarin
+    - *Femminile:* Alari, Calenleya, Elayoé, Fiannon, Mandiniel, Nioniel, Peaolé, Saliniome, Teleria, Zairi
+    - *Nomi di tribù:* Cuorebianco, Nevecristallo, Neve-sulle-cime, Nottedigelo, Volodifreccia
+
+    Gli elfi si identificano con un nome proprio ed il nome della tribù.
+  src:
+    - id: REG001
+      firstPage: 118
+
+- id: C_21
+  name: "Elfi silvani"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (villaggio e dintorni)"
+  commonMagicalProfessions: "Esploraselve, Tessimagia"
+  commonAdvantages: "Armonia astrale (Creatura della foresta), Attitudine in Talenti fisici e naturali, Attitudine per le armi (soprattutto Archi)"
+  commonDisadvantages: "Difetto caratteriale (Arroganza; Pregiudizi nei confronti dei non-elfi; Estraneità al concetto di nobiltà, proprietà privata, denaro, divinità, gerarchie e religioni), Incompetenza in Competenze conoscitive, Integrità (Filosofia elfica), Paura di… (Spazi chiusi), Vincolo con artefatto (Strumento musicale), Vincolo dei capelli"
+  uncommonAdvantages: "Adattabilità sociale, Attitudine in Competenze conoscitive"
+  uncommonDisadvantages: "Caratteristica negativa (Cupidigia, Iracondia, Vendicatività), Incompetenza in Competenze fisiche e naturali"
+  commonNames: |
+    - *Maschile:* Albion, Cinamion, Elbrenell, Fermion, Floriel, Imion, Lorion, Mandriel, Nurdhavalon, Saladir
+    - *Femminile:* Allacaya, Cairlinn, Déhaoine, Feyaria, Liloé, Miamiel, Oionel, Rilaona, Shayariel, Valaria
+    - *Nomi di tribù:* Cimadacero, Frecciadipiana, Frondargento, Piumadaquila, Raggiodiluce, Rossotramonto
+
+    Gli elfi si identificano con un nome proprio ed il nome della tribù.
+  src:
+    - id: REG001
+      firstPage: 120
+
+- id: C_22
+  name: "Nani dell’Incudine"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (città nanica natìa e miniere vicine)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore, Cavaliere e Guerriero tribale"
+  commonMagicalProfessions: "Mago (molto raro)"
+  commonBlessedProfessions: "Iniziato di Rondra (raro)"
+  commonAdvantages: "Attitudine in Competenze artigianali (soprattutto Lavorazione del metallo e Lavorazione della pietra), Attitudine per le armi (soprattutto Balestre, Armi da impatto e Armi da impatto a due mani), Osso duro, Rigenerazione vitale accelerata"
+  commonDisadvantages: "Caratteristica negativa (Avarizia, Cupidigia), Difetto caratteriale (Arroganza, Pregiudizi nei confronti di elfi e lucertole), Integrità (Codice d’onore nanico), Paura di… (Mare)"
+  uncommonAdvantages: "Adattabilità sociale"
+  uncommonDisadvantages: "Cecità notturna, Difetto caratteriale (Vanità), Paura di… (Oscurità o Spazi chiusi)"
+  commonNames: |
+    - *Maschile:* Andrash, Ballash, Cobaltosh, Fobosh, Groin, Ibralosh, Kirgam, Marnax, Pogolosh, Sordolax
+    - *Femminile:* Agesha, Borasha, Durga, Hogesha, Lavasha, Norturrima
+
+    I nomi dei nani sono composti da un nome proprio ed un “Figlio di…” o “Figlia di…”. Ad esempio, Andrasch Figlia di Ballash  oppure Durga Figlia di Lavasha.
+  src:
+    - id: REG001
+      firstPage: 122
+
+- id: C_23
+  name: "Nani delle gemme"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (città nanica natìa e miniere vicine)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore, Cavaliere e Guerriero tribal"
+  commonMagicalProfessions: "Mago (molto raro)"
+  commonBlessedProfessions: "Iniziato di Hesinde (raro), Iniziato di Phex (raro), Iniziato di Rondra (raro)"
+  commonAdvantages: "Adattabilità sociale, Attitudine in Competenze artigianali (soprattutto Lavorazione del metallo e Lavorazione della pietra)"
+  commonDisadvantages: "Caratteristica negativa (Avarizia, Cupidigia, Curiosità), Difetto caratteriale (Vanità), Paura di… (Mare)"
+  uncommonDisadvantages: "Cecità notturna, Furia sanguinaria, Paura di… (Spazi chiusi)"
+  commonNames: |
+    - *Maschile:* Angrox, Balum, Cratosh, Gandresh, Grotho, Jandrim, Migosh, Norrin, Rabagash, Topash
+    - *Femminile:* Angalla, Cadrima, Etosha, Igrima, Magmasha, Segrima
+
+    I nomi dei nani sono composti da un nome proprio ed un “Figlio di…” o “Figlia di…”. Ad esempio, Balum Figlio di Grotho oppure Angalla Figlia di Segrima.
+  src:
+    - id: REG001
+      firstPage: 124
+
+- id: C_24
+  name: "Nani del ferro"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (città nanica natìa e miniere vicine)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore, Cavaliere e Guerriero tribal"
+  commonMagicalProfessions: "Mago (molto raro)"
+  commonAdvantages: "Attitudine in Competenze conoscitive e artigianali (soprattutto Storia, Leggi, Lavorazione del metallo e Lavorazione della pietra)"
+  commonDisadvantages: "Caratteristica negativa (Avarizia, Cupidigia), Difetto caratteriale (Arroganza; Pregiudizi nei confronti di non-nani), Paura di… (Altezze o Mare)"
+  uncommonAdvantages: "Adattabilità sociale"
+  uncommonDisadvantages: "Caratteristica negativa (Curiosità), Cecità notturna, Paura di… (Oscurità, Spazi chiusi)"
+  commonNames: |
+    - *Maschile:* Arthag, Brodrosh, Famburash, Grimmbarb, Huramash, Kagrim, Partram, Shrobosh, Tarmosh, Xolgrimm
+    - *Femminile:* Aurulne, Dorella, Halrima, Korunde, Naresha, Topasha
+
+    I nomi dei nani sono composti da un nome proprio ed un “Figlio di…” o “Figlia di…”. Ad esempio, Grimmbarb Figlio di Xolgrimm oppure Halrima Figlia di Dorella.
+  src:
+    - id: REG001
+      firstPage: 121
+
+- id: C_25
+  name: "Nani delle colline"
+  areaKnowledgeShort: "Regione natìa"
+  areaKnowledge: "A seconda della regione natìa (Angbar, ecc…)"
+  commonMundaneProfessions: "Tutte eccetto Gladiatore, Cavaliere e Guerriero tribale"
+  commonMagicalProfessions: "Mago (raro)"
+  commonBlessedProfessions: "Iniziato di Peraine (raro)"
+  commonAdvantages: "Adattabilità sociale, Attitudine in Competenze sociali e artigianali (Cucinare)"
+  commonDisadvantages: "Caratteristica negativa (Cupidigia, Curiosità), Paura di… (Mare)"
+  uncommonDisadvantages: "Cecità notturna, Furia sanguinaria, Paura di… (Oscurità o Spazi chiusi)"
+  commonNames: |
+    - *Maschile:* Artox, Bengram, Dabrash, Gerambalosh, Hargash, Obolosh, Roglom, Tlutash, Xandaresh, Zinkhal
+    - *Femminile:* Aurea, Caldera, Garesha, Ingrasha, Thuresha, Xolgima
+    - *Nomi di famiglia*: Briciolieri, Fornitelli, Manicorli, Pancaldo, Rotondello, Sacconi, Soffiacolle, Tegampio
+
+    I nani delle colline fanno a meno dei nomi tradizionali utilizzati presso le altre culture. Prediligono invece una combinazione di nome proprio e famiglia di appartenenza.
+
+  src:
+    - id: REG001
+      firstPage: 123
