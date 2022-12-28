@@ -1,0 +1,31 @@
+- id: ATTR_1
+  name: "Courage"
+  short: COU
+
+- id: ATTR_2
+  name: "Sagacity"
+  short: SGC
+
+- id: ATTR_3
+  name: "Intuition"
+  short: INT
+
+- id: ATTR_4
+  name: "Charisma"
+  short: CHA
+
+- id: ATTR_5
+  name: "Dexterity"
+  short: DEX
+
+- id: ATTR_6
+  name: "Agility"
+  short: AGI
+
+- id: ATTR_7
+  name: "Constitution"
+  short: CON
+
+- id: ATTR_8
+  name: "Strength"
+  short: STR

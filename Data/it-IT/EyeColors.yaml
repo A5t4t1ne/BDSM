@@ -1,0 +1,40 @@
+- id: 1
+  name: "viola ametista"
+- id: 2
+  name: "ambra"
+- id: 3
+  name: "blu"
+- id: 4
+  name: "marrone"
+- id: 5
+  name: "marrone scuro"
+- id: 6
+  name: "viola scuro"
+- id: 7
+  name: "grigio ghiaccio"
+- id: 8
+  name: "oro"
+- id: 9
+  name: "grigio"
+- id: 10
+  name: "grigio-azzurro"
+- id: 11
+  name: "verde"
+- id: 12
+  name: "marrone chiaro"
+- id: 13
+  name: "rosso rubino"
+- id: 14
+  name: "blu zaffiro"
+- id: 15
+  name: "nero"
+- id: 16
+  name: "nero-marrone"
+- id: 17
+  name: "grigio-argento"
+- id: 18
+  name: "verde smeraldo"
+- id: 19
+  name: "rosso"
+- id: 20
+  name: "viola"

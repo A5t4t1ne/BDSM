@@ -1,0 +1,50 @@
+- id: 1
+  name: "bluish black"
+- id: 2
+  name: "blond"
+- id: 3
+  name: "brown"
+- id: 4
+  name: "dark blond"
+- id: 5
+  name: "dark brown"
+- id: 6
+  name: "golden blond"
+- id: 7
+  name: "gray"
+- id: 8
+  name: "light blond"
+- id: 9
+  name: "light brown"
+- id: 10
+  name: "copper red"
+- id: 11
+  name: "middle blond"
+- id: 12
+  name: "medium brown"
+- id: 13
+  name: "red"
+- id: 14
+  name: "strawberry blond"
+- id: 15
+  name: "snow-white"
+- id: 16
+  name: "black"
+- id: 17
+  name: "silver"
+- id: 18
+  name: "white blond"
+- id: 19
+  name: "dark gray"
+- id: 20
+  name: "light gray"
+- id: 21
+  name: "salt white"
+- id: 22
+  name: "silvery white"
+- id: 23
+  name: "fire red"
+- id: 24
+  name: "white"
+- id: 25
+  name: "green"

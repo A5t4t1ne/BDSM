@@ -1,0 +1,10 @@
+- id: 1
+  name: "Asservi/Esclave"
+- id: 2
+  name: "Libre"
+- id: 3
+  name: "Basse noblesse"
+- id: 4
+  name: "Noblesse"
+- id: 5
+  name: "Haute noblesse"

@@ -1,0 +1,3840 @@
+- target: LITURGY_1
+  level1:
+    id: 457
+    name: "Regulate Light"
+    effect: |
+      Make the light brighter or darker during the duration (up to the QL maximum).
+  level2:
+    id: 458
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level3:
+    id: 459
+    name: "Light Cone"
+    effect: |
+      The light emerges from your character’s hand in a 45-degree cone. Within the cone, the QL counts as being 1 higher (maximum of QL 6); however, the light illuminates the surroundings outside the cone less brightly, and the QL counts as being 1 less (minimum of QL 1).
+  src:
+    - id: US25005E
+      firstPage: 164
+
+- target: LITURGY_2
+  level1:
+    id: 460
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  level2:
+    id: 461
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level3:
+    id: 462
+    name: "Four Targets"
+    effect: |
+      Calm up to four targets at the same time. Each target after the first costs an additional 4 KP.
+  src:
+    - id: US25005E
+      firstPage: 164
+
+- target: LITURGY_3
+  level1:
+    id: 463
+    name: "Longer Interval"
+    effect: |
+      The interval for the sustained cost is 15 minutes (instead of 5 minutes).
+  level2:
+    id: 464
+    name: "Wider Radius"
+    effect: |
+      The radius is QL x 5 yards.
+  level3:
+    id: 465
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  src:
+    - id: US25005E
+      firstPage: 164
+
+- target: LITURGY_4
+  level1:
+    id: 466
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 2 CR.
+  level2:
+    id: 467
+    name: "Increase Range"
+    effect: |
+      The range is 16 yards.
+  level3:
+    id: 468
+    name: "Four Targets"
+    effect: |
+      Attack up to four targets at the same time. Each target after the first costs an additional 4 KP.
+  src:
+    - id: US25005E
+      firstPage: 165
+
+- target: LITURGY_5
+  level1:
+    id: 469
+    name: "Increase Range"
+    effect: |
+      The range is 16 yards.
+  level2:
+    id: 470
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 10 minutes.
+  level3:
+    id: 471
+    name: "Four Targets"
+    effect: |
+      Cast this liturgical chant on up to four targets at the same time. Each target after the first costs an additional 4 KP.
+  src:
+    - id: US25005E
+      firstPage: 166
+
+- target: LITURGY_6
+  level1:
+    id: 472
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level2:
+    id: 473
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 15 minutes. This allows your character to decipher 25 pages per QL.
+  level3:
+    id: 474
+    name: "Four Targets"
+    effect: |
+      Assist up to four targets at the same time. Each target after the first costs an additional 2 KP. Prerequisite: *Range Touch*.
+  src:
+    - id: US25005E
+      firstPage: 165
+
+- target: LITURGY_7
+  level1:
+    id: 475
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 476
+    name: "Quick Effect"
+    effect: |
+      The liturgical time is 1 action, and the duration decreases to QL CR.
+  level3:
+    id: 477
+    name: "Four Targets"
+    effect: |
+      Encourage up to four targets at the same time. Each target after the first costs an additional 4 KP.
+  src:
+    - id: US25005E
+      firstPage: 165
+
+- target: LITURGY_8
+  level1:
+    id: 478
+    name: "Longer Duration"
+    effect: |
+      The duration is QL minutes.
+  level2:
+    id: 479
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level3:
+    id: 480
+    name: "Drop From Cliffs"
+    effect: |
+      Ignore 5 yards of falling damage per QL.
+  src:
+    - id: US25005E
+      firstPage: 166
+
+- target: LITURGY_9
+  level1:
+    id: 481
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 CR.
+  level2:
+    id: 482
+    name: "Sustained"
+    effect: |
+      The liturgical chant may be sustained; the costs are 16 KP to activate and 8 KP every 5 minutes.
+  level3:
+    id: 483
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 166
+
+- target: LITURGY_10
+  level1:
+    id: 484
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 485
+    name: "Flawless Detox"
+    effect: |
+      Increase the QL on a successful check by 1 (maximum of QL 6) for every additional 4 KP you spend.
+  level3:
+    id: 486
+    name: "Four Targets"
+    effect: |
+      Heal up to four targets at the same time. Each target after the first costs you an additional 2 KP per poison level.
+  src:
+    - id: US25005E
+      firstPage: 164
+
+- target: LITURGY_11
+  level1:
+    id: 487
+    name: "Farther Item"
+    effect: |
+      Find an item up to QL x 2 yards away.
+  level2:
+    id: 488
+    name: "Magical Guidance"
+    effect: |
+      Find an item hidden by magical effects. Your QL must be higher than the magic’s QL.
+  level3:
+    id: 489
+    name: "Karmic Guidance"
+    effect: |
+      Find an item hidden by karmic effects. Your QL must be higher than the liturgical chant’s QL.
+  src:
+    - id: US25005E
+      firstPage: 165
+
+- target: LITURGY_12
+  level1:
+    id: 490
+    name: "Increase Range"
+    effect: |
+      The range is 16 yards.
+  level2:
+    id: 491
+    name: "Wider Radius"
+    effect: |
+      The radius is QL x  25 yards.
+  level3:
+    id: 492
+    name: "Powerful Sign"
+    effect: |
+      Receive a bonus of +2 to your *Persuasion* checks if your character includes the sign in the oration.
+  src:
+    - id: US25005E
+      firstPage: 165
+
+- target: LITURGY_13
+  level1:
+    id: 493
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  level2:
+    id: 494
+    name: "Increase Range"
+    effect: |
+      The range is 8 yards.
+  level3:
+    id: 495
+    name: "Four Targets"
+    effect: |
+      Heal up to four targets at once. Each target after the first costs an additional 4 KP (or 1 KP per restored LP, whichever is higher).
+  src:
+    - id: US25005E
+      firstPage: 165
+
+- target: LITURGY_14
+  level1:
+    id: 496
+    name: "Divide Damage 1"
+    effect: |
+       Choose two targets within range. Divide the damage among the targets however you like.
+  level2:
+    id: 497
+    name: "Divide Damage 2"
+    effect: |
+      Choose three targets within range. Divide the damage among the targets however you like. Prerequisite: *Divide Damage I*.
+  level3:
+    id: 498
+    name: "Two Targets"
+    effect: |
+      Cast *Minor Undead Ban* on two targets at the same time. The liturgical chant’s KP costs double.
+  src:
+    - id: US25005E
+      firstPage: 166
+
+- target: LITURGY_15
+  level1:
+    id: 499
+    name: "Divide Damage 1"
+    effect: |
+       Choose two targets within range. Divide the damage among the targets however you like.
+  level2:
+    id: 500
+    name: "Divide Damage 2"
+    effect: |
+      Choose three targets within range. Divide the damage among the targets however you like. Prerequisite: *Divide Damage I*.
+  level3:
+    id: 501
+    name: "Two Targets"
+    effect: |
+      Cast *Minor Banishing Ray* on two targets at the same time. The liturgical chant’s KP costs double.
+  src:
+    - id: US25005E
+      firstPage: 166
+
+- target: LITURGY_16
+  level1:
+    id: 502
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 503
+    name: "Flawless Healer"
+    effect: |
+      Increase the QL on a successful check by 1 (maximum of QL 6) for every additional 4 KP you spend.
+  level3:
+    id: 504
+    name: "Four Targets"
+    effect: |
+      Heal up to four targets at the same time. Each target after the first costs an additional 2 KP per disease level.
+  src:
+    - id: US25005E
+      firstPage: 164
+
+- target: LITURGY_17
+  level1:
+    id: 505
+    name: "Hide"
+    effect: |
+      *Stealth (Hide)* checks also receive a bonus equal to the QL.
+  level2:
+    id: 506
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level3:
+    id: 507
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 168
+
+- target: LITURGY_18
+  level1:
+    id: 508
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level2:
+    id: 509
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level3:
+    id: 510
+    name: "Protect Companions"
+    effect: |
+      Protect any number of targets. You must pay the full 8 KP + 4 KP per 10 minutes for each target. Each target receives a bonus of QL/2 to SPI and TOU versus magical effects. Prerequisite: *Range Touch*.
+  src:
+    - id: US25005E
+      firstPage: 167
+
+- target: LITURGY_19
+  level1:
+    id: 511
+    name: "Two Items"
+    effect: |
+      Cast the liturgical chant on two items at the same time.
+  level2:
+    id: 512
+    name: "Cone Sight"
+    effect: |
+      For 1 CR, the liturgical chant works within your character’s line of sight and affects all objects and creatures up to 8 yards away. Your character’s field of vision cannot change; you may look in only one direction. As you cannot focus on anything specific, halve the QL before consulting the table. This type of karmic perception is *unfocused*.
+  level3:
+    id: 513
+    name: "All-Around Vision"
+    effect: |
+       For 1 CR, your character receives all-around vision with a range of 8 yards. They may turn in place but may not otherwise move. A successful check automatically generates only 1 QL; however, your character may look at all items within the visual range. This type of karmic perception is *unfocused*.
+  src:
+    - id: US25005E
+      firstPage: 167
+
+- target: LITURGY_20
+  level1:
+    id: 514
+    name: "Longer Interval"
+    effect: |
+      The interval for the sustained cost is 1 hour (instead of 10 minutes).
+  level2:
+    id: 515
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level3:
+    id: 516
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 166
+
+- target: LITURGY_21
+  level1:
+    id: 517
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL x 5 minutes.
+  level2:
+    id: 518
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL x 10 minutes. Prerequisite: *Longer Duration I*.
+  level3:
+    id: 519
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 166
+
+- target: LITURGY_22
+  level1:
+    id: 520
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL x 5 hours
+  level2:
+    id: 521
+    name: "Strong Object Blessing"
+    effect: |
+      The blessed items are especially strong against demons. They deal an additional +1 sDP to any demon touching them at the end of the CR (see **Core Rules** page **316**). This only affects demons touching the item.
+  level3:
+    id: 522
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL x 10 hours. Prerequisite: *Longer Duration I*.
+  src:
+    - id: US25005E
+      firstPage: 164
+
+- target: LITURGY_23
+  level1:
+    id: 523
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 hours
+  level2:
+    id: 524
+    name: "Stronger Silence I"
+    effect: |
+      Dampen loud sounds (this does not include spells, liturgical chants, or shouts and screams). *Perception* checks to hear loud sounds suffer a penalty of QL/2. *Perception* checks to hear normal spoken words suffer a penalty of QL. Softer sounds are unintelligible by hearing. Your character may still hear.
+  level3:
+    id: 525
+    name: "Stronger Silence II"
+    effect: |
+      Dampen very loud sounds (this does not include spells and liturgical chants). *Perception* checks to hear very loud sounds (like shouts, screams) suffer a penalty of QL/2. *Perception* checks to hear loud sounds suffer a penalty of QL. Softer sounds (like normal speech) are unintelligible by hearing. Your character may still hear. Prerequisite: *Stronger Silence I*.
+  src:
+    - id: US25005E
+      firstPage: 167
+
+- target: LITURGY_24
+  level1:
+    id: 526
+    name: "Quick Growth"
+    effect: |
+      For each QL, the plant grows 50% faster than normal.
+  level2:
+    id: 527
+    name: "Garden Bed"
+    effect: |
+      Spend 16 KP to fill a small garden bed, large enough for about 12 plants.
+  level3:
+    id: 528
+    name: "Field"
+    effect: |
+      Spend 32 KP to fill a field, large enough for 12x12 plants (144). Prerequisite: *Garden Bed*.
+  src:
+    - id: US25005E
+      firstPage: 167
+
+- target: LITURGY_25
+  level1:
+    id: 529
+    name: "More Ravens"
+    effect: |
+      The birds may transport up to QL small items for your character.
+  level2:
+    id: 530
+    name: "Wider Radius"
+    effect: |
+      The radius is QL x 5 miles.
+  level3:
+    id: 531
+    name: "Greater Transport Range"
+    effect: |
+      The birds can transport items up to QL x 5 miles.
+  src:
+    - id: US25005E
+      firstPage: 167
+
+- target: LITURGY_26
+  level1:
+    id: 532
+    name: "Modify Duration"
+    effect: |
+      You may use modifications on this chant’s duration.
+  level2:
+    id: 533
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 minutes.
+  level3:
+    id: 534
+    name: "Spread Effects"
+    effect: |
+      Spread the chant’s effects among multiple targets. You must specify the targets before your character casts the chant. For instance, if the effect causes 3 levels of *Stupor*, you may give 1 level to each of the three targets or decide to give 2 levels to one target and 1 level to another.
+  src:
+    - id: US25005E
+      firstPage: 168
+
+- target: LITURGY_27
+  level1:
+    id: 535
+    name: "Confusing Venom"
+    effect: |
+      The serpent’s venom causes Confusion instead of *Pain*. It’s AT increases to 14, but its venom level decreases to 4.
+  level2:
+    id: 536
+    name: "Stout Serpent"
+    effect: |
+      The serpent has 20 LP (instead of 12).
+  level3:
+    id: 537
+    name: "Quick Serpent"
+    effect: |
+      The serpent has INI 15+1D6 and DE 5 (instead of INI 12+1D6 and DE 3).
+  src:
+    - id: US25005E
+      firstPage: 168
+
+- target: LITURGY_28
+  level1:
+    id: 538
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 10 minutes.
+  level2:
+    id: 539
+    name: "More Serpents"
+    effect: |
+      Speak with all serpents within visual and hearing range, instead of a single serpent within range.
+  level3:
+    id: 540
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 168
+
+- target: LITURGY_29
+  level1:
+    id: 541
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level2:
+    id: 542
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 CR.
+  level3:
+    id: 543
+    name: "Pain Immunity"
+    effect: |
+      Ignore the effects of the condition *Pain* at level IV.
+  src:
+    - id: US25005E
+      firstPage: 166
+
+- target: LITURGY_30
+  level1:
+    id: 544
+    name: "Four Targets"
+    effect: |
+      Protect up to four targets at the same time. Each target after the first costs an additional 4 KP.
+  level2:
+    id: 545
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  level3:
+    id: 546
+    name: "Target Category Creatures"
+    effect: |
+      The liturgical chant may target Creatures. Prerequisite: *Target Category Living Creatures*.
+  src:
+    - id: US25005E
+      firstPage: 167
+
+- target: LITURGY_31
+  level1:
+    id: 547
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL hours.
+  level2:
+    id: 548
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL days.
+  level3:
+    id: 549
+    name: "Better Prices"
+    effect: |
+      Sell the item for a price that is (QL x 20) % higher
+  src:
+    - id: US25005E
+      firstPage: 168
+
+- target: LITURGY_32
+  level1:
+    id: 550
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 minutes.
+  level2:
+    id: 551
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level3:
+    id: 552
+    name: "Other Questioners"
+    effect: |
+      Choose an Intelligent Creature whose questions the target must also answer truthfully.
+  src:
+    - id: US25005E
+      firstPage: 168
+
+- target: LITURGY_33
+  level1:
+    id: 553
+    name: "Quick Effect"
+    effect: |
+      The liturgical time is 1 action; the duration decreases to QL x 3 CR.
+  level2:
+    id: 554
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 minutes.
+  level3:
+    id: 555
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 167
+
+- target: LITURGY_34
+  level1:
+    id: 556
+    name: "Sign Language"
+    effect: |
+      The liturgical chant also applies to sign language.
+  level2:
+    id: 557
+    name: "Flawless Translator"
+    effect: |
+      Increase your QL on a successful check by 1 (maximum of QL 6) for every 4 additional KP you spend.
+  level3:
+    id: 558
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 168
+
+- target: LITURGY_35
+  level1:
+    id: 559
+    name: "Larger Field"
+    effect: |
+      The ceremony affects an area of up to QL x 2,000 square yards (about 0.5 acres).
+  level2:
+    id: 560
+    name: "Even Larger Field"
+    effect: |
+      The ceremony affects an area of up to QL x 5,000 square yards (about 1.2 acres). Prerequisite: *Larger Field*.
+  level3:
+    id: 561
+    name: "Additional Growth Cycles"
+    effect: |
+      For every additional 8 KP you spend, the ceremony remains in effect for 1 additional growth cycle.
+  src:
+    - id: US25005E
+      firstPage: 169
+
+- target: LITURGY_36
+  level1:
+    id: 562
+    name: "Specialized Exorcism"
+    effect: |
+      Choose an underling of the opposing deity when activating this liturgical enhancement (for example, zantim for Blessed Ones of Rondra who oppose Belhahar, or gotongi for Blessed Ones of Praios who oppose Blakharaz). The chosen creatures have 1 less SPI against the *Exorcism*.
+  level2:
+    id: 563
+    name: "Ghost Exorcism"
+    effect: |
+      Ghosts have 1 less SPI against the *Exorcism*.
+  level3:
+    id: 564
+    name: "Demon Exorcism"
+    effect: |
+      Demons with up to 5 horns have 1 less SPI against the *Exorcism*. Prerequisite: *Specialized Exorcism*.
+  src:
+    - id: US25005E
+      firstPage: 169
+
+- target: LITURGY_37
+  level1:
+    id: 565
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 30 minutes.
+  level2:
+    id: 566
+    name: "Strong Blessing"
+    effect: |
+      Demons suffer 1D3+1 sDP when they touch the armor.
+  level3:
+    id: 567
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this ceremony to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 169
+
+- target: LITURGY_38
+  level1:
+    id: 568
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 569
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 570
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 169
+
+- target: LITURGY_39
+  level1:
+    id: 571
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 30 minutes.
+  level2:
+    id: 572
+    name: "Transformed Clothes"
+    effect: |
+      Your character’s clothes also turn to fog.
+  level3:
+    id: 573
+    name: "Strong Fog"
+    effect: |
+       Your character must only make the *Willpower* check if there is a strong headwind; MOV is 8 as fog.
+  src:
+    - id: US25005E
+      firstPage: 169
+
+- target: LITURGY_40
+  level1:
+    id: 574
+    name: "Weak Blessing"
+    effect: |
+      The item is sanctified for only QL days, not permanently. Thus, there are no permanent KP costs. The ceremonial time is only 30 minutes.
+  level2:
+    id: 575
+    name: "Additional Weight"
+    effect: |
+      The item may weigh up to (4+QL) x 6 pounds.
+  level3:
+    id: 576
+    name: "More Targets"
+    effect: |
+      Sanctify any number of targets. Each target after the first costs an additional 8 KP plus 2 permanent KP.
+  src:
+    - id: US25005E
+      firstPage: 169
+
+- target: LITURGY_41
+  level1:
+    id: 1
+    name: "Increase Range"
+    effect: |
+      The range is 16 yards.
+  level2:
+    id: 2
+    name: "Longer Duration"
+    effect: |
+      The duration is 10 CR.
+  level3:
+    id: 3
+    name: "More Targets"
+    effect: |
+      You may choose up to QL targets.
+  src:
+    - id: US25005E
+      firstPage: 111
+
+- target: LITURGY_42
+  level1:
+    id: 4
+    name: "Hard Wave"
+    effect: |
+      The penalty to the *Body Control* check is QL
+  level2:
+    id: 5
+    name: "Thundering Wave"
+    effect: |
+      The wave also does 1D3+1 sDP.
+  level3:
+    id: 6
+    name: "More Targets"
+    effect: |
+      You may choose up to 12 targets.
+  src:
+    - id: US25005E
+      firstPage: 112
+
+- target: LITURGY_43
+  level1:
+    id: 7
+    name: "Specific Creatures"
+    effect: |
+      Choose a certain type of living creature (e.g., dogs, humans, horses) and use the liturgical chant to search for them.
+  level2:
+    id: 8
+    name: "Through Fire and Ore"
+    effect: |
+      The liturgical chant works through Fire and Ore with a maximum thickness of 3 feet.
+  level3:
+    id: 9
+    name: "Clear Sight"
+    effect: |
+      Visibility modifiers from falling snow, rain, or fog are reduced by 1.
+  src:
+    - id: US25005E
+      firstPage: 126
+
+- target: LITURGY_44
+  level1:
+    id: 10
+    name: "Modify Liturgical Time"
+    effect: |
+      You may use modifications on this chant’s liturgical time.
+  level2:
+    id: 11
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level3:
+    id: 12
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 30 minutes.
+  src:
+    - id: US25005E
+      firstPage: 112
+
+- target: LITURGY_45
+  level1:
+    id: 13
+    name: "Divide Damage 1"
+    effect: |
+       Choose two targets within range. Divide the damage among the targets however you like.
+  level2:
+    id: 14
+    name: "Divide Damage 2"
+    effect: |
+      Choose three targets within range. Divide the damage between the targets however you like. Prerequisite: *Divide Damage I*.
+  level3:
+    id: 15
+    name: "Two Targets"
+    effect: |
+      Cast *Undead Ban* on two targets at the same time. The liturgical chant’s KP costs double.
+  src:
+    - id: US25005E
+      firstPage: 138
+
+- target: LITURGY_46
+  level1:
+    id: 16
+    name: "Divide Damage 1"
+    effect: |
+       Choose two targets within range. Divide the damage among the targets however you like.
+  level2:
+    id: 17
+    name: "Divide Damage 2"
+    effect: |
+      Choose three targets within range. Divide the damage between the targets however you like. Prerequisite: *Divide Damage I*.
+  level3:
+    id: 18
+    name: "Two Targets"
+    effect: |
+      Cast Banishing Ray* on two targets at the same time. The liturgical chant’s KP costs double.
+  src:
+    - id: US25005E
+      firstPage: 112
+
+- target: LITURGY_47
+  level1:
+    id: 19
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 20
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  level3:
+    id: 21
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this chant’s costs.
+  src:
+    - id: US25005E
+      firstPage: 121
+
+- target: LITURGY_48
+  level1:
+    id: 22
+    name: "Longer Duration I"
+    effect: |
+      The duration is 4 hours.
+  level2:
+    id: 23
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level3:
+    id: 24
+    name: "Longer Duration II"
+    effect: |
+      The duration is 8 hours. Prerequisite: *Longer Duration I*.
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- target: LITURGY_49
+  level1:
+    id: 25
+    name: "Increase Range"
+    effect: |
+      The range is 16 yards.
+  level2:
+    id: 26
+    name: "Two Targets"
+    effect: |
+      Cast Calm on two targets at the same time. The liturgical chant’s KP costs double.
+  level3:
+    id: 27
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  src:
+    - id: US25005E
+      firstPage: 118
+
+- target: LITURGY_50
+  level1:
+    id: 28
+    name: "Longer Duration"
+    effect: |
+      The duration is QL days.
+  level2:
+    id: 29
+    name: "Strong Principles I"
+    effect: |
+      The target receives the disadvantage *Principles II (Church of Travia)*.
+  level3:
+    id: 30
+    name: "Strong Principles II"
+    effect: |
+      The target receives the disadvantage *Principles III (Church of Travia)*. Prerequisite: *Strong Principles I*.
+  src:
+    - id: US25005E
+      firstPage: 129
+
+- target: LITURGY_51
+  level1:
+    id: 31
+    name: "More Services"
+    effect: |
+      Your character may ask the creature for QL +2 services.
+  level2:
+    id: 32
+    name: "Longer Service"
+    effect: |
+      The creature automatically loses a service at the end of one week (instead of one day).
+  level3:
+    id: 33
+    name: "Powerful Creature"
+    effect: |
+      The creature may have the same improvement twice.
+  src:
+    - id: US25005E
+      firstPage: 137
+
+- target: LITURGY_52
+  level1:
+    id: 34
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 30 minutes.
+  level2:
+    id: 35
+    name: "Increase Range"
+    effect: |
+      The range is 8 yards.
+  level3:
+    id: 36
+    name: "Modify Duration"
+    effect: |
+      You may use modifications on this chant’s duration.
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- target: LITURGY_53
+  level1:
+    id: 37
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  level2:
+    id: 38
+    name: "Sustained"
+    effect: |
+      The liturgical chant may be sustained; the costs are 4 KP to activate and 2 KP per minute.
+  level3:
+    id: 39
+    name: "Precise Insight"
+    effect: |
+      Receive more precise insight about the targets’ ailment, such as the number of LP remaining, the level of the poison or disease, and so on.
+  src:
+    - id: US25005E
+      firstPage: 124
+
+- target: LITURGY_54
+  level1:
+    id: 40
+    name: "Confusing Lightning"
+    effect: |
+      The target also suffers 1 level of *Confusion*.
+  level2:
+    id: 41
+    name: "Stunning Lightning"
+    effect: |
+      The target also suffers 1 level of *Stupor*.
+  level3:
+    id: 42
+    name: "Burning Lightning"
+    effect: |
+      The target also suffers the state of *Burning* over a large area.
+  src:
+    - id: US25005E
+      firstPage: 126
+
+- target: LITURGY_55
+  level1:
+    id: 43
+    name: "Choose Targets"
+    effect: |
+      Decide who the targets attack and who they ignore.
+  level2:
+    id: 44
+    name: "Wild Raging"
+    effect: |
+      The target receives +1 AT.
+  level3:
+    id: 45
+    name: "Longer Duration"
+    effect: |
+      The duration is 2 CR.
+  src:
+    - id: US25005E
+      firstPage: 114
+
+- target: LITURGY_56
+  level1:
+    id: 46
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 3 CR.
+  level2:
+    id: 47
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this chant’s costs.
+  level3:
+    id: 48
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 113
+
+- target: LITURGY_57
+  level1:
+    id: 49
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL x 30 minutes.
+  level2:
+    id: 50
+    name: "Wider Radius"
+    effect: |
+      The zone has an 8-yard radius.
+  level3:
+    id: 51
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL hours. Prerequisite: *Longer Duration I*.
+  src:
+    - id: US25005E
+      firstPage: 134
+
+- target: LITURGY_58
+  level1:
+    id: 52
+    name: "Protective Skin"
+    effect: |
+      The shield strength is KP + (QL x 4), but it only protects your character, not others inside the dome.
+  level2:
+    id: 53
+    name: "Wider Radius"
+    effect: |
+      The dome has a 5-yard radius. This costs an additional 4 KP and does not raise the shield strength.
+  level3:
+    id: 54
+    name: "Range Touch"
+    effect: |
+      The range is touch. The shield strength is only (QL x 2). You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- target: LITURGY_59
+  level1:
+    id: 55
+    name: "Increase Range"
+    effect: |
+      The range is 32 yards.
+  level2:
+    id: 56
+    name: "Two Dolphins"
+    effect: |
+      Two dolphins appear and may save two people.
+  level3:
+    id: 57
+    name: "Four Dolphins"
+    effect: |
+      Four dolphins appear and may save four people. Prerequisite: *Two Dolphins*.
+  src:
+    - id: US25005E
+      firstPage: 120
+
+- target: LITURGY_60
+  level1:
+    id: 58
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 10 minutes.
+  level2:
+    id: 59
+    name: "Reduce Resistance"
+    effect: |
+      The victim may only make the *Willpower* check every 10 minutes.
+  level3:
+    id: 60
+    name: "Long and Strong Slavery"
+    effect: |
+      The duration is QL hours, and the victim may only make one *Willpower* check every hour. Prerequisites: *Longer Duration* and *Reduce Resistance*.
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- target: LITURGY_61
+  level1:
+    id: 61
+    name: "Longer Duration"
+    effect: |
+      The duration is 1 day.
+  level2:
+    id: 62
+    name: "Good Trade"
+    effect: |
+      The bonus also applies to *Commerce* checks concerning contract negotiations.
+  level3:
+    id: 63
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 126
+
+- target: LITURGY_62
+  level1:
+    id: 64
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  level2:
+    id: 65
+    name: "Modify Cost"
+    effect: |
+       You may use a modification on this chant’s costs.
+  level3:
+    id: 66
+    name: "Banish Petrification"
+    effect: |
+      Additionally, banish the state petrified (see **Gods of Aventuria** page **236**).
+  src:
+    - id: US25005E
+      firstPage: 138
+
+- target: LITURGY_63
+  level1:
+    id: 67
+    name: "Longer Duration"
+    effect: |
+      The duration is 10 CR
+  level2:
+    id: 68
+    name: "Increase Range"
+    effect: |
+      The liturgical modification Increase Range (see **Core Rules** *page 310**) suffers no penalty.
+  level3:
+    id: 69
+    name: "Higher Damage"
+    effect: |
+      Structures suffer QL x 10 points of structural damage per CR.
+  src:
+    - id: US25005E
+      firstPage: 120
+
+- target: LITURGY_64
+  level1:
+    id: 70
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level2:
+    id: 71
+    name: "Remove Confusion"
+    effect: |
+      Besides *Stupor*, remove *Confusion* caused by drugs and other intoxicants. The QL/2 levels need to be distributed between the conditions.
+  level3:
+    id: 72
+    name: "Remove Pain"
+    effect: |
+      Besides *Stupor*, remove *Pain* caused by drugs and other intoxicants. The QL/2 levels need to be distributed between the conditions.
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- target: LITURGY_65
+  level1:
+    id: 73
+    name: "Stone and Metal"
+    effect: |
+      Sacrifice items made of both stone and metal (such as jewelry).
+  level2:
+    id: 74
+    name: "Greater Weight"
+    effect: |
+      Sacrifice up to QL x 2 pounds of material.
+  level3:
+    id: 75
+    name: "Recall"
+    effect: |
+      Retrieve the sacrificed material from the rock without damage if Ingerimm agrees. Your character must touch the rock where they gave the offering
+  src:
+    - id: US25005E
+      firstPage: 134
+
+- target: LITURGY_66
+  level1:
+    id: 76
+    name: "Longer Duration"
+    effect: |
+      The duration is 10 minutes.
+  level2:
+    id: 77
+    name: "Wider Radius"
+    effect: |
+      The radius is QL yards.
+  level3:
+    id: 78
+    name: "Intense Flames"
+    effect: |
+      Targets suffer the state burning automatically when trying to pass through the wall. This costs an additional 2 KP.
+  src:
+    - id: US25005E
+      firstPage: 139
+    
+- target: LITURGY_67
+  level1:
+    id: 79
+    name: "Wider Radius"
+    effect: |
+      The radius is 8 yards.
+  level2:
+    id: 80
+    name: "Longer Interval"
+    effect: |
+      The interval for the sustained cost is 4 CR (instead of 2 CR).
+  level3:
+    id: 81
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- target: LITURGY_68
+  level1:
+    id: 82
+    name: "Spread Effects"
+    effect: |
+      Spread the chant’s effects among multiple targets. You must specify the targets before you cast the liturgical chant. For instance, if the effect causes 3 levels of *Stupor*, you may give 1 level to each of 3 targets or decide to give 2 levels to 1 target and 1 level to another.
+  level2:
+    id: 83
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  level3:
+    id: 84
+    name: "Longer Duration"
+    effect: |
+      The duration is 10 CR.
+  src:
+    - id: US25005E
+      firstPage: 131
+
+- target: LITURGY_69
+  level1:
+    id: 85
+    name: "Wider Radius"
+    effect: |
+      The radius is 20 yards.
+  level2:
+    id: 86
+    name: "Extreme Cold"
+    effect: |
+      The temperature lowers by (QL/2) +1 levels.
+  level3:
+    id: 87
+    name: "Increase Range"
+    effect: |
+      Create a stationary zone of cold within a 32-yard range that remains in place until the end of the duration.
+  src:
+    - id: US25005E
+      firstPage: 122
+
+- target: LITURGY_70
+  level1:
+    id: 88
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level2:
+    id: 89
+    name: "Increase Range"
+    effect: |
+      The range is 16 yards. You may choose the radius’ center within this range.
+  level3:
+    id: 90
+    name: "Greater Fires"
+    effect: |
+      Control fires as large as an average two-story house. Extinguishing large fires might take between 2 and 20 CR; the GM has the final say.
+  src:
+    - id: US25005E
+      firstPage: 129
+
+- target: LITURGY_71
+  level1:
+    id: 91
+    name: "Wider Radius"
+    effect: |
+      The radius is QL x 5 yards.
+  level2:
+    id: 92
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level3:
+    id: 93
+    name: "You See Dead People, Too!"
+    effect: |
+      While your character is touching another Intelligent Creature, that creature also sees any ghosts present.
+  src:
+    - id: US25005E
+      firstPage: 122
+
+- target: LITURGY_72
+  level1:
+    id: 94
+    name: "Greater Amount I"
+    effect: |
+      The negative traits of QL base units do not apply.
+  level2:
+    id: 95
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 2 hours.
+  level3:
+    id: 96
+    name: "Greater Amount II"
+    effect: |
+      The negative traits of QL x 2 base units do not apply. Prerequisite: *Greater Amount I*.
+  src:
+    - id: US25005E
+      firstPage: 113
+
+- target: LITURGY_73
+  level1:
+    id: 97
+    name: "Resistant to Vermin"
+    effect: |
+      The planted grain is also resistant to vermin.
+  level2:
+    id: 98
+    name: "Grow on Barren Ground"
+    effect: |
+      The grain grows, even if it is planted on barren ground.
+  level3:
+    id: 99
+    name: "Great Harvest"
+    effect: |
+      The harvest increases by (QL x 10) %.
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- target: LITURGY_74
+  level1:
+    id: 100
+    name: "Greater Value I"
+    effect: |
+      The transformed item is worth 100 ducats.
+  level2:
+    id: 101
+    name: "Greater Value II"
+    effect: |
+      The transformed item is worth 250 ducats. Prerequisite: *Greater Value I*.
+  level3:
+    id: 102
+    name: "Greater Value III"
+    effect: |
+      The transformed item is worth 1000 ducats. Prerequisite: *Greater Value II*.
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- target: LITURGY_75
+  level1:
+    id: 103
+    name: "Modify Liturgical Time"
+    effect: |
+      You may use modifications on this chant’s liturgical Time.
+  level2:
+    id: 104
+    name: "Hard Shell"
+    effect: |
+      The maximum is PRO 4. This costs 32 KP (costs cannot be modified; cannot be combined with *Modify Liturgical Time*).
+  level3:
+    id: 105
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- target: LITURGY_76
+  level1:
+    id: 106
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 CR.
+  level2:
+    id: 107
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level3:
+    id: 108
+    name: "More Targets"
+    effect: |
+      You may sanctify any number of weapons. Any weapon after the first costs an additional 8 KP.
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- target: LITURGY_77
+  level1:
+    id: 109
+    name: "Home Temple"
+    effect: |
+      Your character’s message is sent to the leader of their home temple (or their deputy, if they are absent). The range is infinite while they are on the same continent.
+  level2:
+    id: 110
+    name: "Increase Range"
+    effect: |
+      The range is QL x 10 miles.
+  level3:
+    id: 111
+    name: "Personal Acquaintance"
+    effect: |
+      Your character’s message is sent to a Blessed One they know personally, who belongs to the same tradition. The range is infinite while they are on the same continent. Prerequisite: *Home Temple*.
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- target: LITURGY_78
+  level1:
+    id: 112
+    name: "Increase Range"
+    effect: |
+      The range is 8 yards.
+  level2:
+    id: 113
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 3 minutes.
+  level3:
+    id: 114
+    name: "More Targets"
+    effect: |
+      Your character may command any number of targets. Each target after the first costs an additional 8 KP.
+  src:
+    - id: US25005E
+      firstPage: 125
+
+- target: LITURGY_79
+  level1:
+    id: 115
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 116
+    name: "Longer Duration I"
+    effect: |
+      The duration of effect is QL hours.
+  level3:
+    id: 117
+    name: "Longer Duration II"
+    effect: |
+      The duration of effect is QL x 2 hours. Prerequisite: *Longer Duration I*.
+  src:
+    - id: US25005E
+      firstPage: 125
+
+- target: LITURGY_80
+  level1:
+    id: 118
+    name: "Powerful Healing Well"
+    effect: |
+      The first person to drink from the well receives QL+3 LP.
+  level2:
+    id: 119
+    name: "Refreshing Healing Well"
+    effect: |
+       For every 3 LP the person recovers, they also heal one level of Stupor.
+  level3:
+    id: 120
+    name: "Two Drinkers"
+    effect: |
+      Two people may drink from the well.
+  src:
+    - id: US25005E
+      firstPage: 124
+
+- target: LITURGY_81
+  level1:
+    id: 121
+    name: "Longer Duration"
+    effect: |
+       The duration is 10 CR.
+  level2:
+    id: 122
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level3:
+    id: 123
+    name: "More Targets"
+    effect: |
+      Bless any number of targets. Each target after the first costs an additional 8 KP. Prerequisite: *Range Touch*.
+  src:
+    - id: US25005E
+      firstPage: 125
+
+- target: LITURGY_82
+  level1:
+    id: 124
+    name: "Together, We Are Strong"
+    effect: |
+      The bonus also applies to comparative group checks.
+  level2:
+    id: 125
+    name: "Many Strong Hands I"
+    effect: |
+      The bonus is equal to QL. Divide it amongst no more than 6 people (maximum bonus of 2 per person).
+  level3:
+    id: 126
+    name: "Many Strong Hands II"
+    effect: |
+      The bonus is equal to QL. Divide it amongst no more than 6 people (maximum bonus of 3 per person). Prerequisite: *Many Strong Hands I*.
+  src:
+    - id: US25005E
+      firstPage: 124
+
+- target: LITURGY_83
+  level1:
+    id: 127
+    name: "Aggression"
+    effect: |
+      The rats receive +1 AT.
+  level2:
+    id: 128
+    name: "Rat Infestation"
+    effect: |
+      For every 10 rats that attack the same target, the target suffers a penalty of -1 to all Physical skills, AT, defense, and RC when the rats are close enough to attack.
+  level3:
+    id: 129
+    name: "Flood of Rats"
+    effect: |
+      When at least 10 rats are close enough to attack, and a hero takes an action to move, the hero must make a *Body Control (Combat Maneuvers)* check to avoid suffering the state prone. The check suffers a penalty equal to the (number of rats)/20 (-1 for 10-19, -2 for 20-29 rats, and so on). Prerequisite: *Rat Infestation*.
+  src:
+    - id: US25005E
+      firstPage: 115
+
+- target: LITURGY_84
+  level1:
+    id: 130
+    name: "Aggression"
+    effect: |
+      The jackals receive +1 AT.
+  level2:
+    id: 131
+    name: "Pack"
+    effect: |
+      Jackals that attack opponents together receive +1 AT per jackal that outnumbers the opponents (to a maximum of +4 AT).
+  level3:
+    id: 132
+    name: "Frenzy"
+    effect: |
+      Jackals suffer the state *Frenzied* (see **Gods of Aventuria** page **235**) when wounded. After losing 5 LP, they receive the following modifiers: +2 DP, and immune to *Pain*. The *Frenzied* state remains in effect until the jackals’ opponents are killed, or for 30 minutes, whichever comes first.
+  src:
+    - id: US25005E
+      firstPage: 115
+
+- target: LITURGY_85
+  level1:
+    id: 133
+    name: "Aggression"
+    effect: |
+      The vampire bats receive +1 AT.
+  level2:
+    id: 134
+    name: "Bat Swarm"
+    effect: |
+      For every 10 vampire bats that surround a target, visibility penalties to see the target increase by 1 level (to a maximum of level 4).
+  level3:
+    id: 135
+    name: "Loyal Unto Death"
+    effect: |
+      The vampire bats throw themselves into the path of enemy attacks aimed at your character. A successful ranged attack hits the vampire bats first. If a vampire bat’s LP drop to 0, another takes its place, and so on—until all sDP are dealt, or no more bats remain. Prerequisite: *Bat Swarm*.
+  src:
+    - id: US25005E
+      firstPage: 117
+
+- target: LITURGY_86
+  level1:
+    id: 136
+    name: "Aggression"
+    effect: |
+      The spiders receive +1 AT.
+  level2:
+    id: 137
+    name: "Strong Poison"
+    effect: |
+      The wolf spider’s poison is level 6 instead of level 4.
+  level3:
+    id: 138
+    name: "Arachnophobia"
+    effect: |
+      For every 10 spiders within sight, all Intelligent Creatures except your character receive one level of the disadvantage Afraid of Spiders (see **Core Rules** page **170**).
+  src:
+    - id: US25005E
+      firstPage: 117
+
+- target: LITURGY_87
+  level1:
+    id: 139
+    name: "Also Protects Equipment"
+    effect: |
+      Clothes and equipment worn on your character’s body are also protected.
+  level2:
+    id: 140
+    name: "Less Fire Damage"
+    effect: |
+      DP from Fire are halved (round up) before subtracting PRO.
+  level3:
+    id: 141
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 127
+
+- target: LITURGY_88
+  level1:
+    id: 142
+    name: "Longer Duration"
+    effect: |
+      The duration is QL days.
+  level2:
+    id: 143
+    name: "Strong Principles I"
+    effect: |
+      The target receives the disadvantage *Principles II (Church of Ifirn)*.
+  level3:
+    id: 144
+    name: "Strong Principles II"
+    effect: |
+      The target receives the disadvantage *Principles III (Church of Ifirn)*. Prerequisite: *Strong Principles I*.
+  src:
+    - id: US25005E
+      firstPage: 124
+
+- target: LITURGY_89
+  level1:
+    id: 145
+    name: "Longer Duration"
+    effect: |
+      The duration is 10 minutes.
+  level2:
+    id: 146
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level3:
+    id: 147
+    name: "More Targets"
+    effect: |
+      Strengthen any number of targets at the same time. Each target after the first costs an additional 8 KP. Prerequisite: *Range Touch*.
+  src:
+    - id: US25005E
+      firstPage: 126
+
+- target: LITURGY_90
+  level1:
+    id: 148
+    name: "Especially Clear Mind"
+    effect: |
+      Heal (QL/2)+1 levels of *Confusion*. This costs you an additional 4 KP
+  level2:
+    id: 149
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level3:
+    id: 150
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  src:
+    - id: US25005E
+      firstPage: 118
+
+- target: LITURGY_91
+  level1:
+    id: 151
+    name: "Hard to Dodge"
+    effect: |
+      The target’s Dodge check suffers a penalty of -1.
+  level2:
+    id: 152
+    name: "Increase Damage"
+    effect: |
+      The whirlwind does 1D6+QL DP.
+  level3:
+    id: 153
+    name: "Increase Range"
+    effect: |
+      The range is 32 yards.
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- target: LITURGY_92
+  level1:
+    id: 154
+    name: "Target Category Living Creatures"
+    effect: |
+      The liturgical chant can target Living Creatures.
+  level2:
+    id: 155
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level3:
+    id: 156
+    name: "Curative Salvation"
+    effect: |
+      The target wakes up with 1D6+4 LP, instead of 1 LP.
+  src:
+    - id: US25005E
+      firstPage: 133
+
+- target: LITURGY_93
+  level1:
+    id: 157
+    name: "Stronger Shield"
+    effect: |
+      The shield’s strength is increased by QL.
+  level2:
+    id: 158
+    name: "Wider Radius"
+    effect: |
+      The dome has a 5-yard radius. This costs an additional 4 KP and does not raise the shield strength.
+  level3:
+    id: 159
+    name: "Range Touch"
+    effect: |
+      The range is touch. The shield’s strength is only KP+(QLx2). You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 127
+
+- target: LITURGY_94
+  level1:
+    id: 160
+    name: "Three Attacks"
+    effect: |
+      Stack up to three attacks. The costs increase to 12 KP.
+  level2:
+    id: 161
+    name: "Six Attacks"
+    effect: |
+      Stack up to six attacks. The costs increase to 16 KP. Prerequisite: *Three Attacks*.
+  level3:
+    id: 162
+    name: "Nine Attacks"
+    effect: |
+      Stack up to nine attacks. The costs increase to 20 KP. Prerequisite: *Six Attacks*.
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- target: LITURGY_95
+  level1:
+    id: 163
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 164
+    name: "Modify Liturgical Time"
+    effect: |
+      You may use modifications on this chant’s Liturgical Time.
+  level3:
+    id: 165
+    name: "Other Effects"
+    effect: |
+      The chant affects other magical effects, such as magical actions.
+  src:
+    - id: US25005E
+      firstPage: 128
+
+- target: LITURGY_96
+  level1:
+    id: 166
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level2:
+    id: 167
+    name: "Target Category Creatures"
+    effect: |
+      The liturgical chant range is touch and can target Creatures.
+  level3:
+    id: 168
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this chant’s costs.
+  src:
+    - id: US25005E
+      firstPage: 128
+
+- target: LITURGY_97
+  level1:
+    id: 169
+    name: "Longer Duration"
+    effect: |
+      The duration is 2 hours.
+  level2:
+    id: 170
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level3:
+    id: 171
+    name: "Sustained"
+    effect: |
+      The liturgical chant may be sustained; the costs are 4 KP to activate and 2 KP per hour.
+  src:
+    - id: US25005E
+      firstPage: 129
+
+- target: LITURGY_98
+  level1:
+    id: 172
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 173
+    name: "Senseless and Confused"
+    effect: |
+      The target also suffers 1 level of *Confusion*.
+  level3:
+    id: 174
+    name: "Longer Duration"
+    effect: |
+      The duration is 8 hours.
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- target: LITURGY_99
+  level1:
+    id: 175
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 176
+    name: "Longer Duration"
+    effect: |
+      The duration is 8 hours.
+  level3:
+    id: 177
+    name: "More Targets"
+    effect: |
+      Motivate any number of targets. Each target after the first costs an additional 2 KP.
+  src:
+    - id: US25005E
+      firstPage: 129
+
+- target: LITURGY_100
+  level1:
+    id: 178
+    name: "Longer Duration"
+    effect: |
+      The duration is 2 hours
+  level2:
+    id: 179
+    name: "Feels No Cold"
+    effect: |
+      The cold does not affect the character who summons it.
+  level3:
+    id: 180
+    name: "Stationary Cold"
+    effect: |
+      Create a stationary zone of cold within a 16-yard range that remains in place until the end of the duration.
+  src:
+    - id: US25005E
+      firstPage: 130
+
+- target: LITURGY_101
+  level1:
+    id: 181
+    name: "Violent Berserker I"
+    effect: |
+      The target receives an additional +1 AT and DP.
+  level2:
+    id: 182
+    name: "Four Targets"
+    effect: |
+      Use this chant on up to 4 targets at once. Each target after the first costs an additional 8 KP.
+  level3:
+    id: 183
+    name: "Violent Berserker II"
+    effect: |
+      The target receives an additional +1 to AT and DP (with *Violent Berserker I* for a total of +2 AT and DP). Prerequisite: *Violent Berserker I*.
+  src:
+    - id: US25005E
+      firstPage: 130
+
+- target: LITURGY_102
+  level1:
+    id: 184
+    name: "Gullible"
+    effect: |
+      The target’s Willpower SR is reduced by QL against suggestions from the Nameless One.
+  level2:
+    id: 185
+    name: "Four Targets"
+    effect: |
+      Cast this chant on up to four targets at the same time. Each target after the first costs an additional 8 KP.
+  level3:
+    id: 186
+    name: "Longer Duration"
+    effect: |
+      The duration is QL weeks.
+  src:
+    - id: US25005E
+      firstPage: 130
+
+- target: LITURGY_103
+  level1:
+    id: 187
+    name: "Naive"
+    effect: |
+      The target does not recall anything strange or feel as though they were controlled after the chant’s duration ends.
+  level2:
+    id: 188
+    name: "Increase Range"
+    effect: |
+      The range is 8 yards.
+  level3:
+    id: 189
+    name: "Four Targets"
+    effect: |
+      Influence up to four targets at the same time. Each target after the first costs an additional 8 KP.
+  src:
+    - id: US25005E
+      firstPage: 130
+
+- target: LITURGY_104
+  level1:
+    id: 190
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 191
+    name: "Longer Duration"
+    effect: |
+      The duration is 2 hours.
+  level3:
+    id: 192
+    name: "Four Targets"
+    effect: |
+      Influence up to four targets at the same time. Each target after the first costs an additional 4 KP.
+  src:
+    - id: US25005E
+      firstPage: 131
+
+- target: LITURGY_105
+  level1:
+    id: 193
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level2:
+    id: 194
+    name: "Stealthy Mind-Seeker"
+    effect: |
+      The target receives a QL x 2 penalty to the Perception check to notice the mental intrusion.
+  level3:
+    id: 195
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  src:
+    - id: US25005E
+      firstPage: 131
+
+- target: LITURGY_106
+  level1:
+    id: 196
+    name: "Defensive Wall"
+    effect: |
+      Receive +1 to defense.
+  level2:
+    id: 197
+    name: "Tough"
+    effect: |
+      Continue to fight until your character’s LP total drops below zero by an amount greater than CON x 2 before succumbing to death.
+  level3:
+    id: 198
+    name: "Good Fight"
+    effect: |
+      You cannot botch during combat. Any botches you roll are treated as normal failed rolls.
+  src:
+    - id: US25005E
+      firstPage: 137
+
+- target: LITURGY_107
+  level1:
+    id: 199
+    name: "Intense Jet"
+    effect: |
+      The target automatically receives 1 level of *Fear* when hit; no dice roll is necessary. This costs an additional 2 KP.
+  level2:
+    id: 200
+    name: "Winding Jet"
+    effect: |
+      It is harder for the target to dodge the jet of flames — their dodge roll suffers a penalty of -2. This costs an additional 2 KP.
+  level3:
+    id: 201
+    name: "Two Targets"
+    effect: |
+      Cast *Fire and Brimstone* on two targets at the same time. The liturgical chant’s KP costs double.
+  src:
+    - id: US25005E
+      firstPage: 121
+
+- target: LITURGY_108
+  level1:
+    id: 202
+    name: "Modify Cost"
+    effect: |
+      The Blessed One may use a modification on this chant’s costs
+  level2:
+    id: 203
+    name: "More Rats"
+    effect: |
+      The number of rats increases by 10.
+  level3:
+    id: 204
+    name: "One Last Rat"
+    effect: |
+      As long as a single rat survives, the Blessed One’s body can re-form.
+  src:
+    - id: US25005E
+      firstPage: 133
+
+- target: LITURGY_109
+  level1:
+    id: 205
+    name: "Determine Distance"
+    effect: |
+      Determine the exact distance to your character’s home temple.
+  level2:
+    id: 206
+    name: "Temple of the Tradition"
+    effect: |
+      Find any temple of your tradition, even if your character was never there. However, you cannot find hidden or secret temples.
+  level3:
+    id: 207
+    name: "Determine Path"
+    effect: |
+      Determine whether your character can reach their home temple. Your character knows which detours to take if the path is barred (and automatically walks toward a bridge if a river crosses the path).
+  src:
+    - id: US25005E
+      firstPage: 112
+
+- target: LITURGY_110
+  level1:
+    id: 208
+    name: "Increase Range"
+    effect: |
+      The range is 8 yards.
+  level2:
+    id: 209
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 2 days.
+  level3:
+    id: 210
+    name: "More Targets"
+    effect: |
+      You may curse any number of targets at the same time. Each target after the first costs an additional 16 KP.
+  src:
+    - id: US25005E
+      firstPage: 118
+
+- target: LITURGY_111
+  level1:
+    id: 211
+    name: "Versus Daimonids"
+    effect: |
+      Choose daimonids of any kind as a creature type affected by the chant.
+  level2:
+    id: 212
+    name: "Modify Liturgical Time"
+    effect: |
+      You may use modifications on this chant’s liturgical time.
+  level3:
+    id: 213
+    name: "Longer Interval"
+    effect: |
+      The interval for the sustained cost is 10 CR (instead of 5 CR)
+  src:
+    - id: US25005E
+      firstPage: 133
+
+- target: LITURGY_112
+  level1:
+    id: 214
+    name: "Strong Magical Drain I"
+    effect: |
+      Arcane spellworks cast within the zone suffer a penalty of -2; spellcasters lose an additional 2 AE per CR.
+  level2:
+    id: 215
+    name: "Strong Magical Drain II"
+    effect: |
+      Arcane spellworks cast within the zone suffer a penalty of -3; spellcasters lose an additional 3 AE per CR. Prerequisite: *Strong Magical Drain I*.
+  level3:
+    id: 216
+    name: "Wider Radius"
+    effect: |
+      The zone’s radius is 16 yards.
+  src:
+    - id: US25005E
+      firstPage: 139
+
+- target: LITURGY_113
+  level1:
+    id: 217
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant has a duration of 13 hours and costs you 16 KP.
+  level2:
+    id: 218
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level3:
+    id: 219
+    name: "Harder to See Through"
+    effect: |
+      Checks to see through your character’s deception suffer a penalty of QL x 2.
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- target: LITURGY_114
+  level1:
+    id: 220
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 10 minutes.
+  level2:
+    id: 221
+    name: "More Birds"
+    effect: |
+      All seabirds within visual and hearing range are affected.
+  level3:
+    id: 222
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 135
+
+- target: LITURGY_115
+  level1:
+    id: 223
+    name: "Stronger Safety"
+    effect: |
+      Receive a bonus of QL/2 + 1 to all affected checks.
+  level2:
+    id: 224
+    name: "Longer Interval I"
+    effect: |
+      The interval for the sustained cost is 1 hour (instead of 30 minutes).
+  level3:
+    id: 225
+    name: "Longer Interval II"
+    effect: |
+      The interval for the sustained cost is 2 hours (instead of 1 hour). Prerequisite: *Longer Interval I*.
+  src:
+    - id: US25005E
+      firstPage: 134
+
+- target: LITURGY_116
+  level1:
+    id: 226
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level2:
+    id: 227
+    name: "Wider Radius"
+    effect: |
+      The radius is QL x  10 yards.
+  level3:
+    id: 228
+    name: "Increase Range"
+    effect: |
+      The range is 64 yards.
+  src:
+    - id: US25005E
+      firstPage: 114
+
+- target: LITURGY_117
+  level1:
+    id: 229
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL x 5 minutes.
+  level2:
+    id: 230
+    name: "Increase Range"
+    effect: |
+      The range is 16 yards.
+  level3:
+    id: 231
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL x 10 minutes. Prerequisite: *Longer Duration I*.
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- target: LITURGY_118
+  level1:
+    id: 232
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this chant’s costs.
+  level2:
+    id: 233
+    name: "More Targets"
+    effect: |
+      Heal any number of targets. Each target after the first costs an additional 4 KP.
+  level3:
+    id: 234
+    name: "Strong Soothing"
+    effect: |
+      Heal QL levels of Pain and Fear instead of QL/2.
+  src:
+    - id: US25005E
+      firstPage: 120
+
+- target: LITURGY_119
+  level1:
+    id: 235
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 3 minutes.
+  level2:
+    id: 236
+    name: "More Animals"
+    effect: |
+      All wild animals within visual and hearing range of your character are affected.
+  level3:
+    id: 237
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 111
+
+- target: LITURGY_120
+  level1:
+    id: 238
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  level2:
+    id: 239
+    name: "Larger Animals"
+    effect: |
+      The animal companion may include size category small.
+  level3:
+    id: 240
+    name: "Longer Duration"
+    effect: |
+      The duration is QL days.
+  src:
+    - id: US25005E
+      firstPage: 121
+
+- target: LITURGY_121
+  level1:
+    id: 241
+    name: "Not Sustained"
+    effect: |
+      The liturgical chant is not considered sustained. You must determine the chant’s duration and corresponding KP costs when casting it.
+  level2:
+    id: 242
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical effect to Intelligent Creatures.
+  level3:
+    id: 243
+    name: "Four Targets"
+    effect: |
+      You may influence up to 4 targets at once. You must pay the KP costs for each target. Prerequisite: *Range Touch*.
+  src:
+    - id: US25005E
+      firstPage: 114
+
+- target: LITURGY_122
+  level1:
+    id: 244
+    name: "Increase Range"
+    effect: |
+      The range is 8 yards.
+  level2:
+    id: 245
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 CR.
+  level3:
+    id: 246
+    name: "Quick Petrification"
+    effect: |
+      The target suffers 2 levels of *Paralysis* per CR, instead of 1.
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- target: LITURGY_123
+  level1:
+    id: 247
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 10 minutes.
+  level2:
+    id: 248
+    name: "Take Another With You"
+    effect: |
+      Another character may walk on water with your character, but they must remain in physical contact for the duration.
+  level3:
+    id: 249
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical effect to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 139
+
+- target: LITURGY_124
+  level1:
+    id: 250
+    name: "Harder to Dodge"
+    effect: |
+      The target’s dodge check suffers an additional penalty of -1 (for a total of -3).
+  level2:
+    id: 251
+    name: "Increase Damage"
+    effect: |
+      The whirlwind does 2D6 + (QL x 2) DP.
+  level3:
+    id: 252
+    name: "Increase Range"
+    effect: |
+      The range is 32 yards.
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- target: LITURGY_125
+  level1:
+    id: 253
+    name: "Longer Duration I"
+    effect: |
+      The duration is 1 hour.
+  level2:
+    id: 254
+    name: "Longer Duration II"
+    effect: |
+      The duration is 2 hours. Prerequisite: *Longer Duration I*.
+  level3:
+    id: 255
+    name: "Increase Range"
+    effect: |
+      The winds origin up to 64 yards from the Blessed One’s ship and can affect multiple ships within that distance. The point of origin moves with the Blessed One.
+  src:
+    - id: US25005E
+      firstPage: 118
+
+- target: LITURGY_126
+  level1:
+    id: 256
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 CR.
+  level2:
+    id: 257
+    name: "Hard Shell"
+    effect: |
+      Receive a natural protection of 2. This costs 8 KP (you cannot use modifications on this enhancement).
+  level3:
+    id: 258
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this liturgical chant to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- target: LITURGY_127
+  level1:
+    id: 259
+    name: "Excommunicate Blessed Ones I"
+    effect: |
+      This ceremony affects Blessed Ones of the same Pantheon. They cannot recover karma points.
+  level2:
+    id: 260
+    name: "Forever Excommunicated"
+    effect: |
+      Penance does not reverse the excommunication (see **Gods of Aventuria** page **72**). The results are permanent and cost an additional 2 permanent KP (for a total of 4 permanent KP). Prerequisite: *Excommunicate Blessed Ones I*.
+  level3:
+    id: 261
+    name: "Excommunicate Blessed Ones II"
+    effect: |
+      This ceremony affects Blessed Ones from your character’s Pantheon. They lose the advantage Blessed One, any tradition special abilities, any karma special abilities, any karma advantages or disadvantages, and any liturgical chants. They get back all AP spent on these traits and abilities. The results are permanent and cost an additional 4 permanent KP (for a total of 6 permanent KP). Prerequisite: *Forever Excommunicated*.
+  src:
+    - id: US25005E
+      firstPage: 153
+
+- target: LITURGY_128
+  level1:
+    id: 262
+    name: "Two Targets"
+    effect: |
+      Cast *Admittance* on two targets at the same time. The ceremony’s KP costs double.
+  level2:
+    id: 263
+    name: "Four Targets"
+    effect: |
+      Cast *Admittance* on four targets at the same time. Each additional target costs an additional 2 KP. Prerequisite: *Two Targets*.
+  level3:
+    id: 264
+    name: "Eight Targets"
+    effect: |
+      Cast *Admittance* on eight targets at the same time Each additional target costs an additional 2 KP. Prerequisite: *Four Targets*.
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- target: LITURGY_129
+  level1:
+    id: 265
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 266
+    name: "Two Targets"
+    effect: |
+      Cast Cauterization on two targets at the same time. The second target costs an additional 16 KP, 8 of them permanent.
+  level3:
+    id: 267
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this ceremony’s cost, but the permanent cost remains the same.
+  src:
+    - id: US25005E
+      firstPage: 141
+
+- target: LITURGY_130
+  level1:
+    id: 268
+    name: "Damnation of Blessed Ones"
+    effect: |
+      This ceremony may affect Blessed Ones of the Pantheon. They lose their advantage Blessed One, any tradition special abilities, any karma special abilities, any karma advantages or disadvantages, and any liturgical chants. They get back all AP they spent on these traits. The damnation is permanent and costs 18 permanent KP.
+  level2:
+    id: 269
+    name: "Increase Range"
+    effect: |
+      The range is unlimited.
+  level3:
+    id: 270
+    name: "Non-Initiates"
+    effect: |
+      Cast Damnation on Intelligent Creatures who do not belong to the Blessed One’s Pantheon.
+  src:
+    - id: US25005E
+      firstPage: 143
+
+- target: LITURGY_131
+  level1:
+    id: 271
+    name: "Other Alcohol"
+    effect: |
+      Turn water into other types of alcohol, but nothing too strong — usually beers and meads.
+  level2:
+    id: 272
+    name: "More Wine!"
+    effect: |
+      Transform up to QL x 4 pints of water into wine.
+  level3:
+    id: 273
+    name: "Even More Wine!"
+    effect: |
+      Transform up to QL x 8 pints of water into wine. Prerequisite: *More Wine!*.
+  src:
+    - id: US25005E
+      firstPage: 142
+
+- target: LITURGY_132
+  level1:
+    id: 274
+    name: "More Services"
+    effect: |
+      Ask the creature for QL +2 services.
+  level2:
+    id: 275
+    name: "Longer Service"
+    effect: |
+      The creature automatically loses a service at the end of one week (instead of one day).
+  level3:
+    id: 276
+    name: "Powerful Creature"
+    effect: |
+      Give the creature the same improvement twice.
+  src:
+    - id: US25005E
+      firstPage: 161
+
+- target: LITURGY_133
+  level1:
+    id: 277
+    name: "More Services"
+    effect: |
+      Ask the creature for QL +2 services.
+  level2:
+    id: 278
+    name: "Longer Service"
+    effect: |
+      The creature automatically loses a service at the end of one week (instead of one day).
+  level3:
+    id: 279
+    name: "Powerful Creature"
+    effect: |
+      Give the creature the same improvement twice.
+  src:
+    - id: US25005E
+      firstPage: 161
+
+- target: LITURGY_134
+  level1:
+    id: 280
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 3 minutes.
+  level2:
+    id: 281
+    name: "Modify Ceremonial Time"
+    effect: |
+      You may use a modification on the ceremonial time.
+  level3:
+    id: 282
+    name: "All Sensory Perceptions"
+    effect: |
+      Use the ceremony to memorize all sensory impressions (not just visual).
+  src:
+    - id: US25005E
+      firstPage: 145
+
+- target: LITURGY_135
+  level1:
+    id: 283
+    name: "Visions"
+    effect: |
+      You see a vision of what has happened surrounding the lighting and extinguishing of the fire. The events are very vague, and details cannot be seen.
+  level2:
+    id: 284
+    name: "Insight"
+    effect: |
+      Know exactly what caused the fire (such as arson, Ingerimm’s will, or an accident). Prerequisite: *Visions*.
+  level3:
+    id: 285
+    name: "Clarity"
+    effect: |
+
+      Learn information about the fire’s heat, how quickly it spread or is spreading, and whether or not an accelerant was used. Prerequisite: *Insight*.
+  src:
+    - id: US25005E
+      firstPage: 147
+
+- target: LITURGY_136
+  level1:
+    id: 286
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 287
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 288
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 144
+
+- target: LITURGY_137
+  level1:
+    id: 289
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 290
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 291
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 152
+
+- target: LITURGY_138
+  level1:
+    id: 292
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 293
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 294
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 154
+
+- target: LITURGY_139
+  level1:
+    id: 295
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may transfer this ceremony to Intelligent Creatures only.
+  level2:
+    id: 296
+    name: "Far-Reaching Memories"
+    effect: |
+      The recalled memory may be from up to QL weeks ago.
+  level3:
+    id: 297
+    name: "Erased Memories"
+    effect: |
+      Recall erased memories if the QL of the ceremony is higher than the QL of the effect that erased the memory.
+  src:
+    - id: US25005E
+      firstPage: 156
+
+- target: LITURGY_140
+  level1:
+    id: 298
+    name: "Wider Radius"
+    effect: |
+      The radius is QL x  10 yards.
+  level2:
+    id: 299
+    name: "Later Star"
+    effect: |
+      Successfully cast the ceremony even after the celebration begins.
+  level3:
+    id: 300
+    name: "Longer Duration"
+    effect: |
+      The duration is 24 hours.
+  src:
+    - id: US25005E
+      firstPage: 146
+
+- target: LITURGY_141
+  level1:
+    id: 301
+    name: "Not Sustained"
+    effect: |
+      The ceremony is not considered sustained. You must determine the ceremony’s duration and corresponding KP costs when casting it.
+  level2:
+    id: 302
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this ceremony to Intelligent Creatures.
+  level3:
+    id: 303
+    name: "Target Category Living Creatures"
+    effect: |
+      The ceremony can target Living Creatures. Prerequisite: *Range Touch*.
+  src:
+    - id: US25005E
+      firstPage: 155
+
+- target: LITURGY_142
+  level1:
+    id: 304
+    name: "High Probability"
+    effect: |
+      The blessed couple’s probability of pregnancy rises by 60% instead of 30%
+  level2:
+    id: 305
+    name: "Single Person"
+    effect: |
+      Cast the ceremony on a single person, who then will get especially fertile.
+  level3:
+    id: 306
+    name: "Longer Duration"
+    effect: |
+      The duration is QL days.
+  src:
+    - id: US25005E
+      firstPage: 145
+
+- target: LITURGY_143
+  level1:
+    id: 307
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 308
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 309
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 146
+
+- target: LITURGY_144
+  level1:
+    id: 310
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 311
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 312
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 147
+
+- target: LITURGY_145
+  level1:
+    id: 313
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this ceremony to Intelligent Creatures.
+  level2:
+    id: 314
+    name: "Change Target Category I"
+    effect: |
+      The ceremony applies to Living Creatures of size categories tiny, small, and medium. Prerequisite: *Range Touch*.
+  level3:
+    id: 315
+    name: "Change Target Category II"
+    effect: |
+      The ceremony applies to Living Creatures of size category large. Prerequisite: *Change Target Category I*.
+  src:
+    - id: US25005E
+      firstPage: 162
+
+- target: LITURGY_146
+  level1:
+    id: 316
+    name: "More Checks I"
+    effect: |
+      Receive the advantage Aptitude for your next two Knowledge skill checks within the duration.
+  level2:
+    id: 317
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 30 minutes.
+  level3:
+    id: 318
+    name: "More Checks II"
+    effect: |
+      Receive the advantage Aptitude for your next three knowledge skill checks within the duration. Prerequisite: *More Checks I*.
+  src:
+    - id: US25005E
+      firstPage: 143
+
+- target: LITURGY_147
+  level1:
+    id: 319
+    name: "Modify Ceremonial Time"
+    effect: |
+      You may use a modification on the ceremonial time.
+  level2:
+    id: 320
+    name: "Longer Duration"
+    effect: |
+      The duration is QL hours.
+  level3:
+    id: 321
+    name: "Spend Karma"
+    effect: |
+      The griffon uses its karma to support your character.
+  src:
+    - id: US25005E
+      firstPage: 148
+
+- target: LITURGY_148
+  level1:
+    id: 322
+    name: "Easier to Fish"
+    effect: |
+      The target receives a QL/2+1 bonus to their *Fishing* check.
+  level2:
+    id: 323
+    name: "More Rations I"
+    effect: |
+      The rations are doubled.
+  level3:
+    id: 324
+    name: "More Rations II"
+    effect: |
+      The rations are multiplied by three. Prerequisite: *More Rations I*.
+  src:
+    - id: US25005E
+      firstPage: 147
+
+- target: LITURGY_149
+  level1:
+    id: 325
+    name: "Different Eyes, Different Hair"
+    effect: |
+      Your character’s eyes and hair change colors, too. You may choose the colors you prefer.
+  level2:
+    id: 326
+    name: "Taller or Shorter"
+    effect: |
+      Your character may become 1 inch taller or shorter when shedding their skin.
+  level3:
+    id: 327
+    name: "Choose Your Look"
+    effect: |
+      Choose the details of your character’s appearance; however, you cannot influence advantages or disadvantages that have a rule effect.
+  src:
+    - id: US25005E
+      firstPage: 159
+
+- target: LITURGY_150
+  level1:
+    id: 328
+    name: "Strong Vow I"
+    effect: |
+      The *Willpower* check to break the vow suffers a penalty of QL/2 +1.
+  level2:
+    id: 329
+    name: "Strong Vow II"
+    effect: |
+      The *Willpower* check to break the vow suffers a penalty of QL/2 +2. Prerequisite: *Strong Vow I*.
+  level3:
+    id: 330
+    name: "Strong Vow III"
+    effect: |
+      The *Willpower* check to break the vow suffers a penalty of QL/2 +3. Prerequisite: *Strong Vow II*.
+  src:
+    - id: US25005E
+      firstPage: 149
+
+- target: LITURGY_151
+  level1:
+    id: 331
+    name: "Bigger Ships I"
+    effect: |
+      The target may be up to 30 yards long and offer space for up to 60 people.
+  level2:
+    id: 332
+    name: "Bigger Ships II"
+    effect: |
+      The target may be up to 40 yards long and offer space for up to 120 people. Prerequisite: *Bigger Ships I*.
+  level3:
+    id: 333
+    name: "More Targets"
+    effect: |
+      Affect more than one target. Each target after the first costs an additional 16 KP.
+  src:
+    - id: US25005E
+      firstPage: 152
+
+- target: LITURGY_152
+  level1:
+    id: 334
+    name: "Determine Distance"
+    effect: |
+      Know, with an accuracy of up to a mile, how far away the suffering person is.
+  level2:
+    id: 335
+    name: "Longer Duration"
+    effect: |
+      The duration is QL hours.
+  level3:
+    id: 336
+    name: "Determine Path"
+    effect: |
+      Sense whether your character may reach the person, or if, for example, a river or mountain stands in your way. This allows you to plan detours along your path.
+  src:
+    - id: US25005E
+      firstPage: 151
+
+- target: LITURGY_153
+  level1:
+    id: 337
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this ceremony to Intelligent Creatures.
+  level2:
+    id: 338
+    name: "Longer Duration I"
+    effect: |
+      The duration is 8 hours.
+  level3:
+    id: 339
+    name: "Longer Duration II"
+    effect: |
+      The duration is 16 hours. Prerequisite: *Longer Duration I*.
+  src:
+    - id: US25005E
+      firstPage: 151
+
+- target: LITURGY_154
+  level1:
+    id: 340
+    name: "More Checks I"
+    effect: |
+      For the next two *Animal Lore* checks related to hunting during the duration, receive the advantage Aptitude.
+  level2:
+    id: 341
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this ceremony to Intelligent Creatures.
+  level3:
+    id: 342
+    name: "More Checks II"
+    effect: |
+      For the next three *Animal Lore* checks related to hunting during the duration, receive the advantage Aptitude. Prerequisite: *More Checks I*.
+  src:
+    - id: US25005E
+      firstPage: 150
+
+- target: LITURGY_155
+  level1:
+    id: 343
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this ceremony to Intelligent Creatures.
+  level2:
+    id: 344
+    name: "Target Category Living Creatures"
+    effect: |
+      The ceremony can target Living Creatures.
+  level3:
+    id: 345
+    name: "Longer Duration"
+    effect: |
+      The duration is QL years. This costs an additional 32 KP.
+  src:
+    - id: US25005E
+      firstPage: 164
+
+- target: LITURGY_156
+  level1:
+    id: 346
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 3 days.
+  level2:
+    id: 347
+    name: "Good Morale"
+    effect: |
+      Targets may reroll up to three *Willpower (Face Threats* or *Resist Intimidation)* checks for the duration.
+  level3:
+    id: 348
+    name: "Good Self-Control"
+    effect: |
+      The ceremony also affects *Self-Control* checks.
+  src:
+    - id: US25005E
+      firstPage: 153
+
+- target: LITURGY_157
+  level1:
+    id: 349
+    name: "Wider Radius"
+    effect: |
+      The radius is QL x  5 yards.
+  level2:
+    id: 350
+    name: "Precious Metal Rush"
+    effect: |
+      The ceremony affects all precious metals at the same time.
+  level3:
+    id: 351
+    name: "Gem Rush"
+    effect: |
+      The ceremony affects all gems at the same time.
+  src:
+    - id: US25005E
+      firstPage: 142
+
+- target: LITURGY_158
+  level1:
+    id: 352
+    name: "Increase Range"
+    effect: |
+      The range is 32 yards.
+  level2:
+    id: 353
+    name: "Longer Duration"
+    effect: |
+      The duration is 13 days.
+  level3:
+    id: 354
+    name: "Dispel Permanent Effects"
+    effect: |
+      Permanent effects can be dispelled. Before the ceremony begins, the Blessed One decides if they want to do so. The permanent KP cost is equal to that of the opposing liturgical chant/ceremony.
+  src:
+    - id: US25005E
+      firstPage: 151
+
+- target: LITURGY_159
+  level1:
+    id: 355
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this ceremony’s costs.
+  level2:
+    id: 356
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL x 5 hours.
+  level3:
+    id: 357
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL days.
+  src:
+    - id: US25005E
+      firstPage: 151
+
+- target: LITURGY_160
+  level1:
+    id: 358
+    name: "Greater Amount I"
+    effect: |
+      The ceremony affects up to 10 pounds of metal.
+  level2:
+    id: 359
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 3 hours.
+  level3:
+    id: 360
+    name: "Greater Amount II"
+    effect: |
+      The ceremony affects up to 50 pounds of metal. Prerequisite: *Greater Amount I*.
+  src:
+    - id: US25005E
+      firstPage: 149
+
+- target: LITURGY_161
+  level1:
+    id: 361
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 5 days.
+  level2:
+    id: 362
+    name: "One with the Ship"
+    effect: |
+      All targets receive +1 to their *Sailing* checks.
+  level3:
+    id: 363
+    name: "Good Self-Control"
+    effect: |
+      All targets also receive the advantage Aptitude for *Self-Control* checks.
+  src:
+    - id: US25005E
+      firstPage: 153
+
+- target: LITURGY_162
+  level1:
+    id: 364
+    name: "Greater Amount I"
+    effect: |
+      Purify the food and drink of 12 people.
+  level2:
+    id: 365
+    name: "Greater Amount II"
+    effect: |
+      Purify the food and drink of 50 people. Prerequisite: *Greater Amount I*.
+  level3:
+    id: 366
+    name: "Greater Amount III"
+    effect: |
+      Purify the food and drink of 100 people. Prerequisite: *Greater Amount II*.
+  src:
+    - id: US25005E
+      firstPage: 155
+
+- target: LITURGY_163
+  level1:
+    id: 367
+    name: "Longer Duration"
+    effect: |
+      The duration is QL x 3 hours.
+  level2:
+    id: 368
+    name: "Increase Range"
+    effect: |
+      The range is 64 yards; the fog remains in place.
+  level3:
+    id: 369
+    name: "Shapeable Fog"
+    effect: |
+      The fog is shapeable and may take any shape you wish.
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- target: LITURGY_164
+  level1:
+    id: 370
+    name: "Large Buildings/Locations I"
+    effect: |
+      Sanctify a large piece of terrain the size of a city temple. The KP costs increase to 128 KP, 32 of which are permanent.
+  level2:
+    id: 371
+    name: "Large Buildings/Locations II"
+    effect: |
+      Sanctify a huge piece of terrain the size of the Broken Wheel—the main Temple of Boron in Punin. The KP costs increase to 256 KP, 64 of which are permanent. Prerequisite: *Large Buildings/Locations I*.
+  level3:
+    id: 372
+    name: "Large Buildings/Locations III"
+    effect: |
+      Sanctify a gigantic piece of terrain the size of the City of Light in Gareth. The KP costs increase to 512 KP, 128 of which are permanent. Prerequisite: *Large Buildings/Locations II*.
+  src:
+    - id: US25005E
+      firstPage: 157
+
+- target: LITURGY_165
+  level1:
+    id: 373
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 374
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 375
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 154
+
+- target: LITURGY_166
+  level1:
+    id: 376
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 377
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 378
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 141
+
+- target: LITURGY_167
+  level1:
+    id: 379
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 380
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 381
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 150
+
+- target: LITURGY_168
+  level1:
+    id: 382
+    name: "Increase Range"
+    effect: |
+      The range is 4 yards.
+  level2:
+    id: 383
+    name: "Two Targets"
+    effect: |
+      Cast *Priest Consecration (Ordination)* on two targets at the same time. The second target costs an additional 16 KP, 12 of them permanent.
+  level3:
+    id: 384
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this ceremony’s costs, but not on the permanent KP costs.
+  src:
+    - id: US25005E
+      firstPage: 155
+
+- target: LITURGY_169
+  level1:
+    id: 385
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 386
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 387
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 156
+
+- target: LITURGY_170
+  level1:
+    id: 388
+    name: "More Checks I"
+    effect: |
+      The target receives the advantage Aptitude for the next two checks using a Nature skill within the duration.
+  level2:
+    id: 389
+    name: "Longer Duration"
+    effect: |
+      The duration is QL days.
+  level3:
+    id: 390
+    name: "More Checks II"
+    effect: |
+      The target receives the advantage Aptitude for the next three checks using a Nature skill within the duration. Prerequisite: *More Checks I*.
+  src:
+    - id: US25005E
+      firstPage: 163
+
+- target: LITURGY_171
+  level1:
+    id: 391
+    name: "Longer Duration"
+    effect: |
+      The duration is 24 hours.
+  level2:
+    id: 392
+    name: "More Mouths to Feed"
+    effect: |
+      One pound of food satisfies QL+1 people.
+  level3:
+    id: 393
+    name: "Huge Amounts"
+    effect: |
+      Cast this ceremony on up to 10 pounds of food.
+  src:
+    - id: US25005E
+      firstPage: 158
+
+- target: LITURGY_172
+  level1:
+    id: 394
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 395
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 396
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 158
+
+- target: LITURGY_173
+  level1:
+    id: 397
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 398
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 399
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 162
+
+- target: LITURGY_174
+  level1:
+    id: 400
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this ceremony’s costs.
+  level2:
+    id: 401
+    name: "Shorter Ceremonial Time"
+    effect: |
+      The ceremonial time is 8 hours.
+  level3:
+    id: 402
+    name: "Mass Sacrifice"
+    effect: |
+      Up to 13 targets can be sacrificed at the same time. Each target after the first reduces the cost by 2 KP.
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- target: LITURGY_175
+  level1:
+    id: 403
+    name: "Vow Breaker Aura"
+    effect: |
+      See whether the target bears the taint *vow breaker* (see **Gods of Aventuria** page **71**).
+  level2:
+    id: 404
+    name: "Apostate Aura"
+    effect: |
+      See whether the target bears the taint *apostate* (see **Gods of Aventuria** page **71**).  Prerequisite: *Vow Breaker Aura*.
+  level3:
+    id: 405
+    name: "Damned Aura"
+    effect: |
+      Damned Aura (SR 16, 9 AP): See whether the target bears the taint damned (see **Gods of Aventuria** page **72**). Prerequisite: *Apostate Aura*.
+  src:
+    - id: US25005E
+      firstPage: 159
+
+- target: LITURGY_176
+  level1:
+    id: 406
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL x 3 days.
+  level2:
+    id: 407
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL weeks. Prerequisite: *Longer Duration I*.
+  level3:
+    id: 408
+    name: "Longer Duration III"
+    effect: |
+      The duration is QL months. Prerequisite: *Longer Duration II*.
+  src:
+    - id: US25005E
+      firstPage: 141
+
+- target: LITURGY_177
+  level1:
+    id: 409
+    name: "Bigger Bonus"
+    effect: |
+      Ignore QL/2+1 of ice-based penalties for checks using Body Control and Climbing.
+  level2:
+    id: 410
+    name: "Not Sustained"
+    effect: |
+      The ceremony is not considered sustained. You must determine the ceremony’s duration and corresponding KP costs when casting it.
+  level3:
+    id: 411
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this ceremony to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 162
+
+- target: LITURGY_178
+  level1:
+    id: 412
+    name: "More People"
+    effect: |
+      The ceremony’s effects apply to QL+3 people.
+  level2:
+    id: 413
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this ceremony’s costs.
+  level3:
+    id: 414
+    name: "Longer Duration"
+    effect: |
+       The duration is 2 days.
+  src:
+    - id: US25005E
+      firstPage: 145
+
+- target: LITURGY_179
+  level1:
+    id: 415
+    name: "Increase Range"
+    effect: |
+      The range is 16 yards.
+  level2:
+    id: 416
+    name: "Target Category Magical Objects"
+    effect: |
+      The target category includes magical items. If the item has permanent AP bound into it, your character must sacrifice an equal amount of permanent KP.
+  level3:
+    id: 417
+    name: "Target Category Karmic Objects"
+    effect: |
+      The target category includes karmic items. If the item has permanent KP bound into it, your character must sacrifice an equal amount of permanent KP.
+  src:
+    - id: US25005E
+      firstPage: 144
+
+- target: LITURGY_180
+  level1:
+    id: 418
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 419
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 420
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 160
+
+- target: LITURGY_181
+  level1:
+    id: 421
+    name: "Large Building I"
+    effect: |
+      Sanctify large temples, such as city temples. The KP costs increase to 64 KP, 16 of which are permanent.
+  level2:
+    id: 422
+    name: "Large Building II"
+    effect: |
+      Sanctify huge temples, such as the Broken Wheel — the main Temple of Boron in Punin. The KP costs increase to 128 KP, 32 of which are permanent. Prerequisite: *Large Building I*.
+  level3:
+    id: 423
+    name: "Large Building III"
+    effect: |
+      Sanctify gigantic temples or temple facilities, such as the City of Light in Gareth. The KP costs increase to 256 KP, 64 of which are permanent. Prerequisite: *Large Building II*.
+  src:
+    - id: US25005E
+      firstPage: 157
+
+- target: LITURGY_182
+  level1:
+    id: 424
+    name: "Deeper Insight"
+    effect: |
+      Receive insights into the target’s personality and see their personality flaws and negative traits.
+  level2:
+    id: 425
+    name: "Even Deeper Insight"
+    effect: |
+      See the target’s goals and motivations. For one day, receive a bonus of +1 to *Empathy*, *Fast-Talk*, and *Treat Soul* checks applied to the target. Prerequisite: *Deeper Insight*.
+  level3:
+    id: 426
+    name: "Speaking Dreamwalker"
+    effect: |
+      Speak to the target in their dream. Prerequisite: Even *Deeper Insight*.
+  src:
+    - id: US25005E
+      firstPage: 144
+
+- target: LITURGY_183
+  level1:
+    id: 427
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this ceremony’s costs.
+  level2:
+    id: 428
+    name: "Additional Weight"
+    effect: |
+      The target can carry QL x 4 additional pounds (instead of QL x 2 pounds).
+  level3:
+    id: 429
+    name: "Range Touch"
+    effect: |
+      The range is touch. You may only transfer this ceremony to Intelligent Creatures.
+  src:
+    - id: US25005E
+      firstPage: 161
+
+- target: LITURGY_184
+  level1:
+    id: 430
+    name: "Longer Duration"
+    effect: |
+      The duration is QL years.
+  level2:
+    id: 431
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this ceremony’s costs.
+  level3:
+    id: 432
+    name: "Heal Sou"
+    effect: |
+      The bonus to Treat Soul checks gains an additional bonus of +2.
+  src:
+    - id: US25005E
+      firstPage: 145
+
+- target: LITURGY_185
+  level1:
+    id: 433
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL weeks. KP costs increase to 16 KP.
+  level2:
+    id: 434
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL months. KP costs increase to 32 KP. Prerequisite: *Longer Duration I*.
+  level3:
+    id: 435
+    name: "Longer Duration III"
+    effect: |
+      The duration is QL years. KP costs increase to 64 KP. Prerequisite: *Longer Duration II*.
+  src:
+    - id: US25005E
+      firstPage: 143
+
+- target: LITURGY_186
+  level1:
+    id: 436
+    name: "Confused Blessed Ones"
+    effect: |
+      Blessed Ones who suffer damage from the cursed weapon also suffer 1 level of *Confusion*.
+  level2:
+    id: 437
+    name: "Scared Blessed Ones"
+    effect: |
+      Blessed Ones who suffer damage from the cursed weapon also suffer 1 level of *Fear*.
+  level3:
+    id: 438
+    name: "Longer Duration"
+    effect: |
+      The duration is QL days.
+  src:
+    - id: US25005E
+      firstPage: 163
+
+- target: LITURGY_187
+  level1:
+    id: 439
+    name: "Wider Radius"
+    effect: |
+      The radius is QL x 30 miles.
+  level2:
+    id: 440
+    name: "Determine Distance"
+    effect: |
+      Your character knows with an accuracy of up to a mile how far away the dwelling is.
+  level3:
+    id: 441
+    name: "Determine Path"
+    effect: |
+      Your character can sense whether they can reach the dwelling, or if, for example, a river or mountain stands in their way. This allows you to plan detours.
+  src:
+    - id: US25005E
+      firstPage: 149
+
+- target: LITURGY_188
+  level1:
+    id: 442
+    name: "Large Building I"
+    effect: |
+      Protect large buildings, such as an urban villa or buildings with more than two levels. The KP costs increase to 16 KP.
+  level2:
+    id: 443
+    name: "Large Building II"
+    effect: |
+      Protect huge buildings, such as small castles. The KP costs increase to 32 KP. Prerequisite: *Large Building I*.
+  level3:
+    id: 444
+    name: "Large Building III"
+    effect: |
+      Protect giant buildings, such as castles and fortresses. The KP costs increase to 64 KP. Prerequisite: *Large Building II*.
+  src:
+    - id: US25005E
+      firstPage: 142
+
+- target: LITURGY_189
+  level1:
+    id: 445
+    name: "Improved Repair"
+    effect: |
+      Restore QL x 30 structure points to a damaged or destroyed object.
+  level2:
+    id: 446
+    name: "Repair Weapons and Armor"
+    effect: |
+      Repair weapons or armor. Repairing armor requires a QL equal to the armor’s PRO. Weapons with the combat techniques Daggers and Brawling require a QL 1; other weapons require a QL 2. Repairing two-handed weapons requires a QL 3.
+  level3:
+    id: 447
+    name: "Perfect Repair"
+    effect: |
+      Return QL x 50 structure points to a damaged or destroyed object. Repairing weapons and armor requires 1 less QL than stated above. Prerequisites: *Improved Repair* and *Repair Weapons and Armor*.
+  src:
+    - id: US25005E
+      firstPage: 156
+
+- target: LITURGY_190
+  level1:
+    id: 448
+    name: "Target Category Living Creatures"
+    effect: |
+      The ceremony can target Living Creatures.
+  level2:
+    id: 449
+    name: "Longer Duration I"
+    effect: |
+      The duration is QL weeks. The ceremony costs 16 KP (you cannot use a modification on this ceremony’s cost).
+  level3:
+    id: 450
+    name: "Longer Duration II"
+    effect: |
+      The duration is QL months. The ceremony costs 32 KP (you cannot use a modification on this ceremony’s cost). Prerequisite: *Longer Duration I*.
+  src:
+    - id: US25005E
+      firstPage: 149
+
+- target: LITURGY_191
+  level1:
+    id: 451
+    name: "Companions Allowed"
+    effect: |
+      The shelter also protects animal companions—such as donkeys, horses, and familiars. The costs are 2/4/8/16 for animals with size categories tiny/small/medium/large.
+  level2:
+    id: 452
+    name: "Modify Cost"
+    effect: |
+      You may use a modification on this ceremony’s costs.
+  level3:
+    id: 453
+    name: "Longer Duration"
+    effect: |
+      The duration is 24 hours.
+  src:
+    - id: US25005E
+      firstPage: 159
+
+- target: LITURGY_192
+  level1:
+    id: 454
+    name: "Sustained"
+    effect: |
+      The ceremony may be sustained; the costs are 8 KP to activate and 4 KP every 3 hours.
+  level2:
+    id: 455
+    name: "Speech"
+    effect: |
+      Speak while in animal shape.
+  level3:
+    id: 456
+    name: "Clerical Animal"
+    effect: |
+      Cast liturgical chants while in animal shape, gestures are not necessary. KP: same as Blessed One. Prerequisite: *Speech*.
+  src:
+    - id: US25005E
+      firstPage: 164

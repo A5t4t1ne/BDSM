@@ -1,0 +1,948 @@
+- id: DISADV_0
+# name: Custom Disadvantage
+  cost: 0
+  gr: 1
+
+- id: DISADV_1
+# name: Angst vor …
+  cost: 8
+  levels: 3
+  gr: 1
+
+- id: DISADV_2
+# name: Arm
+  cost: 1
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_36
+      active: false
+  gr: 1
+
+- id: DISADV_3
+# name: Artefaktgebunden
+  cost: 10
+  max: 1
+  isExclusiveToArcaneSpellworks: true
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: DISADV_4
+# name: Behäbig
+  cost: 4
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_9
+      active: false
+  gr: 1
+
+- id: DISADV_5
+# name: Blind
+  cost: 50
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_18
+      active: false
+      sid: 1
+    - id: DISADV_51
+      active: false
+      sid: 2
+    - id: DISADV_11
+      active: false
+    - id: DISADV_25
+      active: false
+    - id: DISADV_7
+      active: false
+      sid: 1
+  gr: 1
+
+- id: DISADV_6
+# name: Blutrausch
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_37
+      active: true
+      sid: 5
+    - id: DISADV_1
+      active: false
+      sid: 1
+  gr: 1
+
+- id: DISADV_7
+# name: Eingeschränkter Sinn
+  max: 2
+  selectOptions:
+    - id: 1
+      # name: Sicht
+      cost: 15
+      activatablePrerequisites:
+        - id: DISADV_5
+          active: false
+        - id: ADV_18
+          active: false
+          sid: 1
+    - id: 2
+      # name: Gehör
+      cost: 10
+      activatablePrerequisites:
+        - id: ADV_18
+          active: false
+          sid: 2
+        - id: DISADV_47
+          active: false
+    - id: 3
+      # name: Geruch & Geschmack
+      cost: 6
+      activatablePrerequisites:
+        - id: ADV_18
+          active: false
+          sid: 3
+    - id: 4
+      # name: Tastsinn
+      cost: 2
+      activatablePrerequisites:
+        - id: ADV_18
+          active: false
+          sid: 4
+  gr: 1
+
+- id: DISADV_11
+# name: Farbenblind
+  cost: 2
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_5
+      active: false
+  gr: 1
+
+- id: DISADV_12
+# name: Fettleibig
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_4
+      active: true
+  gr: 1
+
+- id: DISADV_13
+# name: Giftanfällig
+  cost: 5
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_13
+      active: false
+  gr: 1
+
+- id: DISADV_14
+# name: Hässlich
+  cost: 10
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_15
+      active: false
+  gr: 1
+
+- id: DISADV_15
+# name: Hitzeempfindlich
+  cost: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_22
+      active: false
+  gr: 1
+
+- id: DISADV_16
+# name: Kälteempfindlich
+  cost: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_30
+      active: false
+  gr: 1
+
+- id: DISADV_17
+# name: Keine Flugsalbe
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+    - id: SA_255
+      active: true
+  gr: 2
+
+- id: DISADV_18
+# name: Kein Vertrauter
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+    - id: SA_255
+      active: true
+  gr: 2
+
+- id: DISADV_19
+# name: Körpergebundene Kraft
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: DISADV_20
+# name: Körperliche Auffälligkeit
+  cost: 2
+  max: 2
+  gr: 1
+
+- id: DISADV_21
+# name: Krankheitsanfällig
+  cost: 5
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_31
+      active: false
+  gr: 1
+
+- id: DISADV_22
+# name: Lästige Mindergeister
+  cost: 20
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: DISADV_23
+# name: Lichtempfindlich
+  cost: 20
+  max: 1
+  gr: 1
+
+- id: DISADV_24
+# name: Magische Einschränkung
+  cost: 30
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: DISADV_25
+# name: Nachtblind
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_6
+      active: false
+    - id: DISADV_5
+      active: false
+  gr: 1
+
+- id: DISADV_26
+# name: Niedrige Astralkraft
+  cost: 2
+  levels: 7
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+    - id: ADV_23
+      active: false
+  gr: 2
+
+- id: DISADV_27
+# name: Niedrige Karmalkraft
+  cost: 2
+  levels: 7
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: true
+    - id: ADV_24
+      active: false
+  gr: 3
+
+- id: DISADV_28
+# name: Niedrige Lebenskraft
+  cost: 4
+  levels: 7
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_25
+      active: false
+  gr: 1
+
+- id: DISADV_29
+# name: Niedrige Seelenkraft
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_26
+      active: false
+  gr: 1
+
+- id: DISADV_30
+# name: Niedrige Zähigkeit
+  cost: 25
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_27
+      active: false
+  gr: 1
+
+- id: DISADV_31
+# name: Pech
+  cost: 20
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_14
+      active: false
+  gr: 1
+
+- id: DISADV_32
+# name: Pechmagnet
+  cost: 5
+  max: 1
+  gr: 1
+
+- id: DISADV_33
+# name: Persönlichkeitsschwächen
+  selectOptions:
+    - id: 1
+      # name: Arroganz
+      cost: 10
+    - id: 2
+      # name: Eitelkeit
+      cost: 10
+    - id: 3
+      # name: Neid
+      cost: 5
+    - id: 4
+      # name: Streitsucht
+      cost: 10
+    - id: 5
+      # name: Unheimlich
+      cost: 8
+    - id: 6
+      # name: Verwöhnt
+      cost: 10
+    - id: 7
+      # name: Vorurteile
+      cost: 5
+    - id: 8
+      # name: Weltfremd
+      cost: 10
+    - id: 9
+      # name: Anzügliches Verhalten
+      cost: 5
+    - id: 10
+      # name: Eifersucht
+      cost: 5
+    - id: 11
+      # name: Busenkomplexe
+      cost: 5
+    - id: 12
+      # name: Peniskomplexe
+      cost: 5
+    - id: 13
+      # name: Stimmungsschwankungen
+      cost: 5
+  gr: 1
+
+- id: DISADV_34
+# name: Prinzipientreue
+  cost: 10
+  levels: 3
+  gr: 1
+
+- id: DISADV_35
+# name: Schlafwandler
+  cost: 10
+  max: 1
+  gr: 1
+
+- id: DISADV_36
+# name: Schlechte Angewohnheit
+  cost: 2
+  gr: 1
+
+- id: DISADV_37
+# name: Schlechte Eigenschaft
+  max: 2
+  selectOptions:
+    - id: 1
+      # name: Aberglaube
+      cost: 5
+    - id: 2
+      # name: Autoritätsglaube
+      cost: 5
+    - id: 3
+      # name: Geiz
+      cost: 5
+      activatablePrerequisites:
+        - id: DISADV_37
+          active: false
+          sid: 11
+    - id: 4
+      # name: Goldgier
+      cost: 5
+    - id: 5
+      # name: Jähzorn
+      cost: 10
+    - id: 6
+      # name: Kleptomanie
+      cost: 10
+    - id: 7
+      # name: Naiv
+      cost: 10
+    - id: 8
+      # name: Neugier
+      cost: 5
+    - id: 9
+      # name: Rachsucht
+      cost: 5
+    - id: 10
+      # name: Spielsucht
+      cost: 5
+    - id: 11
+      # name: Verschwendungssucht
+      cost: 5
+      activatablePrerequisites:
+        - id: DISADV_37
+          active: false
+          sid: 3
+    - id: 12
+      # name: Exhibitionismus
+      cost: 10
+    - id: 13
+      # name: Lüsternheit
+      cost: 10
+    - id: 14
+      # name: Voyeurismus
+      cost: 10
+    - id: 15
+      # name: Sikaryan-Durst
+  gr: 1
+
+- id: DISADV_38
+# name: Schlechte Regeneration (Astralenergie)
+  cost: 10
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+    - id: ADV_42
+      active: false
+  gr: 2
+
+- id: DISADV_39
+# name: Schlechte Regeneration (Karmalenergie)
+  cost: 10
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: true
+    - id: ADV_43
+      active: false
+  gr: 3
+
+- id: DISADV_40
+# name: Schlechte Regeneration (Lebensenergie)
+  cost: 10
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_44
+      active: false
+  gr: 1
+
+- id: DISADV_41
+# name: Schwacher Astralkörper
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: DISADV_42
+# name: Schwacher Karmalkörper
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_12
+      active: true
+  gr: 3
+
+- id: DISADV_43
+# name: Sensibler Geruchssinn
+  cost: 10
+  max: 1
+  hasToBeCommonOrSuggestedByRCP: true
+  activatablePrerequisites:
+    - id: DISADV_7
+      active: false
+      sid: 3
+  gr: 1
+
+- id: DISADV_44
+# name: Sprachfehler
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_46
+      active: false
+  gr: 1
+
+- id: DISADV_45
+# name: Stigma
+  cost: 10
+  max: 1
+  gr: 1
+
+- id: DISADV_46
+# name: Stumm
+  cost: 40
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_11
+      active: false
+    - id: ADV_48
+      active: false
+    - id: DISADV_44
+      active: false
+  gr: 1
+
+- id: DISADV_47
+# name: Taub
+  cost: 40
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_18
+      active: false
+      sid: 2
+    - id: DISADV_7
+      active: false
+      sid: 2
+  gr: 1
+
+- id: DISADV_48
+# name: Unfähig
+  cost:
+    - 1
+    - 2
+    - 3
+    - 4
+  max: 2
+  selectOptionCategories:
+    - category: SKILLS
+  activatablePrerequisites:
+    - id: ADV_4
+      active: false
+      sid: sel
+    - id: ADV_16
+      active: false
+      sid: sel
+  gr: 1
+
+- id: DISADV_49
+# name: Unfrei
+  cost: 8
+  max: 1
+  gr: 1
+
+- id: DISADV_50
+# name: Verpflichtungen
+  cost: 10
+  levels: 3
+  gr: 1
+
+- id: DISADV_51
+# name: Verstümmelt
+  selectOptions:
+    - id: 1
+      # name: Einarmig
+      cost: 30
+    - id: 2
+      # name: Einäugig
+      cost: 10
+    - id: 3
+      # name: Einbeinig
+      cost: 30
+    - id: 4
+      # name: Einhändig
+      cost: 20
+    - id: 5
+      # name: Einohrig
+      cost: 5
+    - id: 6
+      # name: Eunuch I
+      cost: 10
+    - id: 7
+      # name: Eunuch II
+      cost: 30
+  gr: 1
+
+- id: DISADV_52
+# name: Wahrer Name
+  cost: 10
+  max: 1
+  gr: 1
+
+- id: DISADV_53
+# name: Wilde Magie
+  cost: 10
+  isExclusiveToArcaneSpellworks: true
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: DISADV_54
+# name: Zauberanfällig
+  cost: 12
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_39
+      active: false
+  gr: 1
+
+- id: DISADV_55
+# name: Zerbrechlich
+  cost: 20
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_49
+      active: false
+  gr: 1
+
+- id: DISADV_56
+# name: Gläsern
+  cost: 3
+  max: 1
+  gr: 1
+
+- id: DISADV_57
+# name: Verweichlicht
+  cost: 3
+  max: 1
+  gr: 1
+
+- id: DISADV_58
+# name: Instabiler Zauberer
+  cost: 5
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2
+
+- id: DISADV_59
+# name: Kleine Zauberauswahl
+  cost: 10
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id:
+        - SA_679
+        - SA_1221
+      active: true
+    - id: ADV_58
+      active: false
+  gr: 2
+
+- id: DISADV_60
+# name: Schwache Zaubermelodien
+  cost: 8
+  max: 1
+  activatablePrerequisites:
+    - id: SA_677
+      active: true
+    - id: ADV_60
+      active: false
+  gr: 2
+
+- id: DISADV_61
+# name: Schwache Zaubertänze
+  cost: 8
+  max: 1
+  activatablePrerequisites:
+    - id: SA_678
+      active: true
+    - id: ADV_61
+      active: false
+  gr: 2
+
+- id: DISADV_62
+# name: Verminderte Zaubermelodien
+  cost: 2
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: SA_677
+      active: true
+    - id: ADV_63
+      active: false
+  gr: 2
+
+- id: DISADV_63
+# name: Verminderte Zaubertänze
+  cost: 2
+  levels: 3
+  max: 1
+  activatablePrerequisites:
+    - id: SA_678
+      active: true
+    - id: ADV_64
+      active: false
+  gr: 2
+
+- id: DISADV_64
+# name: Jagdwildgeruch
+  cost: 10
+  max: 1
+  gr: 1
+
+- id: DISADV_65
+# name: Raubtiergeruch
+  cost: 3
+  max: 1
+  activatablePrerequisites:
+    - id: DISADV_48
+      active: true
+      sid: TAL_6
+    - id: DISADV_48
+      active: true
+      sid: TAL_29
+  gr: 1
+
+- id: DISADV_66
+# name: Böser Namensvetter
+  cost: 10
+  max: 1
+  racePrerequisite:
+    races: R_2
+    active: false
+  activatablePrerequisites:
+    - id: ADV_72
+      active: false
+  gr: 1
+
+- id: DISADV_67
+# name: Lächerlicher Name
+  cost: 3
+  max: 1
+  racePrerequisite:
+    races: R_2
+    active: false
+  activatablePrerequisites:
+    - id: ADV_72
+      active: false
+    - id: ADV_74
+      active: false
+    - id: DISADV_69
+      active: false
+    - id: DISADV_70
+      active: false
+  gr: 1
+
+- id: DISADV_68
+# name: Schlechtes Namensgedächtnis
+  cost: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_73
+      active: false
+  gr: 1
+
+- id: DISADV_69
+# name: Schurkenname
+  cost: 2
+  max: 1
+  racePrerequisite:
+    races: R_2
+    active: false
+  activatablePrerequisites:
+    - id: ADV_72
+      active: false
+    - id: ADV_74
+      active: false
+    - id: DISADV_67
+      active: false
+    - id: DISADV_70
+      active: false
+  gr: 1
+
+- id: DISADV_70
+# name: Unpassender Name
+  cost: 4
+  max: 1
+  racePrerequisite:
+    races: R_2
+    active: false
+  activatablePrerequisites:
+    - id: ADV_72
+      active: false
+    - id: ADV_74
+      active: false
+    - id: DISADV_67
+      active: false
+    - id: DISADV_69
+      active: false
+  gr: 1
+
+- id: DISADV_71
+# name: Unverträglichkeit gegenüber Alkohol
+  cost: 2
+  max: 1
+  activatablePrerequisites:
+    - id: SA_421
+      active: false
+  gr: 1
+
+- id: DISADV_72
+# name: Wenige Predigten
+  cost: 10
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_77
+      active: true
+    - id: ADV_79
+      active: false
+  gr: 1
+
+- id: DISADV_73
+# name: Wenige Visionen
+  cost: 10
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_78
+      active: true
+    - id: ADV_80
+      active: false
+  gr: 1
+
+- id: DISADV_74
+# name: Lernfaul
+  cost: 15
+  max: 1
+  activatablePrerequisites:
+    - id: SA_726
+      active: true
+  gr: 1
+
+- id: DISADV_75
+# name: Abneigung (Sexpraktik)
+  cost: 2
+  levels: 4
+  max: 2
+  activatablePrerequisites:
+    - id: ADV_118
+      active: false
+  gr: 1
+
+- id: DISADV_76
+# name: Fixierung
+  cost: 3
+  max: 2
+  gr: 1
+
+- id: DISADV_77
+# name: Frigide
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_101
+      active: false
+    - id: ADV_102
+      active: false
+    - id: ADV_113
+      active: false
+    - id: DISADV_79
+      active: false
+  gr: 1
+
+- id: DISADV_78
+# name: Homophobie/Heterophobie
+  cost: 15
+  levels: 2
+  max: 1
+  gr: 1
+
+- id: DISADV_79
+# name: Schlechter Geschmack
+  cost: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_108
+      active: false
+    - id: SA_1163
+      active: true
+  gr: 1
+
+- id: DISADV_80
+# name: Unerotische Stimme
+  cost: 3
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_104
+      active: false
+    - id: DISADV_46
+      active: false
+  gr: 1
+
+- id: DISADV_81
+# name: Untreu
+  cost: 3
+  levels: 2
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_117
+      active: false
+  gr: 1
+
+- id: DISADV_82
+# name: Verfrühter Höhepunkt
+  cost: 8
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_101
+      active: false
+  gr: 1
+
+- id: DISADV_84
+# name: Impotent
+  cost: 20
+  max: 1
+  gr: 1
+
+- id: DISADV_85
+# name: Unfruchtbar
+  cost: 5
+  max: 1
+  gr: 1
+
+- id: DISADV_86
+# name: Lästige Blütenfeen
+  cost: 10
+  max: 1
+  activatablePrerequisites:
+    - id: ADV_50
+      active: true
+  gr: 2

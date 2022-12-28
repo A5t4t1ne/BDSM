@@ -1,0 +1,500 @@
+- id: C_1
+  name: "Andergastan"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Andergast-Town, Joborn)"
+  commonMundaneProfessions: "all but Gladiator and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Direction Sense, Rugged Fighter"
+  commonDisadvantages: "Negative Trait (Superstitious), Personality Flaw (Prejudices - usually against Nostrians and women; Unworldly – usually Progress and Life outside the kingdom)"
+  uncommonAdvantages: "Socially Adaptable"
+  uncommonDisadvantages: "Susceptible to Disease"
+  commonNames: |
+    - *Male:* Arnbold, Borkhelm, Gartwald, Ludewich, Marik, Oakward, Strammgert, Wendolyn, Wenzelaus, Zoltan
+    - *Female:* Berga, Domela, Ernka, Hadwiga, Irmela, Larja, Marmelunde, Treshka, Wendeline
+    - *Family Names:* Alrikshuber, Barkmaster, Hatcheter, Cowfarmer, Marketfarmer, Oakinger, Saddlehuber, Swineherd, Woodgood, Zibbelbert
+    - *Noble Families:* of Anderstone, of Barkfield, of Pawstone, of Stonetree, of Teshkal
+  src:
+    - id: US25001E
+      firstPage: 96
+
+- id: C_2
+  name: "Aranian"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Baburin, Elburum, Llanka, Palmyrabad, Zorgan)"
+  commonMundaneProfessions: "all but Gladiator, Knight, and Tribal Warrior"
+  commonMagicalProfessions: "Witch (mostly Cat Witches), Mage (rare)"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Aptitude in Social Skills, Sense of Range"
+  commonDisadvantages: "Negative Trait (Superstition), Personality Flaw (Prejudices - mostly against Novadis and mages; Vanity), Sensitive to Pain"
+  uncommonAdvantages: "Resistant to Cold"
+  uncommonDisadvantages: "Frenzy"
+  commonNames: |
+    - *Male:* Assaf, Djafardeon, Eslam, Faizal, Kazan, Mahdul, Marwamir, Nazir, Seychaban, Zahir
+    - *Female:* Aishanka, Belima, Delilah, Harizeth, Majula, Neraida, Rhayadaque, Shilaldara, Yamira, Zulhaminai
+    - Names are connected to the name of the mother or father, with *ibn* for men and *saba* or *-sunni* for women (for example, Yamira saba Delihah, Belima Majulasunni, or Assaf ibn Eslam).
+  src:
+    - id: US25001E
+      firstPage: 98
+
+- id: C_3
+  name: "Bornlander"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Festum, Norburg, Notmark, Ouvenmas, Rodebrannt)"
+  commonMundaneProfessions: "all but Gladiator and Tribal Warrior"
+  commonMagicalProfessions: "Witch (mostly Toad and Raven Witches), Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Direction Sense, Resistant to Cold, Rugged Fighter"
+  commonDisadvantages: "Negative Trait (Superstition), Personality Flaw (Prejudices - usually against orcs, goblins, Al’Anfans, and Norbards), Susceptible to Heat"
+  uncommonAdvantages: "Resistant to Heat"
+  commonNames: |
+    - *Male:* Bosjew, Danow, Elkwin, Firunew, Irjan, Jaakon, Jucho, Oswin, Travin, Vito
+    - *Female:* Alwinja, Dunjascha, Elkwinja, Hesinja, Irinja, Jadvine, Karinja, Nadjescha, Rowena, Vanjescha
+    - *Family Names:* Alwinnen, Baerow, Bornski, Firunkis, Gartimpski, Gerberow, Karenkis, Larinow, Saraski, Timpski
+    - *Noble Families:* of Ashford, of Fontdark, of Ouvenstem, of Salderkeim, of Wosna
+  src:
+    - id: US25001E
+      firstPage: 99
+
+- id: C_4
+  name: "Fjarning"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, home village and surrounding area)"
+  commonMundaneProfessions: "Healer (primarily Healer), Hunter, Mercenary, Merchant (primarily Barterer), Tribal Warrior"
+  commonAdvantages: "Direction Sense, Improved Regeneration (Life Points), Sense of Range, Resistant to Cold"
+  commonDisadvantages: "Afraid of (the Sea), Frenzy,Incompetence in Social Skills, Negative Trait (Superstitious, ShortTemper), Susceptible to Heat"
+  uncommonAdvantages: "Resistant to Heat, Socially Adaptable, Unremarkable Appearance"
+  uncommonDisadvantages: "Afraid of (Darkness, Cramped Spaces, or Heights), Fat, Nightblind, Personality Flaw (Vanity), Sensitive to Pain, Susceptible to Cold, Susceptible to Disease"
+  commonNames: |
+    - *Male:* Asgold, Blotgrim, Engur, Frunobar, Gjallur, Havgrimur, Pandur, Raluf, Surthor, Valbrandar
+    - *Female:* Asgora, Dandagard, Funudara, Gunnlaug, Halfga, Jaldrud, Rangra, Svannlaug, Ulfgard, Ylwa
+    - *Known Tribes:* Doubleax-Tribe, Icefox-Tribe, Screaming-Swords-Tribe
+
+    Family names are uncommon; honorable names like Bearkiller, Frostblade, or Lurking Death are popular.
+  src:
+    - id: US25001E
+      firstPage: 102
+
+- id: C_5
+  name: "Horasian"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Arivor, Belhanka, Bethana, Grangor, Kuslik, Methumis, Neetha, Vinsalt)"
+  commonMundaneProfessions: "all but Gladiator, Knight, and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Peraine, Blessed One of Phex, Blessed One of Praios, Blessed One of Rondra"
+  commonAdvantages: "Socially Adaptable"
+  commonDisadvantages: "Personality Flaw (Arrogance, Vanity, Prejudices - usually against foreigners)"
+  uncommonAdvantages: "Aptitude with Nature Skills"
+  uncommonDisadvantages: "Afraid of... (Cramped Spaces)"
+  commonNames: |
+    - *Male:* Alricio, Baduin, Carolan, Cusimo, Duardo, Horadan, Jacopo, Phedro, Quendan, Rondrigo
+    - *Female:* Ardare, Carisia, Elaria, Gylvana, Hesindiane, Pamina, Quedora, Rahjamande, Sanya, Sharina
+    - *Family Names:* Bosvani, Caranda, Delicado, Marnion, Melior, Novacasa, Spinola, Torrean, Ulfaran, Vansanti
+    - *Noble Families:* Barazza, Casibelli, Cavarno, Marcia, Sulvano
+
+    Nobles usually place a *dy* between first and family name, as in Ardare dy Casibelli.
+  src:
+    - id: US25001E
+      firstPage: 103
+
+- id: C_6
+  name: "Maraskan"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Boran, Jergan, Sinoda, Tuzak)"
+  commonMundaneProfessions: "all but Gladiator, Knight, and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonAdvantages: "Direction Sense, Resistant to Disease, Resistant to Heat, Resistant to Poison, Socially Adaptable"
+  commonDisadvantages: "Negative Trait (Curious), Personality Flaw (Arrogance, Prejudices - mostly against Middenrealmers)"
+  uncommonAdvantages: "Resistant to Cold"
+  uncommonDisadvantages: "Afraid of (Insects), Colorblind, Negative Trait (Short Temper)"
+  commonNames: |
+    - *Male:* Alrech, Brinziber, Denderan, Dshindziber, Feruziber, Firold, Gerbaldijian, Mulziber, Perjin, Vegsziber
+    - *Female:* Bekasabu, Dajida, Fathimajida, Garasab, Harikajida, Madajida, Shinojida, Tsarysham, Yasindajida, Zulamidjida
+
+    Family names are uncommon, but often a home town or nickname is included in the name, such as Vegziber from Sinoda, or Dajida the Swift.
+  src:
+    - id: US25001E
+      firstPage: 104
+
+- id: C_7
+  name: "Mhanadistani"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example Fasar, Khunchom, Rashdul, Thalusa)"
+  commonMundaneProfessions: "all but Knight and Tribal Warrior"
+  commonMagicalProfessions: "Witch (mostly Cat Witches), Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Luck, Resistant to Heat, Socially Adaptable"
+  commonDisadvantages: "Negative Trait (Curiosity, Greed, Superstitious), Personality Flaw (Prejudices— mostly against Novadi, Middenrealmers, Aranians, women, Maraskans, and Vanity), Sensitive to Pain"
+  uncommonAdvantages: "Resistant to Cold"
+  uncommonDisadvantages: "Afraid of... (Cramped Spaces, Crowds)"
+  commonNames: |
+    - *Male:* Abu, Cherek, Dshadir, Farsid, Hamar, Ismeth, Jassafer, Kasim, Shafir, Tarek
+    - *Female:* Chanya, Demeya, Djamilla, Kerime, Manjula, Nassiban, Palmeya, Sajida, Yeshina, Zulhamin
+    - *Honorifics for Men:* al-Ahjan (the combative), al-Ahmad (the avenger), al-Alam (the scholar), al-Ankhra (the lion), Al-Fessor (the cunning)
+    - *Honorifics for Women:* al-Jamila (the beautiful), as- Shabra (the shining), as-Shaya (jewel), as-Sarjaban (Aranian cat), bint-al-Laila (daughter of night)
+
+    Names are connected to the name of the mother or father, using *ibn* for men and *saba* or *-sunni* for women. Examples: Djamilla saba Kerime, Zulhamin Yeshinasunni or Cherek ibn Hamar.
+  src:
+    - id: US25001E
+      firstPage: 105
+
+- id: C_8
+  name: "Middenrealmer"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Angbar, Elenvina, Gareth, Griffonsford, Havena, Punin)"
+  commonMundaneProfessions: "all but Tribal Warrior; Gladiators are very rare"
+  commonMagicalProfessions: "Witch, Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Luck"
+  commonDisadvantages: "Negative Trait (Superstition), Personality Flaw (Prejudices - mostly against heathens, elves, orcs, goblins, and non-Middenrealmers)"
+  uncommonAdvantages: "Resistant to Cold, Resistant to Heat"
+  commonNames: |
+    - *Male:* Alrik, Cordovan, Darian, Erlan, Gerion, Hagen, Praiodan, Refardeon, Viburn, Yendor
+    - *Female:* Alena, Caya, Dorlen, Elwene, Fiana, Khorena, Oleana, Quisira, Sannah, Xaviera
+    - *Family Names:* Alfaran, Berlind, Damotil, Foxfur, Gravesalve, Harnessmaker, Mildflock, Stonecarver, Winterfrost, Zandor
+    - *Noble Families:* of the Mountain, of Galahan, of Mersingen, of Streitzig, of Stormrock
+  src:
+    - id: US25001E
+      firstPage: 107
+
+- id: C_9
+  name: "Mohas"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example village and surrounding area)"
+  commonMundaneProfessions: "Healer, Hunter (mostly Trapper), Mercenary, Merchant (mostly Barterer), Tribal Warrior"
+  commonAdvantages: "Contortionist, Direction Sense,Good Looks, Resistant to Heat, Resistant to Poison"
+  commonDisadvantages: "Afraid of (Cramped Spaces, the Sea, the Dead, and the Undead), Decreased Spirit, Negative Trait (Curious, Superstitious), Personality Flaw (Prejudices - mostly against non-Mohas), Susceptible to Cold"
+  uncommonAdvantages: "Resistant to Cold"
+  uncommonDisadvantages: "Afraid of (Heights, Insects, Reptiles, or Spiders), Incompetent with Nature Skills, Negative Trait (Greed), Nightblind, Personality Flaw (Vanity), Susceptible to Disease"
+  commonNames: |
+    - *Forest Folk:* Cankuna (Nimble), Kehala (Turtle), Takete (One Whose Hand is Always Bloody), Wapiya (One Whose Hands Do Good), Yako (Cat, Great Cat)
+    - *Utulu:* Kalimba, Mangabe, Shasiwatu, Tenkile, Usuthu
+    - *Tocamuyac:* Anakena, Ataranga, Kiri, Miru, Rano
+    - *Known Tribes:* Anoiha, Chirakah, Darna, Haipu, Keke-Wanaq, Miniwatu, Mohaha, Napewanha, Oijaniha, Panaq-Si, Ruwangi, Shokubunga, Tocamuyac
+
+    Mohish names are suitable for both females and males.
+  src:
+    - id: US25001E
+      firstPage: 109
+
+- id: C_10
+  name: "Nivese"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, a stretch of land)"
+  commonMundaneProfessions: "Healer, Hunter (primarily Trapper), Mercenary, Merchant (primarily Barterer), Tribal Warrior"
+  commonAdvantages: "Direction Sense, Resistant to Cold"
+  commonDisadvantages: "Afraid of (Cramped Spaces, Heights, the Dead, and the Undead)"
+  uncommonAdvantages: "Resistant to Heat, Socially Adaptable"
+  uncommonDisadvantages: "Fat, Negative Trait (Greed), Personality Flaw (Arrogance)"
+  commonNames: |
+    - *Male:* Arko, Eiko, Garnan, Hunjok, Jurtan, Kinajo, Latu, Nerkjo, Tamperen, Valen
+    - *Female:* Amuri, Dana, Geika, Jalani, Kantala, Liskaju, Myrra, Nirka, Saari, Vaala
+    - *Known Tribes:* Hokke, Rika-Lie, Takku, Lieska-Leddu, Lieska-Lärna
+  src:
+    - id: US25001E
+      firstPage: 110
+
+- id: C_11
+  name: "Norbards"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, a stretch of road)"
+  commonMundaneProfessions: "Healer, Hunter, Mercenary, Merchant, Rogue"
+  commonMagicalProfessions: "Witch, Mage (rare)"
+  commonBlessedProfessions: "Blessed One of Hesinde, Blessed One of Phex"
+  commonAdvantages: "Direction Sense, Resistant to Cold"
+  commonDisadvantages: "Afraid of (Cramped Spaces or Heights), Negative Trait (Curious, Greed), Obligations (to the family)"
+  uncommonAdvantages: "Resistant to Heat"
+  uncommonDisadvantages: "Personality Flaw (Arrogance), Principles (any kind)"
+  commonNames: |
+    - *Male:* Aikul, Beril, Darjew, Fadril, Jagotin, Kergil, Laromir, Mikail, Radul, Tuljew
+    - *Female:* Barina, Dagris, Eika, Hetinka, Janka, Kolja, Lexaja, Olja, Slanka, Tuminka
+    - *Family Names:* Aljeff, Bolscheff, Choprutin, Dagoneff, Garkinen, Janig, Koranzig, Kowalejeff, Lugoltin, Sewerin
+  src:
+    - id: US25001E
+      firstPage: 111
+
+- id: C_12
+  name: "Northern Aventurian"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Enqui, Oblarasim, Paavi, Riva, Uhdenberg)"
+  commonMundaneProfessions: "all but Gladiator and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Direction Sense, Sense of Range, Rugged Fighter"
+  commonDisadvantages: "Afraid of (Cramped Spaces), Negative Trait (Superstitious)"
+  uncommonAdvantages: "Resistant to Heat"
+  uncommonDisadvantages: "Susceptible to Disease"
+  commonNames: |
+    Northern Aventurians can use Middenrealmish, Nivese, Norbarsian, or Thorwalian names, depending on their ancestry.
+  src:
+    - id: US25001E
+      firstPage: 112
+
+- id: C_13
+  name: "Nostrian"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Nostria-Town, Salza, Salzerhaven)"
+  commonMundaneProfessions: "all but Gladiator and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Direction Sense, Rugged Fighter"
+  commonDisadvantages: "Negative Trait (Superstitious), Personality Flaw (Prejudices - usually against Andergastans; Unworldly - usually Progress and Life outside the kingdom)"
+  uncommonAdvantages: "Socially Adaptable"
+  uncommonDisadvantages: "Susceptible to Disease"
+  commonNames: |
+    - *Male:* Ablasion, Basilio, Dorleno, Ingvalion, Jasper, Kasimir, Modeno, Sapertyn, Valputrio, Zarquisio
+    - *Female:* Asmodette, Caristhea, Doranthe, Elida, Gloranthe, Kasmira, Mafizia, Nostriane, Sieghelmina, Yasmina
+    - *Family Names:* Adabasio, Almondfine, Elgeryn, Fishling, Furier, Grudgebag, Linenweaver, Nosterwhite, Salterin, Wilmhold
+    - *Noble Families*: of Fishpond, of Salza, of Salzerhaven, of Sappenstiel, of Vesselbek
+  src:
+    - id: US25001E
+      firstPage: 113
+
+- id: C_14
+  name: "Novadi"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Keft, Mherwed, Unau)"
+  commonMundaneProfessions: "all but Gladiator and Knight"
+  commonMagicalProfessions: "Mage (rare)"
+  commonAdvantages: "Difficult to Enchant, Direction Sense, Resistant to Heat, Rugged Fighter, Sense of Range"
+  commonDisadvantages: "Afraid of (Cramped Spaces, the Sea), Negative Trait (Short Temper, Vengeance), Personality Flaw (Arrogance, Prejudices - mostly against women and unbelievers), Principles (99 Laws)"
+  uncommonAdvantages: "Resistant to Cold"
+  uncommonDisadvantages: "Susceptible to Heat"
+  commonNames: |
+    - *Male:* Abdul, Chadim, Habled, Khorim, Omar, Mustafa, Nareb, Rashid, Said, Zahir
+    - *Female:* Aisha, Eshila, Fadime, Laila, Meriban, Nedime, Oyan, Perishan, Ranchel, Shila
+    - *Known Tribes:* Beni Ankhara, Beni Arrat, Beni Avad, Beni Brachtar, Beni Erkin, Beni Gadang, Beni Kasim, Beni Kharram, Beni Novad, Beni Schebt, Beni Shadif, Beni Szelemjati, Beni Terkui
+
+    Names are connected to the name of the mother or father, with *ben* for men and *saba* or *-sunni* for women. Examples include Nedime saba Shila, Ranchel Oyansunni, or Omar ben Said. Like the Mhanadistani, Novadi use honorifics.
+  src:
+    - id: US25001E
+      firstPage: 114
+
+- id: C_15
+  name: "Southern Aventurian"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region"
+  commonMundaneProfessions: "all but Knight and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Resistant to Heat, Socially Adaptable"
+  commonDisadvantages: "Negative Trait (Curious, Greed, Short Temper, Superstition), Personality Flaw (Arrogance, Vanity), Susceptible to Cold"
+  uncommonAdvantages: "Resistant to Cold"
+  uncommonDisadvantages: "Afraid of (Cramped Spaces, Gatherings, and the Dead and Undead)"
+  commonNames: |
+    - *Male:* Alondro, Boromeo, Diago, Firunando, Ghorio, Lucan, Mandolo, Nestario, Ramon, Yuan
+    - *Female:* Consuela, Dolorita, Esmeralda, Jesabela, Katalinya, Marchesca, Phelicitas, Rahjadés, Valería, Ximena
+    - *Family Names:* Beratas, Cornio, Delazar, Erabenas, Kalando, Lupinez, Malagro, Nirrano, Ramirez, Santana
+    - *Noble Families:* Bonareth, Florios, Karinor, Paligan, Zornbrecht
+  src:
+    - id: US25001E
+      firstPage: 115
+
+- id: C_16
+  name: "Svellter"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Gashok, Lowangen, Tiefhusen, Tjolmar)"
+  commonMundaneProfessions: "all but Gladiator and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Direction Sense, Sense of Range, Rugged Fighter"
+  commonDisadvantages: "Afraid of (Cramped Spaces), Negative Trait (Superstitious), Personality Flaw (Prejudices - mostly against orcs)"
+  uncommonAdvantages: "Resistant to Heat"
+  uncommonDisadvantages: "Susceptible to Disease"
+  commonNames: |
+    Svellters use the same names as those used in the Middenrealm, but often abbreviate their names and connect them with their appearance or occupation. Examples include Hook Harkon, Knife Jole, or Red Lu. Names are commonly shortened to one syllable.
+  src:
+    - id: US25001E
+      firstPage: 116
+
+- id: C_17
+  name: "Thorwaler"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Olport, Prem, Thorwal-Town, Waskir)"
+  commonMundaneProfessions: "all but Gladiator, Knight, and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonAdvantages: "Direction Sense, Improved Regeneration (Life Points), Luck, Sense of Range, Rugged Fighter"
+  commonDisadvantages: "Frenzy, Negative Trait (Curious, Superstitious, Vengeance), Personality Flaw (Prejudices - mostly against Al’Anfans, lizard folk, Horasians, and whalers)"
+  uncommonAdvantages: "Socially Adaptable"
+  uncommonDisadvantages: "Afraid of (the Sea)"
+  commonNames: |
+    - *Male:* Asleif, Eirik, Frenjar, Garald, Halmar, Laske, Norri, Raskir, Thorwulf, Wulfgrimm
+    - *Female:* Askra, Branda, Eilif, Frenja, Janda, Korja, Norhild, Ragna, Sigrun, Thora
+
+    A secondary name is created by combining the first name of a parent with either *-son* or *-dottir*, depending on the offspring’s gender. Examples include Eirk Halmarson, or Ragna Frenjasdottir. A traditional wrestling match between the parents often settles whose name is used as the secondary.
+  src:
+    - id: US25001E
+      firstPage: 117
+
+- id: C_18
+  name: "Cyclopean"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (Rethis or Teremon, for example)"
+  commonMundaneProfessions: "all but Knight and Tribal Warrior"
+  commonMagicalProfessions: "Witch, Mage"
+  commonBlessedProfessions: "Blessed One of Boron, Blessed One of Hesinde, Blessed One of Praios, Blessed One of Peraine, Blessed One of Phex, Blessed One of Rondra"
+  commonAdvantages: "Aptitude with Swimming, Beautiful Voice, Direction Sense, Good Looks, Sense of Range"
+  commonDisadvantages: "Personality Flaw (arrogance, vanity, prejudices - usually against Thorwalers)"
+  uncommonAdvantages: "Resistant to Cold"
+  uncommonDisadvantages: "Afraid of (the Sea)"
+  commonNames: |
+    - *Male:* Amenelaos, Dariyon, Hephestaios, Kalchas, Meneander, Mermydion, Peleïston, Praiokles, Rahjenÿsios, Ximater
+    - *Female:* Efferdiana, Insina, Korïna, Lanike, Myrtale, Nermaka, Phylinna, Phÿllis, Sapeïdra, Telemache
+    - *Family Names:* Armedos, Calakis, Egorythios, Garothis, Kalidas, Merogios, Phÿrikos, Sphareïos, Tymemdios, Uÿis
+  src:
+    - id: US25001E
+      firstPage: 101
+
+- id: C_19
+  name: "Glade Elves"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, village and surrounding area)"
+  commonMagicalProfessions: "Spell Weaver, Wyldrunner"
+  commonAdvantages: "Aptitude with Craft Skills (usually Sailing), Magical Attunement (Creature of the Glades), Weapon Aptitude (usually Bows)"
+  commonDisadvantages: "Bound to Artifact (Soul Instrument), Negative Trait (Curious), Personality Flaw (Arrogance; Prejudice - usually against nonelves; Unworldly - usually with Property and Gods), Principles (Elven Worldview)"
+  uncommonAdvantages: "Aptitude with Knowledge Skills"
+  uncommonDisadvantages: "Incompetent with Physical and Nature Skills, Negative Trait (Greedy, Vengeance)"
+  commonNames: |
+    - *Male:* Adalarion, Alarion, Caerleon, Delayar, Dendayar, Edorion, Elanor, Feysiriel, Lindariel, Navarion
+    - *Female:* Alaniel, Caerleon, Daleone, Eldariel, Gailanoe, Lauriel, Mandara, Rhianna, Sanyadriel, Valandriel
+    - *Family Names*: Birchleaf, Dewshine, Lightmoss, Seamoon, Squirrelgreet
+
+    Elves have a first name and a family name.
+  src:
+    - id: US25001E
+      firstPage: 119
+
+- id: C_20
+  name: "Firnelves"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, village and surrounding area)"
+  commonMagicalProfessions: "Spell Weaver, Wyldrunner"
+  commonAdvantages: "Aptitude for Physical and Nature Skills, Direction Sense, Magical Attunement (Creature of the Ice), Resistant to Cold, Weapon Aptitude (usually bows and thrown weapons)"
+  commonDisadvantages: "Bound to Artifact (Soul Instrument), Incompetent in Knowledge Skills, Personality Flaw (Arrogance, Prejudices - usually against non-elves; Unworldly – usually Nobles, Property, Money, Gods, Hierarchies, and Religion), Principles (Elven Worldview)"
+  uncommonAdvantages: "Aptitude with Knowledge Skills, Socially Adaptable"
+  uncommonDisadvantages: "Afraid of (Darkness, Cramped Spaces), Incompetence with Physical and Nature Skills, Negative Trait (Greed, Vengeance), Susceptible to Cold"
+  commonNames: |
+    - *Male:* Alriel, Delavar, Eldariel, Ilcoron, Mandaniel, Mandrion, Osagiel, Sanyarin
+    - *Female:* Alari, Calenleya, Elayoé, Fiannon, Mandiniel, Nioniel, Peaolé, Saleniome, Teleria, Zairi
+    - *Family Names:* Arrowflight, Frostnight, Icecrystal, Snow-on-the-Peaks, Whiteheart
+
+    Elves have a first name and a family name.
+  src:
+    - id: US25001E
+      firstPage: 118
+
+- id: C_21
+  name: "Wood Elves"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, village and surrounding area)"
+  commonMagicalProfessions: "Spell Weaver, Wyldrunner"
+  commonAdvantages: "Aptitude for Physical and Nature Skills, Magical Attunement (Creature of the Forest), Weapon Aptitude (usually Bows)"
+  commonDisadvantages: "Afraid of… (Cramped Spaces), Bound to Artifact (Soul Instrument), Incompetent with Knowledge Skills, Personality Flaw (Arrogance; Prejudice – usually against non-elves; Unworldly – usually with Nobles, Property, Money, Gods, Hierarchies, and Religion), Principles (Elven Worldview)"
+  uncommonAdvantages: "Aptitude with Knowledge Skills, Socially Adaptable"
+  uncommonDisadvantages: "Incompetent with Physical and Nature Skills, Negative Trait (Greed, Short Temper, Vengeance)"
+  commonNames: |
+    - *Male:* Albion, Cinamion, Elbrenell, Fermion, Floriel, Imion, Lorion, Mandriel, Nurhavalon, Saladir
+    - *Female:* Allacaya, Cairlinn, Déhaoine, Feyaria, Liloé, Miamiel, Oionel, Rilaona, Shayariel, Valaria
+    - *Family Names:* Acorngreet, Duskred, Leaflight, Sunray, Willowpillar
+
+    Elves have a first name and a family name.
+  src:
+    - id: US25001E
+      firstPage: 121
+
+- id: C_22
+  name: "Forge Dwarves"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, dwarf town and surrounding mines)"
+  commonMundaneProfessions: "all but Gladiator, Knight, and Tribal Warrior"
+  commonMagicalProfessions: "Mage (rare)"
+  commonBlessedProfessions: "Blessed One of Rondra (rare)"
+  commonAdvantages: "Aptitude with Craft Skills (usually Earthencraft and Metalworking), Improved Regeneration (Life Points), Rugged Fighter, Weapon Aptitude (usually Crossbows, Impact Weapons, and Two-Handed Impact Weapons)"
+  commonDisadvantages: "Afraid of (the Sea), Negative Trait (Stinginess, Greed), Personality Flaw (Arrogance, Prejudices - usually against lizardfolk and elves), Principles (Dwarven Code of Honor)"
+  uncommonAdvantages: "Socially Adaptable"
+  uncommonDisadvantages: "Afraid of (Darkness or Cramped Spaces), Nightblind, Personality Flaw (Vanity)"
+  commonNames: |
+    - *Male:* Andrash, Ballash, Cobaltosh, Fobosh, Ibralosh, Kirgam, Marnax, Pogolosh, Sordolax
+    - *Female:* Agesha, Borasha, Durga, Hogesha, Lavasha, Norturrima
+
+    Dwarven names consist of a first name plus a “son of [parent]” or “daughter of [parent]” cognomen (for example, Andrash son of Ballash, or Durga daughter of Lavasha).
+  src:
+    - id: US25001E
+      firstPage: 123
+
+- id: C_23
+  name: "Diamond Dwarves"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, dwarf town and surrounding mines)"
+  commonMundaneProfessions: "all but Gladiator, Knight, and Tribal Warrior"
+  commonMagicalProfessions: "Mage (rare)"
+  commonBlessedProfessions: "Blessed One of Hesinde (rare), Blessed One of Phex (rare), Blessed One of Rondra (rare)"
+  commonAdvantages: "Aptitude with Craft Skills (usually Earthencraft and Metalworking), Socially Adaptable"
+  commonDisadvantages: "Afraid of… (the Sea), Negative Trait (Curiosity, Greed, Stinginess), Personality Flaw (Vanity)"
+  uncommonDisadvantages: "Afraid of... (Cramped Spaces), Frenzy, Nightblind"
+  commonNames: |
+    - *Male:* Angrox, Balum, Cratosh, Gandresh, Grotho, Jandrim, Migosh, Norrin, Rabagash, Topash
+    - *Female:* Angalla, Cadrima, Etoscha, Igrima, Magmasha, Segrima
+
+    Dwarven names consist of a first name plus either “son of [parent]” or “daughter of [parent]” (for example, Balum son of Grotho, or Angalla daughter of Segrima).
+  src:
+    - id: US25001E
+      firstPage: 122
+
+- id: C_24
+  name: "Ore Dwarves"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, dwarf town and surrounding mines)"
+  commonMundaneProfessions: "all but Gladiator, Knight, and Tribal Warrior"
+  commonMagicalProfessions: "Mage (rare)"
+  commonAdvantages: "Aptitude for Craft and Knowledge Skills (usually Earthencraft, History, Law, and Metalworking)"
+  commonDisadvantages: "Afraid of… (Heights or the Sea), Negative Trait (Greed, Stinginess), Personality Flaw (Arrogance, Prejudices - usually against non-dwarves)"
+  uncommonAdvantages: "Socially Adaptable"
+  uncommonDisadvantages: "Afraid of… (Darkness, Cramped Spaces), Negative Trait (Curious), Nightblind"
+  commonNames: |
+    - *Male:* Arthag, Brodrosh, Famburash, Grimmbeard, Huramash, Kagrim, Partram, Shrobosh, Tarmosh, Xolgrimm
+    - *Female:* Aurulne, Dorella, Halrima, Korunde, Naresha, Topasa
+
+    Dwarven names consist of a first name and a “son of [parent]” or “daughter of [parent]” cognomens (for example, Grimbeard son of Xolgrimm, or Halrima daughter of Dorella).
+  src:
+    - id: US25001E
+      firstPage: 125
+
+- id: C_25
+  name: "Hill Dwarves"
+  areaKnowledgeShort: "Home region"
+  areaKnowledge: "depending on home region (for example, Angbar)"
+  commonMundaneProfessions: "all but Gladiator, Knight, and Tribal Warrior"
+  commonMagicalProfessions: "Mage (rare)"
+  commonBlessedProfessions: "Blessed One of Peraine (rare)"
+  commonAdvantages: "Aptitude for Craft and Social Skills (Prepare Food), Socially Adaptable"
+  commonDisadvantages: "Afraid of… (the Sea), Negative Trait (Curiosity, Greed)"
+  uncommonDisadvantages: "Afraid of… (Darkness or Cramped Spaces), Frenzy, Nightblind"
+  commonNames: |
+    - *Male:* Artox, Bengram, Dabrash, Gerambalosh, Hargash, Obolosh, Roglom, Tlutash, Xandaresh, Zinkhal
+    - *Female:* Aurea, Caldera, Garesha, Ingrasha, Thuresha, Xolgima
+    - *Sippennamen*: Baghem, Broadpan, Grumling, Hillinger, Kugelin, Sweetbread
+
+    Hill dwarves use first names and family names and disdain the naming traditions used by other dwarves.
+  src:
+    - id: US25001E
+      firstPage: 124
+
+- id: C_26
+  name: "Zahori"
+  areaKnowledgeShort: "Travel Routes"
+  areaKnowledge: "Their travel route(s)"
+  commonMundaneProfessions: "Bard, Performer, Merchant, Healer, Rogue"
+  commonMagicalProfessions: "Magic Dilettante, Witch, Arcane Dancer (only Hazaqi)"
+  commonBlessedProfessions: "Blessed One of Phex"
+  commonAdvantages: "Ambidextrous, Contortionist, Direction Sense, Fox Sense, Nimble"
+  commonDisadvantages: "Frenzy, Negative Trait (Short Temper, Vengeance), Poor"
+  uncommonAdvantages: "Inspire Confidence, Noble, Rich"
+  uncommonDisadvantages: "Principles"
+  commonNames: |
+    - *Male:* Bahilo, Carryo, Fahi, Ippolito, Madayano, Nadir, Qamal, Uovolo, Xamal, Zaphirio
+    - *Female:* Avaris, Esfera, Jadira, Korima, Layana, Nuerta, Qitana, Ta'ira, Virashida, Ziqati
+    - *Family Names:* Alfahan, Cruento, Espadîn, Facundia, Nevasca, Pelâgatos, Silfide, Soleado, Vaharada, Zhulhamor
+  src:
+    - id: US25004E
+      firstPage: 229

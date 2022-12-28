@@ -1,0 +1,320 @@
+- id: P_1
+  name: "Bardo"
+  suggestedAdvantages: "Boa Aparência, Socialmente Adaptável, Voz Bonita"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Vaidade), Traço Negativo (Curiosidade)"
+  unsuitableDisadvantages: "Feiura"
+  src:
+    - id: US25001E
+      firstPage: 132
+
+- id: P_2
+  name: "Guarda"
+  suggestedAdvantages: "Pontos de Vida Aumentados, Regeneração Aprimorada (Pontos de Vida), Tenacidade Aumentada"
+  suggestedDisadvantages: "Falha De Personalidade (Arrogância), Obrigações II (prefeito, conselho, vila, nobre, etc.)"
+  unsuitableDisadvantages: "Frenesi, Mudez, Regeneração Fraca (Pontos de Vida)"
+  src:
+    - id: US25001E
+      firstPage: 139
+
+- id: P_3
+  name: "Artista"
+  suggestedAdvantages: "Aptidão em Perícias Físicas, Boa Aparência, Contorcionista, Sentido de Alcance, Voz Bonita"
+  suggestedDisadvantages: "Traço Negativo (Superstição, Curiosidade, Vingança), Falha De Personalidade (Vaidade, Inveja)"
+  unsuitableDisadvantages: "Cegueira, Cegueira Noturna, Frenesi, Incompetência com Perícias Físicas, Medo de... (Altura)."
+  src:
+    - id: US25001E
+      firstPage: 131
+
+- id: P_4
+  name: "Gladiador"
+  suggestedAdvantages: "Ambidestria, Boa Aparência, Lutador Robusto, Pontos de Vida Aumentados, Regeneração Aprimorada (Pontos De Vida), Tenacidade Aumentada"
+  suggestedDisadvantages: "Falha de Personalidade (Vaidade), Frenesi"
+  unsuitableAdvantages: "Aptidão com Perícias Sociais"
+  unsuitableDisadvantages: "Regeneração Fraca (Pontos de Vida), Obesidade, Sensível a dor, Tenacidade Reduzida"
+  src:
+    - id: US25001E
+      firstPage: 138
+
+- id: P_5
+  name: "Mercador"
+  suggestedAdvantages: "Aptidão com Perícias Sociais, Relógio Interno, Socialmente Adaptável, Voz Bonita"
+  suggestedDisadvantages: "Traço Negativo (Mesquinhez, Avareza), Falha De Personalidade (Inveja)"
+  unsuitableDisadvantages: "Cegueira, Falha De Personalidade (Indiferente), Feiura, Frenesi"
+  src:
+    - id: US25001E
+      firstPage: 144
+
+- id: P_6
+  name: "Curandeiro"
+  suggestedAdvantages: "Imunidade a (Doença), Imunidade a (Veneno), Resistente à Doenças, Resistente a Venenos"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Vaidade), Traço Negativo (Avareza)"
+  unsuitableDisadvantages: "Medo de (Sangue, Mortos e Mortos-Vivos), Suscetível a Doenças, Suscetível a Venenos"
+  src:
+    - id: US25001E
+      firstPage: 136
+
+- id: P_7
+  name: "Cortesão"
+  suggestedAdvantages: "Lutador Robusto, Senso de Direção, Sentido de Alcance, Sentido Excepcional (Audição ou Visão)"
+  suggestedDisadvantages: "Falha De Personalidade (Arrogância, Inveja, Vaidade), Traço Negativo (Avareza, Mau Humor, Mesquinhez, Vingança)"
+  unsuitableAdvantages: "Aptidão com Perícias de Ofício"
+  unsuitableDisadvantages: "Frenesi, Incompetência em Perícias Sociais"
+  src:
+    - id: US25001E
+      firstPage: 135
+
+- id: P_8
+  name: "Caçador"
+  suggestedAdvantages: "Direction Sense, Exceptional Sense (Hearing or Sight), Rugged Fighter, Sense of Range"
+  suggestedDisadvantages: "Medo de... (Espaços Fechados)"
+  unsuitableAdvantages: "Socialmente Adaptável"
+  unsuitableDisadvantages: "Cegueira Noturna, Medo de (Escuridão)"
+  src:
+    - id: US25001E
+      firstPage: 134
+
+- id: P_9
+  name: "Guerreiro"
+  suggestedAdvantages: "Ambidestria, Aptidão com Armas, Lutador Robusto, Pontos De Vida Aumentados, Regeneração Aprimorada (Pontos De Vida), Socialmente Adaptável"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Vaidade), Obrigações II (Empregador), Princípios I-II (código do guerreiro, comportamento honrado, proteger os fracos)"
+  unsuitableAdvantages: "Conjurador"
+  unsuitableDisadvantages: "Frenesi, Obesidade, Regeneração Fraca (Pontos de Vida), Sensível a Dor"
+  src:
+    - id: US25001E
+      firstPage: 140
+
+- id: P_11
+  name: "Cavaleiro"
+  suggestedAdvantages: "Ambidestria, Boa Aparência, Lutador Robusto, Pontos de Vida Aumentados, Regeneração Aprimorada (Pontos De Vida), Rico, Socialmente Adaptável"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Vaidade), Obrigações II (Vassalagem), Princípios I-II (códice da cavalaria, comportamento honrado, proteger os fracos)"
+  unsuitableDisadvantages: "Frenesi, Obesidade, Regeneração Fraca (Pontos De Vida)"
+  src:
+    - id: US25001E
+      firstPage: 133
+
+- id: P_12
+  name: "Marinheiro"
+  suggestedDisadvantages: "Traço Negativo (Superstição, Pavio Curto)"
+  unsuitableDisadvantages: "Medo de... (Altura, Mar)"
+  src:
+    - id: US25001E
+      firstPage: 143
+
+- id: P_13
+  name: "Mercenário"
+  suggestedAdvantages: "Pontos De Vida Aumentados, Regeneração Aprimorada (Pontos De Vida), Senso De Direção"
+  suggestedDisadvantages: "Traço Negativo (Superstição, Pavio Curto)"
+  unsuitableDisadvantages: "Princípios, Regeneração Fraca (Pontos De Vida)"
+  src:
+    - id: US25001E
+      firstPage: 145
+
+- id: P_14
+  name: "Espião"
+  suggestedAdvantages: "Relógio Interno, Sentido excepcional (Audição ou Visão), Socialmente Adaptável"
+  unsuitableDisadvantages: "Traço Negativo (Pavio Curto)"
+  src:
+    - id: US25001E
+      firstPage: 137
+
+- id: P_15
+  name: "Guerreiro Tribal"
+  suggestedAdvantages: "Aptidão com Armas, Lutador Robusto, Pontos De Vida Aumentados, Regeneração Aprimorada (Pontos De Vida), Senso De Direção"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Preconceito — especialmente contra pessoas de fora da tribo), Frenesi, Obrigação I-II (família), Traço Negativo (Pavio Curto, Superstição, Vingança)"
+  unsuitableAdvantages: "Aptidão com Perícias Sociais, Socialmente Adaptável"
+  unsuitableDisadvantages: "Lento, Obesidade, Regeneração Fraca (Pontos de Vida), Sensível a Dor"
+  src:
+    - id: US25001E
+      firstPage: 141
+
+- id: P_16
+  name: "Ladino"
+  suggestedAdvantages: "Aptidão em Perícias Sociais, Boa Aparência, Socialmente Adaptável, Voz Bonita"
+  suggestedDisadvantages: "Traço Negativo (Avareza, Curiosidade, Superstição), Falha De Personalidade (Vaidade)"
+  unsuitableAdvantages: "Frenesi"
+  src:
+    - id: US25001E
+      firstPage: 142
+
+- id: P_17
+  name: "Guardião Élfico"
+  suggestedAdvantages: "Espírito Aumentado, Senso de Direção, Sentido de Alcance, Visão no Escuro II"
+  suggestedDisadvantages: "Medo de (Espaços Fechados), Traço Negativo (Curiosidade)"
+  unsuitableAdvantages: "Socialmente Adaptável"
+  unsuitableDisadvantages: "Frenesi"
+  src:
+    - id: US25001E
+      firstPage: 150
+
+- id: P_18
+  name: "Feiticeiro Élfico"
+  suggestedAdvantages: "Espírito Aumentado, Senso de Direção, Sentido de Alcance, Visão no Escuro II"
+  suggestedDisadvantages: "Falha De Personalidade (Arrogância), Tenacidade Reduzida, Traço Negativo (Curiosidade)"
+  unsuitableAdvantages: "Socialmente Adaptável"
+  unsuitableDisadvantages: "Frenesi"
+  src:
+    - id: US25001E
+      firstPage: 144
+
+- id: P_19
+  name: "Bruxa-Gato"
+  subname: Bela da Noite
+  suggestedAdvantages: "Aura escondida, Ágil, Boa Aparência, Cheiro Agradável, Resistente ao Envelhecimento (apenas para as nascidas de um ovo), Socialmente Adaptável"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Vaidade), Sem Familiar, Sem Unguento de Voo, Traço Negativo (Avareza, Vingança)"
+  unsuitableAdvantages: "Lutador Robusto"
+  unsuitableDisadvantages: "Feiura, Medo de (Altura)"
+  src:
+    - id: US25001E
+      firstPage: 147
+
+- id: P_20
+  name: "Bruxa-Sapo"
+  subname: Filha da Terra
+  suggestedAdvantages: "Aura Escondida, Regeneração Aprimorada (Energia Arcana), Resistente ao Envelhecimento (apenas para as nascidas de um ovo)"
+  suggestedDisadvantages: "Falha de Personalidade (Indiferença), Medo de (Fogo), Peculiaridade Física, Poder Ligado aos Cabelos, Sem Unguento de Voo, Sem Familiar"
+  unsuitableAdvantages: "Lutador Robusto, Socialmente Adaptável"
+  src:
+    - id: US25001E
+      firstPage: 148
+
+- id: P_21
+  name: "Bruxa-Corvo"
+  subname: Vidente do Hoje e do Amanhã
+  suggestedAdvantages: "Aura Escondida, Resistente ao Envelhecimento (apenas para as nascidas de um ovo)"
+  suggestedDisadvantages: "Falha De Personalidade (Vaidade), Sem Familiar, Sem Unguento de Voo, Traço Negativo (Avareza, Curiosidade, Vingança)"
+  unsuitableAdvantages: "Lutador Robusto"
+  unsuitableDisadvantages: "Frenesi"
+  src:
+    - id: US25001E
+      firstPage: 146
+
+- id: P_22
+  name: "Mago sem Guilda"
+  subname: Aluno de Mestre Dagabor
+  suggestedAdvantages: "Espírito Aumentado, Regeneração Aprimorada (Energia Arcana)"
+  suggestedDisadvantages: "Falha de Personalidade (Vaidade, Indiferente), Obrigações II (Professor), Traço Negativo (Curiosidade)"
+  unsuitableDisadvantages: "Espírito Reduzido, Frenesi, Regeneração Fraca (Energia Arcana)"
+  src:
+    - id: US25001E
+      firstPage: 154
+
+- id: P_23
+  name: "Mago Cinzento"
+  subname: Escola de Transformação de Bombaixio
+  suggestedAdvantages: "Espírito Aumentado, Regeneração Aprimorada (Energia Arcana)"
+  suggestedDisadvantages: "Falha de Personalidade (Indiferente, Vaidade), Obrigações II (Academia ou a vila de Bombaixio), Princípios I (ajudar os feridos independente do status, cultura ou raça; pacifismo; visão de mundo natural dos elfos), Traço Negativo (Curiosidade)"
+  unsuitableDisadvantages: "Espírito Reduzido, Falha de Personalidade (Preconceito), Frenesi, Medo de... (Mortos e Mortos-Vivos), Regeneração Fraca (Energia Arcana)"
+  src:
+    - id: US25001E
+      firstPage: 152
+
+- id: P_24
+  name: "Mago Sombrio"
+  subname: Academia do Poder Mental de Fasar
+  suggestedAdvantages: "Espírito Aumentado, Regeneração Aprimorada (Energia Arcana)"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Vaidade), Obrigações II (Academia, ou professores específicos da Academia), Traço Negativo (Curiosidade, Avareza)"
+  unsuitableDisadvantages: "Espírito Reduzido, Frenesi, Regeneração Fraca (Energia Arcana)"
+  src:
+    - id: US25001E
+      firstPage: 153
+
+- id: P_25
+  name: "Mago Puro"
+  subname: Academia Garetiana da Espada e do Cajado
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "proteger o Meridiano e a nobreza, fé nos Doze Divinos, veracidade"
+  suggestedAdvantages: "Espírito Aumentado, Regeneração Aprimorada (Energia Arcana)"
+  suggestedDisadvantages: "Falha de Personalidade (Vaidade), Obrigações II (academia ou professor), Traço Negativo (Curiosidade)"
+  unsuitableDisadvantages: "Espírito Reduzido, Frenesi, Regeneração Fraca (Energia Arcana)"
+  src:
+    - id: US25001E
+      firstPage: 151
+
+- id: P_26
+  name: "Abençoado de Boron"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "templo, igreja"
+  suggestedAdvantages: "Imunidade a (Doença), Imunidade a (Veneno), Místico, Pragmático, Relógio Interno, Resistente a Doenças, Resistente a Venenos"
+  suggestedDisadvantages: "Sensível a Luz Solar"
+  unsuitableAdvantages: "Inspirar Confiança"
+  unsuitableDisadvantages: "Cegueira Noturna, Medo de (Mortos e Mortos-Vivos), Sonâmbulo, Suscetível a Doenças, Suscetível a Venenos"
+  src:
+    - id: US25001E
+      firstPage: 155
+
+- id: P_27
+  name: "Abençoado de Hesinde"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "templo, igreja"
+  suggestedAdvantages: "Espírito Aumentado, Inspirar Confiança, Místico, Pragmático, Relógio Interno"
+  suggestedDisadvantages: "Traço Negativo (Curiosidade)"
+  unsuitableDisadvantages: "Frenesi"
+  src:
+    - id: US25001E
+      firstPage: 156
+
+- id: P_28
+  name: "Abençoado de Peraine"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "templo, igreja"
+  suggestedAdvantages: "Espírito aumentado, Imunidade a (Doença), Imunidade a (Veneno), Inspirar Confiança, Místico, Pragmático, Resistente a Doenças, Socialmente Adaptável"
+  unsuitableAdvantages: "Rico"
+  unsuitableDisadvantages: "Frenesi, Suscetível a Doenças, Suscetível a Venenos, Traço Negativo (Avareza)"
+  src:
+    - id: US25001E
+      firstPage: 157
+
+- id: P_29
+  name: "Abençoado de Phex"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "templo, igreja"
+  suggestedAdvantages: "Ágil, Ambidestria, Aparência Comum, Místico, Nariz de Anão, Pragmático, Sentido de Alcance, Sorte"
+  suggestedDisadvantages: "Traço Negativo (Avareza, Curiosidade)"
+  unsuitableDisadvantages: "Cegueira Noturna, Frenesi, Má Sorte"
+  src:
+    - id: US25001E
+      firstPage: 158
+
+- id: P_30
+  name: "Abençoado de Praios"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "templo, igreja"
+  suggestedAdvantages: "Difícil de Enfeitiçar, Espírito Aumentado, Inspirar Confiança, Místico, Pragmático, Relógio Interno"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Vaidade)"
+  unsuitableAdvantages: "Conjurador"
+  unsuitableDisadvantages: "Frenesi"
+  src:
+    - id: US25001E
+      firstPage: 159
+
+- id: P_31
+  name: "Abençoado de Rondra"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "templo, igreja"
+  suggestedAdvantages: "Aptidão com Armas, Espírito Aumentado, Inspirar Confiança, Lutador Robusto, Místico, Pontos De Vida Aumentados, Pragmático, Rico, Técnica de Combate Excepcional, Tenacidade Aumentada"
+  suggestedDisadvantages: "Falha de Personalidade (Arrogância, Vaidade)"
+  unsuitableDisadvantages: "Incompetência em Perícias Físicas, Medo de..., Lento, Sensível a Dor"
+  src:
+    - id: US25001E
+      firstPage: 160

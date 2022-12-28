@@ -1,0 +1,428 @@
+- id: SPELL_184
+  name: "Melodie der Angriffslust"
+  nameByTradition:
+    - id: 3
+      name: "Ögnirs Zwietracht"
+  effect: |
+    Diese Melodie sät Zwietracht und Zorn unter den Zuhörern. Alle Zuhörer, deren Seelenkraft 2 oder niedriger ist, erhalten die Schlechte Eigenschaft Jähzorn, sofern sie sie nicht schon haben. Während die Melodie erklingt, müssen sie eine Probe auf *Willenskraft (Einschüchtern widerstehen)* erschwert um QS/2 bestehen, um nicht einen Streit mit anderen Zuhörern anzufangen. Wer bereits Jähzorn besitzt, dessen Probe sollte zusätzlich noch um 1 erschwert werden. Während dieses Streits muss es nicht zu Handgreiflichkeiten kommen. Über die genauen Auswirkungen entscheidet der Spielleiter anhand der Situation und der Proben auf *Willenskraft*.<br>
+    Die Wirkung hält 30 Minuten nach dem Ende der Melodie an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 44
+
+- id: SPELL_185
+  name: "Melodie der Erlösung"
+  nameByTradition:
+    - id: 1
+      name: "Parinors Erlösung"
+  effect: |
+    Durch die Zaubermelodie kann eine einzige Person unter den Zuhörern bestimmt werden, die von Beherrschungsmagie befreit wird. Dabei kann es sich um den Einfluss von Zaubern oder magischen Handlungen handeln.<br>
+    Um den Zauber oder die magische Handlung zu brechen, müssen bei der Melodie mindestens genauso viele QS erreicht werden.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "10 AsP"
+  aeCostShort: "10 AsP"
+  src:
+    - id: US25004
+      firstPage: 44
+    - id: US25102
+      firstPage: 161
+
+- id: SPELL_186
+  name: "Melodie der Ermutigung"
+  nameByTradition:
+    - id: 1
+      name: "Des Schwertkönigs Mut"
+    - id: 2
+      name: "Tapferkeit des All-Einen"
+    - id: 3
+      name: "Ulramnirs Mut"
+  effect: |
+    Bis zu QS ausgewählte Zuhörer werden zuversichtlicher und mutiger. Je nach QS erhalten sie verschiedene Boni. Die Boni sind kumulativ, d. h. bei QS 3 hat das Ziel insgesamt MU +2 und SK +1.<br>
+    Die Wirkung hält 30 Minuten nach dem Ende der Melodie an.
+
+    - **QS 1:** +1 MU
+    - **QS 2:** +1 SK
+    - **QS 3:** +1 MU
+    - **QS 4:** +1 ZK
+    - **QS 5:** +1 MU
+    - **QS 6:** +1 AT
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 44
+
+- id: SPELL_187
+  name: "Melodie der Feen"
+  nameByTradition:
+    - id: 1
+      name: "Farindels Gesang"
+  effect: |
+    Diese Melodie lockt Feenwesen an, wenn sich solche innerhalb des Radius der Zaubermelodie aufhalten oder verstecken. Die Feenwesen können sich mit einer Probe auf *Willenskraft* erschwert um die QS/2 der Melodie gegen das Verlangen zur Wehr setzen, sich zum Ceoladir aufzumachen. Die Fee kann den Ceoladir während der Wirkung der Melodie nicht angreifen, aber sie muss ihm auch nicht zwingend freundlich gegenübertreten. Nach einer gescheiterten Probe ist sie jedoch zumindest neugierig auf den Menschen.<br>
+    Diese Melodie wirkt nicht gegen hohe Feen.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 44
+    - id: US25102
+      firstPage: 161
+
+- id: SPELL_188
+  name: "Melodie der Flammen"
+  nameByTradition:
+    - id: 2
+      name: "Glut der Sonne"
+    - id: 3
+      name: "Dravinas Flammen"
+  effect: |
+    Der Zauberbarde kann mit dieser Zaubermelodie bis zu QS/2 Ziele in Reichweite entflammen lassen. Dabei muss es sich um brennbare, leblose Objekte handeln. Lebewesen können nicht in Brand gesetzt werden. Personen, die brennbare Kleidung tragen, gelten jedoch als *Brennend* (kleine Fläche, siehe **Regelwerk** Seite **341**).<br>
+    Die Wirkung bleibt nach dem Ende der Melodie bestehen, auch wenn der Zauberbarde den Radius der Melodie verlässt. Das Feuer kann manuell gelöscht werden.
+  duration: "kurz, einmalig"
+  durationShort: "kurz"
+  aeCost: "10 AsP"
+  aeCostShort: "10 AsP"
+  src:
+    - id: US25004
+      firstPage: 44
+
+- id: SPELL_189
+  name: "Melodie der Freundschaft"
+  nameByTradition:
+    - id: 1
+      name: "Cuanus Verbrüderung"
+  effect: |
+    Durch den Einsatz dieser Melodie können bis zu QS Personen in Hörweite der Melodie beeinflusst werden. Die Personen dürfen keine schlechtere als eine neutrale Einstellung zum Helden haben (siehe auch **Regelwerk** Seite **288**, Stufe 5 des BANNBALADINS). Ihre Einstellung verbessert sich für die nächsten 24 Stunden um eine Stufe.
+  duration: "kurz, einmalig"
+  durationShort: "kurz"
+  aeCost: "2 AsP für die erste Person + 1 AsP für jede weitere"
+  aeCostShort: "2 AsP + 1 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 45
+    - id: US25102
+      firstPage: 161
+
+- id: SPELL_190
+  name: "Melodie der Geschwindigkeit"
+  nameByTradition:
+    - id: 2
+      name: "Tanz des Derwischs"
+  effect: |
+    Der Derwisch erhält durch diese Melodie +1 GS und +1 Ausweichen.<br>
+    Die Wirkung hält QS x 10 Minuten nach dem Ende der Melodie an.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  src:
+    - id: US25004
+      firstPage: 45
+
+- id: SPELL_191
+  name: "Melodie der Heilung"
+  nameByTradition:
+    - id: 1
+      name: "Gesang der Störchin"
+    - id: 2
+      name: "Rastullahs Güte"
+  effect: |
+    QS vom Barden ausgewählte Zuhörer innerhalb der Hörweite erhalten am Ende der Melodie 1W3 LeP zurück (jede Person würfelt für sich selbst). Ein Zuhörer kann nur einmal am Tag von dieser Wirkung profitieren.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 45
+    - id: US25102
+      firstPage: 161
+
+- id: SPELL_192
+  name: "Melodie der Täuschung"
+  nameByTradition:
+    - id: 3
+      name: "Albische Täuschung"
+  effect: |
+    Bis zu 6 Zuhörer der Sangara sind leichter zu manipulieren und zu täuschen. Proben auf *Menschenkenntnis* sind für die Zuhörer um 1 erschwert. Betroffen sind nur Zuhörer, deren Seelenkraft 2 oder niedriger ist.<br>
+    Die Wirkung hält QS x 10 Minuten nach dem Ende der Melodie an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "4 AsP für die erste Person + 2 AsP für jede weitere"
+  aeCostShort: "4 AsP + 2 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 45
+
+- id: SPELL_193
+  name: "Melodie der Versöhnung"
+  nameByTradition:
+    - id: 3
+      name: "Ögnirs Versöhnung"
+  effect: |
+    Alle Zuhörer, die sich im Streit miteinander befunden haben, legen diesen bei, wenn ihnen nicht eine Probe auf *Willenskraft* erschwert um die QS/2 der Melodie gelingt. Sie müssen aber dadurch keine Freunde sein. Die Wirkung betrifft nur Zuhörer, deren Seelenkraft 2 oder niedriger ist.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "10 AsP"
+  aeCostShort: "10 AsP"
+  src:
+    - id: US25004
+      firstPage: 45
+
+- id: SPELL_194
+  name: "Melodie der Verwirrung"
+  nameByTradition:
+    - id: 1
+      name: "Allein im Farindelwald"
+    - id: 3
+      name: "Zwergische Verwirrung"
+  effect: |
+    Bis zu 6 ausgewählte Zuhörer erhalten für die Dauer der Melodie 2 Stufen *Verwirrung*. Die Wirkung betrifft nur Zuhörer, deren Seelenkraft 2 oder niedriger ist.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 45
+    - id: US25102
+      firstPage: 161
+
+- id: SPELL_195
+  name: "Melodie der Weisheit"
+  nameByTradition:
+    - id: 3
+      name: "Firnirs Ratschlag"
+  effect: |
+    Bis zu 6 ausgewählte Zuhörer werden klüger und scharfsinniger. Je nach QS erhalten sie verschiedene Boni. Diese Boni sind kumulativ, d. h. bei QS 3 hat das Ziel insgesamt KL +2 und SK +1.<br>
+    Die Wirkung hält 30 Minuten nach dem Ende der Melodie an.
+
+    - **QS 1:** +1 KL
+    - **QS 2:** +1 SK
+    - **QS 3:** +1 KL
+    - **QS 4:** +1 SK
+    - **QS 5:** +1 KL
+    - **QS 6:** +1 PA
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 45
+
+- id: SPELL_196
+  name: "Melodie der Wüste"
+  nameByTradition:
+    - id: 2
+      name: "Sturm der Wüste"
+  effect: |
+    Bis zu 6 vom Derwisch ausgewählte freiwillige Personen erhalten eine Erleichterung von 1 bei Proben auf *Reiten* und +1 auf Lanzen-AT.<br>
+    Die Wirkung hält QS x 30 Minuten nach Ende der Melodie an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "4 AsP für die erste Person + 2 AsP für jede weitere"
+  aeCostShort: "4 AsP + 2 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 46
+
+- id: SPELL_197
+  name: "Melodie der Zähigkeit"
+  nameByTradition:
+    - id: 2
+      name: "Der Ruf des Krieges"
+  effect: |
+    Bis zu 6 vom Derwisch ausgewählte Personen erhalten +1 AT und können alle Stufen des Zustands *Schmerz* bis inklusive Stufe III ignorieren. Bei Stufe IV werden sie aber dennoch *Handlungsunfähig*.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 46
+
+- id: SPELL_198
+  name: "Melodie des Bebens"
+  nameByTradition:
+    - id: 3
+      name: "Ingerimms Grollen"
+  effect: |
+    Durch diese Melodie gehen von der Sangara Risse im Boden aus. Die Erde beginnt im Radius der Magie zu beben, allerdings führt dies nicht zu größeren Strukturveränderungen oder Verwerfungen. Außer der Sangara müssen alle im Radius befindlichen Personen eine Probe auf *Körperbeherrschung (Balance)* bestehen. Für jeweils 5 volle Schritt Entfernung vom Zentrum ist die Probe um 1 erleichtert. Ein Misslingen der Probe hat den Status *Liegend* zur Folge.<br>
+    Die Melodie kann nur auf Erdboden oder felsigem Untergrund gewirkt werden. Schnee, Eis, Sumpf, Wasser und ähnliche Untergründe können nicht zum Beben gebracht werden. Auf Schiffen und innerhalb von Gebäuden funktioniert die Magie nicht.<br>
+    Die Wirkung entfaltet sich bereits nach 4–(QS/2) KR vollständig und der Zauberbarde muss nicht weiter singen. Jede Person droht also nur einmal durch eine misslungene Probe hinzufallen, weitere Proben auf *Körperbeherrschung* sind nicht nötig.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  src:
+    - id: US25004
+      firstPage: 46
+
+- id: SPELL_199
+  name: "Melodie des Einlullens"
+  nameByTradition:
+    - id: 1
+      name: "Bishdariels Nachtlied"
+  effect: |
+    Bis zu QS x 2 ausgewählte Zuhörer sind von der Melodie des Barden so fasziniert, dass sie ihm bis zum Ende des Vortrags lauschen (maximal 5 Minuten). Für diese Zeit gelten sie als abgelenkt und erleiden eine Erschwernis von 1 bei allen Proben auf *Sinnesschärfe*.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 46
+
+- id: SPELL_200
+  name: "Melodie des Handels"
+  nameByTradition:
+    - id: 1
+      name: "Phexens Melodie"
+    - id: 2
+      name: "Weisheit des Händlers"
+    - id: 3
+      name: "Frenajas Handel"
+  effect: |
+    Bis zu QS/2 ausgewählte Zuhörer erleiden eine Erschwernis oder eine Erleichterung auf *Handel (Feilschen)* von 1. Dabei kann der Zauberbarde einzelnen ausgewählten Zuhörern beliebig die Erleichterung oder die Erschwernis zuteilen.<br>
+    Die Wirkung betrifft nur Zuhörer, deren Seelenkraft 2 oder niedriger ist, und hält QS x 10 Minuten nach Ende der Melodie an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "4 AsP für die erste Person + 2 AsP für jede weitere"
+  aeCostShort: "4 AsP + 2 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 46
+    - id: US25102
+      firstPage: 162
+
+- id: SPELL_201
+  name: "Melodie des Kampfes"
+  nameByTradition:
+    - id: 1
+      name: "Rondra zur Ehr’"
+  effect: |
+    Bis zu QS vom Barden ausgewählte Personen innerhalb der Reichweite erhalten bis zum Ende der Melodie +1 AT und +1 Verteidigung.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 46
+    - id: US25102
+      firstPage: 162
+
+- id: SPELL_202
+  name: "Melodie des Magieschadens"
+  nameByTradition:
+    - id: 1
+      name: "Rondras Schlachtgesang"
+    - id: 2
+      name: "Stärkung des Gläubigen"
+  effect: |
+    Bis zu QS vom Derwisch ausgewählte und freiwillige Personen werden so von Magie durchdrungen, dass ihre Nahkampfangriffe (gleich ob bewaffnet oder unbewaffnet) als magische Angriffe gelten.<br>
+    Die Wirkung hält QS x 5 Minuten nach dem Ende der Melodie an.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 47
+
+- id: SPELL_203
+  name: "Melodie des Meeres"
+  nameByTradition:
+    - id: 1
+      name: "Belemans Atem"
+    - id: 3
+      name: "Swafnirs Ruf"
+  effect: |
+    Der Zauberbarde kann bis zu 6 ausgewählten freiwilligen Zuhörern beim Steuern eines Bootes oder Schiffes so viel Mut machen, dass die Arbeit einfacher von der Hand geht. Alle Zuhörer erhalten eine Erleichterung von 1 auf Proben auf *Boote & Schiffe*.<br>
+    Die Wirkung hält 12 Stunden nach Ende der Melodie an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "4 AsP für die erste Person + 2 AsP für jede weitere"
+  aeCostShort: "4 AsP + 2 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 47
+
+- id: SPELL_204
+  name: "Melodie des Rausches"
+  nameByTradition:
+    - id: 2
+      name: "Rausch der Giganten"
+  effect: |
+    Bis zu 6 ausgewählte Zuhörer erhalten 2 Stufen *Betäubung*. Von der Wirkung sind nur Personen mit einer SK von 2 oder weniger betroffen.<br>
+    Die Wirkung hält 30 Minuten nach Ende der Melodie an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 47
+
+- id: SPELL_205
+  name: "Melodie des Windes"
+  nameByTradition:
+    - id: 2
+      name: "Atem des All-Einen"
+    - id: 3
+      name: "Efhards Wind"
+  effect: |
+    Die Melodie ruft einen starken Wind herbei, der Sand, Laub oder anderes Material herumwirbelt, und so innerhalb des Radius zu einem Sichtmodifikator von QS/2 führt. Der Zauberbarde ist davon ebenfalls betroffen.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  src:
+    - id: US25004
+      firstPage: 47
+
+- id: SPELL_206
+  name: "Melodie des Zauberschutzes"
+  nameByTradition:
+    - id: 2
+      name: "Rastullahs Schutz"
+    - id: 3
+      name: "Runjas Schutz"
+  effect: |
+    Die Zaubermelodie verleiht bis zu 6 ausgewählten freiwilligen Personen einen Bonus von 1 auf SK und ZK gegen Zauber und magische Handlungen.<br>
+    Die Wirkung hält QS x 10 Minuten nach Ende der Melodie an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP für die erste Person + 4 AsP für jede weitere"
+  aeCostShort: "8 AsP + 4 AsP je zus. P."
+  src:
+    - id: US25004
+      firstPage: 47
+
+- id: SPELL_207
+  name: "Melodie des Zögerns"
+  nameByTradition:
+    - id: 1
+      name: "Ode an Lutisana"
+    - id: 2
+      name: "Zorn des Gottgefälligen"
+  effect: |
+    Bis zu QS x 2 Gegner in Hörweite erleiden durch die Melodie Angst vor dem Barden und seinen Gefährten. Sollte es in den nächsten 5 Minuten zu einem Kampf zwischen beiden Parteien kommen, zögern betroffene Gegner ihre erste Attacke hinaus, auch wenn sie laut Initiative vor dem Barden und seinen Gefährten an der Reihe sind. Einzelne Gegner können sich mit einer Probe auf *Willenskraft* erschwert um QS gegen die Wirkung wehren. Sind mehr Gegner vorhanden, als von der Wirkung betroffen, kann der Barde sich aussuchen, wer davon betroffen sein soll.<br>
+    Nachdem die eigene Seite mindestens eine freie Aktion unternommen hat oder 2 KR vorüber sind, können die Gegner wie gewohnt angreifen. Die Wirkung bezieht sich nur auf Angriffe, nicht auf andere Handlungen. Von der Wirkung sind nur Personen mit einer SK von 2 oder weniger betroffen.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "12 AsP"
+  aeCostShort: "12 AsP"
+  src:
+    - id: US25004
+      firstPage: 47

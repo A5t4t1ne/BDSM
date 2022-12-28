@@ -1,0 +1,8 @@
+- id: 1
+  name: "Courte"
+- id: 2
+  name: "Moyenne"
+- id: 3
+  name: "Longue"
+- id: 4
+  name: "Très longue"

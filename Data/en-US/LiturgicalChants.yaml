@@ -1,0 +1,3336 @@
+- id: LITURGY_1
+  name: "Banish Darkness"
+  effect: |
+    Bright light shines forth from your hand. The light’s intensity varies with QL. The light is considered sunlight.
+
+    - **QL 1:** The light is as bright as a candle.
+    - **QL 2:** The light is as bright as a torch.
+    - **QL 3:** The light is as bright as a campfire.
+    - **QL 4:** The light is bright enough to illuminate a room of about 5 square yards.
+    - **QL 5:** The light is bright enough to illuminate a large hall.
+    - **QL 6:** The light is blindingly bright and almost impossible to view directly
+  castingTime: "1 action"
+  castingTimeShort: "1 Act"
+  kpCost: "4 KP (casting) + 2 KP per minute"
+  kpCostShort: "4 KP + 2 KP per min "
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "Permanent"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_2
+  name: "Banish Fear"
+  effect: |
+    This liturgical chant removes one level of the condition *Fear* per QL.
+  castingTime: "2 actions"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_3
+  name: "Banish Light"
+  effect: |
+    This liturgical chant creates a sphere of darkness around the Blessed One with a diameter of QL x 3 yards. Anyone inside the sphere suffers a visibility penalty equal to the QL (see *Visibility* on **Core Rules** page **348**). Natural and magical light sources cannot penetrate the sphere or provide illumination within. However, if another Blessed One uses a chant to create light within, the higher QL determines whether the sphere contains light or darkness (like a competitive check). This effect is all or nothing—the sphere is not lit by a dim, mixed light. You do not suffer any penalties from the darkness you create. Before casting, you must declare whether the sphere will move (with you at its center) or remain stationary if you walk away.
+  castingTime: "4 actions"
+  castingTimeShort: "4 Act"
+  kpCost: "16 KP (casting) + 8 KP per 5 minutes"
+  kpCostShort: "16 KP + 8 KP per 5 min"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_4
+  name: "Blinding Ray"
+  effect: |
+    The target is blinded and suffers a level of the condition *Confusion*.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  kpCost: "4 KP"
+  kpCostShort: "4 KP"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL in combat rounds"
+  durationShort: "QL in CR"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 325
+
+- id: LITURGY_5
+  name: "Enforce Honor"
+  effect: |
+    ‘Honor’ in this case means that the target holds to *your* principles. Depending on the culture and its interpretation, this can mean that the target gives an opponent the chance to pick up a dropped weapon, does not attack after an opponent suffers a botch, does not attack from behind, does not use poison, and so on.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_6
+  name: "Decipher Text"
+  effect: |
+    The amount of text you can read depends on the QL. For each QL, you can read five pages of a tome printed or handwritten in a common or ‘standard’ font size.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  kpCost: "4 KP"
+  kpCostShort: "4 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_7
+  name: "Encourage"
+  effect: |
+    The target becomes more confident and brave, and receives bonuses based on the QL. All bonuses are cumulative (for example, at QL 3, the target receives COU +2 and AT +1).
+
+    - **QL 1:** +1 COU
+    - **QL 2:** +1 AT
+    - **QL 3:** +1 COU
+    - **QL 4:** +1 AT
+    - **QL 5:** +1 COU
+    - **QL 6:** +1 SK
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Intelligent Creatures, Supernatural Creatures"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_8
+  name: "Fall into Nothing"
+  effect: |
+    The Blessed One can ignore 3 yards’ worth of falling damage per QL.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 combat rounds"
+  durationShort: "QL x 3 in CR"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_9
+  name: "Peaceful Aura"
+  effect: |
+    Opponents must make checks with *Willpower (Face Threats)* to attack you (and must get a QL higher than the liturgical chant’s QL to do so). If they fail their check, they cannot attack. If they succeed, their attack suffers a penalty equal to the QL of the liturgical chant. This liturgical chant only protects the caster. As long as the liturgical chant remains in effect, the Blessed One cannot make attacks (close or ranged combat) or initiate other offensive actions against opponents, but can support companions.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 combat rounds"
+  durationShort: "QL x 3 in CR"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 328
+
+- id: LITURGY_10
+  name: "Banish Poison"
+  effect: |
+    *Banish Poison* neutralizes one poison. The maximum poison level it can treat is equal to the chant’s QL. If the QL is not high enough to neutralize the poison, the liturgical chant fails.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "2 KP per disease level"
+  kpCostShort: "2 KP per PoL"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 325
+
+- id: LITURGY_11
+  name: "Divine Guidance"
+  effect: |
+    There must be an appropriate item in range. It might be a hidden key for a chest, a note with clues, or an improvised tool that proves useful. If the item is hidden with magic or divine power, you cannot find it using this liturgical chant. The item cannot be more than (QL) yards away from you.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_12
+  name: "Divine Sign"
+  effect: |
+    The sign manifests as rolling thunder issuing from a cloudless sky (Rondra), the bill-clattering call of a stork (Peraine), or a brief moment of absolute silence (Boron).<br>
+    People perceive the divine sign within a zone of radius QL x 10 yards.<br>
+    The GM can grant you a bonus to *Persuasion* checks if you include the sign in your oration.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "4 KP"
+  kpCostShort: "4 KP"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "QL x 3 in combat rounds"
+  durationShort: "QL x 3 in CR"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_13
+  name: "Blessing of Healing"
+  effect: |
+    The target recovers a number of LP equal to the KP spent on the chant. You can use as many KP as you have SR in the chant. The healing occurs in five minutes. If you start performing this chant during the time period defined by a mortally wounded character’s Constitution, you can save that character’s life (see *Life-Saving Measures and Death* in Chapter 12: Detailed Rules on **Core Rules** page **340**). If the liturgical chant is interrupted, the target survives only for the number of CR that remain.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  kpCost: "1 KP per LP, at least 4 KP"
+  kpCostShort: "1 KP per LP (4+)"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Intelligent Creatures, Supernatural Creatures"
+  src:
+    - id: US25001E
+      firstPage: 325
+
+- id: LITURGY_14
+  name: "Minor Undead Ban"
+  effect: |
+    *Ban* inflicts 2D6 + (QLx2) DP (ignoring PRO) against an Undead target. The *Ban* hits automatically, and the target cannot defend.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  kpCost: "4 KP"
+  kpCostShort: "4 KP"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Undead"
+  src:
+    - id: US25001E
+      firstPage: 327
+
+- id: LITURGY_15
+  name: "Minor Banishing Ray"
+  effect: |
+    The *Minor Banishing Ray* inflicts 2D6 + (QLx2) DP (ignoring PRO) against demons, and inflicts double damage against demons specifically from the realm of Blakharaz. Targets cannot defend against *Banishing Rays*, which hit automatically. *Minor Banishing Ray* can be cast even if the sky cannot be seen, since it originates from the demon it is supposed to destroy rather than from above.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "16 yards"
+  rangeShort: "16 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Demons"
+  src:
+    - id: US25001E
+      firstPage: 327
+
+- id: LITURGY_16
+  name: "Banish Disease"
+  effect: |
+    This liturgical chant cures diseases. The maximum disease level that can be cured is equal to the QL. If the QL is not great enough to cure the disease, the liturgical chant fails. *Banish Disease* cures the symptoms of a disease, but does not heal damage already suffered (conditions, loss of LP, and so on).
+  castingTime: "16 actions"
+  castingTimeShort: "16 Act"
+  kpCost: "2 KP per disease level"
+  kpCostShort: "2 KP per DL"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_17
+  name: "Without a Sound"
+  effect: |
+    *Stealth (Sneak)* checks receive a bonus equal to the QL.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "4 KP (casting) + 2 KP per minute"
+  kpCostShort: "4 KP + 2 KP per min "
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 331
+
+- id: LITURGY_18
+  name: "Protection from Magic"
+  effect: |
+    You receive a bonus of QL -1 to Spirit and Toughness (at least 1) versus magical effects.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "8 KP (casting) + 4 KP per 10 minutes"
+  kpCostShort: "8 KP + 4 KP per 10 min "
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 328
+
+- id: LITURGY_19
+  name: "See Magic"
+  effect: |
+    The AE of the target can give a bonus or penalty for the check. The Blessed One can examine only one creature or object within range, not everything that happens to be in view. The Blessed One gains knowledge or bonuses based on QL (provided the Blessed One understands the magic being studied).
+
+    - **QL 1:** Is there magic present?
+    - **QL 2:** The maximum QL for the magical analysis check increases by 1.
+    - **QL 3:** Receive a bonus of 1 on the check for the ritual *Analys* (or similar liturgical chant) cast subsequently on the same target.
+    - **QL 4:** Receive a bonus of 2 on the check for the ritual *Analys* (or similar liturgical chant) cast subsequently on the same target.
+    - **QL 5:** The maximum QL for the magical analysis check increases by 2.
+    - **QL 6:** Receive a bonus of 3 on the check for the ritual *Analys* (or similar liturgical chant) cast subsequently on the same target.
+
+    Bonuses to maximum QL or *Analys* (or similar liturgical chant) are not cumulative. Also, the hero receives only the highest bonus of each type. For example, a result of QL 4 for *See Magic* grants an *Analys* (or similar liturgical chant) bonus of 2 (not 3) and the maximum QL for magical analysis increases by 1. Similarly, a result of QL 6 for *See Magic* grants an *Analys* (or similar liturgical chant) bonus of 3 (not 6), and the maximum QL for the magical analysis increases by 2 (not 3).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  kpCost: "4 KP"
+  kpCostShort: "4 KP"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "1 minute"
+  durationShort: "1 min"
+  target: "Creatures, Objects"
+  src:
+    - id: US25001E
+      firstPage: 329
+
+- id: LITURGY_20
+  name: "Moon's Gaze"
+  effect: |
+    Reduce visibility penalties due to darkness by QL -1 levels (at least 1 level). This liturgical chant has no effect in complete darkness. For more about Visibility, see **Core Rules** pages **249** and **348**.
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "2 KP (casting) + 1 KP per 10 minutes"
+  kpCostShort: "2 KP + 1 KP per 10 min "
+  range: "Self"
+  rangeShort: "Self"
+  duration: "Sustained"
+  durationShort: "(S)"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 327
+
+- id: LITURGY_21
+  name: "Moonsilver Tongue"
+  effect: |
+    The Blessed One receives bonus of QL-1 (at least 1 point) for the skills *Fast-Talk* and *Commerce (Haggling)*.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 328
+
+- id: LITURGY_22
+  name: "Bless Object"
+  effect: |
+    This chant blesses materials used for church services (such as oil for Blessed Ones of Boron, seeds for Blessed Ones of Peraine, or star dust for Blessed Ones of Phex). These items are not *sanctified*, only *blessed* (see **Core Rules** pages **309** and **312**).
+  castingTime: "4 Actions"
+  castingTimeShort: "4 Act"
+  kpCost: "4 KP"
+  kpCostShort: "4 KP"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 hours"
+  durationShort: "QL x 3 in H"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 325
+
+- id: LITURGY_23
+  name: "Place of Calm"
+  effect: |
+    Dampens all sounds in the zone of effect. The zone’s radius is QL x 3 yards. Apply a penalty equal to the QL to checks using *Perception (Notice)* to notice soft sounds such as whispers. The zone is stationary. Sounds from within do not leave the zone, and sounds entering the zone are muted.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  kpCost: "4 KP"
+  kpCostShort: "4 KP"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "QL x 3 hours"
+  durationShort: "QL x 3 in H"
+  target: "Zone"
+  src:
+    - id: US25001E
+      firstPage: 328
+
+- id: LITURGY_24
+  name: "Plant Growth"
+  effect: |
+    This liturgical chant makes a bush-sized or smaller plant grow to its normal mature size at a supernaturally fast rate. For each QL, the plant grows 30% faster than normal.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "1 year"
+  durationShort: "1 year"
+  target: "Plants"
+  src:
+    - id: US25001E
+      firstPage: 328
+
+- id: LITURGY_25
+  name: "Raven Call"
+  effect: |
+    You call up to QL x 3 ravens within a radius of QL x 3 miles. The birds trust you. You can use one of these birds to transport or deliver a small item like a ring a distance of up to QL x 3 miles. Normally these ravens can find their destination automatically. The maximum number of ravens you can call is limited to the number of ravens in the area.
+  castingTime: "16 Actions"
+  castingTimeShort: "16 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "QL x 3 miles"
+  rangeShort: "QL x 3 miles"
+  duration: "QL x 3 hours"
+  durationShort: "QL x 3 in H"
+  target: "Animals"
+  src:
+    - id: US25001E
+      firstPage: 329
+
+- id: LITURGY_26
+  name: "Sleep"
+  effect: |
+    The liturgical chant inflicts levels of the condition *Stupor* on the target, based on the QL. A target that reaches Level IV falls asleep and only wakes if exposed to loud noises, shaking, or similar disturbances. If not disturbed, the sleep continues until the target wakes naturally.
+
+    - **QL 1:** 1 level of *Stupor*, for 1 minute
+    - **QL 2:** 1 level of *Stupor*
+    - **QL 3:** 2 levels of *Stupor*
+    - **QL 4:** 3 levels of *Stupor*
+    - **QL 5:** 4 levels of *Stupor*
+    - **QL 6:** 4 levels of *Stupor* for twice the normal duration
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 330
+
+- id: LITURGY_27
+  name: "Serpent Staff"
+  effect: |
+    The serpent protects the Blessed One to the best of its ability. If the serpent dies, it turns back into the item. The serpent is considered *blessed* (see **Core Rules** page **309**).
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 330
+
+- id: LITURGY_28
+  name: "Serpent Tongue"
+  effect: |
+    The serpent language sounds just like hissing to other listeners. When roleplaying these conversations, remember that serpents have animal intelligence and do not perceive the world as humans do.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Animals (serpents only)"
+  src:
+    - id: US25001E
+      firstPage: 330
+
+- id: LITURGY_29
+  name: "Pain Tolerance"
+  effect: |
+    The Blessed One can ignore the effects of the condition *Pain* up to level IV (but is still incapacitated at level IV).
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 combat rounds"
+  durationShort: "QL x 3 in CR"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 328
+
+- id: LITURGY_30
+  name: "Protect the Defenseless"
+  effect: |
+    You can challenge a combatant that attacks (or wants to attack) a defenseless person. The target ignores the original victim and attacks you instead.
+  castingTime: "1 Action"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "16 yards"
+  rangeShort: "16 yd"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 329
+
+- id: LITURGY_31
+  name: "Starshine"
+  effect: |
+    You can sell an item for a price that is QL x 10% higher. Suspicious buyers can spot the deception by making a competitive check using *Perception (Search)* with a penalty of QL +2.
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "8 yards"
+  rangeShort: "8 yd"
+  duration: "QL x 15 minutes"
+  durationShort: "QL x 15 min"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 331
+
+- id: LITURGY_32
+  name: "Truth"
+  effect: |
+    The target must answer your questions truthfully for the duration of this liturgical chant. Targets are aware of everything they say while under the chant’s effect.
+  castingTime: "8 Actions"
+  castingTimeShort: "8 Act"
+  kpCost: "16 KP"
+  kpCostShort: "16 KP"
+  range: "Touch"
+  rangeShort: "Touch"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 331
+
+- id: LITURGY_33
+  name: "Quicksilver"
+  effect: |
+    You become quicker and faster, gaining bonuses based on QL. These bonuses are cumulative (for example, with QL 5, you receive AGI +3, MOV +1, and DO +1, and so on). Improving AGI sometimes affects damage thresholds for weapons using AGI, so you might do more damage with some weapons (see **Core Rules** page **255**).
+
+    - **1 QL:** +1 AGI
+    - **2 QL:** +1 MOV
+    - **3 QL:** +1 AGI
+    - **4 QL:** +1 DO
+    - **5 QL:** +1 AGI
+    - **6 QL:** +1 MOV
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 minutes"
+  durationShort: "QL x 3 in min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 329
+
+- id: LITURGY_34
+  name: "Wondrous Communication"
+  effect: |
+    You receive levels (based on QL) in the language you need for the current conversation. You need not be familiar with the language to use this chant.
+
+    - **1-2 QL:** Language level 1
+    - **3-4 QL:** Language level 2
+    - **5-6 QL:** Language level 3
+  castingTime: "2 Actions"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KP"
+  kpCostShort: "8 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 hours"
+  durationShort: "QL x 3 in H"
+  target: "Living Creatures"
+  src:
+    - id: US25001E
+      firstPage: 331
+
+- id: LITURGY_35
+  name: "Field Blessing"
+  effect: |
+    You walk across a freshly seeded field and bless the crops. This ceremony affects an area of up to QL x 1,000 square yards. The Blessed One must be able to see the center of the chosen area of effect while performing the ceremony. It makes blessed crops more resistant to disease and vermin, and hampers the growth of unwanted plants. *Field Blessing* does not protect plants from external influences like droughts, floods, or hailstorms.
+  castingTime: "2 hours"
+  castingTimeShort: "2 H"
+  kpCost: "16 KP"
+  kpCostShort: "16 KP"
+  range: "Sight"
+  rangeShort: "Sight"
+  duration: "One growth cycle (between 6 and 12 months)"
+  durationShort: "6-12 mo"
+  target: "Plants"
+  src:
+    - id: US25001E
+      firstPage: 331
+
+- id: LITURGY_36
+  name: "Exorcism"
+  effect: |
+    A successful *Exorcism* chant banishes the demon or ghost from the person or object and sends it back to the Netherhells or the Realms of the Dead.
+  castingTime: "8 hours"
+  castingTimeShort: "8 H"
+  kpCost: "32 KP"
+  kpCostShort: "32 KP"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "Immediate"
+  durationShort: "Immediate"
+  target: "Demons, Ghosts"
+  src:
+    - id: US25001E
+      firstPage: 331
+
+- id: LITURGY_37
+  name: "Sacred Armor"
+  effect: |
+    Your armor becomes *sanctified*. If demons attack you, they suffer 1D3 DP (ignoring PRO) for each successful attack they make against you, because they must touch you or your armor (see **Core Rules** page **355**).
+  castingTime: "30 minutes"
+  castingTimeShort: "30 min"
+  kpCost: "16 KP"
+  kpCostShort: "16 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 15 in minutes"
+  durationShort: "QL x 15 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 332
+
+- id: LITURGY_38
+  name: "Lion Shape"
+  effect: |
+    You turn into a lion of your character’s gender. Clothes and equipment do not transform. While in your animal shape, you keep your mental attributes but otherwise receive all the physical attributes and abilities of a lion.<br>
+    You can add QL x 2 points to the physical attributes of the lion. You cannot use supernatural powers like spells or liturgical chants as long as you remain in lion shape. The lion is considered *blessed* (see **Core Rules** page **309**).
+  castingTime: "30 minutes"
+  castingTimeShort: "30 min"
+  kpCost: "16 KP"
+  kpCostShort: "16 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 3 hours"
+  durationShort: "QL x 3 in H"
+  target: "Living Creatures (the Blessed One)"
+  src:
+    - id: US25001E
+      firstPage: 332
+
+- id: LITURGY_39
+  name: "Fog Body"
+  effect: |
+    Your body turns to fog, but your clothes and equipment do not. Mundane, magical, and blessed weapons cannot damage this fog. Spells with the property Transformation have no effect on the fog.<br>
+    If there is a breeze, you can move with a MOV of 4. If there is a slight headwind, you must make a *Willpower* check or else drift away. If there is a strong headwind, you are carried with it, unable to resist.<br>
+    You can still perceive your surroundings with all five senses while in fog form. Your body remains in fog form for the duration of the chant.
+  castingTime: "30 minutes"
+  castingTimeShort: "30 min"
+  kpCost: "16 KP"
+  kpCostShort: "16 KP"
+  range: "Self"
+  rangeShort: "Self"
+  duration: "QL x 10 minutes"
+  durationShort: "QL x 10 min"
+  target: "Intelligent Creatures"
+  src:
+    - id: US25001E
+      firstPage: 332
+
+- id: LITURGY_40
+  name: "Sanctify Object"
+  effect: |
+    You usually sanctify liturgical items or a ritual weapon like a sun-scepter or a Rondra’s Crest, infusing them with the divine power of the god. Only items that are carefully chosen and pleasing unto the gods are sanctified, and then they are given only to true believers.<br>
+    If the sanctified object is a weapon, treat it as a sacred weapon. Normally the object cannot weigh more than 8 pounds, but the object can be an additional 2 pounds heavier per QL. *Sanctify Object* is mainly used to create Raven’s beaks (for Blessed Ones of Boron), sun-scepters (for Blessed Ones of Praios), and Rondra’s Crests (for Blessed Ones of Rondra).
+  castingTime: "2 hours"
+  castingTimeShort: "2 H"
+  kpCost: "16 KP, 2 of them permanent"
+  kpCostShort: "16 KP (2 pKP)"
+  range: "4 yards"
+  rangeShort: "4 yd"
+  duration: "Permanent"
+  durationShort: "Permanent"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 333
+
+- id: LITURGY_41
+  name: "Aggression"
+  effect: |
+    Choose up to QL/2 targets (including your character) before casting the liturgical chant. Each target receives +1 AT and DP for the duration. If you do not achieve enough QL for the named targets, you decide who receives the bonus.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: 5 CR
+  durationShort: 5 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 111
+
+- id: LITURGY_42
+  name: "Attack Wave"
+  effect: |
+    Cause large bodies of water (such as an ocean, lake, or river) within range to send a wave toward your character’s opponents. All opponents must make *Body Control (Balancing)* checks with a penalty of QL/2.  If they fail, they fall down and receive the state *Prone*. Opponents with size category Huge are immune to the wave.<br>
+    The wave may not affect more than six people. The targets and the source of water must be within range of the liturgical chant. Other people within range of the wave get wet but miraculously do not suffer the wave’s effects.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 32 yards
+  rangeShort: 32 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Creature
+  src:
+    - id: US25005E
+      firstPage: 112
+
+- id: LITURGY_43
+  name: "Hunter’s Eye"
+  effect: |
+    Your character feels the presence and behaviors of creatures within sight range and may perceive hidden creatures or creatures behind cover. The animal must be so close that, without a blocked line of sight, you would be able to clearly see and identify the animal. Large amounts of the elements Fire and Ore, such as stone walls or rock formations, block this sense. Your character may make conclusions about the type of creature but cannot perceive faces or other detailed features. Receive a bonus of QL/2 to *Animal Lore* checks for hunting while under the effect of this liturgical chant.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 1 Hour
+  durationShort: 1 H
+  target: Living Creatures
+  src:
+    - id: US25005E
+      firstPage: 126
+
+- id: LITURGY_44
+  name: "Banish Divine Gifts"
+  effect: |
+    The target of the liturgical chant loses 2 SR points when making checks using the favored skills of your character’s deity. Longer actions and cumulative checks also suffer this effect for the duration. You cannot reduce the target’s SR below 0, even if the penalty is higher.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL x 10 Minutes
+  durationShort: QL x 10 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 112
+
+- id: LITURGY_45
+  name: "Undead Ban"
+  effect: |
+    When your character casts this liturgical chant on an undead creature, it suffers 3D6 + (QL x 3) sDP.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Undead
+  src:
+    - id: US25005E
+      firstPage: 138
+
+- id: LITURGY_46
+  name: "Banishing Ray"
+  effect: |
+    The Banishing Ray does 3D6 + (QL x 3) sDP to demons. Double the damage against demons from the realm of Blakharaz. The Banishing Ray hits automatically. No defense is allowed. The liturgical chant’s effects do not depend on whether the sky is visible, as the ray manifests at the location the demon on which the liturgical chant is cast.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Demons
+  src:
+    - id: US25005E
+      firstPage: 112
+
+- id: LITURGY_47
+  name: "Free the Mind"
+  effect: |
+    This liturgical chant banishes all arcane spellworks and magical actions with the property *Influence*, as well as other comparable magical phenomena from a target. The QL of the liturgical chant must be at least equal to the QL of the spells to banish them. If the spell uses the target category Zone, only part of the zone needs to be within range. Magic with permanent AP is not affected.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 121
+
+- id: LITURGY_48
+  name: "Gifted Rider"
+  effect: |
+    Receive a bonus of QL/2 to *Riding* checks when riding horses.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 2 Hours
+  durationShort: 2 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- id: LITURGY_49
+  name: "Calm"
+  effect: |
+    Choose a single target within 8 yards. Their state of *Bloodlust* ends after 4-(QL/2) CR.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 2 KP
+  kpCostShort: 2 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 118
+
+- id: LITURGY_50
+  name: "Modesty"
+  effect: |
+    Choose a target within range. The target receives the disadvantage *Principles I (Church of Travia)*.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: QL Hours
+  durationShort: QL H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 129
+
+- id: LITURGY_51
+  name: "Summon the Rat Child’s Lesser Servants"
+  nameShort: Sum. Rat Child's L. Servants
+  effect: |
+    A demon of the Nameless One your character chooses beforehand (such as an ivash) appears, ready to serve. The check suffers a penalty equal to the summoning difficulty of the demon (see **Core Rules** pages **262-265** for more information about summoning creatures and the services they can perform).
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Demons
+  src:
+    - id: US25005E
+      firstPage: 137
+
+- id: LITURGY_52
+  name: "Dazzle"
+  effect: |
+    The target suffers the state *Blind*.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: QL x 5 Minutes
+  durationShort: QL x 5 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- id: LITURGY_53
+  name: "Healer’s Gaze"
+  effect: |
+    All wounded, poisoned, and diseased targets within a radius of QL x 10 yards glow so your character can easily distinguish them. Your character may only differentiate these three categories—they cannot pinpoint the source of the suffering without further investigation. Your character only perceives visible targets. Healer’s Gaze does not work if targets are hidden or invisible due to their condition.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 124
+
+- id: LITURGY_54
+  name: "Lightning Strike"
+  effect: |
+    Choose a target. A bright lightning bolt shoots from the sky and hits the target. When indoors, the lightning bolt originates from the ceiling. The target suffers 2D6 + (QL x 2) sDP . It is impossible to dodge or defend against Lightning Strike.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Creature
+  src:
+    - id: US25005E
+      firstPage: 126
+
+- id: LITURGY_55
+  name: "Bloody Rage"
+  effect: |
+    QL targets receive the state of *Bloodlust*. The chant cannot target your character, and the *Bloodlust* cannot be directed at your character.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: 1 CR (instead of the usual 2D20 CR for the state *Bloodlust*)
+  durationShort: 1 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 114
+
+- id: LITURGY_56
+  name: "Blood Toll"
+  effect: |
+    For every 9 full sDP your character deals to a target in one attack, heal one level of any condition from which your character suffers (except for *Rapture* and *Encumbrance*).
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 2 CR
+  durationShort: QL x 2 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 113
+
+- id: LITURGY_57
+  name: "Sanctify Ground"
+  effect: |
+    Choose a point within range. A zone with a 4-yard radius is created surrounding the chosen point. For the duration, the ground within the zone is considered *Sanctified* (see **Core Rules**, page **315**).
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: QL x 10 Minutes
+  durationShort: QL x 10 min
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 134
+
+- id: LITURGY_58
+  name: "Demon Wall"
+  effect: |
+    The chant creates a dome with a 3-yard radius around your character, accompanied by a slight shimmer, light effects, or other divine signs. The dome is actually a sphere; however, since your character usually stands on the ground, the spherical nature is rarely relevant. Demons can enter it, but the dome’s magic absorbs all their attacks (and the DP) within the radius. Demons become half-immaterial, and their attacks simply pass through their enemies, or the dome completely absorbs them, like water by a sponge. The dome has a shield strength of invested KP + (QL x 3) that can absorb an equal number of DP. If the shield strength falls below 1, the dome collapses, and the liturgical chant ends.
+  castingTime: 1 Action
+  castingTimeShort: 1 Act
+  kpCost: At least 4 KP
+  kpCostShort: 4+ KP
+  range: Self
+  rangeShort: Self
+  duration: 5 Minutes
+  durationShort: 5 min
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- id: LITURGY_59
+  name: "Dolphin Call"
+  effect: |
+    Call a dolphin to carry your character or another person near your character to land. The dolphin takes 7-QL minutes to arrive. The dolphin does not perform any favors other than saving a drowning person. Dolphins must be present in the body of water in question to successfully call one.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 16 yards (maximum distance between your character and the drowning person; the dolphin may travel any distance)
+  rangeShort: 16 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 120
+
+- id: LITURGY_60
+  name: "Pervasive Sphere Song of the One"
+  effect: |
+    Create images in the victim’s mind and fill their mind with seductive melodies. Victims receive the state *Enslavement* (see **Gods of Aventuria** page **235**) and become devoted to the Blessed One. They may even attack their friends if asked to do so by the caster of this chant.<br>
+    When the effects begin — and then once every 5 minutes — the victim may make a *Willpower (Resist Threats)* check with a penalty equal to the chant’s QL to attempt to free themselves.
+  castingTime: 1 Action
+  castingTimeShort: 1 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: QL x 3 Minutes
+  durationShort: QL x 3 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- id: LITURGY_61
+  name: "Honest Contract"
+  effect: |
+    During contract negotiations, your character receives a bonus of QL/2 to *Empathy* checks.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 2 Hours
+  durationShort: 2 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 126
+
+- id: LITURGY_62
+  name: "Unfettering"
+  effect: |
+    If the target suffers from the state *Immobilized* or *Bound*, the state ends. The effect’s details depend on the type of binding (for example, ropes may fall off, traps may open, and quicksand may suddenly set the target free. If magical or karmic effects caused the target’s state, the liturgical chant’s QL must be equal to or greater than the QL that caused the state.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 138
+
+- id: LITURGY_63
+  name: "Earthquake"
+  effect: |
+    Choose a point within range. The ground within 8 yards around the chosen point begins to shake. Your character is not affected by the earthquake; the quake zone remains in place and does not move with your character. All creatures in the zone must use 1 action per CR to make a *Body Control (Balance)* check with a penalty of QL/2. If they fail, they fall and suffer the state *Prone*.<br>
+    Hard structures suffer QL x 3 points of structural damage per CR. If there is a slope with debris, snow, or mud in the area, there is an avalanche.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: 5 CR
+  durationShort: 5 CR
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- id: LITURGY_64
+  name: "Sobering"
+  effect: |
+    Remove QL/2 levels of *Stupor* caused by drugs, alcohol, or other intoxicants.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- id: LITURGY_65
+  name: "Sacrifice of Ore"
+  effect: |
+    Fuse common or valuable metal or stones with a rock of your character’s choice. Your character must decide whether they wish to affect stone or metal when using this liturgical chant. If the rock is large enough, it completely swallows up the offering, which is no longer visible from the outside. The offering remains intact and may be mined via mundane means, but to do so requires a lot of work and may end up damaging or destroying the offering. Your character may not sacrifice more than QL pounds of material.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Object (mundane objects; metals and stones)
+  src:
+    - id: US25005E
+      firstPage: 134
+
+- id: LITURGY_66
+  name: "Wall of Fire"
+  effect: |
+    A circular wall of flames 3 yards high rises from the ground surrounding your character.<br>
+    The wall encircles a radius no more than QL/2 yards and does not move with your character. Attempting to walk through the wall requires a *Willpower (Resist Threats)* check with a penalty of QL/2. The flames burn the person, who suffers 2D6 sDP after each attempt, whether successful or not. Flammable targets must roll a D6. On a 1-3, they suffer the state *Burning* on a small surface.<br>
+    The flames do not hurt your character or any number of people you choose — your character may walk through the flame wall in any direction.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: 5 Minutes
+  durationShort: 5 min
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 139
+
+- id: LITURGY_67
+  name: "Peacefulness"
+  effect: |
+    Within a 4-yard radius surrounding a point your character chooses, it is nearly impossible to take an action that would harm another creature (such as armed attacks, spells, liturgical chants, or the use of poison). Only defense is allowed.<br>
+    These effects apply to all targets with an SPI lower than QL/2. If a target’s SPI stat suddenly increases (as with a spell) during the duration, causing their SPI to reach or surpass QL/2, the liturgical chant’s effects no longer apply.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 4 KP (to activate the chant) + 2 KP per 2 CR
+  kpCostShort: 4 KP + 2 KP per 2 CR
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- id: LITURGY_68
+  name: "Peaceful Ecstacy"
+  effect: |
+    The target is overwhelmed by rapturous delight and suffers QL/2 levels of *Stupor*. The target may take actions, but cannot attack (this includes armed attacks, spells, liturgical chants, and the use of poison). The effect ends if anyone attacks the target.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: 5 CR
+  durationShort: 5 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 131
+
+- id: LITURGY_69
+  name: "Frost Storm"
+  effect: |
+    An icy wind blows around your character. It has a 10-yards radius and moves with your character. The temperature (see **Core Rules**, page **346**) is reduced by QL/2 levels (to Cold level IV, at most). The change from Heat level I to Cold level I is considered one level.<br>
+    Unprotected Living Creatures suffer 2D6 DP every 5 minutes from hail and sharp ice crystals. Inside buildings, creatures are safe from the damage, but not the cold.<br>
+    It is impossible to make ranged attacks of any kind while inside the Frost Storm or from outside the storm into the storm area. Within the zone, MOV is halved, and all other attacks suffer a penalty of -2. Your character is immune to all Frost Storm effects.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 8 KP (to activate the chant) + 4 KP per 5 Minutes
+  kpCostShort: 8 KP + 4 KP per 5 min
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 122
+
+- id: LITURGY_70
+  name: "Master of Flame"
+  effect: |
+    Control all flames up to the size of a campfire that burn within a QL x 2-yard radius. Your character may make the flames burn higher (up to campfire size), weaken them, or even extinguish them. The zone remains in place even if your character moves.<br>
+    This liturgical chant cannot stop a supernatural fire, such as a fire from an *Ignifaxius*; however, it can stop resulting damages—such as burning areas ignited by the spell.<br>
+    This chant cannot change the temperature of the flames, only their size.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 4 KP (to activate the chant) + 2 KP per Minute
+  kpCostShort: 4 KP + 2 KP per min
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 129
+
+- id: LITURGY_71
+  name: "Ghost Sight"
+  effect: |
+        Your character sees all ghosts within a QL x 3-yard radius, even if they are invisible to the naked eye.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 4 KP (to activate the chant) + 2 KP per Minute
+  kpCostShort: 4 KP + 2 KP per min
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 122
+
+- id: LITURGY_72
+  name: "Blessed Ecstasy"
+  effect: |
+    The negative traits of up to QL/2 base units of an intoxicant do not apply. Until the duration ends, intoxicants you consume still influence your character’s mental state, but do not feed addiction and do not cause headaches, damage, or conditions. Even after the duration has expired, none of these effects will occur as long as consumption has already taken place. Intoxicants consumed after the duration ends affect your character normally.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL x 30 Minutes
+  durationShort: QL x 30 min
+  target: Object (mundane objects; intoxicants)
+  src:
+    - id: US25005E
+      firstPage: 113
+
+- id: LITURGY_73
+  name: "Grain Growth"
+  effect: |
+        The agricultural grain harvest (such as wheat, rye, or rice) increases by (QL x 5)% if the grain your character blesses is planted.
+  castingTime: 16 actions
+  castingTimeShort: 16 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Plants (Agricultural Grain Seeds)
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- id: LITURGY_74
+  name: "Golden Hand"
+  effect: |
+    Touch an item up to the size of an apple to turn it into gold, silver, or a gemstone. The transformed item is worth 50 ducats.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL Hours
+  durationShort: QL H
+  target: Object (mundane objects, no larger than an apple)
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- id: LITURGY_75
+  name: "Golden Armor"
+  effect: |
+    Your character’s skin is covered with a golden sheen that grants protection. You must choose the amount of PRO before casting the liturgical chant (maximum of PRO 3). You may combine this PRO with other, mundane PRO, but not with magical PRO. The liturgical chant grants one additional point of PRO against demons and magical attacks.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 4 KP for PRO 1, 8 KP for PRO 2, 16 KP for PRO 3
+  kpCostShort: 4/8/16 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Minutes
+  durationShort: QL x 3 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- id: LITURGY_76
+  name: "Divine Blade"
+  effect: |
+    A melee weapon affected by this liturgical chant is considered *Sanctified* (see **Gods of Aventuria** page **69**) for the duration.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL x 2 CR
+  durationShort: QL x 2 CR
+  target: Object (mundane objects; weapon)
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- id: LITURGY_77
+  name: "Divine Communication"
+  effect: |
+    Send a mental message to the closest Blessed One of your character’s tradition within QL x 5 miles. The message may only contain up to 12 words.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 119
+
+- id: LITURGY_78
+  name: "Holy Command"
+  effect: |
+    The target follows a single command from your character that does not overtly go against their self-preservation instinct or the principles of your character’s deity. This means they may commit a theft, answer a single question, or aid your character in battle, but they cannot, for instance, jump off a cliff or eat their own hands. The target cannot do anything that is not explicitly part of the command or necessary to carry out the command. Targets do not follow commands literally; they follow the intent of the command. It is not possible for the target to ignore the command due to badly chosen requirements.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: QL x 2 CR
+  durationShort: QL x 2 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- id: LITURGY_79
+  name: "Holy Dalliance"
+  effect: |
+    The target receives a bonus of QL/2 to all *Seduction* checks.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL x 30 Minutes
+  durationShort: QL x 30 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 123
+
+- id: LITURGY_80
+  name: "Healing Well"
+  effect: |
+    Make a hole in the ground with an Efferd’s Beard or another similar item. Water wells up from the hole and has a restorative effect for the first person to drink from it (it works only once). The person receives QL+2 LP. If the water is taken more than 1 yard away from the well, the healing effect ends at once. The well dries up after the first use or at the end of the duration, whichever comes first. The well-water cannot be used as drinking water, it is a manifestation of pure life energy.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 1 yards
+  rangeShort: 1 yd
+  duration: QL Minutes
+  durationShort: QL min
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 124
+
+- id: LITURGY_81
+  name: "Hero’s Strength"
+  effect: |
+    Melee attacks (of any weapon) and ranged attacks by thrown weapons do QL/2 additional DP.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 5 CR
+  durationShort: 5 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 125
+
+- id: LITURGY_82
+  name: "Helping Hand"
+  effect: |
+    All cumulative group checks (see **Core Rules**, page **27**) used for pleasing-unto-Travia actions receive an overall bonus of QL/2 for each check interval. The GM has the final say.<br>
+    At least 2, but no more than 3 people may benefit from this liturgical chant. Divide the bonuses amongst the participants (maximum bonus of 1 per person).
+  castingTime: 16 actions
+  castingTimeShort: 16 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate (no more than 1 week)
+  durationShort: Immediate (max. 1 wk)
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 124
+
+- id: LITURGY_83
+  name: "Call the Rat Child’s Horde (Rats)"
+  effect: |
+    This liturgy summons rats, who are often seen as servants of the Nameless One. QL x 5 rats appear from nowhere. The animals are under the Blessed One’s absolute control and obey all orders.
+  castingTime: 1 Action
+  castingTimeShort: 1 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 32 yards
+  rangeShort: 32 yd
+  duration: QL x 3 Days
+  durationShort: QL x 3 D
+  target: Animals (Rats)
+  src:
+    - id: US25005E
+      firstPage: 115
+
+- id: LITURGY_84
+  name: "Call the Rat Child’s Horde (Jackals)"
+  effect: |
+    QL jackals appear from nowhere. The jackals are under the Blessed One’s absolute control and obey all orders.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 32 yards
+  rangeShort: 32 yd
+  duration: QL Days
+  durationShort: QL D
+  target: Animals (Jackals)
+  src:
+    - id: US25005E
+      firstPage: 115
+
+- id: LITURGY_85
+  name: "Call the Rat Child’s Horde (Vampire Bats)"
+  effect: |
+    (QL x 2)+1 vampire bats appear out of nowhere. The animals are under the Blessed One’s absolute control and obey all orders.
+  castingTime: 1 Action
+  castingTimeShort: 1 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 32 yards
+  rangeShort: 32 yd
+  duration: QL x 3 Days
+  durationShort: QL x 3 D
+  target: Animals (Vampire Bats)
+  src:
+    - id: US25005E
+      firstPage: 117
+
+- id: LITURGY_86
+  name: "Call the Rat Child’s Horde (Wolf Spiders)"
+  effect: |
+    QL x 3 wolf spiders appear out of nowhere. The spiders are under the Blessed One’s absolute control and obey all orders.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 32 yards
+  rangeShort: 32 yd
+  duration: QL Days
+  durationShort: QL D
+  target: Animals (Wolf Spiders)
+  src:
+    - id: US25005E
+      firstPage: 117
+
+- id: LITURGY_87
+  name: "Lord of Flames"
+  effect: |
+    Ignore all heat levels (see **Core Rules**, page **347-348**). Clothes and equipment are not affected, and this chant does not protect your character from fire damage.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 30 Minutes
+  durationShort: QL x 30 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 127
+
+- id: LITURGY_88
+  name: "Helpful Soul"
+  effect: |
+    Choose one target within range. The target receives the disadvantage *Principles I (Church of Ifirn)*.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: QL Hours
+  durationShort: QL H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 124
+
+- id: LITURGY_89
+  name: "Inner Calm"
+  effect: |
+    All *Self-Control (Ignore Distractions)* and *Willpower (Face Threats)* checks receive a bonus of QL/2 for the duration.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 5 Minutes
+  durationShort: 5 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 126
+
+- id: LITURGY_90
+  name: "Clear Mind"
+  effect: |
+    Heal QL/2 levels of the condition *Confusion*.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 118
+
+- id: LITURGY_91
+  name: "Small Whirlwind"
+  effect: |
+    Choose an enemy target. The minor whirlwind tosses small stones, branches, and other loose items in the surrounding area at the target. If the target fails to dodge, the target suffers 1D6+QL/2 DP. Regardless of success or failure, the target has only MOV 1 until the end of the next CR.
+  castingTime: 1 Action
+  castingTimeShort: 1 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Living Creatures
+  src:
+    - id: US25005E
+      firstPage: 135
+
+- id: LITURGY_92
+  name: "Protect Life"
+  effect: |
+    The dying person’s LP increase to 1. It takes 4-(QL/2) CR for the person to resume consciousness.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 133
+
+- id: LITURGY_93
+  name: "Liturgical Shield"
+  effect: |
+    The chant creates a dome with a 3-yard radius around your character, accompanied by a slight shimmer, light effects, or other divine signs. The dome is actually a sphere; however, since your character usually stands on the ground, the spherical nature is rarely relevant.<br>
+    The dome has a shield strength of invested KP + (QL x 3). It moves with your character and protects everyone inside. It absorbs its shield strength in DP caused by offensive liturgical chants (chants that do DP or sDP). If the shield strength ever falls below 1, the dome collapses, the liturgical chant ends, and the original target takes any damage the shield did not absorb.
+  castingTime: 1 Action
+  castingTimeShort: 1 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 5 Minutes
+  durationShort: 5 min
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 127
+
+- id: LITURGY_94
+  name: "Powerful Attack"
+  effect: |
+    Whether or not a target defends against your character’s successful attack, you may write down the average DP + any bonuses you receive from the damage threshold and SA (to calculate average DP: 1D6 is a 4, and you add the weapon bonus; a sword of 1D6+4 DP does 4 + 4 = 8 average DP). The attack does not cause damage at this moment. Rather you add the average DP to the next successful attack within the duration. You cannot stack more than two attacks in this manner.<br>
+    After the stacked attacks, you must make one final attack, within the duration of the chant, where you add the stacked DP. The effect ends if the final attack using the stacked DP fails or the target succeeds at defense against it. You may try again from the start while the chant’s duration continues.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 CR
+  durationShort: QL x 3 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- id: LITURGY_95
+  name: "Magic Ban"
+  effect: |
+    Dispel any spell in which the caster has not invested permanent AE and whose QL is not higher than the QL of this liturgical chant. This chant only works on arcane spellworks, and it works even if the spellworks were cast through artifacts.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP + KP equal to the spell’s AE
+  kpCostShort: 8 KP + AE KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: All
+  src:
+    - id: US25005E
+      firstPage: 128
+
+- id: LITURGY_96
+  name: "Magic Mirror"
+  effect: |
+    When an enemy attacks your character with a spell, use Brawling or a ceremonial item (provided it is usable as a weapon and belongs to a combat technique) to parry with a penalty of -4 and deflect the spell back at the enemy. If successful, the spell bounces back toward the caster and reaches its new target at the beginning of the next CR. All spells that deal DP or sDP that roll at least 1 die are considered attack spells. This chant cannot deflect spells with zone effects.<br>
+    Ignore range and any differences between the original and new target’s SPI and TOU. Every time a spell is deflected by any effect, its QL decreases by 1. If the QL ever falls to 0, the spell fades away.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP (to activate the chant) + 4 KP per 5 CR
+  kpCostShort: 8 KP + 4 KP per 5 CR
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 128
+
+- id: LITURGY_97
+  name: "Mask"
+  effect: |
+    Copy another person’s face. Your character must know the person well or be able to see them for the duration it takes to cast the liturgical chant. The chant does not affect body, voice, or clothes. This liturgical chant also provides a bonus of QL/2 to *Disguise (Costuming or Imitate Person)* checks.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 30 Minutes
+  durationShort: 30 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 129
+
+- id: LITURGY_98
+  name: "Strike of Stupidity"
+  effect: |
+    The target’s SGC decreases by QL/2.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: 2 Hours
+  durationShort: 2 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- id: LITURGY_99
+  name: "Motivation"
+  effect: |
+    Up to QL retry attempts using various skills and checks suffer no penalty for the duration of the chant. The person using the skills must do so in ways pleasing unto Tsa.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Touch
+  rangeShort: Touch
+  duration: 2 Hours
+  durationShort: 2 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 129
+
+- id: LITURGY_100
+  name: "Nameless Cold"
+  effect: |
+    Within a QL x 20-yard radius around the Blessed One, the temperature is reduced by QL levels (at maximum to cold level IV; see **Core Rules**, page **346**). The change between heat level I and cold level I is considered one level. The zone is moving with the Blessed One.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: 30 Minutes
+  durationShort: 30 min
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 130
+
+- id: LITURGY_101
+  name: "Nameless Frenzy"
+  effect: |
+    The target receives the state *Bloodlust*.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Living Creatures
+  src:
+    - id: US25005E
+      firstPage: 130
+
+- id: LITURGY_102
+  name: "Nameless Doubt"
+  effect: |
+    The target doubts all ethical principles and convictions and loses all faith in their gods for the duration. They either ignore advantages such as *Principles* or *Obligations* or even turn them on their heads. For example, devout vegetarians may eat meat, honorable warriors may use ambush tactics, and Novadi may cheerfully ignore any of the 99 Laws.
+  castingTime: 4 Action
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: QL x 3 Days
+  durationShort: QL x 3 Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 130
+
+- id: LITURGY_103
+  name: "Nameless Oblivion"
+  effect: |
+        The target forgets everything about their former life. The Blessed One may suggest certain goals to the target and try to convince them that they are on the same side.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL x 3 Days
+  durationShort: QL x 3 Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- id: LITURGY_104
+  name: "Obsession"
+  effect: |
+     The target focuses all their attention on an activity of the Blessed One’s choosing. The activity must be pleasing unto Rahja. If the target resists the urge, they suffer a penalty of QL/2 to all checks – this includes combat checks (if the target is a Blessed One, the checks that are pleasing unto their god are not affected).
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: 30 Minutes
+  durationShort: 30 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 131
+
+- id: LITURGY_105
+  name: "Revelation of the Mind"
+  effect: |
+    Read a target’s mind. Your character can see only what the target is thinking in the moment, not memories. The target may notice the mental intrusion by making *Perception* check with a penalty of QL. Then, if desired, the target may also make a *Willpower* check with a penalty of QL to think only misleading thoughts, such as useless chaos, inner monologues, or singing.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP (to activate the chant) + 4 KP per 30 Seconds
+  kpCostShort: 8 KP + 4 KP per 30 s
+  range: Touch
+  rangeShort: Touch
+  duration: Sustained
+  durationShort: (S)
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 133
+
+- id: LITURGY_106
+  name: "The Great Sacrifice"
+  effect: |
+    Ignore the condition *Pain* and receive a bonus of QL/2 to all attacks for the duration. Your character does not become *Incapacitated* when their LP drop to zero or less. They do, however, die according to the usual rules if their LP total ever drops below zero by an amount greater than their CON stat (see **Core Rules**, page **340**). The GM secretly writes down all damage your character suffers.<br>
+    At the end of the duration, the effects of *Pain* and low LP return at once, which may suddenly *Incapacitate* your character. Your character also suffers three levels of *Stupor*. The timer to perform life-saving measures starts after the end of the duration (see **Core Rules**, page **340**).
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: One battle, for no more than 2 hours (the GM has the final say)
+  durationShort: Battle, 2H max.
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 137
+
+- id: LITURGY_107
+  name: "Fire and Brimstone"
+  effect: |
+    A jet of black or purple flames shoots out from your character’s fingers, hitting the target in a straight line. You do not need to use an additional action to hit the target after casting this liturgical chant; the liturgical time includes the hit. The target receives 2D6 + (QL x 2) DP when hit. The jet of flames is a ranged attack with a ranged weapon, and the target can block it or dodge, accordingly. It inflicts structural damage to shields if it hits them. The jet hits automatically if the target does not defend against it. If the jet of flames hits the target, the target’s PRO reduces the DP, as usual. Furthermore, if you roll a 1-3 on 1D6, the target also receives 1 level of *Fear*.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: All
+  src:
+    - id: US25005E
+      firstPage: 121
+
+- id: LITURGY_108
+  name: "Rat Swarm"
+  effect: |
+    The Blessed One immediately turns into a swarm of rats (for stats, see **Gods of Aventuria** page **116**). The number of rats in the swarm is equal to their maximum number of LP. The Blessed One controls all the rats for the duration, and they must come together at the end of the duration to transform back. The body of the Blessed One can re-form if enough animals are alive and touching—the chant’s QL determines the minimum number of rats required: QL 1-2, 50%; QL 3-4, 25%; QL 5-6: 10%. Rats that are not with the swarm at the end of the duration simply die. The Blessed One’s body retains any damage the rats suffer before the transformation, and any rats that are killed cost the same percentage of the current LP.<br>
+    This applies to conditions, states, and other energies, as well. The Blessed One cannot cast liturgical chants or spells while in rat form and cannot talk. Rats are considered sanctified to the Nameless One.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 13 Hours
+  durationShort: 13 H
+  target: Intelligent Creature (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 133
+
+- id: LITURGY_109
+  name: "Call of Home"
+  effect: |
+    Your character can feel the direction of their home temple. This chant gives no information about the distance or whether they may actually reach the temple. Your character also receives the advantage Aptitude for *Orienting* if the location of their home temple helps them determine other geographical locations.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 30 Minutes
+  durationShort: QL x 30 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 114
+
+- id: LITURGY_110
+  name: "Creeping Rot"
+  effect: |
+    The target cannot regenerate LP during Regeneration Phases and suffers 2D6 sDP per day (usually at sundown) for the duration. If a target dies from this damage, their body becomes green goo within 13 hours.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL Days
+  durationShort: QL Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 118
+
+- id: LITURGY_111
+  name: "Protective Blessing"
+  effect: |
+    Decide which type of unholy creature to affect when casting the Protective Blessing: Undead (Mindless), lesser demons of any kind, or demons of the opposing arch-demon of your character’s god with up to five horns. The chosen creatures cannot enter the blessed area for the duration. If something forces them to enter it, they try to retreat at once.<br>
+    The Protective Blessing cannot have more than a 4-yard radius, but it can have a smaller radius. The zone is stationary and does not move with your character. If people inside the zone stand at its edges to attack the creatures lurking there, the creatures may also attack.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 4 KP (to activate the chant) + 2 KP per 5 CR
+  kpCostShort: 4 KP + 2 KP per 5 CR
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: Sustained
+  durationShort: (S)
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 133
+
+- id: LITURGY_112
+  name: "Waning Magic"
+  effect: |
+    The Blessed One creates a stationary zone with an 8-yard radius. The zone causes spellcasters to suffer penalties when they cast spells inside it and drains their arcane energy. All arcane spellworks cast in the zone suffer a penalty of -1, and the normal AE costs double. Spellcasters within the zone lose an additional 1 AE per CR.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 CR
+  durationShort: QL x 3 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 139
+
+- id: LITURGY_113
+  name: "Soul Shadow"
+  effect: |
+    This chant helps the Blessed One to hide that they are a servant of the Nameless One more easily. All checks to discover their loyalties (e.g., *Empathy*, *Respondami*, *Gaze Into the Mind*, *Truth*, etc.) suffer a penalty of QL.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP (to activate the chant) + 4 KP for 5 Hours
+  kpCostShort: 8 KP + 4 KP for 5 H
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- id: LITURGY_114
+  name: "Seabird Tongue"
+  effect: |
+    Your character is able to speak to one seabird within visual and hearing range. The bird may answer any questions your character has; however, the answers are from its perspective, which your character may find difficult to understand.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 in Minutes
+  durationShort: QL x 3 in min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 135
+
+- id: LITURGY_115
+  name: "Safe Path"
+  effect: |
+    Receives a bonus of QL/2 to all checks avoiding  the dangers of the path (swamp holes, avalanches, suspended bridges, and so on) while in natural surroundings like forests, swamps, or mountains. In general, this affects skill checks on Body Control or Dodge. This chant does not affect any checks involving combat or to avoid hunter’s traps.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 4 KP (to activate the chant) + 2 KP per 30 Minutes
+  kpCostShort: 4 KP + 2 KP per 30 min
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 134
+
+- id: LITURGY_116
+  name: "Call Storm"
+  effect: |
+    A raging storm with a (QL/2) x 10-yard radius emerges. All creatures of size categories *tiny* to *medium* within the radius must make a *Body Control (Balance)* check at the beginning of the duration.  If they fail, they fall to the ground and receive the state *Prone*. After that, such checks are only necessary for complex actions. The GM has the final say.<br>
+    All creatures within range suffer -4 AT and defense. Ranged attacks that pass through any part of the zone fail. The Blessed One is not affected by any of these effects.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 8 KP (to activate the chant) + 4 KP per 5 CR
+  kpCostShort: 8 KP + 4 KP per 5 CR
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 114
+
+- id: LITURGY_117
+  name: "Soothe Animals"
+  effect: |
+    Choose an animal. The animal loses all aggression and does not attack by itself; however, it does defend itself, by force if necessary, when attacked.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: QL x 3 Minutes
+  durationShort: QL x 3 min
+  target: Animals
+  src:
+    - id: US25005E
+      firstPage: 136
+
+- id: LITURGY_118
+  name: "Ease Animal Pain"
+  effect: |
+    Heals QL/2 levels of the conditions *Pain* or *Fear*. You choose how to distribute the levels among both conditions. The liturgy also removes conditions where the trigger is still present (e.g., low LP).
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Animals
+  src:
+    - id: US25005E
+      firstPage: 120
+
+- id: LITURGY_119
+  name: "Animal Tongue"
+  effect: |
+    Speak to a wild animal. The animal may answer any questions; however, the answers are from its perspective, which your character may find difficult to understand.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL Minutes
+  durationShort: QL min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 111
+
+- id: LITURGY_120
+  name: "Faithful Companion"
+  effect: |
+    The next harmless animal to cross your character’s path is curious and joins them as a willing companion. The animal enjoys spending time near your character; however, if treated badly — including any attempt to kill and eat it — it runs away, ending the effect.<br>
+    The animal companion must be size category tiny. Examples are squirrels, birds, or other small beasts. They cannot pose a real danger (no poisonous scorpions or the like).
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: QL/2 Days
+  durationShort: QL/2 Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 120
+
+- id: LITURGY_121
+  name: "Breathe Underwater"
+  effect: |
+    Your character may breathe underwater for QLx5 minutes + additional time, depending on KP spent.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 4 KP (to activate the chant) +2 KP per 15 Minutes
+  kpCostShort: 4 KP +2 KP per 15 min
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Living Creatures
+  src:
+    - id: US25005E
+      firstPage: 114
+
+- id: LITURGY_122
+  name: "Petrification"
+  effect: |
+    At the end of each CR, the target suffers 1 level of *Paralysis*. At *Paralysis* IV, the target suffers the state *Petrified* (see **Gods of Aventuria** page **236**). This does not kill the target.
+  castingTime: 4 actions
+  castingTimeShort: 4 Act
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: QL x 3 CR
+  durationShort: QL x 3 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 132
+
+- id: LITURGY_123
+  name: "Walk on Water"
+  effect: |
+    Walk on water as though it were firm ground. The GM decides whether strong waves reduce your character’s MOV.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Minutes
+  durationShort: QL x 3 min
+  target: Living Creatures
+  src:
+    - id: US25005E
+      firstPage: 139
+
+- id: LITURGY_124
+  name: "Whirlwind"
+  effect: |
+    Summon a minor tornado that hurls small stones, branches, and other loose items at a target you choose. The target may attempt to dodge with a penalty of -2. On a failure, the target suffers 2D6 + QL DP. Regardless of success or failure, the target has MOV 1 until the end of the next CR.
+  castingTime: 2 actions
+  castingTimeShort: 2 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Living Creatures
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- id: LITURGY_125
+  name: "Call Wind"
+  effect: |
+    Call wind to fill a ship’s sails, making the journey faster. The ship receives a bonus of QL to its MOV.
+  castingTime: 8 actions
+  castingTimeShort: 8 Act
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 30 Minutes
+  durationShort: 30 min
+  target: Object (mundane objects; Sails)
+  src:
+    - id: US25005E
+      firstPage: 118
+
+- id: LITURGY_126
+  name: "Tough Skin"
+  effect: |
+    Receive a natural protection of 1, which you may combine with armor protection. This does not affect your character’s current level of *Encumbrance*.
+  castingTime: 1 Action
+  castingTimeShort: 1 Act
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 2 CR
+  durationShort: QL x 2 CR
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 138
+
+- id: LITURGY_127
+  name: "Ostracism (Excommunication)"
+  effect: |
+    Ostracize the target from the Pantheon’s circle of initiates. They receive the taint apostate (see **Gods of Aventuria** page **71**). Whether the Blessed One must remain in physical contact with the target for the ceremonial time varies based on the Church or cult. The GM has the final say. This ceremony does not affect Blessed Ones of the same Pantheon.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP, 2 of them permanent
+  kpCostShort: 16 KP (2 pKP)
+  range: Touch
+  rangeShort: Touch
+  duration: Permanent or until the required penance is completed (see **Gods of Aventuria** page **72**)
+  durationShort: Permanent
+  target: Intelligent Creature (Initiate from Blessed One’s Pantheon)
+  src:
+    - id: US25005E
+      firstPage: 153
+
+- id: LITURGY_128
+  name: "Admittance (Initiation)"
+  effect: |
+    The initiate’s soul opens up to the possibility of reaching a god’s paradise and is accepted into the community of your character’s Pantheon’s (see **Gods of Aventuria** page **67**). If your character is a Blessed One of the Twelvegods, the Pantheon is the Twelvegods, not a single deity.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP, 1 of which is permanent
+  kpCostShort: 8 KP (1 pKP)
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- id: LITURGY_129
+  name: "Cauterization (Purgation)"
+  effect: |
+    The target loses the advantage Spellcaster, any tradition special abilities, any magical special abilities, any magical advantages or disadvantages, and any spells. They get back all AP spent on these traits and abilities. Whether your character must remain in physical contact with the target for the ceremonial time varies based on the Church or cult. The GM has the final say.
+  castingTime: 2 Hours
+  castingTimeShort: 2 H
+  kpCost: 32 KP, 4 of which is permanent
+  kpCostShort: 32 KP (4 pKP)
+  range: Touch
+  rangeShort: Touch
+  duration: Permanent
+  durationShort: Permanent
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 141
+
+- id: LITURGY_130
+  name: "Damnation (Anathema)"
+  effect: |
+    Ostracize an initiate from the circle of initiates for the Pantheon. They receive the taint damned (see **Gods of Aventuria** page **72**). Whether physical contact with the target remains during the whole ceremony varies based on the Church or cult. The GM has the final say. This ceremony may not affect Blessed Ones of the Pantheon. It is never performed casually, and its use is extremely rare.
+  castingTime: 8 Hours
+  castingTimeShort: 8 H
+  kpCost: 128 KP, 12 of which is permanent
+  kpCostShort: 128 KP (12 pKP)
+  range: Touch
+  rangeShort: Touch
+  duration: Permanent
+  durationShort: Permanent
+  target: Intelligent Creature (Initiates of the Blessed One’s Pantheon)
+  src:
+    - id: US25005E
+      firstPage: 143
+
+- id: LITURGY_131
+  name: "Celebratory Wine"
+  effect: |
+    Transform up to QL x 2 pints of water into the same amount of wine. The ceremony purifies slightly contaminated water, but heavily contaminated water creates contaminated wine. This ceremony does not banish the effects of poison.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Object (mundane objects; water)
+  src:
+    - id: US25005E
+      firstPage: 142
+
+- id: LITURGY_132
+  name: "Summon the Rat Child’s High Servants"
+  effect: |
+    The Blessed One can summon a predetermined demon of the Nameless One (such as a Grakvaloth). The check to cast this ceremony suffers a penalty equal to the demon’s summoning difficulty (see more about summoning demons in the **Core Rules**, page **262**).
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Demons
+  src:
+    - id: US25005E
+      firstPage: 161
+
+- id: LITURGY_133
+  name: "Summon the Rat Child’s Powerful Servants"
+  effect: |
+    The Blessed One can summon a predetermined demon of the Nameless One (such as a Maruk-Methai). The check to cast this ceremony suffers a penalty equal to the demon’s summoning difficulty (see more about summoning demons in the **Core Rules**, page **262**).
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 32 KP
+  kpCostShort: 32 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Demons
+  src:
+    - id: US25005E
+      firstPage: 161
+
+- id: LITURGY_134
+  name: "Eternal Image"
+  effect: |
+    All visual impressions your character experiences for the duration are permanently burned into memory.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 2 Minutes
+  durationShort: QL x 2 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 145
+
+- id: LITURGY_135
+  name: "Gaze Into the Flames"
+  effect: |
+    Vague visions show how an actively burning or extinguished fire was ignited. Your character knows exactly when it was ignited and extinguished; however, they cannot see details, such as an arsonist’s face.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 2 KP
+  kpCostShort: 2 KP
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: All
+  src:
+    - id: US25005E
+      firstPage: 147
+
+- id: LITURGY_136
+  name: "Dolphin Shape"
+  effect: |
+    Turn into a dolphin. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a dolphin. You may distribute QL x 2 additional points among the dolphin’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in dolphin shape, but the dolphin still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 in Hours
+  durationShort: QL x 3 in H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 144
+
+- id: LITURGY_137
+  name: "Lizard Shape"
+  effect: |
+    Turn into a lizard. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a lizard. You may distribute QL x 2 additional points among the lizard’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in lizard shape, but the lizard still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 152
+
+- id: LITURGY_138
+  name: "Polar Bear Shape"
+  effect: |
+    Turn into a polar bear. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a polar bear. You may distribute QL x 2 additional points among the polar bear’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in polar bear shape, but the polar bear still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 154
+
+- id: LITURGY_139
+  name: "Remember"
+  effect: |
+    Recall a single memory with complete clarity, even if it was buried or forgotten. The recalled memory may be from up to QL days ago, and it must be something your character perceived. This ceremony may bring back suppressed or forgotten memories, but not erased memories. After the duration ends, the memory is again subject to the normal process of forgetting.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 156
+
+- id: LITURGY_140
+  name: "Festival of Joy"
+  effect: |
+   All celebrations held within a radius of QL x 5 yards are considered particularly festive and entertaining. Even if the event’s quality has flaws, memories of it are positive. Your character is at the center of the zone when casting, and the zone remains in place even after your character moves. The ceremony must be cast before the start of the celebration, or it automatically fails.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 6 Hours
+  durationShort: 6 H
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 146
+
+- id: LITURGY_141
+  name: "Protection from Frost"
+  effect: |
+    Your character hardly suffers any negative effects from a cold environment. Reduce your character’s cold level by QL/2.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 4 KP (to activate the ceremony) + 2 KP per 30 Minutes
+  kpCostShort: 4 KP + 2 KP per 30 min
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 155
+
+- id: LITURGY_142
+  name: "Fertility"
+  effect: |
+    Cast this ceremony on two Intelligent Creatures — one male and one female — at the same time. The blessed couple’s probability of pregnancy rises by 30%. You may not use this ceremony to make infertile persons fertile, and contraceptives have the usual effect.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL/2 Days
+  durationShort: QL/2 Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 145
+
+- id: LITURGY_143
+  name: "Fox Shape"
+  effect: |
+    Turn into a fox. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a fox. You may distribute QL x 2 additional points among the fox’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in fox shape, but the fox still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 146
+
+- id: LITURGY_144
+  name: "Goose Shape"
+  effect: |
+    Turn into a goose. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a goose. You may distribute QL x 2 additional points among the goose’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in goose shape, but the goose still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 147
+
+- id: LITURGY_145
+  name: "Swift Pace"
+  effect: |
+    For the duration, your character may continue to walk without suffering exhaustion. The distance traveled on foot increases by (QL x 10) % (see Strategic Movement, in the **Core Rules**, page **348**).
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 2 KP
+  kpCostShort: 2 KP
+  range: Self
+  rangeShort: Self
+  duration: 8 Hours
+  durationShort: 8 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 162
+
+- id: LITURGY_146
+  name: "Divine Insight"
+  effect: |
+    Receive the advantage Aptitude for your next Knowledge skill check within the duration.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 10 Minutes
+  durationShort: QL x 10 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 143
+
+- id: LITURGY_147
+  name: "Griffon Call"
+  effect: |
+    Your character calls a griffon to their side. The griffon appears at the end of the ceremonial time. The creature may carry your character or other people through the air or fight at their side. Griffons do not use karma to assist people.
+  castingTime: 8 Hours
+  castingTimeShort: 8 H
+  kpCost: 32 KP
+  kpCostShort: 32 KP
+  range: Self
+  rangeShort: Self
+  duration: QL/2 Hours
+  durationShort: QL/2 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 148
+
+- id: LITURGY_148
+  name: "Good Catch"
+  effect: |
+    The target receives a bonus of QL/2 to the next Fishing check within the duration and +1 QL (maximum of QL 6) with a successful check to forage for food.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL Hours
+  durationShort: QL H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 147
+
+- id: LITURGY_149
+  name: "Shed Skin"
+  effect: |
+    Your character’s skin falls off their body, revealing a new face. You cannot choose your character’s new appearance — it receives a completely random face. However, your age, gender, body type, size, and eye and hair color remain the same. It is not possible to change species or subspecies (for example, from human to Thorwaler, Forest Folk, or Tulamydian). All physical advantages and disadvantages like *Good Looks*, *Stigma*, and *Ugly* remain. Shedding takes 7-QL hours.
+  castingTime: 32 Hours
+  castingTimeShort: 32 H
+  kpCost: 32 KP, 2 of them Permanent
+  kpCostShort: 32 KP (2 pKP)
+  range: Self
+  rangeShort: Self
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 159
+
+- id: LITURGY_150
+  name: "Holy Vow"
+  effect: |
+    A holy vow affects 1-2 people. A single person makes the vow before the gods; two people make the vow to each other. A person may only make a holy vow of their own free will. Acting against the vow requires a Willpower check with a penalty of QL/2. People who break a vow receive the taint vow breaker (see **Gods of Aventuria** page **71**).
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Until the vow ends
+  durationShort: Until vow ends
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 149
+
+- id: LITURGY_151
+  name: "Master of the Oceans"
+  effect: |
+    The target’s MOV doubles. The daily travel distance of a boat or ship affected by this ceremony increases by (QL x 5) % (see Strategic Movement in the **Core Rules**, page **348**). The target cannot be longer than 20 yards or offer space for more than 30 people.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Touch
+  rangeShort: Touch
+  duration: 8 Hours or one day’s worth of travel 
+  durationShort: 8 H
+  target: Object (mundane objects; ship)
+  src:
+    - id: US25005E
+      firstPage: 152
+
+- id: LITURGY_152
+  name: "In Times of Need"
+  effect: |
+    Sense the direction in which your character can find the next person in need (for example, someone who is hungry, hurt, freezing, or lost). Receive no information about the person’s distance from your character or whether they may actually reach the target.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 30 Minutes
+  durationShort: QL x 30 min
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 151
+
+- id: LITURGY_153
+  name: "Inspiration"
+  effect: |
+    Your character’s skill checks to create works of art receive a bonus of QL/2. The ceremony does not affect the creation of objects that have a largely practical use, even if they include artistic elements (for example, the bonus does not apply when creating a sword for use in battle, even if it is covered with ornamentations). The ceremony does not generally apply when creating weapons or armor, or when creating items using the skill Alchemy. Your character must use their skills in a way pleasing unto the gods.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: 6 Hours
+  durationShort: 6 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 151
+
+- id: LITURGY_154
+  name: "Hunter’s Luck"
+  effect: |
+    For the next Animal Lore check related to hunting during the duration, receive the advantage Aptitude.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: QL/2 Hours
+  durationShort: QL/2 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 150
+
+- id: LITURGY_155
+  name: "Youthfulness"
+  effect: |
+    For the duration, the aging of the affected person is suspended.
+  castingTime: 32 Hours
+  castingTimeShort: 32 H
+  kpCost: 32 KP
+  kpCostShort: 32 KP
+  range: Self
+  rangeShort: Self
+  duration: QL months
+  durationShort: QL months
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 164
+
+- id: LITURGY_156
+  name: "Minor Morale Boost"
+  effect: |
+    Bless the crew of a boat or ship to give them courage. Up to QL x 10 sailors may reroll one Willpower (Face Threats or Resist Intimidation) check one time, as though using a Fate Point (see **Core Rules**, page **30**). The ceremony’s effects end for any crew member who leaves the ship. This may happen involuntarily, for example, if the crew member falls into the water.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 32 yards
+  rangeShort: 32 yd
+  duration: QL Days
+  durationShort: QL Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 153
+
+- id: LITURGY_157
+  name: "Clarification of the Ore"
+  effect: |
+    Choose a specific gem or precious metal to extract (such as silver, gold, diamonds, or rubies).Within a QL x 2-yard radius around your character, all earthly materials of the chosen type break loose from the surrounding rock. This extraction happens slowly and as close as possible to your character.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: Immediate
+  durationShort: Immediate
+  target: Object (mundane objects; ore)
+  src:
+    - id: US25005E
+      firstPage: 142
+
+- id: LITURGY_158
+  name: "Liturgical Absorption"
+  effect: |
+    The Blessed one can create a zone with a static 5-yard radius. This zone prevents enemies from casting liturgical chants and ceremonies or ends their effects. If the QL of the Liturgical Absorption equal to or higher than the opposing chant or ceremony’s QL, the effect is prevented. If the QL is lower, it still weakens the opposing chant or ceremony (the difference between the two is its new effective QL).<br>
+    When the zone prevents or dispels enemy chants and ceremonies, their KP reduce the zone’s strength. The strength of the zone is invested KP + (QL x 3). If its strength ever drops below 1, the zone collapses. Excess KP of the opposing liturgy are ignored, and the effect is still prevented completely
+  castingTime: 2 Hours
+  castingTimeShort: 2 H
+  kpCost: At least 16 KP
+  kpCostShort: 16+ KP
+  range: 16 yards
+  rangeShort: 16 yd
+  duration: 13 Hours maximum
+  durationShort: 13 H max.
+  target: Liturgical Chants and Ceremonies
+  src:
+    - id: US25005E
+      firstPage: 151
+
+- id: LITURGY_159
+  name: "Immaculate Body"
+  effect: |
+    Temporarily hide scars and minor mutilations (such as a missing finger or the missing tip of an ear) from others. This also negates the disadvantage Ugly for the duration. Immaculate Body cannot hide major mutilations, such as missing limbs. All negative effects of a person’s mutilations remain in effect (a target suffering from a smashed knee still limps, and so on).
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL Hours
+  durationShort: QL H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 151
+
+- id: LITURGY_160
+  name: "Heat Metal"
+  effect: |
+    Heat a piece of metal no heavier than 2 pounds hot enough to forge.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL Hours
+  durationShort: QL H
+  target: Object (mundane objects; metal)
+  src:
+    - id: US25005E
+      firstPage: 149
+
+- id: LITURGY_161
+  name: "Morale Boost"
+  effect: |
+    Bless a boat or ship’s crew to give them courage. Up to QL x 10 crew members receive the advantage Aptitude for Willpower (Face Threats or Resist Intimidation) checks. They also receive a bonus of +1 to all partial checks using COU and +1 to defense. The ceremony’s effects end for a crew member that leaves the ship. This may happen involuntarily (for example, if the crew member falls into the water).
+  castingTime: 2 Hours
+  castingTimeShort: 2 H
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 32 yards
+  rangeShort: 32 yd
+  duration: QL x 3 Days
+  durationShort: QL x 3 Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 153
+
+- id: LITURGY_162
+  name: "Purify Food"
+  effect: |
+    Eliminate disease and poison from food and drink for up to 6 people, provided your QL is higher than the level of the effect. This also removes contaminants like dirt and mold; however, this ceremony cannot restore spoiled food. This protection only works before the targets eat and drink; it cannot save someone from being poisoned after the fact.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Object (mundane objects; food)
+  src:
+    - id: US25005E
+      firstPage: 155
+
+- id: LITURGY_163
+  name: "Billowing Fog"
+  effect: |
+    A sphere with a radius of QL x 50 yards forms around your character, filled with dense billows of fog. The visibility decreases by one level per QL. Light sources, both natural and supernatural, cannot pierce or illuminate the fog. The fog does not restrict your character’s vision, but other visibility modifiers apply. You must decide before the ceremony whether the fog remains in place or moves with your character.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 32 KP
+  kpCostShort: 32 KP
+  range: Self
+  rangeShort: Self
+  duration: QL Hours
+  durationShort: QL H
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- id: LITURGY_164
+  name: "Sanctify Location (Sanctum)"
+  effect: |
+    Sanctify a temple or other location of a similar size (up to 2000 square feet). This location is now considered twice-sanctified (see **Gods of Aventuria** page **69**). The location’s surroundings (such as herb gardens) are not considered sanctified ground; however, interior courtyards and cellars are.
+  castingTime: 8 Hours
+  castingTimeShort: 8 H
+  kpCost: 64 KP, 16 of them permanent
+  kpCostShort: 64 KP (16 pKP)
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Permanent
+  durationShort: Permanent
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 157
+
+- id: LITURGY_165
+  name: "Panther Shape"
+  effect: |
+    Turn into a panther. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a panther. You may distribute QL x 2 additional points among the panther’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in panther shape, but the panther still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 154
+
+- id: LITURGY_166
+  name: "Bird of Paradise Shape"
+  effect: |
+    Turn into a bird of paradise. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a bird of paradise. You may distribute QL x 2 additional points among the bird of paradise’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in bird of paradise shape, but the bird still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 141
+
+- id: LITURGY_167
+  name: "Horse Shape"
+  effect: |
+    Turn into a horse. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a horse. You may distribute QL x 2 additional points among the horse’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in horse shape, but the horse still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 150
+
+- id: LITURGY_168
+  name: "Priest Consecration (Ordination)"
+  effect: |
+    The target person receives the advantage Blessed One, and the corresponding tradition of the ordaining priest, as long as this also pleases the deity. The game master must decide for the Deity whether to accept the mortal as a servant. In this way, the target person can become only a Blessed Ones of the God whom the performer of the ceremony serves. The target must spend AP to purchase the advantage Blessed One and the tradition, using the normal rules for advantages. Whether the Blessed One must remain in physical contact with the target for the ceremonial time varies based on the Church or cult. The GM has the final say.
+  castingTime: 8 Hours
+  castingTimeShort: 8 H
+  kpCost: 32 KP, 12 of them permanent
+  kpCostShort: 32 KP (12 pKP)
+  range: Touch
+  rangeShort: Touch
+  duration: Permanent
+  durationShort: Permanent
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 155
+
+- id: LITURGY_169
+  name: "Raven Shape"
+  effect: |
+    Turn into a raven. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a raven. You may distribute QL x 2 additional points among the raven’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in raven shape, but the raven still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 156
+
+- id: LITURGY_170
+  name: "Travel Blessing"
+  effect: |
+    The target receives the advantage Aptitude for the next check using a Nature skill within the duration.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL x 12 Hours
+  durationShort: QL x 12 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 163
+
+- id: LITURGY_171
+  name: "Satiation"
+  effect: |
+    Cast this ceremony on up to 5 pounds of food to cause it to be much more filling. One pound of food satisfies QL/2+1 people. If no one eats the food before the end of the duration, the effect fades. You may not stack the effect for the same meal.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: 12 Hours
+  durationShort: 12 H
+  target: Object (mundane objects; food)
+  src:
+    - id: US25005E
+      firstPage: 158
+
+- id: LITURGY_172
+  name: "Serpent Shape"
+  effect: |
+    Turn into a serpent. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a serpent. You may distribute QL x 2 additional points among the serpent’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in serpent shape, but the serpent still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 158
+
+- id: LITURGY_173
+  name: "Swan Shape"
+  effect: |
+    Turn into a swan. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a swan. You may distribute QL x 2 additional points among the swan’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in swan shape, but the swan still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 162
+
+- id: LITURGY_174
+  name: "Banishment of the Soul"
+  effect: |
+    The Blessed One can sacrifice an Intelligent Creature’s soul to the Nameless One. The target dies at the end of the ceremony.
+  castingTime: 16 Hours
+  castingTimeShort: 16 H
+  kpCost: 32 KP
+  kpCostShort: 32 KP
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 140
+
+- id: LITURGY_175
+  name: "Soul Survey"
+  effect: |
+    Choose a target. Your character sees whether there was ever an Initiation or Ordination for their Pantheon at any time in the target’s life (if your character’s Pantheon has more than one deity, this ceremony cannot determine which one). Your character also sees whether the target bears the taint oath breaker (see **Gods of Aventuria** page **71**). It does not matter from which pantheon the target received the taint.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: 4 yards
+  rangeShort: 4 yd
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 159
+
+- id: LITURGY_176
+  name: "Bless the Home"
+  effect: |
+        It is difficult to break the laws of hospitality (see **Gods of Aventuria** page **21**) within a 12-yard radius surrounding the hearth of a blessed home. This applies to guests and hosts. If a person wishes to take an action against the laws, they must first make a Willpower check with a penalty of -1. If the Willpower check fails, all checks that violate the laws of hospitality suffer a penalty of -1 for the duration.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 141
+
+- id: LITURGY_177
+  name: "Sure-Footed"
+  effect: |
+    All creatures within a QL x 2-yard radius around your character may move over ice and snow with no trouble. They do not sink, fall through, or slip. Affected creatures may use their full MOV. For checks using Body Control and Climbing, ignore QL/2 of ice-based penalties. Remaining penalties apply in the usual manner.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP (to activate the ceremony) + 4 KP per 4 Hours
+  kpCostShort: 8 KP + 4 KP per 4 H
+  range: Self
+  rangeShort: Self
+  duration: Sustained
+  durationShort: (S)
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 162
+
+- id: LITURGY_178
+  name: "Feeding"
+  effect: |
+    Up to QL+1 people feel neither hungry nor thirsty and do not need food or water for the duration.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: 1 Day
+  durationShort: 1 Day
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 145
+
+- id: LITURGY_179
+  name: "Dust and Mold"
+  effect: |
+    The target of the ceremony disintegrates and is destroyed. This may be a castle gate, a wall, a chair, or a weapon. The item becomes porous, moldy, or soft, or it crumbles to dust (the GM decides). At the end of the duration, the target item is no longer usable.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 2/4/8/16 KP for objects of the size of a cup/chest/door/castle gate
+  kpCostShort: 2/4/8/16 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Permanent
+  durationShort: Permanent
+  target: Object (mundane objects)
+  src:
+    - id: US25005E
+      firstPage: 144
+
+- id: LITURGY_180
+  name: "Stork Shape"
+  effect: |
+    Turn into a stork. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a stork. You may distribute QL x 2 additional points among the stork’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in stork shape, but the stork still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 160
+
+- id: LITURGY_181
+  name: "Sanctify Temple (Consecration)"
+  effect: |
+    Sanctify a temple (up to 2000 square feet) — including the ground on which it is built, its walls, and its roof (see **Gods of Aventuria** page **69**). The temple’s surroundings (such as herb gardens) are not considered sanctified ground; however, interior courtyards and cellars are.
+  castingTime: 8 Hours
+  castingTimeShort: 8 H
+  kpCost: 32 KP, 8 of them permanent
+  kpCostShort: 32 KP (8 pKP)
+  range: 8 yards
+  rangeShort: 8 yd
+  duration: Permanent
+  durationShort: Permanent
+  target: Object (Temple)
+  src:
+    - id: US25005E
+      firstPage: 157
+
+- id: LITURGY_182
+  name: "Dream Vision"
+  effect: |
+    Receive insight into the target’s dream. Your character must have physical contact with the target for the entire ceremonial time. When both your character and the target fall asleep, your character shares the target’s dream.<br>
+    The impressions received depend on your QL:
+
+    - **QL 1-2:** Receive only vision-like fragments of dreams that are difficult to interpret.
+    - **QL 3-4:** Have a clear perception of the dreams and see them as the dreamer sees them.
+    - **QL 5-6:** Receive deeper insights into the dreams, such as details and clues hidden to the dreamer.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Until the dream ends or your character is woken up
+  durationShort: Dream
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 144
+
+- id: LITURGY_183
+  name: "Unburdened Walk"
+  effect: |
+    Carry QL x 2 pounds of additional weight without incurring additional levels of *Encumbrance*. Any weight above and beyond these extra pounds counts toward levels of *Encumbrance*. This ceremony does not affect a heavy weight your character lifts for a short time.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 4 KP
+  kpCostShort: 4 KP
+  range: Self
+  rangeShort: Self
+  duration: 1 Day
+  durationShort: 1 Day
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 163
+
+- id: LITURGY_184
+  name: "Fading Memory"
+  effect: |
+    Cause a target’s memories of a traumatic event (such as war, pestilence, or an encounter with a terrifying creature) to fade, relieving the target of any lingering harmful effects of such memories. The target may still willingly remember the event. Checks on *Treat Soul* against the target of the ceremony receive a bonus of QL/2 if it is related to processing the experiences.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: 1 Year
+  durationShort: 1 Year
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 145
+
+- id: LITURGY_185
+  name: "Disremember"
+  effect: |
+    Suppress all personal memories the target has about a past event. The memories may encompass no more than QL days. The target cannot remember the event or make *Knowledge* checks about the information they gained during that time. This ceremony does not affect the target’s reflexes or knowledge they gained before the event — they may make normal skill checks to access that information.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL Days
+  durationShort: QL Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 143
+
+- id: LITURGY_186
+  name: "Weapon Curse"
+  effect: |
+    The Blessed Ones can put a weapon curse on any weapon. The weapon does double damage against Blessed Ones of other deities and their sacred animals (roll for damage, multiply the result by two and *then* subtract PRO). For ranged weapons, the Target Category is individual arrows or bolts.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8/16/32 KP for arrows or bolts, daggers, and brawling weapons / all other weapons / all two-handed weapons
+  kpCostShort: 8/16/32 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Object (mundane objects; weapon)
+  src:
+    - id: US25005E
+      firstPage: 163
+
+- id: LITURGY_187
+  name: "Guidepost"
+  effect: |
+    Your character can sense in which direction within a QL x 10-mile radius the next inhabited dwelling is located. The ceremony gives no information about the distance or whether you can actually reach the target.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Self
+  rangeShort: Self
+  duration: Immediate
+  durationShort: Immediate
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 149
+
+- id: LITURGY_188
+  name: "Consecrate the Home"
+  effect: |
+     Increase a building’s structure points against any type of damage by QL x 30 points. Protect buildings with an average size of up to two levels with this ceremony.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL Hours
+  durationShort: QL H
+  target: Zone
+  src:
+    - id: US25005E
+      firstPage: 142
+
+- id: LITURGY_189
+  name: "Restoration"
+  effect: |
+    Return QL x 20 structure points to a damaged or destroyed object. This ceremony cannot affect weapons and armor.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: Immediate
+  durationShort: Immediate
+  target: Object (mundane objects)
+  src:
+    - id: US25005E
+      firstPage: 156
+
+- id: LITURGY_190
+  name: "Hibernation"
+  effect: |
+    Place a willing, Intelligent Creature into a deep sleep. The target may only wake at the end of the duration or if woken up roughly. For the duration, all effects of conditions, states, poisons, diseases, and aging are suspended.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP
+  kpCostShort: 8 KP
+  range: Touch
+  rangeShort: Touch
+  duration: QL Days
+  durationShort: QL Days
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 149
+
+- id: LITURGY_191
+  name: "Shelter"
+  effect: |
+    Create a safe shelter. This may be a protective pit in the ground or a cave in the rock. The shelter protects all Intelligent Creatures you choose from weather effects, such as cold; however, it cannot protect them from damaging effects, such as violence or fire. The shelter offers QL/2 levels of protection from *Cold*.
+  castingTime: 5 Minutes
+  castingTimeShort: 5 min
+  kpCost: 8 KP per Person
+  kpCostShort: 8 KP per Person
+  range: Touch
+  rangeShort: Touch
+  duration: 6 Hours
+  durationShort: 6 H
+  target: Intelligent Creature
+  src:
+    - id: US25005E
+      firstPage: 159
+
+- id: LITURGY_192
+  name: "Sperm Whale Shape"
+  effect: |
+    Turn into a stork. Clothes and equipment do not transform with your character. While in animal shape, mental attributes remain the same, but all physical attributes and abilities become those of a stork. You may distribute QL x 2 additional points among the stork’s physical attributes. Blessed Ones cannot use supernatural powers like spells or liturgical chants while in stork shape, but the stork still counts as *blessed*.
+  castingTime: 30 Minutes
+  castingTimeShort: 30 min
+  kpCost: 16 KP
+  kpCostShort: 16 KP
+  range: Self
+  rangeShort: Self
+  duration: QL x 3 Hours
+  durationShort: QL x 3 H
+  target: Living Creatures (only the Blessed One)
+  src:
+    - id: US25005E
+      firstPage: 160

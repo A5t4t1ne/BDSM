@@ -1,0 +1,1913 @@
+- id: TAL_1
+  name: "Fliegen"
+  applications:
+    - id: 1
+      name: "Kampfmanöver"
+    - id: 2
+      name: "Langstreckenflug"
+    - id: 3
+      name: "Verfolgungsjagden"
+    - id: -1
+      name: "Kunstflug"
+  tools: "das entsprechende Fluggerät"
+  quality: |
+    Distanzen können schneller überwunden werden.
+  failed: |
+    Das Flugmanöver ist misslungen und muss abgebrochen werden.
+  critical: |
+    Dem Held ist nicht nur das Manöver gelungen, sondern er hat eine zusätzliche Aktion in dieser Runde.
+  botch: |
+    Der Held stürzt ab.
+  src:
+    - id: US25001
+      firstPage: 188
+
+- id: TAL_2
+  name: "Gaukeleien"
+  applications:
+    - id: 1
+      name: "Jonglieren"
+    - id: 2
+      name: "Possenreißen"
+    - id: 3
+      name: "Verstecktricks"
+    - id: -1
+      name: "Bauchreden"
+    - id: -2
+      name: "Feuer schlucken"
+    - id: -3
+      name: "Feuerwerk"
+  uses:
+    - id: 1
+      name: "Beeindruckende Vorstellung"
+  tools: "je nach Trick z.B. Bälle, Fackel, Schlangen, Spielkarten"
+  quality: |
+    Der Trick ist besonders gut gelungen und die Zuschauer applaudieren mehr.
+  failed: |
+    Der Trick funktioniert nicht richtig, kleine Fehler schleichen sich bei dem Versuch ein. Das Publikum ist enttäuscht.
+  critical: |
+    Die Zuschauer sind fasziniert, halten den Trick gar für echte Magie, und potenzielle Geldeinnahmen des Gauklers verdoppeln sich.
+  botch: |
+    Der Held wird bei der Präsentation ausgebuht, da ihm ein Missgeschick passiert (mit Jonglierkeule einen Zuschauer getroffen, mit Pyrotechnik den Bürgermeister verletzt etc.).
+  src:
+    - id: US25001
+      firstPage: 188
+
+- id: TAL_3
+  name: "Klettern"
+  applications:
+    - id: 1
+      name: "Baumklettern"
+    - id: 2
+      name: "Bergsteigen"
+    - id: 3
+      name: "Eisklettern"
+    - id: 4
+      name: "Fassadenklettern"
+  tools: "eventuell Kletterausrüstung"
+  quality: |
+    Der Held kommt schneller an seinem Ziel an.
+  failed: |
+    Der Held braucht viel länger als üblich, verletzt sich leicht (1W3 SP), traut sich nicht, zu klettern, oder hängt fest.
+  critical: |
+    Ohne Schwierigkeiten und viel schneller als gewöhnlich hat der Held den Aufstieg geschafft. Zuschauer halten ihn für den besten Kletterer Deres. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Der Held rutscht ab und fällt (siehe Seite 340, Sturzschaden).
+  src:
+    - id: US25001
+      firstPage: 189
+
+- id: TAL_4
+  name: "Körperbeherrschung"
+  applications:
+    - id: 1
+      name: "Akrobatik"
+    - id: 2
+      name: "Balance"
+    - id: 3
+      name: "Entwinden"
+    - id: 4
+      name: "Kampfmanöver"
+    - id: 5
+      name: "Laufen"
+    - id: 6
+      name: "Springen"
+    - id: -1
+      name: "Skifahren"
+  uses:
+    - id: 1
+      name: "Abrollen"
+  quality: |
+    Der Abenteurer kann sich schneller aus einer Fesselung befreien.
+  failed: |
+    Die Handlung des Helden geht teilweise schief, er braucht länger und macht Fehler oder muss die Handlung abbrechen.
+  critical: |
+    Dem Held gelingt seine Handlung und er hat noch eine zusätzliche Aktion zur Verfügung. Und was immer der Held getan hat: Es sah elegant aus.
+  botch: |
+    Der Held stürzt und erleidet Schaden (1W6 SP).
+  src:
+    - id: US25001
+      firstPage: 189
+
+- id: TAL_5
+  name: "Kraftakt"
+  applications:
+    - id: 1
+      name: "Drücken & Verbiegen"
+    - id: 2
+      name: "Eintreten & Zertrümmern"
+    - id: 3
+      name: "Stemmen & Heben"
+    - id: 4
+      name: "Ziehen & Zerren"
+  tools: "eventuell Brecheisen oder Seil"
+  quality: |
+    Für einen kurzen Zeitraum kann der Held mehr Gewicht stemmen oder eine schwere Last länger halten.
+  failed: |
+    Die Handlung des Helden misslingt.
+  critical: |
+    Der Held beeindruckt durch seine Muskelkraft alle Zuschauer und gilt fortan als einer der stärksten Aventurier. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Die Handlung des Helden misslingt völlig. Er stürzt, verhebt sich o.Ä. und verletzt sich dabei (1W6 SP).
+  src:
+    - id: US25001
+      firstPage: 189
+
+- id: TAL_6
+  name: "Reiten"
+  applications:
+    - id: 1
+      name: "Kampfmanöver"
+    - id: 2
+      name: "Langstreckenreiten"
+    - id: 3
+      name: "Springreiten"
+    - id: 4
+      name: "Verfolgungsjagden"
+    - id: -1
+      name: "Kunstreiten"
+  tools: "Reittier"
+  quality: |
+    Der Held ist schneller an seinem Ziel.
+  failed: |
+    Das Tier bewegt sich nicht oder nicht so, wie es soll.
+  critical: |
+    Das Tier macht seine Sache ausgezeichnet und wie gewünscht, der Reiter hat eine weitere Aktion zur Verfügung.
+  botch: |
+    Das Tier wirft den Reiter ab und er stürzt zu Boden (siehe Seite **340**, Sturzschaden).
+  src:
+    - id: US25001
+      firstPage: 190
+
+- id: TAL_7
+  name: "Schwimmen"
+  applications:
+    - id: 1
+      name: "Kampfmanöver"
+    - id: 2
+      name: "Langstreckenschwimmen"
+    - id: 3
+      name: "Tauchen"
+    - id: 4
+      name: "Verfolgungsjagden"
+    - id: 5
+      name: "Wassertreten"
+  quality: |
+    Der Held ist schneller an seinem Ziel.
+  failed: |
+    Der Held traut sich nicht zu schwimmen oder kommt nicht sonderlich weit – auf jeden Fall nicht bis dahin, wohin er wollte.
+  critical: |
+    Der Held schwimmt die Strecke in Bestzeit. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Der Held geht unter (siehe Seite 340ff., Erstickungsschaden). Grund dafür könnte ein Wadenkrampf sein.
+  src:
+    - id: US25001
+      firstPage: 190
+
+- id: TAL_8
+  name: "Selbstbeherrschung"
+  applications:
+    - id: 1
+      name: "Folter widerstehen"
+    - id: 2
+      name: "Handlungsfähigkeit bewahren"
+    - id: 3
+      name: "Störungen ignorieren"
+  uses:
+    - id: 1
+      name: "Schmerzen unterdrücken"
+    - id: 2
+      name: "Letztes Aufbäumen"
+  quality: |
+    Die Selbstbeherrschung hält für einen längeren Zeitraum.
+  failed: |
+    Dem Helden gelingt es nicht, den Schmerz zu unterdrücken oder die Ablenkung zu ignorieren.
+  critical: |
+    Es gelingt dem Helden, Schmerzen (bis Stufe III) und Ablenkungen einen ganzen Tag lang zu ignorieren.
+  botch: |
+    Der Held erhält für die nächste Stunde 2 Stufen des Zustands *Schmerz* oder ist durch die Ablenkung *Überrascht*.
+  src:
+    - id: US25001
+      firstPage: 190
+
+- id: TAL_9
+  name: "Singen"
+  encDescription: "nein (eventuell ja bei Helmen)"
+  applications:
+    - id: 1
+      name: "Bardenballade"
+    - id: 2
+      name: "Choral"
+    - id: 3
+      name: "Chorgesang"
+    - id: 4
+      name: "Sprechgesang"
+    - id: -1
+      name: "Operngesang"
+    - id: -2
+      name: "Zweistimmiger Gesang"
+  uses:
+    - id: 1
+      name: "Ermutigender Gesang"
+    - id: 2
+      name: "Faszinierender Gesang"
+    - id: 3
+      name: "Beeindruckende Vorstellung"
+  quality: |
+    Der Gesang ist so gut, dass der Held mehr Applaus durch die Zuhörer erhält.
+  failed: |
+    Der Held vergisst den Text oder sein Auftritt gerät eher schlecht als recht.
+  critical: |
+    Der Gesang des Helden ist noch in vielen Wochen Thema seiner Zuhörer. Hat der Held sich um Geld bemüht, dann nimmt er mindestens das Doppelte ein als üblich. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Der Held liegt mehrere Halbtöne daneben oder vergeigt den Rhythmus. Das Lied ist eine Qual für jeden Zuhörer, der Held wird ausgebuht.
+  src:
+    - id: US25001
+      firstPage: 191
+
+- id: TAL_10
+  name: "Sinnesschärfe"
+  encDescription: "nein (eventuell ja bei Helmen, Panzerhandschuhen o. Ä.)"
+  applications:
+    - id: 1
+      name: "Hinterhalt entdecken"
+    - id: 2
+      name: "Suchen"
+    - id: 3
+      name: "Wahrnehmen"
+    - id: -1
+      name: "Lippenlesen"
+    - id: -2
+      name: "Magiegespür"
+    - id: -3
+      name: "Gespür für das Böse"
+    - id: -4
+      name: "Fuchssinn"
+  quality: |
+    Der Held bemerkt weitere Details.
+  failed: |
+    Der Held bemerkt nichts.
+  critical: |
+    Der Held nimmt sogar kaum bemerkbare Details wahr. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Der Held nimmt etwas anderes wahr, als das, was wirklich wichtig wäre. Er könnte zum Beispiel die in der Nähe befindlichen Blumen riechen, dafür aber nicht den auffällig stinkenden Oger, der an ihn heranschleicht.
+  src:
+    - id: US25001
+      firstPage: 191
+
+- id: TAL_11
+  name: "Tanzen"
+  applications:
+    - id: 1
+      name: "Dorftanz"
+    - id: 2
+      name: "Exotischer Tanz"
+    - id: 3
+      name: "Hoftanz"
+    - id: 4
+      name: "Kulttanz"
+  uses:
+    - id: 1
+      name: "Beeindruckende Vorstellung"
+    - id: 2
+      name: "Sinnlicher Tanz"
+    - id: 3
+      name: "Erotiktänzer/in"
+    - id: 4
+      name: "Nackttänzer/in"
+  quality: |
+    Der Tanz ist so gut, dass der Held mehr Applaus erhält.
+  failed: |
+    Der Held bringt die Tanzschritte durcheinander.
+  critical: |
+    Die Aufmerksamkeit der Zuschauer fällt wegen des perfekten Tanzes auf den Helden. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Der Held tritt seiner Tanzpartnerin auf die Füße und verletzt sie dabei oder er stürzt und blamiert sich.
+  src:
+    - id: US25001
+      firstPage: 192
+
+- id: TAL_12
+  name: "Taschendiebstahl"
+  applications:
+    - id: 1
+      name: "Ablenkungen"
+    - id: 2
+      name: "Person bestehlen"
+    - id: 3
+      name: "Gegenstand entwenden"
+    - id: 4
+      name: "Zustecken"
+  tools: "eventuell Messer oder Dolch"
+  quality: |
+    Der Taschendiebstahl wird später bemerkt.
+  failed: |
+    Der Versuch misslingt oder das Opfer bemerkt den Diebstahl.
+  critical: |
+    Das Opfer hat den Diebstahlversuch nicht bemerkt und der Held hat besonders wertvolle Beute gemacht oder gleich mehrere Ziele bestohlen. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Der Held wird von umstehenden Personen oder dem Opfer beobachtet, ohne es zu bemerken, und der Diebstahlversuch misslingt. Außerdem ist er *Überrascht*.
+  src:
+    - id: US25001
+      firstPage: 192
+
+- id: TAL_13
+  name: "Verbergen"
+  applications:
+    - id: 1
+      name: "Gegenstände verbergen"
+    - id: 2
+      name: "Schleichen"
+    - id: 3
+      name: "Sich verstecken"
+  uses:
+    - id: 1
+      name: "Hinterhaltsspezialist"
+  quality: |
+    Der Held kann schwieriger entdeckt werden oder findet schneller ein Versteck.
+  failed: |
+    Der Held hat sich nur dürftig versteckt oder Geräusche beim Schleichen verursacht.
+  critical: |
+    Der Held hat ein perfektes Versteck gefunden oder ist lautlos wie eine Katze. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Irgendetwas (Teller, ein Möbelstück) ist umgefallen.
+  src:
+    - id: US25001
+      firstPage: 193
+
+- id: TAL_14
+  name: "Zechen"
+  applications:
+    - id: 1
+      name: "Vermeidung von Betäubung durch Rauschmittel"
+    - id: 2
+      name: "Vermeidung von Schmerz durch Rauschmittel"
+    - id: 3
+      name: "Vermeidung von Verwirrung durch Rauschmittel"
+  quality: |
+    Der Held verträgt viel mehr als üblich.
+  failed: |
+    Der Held erhält eine Stufe des Zustands *Betäubung* und erwacht am nächsten Tag mit Kopfschmerzen oder anderen unliebsamen Auswirkungen seines Gelages.
+  critical: |
+    Dem Helden gelingt es, bis zum bitteren Ende durchzuhalten, und trotzdem geht es ihm am nächsten Morgen blendend.
+  botch: |
+    Der Held begeht in seinem Zustand jedwede Peinlichkeit. Er zerlegt die halbe Taverne, wacht morgens nackt auf dem Markt oder in einem fremden Bett auf, plaudert Geheimnisse an den Feind aus und kann sich danach an nichts mehr erinnern.
+  src:
+    - id: US25001
+      firstPage: 193
+
+- id: TAL_15
+  name: "Bekehren & Überzeugen"
+  applications:
+    - id: 1
+      name: "Diskussionsführung"
+    - id: 2
+      name: "Einzelgespräch"
+    - id: 3
+      name: "Öffentliche Rede"
+    - id: -1
+      name: "Hetzschriften"
+  uses:
+    - id: 1
+      name: "Tapferkeit der Unsterblichen"
+    - id: 2
+      name: "Gemeinschaftlicher Angriff"
+  quality: |
+    Mehr Menschen lassen sich von dem Helden bekehren, oder der Bekehrte folgt seiner neuen Überzeugung länger.
+  failed: |
+    Das Opfer glaubt dem Prediger nicht.
+  critical: |
+    Das Opfer der Überzeugungsversuche ist vollends überzeugt.
+  botch: |
+    Das Opfer fühlt sich vom Prediger beleidigt oder für dumm verkauft.
+  src:
+    - id: US25001
+      firstPage: 194
+
+- id: TAL_16
+  name: "Betören"
+  encDescription: "nein, situationsabhängige Ausnahmen können vorkommen, z.B. Verführen in Gestechrüstung"
+  applications:
+    - id: 1
+      name: "Anbändeln"
+    - id: 2
+      name: "Aufhübschen"
+    - id: 3
+      name: "Liebeskünste"
+    - id: -1
+      name: "Liebesroman"
+    - id: -2
+      name: "Gestaltung"
+    - id: -3
+      name: "Irritieren"
+  quality: |
+    Der Bezirzte ist bereit, mehr für den Helden zu tun.
+  failed: |
+    Dem Helden gelingt es vorerst nicht, Interesse beim Opfer zu wecken.
+  critical: |
+    Das Verführungsopfer versucht, dem betörenden Helden alle Wünsche zu erfüllen.
+  botch: |
+    Der Held kassiert eine schallende Ohrfeige für seinen plumpen Anmachversuch.
+  src:
+    - id: US25001
+      firstPage: 195
+
+- id: TAL_17
+  name: "Einschüchtern"
+  applications:
+    - id: 1
+      name: "Drohung"
+    - id: 2
+      name: "Folter"
+    - id: 3
+      name: "Provokation"
+    - id: 4
+      name: "Verhör"
+  uses:
+    - id: 1
+      name: "Anpeitscher"
+    - id: 2
+      name: "Drohgebärden"
+    - id: 3
+      name: "Einschüchternde Zurechtweisung"
+  quality: |
+    Das Opfer ist länger eingeschüchtert oder verrät dem Helden mehr als erwartet.
+  failed: |
+    Das Gegenüber ignoriert alle Schmähungen und Einschüchterungsversuche des Helden.
+  critical: |
+    Das Gegenüber des Helden ist vollkommen eingeschüchtert und wird in absehbarer Zeit nichts mehr gegen den Helden unternehmen.
+  botch: |
+    Anstatt eingeschüchtert oder beleidigt zu sein, geschieht das Gegenteil: Das Opfer ist wütend, völlig gelassen oder amüsiert. Oder der Held macht sich mit seinem Gehabe völlig zum Affen.
+  src:
+    - id: US25001
+      firstPage: 195
+
+- id: TAL_18
+  name: "Etikette"
+  applications:
+    - id: 1
+      name: "Benehmen"
+    - id: 2
+      name: "Klatsch & Tratsch"
+    - id: 3
+      name: "Leichte Unterhaltung"
+    - id: 4
+      name: "Mode"
+    - id: -1
+      name: "Heraldik & Stammbäume"
+    - id: -2
+      name: "Poesie"
+    - id: -3
+      name: "Dienen & Gehorchen"
+  uses:
+    - id: 1
+      name: "Turnierkenntnis"
+  quality: |
+    Der Held hinterlässt einen guten Eindruck und bleibt positiv in Erinnerung.
+  failed: |
+    Der Held kann sich nicht an alle wichtigen Benimmregeln erinnern und fällt unangenehm auf.
+  critical: |
+    Auf der Feier ist der Held aufgrund seines Benehmens, Wortwitzes und Charmes der Mittelpunkt.
+  botch: |
+    Der Held beleidigt mit seinem Verhalten eine wichtige Persönlichkeit.
+  src:
+    - id: US25001
+      firstPage: 196
+
+- id: TAL_19
+  name: "Gassenwissen"
+  encDescription: "nein (eventuell ja bei bestimmten Situationen, zum Beispiel, wenn die Rüstung den Anschein eines Gardisten oder Adligen erweckt)"
+  applications:
+    - id: 1
+      name: "Beschattung"
+    - id: 2
+      name: "Informationssuche"
+    - id: 3
+      name: "Ortseinschätzung"
+    - id: -1
+      name: "Kriminalgeschichten"
+  uses:
+    - id: 1
+      name: "Gerüchte aufschnappen"
+  quality: |
+    Der Held erhält mehr Informationen oder erlangt sie schneller als erwartet.
+  failed: |
+    Der Held erhält keine hilfreichen Informationen.
+  critical: |
+    Der Held entdeckt ein besonders gutes, aber günstiges Gasthaus, erhält mehr Informationen, als er erwartet hat, oder es gelingt ihm, einen Kontaktmann zu finden, der ihm exzellente Konditionen anbietet.
+  botch: |
+    Der Held gerät in den Hinterhalt einer Bande Schurken, die ihn ausplündern wollen.
+  src:
+    - id: US25001
+      firstPage: 196
+
+- id: TAL_20
+  name: "Menschenkenntnis"
+  applications:
+    - id: 1
+      name: "Lügen durchschauen"
+    - id: 2
+      name: "Motivation erkennen"
+    - id: -1
+      name: "Vorlieben erspüren"
+  quality: |
+    Der Held hat einen stärkeren Verdacht, was sein Gegenüber vorhat oder warum es lügt.
+  failed: |
+    Der Held ist sich nicht sicher.
+  critical: |
+    Der Held durchschaut die Person komplett.
+  botch: |
+    Der Held ist einer kompletten Fehleinschätzung aufgesessen. So könnte er beispielsweise einem Lügner wirklich alles glauben, ehrlichen Leuten hingegen kein Wort.
+  src:
+    - id: US25001
+      firstPage: 197
+
+- id: TAL_21
+  name: "Überreden"
+  applications:
+    - id: 1
+      name: "Aufschwatzen"
+    - id: 2
+      name: "Betteln"
+    - id: 3
+      name: "Herausreden"
+    - id: 4
+      name: "Manipulieren"
+    - id: 5
+      name: "Schmeicheln"
+    - id: -1
+      name: "Romane"
+    - id: -2
+      name: "Berserker beruhigen"
+  uses:
+    - id: 1
+      name: "Anführer"
+  quality: |
+    Das Gegenüber ist bereit, mehr für den Helden zu tun.
+  failed: |
+    Dem Held gelingt es nicht, sein Gegenüber zu überreden.
+  critical: |
+    Die Person, die der Held überreden wollte, tut weit mehr als sie muss.
+  botch: |
+    Die Person, die der Held überreden wollte, ist wütend auf den Helden und lässt sich in nächster Zeit nicht mehr überreden.
+  src:
+    - id: US25001
+      firstPage: 197
+
+- id: TAL_22
+  name: "Verkleiden"
+  applications:
+    - id: 1
+      name: "Bühnenschauspiel"
+    - id: 2
+      name: "Kostümierung"
+    - id: 3
+      name: "Personen imitieren"
+  uses:
+    - id: 1
+      name: "Menschenstimmen imitieren"
+  tools: "entsprechende Verkleidung"
+  quality: |
+    Die Verkleidung ist schwerer zu durchschauen.
+  failed: |
+    Die Verkleidung ist nicht gut gewählt und hält einem prüfenden Blick nicht stand.
+  critical: |
+    Die Verkleidung funktioniert tadellos.
+  botch: |
+    Die Kleidung wird sofort durchschaut und der Held handelt sich in der Regel Ärger ein.
+  src:
+    - id: US25001
+      firstPage: 198
+
+- id: TAL_23
+  name: "Willenskraft"
+  applications:
+    - id: 1
+      name: "Bekehren & Überzeugen widerstehen"
+    - id: 2
+      name: "Bedrohungen standhalten"
+    - id: 3
+      name: "Betören widerstehen"
+    - id: 4
+      name: "Einschüchtern widerstehen"
+    - id: 5
+      name: "Überreden widerstehen"
+  uses:
+    - id: 1
+      name: "Scholar der Akademie Schwert und Stab zu Gareth"
+    - id: 2
+      name: "Scholar der Schule der Hellsicht zu Thorwal"
+    - id: 3
+      name: "Radscha-Anhänger"
+    - id: 4
+      name: "Erotikmasseur/in"
+  quality: |
+    Die Auswirkungen von Verführungs- oder Überredensversuchen sind deutlich abgeschwächt oder es wird ihnen ganz widerstanden.
+  failed: |
+    Der Held kann nicht widerstehen.
+  critical: |
+    Der Held widersteht und kann von dieser Person oder Sache in nächster Zeit nicht mehr beeinflusst werden.
+  botch: |
+    Der Held ist der Person, die ihn beeinflussen will, vollkommen verfallen oder fällt bei Anblick eines scheußlichen Dämons in Ohnmacht.
+  src:
+    - id: US25001
+      firstPage: 198
+
+- id: TAL_24
+  name: "Fährtensuchen"
+  applications:
+    - id: 1
+      name: "Verwischen eigener Fährte"
+    - id: 2
+      name: "Humanoide Spuren"
+    - id: 3
+      name: "Tierische Spuren"
+  quality: |
+    über die Qualitätsstufe kann der Held mehr Details in der Fährte erkennen.
+  failed: |
+    Der Held findet keine Spur oder kann keine neuen Erkenntnisse gewinnen.
+  critical: |
+    Sofern die Spur nicht komplett zerstört wurde, kann der Held ihr zielsicher bis zum Ende folgen. Er erhält mehr Informationen als üblich. Täuschungsmanöver wie das Verwischen der Spuren durchschaut er sofort.
+  botch: |
+    Der Held verwechselt die Spur und folgt einer falschen Fährte. So trifft er vielleicht auf eine gefährliche Kreatur oder jagt den falschen Leuten hinterher.
+  src:
+    - id: US25001
+      firstPage: 198
+
+- id: TAL_25
+  name: "Fesseln"
+  encDescription: "nein (eventuell ja bei Helmen, Panzerhandschuhen, etc.)"
+  applications:
+    - id: 1
+      name: "Fesselungen"
+    - id: 2
+      name: "Knotenkunde"
+    - id: 3
+      name: "Netze knüpfen"
+    - id: -1
+      name: "Seile herstellen"
+  tools: "Fessel"
+  quality: |
+    Die Fessel hält länger und kann gegebenenfalls schwerer geöffnet werden.
+  failed: |
+    Dem Held gelingt nur ein Knoten von schlechter Qualität. Das Befreien daraus ist leichter als üblich.
+  critical: |
+    Der Held hat einen stabilen Knoten gemacht. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Der Held hat einen Knoten gemacht, der sich in jeder Lage löst - oder der denkbar ungünstigsten.
+  src:
+    - id: US25001
+      firstPage: 199
+
+- id: TAL_26
+  name: "Fischen & Angeln"
+  encDescription: "ja (beim Speerfischen) oder nein (beim Reusenfang oder dem Fischen mit Netzen)"
+  applications:
+    - id: 1
+      name: "Salzwassertiere"
+    - id: 2
+      name: "Süßwassertiere"
+    - id: 3
+      name: "Wasserungeheuer"
+  tools: "Angel mit Schnur, Netz oder Reuse, Speer"
+  quality: |
+    Die Fische sind wohlschmeckender als bei einem durchschnittlichen Fang.
+  failed: |
+    Kein Fisch beißt an oder geht ins Netz.
+  critical: |
+    Die Zahl der Rationen ist sehr hoch. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.
+  botch: |
+    Der Angler fällt ins Wasser und die Angel geht verloren.
+  src:
+    - id: US25001
+      firstPage: 199
+
+- id: TAL_27
+  name: "Orientierung"
+  applications:
+    - id: 1
+      name: "Sonnenstand"
+    - id: 2
+      name: "Sternenhimmel"
+    - id: 3
+      name: "Unter Tage"
+  quality: |
+    Der Held findet schneller heraus, in welche Richtung er sich bewegt.
+  failed: |
+    Der Held weiß nicht sicher, wo es langgeht.
+  critical: |
+    Der Held findet den Weg ohne Schwierigkeiten selbst unter schlechtesten Bedingungen.
+  botch: |
+    Der Held hat sich komplett verlaufen und bewegt sich in die falsche Richtung, was ihm jedoch nicht bewusst ist.
+  src:
+    - id: US25001
+      firstPage: 200
+
+- id: TAL_28
+  name: "Pflanzenkunde"
+  encDescription: "ja (beim Ackerbau und Nahrung sammeln) oder nein (bei der Bestimmung von Pflanzen)"
+  applications:
+    - id: 1
+      name: "Giftpflanzen"
+    - id: 2
+      name: "Heilpflanzen"
+    - id: 3
+      name: "Nutzpflanzen"
+    - id: -1
+      name: "Pflanzenerkennung"
+  uses:
+    - id: 1
+      name: "Ackerbau"
+  quality: |
+    genauere Informationen zu einer Pflanze
+  failed: |
+    Der Held hat keine Ahnung.
+  critical: |
+    Der Held weiß alles über die Pflanze, auch besondere Wirkungen, und kann sie doppelt so lange haltbar machen wie üblich.
+  botch: |
+    Der Held verwechselt die Pflanze mit einer anderen.
+  src:
+    - id: US25001
+      firstPage: 200
+
+- id: TAL_29
+  name: "Tierkunde"
+  applications:
+    - id: 1
+      name: "Domestizierte Tiere"
+    - id: 2
+      name: "Ungeheuer"
+    - id: 3
+      name: "Wildtiere"
+  uses:
+    - id: 1
+      name: "Tierstimmen imitieren"
+    - id: 2
+      name: "Abrichten"
+    - id: 3
+      name: "Viehzucht"
+    - id: 4
+      name: "Tierfreundschaft"
+    - id: 5
+      name: "Gift melken (Land- und Lufttiere)"
+    - id: 6
+      name: "Gift melken (Wassertiere)"
+  quality: |
+    genauere Informationen zu einem Tier
+  failed: |
+    Der Held hat keine Ahnung.
+  critical: |
+    Der Held weiß alles über das Tier.
+  botch: |
+    Der Held glaubt, etwas über das Tier zu wissen, liegt aber gefährlich falsch (schätzt es ungiftig ein, obwohl es sehr giftig ist, oder als Pflanzenfresser, obwohl es Fleischfresser ist).
+  src:
+    - id: US25001
+      firstPage: 200
+
+- id: TAL_30
+  name: "Wildnisleben"
+  applications:
+    - id: 1
+      name: "Feuermachen"
+    - id: 2
+      name: "Lageraufbau"
+    - id: 3
+      name: "Lagersuche"
+    - id: -1
+      name: "Wettervorhersage"
+  uses:
+    - id: 1
+      name: "Iglubau"
+  tools: "eventuell Zelt, Wildnisausrüstung"
+  quality: |
+    Der Held benötigt nicht so lange, um ein Lager zu finden oder aufzubauen.
+  failed: |
+    Der Lagerplatz ist schlecht gewählt. Die Regeneration ist um 1 gesenkt.
+  critical: |
+    Ein phantastischer Schlafplatz! Die Regeneration ist um 1 Punkt erhöht.
+  botch: |
+    Das Lager wird überschwemmt oder von Ungeziefer heimgesucht.
+  src:
+    - id: US25001
+      firstPage: 201
+
+- id: TAL_31
+  name: "Brett- & Glücksspiel"
+  applications:
+    - id: 1
+      name: "Würfelspiele"
+    - id: 2
+      name: "Brettspiele"
+    - id: 3
+      name: "Kartenspiele"
+    - id: 4
+      name: "Wettspiele"
+    - id: -1
+      name: "Fachpublikationen"
+  uses:
+    - id: 1
+      name: "Falschspielen"
+  tools: "Spiel"
+  quality: |
+    Der Held hat einen guten Spielzug gemacht.
+  failed: |
+    Der Held verliert.
+  critical: |
+    Der Held gewinnt auf spektakuläre Art und Weise. Wurde um Geld gespielt, verdoppelt sich sein Gewinn.
+  botch: |
+    Der Held wird fälschlicherweise des Falschspiels verdächtigt oder hat eine Pechsträne. Wird um Geld gespielt, verliert er mindestens den kompletten Einsatz (oder mehr).
+  src:
+    - id: US25001
+      firstPage: 201
+
+- id: TAL_32
+  name: "Geographie"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetien"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Nordmarken"
+    - id: 6
+      name: "Rommilyser Mark"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhag"
+    - id: 10
+      name: "Al'Anfanisches Imperium"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranien"
+    - id: 13
+      name: "Bergkönigreiche der Zwerge"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Hoher Norden"
+    - id: 17
+      name: "Horasreich"
+    - id: 18
+      name: "Kalifat"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orkland"
+    - id: 22
+      name: "Salamandersteine & umliegende Gebiete der Elfen"
+    - id: 23
+      name: "Schattenlande"
+    - id: 24
+      name: "Südmeer & Waldinseln"
+    - id: 25
+      name: "Svellttal"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Tiefer Süden"
+    - id: 28
+      name: "Tulamidenlande"
+    - id: 29
+      name: "Zyklopeninseln"
+    - id: -1
+      name: "Kartographie"
+    - id: -2
+      name: "Fachpublikationen"
+  quality: |
+    mehr Detailinformationen zur Bevölkerung, Örtlichkeiten und Flussübergängen
+  failed: |
+    Der Held hat keine Ahnung.
+  critical: |
+    Der Held kennt viele Details der Region: Herrscher, Bevölkerungszahlen, Bräuche, Flussverläufe und Brücken.
+  botch: |
+    Der Held erinnert sich an völlig falsche geographische Details: Einwohnerzahlen von Städten stimmen nicht, Brücken befinden sich an anderer Stelle als gedacht.
+  src:
+    - id: US25001
+      firstPage: 202
+
+- id: TAL_33
+  name: "Geschichtswissen"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetien"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Nordmarken"
+    - id: 6
+      name: "Rommilyser Mark"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhag"
+    - id: 10
+      name: "Al'Anfanisches Imperium"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranien"
+    - id: 13
+      name: "Bergkönigreiche der Zwerge"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Hoher Norden"
+    - id: 17
+      name: "Horasreich"
+    - id: 18
+      name: "Kalifat"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orkland"
+    - id: 22
+      name: "Salamandersteine & umliegende Gebiete der Elfen"
+    - id: 23
+      name: "Schattenlande"
+    - id: 24
+      name: "Südmeer & Waldinseln"
+    - id: 25
+      name: "Svellttal"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Tiefer Süden"
+    - id: 28
+      name: "Tulamidenlande"
+    - id: 29
+      name: "Zyklopeninseln"
+    - id: -1
+      name: "Fachpublikationen"
+  quality: |
+    mehr Details zu historischen Persönlichkeiten und Epochen
+  failed: |
+    Der Held hat keine Ahnung.
+  critical: |
+    Der Held kennt besonders viele Details über ein bestimmtes Ereignis oder eine historische Person.
+  botch: |
+    Der Held kann zu diesem Thema nur falsche Informationen beitragen: er irrt sich in Daten und Ereignissen.
+  src:
+    - id: US25001
+      firstPage: 202
+
+- id: TAL_34
+  name: "Götter & Kulte"
+  applications:
+    - id: 1
+      name: "Praios"
+    - id: 2
+      name: "Rondra"
+    - id: 3
+      name: "Efferd"
+    - id: 4
+      name: "Travia"
+    - id: 5
+      name: "Boron"
+    - id: 6
+      name: "Hesinde"
+    - id: 7
+      name: "Firun"
+    - id: 8
+      name: "Tsa"
+    - id: 9
+      name: "Phex"
+    - id: 10
+      name: "Peraine"
+    - id: 11
+      name: "Ingerimm"
+    - id: 12
+      name: "Rahja"
+    - id: 13
+      name: "Namenloser"
+    - id: 14
+      name: "Aves"
+    - id: 15
+      name: "Ifirn"
+    - id: 16
+      name: "Kor"
+    - id: 17
+      name: "Nandus"
+    - id: 18
+      name: "Swafnir"
+    - id: 19
+      name: "Marbo"
+    - id: 20
+      name: "Levthan"
+    - id: 21
+      name: "Rastullah"
+    - id: -1
+      name: "Fachpublikationen"
+  applicationsInput: nach Gottheit oder Philosophie
+  quality: |
+    mehr Details zu Kulten, Göttern und Priestern
+  failed: |
+    Der Held hat keine Ahnung.
+  critical: |
+    Der Held hat detaillierte Einsichten in das Thema und kennt selbst spezielle Rituale, Gebetstexte oder philosophische Grundlagen.
+  botch: |
+    Der Held verwechselt kultische Handlungen und Ansichten dieser Kirche mit einer anderen.
+  src:
+    - id: US25001
+      firstPage: 203
+
+- id: TAL_35
+  name: "Kriegskunst"
+  applications:
+    - id: 1
+      name: "Belagerung"
+    - id: 2
+      name: "Feldschlacht"
+    - id: 3
+      name: "Partisanenkampf"
+    - id: 4
+      name: "Seegefechte"
+    - id: 5
+      name: "Tunnelkampf"
+    - id: -1
+      name: "Fachpublikationen"
+  uses:
+    - id: 1
+      name: "Kamerad des guten Goldes"
+    - id: 2
+      name: "Drachenkampf-Taktik"
+    - id: 3
+      name: "Ungeheuer-Taktik"
+    - id: 4
+      name: "Erweiterte Drachenkampf-Taktik"
+  quality: |
+    bessere Vorteile während des Gefechts
+  failed: |
+    Der Held unterliegt einer Fehleinschätzung.
+  critical: |
+    Der Held hat einen vortrefflichen Plan, der ihm zusätzliche Vorteile im Kampf einbringt.
+  botch: |
+    Der Held begeht einen kapitalen Planungsfehler, der den Kampf zu seinen Ungunsten beeinflusst oder ihm zumindest extreme Nachteile beschert.
+  src:
+    - id: US25001
+      firstPage: 203
+
+- id: TAL_36
+  name: "Magiekunde"
+  applications:
+    - id: 1
+      name: "Artefakte"
+    - id: 2
+      name: "Magische Wesen"
+    - id: 3
+      name: "Rituale"
+    - id: 4
+      name: "Zaubersprüche"
+    - id: -1
+      name: "Fachpublikationen"
+  uses:
+    - id: 1
+      name: "Analytiker"
+    - id: 2
+      name: "Scholar der Akademie der Hohen Magie zu Punin"
+  quality: |
+    mehr Details zu Zaubern, magischen Wesen oder exotischer Magieanwendung
+  failed: |
+    Der Held hat keine Ahnung.
+  critical: |
+    Der Held kennt Herkunft, wirkenden Zauber und Auslöser eines alten Artefaktes.
+  botch: |
+    Der Held hat falsche Vorstellungen und irrt sich, sodass es zu einem gravierenden Fehlurteil kommt.
+  src:
+    - id: US25001
+      firstPage: 204
+
+- id: TAL_37
+  name: "Mechanik"
+  applications:
+    - id: 1
+      name: "Hebel"
+    - id: 2
+      name: "Hydraulik"
+    - id: 3
+      name: "Komplexe Systeme"
+    - id: -1
+      name: "Fachpublikationen"
+    - id: -2
+      name: "Fallen herstellen"
+  uses:
+    - id: 1
+      name: "Fallentarnung"
+  quality: |
+    schnellere Planung
+  failed: |
+    Die geplante Mechanik funktioniert nicht.
+  critical: |
+    Der doppelte FW zählt als FP.
+  botch: |
+    Was immer der Held konstruieren wollte: Das Objekt ist gefährlich oder die Konstruktion fällt in sich zusammen. Eine Falle wird mit größtmöglichem Erfolg ausgelöst.
+  src:
+    - id: US25001
+      firstPage: 204
+
+- id: TAL_38
+  name: "Rechnen"
+  applications:
+    - id: 1
+      name: "Bruchrechnung"
+    - id: 2
+      name: "Punktrechnung"
+    - id: 3
+      name: "Strichrechnung"
+    - id: -1
+      name: "Fachpublikationen"
+    - id: -2
+      name: "Zahlenmystik"
+    - id: -3
+      name: "Verschlüsselungen"
+  quality: |
+    schnelleres Ergebnis
+  failed: |
+    Das Ergebnis ist falsch.
+  critical: |
+    Schnelle und exakte Bestimmung der Lösung
+  botch: |
+    Das Ergebnis ist komplett falsch, der Held aber von der Richtigkeit absolut überzeugt.
+  src:
+    - id: US25001
+      firstPage: 204
+
+- id: TAL_39
+  name: "Rechtskunde"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetien"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Nordmarken"
+    - id: 6
+      name: "Rommilyser Mark"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhag"
+    - id: 10
+      name: "Al'Anfanisches Imperium"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranien"
+    - id: 13
+      name: "Bergkönigreiche der Zwerge"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Hoher Norden"
+    - id: 17
+      name: "Horasreich"
+    - id: 18
+      name: "Kalifat"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orkland"
+    - id: 22
+      name: "Salamandersteine & umliegende Gebiete der Elfen"
+    - id: 23
+      name: "Schattenlande"
+    - id: 24
+      name: "Südmeer & Waldinseln"
+    - id: 25
+      name: "Svellttal"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Tiefer Süden"
+    - id: 28
+      name: "Tulamidenlande"
+    - id: 29
+      name: "Zyklopeninseln"
+    - id: -1
+      name: "Gildenrecht"
+    - id: -2
+      name: "Fachpublikationen"
+  quality: |
+    mehr Optionen zur Lösung eines Falls
+  failed: |
+    Der Held hat keine Ahnung.
+  critical: |
+    Der Held kennt sich mit Besonderheiten des Gesetzes aus und kann einen Plan entwickeln, es zu seinem Vorteil auszulegen.
+  botch: |
+    Die Auslegung des Gesetzes ist falsch oder der Held übersieht einen wichtigen Passus.
+  src:
+    - id: US25001
+      firstPage: 205
+
+- id: TAL_40
+  name: "Sagen & Legenden"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetien"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Nordmarken"
+    - id: 6
+      name: "Rommilyser Mark"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhag"
+    - id: 10
+      name: "Al'Anfanisches Imperium"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranien"
+    - id: 13
+      name: "Bergkönigreiche der Zwerge"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Hoher Norden"
+    - id: 17
+      name: "Horasreich"
+    - id: 18
+      name: "Kalifat"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orkland"
+    - id: 22
+      name: "Salamandersteine & umliegende Gebiete der Elfen"
+    - id: 23
+      name: "Schattenlande"
+    - id: 24
+      name: "Südmeer & Waldinseln"
+    - id: 25
+      name: "Svellttal"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Tiefer Süden"
+    - id: 28
+      name: "Tulamidenlande"
+    - id: 29
+      name: "Zyklopeninseln"
+    - id: -1
+      name: "Märchen"
+    - id: -2
+      name: "Fachpublikationen"
+  quality: |
+    mehr Details oder verschiedene Versionen einer Geschichte
+  failed: |
+    Der Held kennt die Legende nicht.
+  critical: |
+    Der Held kann sich an viele Details der Geschichte erinnern und kennt mehrere Varianten.
+  botch: |
+    Der Held verwechselt die Geschichte mit einer anderen oder meint sich an völlig andere Details zu erinnern.
+  src:
+    - id: US25001
+      firstPage: 205
+
+- id: TAL_41
+  name: "Sphärenkunde"
+  applications:
+    - id: 1
+      name: "Limbus"
+    - id: 2
+      name: "Sphärenwesen"
+    - id: 3
+      name: "1. Sphäre"
+    - id: 4
+      name: "2. Sphäre"
+    - id: 5
+      name: "3. Sphäre"
+    - id: 6
+      name: "4. Sphäre"
+    - id: 7
+      name: "5. Sphäre"
+    - id: 8
+      name: "6. Sphäre"
+    - id: 9
+      name: "7. Sphäre"
+    - id: -1
+      name: "Fachpublikationen"
+  quality: |
+    mehr Details zu Sphären oder dem Limbus
+  failed: |
+    Der Held weiß nichts über das spezielle Thema.
+  critical: |
+    Der Held erinnert sich an bemerkenswerte Details über einen einzelnen Dämon oder den Weg in eine verborgene Globule.
+  botch: |
+    Der Held unterliegt einer gefährlichen Fehleinschätzung.
+  src:
+    - id: US25001
+      firstPage: 206
+
+- id: TAL_42
+  name: "Sternkunde"
+  applications:
+    - id: 1
+      name: "Astrologie"
+    - id: 2
+      name: "Himmelskartographie"
+    - id: 3
+      name: "Kalendarium"
+    - id: -1
+      name: "Fachpublikationen"
+  uses:
+    - id: 1
+      name: "Scholar der Töchter Niobaras"
+  quality: |
+    schnellere Horoskoperstellung
+  failed: |
+    Der Held hat keine Ahnung.
+  critical: |
+    Der Held kann sehr genau die Bewegungen der Himmelskörper berechnen.
+  botch: |
+    Eine Fehleinschätzung bei einem Horoskop, einer Mondfinsternis etc.
+  src:
+    - id: US25001
+      firstPage: 206
+
+- id: TAL_43
+  name: "Alchimie"
+  applications:
+    - id: 1
+      name: "Alchimistische Gifte"
+    - id: 2
+      name: "Elixiere"
+    - id: 3
+      name: "Profane Alchimie"
+  tools: "alchimistisches Labor"
+  quality: |
+    Der Trank weist eine bessere Qualität auf.
+  failed: |
+    Das Elixier ist misslungen oder eine Analyse hat kein Ergebnis gebracht.
+  critical: |
+    Der Held weiß exakt, welches Elixier er vor sich hat, welche Stufe es besitzt und wie lange haltbar es ist.
+  botch: |
+    Das Elixier sorgt für einen unangenehmen Nebeneffekt.
+  src:
+    - id: US25001
+      firstPage: 206
+
+- id: TAL_44
+  name: "Boote & Schiffe"
+  applications:
+    - id: 1
+      name: "Kampfmanöver"
+    - id: 2
+      name: "Langstrecke"
+    - id: 3
+      name: "Verfolgungsjagden"
+    - id: 4
+      name: "Wettfahren"
+    - id: -1
+      name: "Navigation"
+  tools: "Schiff oder Boot"
+  quality: |
+    Die Distanz bis zum Ziel kann schneller überwunden werden.
+  failed: |
+    Der Held kommt mit dem Boot oder Schiff kaum voran.
+  critical: |
+    Der Held nutzt günstige Strömungen und Winde, um doppelt so schnell voranzukommen wie üblich.
+  botch: |
+    Der Held fällt von Bord oder ein wichtiger Teil des Wasserfahrzeugs wurde beschädigt.
+  src:
+    - id: US25001
+      firstPage: 207
+
+- id: TAL_45
+  name: "Fahrzeuge"
+  applications:
+    - id: 1
+      name: "Kampfmanöver"
+    - id: 2
+      name: "Langstrecke"
+    - id: 3
+      name: "Verfolgungsjagden"
+    - id: 4
+      name: "Wettrennen"
+  tools: "Fahrzeug"
+  quality: |
+    Die Distanz bis zum Ziel kann schneller überwunden werden.
+  failed: |
+    Das Fahrzeug bewegt sich schwerfällig oder dem Helden gelingt es nicht, es in Bewegung zu setzen.
+  critical: |
+    Das Fahrzeug kommt gut voran und schafft die Strecke in Rekordzeit.
+  botch: |
+    Das Fahrzeug erleidet einen Achsenbruch oder fällt während der Fahrt mitsamt dem Fahrer um, und der Held erleidet Fallschaden.
+  src:
+    - id: US25001
+      firstPage: 207
+
+- id: TAL_46
+  name: "Handel"
+  applications:
+    - id: 1
+      name: "Buchhaltung"
+    - id: 2
+      name: "Feilschen"
+    - id: 3
+      name: "Geldwechsel"
+    - id: -1
+      name: "Hehlerei"
+    - id: -2
+      name: "Bine Maschores"
+    - id: -3
+      name: "Buchprüfung"
+  uses:
+    - id: 1
+      name: "Rosstäuscher"
+    - id: 2
+      name: "Verwaltung"
+  quality: |
+    Der Held kann präziser den Preis bestimmen.
+  failed: |
+    Der Held bekommt nicht so viel wie erhofft.
+  critical: |
+    Der Held bekommt die Ware zu einem Spottpreis bzw. kann sie zu Wucherpreisen loswerden - ohne dass sein Handelspartner es ihm übel nimmt. Die Preiserhöhung oder der Nachlass sollte mindestens 50 % betragen.
+  botch: |
+    Der Held wird über den Tisch gezogen oder der Handelspartner weigert sich, Geschäfte mit dem Helden zu machen. Die Preiserhöhung oder der Nachlass sollte mindestens 50 % betragen.
+  src:
+    - id: US25001
+      firstPage: 208
+
+- id: TAL_47
+  name: "Heilkunde Gift"
+  applications:
+    - id: 1
+      name: "Alchimistisches Gift"
+    - id: 2
+      name: "Mineralisches Gift"
+    - id: 3
+      name: "Pflanzliches Gift"
+    - id: 4
+      name: "Tierisches Gift"
+  tools: "Gegenmittel"
+  quality: |
+    Der Held kann das Gift schneller bestimmen.
+  failed: |
+    Der Held hat keine Ahnung und kennt keine Möglichkeit der Heilung.
+  critical: |
+    Der Patient kann vollständig entgiftet werden, ohne dass der Held das passende Gegenmittel verwenden musste.
+  botch: |
+    Der Held ordnet einen (schädlichen) Aderlass an oder hat den Patienten bei der Behandlung verletzt oder gar zusätzlich vergiftet (1W6 SP).
+  src:
+    - id: US25001
+      firstPage: 208
+
+- id: TAL_48
+  name: "Heilkunde Krankheiten"
+  applications:
+    - id: 1
+      name: "Flinker Difar"
+    - id: 2
+      name: "Lutanas"
+    - id: 3
+      name: "Rascher Wahn"
+    - id: 4
+      name: "Sumpffieber/Brabaker Schweiß"
+    - id: 5
+      name: "Zorganpocken"
+  tools: "Heilmittel"
+  quality: |
+    Der Held kann die Krankheit schneller bestimmen.
+  failed: |
+    Der Held hat keine Ahnung und kennt weder Heilmittel noch die passende Behandlung.
+  critical: |
+    Der Patient ist geheilt, ohne dass der Held ein Heilmittel verwenden musste. Zudem steckt er sich nicht beim Erkrankten an.
+  botch: |
+    Der Held hat dem Patienten bei der Behandlung geschadet (1W6 SP) oder der Krankheitsverlauf verschlimmert sich. Zudem besteht für den Helden bei ansteckenden Krankheiten eine 25 % höhere Chance, sich bei dem Patienten anzustecken.
+  src:
+    - id: US25001
+      firstPage: 208
+
+- id: TAL_49
+  name: "Heilkunde Seele"
+  applications:
+    - id: 1
+      name: "Unterdrückung von Ängsten"
+    - id: 2
+      name: "Unterdrückung von Persönlichkeitsschwächen"
+    - id: 3
+      name: "Unterdrückung von Schlechten Eigenschaften"
+  uses:
+    - id: 1
+      name: "Gesunder Geist, gesunder Körper"
+    - id: 2
+      name: "Harmonie der Seele"
+    - id: 3
+      name: "Wohlklang der Seele"
+    - id: 4
+      name: "Rahjasutra-Masseur/in"
+  quality: |
+    Die Unterdrückung des Nachteils hält länger an.
+  failed: |
+    Der Held hat keine Ahnung, wie er dem Patienten helfen kann.
+  critical: |
+    Der Patient kann einen Nachteil (Angst, Persönlichkeitsschwäche oder Schlechte Eigenschaft) für einen ganzen Tag unterdrücken.
+  botch: |
+    Der Held hat den Patienten bei der Behandlung verstört oder seinem Geist anderweitig geschadet. Der Patient erhält für einen Tag eine Stufe des Zustands *Furcht* oder *Verwirrung*.
+  src:
+    - id: US25001
+      firstPage: 209
+
+- id: TAL_50
+  name: "Heilkunde Wunden"
+  applications:
+    - id: 1
+      name: "Heilung fördern"
+    - id: 2
+      name: "Schmerzen nehmen"
+    - id: 3
+      name: "Stabilisieren"
+  uses:
+    - id: 1
+      name: "Masseur/in"
+  tools: "eventuell Bandagen, chirurgisches Gerät, Kräuter, Nadel und Faden"
+  quality: |
+    Der Held verbraucht weniger Heilkräuter oder kann die Verletzung schneller versorgen.
+  failed: |
+    Der Held kann dem Patienten nicht helfen.
+  critical: |
+    Die vollen Fertigkeitspunkte werden bei der nächsten Regenerationsphase zusätzlich zur normalen Regeneration zu den Lebenspunkten des Patienten hinzuaddiert.
+  botch: |
+    Der Held hat den Patienten bei der Behandlung verletzt (1W6 SP).
+  src:
+    - id: US25001
+      firstPage: 209
+
+- id: TAL_51
+  name: "Holzbearbeitung"
+  applications:
+    - id: 1
+      name: "Schlagen & Schneiden"
+    - id: 2
+      name: "Tischlerarbeiten"
+    - id: 3
+      name: "Zimmermannsarbeiten"
+    - id: -1
+      name: "Instrumente bauen"
+    - id: -2
+      name: "Boote bauen"
+    - id: -3
+      name: "Kutschen bauen"
+    - id: -4
+      name: "Rüstungsherstellung"
+    - id: -5
+      name: "Schiffe bauen"
+    - id: -6
+      name: "Schmuck herstellen"
+    - id: -7
+      name: "Räder herstellen"
+    - id: -8
+      name: "Waffenherstellung"
+    - id: -9
+      name: "Mechanische Konstrukte herstellen"
+  uses:
+    - id: 1
+      name: "Möbelstücke herstellen"
+  tools: "je nach zu bearbeitendem Material z.B. Axt, Hobel, Messer, Säge"
+  quality: |
+    Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.
+  failed: |
+    Der Held kommt mit der Arbeit an dem Werkstück nicht voran.
+  critical: |
+    Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.
+  botch: |
+    Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.
+  src:
+    - id: US25001
+      firstPage: 210
+
+- id: TAL_52
+  name: "Lebensmittelbearbeitung"
+  applications:
+    - id: 1
+      name: "Ausnehmen"
+    - id: 2
+      name: "Backen"
+    - id: 3
+      name: "Braten & Sieden"
+    - id: 4
+      name: "Brauen"
+    - id: 5
+      name: "Haltbarmachung"
+    - id: -1
+      name: "Schnapsbrennen"
+    - id: -2
+      name: "Bierbrauen"
+    - id: -3
+      name: "Winzerei"
+  uses:
+    - id: 1
+      name: "Konditor"
+  tools: "entsprechende Zutaten, Feldküche, Kochutensilien"
+  quality: |
+    Der Geschmack des Essens ist besser als üblich.
+  failed: |
+    Das Essen ist angebrannt oder ungenießbar.
+  critical: |
+    Die Mahlzeit ist ein echter Gaumenschmaus, ein gekelterter Wein ein wirklich edler Tropfen.
+  botch: |
+    Das Essen schmeckt nicht nur miserabel, der Konsum hat auch eine schwere Magenverstimmung, Durchfall oder Brechreiz (1W6 SP) zur Folge.
+  src:
+    - id: US25001
+      firstPage: 210
+
+- id: TAL_53
+  name: "Lederbearbeitung"
+  applications:
+    - id: 1
+      name: "Gerben"
+    - id: 2
+      name: "Kürschnern"
+    - id: 3
+      name: "Lederwaren herstellen"
+    - id: -1
+      name: "Rüstungsherstellung"
+  tools: "Ahle, Falzbein, Lochzange, Messer, Punziereisen, Zange"
+  quality: |
+    Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.
+  failed: |
+    Der Held kommt mit der Arbeit an dem Werkstück nicht voran.
+  critical: |
+    Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.
+  botch: |
+    Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.
+  src:
+    - id: US25001
+      firstPage: 210
+
+- id: TAL_54
+  name: "Malen & Zeichnen"
+  applications:
+    - id: 1
+      name: "Malen"
+    - id: 2
+      name: "Ritzen"
+    - id: 3
+      name: "Zeichnen"
+    - id: -1
+      name: "Dokumente fälschen"
+    - id: -2
+      name: "Zauberzeichen malen"
+    - id: -3
+      name: "Drucken"
+    - id: -4
+      name: "Kalligraphie"
+    - id: -5
+      name: "Kohlezeichnungen anfertigen"
+    - id: -6
+      name: "Kupferstich anfertigen"
+    - id: -7
+      name: "Ölgemälde malen"
+    - id: -8
+      name: "Tätowieren"
+    - id: -9
+      name: "Wandmalerei anfertigen"
+  tools: "Farbe, Kreide, Stifte"
+  quality: |
+    Die Qualität der Zeichnung ist besser als üblich.
+  failed: |
+    Dem Held gelingt eine mit Phantasie erkennbare, aber wenig schöne Zeichnung.
+  critical: |
+    Das Bild ist so gut, dass der Held für einen berühmten Maler gehalten wird.
+  botch: |
+    schreckliches, unmöglich erkennbares Gekrakel
+  src:
+    - id: US25001
+      firstPage: 211
+
+- id: TAL_55
+  name: "Metallbearbeitung"
+  applications:
+    - id: 1
+      name: "Feinschmiedearbeiten"
+    - id: 2
+      name: "Grobschmiedearbeiten"
+    - id: 3
+      name: "Metallguss"
+    - id: 4
+      name: "Verhütten"
+    - id: -1
+      name: "Instrumente bauen"
+    - id: -2
+      name: "Rüstungsherstellung"
+    - id: -3
+      name: "Schmuck herstellen"
+    - id: -4
+      name: "Waffenherstellung"
+    - id: -5
+      name: "Spezielle Geschosse herstellen"
+    - id: -6
+      name: "Mechanische Konstrukte herstellen"
+  tools: "Hammer, Amboss, Schmiedefeuer"
+  quality: |
+    Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.
+  failed: |
+    Der Held kommt mit der Arbeit an dem Werkstück nicht voran.
+  critical: |
+    Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.
+  botch: |
+    Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.
+  src:
+    - id: US25001
+      firstPage: 211
+
+- id: TAL_56
+  name: "Musizieren"
+  applications:
+    - id: 1
+      name: "Blasinstrumente"
+    - id: 2
+      name: "Saiteninstrumente"
+    - id: 3
+      name: "Trommeln"
+    - id: -1
+      name: "Dirigieren"
+  uses:
+    - id: 1
+      name: "Beeindruckende Vorstellung"
+    - id: 2
+      name: "Ermutigende Darstellung"
+    - id: 3
+      name: "Faszinierende Darstellung"
+  tools: "Musikinstrument"
+  quality: |
+    Das Publikum zeigt sich begeisterter von der Vorstellung.
+  failed: |
+    Die Melodie klingt schief.
+  critical: |
+    Der Held spielt eine Melodie, der keiner widerstehen kann und die alle Zuhörer in ihren Bann zieht.
+  botch: |
+    Schreckliche, unheilvolle Töne werden dem Musikinstrument entlockt. Möglicherweise wird das Instrument dabei beschädigt. Menschen suchen das Weite oder wollen dem Musikanten das Instrument entreißen.
+  src:
+    - id: US25001
+      firstPage: 212
+
+- id: TAL_57
+  name: "Schlösserknacken"
+  applications:
+    - id: 1
+      name: "Bartschlösser"
+    - id: 2
+      name: "Kombinationsschlösser"
+    - id: -1
+      name: "Fallen entschärfen"
+    - id: -2
+      name: "Fallen herstellen"
+  uses:
+    - id: 1
+      name: "Fallen wieder scharfmachen"
+  tools: "Dietrich, Haarnadel, Haken"
+  quality: |
+    Das Schloss lässt sich schneller öffnen.
+  failed: |
+    Das Schloss geht nicht auf.
+  critical: |
+    Das Schloss springt in Rekordzeit auf. Der Held benötigt nur die Hälfte des üblichen Zeitaufwandes.
+  botch: |
+    Der Dietrich bricht ab, die Falle wird ausgelöst oder das Schloss verklemmt sich.
+  src:
+    - id: US25001
+      firstPage: 212
+
+- id: TAL_58
+  name: "Steinbearbeitung"
+  applications:
+    - id: 1
+      name: "Maurerarbeiten"
+    - id: 2
+      name: "Steine brechen"
+    - id: 3
+      name: "Steinmetzarbeiten"
+    - id: -1
+      name: "Glasbläserei"
+    - id: -2
+      name: "Töpferarbeiten"
+    - id: -3
+      name: "Kristalle züchten"
+    - id: -4
+      name: "Schmuck herstellen"
+    - id: -5
+      name: "Waffenherstellung"
+    - id: -6
+      name: "Deichbau"
+    - id: -7
+      name: "Minenkenntnis"
+    - id: -8
+      name: "Bernstein verformen"
+    - id: -9
+      name: "Porzellanarbeiten"
+    - id: -10
+      name: "Mechanische Konstrukte herstellen"
+  uses:
+    - id: 1
+      name: "Bildhauerei"
+    - id: 2
+      name: "Unterminieren"
+  tools: "entsprechendes Rohmaterial (Stein, Ton), Hammer, Meißel"
+  quality: |
+    Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.
+  failed: |
+    Der Held kommt mit der Arbeit an dem Werkstück nicht voran.
+  critical: |
+    Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.
+  botch: |
+    Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.
+  src:
+    - id: US25001
+      firstPage: 212
+
+- id: TAL_59
+  name: "Stoffbearbeitung"
+  applications:
+    - id: 1
+      name: "Färben"
+    - id: 2
+      name: "Filzen"
+    - id: 3
+      name: "Schneidern"
+    - id: 4
+      name: "Spinnen"
+    - id: 5
+      name: "Weben"
+    - id: -1
+      name: "Prunkkleider herstellen"
+    - id: -2
+      name: "Rüstungsherstellung"
+    - id: -3
+      name: "Mechanische Konstrukte herstellen"
+  tools: "Messer, Nähzeug, Schere, Webstuhl"
+  quality: |
+    Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.
+  failed: |
+    Der Held kommt mit der Arbeit an dem Werkstück nicht voran.
+  critical: |
+    Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.
+  botch: |
+    Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.
+  src:
+    - id: US25001
+      firstPage: 213

@@ -1,0 +1,99 @@
+- id: COND_1
+  name: "Encombrement"
+  level1: |
+    TODO
+  level2: |
+    TODO
+  level3: |
+    TODO
+  level4: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 32
+      lastPage: 33
+
+- id: COND_2
+  name: "Étourdissement"
+  level1: |
+    TODO
+  level2: |
+    TODO
+  level3: |
+    TODO
+  level4: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 33
+
+- id: COND_3
+  name: "Extase"
+  level1: |
+    TODO
+  level2: |
+    TODO
+  level3: |
+    TODO
+  level4: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 33
+      lastPage: 34
+
+- id: COND_4
+  name: "Terreur"
+  level1: |
+    TODO
+  level2: |
+    TODO
+  level3: |
+    TODO
+  level4: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 34
+
+- id: COND_5
+  name: "Paralysie"
+  level1: |
+    TODO
+  level2: |
+    TODO
+  level3: |
+    TODO
+  level4: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 34
+
+- id: COND_6
+  name: "Douleur"
+  level1: |
+    TODO
+  level2: |
+    TODO
+  level3: |
+    TODO
+  level4: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 32
+
+- id: COND_7
+  name: "Confusion"
+  level1: |
+    TODO
+  level2: |
+    TODO
+  level3: |
+    TODO
+  level4: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 32

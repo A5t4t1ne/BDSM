@@ -1,0 +1,19 @@
+- id: SPELL_466
+# name: Gestalt aus Rauch
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  property: 8
+  activatablePrerequisites:
+    - id: SA_1344
+      active: true
+
+- id: SPELL_467
+# name: Trank des ungehinderten Weges
+  check1: ATTR_3
+  check2: ATTR_6
+  check3: ATTR_7
+  property: 4
+  activatablePrerequisites:
+    - id: SA_1343
+      active: true

@@ -1,0 +1,131 @@
+- id: CANTRIP_1
+  name: "Esfriar"
+  effect: |
+    O conjurador baixa a temperatura de uma pequena quantidade de líquido (um copo no máximo) em 10 graus C.
+  range: "Toque"
+  duration: "Imediata"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 278
+
+- id: CANTRIP_2
+  name: "Ventriloquismo"
+  effect: |
+    Este truque produz uma única palavra ou outro som silencioso que parece ter origem até no máximo 8 metros de distância do conjurador
+  range: "8 metros"
+  duration: "1 ação"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 279
+
+- id: CANTRIP_3
+  name: "Fragrância"
+  effect: |
+    Você exala perfume ou a outro aroma agradável durante 5 minutos.
+  range: "Pessoal"
+  duration: "5 minutos"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 279
+
+- id: CANTRIP_4
+  name: "Dedo Flamejante"
+  effect: |
+    Uma pequena chama aparece acima do seu dedo e queima por até 5 minutos. Este truque protege a mão do calor da chama.
+  range: "Pessoal"
+  duration: "5 minutos"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 278
+
+- id: CANTRIP_5
+  name: "Dedo da Sorte"
+  effect: |
+    O conjurador pode escolher por acaso um item desejado a partir de um grande número de objetos. É possível sacar uma determinada carta em um jogo de cartas, tirar exatamente a moeda desejada de uma bolsa ou escolher a chave certa de um anel com dezenas. O conjurador deve conhecer o item desejado e ele deve estar presente.
+  range: "Pessoal"
+  duration: "Imediata"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 278
+
+- id: CANTRIP_6
+  name: "Aquecedor de Mão"
+  effect: |
+    Este truque estabiliza e mantém a temperatura de um item segurado. Como seu nome implica, este truque é muitas vezes usado para criar um aquecedor de mãos temporário a partir de uma pedra quente (tirada de perto de um fogo de cozinha, por exemplo). O item selecionado deve ter o tamanho de um punho ou ser menor.
+  range: "Toque"
+  duration: "5 minutos"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 278
+
+- id: CANTRIP_7
+  name: "Chamado da Sereia"
+  effect: |
+    Um pequeno animal (como uma pomba ou um esquilo) fica curioso e se aproxima de você. O efeito dura 5 minutos.
+  range: "4 metros"
+  duration: "5 minutos"
+  target: "Animais"
+  src:
+    - id: US25001E
+      firstPage: 278
+
+- id: CANTRIP_8
+  name: "Olhos de Arco-Íris"
+  effect: |
+    A cor dos seus olhos muda durante 5 minutos. Você pode criar cores não-naturais, se desejar.
+  range: "Pessoal"
+  duration: "5 minutos"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 279
+
+- id: CANTRIP_9
+  name: "Mãos da Serpente"
+  effect: |
+    Os ossos na sua mão e dedos tornam-se estranhamente flexíveis, permitindo-lhe forçá-los através de aberturas apertadas. O efeito dura 5 minutos.
+  range: "Pessoal"
+  duration: "5 minutos"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 279
+
+- id: CANTRIP_10
+  name: "Estalo"
+  effect: |
+    Isto produz uma pequena onda telecinética com um alcance de 4 metros. Você pode usá-lo para mover objetos pequenos (como virar um prato de uma mesa, por exemplo). Ela não é suficientemente forte para quebrar uma garrafa de vidro, mas é o suficiente para uma bofetada.
+  range: "4 metros"
+  duration: "Imediata"
+  target: "Objetos e Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 278
+
+- id: CANTRIP_11
+  name: "Assinatura"
+  effect: |
+    Um glifo ou símbolo permanente aparece em um objeto inanimado à sua escolha. Você deve tocar o objeto para usar este truque. O símbolo parece como se fosse pintado e pode ser limpo. Você pode fazer apenas um símbolo (como um pictograma) aparecer de cada vez.
+  range: "Toque"
+  duration: "Imediata"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 281
+
+- id: CANTRIP_12
+  name: "Ficar Seco"
+  effect: |
+    Este truque protege você e suas roupas de se molharem na chuva ou na neve. Você não pode secar roupas molhadas com Ficar Seco.
+  range: "Pessoal"
+  duration: "5 minutos"
+  target: "Objetos e Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 278

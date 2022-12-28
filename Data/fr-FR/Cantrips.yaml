@@ -1,0 +1,143 @@
+- id: CANTRIP_1
+  name: "rafraîchissement"
+  effect: |
+    Le magicien diminue la température dʼune petite quantité de liquide.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 287
+
+- id: CANTRIP_2
+  name: "ventriloquie"
+  effect: |
+    Un seul mot ou un autre bruit bref au choix retentit.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 287
+
+- id: CANTRIP_3
+  name: "parfum"
+  effect: |
+    Un parfum ou une fragrance agréable émane du lanceur.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 286
+
+- id: CANTRIP_4
+  name: "doigt de feu"
+  effect: |
+    Une petite flamme se forme à environ 1 phalange audessus du doigt du lanceur.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 286
+
+- id: CANTRIP_5
+  name: "coup de chance"
+  effect: |
+    Le lanceur peut cibler un objet parmi dʼautres pour pouvoir sʼen saisir sʼil le souhaite.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 286
+
+- id: CANTRIP_6
+  name: "mains chaudes"
+  effect: |
+    Ce tour de magie maintient constante la température dʼun objet au maximum de la taille dʼun poing, tant quʼil est tenu en main.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 286
+
+- id: CANTRIP_7
+  name: "appeau"
+  effect: |
+    Un petit animal (écureuil, pigeon) sʼapproche par curiosité du lanceur.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 286
+
+- id: CANTRIP_8
+  name: "yeux arc-en-ciel"
+  effect: |
+    Les yeux du lanceur changent de couleur.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 287
+
+- id: CANTRIP_9
+  name: "ophidoigts"
+  effect: |
+    Les phalanges comme les autres os des doigts et de la main du lanceur deviennent très flexibles, de sorte que les doigts peuvent être glissés par des ouvertures étroites.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 286
+
+- id: CANTRIP_10
+  name: "claquement"
+  effect: |
+    Provoque une courte décharge télékinésique.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 286
+
+- id: CANTRIP_11
+  name: "signature"
+  effect: |
+    Un glyphe ou un symbole, choisi par le lanceur, apparaît et reste de façon permanente sur un objet inanimé.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 287
+
+- id: CANTRIP_12
+  name: "au sec"
+  effect: |
+    Le lanceur et ses vêtements sont protégés de lʼhumidité.
+  range: " "
+  duration: " "
+  target: " "
+  note: " "
+  src:
+    - id: LDR1
+      firstPage: 286

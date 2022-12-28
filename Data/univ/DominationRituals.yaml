@@ -1,0 +1,47 @@
+- id: SPELL_339
+  # name: Ausbruch unterdrückter Gefühle
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI/2
+  property: 3
+
+- id: SPELL_340
+  # name: Figur der Schmerzen
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI/2
+  property: 3
+
+- id: SPELL_341
+  # name: Fluch der Pestilenz
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_4
+  checkMod: SPI/2
+  property: 3
+
+- id: SPELL_342
+  # name: Fluch der Schlaflosigkeit
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI/2
+  property: 3
+
+- id: SPELL_343
+  # name: Macht über Schlafwandler
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_3
+  checkMod: SPI/2
+  property: 3
+
+- id: SPELL_465
+  # name: Kristall der Herrschaft
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_4
+  checkMod: SPI/2
+  property: 3

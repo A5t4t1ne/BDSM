@@ -1,0 +1,3062 @@
+- target: LITURGY_41
+  level1:
+    id: 1
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 2
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 3
+#   name: Mehrere Ziele
+    cost: 6
+
+- target: LITURGY_42
+  level1:
+    id: 4
+#   name: Harte Welle
+    cost: 3
+  level2:
+    id: 5
+#   name: Tosende Welle
+    cost: 6
+  level3:
+    id: 6
+#   name: Mehrere Ziele
+    cost: 9
+
+- target: LITURGY_43
+  level1:
+    id: 7
+#   name: Spezielles Lebewesen
+    cost: 2
+  level2:
+    id: 8
+#   name: Durch Feuer und Erz
+    cost: 4
+  level3:
+    id: 9
+#   name: Klare Sicht
+    cost: 6
+
+- target: LITURGY_44
+  level1:
+    id: 10
+#   name: Liturgiedauer modifizierbar
+    cost: 1
+  level2:
+    id: 11
+#   name: Größere Reichweite
+    cost: 2
+  level3:
+    id: 12
+#   name: Längere Wirkungsdauer
+    cost: 3
+
+- target: LITURGY_45
+  level1:
+    id: 13
+#   name: Verteilter Schaden 1
+    cost: 3
+  level2:
+    id: 14
+#   name: Verteilter Schaden 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 15
+#   name: Zwei Ziele
+    cost: 9
+
+- target: LITURGY_46
+  level1:
+    id: 16
+#   name: Verteilter Schaden 1
+    cost: 3
+  level2:
+    id: 17
+#   name: Verteilter Schaden 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 18
+#   name: Zwei Ziele
+    cost: 9
+
+- target: LITURGY_47
+  level1:
+    id: 19
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 20
+#   name: Zielkategorie Lebewesen
+    cost: 4
+  level3:
+    id: 21
+#   name: Kosten modifizierbar
+    cost: 6
+
+- target: LITURGY_48
+  level1:
+    id: 22
+#   name: Längere Wirkungsdauer 1
+    cost: 1
+  level2:
+    id: 23
+#   name: Reichweite Berührung
+    cost: 2
+  level3:
+    id: 24
+#   name: Längere Wirkungsdauer 2
+    cost: 3
+    previousRequirement: 1
+
+- target: LITURGY_49
+  level1:
+    id: 25
+#   name: Größere Reichweite
+    cost: 1
+  level2:
+    id: 26
+#   name: Zwei Ziele
+    cost: 2
+  level3:
+    id: 27
+#   name: Zielkategorie Lebewesen
+    cost: 3
+
+- target: LITURGY_50
+  level1:
+    id: 28
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 29
+#   name: Starke Prinzipientreue 1
+    cost: 2
+  level3:
+    id: 30
+#   name: Starke Prinzipientreue 2
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_51
+  level1:
+    id: 31
+#   name: Mehr Dienste
+    cost: 2
+  level2:
+    id: 32
+#   name: Längerer Dienst
+    cost: 4
+  level3:
+    id: 33
+#   name: Mächtiges Wesen
+    cost: 6
+
+- target: LITURGY_52
+  level1:
+    id: 34
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 35
+#   name: Größere Reichweite
+    cost: 6
+  level3:
+    id: 36
+#   name: Liturgiedauer modifizierbar
+    cost: 9
+
+- target: LITURGY_53
+  level1:
+    id: 37
+#   name: Zielkategorie Lebewesen
+    cost: 1
+  level2:
+    id: 38
+#   name: Aufrechterhaltend
+    cost: 2
+  level3:
+    id: 39
+#   name: Genaue Erkenntnis
+    cost: 3
+
+- target: LITURGY_54
+  level1:
+    id: 40
+#   name: Verwirrender Blitz
+    cost: 4
+  level2:
+    id: 41
+#   name: Betäubender Blitz
+    cost: 8
+  level3:
+    id: 42
+#   name: Brandblitz
+    cost: 12
+
+- target: LITURGY_55
+  level1:
+    id: 43
+#   name: Wählbare Ziele
+    cost: 3
+  level2:
+    id: 44
+#   name: Wildes Wüten
+    cost: 6
+  level3:
+    id: 45
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+- target: LITURGY_56
+  level1:
+    id: 46
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 47
+#   name: Kosten modifizierbar
+    cost: 4
+  level3:
+    id: 48
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_57
+  level1:
+    id: 49
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 50
+#   name: Größerer Radius
+    cost: 4
+  level3:
+    id: 51
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+
+- target: LITURGY_58
+  level1:
+    id: 52
+#   name: Schutzhaut
+    cost: 2
+  level2:
+    id: 53
+#   name: Großer Radius
+    cost: 4
+  level3:
+    id: 54
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_59
+  level1:
+    id: 55
+#   name: Größere Reichweite
+    cost: 1
+  level2:
+    id: 56
+#   name: Zwei Delphine
+    cost: 2
+  level3:
+    id: 57
+#   name: Vier Delphine
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_60
+  level1:
+    id: 58
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 59
+#   name: Geringer Widerstand
+    cost: 6
+  level3:
+    id: 60
+#   name: Lange und starke Hörigkeit
+    cost: 9
+
+- target: LITURGY_61
+  level1:
+    id: 61
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 62
+#   name: Guter Handel
+    cost: 2
+  level3:
+    id: 63
+#   name: Reichweite Berührung
+    cost: 3
+
+- target: LITURGY_62
+  level1:
+    id: 64
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 65
+#   name: Kosten modifizierbar
+    cost: 4
+  level3:
+    id: 66
+#   name: Versteinerung aufheben
+    cost: 6
+
+- target: LITURGY_63
+  level1:
+    id: 67
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 68
+#   name: Reichweitenausdehnung
+    cost: 6
+  level3:
+    id: 69
+#   name: Größerer Schaden
+    cost: 9
+
+- target: LITURGY_64
+  level1:
+    id: 70
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 71
+#   name: Beseitigung von Verwirrung
+    cost: 2
+  level3:
+    id: 72
+#   name: Beseitigung von Schmerz
+    cost: 3
+
+- target: LITURGY_65
+  level1:
+    id: 73
+#   name: Stein und Metall
+    cost: 2
+  level2:
+    id: 74
+#   name: Größeres Gewicht
+    cost: 4
+  level3:
+    id: 75
+#   name: Rückruf
+    cost: 6
+
+- target: LITURGY_66
+  level1:
+    id: 76
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 77
+#   name: Größerer Radius
+    cost: 4
+  level3:
+    id: 78
+#   name: Intensive Flammen
+    cost: 6
+
+- target: LITURGY_67
+  level1:
+    id: 79
+#   name: Größerer Radius
+    cost: 2
+  level2:
+    id: 80
+#   name: Anderes Intervall
+    cost: 4
+  level3:
+    id: 81
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: LITURGY_68
+  level1:
+    id: 82
+#   name: Verteilte Wirkung
+    cost: 2
+  level2:
+    id: 83
+#   name: Zielkategorie Lebewesen
+    cost: 4
+  level3:
+    id: 84
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+- target: LITURGY_69
+  level1:
+    id: 85
+#   name: Größerer Radius
+    cost: 3
+  level2:
+    id: 86
+#   name: Extreme Kälte
+    cost: 6
+  level3:
+    id: 87
+#   name: Größere Reichweite
+    cost: 9
+
+- target: LITURGY_70
+  level1:
+    id: 88
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level2:
+    id: 89
+#   name: Größere Reichweite
+    cost: 4
+  level3:
+    id: 90
+#   name: Große Brandherde
+    cost: 6
+
+- target: LITURGY_71
+  level1:
+    id: 91
+#   name: Größerer Radius
+    cost: 1
+  level2:
+    id: 92
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level3:
+    id: 93
+#   name: Auch du siehst tote Menschen!
+    cost: 3
+
+- target: LITURGY_72
+  level1:
+    id: 94
+#   name: Größere Menge 1
+    cost: 1
+  level2:
+    id: 95
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 96
+#   name: Größere Menge 2
+    cost: 3
+    previousRequirement: 1
+
+- target: LITURGY_73
+  level1:
+    id: 97
+#   name: Widerstandsfähig gegen Schädlinge
+    cost: 1
+  level2:
+    id: 98
+#   name: Wachstum auf kargem Boden
+    cost: 2
+  level3:
+    id: 99
+#   name: Hoher Ertrag
+    cost: 3
+
+- target: LITURGY_74
+  level1:
+    id: 100
+#   name: Höherer Wert 1
+    cost: 3
+  level2:
+    id: 101
+#   name: Höherer Wert 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 102
+#   name: Höherer Wert 3
+    cost: 9
+    previousRequirement: 2
+
+- target: LITURGY_75
+  level1:
+    id: 103
+#   name: Liturgiedauer modifizierbar
+    cost: 3
+  level2:
+    id: 104
+#   name: Harte Schale
+    cost: 6
+  level3:
+    id: 105
+#   name: Reichweite Berührung
+    cost: 9
+
+- target: LITURGY_76
+  level1:
+    id: 106
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 107
+#   name: Höhere Reichweite
+    cost: 4
+  level3:
+    id: 108
+#   name: Mehrere Ziele
+    cost: 6
+
+- target: LITURGY_77
+  level1:
+    id: 109
+#   name: Heimattempel
+    cost: 3
+  level2:
+    id: 110
+#   name: Größere Reichweite
+    cost: 6
+  level3:
+    id: 111
+#   name: Persönlicher Bekannter
+    cost: 9
+    previousRequirement: 1
+
+- target: LITURGY_78
+  level1:
+    id: 112
+#   name: Größere Reichweite
+    cost: 3
+  level2:
+    id: 113
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 114
+#   name: Mehrere Ziele
+    cost: 9
+
+- target: LITURGY_79
+  level1:
+    id: 115
+#   name: Größere Reichweite
+    cost: 1
+  level2:
+    id: 116
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level3:
+    id: 117
+#   name: Längere Wirkungsdauer 2
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_80
+  level1:
+    id: 118
+#   name: Mächtige Heilsame Quelle
+    cost: 1
+  level2:
+    id: 119
+#   name: Erfrischende Heilquelle
+    cost: 2
+  level3:
+    id: 120
+#   name: Zwei Trinkende
+    cost: 3
+
+- target: LITURGY_81
+  level1:
+    id: 121
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 122
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 123
+#   name: Mehrere Ziele
+    cost: 6
+
+- target: LITURGY_82
+  level1:
+    id: 124
+#   name: Gemeinsam sind wir stark
+    cost: 2
+  level2:
+    id: 125
+#   name: Viele starke Hände 1
+    cost: 4
+  level3:
+    id: 126
+#   name: Viele starke Hände 2
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_83
+  level1:
+    id: 127
+#   name: Angriffslust
+    cost: 2
+  level2:
+    id: 128
+#   name: Rattenplage
+    cost: 4
+  level3:
+    id: 129
+#   name: Rattenüberschwemmung
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_84
+  level1:
+    id: 130
+#   name: Angriffslust
+    cost: 3
+  level2:
+    id: 131
+#   name: Meute
+    cost: 6
+  level3:
+    id: 132
+#   name: Raserei
+    cost: 9
+
+- target: LITURGY_85
+  level1:
+    id: 133
+#   name: Angriffslust
+    cost: 2
+  level2:
+    id: 134
+#   name: Fledermausschwarm
+    cost: 4
+  level3:
+    id: 135
+#   name: Loyal bis in den Tod
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_86
+  level1:
+    id: 136
+#   name: Angriffslust
+    cost: 3
+  level2:
+    id: 137
+#   name: Starkes Gift
+    cost: 6
+  level3:
+    id: 138
+#   name: Spinnenpanik
+    cost: 9
+
+- target: LITURGY_87
+  level1:
+    id: 139
+#   name: Auch Gegenstände
+    cost: 2
+  level2:
+    id: 140
+#   name: Weniger Feuerschaden
+    cost: 4
+  level3:
+    id: 141
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_88
+  level1:
+    id: 142
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 143
+#   name: Starke Prinzipientreue 1
+    cost: 2
+  level3:
+    id: 144
+#   name: Starke Prinzipientreue 2
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_89
+  level1:
+    id: 145
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 146
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 147
+#   name: Mehrere Ziele
+    cost: 6
+
+- target: LITURGY_90
+  level1:
+    id: 148
+#   name: Besonders klarer Geist
+    cost: 2
+  level2:
+    id: 149
+#   name: Größere Reichweite
+    cost: 4
+  level3:
+    id: 150
+#   name: Zielkategorie Lebewesen
+    cost: 6
+
+- target: LITURGY_91
+  level1:
+    id: 151
+#   name: Erschwertes Ausweichen
+    cost: 2
+  level2:
+    id: 152
+#   name: Höherer Schaden
+    cost: 4
+  level3:
+    id: 153
+#   name: Größere Reichweite
+    cost: 6
+
+- target: LITURGY_92
+  level1:
+    id: 154
+#   name: Zielkategorie Lebewesen
+    cost: 3
+  level2:
+    id: 155
+#   name: Größere Reichweite
+    cost: 6
+  level3:
+    id: 156
+#   name: Erholsame Rettung
+    cost: 9
+
+- target: LITURGY_93
+  level1:
+    id: 157
+#   name: Stärkerer Schild
+    cost: 4
+  level2:
+    id: 158
+#   name: Großer Radius
+    cost: 8
+  level3:
+    id: 159
+#   name: Reichweite Berührung
+    cost: 12
+
+- target: LITURGY_94
+  level1:
+    id: 160
+#   name: Drei Attacken
+    cost: 3
+  level2:
+    id: 161
+#   name: Sechs Attacken
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 162
+#   name: Neun Attacken
+    cost: 9
+    previousRequirement: 2
+
+- target: LITURGY_95
+  level1:
+    id: 163
+#   name: Höhere Reichweite
+    cost: 4
+  level2:
+    id: 164
+#   name: Liturgiedauer modifizierbar
+    cost: 8
+  level3:
+    id: 165
+#   name: Andere Effekte
+    cost: 12
+
+- target: LITURGY_96
+  level1:
+    id: 166
+#   name: Keine Aufrechterhaltung
+    cost: 4
+  level2:
+    id: 167
+#   name: Zielkategorie Wesen
+    cost: 8
+  level3:
+    id: 168
+#   name: Kosten modifizierbar
+    cost: 12
+
+- target: LITURGY_97
+  level1:
+    id: 169
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 170
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 171
+#   name: Aufrechterhaltend
+    cost: 6
+
+- target: LITURGY_98
+  level1:
+    id: 172
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 173
+#   name: Dumm und verwirrt
+    cost: 4
+  level3:
+    id: 174
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+- target: LITURGY_99
+  level1:
+    id: 175
+#   name: Größere Reichweite
+    cost: 1
+  level2:
+    id: 176
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 177
+#   name: Mehrere Ziele
+    cost: 3
+
+- target: LITURGY_100
+  level1:
+    id: 178
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 179
+#   name: Nicht verfroren
+    cost: 6
+  level3:
+    id: 180
+#   name: Stationäre Kälte
+    cost: 9
+
+- target: LITURGY_101
+  level1:
+    id: 181
+#   name: Wüterich 1
+    cost: 2
+  level2:
+    id: 182
+#   name: Vier Ziele
+    cost: 4
+  level3:
+    id: 183
+#   name: Wüterich 2
+    cost: 6
+    previousRequirement: 1
+
+- target: LITURGY_102
+  level1:
+    id: 184
+#   name: Leicht zu beeinflussen
+    cost: 2
+  level2:
+    id: 185
+#   name: Vier Ziele
+    cost: 4
+  level3:
+    id: 186
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+- target: LITURGY_103
+  level1:
+    id: 187
+#   name: Leichtgläubig
+    cost: 2
+  level2:
+    id: 188
+#   name: Größere Reichweite
+    cost: 4
+  level3:
+    id: 189
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_104
+  level1:
+    id: 190
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 191
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 192
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_105
+  level1:
+    id: 193
+#   name: Keine Aufrechterhaltung
+    cost: 3
+  level2:
+    id: 194
+#   name: Heimlicher Gedankenforscher
+    cost: 6
+  level3:
+    id: 195
+#   name: Größere Reichweite
+    cost: 9
+
+- target: LITURGY_106
+  level1:
+    id: 196
+#   name: Verteidigungswall
+    cost: 4
+  level2:
+    id: 197
+#   name: Zäh
+    cost: 8
+  level3:
+    id: 198
+#   name: Guter Kampf
+    cost: 12
+
+- target: LITURGY_107
+  level1:
+    id: 199
+#   name: Intensiver Strahl
+    cost: 3
+  level2:
+    id: 200
+#   name: Windender Strahl
+    cost: 6
+  level3:
+    id: 201
+#   name: Zwei Ziele
+    cost: 9
+
+- target: LITURGY_108
+  level1:
+    id: 202
+#   name: Kosten modifizierbar
+    cost: 3
+  level2:
+    id: 203
+#   name: Mehr Ratten
+    cost: 6
+  level3:
+    id: 204
+#   name: Nur eine letzte Ratte
+    cost: 9
+
+- target: LITURGY_109
+  level1:
+    id: 205
+#   name: Entfernung bestimmen
+    cost: 1
+  level2:
+    id: 206
+#   name: Tempel der eigenen Kirche
+    cost: 2
+  level3:
+    id: 207
+#   name: Erreichbarkeit feststellen
+    cost: 3
+
+- target: LITURGY_110
+  level1:
+    id: 208
+#   name: Größere Reichweite
+    cost: 3
+  level2:
+    id: 209
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 210
+#   name: Mehrere Ziele
+    cost: 9
+
+- target: LITURGY_111
+  level1:
+    id: 211
+#   name: Wider Daimonide
+    cost: 2
+  level2:
+    id: 212
+#   name: Liturgiedauer modifizierbar
+    cost: 4
+  level3:
+    id: 213
+#   name: Änderung des Intervalls
+    cost: 6
+
+- target: LITURGY_112
+  level1:
+    id: 214
+#   name: Starker Zauberschwund 1
+    cost: 3
+  level2:
+    id: 215
+#   name: Starker Zauberschwund 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 216
+#   name: Größerer Radius
+    cost: 9
+
+- target: LITURGY_113
+  level1:
+    id: 217
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level2:
+    id: 218
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 219
+#   name: Schwer zu durchschauen
+    cost: 6
+
+- target: LITURGY_114
+  level1:
+    id: 220
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 221
+#   name: Mehr Vögel
+    cost: 2
+  level3:
+    id: 222
+#   name: Reichweite Berührung
+    cost: 3
+
+- target: LITURGY_115
+  level1:
+    id: 223
+#   name: Stärkere Sicherheit
+    cost: 2
+  level2:
+    id: 224
+#   name: Längeres Intervall 1
+    cost: 4
+  level3:
+    id: 225
+#   name: Längeres Intervall 2
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_116
+  level1:
+    id: 226
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level2:
+    id: 227
+#   name: Größerer Radius
+    cost: 4
+  level3:
+    id: 228
+#   name: Größere Reichweite
+    cost: 6
+
+- target: LITURGY_117
+  level1:
+    id: 229
+#   name: Längere Wirkungsdauer 1
+    cost: 1
+  level2:
+    id: 230
+#   name: Erhöhte Reichweite
+    cost: 2
+  level3:
+    id: 231
+#   name: Längere Wirkungsdauer 2
+    cost: 3
+    previousRequirement: 1
+
+- target: LITURGY_118
+  level1:
+    id: 232
+#   name: Kosten modifizierbar
+    cost: 1
+  level2:
+    id: 233
+#   name: Mehrere Ziele
+    cost: 2
+  level3:
+    id: 234
+#   name: Starke Linderung
+    cost: 3
+
+- target: LITURGY_119
+  level1:
+    id: 235
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 236
+#   name: Mehr Wildtiere
+    cost: 4
+  level3:
+    id: 237
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_120
+  level1:
+    id: 238
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 239
+#   name: Größere Tiere
+    cost: 2
+  level3:
+    id: 240
+#   name: Längere Wirkungsdauer
+    cost: 3
+
+- target: LITURGY_121
+  level1:
+    id: 241
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level2:
+    id: 242
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 243
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_122
+  level1:
+    id: 244
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 245
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 246
+#   name: Schnelle Versteinerung
+    cost: 6
+
+- target: LITURGY_123
+  level1:
+    id: 247
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 248
+#   name: Mitnahme
+    cost: 4
+  level3:
+    id: 249
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_124
+  level1:
+    id: 250
+#   name: Erschwertes Ausweichen
+    cost: 3
+  level2:
+    id: 251
+#   name: Höherer Schaden
+    cost: 6
+  level3:
+    id: 252
+#   name: Größere Reichweite
+    cost: 9
+
+- target: LITURGY_125
+  level1:
+    id: 253
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 254
+#   name: Längere Wirkungsdauer 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 255
+#   name: Größere Reichweite
+    cost: 6
+
+- target: LITURGY_126
+  level1:
+    id: 256
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 257
+#   name: Harte Schale
+    cost: 4
+  level3:
+    id: 258
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_127
+  level1:
+    id: 259
+#   name: Geweihten-Exkommunikation 1
+    cost: 4
+  level2:
+    id: 260
+#   name: Für immer exkommuniziert
+    cost: 8
+    previousRequirement: 1
+  level3:
+    id: 261
+#   name: Geweihten-Exkommunikation 2
+    cost: 12
+    previousRequirement: 2
+
+- target: LITURGY_128
+  level1:
+    id: 262
+#   name: Zwei Ziele
+    cost: 1
+  level2:
+    id: 263
+#   name: Vier Ziele
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 264
+#   name: Acht Ziele
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_129
+  level1:
+    id: 265
+#   name: Größere Reichweite
+    cost: 4
+  level2:
+    id: 266
+#   name: Zwei Ziele
+    cost: 8
+  level3:
+    id: 267
+#   name: Kosten modifizierbar
+    cost: 12
+
+- target: LITURGY_130
+  level1:
+    id: 268
+#   name: Geweihten-Anathema
+    cost: 4
+  level2:
+    id: 269
+#   name: Größere Reichweite
+    cost: 8
+  level3:
+    id: 270
+#   name: Nicht-Initiaten
+    cost: 12
+
+- target: LITURGY_131
+  level1:
+    id: 271
+#   name: Andere Alkoholika
+    cost: 1
+  level2:
+    id: 272
+#   name: Mehr Wein!
+    cost: 2
+  level3:
+    id: 273
+#   name: Noch meeehr Wein!
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_132
+  level1:
+    id: 274
+#   name: Mehr Dienste
+    cost: 3
+  level2:
+    id: 275
+#   name: Längerer Dienst
+    cost: 6
+  level3:
+    id: 276
+#   name: Mächtiges Wesen
+    cost: 9
+
+- target: LITURGY_133
+  level1:
+    id: 277
+#   name: Mehr Dienste
+    cost: 3
+  level2:
+    id: 278
+#   name: Längerer Dienst
+    cost: 6
+  level3:
+    id: 279
+#   name: Mächtiges Wesen
+    cost: 9
+
+- target: LITURGY_134
+  level1:
+    id: 280
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 281
+#   name: Zeremoniedauer modifizierbar
+    cost: 4
+  level3:
+    id: 282
+#   name: Alle Sinneseindrücke
+    cost: 6
+
+- target: LITURGY_135
+  level1:
+    id: 283
+#   name: Visionen
+    cost: 1
+  level2:
+    id: 284
+#   name: Erkenntnis
+    cost: 2
+  level3:
+    id: 285
+#   name: Klarheit
+    cost: 3
+
+- target: LITURGY_136
+  level1:
+    id: 286
+#   name: Aufrechterhaltend
+    cost: 2
+  level2:
+    id: 287
+#   name: Sprachfähigkeit
+    cost: 4
+  level3:
+    id: 288
+#   name: Klerikales Tier
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_137
+  level1:
+    id: 289
+#   name: Aufrechterhaltend
+    cost: 1
+  level2:
+    id: 290
+#   name: Sprachfähigkeit
+    cost: 2
+  level3:
+    id: 291
+#   name: Klerikales Tier
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_138
+  level1:
+    id: 292
+#   name: Aufrechterhaltend
+    cost: 3
+  level2:
+    id: 293
+#   name: Sprachfähigkeit
+    cost: 6
+  level3:
+    id: 294
+#   name: Klerikales Tier
+    cost: 9
+    previousRequirement: 2
+
+- target: LITURGY_139
+  level1:
+    id: 295
+#   name: Reichweite Berührung
+    cost: 2
+  level2:
+    id: 296
+#   name: Weit zurückliegende Erinnerung
+    cost: 4
+  level3:
+    id: 297
+#   name: Gelöschte Erinnerungen reaktivieren
+    cost: 6
+
+- target: LITURGY_140
+  level1:
+    id: 298
+#   name: Größerer Radius
+    cost: 2
+  level2:
+    id: 299
+#   name: Später Beginn
+    cost: 4
+  level3:
+    id: 300
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+- target: LITURGY_141
+  level1:
+    id: 301
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level2:
+    id: 302
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 303
+#   name: Zielkategorie Lebewesen
+    cost: 6
+
+- target: LITURGY_142
+  level1:
+    id: 304
+#   name: Hohe Wahrscheinlichkeit
+    cost: 1
+  level2:
+    id: 305
+#   name: Einzelne Person
+    cost: 2
+  level3:
+    id: 306
+#   name: Längere Wirkungsdauer
+    cost: 3
+
+- target: LITURGY_143
+  level1:
+    id: 307
+#   name: Aufrechterhaltend
+    cost: 1
+  level2:
+    id: 308
+#   name: Sprachfähigkeit
+    cost: 2
+  level3:
+    id: 309
+#   name: Klerikales Tier
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_144
+  level1:
+    id: 310
+#   name: Aufrechterhaltend
+    cost: 2
+  level2:
+    id: 311
+#   name: Sprachfähigkeit
+    cost: 4
+  level3:
+    id: 312
+#   name: Klerikales Tier
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_145
+  level1:
+    id: 313
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 314
+#   name: Geänderte Zielkategorie 1
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 315
+#   name: Geänderte Zielkategorie 2
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_146
+  level1:
+    id: 316
+#   name: Mehr Proben 1
+    cost: 2
+  level2:
+    id: 317
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 318
+#   name: Mehr Proben 2
+    cost: 6
+    previousRequirement: 1
+
+- target: LITURGY_147
+  level1:
+    id: 319
+#   name: Zeremoniedauer modifizierbar
+    cost: 4
+  level2:
+    id: 320
+#   name: Längere Wirkungsdauer
+    cost: 8
+  level3:
+    id: 321
+#   name: Karmaspende
+    cost: 12
+
+- target: LITURGY_148
+  level1:
+    id: 322
+#   name: Leichteres Fischen
+    cost: 2
+  level2:
+    id: 323
+#   name: Mehr Rationen 1
+    cost: 4
+  level3:
+    id: 324
+#   name: Mehr Rationen 2
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_149
+  level1:
+    id: 325
+#   name: Andere Augen, anderes Haar
+    cost: 4
+  level2:
+    id: 326
+#   name: Größer und kleiner
+    cost: 8
+  level3:
+    id: 327
+#   name: Eigene Wahl
+    cost: 12
+
+- target: LITURGY_150
+  level1:
+    id: 328
+#   name: Starker Schwur 1
+    cost: 2
+  level2:
+    id: 329
+#   name: Starker Schwur 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 330
+#   name: Starker Schwur 3
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_151
+  level1:
+    id: 331
+#   name: Größere Wasserfahrzeuge 1
+    cost: 2
+  level2:
+    id: 332
+#   name: Größere Wasserfahrzeuge 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 333
+#   name: Mehrere Ziele
+    cost: 6
+
+- target: LITURGY_152
+  level1:
+    id: 334
+#   name: Genaue Entfernung
+    cost: 1
+  level2:
+    id: 335
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 336
+#   name: Genaue Erreichbarkeit
+    cost: 3
+
+- target: LITURGY_153
+  level1:
+    id: 337
+#   name: Reichweite Berührung
+    cost: 2
+  level2:
+    id: 338
+#   name: Längere Wirkungsdauer 1
+    cost: 4
+  level3:
+    id: 339
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_154
+  level1:
+    id: 340
+#   name: Mehr Proben 1
+    cost: 1
+  level2:
+    id: 341
+#   name: Reichweite Berührung
+    cost: 2
+  level3:
+    id: 342
+#   name: Mehr Proben 2
+    cost: 3
+    previousRequirement: 1
+
+- target: LITURGY_155
+  level1:
+    id: 343
+#   name: Reichweite Berührung
+    cost: 4
+  level2:
+    id: 344
+#   name: Zielkategorie Lebewesen
+    cost: 8
+  level3:
+    id: 345
+#   name: Längere Wirkungsdauer
+    cost: 12
+
+- target: LITURGY_156
+  level1:
+    id: 346
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 347
+#   name: Gute Moral
+    cost: 4
+  level3:
+    id: 348
+#   name: Gute Selbstbeherrschung
+    cost: 6
+
+- target: LITURGY_157
+  level1:
+    id: 349
+#   name: Größerer Radius
+    cost: 3
+  level2:
+    id: 350
+#   name: Edelmetallrausch
+    cost: 6
+  level3:
+    id: 351
+#   name: Edelsteinrausch
+    cost: 9
+
+- target: LITURGY_158
+  level1:
+    id: 352
+#   name: Größere Reichweite
+    cost: 4
+  level2:
+    id: 353
+#   name: Längere Wirkungsdauer
+    cost: 8
+  level3:
+    id: 354
+#   name: Permanente Wirkung aufheben
+    cost: 12
+
+- target: LITURGY_159
+  level1:
+    id: 355
+#   name: Kosten modifizierbar
+    cost: 2
+  level2:
+    id: 356
+#   name: Längere Wirkungsdauer 1
+    cost: 4
+  level3:
+    id: 357
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_160
+  level1:
+    id: 358
+#   name: Größere Menge 1
+    cost: 2
+  level2:
+    id: 359
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 360
+#   name: Größere Menge 2
+    cost: 6
+    previousRequirement: 1
+
+- target: LITURGY_161
+  level1:
+    id: 361
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 362
+#   name: Eins mit dem Schiff
+    cost: 4
+  level3:
+    id: 363
+#   name: Gute Selbstbeherrschung
+    cost: 6
+
+- target: LITURGY_162
+  level1:
+    id: 364
+#   name: Größere Menge 1
+    cost: 1
+  level2:
+    id: 365
+#   name: Größere Menge 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 366
+#   name: Größere Menge 3
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_163
+  level1:
+    id: 367
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 368
+#   name: Größere Reichweite
+    cost: 4
+  level3:
+    id: 369
+#   name: Formbarer Nebel
+    cost: 6
+
+- target: LITURGY_164
+  level1:
+    id: 370
+#   name: Große Gebäude/Orte 1
+    cost: 4
+  level2:
+    id: 371
+#   name: Große Gebäude/Orte 2
+    cost: 8
+    previousRequirement: 1
+  level3:
+    id: 372
+#   name: Große Gebäude/Orte 3
+    cost: 12
+    previousRequirement: 2
+
+- target: LITURGY_165
+  level1:
+    id: 373
+#   name: Aufrechterhaltend
+    cost: 3
+  level2:
+    id: 374
+#   name: Sprachfähigkeit
+    cost: 6
+  level3:
+    id: 375
+#   name: Klerikales Tier
+    cost: 9
+    previousRequirement: 2
+
+- target: LITURGY_166
+  level1:
+    id: 376
+#   name: Aufrechterhaltend
+    cost: 2
+  level2:
+    id: 377
+#   name: Sprachfähigkeit
+    cost: 4
+  level3:
+    id: 378
+#   name: Klerikales Tier
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_167
+  level1:
+    id: 379
+#   name: Aufrechterhaltend
+    cost: 2
+  level2:
+    id: 380
+#   name: Sprachfähigkeit
+    cost: 4
+  level3:
+    id: 381
+#   name: Klerikales Tier
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_168
+  level1:
+    id: 382
+#   name: Größere Reichweite
+    cost: 4
+  level2:
+    id: 383
+#   name: Zwei Ziele
+    cost: 8
+  level3:
+    id: 384
+#   name: Kosten modifizierbar
+    cost: 12
+
+- target: LITURGY_169
+  level1:
+    id: 385
+#   name: Aufrechterhaltend
+    cost: 2
+  level2:
+    id: 386
+#   name: Sprachfähigkeit
+    cost: 4
+  level3:
+    id: 387
+#   name: Klerikales Tier
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_170
+  level1:
+    id: 388
+#   name: Mehr Proben 1
+    cost: 3
+  level2:
+    id: 389
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 390
+#   name: Mehr Proben 2
+    cost: 9
+    previousRequirement: 1
+
+- target: LITURGY_171
+  level1:
+    id: 391
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 392
+#   name: Mehr Mäuler werden satt
+    cost: 4
+  level3:
+    id: 393
+#   name: Riesige Mengen
+    cost: 6
+
+- target: LITURGY_172
+  level1:
+    id: 394
+#   name: Aufrechterhaltend
+    cost: 1
+  level2:
+    id: 395
+#   name: Sprachfähigkeit
+    cost: 2
+  level3:
+    id: 396
+#   name: Klerikales Tier
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_173
+  level1:
+    id: 397
+#   name: Aufrechterhaltend
+    cost: 2
+  level2:
+    id: 398
+#   name: Sprachfähigkeit
+    cost: 4
+  level3:
+    id: 399
+#   name: Klerikales Tier
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_174
+  level1:
+    id: 400
+#   name: Kosten modifizierbar
+    cost: 4
+  level2:
+    id: 401
+#   name: Kürzere Zeremoniedauer
+    cost: 8
+  level3:
+    id: 402
+#   name: Massenopferung
+    cost: 12
+
+- target: LITURGY_175
+  level1:
+    id: 403
+#   name: Schwurbrecher-Aura
+    cost: 3
+  level2:
+    id: 404
+#   name: Frevler-Aura
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 405
+#   name: Verdammten-Aura
+    cost: 9
+    previousRequirement: 2
+
+- target: LITURGY_176
+  level1:
+    id: 406
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 407
+#   name: Längere Wirkungsdauer 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 408
+#   name: Längere Wirkungsdauer 3
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_177
+  level1:
+    id: 409
+#   name: Größere Erleichterung
+    cost: 2
+  level2:
+    id: 410
+#   name: Keine Aufrechterhaltung
+    cost: 4
+  level3:
+    id: 411
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_178
+  level1:
+    id: 412
+#   name: Mehr Personen
+    cost: 2
+  level2:
+    id: 413
+#   name: Kosten modifizierbar
+    cost: 4
+  level3:
+    id: 414
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+- target: LITURGY_179
+  level1:
+    id: 415
+#   name: Größere Reichweite
+    cost: 3
+  level2:
+    id: 416
+#   name: Zielkategorie magische Objekte
+    cost: 6
+  level3:
+    id: 417
+#   name: Zielkategorie karmale Objekte
+    cost: 9
+
+- target: LITURGY_180
+  level1:
+    id: 418
+#   name: Aufrechterhaltend
+    cost: 2
+  level2:
+    id: 419
+#   name: Sprachfähigkeit
+    cost: 4
+  level3:
+    id: 420
+#   name: Klerikales Tier
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_181
+  level1:
+    id: 421
+#   name: Große Gebäude 1
+    cost: 3
+  level2:
+    id: 422
+#   name: Große Gebäude 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 423
+#   name: Große Gebäude 3
+    cost: 9
+    previousRequirement: 2
+
+- target: LITURGY_182
+  level1:
+    id: 424
+#   name: Tiefer Einblick
+    cost: 2
+  level2:
+    id: 425
+#   name: Noch tieferer Einblick
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 426
+#   name: Sprechender Traumgänger
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_183
+  level1:
+    id: 427
+#   name: Kosten modifizierbar
+    cost: 1
+  level2:
+    id: 428
+#   name: Mehr Gewicht
+    cost: 2
+  level3:
+    id: 429
+#   name: Reichweite Berührung
+    cost: 3
+
+- target: LITURGY_184
+  level1:
+    id: 430
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 431
+#   name: Kosten modifizierbar
+    cost: 2
+  level3:
+    id: 432
+#   name: Seelenheilung
+    cost: 3
+
+- target: LITURGY_185
+  level1:
+    id: 433
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 434
+#   name: Längere Wirkungsdauer 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 435
+#   name: Längere Wirkungsdauer 3
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_186
+  level1:
+    id: 436
+#   name: Verwirrter Geweihter
+    cost: 3
+  level2:
+    id: 437
+#   name: Verängstigter Geweihter
+    cost: 6
+  level3:
+    id: 438
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+- target: LITURGY_187
+  level1:
+    id: 439
+#   name: Größerer Radius
+    cost: 1
+  level2:
+    id: 440
+#   name: Genaue Entfernung
+    cost: 2
+  level3:
+    id: 441
+#   name: Genaue Erreichbarkeit
+    cost: 3
+
+- target: LITURGY_188
+  level1:
+    id: 442
+#   name: Größere Gebäude 1
+    cost: 1
+  level2:
+    id: 443
+#   name: Größere Gebäude 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 444
+#   name: Größere Gebäude 3
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_189
+  level1:
+    id: 445
+#   name: Bessere Reparatur
+    cost: 2
+  level2:
+    id: 446
+#   name: Waffen- und Rüstungsreparatur
+    cost: 4
+  level3:
+    id: 447
+#   name: Perfekte Reparatur
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_190
+  level1:
+    id: 448
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 449
+#   name: Längere Wirkungsdauer 1
+    cost: 4
+  level3:
+    id: 450
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_191
+  level1:
+    id: 451
+#   name: Begleiter erlaubt
+    cost: 2
+  level2:
+    id: 452
+#   name: Kosten modifizierbar
+    cost: 4
+  level3:
+    id: 453
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+- target: LITURGY_192
+  level1:
+    id: 454
+#   name: Aufrechterhaltend
+    cost: 3
+  level2:
+    id: 455
+#   name: Sprachfähigkeit
+    cost: 6
+  level3:
+    id: 456
+#   name: Klerikales Tier
+    cost: 9
+    previousRequirement: 2
+
+- target: LITURGY_1
+  level1:
+    id: 457
+#   name: Lichtregulation
+    cost: 1
+  level2:
+    id: 458
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level3:
+    id: 459
+#   name: Lichtkegel
+    cost: 3
+
+- target: LITURGY_2
+  level1:
+    id: 460
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 461
+#   name: Größere Reichweite
+    cost: 4
+  level3:
+    id: 462
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_3
+  level1:
+    id: 463
+#   name: Längeres Intervall
+    cost: 2
+  level2:
+    id: 464
+#   name: Größerer Radius
+    cost: 4
+  level3:
+    id: 465
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: LITURGY_4
+  level1:
+    id: 466
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 467
+#   name: Größere Reichweite
+    cost: 2
+  level3:
+    id: 468
+#   name: Vier Ziele
+    cost: 3
+
+- target: LITURGY_5
+  level1:
+    id: 469
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 470
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 471
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_6
+  level1:
+    id: 472
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 473
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 474
+#   name: Vier Ziele
+    cost: 3
+
+- target: LITURGY_7
+  level1:
+    id: 475
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 476
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 477
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_8
+  level1:
+    id: 478
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 479
+#   name: Reichweite Berührung
+    cost: 2
+  level3:
+    id: 480
+#   name: Klippensturz
+    cost: 3
+
+- target: LITURGY_9
+  level1:
+    id: 481
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 482
+#   name: Aufrechterhaltend
+    cost: 4
+  level3:
+    id: 483
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_10
+  level1:
+    id: 484
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 485
+#   name: Tadelloser Entgifter
+    cost: 4
+  level3:
+    id: 486
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_11
+  level1:
+    id: 487
+#   name: Weiter entfernter Gegenstand
+    cost: 1
+  level2:
+    id: 488
+#   name: Magischer Fingerzeig
+    cost: 2
+  level3:
+    id: 489
+#   name: Karmaler Fingerzeig
+    cost: 3
+
+- target: LITURGY_12
+  level1:
+    id: 490
+#   name: Größere Reichweite
+    cost: 1
+  level2:
+    id: 491
+#   name: Größerer Radius
+    cost: 2
+  level3:
+    id: 492
+#   name: Mächtiges Zeichen
+    cost: 3
+
+- target: LITURGY_13
+  level1:
+    id: 493
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 494
+#   name: Größere Reichweite
+    cost: 4
+  level3:
+    id: 495
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_14
+  level1:
+    id: 496
+#   name: Verteilter Schaden 1
+    cost: 2
+  level2:
+    id: 497
+#   name: Verteilter Schaden 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 498
+#   name: Zwei Ziele
+    cost: 6
+
+- target: LITURGY_15
+  level1:
+    id: 499
+#   name: Verteilter Schaden 1
+    cost: 2
+  level2:
+    id: 500
+#   name: Verteilter Schaden 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 501
+#   name: Zwei Ziele
+    cost: 6
+
+- target: LITURGY_16
+  level1:
+    id: 502
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 503
+#   name: Tadelloser Krankheitsheiler
+    cost: 4
+  level3:
+    id: 504
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_17
+  level1:
+    id: 505
+#   name: Verstecken
+    cost: 2
+  level2:
+    id: 506
+#   name: Keine Aufrechterhaltung
+    cost: 4
+  level3:
+    id: 507
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_18
+  level1:
+    id: 508
+#   name: Keine Aufrechterhaltung
+    cost: 3
+  level2:
+    id: 509
+#   name: Reichweite Berührung
+    cost: 6
+  level3:
+    id: 510
+#   name: Schutz der Gefährten
+    cost: 9
+
+- target: LITURGY_19
+  level1:
+    id: 511
+#   name: Zwei Gegenstände
+    cost: 1
+  level2:
+    id: 512
+#   name: Kegelsicht
+    cost: 2
+  level3:
+    id: 513
+#   name: Rundumsicht
+    cost: 3
+
+- target: LITURGY_20
+  level1:
+    id: 514
+#   name: Längeres Intervall
+    cost: 1
+  level2:
+    id: 515
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level3:
+    id: 516
+#   name: Reichweite Berührung
+    cost: 3
+
+- target: LITURGY_21
+  level1:
+    id: 517
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 518
+#   name: Längere Wirkungsdauer 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 519
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_22
+  level1:
+    id: 520
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 521
+#   name: Starker Objektsegen
+    cost: 4
+  level3:
+    id: 522
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+
+- target: LITURGY_23
+  level1:
+    id: 523
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 524
+#   name: Stärkere Stille 1
+    cost: 2
+  level3:
+    id: 525
+#   name: Stärkere Stille 2
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_24
+  level1:
+    id: 526
+#   name: Schnellerer Wuchs
+    cost: 1
+  level2:
+    id: 527
+#   name: Beet
+    cost: 2
+  level3:
+    id: 528
+#   name: Feld
+    cost: 3
+    previousRequirement: 2
+
+- target: LITURGY_25
+  level1:
+    id: 529
+#   name: Mehr Raben
+    cost: 1
+  level2:
+    id: 530
+#   name: Größerer Radius
+    cost: 2
+  level3:
+    id: 531
+#   name: Größere Transportreichweite
+    cost: 3
+
+- target: LITURGY_26
+  level1:
+    id: 532
+#   name: Liturgiedauer modifizierbar
+    cost: 2
+  level2:
+    id: 533
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 534
+#   name: Verteilte Wirkung
+    cost: 6
+
+- target: LITURGY_27
+  level1:
+    id: 535
+#   name: Verwirrungsgift
+    cost: 2
+  level2:
+    id: 536
+#   name: Kräftige Schlange
+    cost: 4
+  level3:
+    id: 537
+#   name: Schnelle Schlange
+    cost: 6
+
+- target: LITURGY_28
+  level1:
+    id: 538
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 539
+#   name: Mehr Schlangen
+    cost: 2
+  level3:
+    id: 540
+#   name: Reichweite Berührung
+    cost: 3
+
+- target: LITURGY_29
+  level1:
+    id: 541
+#   name: Reichweite Berührung
+    cost: 3
+  level2:
+    id: 542
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 543
+#   name: Schmerzimmunität
+    cost: 9
+
+- target: LITURGY_30
+  level1:
+    id: 544
+#   name: Vier Ziele
+    cost: 2
+  level2:
+    id: 545
+#   name: Zielkategorie Lebewesen
+    cost: 4
+  level3:
+    id: 546
+#   name: Zielkategorie Wesen
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_31
+  level1:
+    id: 547
+#   name: Längere Wirkungsdauer 1
+    cost: 1
+  level2:
+    id: 548
+#   name: Längere Wirkungsdauer 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 549
+#   name: Bessere Preise
+    cost: 3
+
+- target: LITURGY_32
+  level1:
+    id: 550
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 551
+#   name: Größere Reichweite
+    cost: 6
+  level3:
+    id: 552
+#   name: Andere Fragesteller
+    cost: 9
+
+- target: LITURGY_33
+  level1:
+    id: 553
+#   name: Schnellsteigerung
+    cost: 2
+  level2:
+    id: 554
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 555
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_34
+  level1:
+    id: 556
+#   name: Zeichensprache
+    cost: 2
+  level2:
+    id: 557
+#   name: Tadelloser Übersetzer
+    cost: 4
+  level3:
+    id: 558
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_35
+  level1:
+    id: 559
+#   name: Größerer Acker
+    cost: 2
+  level2:
+    id: 560
+#   name: Noch größerer Acker
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 561
+#   name: Mehrere Wachstumszyklen
+    cost: 6
+
+- target: LITURGY_36
+  level1:
+    id: 562
+#   name: Spezialisierter Exorzismus
+    cost: 2
+  level2:
+    id: 563
+#   name: Geister-Exorzismus
+    cost: 4
+  level3:
+    id: 564
+#   name: Dämonen-Exorzismus
+    cost: 6
+    previousRequirement: 1
+
+- target: LITURGY_37
+  level1:
+    id: 565
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 566
+#   name: Starke Weihe
+    cost: 4
+  level3:
+    id: 567
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_38
+  level1:
+    id: 568
+#   name: Aufrechterhaltend
+    cost: 2
+  level2:
+    id: 569
+#   name: Sprachfähigkeit
+    cost: 4
+  level3:
+    id: 570
+#   name: Klerikales Tier
+    cost: 6
+    previousRequirement: 2
+
+- target: LITURGY_39
+  level1:
+    id: 571
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 572
+#   name: Mitverwandelte Kleidung
+    cost: 4
+  level3:
+    id: 573
+#   name: Starker Nebel
+    cost: 6
+
+- target: LITURGY_40
+  level1:
+    id: 574
+#   name: Schwächere Weihe
+    cost: 3
+  level2:
+    id: 575
+#   name: Mehr Gewicht
+    cost: 6
+  level3:
+    id: 576
+#   name: Mehrere Ziele
+    cost: 9
+
+- target: LITURGY_226
+  level1:
+    id: 577
+#   name: Größere Reichweite
+    cost: 3
+  level2:
+    id: 578
+#   name: Große Reue
+    cost: 6
+  level3:
+    id: 579
+#   name: Verkürzte Zeremoniedauer
+    cost: 9
+
+- target: LITURGY_206
+  level1:
+    id: 580
+#   name: Längere Wirkungsdauer I
+    cost: 1
+  level2:
+    id: 581
+#   name: Mehrere Ziele
+    cost: 2
+  level3:
+    id: 582
+#   name: Längere Wirkungsdauer II
+    cost: 3
+
+- target: LITURGY_207
+  level1:
+    id: 583
+#   name: Lirtugieerweiterung I
+    cost: 1
+  level2:
+    id: 584
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 585
+#   name: Zwei Ziele
+    cost: 3
+
+- target: LITURGY_208
+  level1:
+    id: 586
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 587
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 588
+#   name: Betörender Rausch
+    cost: 6
+
+- target: LITURGY_209
+  level1:
+    id: 589
+#   name: Starke Erregung
+    cost: 2
+  level2:
+    id: 590
+#   name: Mehrere Ziele
+    cost: 4
+  level3:
+    id: 591
+#   name: Heilige Ekstase
+    cost: 6
+
+- target: LITURGY_210
+  level1:
+    id: 592
+#   name: Einengendes Band
+    cost: 2
+  level2:
+    id: 593
+#   name: Kosten modifizierbar
+    cost: 4
+  level3:
+    id: 594
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+- target: LITURGY_211
+  level1:
+    id: 595
+#   name: Gefühlsübertragung
+    cost: 1
+  level2:
+    id: 596
+#   name: Gefühle aus der Ferne
+    cost: 2
+  level3:
+    id: 597
+#   name: Gefühlsbund
+    cost: 3
+
+- target: LITURGY_212
+  level1:
+    id: 598
+#   name: Noch geiler
+    cost: 2
+  level2:
+    id: 599
+#   name: Geilheitsfokussierung
+    cost: 4
+  level3:
+    id: 600
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_213
+  level1:
+    id: 601
+#   name: Ausgeglichenheit
+    cost: 2
+  level2:
+    id: 602
+#   name: Kontrolle des Triebs
+    cost: 4
+  level3:
+    id: 603
+#   name: Zügelloses Verlangen
+    cost: 6
+
+- target: LITURGY_214
+  level1:
+    id: 604
+#   name: Größere Reichweite
+    cost: 1
+  level2:
+    id: 605
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 606
+#   name: Längere Wirkungsdauer 2
+    cost: 3
+
+- target: LITURGY_215
+  level1:
+    id: 607
+#   name: Schnelle Freude
+    cost: 2
+  level2:
+    id: 608
+#   name: Keine Grenzen des Rauschs
+    cost: 4
+  level3:
+    id: 609
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: LITURGY_216
+  level1:
+    id: 610
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 611
+#   name: Reichweite Berührung
+    cost: 2
+  level3:
+    id: 612
+#   name: Behandlung von Geschlechtskrankheiten
+    cost: 3
+
+- target: LITURGY_217
+  level1:
+    id: 613
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 614
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 615
+#   name: Vier Ziele
+    cost: 6
+
+- target: LITURGY_218
+  level1:
+    id: 616
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 617
+#   name: Einsichten I
+    cost: 4
+  level3:
+    id: 618
+#   name: Einsichten II
+    cost: 6
+
+- target: LITURGY_219
+  level1:
+    id: 619
+#   name: Überzeugungsarbeit I
+    cost: 1
+  level2:
+    id: 620
+#   name: Überzeugungsarbeit II
+    cost: 2
+  level3:
+    id: 621
+#   name: Reichweite Berührung
+    cost: 3
+
+- target: LITURGY_220
+  level1:
+    id: 622
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 623
+#   name: Einsichten ins andere Geschlecht
+    cost: 6
+  level3:
+    id: 624
+#   name: Wechselndes Geschlecht
+    cost: 9
+
+- target: LITURGY_221
+  level1:
+    id: 625
+#   name: Partnerorgasmus
+    cost: 3
+  level2:
+    id: 626
+#   name: Mehrere Ziele
+    cost: 6
+  level3:
+    id: 627
+#   name: Göttlicher Sinnesrausch
+    cost: 9
+
+- target: LITURGY_222
+  level1:
+    id: 628
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 629
+#   name: Mehr Penisse, mehr Brüste und noch mehr Vaginas
+    cost: 6
+  level3:
+    id: 630
+#   name: Vier Arme
+    cost: 9
+
+- target: LITURGY_223
+  level1:
+    id: 631
+#   name: Verausgabung
+    cost: 2
+  level2:
+    id: 632
+#   name: Mehrere Ziele
+    cost: 4
+  level3:
+    id: 633
+#   name: Totale Erschöpfung
+    cost: 6
+
+- target: LITURGY_224
+  level1:
+    id: 634
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 635
+#   name: Andere Tätowieren
+    cost: 2
+  level3:
+    id: 636
+#   name: Machtvolle Tätowierung
+    cost: 3
+
+- target: LITURGY_225
+  level1:
+    id: 637
+#   name: Verzückung
+    cost: 2
+  level2:
+    id: 638
+#   name: Willensschwäche
+    cost: 4
+  level3:
+    id: 639
+#   name: Zwei Ziele
+    cost: 6
+

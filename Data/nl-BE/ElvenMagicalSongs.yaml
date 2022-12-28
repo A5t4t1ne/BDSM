@@ -1,0 +1,59 @@
+- id: SPELL_62
+  name: "Herinneringsmelodie"
+  effect: |
+    Met dit lied roept de held een herinnering uit een lang vervlogen tijd terug op bij zichzelf. Voor elk jaar terug, dat de gebeurtenis zich voordeed, moet hij 5 minuten spelen. Daarna moet hij even lang spelen als de lengte van de scene die hij zich wil herinneren.
+  aeCost: "1 AsP per 5 minuten"
+  aeCostShort: "1 AsP per 5 Min"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 283
+
+- id: SPELL_63
+  name: "Vredeslied"
+  effect: |
+    Na 5 minuten spelen vormt dit lied een vreedzame zone rondom de elf (radius van KwG x3 pas). Zolang hij verder speelt, verliezen dieren en beschaafde wezens de interesse om gewelddadig tegen elkaar of tegen de elf tekeer te gaan. Om toch actief te kunnen vechten, is een Talentproef op *Wilskracht* nodig, verzwaard door tweemaal de KwG van de geslaagde Proef voor het Vredeslied. De mogelijkheid zich te verdedigen, wordt door het Vredeslied niet beperkt. Onnatuurlijke wezens zoals ondoden, demonen, elementalen of golems worden hierdoor niet beïnvloed.
+  aeCost: "2 AsP per 5 minuten"
+  aeCostShort: "2 AsP per 5 Min "
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 284
+
+- id: SPELL_64
+  name: "Vriendschapslied"
+  effect: |
+    Met het vriendschapslied kunnen twee elfen, die het samen spelen, een vaste vriendschapsband weven tussen elkaar. Dit kan slechts één keer in het leven van een elf. Het lied bestaat uit drie strofen van elk één uur, die in drie op elkaar volgende dagen gemeenschappelijk moeten worden gespeeld. Elfen die op deze manier met elkaar verbonden zijn, voelen elkaars aanwezigheid en kunnen elkaars sterke emoties ook op grote afstand waarnemen. Zelfs als ze geen AsP ter beschikking hebben, kunnen ze de Spreuk Balsam op elkaar uitvoeren. In zulke gevallen kunnen ze met deze Spreuk hun eigen levensenergie rechtstreeks op de ander overdragen.
+  aeCost: "4 AsP per uur, 1 Permanente AsP bij de laatste strofe"
+  aeCostShort: "4 AsP per h/1 pAsP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 284
+
+- id: SPELL_65
+  name: "Melodie van vakmanschap"
+  effect: |
+    Proeven op ambachten, die de elf tijdens de werking van deze melodie gebruikt, zijn vereenvoudigd met de KwG van het Ritueel.
+  aeCost: "4 AsP per uur"
+  aeCostShort: "4 AsP per h"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 283
+
+- id: SPELL_66
+  name: "Zorgenlied"
+  effect: |
+    De elf vlecht vragen in het lied, die hij aan een goede vriend wil stellen. Hierdoor kan hij allerlei zaken te weten komen. Is zijn vriend gezond, ziek of zelfs dood, vreest hij om zijn leven of is hij gelukkig? Met dit lied kan men slechts algemene indrukken krijgen. Duidelijk geformuleerde gedachtenbeelden laten zich op deze manier niet overdragen. Hoe verder de gezochte vriend van de zanger verwijderd is, des te langer duurt het lied. Per 100 mijlen moet hij 5 minuten zingen om hem te bereiken.
+  aeCost: "2 AsP per 5 minuten"
+  aeCostShort: "2 AsP per 5 Min "
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 284
+
+- id: SPELL_67
+  name: "Tovermelodie"
+  effect: |
+    Als een elf ongestoord één uur lang deze melodie speelt, dan kan hij zich in een meditatieve toestand brengen, waarmee hij in harmonie met de astrale stromingen in de omgeving komt. Na een half uur ontwaakt hij uit de meditatie. Vervolgens zijn alle Proeven op Spreuken en Rituelen tot aan de volgende zonsopgang verlicht. Bij KwG 1-3 met 1, bij KwG 4-6 met 2.
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 284

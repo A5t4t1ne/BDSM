@@ -1,0 +1,654 @@
+- id: CANTRIP_1
+# name: Abkühlung
+  traditions:
+    - 1
+  property: 4
+
+- id: CANTRIP_2
+# name: Bauchreden
+  traditions:
+    - 1
+  property: 7
+
+- id: CANTRIP_3
+# name: Duft
+  traditions:
+    - 1
+  property: 7
+
+- id: CANTRIP_4
+# name: Feuerfinger
+  traditions:
+    - 1
+  property: 4
+
+- id: CANTRIP_5
+# name: Glücksgriff
+  traditions:
+    - 1
+  property: 6
+
+- id: CANTRIP_6
+# name: Handwärmer
+  traditions:
+    - 1
+  property: 4
+
+- id: CANTRIP_7
+# name: Lockruf
+  traditions:
+    - 1
+  property: 3
+
+- id: CANTRIP_8
+# name: Regenbogenaugen
+  traditions:
+    - 1
+  property: 7
+
+- id: CANTRIP_9
+# name: Schlangenhände
+  traditions:
+    - 1
+  property: 11
+
+- id: CANTRIP_10
+# name: Schnipsen
+  traditions:
+    - 1
+  property: 10
+
+- id: CANTRIP_11
+# name: Signatur
+  traditions:
+    - 1
+  property: 9
+
+- id: CANTRIP_12
+# name: Trocken
+  traditions:
+    - 1
+  property: 4
+
+- id: CANTRIP_13
+# name: Bartwuchs
+  traditions:
+    - 5
+  property: 11
+
+- id: CANTRIP_14
+# name: Beeren & Nüsse
+  traditions:
+    - 5
+  property: 3
+
+- id: CANTRIP_15
+# name: Hexenblick
+  traditions:
+    - 3
+  property: 6
+  activatablePrerequisites:
+    - id: SA_255
+      active: true
+
+- id: CANTRIP_16
+# name: Kehrbesen
+  traditions:
+    - 3
+  property: 10
+
+- id: CANTRIP_17
+# name: Leselampe
+  traditions:
+    - 2
+    - 11
+  property: 4
+
+- id: CANTRIP_18
+# name: Pflanzenempathie
+  traditions:
+    - 5
+  property: 6
+
+- id: CANTRIP_19
+# name: Waffensäuberung
+  traditions:
+    - 2
+    - 11
+  property: 9
+
+- id: CANTRIP_20
+# name: Würze
+  traditions:
+    - 3
+  property: 7
+
+- id: CANTRIP_21
+# name: Aranische Rasur
+  traditions:
+    - 2
+    - 11
+  property: 11
+
+- id: CANTRIP_22
+# name: Beruhigung
+  traditions:
+    - 2
+    - 11
+  property: 5
+
+- id: CANTRIP_23
+# name: Blütenduft
+  traditions:
+    - 2
+    - 4
+    - 11
+  property: 7
+
+- id: CANTRIP_24
+# name: Ehrfürchtiges Verhalten
+  traditions:
+    - 2
+    - 11
+  property: 3
+
+- id: CANTRIP_25
+# name: Feenfüße
+  traditions:
+    - 1
+  property: 9
+
+- id: CANTRIP_26
+# name: Grußworte
+  traditions:
+    - 2
+    - 4
+    - 11
+  property: 3
+
+- id: CANTRIP_27
+# name: Guten Morgen
+  traditions:
+    - 2
+    - 11
+  property: 3
+
+- id: CANTRIP_28
+# name: Haarpracht
+  traditions:
+    - 3
+  property: 11
+
+- id: CANTRIP_29
+# name: Heller Stern
+  traditions:
+    - 2
+    - 11
+  property: 6
+
+- id: CANTRIP_30
+# name: Hintergrundmusik
+  traditions:
+    - 2
+    - 7
+    - 11
+  property: 7
+
+- id: CANTRIP_31
+# name: Insektenbann
+  traditions:
+    - 2
+    - 3
+    - 11
+  property: 11
+
+- id: CANTRIP_32
+# name: Luftstoß
+  traditions:
+    - 2
+    - 4
+    - 11
+  property: 10
+
+- id: CANTRIP_33
+# name: Nagellack
+  traditions:
+    - 2
+    - 3
+    - 11
+  property: 11
+
+- id: CANTRIP_34
+# name: Ordentlich
+  traditions:
+    - 2
+    - 11
+  property: 10
+
+- id: CANTRIP_35
+# name: Rohrstock
+  traditions:
+    - 2
+    - 11
+  property: 10
+
+- id: CANTRIP_36
+# name: Sandfigur
+  traditions:
+    - 2
+    - 11
+  property: 4
+
+- id: CANTRIP_37
+# name: Schminken
+  traditions:
+    - 2
+    - 3
+    - 6
+    - 8
+    - 11
+  property: 11
+
+- id: CANTRIP_38
+# name: Selbstarchivierung
+  traditions:
+    - 2
+    - 11
+  property: 10
+
+- id: CANTRIP_39
+# name: Tätowierung
+  traditions:
+    - 2
+    - 11
+  property: 11
+
+- id: CANTRIP_40
+# name: Unheimliches Lachen
+  traditions:
+    - 2
+    - 3
+    - 11
+  property: 3
+
+- id: CANTRIP_41
+# name: Wasserhöhe
+  traditions:
+    - 2
+    - 11
+  property: 6
+
+- id: CANTRIP_42
+# name: Weisheit des Leytfadens
+  traditions:
+    - 2
+    - 11
+  property: 7
+
+- id: CANTRIP_43
+# name: Zauberfeder
+  traditions:
+    - 2
+    - 11
+  property: 10
+
+- id: CANTRIP_44
+# name: Astrales Leuchten
+  traditions:
+    - 2
+    - 11
+  property: 6
+
+- id: CANTRIP_45
+# name: Auffälliger Stil
+  traditions:
+    - 2
+    - 11
+  property: 3
+
+- id: CANTRIP_46
+# name: Bereit zum Aufbruch
+  traditions:
+    - 2
+    - 11
+  property: 10
+
+- id: CANTRIP_47
+# name: Blick in den Limbus
+  traditions:
+    - 2
+    - 11
+  property: 6
+
+- id: CANTRIP_48
+# name: Dämonling
+  traditions:
+    - 2
+    - 11
+  property: 2
+
+- id: CANTRIP_49
+# name: Eiskalter Blick
+  traditions:
+    - 2
+    - 11
+  property: 3
+
+- id: CANTRIP_50
+# name: Elfenhaar
+  traditions:
+    - 4
+  property: 11
+  activatablePrerequisites:
+    - id: SA_345
+      active: true
+
+- id: CANTRIP_51
+# name: Geistergeräusche
+  traditions:
+    - 2
+    - 11
+  property: 7
+
+- id: CANTRIP_52
+# name: Geräuschhexerei
+  traditions:
+    - 15
+  property: 7
+
+- id: CANTRIP_53
+# name: Heilsame Berührung
+  traditions:
+    - 2
+    - 11
+  property: 5
+
+- id: CANTRIP_54
+# name: Kleingeld
+  traditions:
+    - 2
+    - 11
+  property: 8
+
+- id: CANTRIP_55
+# name: Kneifen
+  traditions:
+    - 15
+  property: 10
+
+- id: CANTRIP_56
+# name: Konstante Temperatur
+  traditions:
+    - 2
+    - 11
+  property: 4
+
+- id: CANTRIP_57
+# name: Leuchtblume
+  traditions:
+    - 4
+  property: 11
+
+- id: CANTRIP_58
+# name: Putziges Tierchen
+  traditions:
+    - 4
+  property: 3
+
+- id: CANTRIP_59
+# name: Ruhige Ausstrahlung
+  traditions:
+    - 2
+    - 11
+  property: 3
+
+- id: CANTRIP_60
+# name: Rührlöffel
+  traditions:
+    - 3
+  property: 10
+
+- id: CANTRIP_61
+# name: Rutschiger Boden
+  traditions:
+    - 15
+  property: 9
+
+- id: CANTRIP_62
+# name: Schmutzabweisend
+  traditions:
+    - 4
+  property: 11
+
+- id: CANTRIP_63
+# name: Strahlendes Lächeln
+  traditions:
+    - 15
+  property: 7
+
+- id: CANTRIP_64
+# name: Tentakelgriff
+  traditions:
+    - 2
+    - 11
+  property: 11
+
+- id: CANTRIP_65
+# name: Tierpflege
+  traditions:
+    - 3
+  property: 10
+
+- id: CANTRIP_66
+# name: Tiertrick
+  traditions:
+    - 15
+  property: 8
+
+- id: CANTRIP_67
+# name: Verbundenheitsgefühl
+  traditions:
+    - 2
+    - 11
+  property: 6
+
+- id: CANTRIP_68
+# name: Verneigung
+  traditions:
+    - 2
+    - 11
+  property: 3
+
+- id: CANTRIP_69
+# name: Verrücktes Kichern
+  traditions:
+    - 3
+  property: 3
+
+- id: CANTRIP_70
+# name: Wohlgeruch
+  traditions:
+    - 4
+  property: 11
+
+- id: CANTRIP_72
+# name: Ausziehen von Zauberhand
+  traditions:
+    - 1
+  property: 10
+
+- id: CANTRIP_73
+# name: Erotischer Traum
+  traditions:
+    - 1
+  property: 3
+
+- id: CANTRIP_74
+# name: Lüsterne Hand
+  traditions:
+    - 1
+  property: 11
+
+- id: CANTRIP_75
+# name: Ölhaut
+  traditions:
+    - 1
+  property: 11
+
+- id: CANTRIP_76
+# name: Schamhaarfrisur
+  traditions:
+    - 1
+  property: 11
+
+- id: CANTRIP_77
+# name: Elementarling
+  traditions:
+    - 2
+    - 11
+  property: 4
+
+- id: CANTRIP_78
+# name: Feenzauber
+  traditions:
+    - 2
+    - 11
+  property: 8
+
+- id: CANTRIP_79
+# name: Hand der Antimagie
+  traditions:
+    - 2
+    - 11
+  property: 1
+
+- id: CANTRIP_80
+# name: Hundekeks
+  traditions:
+    - 13
+  property: 11
+
+- id: CANTRIP_81
+# name: Kleiner Fliegender Teppich
+  traditions:
+    - 2
+    - 11
+  property: 4
+
+- id: CANTRIP_82
+# name: Körperpflege
+  traditions:
+    - 2
+    - 11
+  property: 5
+
+- id: CANTRIP_83
+# name: Kriegsbemalung
+  traditions:
+    - 2
+    - 11
+  property: 11
+
+- id: CANTRIP_84
+# name: Laufendes Händchen
+  traditions:
+    - 2
+    - 11
+  property: 2
+
+- id: CANTRIP_85
+# name: Steinempathie
+  traditions:
+    - 13
+  property: 6
+
+- id: CANTRIP_86
+# name: Schattenspiel
+  traditions:
+    - 2
+    - 11
+  property: 7
+
+- id: CANTRIP_87
+# name: Siegel der Elemente
+  traditions:
+    - 2
+    - 11
+  property: 4
+
+- id: CANTRIP_88
+# name: Übergangen
+  traditions:
+    - 2
+    - 11
+  property: 3
+
+- id: CANTRIP_89
+# name: Wechselschein
+  traditions:
+    - 2
+    - 11
+  property: 8
+
+- id: CANTRIP_90
+# name: Aura der Eitelkeit
+  traditions:
+    - 2
+    - 11
+  property: 3
+
+- id: CANTRIP_91
+# name: Einfache Telekinese
+  traditions:
+    - 2
+    - 11
+  property: 9
+
+- id: CANTRIP_92
+# name: Essenz der Niederhöllen
+  traditions:
+    - 2
+    - 11
+  property: 8
+
+- id: CANTRIP_93
+# name: Feuerspiel
+  traditions:
+    - 1
+  property: 4
+
+- id: CANTRIP_94
+# name: Flammenhaar
+  traditions:
+    - 2
+    - 11
+  property: 2
+
+- id: CANTRIP_95
+# name: Sprechendes Kästchen
+  traditions:
+    - 2
+    - 11
+  property: 9
+
+- id: CANTRIP_96
+# name: Türklopfer
+  traditions:
+    - 2
+    - 11
+  property: 9
+
+- id: CANTRIP_97
+# name: Unauffälliger Stab
+  traditions:
+    - 2
+    - 3
+    - 11
+  property: 3
+
+- id: CANTRIP_98
+# name: Wind im Haar
+  traditions:
+    - 2
+    - 11
+  property: 4

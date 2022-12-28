@@ -1,0 +1,2452 @@
+- id: C_1
+# name: Andergaster
+  culturalPackageCost: 20
+  languages:
+    - 8
+  literacy:
+    - 9
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_37
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_21
+  commonSkills:
+    - TAL_51
+    - TAL_27
+    - TAL_28
+    - TAL_40
+    - TAL_29
+    - TAL_30
+  uncommonSkills:
+    - TAL_1
+    - TAL_32
+    - TAL_33
+    - TAL_34
+    - TAL_37
+    - TAL_38
+    - TAL_39
+  culturalPackageSkills:
+    - id: TAL_51
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 2
+
+- id: C_2
+# name: Aranier
+  culturalPackageCost: 26
+  languages:
+    - 8
+    - 23
+  literacy:
+    - 9
+    - 14
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_4
+    - ADV_8
+  commonDisadvantages:
+    - DISADV_33
+    - DISADV_37
+    - DISADV_55
+  uncommonAdvantages:
+    - ADV_30
+  uncommonDisadvantages:
+    - DISADV_6
+  commonSkills:
+    - TAL_16
+    - TAL_31
+    - TAL_19
+    - TAL_46
+    - TAL_54
+    - TAL_20
+    - TAL_38
+    - TAL_39
+    - TAL_6
+    - TAL_40
+    - TAL_42
+    - TAL_59
+    - TAL_12
+    - TAL_21
+  uncommonSkills:
+    - TAL_17
+    - TAL_24
+    - TAL_30
+  culturalPackageSkills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_31
+      value: 1
+    - id: TAL_19
+      value: 2
+    - id: TAL_46
+      value: 2
+    - id: TAL_20
+      value: 1
+    - id: TAL_38
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_59
+      value: 1
+    - id: TAL_21
+      value: 2
+
+
+- id: C_3
+# name: Bornländer
+  culturalPackageCost: 18
+  languages:
+    - 8
+  literacy:
+    - 9
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_30
+    - ADV_37
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_15
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_22
+  commonSkills:
+    - TAL_24
+    - TAL_51
+    - TAL_52
+    - TAL_27
+    - TAL_28
+    - TAL_30
+    - TAL_14
+  uncommonSkills:
+    - TAL_1
+    - TAL_19
+  culturalPackageSkills:
+    - id: TAL_24
+      value: 1
+    - id: TAL_51
+      value: 2
+    - id: TAL_52
+      value: 1
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_30
+      value: 1
+    - id: TAL_14
+      value: 2
+
+- id: C_4
+# name: Fjarninger
+  culturalPackageCost: 33
+  languages:
+    - 7
+  social:
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_5
+    - P_6
+    - P_8
+    - P_13
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_8
+    - ADV_30
+    - ADV_37
+    - ADV_44
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_6
+    - DISADV_15
+    - DISADV_37
+    - DISADV_48
+  uncommonAdvantages:
+    - ADV_22
+    - ADV_40
+    - ADV_41
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_12
+    - DISADV_16
+    - DISADV_21
+    - DISADV_25
+    - DISADV_33
+    - DISADV_55
+  commonSkills:
+    - TAL_17
+    - TAL_24
+    - TAL_51
+    - TAL_3
+    - TAL_4
+    - TAL_5
+    - TAL_55
+    - TAL_27
+    - TAL_8
+    - TAL_58
+    - TAL_29
+    - TAL_30
+  uncommonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_18
+    - TAL_45
+    - TAL_1
+    - TAL_19
+    - TAL_6
+    - TAL_57
+  culturalPackageSkills:
+    - id: TAL_17
+      value: 2
+    - id: TAL_24
+      value: 1
+    - id: TAL_4
+      value: 1
+    - id: TAL_5
+      value: 2
+    - id: TAL_55
+      value: 1
+    - id: TAL_27
+      value: 2
+    - id: TAL_8
+      value: 1
+    - id: TAL_58
+      value: 1
+    - id: TAL_30
+      value: 2
+
+- id: C_5
+# name: Horasier
+  culturalPackageCost: 27
+  languages:
+    - 8
+  literacy:
+    - 9
+  social:
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_40
+  commonDisadvantages:
+    - DISADV_33
+  uncommonAdvantages:
+    - ADV_4
+  uncommonDisadvantages:
+    - DISADV_1
+  commonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_18
+    - TAL_45
+    - TAL_19
+    - TAL_32
+    - TAL_33
+    - TAL_46
+    - TAL_36
+    - TAL_37
+    - TAL_38
+    - TAL_39
+    - TAL_11
+  uncommonSkills:
+    - TAL_24
+    - TAL_1
+    - TAL_28
+    - TAL_29
+    - TAL_30
+  culturalPackageSkills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_44
+      value: 1
+    - id: TAL_18
+      value: 2
+    - id: TAL_19
+      value: 2
+    - id: TAL_32
+      value: 1
+    - id: TAL_33
+      value: 1
+    - id: TAL_46
+      value: 1
+    - id: TAL_37
+      value: 1
+    - id: TAL_38
+      value: 2
+    - id: TAL_39
+      value: 2
+    - id: TAL_11
+      value: 1
+
+- id: C_6
+# name: Maraskaner
+  culturalPackageCost: 26
+  languages:
+    - 8
+    - 23
+  literacy:
+    - 9
+    - 14
+  social:
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_13
+    - ADV_22
+    - ADV_31
+    - ADV_37
+    - ADV_40
+  commonDisadvantages:
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_30
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_11
+    - DISADV_37
+  commonSkills:
+    - TAL_34
+    - TAL_47
+    - TAL_27
+    - TAL_28
+    - TAL_29
+    - TAL_13
+    - TAL_30
+  uncommonSkills:
+    - TAL_45
+    - TAL_1
+  culturalPackageSkills:
+    - id: TAL_34
+      value: 1
+    - id: TAL_47
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 2
+    - id: TAL_29
+      value: 2
+    - id: TAL_13
+      value: 1
+    - id: TAL_30
+      value: 1
+
+- id: C_7
+# name: Mhanadistani
+  culturalPackageCost: 28
+  languages:
+    - 23
+  literacy:
+    - 14
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_14
+    - ADV_22
+    - ADV_40
+  commonDisadvantages:
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_30
+  uncommonDisadvantages:
+    - DISADV_1
+  commonSkills:
+    - TAL_31
+    - TAL_19
+    - TAL_33
+    - TAL_34
+    - TAL_46
+    - TAL_36
+    - TAL_6
+    - TAL_40
+    - TAL_42
+    - TAL_12
+    - TAL_21
+  uncommonSkills:
+    - TAL_45
+  culturalPackageSkills:
+    - id: TAL_31
+      value: 2
+    - id: TAL_19
+      value: 2
+    - id: TAL_33
+      value: 1
+    - id: TAL_34
+      value: 2
+    - id: TAL_46
+      value: 2
+    - id: TAL_36
+      value: 1
+    - id: TAL_40
+      value: 2
+    - id: TAL_21
+      value: 1
+
+- id: C_8
+# name: Mittelreicher
+  culturalPackageCost: 12
+  languages:
+    - 8
+  literacy:
+    - 9
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_14
+  commonDisadvantages:
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_22
+    - ADV_30
+  commonSkills:
+    - TAL_51
+    - TAL_55
+    - TAL_28
+    - TAL_59
+    - TAL_29
+  uncommonSkills:
+    - TAL_1
+  culturalPackageSkills:
+    - id: TAL_51
+      value: 1
+    - id: TAL_55
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_59
+      value: 1
+    - id: TAL_29
+      value: 1
+
+- id: C_9
+# name: Mohas
+  culturalPackageCost: 38
+  languages:
+    - 11
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_5
+    - P_6
+    - P_8
+    - P_13
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_13
+    - ADV_14
+    - ADV_15
+    - ADV_22
+    - ADV_37
+    - ADV_38
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_16
+    - DISADV_29
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_30
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_21
+    - DISADV_25
+    - DISADV_33
+    - DISADV_37
+    - DISADV_48
+  commonSkills:
+    - TAL_24
+    - TAL_47
+    - TAL_48
+    - TAL_3
+    - TAL_4
+    - TAL_27
+    - TAL_28
+    - TAL_40
+    - TAL_10
+    - TAL_29
+    - TAL_13
+    - TAL_30
+  uncommonSkills:
+    - TAL_18
+    - TAL_45
+    - TAL_1
+    - TAL_19
+    - TAL_32
+    - TAL_33
+    - TAL_55
+    - TAL_6
+    - TAL_57
+    - TAL_14
+  culturalPackageSkills:
+    - id: TAL_24
+      value: 1
+    - id: TAL_47
+      value: 1
+    - id: TAL_4
+      value: 1
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 2
+    - id: TAL_40
+      value: 1
+    - id: TAL_10
+      value: 1
+    - id: TAL_29
+      value: 2
+    - id: TAL_13
+      value: 1
+    - id: TAL_30
+      value: 2
+
+- id: C_10
+# name: Nivesen
+  culturalPackageCost: 37
+  languages:
+    - 12
+  social:
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_5
+    - P_6
+    - P_8
+    - P_13
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_30
+    - ADV_37
+  commonDisadvantages:
+    - DISADV_1
+  uncommonAdvantages:
+    - ADV_22
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_12
+    - DISADV_33
+    - DISADV_37
+  commonSkills:
+    - TAL_24
+    - TAL_45
+    - TAL_4
+    - TAL_27
+    - TAL_28
+    - TAL_40
+    - TAL_10
+    - TAL_29
+    - TAL_13
+    - TAL_30
+  uncommonSkills:
+    - TAL_44
+    - TAL_17
+    - TAL_18
+    - TAL_1
+    - TAL_19
+    - TAL_33
+    - TAL_35
+    - TAL_6
+    - TAL_57
+  culturalPackageSkills:
+    - id: TAL_24
+      value: 2
+    - id: TAL_45
+      value: 1
+    - id: TAL_27
+      value: 2
+    - id: TAL_28
+      value: 1
+    - id: TAL_40
+      value: 2
+    - id: TAL_10
+      value: 1
+    - id: TAL_29
+      value: 2
+    - id: TAL_13
+      value: 1
+    - id: TAL_30
+      value: 2
+
+- id: C_11
+# name: Norbarden
+  culturalPackageCost: 18
+  languages:
+    - 1
+  literacy:
+    - 9
+  social:
+    - 2
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_5
+    - P_6
+    - P_8
+    - P_13
+    - P_16
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - P_27
+    - P_29
+  commonAdvantages:
+    - ADV_30
+    - ADV_38
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_37
+    - DISADV_50
+  uncommonAdvantages:
+    - ADV_22
+  uncommonDisadvantages:
+    - DISADV_33
+    - DISADV_34
+  commonSkills:
+    - TAL_45
+    - TAL_32
+    - TAL_46
+    - TAL_27
+    - TAL_21
+    - TAL_30
+  uncommonSkills:
+    - TAL_44
+    - TAL_1
+  culturalPackageSkills:
+    - id: TAL_45
+      value: 2
+    - id: TAL_32
+      value: 2
+    - id: TAL_46
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_21
+      value: 1
+    - id: TAL_30
+      value: 1
+
+- id: C_12
+# name: Nordaventurier
+  culturalPackageCost: 25
+  languages:
+    - 1
+    - 8
+    - 12
+    - 21
+  literacy:
+    - 9
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_8
+    - ADV_37
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_22
+  uncommonDisadvantages:
+    - DISADV_21
+  commonSkills:
+    - TAL_24
+    - TAL_26
+    - TAL_46
+    - TAL_51
+    - TAL_53
+    - TAL_27
+    - TAL_28
+    - TAL_8
+    - TAL_58
+    - TAL_42
+    - TAL_29
+    - TAL_13
+    - TAL_30
+    - TAL_14
+  uncommonSkills:
+    - TAL_16
+    - TAL_1
+    - TAL_33
+    - TAL_36
+    - TAL_37
+    - TAL_39
+  culturalPackageSkills:
+    - id: TAL_24
+      value: 1
+    - id: TAL_46
+      value: 1
+    - id: TAL_51
+      value: 1
+    - id: TAL_53
+      value: 1
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_8
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 1
+    - id: TAL_14
+      value: 1
+
+- id: C_13
+# name: Nostrier
+  culturalPackageCost: 15
+  languages:
+    - 8
+  literacy:
+    - 9
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_37
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_21
+  commonSkills:
+    - TAL_26
+    - TAL_27
+    - TAL_28
+    - TAL_40
+    - TAL_29
+    - TAL_30
+  uncommonSkills:
+    - TAL_1
+    - TAL_32
+    - TAL_33
+    - TAL_34
+    - TAL_37
+    - TAL_38
+    - TAL_39
+  culturalPackageSkills:
+    - id: TAL_26
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 1
+
+- id: C_14
+# name: Novadis
+  culturalPackageCost: 25
+  languages:
+    - 23
+  literacy:
+    - 5
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_8
+    - ADV_22
+    - ADV_37
+    - ADV_39
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_33
+    - DISADV_34
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_30
+  uncommonDisadvantages:
+    - DISADV_15
+  commonSkills:
+    - TAL_17
+    - TAL_24
+    - TAL_35
+    - TAL_27
+    - TAL_28
+    - TAL_39
+    - TAL_6
+    - TAL_10
+    - TAL_29
+    - TAL_30
+  uncommonSkills:
+    - TAL_45
+    - TAL_26
+    - TAL_36
+  culturalPackageSkills:
+    - id: TAL_17
+      value: 2
+    - id: TAL_24
+      value: 1
+    - id: TAL_27
+      value: 2
+    - id: TAL_39
+      value: 1
+    - id: TAL_6
+      value: 2
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 2
+
+- id: C_15
+# name: Südaventurier
+  culturalPackageCost: 26
+  languages:
+    - 8
+  literacy:
+    - 9
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_22
+    - ADV_40
+  commonDisadvantages:
+    - DISADV_16
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_30
+  uncommonDisadvantages:
+    - DISADV_1
+  commonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_26
+    - TAL_19
+    - TAL_46
+    - TAL_47
+    - TAL_20
+    - TAL_27
+    - TAL_28
+    - TAL_21
+    - TAL_23
+    - TAL_14
+  uncommonSkills:
+    - TAL_45
+    - TAL_1
+  culturalPackageSkills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_44
+      value: 1
+    - id: TAL_26
+      value: 1
+    - id: TAL_19
+      value: 2
+    - id: TAL_47
+      value: 1
+    - id: TAL_20
+      value: 2
+    - id: TAL_21
+      value: 1
+    - id: TAL_23
+      value: 1
+
+- id: C_16
+# name: Svellttaler
+  culturalPackageCost: 21
+  languages:
+    - 8
+  literacy:
+    - 9
+  social:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_8
+    - ADV_37
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_22
+  uncommonDisadvantages:
+    - DISADV_21
+  commonSkills:
+    - TAL_24
+    - TAL_45
+    - TAL_27
+    - TAL_28
+    - TAL_40
+    - TAL_29
+    - TAL_30
+  uncommonSkills:
+    - TAL_18
+    - TAL_1
+    - TAL_33
+  culturalPackageSkills:
+    - id: TAL_24
+      value: 2
+    - id: TAL_45
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 1
+
+- id: C_17
+# name: Thorwaler
+  culturalPackageCost: 24
+  languages:
+    - 21
+  literacy:
+    - 9
+    - 12
+  social:
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_8
+    - ADV_14
+    - ADV_37
+    - ADV_44
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_6
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_1
+  commonSkills:
+    - TAL_44
+    - TAL_17
+    - TAL_26
+    - TAL_32
+    - TAL_51
+    - TAL_5
+    - TAL_27
+    - TAL_40
+    - TAL_8
+    - TAL_58
+    - TAL_42
+    - TAL_14
+  uncommonSkills:
+    - TAL_18
+    - TAL_1
+    - TAL_52
+  culturalPackageSkills:
+    - id: TAL_44
+      value: 2
+    - id: TAL_17
+      value: 1
+    - id: TAL_26
+      value: 2
+    - id: TAL_32
+      value: 1
+    - id: TAL_51
+      value: 2
+    - id: TAL_5
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_14
+      value: 2
+
+- id: C_18
+# name: Zyklopäer
+  culturalPackageCost: 16
+  languages:
+    - 8
+    - 27
+  literacy:
+    - 9
+  social:
+    - 2
+    - 3
+    - 4
+    - 5
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 1
+    - 2
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - 1
+  commonAdvantages:
+    - ADV_4
+    - ADV_8
+    - ADV_15
+    - ADV_37
+    - ADV_48
+  commonDisadvantages:
+    - DISADV_33
+  uncommonAdvantages:
+    - ADV_30
+  uncommonDisadvantages:
+    - DISADV_1
+  commonSkills:
+    - TAL_44
+    - TAL_24
+    - TAL_26
+    - TAL_33
+    - TAL_34
+    - TAL_3
+    - TAL_37
+    - TAL_56
+    - TAL_27
+    - TAL_28
+    - TAL_38
+    - TAL_39
+    - TAL_40
+    - TAL_42
+    - TAL_59
+    - TAL_11
+    - TAL_29
+    - TAL_30
+  uncommonSkills:
+    - TAL_45
+    - TAL_20
+    - TAL_6
+  culturalPackageSkills:
+    - id: TAL_44
+      value: 1
+    - id: TAL_26
+      value: 2
+    - id: TAL_33
+      value: 1
+    - id: TAL_34
+      value: 2
+    - id: TAL_56
+      value: 1
+    - id: TAL_38
+      value: 1
+    - id: TAL_39
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_11
+      value: 1
+
+- id: C_19
+# name: Auelfen
+  culturalPackageCost: 43
+  languages:
+    - 10
+  literacy:
+    - 8
+  social:
+    - 2
+  commonMundaneProfessionsAll: false
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_17
+    - P_18
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_4
+    - ADV_32
+    - ADV_47
+  commonDisadvantages:
+    - DISADV_3
+    - DISADV_33
+    - DISADV_34
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_4
+  uncommonDisadvantages:
+    - DISADV_37
+    - DISADV_48
+  commonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_24
+    - TAL_26
+    - TAL_4
+    - TAL_56
+    - TAL_27
+    - TAL_28
+    - TAL_7
+    - TAL_9
+    - TAL_10
+    - TAL_11
+    - TAL_29
+    - TAL_13
+    - TAL_30
+  uncommonSkills:
+    - TAL_43
+    - TAL_31
+    - TAL_45
+    - TAL_39
+    - TAL_57
+    - TAL_14
+  culturalPackageSkills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_44
+      value: 1
+    - id: TAL_24
+      value: 1
+    - id: TAL_26
+      value: 2
+    - id: TAL_4
+      value: 2
+    - id: TAL_56
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_7
+      value: 2
+    - id: TAL_9
+      value: 2
+    - id: TAL_10
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_13
+      value: 1
+    - id: TAL_30
+      value: 1
+
+- id: C_20
+# name: Firnelfen
+  culturalPackageCost: 55
+  languages:
+    - 10
+  literacy:
+    - 8
+  social:
+    - 2
+  commonMundaneProfessionsAll: false
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_17
+    - P_18
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_4
+    - ADV_30
+    - ADV_32
+    - ADV_37
+    - ADV_47
+  commonDisadvantages:
+    - DISADV_3
+    - DISADV_33
+    - DISADV_34
+    - DISADV_48
+  uncommonAdvantages:
+    - ADV_4
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_16
+    - DISADV_37
+    - DISADV_48
+  commonSkills:
+    - TAL_24
+    - TAL_25
+    - TAL_26
+    - TAL_3
+    - TAL_4
+    - TAL_56
+    - TAL_27
+    - TAL_28
+    - TAL_8
+    - TAL_9
+    - TAL_10
+    - TAL_11
+    - TAL_29
+    - TAL_13
+    - TAL_30
+  uncommonSkills:
+    - TAL_43
+    - TAL_31
+    - TAL_45
+    - TAL_1
+    - TAL_39
+    - TAL_57
+    - TAL_14
+  culturalPackageSkills:
+    - id: TAL_24
+      value: 2
+    - id: TAL_26
+      value: 1
+    - id: TAL_3
+      value: 1
+    - id: TAL_4
+      value: 2
+    - id: TAL_56
+      value: 2
+    - id: TAL_27
+      value: 2
+    - id: TAL_8
+      value: 1
+    - id: TAL_9
+      value: 2
+    - id: TAL_10
+      value: 2
+    - id: TAL_29
+      value: 2
+    - id: TAL_13
+      value: 2
+    - id: TAL_30
+      value: 2
+
+- id: C_21
+# name: Waldelfen
+  culturalPackageCost: 47
+  languages:
+    - 10
+  literacy:
+    - 8
+  social:
+    - 2
+  commonMundaneProfessionsAll: false
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_17
+    - P_18
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_4
+    - ADV_32
+    - ADV_47
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_3
+    - DISADV_19
+    - DISADV_33
+    - DISADV_34
+    - DISADV_48
+  uncommonAdvantages:
+    - ADV_4
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_37
+    - DISADV_48
+  commonSkills:
+    - TAL_24
+    - TAL_3
+    - TAL_4
+    - TAL_36
+    - TAL_56
+    - TAL_27
+    - TAL_28
+    - TAL_9
+    - TAL_10
+    - TAL_11
+    - TAL_29
+    - TAL_13
+    - TAL_30
+  uncommonSkills:
+    - TAL_43
+    - TAL_44
+    - TAL_31
+    - TAL_45
+    - TAL_39
+    - TAL_57
+    - TAL_14
+  culturalPackageSkills:
+    - id: TAL_24
+      value: 2
+    - id: TAL_3
+      value: 1
+    - id: TAL_4
+      value: 2
+    - id: TAL_56
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 2
+    - id: TAL_9
+      value: 2
+    - id: TAL_10
+      value: 1
+    - id: TAL_29
+      value: 2
+    - id: TAL_13
+      value: 2
+    - id: TAL_30
+      value: 1
+
+- id: C_22
+# name: Ambosszwerge
+  culturalPackageCost: 31
+  languages:
+    - 17
+  literacy:
+    - 11
+  social:
+    - 2
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_228
+    - P_229
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - P_31
+  commonAdvantages:
+    - ADV_4
+    - ADV_44
+    - ADV_47
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_33
+    - DISADV_34
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_25
+    - DISADV_33
+  commonSkills:
+    - TAL_17
+    - TAL_33
+    - TAL_5
+    - TAL_35
+    - TAL_37
+    - TAL_55
+    - TAL_27
+    - TAL_38
+    - TAL_40
+    - TAL_8
+    - TAL_58
+    - TAL_13
+    - TAL_14
+  uncommonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_26
+    - TAL_1
+    - TAL_6
+    - TAL_7
+    - TAL_42
+  culturalPackageSkills:
+    - id: TAL_17
+      value: 1
+    - id: TAL_33
+      value: 1
+    - id: TAL_5
+      value: 2
+    - id: TAL_35
+      value: 2
+    - id: TAL_37
+      value: 1
+    - id: TAL_55
+      value: 2
+    - id: TAL_27
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_58
+      value: 2
+    - id: TAL_13
+      value: 1
+    - id: TAL_14
+      value: 2
+
+- id: C_23
+# name: Brilliantzwerge
+  culturalPackageCost: 29
+  languages:
+    - 17
+  literacy:
+    - 11
+  social:
+    - 2
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_228
+    - P_229
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - P_27
+    - P_29
+    - P_31
+  commonAdvantages:
+    - ADV_4
+    - ADV_40
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_33
+    - DISADV_37
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_6
+    - DISADV_25
+  commonSkills:
+    - TAL_16
+    - TAL_32
+    - TAL_33
+    - TAL_54
+    - TAL_37
+    - TAL_55
+    - TAL_56
+    - TAL_27
+    - TAL_38
+    - TAL_40
+    - TAL_57
+    - TAL_58
+    - TAL_11
+    - TAL_29
+    - TAL_13
+    - TAL_14
+  uncommonSkills:
+    - TAL_44
+    - TAL_1
+    - TAL_7
+  culturalPackageSkills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_32
+      value: 2
+    - id: TAL_33
+      value: 1
+    - id: TAL_55
+      value: 1
+    - id: TAL_56
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_57
+      value: 2
+    - id: TAL_58
+      value: 1
+    - id: TAL_11
+      value: 1
+    - id: TAL_13
+      value: 2
+    - id: TAL_14
+      value: 1
+
+- id: C_24
+# name: Erzzwerge
+  culturalPackageCost: 34
+  languages:
+    - 17
+  literacy:
+    - 11
+  social:
+    - 2
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_228
+    - P_229
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_4
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_25
+    - DISADV_37
+  commonSkills:
+    - TAL_33
+    - TAL_34
+    - TAL_37
+    - TAL_55
+    - TAL_27
+    - TAL_38
+    - TAL_39
+    - TAL_40
+    - TAL_8
+    - TAL_58
+    - TAL_13
+    - TAL_14
+  uncommonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_45
+    - TAL_26
+    - TAL_1
+    - TAL_2
+    - TAL_6
+    - TAL_7
+  culturalPackageSkills:
+    - id: TAL_33
+      value: 2
+    - id: TAL_34
+      value: 2
+    - id: TAL_37
+      value: 2
+    - id: TAL_55
+      value: 1
+    - id: TAL_38
+      value: 2
+    - id: TAL_39
+      value: 1
+    - id: TAL_40
+      value: 2
+    - id: TAL_8
+      value: 1
+    - id: TAL_58
+      value: 1
+    - id: TAL_13
+      value: 2
+    - id: TAL_14
+      value: 1
+
+- id: C_25
+# name: Hügelzwerge
+  culturalPackageCost: 13
+  languages:
+    - 17
+  literacy:
+    - 11
+  social:
+    - 2
+  commonMundaneProfessionsAll: true
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_11
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_228
+    - P_229
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - P_31
+  commonAdvantages:
+    - ADV_4
+    - ADV_40
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_37
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_6
+    - DISADV_25
+  commonSkills:
+    - TAL_18
+    - TAL_45
+    - TAL_26
+    - TAL_52
+    - TAL_9
+    - TAL_11
+    - TAL_13
+    - TAL_14
+  uncommonSkills:
+    - TAL_17
+    - TAL_1
+    - TAL_6
+    - TAL_30
+  culturalPackageSkills:
+    - id: TAL_45
+      value: 1
+    - id: TAL_26
+      value: 1
+    - id: TAL_53
+      value: 2
+    - id: TAL_9
+      value: 1
+    - id: TAL_11
+      value: 1
+    - id: TAL_13
+      value: 2
+    - id: TAL_14
+      value: 1
+
+- id: C_26
+# name: Zahori
+  culturalPackageCost: 27
+  languages:
+    - 23
+  literacy:
+    - 9
+  social:
+    - 2
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_1
+    - P_3
+    - P_5
+    - P_6
+    - P_10
+    - P_16
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_71
+    - 2
+    - P_70
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - P_29
+  commonAdvantages:
+    - ADV_5
+    - ADV_9
+    - ADV_10
+    - ADV_37
+    - ADV_38
+  commonDisadvantages:
+    - DISADV_2
+    - DISADV_6
+    - DISADV_37
+    - DISADV_50
+  uncommonAdvantages:
+    - ADV_1
+    - ADV_36
+    - ADV_46
+  uncommonDisadvantages:
+    - DISADV_34
+  commonSkills:
+    - TAL_16
+    - TAL_2
+    - TAL_4
+    - TAL_27
+    - TAL_40
+    - TAL_11
+    - TAL_12
+    - TAL_21
+    - TAL_13
+    - TAL_22
+    - TAL_30
+  uncommonSkills:
+    - TAL_1
+    - TAL_19
+    - TAL_35
+    - TAL_49
+  culturalPackageSkills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_2
+      value: 2
+    - id: TAL_4
+      value: 1
+    - id: TAL_27
+      value: 1
+    - id: TAL_40
+      value: 1
+    - id: TAL_11
+      value: 1
+    - id: TAL_12
+      value: 2
+    - id: TAL_21
+      value: 1
+    - id: TAL_13
+      value: 1
+    - id: TAL_22
+      value: 1
+    - id: TAL_30
+      value: 1
+
+- id: C_27
+# name: Koboldweltler
+  culturalPackageCost: 18
+  languages:
+    - 8
+    - 37
+  social:
+    - 2
+  commonMundaneProfessionsAll: false
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 14
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_4
+  commonDisadvantages:
+    - DISADV_33
+  uncommonAdvantages:
+    - ADV_4
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_37
+    - DISADV_48
+  commonSkills:
+    - TAL_19
+    - TAL_2
+    - TAL_3
+    - TAL_36
+    - TAL_54
+    - TAL_56
+    - TAL_9
+    - TAL_41
+    - TAL_11
+    - TAL_14
+  uncommonSkills:
+    - TAL_43
+    - TAL_45
+    - TAL_35
+    - TAL_39
+  culturalPackageSkills:
+    - id: TAL_31
+      value: 1
+    - id: TAL_19
+      value: 1
+    - id: TAL_2
+      value: 2
+    - id: TAL_3
+      value: 1
+    - id: TAL_36
+      value: 1
+    - id: TAL_54
+      value: 1
+    - id: TAL_56
+      value: 1
+    - id: TAL_9
+      value: 1
+    - id: TAL_41
+      value: 1
+    - id: TAL_11
+      value: 1
+    - id: TAL_14
+      value: 2
+
+- id: C_28
+# name: Steppenelf
+  culturalPackageCost: 48
+  languages:
+    - 10
+  literacy:
+    - 8
+  social:
+    - 2
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_148
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_149
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_4
+    - ADV_32
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_3
+    - DISADV_33
+    - DISADV_48
+  uncommonAdvantages:
+    - ADV_4
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_37
+    - DISADV_48
+  commonSkills:
+    - TAL_24
+    - TAL_3
+    - TAL_4
+    - TAL_56
+    - TAL_27
+    - TAL_28
+    - TAL_6
+    - TAL_8
+    - TAL_9
+    - TAL_10
+    - TAL_11
+    - TAL_29
+    - TAL_13
+    - TAL_30
+  uncommonSkills:
+    - TAL_43
+    - TAL_31
+    - TAL_45
+    - TAL_39
+    - TAL_57
+    - TAL_14
+  culturalPackageSkills:
+    - id: TAL_24
+      value: 2
+    - id: TAL_4
+      value: 2
+    - id: TAL_56
+      value: 1
+    - id: TAL_27
+      value: 2
+    - id: TAL_28
+      value: 1
+    - id: TAL_6
+      value: 2
+    - id: TAL_9
+      value: 1
+    - id: TAL_10
+      value: 2
+    - id: TAL_11
+      value: 1
+    - id: TAL_29
+      value: 2
+    - id: TAL_30
+      value: 2
+
+- id: C_29
+# name: Engasaler
+  culturalPackageCost: 10
+  languages:
+    - 8
+  literacy:
+    - 9
+  social:
+    - 2
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_1
+    - P_2
+    - P_3
+    - P_5
+    - P_6
+    - P_7
+    - P_8
+    - P_10
+    - P_16
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - 8
+    - 9
+    - P_211
+  commonBlessedProfessionsAll: false
+  commonBlessedProfessionsExceptions:
+    - P_100
+  commonAdvantages:
+    - ADV_14
+    - ADV_41
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_4
+    - DISADV_31
+    - DISADV_32
+    - DISADV_33
+    - DISADV_37
+    - DISADV_79
+    - DISADV_48
+  uncommonAdvantages:
+    - ADV_1
+    - ADV_10
+    - ADV_26
+    - ADV_27
+    - ADV_36
+  uncommonDisadvantages:
+    - DISADV_6
+    - DISADV_33
+    - DISADV_37
+  commonSkills:
+    - TAL_16
+    - TAL_31
+    - TAL_19
+    - TAL_2
+    - TAL_52
+    - TAL_54
+    - TAL_21
+    - TAL_14
+  uncommonSkills:
+    - TAL_44
+    - TAL_17
+    - TAL_5
+    - TAL_35
+    - TAL_23
+  culturalPackageSkills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_31
+      value: 1
+    - id: TAL_2
+      value: 1
+    - id: TAL_52
+      value: 1
+    - id: TAL_54
+      value: 1
+    - id: TAL_21
+      value: 1
+    - id: TAL_14
+      value: 1
+
+- id: C_30
+# name: Ferkinas
+  culturalPackageCost: 39
+  languages:
+    - 31
+  social:
+    - 1
+    - 4
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_6
+    - P_8
+    - P_13
+    - P_15
+    - P_16
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_71
+    - P_217
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_13
+    - ADV_25
+    - ADV_37
+    - ADV_44
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_6
+    - DISADV_14
+    - DISADV_33
+    - DISADV_37
+    - DISADV_49
+  uncommonAdvantages:
+    - ADV_3
+    - ADV_26
+    - ADV_39
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_21
+    - DISADV_28
+    - DISADV_55
+  commonSkills:
+    - TAL_17
+    - TAL_24
+    - TAL_3
+    - TAL_4
+    - TAL_5
+    - TAL_28
+    - TAL_6
+    - TAL_8
+    - TAL_13
+    - TAL_29
+    - TAL_58
+    - TAL_14
+    - TAL_30
+  uncommonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_18
+    - TAL_45
+    - TAL_1
+    - TAL_19
+    - TAL_32
+    - TAL_33
+    - TAL_34
+    - TAL_52
+    - TAL_36
+    - TAL_37
+    - TAL_56
+    - TAL_38
+    - TAL_39
+    - TAL_57
+    - TAL_21
+  culturalPackageSkills:
+    - id: TAL_3
+      value: 2
+    - id: TAL_4
+      value: 1
+    - id: TAL_5
+      value: 1
+    - id: TAL_6
+      value: 1
+    - id: TAL_8
+      value: 1
+    - id: TAL_13
+      value: 1
+    - id: TAL_14
+      value: 1
+    - id: TAL_17
+      value: 1
+    - id: TAL_24
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 2
+    - id: TAL_58
+      value: 2
+
+- id: C_31
+# name: Gjalsker
+  culturalPackageCost: 34
+  languages:
+    - 32
+  social:
+    - 1
+    - 4
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_6
+    - P_8
+    - P_13
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_71
+    - P_217
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_30
+    - ADV_25
+    - ADV_37
+    - ADV_44
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_6
+    - DISADV_33
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_22
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_1
+    - DISADV_4
+    - DISADV_12
+    - DISADV_56
+    - DISADV_16
+    - DISADV_25
+    - DISADV_28
+    - DISADV_55
+  commonSkills:
+    - TAL_17
+    - TAL_24
+    - TAL_3
+    - TAL_4
+    - TAL_5
+    - TAL_27
+    - TAL_28
+    - TAL_40
+    - TAL_8
+    - TAL_29
+    - TAL_30
+  uncommonSkills:
+    - TAL_44
+    - TAL_45
+    - TAL_19
+    - TAL_57
+  culturalPackageSkills:
+    - id: TAL_3
+      value: 1
+    - id: TAL_4
+      value: 1
+    - id: TAL_5
+      value: 2
+    - id: TAL_8
+      value: 1
+    - id: TAL_17
+      value: 1
+    - id: TAL_24
+      value: 1
+    - id: TAL_27
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 1
+    - id: TAL_40
+      value: 2
+
+- id: C_32
+# name: Trollzacker
+  culturalPackageCost: 38
+  languages:
+    - 47
+  social:
+    - 1
+    - 4
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_4
+    - P_6
+    - P_8
+    - P_13
+    - P_15
+    - P_16
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_71
+    - P_217
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_25
+    - ADV_37
+    - ADV_44
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_6
+    - DISADV_14
+    - DISADV_37
+  uncommonAdvantages:
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_21
+    - DISADV_28
+    - DISADV_48
+    - DISADV_55
+  commonSkills:
+    - TAL_18
+    - TAL_24
+    - TAL_3
+    - TAL_4
+    - TAL_5
+    - TAL_27
+    - TAL_28
+    - TAL_8
+    - TAL_58
+    - TAL_29
+    - TAL_13
+    - TAL_14
+  uncommonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_18
+    - TAL_45
+    - TAL_1
+    - TAL_19
+    - TAL_32
+    - TAL_33
+    - TAL_34
+    - TAL_37
+    - TAL_38
+    - TAL_39
+    - TAL_6
+    - TAL_57
+    - TAL_42
+    - TAL_22
+  culturalPackageSkills:
+    - id: TAL_3
+      value: 2
+    - id: TAL_4
+      value: 1
+    - id: TAL_5
+      value: 1
+    - id: TAL_8
+      value: 2
+    - id: TAL_13
+      value: 1
+    - id: TAL_17
+      value: 2
+    - id: TAL_24
+      value: 1
+    - id: TAL_27
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 1
+    - id: TAL_58
+      value: 2
+
+- id: C_33
+# name: Wildzwerge
+  culturalPackageCost: 17
+  languages:
+    - 17
+  social:
+    - 5
+  commonMundaneProfessionsAll: false
+  commonMundaneProfessionsExceptions:
+    - P_6
+    - P_8
+    - P_15
+  commonMagicalProfessionsAll: false
+  commonMagicalProfessionsExceptions:
+    - P_250
+  commonBlessedProfessionsAll: false
+  commonAdvantages:
+    - ADV_6
+    - ADV_22
+    - ADV_37
+    - ADV_44
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_1
+    - DISADV_14
+    - DISADV_33
+    - DISADV_37
+    - DISADV_48
+  uncommonAdvantages:
+    - ADV_4
+    - ADV_40
+  uncommonDisadvantages:
+    - DISADV_1
+  commonSkills:
+    - TAL_17
+    - TAL_3
+    - TAL_58
+    - TAL_13
+    - TAL_14
+  uncommonSkills:
+    - TAL_16
+    - TAL_44
+    - TAL_18
+    - TAL_1
+    - TAL_19
+    - TAL_33
+    - TAL_34
+    - TAL_37
+    - TAL_55
+    - TAL_38
+    - TAL_39
+    - TAL_6
+    - TAL_57
+  culturalPackageSkills:
+    - id: TAL_3
+      value: 2
+    - id: TAL_13
+      value: 2
+    - id: TAL_14
+      value: 1
+    - id: TAL_17
+      value: 2
+    - id: TAL_58
+      value: 2

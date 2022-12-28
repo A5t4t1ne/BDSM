@@ -1,0 +1,54 @@
+- id: 1
+  name: "Meleewapens"
+- id: 2
+  name: "Afstandswapens"
+- id: 3
+  name: "Munitie"
+- id: 4
+  name: "Wapenrustingen"
+- id: 5
+  name: "Wapentoebehoren"
+- id: 6
+  name: "Kleding"
+- id: 7
+  name: "Reisbenodigdheden en werktuigen"
+- id: 8
+  name: "Verlichting"
+- id: 9
+  name: "Verbandmateriaal en heelmiddelen"
+- id: 10
+  name: "Opbergen"
+- id: 11
+  name: "Touwen en kettingen"
+- id: 12
+  name: "Dievengereedschap"
+- id: 13
+  name: "Ambachtswerktuigen"
+- id: 14
+  name: "Oriëntatiemiddelen"
+- id: 15
+  name: "Sieraden"
+- id: 16
+  name: "Edelstenen en kostbaar gesteente"
+- id: 17
+  name: "Schrijfwaren"
+- id: 18
+  name: "Boeken"
+- id: 19
+  name: "Magische Artefacten"
+- id: 20
+  name: "Alchemica"
+- id: 21
+  name: "Vergif"
+- id: 22
+  name: "Heelkruiden"
+- id: 23
+  name: "Muziekinstrumenten"
+- id: 24
+  name: "Genotsmiddelen en Luxe"
+- id: 25
+  name: "Dieren"
+- id: 26
+  name: "Dierbenodigdheden"
+- id: 27
+  name: "Vervoersmiddelen"

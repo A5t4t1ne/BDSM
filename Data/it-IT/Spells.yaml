@@ -1,0 +1,957 @@
+- id: SPELL_1
+  name: "Vista d’aquila"
+  effect: |
+    Aumenta il tuo LA nella competenza *Percezione* di LQ+3 per la durata dell’incantesimo.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni 5 minuti"
+  aeCostShort: "4 PA + 2 PA / 5 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 300
+
+- id: SPELL_2
+  name: "Analysis arcanostruttura"
+  effect: |
+    Questo incantesimo rivela se un oggetto o una creatura sono magici e, in caso affermativo, rivelerà anche dettagli sulla loro struttura astrale. Questa informazione può essere utile per una successiva analisi magica. Nel mettere in atto l’analisi magica, il numero massimo di LQ che puoi di norma raggiungere con la prova su *Arti magiche* è uguale al LQ ottenuto con Analysis. Ad esempio, ottenendo LQ 3 su Analysis potrai raggiungere al più LQ 3 sulla prova di Arti magiche e così via (un’eccezione è data dall’abilità speciale Analizzatore, vedi il **Regolamento** a pag. **215**).
+
+    Più dettagli sull’analisi magica a pag. **269** del **Regolamento**.
+  castingTime: "32 azioni"
+  castingTimeShort: "32 az"
+  aeCost: "16 PA"
+  aeCostShort: "16 PA"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature, Oggetti"
+  src:
+    - id: REG001
+      firstPage: 287
+
+- id: SPELL_3
+  name: "Protectio armatura"
+  effect: |
+    La tua pelle si indurisce, senza perdere flessibilità, assicurandoti una protezione naturale in aggiunta ad ogni altro tipo di armatura indossata, senza però aumentare il valore di Impiccio. Prima di lanciare l’incantesimo, dovrai stabilire quanta ulteriore Pro vuoi ottenere (fino ad un massimo di 3 punti).
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  aeCost: "4 PA per Pro 1, 8 PA per Pro 2, 16 PA per Pro 3 (non puoi usare variazioni sul costo di questo incantesimo)"
+  aeCostShort: "4/8/16 PA"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ x 3 min"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 296
+
+- id: SPELL_4
+  name: "Axxeleratus"
+  effect: |
+    Accelera i movimenti del bersaglio in modo soprannaturale, garantendo +1 in Difesa, Movimento × 2 ed un valore base di Iniziativa × 2.<br>
+    In combattimento i suoi avversari subiranno una penalità di 2 su tutti i tiri di Difesa.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "LQ × 5 turni di combattimento"
+  durationShort: "LQ x 5 TC"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 289
+
+- id: SPELL_5
+  name: "Balsamon et medicina"
+  effect: |
+    Il bersaglio recupera PV pari ai PA consumati per l’incantesimo. Puoi usare un numero di PA pari al tuo LA nell’incantesimo. La guarigione avverrà nell’arco di 6 minuti, ma ogni LQ della prova ridurrà il tempo di 1 minuto.<br>
+    Personaggi feriti mortalmente (secondo le regole del **Regolamento** a pag. **340**) possono essere salvati grazie a questo incantesimo se viene lanciato entro lo scadere dei TC rimasti prima della morte. Se l’incantesimo fallisce o viene interrotto, il personaggio sopravviverà soltanto per il numero di TC rimasti al momento del lancio dell’incantesimo.
+  castingTime: "16 azioni"
+  castingTimeShort: "16 az"
+  aeCost: "1 PA per ogni PV, minimo 4 PA"
+  aeCostShort: "1 PA / PV (4+)"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 289
+
+- id: SPELL_6
+  name: "Filoides sodalis"
+  effect: |
+    Questo incantesimo di amicizia, di origine elfica, suscita sentimenti di simpatia e di amicizia nei tuoi confronti. L’effetto preciso dipenderà da quali fossero i sentimenti della vittima prima di essere colpita dall’incantesimo, ma generalmente la sua disposizione verso di te migliora. Su una scala di 9 valori, indicata nella tabella qui sotto, la disposizione della vittima migliorerà di un livello per ogni LQ (quindi almeno di un livello). Il livello di propensione iniziale si trova solitamente tra 4 e 6. Vantaggi come Avvenenza e svantaggi come Pregiudizi possono influenzare questa prima impressione.
+
+    - **Livello 1:** Inestinguibile odio.
+    - **Livello 2:** Dichiarata inimicizia.
+    - **Livello 3:** Avversione e rifiuto.
+    - **Livello 4:** Antipatia.
+    - **Livello 5:** Neutrale.
+    - **Livello 6:** Simpatia o lieve affezione.
+    - **Livello 7:** Fiducia ed amicizia.
+    - **Livello 8:** Profonda lealtà ed affezione.
+    - **Livello 9:** Innamoramento o dedizione (ma non fino ad immolarsi per te).
+
+    Filoides sodalis non ha effetto sulla memoria del bersaglio. Al termine dell’incantesimo, il bersaglio ricorderà sentimenti provati ed azioni compiute. Potrebbe anche notare di essere stato sotto effetto di un incantesimo, ma ciò non avrà alcun effetto sul suo nuovo atteggiamento. Le azioni che intraprendi, anche mentre l’incantesimo è in corso, possono ulteriormente influenzare la disposizione del bersaglio nei tuoi confronti.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "4 passi"
+  rangeShort: "4 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ x 3 min"
+  target: "Creature intelligenti, Creature sovrannaturali"
+  src:
+    - id: REG001
+      firstPage: 292
+
+- id: SPELL_7
+  name: "Aspecto mentis"
+  effect: |
+    Puoi leggere nella mente del bersaglio. È possibile determinare ciò che la vittima sta pensando in quel momento, ma non viaggiare attraverso i suoi ricordi. Il bersaglio può notare qualcosa di strano facendo una prova su Percezione con una penalità uguale al LQ dell’incantesimo. Se la prova ha successo, può a quel punto fare una prova su Forza di volontà (con una penalità uguale al LQ dell’incantesimo) per inviare pensieri con informazioni ingannevoli, banalità inutili, monologhi interiori o canzoni.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "8 PA (lancio) + 4 PA ogni 30 secondi"
+  aeCostShort: "8 PA + 4 PA/30 sec"
+  range: "4 passi"
+  rangeShort: "4 passi"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature intelligenti, Creature sovrannaturali"
+  src:
+    - id: REG001
+      firstPage: 288
+
+- id: SPELL_8
+  name: "Fulgor et stupor"
+  effect: |
+    Il bersaglio viene accecato e soffre quindi un livello della condizione Confusione.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  aeCost: "4 PA"
+  aeCostShort: "4 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ turni di combattimento"
+  durationShort: "QL TC"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 292
+
+- id: SPELL_9
+  name: "Corpofesso"
+  effect: |
+    Il bersaglio soffre di una dolorosa debolezza muscolare, ricevendo dunque la condizione Dolore per l’intera durata dell’incantesimo.
+
+    - **LQ 1:** 1 livello di Dolore, ma soltanto per un turno di combattimento.
+    - **LQ 2:** 1 livello di Dolore.
+    - **LQ 3:** 2 livelli di Dolore.
+    - **LQ 4:** 3 livelli di Dolore.
+    - **LQ 5:** 4 livelli di Dolore.
+    - **LQ 6:** 4 livelli di Dolore, ma per il doppio della durata.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "16 PA"
+  aeCostShort: "16 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ × 2 turni di combattimento"
+  durationShort: "LQ x 2 TC"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 291
+
+- id: SPELL_10
+  name: "Disruptivo"
+  effect: |
+    Questo incantesimo base di anti-magia compromette tutti i tipi di magia nel raggio di LQ × 2 passi attorno a chi lo utilizza, rilasciando delle vibrazioni che spezzano e confondono le strutture astrali circostanti. In pratica si applica una penalità (in base alla tabella sottostante) su tutte le prove di incantesimi e rituali che vengono lanciati nell’area o che hanno effetto in essa. Disruptivo condiziona anche i tuoi stessi incantesimi. Prima di lanciarlo, dovrai dichiarare se preferisci che la zona interessata si muova insieme a te o se invece resterà ferma nel punto di lancio.
+
+    - **LQ 1:** Penalità -1.
+    - **LQ 2:** Penalità -2.
+    - **LQ 3:** Penalità -3.
+    - **LQ 4:** Penalità -4.
+    - **LQ 5:** Penalità -5.
+    - **LQ 6:** Penalità -6.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  aeCost: "8 PA (lancio) + 4 PA ogni 5 minuti"
+  aeCostShort: "8 PA + 4 PA / 5 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 291
+
+- id: SPELL_11
+  name: "Duplicatus doppelpàn"
+  effect: |
+    Vengono creati uno o più duplicati illusori del bersaglio, che si muovono in maniera sincrona con l’originale e che sembrano continuamente fondersi e separarsi da esso.<br>
+    Il numero di duplicati dipende dal LQ, in base alla tabella che segue. Se lo desideri, puoi creare un numero inferiore di duplicati rispetto a quelli indicati.
+
+    - **LQ 1:** 1 duplicato, per 2 turni di combattimento.
+    - **LQ 2:** 1 duplicato
+    - **LQ 3:** 2 duplicati
+    - **LQ 4:** 3 duplicati
+    - **LQ 5:** 4 duplicati
+    - **LQ 6:** 4 duplicati, ma per il doppio della durata.
+
+    Non è facile determinare quale fra le immagini è il vero bersaglio, per cui attacchi ravvicinati, attacchi a distanza ed incantesimi hanno una buona possibilità di colpire uno dei duplicati (in base alla tabella che segue). Se un attacco colpisce il bersaglio originale, potrà essere schivato o parato. Con Duplicatus non è possibile evitare attacchi che hanno effetto su un'area. Per saperne di più su incantesimi di illusionismo e come sia possibile smascherarli, vedi il **Regolamento** a pag. **259**.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "4 PA per ogni duplicato (2 PA se la prova per l’incantesimo fallisce)"
+  aeCostShort: "4 PA / Dplc"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "LQ × 3 turni di combattimento"
+  durationShort: "LQ x 3 TC "
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 291
+
+- id: SPELL_12
+  name: "Occhio sicuro"
+  effect: |
+    Chi beneficia dell’incantesimo instaura una connessione mentale con il suo bersaglio. Il prossimo attacco a distanza del beneficiario riceve un bonus sulla prova di Attacco pari al LQ dell’incantesimo.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "4 PA"
+  aeCostShort: "4 PA"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Fino al prossimo attacco, ma non più a lungo di LQ × 2 turni di combattimento"
+  durationShort: "ATT (LQ x 2 TC)"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 295
+
+- id: SPELL_13
+  name: "Lumen et candela"
+  effect: |
+    L’incantesimo crea una piccola luce sferica fluttuante. Devi dichiarare in anticipo se la luce rimarrà fissa o se si muoverà insieme a te. Dovrai anche scegliere il suo colore. La luminosità della luce dipende dal LQ ottenuto, ma è possibile scegliere una luminosità inferiore al momento del lancio. Il raggio della luce varia a seconda della sua luminosità.
+
+    - **LQ 1:** La luce è luminosa come una candela.
+    - **LQ 2:** La luce è luminosa come una torcia.
+    - **LQ 3:** La luce è luminosa come un falò.
+    - **LQ 4:** La luce è abbastanza luminosa da illuminare una stanza che misura 5×5 passi.
+    - **LQ 5:** La luce è abbastanza luminosa da illuminare un ampio salone.
+    - **LQ 6:** La luce emana un bagliore accecante. È pressoché impossibile guardarla direttamente.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  aeCost: "2 PA (lancio) + 1 PA ogni ora"
+  aeCostShort: "2 PA + 1 PA x ora"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 294
+
+- id: SPELL_14
+  name: "Fulminictus"
+  effect: |
+    L’aura astrale del bersaglio viene danneggiata e il suo corpo subisce una serie di piccole ferite interne. L’incantesimo infligge 2D6+(LQ×2) PImp. L’incantesimo colpisce il suo bersaglio automaticamente, il quale non potrà né schivare né parare. Le armature non hanno effetto contro questo incantesimo.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 292
+
+- id: SPELL_15
+  name: "Gardianum"
+  effect: |
+    Questo incantesimo crea attorno a te una cupola invisibile che riesce ad assorbire gli attacchi magici provenienti dall'esterno della cupola. L’incantesimo crea in realtà una zona di forma sferica, ma poiché di solito si sta in piedi sul terreno nel momento del lancio, può in pratica essere considerata una cupola. La zona ha un raggio di 3 passi ed una resistenza pari al totale dei PA spesi + LQ×3. Gardianum assorbe un numero di PImp causati da magia pari alla sua resistenza. Quando questa sarà ridotta a 0, la cupola si distruggerà. La cupola non respinge esseri magici o armi magiche. I PImp che non vengono assorbiti vanno a segno in modo normale. La cupola si sposta con il mago, proteggendo tutti coloro che si trovano entro il suo raggio.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  aeCost: "Almeno 4 PA (non puoi usare variazioni sul costo di questo incantesimo)"
+  aeCostShort: "4+ PA"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "5 minuti"
+  durationShort: "5 min"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 293
+
+- id: SPELL_16
+  name: "Smisurata bramosia"
+  effect: |
+    La vittima di questo incantesimo prova un immenso desiderio per un oggetto o un’azione scelta liberamente da te. Il bersaglio farebbe qualsiasi cosa per ottenere l’oggetto o svolgere l’azione, anche se non a costo della propria vita o salute. Per la durata dell’incantesimo, il bersaglio riceverà la caratteristica negativa Cupidigia (vedi pag. 170).
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "Tocco (non puoi usare variazioni sul raggio di questo incantesimo)"
+  rangeShort: "Tocco"
+  duration: "LQ × 15 minuti"
+  durationShort: "LQ x 15 min"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 298
+
+- id: SPELL_17
+  name: "Aspetto innocuo"
+  effect: |
+    Prendi le sembianze di una persona che non dà nell’occhio, ad esempio un mendicante o un bambino, e che non attrae l’attenzione dei presenti. L’illusione modifica il tuo aspetto e la tua voce, ma non assicura la conoscenza di cose come la lingua o il giusto atteggiamento. Questo incantesimo non nasconde grossi oggetti della strega o i suoi famigli. È l’incantesimo stesso a stabilire la forma in maniera automatica, non si può scegliere l’aspetto da assumere. Per saperne di più su incantesimi di illusionismo e come sia possibile smascherarli, vedi il **Regolamento** a pag. **259**.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "8 PA (lancio) + 4 PA ogni 5 minuti"
+  aeCostShort: "8 PA + 4 PA x 5 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 289
+
+- id: SPELL_18
+  name: "Bile di strega"
+  effect: |
+    La tua saliva si tramuta immediatamente in un acido corrosivo che causa 1D6+LQ PImp, se sputato su un avversario entro 3 passi. Questo acido non ferisce chi sputa. Non occorre usare un’altra azione per sputare dopo aver lanciato l’incantesimo (l’azione di sputo è inclusa nel tempo di lancio).<br>
+    Se l’avversario non si difende (come fosse un attacco a distanza che può essere parato o schivato), lo sputo colpisce automaticamente.<br>
+    L’eventuale protezione riduce i PFer subiti secondo le normali regole di combattimento. Bile di strega infligge danno strutturale a scudi e ad altri oggetti che colpisce.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  aeCost: "4 PA (non puoi usare variazioni sul costo dell’incantesimo)"
+  aeCostShort: "4 PA"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 290
+
+- id: SPELL_19
+  name: "Artigli stregati"
+  effect: |
+    Artigli affilati crescono su entrambe le mani della strega, causando 1D6+3 PImp in combattimento con la tecnica di combattimento *Mani nude*. Le streghe che usano questi artigli sono considerate disarmate durante tale combattimento. Gli *artigli stregati* sono considerati armi magiche.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  aeCost: "4 PA"
+  aeCostShort: "4 PA"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ x 3 min"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 288
+
+- id: SPELL_20
+  name: "Pobranebòs"
+  effect: |
+    Apparirai al bersaglio come una terrificante creatura frutto dei suoi peggiori incubi. L’effetto dipende dal LQ ottenuto, come indicato di seguito.
+
+    - **LQ 1:** 1 livello di Paura, per 2 turni di combattimento.
+    - **LQ 2:** 1 livello di Paura.
+    - **LQ 3:** 2 livelli di Paura.
+    - **LQ 4:** 3 livelli di Paura.
+    - **LQ 5:** 4 livelli di Paura.
+    - **LQ 6:** 4 livelli di Paura, ma per il doppio della durata.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ x 3 min"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 296
+
+- id: SPELL_21
+  name: "Ignifaxius"
+  effect: |
+    La lancia di fuoco scaturisce in linea retta dalle tue dita, colpendo il bersaglio. Dopo aver lanciato l’incantesimo, non ci sarà bisogno di un’altra azione per colpire.<br>
+    Il bersaglio subisce 2D6+(LQ×2) PImp, ai quali si sottrae l’eventuale Pro come di consueto.<br>
+    Ignifaxius è considerato un attacco a distanza con un’arma a proiettili, che può essere schivato o parato. Gli scudi colpiti da questo incantesimo subiscono danno strutturale. Se il bersaglio non si difende, l’incantesimo lo colpisce automaticamente.<br>
+    I bersagli infiammabili prendono fuoco tirando 1–3 con 1D6.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "8 PA (non puoi usare variazioni sul costo di questo incantesimo)"
+  aeCostShort: "8 PA"
+  range: "16 passi"
+  rangeShort: "16 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Tutte"
+  src:
+    - id: REG001
+      firstPage: 293
+
+- id: SPELL_22
+  name: "Invocatio minima"
+  effect: |
+    L’incantesimo richiama una manciata di sostanze dagli Inferi (circa 0,05 l di sostanza per ogni LQ), solitamente melma, acido, vapori sulfurei o magma. Non puoi scegliere la sostanza da far comparire, che viene scelta arbitrariamente dal narratore.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "4 PA"
+  aeCostShort: "4 PA"
+  range: "1 passo"
+  rangeShort: "1 passo"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 294
+
+- id: SPELL_23
+  name: "Occhi felini"
+  effect: |
+    Questo incantesimo aumenta la sensibilità alla luce degli occhi, permettendo al bersaglio di vedere molto meglio nell’oscurità.<br>
+    Per ogni LQ le penalità relative alla visibilità nel buio si riducono di un livello (leggi il **Regolamento** a pag. **348**). L’incantesimo non ha effetto in condizioni di completa e totale oscurità.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "2 PA (lancio) + 1 PA ogni 10 minuti"
+  aeCostShort: "2 PA + 1 PA per 10 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 295
+
+- id: SPELL_24
+  name: "Salto di rana"
+  effect: |
+    Il bersaglio può fare un singolo salto con una potenza soprannaturale. La lunghezza del salto aumenta di LQ+3 passi e l’altezza del salto di LQ passi. Le regole per i salti sono descritte nel **Regolamento** a pag. **350**.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "2 PA"
+  aeCostShort: "2 PA"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 297
+
+- id: SPELL_25
+  name: "Manifesto"
+  effect: |
+    L’incantesimo richiama una piccola quantità dell’elemento desiderato (circa 0,05 l di sostanza per ogni LQ). Si tratta di semplici manifestazioni come una piccola fiamma, un sassolino o un pezzo di ghiaccio. Gli elementalisti apprendono questo incantesimo all’inizio della loro formazione, in modo da poter padroneggiare le basi dell’evocazione senza disturbare gli effettivi elementali.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "4 PA"
+  aeCostShort: "4 PA"
+  range: "1 passo"
+  rangeShort: "1 passo"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 294
+
+- id: SPELL_26
+  name: "Manus Miracula"
+  effect: |
+    Puoi spingere, ruotare, deformare o piegare oggetti a distanza (ad un massimo di LQ passi) come se li stessi toccando con le mani.<br>
+    Puoi sollevare al massimo un peso pari ad 1 sasso. Per le prove di competenza effettuate tramite l’incantesimo (come modellare statuine di argilla o dipingere con un pennello sostenuto dalla telecinesi), tutti gli attributi fisici richiesti hanno un valore di LQ+7 (quindi possono essere anche superiori ai tuoi valori effettivi). L’applicazione della forza telecinetica è precisa ma piuttosto lenta, per cui non puoi usare questo incantesimo per combattere o causare danni.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni 5 minuti"
+  aeCostShort: "4 PA + 2 PA per 5 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 295
+
+- id: SPELL_27
+  name: "Motoricus"
+  effect: |
+    Puoi afferrare e muovere oggetti inanimati con la tua mente. Gli oggetti si muovono ad una velocità massima di LQ+2 passi per azione e non possono pesare più di LQ × 20 sassi. Il costo per il lancio è di 1 PA per ogni 5 sassi di peso. Altri oggetti appoggiati o collegati a quello in movimento si aggiungono al peso totale da muovere. L’oggetto si muove lentamente e non può essere usato per attaccare o parare. Per impedire che un oggetto venga mosso da Motoricus, trattenendolo o spingendolo in senso opposto, è necessario fare una prova su Prova di forza (Trascinare e spingere).
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "In base al peso, almeno 4 PA (lancio) + la metà di questo costo totale ogni 5 minuti (non puoi usare variazioni sul costo di questo incantesimo)"
+  aeCostShort: "4 + PA + 1/2 per 5 min"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 295
+
+- id: SPELL_28
+  name: "Banco di nebbia"
+  effect: |
+    Puoi creare una densa nebbia, che il vento non riuscirà a spazzare via. L’incantesimo produce 200 passi cubici di nebbia (la dimensione di una piccola capanna) per ogni PA consumato. È possibile modellarla come desideri, formando una palla compatta, una lunga scia o volendo anche la figura di un drago. La nebbia causerà una penalità di 2 livelli di visibilità (vedi il **Regolamento** a pag. **348**).
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "Almeno 4 PA (non puoi usare variazioni sul costo dell’incantesimo)"
+  aeCostShort: "4 + PA"
+  range: "16 passi"
+  rangeShort: "16 passi"
+  duration: "LQ × 15 minuti, dopodiché la nebbia si dissolverà"
+  durationShort: "LQ x 15 min"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 289
+
+- id: SPELL_29
+  name: "Oculus Illusionis"
+  effect: |
+    Puoi creare delle illusioni che confondono la vista. È possibile creare illusioni tridimensionali o mobili, ma si limitano soltanto al senso della vista. Più informazioni sulle illusioni nel **Regolamento** a pag. **259**.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni 5 minuti"
+  aeCostShort: "4 PA + 2 PA per 5 min"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 2945
+
+- id: SPELL_30
+  name: "Odem Arcanum"
+  effect: |
+    Percepisci l’energia astrale attiva in oggetti, creature o persone, sotto forma di un bagliore rosso. La prova d’incantesimo può avere penalità o bonus in base al bersaglio. In base al risultato ottenuto l’incantesimo può contribuire ad un’analisi magica (vedi il **Regolamento** a pag. **269**).<br>
+    Con questo incantesimo puoi esaminare solo un singolo bersaglio che si trovi entro il raggio, non tutto ciò che è in vista. Di seguito le informazioni rilevate in base al LQ ottenuto.
+
+    - **LQ 1:** Determina la presenza di magia.
+    - **LQ 2:** Il massimo LQ ottenibile in un’analisi magica aumenta di 1.
+    - **LQ 3:** Bonus +1 sulla prova di un eventuale Analysis Arcanostruttura sullo stesso bersaglio.
+    - **LQ 4:** Bonus +2 sulla prova di un eventuale Analysis Arcanostruttura sullo stesso bersaglio.
+    - **LQ 5:** Il massimo LQ ottenibile in un’analisi magica aumenta di 2.
+    - **LQ 6:** Bonus +3 sulla prova di un eventuale Analysis Arcanostruttura sullo stesso bersaglio.
+
+    Si ottengono i vantaggi dati dal LQ raggiunto e tutti quelli precedenti, i singoli bonus non sono però cumulativi.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "4 PA"
+  aeCostShort: "4 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "1 minuto"
+  durationShort: "1 min"
+  target: "Creature, Oggetti"
+  src:
+    - id: REG001
+      firstPage: 296
+
+- id: SPELL_31
+  name: "Saxa medusa"
+  effect: |
+    Il corpo del bersaglio si irrigidisce e s’indurisce. Se la paralisi è completa (si raggiunge il 4° livello di Paralisi), il corpo si trasforma in una sostanza praticamente indistruttibile senza alterazioni di peso. Un corpo trasformato in tal modo non può essere ferito da armi comuni, fuoco o cadute. In questo stato, la vittima non può muoversi, né percepire nulla, ma riesce comunque a vedere all’interno del suo campo visivo. Anche gli effetti di veleni e malattie vengono sospesi.
+
+    - **LQ 1:** 1 livello di Paralisi, per 2 turni di combattimento.
+    - **LQ 2:** 1 livello di Paralisi.
+    - **LQ 3:** 2 livelli di Paralisi.
+    - **LQ 4:** 3 livelli di Paralisi.
+    - **LQ 5:** 4 livelli di Paralisi.
+    - **LQ 6:** 4 livelli di Paralisi, ma per il doppio della durata.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ × 2 minuti"
+  durationShort: "LQ x 2 min"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 298
+
+- id: SPELL_32
+  name: "Infravidibus"
+  effect: |
+    Puoi vedere attraverso 20 mezzedita di materia solida per ogni LQ. I materiali che disturbano la magia possono imporre una penalità alla prova di incantesimo (il ferro impone una penalità di -1, il basalto del Kosh ne impone una di -4). Infravidibus non permette di vedere attraverso oggetti magici. Oscurità o nebbia hanno sulla vista il loro normale effetto.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni minuto"
+  aeCostShort: "4 PA + 2 PA per min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Tutte"
+  src:
+    - id: REG001
+      firstPage: 293
+
+- id: SPELL_33
+  name: "Psychoscutum"
+  effect: |
+    Questo incantesimo ti aiuta nel resistere alla manipolazione mentale migliorando il tuo valore di Animo di LQ/2.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni 10 minuti"
+  aeCostShort: "4 PA + 2 PA per 10 min"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 296
+
+- id: SPELL_34
+  name: "Putiferio"
+  effect: |
+    La scopa o il bastone bersaglio attacca un obiettivo a tua scelta che si trovi fino a 8 passi di distanza (dopo il lancio dell’incantesimo, sia il bersaglio che la scopa possono allontanarsi ulteriormente). La scopa è infrangibile per l’intera durata dell’incantesimo ed è considerata un’arma magica che compie 1 attacco ogni turno di combattimento. L’oggetto non può usare manovre di combattimento. I suoi valori sono Ini 12+1D6, Att 10+LQ, PImp 1D6+3, Mov 12. Se la scopa uccide il suo bersaglio prima che l’incantesimo svanisca o il nemico riesce a fuggire in qualche modo, essa attaccherà un altro bersaglio casuale entro 16 passi (eventualmente anche te). Se in quel momento non c’è nessun obiettivo entro quel raggio, l’incantesimo perderà il suo effetto.<br>
+    Per afferrare la scopa e fermarla, è necessario fare una prova di attacco con Mani nude e l’abilità speciale Costrizione (a tale scopo il bastone ha Par pari alla metà di Att e Prova di forza con LA 10, 14 in tutti i relativi attributi).
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni turno di combattimento"
+  aeCostShort: "4 PA + 2 PA per TC"
+  range: "16 passi"
+  rangeShort: "16 passi"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 297
+
+- id: SPELL_35
+  name: "Respondami veritas"
+  effect: |
+    Il bersaglio deve rispondere a LQ domande in modo sincero. Le domande devono essere formulate in modo da ammettere soltanto Sì o No come risposte. Nel caso di altri tipi di domande o domande ambigue il bersaglio può rimanere in silenzio. Egli dovrà capire la tua lingua ed essere in grado di parlare, in caso contrario potrà non rispondere. Il bersaglio ricorda ciò che è stato detto durante l’effetto dell’incantesimo.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "LQ × 15 minuti"
+  durationShort: "LQ x 15 min"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 297
+
+- id: SPELL_36
+  name: "Salander mutander"
+  effect: |
+    L’incantesimo trasforma una creatura vivente in un’altra, che dovrà essere più piccola e leggera. Il bersaglio non può essere trasformato in una creatura magica o soprannaturale. Se il cambiamento è estremo (un mammut trasformato in topo, ad esempio), la prova subisce una penalità fino a 3 punti. Puoi trasformare il bersaglio solo in una creatura che conosci.<br>
+    Le capacità mentali e la memoria della vittima restano più o meno intatte, ma sarà obbligata ad usare le abilità fisiche proprie della sua nuova forma. Punti Vita e Pro propri della sua forma originale restano immutati: in altre parole, un mastodontico orco capotribù trasformato in tarassaco rimane molto difficile da estirpare. Equipaggiamento e vestiti non vengono trasformati. Quando l’effetto dell’incantesimo svanisce, il bersaglio conserva solo un fioco ricordo del periodo passato come animale o pianta. Per maggiori dettagli sulle trasformazioni, vedi le regole nel **Regolamento** a pag. **258**.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  aeCost: "16 PA"
+  aeCostShort: "16 PA"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "LQ × 3 ore"
+  durationShort: "LQ x 3 ore"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 297
+
+- id: SPELL_37
+  name: "Animo mansueto"
+  effect: |
+    L’animale così condizionato si tranquillizza e permette a chi ha lanciato l’incantesimo di toccarlo. Questa magia interessa solo gli animali comuni, non quelli soprannaturali o creature intelligenti.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  aeCost: "4 PA"
+  aeCostShort: "4 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ x 3 min"
+  target: "Animali"
+  src:
+    - id: REG001
+      firstPage: 288
+
+- id: SPELL_38
+  name: "Splendore di Satuaria"
+  effect: |
+    Questo incantesimo causa dei leggeri cambiamenti fisici che ti rendono più attraente. L’incantesimo migliora capelli e pelle, sbianca i denti e modifica i connotati per adattare il corpo ad un ideale di bellezza o di perfezione fisica a tua scelta. Le prove su Seduzione (Conquistare, Romanticherie) e su Parlantina (Adulare) ricevono un bonus pari al LQ. Anche altre competenze sociali possono ottenere il bonus, a seconda della situazione. La trasformazione non ha effetto sulle creature con ideali di bellezza diversi da quelli scelti al momento del lancio.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 ore"
+  durationShort: "LQ x 3 ore"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 299
+
+- id: SPELL_39
+  name: "Silentium"
+  effect: |
+    Questo incantesimo crea una zona sferica dentro la quale nessun suono può essere emesso o udito. Il raggio della zona è di LQ × 3 passi, centrato attorno a te. Dovrai dichiarare in anticipo se la zona si muoverà con te oppure resterà ferma.<br>
+    In quest’ultimo caso, non potrai allontanarti di più di LQ × 3 passi dalla zona stessa, altrimenti l’effetto dell’incantesimo svanirà immediatamente.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni 5 minuti"
+  aeCostShort: "4 PA + 2 PA per 5 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 298
+
+- id: SPELL_40
+  name: "Somnigravis"
+  effect: |
+    Il bersaglio è sopraffatto dalla stanchezza. Se raggiunge il 4° livello di Stordimento, cadrà addormentato e si sveglierà, prima che l’effetto svanisca, solamente a causa di forti rumori, scosse insistenti o stimoli simili. Se indisturbato, continuerà a dormire fino a risvegliarsi in modo naturale.
+
+    - **LQ 1:** 1 livello di Stordimento, per 1 minuto.
+    - **LQ 2:** 1 livello di Stordimento.
+    - **LQ 3:** 2 livelli di Stordimento.
+    - **LQ 4:** 3 livelli di Stordimento.
+    - **LQ 5:** 4 livelli di Stordimento.
+    - **LQ 6:** 4 livelli di Stordimento, ma per il doppio della durata.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  aeCost: "8 PA"
+  aeCostShort: "8 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ x 3 min"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 298
+
+- id: SPELL_41
+  name: "Colla di ragno"
+  effect: |
+    Mani e piedi si incollano anche alla più liscia delle superfici. È possibile scalare muri scivolosi e pareti rocciose o addirittura restare attaccati al soffitto. Tuttavia, questo incantesimo non modifica il tuo peso: scalando un muro coperto d’intonaco è possibile che la pressione possa strappar via la superficie del muro. Devi restare aggrappata con almeno tre arti alla superficie, ma per ogni 2 LQ della prova d’incantesimo è possibile usare un arto in meno (con un minimo di un singolo arto).
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni 5 minuti"
+  aeCostShort: "4 PA + 2 PA per 5 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 290
+
+- id: SPELL_42
+  name: "Sine traccia"
+  effect: |
+    Muovendoti non lascerai alcuna orma sul terreno. Non piegherai i fili d’erba e non lascerai impronte sul terreno molle. Non lascerai neanche una scia di odori che ti rendano rintracciabile. Le prove su Tracce per seguire il tuo percorso subiranno una penalità pari al LQ dell’incantesimo.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni 5 minuti"
+  aeCostShort: "4 PA + 2 PA per 5 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature"
+  src:
+    - id: REG001
+      firstPage: 298
+
+- id: SPELL_43
+  name: "Transversalis"
+  effect: |
+    Puoi teletrasportare te stesso più LQ × 5 sassi di equipaggiamento (come vestiti e armi) verso un determinato luogo. Più vicino al corpo sarà l’equipaggiamento, maggiore sarà la probabilità che esso viaggi con te (solitamente i vestiti hanno la probabilità migliore). Gli oggetti ti seguiranno nel viaggio oppure rimarranno nel luogo di partenza, ma non si spostano in pezzi e non vengono danneggiati. Quale oggetto ti seguirà e come, viene determinato dal narratore. Devi aver visitato almeno una volta il luogo di destinazione oppure essere perlomeno in grado di vederlo al momento del lancio (in quest’ultimo caso la prova subirà una penalità di 2). In ogni caso, il luogo di destinazione non può essere più lontano di LQ × 3 miglia.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  aeCost: "8 PA + 1 PA ogni miglio (non puoi usare variazioni sul costo di questo incantesimo)"
+  aeCostShort: "8 PA + 1 PA per miglio"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Oggetti, creature"
+  src:
+    - id: REG001
+      firstPage: 299
+
+- id: SPELL_44
+  name: "Vanitar visibili"
+  effect: |
+    Il bersaglio diventa invisibile in 20-(LQ×3) turni di combattimento, con il suo corpo che lentamente diventa sempre più trasparente fino a scomparire del tutto.
+    L’incantesimo ha effetto solo sul bersaglio, i suoi abiti ed il suo equipaggiamento continuano a restare visibili. Le sostanze che rimangono nel corpo per più di 20 secondi diventano altrettanto invisibili. Quelle che fuoriescono dal corpo diventeranno visibili dopo 20 secondi. Il bersaglio riceve lo stato Invisibile (vedi il **Regolamento** a pag. **36**) finché l’incantesimo resta in effetto.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  aeCost: "8 PA (lancio) + 4 PA ogni 5 minuti"
+  aeCostShort: "8 PA + 4 PA per 5 min"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 299
+
+- id: SPELL_45
+  name: "Amphibiobroncus"
+  effect: |
+    Il bersaglio può respirare sia sott’acqua che al di fuori, per una durata di 1 minuto ogni LQ ed altri 5 minuti per ogni 2 PA spesi successivamente.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  aeCost: "4 PA (lancio) + 2 PA ogni 5 minuti"
+  aeCostShort: "4 PA + 2 PA per 5 min"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 287
+
+- id: SPELL_46
+  name: "Arcanovi"
+  effect: |
+    Vedi la creazione degli artefatti nel **Regolamento** a pag. **266**.
+  castingTime: "8 ore"
+  castingTimeShort: "8 ore"
+  aeCost: "16 PA"
+  aeCostShort: "16 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Oggetti benedetti, oggetti comuni"
+  src:
+    - id: REG001
+      firstPage: 300
+
+- id: SPELL_47
+  name: "Richiamo del genio"
+  effect: |
+    Appare un genio dell’elemento scelto. Per informazioni sull’invocazione ed il controllo dei geni, vedi le regole di invocazione elementale nel **Regolamento** a pag. **263**.
+  castingTime: "8 ore"
+  castingTimeShort: "8 ore"
+  aeCost: "32 PA"
+  aeCostShort: "32 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Elementali"
+  src:
+    - id: REG001
+      firstPage: 300
+
+- id: SPELL_48
+  name: "Servitore elementale"
+  effect: |
+    Appare un elementale dell’elemento scelto. Per informazioni sull’invocazione ed il controllo degli elementi, vedi le regole di invocazione elementale nel **Regolamento** a pag. **263**.
+  castingTime: "30 minuti"
+  castingTimeShort: "30 min"
+  aeCost: "16 PA"
+  aeCostShort: "16 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Elementali"
+  src:
+    - id: REG001
+      firstPage: 301
+
+- id: SPELL_49
+  name: "Invocatio Maior"
+  effect: |
+    Un demone maggiore, con un massimo di 5 corna, fa la sua comparsa. La prova del rituale subisce una penalità uguale alla difficoltà di evocazione del demone. Vedi le regole di evocazione demoniaca nel **Regolamento** a pag. **262**.
+  castingTime: "8 ore"
+  castingTimeShort: "8 ore"
+  aeCost: "32 PA"
+  aeCostShort: "32 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Demoni"
+  src:
+    - id: REG001
+      firstPage: 300
+
+- id: SPELL_50
+  name: "Invocatio Minor"
+  effect: |
+    Appare un demone minore. La prova del rituale subisce una penalità uguale alla difficoltà di evocazione del demone. Vedi le regole di evocazione demoniaca nel **Regolamento** a pag. **262**.
+  castingTime: "30 minuti"
+  castingTimeShort: "30 min"
+  aeCost: "16 PA"
+  aeCostShort: "16 PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Demoni"
+  src:
+    - id: REG001
+      firstPage: 300
+
+- id: SPELL_51
+  name: "Lancispirto lama incantata"
+  effect: |
+    Puoi usare questo rituale per vincolare dell’EA in un’arma in modo che venga considerata magica. Il costo del rituale dipende dalla grandezza dell’arma.<br>
+    Puoi estendere la durata fino a LQ × 30 anni moltiplicando il costo del rituale per 5.<br>
+    *Nota:* un ventesimo del costo del rituale va pagato in PA permanenti (per maggiori dettagli sui PA permanenti e la loro rigenerazione, leggi il **Regolamento** a pag. **352**).
+  castingTime: "8 ore"
+  castingTimeShort: "8 ore"
+  aeCost: "A seconda dell’arma (non puoi usare variazioni sul costo di questo rituale)"
+  aeCostShort: "10 + PA"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "PAb in giorni"
+  durationShort: "PAb giorni"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 300

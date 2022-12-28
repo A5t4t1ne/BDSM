@@ -1,0 +1,32 @@
+- id: 1
+  name: "Générale"
+- id: 2
+  name: "À points de destin"
+- id: 3
+  name: "Combat"
+- id: 4
+  name: "Magiques"
+- id: 5
+  name: "Enchantements de bâton"
+- id: 6
+  name: "Sorcières"
+- id: 7
+  name: "Karmiques"
+- id: 8
+  name: "Cercle de protection/bannissement"
+- id: 9
+  name: "Styles de combat (armé)"
+- id: 10
+  name: "Styles de combat (non armé)"
+- id: 11
+  name: "Combat (étendus)"
+- id: 12
+  name: "Commande"
+- id: 13
+  name: "Styles magiques"
+- id: 14
+  name: "Magiques (extended)"
+- id: 28
+  name: "Traditions magiques"
+- id: 29
+  name: "Traditions cléricales"

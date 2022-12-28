@@ -1,0 +1,328 @@
+- id: P_1
+  name: "Barde"
+  suggestedAdvantages: "beauté, caméléon social, voix agréable."
+  suggestedDisadvantages: "faiblesses de caractère (arrogance, vanité), mauvaise qualité (curiosité)."
+  unsuitableDisadvantages: "laid."
+  src:
+    - id: LDR1
+      firstPage: 129
+
+- id: P_2
+  name: "Garde"
+  suggestedAdvantages: "grande énergie vitale, grande ténacité physique, régénération améliorée (énergie vitale)."
+  suggestedDisadvantages: "faiblesse de caractère (arrogance), obligations II (bourgmestre, conseil, ville, noble, etc.)."
+  unsuitableDisadvantages: "mauvaise régénération (énergie vitale), mutisme, rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 134
+
+- id: P_3
+  name: "Saltimbanque"
+  suggestedAdvantages: "beauté, contorsionniste, prédisposition aux talents  physiques,sens des distances, voix agréable."
+  suggestedDisadvantages: "faiblesses de caractère (vanité, jalousie), mauvaises qualités (superstition, curiosité, esprit de vengeance)."
+  unsuitableDisadvantages: "aveugle, cécité nocturne, inaptitude aux talents physiques, rage sanguinaire, vertige."
+  src:
+    - id: LDR1
+      firstPage: 143
+
+- id: P_4
+  name: "Gladiateur"
+  suggestedAdvantages: "ambidextre, beauté, coriace, grande énergie vitale, grande ténacité physique, régénération améliorée (énergie vitale)."
+  suggestedDisadvantages: "rage sanguinaire, faiblesse de caractère (vanité)."
+  unsuitableAdvantages: "prédisposition pour les talents sociaux."
+  unsuitableDisadvantages: "faible ténacité physique, fragile, mauvaise régénération (énergie vitale), obésité."
+  src:
+    - id: LDR1
+      firstPage: 135
+
+- id: P_5
+  name: "Marchand"
+  suggestedAdvantages: "caméléon social, notion du temps, prédisposition pour les talents sociaux, voix agréable."
+  suggestedDisadvantages: "faiblesse de caractère (jalousie), mauvaises qualités (avarice, cupidité)."
+  unsuitableDisadvantages: "aveugle, faiblesse de caractère (étranger au monde), laid, rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 139
+
+- id: P_6
+  name: "Guérisseur"
+  suggestedAdvantages: "immunité contre (maladie), immunité contre (poison), résistance aux maladies, résistance aux poisons."
+  suggestedDisadvantages: "faiblesses de caractère (arrogance, vanité), mauvaise qualité (cupidité)."
+  unsuitableDisadvantages: "hématophobie, sensibilité aux maladies, sensibilité aux poisons, thanatophobie."
+  src:
+    - id: LDR1
+      firstPage: 136
+
+- id: P_7
+  name: "Courtisan"
+  suggestedAdvantages: "beauté, prédisposition pour les talents sociaux, résistance aux poisons."
+  suggestedDisadvantages: "faiblesses de caractère (arrogance, vanité, jalousie), mauvaises qualités (avarice, cupidité, irascibilité, esprit de vengeance)."
+  unsuitableAdvantages: "prédisposition pour les talents du groupe savoir-faire."
+  unsuitableDisadvantages: "inaptitude aux talents sociaux, rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 132
+
+- id: P_8
+  name: "Chasseur"
+  suggestedAdvantages: "coriace, sens de lʼorientation, sens des distances, sens exceptionnel (ouïe ou vue)."
+  suggestedDisadvantages: "claustrophobie."
+  unsuitableAdvantages: "caméléon social."
+  unsuitableDisadvantages: "cécité nocturne, nyctophobie."
+  src:
+    - id: LDR1
+      firstPage: 130
+
+- id: P_9
+  name: "Guerrier"
+  suggestedAdvantages: "ambidextre, caméléon social, coriace, grande énergie vitale,  régénération améliorée (énergie vitale)."
+  suggestedDisadvantages: "faiblesses de caractère (arrogance, vanité), obligations I–III (seigneur), personne de principes I–II (codex du guerrier, comportement honorable, protection des faibles)."
+  unsuitableAdvantages: "pouvoir magique."
+  unsuitableDisadvantages: "fragile, mauvaise régénération (énergie vitale), obésité, rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 137
+
+- id: P_10
+  name: "Prostitué"
+  suggestedAdvantages: "beauté, caméléon social, fragrance agréable, prédisposition pour les talents sociaux, voix agréable."
+  suggestedDisadvantages: "faiblesse de caractère (vanité), mauvaise qualité (cupidité)."
+  unsuitableDisadvantages: "laideur, rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 142
+
+- id: P_11
+  name: "Chevalier"
+  suggestedAdvantages: "ambidextre, beauté, caméléon social, coriace, grande énergie vitale, régénération améliorée (énergie vitale), richesse."
+  suggestedDisadvantages: "faiblesses de caractère (arrogance, vanité), obligations II (seigneur), personne de principes I–III (code de chevalerie ; comportement honorable, protection des faibles)."
+  unsuitableDisadvantages: "mauvaise régénération (énergie vitale), obésité, rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 131
+
+- id: P_12
+  name: "Marin"
+  suggestedDisadvantages: "mauvaises qualités (irascibilité, superstition)."
+  unsuitableDisadvantages: "thalassophobie, vertige."
+  src:
+    - id: LDR1
+      firstPage: 140
+
+- id: P_13
+  name: "Mercenaire"
+  suggestedAdvantages: "grande énergie vitale, régénération améliorée (énergie vitale), sens de lʼorientation."
+  suggestedDisadvantages: "mauvaises qualités (irascibilité, superstition)."
+  unsuitableDisadvantages: "mauvaise régénération (énergie vitale), personne de principes."
+  src:
+    - id: LDR1
+      firstPage: 141
+
+- id: P_14
+  name: "Espion"
+  suggestedAdvantages: "caméléon social, notion du temps, sens exceptionnel (ouïe ou vue)."
+  unsuitableDisadvantages: "mauvaise qualité (irascibilité)."
+  src:
+    - id: LDR1
+      firstPage: 133
+
+- id: P_15
+  name: "Guerrier tribal"
+  suggestedAdvantages: "combattant-né, coriace, grande énergie vitale, régénération améliorée (énergie vitale), sens de lʼorientation."
+  suggestedDisadvantages: "faiblesses de caractère (arrogant, préjugés (contre tous les non membres de la tribu)), mauvaises qualités (esprit de vengeance, irascibilité, superstition), obligations I–II (clan), rage sanguinaire."
+  unsuitableAdvantages: "caméléon social, prédisposition pour les talents sociaux."
+  unsuitableDisadvantages: "corpulent, fragile, mauvaise régénération (énergie vitale), obésité."
+  src:
+    - id: LDR1
+      firstPage: 138
+
+- id: P_16
+  name: "Vagabond"
+  suggestedAdvantages: "beauté, caméléon social, prédisposition pour les talents sociaux, voix agréable."
+  suggestedDisadvantages: "faiblesse de caractère (vanité), mauvaises qualités (curiosité, cupidité, superstition)."
+  unsuitableAdvantages: "rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 144
+
+- id: P_17
+  name: "Arpenteur sauvage"
+  suggestedAdvantages: "grande ténacité mentale, nyctalopie II, sens de lʼorientation, sens des distances."
+  suggestedDisadvantages: "claustrophobie, mauvaise qualité (curiosité)."
+  unsuitableAdvantages: "caméléon social."
+  unsuitableDisadvantages: "rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 145
+
+- id: P_18
+  name: "Tissemage"
+  suggestedAdvantages: "grande ténacité mentale, nyctalopie II, sens de lʼorientation, sens des distances."
+  suggestedDisadvantages: "faiblesse de caractère (arrogance), faible ténacité physique, mauvaise qualité (curiosité)."
+  unsuitableAdvantages: "caméléon social."
+  unsuitableDisadvantages: "rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 146
+
+- id: P_19
+  name: "Sorcière (chat)"
+  subname: "Belles de la Nuit"
+  suggestedAdvantages: "aura voilée, beauté, caméléon social, fragrance agréable,  rapidité, résistance au vieillissement (née dʼun œuf)."
+  suggestedDisadvantages: "faiblesses de caractère (arrogant, vaniteux), mauvaises qualités (cupidité, esprit de vengeance), sans familier, sans onguent de vol."
+  unsuitableAdvantages: "coriace."
+  unsuitableDisadvantages: "laideur, vertige."
+  src:
+    - id: LDR1
+      firstPage: 151
+
+- id: P_20
+  name: "Sorcière (crapaud)"
+  subname: "Filles de la Terre"
+  suggestedAdvantages: "aura voilée, régénération améliorée (énergie astrale),  résistance au vieillissement (née dʼun œuf)."
+  suggestedDisadvantages: "anomalie physique (mèche de sorcière), faiblesse de caractère (étrangère au monde), force astrale liée au corps, pyrophobie, sans familier, sans onguent de vol."
+  unsuitableAdvantages: "caméléon social, coriace."
+  src:
+    - id: LDR1
+      firstPage: 153
+
+- id: P_21
+  name: "Sorcière (corbeau)"
+  subname: "Prophétesses d'Aujourd'hui et de Demain"
+  suggestedAdvantages: "aura voilée, résistance au vieillissement (née dʼun œuf)."
+  suggestedDisadvantages: "faiblesse de caractère (vaniteux), mauvaises qualités (cupidité, curiosité, esprit de vengeance), sans familier, sans onguent de vol."
+  unsuitableAdvantages: "coriace."
+  src:
+    - id: LDR1
+      firstPage: 152
+
+- id: P_22
+  name: "Magicien sans guilde"
+  subname: "étudiant du Magister Dagarbor"
+  suggestedAdvantages: "grande ténacité mentale, régénération améliorée (énergie astrale)."
+  suggestedDisadvantages: "faiblesses de caractère (étranger au monde, vaniteux), mauvaise qualité (curiosité), obligations II (maître dʼapprentissage)."
+  unsuitableDisadvantages: "faible ténacité mentale, mauvaise régénération (énergie astrale), rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 150
+
+- id: P_23
+  name: "Magicien gris"
+  subname: "École de Transformation de Lowangue"
+  suggestedAdvantages: "grande ténacité mentale, régénération améliorée (énergie astrale)."
+  suggestedDisadvantages: "faiblesses de caractère (vaniteux, étranger au monde), mauvaise qualité (curiosité), obligations II (académie ou ville de Lowangue), personne de principes I (aider un blessé quelque soit son état, sa culture et son peuple, pacifisme, vision du monde elfique liée à la nature)."
+  unsuitableDisadvantages: "faible ténacité mentale, mauvaise régénération (énergie astrale), rage sanguinaire, thanatophobie."
+  src:
+    - id: LDR1
+      firstPage: 148
+
+- id: P_24
+  name: "Magicien noir"
+  subname: "Académie de la Force Mentale de Fasar"
+  suggestedAdvantages: "grande ténacité mentale, régénération améliorée (énergie astrale)."
+  suggestedDisadvantages: "faiblesses de caractère (arrogant, vaniteux), mauvaise qualité (cupidité, curiosité), obligations II (académie ou maître dʼapprentissage spécial de lʼacadémie)."
+  unsuitableDisadvantages: "faible ténacité mentale, mauvaise régénération (énergie astrale), rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 149
+
+- id: P_25
+  name: "Magicien blanc"
+  subname: "Académie de l'Épée et du Bâton"
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "protection du Nouvel Empire et de ses nobles, croyance dans les Douze, amour de la vérité"
+  suggestedAdvantages: "grande ténacité mentale, régénération améliorée (énergie astrale)."
+  suggestedDisadvantages: "faiblesse de caractère (vaniteux), mauvaise qualité (curiosité), obligations II (académie ou guilde)."
+  unsuitableDisadvantages: "faible ténacité mentale, mauvaise régénération (énergie astrale), rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 147
+
+- id: P_26
+  name: "Prêtre de Boron"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "temple, Église"
+  suggestedAdvantages: "immunité contre une maladie, immunité contre un poison, mystique, notion du temps, pragmatique,  résistance aux maladies, résistance aux poisons."
+  suggestedDisadvantages: "sensibilité à la lumière."
+  unsuitableAdvantages: "rassurant."
+  unsuitableDisadvantages: "cécité nocturne, sensibilité aux maladies, sensibilité aux poisons,  somnambule, thanatophobie."
+  src:
+    - id: LDR1
+      firstPage: 154
+
+- id: P_27
+  name: "Prêtre de Hésinde"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "temple, Église"
+  suggestedAdvantages: "grande ténacité mentale, mystique, notion du temps,  pragmatique, rassurant."
+  suggestedDisadvantages: "mauvaise qualité (curiosité)."
+  unsuitableDisadvantages: "rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 155
+
+- id: P_28
+  name: "Prêtre de Péraine"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "temple, Église"
+  suggestedAdvantages: "Resistant to Disease, Immunity to (Disease), Immunity to (Poison), Increased Spirit, Inspire Confidence, Mystic, Pragmatic, Socially Adaptable"
+  unsuitableAdvantages: "riche."
+  unsuitableDisadvantages: "mauvaise qualité (cupidité), rage sanguinaire, sensibilité aux maladies, sensibilité aux poisons."
+  src:
+    - id: LDR1
+      firstPage: 156
+
+- id: P_29
+  name: "Prêtre de Phex"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "temple, Église"
+  suggestedAdvantages: "ambidextre, chance, effacé, instinct de Nain, mystique,  pragmatique, rapidité, sens des distances."
+  suggestedDisadvantages: "mauvaises qualités (curiosité, cupidité)."
+  unsuitableDisadvantages: "cécité nocturne, malchance, rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 157
+
+- id: P_30
+  name: "Prêtre de Praïos"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "temple, Église"
+  suggestedAdvantages: "grande ténacité mentale, mystique, notion du temps, pragmatique, rassurant, résistance à lʼensorcellement, rassurant."
+  suggestedDisadvantages: "faiblesses de caractère (arrogant, vaniteux)."
+  unsuitableAdvantages: "pouvoir magique."
+  unsuitableDisadvantages: "rage sanguinaire."
+  src:
+    - id: LDR1
+      firstPage: 158
+
+- id: P_31
+  name: "Prêtre de Rondra"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "temple, Église"
+  suggestedAdvantages: "combattant-né, coriace, grande énergie vitale, grande ténacité mentale, grande ténacité physique, mystique, rassurant, riche, pragmatique, technique de combat exceptionnelle."
+  suggestedDisadvantages: "faiblesses de caractère (arrogant, vaniteux)."
+  unsuitableDisadvantages: "corpulent, fragile, inaptitude aux talents physiques, phobie."
+  src:
+    - id: LDR1
+      firstPage: 159

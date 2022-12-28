@@ -1,0 +1,46 @@
+- id: LP
+  name: "Levensenergie"
+  short: LE
+  calc: "(SW Ras + CO + CO)"
+
+- id: AE
+  name: "Astrale energie"
+  short: AE
+  calc: "(20 door tovenaar + Hoofdeigenschap)"
+  calcHalfPrimary: "(20 door tovenaar + Hoofdeigenschap/2)"
+  calcNoPrimary: "(20 door tovenaar)"
+
+- id: KP
+  name: "Karma energie"
+  short: KE
+  calc: "(20 door gewijde + Hoofdeigenschap)"
+
+- id: SPI
+  name: "Zielskracht"
+  short: ZK
+  calc: "(SW Ras + (MO + SL + IN)/6)"
+
+- id: TOU
+  name: "Weerstand"
+  short: WS
+  calc: "(SW Ras + (CO + CO + LK)/6)"
+
+- id: DO
+  name: "Ontwijken"
+  short: OW
+  calc: "(BE/2)"
+
+- id: INI
+  name: "Initiatief"
+  short: INI
+  calc: "(MO + BE)/2"
+
+- id: MOV
+  name: "Snelheid"
+  short: SN
+  calc: "(SW Ras, evt. één been)"
+
+- id: WT
+  name: "Wonddrempel"
+  short: WD
+  calc: "(CO/2)"

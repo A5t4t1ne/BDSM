@@ -1,0 +1,304 @@
+- id: R_1
+# name: Menschen
+  cost: 0
+  lp: 5
+  spi: -5
+  tou: -5
+  mov: 8
+  attributeAdjustmentsSelectionValue: 1
+  attributeAdjustmentsSelectionList:
+    - ATTR_1
+    - ATTR_2
+    - ATTR_3
+    - ATTR_4
+    - ATTR_5
+    - ATTR_6
+    - ATTR_7
+    - ATTR_8
+  weightBase: 100
+  weightRandom:
+    - amount: 2
+      sides: 6
+  variants:
+    - RV_1
+    - RV_2
+    - RV_3
+    - RV_4
+    - RV_5
+    - RV_6
+    - RV_7
+
+- id: R_2
+# name: Elfen
+  cost: 18
+  lp: 2
+  spi: -4
+  tou: -6
+  mov: 8
+  attributeAdjustments:
+    - id: ATTR_3
+      value: 1
+    - id: ATTR_6
+      value: 1
+  attributeAdjustmentsSelectionValue: -2
+  attributeAdjustmentsSelectionList:
+    - ATTR_2
+    - ATTR_8
+  automaticAdvantages:
+    - ADV_50
+    - ADV_52
+  stronglyRecommendedAdvantages:
+    - ADV_2
+    - ADV_6
+    - ADV_34
+  stronglyRecommendedDisadvantages:
+    - DISADV_43
+    - DISADV_48
+  commonAdvantages:
+    - ADV_4
+    - ADV_5
+    - ADV_6
+    - ADV_9
+    - ADV_13
+    - ADV_15
+    - ADV_18
+    - ADV_19
+    - ADV_29
+    - ADV_31
+    - ADV_37
+    - ADV_38
+    - ADV_42
+    - ADV_48
+  commonDisadvantages:
+    - DISADV_19
+    - DISADV_22
+    - DISADV_52
+  uncommonAdvantages:
+    - ADV_22
+    - ADV_39
+    - ADV_53
+  uncommonDisadvantages:
+    - DISADV_6
+    - DISADV_7
+    - DISADV_8
+    - DISADV_9
+    - DISADV_10
+    - DISADV_12
+    - DISADV_25
+  sizeBase: 168
+  sizeRandom:
+    - amount: 2
+      sides: 20
+  weightBase: 110
+  weightRandom:
+    - amount: -2
+      sides: 6
+  variants:
+    - RV_8
+    - RV_9
+    - RV_10
+
+- id: R_3
+# name: Halbelfen
+  cost: 0
+  lp: 5
+  spi: -4
+  tou: -6
+  mov: 8
+  attributeAdjustmentsSelectionValue: 1
+  attributeAdjustmentsSelectionList:
+    - ATTR_1
+    - ATTR_2
+    - ATTR_3
+    - ATTR_4
+    - ATTR_5
+    - ATTR_6
+    - ATTR_7
+    - ATTR_8
+  commonCultures:
+    - C_1
+    - C_3
+    - C_5
+    - C_8
+    - C_10
+    - C_12
+    - C_13
+    - C_16
+    - C_17
+    - C_19
+    - C_20
+    - C_21
+  commonAdvantages:
+    - ADV_4
+    - ADV_5
+    - ADV_6
+    - ADV_9
+    - ADV_15
+    - ADV_18
+    - ADV_19
+    - ADV_38
+    - ADV_48
+    - ADV_50
+    - ADV_52
+  commonDisadvantages:
+    - DISADV_43
+    - DISADV_52
+  uncommonAdvantages:
+    - ADV_39
+    - ADV_53
+  uncommonDisadvantages:
+    - DISADV_6
+    - DISADV_12
+    - DISADV_21
+  hairColors:
+    - 13
+    - 13
+    - 13
+    - 3
+    - 3
+    - 3
+    - 4
+    - 4
+    - 4
+    - 4
+    - 8
+    - 8
+    - 8
+    - 8
+    - 8
+    - 18
+    - 18
+    - 16
+    - 16
+    - 1
+  eyeColors:
+    - 15
+    - 15
+    - 15
+    - 9
+    - 9
+    - 9
+    - 3
+    - 3
+    - 3
+    - 3
+    - 11
+    - 11
+    - 11
+    - 11
+    - 5
+    - 5
+    - 12
+    - 12
+    - 2
+    - 8
+  sizeBase: 158
+  sizeRandom:
+    - amount: 1
+      sides: 20
+    - amount: 4
+      sides: 6
+  weightBase: 110
+  weightRandom:
+    - amount: -1
+      sides: 6
+
+- id: R_4
+# name: Zwerge
+  cost: 61
+  lp: 8
+  spi: -4
+  tou: -4
+  mov: 6
+  attributeAdjustments:
+    - id: ATTR_7
+      value: 1
+    - id: ATTR_8
+      value: 1
+  attributeAdjustmentsSelectionValue: -2
+  attributeAdjustmentsSelectionList:
+    - ATTR_4
+    - ATTR_6
+  commonCultures:
+    - C_22
+    - C_23
+    - C_24
+    - C_25
+  stronglyRecommendedAdvantages:
+    - ADV_6
+    - ADV_28
+  stronglyRecommendedDisadvantages:
+    - DISADV_48
+  commonAdvantages:
+    - ADV_6
+    - ADV_22
+    - ADV_27
+    - ADV_31
+    - ADV_37
+    - ADV_39
+    - ADV_49
+    - ADV_53
+  commonDisadvantages:
+    - DISADV_6
+  uncommonAdvantages:
+    - ADV_38
+    - ADV_48
+    - ADV_50
+  uncommonDisadvantages:
+    - DISADV_15
+    - DISADV_25
+    - DISADV_29
+    - DISADV_30
+    - DISADV_55
+  hairColors:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 16
+    - 16
+    - 16
+    - 16
+    - 19
+    - 19
+    - 20
+    - 20
+    - 21
+    - 22
+    - 23
+    - 23
+    - 10
+    - 10
+    - 10
+  eyeColors:
+    - 5
+    - 5
+    - 4
+    - 4
+    - 4
+    - 11
+    - 11
+    - 11
+    - 11
+    - 3
+    - 9
+    - 9
+    - 9
+    - 9
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+  sizeBase: 128
+  sizeRandom:
+    - amount: 2
+      sides: 6
+  weightBase: 80
+  weightRandom:
+    - amount: -1
+      sides: 6
+    - amount: 2
+      sides: 6

@@ -1,0 +1,153 @@
+- id: SPELL_62
+# name: Erinnerungsmelodie
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_3
+  skill: TAL_56
+  ic: A
+  property: 3
+
+- id: SPELL_63
+# name: Friedenslied
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  skill: TAL_56
+  ic: A
+  property: 3
+
+- id: SPELL_64
+# name: Freundschaftslied
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  skill: TAL_56
+  ic: A
+  property: 3
+
+- id: SPELL_65
+# name: Melodie der Kunstfertigkeit
+  check1: ATTR_3
+  check2: ATTR_3
+  check3: ATTR_4
+  skill: TAL_9
+  ic: B
+  property: 5
+
+- id: SPELL_66
+# name: Sorgenlied
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_3
+  skill: TAL_9
+  ic: A
+  property: 6
+
+- id: SPELL_67
+# name: Zaubermelodie
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  property: 5
+
+- id: SPELL_344
+# name: Lied der Abwehr dämonischer Mächte
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  ic: B
+  property: 1
+
+- id: SPELL_345
+# name: Lied der Erholung
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  ic: B
+  property: 5
+
+- id: SPELL_346
+# name: Lied der Klarheit
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  ic: B
+  property: 5
+
+- id: SPELL_347
+# name: Lied der Lieder
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: D
+  property: 3
+
+- id: SPELL_348
+# name: Lied der Reinheit
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  property: 5
+
+- id: SPELL_349
+# name: Lied der Tierwahrnehmung
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  skill: TAL_56
+  ic: C
+  property: 6
+
+- id: SPELL_350
+# name: Lied des Heilschlafs
+  check1: ATTR_3
+  check2: ATTR_3
+  check3: ATTR_4
+  skill: TAL_9
+  ic: B
+  property: 5
+
+- id: SPELL_351
+# name: Lied des Trostes
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  ic: B
+  property: 5
+
+- id: SPELL_352
+# name: Lied des Windgeflüsters
+  check1: ATTR_3
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: A
+  property: 6
+
+- id: SPELL_353
+# name: Lied des Zauberschutzes
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  skill: TAL_56
+  ic: B
+  property: 1
+
+- id: SPELL_398
+# name: Lied der erotischen Sinneswahrnehmung
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  skill: TAL_56
+  ic: A
+  property: 1
+
+- id: SPELL_399
+# name: Lied der gemeinsamen Liebe
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  skill: TAL_9
+  ic: B
+  property: 3

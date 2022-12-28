@@ -1,0 +1,34 @@
+- id: SA_70
+  name: "Gildenmagier"
+- id: SA_255
+  name: "Hexen"
+- id: SA_345
+  name: "Elfen"
+- id: SA_346
+  name: "Druiden"
+- id: SA_676
+  name: "Scharlatane"
+- id: SA_677
+  name: "Zauberbarden"
+- id: SA_678
+  name: "Zaubertänzer"
+- id: SA_679
+  name: "Intuitive Zauberer"
+- id: SA_680
+  name: "Meistertalentierte"
+- id: SA_681
+  name: "Qabalyamagier"
+# - id: SA_
+#   name: "Kristallomanten"
+- id: SA_1255
+  name: "Geoden"
+- id: SA_750
+  name: "Alchimisten"
+- id: SA_726
+  name: "Schelme"
+- id: SA_1221
+  name: "Animisten"
+- id: SA_1293
+  name: "Zibilijas"
+- id: SA_1438
+  name: "Brobim-Geoden"

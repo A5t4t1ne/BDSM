@@ -1,0 +1,254 @@
+- id: BLESSING_1
+# name: Eidsegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+
+- id: BLESSING_2
+# name: Feuersegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+
+- id: BLESSING_3
+# name: Geburtssegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 18
+
+- id: BLESSING_4
+# name: Glückssegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 17
+    - 18
+    - 19
+    - 20
+
+- id: BLESSING_5
+# name: Grabsegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 16
+    - 17
+    - 18
+    - 19
+
+- id: BLESSING_6
+# name: Harmoniesegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 18
+    - 19
+    - 20
+
+- id: BLESSING_7
+# name: Kleiner Heilsegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 18
+    - 19
+
+- id: BLESSING_8
+# name: Kleiner Schutzsegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 19
+
+- id: BLESSING_9
+# name: Speisesegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+
+- id: BLESSING_10
+# name: Stärkungssegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 19
+    - 20
+
+- id: BLESSING_11
+# name: Tranksegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 17
+    - 18
+    - 19
+    - 20
+
+- id: BLESSING_12
+# name: Weisheitssegen
+  traditions:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 17
+    - 18
+    - 19
+    - 20

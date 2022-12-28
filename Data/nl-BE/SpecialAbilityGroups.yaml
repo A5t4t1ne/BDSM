@@ -1,0 +1,90 @@
+- id: 1
+  name: "Algemeen"
+- id: 2
+  name: "Lot"
+- id: 3
+  name: "Gevecht"
+- id: 4
+  name: "Magisch"
+- id: 5
+  name: "Staf"
+- id: 6
+  name: "Heks"
+- id: 7
+  name: "Religieus"
+- id: 8
+  name: "Ban-/Beschermingscirkels"
+- id: 9
+  name: "Gevechtsstijlen (gewapend)"
+- id: 10
+  name: "Gevechtsstijlen (ongewapend)"
+- id: 11
+  name: "Gevechtsstijlen (Uitgebreid)"
+- id: 12
+  name: "Bevelen"
+- id: 13
+  name: "Toverstijlen"
+- id: 14
+  name: "Magisch (Uitgebreid)"
+- id: 15
+  name: "Banzwaard"
+- id: 16
+  name: "Dolk"
+- id: 17
+  name: "Instrument"
+- id: 18
+  name: "Gewaad"
+- id: 19
+  name: "Bol"
+- id: 20
+  name: "Stecken"
+- id: 21
+  name: "Prügel"
+- id: 22
+  name: "Voorvadertekens"
+- id: 23
+  name: "Ceremonievoorwerpen"
+- id: 24
+  name: "Preken"
+- id: 25
+  name: "Liturgiestijlen"
+- id: 26
+  name: "Karmaal (Uitgebreid)"
+- id: 27
+  name: "Vizioenen"
+- id: 28
+  name: "Magische tradities"
+- id: 29
+  name: "Gewijde Tradities"
+- id: 30
+  name: "Pactgeschenken"
+- id: 31
+  name: "Vampirisme"
+- id: 32
+  name: "Lycanthropie"
+- id: 33
+  name: "Talentstijlen"
+- id: 34
+  name: "Talent (Uitgebreid)"
+- id: 35
+  name: "Magiërsbol"
+- id: 36
+  name: "Heksenketel"
+- id: 37
+  name: "Zotskap"
+- id: 38
+  name: "Schelmenspeelgoed"
+- id: 39
+  name: "Alchimistenschaal"
+- id: 40
+  name: "Seks-Lot"
+- id: 41
+  name: "Seks"
+- id: 42
+  name: "Wapentoverij (Animisten)"
+- id: 43
+  name: "Sikkelrituelen"
+- id: 44
+  name: "Ringbetovering"
+- id: 45
+  name: "Chroniektoverij"

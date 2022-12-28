@@ -1,0 +1,313 @@
+- id: PV_1
+  name:
+    m: "Verhalenverteller"
+    f: "Verhalenvertellster"
+
+- id: PV_2
+  name: "Haimamud"
+  concludingText: "Haimamudim moeten de Cultuur Araniërs, Mhanadistani of Novadi’s kiezen."
+
+- id: PV_3
+  name:
+    m: "Skald"
+    f: "Skaldin"
+  concludingText: "Skalden moeten de cultuur Thorwalers kiezen."
+
+- id: PV_4
+  name:
+    m: "Opzichter"
+    f: "Opzichtster"
+
+- id: PV_5
+  name:
+    m: "Kerkermeester"
+    f: "Kerkermeesteres"
+
+- id: PV_6
+  name: Cipier
+
+- id: PV_7
+  name:
+    m: "Tollenaar"
+    f: "Tollenaarster"
+
+- id: PV_8
+  name:
+    m: "Acrobaat"
+    f: "Acrobate"
+
+- id: PV_9
+  name:
+    m: "Dierentemmer"
+    f: "Dierentemmster"
+
+- id: PV_10
+  name:
+    m: "Messenwerper"
+    f: "Messenwerpster"
+
+- id: PV_11
+  name:
+    m: "Potsenmaker"
+    f: "Potsenmaakster"
+
+- id: PV_12
+  name:
+    m: "Waarzegger"
+    f: "Waarzeggster"
+
+- id: PV_13
+  name:
+    m: "Kuilvechter"
+    f: "Kuilvechtster"
+
+- id: PV_14
+  name:
+    m: "Spektakelvechter"
+    f: "Spektakelvechtster"
+
+- id: PV_15
+  name:
+    m: "Reizende handelaar"
+    f: "Reizende handelaarster"
+
+- id: PV_16
+  name:
+    m: "Handelaar in exotische goederen"
+    f: "Handelaarster in exotische goederen"
+
+- id: PV_17
+  name:
+    m: "Geldwisselaar"
+    f: "Geldwisselaarster"
+
+- id: PV_18
+  name:
+    m: "Marskramer"
+    f: "Marskraamster"
+
+- id: PV_19
+  name:
+    m: "Ruilhandelaar"
+    f: "Ruilhandelaarster"
+  concludingText: "Ruilhandelaars moeten tussen de culturen Fjarningers, Moha‘s of Nivesen kiezen."
+
+- id: PV_20
+  name:
+    m: "Vroedman"
+    f: "Vroedvrouw"
+
+- id: PV_21
+  name:
+    m: "Medicus"
+    f: "Medica"
+
+- id: PV_22
+  name:
+    m: "Kwakzalver"
+    f: "Kwakzalfster"
+
+- id: PV_23
+  name:
+    m: "Tandentrekker"
+    f: "Tandentrekkster"
+
+- id: PV_24
+  name: Adelstelg
+
+- id: PV_25
+  name:
+    m: "Diplomaat"
+    f: "Diplomaate"
+
+- id: PV_26
+  name: "Hofdame"
+  concludingText: "Hofdames moeten als cultuur Andergasters kiezen; de Hofdame moet vrouwelijk zijn."
+
+- id: PV_27
+  name:
+    m: "Leegloper"
+    f: "Leegloopster"
+
+- id: PV_28
+  name:
+    m: "Grootwildjager"
+    f: "Grootwildjageres"
+
+- id: PV_29
+  name:
+    m: "Premiejager"
+    f: "Premiejageres"
+
+- id: PV_30
+  name:
+    m: "Slavenjager"
+    f: "Slavenjageres"
+  concludingText: "Gebruikelijke Culturen: Araniërs, Mhanadistani, Novadi‘s, Zuid- Aventurijnen"
+
+- id: PV_31
+  name:
+    m: "Stammenjager"
+    f: "Stammenjageres"
+
+- id: PV_32
+  name:
+    m: "Bordeelhouder"
+    f: "Bordeelhoudster"
+
+- id: PV_33
+  name:
+    m: "Schandknaap"
+    f: "Hoer"
+
+- id: PV_34
+  name:
+    m: "Gezelschapsheer"
+    f: "Courtisane"
+
+- id: PV_35
+  name:
+    m: "Favoriet"
+    f: "Maîtresse"
+
+- id: PV_36
+  name:
+    m: "Hofridder"
+    f: "Hofridderin"
+
+- id: PV_37
+  name:
+    m: "Roofridder"
+    f: "Roofridderin"
+
+- id: PV_38
+  name:
+    m: "Hagenridder"
+    f: "Hagenridderin"
+
+- id: PV_39
+  name:
+    m: "Visser"
+    f: "Visserster"
+
+- id: PV_40
+  name:
+    m: "Piraat"
+    f: "Pirate"
+
+- id: PV_41
+  name:
+    m: "Walvisvaarder"
+    f: "Walvisvaarster"
+
+- id: PV_42
+  name:
+    m: "Robbenjager"
+    f: "Robbenjageres"
+
+- id: PV_43
+  name:
+    m: "Schermutser"
+    f: "Schermutster"
+
+- id: PV_44
+  name: Lichtbepantserde
+
+- id: PV_45
+  name: Zwaarbepantserde
+
+- id: PV_46
+  name:
+    m: "Geheimagent"
+    f: "Geheimagente"
+
+- id: PV_47
+  name:
+    m: "Sluipmoordenaar"
+    f: "Sluipmoordenares"
+
+- id: PV_48
+  name:
+    m: "Bedelaar"
+    f: "Bedelares"
+
+- id: PV_49
+  name:
+    m: "Dief"
+    f: "Dievegge"
+
+- id: PV_50
+  name:
+    m: "Inbreker"
+    f: "Inbreekster"
+
+- id: PV_51
+  name:
+    m: "Hoogstapelaar"
+    f: "Hoogstapelaarster"
+
+- id: PV_52
+  name:
+    m: "Gokker"
+    f: "Gokster"
+
+- id: PV_53
+  name:
+    m: "Pooier"
+    f: "Pooierster"
+
+- id: PV_54
+  name:
+    m: "Dienaar van Bishdariël"
+    f: "Dienares van Bishdariël"
+
+- id: PV_55
+  name:
+    m: "Dienaar van Golgari"
+    f: "Dienares van Golgari"
+
+- id: PV_56
+  name: Pastori
+
+- id: PV_57
+  name: Satori
+
+- id: PV_58
+  name:
+    m: "Heler"
+    f: "Heleres"
+
+- id: PV_59
+  name:
+    m: "Zaaier"
+    f: "Zaaister"
+
+- id: PV_60
+  name:
+    m: "Beurzensnijder"
+    f: "Beurzensnijdster"
+
+- id: PV_61
+  name:
+    m: "Handelaar in exotische goederen"
+    f: "Handelaarster"
+
+- id: PV_62
+  name:
+    m: "Gevelklimmer"
+    f: "Gevelklimmster"
+
+- id: PV_63
+  name: Legalisten
+
+- id: PV_64
+  name: Principisten
+
+- id: PV_65
+  name: Salutaristen
+
+- id: PV_66
+  name: Traditionalisten
+
+- id: PV_67
+  name: "Honoren"

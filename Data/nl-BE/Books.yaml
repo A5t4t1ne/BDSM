@@ -1,0 +1,11 @@
+- id: LTP-OdM-R0001
+  short: RW
+  name: "Regelwerk"
+  isCore: true
+  isAdultContent: false
+
+#- id: LTP-OdM-R0002
+#  short: AAL
+#  name: "Aventurijnse Almanak"
+#  isCore: true
+#  isAdultContent: false

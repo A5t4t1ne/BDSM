@@ -1,0 +1,156 @@
+- id: STATE_1
+  name: "Imobilizado"
+  description: |
+    Paralisia, areias movediças ou amarras fortes podem imobilizar as personagens completamente. Personagens *imobilizadas* não podem se mover, mas podem ainda perceber seus arredores e fazer qualquer coisa que não requeira muita atividade física, como usar a maioria dos das perícias de conhecimento, ou conjurar feitiços ou cânticos litúrgicos sem gestos.
+  src:
+    - id: US25001E
+      firstPage: 37
+
+- id: STATE_2
+  name: "Inconsciente"
+  description: |
+    Uma personagem adormecida é considerada *inconsciente*, e um herói ou heroína que sofra um golpe massivo na cabeça também pode ficar *inconsciente*. Mesmo que o corpo permaneça funcional, a mente da personagem está distraída, aparentemente inativa ou não responde. Em resumo, todas as luzes estão apagadas. Além disso, uma personagem inconsciente está *incapacitada* (ver página **36**).
+  src:
+    - id: US25001E
+      firstPage: 37
+
+- id: STATE_3
+  name: "Cego"
+  description: |
+    Uma pessoa *cega* não pode ver, seja devido a desvantagem Cegueira, escuridão total ou mesmo uma simples venda. Quão bem as personagens *cegas* se orientam depende dos seus outros sentidos. Mesmo as ações mais simples podem exigir um teste da perícia *Percepção*. Algumas perícias são impossíveis de serem usadas por personagens *cegas*, enquanto outras perícias sofrem grandes penalidades. O MJ decide quais as perícias que pertencem a estas categorias, e o grau de penalidade, com base na situação.
+
+    Por exemplo, um herói ou heroínas *cegos* podes ser capazes de discernir a posição de um inimigo durante o combate se o inimigo fizer muito barulho. Isso pode exigir um teste de *Percepção (Procurar)* contra *Furtividade (Esgueirar-se)*. Heróis ou heroínas *cegos* que ouvem seus inimigos desta maneira ainda podem lutar, mas com as seguintes restrições.
+
+    - Enquanto cegos, fazem todos os ataques de combate corpo-a-corpo com metade do valor normal
+    - Combate à distância torna-se um jogo de puro acaso, precisando de uma rolagem de 1 em 1D20 para acertar
+    - Tentativas de Aparar são tão difíceis de executar quanto ataques à distância, também exigindo uma rolagem de 1 em 1D20 para ter sucesso
+    - Esquivar de um ataque à distância é impossível enquanto cego
+    - Personagens cegas devem tocar oponentes para afetá-los com feitiços ou cânticos litúrgicos
+  src:
+    - id: US25001E
+      firstPage: 36
+
+- id: STATE_4
+  name: "Sede de Sangue"
+  description: |
+    Começando na próxima rodada de combate depois de entrar neste estado, um herói ou heroína ganha um bônus de +4 nos ataques, um bônus de +2 nos danos e um bônus de +2 em teste de *Façanhas de Força*. Além disso, o herói ou heroína ignora os efeitos da condição *Dor*. No entanto, a personagem não pode mais se defender, engajar-se em combate à distância, usar perícias que não sejam Físicas e *Intimidação* ou usar habilidades especiais de combate que não sejam Golpes Fortes.
+
+    O MJ rola secretamente 2D20 para determinar a duração da *Sede de Sangue* em rodadas de combate. Durante este tempo, a personagem ataca inimigos, mas quando todos os inimigos forem derrubados, ela atacará a pessoa mais próxima, seja membro de seu grupo, espectador inocente, um membro da guarda da cidade ou até mesmo a própria Imperatriz Rohaja. Se ninguém estiver por perto, o herói ou heroína entra em fúria em busca de alvos.
+
+    Quando a sede de sangue termina, a personagem ganha 2 níveis da condição *Estupor*.
+  src:
+    - id: US25001E
+      firstPage: 38
+
+- id: STATE_5
+  name: "Queimando"
+  description: |
+    As roupas da personagem pegam fogo, e o herói ou heroína sofre dano de fogo enquanto este estado permanecer em vigor.
+
+    Apagar as chamas de uma personagem *queimando* requer um teste de *Controle Corporal*. As rolagens para apagar pequenos incêndios não têm modificadores, enquanto incêndios maiores causam uma penalidade de –1 e apagar uma pessoa que está completamente em chamas sofre uma penalidade de –2. Você pode rolar para apagar uma personagem *queimando* uma vez a cada rodada de combate.
+
+    É possível ajudar no esforço para extinguir as chamas, fazendo testes de *Controle Corporal*, mas cada personagem que presta auxílio pode fazer apenas uma rolagem por rodada de combate. Água, areia e outras coisas podem podem conceder um bônus no teste. O MJ decide se um herói ou heroína deve fazer um teste de perícia para derramar um balde de água sobre uma personagem *queimando*.
+
+    Estas regras também se aplicam a personagens cobertas com ácido, embora neutralizar o ácido exija uma enorme quantidade de água ou outra substância adequada. Sem tais substâncias, não é permitido um teste de perícia.
+    
+    Para mais informações sobre incêndios e danos ácidos, veja a página **337**.
+  src:
+    - id: US25001E
+      firstPage: 38
+
+- id: STATE_6
+  name: "Apertado"
+  description: |
+    Personagens em lugares extremamente pequenos, estreitos ou espremidos estão *apertadas*. Até mesmo ver alguém no meio de uma grande multidão pode desencadear este estado. Uma personagem *apertada* mal pode se mover e sofre penalidades para usar armas e escudos em situações de combate. Armas curtas não sofrem penalidades. Ataques e aparar com armas médias sofrem a –4 de penalidade, enquanto ataques e aparar com armas longas sofrem uma penalidade de –8. Testes de outras perícias podem sofrer uma penalidade de até –2, a critério do MJ. Feitiços e cânticos litúrgicos não sofrem penalidades por serem conjurados durante o estado *apertado*.
+    
+    Tipo | Modificador
+    :-- | :--
+    Armas Curtas | +/–0 AT; +/–0 AP
+    Armas Médias | –4 AT; –4 AP
+    Armas Longas | –8 AT; –8 AP
+    Escudos pequenos | –2 AT; –2 AP
+    Escudos Médios | –4 AT; –3 AP
+    Escudos Grandes | –6 AT; –4 v
+  src:
+    - id: US25001E
+      firstPage: 36
+
+- id: STATE_7
+  name: "Preso"
+  description: |
+    Personagens *presas* estão grudadas no chão ou presas por cordas, videiras ou armadilhas. Enquanto *presas*, as personagens têm uma MOV de 0 e sofrem uma penalidade de –4 na Esquiva.
+  src:
+    - id: US25001E
+      firstPage: 38
+
+- id: STATE_8
+  name: "Incapacitado"
+  description: |
+    Personagens *incapacitadas* não podem mais agir devido a uma condição, estado ou outra influência, ou qualquer combinação de destes. Estas personagens têm MOV 0, não podem agir ou se defender e provavelmente ficam *caídas*. Dependendo da situação, o MJ pode permitir que usem ações livres para falar.
+  src:
+    - id: US25001E
+      firstPage: 37
+
+- id: STATE_9
+  name: "Doente"
+  description: |
+    Um herói ou heroína que sofre de uma doença ou enfermidade grave não pode recuperar PVs ou se beneficiar de Fases de Regeneração normais (veja a página **335**) até ser curado ou se recuperar.
+
+    Personagens que sofrem de um estado *doente* devem dedicar pelo menos uma Fase de Regeneração por dia para descansar (dormir ou ficar na cama) ou perdem 1D3 PVs (ignorando proteção) até se recuperarem.
+  src:
+    - id: US25001E
+      firstPage: 37
+
+- id: STATE_10
+  name: "Caído"
+  description: |
+    Seja acordando ou encontrando-se derrubada, uma pessoa *caída* é aquela que está deitada horizontalmente no chão. Estar *caído* é arriscado, especialmente em situações de combate. Enquanto este estado persistir, personagens *caídas* têm MOV 1 e sofrem penalidades de –4 para atacar e –2 na defesa.
+  
+    Levantar-se demora 1 ação. Oponentes à distância de combate corpo a corpo podem escolher atacar uma personagem *caída* com um ataque de oportunidade (veja a página **232**). Para evitar este ataque de oportunidade, o herói ou heroína deve fazer um teste de *Controle Corporal (Manobras de Combate)*.
+  src:
+    - id: US25001E
+      firstPage: 36
+
+- id: STATE_11
+  name: "Mudo"
+  description: |
+    Uma pessoa *muda* não pode falar. Além de possivelmente dificultar a comunicação, isso também pode afetar a conjuração de feitiços ou cânticos litúrgicos (veja as páginas **254** e **306**).
+  src:
+    - id: US25001E
+      firstPage: 38
+
+- id: STATE_12
+  name: "Surdo"
+  description: |
+    Heróis e heroínas *surdos* não conseguem ouvir, impedindo a comunicação. Além disso, não lhes é permitido efetuar testes de perícia de *Percepção* que dependam da audição. Testes de *Percepção (Detectar Emboscada)* sofrem uma penalidade de –3.
+  src:
+    - id: US25001E
+      firstPage: 38
+
+- id: STATE_13
+  name: "Surpreso"
+  description: |
+    As pessoas geralmente são consideradas conscientes de seus arredores, especialmente em situações de combate. Às vezes, no entanto, surge uma situação em que uma personagem desconhece a presença de oponentes ocultos nas proximidades (seja fora de vista ou escondendo-se; veja *Emboscada* na página **232**). Surpresa significa que um você é assustado por uma emboscada ou pela súbita aparição de oponentes. Personagens *surpreendidas* não podem se defender contra a primeira ação realizada contra elas. Uma vez que esta ação surpresa (provavelmente um ataque) é resolvida, as rodadas de combate regulares começam.
+  src:
+    - id: US25001E
+      firstPage: 38
+
+- id: STATE_14
+  name: "Invisível"
+  description: |
+    O herói ou heroína não podem ser vistos. No entanto, a personagem não desapareceu no ar e ainda pode ser ouvida, farejada e tocada.
+
+    Você pode atacar uma personagem *invisível* apenas se estiver ciente da presença e localização aproximada dela. Para localizar uma personagem *invisível*, faça um teste competitivo de perícia de *Percepção (Procurar*) contra *Furtividade (Esgueirar-se)*. Se o teste for bem-sucedido, você pode atacar (defender-se contra) a personagem *invisível* com as seguintes restrições. Seus valores de ataque são reduzidos pela metade, e o combate à distância é muito mais difícil (role um 1 em 1D20 para ter sucesso), assim como uma defesa bem-sucedida (novamente, role um 1 em 1D20). Você não pode se defender contra os ataques à distância de uma personagem *invisível*.
+    
+    As personagens devem tocar oponentes *invisíveis* para que sofram efeitos de seus feitiços ou cânticos litúrgicos.
+  src:
+    - id: US25001E
+      firstPage: 37
+
+- id: STATE_15
+  name: "Envenenado"
+  description: |
+    O herói ou heroína está *envenenado*. Enquanto o veneno permanecer em vigor, a personagem não pode se beneficiar de Fases de Regeneração (veja a página **335**).
+  src:
+    - id: US25001E
+      firstPage: 37

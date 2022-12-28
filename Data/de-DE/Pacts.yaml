@@ -1,0 +1,57 @@
+- id: 1
+  name: "Feenpakt"
+  types:
+    - id: 1
+      name: "Niedere Fee"
+    - id: 2
+      name: "Mittlere Fee"
+    - id: 3
+      name: "Hohe Fee"
+  domains:
+    - id: 1
+      name: "Finsternis"
+    - id: 2
+      name: "Wald"
+    - id: 3
+      name: "Fluss"
+    - id: 4
+      name: "See"
+
+- id: 2
+  name: "Dämonenpakt"
+  types:
+    - id: 1
+      name: "Erzdämonen"
+    - id: 2
+      name: "Freie Dämonen"
+  domains:
+    - id: 1
+      name: "Blakharaz"
+    - id: 2
+      name: "Belhalhar"
+    - id: 3
+      name: "Charyptoroth"
+    - id: 4
+      name: "Lolgramoth"
+    - id: 5
+      name: "Thargunitoth"
+    - id: 6
+      name: "Amazeroth"
+    - id: 7
+      name: "Nagrach"
+    - id: 8
+      name: "Asfaloth"
+    - id: 9
+      name: "Tasfarelel"
+    - id: 10
+      name: "Mishkara"
+    - id: 11
+      name: "Agrimoth"
+    - id: 12
+      name: "Belkelel"
+    - id: 13
+      name: "Aphasmayra"
+    - id: 14
+      name: "Aphestadil"
+    - id: 15
+      name: "Heskatet"

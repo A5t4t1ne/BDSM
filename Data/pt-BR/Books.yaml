@@ -1,0 +1,17 @@
+- id: US25001E
+  short: CR
+  name: "Livro de Regras"
+  isCore: true
+  isAdultContent: false
+
+- id: USDR2E
+  short: DR2
+  name: "Deep Rules 2"
+  isCore: false
+  isAdultContent: false
+
+- id: USDR3E
+  short: DR3
+  name: "Deep Rules 3"
+  isCore: false
+  isAdultContent: false

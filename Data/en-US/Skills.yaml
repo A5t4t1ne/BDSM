@@ -1,0 +1,1782 @@
+- id: TAL_1
+  name: "Flying"
+  applications:
+    - id: 1
+      name: "Combat Maneuvers"
+    - id: 2
+      name: "Long-Distance Flight"
+    - id: 3
+      name: "Chases"
+  tools: "a flying instrument"
+  quality: |
+    you can cover distances faster.
+  failed: |
+    the aerial maneuver fails and must be aborted.
+  critical: |
+    the maneuver succeeds, and the hero has an additional action remaining for the round.
+  botch: |
+    the hero crashes.
+  src:
+    - id: US25001E
+      firstPage: 190
+
+- id: TAL_2
+  name: "Gaukelei"
+  applications:
+    - id: 1
+      name: "Juggling"
+    - id: 2
+      name: "Clowning"
+    - id: 3
+      name: "Hiding Tricks"
+    - id: -1
+      name: "Ventriloquism"
+    - id: -2
+      name: "Fire-Eating"
+    - id: -3
+      name: "Fireworks"
+  tools: "depends on the trick (balls, torches, snakes, cards, and so on)"
+  quality: |
+    perform the trick especially well and garner more applause from the audience.
+  failed: |
+    the trick doesn’t really work due to small mistakes, and the audience is disappointed.
+  critical: |
+    the audience is fascinated and thinks you’ve worked true magic. If there’s money to be earned, you earn double the normal amount.
+  botch: |
+    the audience boos the hero for a mishap during the performance (perhaps the hero hits an audience member with a juggling club, or injures the mayor with pyrotechnics, or some such).
+  src:
+    - id: US25001E
+      firstPage: 190
+
+- id: TAL_3
+  name: "Climbing"
+  applications:
+    - id: 1
+      name: "Trees"
+    - id: 2
+      name: "Mountains"
+    - id: 3
+      name: "Ice"
+    - id: 4
+      name: "Walls"
+  tools: "climbing gear, depending on the circumstances"
+  quality: |
+    the hero reaches the destination faster.
+  failed: |
+    the climb takes longer than expected, or the hero suffers an injury (1D3 DP, ignoring PRO), doesn’t dare to climb, or gets stuck somewhere along the way.
+  critical: |
+    the hero climbs much faster and safer than usual. Witnesses think the hero might be one of the best climbers on Dere. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    the hero slips and falls.
+  src:
+    - id: US25001E
+      firstPage: 189
+
+- id: TAL_4
+  name: "Body Control"
+  applications:
+    - id: 1
+      name: "Acrobatics"
+    - id: 2
+      name: "Balance"
+    - id: 3
+      name: "Squirm"
+    - id: 4
+      name: "Combat Maneuver"
+    - id: 5
+      name: "Running"
+    - id: 6
+      name: "Jumping"
+    - id: -1
+      name: "Skiing"
+  uses:
+    - id: 1
+      name: "Tumbling"
+  quality: |
+    the adventurer can more quickly squirm out of restraints.
+  failed: |
+    the action fails partially, requires more time, or leads to mistakes, perhaps forcing the hero to abort the action.
+  critical: |
+    the action succeeds and the hero still has another action remaining. Whatever was attempted, the hero looked very graceful.
+  botch: |
+    the hero falls down and suffers an injury (1D6 DP, ignoring PRO).
+  src:
+    - id: US25001E
+      firstPage: 188
+
+- id: TAL_5
+  name: "Feat of Strength"
+  applications:
+    - id: 1
+      name: "Pushing & Bending"
+    - id: 2
+      name: "Breaking and Smashing"
+    - id: 3
+      name: "Lifting"
+    - id: 4
+      name: "Dragging & Pulling"
+  tools: "perhaps a crowbar or a rope, depending on circumstances"
+  quality: |
+    the hero can carry more weight or lift a heavy load for longer than usual.
+  failed: |
+    the hero’s action fails.
+  critical: |
+    impressive physical feat. Witnesses think the hero is one of the strongest Aventurians alive. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    the action fails spectacularly. The hero falls down, pulls a muscle, and suffers an injury (1D6 DP, ignoring PRO).
+  src:
+    - id: US25001E
+      firstPage: 189
+
+- id: TAL_6
+  name: "Riding"
+  applications:
+    - id: 1
+      name: "Combat Maneuvers"
+    - id: 2
+      name: "Long-Distance Ride"
+    - id: 3
+      name: "Show Jumping"
+    - id: 4
+      name: "Chases"
+  tools: "mount"
+  quality: |
+    you reach the destination faster.
+  failed: |
+    the animal doesn’t move or steer as the rider intends.
+  critical: |
+    the animal obeys perfectly and the rider still has another action available.
+  botch: |
+    the animal unseats the rider, who suffers a fall.
+  src:
+    - id: US25001E
+      firstPage: 192
+
+- id: TAL_7
+  name: "Swimming"
+  applications:
+    - id: 1
+      name: "Combat Maneuver"
+    - id: 2
+      name: "Long-Distance Swimming"
+    - id: 3
+      name: "Diving"
+    - id: 4
+      name: "Chases"
+    - id: 5
+      name: "Treading Water"
+  quality: |
+    reach the destination faster.
+  failed: |
+    the hero doesn’t dare to swim at all or doesn’t get far (or at least not to where intended, anyway).
+  critical: |
+    the time the hero takes to swims the distance is a personal best. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    the hero starts to drown, or maybe suffers leg cramps.
+  src:
+    - id: US25001E
+      firstPage: 193
+
+- id: TAL_8
+  name: "Self-Control"
+  applications:
+    - id: 1
+      name: "Resist Torture"
+    - id: 2
+      name: "Stay Conscious"
+    - id: 3
+      name: "Ignore Distractions"
+  uses:
+    - id: 1
+      name: "Suppress Pain"
+  quality: |
+    the hero maintains control for a longer time.
+  failed: |
+    the hero can’t suppress the pain or ignore the distraction.
+  critical: |
+    the hero ignores *Pain* (up to Level III) and distractions for the whole day.
+  botch: |
+    the hero receives 2 Levels of the condition *Pain* for the next few hours, or is *surprised* by the distraction.
+  src:
+    - id: US25001E
+      firstPage: 192
+
+- id: TAL_9
+  name: "Singing"
+  encDescription: "no (maybe with a helmet)"
+  applications:
+    - id: 1
+      name: "Bard’s Ballad"
+    - id: 2
+      name: "Chorale"
+    - id: 3
+      name: "Choral Singing"
+    - id: 4
+      name: "Recital"
+    - id: -1
+      name: "Opera Singing"
+    - id: -2
+      name: "Two-Voiced Singing"
+  uses:
+    - id: 1
+      name: "Heartening Song"
+    - id: 2
+      name: "Fascinating Song"
+  quality: |
+    the hero’s singing is so good that the audience applauds loudly.
+  failed: |
+    the hero forgets lyrics or performs rather poorly.
+  critical: |
+    the hero’s singing is a topic for discussion for many weeks. If the hero wanted to earn money, award at least twice the normal amount. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    the hero mangles the tune badly or messes up the rhythm. The song is torturous to audience members, who boo the performer loudly.
+  src:
+    - id: US25001E
+      firstPage: 192
+
+- id: TAL_10
+  name: "Perception"
+  encDescription: "no (maybe if wearing a helmet or gauntlets)"
+  applications:
+    - id: 1
+      name: "Detect Ambush"
+    - id: 2
+      name: "Search"
+    - id: 3
+      name: "Spot"
+    - id: -1
+      name: "Lip Reading"
+    - id: -2
+      name: "Magic Sense"
+    - id: -4
+      name: "Fox Sense"
+  quality: |
+    the hero notices more details.
+  failed: |
+    the hero doesn’t notice anything.
+  critical: |
+    the hero notices details that are barely perceivable to others. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    the hero perceives something that is not really important, such as the scent of nearby flowers, but misses something obvious like a smelly ogre that is sneaking up on the party.
+  src:
+    - id: US25001E
+      firstPage: 190
+
+- id: TAL_11
+  name: "Dancing"
+  applications:
+    - id: 1
+      name: "Folk"
+    - id: 2
+      name: "Exotic"
+    - id: 3
+      name: "Court"
+    - id: 4
+      name: "Religious"
+  quality: |
+    the dancing is so good that the audience applauds loudly.
+  failed: |
+    the hero confuses the dance steps.
+  critical: |
+    the hero’s perfect steps entrance the audience. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    step on your partner’s toes and cause injury, or fall and embarrass yourself.
+  src:
+    - id: US25001E
+      firstPage: 189
+
+- id: TAL_12
+  name: "Pickpocket"
+  applications:
+    - id: 1
+      name: "Create Distractions"
+    - id: 2
+      name: "Steal from Person"
+    - id: 3
+      name: "Steal Item"
+    - id: 4
+      name: "Slip Item"
+  tools: "maybe a knife or a dagger"
+  quality: |
+    the theft isn’t noticed for a while.
+  failed: |
+    the attempt isn’t successful, or the victim notices the attempt immediately.
+  critical: |
+    the victim doesn’t notice the thief, who manages to obtain especially valuable items or steal from more than one victim. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    people in the area, possibly even the victim, notice the attempt, but the thief remains ignorant of this detection. The attempt fails, and in addition, the thief is *surprised*.
+  src:
+    - id: US25001E
+      firstPage: 191
+
+- id: TAL_13
+  name: "Stealth"
+  applications:
+    - id: 2
+      name: "Sneak"
+    - id: 3
+      name: "Hide"
+  quality: |
+    the hero is harder to detect or finds a hiding place more quickly.
+  failed: |
+    the hero is poorly hidden, or makes noise while sneaking.
+  critical: |
+    the hero finds the perfect hiding place or moves as silently as a cat. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    something (a plate, a piece of furniture) falls and breaks.
+  src:
+    - id: US25001E
+      firstPage: 193
+
+- id: TAL_14
+  name: "Carousing"
+  applications:
+    - id: 1
+      name: "Resist Drug Intoxication"
+    - id: 2
+      name: "Resist Drug Pain"
+    - id: 3
+      name: "Resist Drug Confusion"
+  quality: |
+    the hero can stomach more than usual.
+  failed: |
+    the hero receives a level of the condition *Confusion* and awakens the next day with a hangover or some other unwanted consequence.
+  critical: |
+    the hero endures to the bitter end, yet wakes in excellent condition the next day.
+  botch: |
+    the hero does something embarrassing while intoxicated (such as smashing half of the inn, awakening naked in the market place or in a stranger’s bed the next morning, or blurting out secrets to the enemy) and can’t remember a thing.
+  src:
+    - id: US25001E
+      firstPage: 188
+
+- id: TAL_15
+  name: "Persuasion"
+  applications:
+    - id: 1
+      name: "Conversation"
+    - id: 2
+      name: "Debate"
+    - id: 3
+      name: "Oration"
+    - id: 4
+      name: "Provocation"
+    - id: -1
+      name: "Political Pamphlets"
+  quality: |
+    you persuade more people, or the target adheres to the new belief for a longer time.
+  failed: |
+    the target doesn’t believe the orator.
+  critical: |
+    the target is completely convinced.
+  botch: |
+    the target feels insulted.
+  src:
+    - id: US25001E
+      firstPage: 196
+
+- id: TAL_16
+  name: "Seduction"
+  encDescription: "no, but there could be situational exceptions, like trying to seduce somebody while wearing plate armor"
+  applications:
+    - id: 1
+      name: "Flirting"
+    - id: 2
+      name: "Beautify"
+    - id: 3
+      name: "Romantic Arts"
+    - id: -1
+      name: "Romance Novels"
+  quality: |
+    the target reacts favorably to the character.
+  failed: |
+    the character doesn’t manage to arouse the target’s interest.
+  critical: |
+    the target tries to fulfill all the character’s wishes.
+  botch: |
+    the target slaps the character for being crude.
+  src:
+    - id: US25001E
+      firstPage: 197
+
+- id: TAL_17
+  name: "Intimidation"
+  applications:
+    - id: 1
+      name: "Threats"
+    - id: 2
+      name: "Torture"
+    - id: 4
+      name: "Interrogation"
+  uses:
+    - id: 1
+      name: "Slave Driver"
+    - id: 2
+      name: "Threatening Gestures"
+  quality: |
+    the victim remains intimidated longer or reveals more than expected.
+  failed: |
+    the target ignores all insults and attempts at intimidation.
+  critical: |
+    the target is utterly intimidated and won’t act against the character for the foreseeable future.
+  botch: |
+    instead of being intimidated or insulted, the reverse happens, and the target grows angry, calm, or even amused. Alternatively, the would-be intimidator appears foolish.
+  src:
+    - id: US25001E
+      firstPage: 195
+
+- id: TAL_18
+  name: "Etiquette"
+  applications:
+    - id: 1
+      name: "Manners"
+    - id: 2
+      name: "Rumors"
+    - id: 3
+      name: "Small Talk"
+    - id: 4
+      name: "Fashion"
+    - id: -1
+      name: "Heraldry & Family Trees"
+    - id: -2
+      name: "Poetry"
+    - id: -3
+      name: "Serve & Obey"
+  quality: |
+    the hero makes a good impression and is remembered in a positive light.
+  failed: |
+    the hero forgets some important rules of etiquette and makes a bad impression.
+  critical: |
+    the hero’s manners, wit, and charm are the talk of the party.
+  botch: |
+    the hero’s boorish behavior insults an important personage.
+  src:
+    - id: US25001E
+      firstPage: 194
+
+- id: TAL_19
+  name: "Streetwise"
+  encDescription: "no (maybe in some situations, such as if your armor helps you resemble a guard or a nobleman)"
+  applications:
+    - id: 1
+      name: "Shadowing"
+    - id: 2
+      name: "Asking Around"
+    - id: 3
+      name: "Judging Locations"
+    - id: -1
+      name: "Crime Stories"
+  quality: |
+    collect more information, or get it faster than expected.
+  failed: |
+    receive no useful information.
+  critical: |
+    find an especially good but inexpensive inn, obtain much more information than expected, or find a contact who offers excellent terms.
+  botch: |
+    walk into an ambush by a gang of thugs who plan to rob you blind.
+  src:
+    - id: US25001E
+      firstPage: 197
+
+- id: TAL_20
+  name: "Empathy"
+  applications:
+    - id: 1
+      name: "Sense Deception"
+    - id: 2
+      name: "Discern Motivation"
+  quality: |
+    gain insight into another person’s motivation or intentionally misleading statement.
+  failed: |
+    the hero is unsure.
+  critical: |
+    the hero gets a strong sense of what drives a person to act in a certain manner.
+  botch: |
+    the hero misjudges the situation completely (believing every word a liar says, or thinking an honest person is lying, for example).
+  src:
+    - id: US25001E
+      firstPage: 194
+
+- id: TAL_21
+  name: "Fast-Talk"
+  applications:
+    - id: 1
+      name: "Hard Sell"
+    - id: 2
+      name: "Begging"
+    - id: 3
+      name: "Subterfuge"
+    - id: 4
+      name: "Manipulation"
+    - id: 5
+      name: "Sweet-Talk"
+    - id: 6
+      name: "Provocation"
+    - id: -1
+      name: "Novels"
+  uses:
+    - id: 1
+      name: "Leader"
+  quality: |
+    the target character does more for the hero.
+  failed: |
+    the hero can’t persuade the target character.
+  critical: |
+    the target character does much more than expected.
+  botch: |
+    the target character grows angry with the hero and can’t be convinced of anything.
+  src:
+    - id: US25001E
+      firstPage: 195
+
+- id: TAL_22
+  name: "Disguise"
+  applications:
+    - id: 1
+      name: "Stage Acting"
+    - id: 2
+      name: "Costuming"
+    - id: 3
+      name: "Imitate Person"
+  tools: "a disguise"
+  quality: |
+    it’s hard to see through the disguise.
+  failed: |
+    the disguise is a poor one that won’t pass close examination.
+  critical: |
+    the disguise is flawless.
+  botch: |
+    people see through the disguise at once. The hero will probably get in trouble.
+  src:
+    - id: US25001E
+      firstPage: 193
+
+- id: TAL_23
+  name: "Willpower"
+  applications:
+    - id: 1
+      name: "Resist Persuasion"
+    - id: 2
+      name: "Face Threats"
+    - id: 3
+      name: "Resist Seduction"
+    - id: 4
+      name: "Resist Intimidation"
+    - id: 5
+      name: "Resist Fast-Talk"
+  quality: |
+    greatly reduce the effects of *Seduction* or *Persuasion*, or resist them completely.
+  failed: |
+    the hero cannot resist.
+  critical: |
+    the hero resists and cannot be influenced by that person or thing for the near future.
+  botch: |
+    the hero succumbs completely to the person attempting the influence, or faints when faced with something like a horrible demon.
+  src:
+    - id: US25001E
+      firstPage: 198
+
+- id: TAL_24
+  name: "Tracking"
+  applications:
+    - id: 1
+      name: "Conceal Tracks"
+    - id: 2
+      name: "Humanoid Tracks"
+    - id: 3
+      name: "Animal Tracks"
+  quality: |
+    perceive more details on the trail.
+  failed: |
+    the hero cannot find a trail or doesn’t learn anything new.
+  critical: |
+    as long as a trail hasn’t been completely destroyed, the hero can follow it to its end and receive more information than usual, spotting deceptions (such as covered-up tracks) at once.
+  botch: |
+    the hero mistakes the tracks and follows the wrong trail, perhaps meeting a dangerous creature or finding the wrong people.
+  src:
+    - id: US25001E
+      firstPage: 200
+
+- id: TAL_25
+  name: "Ropes"
+  encDescription: "no (maybe with a helmet or gauntlets)"
+  applications:
+    - id: 1
+      name: "Bindings"
+    - id: 2
+      name: "Knots"
+    - id: 3
+      name: "Tie Nets"
+    - id: 4
+      name: "Splice Ropes"
+    - id: -1
+      name: "Craft Ropes"
+  tools: "rope"
+  quality: |
+    the bindings hold better and are more difficult to escape.
+  failed: |
+    the hero’s knots are poor quality and easier to escape than usual.
+  critical: |
+    the hero ties a very robust knot. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    the hero ties a knot that slips open in any situation. It won't keep anything secured.
+  src:
+    - id: US25001E
+      firstPage: 199
+
+- id: TAL_26
+  name: "Fishing"
+  encDescription: "yes (spearfishing) or No (fishing with weirs, nets, or hooks)"
+  applications:
+    - id: 1
+      name: "Saltwater Animals"
+    - id: 2
+      name: "Freshwater Animals"
+    - id: 3
+      name: "Water Monsters"
+  tools: "net, weir, spear, fishing line with hook"
+  quality: |
+    the fish are tastier than the average catch.
+  failed: |
+    the fish don’t bite, or avoid the net.
+  critical: |
+    the number of rations obtained is very high. For QL, competitive checks, and cumulative checks, SP = 2xSR.
+  botch: |
+    the fisher falls into the water and loses some fishing equipment.
+  src:
+    - id: US25001E
+      firstPage: 198
+
+- id: TAL_27
+  name: "Orienting"
+  applications:
+    - id: 1
+      name: "Position of the Sun"
+    - id: 2
+      name: "Night Sky"
+    - id: 3
+      name: "Below Ground"
+  quality: |
+    the heroes learn their direction of movement more quickly.
+  failed: |
+    the heroes don’t know their direction of movement.
+  critical: |
+    the heroes find their way without trouble, even under the worst conditions.
+  botch: |
+    the heroes lose their way and move unknowingly in the wrong direction.
+  src:
+    - id: US25001E
+      firstPage: 199
+
+- id: TAL_28
+  name: "Plant Lore"
+  encDescription: "yes (for agriculture and gathering food) or no (for identifying plants)"
+  applications:
+    - id: 1
+      name: "Poisonous Plants"
+    - id: 2
+      name: "Healing Plants"
+    - id: 3
+      name: "Crops"
+    - id: 4
+      name: "Plant-based Dyes"
+  uses:
+    - id: 1
+      name: "Agriculture"
+  quality: |
+    gain more information about a plant
+  failed: |
+    the hero doesn’t recognize the plant.
+  critical: |
+    the hero knows everything about the plant, including special properties, and can preserve it to last double the usual amount of time.
+  botch: |
+    the hero mistakes the plant for another plant, possibly one that is poisonous.
+  src:
+    - id: US25001E
+      firstPage: 199
+
+- id: TAL_29
+  name: "Animal Lore"
+  applications:
+    - id: 1
+      name: "Domesticated Animals"
+    - id: 2
+      name: "Monsters"
+    - id: 3
+      name: "Wild Animals"
+  uses:
+    - id: 1
+      name: "Mimicry"
+    - id: 2
+      name: "Animal Taming"
+    - id: 3
+      name: "Breed Animals"
+  quality: |
+    the hero gains more information about an animal.
+  failed: |
+    the hero has no idea.
+  critical: |
+    the hero has extensive knowledge of that type of animal.
+  botch: |
+    you feel confident, but everything you think you know about the animal is wrong (you think an animal isn’t dangerous even though it is highly poisonous, or you believe it is herbivorous when it is actually carnivorous).
+  src:
+    - id: US25001E
+      firstPage: 198
+
+- id: TAL_30
+  name: "Survival"
+  applications:
+    - id: 1
+      name: "Make Fire"
+    - id: 2
+      name: "Build Campsite"
+    - id: 3
+      name: "Find Campsite"
+    - id: -1
+      name: "Predict Weather"
+  uses:
+    - id: 1
+      name: "Igloo Building"
+  tools: "survival gear, maybe a tent"
+  quality: |
+    the hero doesn’t need as much time to find or build a campsite.
+  failed: |
+    the hero chooses a poor campsite. Regeneration Phases suffer a penalty of -1.
+  critical: |
+    the hero finds a great resting place! Increase regeneration by 1.
+  botch: |
+    the campsite floods or swarms with vermin.
+  src:
+    - id: US25001E
+      firstPage: 200
+
+- id: TAL_31
+  name: "Gambling"
+  applications:
+    - id: 1
+      name: "Dice Games"
+    - id: 2
+      name: "Board Games"
+    - id: 3
+      name: "Card Games"
+    - id: 4
+      name: "Betting Games"
+    - id: -1
+      name: "Professional Publications"
+  uses:
+    - id: 1
+      name: "Cheating"
+  tools: "game"
+  quality: |
+    make a smart gambit.
+  failed: |
+    lose the game.
+  critical: |
+    win spectacularly. If playing for money, double your winnings.
+  botch: |
+    others suspect the character of cheating, especially if they have suffered losing streaks. If playing for money, lose at least your whole stake (if not more).
+  src:
+    - id: US25001E
+      firstPage: 201
+
+- id: TAL_32
+  name: "Geography"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetia"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Northmarches"
+    - id: 6
+      name: "Rommilysian Marches"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhag"
+    - id: 10
+      name: "Al'Anfan Empire"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Mountain Kingdoms of the Dwarves"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "High North"
+    - id: 17
+      name: "Horasian Empire"
+    - id: 18
+      name: "Caliphate"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orclands"
+    - id: 22
+      name: "Salamander Stones & Elf Realms"
+    - id: 23
+      name: "Shadowlands"
+    - id: 24
+      name: "South Sea & Forest Islands"
+    - id: 25
+      name: "Svellt Valley"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Deep South"
+    - id: 28
+      name: "Lands of the Tulamydes"
+    - id: 29
+      name: "Cyclops' Islands"
+    - id: -1
+      name: "Cartography"
+    - id: -2
+      name: "Professional Publications"
+  quality: |
+    uncover more details about population, places, and river crossings.
+  failed: |
+    the hero has no idea.
+  critical: |
+    the hero knows many details of the region, such as rulers, population count, customs, river courses, and bridges.
+  botch: |
+    misremember geographic details completely (the population count is off, bridges are not where they were thought to be, and so on).
+  src:
+    - id: US25001E
+      firstPage: 202
+
+- id: TAL_33
+  name: "History"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetia"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Northmarches"
+    - id: 6
+      name: "Rommilysian Marches"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhag"
+    - id: 10
+      name: "Al'Anfan Empire"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Mountain Kingdoms of the Dwarves"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "High North"
+    - id: 17
+      name: "Horasian Empire"
+    - id: 18
+      name: "Caliphate"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orclands"
+    - id: 22
+      name: "Salamander Stones & Elf Realms"
+    - id: 23
+      name: "Shadowlands"
+    - id: 24
+      name: "South Sea & Forest Islands"
+    - id: 25
+      name: "Svellt Valley"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Deep South"
+    - id: 28
+      name: "Lands of the Tulamydes"
+    - id: 29
+      name: "Cyclops' Islands"
+    - id: -1
+      name: "Professional Publications"
+  quality: |
+    uncover more details about historical personalities and epochs.
+  failed: |
+    the hero has no idea.
+  critical: |
+    the hero knows many details about a certain event or historical person.
+  botch: |
+    everything you remember about the subject is incorrect; you are wrong about dates and events.
+  src:
+    - id: US25001E
+      firstPage: 202
+
+- id: TAL_34
+  name: "Religions"
+  applications:
+    - id: 1
+      name: "Praios"
+    - id: 2
+      name: "Rondra"
+    - id: 3
+      name: "Efferd"
+    - id: 4
+      name: "Travia"
+    - id: 5
+      name: "Boron"
+    - id: 6
+      name: "Hesinde"
+    - id: 7
+      name: "Firun"
+    - id: 8
+      name: "Tsa"
+    - id: 9
+      name: "Phex"
+    - id: 10
+      name: "Peraine"
+    - id: 11
+      name: "Ingerimm"
+    - id: 12
+      name: "Rahja"
+    - id: 13
+      name: "Nameless One"
+    - id: 14
+      name: "Aves"
+    - id: 15
+      name: "Ifirn"
+    - id: 16
+      name: "Kor"
+    - id: 17
+      name: "Nandus"
+    - id: 18
+      name: "Swafnir"
+    - id: 19
+      name: "Marbo"
+    - id: 20
+      name: "Levthan"
+    - id: 21
+      name: "Rastullah"
+    - id: -1
+      name: "Professional Publications"
+  applicationsInput: depends on the god or philosophy
+  quality: |
+    more details about Churches, cults, gods, and clergy
+  failed: |
+    The hero has no idea.
+  critical: |
+    the hero knows detailed information about the topic, including special rituals, prayer texts, and philosophical basics.
+  botch: |
+    confuse special rites and philosophies of one Church for those of another.
+  src:
+    - id: US25001E
+      firstPage: 205
+
+- id: TAL_35
+  name: "Warfare"
+  applications:
+    - id: 1
+      name: "Siege Tactics"
+    - id: 2
+      name: "Open Battle"
+    - id: 3
+      name: "Partisan Tactics"
+    - id: 4
+      name: "Sea Battle"
+    - id: 5
+      name: "Tunnel Fighting"
+    - id: -1
+      name: "Professional Publications"
+  quality: |
+    gain an advantage during a battle
+  failed: |
+    the hero makes a bad decision.
+  critical: |
+    the hero’s brilliant plan grants more advantages in combat and may lead to victory.
+  botch: |
+    the hero makes a critical mistake that leads to trouble, either personally or for the hero’s side in the battle.
+  src:
+    - id: US25001E
+      firstPage: 206
+
+- id: TAL_36
+  name: "Magical Lore"
+  applications:
+    - id: 1
+      name: "Artifacts"
+    - id: 2
+      name: "Magical Beings"
+    - id: 3
+      name: "Rituals"
+    - id: 4
+      name: "Spells"
+    - id: -1
+      name: "Professional Publications"
+  uses:
+    - id: 1
+      name: "Analyst"
+  quality: |
+    more details about spells, magical beings, or exotic uses of magic
+  failed: |
+    the hero has no idea.
+  critical: |
+    the hero knows the origin, acting spell, and trigger of an ancient artifact.
+  botch: |
+    the hero’s mistaken knowledge results in a fatal misjudgment.
+  src:
+    - id: US25001E
+      firstPage: 203
+
+- id: TAL_37
+  name: "Mechanics"
+  applications:
+    - id: 1
+      name: "Levers"
+    - id: 2
+      name: "Hydraulics"
+    - id: 3
+      name: "Complicated Systems"
+    - id: -1
+      name: "Professional Publications"
+  quality: |
+    quicker planning
+  failed: |
+    the planned mechanism doesn’t work.
+  critical: |
+    SP = 2 x SR.
+  botch: |
+    Regardless of what the hero intended to build, the result is dangerous or collapses. The hero triggers the trap with the worst possible effect (it inflicts maximum damage, and so on).
+  src:
+    - id: US25001E
+      firstPage: 204
+
+- id: TAL_38
+  name: "Math"
+  applications:
+    - id: 1
+      name: "Fractions"
+    - id: 2
+      name: "Multiplications & Division"
+    - id: 3
+      name: "Addition & Subtraction"
+    - id: 4
+      name: "Geometry"
+    - id: 5
+      name: "Trigonometry"
+    - id: -1
+      name: "Professional Publications"
+    - id: -2
+      name: "Numerology"
+  quality: |
+    get a result more quickly
+  failed: |
+    the result is incorrect.
+  critical: |
+    you quickly derive the correct answer.
+  botch: |
+    the result is completely wrong, but the hero is sure that it’s correct.
+  src:
+    - id: US25001E
+      firstPage: 204
+
+- id: TAL_39
+  name: "Law"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetia"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Northmarches"
+    - id: 6
+      name: "Rommilysian Marches"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhag"
+    - id: 10
+      name: "Al'Anfan Empire"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Mountain Kingdoms of the Dwarves"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "High North"
+    - id: 17
+      name: "Horasian Empire"
+    - id: 18
+      name: "Caliphate"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orclands"
+    - id: 22
+      name: "Salamander Stones & Elf Realms"
+    - id: 23
+      name: "Shadowlands"
+    - id: 24
+      name: "South Sea & Forest Islands"
+    - id: 25
+      name: "Svellt Valley"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Deep South"
+    - id: 28
+      name: "Lands of the Tulamydes"
+    - id: 29
+      name: "Cyclops' Islands"
+    - id: -1
+      name: "Guild Law"
+    - id: -2
+      name: "Professional Publications"
+  quality: |
+    expose more options to solve a case
+  failed: |
+    the hero has no idea.
+  critical: |
+    know the peculiarities of the law and develop a plan to use it to your advantage.
+  botch: |
+    misinterpret the law, or overlook an important provision.
+  src:
+    - id: US25001E
+      firstPage: 203
+
+- id: TAL_40
+  name: "Myths & Legends"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetia"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Northmarches"
+    - id: 6
+      name: "Rommilysian Marches"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhag"
+    - id: 10
+      name: "Al'Anfan Empire"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Mountain Kingdoms of the Dwarves"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "High North"
+    - id: 17
+      name: "Horasian Empire"
+    - id: 18
+      name: "Caliphate"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orclands"
+    - id: 22
+      name: "Salamander Stones & Elf Realms"
+    - id: 23
+      name: "Shadowlands"
+    - id: 24
+      name: "South Sea & Forest Islands"
+    - id: 25
+      name: "Svellt Valley"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Deep South"
+    - id: 28
+      name: "Lands of the Tulamydes"
+    - id: 29
+      name: "Cyclops' Islands"
+    - id: -1
+      name: "Fairy Tales"
+    - id: -2
+      name: "Professional Publications"
+  quality: |
+    more details about various versions of the story
+  failed: |
+    the hero doesn’t know the story.
+  critical: |
+    the hero knows many details from the story and recalls many variants.
+  botch: |
+    the hero mistakes the story for another or misremembers details.
+  src:
+    - id: US25001E
+      firstPage: 204
+
+- id: TAL_41
+  name: "Sphere Lore"
+  applications:
+    - id: 1
+      name: "Limbo"
+    - id: 2
+      name: "Beings from the Spheres"
+    - id: 3
+      name: "1. Sphere"
+    - id: 4
+      name: "2. Sphere"
+    - id: 5
+      name: "3. Sphere"
+    - id: 6
+      name: "4. Sphere"
+    - id: 7
+      name: "5. Sphere"
+    - id: 8
+      name: "6. Sphere"
+    - id: 9
+      name: "7. Sphere"
+    - id: -1
+      name: "Professional Publications"
+  quality: |
+    more details about Limbo or the Spheres
+  failed: |
+    the hero knows nothing about the topic.
+  critical: |
+    the hero remembers some interesting details about individual demons or the paths into a hidden Globule.
+  botch: |
+    the hero makes a dangerous misjudgment.
+  src:
+    - id: US25001E
+      firstPage: 205
+
+- id: TAL_42
+  name: "Astronomy"
+  applications:
+    - id: 1
+      name: "Astrology"
+    - id: 2
+      name: "Stellar Cartography"
+    - id: 3
+      name: "Calendar"
+    - id: -1
+      name: "Professional Publications"
+  quality: |
+    quicker creation of horoscopes or determining direction of travel at night.
+  failed: |
+    the hero has no idea.
+  critical: |
+    the hero can calculate the exact movements of heavenly bodies.
+  botch: |
+    make a mistake drawing up a horoscope or predicting a lunar eclipse, and so on.
+  src:
+    - id: US25001E
+      firstPage: 201
+
+- id: TAL_43
+  name: "Alchemy"
+  applications:
+    - id: 1
+      name: "Alchemical Poisons"
+    - id: 2
+      name: "Elixirs"
+    - id: 3
+      name: "Mundane Alchemy"
+  tools: "alchemical laboratory"
+  quality: |
+    the potion is of better quality
+  failed: |
+    the elixir is ruined, or an analysis fails to yield a useful result.
+  critical: |
+    identify an elixir precisely, including its Level and how long it will remain stable.
+  botch: |
+    the elixir has an unpleasant side effect.
+  src:
+    - id: US25001E
+      firstPage: 206
+
+- id: TAL_44
+  name: "Sailing"
+  applications:
+    - id: 1
+      name: "Combat Maneuvers"
+    - id: 2
+      name: "Long Distances"
+    - id: 3
+      name: "Chases"
+    - id: 4
+      name: "Races"
+    - id: -1
+      name: "Navigation"
+  tools: "ship or boat"
+  quality: |
+    negotiate the distance faster.
+  failed: |
+    The hero barely makes any progress with the boat or ship.
+  critical: |
+    The hero uses currents and winds to sail twice as fast as expected.
+  botch: |
+    The hero falls overboard or damages an important part of the vessel.
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: TAL_45
+  name: "Driving"
+  applications:
+    - id: 1
+      name: "Combat Maneuvers"
+    - id: 2
+      name: "Long Distances"
+    - id: 3
+      name: "Chases"
+    - id: 4
+      name: "Races"
+  tools: "vehicles"
+  quality: |
+    negotiate the distance faster.
+  failed: |
+    the vehicle moves sluggishly, or the hero can’t set it into motion.
+  critical: |
+    the vehicle makes good speed and arrives in record time.
+  botch: |
+    the vehicle suffers a broken axle or tips on its side and throws the driver, who suffers *falling damage*.
+  src:
+    - id: US25001E
+      firstPage: 208
+
+- id: TAL_46
+  name: "Commerce"
+  applications:
+    - id: 1
+      name: "Accounting"
+    - id: 2
+      name: "Haggling"
+    - id: 3
+      name: "Money Exchange"
+    - id: -1
+      name: "Fencing Stolen Goods"
+  uses:
+    - id: 1
+      name: "Horse Faker"
+  quality: |
+    the hero can identify the price more precisely.
+  failed: |
+    the hero gets less than expected.
+  critical: |
+    the hero buys goods extremely cheaply or sells them for a fortune, and avoids leaving partners feeling left out or resentful. Any resulting price hike or discount should be at least 50%.
+  botch: |
+    the other person takes advantage of you, or a business partner refuses the deal. Any disadvantageous price variation should be at least 50%.
+  src:
+    - id: US25001E
+      firstPage: 207
+
+- id: TAL_47
+  name: "Treat Poison"
+  applications:
+    - id: 1
+      name: "Alchemical Poisons"
+    - id: 2
+      name: "Mineral-based Poisons"
+    - id: 3
+      name: "Plant-based Toxins"
+    - id: 4
+      name: "Venoms"
+  tools: "antidote"
+  quality: |
+    identify the poison (and therefore the treatment) faster.
+  failed: |
+    the hero can’t identify the poison and knows of no treatment.
+  critical: |
+    the patient recovers without the need for a special antidote.
+  botch: |
+    the healer performs an injurious bloodletting or otherwise injures the patient, possibly worsening the poisoning (1D6 DP, ignoring PRO).
+  src:
+    - id: US25001E
+      firstPage: 211
+
+- id: TAL_48
+  name: "Treat Disease"
+  applications:
+    - id: 1
+      name: "Swift Difar"
+    - id: 2
+      name: "Lutanas"
+    - id: 3
+      name: "Rapid Mania"
+    - id: 4
+      name: "Swamp Fever/Brabak Sweat"
+    - id: 5
+      name: "Zorgan Pox"
+  tools: "remedy"
+  quality: |
+    identify the disease faster.
+  failed: |
+    the hero can’t identify the disease and knows of no remedy or treatment.
+  critical: |
+    the patient heals without the need for a special remedy. In addition, the hero doesn’t catch the disease.
+  botch: |
+    the treatment injures the patient (1D6 DP,ignoring PRO) or the symptoms get worse. In addition, for contagious diseases, raise the chance of the hero becoming infected by 25%.
+  src:
+    - id: US25001E
+      firstPage: 211
+
+- id: TAL_49
+  name: "Treat Soul"
+  applications:
+    - id: 1
+      name: "Suppress Fear"
+    - id: 2
+      name: "Suppress Personality Flaw"
+    - id: 3
+      name: "Suppress Negative Trait"
+  quality: |
+    the patient suppresses the *disadvantage* for a longer time.
+  failed: |
+    the healer has no idea how to help the patient.
+  critical: |
+    the patient suppresses a *disadvantage (Afraid of…, Personality Flaw,* or *Negative Trait)* for an entire day.
+  botch: |
+    the healer unsettles or otherwise damages the patient’s psyche. The patient suffers a level of either the condition *Fear* or *Confusion* for one day.
+  src:
+    - id: US25001E
+      firstPage: 211
+
+- id: TAL_50
+  name: "Treat Wounds"
+  applications:
+    - id: 1
+      name: "Enhance Healing"
+    - id: 2
+      name: "Relieve Pain"
+    - id: 3
+      name: "Stabilize"
+  tools: "bandages, surgical instruments, herbs, needle and thread"
+  quality: |
+    the hero requires fewer healing herbs for the skill check, or treats the wound faster.
+  failed: |
+    the hero can’t help the wounded person.
+  critical: |
+    the subject receives (SP) LP during the next Regeneration Phase.
+  botch: |
+    injure the subject during treatment (1D6 DP, ignoring PRO).
+  src:
+    - id: US25001E
+      firstPage: 212
+
+- id: TAL_51
+  name: "Woodworking"
+  applications:
+    - id: 1
+      name: "Felling and Cutting"
+    - id: 2
+      name: "Joiner"
+    - id: 3
+      name: "Carpenter"
+    - id: -1
+      name: "Craft Instruments"
+    - id: -2
+      name: "Craft Boats"
+    - id: -3
+      name: "Craft Carriage"
+    - id: -4
+      name: "Craft Armor"
+    - id: -5
+      name: "Craft Ships"
+    - id: -6
+      name: "Craft Jewelry"
+    - id: -7
+      name: "Craft Wheels"
+    - id: -8
+      name: "Craft Weapon"
+  uses:
+    - id: 1
+      name: "Craft Furniture"
+  tools: "depends on the material being worked (for example, ax, plane, knife, saw, and so on)"
+  quality: |
+    finish the item faster or with a better quality
+  failed: |
+    the hero makes no progress.
+  critical: |
+    the hero receives double the number of SP for the check (minimum of 5 SP). Remove all penalties accrued due to failed cumulative checks.
+  botch: |
+    accumulated QL drop to 0 and you may make no further checks on this project.
+  src:
+    - id: US25001E
+      firstPage: 212
+
+- id: TAL_52
+  name: "Prepare Food"
+  applications:
+    - id: 1
+      name: "Gutting"
+    - id: 2
+      name: "Baking"
+    - id: 3
+      name: "Frying & Boiling"
+    - id: 4
+      name: "Brewing"
+    - id: 5
+      name: "Preserving"
+    - id: -1
+      name: "Distilling"
+  uses:
+    - id: 1
+      name: "Confectioner"
+  tools: "ingredients, field kitchen, cooking utensils"
+  quality: |
+    the food tastes better than usual.
+  failed: |
+    the food is burned or inedible.
+  critical: |
+    the dish is exquisitely tasty, the crafted wine of award-winning calibre.
+  botch: |
+    the food tastes terrible, and consuming it leads to indigestion, diarrhea, or vomiting (1D6 DP, ignoring PRO).
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: TAL_53
+  name: "Leatherworking"
+  applications:
+    - id: 1
+      name: "Tanning"
+    - id: 2
+      name: "Furrier"
+    - id: 3
+      name: "Produce Leather Goods"
+    - id: -1
+      name: "Craft Armor"
+  tools: "awl, folding bone, punch pliers, knife, hallmarking iron, pliers"
+  quality: |
+    finish the item faster or with a better quality.
+  failed: |
+    the hero makes no progress.
+  critical: |
+    the hero receives double the number of SP for the check (minimum of 5 SP). Remove all penalties accrued due to failed cumulative checks.
+  botch: |
+    accumulated QL drop to 0 and you may make no further checks on this project.
+  src:
+    - id: US25001E
+      firstPage: 209
+
+- id: TAL_54
+  name: "Artistic Ability"
+  applications:
+    - id: 1
+      name: "Painting"
+    - id: 2
+      name: "Carving"
+    - id: 3
+      name: "Drawing"
+    - id: -1
+      name: "Counterfeiter"
+    - id: -2
+      name: "Draw Magical Signs"
+    - id: -3
+      name: "Printing"
+    - id: -4
+      name: "Calligraphy"
+    - id: -5
+      name: "Craft Charcoal Drawing"
+    - id: -6
+      name: "Craft Copperplate Engraving"
+    - id: -7
+      name: "Craft Oil Painting"
+    - id: -8
+      name: "Tattoos"
+    - id: -9
+      name: "Craft Mural"
+  tools: "paint, chalk, pens, carving knife"
+  quality: |
+    the drawing is better than usual.
+  failed: |
+    the hero manages to create a drawing that is recognizable with a little imagination, but is not pretty.
+  critical: |
+    the painting is so good that people mistake the hero for a famous painter.
+  botch: |
+    terrible scrawl, impossible to recognize.
+  src:
+    - id: US25001E
+      firstPage: 206
+
+- id: TAL_55
+  name: "Metalworking"
+  applications:
+    - id: 1
+      name: "Goldsmithing"
+    - id: 2
+      name: "Blacksmithing"
+    - id: 3
+      name: "Casting"
+    - id: 4
+      name: "Smelting"
+    - id: -1
+      name: "Craft Instruments"
+    - id: -2
+      name: "Craft Armor"
+    - id: -3
+      name: "Craft Jewelry"
+    - id: -4
+      name: "Craft Weapon"
+  tools: "hammer, anvil, forge, fuel"
+  quality: |
+    finish the item faster or with a higher quality
+  failed: |
+    the hero makes no progress.
+  critical: |
+    the hero receives double the number of SP for the check (minimum of 5 SP). Remove all penalties accrued due to failed cumulative checks.
+  botch: |
+    accumulated QL drop to 0 and you may make no further checks on this project.
+  src:
+    - id: US25001E
+      firstPage: 209
+
+- id: TAL_56
+  name: "Music"
+  applications:
+    - id: 1
+      name: "Wind Instruments"
+    - id: 2
+      name: "String Instruments"
+    - id: 3
+      name: "Drums"
+    - id: -1
+      name: "Conducting"
+  tools: "musical instrument"
+  quality: |
+    the performance thrills the audience.
+  failed: |
+    the melody is off, or the instrument is out of tune.
+  critical: |
+    the hero plays an enthralling melody that nobody can resist.
+  botch: |
+    terrible, ominous tones issue from the instrument, perhaps because it is damaged. Listeners flee or try to wrest the instrument from the musician.
+  src:
+    - id: US25001E
+      firstPage: 209
+
+- id: TAL_57
+  name: "Pick Locks"
+  applications:
+    - id: 1
+      name: "Bit Locks"
+    - id: 2
+      name: "Combination Locks"
+    - id: -1
+      name: "Disarm Traps"
+  tools: "lock-picks, hairpin, hook"
+  quality: |
+    open the lock faster.
+  failed: |
+    the lock doesn’t open.
+  critical: |
+    open the lock in record time, taking only about half as long as expected.
+  botch: |
+    the lock-pick breaks, the trap is sprung, or the lock jams.
+  src:
+    - id: US25001E
+      firstPage: 210
+
+- id: TAL_58
+  name: "Earthencraft"
+  applications:
+    - id: 1
+      name: "Masonry"
+    - id: 2
+      name: "Stonecutting"
+    - id: 3
+      name: "Stone Carving"
+    - id: -1
+      name: "Glassblowing"
+    - id: -2
+      name: "Pottery"
+    - id: -3
+      name: "Grow Crystals"
+    - id: -4
+      name: "Craft Jewelry"
+    - id: -5
+      name: "Craft Weapon"
+    - id: -6
+      name: "Dike Building"
+  uses:
+    - id: 1
+      name: "Sculpture"
+  tools: "raw materials (stone, clay), hammer, chisel"
+  quality: |
+    finish the item faster or with a better quality.
+  failed: |
+    the hero makes no progress.
+  critical: |
+    the hero receives double the number of SP for the check (minimum of 5 SP). Remove all penalties accrued due to failed cumulative checks.
+  botch: |
+    accumulated QL drop to 0 and you may make no further checks on this project.
+  src:
+    - id: US25001E
+      firstPage: 208
+
+- id: TAL_59
+  name: "Clothworking"
+  applications:
+    - id: 1
+      name: "Dyeing"
+    - id: 2
+      name: "Felting"
+    - id: 3
+      name: "Sewing"
+    - id: 4
+      name: "Spinning"
+    - id: 5
+      name: "Weaving"
+    - id: -1
+      name: "Craft Flamboyant Attire"
+    - id: -2
+      name: "Craft Armor"
+  tools: "knife, sewing tools, scissors, loom, drop spindle, spinning wheel"
+  quality: |
+    the item is finished faster or has a better quality.
+  failed: |
+    the hero makes no progress.
+  critical: |
+    the hero receives double the number of SP for the check (minimum of 5 SP). Remove all penalties accrued due to failed cumulative checks.
+  botch: |
+    accumulated QL drop to 0 and you may make no further checks on this project.
+  src:
+    - id: US25001E
+      firstPage: 207

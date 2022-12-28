@@ -1,0 +1,46 @@
+- id: LP
+  name: "Lebensenergie"
+  short: LE
+  calc: "(GW der Spezies + KO + KO)"
+
+- id: AE
+  name: "Astralenergie"
+  short: AE
+  calc: "(20 durch Zauberer + Leiteigenschaft)"
+  calcHalfPrimary: "(20 durch Zauberer + Leiteigenschaft/2)"
+  calcNoPrimary: "(20 durch Zauberer)"
+
+- id: KP
+  name: "Karmaenergie"
+  short: KE
+  calc: "(20 durch Geweiht + Leiteigenschaft)"
+
+- id: SPI
+  name: "Seelenkraft"
+  short: SK
+  calc: "(GW der Spezies + (MU + KL + IN)/6)"
+
+- id: TOU
+  name: "Zähigkeit"
+  short: ZK
+  calc: "(GW der Spezies + (KO + KO + KK)/6)"
+
+- id: DO
+  name: "Ausweichen"
+  short: AW
+  calc: "(GE/2)"
+
+- id: INI
+  name: "Initiative"
+  short: INI
+  calc: "(MU + GE)/2"
+
+- id: MOV
+  name: "Geschwindigkeit"
+  short: GS
+  calc: "(GW der Spezies, mögl. Einbeinig)"
+
+- id: WT
+  name: "Wundschwelle"
+  short: WS
+  calc: "(KO/2)"

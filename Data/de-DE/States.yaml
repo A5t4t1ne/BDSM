@@ -1,0 +1,389 @@
+- id: STATE_1
+  name: "Bewegungsunfähig"
+  description: |
+    Unter anderem Paralyse, Treibsand oder stabile Fesseln können dazu führen, dass sich eine Person nicht mehr bewegen kann. Sie kann jedoch noch normal wahrnehmen und Handlungen ausführen, für die sie keine körperlichen Bewegungen benötigt. Beispiele hierfür wären die meisten Anwendungen von Wissenstalenten oder das Wirken von Zaubern, ohne Gesten und Formeln zu verwenden.
+  src:
+    - id: US25001
+      firstPage: 34
+
+- id: STATE_2
+  name: "Bewusstlos"
+  description: |
+    Wenn eine Person etwa schläft oder einen sehr harten Schlag auf den Kopf bekommen hat, zählt sie als *Bewusstlos*. Zwar ist ihr Körper nicht eingeschränkt, aber ihr Geist ist entweder anderweitig beschäftigt oder inaktiv.<br>
+    Zusätzlich erleidet der Held auch noch den Status *Handlungsunfähig*.
+  src:
+    - id: US25001
+      firstPage: 34
+
+- id: STATE_3
+  name: "Blind"
+  description: |
+    Eine blinde Person kann ihren Sehsinn nicht verwenden. Ursache hiervon kann der Nachteil Blind sein, aber auch völlige Dunkelheit oder schlichtweg verbundene Augen.<br>
+    Inwieweit sich eine blinde Person orientieren kann, ist von ihren anderen Sinnen abhängig. Selbst für einfache Aktionen können Proben auf *Sinnesschärfe* nötig sein.<br>
+    Manche Talente kann eine blinde Person gar nicht ausführen, viele sind oft deutlich erschwert.<br>
+    Welche Talente gar nicht oder nur erschwert ausgeführt werden können, entscheidet der Spielleiter je nach Situation.<br>
+    Im Kampf muss sich ein blinder Kämpfer zumindest grob über die Position seines Gegners bewusst sein, beispielsweise, weil er ihn hören kann. Hierzu sind vergleichende Proben gegen *Sinnesschärfe (Suchen)* und *Verbergen (Schleichen)* nötig. Ist der blinde Kämpfer hier erfolgreich, darf er Angriffe und Verteidigungen gegen seinen Gegner ausführen. Nahkampfattacken werden hierbei halbiert, Fernkampfattacken sind reine Glückstreffer (gewürfelte 1 auf 1W20). Letzteres gilt auch für Verteidigungen gegen Nahkampfattacken. Verteidigungen gegen Fernkampfattacken sind unmöglich.<br>
+    Zauber und Liturgien können auf andere nur gewirkt werden, wenn der blinde Wirkende sein Ziel berührt.
+  src:
+    - id: US25001
+      firstPage: 34
+      lastPage: 35
+
+- id: STATE_4
+  name: "Blutrausch"
+  description: |
+    Sobald der Held diesen Status erhält, erfährt er ab der nächsten Kampfrunde eine Erleichterung von 4 auf alle Nahkampfattacken und verursacht +2 Trefferpunkte, kann sich aber nicht mehr verteidigen, Fernkampfangriffe ausführen oder Fertigkeiten einsetzen (außer Körpertalente und *Einschüchtern*). Als Kampfsonderfertigkeit kann er nur den Wuchtschlag einsetzen. Darüber hinaus sind Proben auf Kraftakt um 2 erleichtert und der Held ignoriert alle Abzüge durch den Zustand *Schmerz*.<br>
+    Die genaue Dauer in Kampfrunden wird vom Spielleiter im Geheimen mittels 2W20 bestimmt. Der Held greift in diesem Zeitraum zunächst seine Feinde an.<br>
+    Sollten diese kampfunfähig sein, greift er den Nächstbesten an, also z.B. Unbeteiligte oder Verbündete. Steht außer ihm in Sichtweite niemand mehr, fängt er sinnlos zu wüten an.<br>
+    Nach dem Rausch erleidet der Held zwei Stufen *Betäubung*.
+  src:
+    - id: US25001
+      firstPage: 35
+
+- id: STATE_5
+  name: "Brennend"
+  description: |
+    Die Kleidung des Helden hat Feuer gefangen und er erleidet, so lange der Status anhält, Feuerschaden.<br>
+    Um ein so entstehendes Feuer zu löschen, ist eine erfolgreiche Probe auf *Körperbeherrschung* nötig. Diese wird bei einer kleinen Fläche ohne Erschwernis abgelegt. Bei einer großen betroffenen Fläche ist sie um 1 erschwert, steht die Person komplett in Flammen, sogar um 2. Die Probe kann jede Kampfrunde einmal abgelegt werden.<br>
+    Auch Helfer können für die brennende Person die Probe ablegen. Es ist aber auch hierbei nur insgesamt eine Probe pro Kampfrunde und brennender Person erlaubt. Das Löschen mit Wasser, Sand oder anderen Hilfsmitteln funktioniert ebenfalls. Ob hierbei eine Probe notwendig ist und wie lange es dauert, bis der Held gelöscht werden kann, entscheidet der Meister.<br>
+    Wurde die Person mit einer Säure übergossen, gelten die gleichen Regeln, jedoch ist hier zwingend eine ausreichende Menge Wasser oder andere passende Hilfsmittel nötig, um die Säure abzuwaschen oder zu neutralisieren. Ohne diese darf keine Probe auf *Körperbeherrschung* abgelegt werden. Mehr zum Feuer- und Säureschaden siehe Detailregeln **Regelwerk 340f**.
+  src:
+    - id: US25001
+      firstPage: 35
+
+- id: STATE_6
+  name: "Eingeengt"
+  description: |
+    Befindet sich eine Person in einer beengten Umgebung, beispielsweise in niedrigen Räumen, engen Stollen oder in einem dichten Gedränge, gilt dies als beengte Umgebung.<br>
+    In einer solchen Situation erleidet eine Person den Status *Eingeengt*. Sie kann sich dann nur noch eingeschränkt bewegen, was sich besonders im Kampf negativ auswirkt.<br>
+    Waffen mit der Reichweite kurz führen hier nicht zu Abzügen. Waffen mit der Reichweite mittel hingegen tragen eine Erschwernis von 4 auf Attacke und Parade ein, lange Waffen sogar Erschwernisse von jeweils 8.<br>
+     Talentanwendungen können in solchen Situationen um bis zu 2 erschwert werden. Zauber und Liturgien werden normalerweise nicht negativ beeinflusst, wenn der Wirkende eingeengt ist.
+
+    Art | Modifikator
+    :-- | :--
+    Kurze Waffen | +/–0 auf AT; +/–0 auf PA
+    Mittlere Waffen | –4 auf AT; –4 auf PA
+    Lange Waffen | –8 auf AT; –8 auf PA
+    Kleine Schilde | –2 auf AT; –2 auf PA
+    Mittlere Schilde | –4 auf AT; –3 auf PA
+    Große Schilde | –6 auf AT; –4 auf PA
+  src:
+    - id: US25001
+      firstPage: 35
+      lastPage: 36
+
+- id: STATE_7
+  name: "Fixiert"
+  description: |
+    Wenn eine Person am Boden festklebt oder von Ranken oder Fallen an Ort und Stelle gehalten wird, gilt sie als *Fixiert*. Ihre GS fällt auf 0, ihr Ausweichenwert wird um 4 gesenkt.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_8
+  name: "Handlungsunfähig"
+  description: |
+    Die Person ist durch Zustände oder andere Modifikatoren so angeschlagen, dass sie nicht mehr handeln kann. Ihre GS fällt auf 0 und sie kann keine Aktionen oder Verteidigungen ausführen. In den meisten Situationen gilt sie zudem als *liegend*. Je nach Situation kann der Spielleiter erlauben, freie Aktionen auszuführen, um zu sprechen.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_9
+  name: "Krank"
+  description: |
+    Der Held ist an einer Krankheit erkrankt. So lange die Krankheit nicht abklingt oder der Held geheilt wird, kann er nicht mehr durch eine normale Regenerationsphase regenerieren.<br>
+    Nutzt er nicht jeden Tag mindestens eine Regenerationsphase zur Erholung (z.B. durch Schlaf oder Bettruhe), verliert er 1W3 Lebenspunkte.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_10
+  name: "Liegend"
+  description: |
+    Ob gerade geweckt oder zu Boden geworfen, die Person befindet sich in liegender Position. Dies führt besonders im Kampf zu einigen Modifikationen. So lange die Person liegt, kann sie sich nur sehr langsam fortbewegen (GS 1). Ihre Verteidigung ist um 2 erschwert, ihre Angriffe um 4.<br>
+    Wer aufstehen möchte, braucht dazu 1 Aktion. Ist ein Gegner in Angriffsdistanz, kann er dabei einen Passierschlag ausführen. ß nUm keinen Passierschlag abzubekommen, kann der Held eine Probe auf *Körperbeherrschung (Kampfmanöver)* ablegen. Bei Gelingen bekommt er keinen Passierschlag ab.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_11
+  name: "Stumm"
+  description: |
+    Die Person kann nicht sprechen, was die Kommunikation mit ihr deutlich einschränkt. Personen mit diesem Status können Probleme bei Zaubern haben.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_12
+  name: "Taub"
+  description: |
+    Die Person kann nichts hören, was die Kommunikation mit ihr deutlich einschränkt. Personen mit diesem Status können keine Proben auf *Sinnesschärfe* ablegen, die sich nur auf den Hörsinn beziehen. Proben auf *Sinnesschärfe (Hinterhalte entdecken)* sind um 3 erschwert.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_13
+  name: "Überrascht"
+  description: |
+    Die üblichen Kampfhandlungen gehen davon aus, dass alle Parteien ihre Gegner sehen oder wahrnehmen. Allerdings gibt es Situationen wie beispielsweise Hinterhalte, in denen man überrascht ist. Gegen überraschte Personen darf eine Aktion ausgeführt werden, gegen die keine Verteidigung genutzt werden darf. Erst danach beginnt die reguläre Kampfrunde.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_14
+  name: "Unsichtbar"
+  description: |
+    Die Person ist mit dem Sichtsinn nicht mehr wahrnehmbar. Sie ist natürlich trotzdem weiterhin hör-, riech- und ertastbar.<br>
+    Im Kampf kann eine unsichtbare Person nur angegriffen werden, wenn der Angreifer sich über ihre Existenz und grobe Position bewusst ist. Hierzu sind vergleichende Proben auf *Sinnesschärfe (Suchen)* und *Verbergen (Schleichen)* nötig. Ist der Angreifer erfolgreich, darf er Angriffe und Verteidigungen gegen den Unsichtbaren ausführen. Sämtliche Attackewerte werden hierbei halbiert, Fernkampfattacken sind reine Glückstreffer (gewürfelte 1 auf 1W20). Verteidigungen gegen Angriffe eines Unsichtbaren sind auch Glücksache (gewürfelte 1 auf 1W20). Verteidigungen gegen Fernkampfattacken eines Unsichtbaren sind unmöglich.<br>
+    Zauber und Liturgien können nur auf einen Unsichtbaren gewirkt werden, wenn der Wirkende den Unsichtbaren berührt.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_15
+  name: "Vergiftet"
+  description: |
+    Der Held ist vergiftet worden. So lange das Gift wirkt, kann der Held nicht mehr durch eine normale Regenerationsphase regenerieren.
+  src:
+    - id: US25001
+      firstPage: 36
+
+- id: STATE_16
+  name: "Hörigkeit"
+  description: |
+    Wer unter dem Status *Hörigkeit* leidet, ist durch den Verursacher der *Hörigkeit* leichter zu beeinflussen. Der Hörige wird die Sache des Verursachers unterstützen, selbst wenn dieser ihn schlecht behandelt, es für den Hörigen finanzielle Einbußen bedeutet oder dadurch seine Gesundheit gefährdet wird. Bis in den Tod geht aber niemand mit diesem Status freiwillig und der Status endet, wenn dergleichen gefordert wird. Möchte jemand die hörige Person durch ein Gesellschaftstalent so beeinflussen, dass sie gegen den Verursacher vorgehen soll, so ist diese Probe um 3 erschwert. Der Status endet je nach Ursache, beispielsweise durch den Ablauf der Wirkungsdauer bei Zaubersprüchen und Liturgien, spätestens aber nach 6 Monaten.
+  src:
+    - id: US25002
+      firstPage: 174
+    - id: US25005
+      firstPage: 235
+
+- id: STATE_17
+  name: "Pechmagnet"
+  description: |
+    Wer den Status *Pechmagnet* erleidet, erhält den gleichnamigen Nachteil. Wenn der Held schon den Nachteil Pechmagnet hat und ihn ein weiteres Mal durch den Status erhält, dann ist die Chance, dass ihm etwas Schlimmes passiert nicht zweifach, sondern sogar vierfach so hoch wie bei normalen Personen (siehe **Regelwerk** Seite **174**). Der Status (und damit auch der dadurch erhaltene Nachteil) endet, wenn nichts anders angegeben ist, nach einem Tag.
+  src:
+    - id: US25201
+      firstPage: 121
+
+- id: STATE_18
+  name: "Raserei"
+  description: |
+    Einige Wesen können in den Status der *Raserei* verfallen, wenn sie eine bestimmte Menge an LeP durch einen Gegner verloren haben. Das Ungeheuer oder Tier erhält eine Reihe von Boni und teilweise auch Mali auf Werte (angegeben bei dem entsprechenden Wesen). Der Status endet, sobald der Gegner stirbt, eine bestimmte Zeit vergangen ist oder die Bedingungen für die Flucht eintreten (z.B. ein zu niedriger LE-Stand). *Raserei* ist nicht zu verwechseln mit dem Status *Blutrausch*.
+  src:
+    - id: US25201
+      firstPage: 121
+    - id: US25005
+      firstPage: 235
+    - id: US25219
+      firstPage: 117
+
+- id: STATE_19
+  name: "Übler Geruch"
+  description: |
+    Dieser Status sorgt dafür, dass der Held extrem unangenehm riecht. Proben auf Gesellschaftstalente (außer *Einschüchtern*, *Menschenkenntnis* und *Willenskraft*) sind für eine Woche um 1 zusätzlich zu eventuellen anderen Modifikatoren erschwert. Der Geruch lässt sich nicht abwaschen, nur durch andere starke Gerüche wie Parfüm für eine Stunde überdecken.
+  src:
+    - id: US25201
+      firstPage: 122
+    - id: US25219
+      firstPage: 117
+
+- id: STATE_20
+  name: "Versteinert"
+  description: |
+    Der Status *Versteinert* bedeutet, dass der Held sich in eine Steinstatue verwandelt hat. Dieser Status ist permanent, es sei denn, bei der Ursache der Versteinerung ist eine Dauer angegeben. Ansonsten kann der Held nur durch Magie oder göttliches Wirken von diesem Status befreit werden. Ob man durch eine Versteinerung sofort stirbt oder es noch eine Chance auf eine Rückverwandlung gibt, ist bei der jeweiligen Ursache angegeben.<br>
+    Während der Versteinerung ist der Held nicht in der Lage, sich zu bewegen, auch sein Geist ist inaktiv und er kann mit seinen anderen Sinnesorganen nichts wahrnehmen. Sollte er von dem Status befreit werden, so kann er sich an nichts während seiner Zeit als Statue erinnern.<br>
+    Der Held altert als Steinstatue nicht und auch Gifte und Krankheiten sind inaktiv. Die Statue kann aber beschädigt werden und bei einer Rückverwandlung wird der Schaden auch auf den fleischlichen Körper übertragen. Abgebrochene Steinfinger äußern sich als abgetrennte Finger, Kratzer an der Statue übertragen sich als Schnittwunden usw. Der dadurch entstandene Schaden ist vom Meister zu bemessen.
+  src:
+    - id: US25201
+      firstPage: 122
+    - id: US25005
+      firstPage: 235
+
+- id: STATE_21
+  name: "Blutend"
+  description: |
+    Den Status bekommt ein Held durch tiefe, klaffende Wunden oder kritische Treffer. Wenn ein Held den Status erhält, muss eine Probe auf *Selbstbeherrschung* abgelegt werden. Der Status dauert 7–QS KR lang an und beginnt augenblicklich. Ein Patzer verdoppelt die Dauer, ein Kritischer Erfolg stoppt die Blutung sofort. Am Ende jeder KR die der Staus andauert, erhält der Held 1 SP durch starke Nachblutungen.<br>
+    Um den Status *Blutend* vorzeitig zu beenden, kann der betroffene Held oder einer seiner Gefährten zusätzlich eine Probe auf *Heilkunde Wunden* erleichtert um 2 ablegen. Die Probe auf *Heilkunde Wunden* erfordert 1 Aktion und reduziert die Anzahl der KR um QS/2.<br>
+    Ein Held kann nicht gleichzeitig mehrfach unter dem Status *Blutend* leiden. Erhält er, während er noch unter dem Status leidet, diesen ein weiteres Mal, muss erneut eine Probe auf *Selbstbeherrschung* gewürfelt werden. Nur der länger anhaltende Status *Blutend* zählt.
+  src:
+    - id: US25007
+      firstPage: 147
+
+- id: STATE_22
+  name: "Kind der Finsternis"
+  description: |
+    - Ein Kind der Finsternis zählt als Untoter (siehe **Regelwerk** Seite **255**).
+    - Es ist vom *Ewigen Fluch der Götter* (siehe **Aventurisches Bestiarium II** Seite **122**) betroffen.
+
+    <figure>
+      <figcaption>Werte:</figcaption>
+      <dl>
+        <dt>MU</dt>
+        <dd>+5</dd>
+        <dt>CH</dt>
+        <dd>+5</dd>
+        <dt>GE</dt>
+        <dd>+5</dd>
+        <dt>KO</dt>
+        <dd>+5</dd>
+        <dt>KK</dt>
+        <dd>+5</dd>
+        <dt>GS</dt>
+        <dd>+2</dd>
+        <dt>SK</dt>
+        <dd>+2 (die volle SK ist nun eine Erschwernis für alle Zauber, die gegen das Kind der Finsternis wirken, es sei denn, der Vampir ist ein freiwilliges Ziel)</dd>
+        <dt>TP</dt>
+        <dd>+1 (bei waffenlosen Angriffen durch Raufen)</dd>
+        <dt>RS</dt>
+        <dd>+5 (natürlicher RS, kombinierbar mit Rüstungen)</dd>
+      </dl>
+    </figure>
+    <figure>
+      <figcaption>Talent-Boni:</figcaption>
+      FW Kraftakt +2, FW Verbergen +2
+    </figure>
+    <figure>
+      <figcaption>Zusätzliche Vorteile (sofern nicht bereits vorhanden):</figcaption>
+      Altersresistenz, Dämmerungssicht, Herausragender Sinn (Geruch und Gehör), Immunität gegen alle Krankheiten, Immunität gegen alle Gifte
+    </figure>
+    <figure><figcaption>Zusätzliche Nachteile:</figcaption>Lichtempfindlich, Schlechte Eigenschaft Jähzorn oder Rachsucht (falls schon vorhanden, ist die Probe auf *Willenskraft* um die Schlechte Eigenschaft zu unterdrücken um 1 erschwert), Stigma (kein Schatten und kein Spiegelbild)</figure>
+    <figure>
+      <figcaption>Magische Begabung:</figcaption>
+      - Ein Kind der Finsternis kann sich mit AP den Vorteil *Zauberer* holen. Welche Tradition am besten passt, entscheidet der Meister.
+      - Ein Kind der Finsternis ist durch Zauber und Liturgien als magisches Wesen erkennbar.
+    </figure>
+    <figure>
+      <figcaption>Vampirische Sonderfertigkeiten:</figcaption>
+      - Ein Kind der Finsternis hat Zugriff auf eine Reihe von speziellen Sonderfertigkeiten, die Vampirische Gaben (siehe **Aventurisches Bestiarium II** Seite **120**) genannt werden. Er muss dafür jeweils AP ausgeben. Zu Beginn seiner Erhebung kann er bis zu 20 AP investieren. Wie schnell er danach weitere Vampirische Gaben erlangen kann, entscheidet der Meister.
+      - Alle Kinder der Finsternis verfügen bei ihrer Erhebung kostenlos über die Sikaryan-Raub-Sonderfertigkeiten *Blutdurst der Fledermaus* (siehe **Aventurisches Bestiarium II** Seite **120**), können diese aber gegen eine andere Sikaryan-Raub-Sonderfertigkeit tauschen.
+    </figure>
+    <figure>
+      <figcaption>Regeneration:</figcaption>
+      - Jede KR regeneriert ein Kind der Finsternis 2W6 LeP (bis zu seinem Maximum an LeP).
+      - Ausgenommen hiervon sind Verletzungen, die durch die besonderen Verwundbarkeiten des Vampirs zustande gekommen sind. Durch diese Ursachen erlittene SP heilen regulär über Regenerationsphasen, Zauber usw.
+      Sollten die LeP unter den negativen Wert in KO fallen, zerfällt ein Kind der Finsternis zu Staub. Zwischen 0 LeP und dem negativen Wert in KO, bleibt die Regenerationsfähigkeit erhalten.
+    </figure>
+    <figure>
+      <figcaption>Verletzbarkeit:</figcaption>
+      - Profane, magische und geweihte Waffen richten nur halben Schaden an. Die Trefferpunkte werden ausgewürfelt, dann halbiert, anschließend der Rüstungsschutz abgezogen.
+    </figure>
+    <figure>
+      <figcaption>Besonderheiten:</figcaption>
+      - Ein Kind der Finsternis braucht zum Leben keine Nahrung, kein Wasser und keine Luft.
+      - Sie können keine Nachkommen zeugen oder empfangen.
+      - Domestizierte Tiere und Vertraute fühlen sich in der Nähe eines Kinds der Finsternis unwohl. In einem Radius von 13 Schritt um den Vampir verhalten sie sich unruhig, wiehern, winseln oder versuchen sich zu verstecken.
+      - Ein Kind der Finsternis ist nicht den allgemeinen Untoten-Regeln unterworfen, es sei denn, es ist explizit erwähnt.
+      Geweihte, die zu einem Kind der Finsternis werden, verlieren den Vorteil *Geweihter*, bekommen aber die AP des Vorteils wieder gutgeschrieben. Ebenso verlieren sie ihr gesamtes Karma und können den Vorteil Geweihter nicht mehr erhalten. Geweihte des Namenlosen sind davon nicht betroffen und können weiterhin ihren Vorteil nutzen und Karmaenergie einsetzen. Ein Kind der Nacht kann im späteren Verlauf seiner Existenz ein Geweihter des Namenlosen werden.
+      Zauberer verlieren nicht ihren Vorteil *Zauberer* und können weiterhin als Kind der Nacht Magie wirken.
+    </figure>
+    <figure>
+      <figcaption>Sikaryan-Einbußen:</figcaption>
+      - Jede Woche, den das Kind der Finsternis aktiv ist, erleidet es 1 Stufe Sikaryan-Verlust. Es muss wie jeder Kulturschaffende täglich schlafen.
+      - Ein Kind der Finsternis kann sich lange schlafen legen und so die Sikaryan-Einbußen für Monate hinauszögern. Ein lange schlafendes Kind der Finsternis verliert alle 3 Monate 1 Stufe *Sikaryan-Verlust* und kann entscheiden, nach jeweils 3 Monaten aufzuwachen.
+      - Ein Kind der Finsternis kann sich aber auch entscheiden, in einen Tiefschlaf zu fallen und so die Sikaryan-Einbußen für Jahre hinauszögern. Ein Kind der Finsternis in Tiefschlaf verliert alle 12 Monate 1 Stufe *Sikaryan-Verlust* und kann entscheiden, nach jeweils 12 Monaten aufzuwachen.
+      Gleich in welchen Schlafzustand sich ein Kind der Finsternis versetzt hat, es wacht auf, wenn es Stufe III von *Sikaryan-Verlust* erreicht hat oder sich ein Kulturschaffender bis auf 13 Schritt seinem Schlafplatz nähert.
+      - Bei Stufe IV verliert der Vampir den Status *Kind der Finsternis* und erhält stattdessen den Status *Minderer Vampir* (siehe **Aventurisches Bestiarium II** Seite **120**).
+    </figure>
+  src:
+    - id: US25219
+      firstPage: 119
+      lastPage: 120
+
+- id: STATE_23
+  name: "Minderer Vampir"
+  description: |
+    Ein minderer Vampir verliert augenblicklich seine Seele und die Regenerationsfähigkeit. Außerdem richten profane, magische und geweihte Waffen wieder vollen Schaden an. Die Boni auf Eigenschaften sinken auf jeweils +2 (statt +5) und sollte der mindere Vampir alle seine LeP verlieren, ist er vernichtet. Ein minderer Vampir kann zwar wieder Sikaryan rauben und *Sikaryan-Verlust* abbauen, aber niemals mehr den Status *Kind der Finsternis* erhalten. *Sikaryan-Verlust* Stufe IV hat keine weiteren Auswirkungen auf einen Minderen Vampir.
+  src:
+    - id: US25219
+      firstPage: 120
+
+- id: STATE_24
+  name: "Lykanthrop"
+  description: |
+    Bei Sonnenuntergang der ersten Vollmondnacht nach der Ansteckung muss dem Erkrankten eine Probe auf *Selbstbeherrschung −7* gelingen. Misslingt die Probe, so verwandelt sich der Erkrankte für 7 Stunden und bekommt während dieser Zeit den Status *Wergestalt*.<br>
+    In der darauffolgenden Nacht ist die Probe um 1 erleichtert und die Dauer sinkt um 1 Stunde. Die Verwandlungsphase dauert daher maximal 7 Tage. Sobald eine der Proben gelingt, verwandelt sich der Lykanthrop in dieser Verwandlungsphase nicht mehr in seine Wergestalt und es sind keine weiteren Proben notwendig.<br>
+    Die nächste Verwandlungsphase startet beim nächsten Vollmond erneut und sie beginnt wieder mit einer Erschwernis von 7 und 7 Stunden Dauer.<br>
+    Die Meisterin entscheidet, wie lange es dauert, bis sich der Kulturschaffende in ein Werwesen verwandelt. Als Faustregel gilt, dass die erste Verwandlung lange dauert und es später immer schneller geht.<br>
+    Während der Verwandlung hat der Lykanthrop Erschwernisse von 3 auf alle Proben. Erst am Ende der Verwandlung gilt der Status *Wergestalt*.
+  src:
+    - id: US25219
+      firstPage: 125
+
+- id: STATE_25
+  name: "Wergestalt"
+  description: |
+    In Wergestalt kann der Held nicht sprechen und keine Zauber oder Liturgien wirken. Waffennutzung ist ebenfalls nicht möglich. Alle Angriffe mit der Kampftechnik Raufen gelten auch als Bisse, die die Krankheit bei SP übertragen können.<br>
+    Die Rückverwandlung findet wie oben beschrieben statt. Während dieser Zeit erleidet das Werwesen wieder Abzüge von 3 auf alle Proben.
+
+    In seiner Wergestalt genießt der Lykanthrop einige Vor- und Nachteile:
+
+    <figure>
+      <figcaption>Werte:</figcaption>
+      <dl>
+        <dt>MU</dt>
+        <dd>+3</dd>
+        <dt>GE</dt>
+        <dd>+5</dd>
+        <dt>KO</dt>
+        <dd>+5</dd>
+        <dt>KK</dt>
+        <dd>+7\*</dd>
+        <dt>GS</dt>
+        <dd>+4</dd>
+        <dt>ZK</dt>
+        <dd>+2</dd>
+        <dt>TP</dt>
+        <dd>+4 (bei waffenlosen Angriffen durch Raufen)\*</dd>
+        <dt>RS</dt>
+        <dd>+2 (natürlicher RS, kombinierbar mit Rüstungen)</dd>
+        <dt>KL</dt>
+        <dd>bekommt ein (t)</dd>
+        <dt>Aktionen</dt>
+        <dd>+1 (nur einsetzbar für AT)</dd>
+      </dl>
+    </figure>
+    <figure>
+      <figcaption>Talent-Boni:</figcaption>
+      FW Fährtensuchen +6, FW Kraftakt +4 , FW Sinnesschärfe +6
+    </figure>
+    <figure>
+      <figcaption>Zusätzliche Vorteile (sofern nicht bereits vorhanden):</figcaption>
+      Dunkelsicht II, Herausragender Sinn (Sicht, Geruch, Gehör)
+    </figure>
+    <figure>
+      <figcaption>Zusätzliche Nachteile:</figcaption>
+      Schlechte Eigenschaft Jähzorn (falls schon vorhanden, ist die Probe auf *Willenskraft*, um Jähzorn zu unterdrücken, um 1 erschwert)
+    </figure>
+    <figure>
+      <figcaption>Zusätzliche Sonderfertigkeiten:</figcaption>
+      Anspringen, Mächtiger Schlag (nur wenn KK 20+), Verbeißen
+    </figure>
+
+    \*) Ein TP-Bonus für eine hohe KK und die Schadensschwelle ist in der allgemeinen Erhöhung der TP noch nicht berücksichtigt. Der TP-Bonus bezieht sich nur auf die Krallen, das Gebiss und weitere „natürliche“ Angriffsmöglichkeiten der Wergestalt.
+
+    <figure>
+      <figcaption>Lykanthropische Sonderfertigkeiten:</figcaption>
+      - Ein Lykantrop hat Zugriff auf eine Reihe von speziellen Sonderfertigkeiten, die Lykanthropische Gaben (siehe **Aventurisches Bestiarium II** Seite **126**) genannt werden. Er muss dafür jeweils AP ausgeben. Zu Beginn seiner Ansteckung kann er bis zu 20 AP investieren. Wie schnell er danach weitere Lykanthropische Gaben erlangen kann, entscheidet der Meister.
+    </figure>
+    <figure>
+      <figcaption>Regeneration:</figcaption>
+      - Jede KR regeneriert ein Lykanthrop in Wergestalt 1W6 LeP (bis zu seinem Maximum an LeP).
+      - Ausgenommen hiervon sind Verletzungen, die durch Waffen aus Silber, Mondsilber und Zwergensilber erfolgen. Durch diese Waffen verursachte SP heilen regulär über Regenerationsphasen, Zauber usw.
+    </figure>
+    <figure>
+      <figcaption>Verletzbarkeit:</figcaption>
+      - Profane, magische und geweihte Waffen richten nur halben Schaden an. Die Trefferpunkte werden ausgewürfelt, dann halbiert, anschließend der Rüstungsschutz abgezogen.
+      - Waffen aus Silber, Mondsilber und Zwergensilber richten doppelten Schaden an. Die Trefferpunkte werden ausgewürfelt, dann verdoppelt, anschließend der Rüstungsschutz abgezogen.
+    </figure>
+    <figure>
+      <figcaption>Blutrausch:</figcaption>
+      Sollte der Lykanthrop in seiner Wergestalt einen Kulturschaffenden wahrnehmen, so muss er eine Probe auf *Willenskraft* bestehen, damit ihn nicht seine Schlechte Eigenschaft Jähzorn übermannt. Misslingt die Probe, erhält er den Status *Blutrausch* und wendet sich gegen den Kulturschaffenden. Bei Personen, die der Lykanthrop liebt oder hasst, kann die Spielleiterin die Probe modifizieren. Gegenüber geliebten Personen fällt ein Lykanthrop in Wergestalt nicht so leicht in Raserei (Probenerleichterung +1 bis +5), bei Feinden schon viel eher (Probenerschwernis –1 bis –5). Nach dem Blutrausch erleidet der Lykanthrop keine *Betäubung*.
+    </figure>
+    <figure>
+      <figcaption>Krankheitsüberträger:</figcaption>
+      Werden bei einem Kulturschaffenden SP durch einen Angriff im waffenlosen Kampf durch die Kampftechnik Raufen vom Lykanthropen verursacht, muss überprüft werden, ob er seinen Gegner infiziert hat (siehe **Aventurisches Bestiarium II** Seite **124**).
+    </figure>
+  src:
+    - id: US25219
+      firstPage: 125

@@ -1,0 +1,1630 @@
+- id: SA_0
+  name: "Competentie op Maat"
+  rules: |
+    *Een plaats voor competenties op maat, waarvan de naam en AP van kan worden gekozen.*
+  input: "Naam van de Competentie"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 1
+
+- id: SA_1
+  name: "Analyticus"
+  rules: |
+    Wie de Competentie Analyticus heeft, is in staat om artefacten, magische wezens en Spreuken te analyseren. Een held met deze Competentie kan een Proef afleggen op *Magiekunde (Verschillende Toepassingsgebieden)* en meer KwG behalen dan normaal (Bladzijde **269**, **Magische analyse**).<br>
+    Afhankelijk van de KwG kan hij zich met behulp van de informatie min of meer een juist beeld vormen van de werking van het voorwerp, de aard van het wezen of de werking van de Spreuk. *Analyticus* is een Inzetmogelijkheid voor het Talent *Magiekunde*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 215
+
+- id: SA_2
+  name: "Aanvoerder"
+  rules: |
+    Door de Competentie verwerft de held een Inzetmogelijkheid voor het Talent *Overhalen*. De held kan via *Overhalen* zijn metgezellen tijdens een gevecht ondersteunen. De held heeft hiervoor 1 actie nodig. Daarna legt hij een Proef af op *Overhalen (Aansmeren, Manipuleren, Vleien)*. Tot *KwG +1 andere personen* binnen zijn zicht- en gehoorafstand krijgen tijdens de volgende Gevechtsronde een bonus van +1 op AV, +1 op Verdediging en +1 op AG (de bonus is niet cumulatief met verdere aanwendingen van de Competentie Aanvoerder).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 214
+      lastPage: 215
+
+- id: SA_3
+  name: "Beroepsgeheim"
+  rules: |
+    Om een beroepsgeheim aan te leren, heeft de held een leermeester nodig en moet aan de voorwaarden voldoen om het beroepsgeheim ook te kunnen begrijpen. Bovendien kost het aanleren van een Beroepsgeheim de in de tabel aangegeven AP. Als aan al deze voorwaarden wordt voldaan kan de held het Beroepsgeheim aanleren en toepassen.
+  selectOptions:
+    - id: 1
+      name: "Antidotum"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 2
+      name: "Glas"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 3
+      name: "Heeldrank"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 4
+      name: "Liefdesdrank"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 5
+      name: "Porselein"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 6
+      name: "Onzichtbaarheidselixir"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 7
+      name: "Transformatie-elixir"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 8
+      name: "Wapenbalsem"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 9
+      name: "Wilsdronk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 10
+      name: "Toverdrank"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 11
+      name: "Al‘Gebra"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 12
+      name: "Boltan"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 13
+      name: "Draailier"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 14
+      name: "Elfenboog"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 15
+      name: "Garadan"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 16
+      name: "Geometrie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 17
+      name: "Kamelenspel"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 18
+      name: "Spinet"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 19
+      name: "Staande harp"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+    - id: 20
+      name: "Uurwerk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 215
+  prerequisites: "Afhankelijk van Beroepsgeheim"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 215
+
+- id: SA_4
+  name: "Documenten vervalsen"
+  rules: |
+    De held is in staat om documenten en oorkonden te vervalsen. Met deze Competentie verwerft de held bij het Talent *Tekenen & Schilderen* het Nieuwe toepassingsgebied *Documenten vervalsen*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 216
+
+- id: SA_5
+  name: "IJzeren wil"
+  rules: |
+    Zolang de held zich concentreert, zal zijn Zielskracht met 1 punt per graad worden verbeterd. Door de hiervoor noodzakelijke concentratie zijn ondertussen alle andere Proeven met de graad van de Competentie verzwaard. De IJzeren wil blijft net zolang actief als de held zich kan concentreren. In geval van twijfel moet hij een Proef afleggen op *Zelfbeheersing*. Als hij slaapt, de Toestand *Bewusteloos* heeft of zelf stopt met zich te concentreren, stopt ook de IJzeren wil. Op het einde van de werkingstijd krijgt de held een graad *Verdoving*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 217
+
+- id: SA_6
+  name: "Waaiertaal"
+  rules: |
+    Met de Waaiertaal kan men communiceren, zonder te praten, met iemand die ook over deze Competentie beschikt. De Waaiertaal kan enkel gebruikt worden met een waaier.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 220
+
+- id: SA_7
+  name: "Vallen ontmantelen"
+  rules: |
+    Door de Competentie wordt het Nieuwe toepassingsgebied *Vallen ontmantelen* van het Talent *Sloten kraken* verworven.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 219
+
+- id: SA_8
+  name: "Valsspelen"
+  rules: |
+    Als een Proef op *Bord-& Geluksspel* van de held mislukt, mag de speler de Proef herhalen (tenzij bij een Blunder). Om het bedrog te doorzien, moet het slachtoffer in een Vergelijkingsproef *Zintuigen (Waarnemen)* tegen *Bord- & Geluksspel (Respectievelijke Toepassingsgebied)* slagen. *Valsspelen* is een Toepassingsmogelijkheid van *Bord-& Geluksspel*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 219
+
+- id: SA_9
+  name: "Specialisatie"
+  nameInWiki: "Specialisatie (Talenten)"
+  rules: |
+    Een held krijgt een bonus van 2 op zijn VaW als het betreffende Toepassingsgebied een rol speelt bij de Proef. Een held kan zich in de loop van zijn leven binnen een Talent maximaal in drie verschillende Toepassingsgebieden specialiseren. De specialisatiebonus kan hoger zijn dan de maximale VaW, afhankelijk van de Ervaringsgraad van de held bij het scheppen van de held.
+  apValue: "A-/B-/C-/D-vaardigheid: 1/2/3/4 AP voor de eerste specialisering; 2/4/6/8 AP voor de tweede specialisatie; 3/6/9/12 AP voor de derde specialisatie"
+  prerequisites: "Vaardigheidswaarde 6 (eerste specialisatie), Vaardigheidswaarde 12 (tweede specialisatie), Vaardigheidswaarde 18 (derde specialisatie)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 218
+      lastPage: 219
+
+- id: SA_10
+  name: "Visser"
+  rules: |
+    Met deze Competentie kan een held beter vissen. Bij een succesvolle Proef op *Vissen* om voedsel buit te maken, kan hij 1 KwG meer voedsel vangen. Of er in het water voldoende eetbare vissen en zeevruchten zijn, moet de spelleider op voorhand beslissen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 220
+
+- id: SA_11
+  name: "Bargoens"
+  rules: |
+    De held kan Bargoense merken lezen en schrijven.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 215
+
+- id: SA_12
+  name: "Terreinkennis"
+  rules: |
+    Bij Terreinkennis wordt een verlichting van 1 punt toegekend bij Proeven op de volgende Talenten, in geval deze in de respectievelijke omgeving worden gebruikt: *Spoorzoeken*, *Oriëntatie*, *Plantkunde*, *Dierkunde*, *Wildernisleven*. Elk van de volgende soorten terreinkennis moet apart worden aangeleerd: Junglekennis, IJs- & Sneeuwkennis, Bergkennis, Grottenkennis, Landbouwgebiedkennis, Steppekennis, Moeraskennis, Woudkennis, Woestijnkennis en Zeekennis.
+  selectOptions:
+    - id: 1
+      name: "Junglekennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 2
+      name: "IJs- & Sneeuwkennis,"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 3
+      name: "Bergkennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 4
+      name: "Grottenkennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 5
+      name: "Landbouwgebiedkennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 6
+      name: "Zeekennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 7
+      name: "Steppekennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 8
+      name: "Moeraskennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 9
+      name: "Woudkennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+    - id: 10
+      name: "Woestijnkennis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 219
+  prerequisites: "De held moet minstens 6 maanden in de respectievelijke omgeving hebben doorgebracht."
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 219
+
+- id: SA_13
+  name: "Gilderecht"
+  rules: |
+    De held krijgt het Nieuwe toepassingsgebied *Gilderecht* in *Rechtskunde*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 216
+
+- id: SA_14
+  name: "Glasblazen"
+  rules: |
+    De held is in staat om glazen voorwerpen in de vorm van vazen en flessen via glasblazen te fabriceren. Met enkel deze Competentie kent de held het recept om glas te maken nog niet. Hiervoor heeft hij het passende Beroepsgeheim nodig.<br>
+    Met de Competentie wordt het Nieuwe toepassingsgebied *Glasblazen* van het Talent *Steenbewerking* verworven.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 216
+
+- id: SA_15
+  name: "Heling"
+  rules: |
+    De held krijgt met deze Competentie het Nieuwe toepassingsgebied *Heling* bij het Talent *Handel*. Hierdoor wordt het voor hem mogelijk om gestolen goederen via contactpersonen te verkopen.
+  prerequisitesStart: Gebiedskennis voor de streek waar de goederen verkocht worden
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 216
+
+- id: SA_16
+  name: "Heraldiek & Stambomen"
+  rules: |
+    Met Heraldiek & Stambomen kan een held blazoenen onderscheiden en heeft een grote kennis over wapenrecht en stambomen. Met deze Competentie verwerft de held bij het Talent *Etiquette* het Nieuwe toepassingsgebied *Heraldiek & Stambomen*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 217
+
+- id: SA_17
+  name: "Instrumenten bouwen"
+  rules: |
+    De held is in staat instrumenten zoals bazuinen, fluiten, doedelzakken, luiten, trommels, cimbalen en hoorns te maken. Door de Competentie wordt het Nieuwe toepassingsgebied *Instrumenten bouwen* voor de Talenten *Hout-* en *Metaalbewerking* verworven.
+  prerequisites: "VaW van *Hout-* en *Metaalbewerking* moet samen 12 zijn."
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 217
+
+- id: SA_18
+  name: "Jager"
+  rules: |
+    Met deze Competentie kan de held beter jagen. Gaat hij op jacht, dan kan hij 1 KwG meer eten jagen met een succesvolle Proef op *Dierkunde* om voedsel buit te maken. Of er in het gebied voldoende eetbare dieren zijn, moet de Spelleider op voorhand vastleggen.
+  prerequisitesStart: Schiet/werpwaarde 10
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 217
+
+- id: SA_19
+  name: "Cartografie"
+  rules: |
+    Door deze Competentie is een held in staat landkaarten te maken. Ze ontgrendelt het Nieuwe toepassingsgebied *Cartografie* van het Talent *Geografie*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 216
+
+- id: SA_20
+  name: "Liplezen"
+  rules: |
+    Je verwerft het Nieuwe toepassingsgebied *Liplezen* van het Talent *Zintuigen*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 217
+
+- id: SA_21
+  name: "Meester der improvisatie"
+  rules: |
+    Meesters der improvisatie kunnen bij Vaardigheidsproeven op Ambachtstalenten verzwaringen tot 2 punten vanwege van slechte werktuigen en materialen negeren. De resterende verzwaring blijft gelden. Als de held een verzwaring van 3 punten op *Metaalbewerking* krijgt omdat hij werktuigen mist, dan krijgt hij slechts een verzwaring van 1.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 217
+
+- id: SA_22
+  name: "Gebiedskennis"
+  input: Gebied
+  rules: |
+    Bij Gebiedskennis wordt een bonus van +1 verleend bij Proeven op *Stadskennis* en *Oriëntatie*, als deze betrekking hebben op deze plaats. Gebiedskennis moet steeds worden verworven voor een bepaalde plaats. Deze plek kan een dorp met omgeving, een kleine stad of een stadsdeel van een grote stad zijn, maar ook een weg, een pad of een straat zijn.
+  prerequisites: "6 maanden lang geleefd hebben op deze plaats of de weg talloze keren bereisd hebben."
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 216
+
+- id: SA_23
+  name: "Paardenzwendelaar"
+  rules: |
+    Helden kunnen paarden, pony‘s en ander vee er gezonder laten uitzien dan ze in werkelijkheid zijn. De held krijgt door deze Competentie een Inzetmogelijkheid bij het Talent *Handel*. Bij een Proef op *Handel (Afdingen)* bij de verkoop van vee, mag de speler twee keer rollen en het betere resultaat kiezen. Om het bedrog te ontdekken, moet het slachtoffer slagen in een Vergelijkingsproef *Dierkunde (Gedomesticeerde dieren)* tegen *Dierkunde (Gedomesticeerde dieren)*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 218
+
+- id: SA_24
+  name: "Voedselverzamelaar"
+  rules: |
+    Met deze Competentie kan de held beter voedsel verzamelen. Begeeft hij zich op zoektocht, dan kan hij na een succesvolle Proef op *Plantkunde* om voedsel buit te maken, 1 KwG meer voedsel verzamelen. Of er in de regio genoeg eetbare planten zijn, moet de spelleider op voorhand beslissen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 220
+
+- id: SA_25
+  name: "Pijn onderdrukken"
+  rules: |
+    Door deze Competentie wordt een Inzetmogelijkheid voor het Talent *Zelfbeheersing (Handelingsbekwaam blijven)* verworven. De held legt, van zodra hij pijn lijdt, een Proef af op *Zelfbeheersing (Handelingsbekwaam blijven)*. Slaagt deze Proef, dan kan hij per KwG een graad *Pijn* onderdrukken. Het onderdrukken werkt gedurende één gevecht (maximaal 1 uur). De held moet al over 1 graad van de Toestand *Pijn* beschikken, opdat hij deze CoM kan inzetten. De inzet kost een Vrije actie. Op het einde van de werking van de Competentie krijgt de held, naast de bestaande graden *Pijn*, nog een graad *Verdoving*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 218
+
+- id: SA_26
+  name: "Distilleren"
+  rules: |
+    De held is in staat om alcohol te distilleren. Met deze Competentie verwerft de held bij het Talent *Voedsel klaarmaken* het Nieuwe toepassingsgebied *Distilleren*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 216
+
+- id: SA_27
+  name: "Schrift"
+  rules: |
+    De held beheerst het respectievelijke alfabet. Voor elk schrift moet de Competentie apart worden verworven. Een keuze aan schriften vind je op bladzijde **224**.
+  selectOptions:
+    - id: 1
+      name: "Oud-Alaani"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 2
+      name: "Angram-beeldschrift"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 3
+      name: "Chrmk"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 4
+      name: "Chuchas"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 5
+      name: "Geheiligde gliefen van Unau"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 6
+      name: "Hjaldingse runen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 7
+      name: "Imperiale tekens"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 8
+      name: "Isdira- en Asdharia-tekens"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 9
+      name: "Kusliker tekens"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 10
+      name: "Nanduria-tekens"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 11
+      name: "Rogolanrunen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 12
+      name: "Thorwalse runen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 13
+      name: "Trols ruimtebeeldenschrift"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 14
+      name: "Tulamidische tekens"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 15
+      name: "Oer-Tulamidische tekens"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 16
+      name: "Zhayad-tekens"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+  apValue: "A-/B-/C-/D-Schrift: 2/4/6/8 AP"
+  prerequisitesStart: Juiste Taal
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 218
+
+- id: SA_28
+  name: "Schrijver"
+  rules: |
+    De Competentie Schrijver kan worden gekozen voor verschillende vakgebieden: liefdesromans, poëzie, opruiende geschriften, misdaadverhalen, sprookjes en romans of vakpublicaties. Door de respectievelijke CoM wordt een Nieuw toepassingsgebied verworven: *Verleiden (Liefdesroman)*, *Etiquette (Poëzie)*, *Bekeren & Overtuigen (Opruiende pamfletten)*, *Stadskennis (Misdaadverhalen)*, *Overhalen (Romans)*, *Sagen & Legenden (Sprookjes)*, voor het juiste *Kennistalent (Vakpublicaties)*.
+  selectOptions:
+    - id: 1
+      name: "Liefdesroman"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 2
+      name: "Poëzie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 3
+      name: "Opruiende geschriften"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 4
+      name: "misdaadverhalen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 5
+      name: "Sprookjes"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 6
+      name: "Romans"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 7
+      name: "Vakpublicaties: Bord- & Geluksspel"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 8
+      name: "Vakpublicaties: Geografie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 9
+      name: "Vakpublicaties: Geschiedenis"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 10
+      name: "Vakpublicaties: Goden & Culten"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 11
+      name: "Vakpublicaties: Krijgskunde"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 12
+      name: "Vakpublicaties: Magiekunde"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 13
+      name: "Vakpublicaties: Mechanica"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 14
+      name: "Vakpublicaties: Rekenen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 15
+      name: "Vakpublicaties: Rechtskunde"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 16
+      name: "Vakpublicaties: Sagen & Legenden"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 17
+      name: "Vakpublicaties: Sferenkunde"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+    - id: 18
+      name: "Vakpublicaties: Sterrenkunde"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 218
+  apValueAppend: per vakgebied
+  prerequisites: "Het juiste Geschrift, de juiste Taal III, Talent afhankelijk van het vakgebied (*Verleiden* 4 voor Liefdesroman, *Etiquette* 4 voor Poëzie, *Bekeren & Overtuigen* 4 voor Opruiende geschriften, *Stadskennis* 4 voor misdaadverhalen, *Overhalen* 4 voor Sprookjes & Romans, het juiste *Kennistalent* 4 voor Vakpublicaties)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 218
+
+- id: SA_29
+  name: "Taal"
+  rules: |
+    De held spreekt de betreffende taal.
+  selectOptions:
+    - id: 1
+      name: "Alaani"
+      specializations:
+        - Gajka
+        - Takellen
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 222
+    - id: 2
+      name: "Angram"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 222
+    - id: 3
+      name: "Asdharia"
+      specializations:
+        - Shakagoran
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 222
+    - id: 4
+      name: "Atak"
+      specializations:
+        - Tulamidisch
+        - Guldenlands
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 5
+      name: "Aureliani"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 6
+      name: "Bosparano"
+      specializations:
+        - Kerkbosparano
+        - Magiërsbosparano
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 7
+      name: "Fjarnings"
+      specializationInput: Naargelang de stam
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 8
+      name: "Garethi"
+      specializations:
+        - "Aretya"
+        - "Horathi"
+        - "Bornlands"
+        - "Brabaci"
+        - "Maraskani"
+        - "Alberned"
+        - "Andergasts"
+        - "Charypto"
+        - "Gatamo"
+        - "Nostrisch"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 9
+      name: "Goblins"
+      specializationInput: Naargelang de stam
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 10
+      name: "Isdira"
+      specializationInput: Naargelang het elfenvolk
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 11
+      name: "Mohisch"
+      specializationInput: Naargelang de stam
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 12
+      name: "Nujuka"
+      specializationInput: Naargelang de stam
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 13
+      name: "Ogrisch"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 14
+      name: "Oloarkh"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 15
+      name: "Ologhaijan"
+      specializationInput: Naargelang de stam
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 16
+      name: "Ravenspraak"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 17
+      name: "Rogolan"
+      specializationInput: Naargelang Dwergenvolk
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 18
+      name: "Rssahh"
+      specializationInput: Naargelang Hagedisvolk
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 19
+      name: "Ruuz"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 20
+      name: "Saga-Thorwals"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+    - id: 21
+      name: "Thorwals"
+      specializations:
+        - Noord-Thorwal
+        - Zuid-Thorwal
+        - Waskirs Hoogland
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 22
+      name: "Trols"
+      specializationInput: Naargelang de stam
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 23
+      name: "Tulamidya"
+      specializations:
+        - Araans
+        - Khôm-Novadi
+        - Maraskani-Tulamidya
+        - Mhanadisch-Balashidi
+        - Zahori
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 24
+      name: "Oer-Tulamidya"
+      specializationInput: Naargelang de regio
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 25
+      name: "Zelemja"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 26
+      name: "Zhayad"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 224
+    - id: 27
+      name: "Cyclopisch"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 223
+  prerequisites: "Iedere voorafgaande graad van de Competentie (uitgezonderd graad I)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 219
+
+- id: SA_30
+  name: "Diergeluiden nabootsen"
+  rules: |
+    Door deze Competentie verwerft de held een Inzetmogelijkheid voor *Dierkunde*. De held kan vanaf nu het Talent *Dierkunde* gebruiken om dierengeluiden na te bootsen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 216
+
+- id: SA_31
+  name: "Pottenbakken"
+  rules: |
+    De held is in staat om aardewerk te maken. Met deze Competentie verwerft de held bij het Talent *Steenbewerking* het Nieuwe toepassingsgebied *Pottenbakken*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 218
+
+- id: SA_32
+  name: "Weersvoorspelling"
+  rules: |
+    Door deze Competentie wordt het Nieuwe toepassingsgebied *Weersvoorspelling* van het Talent *Wildernisleven* verworven. De held kan het Talent gebruiken om het weer te voorspellen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 220
+
+- id: SA_33
+  name: "Numerologie"
+  rules: |
+    Door deze Competentie wordt het Nieuwe toepassingsgebied *Numerologie* van het Talent *Rekenen* verworven. De held kent de geheimen van getallen, kan hierin geheime boodschappen aflezen en kann indruk maken op anderen door zijn kennis.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 218
+
+- id: SA_34
+  name: "Aanval verbeteren"
+  rules: |
+    Met deze Competentie kan de held een Lotspunt inzetten voor *Resultaat Verbeteren* (Aanval), zie kader **Regelwerk 221**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 221
+
+- id: SA_35
+  name: "Ontwijken verbeteren"
+  rules: |
+    Met deze Competentie kan de held een Lotspunt inzetten voor *Resultaat Verbeteren* (Ontwijken), zie kader **Regelwerk 221**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 222
+
+- id: SA_36
+  name: "Eigenschap verbeteren"
+  rules: |
+    Met deze Competentie kan de held een Lotspunt inzetten voor *Resultaat Verbeteren* (Eigenschappen), zie kader **Regelwerk 221**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 222
+
+- id: SA_37
+  name: "Afstandsgevecht verbeteren"
+  rules: |
+    Met deze Competentie kan de held een Lotspunt inzetten voor *Resultaat Verbeteren* (Afstandsgevecht), zie kader **Regelwerk 221**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 222
+
+- id: SA_38
+  name: "Afweer verbeteren"
+  rules: |
+    Met deze Competentie kan de held een Lotspunt inzetten voor *Resultaat Verbeteren* (Afweer), zie kader **Regelwerk 221**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 222
+
+- id: SA_39
+  name: "Waakzaam"
+  rules: |
+    Ondervindt de held de Status *Verrast*, dan kan hij een LotP uitgeven om de Status onmiddellijk op te heffen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 222
+
+- id: SA_40
+  name: "Alert"
+  rules: |
+    In een hinderlaag of als het gaat om het vermijden van de Status Verrast, verkrijgt hij een Bonus van 2 op *Zintuigen (Hinderlaag ontdekken)*, om zijn tegenstanders te ontdekken.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 246
+
+- id: SA_41
+  name: "Ballastgewenning"
+  rules: |
+    De negatieve Modificatie van de wapenrusting van de held stijgt twee stappen per Graad van de Ballastgewenning in de BA-kolom van de wapenrustingen. Een licht platenpantser zou dus bij een Ballastgewenning I slechts nog de belemmering van een maliënkolder vertonen (wat BA, SN en INI betreft). De BP blijft uiteraard behouden.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 246
+
+- id: SA_42
+  name: "Twee wapens hanteren"
+  rules: |
+    De Malus bij Aanval en Afweer bedraagt in Graad I van de Competentie slechts 1 in plaats van de gewoonlijke 2. Bij Graad II van de Competentie zakken de Malussen met een extra punt verder tot een eindtotaal van 0.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 250
+
+- id: SA_43
+  name: "Bereden gevecht"
+  rules: |
+    De ruiter heeft de kans om bij een ruitergevecht Bijzondere bevelen te geven, bv. Omverrijden of Stormaanval te paard.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 246
+
+- id: SA_44
+  name: "Bereden schutter"
+  rules: |
+    Stapt het rijdier, dan is schieten niet meer verzwaard. In galop is het slechts nog met 4 verzwaard. De schutter kan bovendien in volle galop naar achteren schieten. Bij draf zijn nog steeds enkel gelukstreffers mogelijk (1 op D20).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 246
+      lastPage: 247
+
+- id: SA_45
+  name: "Eénhandig gevecht"
+  rules: |
+    De vechter krijgt de volgende Bonussen, als hij met één enkel wapen vecht, dus het wapen niet samen met een tweede wapen, een Schild, een Pareerwapen of een ander voorwerp hanteert: AV +1, AW +1, TP +1.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 247
+
+- id: SA_46
+  name: "Ontwapenen"
+  rules: |
+    Om met dit Maneuver een tegenstander te ontwapenen (uitgezonderd Schilden), is een met 4 verzwaarde Aanval nodig. Tegen Tweehandswapens is zelfs een met 6 verzwaarde Aanval nodig. Tegen deze Aanval kan een normale Verdediging worden uitgevoerd. Mislukt deze, dan verliest de tegenstander zijn wapen. De Aanval veroorzaakt 1D3 TP. Om een wapen weer te kunnen opnemen, moet de held de regels over het oppakken van voorwerpen tijdens een gevecht volgen.
+  penalty: "−4/−6"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 248
+
+- id: SA_47
+  name: "Intuïtief ontwijken"
+  rules: |
+    Gelegenheidsaanvallen tegen hem zijn bijkomend met 4 Verzwaard.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 248
+
+- id: SA_48
+  name: "Schijnbeweging"
+  rules: |
+    De aanvaller kan met dit Maneuver zijn eigen Aanval verzwaren met 1 per Graad van de Competentie, wat bij een succesvolle Proef de Verdediging met 2 per Graad van de Competentie verzwaart.
+  penalty: "−1/−2/−3"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 249
+
+- id: SA_49
+  name: "Houdgreep"
+  rules: |
+    Hiervoor is er een succesvolle Aanval Knokken nodig. Als de Verdediging van de tegenstander mislukt, dan houdt de aanvaller hem vast. Zolang de tegenstander vastgehouden wordt, lijdt hij onder de Statussen *Ingesloten* en *Gefixeerd*. Om zich uit de houdgreep te bevrijden, is een Vergelijkingsproef nodig op *Krachttoer (Trekken & Sleuren)*. De aanvaller kan zich niet verdedigen zolang hij zijn tegenstander vasthoudt. Voor de Houdgreep moet de aanvaller beide handen vrij hebben. De Houdgreep kan alleen worden gebruikt tegen een even grote of kleinere tegenstander.
+  penalty: "0"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 247
+
+- id: SA_50
+  name: "Mokerslag"
+  rules: |
+    Bij een Mokerslag is de Aanval met 2 verzwaard. Bij het bepalen van de Schade wordt een extra D6 bij de Trefpunten geteld. Als het Maneuver mislukt, mag de verdediger een Gelegenheidsaanval uitvoeren.
+  penalty: "−2"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 248
+
+- id: SA_51
+  name: "Gevechtsreflexen"
+  rules: |
+    De INI-basiswaarde stijgt met 1 per Graad van de Competentie.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 247
+
+- id: SA_52
+  name: "Klingenvanger"
+  rules: |
+    De passieve AW-bonus van het door de helden gehanteerde Pareerwapen stijgt met 1.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 248
+
+- id: SA_53
+  name: "Gekruiste afweer"
+  rules: |
+    Om wapens van de Gevechtstechnieken Kettingwapens, Stangwapens, Tweehandige slagwapens en Tweehandszwaarden af te kunnen weren met Dolken of Schermwapens, moet men over de Competentie Gekruiste afweer beschikken en twee wapens gebruiken. Bij de Afweer krijgt de vechter geen Malus door het vechten met de verkeerde hand.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 247
+
+- id: SA_54
+  name: "Lansaanval"
+  rules: |
+    Als de ruiter een tegenstander wil aanvallen met zijn Lans, moet hij het Bevel Lansaanval geven. Een Lansaanval kan alleen worden uitgevoerd in galop. Na een Proef op *Rijden (Dier)*, wordt een Aanval op Lansen uitgevoerd (dit is geen bijkomende Actie, maar een deel van het Bevel). Paard en ruiter hoeven hun Snelheid na een Aanval niet te verlagen. Bovendien kan zo’n Aanval niet worden gepareerd met een wapen, slechts afweren met een schild of de Verdedigingsactie Ontwijken is mogelijk. Bij een succesvolle Aanval laat de aanvaller de lans los om niet door de botsing uit het zadel gelicht te worden. Bij een succesvolle Afweer met een schild gebeurt hetzelfde. Als de Lansaanval succesvol is, stijgen de TP met SN/2 +2 van het rijdier. De waarden van de strijdlans kan je terugvinden op bladzijde **367**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 248
+
+- id: SA_55
+  name: "Zuiver schot/Zuivere worp"
+  rules: |
+    De Proef op Afstandsgevecht bij de aanvaller wordt met 2 Punten per Graad van de Competentie verzwaard. Bij succes worden de Trefpunten met 2 Punten per Graad van de Competentie verhoogd.
+  penalty: "−2/−4/−6"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 250
+
+- id: SA_56
+  name: "Zuivere steek"
+  rules: |
+    Hij verzwaart zijn Aanval met 2 Punten per Graad van de Competentie. Bij succes worden de TP van de Aanval met 2 Punten per Graad van de Competentie verhoogd.
+  penalty: "−2/−4/−6"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 248
+
+- id: SA_57
+  name: "Riposte"
+  rules: |
+    Na een succesvolle Afweer, die voor de held met 2 Punten verzwaard werd, kan hij onmiddellijk een Gelegenheidsaanval tegen zijn aanvaller uitvoeren. Het Maneuver Riposte moet voor de Aanvalsworp van de aanvaller bekend gemaakt worden. Na de Riposte kan de held geen verdere Verdedigingen in deze GvR meer uitvoeren. Een Riposte kan niet worden gecombineerd met een Basismaneuver.
+  penalty: "−2 (voor die Afweer)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 248
+
+- id: SA_58
+  name: "Rondomslag"
+  rules: |
+    De aangevallen tegenstanders mogen elk apart op de Aanval reageren. De eerste Aanval is met 2 punten, de tweede met 6 Punten en de derde met 10 Punten verzwaard. Rol voor Schade bij elke tegenstander die niet in zijn Afweer slaagt.<br>
+    Rondomslag I laat een Aanval toe tegen twee tegenstanders, Rondomslag II een Aanval op drie tegenstanders.<br>
+    Een Blunder bij een Aanval betekent dat er geen verdere Aanvallen van Rondomslag meer kunnen worden uitgevoerd in deze GvR.
+  penalty: "−2 (eerste aanval); −6 (tweede aanval); −10 (derde aanval)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 248
+      lastPage: 249
+
+- id: SA_59
+  name: "Schildsplijter"
+  rules: |
+    Hierbij wordt er een Aanval tegen het schild uitgevoerd, waartegen de tegenstander zich mag verdedigen met een Afweer met het Schild of door te Ontwijken. Bij een Afweer met het Schild, kan de Afweerbonus van het Schild niet worden gebruikt. Mislukt de Afweer of het Ontwijken, wordt de Schade van de Structuurpunten afgetrokken van het Schild. Als deze tot 0 zakken, dan is het Schild verwoest. Dit Speciaalmaneuver kan alleen worden ingezet tegen Schildvechters. Meer over Structuurpunten, zie bladzijde **349**.
+  penalty: "+/− 0"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 249
+
+- id: SA_60
+  name: "Snelladen"
+  nameInWiki: "Snelladen (Gevechtstechniek)"
+  rules: |
+    Het herladen van Bogen en het klaarmaken van Werpwapens wordt met 1 Actie ingekort. Het herladen van Kruisbogen neemt slechts de helft van de aangegeven Acties in beslag. Deze Competentie moet voor de drie Schiet/werptechnieken Kruisboog, Boog en Werpwapens apart worden verworven. Meer over Laadtijden zie bladzijde **245**.
+  selectOptions:
+    - id: 1
+      name: "Kruisbogen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 249
+    - id: 2
+      name: "Bogen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 249
+    - id: 3
+      name: "Werpwapens"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 249
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 249
+
+- id: SA_61
+  name: "Sneltrekken"
+  rules: |
+    In plaats van 1 Actie te gebruiken, is 1 Vrije actie voldoende om een wapen te trekken.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 249
+
+- id: SA_62
+  name: "Stormaanval"
+  rules: |
+    Het Maneuver Stormaanval kan alleen worden uitgevoerd als de aanvaller over een aanloopafstand van minstens 4 pas beschikt en een minimale SN van 4 heeft. Deze beweging is een deel van de Actie waarmee men Aanvalt. Als de Stormaanval lukt, dan stijgen de TP van de aanvaller met SN/2 +2. Deze Aanval kan op normale wijze worden afgeweerd. Als de Stormaanval mislukt, dan krijgt de verdediger de kans om een Gelegenheidsaanval uit te voeren. Dit speciale Maneuver kan niet worden gecombineerd met het Basismaneuver Schijnbeweging.
+  penalty: "−2"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 249
+
+- id: SA_63
+  name: "Doodsteek"
+  rules: |
+    De Aanval voor een Doodsteek is met 2 Punten verzwaard. Om de Schade te bepalen, wordt daarna een extra D6 bij de Trefpunten opgeteld. Als het Maneuver mislukt, dan heeft de verdediger de mogelijkheid om een Gelegenheidsaanval uit te voeren.
+  penalty: "−2"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 247
+
+- id: SA_64
+  name: "Verbeterd ontwijken"
+  rules: |
+    Elke Graad verhoogt het Ontwijken met 1 punt. Om de Competentie te kunnen toepassen, mag de held maximaal normale kleding (BP 0) dragen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 250
+
+- id: SA_65
+  name: "Verdedigende houding"
+  rules: |
+    Deze Competentie laat toe tijdens de GvR Afweer en Ontwijken met 4 Punten te verhogen. Men kan dan geen Actie uitvoeren in deze GvR. Verdedigende houding moet voor aanvang van de GvR aangekondigd worden.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 250
+
+- id: SA_66
+  name: "Uithaal"
+  rules: |
+    Met deze Competentie kan men z’n Aanvalswaarde tijdens deze Gevechtsronde met 2 Punten verhogen. Men kan dan in deze Gevechtsronde geen Verdedigingen meer uitvoeren. De Uithaal moet aangekondigd worden voor aanvang van de GvR en kan niet uitgevoerd worden vanuit de Status *Liggend*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 250
+
+- id: SA_67
+  name: "IJzerslag"
+  rules: |
+    De Aanval wordt met 2 Punten per Graad van de Competentie verzwaard. Bij succes worden de Trefpunten met 2 Punten per Graad verhoogd.
+  penalty: "−2/−4/−6"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 247
+      lastPage: 248
+
+- id: SA_68
+  name: "Worp"
+  rules: |
+    Hiervoor moet hij hem eerst in een houdgreep krijgen (Competentie Houdgreep). Zolang de tegenstander wordt vastgehouden, lijdt deze de Statussen *Gefixeerd* en *Ingesloten*. Eens hij zijn tegenstander vastheeft, moet hij een met 2 Punten verzwaarde Aanval Knokken uitvoeren. Is deze succesvol en kan de tegenstander zich niet succesvol verdedigen, dan wordt de tegenstander gevloerd en verkrijgt hij de Status *Liggend*. De worp zelf veroorzaakt 1D3 TP. Een val van een klif of in het vuur veroorzaakt duidelijk meer Schade.
+  penalty: "−2"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 250
+
+- id: SA_69
+  name: "Ten val brengen"
+  rules: |
+    De Aanval is met 4 punten verzwaard. Tegen deze Aanval kan worden verdedigd. Mislukt de Verdediging, dan valt de tegenstander en verkrijgt de Status *Liggend*. De Aanval veroorzaakt 1D3 TP, waarbij BP genegeerd wordt.
+  penalty: "−4"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 249
+
+- id: SA_70
+  name: "Traditie (Gildemagiër)"
+  rules: |
+    - Een Spreuk van de Gildemagische Traditie vereist zicht op het doel, een magisch gebaar en een duidelijk uitgesproken formule.
+    - Gildemagiërs kunnen bij de heldencreatie één Bastaardspreuk kiezen van een vreemde Traditie en hem hanteren als één van hun eigen Traditie. Het overbrengen van een Bastaardspreuk naar de eigen Traditie kan enkel en alleen worden uitgevoerd aan een Academie.
+    - Gildemagische Spreuken kunnen worden neergeschreven in boeken, schriftrollen en toverboeken, waaruit men ze kan aanleren zonder leermeester.
+    - Gildemagiërs kunnen specifieke Gildemagische traditieartefacten vervaardigen en gebruiken (Bijvoorbeeld magiërstaven).
+    - De Hoofdeigenschap van de Traditie is Slimheid.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 275
+
+- id: SA_71
+  name: "Aura verbergen"
+  rules: |
+    Hiervoor is een succesvolle Proef nodig op het Talent *Wilskracht*. Proeven op Liturgieën of Helderzichtsmagie, die rechtstreeks uitgevoerd worden op de tovenaar om zijn magisch potentieel te herkennen, zijn verzwaard met de KwG van de Proef op *Wilskracht*. Voor ongerichte magische waarnemingen is zijn magisch talent volledig verborgen. Zolang de tovenaar zijn aura verhult, kan hij noch toveren, noch reeds uitgevoerde Spreuken aanhouden. Aura verbergen is perfect combineerbaar met het Voordeel Verhulde aura. De activering van de Competentie vereist 1 Actie en kan tijdens de werkingsperiode bewust worden aan- en uitgezet. Dit vergt eveneens 1 Actie. Door het uitschakelen loopt de gebruiker telkens een graad *Verwarring* op. De werkingsperiode eindigt zodra de tovenaar de verborgen aura vrijwillig opgeeft, hij slaapt of de Status *Bewusteloos* oploopt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 284
+
+- id: SA_72
+  name: "Kenmerkkennis"
+  rules: |
+    Alleen met het verwerven van een bepaalde Kenmerkkennis kan een tovenaar een Vaardigheidswaarde verhogen boven 14. Bovendien kan de tovenaar nu ook Bastaardspreuken van het overeenkomstige Kenmerk modificeren. Om een Kenmerkkennis aan te leren, moet een tovenaar drie Spreuken van het desgewenste Kenmerk op VaW 10 beheersen. Hij moet zich diepgaand bezig hebben gehouden met de bijzonderheden van het Kenmerk, bijvoorbeeld door enkele jaren van onderzoek aan een Magiëracademie, waar dit Kenmerk wordt onderwezen of via een andere in dit Kenmerk ervaren leermeester. Nadat het Kenmerk werd verworven, zijn er voor Spreuken met dit Kenmerk geen verdere speciale grenzen (buiten die van de normale maximumwaarde voor vaardigheden).
+  selectOptions:
+    - id: 1
+      name: "Antimagie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 2
+      name: "Demonisch"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 3
+      name: "Invloed"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 4
+      name: "Elementaal"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 5
+      name: "Genezing"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 6
+      name: "Helderzicht"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 7
+      name: "Illusie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 8
+      name: "Sferen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 9
+      name: "Object"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 10
+      name: "Telekinese"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+    - id: 11
+      name: "Transformatie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 285
+  apValue: "10 AP voor de eerste, 20 AP voor de tweede, 40 AP voor de derde Kenmerkkennis"
+  prerequisitesEnd: "3 Spreuken van het Kenmerk op 10"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 285
+
+- id: SA_73
+  name: "Sterke tovertrucs"
+  rules: |
+    Tovertrucs gelden als geslaagd met KwG 2.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 285
+
+- id: SA_74
+  name: "Verboden poorten"
+  rules: |
+    Een tovenaar kan in plaats van AsP ook LeP voor de magiekost gebruiken. Er moet echter per Spreuk minstens 1 AsP worden ingezet.<br>
+    Dit is zeer pijnlijk en vraagt daarom een Proef op het Talent *Zelfbeheersing*. Mislukt deze, dan mislukt ook de Spreuk. De tovenaar moet dan, zoals anders, de helft van de kosten ophoesten, waarbij deze eerst van de AsP worden afgetrokken en als deze niet voldoende zouden zijn, vervolgens van zijn LE worden afgetrokken.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 285
+
+- id: SA_75
+  name: "Tovertekens"
+  rules: |
+    De held beschikt via deze Competentie met het Talent *Schilderen & Tekenen* over het Nieuwe toepassingsgebied *Tovertekens schilderen*. Meer over **Beschermings- en Bancirkels** vind je op bladzijde **266**.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 285
+
+- id: SA_76
+  name: "Binding van de staf"
+  effect: |
+    De Binding van de staf is de eerste Stafbetovering die wordt aangebracht in een Magiërstaf. Hierdoor wordt de staf met de magiër verbonden. Bovendien wordt hij onbreekbaar, al blijft de buigzaamheid van het hout bewaard. Enkel elementaalvuur dat heter is dan drakenadem, een <span class="name--spell">Ignifaxius</span> of specifieke Antimagie kunnen hem vernietigen. Vanaf nu geldt de staf als een magisch wapen. Spreuken opslaan met onder andere een <span class="name--spell">Arcanovi</span> is niet meer mogelijk. Vanaf nu kunnen andere Stafbetoveringen in de staf verankerd worden. Een magiër kan altijd maar één Magiërstaf bezitten. Het Binden van de Staf kost de magiër eenmalig 2 Permanente AsP. De magiër kan beslissen om zijn band met de staf te verbreken, bv. om een nieuwe staf aan zich te binden. Na de dood van een magiër verliest de staf na 24 uur elke vorm van magie, dus ook alle Permanente AsP.
+  volume: "0 punten"
+  bindingCost: "2 Permanente AsP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 276
+
+- id: SA_77
+  name: "Dubbele maat"
+  effect: |
+    De activatie van deze Stafbetovering maakt de staf dubbel zo lang, zonder dat hij merkbaar aan dikte inboet. De werking blijft actief zolang de magiër lichaamscontact met de staf behoudt. Een middellange Staf wordt zo lang, dat hij onder Stangwapens valt en de Reikwijdte Lang krijgt. Een lange Staf wordt daarentegen zo lang, dat men hem niet meer als wapen kan gebruiken. Een korte Staf krijgt de Reikwijdte Middel.
+  volume: "2 punten"
+  aeCost: "1 AsP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 276
+
+- id: SA_78
+  name: "Eeuwige vlam"
+  effect: |
+    Het uiteinde van de staf kan nu worden ontstoken en brandt dan als een fakkel. Het vuur heeft een natuurlijke helderheid en hitte, maar de vlam verteert de staf niet. In de strijd biedt de Eeuwige vlam geen bijzonder voordeel. De werking van de Stafbetovering eindigt als de magiër slaapt, de Status *Bewusteloos* ondergaat of na hoogstens één uur.
+  volume: "2 punten"
+  aeCost: "1 AsP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 277
+
+- id: SA_79
+  name: "Vlammenzwaard"
+  effect: |
+    Met deze Stafbetovering kan de magiër zijn staf in een heet brandend Vlammenzwaard of, afhankelijk van de regio, in een Vlammensabel veranderen. Dit Vlammenzwaard wordt als een Magisch Wapen beschouwd en brengt, net zoals elk ander vuur, bijkomende schade aan brandgevoelige wezens toe. Het veroorzaakt 1D6+7 TP. De Staf moet een minimumlengte van 1 pas bezitten om in een Vlammenzwaard veranderd te kunnen worden. De andere waarden komen overeen met die van een lang zwaard.<br>
+    De Magiër kan het zwaard inzetten op twee manieren:
+
+    - Hij kan het hanteren zoals een normaal zwaard met de Gevechtstechniek Zwaarden. Bij een Blunder verandert het Vlammenzwaard terug in een staf. Per GvR kost deze variant na de activatie 1 AsP.
+    - Hij kan het via Telekinese laten vliegen en vechten. Hierbij worden de Gevechtstechniek Zwaarden en de AV van de Magiër voor de aanvallen gebruikt. Het beweegt zich met een SN 8. De Magiër moet zich concentreren om het zwaard te kunnen controleren. Het Vlammenzwaard gecontroleerd laten vliegen is een **Langer durende handeling** (Bladzijde **228**). Als het zwaard verder dan 32 pas van de Magiër verwijderd is, dan breekt de Stafbetovering af en het zwaard verandert terug in de staf. Per Gevechtsronde kost deze variant 2 AsP na activatie.
+
+    Om een vliegend Vlammenzwaard vast te grijpen, is de de Competentie Houdgreep nodig en een succesvolle Aanval met Knokken.Om deze aanval af te weren heeft het zwaard een AW gelijk aan de helft van zijn AV. Om uit de houdgreep te ontsnappen heeft het zwaard een VaW van 10 in het Talent *Krachttoer* (Eigenschappen = 14). (Vergelijkingsproef *Krachttoer (Trekken en Sleuren)*).
+  volume: "7 punten"
+  aeCost: "3 AsP, daarna 1 of 2 AsP per Gevechtsronde"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 277
+      lastPage: 278
+
+- id: SA_80
+  name: "Krachtfocus"
+  effect: |
+    Zolang de magiër de staf aanraakt, bespaart hij met deze Stafbetovering 1 AsP per Spreuk. Deze aftrek gebeurt na het berekenen van alle andere modificaties. Deze besparing kan de AsP-kosten nooit onder 1 brengen. Zolang de Staf veranderd is in een Vlammenzwaard, Fakkel, Touw of wat dan ook, geldt deze besparing niet. De Staf moet in de hand gehouden worden, wil de magiër de Stafbetovering kunnen gebruiken.
+  volume: "6 punten"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 277
+
+- id: SA_81
+  name: "Kenmerkfocus"
+  effect: |
+    Bij deze Stafbetovering moet een Kenmerk worden gekozen dat door de Focus ondersteund wordt. Proeven op Spreuken met zo’n ondersteunende Focus zijn met 1 verlicht. Een Kenmerkfocus kan meermaals met verschillende Kenmerken in een Staf worden verankerd. Zolang de staf veranderd is in een Vlammenzwaard, Fakkel, Touw of wat dan ook, werkt de betovering niet. De staf moet in de hand gehouden worden, wil de magiër de betovering kunnen gebruiken.
+  selectOptions:
+    - id: 1
+      name: "Antimagie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 2
+      name: "Demonisch"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 3
+      name: "Invloed"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 4
+      name: "Elementaal"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 5
+      name: "Genezing"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 6
+      name: "Helderzicht"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 7
+      name: "Illusie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 8
+      name: "Sferen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 9
+      name: "Object"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 10
+      name: "Telekinese"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+    - id: 11
+      name: "Transformatie"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 277
+  volume: "8 punten"
+  property: "Afhankelijk van het Kenmerk"
+  prerequisitesEnd: "juiste Kenmerkkennis"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 277
+
+- id: SA_82
+  name: "Touw van de adept"
+  effect: |
+    De staf kan in een touw van 10 pas lang worden veranderd dat niet kan worden vernietigd. Het kan zich rond voorwerpen slingeren als het wordt geworpen. Zolang de magiër het touw aanraakt kunnen knopen naar believen worden gebonden of losgemaakt. Het knopen en ontknopen geldt telkens als 1 Actie. Personen laten zich hierdoor niet knevelen, behalve als ze de Status *Bewegingsonbekwaam* hebben. Als de magiër het contact met het touw verliest, dan verandert het terug in zijn oorspronkelijke stafvorm.
+  volume: "2 punten"
+  aeCost: "1 AsP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 277
+
+- id: SA_83
+  name: "Staf-apport"
+  effect: |
+    De staf kan door de magiër naar zich toegeroepen worden. Hij vliegt via de kortste weg, met een SN van 15, naar de magiër en ontwijkt zelfstandig hindernissen. De staf vliegt door vensters, maar houten of stenen muren houden hem tegen. De Magiër hoeft zijn Staf niet te zien voor het gebruik van Staf-apport.
+  volume: "3 punten"
+  aeCost: "1 AsP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 277
+
+- id: SA_84
+  name: "Vertrouwelingsbinding"
+  rules: |
+    Via deze Competentie sluiten de heks en haar Vertrouweling hun sterke emotionele en magische band. Als ze deze Competentie bij de creatie verwerft, mag ze al starten met een aan haar gebonden Vertrouwensdier. In zeldzame gevallen kunnen tovenaars van andere Tradities Vertrouwensdieren aan zich binden. De spelleider heeft hierover het laatste woord.
+  prerequisites: "Traditie heks (mogelijk andere tradities)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 279
+
+- id: SA_85
+  name: "Vliegzalf"
+  rules: |
+    Door deze Competentie kan de heks Vliegzalf brouwen (maar alleen samen met andere heksen tijdens een heksennacht) en een daarmee ingesmeerd vlieghout gebruiken. De Vliegzalf transformeert houten objecten ter grootte van maximaal een tafel gedurende één jaar lang tot bestuurbaar vlieghout. De vorm, stabiliteit en gewicht van het object wijzigen hierdoor niet. Alleen de heks, die het vlieghout heeft gekozen en gezalfd, kan ermee vliegen. De Vliegzalf is slechts genoeg voor één vlieghout, dat tijdens het heksenfeest zelf moet worden ingesmeerd. Bij verlies van het vlieghout heeft de heks tot aan het volgende heksenfeest geen vlieghout.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 281
+
+- id: SA_86
+  name: "Traditie (Praioskerk)"
+  rules: |
+    - Bij de Liturgiemodificatie Afdwingen krijgt de gewijde een bonus van +2 (in plaats van +1).
+    - Als tegen de Praiosgewijde magie wordt gebruikt, verhoogt zijn Zielskracht (ZK) hiertegen met +1.
+    - Een Praiosgewijde moet zich aan de Morele code (Principieel) houden (zie onder). Dit Nadeel kiezen is een voorwaarde om een gewijde van de Praioskerk te kunnen spelen.
+    - Godgevallige talenten: *Bekeren & Overtuigen*, *Intimideren*, *Etiquette*, *Mensenkennis*, *Wilskracht*, *Oriëntatie*, *Goden & Culten*, *Magiekunde*, *Rechtskunde*, *Sferenkunde*
+    - Hoofdeigenschap van de Traditie is Slimheid.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 317
+
+- id: SA_87
+  name: "Aspectkennis"
+  rules: |
+    Door deze Competentie ontvangt een gewijde bijzonder inzicht in een bepaald aspect van zijn kerk. Naast de gewone aspecten van de verschillende kerken is er ook nog de Aspectkennis (Algemeen). Die is van toepassing op alle Liturgieën waar als Aspect ‘algemeen’ vermeld staat.<br>
+    Enkel door de passende Aspectkennis kan een gewijde bij een Liturgie een VaW van boven de 14 halen.<br>
+    Nadat het aspect wordt verworven, zijn er voor Liturgieën met dit aspect geen verdere begrenzingen (buiten de normale maximale waarde voor Vaardigheden).
+  selectOptions:
+    - id: 1
+      name: Algemeen
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 2
+      name: Antimagie
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 3
+      name: Orde
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 4
+      name: Schild
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 5
+      name: Storm
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 6
+      name: Dood
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 7
+      name: Droom
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 8
+      name: Magie
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 9
+      name: Kennis
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 10
+      name: Handel
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 11
+      name: Schaduw
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 12
+      name: Genezing
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+    - id: 13
+      name: Landbouw
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 321
+  apValue: "15 AP voor de eerste, 25 AP voor de tweede, 45 AP voor de derde Aspectkennis"
+  prerequisitesEnd: "3 Liturgieën en Ceremonieën van het aspect op VaW 10"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 321
+
+- id: SA_88
+  name: "Focus"
+  rules: |
+    Als de held in zijn concentratie wordt gestoord tijdens de uitvoering van Liturgieën en Ceremonieën, zijn de nodige Proeven op *Zelfbeheersing (Afleidingen Negeren)* door deze Competentie met +1 verlicht.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 321
+
+- id: SA_89
+  name: "Kracht van het geloof"
+  rules: |
+    De gewijde blijft standvastig in een positie staan,  roept zijn Godheid aan en concentreert zich. Lagere demonen kunnen de gewijde niet aanraken of rechtstreeks aanvallen, zolang hij geconcentreerd blijft en zich niet beweegt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 321
+
+- id: SA_90
+  name: "Sterke zegeningen"
+  rules: |
+    De Zegeningen van de held zijn bijzonder sterk, ze gelden als geslaagd met 2 KwG.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 321
+
+- id: SA_91
+  name: "Ban-/Beschermingscirkel tegen Elementale Geesten"
+  aeCost: "4 AsP"
+  protectiveCircle: |
+    Elementale en mindere geesten kunnen de cirkel niet betreden.
+  wardingCircle: |
+    De eerste elementale geest die de cirkel tot op een afstand van 7 pas nadert, wordt erin gezogen en kann hem gedurende de Werkingsduur niet meer verlaten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 266
+
+- id: SA_92
+  name: "Ban-/Beschermingscirkel tegen Djinns"
+  aeCost: "8 AsP"
+  protectiveCircle: |
+    Djinns kunnen deze cirkel niet betreden.
+  wardingCircle: |
+    De eerste Djinn die de cirkel tot op een afstand van 7 pas nadert, wordt erin gezogen en kan hem gedurende de Werkingsduur niet meer verlaten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 266
+
+- id: SA_93
+  name: "Ban-/Beschermingscirkel tegen Lagere Demonen"
+  aeCost: "4 AsP"
+  protectiveCircle: |
+    Lagere demonen kunnen deze cirkel niet betreden.
+  wardingCircle: |
+    De eerste lagere demon die de cirkel tot op 7 pas nadert, wordt erin gezogen en kan hem gedurende de Werkingsduur niet meer verlaten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 266
+
+- id: SA_94
+  name: "Ban-/Beschermingscirkel tegen Gehoornde Demonen"
+  aeCost: "8 AsP"
+  protectiveCircle: |
+    Gehoornde demonen tot en met 5 horens kunnen deze cirkel niet betreden.
+  wardingCircle: |
+    De eerste Gehoornde Demon tot en met 5 horens die de cirkel tot op een afstand van 7 pas nadert, wordt erin gezogen en kan hem gedurende de Werkingsduur niet meer verlaten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 266
+
+- id: SA_255
+  name: "Traditie (Heks)"
+  rules: |
+    - Een Spreuk van de Satuarische Traditie vereist zicht op het doelwit en meestal vrij onopvallende gebaren en formules.
+    - De heks moet contact met de grond hebben (blootsvoets is niet nodig, gewoon met de voeten op de grond staan volstaat). Zo niet, zijn haar Spreuken met 1 Punt verzwaard per pas hoogte tot een maximum van 8. Bij grotere wateren geldt het wateroppervlak als bodem. Ook gebouwen, torens en bruggen gelden als bodem.
+    - Als een betovering mislukt, kost hen dit slechts een derde van de AsP in plaats van de helft.
+    - Onder invloed van gevoelens die passen bij de Spreuk kan een heks een verlichting van maximum 2 Punten krijgen op haar Proef. Als haar gevoelens daarentegen gedempt zijn, bijvoorbeeld door ilmenblad of omdat ze tegen haar gevoelens in tovert, verzwaart dit haar Proeven met maximaal twee punten. De heks kan bewust haar gevoelens ontketenen, zodat ze binnen 2 Gevechtsrondes haar bonus met 1 kan verhogen. Voor de maximale bonus van 2 Punten heeft ze dus 4 GvR nodig. Dit vereist een Vrije actie.
+    - Heksen kunnen Vloeken leren, Satuarische raditieartefacten vervaardigen (zoals haar vlieghout) en gebruiken, alsook Vertrouwensdieren aan zich binden.
+    - De Hoofdeigenschap van de Traditie is Charisma.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 278
+
+- id: SA_345
+  name: "Traditie (Elf)"
+  rules: |
+    - Een Spreuk van de elfse Traditie vereist zicht op het doel en een magisch gebaar. Bovendien moeten de Formules van de Spreuken worden uitgesproken of gezongen.
+    - De Werkingsduur van alle Spreuken van de Traditie Elfen verdubbelt.
+    - Alle elfen kunnen Elfse Toverliederen leren en gebruiken (omdat ze automatisch de Tweestemmige zang beheersen).
+    - De Hoofdeigenschap van de Traditie is Intuïtie.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 283
+
+- id: SA_682
+  name: "Traditie (Rondrakerk)"
+  rules: |
+    - De gewijde krijgt een Nieuw toepassingsgebied voor *Zelfbeheersing (Handelingsbekwaam blijven)*. Als een Rondragewijde door Toestanden handelingsonbekwaam wordt, kan hij niettemin nog één Actie of Verdediging uitvoeren per Gevechtsronde, als hij slaagt in een Proef op *Zelfbeheersing (Handelingsbekwaam Blijven)*.
+    - *Zonder Vrees:* Dit zorgt ervoor dat de held de uitwerkingen van de hoogste graad van de Toestand *Angst* mag negeren. Hij lijdt alleen onder de uitwerkingen van de eerstvolgende lagere graad. Als een held bijvoorbeeld heeft geleden onder drie graden *Angst*, gelden voor hem slechts de uitwerkingen van graad II. Bij *Angst* graad IV wordt de gewijde alsnog *handelingsonbekwaam*.
+    - Een Rondragewijde moet de Morele code (Principieel) volgen (zie onder). Dit Nadeel kiezen is een voorwaarde om een gewijde van de Rondrakerk te kunnen spelen.
+    - Godingevallige talenten: Alle meleewapentechnieken, *Lichaamsbeheersing*, *Krachttoer*, *Rijden*, *Zelfbeheersing*, *Goden & Culten*, *Krijgskunde*
+    - Hoofdeigenschap van de Traditie is Moed.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 317
+
+- id: SA_683
+  name: "Traditie (Boronkerk)"
+  rules: |
+    - Aan Boron gewijde wapens brengen dubbele Trefpunten toe aan ondoden. De Trefpunten (TP) worden gedobbeld, dan verdubbeld en aansluitend wordt de Bescherming pantser (BP) afgetrokken.
+    - *Gewend aan de duisternis:* Zichtmodificaties die door duisternis ontstaan hebben een uitwerking van één graad lager voor de gewijde (bv. graad II wordt als graad I beschouwd). Bij volledige duisternis kan de gewijde desondanks niets zien.
+    - Een Borongewijde moet zich aan de Morele code (Principieel) houden (zie onder). Dit Nadeel kiezen is een voorwaarde om een gewijde van de Boronkerk te kunnen spelen.
+    - Godgevallige talenten: Zelfbeheersing, Verbergen, Drinken, Intimideren, Mensenkennis, Wilskracht, Goden & Culten, Sferenkunde, Sterrenkunde, Heelkunde gif, Heelkunde ziekten, Heelkunde ziel, Heelkunde wonden
+    - Hoofdeigenschap van de Traditie is Moed.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 318
+
+- id: SA_684
+  name: "Traditie (Hesindekerk)"
+  rules: |
+    - Tegen illusies krijgt een Hesindegewijde een bonus van +1 bij Proeven op *Zintuigen*.
+    - *Heldere geest:* Voor de gewijde zijn de uitwerkingen van *Verwarring* met 1 graad verlaagd (bv. *Verwarring* graad II wordt als graad I beschouwd). Een uitzondering is graad IV, hier wordt de gewijde alsnog *handelingsonbekwaam*.
+    - Een Hesindegewijde moet zich aan de Morele code (Principieel) houden (zie onder). Dit Nadeel kiezen is een voorwaarde om een gewijde van de Hesindekerk te kunnen spelen.
+    - Godingevallige talenten: Zintuigen, Bekeren & Overtuigen, Wilskracht, Plantkunde, Dierkunde, Geografie, Geschiedenis, Goden & Culten, Magiekunde, Mechanica, Rekenen, Rechtskunde, Sagen & Legenden, Sferenkunde, Sterrenkunde, Alchemie
+    - Hoofdeigenschap van de Traditie is Slimheid.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 319
+
+- id: SA_685
+  name: "Traditie (Phexkerk)"
+  rules: |
+    - De speler van een gewijde kan, bij inzet van Lotspunten om een worp te herhalen (maakt niet uit om hoeveel dobbelstenen het gaat), steeds het betere resultaat uitkiezen.
+    - Phexgewijden dingen bij Ceremonieën af met hun God. Ze krijgen +1 op de betreffende Ceremonie wanneer ze 5 zilveren daalders per Verhogingsfactor (VF) aan hem offeren, dus 5 zilveren daalders voor een Ceremonie met Verhogingsfactor A, 10 zilveren daalders voor een Ceremonie met VF B, enz.
+    - Een Phexgewijde moet zich aan de Morele code (Principieel) houden (zie boven). Dit Nadeel kiezen is een voorwaarde om een gewijde van de Phexkerk te kunnen spelen.
+    - Godgevallige talenten: *Kunstenmakerij*, *Klimmen*, *Zintuigen*, *Zakkenrollen*, *Verbergen*, *Stadskennis*, *Overhalen*, *Vermommen*, *Bord- & Geluksspel*, *Goden & Culten*, *Rekenen*, *Rechtskunde*, *Sterrenkunde*, *Handel*, *Sloten kraken*
+    - Hoofdeigenschap van de Traditie is Intuïtie.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 320
+
+- id: SA_686
+  name: "Traditie (Perainekerk)"
+  rules: |
+    - De Zegening <span class="name--chant">Kleine Heelzegen</span> geeft 2 LeP in plaats van 1 LeP.
+    - *Weerstandsvermogen tegen ziekten:* Als er een ziekteproef tegen de gewijde slaagt, dan verloopt de ziekte slechts met het lichte verloop ervan. Mislukt de ziekteproef, dan is de Perainegewijde niet door de ziekte getroffen.
+    - Een Perainegewijde moet zich aan de Morele code (Principieel) houden (zie onder). Dit Nadeel kiezen is een voorwaarde om een gewijde van de Perainekerk te kunnen spelen.
+    - Godingevallige talenten: *Drinken*, *Bekeren & Overtuigen*, *Mensenkennis*, *Wilskracht*, *Vissen*, *Plantkunde*, *Dierkunde*, *Goden & Culten*, *Sagen & Legenden*, *Heelkunde gif*, *Heelkunde ziekten*, *Heelkunde ziel*, *Heelkunde wonden*
+    - Hoofdeigenschap van de Traditie is Intuïtie.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 320

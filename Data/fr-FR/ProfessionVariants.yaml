@@ -1,0 +1,203 @@
+- id: PV_1
+  name: "Conteur"
+
+- id: PV_2
+  name: "Hainamud"
+  concludingText: "Hainamud nécessite la culture Aranien, Mhanadistani ou Novadi."
+
+- id: PV_3
+  name: "Scalde"
+  concludingText: "Scalde nécessite la culture Thorvalois."
+
+- id: PV_4
+  name: "Contremaître"
+
+- id: PV_5
+  name: "Geôlier"
+
+- id: PV_7
+  name: "Douanier"
+
+- id: PV_8
+  name: "Acrobate"
+
+- id: PV_9
+  name: "Dompteur"
+
+- id: PV_10
+  name: "Lanceur de couteaux"
+
+- id: PV_11
+  name: "Amuseur"
+
+- id: PV_12
+  name: "Diseur de bonne aventure"
+
+- id: PV_13
+  name: "Combattant de la fosse"
+
+- id: PV_14
+  name: "Combattant de foire"
+
+- id: PV_15
+  name: "Marchand itinérant"
+
+- id: PV_16
+  name: "Marchand ambulant"
+
+- id: PV_17
+  name: "Changeur"
+
+- id: PV_18
+  name: "Colporteur"
+
+- id: PV_19
+  name: "Troqueur"
+  concludingText: "Troqueur nécessite la culture Fjarning, Nivèse ou Moha."
+
+- id: PV_20
+  name: "Sage-femme"
+
+- id: PV_21
+  name: "Medicus"
+
+- id: PV_22
+  name: "Charlatan"
+
+- id: PV_23
+  name: "Arracheur de dents"
+
+- id: PV_24
+  name: "Jeune noble"
+
+- id: PV_25
+  name: "Diplomate"
+
+- id: PV_26
+  name: "Dame de compagnie"
+  concludingText: "La dame de compagnie est obligatoirement une femme."
+
+- id: PV_27
+  name: "Oisif"
+
+- id: PV_28
+  name: "Chasseur de gros gibier"
+
+- id: PV_29
+  name: "Chasseur de primes"
+
+- id: PV_30
+  name: "Chasseur d'esclaves"
+  concludingText: "Cultures habituelles : Aranien, Aventurien du Sud, Mhanadistani, Novadi."
+
+- id: PV_31
+  name: "Chasseur tribal"
+
+- id: PV_32
+  name: "Tenancier de bordel"
+
+- id: PV_33
+  name: "Fille de joie"
+
+- id: PV_34
+  name: "Courtisane"
+
+- id: PV_35
+  name: "Maîtresse"
+
+- id: PV_36
+  name: "Chevalier de cour"
+
+- id: PV_37
+  name: "Chevalier félon"
+
+- id: PV_38
+  name: "Chevalier errant"
+
+- id: PV_39
+  name: "Pêcheur"
+
+- id: PV_40
+  name: "Pirate"
+
+- id: PV_41
+  name: "Baleinier"
+
+- id: PV_42
+  name: "Chasseur de phoque"
+
+- id: PV_43
+  name: "Tirailleur"
+
+- id: PV_44
+  name: "Mercenaire léger"
+
+- id: PV_45
+  name: "Mercenaire lourd"
+
+- id: PV_46
+  name: "Agent secret"
+
+- id: PV_47
+  name: "Assassin"
+
+- id: PV_48
+  name: "Mendiant"
+
+- id: PV_49
+  name: "Voleur"
+
+- id: PV_50
+  name: "Cambrioleur"
+
+- id: PV_51
+  name: "Aigrefin"
+
+- id: PV_52
+  name: "Joueur"
+
+- id: PV_53
+  name: "Proxénète"
+
+- id: PV_54
+  name: "Serviteur de Bishdariel"
+
+- id: PV_55
+  name: "Serviteur de Golgari"
+
+- id: PV_56
+  name: "Pastori"
+
+- id: PV_57
+  name: "Satori"
+
+- id: PV_58
+  name: "Guérisseur"
+
+- id: PV_59
+  name: "Semeur"
+
+- id: PV_60
+  name: "Tire-laine"
+
+- id: PV_61
+  name: "Marchand"
+
+- id: PV_62
+  name: "Monte-en-l'air"
+
+- id: PV_63
+  name: "Légaliste"
+
+- id: PV_64
+  name: "Principiste"
+
+- id: PV_65
+  name: "Gardien du Salut"
+
+- id: PV_66
+  name: "Gardien de Traditions"
+
+- id: PV_67
+  name: "Gardien de l'Honneur"
+

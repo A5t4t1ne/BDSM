@@ -1,0 +1,50 @@
+- id: 1
+  name: "noirs bleutés"
+- id: 2
+  name: "blonds"
+- id: 3
+  name: "bruns"
+- id: 4
+  name: "blonds foncés"
+- id: 5
+  name: "bruns foncés"
+- id: 6
+  name: "blonds dorés"
+- id: 7
+  name: "gris"
+- id: 8
+  name: "blonds clairs"
+- id: 9
+  name: "bruns clairs"
+- id: 10
+  name: "roux cuivrés"
+- id: 11
+  name: "blonds moyens"
+- id: 12
+  name: "châtain moyennement bruns"
+- id: 13
+  name: "rousse"
+- id: 14
+  name: "blonds fraise"
+- id: 15
+  name: "blancs comme neige"
+- id: 16
+  name: "noirs"
+- id: 17
+  name: "argentés"
+- id: 18
+  name: "blonds blancs"
+- id: 19
+  name: "gris foncé"
+- id: 20
+  name: "gris clair"
+- id: 21
+  name: "poivres et sel"
+- id: 22
+  name: "blancs argentés"
+- id: 23
+  name: "roux flamboyants"
+- id: 24
+  name: "blancs"
+- id: 25
+  name: "vert"

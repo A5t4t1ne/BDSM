@@ -1,0 +1,899 @@
+- id: DISADV_0
+  name: "Svantaggio personalizzato"
+  rules: |
+    *Un segnaposto per svantaggi personalizzati, con un nome ed un costo in PAvv da definire liberamente.*
+  input: "Nome dello svantaggio"
+  src:
+    - id: REG001
+      firstPage: 1
+
+- id: DISADV_1
+  name: "Paura di…"
+  input: "Causa"
+  rules: |
+    L’eroe soffre un livello di Paura (vedi il **Regolamento** a pag. **34**) per ogni livello di questo svantaggio ogni qualvolta venga messo di fronte alla causa scatenante.
+  selectOptions:
+    - id: 1
+      name: "Sangue"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 2
+      name: "Buio"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 3
+      name: "Altezze"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 4
+      name: "Insetti"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 5
+      name: "Acqua"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 6
+      name: "Rettili"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 7
+      name: "Spazi chiusi"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 8
+      name: "Ragni"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 9
+      name: "Morti e morti viventi"
+      src:
+        - id: REG001
+          firstPage: 175
+  src:
+    - id: REG001
+      firstPage: 175
+
+- id: DISADV_2
+  name: "Povertà"
+  rules: |
+    Per ogni livello di questo svantaggio, l’eroe riceve 250 Talleri d’argento in meno durante la creazione del personaggio. Con 3 livelli di Povertà, non riceverà alcun denaro ed inizierà il gioco con solamente un pacchetto di abiti della categoria più bassa (vedi il **Regolamento** a pag. **375**).
+  src:
+    - id: REG001
+      firstPage: 176
+
+- id: DISADV_3
+  name: "Vincolo dell'artefatto"
+  rules: |
+    Se per qualsiasi motivo si perde il contatto corporeo diretto con l’artefatto (sulla pelle), l’eroe subirà una penalità di 1 sulle tutte le prove di magia nel lanciare incantesimi. Se l’artefatto viene distrutto, la penalità sarà permanente finché non viene realizzato un secondo artefatto di stessa fattura del primo, nel quale confluirà automaticamente il vincolo dell’eroe.
+  src:
+    - id: REG001
+      firstPage: 179
+
+- id: DISADV_4
+  name: "Flemma"
+  rules: |
+    Questo svantaggio riduce di 1 il Movimento del tuo eroe.
+  src:
+    - id: REG001
+      firstPage: 173
+
+- id: DISADV_5
+  name: "Cecità"
+  rules: |
+    Questo vantaggio rende molte prove difficili o impossibili da superare. Lo stesso vale per le abilità speciali. Il narratore decide quali penalità applicare a quali prove. Questo tipo di cecità può essere guarita soltanto da un Grande miracolo (leggi il **Regolamento** a pag. **315**).
+  src:
+    - id: REG001
+      firstPage: 171
+
+- id: DISADV_6
+  name: "Furia sanguinaria"
+  rules: |
+    L’eroe, in speciali circostanze, riceve lo stato di Furia sanguinaria. Lo svantaggio si attiva ogniqualvolta l’eroe riceva un livello di Dolore da un attacco nemico o quando fallisce una prova su Forza di volontà per resistere alla Caratteristica negativa Iracondia.
+  src:
+    - id: REG001
+      firstPage: 174
+
+- id: DISADV_7
+  name: "Senso carente"
+  rules: |
+    Un personaggio con un senso carente soffre una penalità di 2 per le prove su Percezione, ma solo se la prova si basa sul senso interessato. Vista carente impone una penalità di 2 per il combattimento a distanza. Puoi scegliere i seguenti sensi: vista, udito, olfatto e gusto, tatto. Un eroe può avere al massimo due sensi carenti.
+  selectOptions:
+    - id: 1
+      name: "Vista"
+      src:
+        - id: REG001
+          firstPage: 177
+    - id: 2
+      name: "Udito"
+      src:
+        - id: REG001
+          firstPage: 177
+    - id: 3
+      name: "Olfatto e Gusto"
+      src:
+        - id: REG001
+          firstPage: 177
+    - id: 4
+      name: "Tatto"
+      src:
+        - id: REG001
+          firstPage: 177
+  apValue: "-15 Punti Avventura (vista), -10 Punti Avventura (udito), -6 Punti Avventura (olfatto e gusto), -2 Punti Avventura (tatto)."
+  prerequisites: "Non c’è il vantaggio Senso eccezionale per lo stesso senso, non c’è lo svantaggio Cecità (per la vista) o Sordo (per l’udito)."
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_11
+  name: "Cecità ai colori"
+  rules: |
+    L’avventuriero non riesce a distinguere i colori. Questo può avere effetti negativi su alcune prove, come *Alchimia* (“aggiungi due gocce di liquido rosso al liquido verde”), riconoscere lo stemma di una casata (*Etichetta*) oppure *Orientamento* nella giungla. Il narratore decide la portata della penalità o se la prova sia del tutto impossibile.
+  src:
+    - id: REG001
+      firstPage: 172
+
+- id: DISADV_12
+  name: "Corpulenza"
+  rules: |
+    Questo svantaggio dà una penalità di 1 su prove di *Arrampicarsi*, *Ballare*, *Controllo del corpo* e *Furtività*.
+  src:
+    - id: REG001
+      firstPage: 172
+
+- id: DISADV_13
+  name: "Suscettibilità ai veleni"
+  rules: |
+    Lo svantaggio riduce la Tenacia e l’Animo dell’eroe di 1 per ogni livello di svantaggio quando si trova a dover resistere ad un qualche veleno.
+  src:
+    - id: REG001
+      firstPage: 179
+
+- id: DISADV_14
+  name: "Sgradevolezza"
+  rules: |
+    L’eroe subisce una penalità di 1 per ogni livello di questo svantaggio per prove su *Commerciare (Contrattare)*, *Parlantina (Manipolare, Adulare)* e *Seduzione (Conquistare, Romanticherie)*.
+  src:
+    - id: REG001
+      firstPage: 178
+
+- id: DISADV_15
+  name: "Suscettibilità al caldo"
+  rules: |
+    Se soggetti ad almeno un livello di Caldo (vedi il **Regolamento** a pag. **346**), si applicano le penalità per il livello di Caldo superiore.
+  src:
+    - id: REG001
+      firstPage: 179
+
+- id: DISADV_16
+  name: "Suscettibilità al freddo"
+  rules: |
+    Se soggetti ad almeno un livello di Freddo (vedi il **Regolamento** a pag. **346**), si applicano le penalità per il livello di Freddo superiore.
+  src:
+    - id: REG001
+      firstPage: 179
+
+- id: DISADV_17
+  name: "Nessun balsamo levitante"
+  rules: |
+    L’eroe non può possedere l’abilità speciale *Balsamo levitante*. Ciò rende meno costosa di 10 PAvv l’abilità speciale *Tradizione (Streghe)*.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: Una Tradizione magica che possa scegliere l’abilità speciale Balsamo levitante
+  src:
+    - id: REG001
+      firstPage: 175
+
+- id: DISADV_18
+  name: "Nessun famiglio"
+  rules: |
+    L’eroe non può avere l’abilità speciale *Legame del famiglio*. Ciò rende meno costosa di 10 PAvv l’abilità speciale *Tradizione (Streghe)*.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: Una Tradizione magica che possa scegliere l’abilità speciale Legame del famiglio
+  src:
+    - id: REG001
+      firstPage: 175
+
+- id: DISADV_19
+  name: "Vincolo dei capelli"
+  rules: |
+    Un eroe che perde dei capelli per una qualche ragione (per un taglio, fuoco o un altro incidente, la lunghezza non importa), perderà anche immediatamente 10 punti di PA (fino a scendere ad un minimo di 0). I PA persi in questo modo si rigenerano nel modo consueto. La perdita dei capelli dovuta alla normale caduta quotidiana non attiva questo svantaggio.
+  prerequisitesEnd: "Vantaggio Dono della magia, la specie deve avere i capelli"
+  src:
+    - id: REG001
+      firstPage: 179
+
+- id: DISADV_20
+  name: "Peculiarità fisica"
+  input: "Peculiarità"
+  rules: |
+    Puoi scegliere al più due peculiarità fisiche. Lo svantaggio può comportare delle penalità sulle competenze sociali a causa di diffidenza, pregiudizi o superstizioni.
+  src:
+    - id: REG001
+      firstPage: 176
+
+- id: DISADV_21
+  name: "Suscettibilità alle malattie"
+  rules: |
+    Lo svantaggio riduce la Tenacia e l’Animo dell’eroe di 1 per ogni livello di svantaggio quando si trova a dover resistere a una qualche malattia.
+  src:
+    - id: REG001
+      firstPage: 179
+
+- id: DISADV_22
+  name: "Perseguitato da spiriti minori"
+  rules: |
+    Ogni volta che il lanciatore di incantesimi spende dell’Energia Astrale, il giocatore tira 1D20. Se il risultato è minore o uguale all’ammontare di PA speso, gli spiriti minori appariranno e tormenteranno il lanciatore di incantesimi. È il narratore a decidere quale tipo di spirito minore farà la sua comparsa, a seconda della situazione. Esempi includono i venticelli, che scompigliano i capelli della vittima, le lacrimelle, che si annidano sotto gli occhi, e le fiammelle, che possono surriscaldare o persino bruciacchiare i possedimenti dell’eroe. Tutte le prove di abilità subiscono una penalità di 1 a causa del fastidio provocato dagli spiriti minori. Anche se attirerai più di un tipo di spiriti minori alla volta, la penalità non aumenta. Gli spiriti minori restano nei paraggi per 10 minuti e poi svaniscono.
+  src:
+    - id: REG001
+      firstPage: 176
+
+- id: DISADV_23
+  name: "Sensibilità alla luce del sole"
+  rules: |
+    L’eroe soffre un livello della condizione Dolore con una luce solare che sia più forte rispetto a quella del tramonto, ma può evitare l’effetto coprendosi dalla testa ai piedi (occhi inclusi).
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_24
+  name: "Restrizione astrale"
+  input: "Ambiente"
+  rules: |
+    Non si subiscono penalità sulle prove di abilità magiche all’interno dell’ambiente indicato, ma si riceve una penalità di 1 in tutti gli altri ambienti.
+  selectOptions:
+    - id: 1
+      name: "Maledizione delle Rive"
+      src:
+        - id: REG001
+          firstPage: 176
+    - id: 2
+      name: "Maledizione delle Montagne"
+      src:
+        - id: REG001
+          firstPage: 176
+    - id: 3
+      name: "Maledizione del Ghiaccio"
+      src:
+        - id: REG001
+          firstPage: 176
+    - id: 4
+      name: "Maledizione dei Mari"
+      src:
+        - id: REG001
+          firstPage: 176
+    - id: 5
+      name: "Maledizione della Notte"
+      src:
+        - id: REG001
+          firstPage: 176
+    - id: 6
+      name: "Maledizione delle Foreste"
+      src:
+        - id: REG001
+          firstPage: 176
+  apValueAppend: "(Vedi regole per Armonia astrale, **Regolamento** a pag. **164**)"
+  src:
+    - id: REG001
+      firstPage: 176
+
+- id: DISADV_25
+  name: "Cecità notturna"
+  rules: |
+    Se l’eroe soffre di una penalità di almeno un livello data dall’oscurità, la penalità conta come aumentata di un livello (vedi il **Regolamento** a pag. **348**).
+  src:
+    - id: REG001
+      firstPage: 172
+
+- id: DISADV_26
+  name: "Scarsa energia astrale"
+  rules: |
+    Per ogni livello di questo svantaggio, riduci di 1 punto il valore base dell’Energia Astrale dell’eroe.
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_27
+  name: "Scarsa energia karmica"
+  rules: |
+    Per ogni livello di questo svantaggio, riduci di 1 punto il valore base dell’Energia Karmica dell’eroe.
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_28
+  name: "Scarsa energia vitale"
+  rules: |
+    Per ogni livello di questo svantaggio, riduci di 1 punto il valore base dell’Energia Vitale dell’eroe.
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_29
+  name: "Animo debole"
+  rules: |
+    Riduci il valore base dell’Animo dell’eroe di 1.
+  src:
+    - id: REG001
+      firstPage: 170
+
+- id: DISADV_30
+  name: "Arrendevolezza"
+  rules: |
+    Riduci il valore base della Tenacia dell’eroe di 1.
+  src:
+    - id: REG001
+      firstPage: 170
+
+- id: DISADV_31
+  name: "Sfortuna"
+  rules: |
+    L’eroe inizia il gioco con un PFato in meno per ogni livello di svantaggio. Anche il numero massimo di PFato dell’eroe scende di un punto per ogni livello di questo svantaggio. Il numero totale di PFato dell’eroe non può scendere sotto a 0.
+  src:
+    - id: REG001
+      firstPage: 178
+
+- id: DISADV_32
+  name: "Scalogna"
+  rules: |
+    Se il narratore deve decidere qualcosa in modo casuale (Quale eroe viene colpito dalla freccia? Chi era vicino la trappola quando è stata attivata? A chi viene rubato il borsello?), le probabilità che accada all’eroe scalognato sono almeno duplicate. Se più eroi (o addirittura tutti) dovessero scegliere lo svantaggio, gli effetti si annullerebbero, per cui sta al narratore decidere se possa essere scelto o meno.
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_33
+  name: "Difetto caratteriale"
+  rules: |
+    Il narratore può penalizzare di 1 le prove di abilità sulle competenze pertinenti. È possibile scegliere al massimo due difetti caratteriali per ogni eroe.
+  selectOptions:
+    - id: 1
+      name: "Arroganza"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 2
+      name: "Vanità"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 3
+      name: "Invidia"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 4
+      name: "Aggressività"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 5
+      name: "Antipatia"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 6
+      name: "Servito e riverito"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 7
+      name: "Pregiudizi"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 8
+      name: "Estraneità"
+      src:
+        - id: REG001
+          firstPage: 173
+  apValue: "A seconda del difetto"
+  src:
+    - id: REG001
+      firstPage: 172
+
+- id: DISADV_34
+  name: "Integrità"
+  input: "Principle"
+  rules: |
+    Questo svantaggio ha tre livelli. Il primo limita l’eroe solo lievemente, il secondo lo fa in modo più impegnativo, mentre il terzo livello comporta forti restrizioni sulle azioni dell’eroe. Il personaggio può mostrare integrità verso diversi tipi di princìpi, ma può ricevere Punti Avventura per questo svantaggio solo una volta (per il più alto livello di integrità). I personaggi che si comportano contravvenendo ai loro princìpi subiscono una penalità di 1 in tutte le prove di abilità. Questa penalità si mantiene per almeno un’ora (il narratore determina la durata esatta in base alla situazione ed alla gravità delle azioni).
+  selectOptions:
+    - id: 1
+      name: "99 Leggi di Rastullah"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 2
+      name: "Codice della chiesa di Hesinde"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 3
+      name: "Codice della chiesa di Phex"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 4
+      name: "Codice della chiesa di Peraine"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 5
+      name: "Codice d’onore dei guerrieri"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 6
+      name: "Codice d’onore dei cavalieri"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 7
+      name: "Visione del mondo elfica"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 8
+      name: "Codice della chiesa di Boron"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 9
+      name: "Codice della chiesa di Praios"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 10
+      name: "Codice della chiesa di Rondra"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 11
+      name: "Codice d’onore nanico"
+      src:
+        - id: REG001
+          firstPage: 174
+    - id: 12
+      name: "Pacifismo radicale"
+      src:
+        - id: REG001
+          firstPage: 174
+  src:
+    - id: REG001
+      firstPage: 176
+
+- id: DISADV_35
+  name: "Sonnambulismo"
+  rules: |
+    L’eroe non camminerà nel sonno più di una volta a settimana. Durante le 24 ore successive all’episodio, l’eroe soffre un livello di condizione Stordimento per mancanza di sonno. Riduci di 1 gli effetti della rigenerazione per la notte interessata dall’episodio.
+  src:
+    - id: REG001
+      firstPage: 178
+
+- id: DISADV_36
+  name: "Cattiva abitudine"
+  input: "Abitudine"
+  rules: |
+    I personaggi possono scegliere quante cattive abitudini vogliono, ma possono ricevere in cambio al massimo 6 PAvv. In rari casi, le cattive abitudini possono portare a delle penalità nelle competenze sociali. Vedi di fianco per un elenco di abitudini.
+  selectOptions:
+    - id: 1
+      name: "A piedi nudi"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 3
+      name: "Terza persona"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 5
+      name: "Primo!"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 6
+      name: "Piagnisteo"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 7
+      name: "Ipocondria"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 8
+      name: "Ragazzo"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 9
+      name: "Palpebre pesanti"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 10
+      name: "Sinistra e destra"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 11
+      name: "Figlio mio"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 12
+      name: "Mangiaunghie"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 14
+      name: "Nervosismo"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 15
+      name: "Ossessione per la pulizia"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 16
+      name: "Fumo"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 17
+      name: "Fiume di parole"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 18
+      name: "Maleducazione a tavola"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 19
+      name: "Soliloquio"
+      src:
+        - id: REG001
+          firstPage: 172
+    - id: 20
+      name: "Disordine"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 21
+      name: "Plurale maiestatico"
+      src:
+        - id: REG001
+          firstPage: 172
+  apValueAppend: "-2 Punti Avventura per ogni cattiva abitudine"
+  src:
+    - id: REG001
+      firstPage: 171
+
+- id: DISADV_37
+  name: "Caratteristica negativa"
+  rules: |
+    Se confrontati con delle possibili cause scatenanti per la specifica caratteristica, i personaggi dovranno effettuare una prova su *Forza di volontà*. Se la prova fallisce, la loro caratteristica negativa ha la meglio e li terrà in pugno fintanto che gli eroi si troveranno davanti la causa scatenante. A seconda della gravità di questa causa, il narratore assegnerà bonus e penalità alla prova su *Forza di volontà*. Puoi scegliere fino a due caratteristiche negative per ciascun personaggio. Non puoi però scegliere una combinazione priva di senso logico (ad esempio, combinare Avarizia con Sperpero). Il narratore, come sempre, ha l’ultima parola.
+  selectOptions:
+    - id: 1
+      name: "Superstizione"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 2
+      name: "Deferenza all’autorità"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 3
+      name: "Avarizia"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 4
+      name: "Cupidigia"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 5
+      name: "Iracondia"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 6
+      name: "Cleptomania"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 7
+      name: "Ingenuità"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 8
+      name: "Curiosità"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 9
+      name: "Vendicatività"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 10
+      name: "Ludopatia"
+      src:
+        - id: REG001
+          firstPage: 171
+    - id: 11
+      name: "Sperpero"
+      src:
+        - id: REG001
+          firstPage: 171
+  apValue: "A seconda della caratteristica"
+  src:
+    - id: REG001
+      firstPage: 170
+
+- id: DISADV_38
+  name: "Rigenerazione astrale rallentata"
+  rules: |
+    L’eroe sottrae 1 da ogni tiro di rigenerazione di PA per ogni livello di questo svantaggio (fino ad una rigenerazione minima di 0).
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_39
+  name: "Rigenerazione karmica rallentata"
+  rules: |
+    L’eroe sottrae 1 da ogni tiro di rigenerazione di PK per ogni livello di questo svantaggio (fino ad una rigenerazione minima di 0).
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_40
+  name: "Rigenerazione vitale rallentata"
+  rules: |
+   L’eroe sottrae 1 da ogni tiro di rigenerazione di PV per ogni livello di questo svantaggio (fino ad una rigenerazione minima di 0).
+  src:
+    - id: REG001
+      firstPage: 177
+
+- id: DISADV_41
+  name: "Debolezza del corpo astrale"
+  rules: |
+    L’eroe perde un PA in più qualora spenda qualsiasi numero di punti di Energia Astrale.
+  src:
+    - id: REG001
+      firstPage: 172
+
+- id: DISADV_42
+  name: "Debolezza del corpo karmico"
+  rules: |
+    L’eroe perde un PK in più qualora spenda qualsiasi numero di punti di Energia Karmica.
+  src:
+    - id: REG001
+      firstPage: 172
+
+- id: DISADV_43
+  name: "Olfatto sensibile"
+  rules: |
+    L’eroe soffre un livello di condizione Stordimento fintanto che il cattivo odore persiste.
+  src:
+    - id: REG001
+      firstPage: 175
+
+- id: DISADV_44
+  name: "Difetto di pronuncia"
+  rules: |
+    A discrezione del narratore, l’eroe può subire una penalità di 1 su tutte le competenze sociali (fatta eccezione per *Perspicacia* e *Forza di volontà*) così come su *Commerciare (Contrattare)* quando parla con altre persone. Puoi prendere questo svantaggio solo una volta.
+  src:
+    - id: REG001
+      firstPage: 173
+
+- id: DISADV_45
+  name: "Stigma"
+  input: "Stigma"
+  rules: |
+    In una situazione pertinente, il narratore può penalizzare di 1 le prove sulle competenze sociali (ad eccezione di *Perspicacia*, *Intimidazione* e *Forza di volontà*) e *Commerciare (Contrattare)*. Puoi scegliere questo svantaggio soltanto una volta.
+  selectOptions:
+    - id: 1
+      name: "Albino"
+      src:
+        - id: REG001
+          firstPage: 178
+    - id: 2
+      name: "Marchi"
+      src:
+        - id: REG001
+          firstPage: 178
+    - id: 3
+      name: "Capelli verdi"
+      src:
+        - id: REG001
+          firstPage: 178
+    - id: 4
+      name: "Occhi di gatto"
+      src:
+        - id: REG001
+          firstPage: 178
+    - id: 5
+      name: "Squame di serpente"
+      src:
+        - id: REG001
+          firstPage: 178
+  src:
+    - id: REG001
+      firstPage: 178
+
+- id: DISADV_46
+  name: "Mutismo"
+  rules: |
+    L’eroe ha problemi nel comunicare verbalmente con le altre persone (ma riesce ad usare il linguaggio dei segni o la scrittura). Gli incantesimi e tutte le altre azioni che richiedono la parola sono impossibili o molto difficili da usare. L’eroe guadagna lo stato di Muto.
+  src:
+    - id: REG001
+      firstPage: 175
+
+- id: DISADV_47
+  name: "Sordità"
+  rules: |
+    L’eroe non può fare prove su *Percezione* basate sull’udito e riceve lo stato di Sordo (vedi il **Regolamento** a pag. **36**).
+  src:
+    - id: REG001
+      firstPage: 178
+
+- id: DISADV_48
+  name: "Incompetenza"
+  rules: |
+   Nelle prove di abilità sulla competenza per cui vale lo svantaggio, l’eroe deve ritirare il risultato migliore dei tre dadi lanciati. Il secondo risultato così ottenuto non può essere modificato. Non è possibile ottenere questo svantaggio per più di due competenze.
+  prerequisites: "Non c’è il vantaggio Attitudine per la stessa competenza; acquistabile al più due volte."
+  src:
+    - id: REG001
+      firstPage: 174
+
+- id: DISADV_49
+  name: "Asservimento"
+  rules: |
+    I personaggi con lo svantaggio Asservimento soffrono delle penalità qualora usino competenze sociali con persone appartenenti a ranghi superiori della società. Possono subire oppressioni legate alla cultura, possono usufruire di scarsa protezione legale e sono considerati praticamente sempre come una proprietà di qualcuno. Leggi a pag. **338** del **Regolamento** per maggiori dettagli.
+  src:
+    - id: REG001
+      firstPage: 170
+
+- id: DISADV_50
+  name: "Doveri"
+  input: "Dovere"
+  rules: |
+    L’eroe dovrà obbedire agli ordini dell’entità a cui è sottoposto o, altrimenti, pagarne le conseguenze. Gli eroi possono avere degli obblighi nei confronti di più istituzioni o gruppi, ma possono ricevere punti per questo svantaggio soltanto una volta (per il più alto livello di doveri).
+  selectOptions:
+    - id: 1
+      name: "Nei confronti della famiglia"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 2
+      name: "Nei confronti di un creditore"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 3
+      name: "Nobile nei confronti del proprio sovrano"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 4
+      name: "Iniziato nei confronti della sua chiesa"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 5
+      name: "Iniziato nei confronti del suo tempio"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 6
+      name: "Mago nei confronti del mentore"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 7
+      name: "Mago nei confronti dell’accademia"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 8
+      name: "Mago nei confronti di una gilda"
+      src:
+        - id: REG001
+          firstPage: 173
+    - id: 9
+      name: "Membro di una setta nei confronti del vertice della setta"
+      src:
+        - id: REG001
+          firstPage: 173
+  src:
+    - id: REG001
+      firstPage: 173
+
+- id: DISADV_51
+  name: "Menomazione"
+  rules: |
+   Lo svantaggio rende molte prove di abilità difficili o impossibili da superare. Il narratore ha l’ultima parola, a seconda della situazione.
+
+    - **Solo un braccio:** Un braccio del personaggio termina ad altezza del gomito.
+    - **Solo un occhio:** L’eroe è cieco da un occhio o ha perso del tutto un occhio. Il combattimento a distanza soffre una penalità di 4.
+    - **Solo una gamba:** L’eroe ha una gamba amputata sotto al ginocchio o del tutto assente. Dimezza il valore base di Movimento dell’eroe, anche quando usa delle stampelle o protesi come una gamba di legno.
+    - **Solo una mano:** L’avventuriero ha solo una mano.
+    - **Solo un orecchio:** L’eroe è sordo da un orecchio o non ce l’ha per niente. Le prove su Percezione basate sull’udito soffrono sempre di una penalità di 1.
+  selectOptions:
+    - id: 1
+      name: "Solo un braccio"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 2
+      name: "Solo un occhio"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 3
+      name: "Solo una gamba"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 4
+      name: "Solo una mano"
+      src:
+        - id: REG001
+          firstPage: 175
+    - id: 5
+      name: "Solo un orecchio"
+      src:
+        - id: REG001
+          firstPage: 175
+  apValue: "-30 Punti Avventura (braccio), -10 Punti Avventura (occhio), -30 Punti Avventura (gamba), -20 Punti Avventura (mano), -5 Punti Avventura (orecchio)."
+  src:
+    - id: REG001
+      firstPage: 174
+
+- id: DISADV_52
+  name: "Nome vero"
+  rules: |
+    Se l’eroe è bersaglio di un incantesimo da parte di una persona che conosce il suo nome vero, i suoi valori di Spirito e Tenacia si riducono di 4 punti ai fini delle prove di abilità magiche, rendendo l’eroe più facile da incantare.
+  src:
+    - id: REG001
+      firstPage: 175
+
+- id: DISADV_53
+  name: "Magia incontrollata"
+  rules: |
+    Ottenere 19 in un tiro per le prove di abilità di incantesimi e rituali viene considerato come se fosse un 20, per stabilire eventuali fallimenti critici.
+  src:
+    - id: REG001
+      firstPage: 174
+
+- id: DISADV_54
+  name: "Suscettibilità alla magia"
+  rules: |
+    Tenacia ed Animo dell’eroe vengono ridotti di 1 per ogni livello dello svantaggio quando ci si trova a dover resistere alla magia.
+  src:
+    - id: REG001
+      firstPage: 179
+
+- id: DISADV_55
+  name: "Gracilità"
+  rules: |
+    Considera le penalità dovute alla condizione Dolore come fossero di un livello più alte. Di conseguenza, l’eroe sarà incapacitato al livello III di Dolore anziché che al IV.
+  src:
+    - id: REG001
+      firstPage: 174

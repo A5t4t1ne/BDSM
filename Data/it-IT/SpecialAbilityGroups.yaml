@@ -1,0 +1,20 @@
+- id: 1
+  name: "Generale"
+- id: 2
+  name: "Fato"
+- id: 3
+  name: "Combattimento"
+- id: 4
+  name: "Magia"
+- id: 5
+  name: "Incantamenti del bastone"
+- id: 6
+  name: "Streghe"
+- id: 7
+  name: "Karma"
+- id: 8
+  name: "Cerchio di confino/protezione"
+- id: 28
+  name: "Tradizioni magiche"
+- id: 29
+  name: "Tradizioni divine"

@@ -1,0 +1,21 @@
+- id: 1
+# name: "Hazaqi"
+  prerequisites:
+    culturePrerequisite: C_26
+- id: 2
+# name: "Marjuna"
+  prerequisites:
+    sexPrerequisite: m
+    culturePrerequisite: C_2
+- id: 3
+# name: "Rahkisa"
+  prerequisites:
+    sexPrerequisite: f
+    culturePrerequisite: C_14
+- id: 4
+# name: "Sharisad"
+  prerequisites:
+    sexPrerequisite: f
+    culturePrerequisite:
+      - C_2
+      - C_7

@@ -1,0 +1,471 @@
+- id: SPELL_208
+  name: "Tanz der Angriffslust"
+  nameByTradition:
+    - id: 1
+      name: "Korosana"
+    - id: 2
+      name: "Kors Stampfen"
+  effect: |
+    Dieser Tanz sät Zwietracht und Zorn zwischen den Zuschauern. Alle Zuschauer, deren Seelenkraft 2 oder niedriger ist, erhalten die Schlechte Eigenschaft Jähzorn,sofern sie sie nicht schon haben. Während der Tanzdarbietung müssen sie eine Probe auf *Willenskraft (Einschüchtern widerstehen)* erschwert um QS/2 bestehen, um nicht einen Streit mit anderen Zuschauern anzufangen. Wer bereits Jähzorn besitzt, dessen Probe sollte zusätzlich noch um 1 erschwert werden. Während dieses Streits muss es nicht zu Handgreiflichkeiten kommen. Über die genauen Auswirkungen entscheidet die Spielleiterin anhand der Situation und der Proben auf *Willenskraft*.<br>
+    Die Wirkung hält 30 Minuten nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "12 AsP"
+  aeCostShort: "12 AsP"
+  src:
+    - id: US25004
+      firstPage: 58
+
+- id: SPELL_209
+  name: "Tanz der Beweglichkeit"
+  nameByTradition:
+    - id: 3
+      name: "Rastullahs Wind"
+  effect: |
+    Die Rahkisa erhält einen Bonus von QS/2 auf GS und Ausweichen.<br>
+    Die Wirkung hält 1 Stunde nach dem Ende des Tanzes an.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 58
+
+- id: SPELL_210
+  name: "Tanz der Bilder"
+  nameByTradition:
+    - id: 1
+      name: "El Vanidad"
+    - id: 2
+      name: "Phexens Geschmeide"
+    - id: 3
+      name: "Shimjas Rausch"
+    - id: 4
+      name: "Bilderrausch"
+  effect: |
+    Alle Zuschauer sehen während der Vorstellung der Zaubertänzerin in ihrem Geist eine schnelle Abfolge von Bildern und Farben. Das Gesehene formt sich nach dem Willen der Tänzerin. Damit kann sie zwar keine komplexen Geschichten erzählen, wohl aber eine kleine Szene kreieren. Je mehr QS erzielt wurden, desto deutlicher und beeindruckender sind die Bilder.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  src:
+    - id: US25004
+      firstPage: 58
+
+- id: SPELL_211
+  name: "Tanz der Erlösung"
+  nameByTradition:
+    - id: 1
+      name: "Zarparda"
+    - id: 2
+      name: "Hesindes Macht"
+    - id: 3
+      name: "Marhibos Hand"
+    - id: 4
+      name: "Yasminas Erlösung"
+  effect: |
+    Durch diesen Zaubertanz kann eine einzige Person unter den Zuschauern bestimmt werden, die von Beherrschungsmagie befreit wird. Dabei kann es sich um folgende Zauber oder magische Handlungen handeln, unter der sie leidet:
+
+    - ein Zauber mit dem Merkmal Einfluss
+    - ein Hexenfluch
+    - ein Herrschaftsritual.
+
+    Die QS des Tanzes muss mindestens den QS der Beherrschungsmagie entsprechen, um sie zu brechen.<br>
+    Der Tanz muss 30 Minuten getanzt werden. Die Wirkung bleibt nach dem Ende des Tanzes bestehen, auch wenn die Zaubertänzerin den Radius des Tanzes verlässt.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "10 AsP"
+  aeCostShort: "10 AsP"
+  src:
+    - id: US25004
+      firstPage: 58
+
+- id: SPELL_212
+  name: "Tanz der Ermutigung"
+  nameByTradition:
+    - id: 1
+      name: "Pavoneo"
+    - id: 2
+      name: "Rondras Mut"
+    - id: 3
+      name: "Rhondaras Forderung"
+    - id: 4
+      name: "Dschamillas Ermutigug"
+  effect: |
+    Bis zu QS ausgewählte Zuschauer werden zuversichtlicher und mutiger. Je nach QS erhalten sie verschiedene Boni. Die Boni sind kumulativ, d. h. bei QS 3 hat das Ziel insgesamt MU +2 und SK +1.<br>
+    Die Wirkung hält 30 Minuten nach dem Ende des Tanzes an.
+
+    - **QS 1:** +1 MU
+    - **QS 2:** +1 SK
+    - **QS 3:** +1 MU
+    - **QS 4:** +1 ZK
+    - **QS 5:** +1 MU
+    - **QS 6:** +1 AT
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  src:
+    - id: US25004
+      firstPage: 58
+
+- id: SPELL_213
+  name: "Tanz der Heilung"
+  nameByTradition:
+    - id: 2
+      name: "Peraines Liebe"
+    - id: 4
+      name: "Suleikas Begeisterung"
+  effect: |
+    Bis zu QS/2 von der Zaubertänzerin ausgewählte Zuschauer innerhalb der Reichweite erhalten am Ende des Tanzes 1W6 LeP zurück. Ein Zuhörer kann nur einmal am Tag von dieser Wirkung profitieren.<br>
+    Die Wirkung bleibt nach dem Ende des Tanzes bestehen, auch wenn die Zaubertänzerin den Radius des Tanzes verlässt.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 58
+
+- id: SPELL_214
+  name: "Tanz der Liebe"
+  nameByTradition:
+    - id: 1
+      name: "Rahjarra"
+    - id: 3
+      name: "Khablas Verlockung"
+    - id: 4
+      name: "Liebestanz"
+  effect: |
+    Alle Zuschauer hegen während des Tanzes große Sympathie für die Zaubertänzerin. Sie kann zusätzlich bis zu QS/2 Personen auswählen, die ihr mit Haut und Haaren verfallen sind. Diese entbrennen in leidenschaftlicher Zuneigung zur Tänzerin und werden sich ihr auf Wunsch hingeben. Proben auf *Willenskraft (Betören widerstehen)* sind für die Ziele des Zaubertanzes um QS/2 erschwert. Betroffen sind nur Zuschauer, deren Seelenkraft 2 oder niedriger ist. Sie müssen zudem prinzipiell an Spezies und Geschlecht der Tänzerin interessiert sein, was z. B. asketisch lebende Personen ausschließt.<br>
+    Die Wirkung hält 3 Stunden nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 58
+
+- id: SPELL_215
+  name: "Tanz der Linderung"
+  nameByTradition:
+    - id: 3
+      name: "Perhinas Segen"
+  effect: |
+    Bei einer einzigen auserwählten Person unter den Zuschauern wird eine Krankheit oder ein Gift neutralisiert, und der entsprechende Status *Krank* oder *Vergiftet* wird aufgehoben. Ein Zuhörer kann nur einmal am Tag von dieser Wirkung profitieren. Der Tanz heilt Gifte und Krankheiten bis zur Stufe der erreichten QS.<br>
+    Die Wirkung bleibt nach dem Ende des Tanzes bestehen, auch wenn die Rahkisa den Radius des Tanzes verlässt.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "Gift- oder Krankheitsstufe x 3 in AsP"
+  aeCostShort: "GS/KS x 3 AsP"
+  src:
+    - id: US25004
+      firstPage: 59
+
+- id: SPELL_216
+  name: "Tanz der magischen Gemeinschaft"
+  nameByTradition:
+    - id: 4
+      name: "Gemeinschaft der Zauberer"
+  effect: |
+    Die Sharisad kann bis zu 6 freiwillige magiekundige Zuschauer auswählen. Alle gewählten Magiekundigen können für die nächste Stunde nach dem Ende des Tanzes auf die AsP-Vorräte aller anderen Mitglieder zurückgreifen. Um den Vorrat eines anderen Mitglieds des Bundes nutzen zu können, muss dieses aber zustimmen. Die Sharisad ist von dem Bund ausgenommen.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "10 AsP"
+  aeCostShort: "10 AsP"
+  src:
+    - id: US25004
+      firstPage: 59
+
+- id: SPELL_217
+  name: "Tanz der Täuschung"
+  nameByTradition:
+    - id: 1
+      name: "Selinata"
+  effect: |
+    Bis zu 6 Zuschauer der Hazaqi sind leichter zu manipulieren und zu täuschen. Proben auf *Menschenkenntnis* sind für die Zuschauer um 1 erschwert, Proben auf *Überreden* hingegen um 2 erleichtert. Betroffen sind nur Zuschauer, deren Seelenkraft 2 oder niedriger ist.<br>
+    Die Wirkung hält QS x 10 Minuten nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "10 AsP"
+  aeCostShort: "10 AsP"
+  src:
+    - id: US25004
+      firstPage: 59
+
+- id: SPELL_218
+  name: "Tanz der Träume"
+  nameByTradition:
+    - id: 1
+      name: "Madaya"
+    - id: 2
+      name: "Bishdariels Traum"
+  effect: |
+    Die Tänzerin kann mit diesem Zaubertanz einen Zuschauer auswählen. Sie spürt sofort, wenn er das nächste Mal schläft und kann bestimmen, was er träumt. Die Tänzerin dringt selbst nicht in den Traum ein und kann dem Träumer nicht schaden. Es ist aber durchaus möglich, ihm Alpträume zu bescheren. Auch schöne Träume sind möglich.<br>
+    Die Zielperson kann sich nach dem Ende des Tanzes beliebig weit von der Zaubertänzerin entfernen. Dieser Tanz kann auch für einen bereits Schlafenden getanzt werden, der die Tänzerin in diesem Fall natürlich nicht sehen muss. In einem solchen Fall ist der Tanz um 1 erleichtert. Der Traum ist intensiver, je mehr QS erzielt wurden.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  src:
+    - id: US25004
+      firstPage: 59
+
+- id: SPELL_219
+  name: "Tanz der Unantastbarkeit"
+  nameByTradition:
+    - id: 3
+      name: "Tanz für Rastullah"
+  effect: |
+    Die Rahkisa verfügt über einem magischen Schutz, der regeltechnisch wie ein Gardianum wirkt. Allerdings ist der Schild nur auf ihren Körper beschränkt und hat eine Schildstärke von QS x 2. Der Schild hält, bis die Schildstärke auf 0 oder darunter gesunken ist, oder 30 Minuten vergangen sind (je nachdem, was zuerst eintritt).<br>
+    Die Wirkung bleibt nach dem Ende des Tanzes bestehen, auch wenn die Rahkisa den Radius des Tanzes verlässt.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  src:
+    - id: US25004
+      firstPage: 59
+
+- id: SPELL_220
+  name: "Tanz der Unverletzbarkeit"
+  nameByTradition:
+    - id: 3
+      name: "Rastullahs Schutz"
+    - id: 4
+      name: "Kriegstanz"
+  effect: |
+    Die Haut der Rahkisa wird mit einem magischen Schutz versehen, der regeltechnisch wie ein Gardianum wirkt, aber TP von Waffen abfängt, statt durch AsP verursachte TP. Allerdings ist der Schild nur auf ihren Körper beschränkt und hat eine Schildstärke von QS x 2. Der Schild hält, bis die Schildstärke auf 0 oder darunter gesunken ist, oder 30 Minuten vergangen sind (je nachdem, was zuerst eintritt).<br>
+    Die Wirkung bleibt nach dem Ende des Tanzes bestehen, auch wenn die Rahkisa den Radius des Tanzes verlässt.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 59
+
+- id: SPELL_221
+  name: "Tanz der Verteidigung"
+  nameByTradition:
+    - id: 4
+      name: "Dimionas Schutz"
+  effect: |
+    Die Sharisad kann bis zu 6 ausgewählten Zuschauern einen Bonus von 1 auf alle Verteidigungen geben (sich eingeschlossen).<br>
+    Die Wirkung hält QS Minuten nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 60
+
+- id: SPELL_222
+  name: "Tanz der Verwirrung"
+  nameByTradition:
+    - id: 1
+      name: "El Daffar"
+    - id: 2
+      name: "Entspannung des Geistes"
+  effect: |
+    Bis zu 6 ausgewählte Zuschauer erhalten QS/2 Stufen *Verwirrung*. Die ausgewählten Zuschauer dürfen sich am Ende des Tanzes beliebig weit von der Zaubertänzerin wegbewegen. Betroffen sind nur Zuschauer, deren Seelenkraft 2 oderniedriger ist.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "10 AsP"
+  aeCostShort: "10 AsP"
+  src:
+    - id: US25004
+      firstPage: 60
+
+- id: SPELL_223
+  name: "Tanz der Wacht"
+  nameByTradition:
+    - id: 2
+      name: "Praios’ Schutz"
+  effect: |
+    Der Majuna kann mit diesem Tanz eine Zone erschaffen, die von Personen mit Seelenkraft 2 oder niedriger nur schwer betreten werden kann. Er bemerkt es zudem sofort, sobald sie dennoch jemand betritt. Die Zone besitzt einen Radius von maximal 20 Schritt (der Ort des Tanzes). Wer sie betreten will, muss eine Probe auf *Willenskraft (Bedrohungen standhalten)* erschwert um QS/2 bestehen. Die Probe ist einmal pro Stunde erlaubt. Sobald ein Kulturschaffender die Zone betritt, nimmt dies der Majuna intuitiv wahr, aber er kann keine näheren Angaben machen, wer oder wie viele Personen die Zone betreten haben.<br>
+    Die Wirkung hält 12 Stunden nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "12 AsP"
+  aeCostShort: "12 AsP"
+  src:
+    - id: US25004
+      firstPage: 60
+
+- id: SPELL_224
+  name: "Tanz der Wahrheit"
+  nameByTradition:
+    - id: 3
+      name: "Heschinjas Blick"
+    - id: 4
+      name: "Hasnabahs Wahrheit"
+  effect: |
+    Die Tänzerin kann die Gedanken von bis zu QS/2 Zuschauern lesen. Sie kann nur erkennen, was der Verzauberte gerade denkt, nicht jedoch gezielt in seinen Erinnerungen forschen. Der Verzauberte kann mit einer Erfolgsprobe auf *Sinnesschärfe* erschwert um QS/2 entdecken, dass etwas Fremdes in seine Gedanken blickt. Mit einer um QS/2 der Zauberprobe erschwerte Probe auf *Willenskraft* kann er gezielt Gedanken mit irreführenden Informationen aussenden oder seine Gedanken mit nutzlosem Durcheinander, inneren Monologen oder Gesang füllen.
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "12 AsP"
+  aeCostShort: "12 AsP"
+  src:
+    - id: US25004
+      firstPage: 60
+
+- id: SPELL_225
+  name: "Tanz der Weisheit"
+  nameByTradition:
+    - id: 3
+      name: "Orhimas Tanz"
+  effect: |
+    Bis zu 6 ausgewählte Zuschauer werden klüger und scharfsinniger. Je nach QS erhalten sie verschiedene Boni. Diese Boni sind kumulativ, d. h. bei QS 3 hat das Ziel insgesamt KL +2 und SK +1.<br>
+    Die Wirkung hält 30 Minuten nach dem Ende des Tanzes an.
+
+    - **QS 1:** +1 KL
+    - **QS 2:** +1 SK
+    - **QS 3:** +1 KL
+    - **QS 4:** +1 SK
+    - **QS 5:** +1 KL
+    - **QS 6:** +1 PA
+  duration: "kurz, aufrechterhaltend"
+  durationShort: "kurz (A)"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  src:
+    - id: US25004
+      firstPage: 60
+
+- id: SPELL_226
+  name: "Tanz des Begehrens"
+  nameByTradition:
+    - id: 2
+      name: "Rahjas Begehren"
+  effect: |
+    Jeder Zuschauer des Majuna gibt sich während des Tanzes Tagträumen hin, verspürt rahjagefälliges Verlangen und hält Ausschau nach Gleichgesinnten. Proben auf *Betören* sind für die Zuschauer um 1 erleichtert, Proben auf *Willenskraft (Betören widerstehen)* hingegen um 2 erschwert. Der Tanz muss 15 Minuten getanzt werden. Betroffen sind nur Zuschauer, deren Seelenkraft 2 oder niedriger ist.<br>
+    Die Wirkung hält QS x 30 Minuten nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 60
+
+- id: SPELL_227
+  name: "Tanz des Blutrausches"
+  nameByTradition:
+    - id: 1
+      name: "Odionyo"
+  effect: |
+    Bis zu 6 ausgesuchte Zuschauer, deren Seelenkraft 2 oder niedriger ist, verfallen für QS x 2 KR in den Status *Blutrausch*. Sie greifen zuerst andere Zuschauer mit diesem Status an, danach jede Person in der Nähe. Die einzige Person, die auf jeden Fall verschont wird, ist die Hazaqi.<br>
+    Die Wirkung hält an, bis der *Blutrausch* beendet ist.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  src:
+    - id: US25004
+      firstPage: 61
+
+- id: SPELL_228
+  name: "Tanz des Feuers"
+  nameByTradition:
+    - id: 1
+      name: "Angaranya"
+  effect: |
+    In einem Radius von 16 Schritt kann die Hazaqi bis zu QS Feuer entfachen. Sie kann nur Stroh, Gras, Holz, Tuch und ähnlich leicht brennbare Materialien auswählen. Gegenstände und Kleidung, die gerade getragen wird, können von der Wirkung des Tanzes nicht betroffen sein. Das Feuer ist zunächst so groß wie die Flamme einer Kerze und entflammt die umliegenden Materialien mit der Geschwindigkeit, wie dies normales Feuer tun würde.
+  duration: "kurz, einmalig"
+  durationShort: "kurz"
+  aeCost: "2 AsP pro Feuer"
+  aeCostShort: "2 AsP pro Feuer"
+  src:
+    - id: US25004
+      firstPage: 61
+
+- id: SPELL_229
+  name: "Tanz des Handels"
+  nameByTradition:
+    - id: 1
+      name: "Phesoya"
+    - id: 3
+      name: "Rastullas Weitsicht"
+  effect: |
+    Bis zu 6 ausgewählte Zuschauer erleiden eine Erschwernis oder eine Erleichterung auf *Handel (Feilschen)* von QS/2. Dabei kann die Tänzerin einzelnen ausgewählten Zuschauern beliebig die Erleichterung oder die Erschwernis zuteilen.<br>
+    Die Wirkung betrifft nur Zuhörer, deren Seelenkraft 2 oder niedriger ist, und sie hält QS x 3 Minuten nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 61
+
+- id: SPELL_230
+  name: "Tanz des Jagdglücks"
+  nameByTradition:
+    - id: 2
+      name: "Firuns Jagd"
+  effect: |
+    Bis zu 6 ausgewählte freiwillige Zuschauer des Majuna erhalten bei der Jagd eine Erleichterung von 1 bei Proben auf *Tierkunde (Wildtiere)*. Die benannten Zuschauer dürfen sich am Ende des Tanzes beliebig weit von dem Majuna wegbewegen.<br>
+    Die Wirkung hält QS Stunden nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  src:
+    - id: US25004
+      firstPage: 61
+
+- id: SPELL_231
+  name: "Tanz des Jagdpechs"
+  nameByTradition:
+    - id: 2
+      name: "Sieg des Tieres"
+  effect: |
+    Bis zu 6 ausgewählte Personen erhalten bei der Jagd eine Erschwernis von 2 bei Proben auf *Tierkunde (Wildtiere)*. Die benannten Zuschauer dürfen sich am Ende des Tanzes beliebig weit von dem Majuna wegbewegen.<br>
+    Die Wirkung hält QS Stunden nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 61
+
+- id: SPELL_232
+  name: "Tanz des Ungehorsams"
+  nameByTradition:
+    - id: 4
+      name: "Karimas Ungehorsam"
+  effect: |
+    Mittels dieses Zaubertanzes kann die Sharisad kurzfristig ihre Seelenkraft um QS/2 Punkte erhöhen.<br>
+    Die Wirkung hält 30 Minuten nach dem Ende des Tanzes an.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  src:
+    - id: US25004
+      firstPage: 61
+
+- id: SPELL_233
+  name: "Tanz ohne Ende"
+  nameByTradition:
+    - id: 1
+      name: "Suenyo"
+    - id: 2
+      name: "Satinavs Gabe"
+    - id: 3
+      name: "Nahemas Traum"
+    - id: 4
+      name: "Endloser Tanz"
+  effect: |
+    Nachdem die Zaubertänzerin 20 Minuten lang getanzt hat, sind alle Zuschauer mit einer Seelenkraft von 2 oder weniger im Bann des Tanzes gefangen. Die Zuschauer glauben, der Tanz dauere noch QS Stunden an, auch wenn die Tänzerin gar nicht mehr da ist. Während des Banns erhalten sie den Status *Bewegungsunfähig*. Sollte ein gebannter Zuschauer 1 SP oder mehr Schaden erleiden, fällt der Bann von ihm ab.
+  duration: "lang, einmalig"
+  durationShort: "lang"
+  aeCost: "12 AsP"
+  aeCostShort: "12 AsP"
+  src:
+    - id: US25004
+      firstPage: 61

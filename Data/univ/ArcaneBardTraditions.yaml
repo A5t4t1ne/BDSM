@@ -1,0 +1,13 @@
+- id: 1
+# name: "Ceoladir"
+  prerequisites:
+    culturePrerequisite: C_8
+- id: 2
+# name: "Derwisch"
+  prerequisites:
+    sexPrerequisite: m
+    culturePrerequisite: C_14
+- id: 3
+# name: "Sangara"
+  prerequisites:
+    culturePrerequisite: C_17

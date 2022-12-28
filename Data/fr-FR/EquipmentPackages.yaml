@@ -1,0 +1,17 @@
+- id: EPKG_1
+  name: "Paquetage de voyage"
+  src:
+    - id: LDR1
+      firstPage: 364
+
+- id: EPKG_2
+  name: "Paquetage de survie"
+  src:
+    - id: LDR1
+      firstPage: 365
+
+- id: EPKG_3
+  name: "Paquetage citadin"
+  src:
+    - id: LDR1
+      firstPage: 365

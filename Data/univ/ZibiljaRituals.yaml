@@ -1,0 +1,179 @@
+- id: SPELL_468
+# name: Bienenfleiß
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_7
+  ic: B
+  castingTimeNoMod: false
+  aeCostNoMod: false
+  rangeNoMod: false
+  durationNoMod: false
+  property: 5
+
+- id: SPELL_469
+# name: Band zur Ware
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 9
+
+- id: SPELL_470
+# name: Bienenkönigin
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: C
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 3
+
+- id: SPELL_471
+# name: Bienensuche
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 3
+
+- id: SPELL_472
+# name: Bienentanz
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: A
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: true
+  durationNoMod: false
+  property: 3
+
+- id: SPELL_473
+# name: Sicheres Lager
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  castingTimeNoMod: true
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 3
+
+- id: SPELL_474
+# name: Siegel des Grabes
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_3
+  ic: B
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 9
+
+- id: SPELL_475
+# name: Traumerinnerung
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: A
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 3
+
+- id: SPELL_476
+# name: Traumseherin
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_4
+  ic: B
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 3
+
+- id: SPELL_477
+# name: Unglücksgefäß
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: C
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 3
+
+- id: SPELL_478
+# name: Wachshaut
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_7
+  ic: A
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 9
+
+- id: SPELL_479
+# name: Wachskonservierung
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_7
+  ic: A
+  castingTimeNoMod: false
+  aeCostNoMod: false
+  rangeNoMod: false
+  durationNoMod: false
+  property: 9
+
+- id: SPELL_480
+# name: Wachsmumie
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_7
+  ic: C
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 2
+
+- id: SPELL_481
+# name: Warenchronik
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  castingTimeNoMod: false
+  aeCostNoMod: true
+  rangeNoMod: false
+  durationNoMod: false
+  property: 9
+
+- id: SPELL_482
+# name: Weisheit der Schrift
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  castingTimeNoMod: false
+  aeCostNoMod: false
+  rangeNoMod: false
+  durationNoMod: false
+  property: 3

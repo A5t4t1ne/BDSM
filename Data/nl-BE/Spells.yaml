@@ -1,0 +1,952 @@
+- id: SPELL_1
+  name: "Arendsoog"
+  effect: |
+    Het Talent *Zintuigen* wordt tijdens de Werkingsduur van de Spreuk met KwG +3 verhoogd.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per 5 minuten"
+  aeCostShort: "4 AsP + 2 AsP per 5 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 287
+
+- id: SPELL_2
+  name: "Analys arcaanstructuur"
+  effect: |
+    De tovenaar krijgt gedetailleerde aanwijzingen of een object magisch is en zo ja, hoe zijn magische structuur in elkaar zit. Met de op deze manier verzamelde informatie kan de tovenaar bij een magische analyse meer KwG verzamelen dan normaal. De KwG van de <span class="name--spell">Analys</span> geeft aan hoeveel KwG verzameld kunnen worden op de Proef *Magiekunde (Verschillende Toepassingsgebieden)* voor de Magische analyse. Heeft de tovenaar bijvoorbeeld 3 KwG behaald bij <span class="name--spell">Analys</span>, dan kan hij maximaal 3 KwG behalen bij de Magische analyse. Heeft hij een KwG van 4, dan zijn er maximaal 4 KwG bij de analyse mogelijk, enz. Meer over **Magische analyse** op bladzijde **269**.
+  castingTime: "32 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Wezens, Objecten"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 287
+
+- id: SPELL_3
+  name: "Armatrots"
+  effect: |
+    De huid van de betoverde verhardt zich zonder zijn flexibiliteit te verliezen. Zo krijgt hij een natuurlijk pantser, dat bij de gedragen wapenrusting wordt geteld, zonder de Ballast te verhogen. Het aantal gewenste bijkomende BP moet de tovenaar voor de Proef vastleggen. Men kan hoogstens 3 extra BP krijgen.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AsP bij BP 1; 8 AsP voor BP 2; 16 AsP voor BP 3"
+  aeCostShort: "4/8/16 AsP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 288
+
+- id: SPELL_4
+  name: "Axxeleratus"
+  effect: |
+    De bewegingen van de betoverde worden bovennatuurlijk versneld. Dit geeft de volgende bonussen: +1 Verdediging, SN x2, INI-Basiswaarde x2.<br>
+    Tegenstanders kunnen Aanvallen en Afstandsaanvallen van versnelden slechter Afweren of Ontwijken. Ze krijgen een verzwaring van 2 op Verdediging.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "KwG x 5 Gevechtsrondes"
+  durationShort: "KwG x 5 GvR"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 288
+
+- id: SPELL_5
+  name: "Balsam salabond"
+  effect: |
+    De betoverde krijgt binnen de 6 minuten een aantal verloren LeP terug na het uitvoeren van de Spreuk, gelijk aan de ingezette AsP. Het maximaal inzetbare aantal AsP is gelijk aan de VaW van Balsam. Voor elke KwG zakt de tijd met 1 minuut. Een net overleden held kan gered worden als men met de Spreuk begint gedurende de bij Constitutie vermelde termijn (HOOFDSTUK *Detailregels*, bladzijde **340**). Als de Spreuk onderbroken wordt, overleeft de patiënt alleen nog de overblijvende Gevechtsrondes.
+  castingTime: "16 Acties"
+  castingTimeShort: "16 Act"
+  aeCost: "1 AsP per LeP, met een minimum van 4 AsP"
+  aeCostShort: "1 AsP per LeP (4+)"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Cultuurscheppende"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 288
+
+- id: SPELL_6
+  name: "Banbaladik"
+  effect: |
+    Deze Spreuk van elfse oorsprong wekt doelbewust sympathie en vriendschap op voor de tovenaar bij het doelwit. De juiste werking hangt af van de relatie tussen doelwit en tovenaar. Zijn het onbekenden voor elkaar, dan varieert de ingesteldheid van het doel meestal tussen graad 4 (Afkeer) en graad 6 (Genegenheid). Per KwG verbetert de band tussen beiden met 1 Graad. Voordelen zoals Knap Uiterlijk of Nadelen zoals Vooroordelen tegenover de tovenaar kunnen deze eerste indruk, afhankelijk van de situatie, met één of meer graden modificeren.
+
+    - **Graad 1:** Het doelwit heeft onverzadigbare haatgevoelens tegenover de tovenaar.
+    - **Graad 2:** Het doelwit is de vijand van de tovenaar.
+    - **Graad 3:** Het doelwit koestert enkel afschuw en afwijzing voor de tovenaar.
+    - **Graad 4:** Er is een zekere afkeer voor de tovenaar.
+    - **Graad 5:** Het doelwit gedraagt zich neutraal tegenover de tovenaar.
+    - **Graad 6:** Er is een genegenheid tegenover de tovenaar.
+    - **Graad 7:** Het doelwit voelt een zeker vertrouwen en vriendschap tegenover de tovenaar.
+    - **Graad 8:** Het doelwit voelt zich nauw verbonden met de tovenaar en is loyaal tegenover hem.
+    - **Graad 9:** Het doelwit volgt de tovenaar overal (maar zal echter niet voor hem sterven).
+
+    De Spreuk verandert niets aan het herinneringsvermogen. De betoverde is zich op het einde van de Spreuk volledig bewust van wat hij heeft waargenomen en gedaan. Tijdens de toverwerking mag hij zich wel bewust zijn van de Spreuk, maar dat beïnvloedt zijn nieuwe ingesteldheid niet. Handelingen van de tovenaar gedurende de werking kunnen daarentegen de verhouding tot de betoverde positief of negatief beïnvloeden.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "4 pas"
+  rangeShort: "4 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppende, bovennatuurlijke levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 288
+
+- id: SPELL_7
+  name: "Blik in de gedachten"
+  effect: |
+    De tovenaar kan de gedachten van de betoverde lezen. Hij kan slechts zien wat de betoverde net denkt, echter niet doelgericht in zijn herinneringen rondneuzen. De betoverde kan met een succesvolle Proef *Zintuigen*, verzwaard met de KwG van de Spreuk, ontdekken dat er een vreemde in zijn gedachten kijkt. Met een Proef op *Wilskracht*, verzwaard door de KwG van de Spreuk, kan hij vervolgens doelgericht gedachten met misleidende informatie uitzenden of zijn gedachten met nutteloze door elkaar stromende innerlijke monologen of gezang vullen.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AsP (Activatie) + 4 AsP per 30 seconden"
+  aeCostShort: "8 AsP + 4 AsP per 30 sec"
+  range: "4 pas"
+  rangeShort: "4 m"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Cultuurscheppend, bovennatuurlijke wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 289
+
+- id: SPELL_8
+  name: "Bliksemblind"
+  effect: |
+    De betoverde wordt verblind. Hij krijgt een graad van de Toestand *Verwarring*.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG Gevechtsrondes"
+  durationShort: "KwG GvR"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 289
+
+- id: SPELL_9
+  name: "Corpofesso"
+  effect: |
+    De betoverde lijdt aan een pijnlijke spierzwakte. Tijdens de werkingsduur lijdt hij onder de Toestand *Pijn*.
+
+    - **KwG 1:** 1 Graad *Pijn*, maar slechts voor 1 GvR
+    - **KwG 2:** 1 Graad *Pijn*
+    - **KwG 3:** 2 Graaden *Pijn*
+    - **KwG 4:** 3 Graaden *Pijn*
+    - **KwG 5:** 4 Graaden *Pijn*
+    - **KwG 6:** 4 Graaden *Pijn*, dubbele Werkingsduur.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG x 2 Gevechtsrondes"
+  durationShort: "KwG x 2 GvR"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 289
+
+- id: SPELL_10
+  name: "Disruptivo"
+  effect: |
+    Deze fundamentele Antimagie verzwakt alle vormen van magie binnen een straal van KwG x2 pas rondom de tovenaar, waarbij storende trillingen worden veroorzaakt in het omringende astrale patroon. Alle Proeven op Spreuken, die in deze zone worden uitgevoerd of hier hun effect hebben, zijn verzwaard. Dit geldt ook voor magie die de tovenaar zelf verricht. De tovenaar moet voor de uitvoering bepalen of de zone met hem mee beweegt of ter plaatse hoort te blijven.
+
+    - **KwG 1:** Verzwaring –1
+    - **KwG 2:** Verzwaring –2
+    - **KwG 3:** Verzwaring –3
+    - **KwG 4:** Verzwaring –4
+    - **KwG 5:** Verzwaring –5
+    - **KwG 6:** Verzwaring –6
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AsP (Activatie) + 4 AsP per 5 minuten"
+  aeCostShort: "8 AsP + 4 AsP per 5 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 289
+      lastPage: 290
+
+- id: SPELL_11
+  name: "Duplicatus"
+  effect: |
+    De tovenaar produceert één of meerdere illusionaire dubbelgangers van het doelwit, die synchroon met hem mee bewegen en voortdurend met hem versmelten en zich weer van hem afsplitsen. Afhankelijk van de KwG, verschijnen er meerdere dubbelgangers. De tovenaar kan zelf beslissen om minder dubbelgangers te laten verschijnen dan er maximaal mogelijk zijn.
+
+    - **KwG 1:** 1 Dubbelganger, voor 2 Gevechtsrondes
+    - **KwG 2:** 1 Dubbelganger
+    - **KwG 3:** 2 Dubbelgangers
+    - **KwG 4:** 3 Dubbelgangers
+    - **KwG 5:** 4 Dubbelgangers
+    - **KwG 6:** 4 Dubbelgangers, dubbele Werkingsduur
+
+    Het is niet gemakkelijk om te bepalen welk beeld het originele wezen is. Melee- en Afstandsaanvallen alsook Spreuken kunnen gemakkelijk een dubbelganger raken. Als een Aanval daadwerkelijk het doel raakt en geen dubbelganger, dan moet deze een Verdedigingsactie ondernemen. Zoneaanvallen worden hierdoor niet getroffen. Meer over **Illusies** en hoe men ze kan doorzien, bladzijde **259**.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AsP per dubbelganger (bij een mislukking de normale 2 AsP)"
+  aeCostShort: "4 AsP per DG"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "KwG x 3 Gevechtsrondes "
+  durationShort: "KwG x 3 GvR "
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 290
+
+- id: SPELL_12
+  name: "Valkenoog"
+  effect: |
+    De betoverde bouwt een geestelijke verbinding op met zijn doelwit. Hierdoor wordt de volgende afstandsaanval op dit doelwit met KwG van de Spreuk verlicht.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Tot na het volgende schot, maximaal KwG x 2 Gevechtsrondes"
+  durationShort: "Schot (KwG x 2 GvR)"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 299
+
+- id: SPELL_13
+  name: "Flim Flam"
+  effect: |
+    De tovenaar produceert een kleine zwevende bol van licht. De bol blijft ter plaatse of hij volgt de tovenaar, wat bepaald wordt voor de Spreuk gevormd wordt. Hetzelfde geldt voor de kleur van het licht. De maximaal haalbare helderheid is afhankelijk van de KwG. De tovenaar kan de helderheid echter naar wens éénmaal verlagen. De lichtzone is afhankelijk van de helderheid.
+
+    - **KwG 1:** Het licht heeft de helderheid van een kaars.
+    - **KwG 2:** Het licht heeft de helderheid van een fakkel.
+    - **KwG 3:** Het licht heeft de helderheid van een kampvuur.
+    - **KwG 4:** Het licht is helder genoeg om een ruimte van 5 maal 5 pas te verlichten.
+    - **KwG 5:** Het licht is helder genoeg om een grote zaal te verlichten.
+    - **KwG 6:** Het licht is verblindend. Het is amper mogelijk om ernaar te kijken.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  aeCost: "2 AsP (Activatie) + 1 AsP per uur"
+  aeCostShort: "2 AsP + 1 AsP per h"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 291
+
+- id: SPELL_14
+  name: "Fulminictus"
+  effect: |
+    De Spreuk treft automatisch zijn doel. De tegenstander kan noch Ontwijken, noch Afweren. Ook Wapenrustingen beschermen niet tegen deze Spreuk. De betoverde lijdt schade die op zijn aura inwerkt en een reeks kleine inwendige bloedingen veroorzaakt. Hij geeft 2D6+(KwG x 2) TP.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 291
+
+- id: SPELL_15
+  name: "Gardianum"
+  effect: |
+    De Spreuk bouwt een onzichtbare koepel rondom de magiër, die magische aanvallen van buitenaf absorbeert. De koepel heeft in feite de vorm van een bol, maar omdat de magiër doorgaans op de grond staat, is de bolvorm niet zo belangrijk. De straal van de bol meet 3 pas. De schildsterkte van de bol bedraagt de geïnvesteerde AsP + KwG x 3. De bol kan zijn schildsterkte in TP aan magische schade absorberen. Schade van diverse magische bronnen kan opgeslokt worden, maar de bol kan noch magische wezens noch magische wapens afweren. Valt de schildsterkte onder 1, dan klapt de bol in elkaar. Schade, die niet meer kan worden geabsorbeerd, richt schade aan. De bol verplaatst zich mee met de magiër. Iedereen die zich binnen de koepel bevindt, is eveneens beschermd.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  aeCost: "Minstens 4 AsP"
+  aeCostShort: "4+ AsP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "5 minuten"
+  durationShort: "5 min"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 291
+
+- id: SPELL_16
+  name: "Grote begeerte"
+  effect: |
+    De betoverde voelt een onweerstaanbare drang naar een object of een handeling, die de tovenaar heeft vernoemd. Hij zal alles doen wat mogelijk is om dit doel te bereiken, zolang hij lijf en leden niet in gevaar brengt. Hij krijgt een Slechte eigenschap (*Begeerte naar …*) voor de Werkingsduur van de Spreuk.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "KwG x 15 minuten"
+  durationShort: "KwG x 15 min"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 291
+
+- id: SPELL_17
+  name: "Onschuldige gedaante"
+  effect: |
+    De tovenaar neemt de gedaante van een onopvallende persoon aan zoals een dienaar of een bedelaar, die op deze plaats niet opvalt. Dit omhelst zowel het voorkomen alsook de juiste stem, echter niet de taal of het passend gedrag. Grotere voorwerpen en Vertrouwensdieren worden niet door de Spreuk verborgen. De Spreuk werkt intuïtief, daarom kan de Heks niet precies bepalen welk voorkomen ze aanneemt. Meer over **Illusies** en hoe men ze kan doorzien, zie bladzijde **259**.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AsP (Activatie) + 4 AsP per 5 minuten"
+  aeCostShort: "8 AsP + 4 AsP per 5 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 295
+
+- id: SPELL_18
+  name: "Heksengal"
+  effect: |
+    Het speeksel van de heks verandert zich onmiddellijk in een bijtend zuur, dat voor de heks ongevaarlijk is. Het speeksel veroorzaakt 1D6+KwG TP aan het doelwit waarop de Heks spuwt. Het spuwbereik bedraagt 3 pas. De Heks moet geen extra Acties ondernemen om na de uitvoering van de Spreuk te spuwen. Het spuwen is bij de Uitvoertijd inbegrepen. Het spuwen raakt automatisch als de tegenstander zich niet verdedigt. De spuwaanval wordt gezien als een afstandsaanval met een schietwapen en kan overeenkomstig afgeweerd worden, maar ook de mogelijkheid tot ontwijken bestaat. Het speeksel veroorzaakt structuurschade aan een schild, als dit wordt getroffen. Als het speeksel haar doel treft, worden de TP door de BP van het doelwit verminderd.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 292
+
+- id: SPELL_19
+  name: "Heksenklauwen"
+  effect: |
+    Bij de heks groeien aan beide handen scherpe klauwen. Ze veroorzaakt hiermee 1D6+3 TP in Melee en gebruikt als Gevechtstechniek Knokken. De heks wordt nog steeds als ongewapend beschouwd, maar de aanval geldt als magisch.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 in minuten"
+  durationShort: "KwG x 3 min"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 292
+
+- id: SPELL_20
+  name: "Horriphobus"
+  effect: |
+    De betoverde ziet de tovenaar als een angstaanjagende gestalte uit zijn nachtmerries. De kracht van deze indruk varieert met de KwG:
+
+    - **KwG 1:** 1 Graad *Angst*, aber nur für 2 GvR
+    - **KwG 2:** 1 Graad *Angst*
+    - **KwG 3:** 2 Graden *Angst*
+    - **KwG 4:** 3 Graden *Angst*
+    - **KwG 5:** 4 Graden *Angst*
+    - **KwG 6:** 4 Graden *Angst*, dubbele Werkingsduur
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 292
+
+- id: SPELL_21
+  name: "Ignifaxius"
+  effect: |
+    Uit de vingers van de tovenaar schiet een vlammenstraal, die in rechte lijn zijn doel treft. De Magiër moet geen bijkomende Acties inzetten om na de uitvoering van de Spreuk het doel te raken. Het schieten is in de Uitvoertijd inbegrepen. Het getroffen doel loopt 2D6+(KwG x 2) TP aan schade op. De Vlammenstraal wordt gezien als een Afstandsaanval met een schietwapen en kan overeenkomstig afgeweerd worden, maar ook ontwijken is mogelijk. Indien de vlammenstraal wordt opgevangen door een schild, dan loopt dit structuurschade op. De straal raakt automatisch als men zich niet verdedigt. Als de straal haar doel treft, worden de TP door de BP van het doel verminderd. Ontvlambare doelen vatten vuur bij 1–3 op een D6 en verkrijgen de Status *Brandend* (kleine oppervlakte).
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "16 pas"
+  rangeShort: "16 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Allemaal"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 292
+
+- id: SPELL_22
+  name: "Invocatio Minima"
+  effect: |
+    Een handvol substantie uit de Limbus manifesteert zich. Meestal gaat het om slijm, zuren, zwavelachtige dampen of vloeiend vuur. Welke substantie de bezwering oplevert is altijd onbekend. De Spreuk geldt als een eenvoudige en weinig risicovolle oefenspreuk voor bezweerders (in totaal verschijnt er een hoeveelheid van zo’n 0,05 liter per KwG).
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "1 pas"
+  rangeShort: "1 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 293
+
+- id: SPELL_23
+  name: "Katogen"
+  effect: |
+    De lichtgevoeligheid van de ogen van het doelwit stijgt drastisch. Ze kan in bijna volledige duisternis duidelijk beter zien. Per KwG verbetert de graad Zichtbaarheid met 1. In volledige duisternis heeft deze Spreuk geen nut.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "2 AsP (Activatie) + 1 AsP per 10 minuten"
+  aeCostShort: "2 AsP + 1 AsP per 10 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 293
+
+- id: SPELL_24
+  name: "Paddensprong"
+  effect: |
+    De betoverde kan eenmalig onnatuurlijk ver en hoog springen. De afstand van de sprong wordt met KwG + 3 in pas verhoogd, de hoogte met de KwG. Meer over de regels van **Springen** vind je op bladzijde **349**.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "2 AsP"
+  aeCostShort: "2 AsP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 296
+
+- id: SPELL_25
+  name: "Manifesto"
+  effect: |
+    Er verschijnt een kleine hoeveelheid van een bepaald element naar keuze van de tovenaar. Het gaat om een simpele manifestatie zoals een kleine vlam, een kiezelsteen of een stukje ijs. Elementaristen leren deze Spreuk in het begin van hun opleiding, om de grondbeginselen van oproepingen aan te leren, zonder elementalen lastig te vallen (in totaal verschijnt er een hoeveelheid van zo’n 0,05 liter per KwG).
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "1 pas"
+  rangeShort: "1 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 293
+
+- id: SPELL_26
+  name: "Manus Miracula"
+  effect: |
+    De tovenaar kan op afstand (KwG pas) nietlevende voorwerpen verschuiven, draaien, vervormen en buigen, alsof hij dat met zijn handen zou doen. De voorwerpen mogen maximaal 1 steen wegen. Bij Proeven op Talenten, bijvoorbeeld om met een telekinetisch gestuurde penseel iets te schilderen of om een figuur uit klei te vormen, hebben de hiervoor noodzakelijke fysieke Eigenschappen een waarde van KwG + 7. De waarden kunnen ook die van de held overstijgen. De krachteffecten vertonen zich stap voor stap en heel langzaam. Daarom kunnen met deze gemanipuleerde voorwerpen geen aanvallen of afweren worden uitgevoerd.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per 5 minuten"
+  aeCostShort: "4 AsP + 2 AsP per 5 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 293
+      lastPage: 294
+
+- id: SPELL_27
+  name: "Motoricus"
+  effect: |
+    De tovenaar kan niet-levende voorwerpen telekinetisch opheffen en bewegen. Ze bewegen zich met een Snelheid van maximaal KwG + 2 pas per Actie en mogen maximaal KwG x 20 steen wegen. Daarvoor moet de tovenaar per 5 steen gewicht 1 AsP betalen. Als er andere objecten op het te bewegen voorwerp liggen, dan wordt hun gewicht erbij geteld. De bewegingen van het object verlopen traag, waardoor ze voor aanvallen en afweren ongeschikt zijn. Om een op deze manier bewogen object tegen te houden door eraan te trekken of ertegen te duwen, is een met KwG verzwaarde Proef op *Krachttoer (Trekken & Sleuren)* nodig.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "Minstens 4 AsP (Activatie) + de helft van de noodzakelijke AsP per 5 minuten"
+  aeCostShort: "4+ AsP + 1/2 per 5 min "
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 294
+
+- id: SPELL_28
+  name: "Nevelwal"
+  effect: |
+    De tovenaar schept een zone van dichte mist, die zich niet laat wegwaaien door de wind. Voor elke AsP die hij investeert, kan hij 200 kubieke pas nevel creëren (dit komt overeen met een kleine hut). De nevel kan naar keuze worden gevormd, of het nu een compacte bol wordt, een lang uitgerekte band of zelfs de vorm van een draak. De nevel produceert een Zichtmodificatie van graad 2.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "Minstens 4 AsP"
+  aeCostShort: "4+ AsP"
+  range: "16 pas"
+  rangeShort: "16 m"
+  duration: "KwG x 15 minuten, daarna lost de nevel op"
+  durationShort: "KwG x 15 min"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 294
+      lastPage: 295
+
+- id: SPELL_29
+  name: "Oculus Illusionis"
+  effect: |
+    Met deze Illusie is zinsbegoocheling mogelijk. Er worden beweeglijke, driedimensionale illusies gecreëerd, die puur op het visuele werken. Details over het **Illusies** vind je op bladzijde **259**.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per 5 minuten"
+  aeCostShort: "4 AsP + 2 AsP per 5 min"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 295
+
+- id: SPELL_30
+  name: "Odem Arcanum"
+  effect: |
+    Met deze Spreuk kan men actieve magische werkingen op voorwerpen en personen detecteren. Afhankelijk van de astrale kracht in het object kan de Proef verlicht of verzwaard worden.<br>
+    Afhankelijk van de KwG kunnen de effectiviteit van de daaropvolgende Magische analyse en de Spreuk <span class="name--spell">Analys</span> worden verbeterd.<br>
+    De tovenaar kan nu één en slechts één uitgekozen wezen of object binnen bereik onderzoeken. Andere voorwerpen in de omgeving worden niet beïnvloed door de Spreuk en lichten niet op.
+
+    - **KwG 1:** Is er magie aanwezig of niet?
+    - **KwG 2:** De maximale KwG bij de Magische analyse stijgt met 1.
+    - **KwG 3:** De Vaardigheidsproef van een <span class="name--spell">Analys</span> op hetzelfde object is met 1 verlicht.
+    - **KwG 4:** De Vaardigheidsproef van een <span class="name--spell">Analys</span> op hetzelfde object is met 2 verlicht.
+    - **KwG 5:** De maximale KwG bij de Magische analyse stijgt met 2.
+    - **KwG 6:** De Vaardigheidsproef van een <span class="name--spell">Analys</span> op hetzelfde object is met 3 verlicht.
+
+    Noch de bonussen voor de maximale KwG bij de Magische analyse zijn cumulatief, noch de Vereenvoudigingen bij een <span class="name--spell">Analys</span>. Wie dus een KwG 4 heeft behaald bij een <span class="name--spell">Odem</span>, krijgt geen Vereenvoudiging van 3 (1 door KwG 3 + 2 door KwG 4), maar alleen één van 2. Wel krijgt de held de hoogste bonussen van beide verbeteringsmogelijkheden. Een held met KwG 6 verkrijgt dus een Verlichting van 3 op de volgende <span class="name--spell">Analys</span> (door KwG 6) en de maximale KwG bij de Magische analyse is met 2 verhoogd (door KwG 5). Meer over **Magische analyse** (Bladzijde **269**) en over <span class="name--spell">Analys arcaanstructuur</span> (Bladzijde **287**).
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "1 minuut"
+  durationShort: "1 min"
+  target: "Wezens, Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 295
+
+- id: SPELL_31
+  name: "Paralysis"
+  effect: |
+    Het lichaam van de betoverde verstijft en verhardt zich. Als hij volledig wordt verlamd (graad IV), dan verandert zijn lichaam zich in een onverwoestbare substantie, zonder zijn gewicht te veranderen. Een lichaam dat op deze manier wordt versteend, is niet te verwonden met gewone wapens, vuur of door een val. Het slachtoffer kan zich niet bewegen, voelt of hoort niets, maar kan wel binnen zijn gezichtsveld zien. De werking van giffen en ziekten komt tot stilstand.
+
+    - **KwG 1:** 1 Graad *Paralyse* voor 2 GvR
+    - **KwG 2:** 1 Graad *Paralyse*
+    - **KwG 3:** 2 Graden *Paralyse*
+    - **KwG 4:** 3 Graden *Paralyse*
+    - **KwG 5:** 4 Graden *Paralyse*
+    - **KwG 6:** 4 Graden *Paralyse*, dubbele Werkingsduur
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG x 2 minuten"
+  durationShort: "KwG x 2 min"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 296
+
+- id: SPELL_32
+  name: "Penetrizzel"
+  effect: |
+    De tovenaar kan door vaste stoffen zien. Per KwG kan de tovenaar door 20 halfvinger heen kijken. Magiewerend materiaal kan de Proef verzwaren (bv. ijzer –1, Koschbasalt –4). Door magische objecten kan niet worden gekeken. Als het aan de andere kant van de hindernis donker of mistig is, dan heeft dit een normale uitwerking op wat de tovenaar kan zien.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per minuut"
+  aeCostShort: "4 AsP + 2 AsP per min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Allemaal"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 296
+
+- id: SPELL_33
+  name: "Psychostabilis"
+  effect: |
+    Door middel van deze Spreuk wordt kortstondig de resistentie tegen geestelijke Invloed versterkt. De Zielskracht verbetert zich met KwG/2.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per 10 minuten"
+  aeCostShort: "4 AsP + 2 AsP per 10 min"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 296
+      lastPage: 297
+
+- id: SPELL_34
+  name: "Heibelhout"
+  effect: |
+    De bezem of een andere houten staf of stok naar keuze van de tovenaar valt een tegenstander, bepaald door de heks aan. De tegenstander moet zich binnen de 8 pas bevinden (na de Uitvoertijd mogen het doelwit en de bezem zich verder verwijderen).<br>
+    Tijdens de Spreuk is de bezem onbreekbaar en magisch en voert één aanval per GvR uit. Hij kan evenwel geen gevechtsmaneuvers uitvoeren. Zijn waarden zijn INI 12 +1D6, AV 10 +(KwG), TP 1D6+3, SN 12.<br>
+    Indien de bezem voor het einde van de Werkingsduur de tegenstander zou doden of geen tegenstander meer voor zich heeft, dan valt hij een ander toevallig slachtoffer aan, dat zich binnen een bereik van 16 pas bevindt (eventueel zelfs de heks). Bevindt er zich geen doelwit binnen dit bereik, dan eindigt de Spreuk.<br>
+    Om de bezem vast te grijpen is de Competentie Houdgreep nodig en een succesvolle Aanval met Knokken. Om deze aanval af te weren heeft de bezem een AW gelijk aan de helft van zijn AV. Om uit de houdgreep te ontsnappen heeft de bezem een VaW van 10 in het Talent *Krachttoer* (Eigenschappen = 14). (Vergelijkingsproef *Krachttoer (Trekken en Sleuren)*).
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per Gevechtsronde"
+  aeCostShort: "4 AsP + 2 AsP per GvR"
+  range: "16 pas"
+  rangeShort: "16 m"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 291
+      lastPage: 292
+
+- id: SPELL_35
+  name: "Respondami"
+  effect: |
+    De betoverde moet op KwG (aantal) vragen waarheidsgetrouw antwoorden. Op deze vragen moet men met ja of nee kunnen antwoorden. Op andere vragen kan de betoverde zwijgen. Het slachtoffer is zich bewust van wat hij zegt tijdens de werking van de Spreuk. Het slachtoffer moet de taal van de tovenaar kunnen verstaan en spreken. Anders kan hij niet antwoorden.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "KwG x 15 minuten"
+  durationShort: "KwG x 15 min"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 297
+
+- id: SPELL_36
+  name: "Salander"
+  effect: |
+    Met deze Spreuk wordt een levend wezen in een ander, kleiner en lichter, levend wezen veranderd. Bij zeer grote veranderingen (mammoet in een muis) is de Proef verzwaard met 3. Het kan alleen in een levend wezen worden veranderd dat gekend is door de tovenaar. Het doelwit behoudt een klein deel van zijn geestelijke vermogens en herinneringen, maar neemt de lichamelijke vaardigheden over van zijn nieuwe gestalte. Bovendien behoudt hij zijn levensenergie en zijn natuurlijke BP, waardoor een in een paardenbloem veranderd orkenstamhoofd nauwelijks kan worden geplukt. Het doel kan niet worden veranderd in een magisch of bovennatuurlijk levend wezen. De uitrusting wordt niet mee veranderd. Getransformeerden kunnen zich, na de afloop van de werkingsduur, fragmentarisch de periode als dier of plant herinneren. Details over **Transformatie** vind je op bladzijde **258**.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "KwG x 3 uur"
+  durationShort: "KwG x 3 h"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 297
+
+- id: SPELL_37
+  name: "Zachtmoedig"
+  effect: |
+    Het betoverde dier wordt vredelievend en laat zich zonder enige problemen door de tovenaar aanraken. De Spreuk kan alleen op dieren worden toegepast.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Dieren"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 300
+
+- id: SPELL_38
+  name: "Satuaria’s Pracht"
+  effect: |
+    De tovenaar ondervindt subtiele veranderingen aan zijn lichaam, die hem begeerlijker doen lijken. Haar en teint worden mooier, de tanden witter en rechter en de hele gestalte spiegelt zich aan het gewenste schoonheidsideaal.<br>
+    Proeven op de Talenten *Verleiden (Flirten, Minnekunst)* en *Overhalen (Vleien)* zijn met de KwG vereenvoudigd. Afhankelijk van de situatie kunnen andere Sociale talenten op dezelfde wijze worden verlicht. Op wezens met een ander schoonheidsideaal werkt de verandering niet.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 in uren"
+  durationShort: "KwG x 3 h"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 297
+
+- id: SPELL_39
+  name: "Silentium"
+  effect: |
+    De tovenaar schept een bolvormige zone, waar geen geluid meer gehoord of gemaakt kan worden. De straal van de zone is KwG x 3 pas. Deze zone ontstaat met de tovenaar als middelpunt. Hij kan voor de Proef beslissen, of de zone met hem meebeweegt of ter plaatse moet blijven. In het laatste geval kan hij zich maximaal KwG x 3 pas van de zone verwijderen, anders eindigt de Spreuk.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  aeCost: "4 AsP (Activatie) +2 AsP per 5 minuten"
+  aeCostShort: "4 AsP + 2 AsP per 5 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 297
+
+- id: SPELL_40
+  name: "Somnigravis"
+  effect: |
+    Vermoeidheid overvalt de betoverde. Als hij door deze Spreuk Verdovingsgraad IV verkrijgt, valt hij in slaap en kan hij voor het einde van de Werkingsduur alleen met veel lawaai, een krachtige por of iets dergelijks worden gewekt. Anders slaapt hij ongestoord verder, totdat hij op natuurlijke wijze ontwaakt.
+
+    - **KwG 1:** 1 Graad *Verdoving*, voor 1 minuut
+    - **KwG 2:** 1 Graad *Verdoving*
+    - **KwG 3:** 2 Graden *Verdoving*
+    - **KwG 4:** 3 Graden *Verdoving*
+    - **KwG 5:** 4 Graden *Verdoving*
+    - **KwG 6:** 4 Graden *Verdoving*, dubbele werkingsduur
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 297
+      lastPage: 298
+
+- id: SPELL_41
+  name: "Spinnenloop"
+  effect: |
+    Handen en voeten van de betoverde krijgen de eigenschap om zich te kunnen vastzuigen aan de gladste oppervlakten. Zo kan hij over gladde rotsen en muren en vindt hij houvast aan het plafond. Het gewicht van de betoverde verandert niet. Daarom kan het bij gepleisterde muren gebeuren dat de kalk aan de handen en de voeten van de muur loskomt. De betoverde moet zich vasthouden met minstens drie ledematen. Voor elke 2 KwG kan het één ledemaat minder zijn tot een minimum van één ledemaat.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per 5 minuten"
+  aeCostShort: "4 AsP + 2 AsP per 5 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 298
+
+- id: SPELL_42
+  name: "Spoorloos"
+  effect: |
+    De tovenaar laat geen sporen meer achter. Hij breekt geen grassprietjes en laat geen voetafdrukken achter in zachte grond. Zelfs geuren laat hij nauwelijks na. Om sporen van de tovenaar te vinden of te volgen, zijn er Proeven nodig op *Spoorzoeken*, verzwaard met de KwG.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per 5 minuten"
+  aeCostShort: "4 AsP + 2 AsP per 5 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 298
+
+- id: SPELL_43
+  name: "Transversalis"
+  effect: |
+    Met behulp van deze Spreuk kan een held zichzelf en voor maximaal KwG x 5 steen aan voorwerpen (kleding, wapens, enz.) naar een andere plaats teleporteren. Hoe dichter de voorwerpen zich bij het lichaam bevinden (meestal de kleding), hoe groter de kans dat ze met de tovenaar meereizen. Oftewel reizen ze in één stuk mee, ofwel blijven ze achter, maar ze worden niet gedeeltelijk meegenomen. De Meester kiest welke voorwerpen meereizen.<br>
+    De plek mag maximum KwG x 3 mijl van de tovenaar verwijderd zijn. Idealiter is de held al eens op de bestemming geweest. Indien hij er nog niet is geweest, maar de bestemming wel kan zien, dan wordt de Proef met 2 verzwaard.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  aeCost: "8 AsP (Activatie) + 1 AsP per mijl"
+  aeCostShort: "8 AsP + 1 AsP per km"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Object, Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 299
+
+- id: SPELL_44
+  name: "Visibili"
+  effect: |
+    De Betoverde wordt binnen de 20 – (KwG x 3) GvR onzichtbaar. Gedurende deze tijd wordt hij steeds doorzichtiger, totdat hij niet meer te zien is. De onzichtbaarheid geldt enkel voor hem, niet voor zijn kleding of uitrusting. Substanties die langer dan 20 seconden in het lichaam verblijven, worden ook onzichtbaar. Substanties die het lichaam verlaten, worden na 20 seconden weer zichtbaar. Tijdens de werkingsduur krijgt de hij de Status *Onzichtbaar*.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  aeCost: "8 AsP (Activatie) + 4 AsP per 5 minuten"
+  aeCostShort: "8 AsP + 4 AsP per 5 min"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 299
+
+- id: SPELL_45
+  name: "Wateradem"
+  effect: |
+    De tovenaar kan zowel normale lucht alsook water ademen. Hij kan 1 minuut per KwG onder water ademen + 5 minuten per extra 2 AsP.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  aeCost: "4 AsP (Activatie) + 2 AsP per 5 minuten"
+  aeCostShort: "4 AsP + 2 AsP per 5 min"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Spreuk aanhouden"
+  durationShort: "(A)"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 299
+
+- id: SPELL_46
+  name: "Arcanovi"
+  effect: |
+    Details voor dit Ritueel staan in het gedeelte **Artefacten** (Bladzijde **266**).
+  castingTime: "8 uur"
+  castingTimeShort: "8 h"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Gewijde Objecten, profane Objecten"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 300
+
+- id: SPELL_47
+  name: "Djinnenroep"
+  effect: |
+    Een Djinn van het gewenste element verschijnt. De Ritueelproef is verzwaard met de oproepingsmoeilijkheid van de elementaal. Details over de oproeping en de omgang met Djinns vind je in het gedeelte **De Kunst van de Elementale oproeping**, vanaf bladzijde **263**.
+  castingTime: "8 uur"
+  castingTimeShort: "8 h"
+  aeCost: "32 AsP"
+  aeCostShort: "32 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Elementaal"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 300
+
+- id: SPELL_48
+  name: "Elementale dienaar"
+  effect: |
+    Er verschijnt een elementale geest van het gewenste element. De Ritueelproef is verzwaard met de oproepingsmoeilijkheid van de elementaal. Details over de oproeping en de omgang met elementale geesten vind je in het gedeelte **De Kunst van de Elementale oproeping**, vanaf bladzijde **263**.
+  castingTime: "30 minuten"
+  castingTimeShort: "30 min"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Elementaal"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 300
+
+- id: SPELL_49
+  name: "Invocatio Maior"
+  effect: |
+    Een eerder uitgekozen Gehoornde Demon met maximaal vijf hoorns verschijnt. De Ritueelproef is verzwaard met de oproepingsmoeilijkheid van de demon. Details over de bezwering en de omgang met Demonen vind je in het gedeelte **De Kunst van de Demonenbezwering**, vanaf bladzijde **262**.
+  castingTime: "8 uur"
+  castingTimeShort: "8 h"
+  aeCost: "32 AsP"
+  aeCostShort: "32 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Demonen"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 300
+
+- id: SPELL_50
+  name: "Invocatio Minor"
+  effect: |
+    Een eerder uitgekozen lagere demon verschijnt. De Ritueelproef is verzwaard met de oproepingsmoeilijkheid van de demon. Details over de bezwering en de omgang met Demonen vind je in het gedeelte **De Kunst van de Demonenbezwering**, vanaf bladzijde **262**.
+  castingTime: "30 minuten"
+  castingTimeShort: "30 min"
+  aeCost: "16 AsP"
+  aeCostShort: "16 AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Demonen"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 300
+
+- id: SPELL_51
+  name: "Toverkling en geestenspeer"
+  effect: |
+    Met dit Ritueel kan men arcane krachten in een wapen binden. Dit wordt dan beschouwd als een magisch wapen. De kosten van het Ritueel zijn afhankelijk van de grootte van het wapen. De Werkingsduur laat zich verhogen met KwG x 30 jaar. In dit geval vervijfvoudigen alle AsP-Kosten, waarvan 1/20 permanent verloren gaat.
+  castingTime: "8 uur"
+  castingTimeShort: "8 h"
+  aeCost: "Afhankelijk van het wapen"
+  aeCostShort: "10+ AsP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "VaP in dagen"
+  durationShort: "FP dagen"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 301

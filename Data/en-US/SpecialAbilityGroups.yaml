@@ -1,0 +1,58 @@
+- id: 1
+  name: "General"
+- id: 2
+  name: "Fate"
+- id: 3
+  name: "Combat"
+- id: 4
+  name: "Magical"
+- id: 5
+  name: "Staff Enchantments"
+- id: 6
+  name: "Witch"
+- id: 7
+  name: "Karma"
+- id: 8
+  name: "Protective/Warding Circles"
+- id: 9
+  name: "Combat Styles (armed)"
+- id: 10
+  name: "Combat Styles (unarmed)"
+- id: 11
+  name: "Combat (extended)"
+- id: 12
+  name: "Commands"
+- id: 13
+  name: "Magical Styles"
+- id: 14
+  name: "Magical (extended)"
+- id: 15
+  name: "Spell-Sword"
+- id: 16
+  name: "Dagger Rituals"
+- id: 17
+  name: "Instrument Enchantments"
+- id: 18
+  name: "Attire Enchantments"
+- id: 19
+  name: "Orb Enchantments"
+- id: 20
+  name: "2XLATE_Steckenzauber"
+- id: 21
+  name: "Brawling"
+- id: 22
+  name: "Ancestor Glyphs"
+- id: 23
+  name: "Ceremonial Items"
+- id: 24
+  name: "Sermons"
+- id: 25
+  name: "Liturgical Styles"
+- id: 26
+  name: "Karma (Extended)"
+- id: 27
+  name: "Visions"
+- id: 28
+  name: "Magical Traditions"
+- id: 29
+  name: "Blessed Traditions"

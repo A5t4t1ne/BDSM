@@ -1,0 +1,183 @@
+- id: SPELL_450
+  name: "Blut trinken"
+  effect: |
+    Der Animist kann das Blut eines von ihm getöteten Kulturschaffenden trinken, um sich dessen letzte Lebenskräfte anzueignen. Dadurch kann der Animist QS LeP bei sich heilen, allerdings nur maximal bis zum eigenen Maximalwert. Der Einsatz dieser Fähigkeit dauert mindestens 2 Aktionen, nach Meisterentscheid auch noch länger.
+  aeCost: "3 AsP"
+  aeCostShort: "3 AsP"
+  duration: "sofort"
+  durationShort: "sofort"
+  src:
+    - id: US25008
+      firstPage: 15
+
+- id: SPELL_451
+  name: "Durch feste Materie"
+  effect: |
+    Der Animist lässt eine Wesenheit in sich einfahren, die seinen physischen Körper und sein Traditionsartefakt durchscheinend werden lässt. Er kann sich während der Wirkungsdauer durch feste, unbelebte Materie und Objekte wie Wände, Türen und Tische, nicht aber durch lebende Wesen, hindurchbewegen. Der Animist ist während der Wirkungsdauer immun gegen profane Waffen, nicht jedoch gegen magische oder karmale Waffen oder Angriffe.
+  aeCost: "4 AsP (Aktivierung) + 2 AsP pro Kampfrunde"
+  aeCostShort: "4 AsP + 2 AsP pro KR"
+  duration: "QS x 2 Kampfrunden"
+  durationShort: "QS x 2 KR"
+  src:
+    - id: US25008
+      firstPage: 15
+      lastPage: 16
+
+- id: SPELL_452
+  name: "Großer Sprung"
+  effect: |
+    Der Animist kann mit dieser Kraft erstaunlich hoch und weit springen. Die normale Sprungreichweite wird pro QS um 50 % erhöht. Pro KR kann der Animist mit 1 Aktion einen Sprungversuch durchführen.
+  aeCost: "4 AsP (Aktivierung) + 2 AsP pro Kampfrunde"
+  aeCostShort: "4 AsP + 2 AsP pro KR"
+  duration: "aufrechterhaltend"
+  durationShort: "(A)"
+  src:
+    - id: US25008
+      firstPage: 16
+
+- id: SPELL_453
+  name: "Harte Haut"
+  effect: |
+    Während der Wirkungsdauer verfügt der Animist über einen magischen RS von 2. Dieser kann mit externen und anderen magischen Rüstungen kombiniert werden, solange die andere Möglichkeit dem nicht widerspricht.
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  duration: "QS x 2 Kampfrunden"
+  durationShort: "QS x 2 KR"
+  src:
+    - id: US25008
+      firstPage: 16
+
+- id: SPELL_454
+  # TODO: Heißt im physischen Buch "Kampffähigkeiten verbessern"
+  name: "Kampffähigkeit verbessern"
+  effect: |
+    Diese Animistenkraft erlaubt es dem Animisten, vorhandene Kampfsonderfertigkeiten, die eine Erschwernis aufweisen, leichter einzusetzen. Die Erschwernis sinkt während der Wirkungsdauer um QS/2, wird durch diesen Bonus aber niemals zu einer Erleichterung. Der Animist muss diese Animistenkraft nicht auf eine spezielle Kampfsonderfertigkeit festlegen, muss sich aber beim Wirken für eine entscheiden und kann während der Wirkungsdauer die Animistenkraft nicht auf eine weitere Kampfsonderfertigkeit anwenden.
+  aeCost: "2 AsP (Aktivierung) + 1 AsP pro Kampfrunde"
+  aeCostShort: "2 AsP + 1 AsP pro KR"
+  duration: "aufrechterhaltend"
+  durationShort: "(A)"
+  src:
+    - id: US25008
+      firstPage: 16
+
+- id: SPELL_455
+  name: "Immunität gegen Hitze"
+  effect: |
+    Der Animist erhält während der Wirkungsdauer eine vollständige Immunität gegen Hitze. Nachteile durch Hitzeregeln (siehe **Regelwerk** Seite **347**) kann er während der Wirkungsdauer vollständig ignorieren. Die Animistenkraft bietet jedoch keinen Schutz vor Feuerschaden.
+  aeCost: "5 AsP"
+  aeCostShort: "5 AsP"
+  duration: "QS Stunden"
+  durationShort: "QS h"
+  src:
+    - id: US25008
+      firstPage: 16
+
+- id: SPELL_456
+  name: "Immunität gegen Kälte"
+  effect: |
+    Der Animist erhält während der Wirkungsdauer eine vollständige Immunität gegen Kälte. Nachteile durch Kälteregeln (siehe **Regelwerk** Seite **346**) kann er während der Wirkungsdauer vollständig ignorieren. Die Animistenkraft bietet jedoch keinen Schutz vor Eisschaden.
+  aeCost: "5 AsP"
+  aeCostShort: "5 AsP"
+  duration: "QS Stunden"
+  durationShort: "QS h"
+  src:
+    - id: US25008
+      firstPage: 16
+
+- id: SPELL_457
+  name: "Patronruf"
+  effect: |
+    Der Animist ruft seinen Patron um Unterstützung an. Es erscheint aus dem Nichts ein Tier, geisterhafte Gestalten oder Stimmen, um sich auf Seite des Animisten zu schlagen. Die Wesenheiten können zwar nicht körperlich eingreifen, aber sie erleichtern Proben auf *Einschüchtern* für den Animisten um QS/2.
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  duration: "30 Kampfrunden"
+  durationShort: "30 KR"
+  src:
+    - id: US25008
+      firstPage: 16
+
+- id: SPELL_458
+  name: "Schneller Angriff"
+  effect: |
+    Bei einem Kampf kann der Animist zuerst handeln, auch wenn er laut Initiative nicht zuerst an der Reihe ist. Dies gilt für jede KR, solange die Wirkungsdauer anhält. Sollten zwei oder mehr Kämpfer Sonderfertigkeiten oder Kräfte aufweisen, um als Erster zu handeln, entscheidet die reguläre Initiative über die Reihenfolge, über sie sind alle vor den übrigen Kampfteilnehmern an der Reihe. Eine Person, die die Schicksalspunkte-Option *Erster* verwendet, ist dennoch vor allen Kämpfern mit dieser Animistenkraft an der Reihe. Benutzen mehrere Kämpfer die Schicksalspunkte-Option innerhalb einer KR, haben Sonderfertigkeiten und Kräfte eine höhere Priorität zur Bestimmung der Reihenfolge als der Initiative-Basiswert oder der W6-Wurf (siehe **Regelwerk** Seite **29/226**).
+  aeCost: "4 AsP (Aktivierung) + 2 AsP pro Kampfrunde"
+  aeCostShort: "4 AsP + 2 AsP pro KR"
+  duration: "aufrechterhaltend"
+  durationShort: "(A)"
+  src:
+    - id: US25008
+      firstPage: 16
+      lastPage: 17
+
+- id: SPELL_459
+  name: "Steinmacht"
+  effect: |
+    Der Animist kann Steine mit einem Gewicht von QS x 50 Stein Gewicht in Bewegung versetzen, sodass diese einen Abhang hinunterrollen oder auf einer Ebene den Weg freigeben. Die Steine können sich nicht einen Hang hinaufbewegen.
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  duration: "sofort"
+  durationShort: "sofort"
+  src:
+    - id: US25008
+      firstPage: 17
+
+- id: SPELL_460
+  name: "Talentverbesserung"
+  effect: |
+    Mit dieser Animistenkraft erhält der Zauberer eine kurzzeitige Verbesserung auf drei Talente, die abhängig von der Wesenheit sind, die er ruft. Der FW der drei Talente steigt während der Wirkungsdauer um QS/2+1 und kann auch die Maximalgrenze des FW übersteigen. Talente des primären Patrons erhalten einen zusätzlichen Bonus von 2.
+  aeCost: "2 AsP (Aktivierung) + 1 AsP pro Minute"
+  aeCostShort: "2 AsP + 1 AsP pro min"
+  duration: "aufrechterhaltend"
+  durationShort: "(A)"
+  src:
+    - id: US25008
+      firstPage: 17
+      lastPage: 18
+
+- id: SPELL_461
+  name: "Tierverwandlung"
+  effect: |
+    Der Animist kann sich in die Tierart seines primären Patrons verwandeln. Es gelten ansonsten die Regeln der Zaubers <span class="name--spell">Adlerschwinge</span> und ähnlicher Verwandlungszauber.
+  aeCost: "4 AsP (Aktivierung) + 2 AsP pro 30 Minuten"
+  aeCostShort: "4 AsP + 2 AsP pro 30 min"
+  duration: "maximal QS Stunden"
+  durationShort: "max QS h"
+  src:
+    - id: US25008
+      firstPage: 18
+
+- id: SPELL_462
+  name: "Trümmerschlag"
+  effect: |
+    Ein Nahkampfangriff des Animisten ist besonders hart und verursacht zusätzlichen Schaden. Er erzielt +QS/2 TP, solange die Animistenkraft wirkt.
+  aeCost: "4 AsP (Aktivierung) + 2 AsP pro Kampfrunde"
+  aeCostShort: "4 AsP + 2 AsP pro KR"
+  duration: "aufrechterhaltend"
+  durationShort: "(A)"
+  src:
+    - id: US25008
+      firstPage: 18
+
+- id: SPELL_463
+  name: "Unbeschadeter Sturz"
+  effect: |
+    Bei der Berechnung von Sturzschaden können die ersten QS x 2 Schritt ignoriert werden. Stürzt ein Animist also aus 12 Schritt Höhe und hat bei dieser Kraft vorher 4 QS erzielt, so wird der Sturz so behandelt, als wäre er aus 4 Schritt Höhe gestürzt. Die Aktivierung dieser Animistenkraft dauert 1 freie Aktion.
+  aeCost: "6 AsP"
+  aeCostShort: "6 AsP"
+  duration: "5 Minuten"
+  durationShort: "5 min"
+  src:
+    - id: US25008
+      firstPage: 18
+
+- id: SPELL_464
+  name: "Unerschöpflich"
+  effect: |
+    Während der Wirkungsdauer kann der Animist keine Zustandsstufen *Betäubung* durch Kampfsonderfertigkeiten erhalten. Betäubungsstufen aus anderen Quellen (Magie, Götterwirken, Rauschmittel, etc.) sind davon nicht betroffen.
+  aeCost: "4 AsP"
+  aeCostShort: "4 AsP"
+  duration: "QS Kampfrunden"
+  durationShort: "QS KR"
+  src:
+    - id: US25008
+      firstPage: 18

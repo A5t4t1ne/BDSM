@@ -1,0 +1,720 @@
+- id: LITURGY_1
+  name: "Scongiura dell’oscurità"
+  effect: |
+    Dalla tua mano scaturisce un’intensa luce. Viene considerata come fosse luce solare.
+
+    - **LQ 1:** La luce è luminosa come una candela.
+    - **LQ 2:** La luce è luminosa come una torcia.
+    - **LQ 3:** La luce è luminosa come un falò.
+    - **LQ 4:** La luce è abbastanza luminosa da rischiarare una stanza di circa 5 passi quadrati.
+    - **LQ 5:** La luce è abbastanza luminosa da rischiarare una grande stanza.
+    - **LQ 6:** La luce è talmente accecante che è impossibile guardarla direttamente.
+  castingTime: "1 azione"
+  castingTimeShort: "1 Az"
+  kpCost: "4 PK (lancio) + 2 PK ogni minuto"
+  kpCostShort: "4 PK + 2 PK/min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuta"
+  durationShort: "Mantenuta"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 330
+
+- id: LITURGY_2
+  name: "Scongiura della paura"
+  effect: |
+    Questa liturgia rimuove un livello della condizione Paura per ogni LQ.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 330
+
+- id: LITURGY_3
+  name: "Buio di Boron"
+  effect: |
+    La liturgia crea una sfera di oscurità attorno all’iniziato per un diametro di LQ × 3 passi. Chiunque all’interno della sfera subirà una penalità sulla visibilità pari al LQ (vedi “Visibilità” a pagina 348). La luce naturale e quella magica non possono penetrare la sfera o illuminare al suo interno. Nel caso ci sia una sorgente di luce di natura divina, sarebbe il LQ più alto a determinare la presenza di luce o oscurità (come in una prova competitiva). In questo caso l’effetto è ‘tutto o niente’: la luce divina non viene attutita dall’oscurità (e viceversa). Non subirai penalità di visibilità per l’oscurità che tu stesso hai creato. Prima della prova dovrai dichiarare se la sfera si muoverà (con te al centro) o resterà immobile.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "16 PK (lancio) + 8 PK ogni 5 minuti"
+  kpCostShort: "16 PK + 8 PK/5 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 325
+
+- id: LITURGY_4
+  name: "Raggio accecante"
+  effect: |
+    Il bersaglio viene accecato e subisce un livello della condizione Confusione.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ turni di combattimento"
+  durationShort: "LQ x TC"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 329
+
+- id: LITURGY_5
+  name: "Onore della Leonessa"
+  effect: |
+    Il bersaglio della liturgia si sentirà indotto a comportarsi in maniera onorevole. “Onorevole” in questo contesto significa che sarà fedele ai tuoi stessi princìpi. A seconda della cultura di appartenenza ed i valori della chiesa di appartenenza, questo può voler dire che l’avversario darà la possibilità di raccogliere l’arma nel caso venisse persa, eviterà di attaccare se l’avversario ha subìto un fallimento critico, non colpirà alle spalle, non userà veleni e così via.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ x 3 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 328
+
+- id: LITURGY_6
+  name: "Decifrazione degli scritti"
+  effect: |
+    Il LQ determina quanto testo riesci a decifrare. Per ogni LQ, riesci a leggere l’equivalente di cinque pagine di un tomo, in formato in-folio, stampato o scritto con un carattere di una grandezza normale.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ × 3 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 325
+
+- id: LITURGY_7
+  name: "Audacia di Rondra"
+  effect: |
+    Il bersaglio diventa più coraggioso e sicuro di sé, ricevendo dei bonus basati sul LQ. Tutti questi bonus sono cumulativi (ad esempio, con LQ 3 il bersaglio riceve COR +2 ed Att +1).
+
+    - **LQ 1:** +1 COR
+    - **LQ 2:** +1 Att
+    - **LQ 3:** +1 COR
+    - **LQ 4:** +1 Att
+    - **LQ 5:** +1 COR
+    - **LQ 6:** +1 Anm
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "LQ × 3 in minuti"
+  durationShort: "LQ × 3 min"
+  target: "Creature intelligenti, creature soprannaturali"
+  src:
+    - id: REG001
+      firstPage: 324
+
+- id: LITURGY_8
+  name: "Tuffo nel vuoto"
+  effect: |
+    Gli iniziati di Phex usano questa liturgia per sopravvivere a cadute da grandi altezze.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 turni di combattimento"
+  durationShort: "LQ x 3 TC"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 331
+
+- id: LITURGY_9
+  name: "Aura di pace"
+  effect: |
+    L’avversario deve fare una prova su Forza di volontà (Fronteggiare minacce) per attaccarti (e ottenere un LQ più alto di quello della liturgia). Se fallisce la prova, anche l’attacco fallirà. Se invece la prova ha successo, l’attacco subirà una penalità uguale al LQ della liturgia. La liturgia ha effetto solo su di te. Non potrai attaccare né effettuare altre azioni offensive finché la liturgia ha effetto, ma potrai sostenere i tuoi compagni in qualsiasi altro modo.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 turni di combattimento"
+  durationShort: "LQ x 3 TC"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 324
+
+- id: LITURGY_10
+  name: "Scongiura dei veleni"
+  effect: |
+    Neutralizzi un veleno che sta agendo sul bersaglio. Il massimo livello del veleno che puoi neutralizzare è pari al LQ ottenuto nella prova liturgica. Se il LQ non è abbastanza alto da neutralizzare il veleno, la liturgia fallisce.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "2 PK per ogni livello di veleno"
+  kpCostShort: "2 PK x Liv Veleno"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 329
+
+- id: LITURGY_11
+  name: "Dritta divina"
+  effect: |
+    Nelle vicinanze deve esserci un oggetto appropriato. Potrebbe trattarsi di una chiave nascosta per aprire un forziere, un foglietto con degli indizi o uno strumento improvvisato che si riveli di grande utilità in qualche modo. Se questo oggetto è stato nascosto grazie ad un potere magico o divino, non potrà essere scoperto usando questa liturgia. L’oggetto non può trovarsi a più di LQ passi da te.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 325
+
+- id: LITURGY_12
+  name: "Segno divino"
+  effect: |
+    Il segno si può manifestare come un tuono roboante proveniente da un cielo limpido (Rondra), lo schiamazzo di una cicogna (Peraine) o un breve momento di silenzio assoluto (Boron). Il segno divino viene percepito all’interno di una zona con un raggio di LQ × 10 passi. Il narratore può garantire un bonus di 1 per le prove su Persuasione se il segno viene incluso nell’oratoria dell’iniziato.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "4 passi"
+  rangeShort: "4 passi"
+  duration: "LQ × 3 turni di combattimento"
+  durationShort: "LQ x 3 TC"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 330
+
+- id: LITURGY_13
+  name: "Mano guaritrice"
+  effect: |
+    Il bersaglio recupera un numero di PV pari ai PK spesi sulla liturgia. La guarigione avviene nell’arco di cinque minuti. Personaggi feriti mortalmente (secondo le regole nel **Regolamento** a pag. **340**) possono essere salvati grazie a questa liturgia se viene eseguita entro lo scadere dei TC rimasti prima della morte. Se la liturgia fallisce o viene interrotta, il personaggio sopravviverà soltanto per il numero di TC rimasti al momento del lancio della liturgia.
+  castingTime: "16 azioni"
+  castingTimeShort: "16 az"
+  kpCost: "1 PK ogni PV, almeno 4 PK"
+  kpCostShort: "1 PK x LP (4+)"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature intelligenti, creature soprannaturali"
+  src:
+    - id: REG001
+      firstPage: 327
+
+- id: LITURGY_14
+  name: "Debole dominio sui non-morti"
+  effect: |
+    Infligge 2D6+(LQ×2) PFer contro un non-morto bersaglio. Il raggio lo colpisce automaticamente e la vittima non può difendersi.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Non-morti"
+  src:
+    - id: REG001
+      firstPage: 325
+
+- id: LITURGY_15
+  name: "Folgore minore"
+  effect: |
+    La liturgia infligge 2D6+(LQ×2) PFer contro i demoni, infligge il doppio dei PFer contro i demoni provenienti dal dominio di Blakharaz. I bersagli non possono difendersi contro Folgore minore, che li colpirà automaticamente. Il raggio può essere lanciato anche al chiuso, non proviene dal cielo bensì scaturisce direttamente dal corpo del bersaglio.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "16 passi"
+  rangeShort: "16 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Demoni"
+  src:
+    - id: REG001
+      firstPage: 326
+
+- id: LITURGY_16
+  name: "Scongiura delle malattie"
+  effect: |
+    Questa liturgia cura una malattia che affligge il bersaglio. Il livello massimo di malattia che può essere curato è pari al LQ ottenuto dalla prova liturgica. Se il LQ non è sufficiente per curare la malattia, la liturgia fallisce. La liturgia annulla anche tutti i sintomi della malattia, ma non guarisce un danno già subìto (come condizioni, perdita di PV e così via).
+  castingTime: "16 azioni"
+  castingTimeShort: "16 az"
+  kpCost: "2 PK per ogni livello di malattia"
+  kpCostShort: "2 PL x Liv Malattia"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 330
+
+- id: LITURGY_17
+  name: "Passo felpato"
+  effect: |
+    Tutte le tue prove su Furtività (Strisciare) ricevono un bonus pari al LQ ottenuto.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "4 PK (lancio) + 2 PK per ogni minuto"
+  kpCostShort: "4 PK + 2 PK x min "
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 329
+
+- id: LITURGY_18
+  name: "Riparo dalla magia"
+  effect: |
+    Ricevi un bonus di LQ-1 su Animo e Tenacia (in caso di LQ 1 ottieni comunque un bonus di 1), che si applica contro tutte le prove legate alla magia.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "8 PK (lancio) + 4 PK ogni 10 minuti"
+  kpCostShort: "8 PK + 4 PK x 10 min "
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 329
+
+- id: LITURGY_19
+  name: "Sentore magico"
+  effect: |
+    Puoi rilevare la presenza di effetti magici attivi in oggetti e persone. L’entità dell’energia astrale impegnata può introdurre dei modificatori alla prova liturgica. La liturgia non garantisce una visione d’insieme: puoi esaminare soltanto una creatura o un oggetto che si trovi all’interno del raggio. L’effetto finale e gli eventuali vantaggi all’analisi magica dipendono dal LQ ottenuto.
+
+    - **LQ 1:** C’è della magia presente?
+    - **LQ 2:** Il massimo LQ ottenibile per la prova sull’analisi magica aumenta di 1.
+    - **LQ 3:** Ottieni un bonus di 1 sulla prova per il rituale AnAlysis ArcAnostrutturA (o una liturgia simile) lanciato successivamente sullo stesso bersaglio.
+    - **LQ 4:** Ottieni un bonus di 2 sulla prova per il rituale AnAlysis ArcAnostrutturA (o una liturgia simile) lanciato successivamente sullo stesso bersaglio.
+    - **LQ 5:** Il massimo LQ ottenibile per la prova sull’analisi magica aumenta di 2.
+    - **LQ 6:** Ottieni un bonus di 3 sulla prova per il rituale AnAlysis ArcAnostrutturA (o una liturgia simile) lanciato successivamente sullo stesso bersaglio.
+
+    Gli effetti sono tra di loro cumulativi, ma per ogni tipo di effetto (bonus di prova, massimo LQ ottenibile) si applica soltanto il bonus del LQ più elevato.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "1 minuto"
+  durationShort: "1 min"
+  target: "Creature, Oggetti"
+  src:
+    - id: REG001
+      firstPage: 330
+
+- id: LITURGY_20
+  name: "Vista di luna"
+  effect: |
+   Riduce le penalità di visibilità dovute al buio di LQ-1 livelli (in caso di LQ 1, riduci comunque di 1 livello). Non ha effetto nell’oscurità totale.
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "2 PK (lancio) + 1 PK ogni 10 minuti"
+  kpCostShort: "2 PK + 1 PK x 10 min"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "Mantenuto"
+  durationShort: "Mantenuto"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 331
+
+- id: LITURGY_21
+  name: "Lingua d’argento"
+  effect: |
+    Nelle tue interazioni sembrerai degno di fiducia e affabile, riceverai pertanto un bonus pari al LQ della liturgia sulle prove di competenza su Parlantina e Commerciare (Contrattare).
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ x 3 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 327
+
+- id: LITURGY_22
+  name: "Benedizione degli oggetti"
+  effect: |
+    Questa liturgia benedice gli oggetti usati per le funzioni religiose (come l’olio per gli iniziati di Boron, i semi per gli iniziati di Peraine o la polvere di stelle per gli iniziati di Phex). Questi oggetti non sono consacrati ma solo benedetti (vedi il **Regolamento** a pag. **316**).
+  castingTime: "4 azioni"
+  castingTimeShort: "4 az"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "LQ × 3 ore"
+  durationShort: "LQ x 3 ore"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 324
+
+- id: LITURGY_23
+  name: "Requie"
+  effect: |
+    All’interno di una zona vengono attutiti tutti i suoni. Il raggio della zona è di LQ × 3 passi. Applica una penalità pari al LQ ottenuto su tutte le prove su Percezione (Avvertire) per determinare se suoni lievi vengono sentiti. I suoni particolarmente forti vengono sentiti nonostante l’effetto della liturgia. La zona è statica. Saranno attutiti sia i suoni che provengono dall’interno della zona, sia quelli che entrano nella zona dall’esterno.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "4 passi"
+  rangeShort: "4 passi"
+  duration: "LQ × 3 ore"
+  durationShort: "LQ x 3 ore"
+  target: "Zona"
+  src:
+    - id: REG001
+      firstPage: 329
+
+- id: LITURGY_24
+  name: "Crescita portentosa"
+  effect: |
+    Questa liturgia fa in modo che una pianta, dalle dimensioni massime di un cespuglio, cresca in maniera soprannaturale. Per ogni LQ, la pianta cresce del 30% più velocemente del normale.
+  castingTime: "16 azioni"
+  castingTimeShort: "16 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "1 anno"
+  durationShort: "1 anno"
+  target: "Piante"
+  src:
+    - id: REG001
+      firstPage: 325
+
+- id: LITURGY_25
+  name: "Richiamo del corvo"
+  effect: |
+    Puoi richiamare a te fino a LQ × 3 corvi da un raggio di LQ × 3 miglia di distanza. Gli uccelli ti si avvicinano con familiarità. Puoi usare uno dei corvi per trasportare un piccolo oggetto, come ad esempio un anello, ad una distanza massima di LQ × 3 miglia. In questo caso il corvo raggiunge la propria destinazione in modo autonomo. Il numero massimo di corvi che viene effettivamente richiamato dipende dal numero di uccelli presenti nella zona.
+  castingTime: "16 azioni"
+  castingTimeShort: "16 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "LQ × 3 miglia"
+  rangeShort: "LQ × 3 miglia"
+  duration: "LQ × 3 ore"
+  durationShort: "LQ × 3 ore"
+  target: "Animali"
+  src:
+    - id: REG001
+      firstPage: 329
+
+- id: LITURGY_26
+  name: "Nenia di Boron"
+  effect: |
+    Il bersaglio della liturgia riceve livelli della condizione Stordimento, in base al LQ ottenuto. Se così facendo raggiunge il 4° livello della condizione, si addormenterà profondamente e sarà svegliato solamente se esposto a forti rumori, a scosse o fastidi simili. Se indisturbato, il sonno continua finché il bersaglio non si sveglia in modo naturale.
+
+    - **LQ 1:** 1 livello di Stordimento, ma solo per 1 minuto.
+    - **LQ 2:** 1 livello di Stordimento.
+    - **LQ 3:** 2 livelli di Stordimento.
+    - **LQ 4:** 3 livelli di Stordimento.
+    - **LQ 5:** 4 livelli di Stordimento.
+    - **LQ 6:** 4 livelli di Stordimento, con doppia durata.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ × 3 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 328
+
+- id: LITURGY_27
+  name: "Legno sibilante"
+  effect: |
+    Il serpente ti seguirà e ti proteggerà al meglio delle proprie possibilità. Se il serpente muore, si ritrasformerà nell’oggetto originario. Il serpente viene considerato benedetto come se fosse stato bersaglio di Benedizione degli oggetti (vedi il **Regolamento** a pag. **316**).
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "4 passi"
+  rangeShort: "4 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ × 3 min"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 326
+
+- id: LITURGY_28
+  name: "Lingua biforcuta"
+  effect: |
+    La conversazione con il serpente suonerà come una sequenza di suoni sibilanti agli altri presenti. Nella rappresentazione di questa conversazione, bisogna tenere a mente che i serpenti possiedono un’intelligenza animale e pertanto non percepiscono il mondo allo stesso modo degli umani.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "4 passi"
+  rangeShort: "4 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ × 3 min"
+  target: "Animali (solo serpenti)"
+  src:
+    - id: REG001
+      firstPage: 327
+
+- id: LITURGY_29
+  name: "Pace al dolore"
+  effect: |
+    Gli iniziati possono ignorare gli effetti della condizione Dolore, fino al raggiungimento del 4° livello (con il quale restano incapacitati come di consueto).
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 turni di combattimento"
+  durationShort: "LQ x 3 TC"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 328
+
+- id: LITURGY_30
+  name: "Scudo degli indifesi"
+  effect: |
+    Tramite questa liturgia puoi sfidare una persona che sta attaccando (o intenda attaccare) una persona indifesa o incapace di difendersi. La vittima ignorerà quindi il suo bersaglio originale e attaccherà te al suo posto.
+  castingTime: "1 azione"
+  castingTimeShort: "1 az"
+  kpCost: "8 Pk"
+  kpCostShort: "8 PK"
+  range: "16 passi"
+  rangeShort: "16 passi"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ × 3 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 330
+
+- id: LITURGY_31
+  name: "Splendore di gazza"
+  effect: |
+    Puoi vendere un oggetto ad un prezzo più alto del LQ × 10%. Gli acquirenti più sospettosi possono accorgersi dell’inganno, ma soltanto facendo una prova competitiva su Percezione (Cercare) con una penalità di LQ+2.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "8 passi"
+  rangeShort: "8 passi"
+  duration: "LQ × 15 minuti"
+  durationShort: "LQ × 15 min"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 331
+
+- id: LITURGY_32
+  name: "Luce della verità"
+  effect: |
+    Il bersaglio dovrà rispondere alle tue domande  (e solo alle tue) in modo sincero per tutta la durata di questa liturgia. Le vittime della liturgia sono consapevoli di tutto ciò che dicono mentre sono sotto il suo effetto.
+  castingTime: "8 azioni"
+  castingTimeShort: "8 az"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Tocco"
+  rangeShort: "Tocco"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ × 3 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 327
+
+- id: LITURGY_33
+  name: "Argento vivo"
+  effect: |
+    Diventi più veloce e guadagni bonus in base al LQ raggiunto. Questi bonus sono cumulativi (ad esempio, con LQ 5 riceverai AGI +3, Mov +1, Scv +1). Aumentare AGI a volte condiziona le soglie di impatto per le armi che usano questo attributo (potrai quindi causare un impatto maggiore con alcune armi, leggi il **Regolamento** a pag. **234**).
+
+    - **LQ 1:** +1 AGI
+    - **LQ 2:** +1 Mov
+    - **LQ 3:** +1 AGI
+    - **LQ 4:** +1 Scv
+    - **LQ 5:** +1 AGI
+    - **LQ 6:** +1 Mov
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 minuti"
+  durationShort: "LQ × 3 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 324
+
+- id: LITURGY_34
+  name: "Omnilingua"
+  effect: |
+    Guadagni temporaneamente un certo livello di conoscenza di una lingua di cui ha bisogno nella conversazione corrente (in base ai livelli descritti nel **Regolamento** a pag. **218**). Non c’è bisogno che tu conosca la lingua o l’abbia sentita parlare prima d’ora.
+
+    - **LQ 1-2:** Lingua livello 1.
+    - **LQ 3-4:** Lingua livello 2.
+    - **LQ 5-6:** Lingua livello 3.
+  castingTime: "2 azioni"
+  castingTimeShort: "2 az"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 3 ore"
+  durationShort: "LQ × 3 ore"
+  target: "Creature viventi"
+  src:
+    - id: REG001
+      firstPage: 328
+
+- id: LITURGY_35
+  name: "Protezione dei campi"
+  effect: |
+    Cammini attraverso un terreno appena seminato, benedicendo le colture. Questa cerimonia influenza un’area fino a LQ × 1000 passi quadrati, ma non potrai allontanarti dal centro della zona oltre il raggio della cerimonia. La cerimonia rende le piante appena seminate più resistenti alle malattie e ai parassiti. Inoltre scoraggia la crescita di altre piante indesiderate. La cerimonia non protegge il terreno da altri effetti e fenomeni atmosferici, come siccità, maree o grandinate.
+  castingTime: "2 ore"
+  castingTimeShort: "2 ore"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Vista"
+  rangeShort: "Vista"
+  duration: "Un intero ciclo di crescita (tra i 6 e i 12 mesi)"
+  durationShort: "6-12 mesi"
+  target: "Piante"
+  src:
+    - id: REG001
+      firstPage: 332
+
+- id: LITURGY_36
+  name: "Esorcismo"
+  effect: |
+    La cermonia bandisce il demone o lo spirito, scacciandolo dalla vittima e rimandandolo negli Inferi o nel regno dei morti.
+  castingTime: "8 ore"
+  castingTimeShort: "8 ore"
+  kpCost: "32 PK"
+  kpCostShort: "32 PK"
+  range: "4 passi"
+  rangeShort: "4 passi"
+  duration: "Immediato"
+  durationShort: "Immediato"
+  target: "Demoni, Spiriti"
+  src:
+    - id: REG001
+      firstPage: 333
+
+- id: LITURGY_37
+  name: "Armatura sacra"
+  effect: |
+    La tua armatura diventa consacrata. Se vieni attaccato da un demone, questo subirà 1D3 PFer per ogni suo attacco che va a segno.
+  castingTime: "30 minuti"
+  castingTimeShort: "30 min"
+  kpCost: "16 PK"
+  kpCostShort: "16 Pk"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ × 15 minuti"
+  durationShort: "LQ x 15 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 331
+
+- id: LITURGY_38
+  name: "Sembianze leonine"
+  effect: |
+    Assumi le sembianze di un leone. Equipaggiamento e vestiti non si trasformano. Conservi i tuoi attributi mentali, ma ottieni attributi fisici da leone (vedi riquadro), ai quali si sommano LQ × 2 punti. Il tuo corpo leonino è considerato come benedetto, ma non permette l’uso di incantesimi o liturgie.
+  castingTime: "30 minuti"
+  castingTimeShort: "30 min"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ x 3 ore"
+  durationShort: "LQ x 3 ore"
+  target: "Creature viventi (solo l’iniziato stesso)"
+  src:
+    - id: REG001
+      firstPage: 333
+
+- id: LITURGY_39
+  name: "Corpo nebuloso"
+  effect: |
+    Il tuo corpo si trasforma, ma non i tuoi vestiti o l’equipaggiamento. Le armi, anche quelle magiche e sacre, non possono danneggiarti. Gli incantesimi dell’aspetto Trasmutazione non hanno effetto su di te. In assenza di vento, puoi spostarti volontariamente con Mov 4. In caso di leggera brezza, dovrai fare una prova su Forza di volontà per spostarti nella giusta direzione, se il vento invece è forte, verrai spazzato via senza poterti opporre. Nella tua forma nebulosa, potrai comunque percepire ciò che ti circonda con i tuoi cinque sensi. Rimani in questo stato per tutta la durata della cerimonia.
+  castingTime: "30 minuti"
+  castingTimeShort: "30 min"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Sé stesso"
+  rangeShort: "Sé stesso"
+  duration: "LQ x 10 minuti"
+  durationShort: "LQ x 10 min"
+  target: "Creature intelligenti"
+  src:
+    - id: REG001
+      firstPage: 332
+
+- id: LITURGY_40
+  name: "Consacrazione degli oggetti"
+  effect: |
+    Questa cerimonia consacra oggetti liturgici o armi rituali, infondendoli di potere divino. Vengono solitamente consacrati oggetti scelti attentamente e graditi agli dèi, affidati poi a veri fedeli. Se l’oggetto consacrato è un’arma, questa è considerata sacra. Normalmente l’oggetto non può pesare più di 4 sassi, ma per ogni LQ puoi aggiungere 1 sasso a questo tetto massimo. La cerimonia è usata principalmente per consacrare becchi di corvo (per gli iniziati di Boron), scettri solari (per quelli di Praios) e creste di Rondra.
+  castingTime: "2 ore"
+  castingTimeShort: "2 ore"
+  kpCost: "16 PK, 2 dei quali permanenti"
+  kpCostShort: "16 PK (2 PK perm)"
+  range: "4 passi"
+  rangeShort: "4 passi"
+  duration: "Permanente"
+  durationShort: "Permanente"
+  target: "Oggetti"
+  src:
+    - id: REG001
+      firstPage: 332

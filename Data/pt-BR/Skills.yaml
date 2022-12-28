@@ -1,0 +1,1681 @@
+- id: TAL_1
+  name: "Voo"
+  applications:
+    - id: 1
+      name: "Manobras De Combate"
+    - id: 2
+      name: "Voos de Longa Distância"
+    - id: 3
+      name: "Perseguições,"
+  tools: "Instrumentos de voo"
+  quality: |
+    você pode cobrir distâncias mais rápido.
+  failed: |
+    a manobra aérea falha e deve ser abortada.
+  critical: |
+    a manobra tem sucesso e o você tem uma ação adicional restante para a rodada.
+  botch: |
+    você cai.
+  src:
+    - id: US25001E
+      firstPage: 192
+
+- id: TAL_2
+  name: "Prestidigitação"
+  applications:
+    - id: 1
+      name: "Malabarismo"
+    - id: 2
+      name: "Palhaçadas,"
+    - id: 3
+      name: "Truques"
+  tools: "depende do truque (bolas, tochas, cobras, cartas, etc.)"
+  quality: |
+    você executa o truque especialmente bem e ganha mais aplausos do público.
+  failed: |
+    o truque realmente não funciona devido a pequenos erros, e o público está desapontado.
+  critical: |
+    o público está fascinado e acha que você fez magia de verdade. Se houver dinheiro a ser ganho, você ganha o dobro do valor normal.
+  botch: |
+    o público vaia você por um acidente durante a performance (talvez o herói ou heroína atinja um membro do público com um pino de malabarismo, ou machuque o prefeito com pirotecnia, ou algo assim).
+  src:
+    - id: US25001E
+      firstPage: 191
+
+- id: TAL_3
+  name: "Escalada"
+  applications:
+    - id: 1
+      name: "Árvores"
+    - id: 2
+      name: "Montanhas"
+    - id: 3
+      name: "Gelo"
+    - id: 4
+      name: "Paredes"
+  tools: "equipamento de escalada, dependendo das circunstâncias"
+  quality: |
+    você chega ao destino mais rápido.
+  failed: |
+    a subida demora mais do que o esperado, ou você sofre uma lesão (DN 1D3, ignorando PRO), não se atreve a subir, ou fica preso em algum lugar ao longo do caminho.
+  critical: |
+    você sobe com velocidade e segurança muito superiores ao habitual. As testemunhas acham que o herói ou heroína pode ser um dos melhores alpinistas de Dere. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+    Você escorrega e cai.
+  src:
+    - id: US25001E
+      firstPage: 189
+
+- id: TAL_4
+  name: "Controle Corporal"
+  applications:
+    - id: 1
+      name: "Acrobacias"
+    - id: 2
+      name: "Equilíbrio"
+    - id: 3
+      name: "Contorcionismo"
+    - id: 4
+      name: "Manobras de Combate"
+    - id: 5
+      name: "Correr"
+    - id: 6
+      name: "Saltar"
+  quality: |
+    você consegue escapar mais rapidamente de restrições.
+  failed: |
+    a ação falha parcialmente, requer mais tempo ou leva a erros, talvez forçando o herói a abortar a ação.
+  critical: |
+    a ação tem sucesso e o herói ainda tem outra ação restante. O que quer que tenha sido tentado, a personagem executa de forma muito graciosa.
+  botch: |
+    o herói ou heroína cai e sofre uma lesão (DN 1D6, ignorando PRO).
+  src:
+    - id: US25001E
+      firstPage: 188
+
+- id: TAL_5
+  name: "Façanha de Força"
+  applications:
+    - id: 1
+      name: "Arrastar e Puxar"
+    - id: 2
+      name: "Quebrar e Esmagar"
+    - id: 3
+      name: "Levantar"
+    - id: 4
+      name: "Empurrar e Dobrar"
+  tools: "talvez um pé-de-cabra ou uma corda, dependendo das circunstâncias"
+  quality: |
+    você pode carregar mais peso ou levantar uma carga pesada por mais tempo do que o habitual.
+  failed: |
+    a sua ação falha.
+  critical: |
+    façanha física impressionante. As testemunhas acham que você é uma das pessoas mais fortes de Aventuria. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+    a ação falha de uma maneira espetacular. Você desaba, distende um músculo e sofre uma lesão (DN 1D6, ignorando PRO)
+  src:
+    - id: US25001E
+      firstPage: 189
+
+- id: TAL_6
+  name: "Montaria"
+  applications:
+    - id: 1
+      name: "Manobras de Combate"
+    - id: 2
+      name: "Cavalgadas de Longa Distância"
+    - id: 3
+      name: "Salto de Obstáculos"
+    - id: 4
+      name: "Perseguições"
+  tools: "montaria"
+  quality: |
+    você chega ao destino mais rápido.
+  failed: |
+    o animal não se move nem é guiado como o herói ou heroína deseja.
+  critical: |
+    o animal obedece perfeitamente e você ainda tem outra ação disponível.
+  botch: |
+    o animal derruba a personagem, que sofre uma queda.
+  src:
+    - id: US25001E
+      firstPage: 190
+
+- id: TAL_7
+  name: "Natação"
+  applications:
+    - id: 1
+      name: "Manobras de Combate"
+    - id: 2
+      name: "Natação de Longa Distância"
+    - id: 3
+      name: "Mergulho"
+    - id: 4
+      name: "Perseguições"
+    - id: 5
+      name: "Boiar"
+  quality: |
+    você chega ao destino mais rápido.
+  failed: |
+    você não se atreve a nadar ou não vai longe (ou pelo menos não para onde pretendia, de qualquer forma).
+  critical: |
+    o tempo que o você leva para nadar a distância é um recorde pessoal. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+    você começa a se afogar ou talvez sofra cãibras nas pernas.
+  src:
+    - id: US25001E
+      firstPage: 190
+
+- id: TAL_8
+  name: "Autocontrole"
+  applications:
+    - id: 1
+      name: "Resistir a Tortura"
+    - id: 2
+      name: "Ficar Consciente"
+    - id: 3
+      name: "Ignorar Distrações"
+  uses:
+    - id: 1
+      name: "Suprimir a dor"
+  quality: |
+    você mantém o controle por mais tempo.
+  failed: |
+    você não consegue suprimir a dor ou ignorar a distração.
+  critical: |
+    você ignora *Dor* (até o Nível III) e distrações pelo dia inteiro.
+  botch: |
+    você recebe 2 níveis da condição *Dor* pelas próximas horas, ou fica *Surpreso* pela distração.
+  src:
+    - id: US25001E
+      firstPage: 187
+
+- id: TAL_9
+  name: "Canto"
+  encDescription: "Não (talvez com um elmo)"
+  applications:
+    - id: 1
+      name: "Balada de Bardo"
+    - id: 2
+      name: "Coro"
+    - id: 3
+      name: "Coral"
+    - id: 4
+      name: "Recital"
+    - id: -2
+      name: "Canto de Duas Vozes"
+  quality: |
+    seu canto é tão bom que o público aplaude alto.
+  failed: |
+    você esquece a letra ou tem um desempenho bastante fraco.
+  critical: |
+    seu canto é um tema para discussão por muitas semanas. Se você queria ganhar dinheiro, recebe pelo menos o dobro do valor normal. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+   Você estraga a melodia ou bagunça o ritmo. A canção é torturante para o público, que vaia o artista em voz alta.
+  src:
+    - id: US25001E
+      firstPage: 188
+
+- id: TAL_10
+  name: "Percepção"
+  encDescription: "Não (talvez se usar um capacete ou manoplas)"
+  applications:
+    - id: 1
+      name: "Detectar Emboscada"
+    - id: 2
+      name: "Perceber"
+    - id: 3
+      name: "Procurar"
+    - id: -1
+      name: "Leitura Labial"
+    - id: -4
+      name: "Sentido de Raposa"
+  quality: |
+    você nota mais detalhes.
+  failed: |
+    você não repara nada.
+  critical: |
+    você nota detalhes que mal são perceptíveis para os outros. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+   você percebe algo que não é realmente importante, como o cheiro de flores próximas, mas perde algo óbvio como um ogro malcheiroso que está se esgueirando sobre o grupo.
+  src:
+    - id: US25001E
+      firstPage: 190
+
+- id: TAL_11
+  name: "Dança"
+  applications:
+    - id: 1
+      name: "Popular"
+    - id: 2
+      name: "Exótica"
+    - id: 3
+      name: "Corte"
+    - id: 4
+      name: "Religiosa"
+  quality: |
+    a dança é tão boa que o público aplaude alto.
+  failed: |
+    você confunde os passos da dança.
+  critical: |
+    os seus passos perfeitos encantam o público. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+    pisa nos dedos dos pés do parceiro ou parceira causando lesões, ou cai de forma vergonhosa.
+  src:
+    - id: US25001E
+      firstPage: 188
+
+- id: TAL_12
+  name: "Punga"
+  applications:
+    - id: 1
+      name: "Criar Distrações"
+    - id: 2
+      name: "Roubar Pessoas"
+    - id: 3
+      name: "Roubar Itens"
+    - id: 4
+      name: "Deslizar Item"
+  tools: "talvez uma faca ou um punhal"
+  quality: |
+    o roubo não é notado por um tempo.
+  failed: |
+    a tentativa não é bem sucedida, ou a vítima percebe a tentativa imediatamente.
+  critical: |
+    a vítima não percebe o ladrão, que consegue obter itens especialmente valiosos ou roubar de mais de uma vítima. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+    as pessoas na área, possivelmente até mesmo a vítima, notam a tentativa, mas o ladrão continua sem perceber que foi detectado. A tentativa falha, e além disso, o ladrão está *surpreso*.
+  src:
+    - id: US25001E
+      firstPage: 191
+
+- id: TAL_13
+  name: "Furtividade"
+  applications:
+    - id: 1
+      name: "Esconder itens"
+    - id: 2
+      name: "Esgueirar-se"
+    - id: 3
+      name: "Esconder-se"
+  quality: |
+    você é mais difícil de detectar ou encontra um esconderijo mais rapidamente.
+  failed: |
+    você está mal escondido, ou faz barulho ao esgueirar-se.
+  critical: |
+    você encontra o esconderijo perfeito ou se move tão silenciosamente quanto um gato. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+    algo (um prato, uma peça de mobilia) cai e se quebra.
+  src:
+    - id: US25001E
+      firstPage: 189
+
+- id: TAL_14
+  name: "Boêmia"
+  applications:
+    - id: 1
+      name: "Resistir À Intoxicação das Drogas"
+    - id: 2
+      name: "Resistir à Dor das Drogas"
+    - id: 3
+      name: "Resistir à Confusão das Drogas"
+  quality: |
+    você pode suportar mais do que o habitual.
+  failed: |
+    o herói recebe um nível da condição *Confusão* e desperta no dia seguinte com uma ressaca ou alguma outra consequência indesejada.
+  critical: |
+    o herói resiste até o amargo fim, mas ainda acorda em excelentes condições no dia seguinte.
+  botch: |
+    o herói ou heroína faz algo embaraçoso enquanto embriagado (como destruir metade da estalagem, acordar na manhã seguinte nu no mercado ou na cama de uma pessoa estranha, ou revelar segredos para o inimigo) e não consegue se lembrar de nada.
+  src:
+    - id: US25001E
+      firstPage: 188
+
+- id: TAL_15
+  name: "Persuasão"
+  applications:
+    - id: 1
+      name: "Conversação"
+    - id: 2
+      name: "Debate"
+    - id: 3
+      name: "Discurso"
+    - id: -1
+      name: "Provocação"
+  quality: |
+    você convence mais pessoas, ou o alvo adere à nova crença por um tempo mais longo.
+  failed: |
+    o alvo não acredita no orador.
+  critical: |
+    o alvo está completamente convencido.
+  botch: |
+    o alvo se sente insultado.
+  src:
+    - id: US25001E
+      firstPage: 195
+
+- id: TAL_16
+  name: "Sedução"
+  encDescription: "Não, mas pode haver exceções situacionais, como tentar seduzir alguém vestindo uma armadura de placas."
+  applications:
+    - id: 1
+      name: "Flertar"
+    - id: 2
+      name: "Embelezamento"
+    - id: 3
+      name: "Romantismo"
+    - id: -1
+      name: "Romances"
+  quality: |
+    o alvo reage favoravelmente a personagem.
+  failed: |
+    a personagem não consegue despertar o interesse do alvo.
+  critical: |
+    o alvo tenta cumprir todos os desejos da personagem.
+  botch: |
+    O alvo dá um tapa na personagem por ser grosseira.
+  src:
+    - id: US25001E
+      firstPage: 195
+
+- id: TAL_17
+  name: "Intimidação"
+  applications:
+    - id: 1
+      name: "Ameaças"
+    - id: 2
+      name: "Tortura"
+    - id: 4
+      name: "Provocação"
+    - id: 4
+      name: "Interrogatório"
+  quality: |
+    a vítima permanece intimidada por mais tempo ou revela mais do que o esperado.
+  failed: |
+    o alvo ignora todos os insultos e tentativas de intimidação.
+  critical: |
+    o alvo é totalmente intimidado e não vai agir contra a personagem no futuro proxímo.
+  botch: |
+    em vez de ser intimidado ou insultado, o inverso do esperado acontece e o alvo fica irritado, calmo, ou até divertido. Alternativamente, o aspirante a intimidador parece tolo.
+  src:
+    - id: US25001E
+      firstPage: 194
+
+- id: TAL_18
+  name: "Etiqueta"
+  applications:
+    - id: 1
+      name: "Modos"
+    - id: 2
+      name: "Rumores"
+    - id: 3
+      name: "Conversa Fiada"
+    - id: 4
+      name: "Moda"
+    - id: -1
+      name: "Heráldica e Árvores Familiares"
+    - id: -2
+      name: "Poesia"
+  quality: |
+    você causa uma boa impressão e é lembrado de uma forma positiva.
+  failed: |
+    você esquece algumas regras importantes de etiqueta e causa uma má impressão.
+  critical: |
+    os seus modos, sagacidade e charme são o assunto da festa.
+  botch: |
+    o seu comportamento grosseiro insulta uma personagem importante.
+  src:
+    - id: US25001E
+      firstPage: 193
+
+- id: TAL_19
+  name: "Manha"
+  encDescription: "Não (talvez em algumas situações, tais como se a sua armadura ajuda você a se assemelhar a um guarda ou nobre)"
+  applications:
+    - id: 1
+      name: "Seguir"
+    - id: 2
+      name: "Perguntar por Aí"
+    - id: 3
+      name: "Avaliar Locais"
+    - id: -1
+      name: "Histórias de Crime"
+  quality: |
+    coleta mais informações, ou as obtém mais rápido do que o esperado.
+  failed: |
+    você não recebe nenhuma informação útil.
+  critical: |
+    encontra uma estalagem especialmente boa e barata, obtém muito mais informações do que o esperado, ou encontra um contato que oferece condições excelentes.
+  botch: |
+    você cai numa emboscada por um bando de rufiões que planejam lhe roubar cegamente.
+  src:
+    - id: US25001E
+      firstPage: 195
+
+- id: TAL_20
+  name: "Empatia"
+  applications:
+    - id: 1
+      name: "Sentir Enganação"
+    - id: 2
+      name: "Discernir Motivação"
+  quality: |
+    obter informações sobre as motivações ou declarações intencionalmente enganosas de outra pessoa.
+  failed: |
+    você não tem a certeza.
+  critical: |
+    você tem uma forte noção do que leva uma pessoa a agir de uma certa maneira.
+  botch: |
+    você avalia completamente errado a situação (acreditando em cada palavra do mentiroso, ou pensando que uma pessoa honesta está mentindo, por exemplo).
+  src:
+    - id: US25001E
+      firstPage: 193
+
+- id: TAL_21
+  name: "Lábia"
+  applications:
+    - id: 1
+      name: "Venda Difícil"
+    - id: 2
+      name: "Mendigar"
+    - id: 3
+      name: "Subterfúgio"
+    - id: 4
+      name: "Manipular"
+    - id: 5
+      name: "Bajular"
+    - id: -1
+      name: "Novelas"
+  uses:
+    - id: 1
+      name: "Líder"
+  quality: |
+    a personagem alvo faz mais pelo herói ou heroína.
+  failed: |
+    você não consegue persuadir a personagem alvo.
+  critical: |
+    a personagem alvo faz muito mais do que o esperado.
+  botch: |
+    a personagem alvo fica zangada com o herói ou heroína e não pode ser convencida de nada.
+  src:
+    - id: US25001E
+      firstPage: 194
+
+- id: TAL_22
+  name: "Disfarce"
+  applications:
+    - id: 1
+      name: "Atuação de Palco"
+    - id: 2
+      name: "Figurino"
+    - id: 3
+      name: "Imitar Pessoas"
+  tools: "um disfarce"
+  quality: |
+    é difícil ver através do disfarce.
+  failed: |
+    o disfarce é pobre e não será descoberto se examinado de perto.
+  critical: |
+    o disfarce é impecável.
+  botch: |
+    as pessoas imediatamente veem através do disfarce. Você provavelmente vai ter problemas.
+  src:
+    - id: US25001E
+      firstPage: 192
+
+- id: TAL_23
+  name: "Força de Vontade"
+  applications:
+    - id: 1
+      name: "Resistir a Persuasão"
+    - id: 2
+      name: "Enfrentar Ameaças"
+    - id: 3
+      name: "Resistir a Sedução"
+    - id: 4
+      name: "Resistir a Intimidação"
+    - id: 5
+      name: "Resistir a Lábia"
+  quality: |
+    reduz muito os efeitos de *Sedução* ou *Persuasão*, ou os resiste completamente.
+  failed: |
+    você não consegue resistir.
+  critical: |
+    você resiste e não pode ser influenciado por essa pessoa ou coisa no futuro próximo.
+  botch: |
+    você sucumbe completamente à pessoa tentando a influência, ou desmaia quando confrontado com algo como um demônio horrível.
+  src:
+    - id: US25001E
+      firstPage: 193
+
+- id: TAL_24
+  name: "Rastrear"
+  applications:
+    - id: 1
+      name: "Rastros Ocultos"
+    - id: 2
+      name: "Rastros Humanoides"
+    - id: 3
+      name: "Rastros de Animais"
+  quality: |
+    você percebe mais detalhes na trilha.
+  failed: |
+    você não consegue encontrar um rastro ou não descobre nada de novo.
+  critical: |
+   desde que uma trilha não tenha sido completamente destruída, você pode segui-la até o seu fim e receber mais informações do que o habitual, detectando imediatamente enganações (como trilhas cobertas).
+  botch: |
+    você erra os rastros e segue a trilha errada, talvez encontrando uma criatura perigosa ou encontrando as pessoas erradas.
+  src:
+    - id: US25001E
+      firstPage: 198
+
+- id: TAL_25
+  name: "Cordas"
+  encDescription: "no (maybe with a helmet or gauntlets)"
+  applications:
+    - id: 1
+      name: "Amarras"
+    - id: 2
+      name: "Nós"
+    - id: 3
+      name: "Redes de Amarração"
+    - id: 4
+      name: "Emendar Cordas"
+  tools: "cordas"
+  quality: |
+    as amarras seguram melhor e são mais difíceis de escapar.
+  failed: |
+    os seus nós são de má qualidade e mais fáceis de escapar do que o habitual.
+  critical: |
+    você ata um nó muito robusto. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+    você ata um nó que se abre em qualquer situação. Ele não manterá nada seguro.
+  src:
+    - id: US25001E
+      firstPage: 197
+
+- id: TAL_26
+  name: "Pesca"
+  encDescription: "Sim (pesca com lança) ou não (pesca com curral, redes ou anzóis)"
+  applications:
+    - id: 1
+      name: "Animais de Água Salgada"
+    - id: 2
+      name: "Animais de Água Doce"
+    - id: 3
+      name: "Monstros Aquáticos"
+  tools: "rede, curral de pesca, lança, linha com anzol"
+  quality: |
+    os peixes são mais saborosos do que a captura típica.
+  failed: |
+    os peixes não mordem a isca, ou evitam a rede.
+  critical: |
+    o número de rações obtidas é muito elevado. Para o NQ, testes competitivos e cumulativos, PP = 2xGP.
+  botch: |
+    o pescador cai na água e perde algum equipamento de pesca.
+  src:
+    - id: US25001E
+      firstPage: 197
+
+- id: TAL_27
+  name: "Orientação"
+  applications:
+    - id: 1
+      name: "Posição do sol"
+    - id: 2
+      name: "Céu Noturno"
+    - id: 3
+      name: "Debaixo da Terra"
+  quality: |
+    você aprende sua direção de movimento mais rapidamente.
+  failed: |
+    você não sabe a sua direção de movimento.
+  critical: |
+    você encontra o seu caminho sem problemas, mesmo nas piores condições.
+  botch: |
+    vocês perdem o seu caminho e movem-se inconscientemente na direção errada.
+  src:
+    - id: US25001E
+      firstPage: 197
+
+- id: TAL_28
+  name: "Conhecimento de Plantas"
+  encDescription: "Sim (para a agricultura e a coleta de alimentos) ou não (para a identificação de plantas)"
+  applications:
+    - id: 1
+      name: "Plantas Venenosas"
+    - id: 2
+      name: "Plantas Curativas"
+    - id: 3
+      name: "Plantações"
+  quality: |
+    você obtém mais informações sobre uma planta.
+  failed: |
+    você não reconhece a planta.
+  critical: |
+    você sabe tudo sobre a planta, incluindo propriedades especiais, e pode preservá-la para durar o dobro do tempo habitual.
+  botch: |
+    você confunde a planta com outra, possivelmente com uma venenosa.
+  src:
+    - id: US25001E
+      firstPage: 197
+
+- id: TAL_29
+  name: "Conhecimento de Animais"
+  applications:
+    - id: 1
+      name: "Animais Domesticados"
+    - id: 2
+      name: "Monstros"
+    - id: 3
+      name: "Animais Selvagens"
+  uses:
+    - id: 1
+      name: "Imitação"
+  quality: |
+    você obtém mais informações sobre um animal.
+  failed: |
+    você não tem a menor ideia sobre esse animal.
+  critical: |
+    você tem amplo conhecimento desse tipo de animal.
+  botch: |
+    você se sente confiante, mas tudo que você acha que sabe sobre o animal está errado (você acha que um animal não é perigoso, mesmo que seja altamente venenoso, ou você acredita que ele é herbívoro quando ele na verdade é carnívoro).
+  src:
+    - id: US25001E
+      firstPage: 196
+
+- id: TAL_30
+  name: "Sobrevivência"
+  applications:
+    - id: 1
+      name: "Fazer Fogo"
+    - id: 2
+      name: "Construir Acampamento"
+    - id: 3
+      name: "Encontrar Local Para Acampar"
+    - id: -1
+      name: "Prever o Tempo"
+  tools: "equipamento de sobrevivência, talvez uma tenda"
+  quality: |
+    você não precisa de tanto tempo para encontrar ou construir um acampamento.
+  failed: |
+    você escolhe um local de acampamento ruim. As Fases de Regeneração sofrem –1 de penalidade.
+  critical: |
+    você encontra um ótimo lugar de descanso! Aumente a regeneração em 1.
+  botch: |
+    o local de acampamento alaga ou é tomado por vermes.
+  src:
+    - id: US25001E
+      firstPage: 199
+
+- id: TAL_31
+  name: "Jogos"
+  applications:
+    - id: 1
+      name: "Jogos de Dados"
+    - id: 2
+      name: "Jogos de Tabuleiro"
+    - id: 3
+      name: "Jogos de Cartas"
+    - id: 4
+      name: "Jogos de Apostas"
+    - id: -1
+      name: "Publicações Proffisionais"
+  uses:
+    - id: 1
+      name: "Trapaça"
+  tools: "jogo"
+  quality: |
+    fazer uma jogada inteligente.
+  failed: |
+    você perde o jogo.
+  critical: |
+    vence espetacularmente. Se jogando por dinheiro, dobra os seus ganhos.
+  botch: |
+   outros suspeitam que a personagem está trapaceando, especialmente se sofreram perdas. Se jogando por dinheiro, perde pelo menos toda a sua aposta (se não mais).
+  src:
+    - id: US25001E
+      firstPage: 201
+
+- id: TAL_32
+  name: "Geografia"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetia"
+    - id: 4
+      name: "Kosh"
+    - id: 5
+      name: "Marcanorte"
+    - id: 6
+      name: "Marcas Rommilisianas"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Bruxavento"
+    - id: 10
+      name: "Império de Al'Anfan"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Reinos das Montanha dos Anões"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Extremo Norte"
+    - id: 17
+      name: "Império Horasiano"
+    - id: 18
+      name: "Califado"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Terras Órquicas"
+    - id: 22
+      name: "Pedras de Salamandra e Reinos Élficos"
+    - id: 23
+      name: "Terras Sombrias"
+    - id: 24
+      name: "Mar do Sul e Ilhas Florestadas"
+    - id: 25
+      name: "Vale de Svellt"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Extremo Sul"
+    - id: 28
+      name: "Terras do Tulamidas"
+    - id: 29
+      name: "as Ilhas Ciclope"
+    - id: -1
+      name: "Cartografia"
+    - id: -2
+      name: "Publicações Proffisionais"
+  quality: |
+    descobre mais detalhes sobre a população, lugares e os cruzamentos de rio.
+  failed: |
+    você não tem a menor ideia sobre essa localidade.
+  critical: |
+    você conhece muitos detalhes da região, como governantes, contagem populacional, costumes, cursos de rio e pontes.
+  botch: |
+    lembra erroneamente detalhes geográficos (a contagem da população está errada, as pontes não estão onde se pensava estar e assim por diante).
+  src:
+    - id: US25001E
+      firstPage: 200
+
+- id: TAL_33
+  name: "História"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetia"
+    - id: 4
+      name: "Kosh"
+    - id: 5
+      name: "Marcanorte"
+    - id: 6
+      name: "Marcas Rommilisianas"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Bruxavento"
+    - id: 10
+      name: "Império de Al'Anfan"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Reinos das Montanha dos Anões"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Extremo Norte"
+    - id: 17
+      name: "Império Horasiano"
+    - id: 18
+      name: "Califado"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Terras Órquicas"
+    - id: 22
+      name: "Pedras de Salamandra e Reinos Élficos"
+    - id: 23
+      name: "Terras Sombrias"
+    - id: 24
+      name: "Mar do Sul e Ilhas Florestadas"
+    - id: 25
+      name: "Vale de Svellt"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Extremo Sul"
+    - id: 28
+      name: "Terras do Tulamidas"
+    - id: 29
+      name: "as Ilhas Ciclope"
+    - id: -1
+      name: "Publicações Proffisionais"
+  quality: |
+    descobre mais detalhes sobre personalidades e períodos históricos.
+  failed: |
+    você não tem a menor ideia sobre esse assunto.
+  critical: |
+    você sabe muitos detalhes sobre um determinado evento ou pessoa histórica.
+  botch: |
+    tudo que você se lembra sobre o assunto é incorreto; você está errado sobre datas e eventos.
+  src:
+    - id: US25001E
+      firstPage: 201
+
+- id: TAL_34
+  name: "Religiões"
+  applications:
+    - id: 1
+      name: "Praios"
+    - id: 2
+      name: "Rondra"
+    - id: 3
+      name: "Efferd"
+    - id: 4
+      name: "Travia"
+    - id: 5
+      name: "Boron"
+    - id: 6
+      name: "Hesinde"
+    - id: 7
+      name: "Firun"
+    - id: 8
+      name: "Tsa"
+    - id: 9
+      name: "Phex"
+    - id: 10
+      name: "Peraine"
+    - id: 11
+      name: "Ingerimm"
+    - id: 12
+      name: "Rahja"
+    - id: 13
+      name: "Inominável"
+    - id: 14
+      name: "Aves"
+    - id: 15
+      name: "Ifirn"
+    - id: 16
+      name: "Kor"
+    - id: 17
+      name: "Nandus"
+    - id: 18
+      name: "Swafnir"
+    - id: 19
+      name: "Marbo"
+    - id: 20
+      name: "Levthan"
+    - id: 21
+      name: "Rastullah"
+    - id: -1
+      name: "Publicações Proffisionais"
+  applicationsInput: depende do deus ou filosofia
+  quality: |
+    mais detalhes sobre igrejas, cultos, deuses e clero.
+  failed: |
+    o herói não faz ideia.
+  critical: |
+    você conhece informações detalhadas sobre o tema, incluindo rituais especiais, textos de oração e princípios filosóficos.
+  botch: |
+    confunde ritos especiais e filosofias de uma igreja com os de outra.
+  src:
+    - id: US25001E
+      firstPage: 203
+
+- id: TAL_35
+  name: "Guerra"
+  applications:
+    - id: 1
+      name: "Táticas de Cerco"
+    - id: 2
+      name: "Batalha Aberta"
+    - id: 3
+      name: "Táticas de Milícia"
+    - id: 4
+      name: "Batalha Marítima"
+    - id: 5
+      name: "Lutar em Túneis"
+    - id: -1
+      name: "Publicações Proffisionais"
+  quality: |
+    ganha uma vantagem durante uma batalha.
+  failed: |
+    você toma uma má decisão.
+  critical: |
+    o seu plano brilhante concede mais vantagens em combate e pode levar à vitória.
+  botch: |
+    você comete um erro crítico que causa problemas, seja pessoalmente ou para o seu lado na batalha.
+  src:
+    - id: US25001E
+      firstPage: 201
+
+- id: TAL_36
+  name: "Conhecimento de Magia"
+  applications:
+    - id: 1
+      name: "Artefatos"
+    - id: 2
+      name: "Seres Mágicos"
+    - id: 3
+      name: "Rituais"
+    - id: 4
+      name: "Feitiços"
+    - id: -1
+      name: "Publicações Proffisionais"
+  uses:
+    - id: 1
+      name: "Analista"
+  quality: |
+    mais detalhes sobre feitiços, seres mágicos ou usos exóticos da magia.
+  failed: |
+    você não tem a menor ideia sobre essa magia.
+  critical: |
+    você conhece a origem, o feitiço em ação e o gatilho de um artefato antigo.
+  botch: |
+    o seu conhecimento impreciso resulta num erro fatal.
+  src:
+    - id: US25001E
+      firstPage: 200
+
+- id: TAL_37
+  name: "Mecânica"
+  applications:
+    - id: 1
+      name: "Alavancas"
+    - id: 2
+      name: "Hidráulica"
+    - id: 3
+      name: "Sistemas Complexos"
+    - id: -1
+      name: "Publicações Proffisionais"
+  quality: |
+    planejamento mais rápido.
+  failed: |
+    o mecanismo planejado não funciona.
+  critical: |
+    PP = 2 x GP.
+  botch: |
+    independentemente do que o herói pretendia construir, o resultado é perigoso ou colapsa. O herói aciona a armadilha com o pior efeito possível (ela inflige dano máximo, e assim por diante).
+  src:
+    - id: US25001E
+      firstPage: 202
+
+- id: TAL_38
+  name: "Matemática"
+  applications:
+    - id: 1
+      name: "Fracções"
+    - id: 2
+      name: "Multiplicação e Divisão"
+    - id: 3
+      name: "Adição e Subtração"
+    - id: -1
+      name: "Publicações Proffisionais"
+    - id: -2
+      name: "Numerologia"
+  quality: |
+    obtém um resultado mais rapidamente.
+  failed: |
+    o resultado está incorreto.
+  critical: |
+    você rapidamente obtém a resposta correta.
+  botch: |
+    o resultado está completamente errado, mas você tem certeza de que está correto.
+  src:
+    - id: US25001E
+      firstPage: 202
+
+- id: TAL_39
+  name: "Leis"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetia"
+    - id: 4
+      name: "Kosh"
+    - id: 5
+      name: "Marcanorte"
+    - id: 6
+      name: "Marcas Rommilisianas"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Bruxavento"
+    - id: 10
+      name: "Império de Al'Anfan"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Reinos das Montanha dos Anões"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Extremo Norte"
+    - id: 17
+      name: "Império Horasiano"
+    - id: 18
+      name: "Califado"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Terras Órquicas"
+    - id: 22
+      name: "Pedras de Salamandra e Reinos Élficos"
+    - id: 23
+      name: "Terras Sombrias"
+    - id: 24
+      name: "Mar do Sul e Ilhas Florestadas"
+    - id: 25
+      name: "Vale de Svellt"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Extremo Sul"
+    - id: 28
+      name: "Terras do Tulamidas"
+    - id: 29
+      name: "as Ilhas Ciclope"
+    - id: -1
+      name: "Leis da Guilda"
+    - id: -2
+      name: "Publicações Proffisionais"
+  quality: |
+    expõe mais opções para resolver um caso.
+  failed: |
+    você não tem a menor ideia sobre o sistema legal desse local.
+  critical: |
+    conhece as peculiaridades da lei e desenvolve um plano para usar isto a seu favor.
+  botch: |
+    você interpreta mal a lei ou esquece uma prova importante.
+  src:
+    - id: US25001E
+      firstPage: 202
+
+- id: TAL_40
+  name: "Mitos e Lendas"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetia"
+    - id: 4
+      name: "Kosh"
+    - id: 5
+      name: "Marcanorte"
+    - id: 6
+      name: "Marcas Rommilisianas"
+    - id: 7
+      name: "Tobrien"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Bruxavento"
+    - id: 10
+      name: "Império de Al'Anfan"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Reinos das Montanha dos Anões"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Extremo Norte"
+    - id: 17
+      name: "Império Horasiano"
+    - id: 18
+      name: "Califado"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Terras Órquicas"
+    - id: 22
+      name: "Pedras de Salamandra e Reinos Élficos"
+    - id: 23
+      name: "Terras Sombrias"
+    - id: 24
+      name: "Mar do Sul e Ilhas Florestadas"
+    - id: 25
+      name: "Vale de Svellt"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Extremo Sul"
+    - id: 28
+      name: "Terras do Tulamidas"
+    - id: 29
+      name: "as Ilhas Ciclope"
+    - id: -1
+      name: "Contos de Fada"
+    - id: -2
+      name: "Publicações Proffisionais"
+  quality: |
+    mais detalhes sobre várias versões da história.
+  failed: |
+    você não conhece a história.
+  critical: |
+    você conhece muitos detalhes da história e recorda muitas variantes.
+  botch: |
+    você confunde a história com outros detalhes.
+  src:
+    - id: US25001E
+      firstPage: 203
+
+- id: TAL_41
+  name: "Conhecimento das Esferas"
+  applications:
+    - id: 1
+      name: "Limbo"
+    - id: 2
+      name: "Seres das Esferas"
+    - id: 3
+      name: "1. Esfera"
+    - id: 4
+      name: "2. Esfera"
+    - id: 5
+      name: "3. Esfera"
+    - id: 6
+      name: "4. Esfera"
+    - id: 7
+      name: "5. Esfera"
+    - id: 8
+      name: "6. Esfera"
+    - id: 9
+      name: "7. Esfera"
+    - id: -1
+      name: "Publicações Proffisionais"
+  quality: |
+    mais detalhes sobre o Limbo ou as Esferas.
+  failed: |
+    você não sabe nada sobre o tópico.
+  critical: |
+    você se lembra de alguns detalhes interessantes sobre demônios específicos ou os caminhos em um Glóbulo oculto.
+  botch: |
+    você faz um julgamento equivocado perigoso.
+  src:
+    - id: US25001E
+      firstPage: 199
+
+- id: TAL_42
+  name: "Astronomia"
+  applications:
+    - id: 1
+      name: "Astrologia"
+    - id: 2
+      name: "Cartografia Estelar"
+    - id: 3
+      name: "Calendários"
+    - id: -1
+      name: "Publicações Proffisionais"
+  quality: |
+    você consegue criar horóscopos ou determinar da direção de viagem à noite com maior rapidez.
+  failed: |
+    não tem a menor ideia dos acontecimentos celestes.
+  critical: |
+    você pode calcular os movimentos exatos dos corpos celestes.
+  botch: |
+    você comete um erro ao desenhar um horóscopo ou prever um eclipse lunar, e assim por diante.
+  src:
+    - id: US25001E
+      firstPage: 199
+
+- id: TAL_43
+  name: "Alquimia"
+  applications:
+    - id: 1
+      name: "Venenos Alquímicos"
+    - id: 2
+      name: "Elixires"
+    - id: 3
+      name: "Alquimia Mundana"
+  tools: "laboratório alquímico"
+  quality: |
+    a poção é de melhor qualidade
+  failed: |
+    o elixir está arruinado, ou uma análise não consegue produzir um resultado útil.
+  critical: |
+    identifica um elixir com precisão, incluindo o seu Nível e quanto tempo permanecerá estável.
+  botch: |
+    o elixir tem um efeito colateral desagradável.
+  src:
+    - id: US25001E
+      firstPage: 204
+
+- id: TAL_44
+  name: "Navegação"
+  applications:
+    - id: 1
+      name: "Manobras de Combate"
+    - id: 2
+      name: "Longas Distâncias"
+    - id: 3
+      name: "Perseguições"
+    - id: 4
+      name: "Corridas"
+    - id: -1
+      name: "Navigation"
+  tools: "Navio ou barco"
+  quality: |
+    percorre a distância mais rápido.
+  failed: |
+    você mal faz progressos com o barco ou o navio.
+  critical: |
+    você usa correntes e ventos para navegar duas vezes mais rápido do que o esperado.
+  botch: |
+    você cai da borda ou danifica uma parte importante do navio.
+  src:
+    - id: US25001E
+      firstPage: 208
+
+- id: TAL_45
+  name: "Condução"
+  applications:
+    - id: 1
+      name: "Manobras de Combate"
+    - id: 2
+      name: "Longas Distâncias"
+    - id: 3
+      name: "Perseguições"
+    - id: 4
+      name: "Corridas"
+  tools: "veículos"
+  quality: |
+    percorre a distância mais rápido.
+  failed: |
+    o veículo move-se lentamente, ou você não consegue colocá-lo em movimento.
+  critical: |
+    o veículo consegue uma boa velocidade e chega em tempo recorde.
+  botch: |
+    o veículo quebra um eixo ou vira e derruba seu condutor, que sofre *dano de queda*.
+  src:
+    - id: US25001E
+      firstPage: 206
+
+- id: TAL_46
+  name: "Comércio"
+  applications:
+    - id: 1
+      name: "Contabilidade"
+    - id: 2
+      name: "Pechinchar"
+    - id: 3
+      name: "Câmbio"
+    - id: -1
+      name: "Vender Mercadorias Roubadas"
+  uses:
+    - id: 1
+      name: "Falsificador de Cavalos"
+  quality: |
+    você pode identificar o preço com mais precisão.
+  failed: |
+    você obtém menos do que o esperado.
+  critical: |
+    você compra mercadoria extremamente barato ou a vende por uma fortuna, e evita deixar os parceiros se sentindo excluídos ou ressentidos. Qualquer aumento de preço ou desconto resultante deve ser de pelo menos 50%.
+  botch: |
+    a outra pessoa se aproveita de você, ou uma parceria de negócios recusa o acordo. Qualquer variação de preço desvantajosa deve ser de pelo menos 50%.
+  src:
+    - id: US25001E
+      firstPage: 205
+
+- id: TAL_47
+  name: "Tratar Venenos"
+  applications:
+    - id: 1
+      name: "Venenos Alquímicos"
+    - id: 2
+      name: "Venenos Minerais"
+    - id: 3
+      name: "Toxinas de plantas"
+    - id: 4
+      name: "Peçonhas"
+  tools: "antídoto"
+  quality: |
+    identifica o veneno (e, portanto, o tratamento) mais rápido
+  failed: |
+    você não consegue identificar o veneno e não sabe de nenhum tratamento.
+  critical: |
+    o paciente se recupera sem a necessidade de um antídoto especial.
+  botch: |
+    o curandeiro realiza uma sangria prejudicial ou de outra forma fere o paciente, possivelmente piorando o envenenamento (DN 1D6, ignorando PRO).
+  src:
+    - id: US25001E
+      firstPage: 209
+
+- id: TAL_48
+  name: "Tratar Doenças"
+  applications:
+    - id: 1
+      name: "Surto de Difar"
+    - id: 2
+      name: "Lutanas"
+    - id: 3
+      name: "Loucura Ligeira"
+    - id: 4
+      name: "Febre do Pântano"
+    - id: 5
+      name: "Varíola de Zorgan"
+  tools: "remédio"
+  quality: |
+    identifica a doença mais rápido.
+  failed: |
+    você não consegue identificar a doença e não sabe de nenhum remédio ou tratamento.
+  critical: |
+    o paciente se cura sem a necessidade de um remédio especial. Além disso, o você não pega a doença.
+  botch: |
+    o tratamento fere o paciente (DN 1D6, ignorando PRO) ou os sintomas pioram. Além disso, para doenças contagiosas, aumente em 25% a chance de infectar o herói ou heroína.
+  src:
+    - id: US25001E
+      firstPage: 208
+
+- id: TAL_49
+  name: "Tratar a Alma"
+  applications:
+    - id: 1
+      name: "Suprimir Medo"
+    - id: 2
+      name: "Suprimir Falhas De Personalidade"
+    - id: 3
+      name: "Suprimir Traços Negativos"
+  quality: |
+    o paciente suprime a *desvantagem* por um tempo maior.
+  failed: |
+    o curandeiro ou curandeira não faz ideia de como ajudar o paciente.
+  critical: |
+    o paciente suprime uma *desvantagem* (*Medo de...*, *Falha de Personalidade* ou *Traço Negativo*) por um dia inteiro.
+  botch: |
+    O curandeiro perturba ou prejudica a psique do paciente. O paciente sofre um nível da condição *Medo* ou *Confusão* por um dia.
+  src:
+    - id: US25001E
+      firstPage: 208
+
+- id: TAL_50
+  name: "Tratar Ferimentos"
+  applications:
+    - id: 1
+      name: "Melhorar a Cura"
+    - id: 2
+      name: "Aliviar a Dor"
+    - id: 3
+      name: "Estabilizar"
+  tools: "ataduras, instrumentos cirúrgicos, ervas aromáticas, agulhas e linha"
+  quality: |
+    o herói ou heroína requer menos ervas curativas para o teste de perícia, ou trata a ferida mais rápido.
+  failed: |
+    você não pode ajudar a pessoa ferida.
+  critical: |
+    o sujeito recebe (PPs) em PVs durante a próxima Fase de Regeneração.
+  botch: |
+    fere o paciente durante o tratamento (DN 1D6, ignorando PRO).
+  src:
+    - id: US25001E
+      firstPage: 209
+
+- id: TAL_51
+  name: "Marcenaria"
+  applications:
+    - id: 1
+      name: "Derrubar e Cortar"
+    - id: 2
+      name: "Marceneiro"
+    - id: 3
+      name: "Carpinteiro,"
+    - id: -1
+      name: "Instrumentos do Ofício"
+  tools: "depende do material que está sendo trabalhado (por exemplo, machado, plaina, faca, serra, etc.)"
+  quality: |
+    termina o item mais rápido ou com melhor qualidade.
+  failed: |
+    você não faz nenhum progresso.
+  critical: |
+    você recebe o dobro do número de PPs para a teste (mínimo de 5 PPs). Remova todas as penalidades acumuladas devido a falhas nos testes cumulativos.
+  botch: |
+    o NQ acumulado cai para 0 e você não poderá fazer mais testes neste projeto.
+  src:
+    - id: US25001E
+      firstPage: 207
+
+- id: TAL_52
+  name: "Preparar Alimento"
+  applications:
+    - id: 1
+      name: "Estripar"
+    - id: 2
+      name: "Assar"
+    - id: 3
+      name: "Fritar e Cozinhar"
+    - id: 4
+      name: "Fermentar"
+    - id: 5
+      name: "Preservar"
+    - id: -1
+      name: "Destilação"
+  tools: "ingredientes, cozinha de campo, utensílios de cozinha"
+  quality: |
+    a comida é melhor do que o habitual.
+  failed: |
+    a comida é queimada ou não comestível.
+  critical: |
+    o prato é requintadamente saboroso, o vinho artesanal ganhador de prêmios.
+  botch: |
+    o alimento tem um sabor terrível, e consumi-lo leva à indigestão, diarréia ou vômitos (DN 1D6, ignorando PRO).
+  src:
+    - id: US25001E
+      firstPage: 208
+
+- id: TAL_53
+  name: "Couraria"
+  applications:
+    - id: 1
+      name: "Curtume"
+    - id: 2
+      name: "Peleiro"
+    - id: 3
+      name: "Produtos em Couro"
+  tools: "furador, ossos dobráveis, rebitadores, facas, ferro de marcação, alicates"
+  quality: |
+    termina o item mais rápido ou com melhor qualidade.
+  failed: |
+    você não faz nenhum progresso.
+  critical: |
+    você recebe o dobro do número de PPs para a teste (mínimo de 5 PPs). Remova todas as penalidades acumuladas devido a falhas nos testes cumulativos.
+  botch: |
+    o NQ acumulado cai para 0 e você não poderá fazer mais testes neste projeto.
+  src:
+    - id: US25001E
+      firstPage: 206
+
+- id: TAL_54
+  name: "Habilidade Artística"
+  applications:
+    - id: 1
+      name: "Pintura"
+    - id: 2
+      name: "Escultura"
+    - id: 3
+      name: "Desenho"
+    - id: -1
+      name: "Falsificação"
+    - id: -2
+      name: "Draw Magical Signs"
+  tools: "tinta, giz, canetas, faca de entalhar"
+  quality: |
+    o desenho é melhor do que o habitual.
+  failed: |
+    você consegue criar um desenho que é reconhecível com um pouco de imaginação, mas não é bonito.
+  critical: |
+    a pintura é tão boa que as pessoas confundem você com um pintor famoso.
+  botch: |
+    rabiscos terríveis, impossível de reconhecer.
+  src:
+    - id: US25001E
+      firstPage: 206
+
+- id: TAL_55
+  name: "Metalurgia"
+  applications:
+    - id: 1
+      name: "Ourives"
+    - id: 2
+      name: "Ferreiro"
+    - id: 3
+      name: "Fundição"
+    - id: 4
+      name: "Fundição"
+    - id: -1
+      name: "Instrumentos do Ofício"
+  tools: "martelo, bigorna, forja, combustível"
+  quality: |
+    termina o item mais rápido ou com melhor qualidade
+  failed: |
+    você não faz nenhum progresso.
+  critical: |
+    você recebe o dobro do número de PPs para a teste (mínimo de 5 PPs). Remova todas as penalidades acumuladas devido a falhas nos testes cumulativos.
+  botch: |
+    o NQ acumulado cai para 0 e você não poderá fazer mais testes neste projeto.
+  src:
+    - id: US25001E
+      firstPage: 207
+
+- id: TAL_56
+  name: "Música"
+  applications:
+    - id: 1
+      name: "Instrumentos de Sopro"
+    - id: 2
+      name: "Instrumentos de Cordas"
+    - id: 3
+      name: "Tambores"
+  tools: "instrumento musical"
+  quality: |
+    o seu desempenho emociona o público.
+  failed: |
+    a melodia está errada, ou o instrumento está desafinado.
+  critical: |
+    você toca uma melodia apaixonante que ninguém pode resistir.
+  botch: |
+    tons terríveis e ameaçadores saem do instrumento, talvez porque esteja danificado. Ouvintes fogem ou tentam arrancar o instrumento do músico.
+  src:
+    - id: US25001E
+      firstPage: 207
+
+- id: TAL_57
+  name: "Arrombamento"
+  applications:
+    - id: 1
+      name: "Trancas"
+    - id: 2
+      name: "Combinações"
+    - id: -1
+      name: "Desarmar Armadilhas"
+  tools: "gazuas, grampos de cabelo, anzóis"
+  quality: |
+    você abre a fechadura mais rápido.
+  failed: |
+    a fechadura não abre.
+  critical: |
+    abre a fechadura em tempo recorde, levando apenas metade do tempo esperado.
+  botch: |
+    a gazua quebra, a armadilha dispara, ou a fechadura emperra.
+  src:
+    - id: US25001E
+      firstPage: 205
+
+- id: TAL_58
+  name: "Alvenaria"
+  applications:
+    - id: 1
+      name: "Maçonaria"
+    - id: 2
+      name: "Escultura"
+    - id: 3
+      name: "Cantaria"
+    - id: -1
+      name: "Vidraceiro"
+    - id: -2
+      name: "Cerâmica"
+  uses:
+    - id: 1
+      name: "Escultura"
+  tools: "matérias-primas (pedra, argila), martelo, formão"
+  quality: |
+    termina o item mais rápido ou com melhor qualidade.
+  failed: |
+    você não faz nenhum progresso.
+  critical: |
+    você recebe o dobro do número de PPs para a teste (mínimo de 5 PPs). Remova todas as penalidades acumuladas devido a falhas nos testes cumulativos.
+  botch: |
+    o NQ acumulado cai para 0 e você não poderá fazer mais testes neste projeto.
+  src:
+    - id: US25001E
+      firstPage: 204
+
+- id: TAL_59
+  name: "Alfaiataria"
+  applications:
+    - id: 1
+      name: "Tingimento"
+    - id: 2
+      name: "Feltragem"
+    - id: 3
+      name: "Costura"
+    - id: 4
+      name: "Tecelagem"
+    - id: 5
+      name: "Fiar"
+  tools: "faca, ferramentas de costura, tesouras, tear, fuso, roda de fiar"
+  quality: |
+    o item é finalizado mais rápido ou tem uma melhor qualidade.
+  failed: |
+    você não faz nenhum progresso.
+  critical: |
+    você recebe o dobro do número de PPs para o teste (mínimo de 5 PPs). Remova todas as penalidades acumuladas devido a falhas nos testes cumulativos.
+  botch: |
+    o NQ acumulado cai para 0 e você não poderá fazer mais testes neste projeto.
+  src:
+    - id: US25001E
+      firstPage: 204

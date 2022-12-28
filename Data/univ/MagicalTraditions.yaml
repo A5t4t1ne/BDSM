@@ -1,0 +1,300 @@
+- id: SA_70
+# name: Guild Mages
+# rules: |
+#   - Ein Zauber der gildenmagischen Tradition erfordert Sicht auf das Ziel, eine magische Geste und eine deutlich ausgesprochene Formel.
+#   - Gildenmagier können sich bei der Heldenerschaffung einen Zauber einer fremden Tradition aussuchen, den sie so wirken können, als wäre es ein Zauber ihrer Tradition. Die Überführung dieser Fremdzauber in die eigene Tradition kann nur mühevoll an Akademien vollzogen werden.
+#   - Gildenmagische Zauber können in Zauberbücher und Schriftrollen niedergeschrieben und aus ihnen ohne Lehrmeister erlernt werden.
+#   - Gildenmagier können spezielle gildenmagische Traditionsartefakte herstellen und nutzen (z.B. Magierstäbe).
+#   - Die Leiteigenschaft der Tradition ist Klugheit.
+  numId: 2
+  primary: ATTR_2
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: true
+  allowMultipleTraditions: true
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_255
+# name: Witches
+# rules: |
+#   - Ein Zauber der hexischen Tradition erfordert Sicht auf das Ziel und meist recht unauffällig umgesetzte Zaubergesten und Formeln.
+#   - Die Hexe muss Bodenkontakt haben (barfuß ist nicht notwendig; eine Hexe mit Schuhen, aber den Füßen auf dem Boden reicht für diese Bedingung aus). Ansonsten sind Zauber pro Schritt Distanz zum Boden um 1 erschwert, bis zu einem Maximum von 8. Bei größeren Wasserflächen gilt die Wasseroberfläche als Boden. Auch Gebäude, Türme und Brücken gelten als Boden.
+#   - Misslingt ein Zauber, muss die Hexe statt der Hälfte nur ein Drittel der AsP aufwenden.
+#   - Unter dem Einfluss zum Zauber passender Gefühle kann die Hexe eine Erleichterung von bis zu 2 für die Zauberprobe erhalten. Werden ihre Gefühle künstlich gedämpft, zum Beispiel durch Ilmenblatt, oder zaubert sie entgegen ihrer Gefühle, erschwert dies die Proben um bis zu 2. Die Hexe kann sich gezielt in ihre Emotionen hineinsteigern, sodass sie innerhalb von zwei Kampfrunden die Erleichterung um 1 erhöhen kann, bis zu dem angegebenen Maximum von 2. Dieser Vorgang erfordert Konzentration. Der Einsatz dieser Fähigkeit bedarf einer freien Aktion.
+#   - Hexen können Flüche erlernen, satuarische Traditionsartefakte herstellen (z.B. ihr Fluggerät) und nutzen sowie Vertrautentiere an sich binden.
+#   - Die Leiteigenschaft der Tradition ist Charisma.
+  numId: 3
+  primary: ATTR_4
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: true
+  allowMultipleTraditions: true
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_345
+# name: Elves
+# rules: |
+#   - Ein Zauber der elfischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Außerdem müssen die Formeln der Zauber ausgesprochen bzw. gesungen werden.
+#   - Die Wirkungsdauer aller Zauber der Verbreitung Elfen ist doppelt so lang wie beim Zauber angegeben.
+#   - Elfen können elfische Zauberlieder erlernen und nutzen (da sie automatisch den Zweistimmigen Gesang beherrschen).
+#   - Die Leiteigenschaft der Tradition ist Intuition.
+  numId: 4
+  primary: ATTR_3
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: true
+  allowMultipleTraditions: true
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_346
+# name: Druids
+# rules: |
+#   - Ein Zauber der druidischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Je nach Denkschule sind auch gesprochene Worte Teil des Zaubers, aber sie sind nicht zwingend notwendig.
+#   - Druiden erhalten eine Erleichterung von 2 statt nur von 1, wenn sie die Modifikation Erzwingen bei einem Zauber ausführen.
+#   - *Starker Bann des Eisens*: Körperkontakt mit verhütteten Metallen wirkt sich negativ sowohl auf die Regeneration von AsP als auch auf das Wirken von Zaubern aus. Pro angefangenem Stein verhütteten Metalls, die der Druide trägt oder berührt, ist das Wirken von Zaubern um je 1 erschwert. Trägt er eine solche Menge mehr als eine halbe Stunde mit sich herum, sinkt die Regeneration von AsP pro Regenerationsphase um 1 pro angefangenem Stein Metall. Diese Regel ersetzt die sonst für Zauberkundige geltende Regel für Bann des Eisens (siehe **Regelwerk** Seite **256**).
+#   - Druiden können spezielle druidische Traditionsartefakte herstellen und nutzen (z. B. den Druidendolch).
+#   - Die Leiteigenschaft der Tradition ist Klugheit.
+  numId: 5
+  primary: ATTR_2
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: true
+  allowMultipleTraditions: true
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_676
+# name: Scharlatane
+# rules: |
+#   - Ein Zauber der scharlatanischen Tradition erfordert Sicht auf das Ziel, eine magische Geste und eine deutlich ausgesprochene Formel. Die Formel darf aber jedes Mal variiert werden, selbst wenn der Scharlatan den gleichen Zauber wirkt.
+#   - Zauber des Merkmals Illusion verfügen über eine verdoppelte Wirkungsdauer. Zudem sind Vergleichsproben zum Durchschauen einer durch Scharlatane gewirkten Illusion zusätzlich um 1 erschwert (siehe **Regelwerk** Seite **259**).
+#   - Scharlatane können Traditionsartefakte in Form einer Scharlatanischen Zauberkugel sowie den Zauberstecken als minderes Traditionsartefakt erschaffen und nutzen.
+#   - Fremdzauber aus der Tradition Gildenmagier sind für Scharlatane nur um 1 erschwert (statt wie üblich um 2).
+#   - Die Leiteigenschaft der Tradition ist Charisma.
+  numId: 6
+  primary: ATTR_4
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: true
+  allowMultipleTraditions: true
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_677
+# name: Zauberbarden
+# rules: |
+#   - Zauberbarden können Zaubermelodien ihrer Musiktradition erlernen und wirken.
+#   - Sie können keine Zauber erlernen. Zaubertricks sind von dieser Begrenzung ausgeschlossen.
+#   - Eine Zaubermelodie erfordert, dass das Ziel die Musik hört und sich in Reichweite der Wirkung befindet. Wesen ohne Gehörsinn sind immun. Hält man sich lediglich die Ohren zu, entfaltet die magische Musik ihre Wirkung trotzdem. Kommen aber effektive Hilfsmittel, wie beispielsweise Wachs, zum Einsatz, kann der Meister entscheiden, dass Proben zum Widerstehen gegen die Zaubermelodie erleichtert sind, oder die Person sogar ganz immun ist.
+#   - Zauberbarden können Traditionsartefakte in Form von Zauberinstrumenten erschaffen und nutzen.
+#   - Zauberbarden können keine weiteren magischen Traditionen erlernen, und kein Held mit einer anderen Tradition kann sich die Tradition des Zauberbarden aneignen.
+#   - Zauberbarden können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe **Regelwerk** Seite **162**).
+#   - Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Zaubermelodien beeinflussen.
+#   - Die Leiteigenschaft der Tradition ist Charisma, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+  numId: 7
+  primary: ATTR_4
+  aeMod: 0.5
+  canLearnCantrips: true
+  canLearnSpells: false
+  canLearnRituals: false
+  allowMultipleTraditions: false
+  isDisAdvAPMaxHalved: true
+  areDisAdvRequiredApplyToMagActionsOrApps: true
+
+- id: SA_678
+# name: Zaubertänzer
+# rules: |
+#   - Zaubertänzer können magische Zaubertänze ihrer Musiktradition erlernen und wirken.
+#   - Sie können keine Zauber erlernen. Zaubertricks sind von dieser Begrenzung ausgeschlossen.
+#   - Ein Zaubertanz erfordert, dass das Ziel den Tanz sieht und sich in Reichweite der Wirkung befindet. Blinde Wesen sind immun. Wesen, die lediglich schlecht sehen, sind dies nicht, da die Magie dennoch bis zu ihnen vordringt. Bei verschlossenen Augen, beispielsweise durch eine Augenbinde, kann der Meister entscheiden, dass Proben zum Widerstehen gegen den Zaubertanz erleichtert sind oder die Person sogar ganz immun ist.
+#   - Zaubertänzer können Traditionsartefakte in Form von Zauberkleidung erschaffen und nutzen.
+#   - Zaubertänzer können keine weiteren magischen Traditionen erlernen, und kein Held mit einer anderen Tradition kann sich die Tradition des Zaubertänzers aneignen.
+#   - Sie können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe **Regelwerk** Seite **162**).
+#   - Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Zaubertänze beeinflussen.
+#   - Die Leiteigenschaft der Tradition ist Charisma, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+  numId: 8
+  primary: ATTR_4
+  aeMod: 0.5
+  canLearnCantrips: true
+  canLearnSpells: false
+  canLearnRituals: false
+  allowMultipleTraditions: false
+  isDisAdvAPMaxHalved: true
+  areDisAdvRequiredApplyToMagActionsOrApps: true
+
+- id: SA_679
+# name: Intuitive Zauberer
+# rules: |
+#   - Ein Zauber der Tradition intuitiver Zauberer erfordert Sicht auf das Ziel, allerdings keine Geste oder Formel.
+#   - Intuitive Zauberer können maximal 3 Zaubersprüche erlernen (keine Rituale). Diese Zaubersprüche können aus jeder Tradition stammen oder allgemein sein, aber sie dürfen keinen Steigerungsfaktor von mehr als B aufweisen. Ein einziger Zauber darf der Kategorie C entstammen. Diese Zauber gelten für sie dann als Zaubersprüche ihrer eigenen Tradition. Der Meister hat das letzte Wort darüber, ob ein intuitiver Zauberer einen bestimmten Spruch wählen darf. Zaubertricks sind von dieser Begrenzung ausgeschlossen.
+#   - Intuitive Zauberer können keine Zaubermodifikationen durchführen.
+#   - Intuitive Zauberer können keine weiteren magischen Traditionen erlernen, und kein Held mit einer anderen Tradition kann sich die Tradition des intuitiven Zauberers aneignen.
+#   - Intuitive Zauberer können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der jeweils üblichen 50 AP (siehe **Regelwerk** Seite **162**).
+#   - Intuitive Zauberer verfügen über keine Leiteigenschaft. Das bedeutet auch, dass sie keinen Bonus auf ihren AsP-Vorrat erhalten und sich keine weiteren AsP dazukaufen können.
+#   - Spielst du mit den entsprechenden Fokusregeln, dürfen intuitive Zauberer Zaubererweiterungen erlernen.
+  numId: 9
+  aeMod: 0
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: false
+  allowMultipleTraditions: false
+  isDisAdvAPMaxHalved: true
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_680
+# name: Meistertalentierte
+# rules: |
+#   - Meistertalentierte können ihre Magie nur in die magische Anwendung ihres Meistertalents fließen lassen.
+#   - Sie können keine Zauber erlernen (auch keine Zaubertricks).
+#   - Meistertalentierte können keine weiteren magischen Traditionen erlernen, und kein Held mit einer anderen Tradition kann sich die Tradition der Meistertalentierten aneignen.
+#   - Meistertalentierte können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der jeweils üblichen 50 AP (siehe **Regelwerk** Seite **162**).
+#   - Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur solche, die auch ihre magische Anwendung (das Meistertalent) beeinflussen.
+#   - Meistertalentierte verfügen über keine Leiteigenschaft. Das bedeutet auch, dass sie keinen Bonus auf ihren AsP-Vorrat erhalten und sich keine weiteren AsP dazukaufen können.
+  numId: 10
+  aeMod: 0
+  canLearnCantrips: false
+  canLearnSpells: false
+  canLearnRituals: false
+  allowMultipleTraditions: false
+  isDisAdvAPMaxHalved: true
+  areDisAdvRequiredApplyToMagActionsOrApps: true
+
+- id: SA_681
+# name: Qabalyamagier
+# rules: |
+#   - Ein Zauber der qabalischen Tradition erfordert Sicht auf das Ziel, eine magische Geste oder eine deutlich ausgesprochene Formel. Alle qabalischen Zauber besitzen sowohl Geste als auch Formel. Eine dieser Komponenten kann jedoch weggelassen werden, ohne eine Erschwernis zu erhalten.
+#   - Alle Zauber der Tradition Gildenmagier sind zugleich auch Zauber der Tradition Qabalyamagier.
+#   - Zauber können in Zauberbücher und Schriftrollen niedergeschrieben und aus ihnen ohne Lehrmeister erlernt werden.
+#   - Qabalyamagier können spezielle qabalische Traditionsartefakte herstellen und nutzen (z. B. Magierstäbe und Bannschwerter).
+#   - Die Leiteigenschaft der Tradition ist Klugheit.
+  numId: 11
+  primary: ATTR_2
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: true
+  allowMultipleTraditions: true
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_726
+# name: Schelme
+# rules: |
+#   - Schelme können Schelmenstreiche erlernen und anwenden.
+#   - Schelme können Zaubertricks anwenden.
+#   - Zauber können sie mithilfe der Sonderfertigkeit Imitationszauberei in Schelmenstreiche umwandeln. Ausgenommen hiervon sind alle Zauber der Steigerungsfaktoren C und D, Zauber mit dem Merkmal Dämonisch und alle Zauber, die TP oder SP verursachen oder auf andere Weise einem Wesen LeP abziehen. Die umgewandelten Sprüche dürfen aus jeder Tradition stammen. Der Meister hat das letzte Wort darüber, ob ein Schelm einen bestimmten Spruch umwandeln darf. Ein Schelm kann bis zu 5 Zauber umwandeln. Zaubertricks sind von dieser Begrenzung ausgeschlossen.
+#   - Schelmenstreiche erfordern keine Formel, sehr wohl aber Gesten. Kann der Schelm diese Gesten nicht ausführen, erleidet er eine Erschwernis von 2 auf den Schelmenstreich.
+#   - Schelme können Traditionsartefakte in Form der Narrenkappe und des Schelmenspielzeugs erschaffen.
+#   - Schelme können keine weiteren magischen Traditionen erlernen, und kein Held mit einer anderen Tradition kann sich die schelmische Tradition aneignen.
+#   - Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Schelmenstreiche beeinflussen.
+#   - Schelme können eine SK und ZK von 1 bei ihren Zielen ignorieren. Ab einem Wert von 2 müssen sie aber wie gewohnt die Erschwernis durch die SK oder ZK in Kauf nehmen.
+#   - Schelme können ohne den Einsatz von Magie die Sprache der Kobolde sprechen.
+#   - Die Leiteigenschaft der Tradition ist Intuition
+  numId: 15
+  primary: ATTR_3
+  canLearnCantrips: true
+  canLearnSpells: false
+  canLearnRituals: false
+  allowMultipleTraditions: false
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: true
+
+- id: SA_750
+# name: Zauberalchimisten
+# rules: |
+#   - Zauberalchimisten können ihre magischen Fähigkeiten nur in die magischen Anwendungen ihres Meistertalents *Alchimie* investieren.
+#   - Zauberalchimisten können keine Zauber erlernen (auch keine Zaubertricks).
+#   - Zauberalchimisten können als Traditionsartefakt die Alchimistenschale herstellen und nutzen.
+#   - Zauberalchimisten können keine weiteren magischen Traditionen erlernen und kein Held mit einer anderen Tradition kann sich die Tradition Zauberalchimisten aneignen.
+#   - Zauberalchimisten können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen.
+#   - Zauberalchimisten dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur solche, die auch ihre magische Anwendungen beeinflussen.
+#   - Die Leiteigenschaft der Tradition ist Klugheit, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+  primary: ATTR_2
+  aeMod: 0.5
+  canLearnCantrips: false
+  canLearnSpells: false
+  canLearnRituals: false
+  allowMultipleTraditions: false
+  isDisAdvAPMaxHalved: true
+  areDisAdvRequiredApplyToMagActionsOrApps: true
+
+- id: SA_1221
+# name: Animisten
+# rules: |
+#   - Ein Zauber der Tradition Animisten erfordert Sicht auf das Ziel, allerdings keine Geste oder Formel.
+#   - Animisten können maximal 3 Zaubersprüche erlernen (keine Rituale). Diese Zaubersprüche können aus jeder Tradition stammen oder allgemein sein, aber sie dürfen keinen Steigerungsfaktor von mehr als B aufweisen. Ein einziger Zauber darf der Kategorie C entstammen. Diese Zauber gelten für sie dann als Zaubersprüche ihrer eigenen Tradition. Der Meister hat das letzte Wort darüber, ob ein Animist einen bestimmten Spruch wählen darf. Zaubertricks sind von dieser Begrenzung ausgeschlossen.
+#   - Animisten können keine Zaubermodifikationen durchführen.
+#   - Animismus existiert in verschiedenen Varianten, die abhängig von der gewählten Kultur des Helden sind. Jede dieser Stammestraditionen verfügt einen bestimmten Fundus an Animistenkräften.
+#   - Animisten können keine weiteren magischen Traditionen erlernen, und kein Held mit einer anderen Tradition kann sich die Tradition des Animisten aneignen.
+#   - Animisten können maximal 25 AP in magische Vorteile (neben dem Vorteil Zauberer) stecken und maximal 25 AP durch magische Nachteile gewinnen, statt der üblichen 50 AP (siehe **Regelwerk** Seite **162**).
+#   - Sie dürfen keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Animistenkräfte beeinflussen.
+#   - Animisten können spezielle animistische Traditionsartefakte ihrer Kultur herstellen und nutzen (z. B. die Animistenwaffe).
+#   - Die Leiteigenschaft der Tradition ist Intuition, allerdings wird diese nur zur Hälfte (aufgerundet) in die Berechnung des AsP-Grundwerts und den Zukauf von AsP einbezogen.
+  numId: 16
+  primary: ATTR_3
+  aeMod: 0.5
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: false
+  allowMultipleTraditions: false
+  isDisAdvAPMaxHalved: true
+  areDisAdvRequiredApplyToMagActionsOrApps: true
+
+- id: SA_1255
+# name: Geoden
+# rules: |
+#   - Ein Zauber der geodischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Bei einigen Zaubern und Ritualen sind gesprochene Worte traditionell überliefert und üblich, aber nicht zwingend für die magische Wirkung notwendig.
+#   - Jeder Geode muss sich für eines der sechs Elemente als sein bevorzugtes Element entscheiden, sobald er die Tradition (Geoden) erhält. Zur Wahl stehen Feuer, Wasser, Luft, Erz, Humus und Eis.
+#   - Geoden erhalten eine Erleichterung von 2, wenn sie die Modifikation Zauberdauer erhöhen bei Zaubern mit dem Merkmal Elementar ausführen und dies in einer Version ihres bevorzugten Elements geschieht.
+#   - Fremdzauber in der Tradition der Druiden können von Geoden modifiziert werden und erleiden beim Wirken nur eine Erschwernis von 1 (statt von 2).
+#   - *Starker Bann des Eisens*: Körperkontakt mit verhütteten Metallen wirkt sich negativ sowohl auf die Regeneration von AsP als auch auf das Wirken von Zaubern aus. Pro angefangenem Stein verhütteten Metalls, das der Geode trägt oder berührt, ist das Wirken von Zaubern um je 1 erschwert. Trägt er eine solche Menge mehr als eine halbe Stunde mit sich herum, sinkt die Regeneration von AsP für 24 Stunden pro Regenerationsphase um 1 pro angefangenem Stein Metall. Diese Regel ersetzt die sonst für Zauberkundige geltende Regel für Bann des Eisens (siehe **Regelwerk** Seite **256**).
+#   - Geoden können spezielle Geodenrituale erlernen, geodische Traditionsartefakte herstellen (z. B. den Lebensring) und nutzen sowie Vertrautentiere an sich binden.
+#   - Die Leiteigenschaft der Tradition ist Charisma.
+  numId: 13
+  primary: ATTR_4
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: true
+  allowMultipleTraditions: true
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_1293
+# name: Zibiljas
+# rules: |
+#   - Die Magie in der Tradition der Zibiljas erfordert Sicht auf das Ziel, eine magische Geste und das gesprochene Wort.
+#   - Zibiljas wirken ausschließlich magische Handlungen, die sogenannten Zibiljarituale. Die Zibiljarituale funktionieren regeltechnisch wie normale Rituale, sind aber als magische Handlungen nicht von anderen Traditionen erlernbar.
+#   - Sie können keine Zaubersprüche oder Rituale erlernen. Zaubertricks sind von dieser Begrenzung ausgeschlossen.
+#   - Wirken sie die Zibiljarituale innerhalb ihrer Sippe, sind Proben auf Rituale um 1 erleichtert. Dazu müssen sich mindestens 5 weitere Mitglieder ihrer Sippe in einem Umkreis von 100 Schritt aufhalten.
+#   - Zibiljas können keine weiteren magischen Traditionen erlernen, und kein Held mit einer anderen Tradition kann sich die Tradition der Zibiljas aneignen.
+#   - Sie können keine Vor- und Nachteile wählen, die nur für Zaubersprüche und Rituale gelten, sondern nur jene, die auch ihre magischen Handlungen wie Zibiljarituale beeinflussen.
+#   - Zibiljas können Zibiljarituale erlernen und Traditionsartefakte ihrer Kultur herstellen und benutzen (z. B. die Sippenchronik).
+#   - Die Leiteigenschaft der Tradition ist Intuition.
+  numId: 17
+  primary: ATTR_3
+  canLearnCantrips: true
+  canLearnSpells: false
+  canLearnRituals: false
+  allowMultipleTraditions: false
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false
+
+- id: SA_1438
+# name: Brobim-Geoden
+# rules: |
+#   - Ein Zauber der Brobim-geodischen Tradition erfordert Sicht auf das Ziel und eine magische Geste. Bei einigen Zaubern und Ritualen sind gesprochene Worte traditionell überliefert und üblich, sie sind aber nicht zwingend für die magische Wirkung notwendig.
+#   - Jeder Brobim-Geode muss sich für eines von drei Elementen als sein bevorzugtes Element entscheiden, sobald er die Tradition (Brobim-Geoden) erhält. Zur Wahl stehen Erz, Feuer und Luft.
+#   - Brobim-Geoden erhalten eine zusätzliche Erleichterung von 1, wenn sie die Modifikation Zauberdauer erhöhen bei Zaubern mit dem Merkmal Elementar ausführen und dies in einer Version ihres bevorzugten Elements geschieht. Die Zauber Geisteressenz, Geisterruf und Geisterbeschwörung erhalten eine Erleichterung von 1.
+#   - *Starker Bann des Eisens:* Körperkontakt mit verhütteten Metallen wirkt sich negativ sowohl auf die Regeneration von AsP als auch auf das Wirken von Zaubern aus. Pro angefangenem Stein verhütteten Metalls, das der Brobim-Geode trägt oder berührt, ist das Wirken von Zaubern um je 1 erschwert. Trägt er eine solche Menge mehr als eine halbe Stunde mit sich herum, sinkt die Regeneration von AsP für 24 Stunden pro Regenerationsphase um 1 pro angefangenem Stein Metall. Diese Regel ersetzt die sonst für Zauberkundige geltende Regel für Bann des Eisens (siehe Regelwerk Seite 256).
+#   - Brobim-Geoden können spezielle Geodenrituale erlernen, geodische Traditionsartefakte herstellen und nutzen (z. B. den Lebensring) sowie Vertrautentiere an sich binden.
+#   - Die Leiteigenschaft der Tradition ist Charisma.
+  numId: 18
+  primary: ATTR_4
+  canLearnCantrips: true
+  canLearnSpells: true
+  canLearnRituals: true
+  allowMultipleTraditions: true
+  isDisAdvAPMaxHalved: false
+  areDisAdvRequiredApplyToMagActionsOrApps: false

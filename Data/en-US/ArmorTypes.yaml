@@ -1,0 +1,18 @@
+- id: 1
+  name: "Normal Clothes"
+- id: 2
+  name: "Heavy Clothes"
+- id: 3
+  name: "Cloth Armor"
+- id: 4
+  name: "Leather Armor"
+- id: 5
+  name: "Wood Armor"
+- id: 6
+  name: "Chain Armor"
+- id: 7
+  name: "Scale Armor"
+- id: 8
+  name: "Plate Armor"
+- id: 9
+  name: "Jousting Armor"

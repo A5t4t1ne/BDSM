@@ -1,0 +1,4274 @@
+- target: LITURGY_41
+  level1:
+    id: 1
+    name: "Größere Reichweite"
+    effect: |
+      Reichweite beträgt 16 Schritt.
+  level2:
+    id: 2
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 10 KR.
+  level3:
+    id: 3
+    name: "Mehrere Ziele"
+    effect: |
+      Geweihte kann QS Ziele auswählen.
+  src:
+    - id: US25005
+      firstPage: 111
+
+- target: LITURGY_42
+  level1:
+    id: 4
+    name: "Harte Welle"
+    effect: |
+      Die Erschwernis der Probe auf *Körperbeherrschung* beträgt QS.
+  level2:
+    id: 5
+    name: "Tosende Welle"
+    effect: |
+      Die Welle verursacht zusätzlich 1W3+1 SP.
+  level3:
+    id: 6
+    name: "Mehrere Ziele"
+    effect: |
+      Maximal können 12 Ziele von der Wirkung der Welle betroffen sein.
+  src:
+    - id: US25005
+      firstPage: 112
+
+- target: LITURGY_43
+  level1:
+    id: 7
+    name: "Spezielles Lebewesen"
+    effect: |
+      Der Geweihte kann eine spezielle Art von Lebewesen benennen und mittels der Liturgie suchen (z. B. Hunde, Menschen, Pferde).
+  level2:
+    id: 8
+    name: "Durch Feuer und Erz"
+    effect: |
+      Die Liturgie wirkt auch durch Feuer und Erz bis zu einer maximalen Dicke von 1 Schritt hindurch.
+  level3:
+    id: 9
+    name: "Klare Sicht"
+    effect: |
+      Sichtbehinderung aufgrund von fallendem Schnee, Regen oder Nebel wird um 1 Stufe gesenkt.
+  src:
+    - id: US25005
+      firstPage: 112
+
+- target: LITURGY_44
+  level1:
+    id: 10
+    name: "Liturgiedauer modifizierbar"
+    effect: |
+      Die Liturgiedauer ist doch modifizierbar.
+  level2:
+    id: 11
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level3:
+    id: 12
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 30 Minuten.
+  src:
+    - id: US25005
+      firstPage: 112
+
+- target: LITURGY_45
+  level1:
+    id: 13
+    name: "Verteilter Schaden 1"
+    effect: |
+      Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden.
+  level2:
+    id: 14
+    name: "Verteilter Schaden 2"
+    effect: |
+      Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig zwischen den Zielen verteilt werden. Voraussetzung: Liturgieerweiterung *Verteilter Schaden 1*.
+  level3:
+    id: 15
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich.
+  src:
+    - id: US25005
+      firstPage: 112
+      lastPage: 113
+
+- target: LITURGY_46
+  level1:
+    id: 16
+    name: "Verteilter Schaden 1"
+    effect: |
+      Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden.
+  level2:
+    id: 17
+    name: "Verteilter Schaden 2"
+    effect: |
+      Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig zwischen den Zielen verteilt werden. Voraussetzung: Liturgieerweiterung *Verteilter Schaden 1*.
+  level3:
+    id: 18
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich.
+  src:
+    - id: US25005
+      firstPage: 113
+
+- target: LITURGY_47
+  level1:
+    id: 19
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 20
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  level3:
+    id: 21
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  src:
+    - id: US25005
+      firstPage: 113
+
+- target: LITURGY_48
+  level1:
+    id: 22
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt 4 Stunden.
+  level2:
+    id: 23
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 24
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt 8 Stunden. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  src:
+    - id: US25005
+      firstPage: 114
+
+- target: LITURGY_49
+  level1:
+    id: 25
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 16 Schritt.
+  level2:
+    id: 26
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig beruhigen. Das zweite Ziel kostet zusätzlich 2 KaP.
+  level3:
+    id: 27
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  src:
+    - id: US25005
+      firstPage: 114
+
+- target: LITURGY_50
+  level1:
+    id: 28
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage.
+  level2:
+    id: 29
+    name: "Starke Prinzipientreue 1"
+    effect: |
+      Das Ziel erhält *Prinzipientreue II (Traviakirche)*.
+  level3:
+    id: 30
+    name: "Starke Prinzipientreue 2"
+    effect: |
+      Das Ziel erhält *Prinzipientreue III (Traviakirche)*. Voraussetzung: Liturgieerweiterung *Starke Prinzipientreue I*.
+  src:
+    - id: US25005
+      firstPage: 114
+      lastPage: 115
+
+- target: LITURGY_51
+  level1:
+    id: 31
+    name: "Mehr Dienste"
+    effect: |
+      Der Geweihte kann QS +2 Dienste von dem Wesen verlangen.
+  level2:
+    id: 32
+    name: "Längerer Dienst"
+    effect: |
+      Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst.
+  level3:
+    id: 33
+    name: "Mächtiges Wesen"
+    effect: |
+      Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden.
+  src:
+    - id: US25005
+      firstPage: 115
+
+- target: LITURGY_52
+  level1:
+    id: 34
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 30 Minuten.
+  level2:
+    id: 35
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 8 Schritt.
+  level3:
+    id: 36
+    name: "Liturgiedauer modifizierbar"
+    effect: |
+      Die Liturgiedauer darf doch modifiziert werden.
+  src:
+    - id: US25005
+      firstPage: 115
+
+- target: LITURGY_53
+  level1:
+    id: 37
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  level2:
+    id: 38
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Liturgie ist aufrechterhaltend, die Aktivierung kostet 4 KaP und 2 KaP pro Minuten.
+  level3:
+    id: 39
+    name: "Genaue Erkenntnis"
+    effect: |
+      Der Geweihte erhält eine genauere Erkenntnis der Art der Verletzung, z. B. des LeP-Standes, der Gift- oder Krankheitsstufe usw.
+  src:
+    - id: US25005
+      firstPage: 116
+
+- target: LITURGY_54
+  level1:
+    id: 40
+    name: "Verwirrender Blitz"
+    effect: |
+      Das Ziel des Blitzschlags erhält automatisch 1 Stufe *Verwirrung*.
+  level2:
+    id: 41
+    name: "Betäubender Blitz"
+    effect: |
+      Das Ziel des Blitzschlags erhält automatisch 1 Stufe *Betäubung*.
+  level3:
+    id: 42
+    name: "Brandblitz"
+    effect: |
+      Das Ziel erhält den Status *Brennend* auf großer Fläche.
+  src:
+    - id: US25005
+      firstPage: 116
+
+- target: LITURGY_55
+  level1:
+    id: 43
+    name: "Wählbare Ziele"
+    effect: |
+      Der Geweihte kann die Ziele auswählen, die vom Ziel der Liturgie angegriffen werden sollen, und jene, die verschont werden.
+  level2:
+    id: 44
+    name: "Wildes Wüten"
+    effect: |
+      Das Ziel erhält +1 AT.
+  level3:
+    id: 45
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 2 KR.
+  src:
+    - id: US25005
+      firstPage: 116
+
+- target: LITURGY_56
+  level1:
+    id: 46
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 KR.
+  level2:
+    id: 47
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten dürfen doch modifiziert werden.
+  level3:
+    id: 48
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 117
+
+- target: LITURGY_57
+  level1:
+    id: 49
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 30 Minuten.
+  level2:
+    id: 50
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt 8 Schritt.
+  level3:
+    id: 51
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  src:
+    - id: US25005
+      firstPage: 117
+
+- target: LITURGY_58
+  level1:
+    id: 52
+    name: "Schutzhaut"
+    effect: |
+      Die Schildstärke beträgt KaP + (QS x 4), aber nur der Geweihte selbst ist von der Schutzwirkung betroffen.
+  level2:
+    id: 53
+    name: "Großer Radius"
+    effect: |
+      Der Radius beträgt 5 Schritt. Es entstehen zusätzliche Kosten in Höhe von 4 KaP, die jedoch nicht die Schildstärke erhöhen.
+  level3:
+    id: 54
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Schildstärke beträgt nur QS x 2. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 117
+
+- target: LITURGY_59
+  level1:
+    id: 55
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 32 Schritt.
+  level2:
+    id: 56
+    name: "Zwei Delphine"
+    effect: |
+      Es erscheinen zwei Delphine, von denen jeder eine Person retten kann.
+  level3:
+    id: 57
+    name: "Vier Delphine"
+    effect: |
+      Es erscheinen vier Delphine, von denen jeder eine Person retten kann. Voraussetzung: Liturgieerweiterung *Zwei Delphine*.
+  src:
+    - id: US25005
+      firstPage: 118
+
+- target: LITURGY_60
+  level1:
+    id: 58
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 10 Minuten.
+  level2:
+    id: 59
+    name: "Geringer Widerstand"
+    effect: |
+      Die *Willenskraft*-Probe darf nur noch alle 10 Minuten abgelegt werden.
+  level3:
+    id: 60
+    name: "Lange und starke Hörigkeit"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden und pro Stunde ist nur eine *Willenskraft*-Probe erlaubt. Voraussetzung: Liturgieerweiterungen *Längere Wirkungsdauer* und *Geringer Widerstand*.
+  src:
+    - id: US25005
+      firstPage: 118
+
+- target: LITURGY_61
+  level1:
+    id: 61
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 1 Tag.
+  level2:
+    id: 62
+    name: "Guter Handel"
+    effect: |
+      Die Erleichterung von QS/2 umfasst auch das Talent *Handel*, solange es um die aktuellen Vertragsverhandlungen geht.
+  level3:
+    id: 63
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgiewirkung kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 118
+
+- target: LITURGY_62
+  level1:
+    id: 64
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  level2:
+    id: 65
+    name: "Kosten modifizierbar"
+    effect: |
+      Kosten sind doch modifizierbar.
+  level3:
+    id: 66
+    name: "Versteinerung aufheben"
+    effect: |
+      Auch der Status Versteinert (siehe **Aventurisches Götterwirken** Seite **235**) kann aufgehoben werden.
+  src:
+    - id: US25005
+      firstPage: 118
+
+- target: LITURGY_63
+  level1:
+    id: 67
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 10 KR.
+  level2:
+    id: 68
+    name: "Reichweitenausdehnung"
+    effect: |
+      Die Liturgiemodifikation Reichweite erhöhen ist nicht erschwert.
+  level3:
+    id: 69
+    name: "Größerer Schaden"
+    effect: |
+      Feste Konstruktionen erleiden QS x 10 Strukturpunkte Schaden.
+  src:
+    - id: US25005
+      firstPage: 119
+
+- target: LITURGY_64
+  level1:
+    id: 70
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level2:
+    id: 71
+    name: "Beseitigung von Verwirrung"
+    effect: |
+      Neben *Betäubung* kann auch *Verwirrung*, die durch Rauschmittel verursacht wurde, abgebaut werden. Die QS/2 Stufen müssen hierbei zwischen den Zuständen aufgeteilt werden.
+  level3:
+    id: 72
+    name: "Beseitigung von Schmerz"
+    effect: |
+      Neben *Betäubung* kann auch *Schmerz*, der durch Rauschmittel verursacht wurde, abgebaut werden. Die QS/2 Stufen müssen hierbei zwischen den Zuständen aufgeteilt werden.
+  src:
+    - id: US25005
+      firstPage: 119
+
+- target: LITURGY_65
+  level1:
+    id: 73
+    name: "Stein und Metall"
+    effect: |
+      Auch Gegenstände, die gleichzeitig aus Stein und Metall bestehen (beispielsweise Schmuck), können zurückgegeben werden.
+  level2:
+    id: 74
+    name: "Größeres Gewicht"
+    effect: |
+      Der Geweihte kann bis zu QS Stein an Material zurückgeben.
+  level3:
+    id: 75
+    name: "Rückruf"
+    effect: |
+      Das Material kann, nachdem es dem Fels zurückgegeben wurde, jederzeit wieder aus dem Fels geholt werden, solange Ingerimm keine Einwände hat. Dabei wird der Gegenstand nicht beschädigt, der Geweihte muss aber die Stelle berühren, an der er die Opfergabe dem Fels übergeben hat.
+  src:
+    - id: US25005
+      firstPage: 119
+
+- target: LITURGY_66
+  level1:
+    id: 76
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 10 Minuten.
+  level2:
+    id: 77
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS Schritt.
+  level3:
+    id: 78
+    name: "Intensive Flammen"
+    effect: |
+      Es muss nicht gewürfelt werden, ob Opfer der Flammenwand den Status *Brennend* erleidet, sondern sie erleiden diesen beim Durchquerungsversuch automatisch. Es entstehen zusätzliche Kosten in Höhe von 2 KaP.
+  src:
+    - id: US25005
+      firstPage: 120
+
+- target: LITURGY_67
+  level1:
+    id: 79
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt 8 Schritt.
+  level2:
+    id: 80
+    name: "Anderes Intervall"
+    effect: |
+      Das Intervall bei der Aufrechterhaltung beträgt 4 KR (statt 2 KR).
+  level3:
+    id: 81
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  src:
+    - id: US25005
+      firstPage: 120
+
+- target: LITURGY_68
+  level1:
+    id: 82
+    name: "Verteilte Wirkung"
+    effect: |
+      Die Zustandsstufen können auf mehrere Ziele verteilt werden, die vor dem Wirken der Liturgie benannt werden müssen. Werden z. B. insgesamt 3 Stufen *Betäubung* verursacht, darf die Geweihte drei Zielen je 1 Stufe zuweisen oder sie entscheidet sich, einem Ziel 2 Stufen und einem anderen 1 Stufe aufzubürden.
+  level2:
+    id: 83
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  level3:
+    id: 84
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 10 KR.
+  src:
+    - id: US25005
+      firstPage: 120
+
+- target: LITURGY_69
+  level1:
+    id: 85
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt 20 Schritt.
+  level2:
+    id: 86
+    name: "Extreme Kälte"
+    effect: |
+      Der Froststurm verursacht QS/2+1 Kältestufen.
+  level3:
+    id: 87
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 32 Schritt.
+  src:
+    - id: US25005
+      firstPage: 121
+
+- target: LITURGY_70
+  level1:
+    id: 88
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level2:
+    id: 89
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 16 Schritt. Der Geweihte kann innerhalb dieser Reichweite das Zentrum des Radius der Liturgie auswählen.
+  level3:
+    id: 90
+    name: "Große Brandherde"
+    effect: |
+      Die Liturgie wirkt auch auf Brandherde, die so groß sind wie ein durchschnittliches, zweistöckiges Haus. Das Löschen dauert nach Meisterentscheid zwischen 2 und 20 KR.
+  src:
+    - id: US25005
+      firstPage: 121
+
+- target: LITURGY_71
+  level1:
+    id: 91
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS x 5 Schritt.
+  level2:
+    id: 92
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level3:
+    id: 93
+    name: "Auch du siehst tote Menschen!"
+    effect: |
+      Solange der Geweihte einen anderen Kulturschaffenden berührt, können beide anwesende Geister sehen.
+  src:
+    - id: US25005
+      firstPage: 122
+
+- target: LITURGY_72
+  level1:
+    id: 94
+    name: "Größere Menge 1"
+    effect: |
+      QS Grundeinheiten eines Rauschmittels sind von der Wirkung betroffen.
+  level2:
+    id: 95
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 2 Stunden.
+  level3:
+    id: 96
+    name: "Größere Menge 2"
+    effect: |
+      QS x 2 Grundeinheiten eines Rauschmittels sind von der Wirkung betroffen. Voraussetzung: Liturgieerweiterung *Größere Menge 1*.
+  src:
+    - id: US25005
+      firstPage: 122
+
+- target: LITURGY_73
+  level1:
+    id: 97
+    name: "Widerstandsfähig gegen Schädlinge"
+    effect: |
+      Das Getreide wird resistent gegen Schädlinge.
+  level2:
+    id: 98
+    name: "Wachstum auf kargem Boden"
+    effect: |
+      Das Getreide kann auf kargem Boden wachsen.
+  level3:
+    id: 99
+    name: "Hoher Ertrag"
+    effect: |
+      Der Ertrag erhöht sich um QS x 10 %.
+  src:
+    - id: US25005
+      firstPage: 122
+
+- target: LITURGY_74
+  level1:
+    id: 100
+    name: "Höherer Wert 1"
+    effect: |
+      Der Wert des Gegenstandes entspricht 100 Dukaten.
+  level2:
+    id: 101
+    name: "Höherer Wert 2"
+    effect: |
+      Der Wert des Gegenstandes entspricht 250 Dukaten. Voraussetzung: Liturgieerweiterung *Höherer Wert 1*.
+  level3:
+    id: 102
+    name: "Höherer Wert 3"
+    effect: |
+      Der Wert des Gegenstandes entspricht 1.000 Dukaten. Voraussetzung: Liturgieerweiterung *Höherer Wert 2*.
+  src:
+    - id: US25005
+      firstPage: 122
+
+- target: LITURGY_75
+  level1:
+    id: 103
+    name: "Liturgiedauer modifizierbar"
+    effect: |
+      Die Liturgiedauer darf doch modifiziert werden.
+  level2:
+    id: 104
+    name: "Harte Schale"
+    effect: |
+      Der Geweihte kann sich auch einen RS von 4 verleihen. Die Kosten dafür betragen 32 KaP (nicht modifizierbar, selbst wenn Liturgieerweiterung *Liturgiedauer modifizierbar* vorhanden ist).
+  level3:
+    id: 105
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Die Kosten steigen dabei um eine Kategorie (von 4 auf 8, von 8 auf 16 usw.).
+  src:
+    - id: US25005
+      firstPage: 123
+
+- target: LITURGY_76
+  level1:
+    id: 106
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 KR.
+  level2:
+    id: 107
+    name: "Höhere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level3:
+    id: 108
+    name: "Mehrere Ziele"
+    effect: |
+      Der Geweihte kann beliebig viele Ziele gleichzeitig weihen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP.
+  src:
+    - id: US25005
+      firstPage: 123
+
+- target: LITURGY_77
+  level1:
+    id: 109
+    name: "Heimattempel"
+    effect: |
+      Die Botschaft wird an den heimatlichen Tempelvorsteher (oder in Abwesenheit: an dessen Stellvertreter) gesendet. Die Reichweite wird dabei automatisch auf unbegrenzt erhöht, solange sich der Geweihte noch auf demselben Kontinent befindet.
+  level2:
+    id: 110
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt QS x 10 Meilen.
+  level3:
+    id: 111
+    name: "Persönlicher Bekannter"
+    effect: |
+      Die Botschaft kann an einen, dem Geweihten persönlich bekannten, anderen Geweihten der eigenen Tradition gesendet werden. Die Reichweite wird dabei automatisch auf unbegrenzt erhöht, solange sich der Geweihte noch auf demselben Kontinent befindet. Voraussetzung: Liturgieerweiterung *Heimattempel*.
+  src:
+    - id: US25005
+      firstPage: 123
+
+- target: LITURGY_78
+  level1:
+    id: 112
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 8 Schritt.
+  level2:
+    id: 113
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 Minuten.
+  level3:
+    id: 114
+    name: "Mehrere Ziele"
+    effect: |
+      Der Geweihte kann beliebig vielen Zielen gleichzeitig befehlen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP.
+  src:
+    - id: US25005
+      firstPage: 124
+
+- target: LITURGY_79
+  level1:
+    id: 115
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 116
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden.
+  level3:
+    id: 117
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 2 Stunden. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  src:
+    - id: US25005
+      firstPage: 124
+
+- target: LITURGY_80
+  level1:
+    id: 118
+    name: "Mächtige Heilsame Quelle"
+    effect: |
+      Der Trinkende erhält QS+3 LeP zurück.
+  level2:
+    id: 119
+    name: "Erfrischende Heilquelle"
+    effect: |
+      Pro volle 3 zurückerhaltene LeP baut der Trinkende auch eine Stufe *Betäubung* ab.
+  level3:
+    id: 120
+    name: "Zwei Trinkende"
+    effect: |
+      Zwei Personen können von der Quelle profitieren.
+  src:
+    - id: US25005
+      firstPage: 124
+
+- target: LITURGY_81
+  level1:
+    id: 121
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 10 KR.
+  level2:
+    id: 122
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 123
+    name: "Mehrere Ziele"
+    effect: |
+      Der Geweihte kann beliebig viele Ziele gleichzeitig segnen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP.
+  src:
+    - id: US25005
+      firstPage: 124
+
+- target: LITURGY_82
+  level1:
+    id: 124
+    name: "Gemeinsam sind wir stark"
+    effect: |
+      Die Erleichterung gilt auch bei Gruppenvergleichsproben.
+  level2:
+    id: 125
+    name: "Viele starke Hände 1"
+    effect: |
+      Möglich sind bis zu QS Erleichterungen, die auf maximal 6 Personen verteilt werden (bis zu einem Maximum von 2 Erleichterungen pro Person).
+  level3:
+    id: 126
+    name: "Viele starke Hände 2"
+    effect: |
+      Möglich sind bis zu QS Erleichterungen, die auf maximal 6 Personen verteilt werden (bis zu einem Maximum von 3 Erleichterungen pro Person). Voraussetzung: Liturgieerweiterung *Viele starke Hände 1*.
+  src:
+    - id: US25005
+      firstPage: 125
+
+- target: LITURGY_83
+  level1:
+    id: 127
+    name: "Angriffslust"
+    effect: |
+      Die Ratten erhalten +1 AT.
+  level2:
+    id: 128
+    name: "Rattenplage"
+    effect: |
+      Pro volle 10 Ratten, die ein Opfer angreifen, erleidet dieses eine Erschwernis von 1 auf alle Körpertalente, AT, Verteidigungen und FK, wenn die Ratten sich in Angriffsdistanz befinden.
+  level3:
+    id: 129
+    name: "Rattenüberschwemmung"
+    effect: |
+      Wenn sich mindestens 10 Ratten in Angriffsdistanz befinden und der Held eine Handlung ausführt, um sich zu bewegen, muss ihm eine Probe auf *Körperbeherrschung (Kampfmanöver)* gelingen, sonst erleidet er den Status Liegend. Erschwert ist die Probe um Anzahl der Ratten/20, also erst ab 10 Ratten um 1. Voraussetzung: Liturgieerweiterung *Rattenplage*.
+  src:
+    - id: US25005
+      firstPage: 126
+
+- target: LITURGY_84
+  level1:
+    id: 130
+    name: "Angriffslust"
+    effect: |
+      Die Schakale erhalten +1 AT.
+  level2:
+    id: 131
+    name: "Meute"
+    effect: |
+      Schakale, die gemeinsam einen Gegner angreifen, erhalten pro Schakal in der Überzahl +1 AT (bis zu einem Maximum von +4 AT).
+  level3:
+    id: 132
+    name: "Raserei"
+    effect: |
+      Schakale werden durch Verletzungen in den Status *Raserei* (siehe **Aventurisches Götterwirken** Seite **235**) versetzt. Sobald sie 5 LeP verloren haben, gelten für sie folgende Modifikatoren: +2 TP, immun gegen Schmerz. Dieser Status hält an, bis der Gegner getötet wurde, längstens jedoch eine halbe Stunde.
+  src:
+    - id: US25005
+      firstPage: 126
+
+- target: LITURGY_85
+  level1:
+    id: 133
+    name: "Angriffslust"
+    effect: |
+      Die Vampirfledermäuse erhalten +1 AT.
+  level2:
+    id: 134
+    name: "Fledermausschwarm"
+    effect: |
+      Pro vollen 10 Vampirfledermäusen rings um den Geweihten des Namenlosen erhöht sich die Stufe der Sichtbehinderung um 1, bis zu einem Maximum von 4.
+
+      Um eine höhere Stufe als 1 zu erreichen, muss der Geweihte die Liturgie mehrmals wirken.
+  level3:
+    id: 135
+    name: "Loyal bis in den Tod"
+    effect: |
+      Die Vampirfledermäuse werfen sich in die Geschosse eines Fernkampfangriffs, der auf den Namenlosen-Geweihten gerichtet ist. Ein gelungener Fernkampfangriff trifft zuerst die Vampirfledermäuse. Sollten die LeP einer Vampirfledermaus auf 0 sinken, stürzt sich sofort eine neue Fledermaus in die Flugbahn, sodass überzählige SP von ihren LeP abgezogen werden. Voraussetzung: Liturgieerweiterung *Fledermausschwarm*.
+  src:
+    - id: US25005
+      firstPage: 126
+      lastPage: 127
+
+- target: LITURGY_86
+  level1:
+    id: 136
+    name: "Angriffslust"
+    effect: |
+      Die Spinnen erhalten +1 AT.
+  level2:
+    id: 137
+    name: "Starkes Gift"
+    effect: |
+      Die Giftstufe des Wolfsspinnengifts beträgt 6 statt 4.
+  level3:
+    id: 138
+    name: "Spinnenpanik"
+    effect: |
+      Pro vollen 10 Spinnen, die sich in Sichtweite befinden, erhalten alle Kulturschaffenden, außer dem Geweihten, eine Stufe des Nachteils Angst vor *Spinnen*.
+  src:
+    - id: US25005
+      firstPage: 128
+
+- target: LITURGY_87
+  level1:
+    id: 139
+    name: "Auch Gegenstände"
+    effect: |
+      Am Leib getragene Kleidung und Gegenstände werden ebenfalls geschützt.
+  level2:
+    id: 140
+    name: "Weniger Feuerschaden"
+    effect: |
+      TP durch Feuerschaden werden halbiert und dann aufgerundet. Danach wird der RS abgezogen.
+  level3:
+    id: 141
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 128
+
+- target: LITURGY_88
+  level1:
+    id: 142
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage.
+  level2:
+    id: 143
+    name: "Starke Prinzipientreue 1"
+    effect: |
+      Das Ziel erhält *Prinzipientreue II (Ifirnkirche)*.
+  level3:
+    id: 144
+    name: "Starke Prinzipientreue 2"
+    effect: |
+      Das Ziel erhält *Prinzipientreue III (Ifirnkirche)*. Voraussetzung: Liturgieerweiterung *Starke Prinzipientreue 1*.
+  src:
+    - id: US25005
+      firstPage: 128
+
+- target: LITURGY_89
+  level1:
+    id: 145
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 10 Minuten.
+  level2:
+    id: 146
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 147
+    name: "Mehrere Ziele"
+    effect: |
+      Der Geweihte kann beliebig viele Ziele gleichzeitig stärken. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP.
+  src:
+    - id: US25005
+      firstPage: 128
+
+- target: LITURGY_90
+  level1:
+    id: 148
+    name: "Besonders klarer Geist"
+    effect: |
+      Die Liturgie hebt QS/2+1 Stufen *Verwirrung* auf. Dies kostet 4 KaP zusätzlich.
+  level2:
+    id: 149
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level3:
+    id: 150
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  src:
+    - id: US25005
+      firstPage: 128
+
+- target: LITURGY_91
+  level1:
+    id: 151
+    name: "Erschwertes Ausweichen"
+    effect: |
+      Die Probe auf Ausweichen ist um 1 erschwert.
+  level2:
+    id: 152
+    name: "Höherer Schaden"
+    effect: |
+      Die kleine Windhose richtet 1W6+QS TP an.
+  level3:
+    id: 153
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 32 Schritt.
+  src:
+    - id: US25005
+      firstPage: 129
+
+- target: LITURGY_92
+  level1:
+    id: 154
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  level2:
+    id: 155
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level3:
+    id: 156
+    name: "Erholsame Rettung"
+    effect: |
+      Das Ziel erwacht mit 1W6+4 LeP, statt nur 1 LeP.
+  src:
+    - id: US25005
+      firstPage: 129
+
+- target: LITURGY_93
+  level1:
+    id: 157
+    name: "Stärkerer Schild"
+    effect: |
+      Die Schildstärke steigt um QS.
+  level2:
+    id: 158
+    name: "Großer Radius"
+    effect: |
+      Der Radius der Kuppel beträgt 5 Schritt. Es entstehen zusätzliche Kosten in Höhe von 4 KaP.
+  level3:
+    id: 159
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Schildstärke beträgt jedoch nur KaP+(QS x 2). Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 129
+
+- target: LITURGY_94
+  level1:
+    id: 160
+    name: "Drei Attacken"
+    effect: |
+      Bis zu drei Attacken können gestapelt werden. Die KaP-Kosten steigen auf 12.
+  level2:
+    id: 161
+    name: "Sechs Attacken"
+    effect: |
+      Bis zu sechs Attacken können gestapelt werden. Die KaP-Kosten steigen auf 16. Voraussetzung: Liturgieerweiterung *Drei Attacken*.
+  level3:
+    id: 162
+    name: "Neun Attacken"
+    effect: |
+      Bis zu neun Attacken können gestapelt werden. Die KaP-Kosten steigen auf 20. Voraussetzung: Liturgieerweiterung *Sechs Attacken*.
+  src:
+    - id: US25005
+      firstPage: 133
+
+- target: LITURGY_95
+  level1:
+    id: 163
+    name: "Höhere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 164
+    name: "Liturgiedauer modifizierbar"
+    effect: |
+      Die Liturgiedauer ist doch modifizierbar.
+  level3:
+    id: 165
+    name: "Andere Effekte"
+    effect: |
+      Auch andere magische Effekte sind betroffen, etwa magische Handlungen.
+  src:
+    - id: US25005
+      firstPage: 130
+
+- target: LITURGY_96
+  level1:
+    id: 166
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level2:
+    id: 167
+    name: "Zielkategorie Wesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Wesen.
+  level3:
+    id: 168
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Liturgiekosten sind doch modifizierbar.
+  src:
+    - id: US25005
+      firstPage: 130
+
+- target: LITURGY_97
+  level1:
+    id: 169
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 2 Stunden.
+  level2:
+    id: 170
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 171
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Liturgie ist aufrechterhaltend, was 4 KaP für die Aktivierung sowie 2 KaP pro angefangener Stunde kostet.
+  src:
+    - id: US25005
+      firstPage: 131
+
+- target: LITURGY_98
+  level1:
+    id: 172
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 173
+    name: "Dumm und verwirrt"
+    effect: |
+      Das Ziel erleidet zusätzlich 1 Stufe *Verwirrung*.
+  level3:
+    id: 174
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 8 Stunden.
+  src:
+    - id: US25005
+      firstPage: 131
+
+- target: LITURGY_99
+  level1:
+    id: 175
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 176
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 8 Stunden.
+  level3:
+    id: 177
+    name: "Mehrere Ziele"
+    effect: |
+      Die Geweihte kann beliebig viele Ziele gleichzeitig motivieren. Jedes Ziel nach dem ersten kostet zusätzlich 2 KaP.
+  src:
+    - id: US25005
+      firstPage: 131
+
+- target: LITURGY_100
+  level1:
+    id: 178
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 2 Stunden.
+  level2:
+    id: 179
+    name: "Nicht verfroren"
+    effect: |
+      Der Geweihte ist selbst immun gegen die heraufbeschworene Kälte.
+  level3:
+    id: 180
+    name: "Stationäre Kälte"
+    effect: |
+      Der Geweihte kann in einer Entfernung von bis zu 16 Schritt eine stationäre Zone der Kälte errichten, die dort bis zum Ende der Wirkungsdauer bestehen bleibt.
+  src:
+    - id: US25005
+      firstPage: 131
+
+- target: LITURGY_101
+  level1:
+    id: 181
+    name: "Wüterich 1"
+    effect: |
+      Die Boni auf AT und TP steigen zusätzlich um 1.
+  level2:
+    id: 182
+    name: "Vier Ziele"
+    effect: |
+      Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig eingesetzt werden. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP.
+  level3:
+    id: 183
+    name: "Wüterich 2"
+    effect: |
+      Die Boni auf AT und TP steigen zusätzlich um 1 (zusammen mit *Wüterich 1* also um 2). Voraussetzung: Liturgieerweiterung *Wüterich 1*.
+  src:
+    - id: US25005
+      firstPage: 132
+
+- target: LITURGY_102
+  level1:
+    id: 184
+    name: "Leicht zu beeinflussen"
+    effect: |
+      Der FW der Willenskraft des Opfers sinkt um QS gegen Einflüsterungen des Namenlosen.
+  level2:
+    id: 185
+    name: "Vier Ziele"
+    effect: |
+      Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig gewirkt werden. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP.
+  level3:
+    id: 186
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Wochen.
+  src:
+    - id: US25005
+      firstPage: 132
+
+- target: LITURGY_103
+  level1:
+    id: 187
+    name: "Leichtgläubig"
+    effect: |
+      Dem Opfer kommt nach Ablauf der Wirkungsdauer nichts seltsam vor. Es hat nicht das Gefühl, beherrscht worden zu sein.
+  level2:
+    id: 188
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 8 Schritt.
+  level3:
+    id: 189
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig beeinflussen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP.
+  src:
+    - id: US25005
+      firstPage: 132
+
+- target: LITURGY_104
+  level1:
+    id: 190
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 191
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 2 Stunden.
+  level3:
+    id: 192
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig mit der Obsession belegen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  src:
+    - id: US25005
+      firstPage: 133
+
+- target: LITURGY_105
+  level1:
+    id: 193
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level2:
+    id: 194
+    name: "Heimlicher Gedankenforscher"
+    effect: |
+      Die *Sinnesschärfe*-Probe ist um QS x 2 erschwert.
+  level3:
+    id: 195
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  src:
+    - id: US25005
+      firstPage: 133
+
+- target: LITURGY_106
+  level1:
+    id: 196
+    name: "Verteidigungswall"
+    effect: |
+      Das Ziel der Liturgie bekommt +1 auf Verteidigung.
+  level2:
+    id: 197
+    name: "Zäh"
+    effect: |
+      Das Ziel kann bis zu einer negativen Lebensenergie von KO x 2 kämpfen, bevor es endgültig stirbt.
+  level3:
+    id: 198
+    name: "Guter Kampf"
+    effect: |
+      Dem Ziel unterlaufen im Kampf keine Patzer mehr. Patzer werden wie einfach misslungene Proben behandelt.
+  src:
+    - id: US25005
+      firstPage: 134
+
+- target: LITURGY_107
+  level1:
+    id: 199
+    name: "Intensiver Strahl"
+    effect: |
+      Es muss nicht gewürfelt werden, ob das Ziel *Furcht* erleidet. Dies geschieht bei einem Treffer stattdessen automatisch. Es entstehen zusätzliche Kosten in Höhe von 2 KaP.
+  level2:
+    id: 200
+    name: "Windender Strahl"
+    effect: |
+      Das Ziel kann kaum noch ausweichen. Das Ausweichen ist um weitere 2 erschwert. Es entstehen zusätzliche Kosten in Höhe von 2 KaP.
+  level3:
+    id: 201
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich.
+  src:
+    - id: US25005
+      firstPage: 134
+
+- target: LITURGY_108
+  level1:
+    id: 202
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Liturgiekosten sind doch modifizierbar.
+  level2:
+    id: 203
+    name: "Mehr Ratten"
+    effect: |
+      Die Anzahl der Ratten erhöht sich um 10.
+  level3:
+    id: 204
+    name: "Nur eine letzte Ratte"
+    effect: |
+      Solange mindestens eine Ratte überlebt, kann der Geweihte aus dieser seinen Körper wiederherstellen.
+  src:
+    - id: US25005
+      firstPage: 135
+
+- target: LITURGY_109
+  level1:
+    id: 205
+    name: "Entfernung bestimmen"
+    effect: |
+      Der Geweihte kann die genaue Entfernung zu seinem Heimattempel bestimmen.
+  level2:
+    id: 206
+    name: "Tempel der eigenen Kirche"
+    effect: |
+      Der Geweihte kann einen beliebigen ihm bekannten Tempel seiner Tradition erspüren. Er muss den Tempel nicht schon einmal aufgesucht haben, allerdings darf dieser nicht verborgen oder geheim sein.
+  level3:
+    id: 207
+    name: "Erreichbarkeit feststellen"
+    effect: |
+      Der Geweihte kann die genaue Erreichbarkeit seines Heimattempels erspüren. Er weiß beispielsweise, dass er Umwege gehen muss, falls ihm der direkte Weg versperrt ist (also wird er sich in Richtung einer Brücke aufmachen, wenn ein Fluss ihn vom direkten Weg abschneidet).
+  src:
+    - id: US25005
+      firstPage: 135
+
+- target: LITURGY_110
+  level1:
+    id: 208
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 8 Schritt.
+  level2:
+    id: 209
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 2 Tage.
+  level3:
+    id: 210
+    name: "Mehrere Ziele"
+    effect: |
+      Der Geweihte kann beliebig viele Ziele gleichzeitig verfluchen. Jedes Ziel nach dem ersten kostet zusätzlich 16 KaP.
+  src:
+    - id: US25005
+      firstPage: 135
+
+- target: LITURGY_111
+  level1:
+    id: 211
+    name: "Wider Daimonide"
+    effect: |
+      Auch Daimonide jeglicher Art können gewählt werden.
+  level2:
+    id: 212
+    name: "Liturgiedauer modifizierbar"
+    effect: |
+      Die Liturgiedauer ist doch modifizierbar.
+  level3:
+    id: 213
+    name: "Änderung des Intervalls"
+    effect: |
+      Das Intervall beträgt 10 KR.
+  src:
+    - id: US25005
+      firstPage: 136
+
+- target: LITURGY_112
+  level1:
+    id: 214
+    name: "Starker Zauberschwund 1"
+    effect: |
+      Zauber sind innerhalb der Zone um 2 erschwert, zudem verlieren Zauberer pro KR 2 AsP.
+  level2:
+    id: 215
+    name: "Starker Zauberschwund 2"
+    effect: |
+      Zauber sind innerhalb der Zone um 3 erschwert, zudem verlieren Zauberer pro KR 3 AsP. Voraussetzung: Liturgieerweiterung *Starker Zauberschwund 1*.
+  level3:
+    id: 216
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt 16 Schritt.
+  src:
+    - id: US25005
+      firstPage: 136
+
+- target: LITURGY_113
+  level1:
+    id: 217
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Liturgie wirkt 13 Stunden und kostet 16 KaP.
+  level2:
+    id: 218
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 219
+    name: "Schwer zu durchschauen"
+    effect: |
+      Die Proben, um den Namenlosen-Geweihten zu durchschauen, sind um QS x 2 erschwert.
+  src:
+    - id: US25005
+      firstPage: 136
+
+- target: LITURGY_114
+  level1:
+    id: 220
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 10 Minuten.
+  level2:
+    id: 221
+    name: "Mehr Vögel"
+    effect: |
+      Alle Seevögel innerhalb Hör- und Sehreichweite des Geweihten sind betroffen.
+  level3:
+    id: 222
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 136
+
+- target: LITURGY_115
+  level1:
+    id: 223
+    name: "Stärkere Sicherheit"
+    effect: |
+      Die Proben sind um QS/2+1 erleichtert.
+  level2:
+    id: 224
+    name: "Längeres Intervall 1"
+    effect: |
+      Das Intervall beträgt 1 Stunde.
+  level3:
+    id: 225
+    name: "Längeres Intervall 2"
+    effect: |
+      Das Intervall beträgt 2 Stunden. Voraussetzung: Liturgieerweiterung *Längeres Intervall 1*.
+  src:
+    - id: US25005
+      firstPage: 137
+
+- target: LITURGY_116
+  level1:
+    id: 226
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level2:
+    id: 227
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS x 10 Schritt.
+  level3:
+    id: 228
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 64 Schritt.
+  src:
+    - id: US25005
+      firstPage: 137
+
+- target: LITURGY_117
+  level1:
+    id: 229
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 Minuten.
+  level2:
+    id: 230
+    name: "Erhöhte Reichweite"
+    effect: |
+      Die Reichweite beträgt 16 Schritt.
+  level3:
+    id: 231
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 10 Minuten. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  src:
+    - id: US25005
+      firstPage: 138
+
+- target: LITURGY_118
+  level1:
+    id: 232
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  level2:
+    id: 233
+    name: "Mehrere Ziele"
+    effect: |
+      Der Geweihte kann beliebig viele Tiere gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  level3:
+    id: 234
+    name: "Starke Linderung"
+    effect: |
+      Statt QS/2 können QS Stufen geheilt werden.
+  src:
+    - id: US25005
+      firstPage: 138
+
+- target: LITURGY_119
+  level1:
+    id: 235
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 Minuten.
+  level2:
+    id: 236
+    name: "Mehr Wildtiere"
+    effect: |
+      Alle Wildtiere innerhalb Hör- und Sichtweite des Geweihten sind betroffen.
+  level3:
+    id: 237
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 138
+
+- target: LITURGY_120
+  level1:
+    id: 238
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level2:
+    id: 239
+    name: "Größere Tiere"
+    effect: |
+      Der Geweihte kann auch Tiere der Größenkategorie klein zu seinem Begleiter machen.
+  level3:
+    id: 240
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage.
+  src:
+    - id: US25005
+      firstPage: 139
+
+- target: LITURGY_121
+  level1:
+    id: 241
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level2:
+    id: 242
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Lebewesen übertragen werden.
+  level3:
+    id: 243
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig von der Wirkung profitieren lassen. Die KaP-Kosten sind für jedes Ziel einzeln zu bezahlen.
+  src:
+    - id: US25005
+      firstPage: 139
+
+- target: LITURGY_122
+  level1:
+    id: 244
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 8 Schritt.
+  level2:
+    id: 245
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 KR.
+  level3:
+    id: 246
+    name: "Schnelle Versteinerung"
+    effect: |
+      Pro KR erhält das Ziel 2 Stufen *Paralyse*.
+  src:
+    - id: US25005
+      firstPage: 139
+
+- target: LITURGY_123
+  level1:
+    id: 247
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 10 Minuten.
+  level2:
+    id: 248
+    name: "Mitnahme"
+    effect: |
+      Die Geweihte kann jemanden mitnehmen, allerdings muss eine ständige Berührung während der Wirkung der Liturgie aufrechterhalten werden.
+  level3:
+    id: 249
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Lebewesen übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 139
+
+- target: LITURGY_124
+  level1:
+    id: 250
+    name: "Erschwertes Ausweichen"
+    effect: |
+      Die Probe auf Ausweichen ist zusätzlich um 1 erschwert.
+  level2:
+    id: 251
+    name: "Höherer Schaden"
+    effect: |
+      Die Windhose richtet 2W6+(QS x 2) TP an.
+  level3:
+    id: 252
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 32 Schritt.
+  src:
+    - id: US25005
+      firstPage: 140
+
+- target: LITURGY_125
+  level1:
+    id: 253
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt 1 Stunde.
+  level2:
+    id: 254
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt 2 Stunden. Voraussetzung: Liturgieerweiterung Längere *Wirkungsdauer 1*.
+  level3:
+    id: 255
+    name: "Größere Reichweite"
+    effect: |
+      Die Winde entstehen in bis zu 64 Schritt Entfernung vom Geweihten.
+  src:
+    - id: US25005
+      firstPage: 140
+
+- target: LITURGY_126
+  level1:
+    id: 256
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 KR.
+  level2:
+    id: 257
+    name: "Harte Schale"
+    effect: |
+      Der Geweihte kann auch einen natürlichen RS von 2 erhalten. Die Kosten dafür betragen 8 KaP (nicht modifizierbar).
+  level3:
+    id: 258
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 140
+
+- target: LITURGY_127
+  level1:
+    id: 259
+    name: "Geweihten-Exkommunikation 1"
+    effect: |
+      Auch Geweihte sind von der Zeremonie betroffen. Sie können nach der Exkommunikation kein Karma mehr regenerieren.
+  level2:
+    id: 260
+    name: "Für immer exkommuniziert"
+    effect: |
+      Die Exkommunikation kann nicht durch eine Buße wieder aufgehoben werden (siehe **Aventurisches Götterwirken** Seite **72**). Sie ist permanent und kostet den Geweihten zusätzlich 2 permanente KaP (also insgesamt 4 pKaP). Voraussetzung: Liturgieerweiterung *Geweihten-Exkommunikation 1*.
+  level3:
+    id: 261
+    name: "Geweihten-Exkommunikation 2"
+    effect: |
+      Geweihte sind von der Zeremonie betroffen und verlieren ihren Vorteil Geweihter, die Sonderfertigkeit der Tradition, karmale Sonderfertigkeiten, karmale Vor- und Nachteile sowie ihre Liturgien. Sie erhalten aber alle dafür ausgegebenen AP zurück. Die Exkommunikation ist permanent und kostet den Geweihten zusätzlich 4 permanente KaP (also insgesamt 6 pKaP). Voraussetzung: Liturgieerweiterung Für immer exkommuniziert.
+  src:
+    - id: US25005
+      firstPage: 140
+      lastPage: 141
+
+- target: LITURGY_128
+  level1:
+    id: 262
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig initiieren. Das zweite Ziel kostet 2 KaP extra.
+  level2:
+    id: 263
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig initiieren. Jedes weitere Ziel kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung *Zwei Ziele*.
+  level3:
+    id: 264
+    name: "Acht Ziele"
+    effect: |
+      Der Geweihte kann bis zu 8 Ziele gleichzeitig initiieren. Jedes weitere Ziel kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung *Vier Ziele*.
+  src:
+    - id: US25005
+      firstPage: 141
+
+- target: LITURGY_129
+  level1:
+    id: 265
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 266
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig der Zeremonie unterziehen. Das zweite Ziel kostet 16 KaP und es müssen insgesamt 8 permanente KaP ausgegeben werden.
+  level3:
+    id: 267
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar, die permanenten Kosten bleiben gleich.
+  src:
+    - id: US25005
+      firstPage: 141
+
+- target: LITURGY_130
+  level1:
+    id: 268
+    name: "Geweihten-Anathema"
+    effect: |
+      Geweihte sind von der Zeremonie betroffen und verlieren ihren Vorteil Geweihter, die Sonderfertigkeit der Tradition, karmale Sonderfertigkeiten, karmale Vor- und Nachteile sowie ihre Liturgien. Sie erhalten aber alle dafür ausgegebenen AP zurück. Das Anathema ist permanent und kostet den Geweihten 18 permanente KaP.
+  level2:
+    id: 269
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite ist unbegrenzt.
+  level3:
+    id: 270
+    name: "Nicht-Initiaten"
+    effect: |
+      Der Geweihte kann den Bannfluch auch über Kulturschaffende sprechen, die keine Initiaten des gleichen Pantheons wie der Geweihte sind.
+  src:
+    - id: US25005
+      firstPage: 141
+      lastPage: 142
+
+- target: LITURGY_131
+  level1:
+    id: 271
+    name: "Andere Alkoholika"
+    effect: |
+      Wasser kann auch in andere Alkoholsorten verwandelt werden, allerdings keine hochprozentigen Alkoholika, sondern vor allem Bier und Met.
+  level2:
+    id: 272
+    name: "Mehr Wein!"
+    effect: |
+      Es können bis zu QS x 2 Liter Wasser in Alkohol verwandelt werden.
+  level3:
+    id: 273
+    name: "Noch meeehr Wein!"
+    effect: |
+      Es können bis zu QS x 4 Liter Wasser in Alkohol verwandelt werden. Voraussetzung: Liturgieerweiterung *Mehr Wein!*.
+  src:
+    - id: US25005
+      firstPage: 142
+
+- target: LITURGY_132
+  level1:
+    id: 274
+    name: "Mehr Dienste"
+    effect: |
+      Der Geweihte kann QS +2 Dienste von dem Wesen verlangen.
+  level2:
+    id: 275
+    name: "Längerer Dienst"
+    effect: |
+      Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst.
+  level3:
+    id: 276
+    name: "Mächtiges Wesen"
+    effect: |
+      Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden.
+  src:
+    - id: US25005
+      firstPage: 142
+
+- target: LITURGY_133
+  level1:
+    id: 277
+    name: "Mehr Dienste"
+    effect: |
+      Der Geweihte kann QS +2 Dienste von dem Wesen verlangen.
+  level2:
+    id: 278
+    name: "Längerer Dienst"
+    effect: |
+      Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst.
+  level3:
+    id: 279
+    name: "Mächtiges Wesen"
+    effect: |
+      Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden.
+  src:
+    - id: US25005
+      firstPage: 143
+
+- target: LITURGY_134
+  level1:
+    id: 280
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 Minuten.
+  level2:
+    id: 281
+    name: "Zeremoniedauer modifizierbar"
+    effect: |
+      Die Zeremoniedauer ist doch modifizierbar.
+  level3:
+    id: 282
+    name: "Alle Sinneseindrücke"
+    effect: |
+      Mit der Zeremonie lassen sich alle Sinneseindrücke in das Gedächtnis brennen.
+  src:
+    - id: US25005
+      firstPage: 143
+
+- target: LITURGY_135
+  level1:
+    id: 283
+    name: "Visionen"
+    effect: |
+      Der Geweihte sieht in den Flammen unzusammenhängende Visionen, was rund um das Entzünden und Löschen der Flammen geschehen ist. Diese sind allerdings undeutlich.
+  level2:
+    id: 284
+    name: "Erkenntnis"
+    effect: |
+      Der Geweihte erkennt die genaue Ursache des Feuers, beispielsweise Brandstiftung, Ingerimms Wirken oder einen Unfall. Voraussetzung: Liturgieerweiterung *Visionen*.
+  level3:
+    id: 285
+    name: "Klarheit"
+    effect: |
+      Der Geweihte kann zusätzliche Aussagen über die Hitze des Feuers treffen, wie schnell es sich ausgebreitet hat und ob Brandmittel eingesetzt wurden. Voraussetzung: Liturgieerweiterung *Erkenntnis*.
+  src:
+    - id: US25005
+      firstPage: 143
+
+- target: LITURGY_136
+  level1:
+    id: 286
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 287
+    name: "Sprachfähigkeit"
+    effect: |
+      Der Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 288
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 144
+
+- target: LITURGY_137
+  level1:
+    id: 289
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 290
+    name: "Sprachfähigkeit"
+    effect: |
+      Die Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 291
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 144
+      lastPage: 145
+
+- target: LITURGY_138
+  level1:
+    id: 292
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 293
+    name: "Sprachfähigkeit"
+    effect: |
+      Der Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 294
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 145
+
+- target: LITURGY_139
+  level1:
+    id: 295
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  level2:
+    id: 296
+    name: "Weit zurückliegende Erinnerung"
+    effect: |
+      Die Erinnerung darf bis zu QS Wochen zurückliegen.
+  level3:
+    id: 297
+    name: "Gelöschte Erinnerungen reaktivieren"
+    effect: |
+      Auch gelöschte Erinnerungen können wieder ins Gedächtnis gerufen werden, aber nur, wenn die QS der Zeremonie die QS der Unterdrückungsursache übersteigen.
+  src:
+    - id: US25005
+      firstPage: 145
+
+- target: LITURGY_140
+  level1:
+    id: 298
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS x 10 Schritt.
+  level2:
+    id: 299
+    name: "Später Beginn"
+    effect: |
+      Die Zeremonie kann auch während des Festes gewirkt werden.
+  level3:
+    id: 300
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 24 Stunden.
+  src:
+    - id: US25005
+      firstPage: 146
+
+- target: LITURGY_141
+  level1:
+    id: 301
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Zeremonie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Zeremonie festgelegt werden.
+  level2:
+    id: 302
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 303
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Zeremonie umfasst auch die Zielkategorie Lebewesen.
+  src:
+    - id: US25005
+      firstPage: 146
+
+- target: LITURGY_142
+  level1:
+    id: 304
+    name: "Hohe Wahrscheinlichkeit"
+    effect: |
+      Die Wahrscheinlichkeit steigt statt um 30 % nun um 60 %.
+  level2:
+    id: 305
+    name: "Einzelne Person"
+    effect: |
+      Die Zeremonie kann auch nur auf eine Person angewendet werden, die dann besonders fruchtbar ist.
+  level3:
+    id: 306
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage.
+  src:
+    - id: US25005
+      firstPage: 146
+
+- target: LITURGY_143
+  level1:
+    id: 307
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 308
+    name: "Sprachfähigkeit"
+    effect: |
+      Die Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 309
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 146
+      lastPage: 147
+
+- target: LITURGY_144
+  level1:
+    id: 310
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 311
+    name: "Sprachfähigkeit"
+    effect: |
+      Der Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 312
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 147
+
+- target: LITURGY_145
+  level1:
+    id: 313
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  level2:
+    id: 314
+    name: "Geänderte Zielkategorie 1"
+    effect: |
+      Als Ziel der Zeremonie dürfen auch Lebewesen der Größenkategorie winzig, klein und mittel gewählt werden. Voraussetzung: Liturgieerweiterung *Reichweite Berührung*.
+  level3:
+    id: 315
+    name: "Geänderte Zielkategorie 2"
+    effect: |
+      Als Ziel der Zeremonie dürfen auch Lebewesen der Größenkategorie groß gewählt werden. Voraussetzung: Liturgieerweiterung Geänderte *Zielkategorie 1*.
+  src:
+    - id: US25005
+      firstPage: 147
+
+- target: LITURGY_146
+  level1:
+    id: 316
+    name: "Mehr Proben 1"
+    effect: |
+      Der Geweihte bekommt eine Begabung für die nächsten zwei Proben auf ein Wissenstalent innerhalb der Wirkungsdauer.
+  level2:
+    id: 317
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 30 Minuten.
+  level3:
+    id: 318
+    name: "Mehr Proben 2"
+    effect: |
+      Der Geweihte bekommt eine Begabung für die nächsten drei Proben auf ein Wissenstalent innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung *Mehr Proben 1*.
+  src:
+    - id: US25005
+      firstPage: 148
+
+- target: LITURGY_147
+  level1:
+    id: 319
+    name: "Zeremoniedauer modifizierbar"
+    effect: |
+      Die Zeremoniedauer ist doch modifizierbar.
+  level2:
+    id: 320
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden.
+  level3:
+    id: 321
+    name: "Karmaspende"
+    effect: |
+      Der Greif nutzt auch sein eigenes Karma, um den Geweihten zu unterstützen.
+  src:
+    - id: US25005
+      firstPage: 148
+      lastPage: 149
+
+- target: LITURGY_148
+  level1:
+    id: 322
+    name: "Leichteres Fischen"
+    effect: |
+      Die Erleichterung bei der *Fischen & Angeln*-Probe beträgt (QS/2)+1.
+  level2:
+    id: 323
+    name: "Mehr Rationen 1"
+    effect: |
+      Die ermittelten Tagesrationen werden verdoppelt.
+  level3:
+    id: 324
+    name: "Mehr Rationen 2"
+    effect: |
+      Die ermittelten Tagesrationen werden verdreifacht. Voraussetzung: Liturgieerweiterung *Mehr Rationen 1*.
+  src:
+    - id: US25005
+      firstPage: 149
+
+- target: LITURGY_149
+  level1:
+    id: 325
+    name: "Andere Augen, anderes Haar"
+    effect: |
+      Die Augen- und Haarfarbe ändern sich bei der Häutung nach dem Willen der Geweihten.
+  level2:
+    id: 326
+    name: "Größer und kleiner"
+    effect: |
+      Die Größe der Geweihten kann pro Häutung um bis zu 1 Finger willentlich nach oben oder unten geändert werden.
+  level3:
+    id: 327
+    name: "Eigene Wahl"
+    effect: |
+      Details des Aussehens können von der Geweihten willentlich bestimmt werden. Regeltechnische Vor- und Nachteile lassen sich jedoch auch mit der Erweiterung nicht beeinflussen.
+  src:
+    - id: US25005
+      firstPage: 149
+
+- target: LITURGY_150
+  level1:
+    id: 328
+    name: "Starker Schwur 1"
+    effect: |
+      Die *Willenskraft*-Probe ist um (QS/2)+1 erschwert.
+  level2:
+    id: 329
+    name: "Starker Schwur 2"
+    effect: |
+      Die *Willenskraft*-Probe ist um (QS/2)+2 erschwert. Voraussetzung: Liturgieerweiterung *Starker Schwur 1*.
+  level3:
+    id: 330
+    name: "Starker Schwur 3"
+    effect: |
+      Die *Willenskraft*-Probe ist um (QS/2)+3 erschwert. Voraussetzung: Liturgieerweiterung *Starker Schwur 2*.
+  src:
+    - id: US25005
+      firstPage: 149
+
+- target: LITURGY_151
+  level1:
+    id: 331
+    name: "Größere Wasserfahrzeuge 1"
+    effect: |
+      Das Wasserfahrzeug kann bis zu 30 Schritt lang sein und bis zu 60 Personen Platz bieten.
+  level2:
+    id: 332
+    name: "Größere Wasserfahrzeuge 2"
+    effect: |
+      Das Wasserfahrzeug kann bis zu 40 Schritt lang sein und bis zu 120 Personen Platz bieten. Voraussetzung: Liturgieerweiterung *Größere Wasserfahrzeuge 1*.
+  level3:
+    id: 333
+    name: "Mehrere Ziele"
+    effect: |
+      Die Zeremonie wirkt auf mehrere Wasserfahrzeuge, jedes Ziel nach dem ersten kostet zusätzlich 16 KaP.
+  src:
+    - id: US25005
+      firstPage: 150
+
+- target: LITURGY_152
+  level1:
+    id: 334
+    name: "Genaue Entfernung"
+    effect: |
+      Die Geweihte kann auf eine Meile genau sagen, wie weit die notleidende Person entfernt ist.
+  level2:
+    id: 335
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden.
+  level3:
+    id: 336
+    name: "Genaue Erreichbarkeit"
+    effect: |
+      Die Geweihte kann genauere Angaben zur Erreichbarkeit machen und z. B. spüren, ob ein Fluss oder ein Berg im Weg ist. Somit kann sie auch Umwege einkalkulieren.
+  src:
+    - id: US25005
+      firstPage: 150
+
+- target: LITURGY_153
+  level1:
+    id: 337
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  level2:
+    id: 338
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt 8 Stunden.
+  level3:
+    id: 339
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt 16 Stunden. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  src:
+    - id: US25005
+      firstPage: 150
+
+- target: LITURGY_154
+  level1:
+    id: 340
+    name: "Mehr Proben 1"
+    effect: |
+      Das Ziel bekommt eine Begabung für die nächsten zwei Proben auf *Tierkunde* bei der Jagd innerhalb der Wirkungsdauer.
+  level2:
+    id: 341
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 342
+    name: "Mehr Proben 2"
+    effect: |
+      Das Ziel bekommt eine Begabung für die nächsten drei Proben auf *Tierkunde* bei der Jagd innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung *Mehr Proben 1*.
+  src:
+    - id: US25005
+      firstPage: 150
+
+- target: LITURGY_155
+  level1:
+    id: 343
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  level2:
+    id: 344
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Zeremonie umfasst auch die Zielkategorie Lebewesen.
+  level3:
+    id: 345
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Jahre. Die KaP-Kosten steigen auf 64.
+  src:
+    - id: US25005
+      firstPage: 151
+
+- target: LITURGY_156
+  level1:
+    id: 346
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 Tage.
+  level2:
+    id: 347
+    name: "Gute Moral"
+    effect: |
+      Bis zu drei *Willenskraft* *(Bedrohungen standhalten* oder *Einschüchtern widerstehen*)-Proben können neu gewürfelt werden.
+  level3:
+    id: 348
+    name: "Gute Selbstbeherrschung"
+    effect: |
+      Zusätzlich können auch Proben auf das Talent *Selbstbeherrschung* im Rahmen der Wirkung der Zeremonie neu gewürfelt werden.
+  src:
+    - id: US25005
+      firstPage: 151
+
+- target: LITURGY_157
+  level1:
+    id: 349
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS x 5 Schritt.
+  level2:
+    id: 350
+    name: "Edelmetallrausch"
+    effect: |
+      Die Zeremonie wirkt auf alle Edelmetalle gleichzeitig.
+  level3:
+    id: 351
+    name: "Edelsteinrausch"
+    effect: |
+      Die Zeremonie wirkt auf alle Edelsteine gleichzeitig.
+  src:
+    - id: US25005
+      firstPage: 152
+
+- target: LITURGY_158
+  level1:
+    id: 352
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 32 Schritt.
+  level2:
+    id: 353
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 13 Tage.
+  level3:
+    id: 354
+    name: "Permanente Wirkung aufheben"
+    effect: |
+      Permanente Wirkungen können aufgehoben werden. Der Geweihte entscheidet sich vor Beginn der Zeremonie, ob er dies möchte. Die permanenten Kosten entsprechen denen, die für die Liturgie/Zeremonie ausgegeben wurden.
+  src:
+    - id: US25005
+      firstPage: 152
+
+- target: LITURGY_159
+  level1:
+    id: 355
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  level2:
+    id: 356
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 Stunden.
+  level3:
+    id: 357
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage.
+  src:
+    - id: US25005
+      firstPage: 152
+
+- target: LITURGY_160
+  level1:
+    id: 358
+    name: "Größere Menge 1"
+    effect: |
+      Maximal lassen sich bis zu 5 Stein erhitzen.
+  level2:
+    id: 359
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 Stunden.
+  level3:
+    id: 360
+    name: "Größere Menge 2"
+    effect: |
+      Maximal lassen sich bis zu 25 Stein erhitzen. Voraussetzung: Liturgieerweiterung *Größere Menge 1*.
+  src:
+    - id: US25005
+      firstPage: 152
+
+- target: LITURGY_161
+  level1:
+    id: 361
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Wirkungsdauer beträgt QS x 5 Tage.
+  level2:
+    id: 362
+    name: "Eins mit dem Schiff"
+    effect: |
+      Bei Proben auf *Boote & Schiffe* bekommen alle Ziele +1 FP.
+  level3:
+    id: 363
+    name: "Gute Selbstbeherrschung"
+    effect: |
+      Auch das Talent *Selbstbeherrschung* bekommt eine entsprechende Begabung.
+  src:
+    - id: US25005
+      firstPage: 153
+
+- target: LITURGY_162
+  level1:
+    id: 364
+    name: "Größere Menge 1"
+    effect: |
+      Die gereinigte Menge reicht für 12 Personen.
+  level2:
+    id: 365
+    name: "Größere Menge 2"
+    effect: |
+      Die gereinigte Menge reicht für 50 Personen. Voraussetzung: Liturgieerweiterung *Größere Menge 1*.
+  level3:
+    id: 366
+    name: "Größere Menge 3"
+    effect: |
+      Die gereinigte Menge reicht für 100 Personen. Voraussetzung: Liturgieerweiterung *Größere Menge 2*.
+  src:
+    - id: US25005
+      firstPage: 153
+
+- target: LITURGY_163
+  level1:
+    id: 367
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 Stunden.
+  level2:
+    id: 368
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 64 Schritt, der Nebel verharrt an der Stelle.
+  level3:
+    id: 369
+    name: "Formbarer Nebel"
+    effect: |
+      Der Nebel ist formbar und kann beliebige Gestalt annehmen.
+  src:
+    - id: US25005
+      firstPage: 153
+
+- target: LITURGY_164
+  level1:
+    id: 370
+    name: "Große Gebäude/Orte 1"
+    effect: |
+      Ein großes Terrain kann geweiht werden. Darunter fallen viele Stadttempel. Die KaP-Kosten belaufen sich auf 128 KaP, davon 32 permanent.
+  level2:
+    id: 371
+    name: "Große Gebäude/Orte 2"
+    effect: |
+      Ein riesiges Terrain kann geweiht werden. Darunter fällt beispielsweise das Gebrochene Rad, der Haupttempel der Puniner Boronkirche. Die KaP-Kosten belaufen sich auf 256 KaP, davon 64 permanent. Voraussetzung: Liturgieerweiterung *Große Gebäude/Orte 1*.
+  level3:
+    id: 372
+    name: "Große Gebäude/Orte 3"
+    effect: |
+      Ein gigantisches Terrain oder Tempelanlagen können geweiht werden. Darunter fällt z. B. die Stadt des Lichts in Gareth. Die KaP-Kosten belaufen sich auf 512 KaP, davon 128 permanent. Voraussetzung: Liturgieerweiterung *Große Gebäude/Orte 2*.
+  src:
+    - id: US25005
+      firstPage: 154
+
+- target: LITURGY_165
+  level1:
+    id: 373
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 374
+    name: "Sprachfähigkeit"
+    effect: |
+      Die Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 375
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 154
+
+- target: LITURGY_166
+  level1:
+    id: 376
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 377
+    name: "Sprachfähigkeit"
+    effect: |
+      Der Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 378
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 154
+
+- target: LITURGY_167
+  level1:
+    id: 379
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 380
+    name: "Sprachfähigkeit"
+    effect: |
+      Die Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 381
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 155
+
+- target: LITURGY_168
+  level1:
+    id: 382
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 383
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig ordinieren. Das zweite Ziel kostet 16 KaP und es müssen insgesamt 24 permanente KaP ausgegeben werden.
+  level3:
+    id: 384
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar, die permanenten Kosten bleiben gleich.
+  src:
+    - id: US25005
+      firstPage: 155
+
+- target: LITURGY_169
+  level1:
+    id: 385
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 386
+    name: "Sprachfähigkeit"
+    effect: |
+      Der Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 387
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 156
+
+- target: LITURGY_170
+  level1:
+    id: 388
+    name: "Mehr Proben 1"
+    effect: |
+      Das Ziel bekommt eine Begabung für die nächsten zwei Proben auf ein Naturtalent innerhalb der Wirkungsdauer.
+  level2:
+    id: 389
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage.
+  level3:
+    id: 390
+    name: "Mehr Proben 2"
+    effect: |
+      Das Ziel bekommt eine Begabung für die nächsten drei Proben auf ein Naturtalent innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung *Mehr Proben 1*.
+  src:
+    - id: US25005
+      firstPage: 156
+
+- target: LITURGY_171
+  level1:
+    id: 391
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 24 Stunden.
+  level2:
+    id: 392
+    name: "Mehr Mäuler werden satt"
+    effect: |
+      Pro 0,5 Stein werden QS+1 Personen satt.
+  level3:
+    id: 393
+    name: "Riesige Mengen"
+    effect: |
+      Bis zu 10 Stein an Nahrung können von der Zeremonie betroffen sein.
+  src:
+    - id: US25005
+      firstPage: 157
+
+- target: LITURGY_172
+  level1:
+    id: 394
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 395
+    name: "Sprachfähigkeit"
+    effect: |
+      Der Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 396
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 157
+
+- target: LITURGY_173
+  level1:
+    id: 397
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 398
+    name: "Sprachfähigkeit"
+    effect: |
+      Die Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 399
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 158
+
+- target: LITURGY_174
+  level1:
+    id: 400
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  level2:
+    id: 401
+    name: "Kürzere Zeremoniedauer"
+    effect: |
+      Die Zeremoniedauer beträgt 8 Stunden.
+  level3:
+    id: 402
+    name: "Massenopferung"
+    effect: |
+      Die Geweihte kann bis zu 13 Ziele gleichzeitig opfern. Jedes Ziel nach dem ersten reduziert die KaP-Kosten um 2.
+  src:
+    - id: US25005
+      firstPage: 158
+
+- target: LITURGY_175
+  level1:
+    id: 403
+    name: "Schwurbrecher-Aura"
+    effect: |
+      Der Geweihte kann erkennen, ob der Makel des Schwurbrechers (siehe **Aventurisches Götterwirken** Seite **71**) auf seinem Gegenüber liegt.
+  level2:
+    id: 404
+    name: "Frevler-Aura"
+    effect: |
+      Der Geweihte kann erkennen, ob der Makel des Frevlers (siehe **Aventurisches Götterwirken** Seite **71**) auf seinem Gegenüber liegt. Voraussetzung: Liturgieerweiterung *Schwurbrecher-Aura*.
+  level3:
+    id: 405
+    name: "Verdammten-Aura"
+    effect: |
+      Der Geweihte kann erkennen, ob der Makel des Verdammten (siehe **Aventurisches Götterwirken** Seite **72**) auf seinem Gegenüber liegt. Voraussetzung: Liturgieerweiterung *Frevler-Aura*.
+  src:
+    - id: US25005
+      firstPage: 158
+
+- target: LITURGY_176
+  level1:
+    id: 406
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 Tage.
+  level2:
+    id: 407
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS Wochen. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  level3:
+    id: 408
+    name: "Längere Wirkungsdauer 3"
+    effect: |
+      Die Wirkungsdauer beträgt QS Monate. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 2*.
+  src:
+    - id: US25005
+      firstPage: 158
+
+- target: LITURGY_177
+  level1:
+    id: 409
+    name: "Größere Erleichterung"
+    effect: |
+      Es können (QS/2)+1 Erschwernisse ignoriert werden.
+  level2:
+    id: 410
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Zeremonie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Zeremonie festgelegt werden.
+  level3:
+    id: 411
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 159
+
+- target: LITURGY_178
+  level1:
+    id: 412
+    name: "Mehr Personen"
+    effect: |
+      Die Zeremonie erstreckt sich auf QS+3 Personen.
+  level2:
+    id: 413
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  level3:
+    id: 414
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 2 Tage.
+  src:
+    - id: US25005
+      firstPage: 159
+
+- target: LITURGY_179
+  level1:
+    id: 415
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 16 Schritt.
+  level2:
+    id: 416
+    name: "Zielkategorie magische Objekte"
+    effect: |
+      Die Zielkategorie umfasst auch magische Objekte. Sind permanente AsP darin gebunden, muss der Geweihte ebenso viele permanente KaP opfern.
+  level3:
+    id: 417
+    name: "Zielkategorie karmale Objekte"
+    effect: |
+      Die Zielkategorie umfasst auch karmale Objekte. Sind permanente KaP darin gebunden, muss der Geweihte ebenso viele permanente KaP opfern.
+  src:
+    - id: US25005
+      firstPage: 159
+
+- target: LITURGY_180
+  level1:
+    id: 418
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 419
+    name: "Sprachfähigkeit"
+    effect: |
+      Der Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 420
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 160
+
+- target: LITURGY_181
+  level1:
+    id: 421
+    name: "Große Gebäude 1"
+    effect: |
+      Große Tempel können geweiht werden. Darunter fallen viele Stadttempel. Die KaP-Kosten belaufen sich auf 64 KaP, davon 16 permanent.
+  level2:
+    id: 422
+    name: "Große Gebäude 2"
+    effect: |
+      Riesige Tempel können geweiht werden. Darunter fällt beispielsweise das Gebrochene Rad, der Haupttempel der Puniner Boronkirche. Die KaP-Kosten belaufen sich auf 128 KaP, davon 32 permanent. Voraussetzung: Liturgieerweiterung *Große Gebäude 1*.
+  level3:
+    id: 423
+    name: "Große Gebäude 3"
+    effect: |
+      Gigantische Tempel oder Tempelanlagen können geweiht werden. Darunter fällt z. B. die Stadt des Lichts in Gareth. Die KaP-Kosten belaufen sich auf 256 KaP, davon 64 permanent. Voraussetzung: Liturgieerweiterung *Große Gebäude 2*.
+  src:
+    - id: US25005
+      firstPage: 160
+
+- target: LITURGY_182
+  level1:
+    id: 424
+    name: "Tiefer Einblick"
+    effect: |
+      Der Geweihte erhält Einblick in die Persönlichkeit des Ziels und kann alle Persönlichkeitsschwächen und Schlechten Eigenschaften identifizieren.
+  level2:
+    id: 425
+    name: "Noch tieferer Einblick"
+    effect: |
+      Der Geweihte erkennt Ziele und Motivationen des Träumers. Bei *Menschenkenntnis*, *Bekehren&Überzeugen*, *Überreden* und *Heilkunde Seele* bekommt der Geweihte gegenüber dem Träumer eine Erleichterung von 1 für 1 Tag. Voraussetzung: Liturgieerweiterung *Tiefer Einblick*.
+  level3:
+    id: 426
+    name: "Sprechender Traumgänger"
+    effect: |
+      Der Geweihte kann im Traum zum Ziel sprechen. Voraussetzung: Liturgieerweiterung *Noch tieferer Einblick*.
+  src:
+    - id: US25005
+      firstPage: 160
+      lastPage: 161
+
+- target: LITURGY_183
+  level1:
+    id: 427
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  level2:
+    id: 428
+    name: "Mehr Gewicht"
+    effect: |
+      Das Ziel kann QS x 2 Stein zusätzlich tragen (statt nur QS Stein).
+  level3:
+    id: 429
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 161
+
+- target: LITURGY_184
+  level1:
+    id: 430
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Jahre.
+  level2:
+    id: 431
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  level3:
+    id: 432
+    name: "Seelenheilung"
+    effect: |
+      Die *Heilkunde Seele*-Probe ist zusätzlich um 2 erleichtert.
+  src:
+    - id: US25005
+      firstPage: 161
+
+- target: LITURGY_185
+  level1:
+    id: 433
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS Wochen. Die Kosten steigen auf 16 KaP.
+  level2:
+    id: 434
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS Monate. Die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  level3:
+    id: 435
+    name: "Längere Wirkungsdauer 3"
+    effect: |
+      Die Wirkungsdauer beträgt QS Jahre. Die Kosten steigen auf 64 KaP. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 2*.
+  src:
+    - id: US25005
+      firstPage: 161
+
+- target: LITURGY_186
+  level1:
+    id: 436
+    name: "Verwirrter Geweihter"
+    effect: |
+      Erleidet ein Geweihter SP durch die verfluchte Waffe, bekommt er zusätzlich 1 Stufe *Verwirrung*.
+  level2:
+    id: 437
+    name: "Verängstigter Geweihter"
+    effect: |
+      Erleidet ein Geweihter SP durch die verfluchte Waffe, bekommt er zusätzlich 1 Stufe *Furcht*.
+  level3:
+    id: 438
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage.
+  src:
+    - id: US25005
+      firstPage: 162
+
+- target: LITURGY_187
+  level1:
+    id: 439
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS x 30 Meilen.
+  level2:
+    id: 440
+    name: "Genaue Entfernung"
+    effect: |
+      Der Geweihte kann auf eine Meile genau sagen, wie weit die Unterkunft entfernt ist.
+  level3:
+    id: 441
+    name: "Genaue Erreichbarkeit"
+    effect: |
+      Der Geweihte kann genauere Angaben zur Erreichbarkeit machen und z. B. spüren, ob ein Fluss oder ein Berg im Weg ist. Somit kann er auch Umwege einkalkulieren.
+  src:
+    - id: US25005
+      firstPage: 162
+
+- target: LITURGY_188
+  level1:
+    id: 442
+    name: "Größere Gebäude 1"
+    effect: |
+      Größere Gebäude können geweiht werden. Darunter fallen viele Stadtvillen oder mehrstöckige Gebäude. Die KaP-Kosten belaufen sich auf 16 KaP.
+  level2:
+    id: 443
+    name: "Größere Gebäude 2"
+    effect: |
+      Riesige Gebäude können geweiht werden. Darunter fallen beispielsweise kleinere Burgen. Die KaP-Kosten belaufen sich auf 32 KaP. Voraussetzung: Liturgieerweiterung *Größere Gebäude 1*.
+  level3:
+    id: 444
+    name: "Größere Gebäude 3"
+    effect: |
+      Gigantische Gebäude können geweiht werden. Darunter fallen beispielsweise Schlösser und Festungen. Die KaP-Kosten belaufen sich auf 64 KaP. Voraussetzung: Liturgieerweiterung *Größere Gebäude 2*.
+  src:
+    - id: US25005
+      firstPage: 162
+
+- target: LITURGY_189
+  level1:
+    id: 445
+    name: "Bessere Reparatur"
+    effect: |
+      Die Zeremonie gibt QS x 30 Strukturpunkte wieder zurück.
+  level2:
+    id: 446
+    name: "Waffen- und Rüstungsreparatur"
+    effect: |
+      Auch Waffen und Rüstungen können wiederhergestellt werden. Um Rüstungen wiederherzustellen, benötigt der Geweihte so viele QS, wie die Rüstung Rüstungsschutz besitzt. Bei Waffen der Kampftechniken Dolche und Raufen muss 1 QS erzielt werden, bei anderen Waffen mindestens 2 QS. Zweihandwaffen können nur mit mindestens 3 QS wiederhergestellt werden.
+  level3:
+    id: 447
+    name: "Perfekte Reparatur"
+    effect: |
+      Die Zeremonie gibt QS x 50 Strukturpunkte wieder zurück. Außerdem wird bei Waffen und Rüstungen eine QS weniger benötigt. Voraussetzung: Liturgieerweiterung *Bessere Reparatur und Waffen- und Rüstungsreparatur*.
+  src:
+    - id: US25005
+      firstPage: 163
+
+- target: LITURGY_190
+  level1:
+    id: 448
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Zeremonie umfasst auch die Zielkategorie Lebewesen.
+  level2:
+    id: 449
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS Wochen, die Zeremonie kostet dafür 16 KaP (Kosten sind nicht modifizierbar).
+  level3:
+    id: 450
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS Monate, die Zeremonie kostet dafür 32 KaP (Kosten sind nicht modifizierbar). Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  src:
+    - id: US25005
+      firstPage: 163
+
+- target: LITURGY_191
+  level1:
+    id: 451
+    name: "Begleiter erlaubt"
+    effect: |
+      Auch tierische Begleiter wie Esel, Pferde und Vertrautentiere werden durch die Zuflucht geschützt. Die Kosten betragen bei ihnen 2/4/8/16 KaP für die Größenkategorie winzig/klein/mittel/groß.
+  level2:
+    id: 452
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  level3:
+    id: 453
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 24 Stunden.
+  src:
+    - id: US25005
+      firstPage: 163
+
+- target: LITURGY_192
+  level1:
+    id: 454
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 455
+    name: "Sprachfähigkeit"
+    effect: |
+      Die Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 456
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 164
+
+- target: LITURGY_1
+  level1:
+    id: 457
+    name: "Lichtregulation"
+    effect: |
+      Der Geweihte kann das Licht innerhalb der Wirkungsdauer nach Belieben heller oder dunkler werden lassen (bis zu einem Maximum der erzielten QS).
+  level2:
+    id: 458
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level3:
+    id: 459
+    name: "Lichtkegel"
+    effect: |
+      Das Licht strömt in Form eines Kegels von 45 Grad vom Geweihten aus. In diesem Kegel wirkt die QS um 1 höher (bis zu einem Maximum von 6). Die restliche Umgebung wird mit einer um 1 niedrigeren als der erzielten QS beleuchtet (bis zu einem Minimum von 1).
+  src:
+    - id: US25005
+      firstPage: 164
+
+- target: LITURGY_2
+  level1:
+    id: 460
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  level2:
+    id: 461
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level3:
+    id: 462
+    name: "Vier Ziele"
+    effect: |
+      Die Liturgie wirkt gegen bis zu 4 Ziele gleichzeitig. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  src:
+    - id: US25005
+      firstPage: 164
+
+- target: LITURGY_3
+  level1:
+    id: 463
+    name: "Längeres Intervall"
+    effect: |
+      Das Intervall beträgt 15 Minuten.
+  level2:
+    id: 464
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS x 5 Schritt.
+  level3:
+    id: 465
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  src:
+    - id: US25005
+      firstPage: 164
+
+- target: LITURGY_4
+  level1:
+    id: 466
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 2 KR.
+  level2:
+    id: 467
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 16 Schritt.
+  level3:
+    id: 468
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig treffen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  src:
+    - id: US25005
+      firstPage: 164
+
+- target: LITURGY_5
+  level1:
+    id: 469
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 16 Schritt.
+  level2:
+    id: 470
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 10 Minuten.
+  level3:
+    id: 471
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann die Liturgie auf bis zu 4 Ziele gleichzeitig wirken. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  src:
+    - id: US25005
+      firstPage: 164
+
+- target: LITURGY_6
+  level1:
+    id: 472
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level2:
+    id: 473
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 15 Minuten, sodass der Held 25 Foliantenseiten pro QS entziffern kann.
+  level3:
+    id: 474
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig unterstützen. Jedes Ziel nach dem ersten kostet zusätzlich 2 KaP.
+  src:
+    - id: US25005
+      firstPage: 164
+      lastPage: 165
+
+- target: LITURGY_7
+  level1:
+    id: 475
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 476
+    name: "Schnellsteigerung"
+    effect: |
+      Die Liturgiedauer beträgt 1 Aktion, die Wirkungsdauer wird dafür auf QS KR reduziert.
+  level3:
+    id: 477
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig ermutigen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  src:
+    - id: US25005
+      firstPage: 165
+
+- target: LITURGY_8
+  level1:
+    id: 478
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Minuten.
+  level2:
+    id: 479
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 480
+    name: "Klippensturz"
+    effect: |
+      Für jede QS kann der Geweihte 5 Schritt Fallschaden ignorieren.
+  src:
+    - id: US25005
+      firstPage: 165
+
+- target: LITURGY_9
+  level1:
+    id: 481
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 KR.
+  level2:
+    id: 482
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Liturgie kann aufrechterhalten werden mit Aktivierungskosten von 16 KaP und 8 KaP pro 5 Minuten.
+  level3:
+    id: 483
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Bei diesen ist die AT des Gegners jedoch nur um QS/2 erschwert und auch nur, wenn die Ziele der Liturgie sich ebenfalls friedfertig verhalten, solange die Liturgie wirkt.
+  src:
+    - id: US25005
+      firstPage: 165
+
+- target: LITURGY_10
+  level1:
+    id: 484
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 485
+    name: "Tadelloser Entgifter"
+    effect: |
+      Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6).
+  level3:
+    id: 486
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig entgiften. Jedes Ziel nach dem ersten kostet zusätzlich Giftstufe x 2 KaP.
+  src:
+    - id: US25005
+      firstPage: 165
+
+- target: LITURGY_11
+  level1:
+    id: 487
+    name: "Weiter entfernter Gegenstand"
+    effect: |
+      Der Gegenstand darf bis zu QS x 2 Schritt vom Geweihten entfernt sein.
+  level2:
+    id: 488
+    name: "Magischer Fingerzeig"
+    effect: |
+      Der Gegenstand darf auch durch magisches Wirken verborgen sein, aber die QS von Göttlicher Fingerzeig muss die QS der Magie übersteigen.
+  level3:
+    id: 489
+    name: "Karmaler Fingerzeig"
+    effect: |
+      Der Gegenstand darf auch durch karmales Wirken verborgen sein, aber die QS von Göttlicher Fingerzeig muss die QS der Liturgie übersteigen.
+  src:
+    - id: US25005
+      firstPage: 165
+
+- target: LITURGY_12
+  level1:
+    id: 490
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 16 Schritt.
+  level2:
+    id: 491
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS x 25 Schritt.
+  level3:
+    id: 492
+    name: "Mächtiges Zeichen"
+    effect: |
+      Die Erleichterung beträgt 2.
+  src:
+    - id: US25005
+      firstPage: 165
+      lastPage: 166
+
+- target: LITURGY_13
+  level1:
+    id: 493
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  level2:
+    id: 494
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 8 Schritt.
+  level3:
+    id: 495
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich mindestens 4 KaP (oder die Kosten der zurückgegebenen LeP, je nachdem, was teurer ist).
+  src:
+    - id: US25005
+      firstPage: 166
+
+- target: LITURGY_14
+  level1:
+    id: 496
+    name: "Verteilter Schaden 1"
+    effect: |
+      Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden.
+  level2:
+    id: 497
+    name: "Verteilter Schaden 2"
+    effect: |
+      Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig auf alle Ziele verteilt werden. Voraussetzung: Liturgieerweiterung *Verteilter Schaden 1*.
+  level3:
+    id: 498
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich.
+  src:
+    - id: US25005
+      firstPage: 166
+
+- target: LITURGY_15
+  level1:
+    id: 499
+    name: "Verteilter Schaden 1"
+    effect: |
+      Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden.
+  level2:
+    id: 500
+    name: "Verteilter Schaden 2"
+    effect: |
+      Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig auf alle Ziele verteilt werden. Voraussetzung: Liturgieerweiterung *Verteilter Schaden 1*.
+  level3:
+    id: 501
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich.
+  src:
+    - id: US25005
+      firstPage: 166
+
+- target: LITURGY_16
+  level1:
+    id: 502
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 503
+    name: "Tadelloser Krankheitsheiler"
+    effect: |
+      Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6).
+  level3:
+    id: 504
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich Krankheitsstufe x 2 KaP.
+  src:
+    - id: US25005
+      firstPage: 166
+
+- target: LITURGY_17
+  level1:
+    id: 505
+    name: "Verstecken"
+    effect: |
+      Auch das Anwendungsgebiet sich Verstecken ist enthalten.
+  level2:
+    id: 506
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level3:
+    id: 507
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 166
+
+- target: LITURGY_18
+  level1:
+    id: 508
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level2:
+    id: 509
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Der Bonus beträgt hierbei QS/2 auf SK und ZK.
+  level3:
+    id: 510
+    name: "Schutz der Gefährten"
+    effect: |
+      Der Geweihte kann beliebig viele Ziele gleichzeitig schützen. Die KaP-Kosten müssen für jedes Ziel extra getragen werden. Der Bonus beträgt hierbei QS/2 auf SK und ZK.
+  src:
+    - id: US25005
+      firstPage: 166
+
+- target: LITURGY_19
+  level1:
+    id: 511
+    name: "Zwei Gegenstände"
+    effect: |
+      Der Geweihte kann die Liturgie auf bis zu zwei Gegenstände gleichzeitig wirken.
+  level2:
+    id: 512
+    name: "Kegelsicht"
+    effect: |
+      Die Liturgie wirkt für 1 KR lang innerhalb des Sichtfelds des Geweihten bis maximal 8 Schritt Entfernung auf alle in diesem Feld befindlichen Objekte und Wesen. Das Sichtfeld des Geweihten ist nicht veränderlich, erlaubt ist also nur der Blick in eine Richtung. Da der Geweihte sich dabei nicht auf eine spezielle Sache konzentrieren kann, werden die erreichten QS vor dem Konsultieren der Tabelle halbiert. Diese Art der karmalen Wahrnehmung zählt als ungerichtete karmale Wahrnehmung.
+  level3:
+    id: 513
+    name: "Rundumsicht"
+    effect: |
+      Für 1 KR erhält der Geweihte eine Rundumsicht, die 8 Schritt weit reicht. Er kann sich auf der Stelle drehen, aber sich nicht anderweitig bewegen. Bei Gelingen der Liturgie erhält er automatisch nur 1 QS, kann aber damit alle Gegenstände in Blickreichweite erfassen. Diese Art der karmalen Wahrnehmung zählt als ungerichtete karmale Wahrnehmung.
+  src:
+    - id: US25005
+      firstPage: 166
+
+- target: LITURGY_20
+  level1:
+    id: 514
+    name: "Längeres Intervall"
+    effect: |
+      Pro 1 KaP kann die Liturgie 1 Stunde aufrechterhalten werden.
+  level2:
+    id: 515
+    name: "Keine Aufrechterhaltung"
+    effect: |
+      Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden.
+  level3:
+    id: 516
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 167
+
+- target: LITURGY_21
+  level1:
+    id: 517
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 Minuten.
+  level2:
+    id: 518
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 10 Minuten. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  level3:
+    id: 519
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 167
+
+- target: LITURGY_22
+  level1:
+    id: 520
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 Stunden.
+  level2:
+    id: 521
+    name: "Starker Objektsegen"
+    effect: |
+      Durch den Geweihten gesegnete Materialien weisen eine besonders starke Wirkung gegen Dämonen auf. Sie erzeugen bei der Berührung durch Dämonen am Ende einer KR 1 SP zusätzlich (siehe **Regelwerk** Seite **316**). Dies gilt nur für die Berührung.
+  level3:
+    id: 522
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 10 Stunden. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  src:
+    - id: US25005
+      firstPage: 167
+
+- target: LITURGY_23
+  level1:
+    id: 523
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 Stunden.
+  level2:
+    id: 524
+    name: "Stärkere Stille 1"
+    effect: |
+      Auch laute Geräusche werden gedämpft (nicht aber Zauber, Liturgien und Schreie), allerdings ist die Probe auf *Sinnesschärfe* dafür nur um QS/2 erschwert. Der Geweihte kann sich selbst weiterhin gut hören.
+  level3:
+    id: 525
+    name: "Stärkere Stille 2"
+    effect: |
+      Auch laute Geräusche werden gedämpft (nicht aber Zauber und Liturgien). Der Geweihte kann sich selbst weiterhin gut hören. Voraussetzung: Liturgieerweiterung *Stärkere Stille 1*.
+  src:
+    - id: US25005
+      firstPage: 167
+
+- target: LITURGY_24
+  level1:
+    id: 526
+    name: "Schnellerer Wuchs"
+    effect: |
+      Die Pflanze wächst um 50 % schneller.
+  level2:
+    id: 527
+    name: "Beet"
+    effect: |
+      Für 16 KaP kann ein kleines Beet angelegt werden, welches für 12 Pflanzen ausreicht.
+  level3:
+    id: 528
+    name: "Feld"
+    effect: |
+      Für 32 KaP kann ein kleines Feld angelegt werden, welches für 12 x 12 Pflanzen ausreicht. Voraussetzung: Liturgieerweiterung *Beet*.
+  src:
+    - id: US25005
+      firstPage: 167
+
+- target: LITURGY_25
+  level1:
+    id: 529
+    name: "Mehr Raben"
+    effect: |
+      Es können bis zu QS kleine Gegenstände transportiert werden.
+  level2:
+    id: 530
+    name: "Größerer Radius"
+    effect: |
+      Der Radius beträgt QS x 5 Meilen.
+  level3:
+    id: 531
+    name: "Größere Transportreichweite"
+    effect: |
+      Die Transportreichweite beträgt QS x 5 Meilen.
+  src:
+    - id: US25005
+      firstPage: 167
+
+- target: LITURGY_26
+  level1:
+    id: 532
+    name: "Liturgiedauer modifizierbar"
+    effect: |
+      Die Liturgiedauer ist doch modifizierbar.
+  level2:
+    id: 533
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 Minuten.
+  level3:
+    id: 534
+    name: "Verteilte Wirkung"
+    effect: |
+      Die Zustandsstufen können auf mehrere Ziele verteilt werden, die vor dem Wirken der Liturgie benannt werden müssen. Kann der Geweihte z. B. 3 Stufen *Betäubung* verursachen, darf er auf drei Ziele 1 Stufe verteilen oder einem Ziel 2 Stufen und einem anderen 1 Stufe aufbürden.
+  src:
+    - id: US25005
+      firstPage: 167
+
+- target: LITURGY_27
+  level1:
+    id: 535
+    name: "Verwirrungsgift"
+    effect: |
+      Das Gift der Stabschlange wird ersetzt durch ein Gift, das statt *Schmerz* *Verwirrung* verursacht. Außerdem steigt die AT auf 14, während die Giftstufe auf 4 sinkt.
+  level2:
+    id: 536
+    name: "Kräftige Schlange"
+    effect: |
+      Die Stabschlange verfügt über 20 LeP.
+  level3:
+    id: 537
+    name: "Schnelle Schlange"
+    effect: |
+      Die Stabschlange verfügt über INI 15 und VW 5.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_28
+  level1:
+    id: 538
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 10 Minuten.
+  level2:
+    id: 539
+    name: "Mehr Schlangen"
+    effect: |
+      Die Liturgie wirkt auf alle Schlangen innerhalb Hör- und Sichtweite des Geweihten.
+  level3:
+    id: 540
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_29
+  level1:
+    id: 541
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level2:
+    id: 542
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 KR.
+  level3:
+    id: 543
+    name: "Schmerzimmunität"
+    effect: |
+      Auch *Schmerz* der Stufe IV kann ignoriert werden.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_30
+  level1:
+    id: 544
+    name: "Vier Ziele"
+    effect: |
+      Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig gewirkt werden. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  level2:
+    id: 545
+    name: "Zielkategorie Lebewesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Lebewesen.
+  level3:
+    id: 546
+    name: "Zielkategorie Wesen"
+    effect: |
+      Die Liturgie umfasst auch die Zielkategorie Wesen. Voraussetzung: Liturgieerweiterung *Zielkategorie Lebewesen*.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_31
+  level1:
+    id: 547
+    name: "Längere Wirkungsdauer 1"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden.
+  level2:
+    id: 548
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage.
+  level3:
+    id: 549
+    name: "Bessere Preise"
+    effect: |
+      Das Objekt erzielt einen um QS x 20 % höheren Preis.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_32
+  level1:
+    id: 550
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 Minuten.
+  level2:
+    id: 551
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level3:
+    id: 552
+    name: "Andere Fragesteller"
+    effect: |
+      Der Geweihte kann beliebige Kulturschaffende benennen, denen das Ziel der Liturgie ebenso wahrheitsgemäß antworten muss.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_33
+  level1:
+    id: 553
+    name: "Schnellsteigerung"
+    effect: |
+      Die Liturgiedauer beträgt nur 1 Aktion, die Wirkungsdauer wird dafür auf QS x 3 KR reduziert.
+  level2:
+    id: 554
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 5 Minuten.
+  level3:
+    id: 555
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_34
+  level1:
+    id: 556
+    name: "Zeichensprache"
+    effect: |
+      Die Liturgie wirkt auch bei Zeichensprachen.
+  level2:
+    id: 557
+    name: "Tadelloser Übersetzer"
+    effect: |
+      Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6).
+  level3:
+    id: 558
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_35
+  level1:
+    id: 559
+    name: "Größerer Acker"
+    effect: |
+      Die gesegnete Fläche kann bis zu QS x 2.000 Quadratschritt groß sein.
+  level2:
+    id: 560
+    name: "Noch größerer Acker"
+    effect: |
+      Die gesegnete Fläche kann bis zu QS x 5.000 Quadratschritt groß sein. Voraussetzung: Liturgieerweiterung *Größerer Acker*.
+  level3:
+    id: 561
+    name: "Mehrere Wachstumszyklen"
+    effect: |
+      Pro 8 KaP zusätzlich wirkt die Zeremonie einen weiteren Wachstumszyklus.
+  src:
+    - id: US25005
+      firstPage: 168
+
+- target: LITURGY_36
+  level1:
+    id: 562
+    name: "Spezialisierter Exorzismus"
+    effect: |
+      Eine Untergruppe von Wesen der Gegengottheit, die beim Aktivieren dieser Liturgieerweiterung ausgewählt werden muss, weist eine um 1 schlechtere SK gegen den Exorzismus auf. Dies können beispielsweise Zantim bei Rondrageweihten oder Gotongis bei Praiosgeweihten sein.
+  level2:
+    id: 563
+    name: "Geister-Exorzismus"
+    effect: |
+      Geister weisen eine um 1 schlechtere SK gegen den Exorzismus auf.
+  level3:
+    id: 564
+    name: "Dämonen-Exorzismus"
+    effect: |
+      Alle Dämonen mit bis zu 5 Hörnern weisen eine um 1 schlechtere SK gegen den Exorzismus auf. Voraussetzung: Liturgieerweiterung *Spezialisierter Exorzismus*.
+  src:
+    - id: US25005
+      firstPage: 168
+      lastPage: 169
+
+- target: LITURGY_37
+  level1:
+    id: 565
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 30 Minuten.
+  level2:
+    id: 566
+    name: "Starke Weihe"
+    effect: |
+      Dämonen erleiden 1W3+1 SP bei der Berührung des geweihten Panzers.
+  level3:
+    id: 567
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25005
+      firstPage: 169
+
+- target: LITURGY_38
+  level1:
+    id: 568
+    name: "Aufrechterhaltend"
+    effect: |
+      Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden.
+  level2:
+    id: 569
+    name: "Sprachfähigkeit"
+    effect: |
+      Der Geweihte kann in Tiergestalt sprechen.
+  level3:
+    id: 570
+    name: "Klerikales Tier"
+    effect: |
+      Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung *Sprachfähigkeit*.
+  src:
+    - id: US25005
+      firstPage: 169
+
+- target: LITURGY_39
+  level1:
+    id: 571
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 30 Minuten.
+  level2:
+    id: 572
+    name: "Mitverwandelte Kleidung"
+    effect: |
+      Auch die Kleidung des Geweihten wird mitverwandelt.
+  level3:
+    id: 573
+    name: "Starker Nebel"
+    effect: |
+      Nur bei starkem Gegenwind muss eine *Willenskraft*-Probe abgelegt werden. Die GS des Geweihten als Nebel beträgt 8.
+  src:
+    - id: US25005
+      firstPage: 169
+
+- target: LITURGY_40
+  level1:
+    id: 574
+    name: "Schwächere Weihe"
+    effect: |
+      Das Objekt ist nicht permanent geweiht, sondern nur QS Tage. Es fallen keine permanenten KaP-Kosten an. Die Zeremoniedauer beträgt nur 30 Minuten.
+  level2:
+    id: 575
+    name: "Mehr Gewicht"
+    effect: |
+      Das Objekt kann bis (4+QS) x 3 Stein wiegen.
+  level3:
+    id: 576
+    name: "Mehrere Ziele"
+    effect: |
+      Der Geweihte kann beliebig viele Ziele gleichzeitig weihen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP und 2 permanente KaP.
+  src:
+    - id: US25005
+      firstPage: 169
+
+- target: LITURGY_226
+  level1:
+    id: 577
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 578
+    name: "Große Reue"
+    effect: |
+      War der Paktierer ein Minderpaktierer und unterzog er sich dem Ritual freiwillig, verschwindet das Mal des Frevlers.
+  level3:
+    id: 579
+    name: "Verkürzte Zeremoniedauer"
+    effect: |
+      Die Zeremonie weist eine Zeremoniedauer von 30 Minuten auf, allerdings ist die Probe zusätzlich um 5 erschwert.
+  src:
+    - id: US25008
+      firstPage: 80
+
+- target: LITURGY_206
+  level1:
+    id: 580
+    name: "Längere Wirkungsdauer I"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden.
+  level2:
+    id: 581
+    name: "Mehrere Ziele"
+    effect: |
+      Die Geweihte kann mehrere Ziele gleichzeitig segnen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  level3:
+    id: 582
+    name: "Längere Wirkungsdauer II"
+    effect: |
+      Die Wirkungsdauer beträgt QS Tage. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer I*.
+  src:
+    - id: US25213
+      firstPage: 188
+
+- target: LITURGY_207
+  level1:
+    id: 583
+    name: "Lirtugieerweiterung I"
+    effect: |
+      Das Ziel bekommt die *Persönlichkeitsschwäche Selbstzweifel*, die immer dann eine I Erschwernis von 1 einbringt, wenn es davon ausgeht, dass das eigene Aussehen Nachteile mit sich bringt.
+  level2:
+    id: 584
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 6 Stunden.
+  level3:
+    id: 585
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele gleichzeitig verunstalten. Das zweite Ziel kostet zusätzlich 4 KaP.
+  src:
+    - id: US25213
+      firstPage: 188
+
+- target: LITURGY_208
+  level1:
+    id: 586
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 30 Minuten.
+  level2:
+    id: 587
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf freiwillige Ziele übertragen werden.
+  level3:
+    id: 588
+    name: "Betörender Rausch"
+    effect: |
+      Proben auf *Betören (Anbändeln)* sind für den Anwender um QS/2 erleichtert.
+  src:
+    - id: US25213
+      firstPage: 188
+
+- target: LITURGY_209
+  level1:
+    id: 589
+    name: "Starke Erregung"
+    effect: |
+      Die Liturgie verursacht bis zu 3 Stufen *Erregung*.
+  level2:
+    id: 590
+    name: "Mehrere Ziele"
+    effect: |
+      Die Geweihte kann mehrere Ziele gleichzeitig erregen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP.
+  level3:
+    id: 591
+    name: "Heilige Ekstase"
+    effect: |
+      Erreicht das Ziel durch die Liturgie *Erregungsstufe IV*, wird die *Erregung* auf 0 reduziert und das Ziel bekommt 2 Stufen *Entrückung*. Als wohlgefällige Talente gelten die Talente der *Tradition (Rahjakirche)* oder *Tradition (Levthankult)*, je nachdem, wer die Liturgie gewirkt hat (siehe Seite **162**). Das Ziel kann während der Wirkungsdauer keine weiteren Stufen *Entrückung* erhalten.
+  src:
+    - id: US25213
+      firstPage: 189
+
+- target: LITURGY_210
+  level1:
+    id: 592
+    name: "Einengendes Band"
+    effect: |
+      Statt dem Status *Fixiert* kann sich der Priester dazu entscheiden, dass das Ziel den Status *Eingeengt* erhält.
+  level2:
+    id: 593
+    name: "Kosten modifizierbar"
+    effect: |
+      Die Kosten sind doch modifizierbar.
+  level3:
+    id: 594
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 2 KR
+  src:
+    - id: US25213
+      firstPage: 189
+
+- target: LITURGY_211
+  level1:
+    id: 595
+    name: "Gefühlsübertragung"
+    effect: |
+      Die Liturgie wirkt nicht nur auf den Geweihten, sondern auch auf den anderen freiwilligen Teilnehmer des Liebesspiels. Dieser spürt dann die Gefühle des Geweihten und erhält die gleichen Vorteile der Liturgie ihm gegenüber.
+  level2:
+    id: 596
+    name: "Gefühle aus der Ferne"
+    effect: |
+      Nach dem Ende der Liturgiedauer kann sich der Geweihte entfernen und spürte die Gefühle des anderen Teilnehmers, während dieser einen gewöhnlichen Beischlafs oder ein Liebesspiel vollführt, auch weiterhin. Diese Verbindung hält 24 Stunden an. Voraussetzung: Liturgieerweiterung *Gefühlsübertragung*.
+  level3:
+    id: 597
+    name: "Gefühlsbund"
+    effect: |
+      Der Geweihte kann ein Band zwischen mehreren Teilnehmern eines Liebesspiels weben. Der Geweihte kann sich hierbei auch auslassen und die Liturgie nur auf andere wirken. Die Ziele spüren dann die Gefühle der anderen Ziele und erhalten die gleichen Vorteile der Liturgie allen Teilnehmern gegenüber. Ab dem dritten Ziel kostet jeder weitere Teilnehmer nach den ersten beiden den Geweihten zusätzlich 4 KaP.
+  src:
+    - id: US25213
+      firstPage: 189
+
+- target: LITURGY_212
+  level1:
+    id: 598
+    name: "Noch geiler"
+    effect: |
+      Statt 2 Stufen erhält der Geweihte 3 Stufen *Erregung* und kann diese verteilen.
+  level2:
+    id: 599
+    name: "Geilheitsfokussierung"
+    effect: |
+      Der Geweihte kann Teilnehmern 1 Stufe *Erregung* nehmen und sich selbst gutschreiben. Dies funktioniert auch, wenn die Teilnehmer gerade Erregungsstufe IV erreicht haben, aber jedem Teilnehmer kann der Geweihte nur 1 Stufe nehmen.
+  level3:
+    id: 600
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Dadurch kann auch ein anderer Teilnehmer die Erregung weitergeben.
+  src:
+    - id: US25213
+      firstPage: 190
+
+- target: LITURGY_213
+  level1:
+    id: 601
+    name: "Ausgeglichenheit"
+    effect: |
+      Nach dem ekstatischen Höhepunkt sind Proben auf *Willenskraft* bei Schlechten Eigenschaften für 6 Stunden um QS/2 erleichtert.
+  level2:
+    id: 602
+    name: "Kontrolle des Triebs"
+    effect: |
+      Wann immer die Geweihte innerhalb der nächsten 6 Stunden 1 weitere Stufe *Erregung* nach ihrem ekstatischen Höhepunkt erhalten soll, kann sie sich entscheiden, ob sie die Stufe bekommt oder nicht. Erhält sie jedoch mehrere Stufen des Zustands auf einen Schlag, schützt die Erweiterung nicht und die Geweihte bekommt die *Erregung* vollumfänglich zu spüren.
+  level3:
+    id: 603
+    name: "Zügelloses Verlangen"
+    effect: |
+      Die Geweihte ist in der Lage, binnen der nächsten 6 Stunden während des Liebesspiels einmalig 2 Stufen *Erregung* bei einem anderen Teilnehmer zu verursachen. Dies ist eine Verführungshandlung.
+  src:
+    - id: US25213
+      firstPage: 190
+
+- target: LITURGY_214
+  level1:
+    id: 604
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 605
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden.
+  level3:
+    id: 606
+    name: "Längere Wirkungsdauer 2"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 2 Stunden. Voraussetzung: Liturgieerweiterung *Längere Wirkungsdauer 1*.
+  src:
+    - id: US25213
+      firstPage: 190
+
+- target: LITURGY_215
+  level1:
+    id: 607
+    name: "Schnelle Freude"
+    effect: |
+      Der Priester und die Teilnehmer können QS/2+1 Durchgänge überspringen.
+  level2:
+    id: 608
+    name: "Keine Grenzen des Rauschs"
+    effect: |
+      Erregungsschranken können vom Geweihten ignoriert werden. Jeder weitere Teilnehmer, die die Schranken ignorieren soll, kostet zusätzlich 8 KaP.
+  level3:
+    id: 609
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25213
+      firstPage: 191
+
+- target: LITURGY_216
+  level1:
+    id: 610
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer betrögt QS x 2 Stunden.
+  level2:
+    id: 611
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  level3:
+    id: 612
+    name: "Behandlung von Geschlechtskrankheiten"
+    effect: |
+      Sollte mindestens so viele QS erzielt werden, wie die Stufe der Krankheit beträgt, wird diese augenblicklich geheilt.
+  src:
+    - id: US25213
+      firstPage: 191
+
+- target: LITURGY_217
+  level1:
+    id: 613
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 614
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt 2 Stunden.
+  level3:
+    id: 615
+    name: "Vier Ziele"
+    effect: |
+      Der Geweihte kann bis zu 4 Ziele gleichzeitig mit der Obsession belegen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP.
+  src:
+    - id: US25213
+      firstPage: 191
+
+- target: LITURGY_218
+  level1:
+    id: 616
+    name: "Größere Reichweite"
+    effect: |
+      Die Reichweite beträgt 4 Schritt.
+  level2:
+    id: 617
+    name: "Einsichten I"
+    effect: |
+      Der Priester erhält bei Proben auf *Bekehren & Überzeugen (Einzelgespräch)* und *Betören (Anbändeln)* eine Erleichterung von 1 gegenüber dem Ziel.
+  level3:
+    id: 618
+    name: "Einsichten II"
+    effect: |
+      Der Priester erhält bei Proben auf *Überreden* eine Erleichterung von 1 gegenüber dem Ziel. Voraussetzung: *Liturgieerweiterung Einsichten I*.
+  src:
+    - id: US25213
+      firstPage: 191
+
+- target: LITURGY_219
+  level1:
+    id: 619
+    name: "Überzeugungsarbeit I"
+    effect: |
+      Die Erleichterung von QS/2 gilt auch für Proben auf *Bekehren & Überzeugen (Einzelgespräch* oder *öffentlich Rede)*, sofern sie dazu dienen, sich von Bedenken loszusagen und den eigenen Trieben nachzugehen.
+  level2:
+    id: 620
+    name: "Überzeugungsarbeit II"
+    effect: |
+      Die Erleichterung von QS/2 gilt auch für Proben auf *Betören (Anbändeln oder Liebeskünste)*, sofern sie dazu dienen, sich von Bedenken loszusagen und den eigenen Trieben nachzugehen. Voraussetzung: *Liturgieerweiterung; Überzeugungsarbeit I*.
+  level3:
+    id: 621
+    name: "Reichweite Berührung"
+    effect: |
+      Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden.
+  src:
+    - id: US25213
+      firstPage: 192
+
+- target: LITURGY_220
+  level1:
+    id: 622
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 3 Stunden.
+  level2:
+    id: 623
+    name: "Einsichten ins andere Geschlecht"
+    effect: |
+      Proben auf *Betören (Liebeskünste)* beim Liebesspiel gegenüber Personen des Geschlechts, in welches der Held durch die Zeremonie verwandelt wurde, sind um 1 erleichtert, solange die Wirkungsdauer anhält.
+  level3:
+    id: 624
+    name: "Wechselndes Geschlecht"
+    effect: |
+      Während der Wirkungsdauer kann der Held beliebig zwischen den Geschlechtern wechseln. Dies erfordert jeweils 8 Aktionen und ist jeweils ein anstrengender Vorgang. Der Geschlechtswechselnde erleidet dadurch 1 Stufe *Verwirrung*.
+  src:
+    - id: US25213
+      firstPage: 192
+
+- target: LITURGY_221
+  level1:
+    id: 625
+    name: "Partnerorgasmus"
+    effect: |
+      Nicht nur das Ziel, auch die übrigen Teilnehmer des Liebesspiels erreichen ihren ekstatischen Höhepunkt und erhalten eine Belohnung, selbst wenn sie nicht Erregungsstufe IV erlangen. Allerdings muss zumindest das Ziel der Zeremonie wie gewohnt den ekstatischen Höhepunkt erreicht haben. Die Belohnung der übrigen Teilnehmer muss ein oder mehr Belohnungsgrade niedriger sein, als die höchste Belohnung des Ziels.
+  level2:
+    id: 626
+    name: "Mehrere Ziele"
+    effect: |
+      Die Geweihte kann beliebig viele Ziele durch die Liturgie auswählen. Jedes Ziel nach dem ersten kostet zusätzlich 16 KaP.
+  level3:
+    id: 627
+    name: "Göttlicher Sinnesrausch"
+    effect: |
+      Das Ziel kann bei 12 Durchgängen und dem ekstatischen Höhepunkt die Belohnung *Göttlicher Sinnesrausch* wählen (siehe Seite **106**).
+  src:
+    - id: US25213
+      firstPage: 193
+
+- target: LITURGY_222
+  level1:
+    id: 628
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS Stunden.
+  level2:
+    id: 629
+    name: "Mehr Penisse, mehr Brüste und noch mehr Vaginas"
+    effect: |
+      Das Ziel kann noch weitere Geschlechtsmerkmale pro Kategorie Penis, Vagina und Brust erhalten. Die weiteren Geschlechtsmerkmale müssen nicht der gleichen Kategorie entsprechen, wie beim ersten zusätzlichen Geschlechtsmerkmal. Allerdings kostet jedes weitere 8 zusätzliche KaP. Maximal können bis zu 2 zusätzliche Penisse, 2 zusätzliche Vaginas und 4 zusätzliche Brüste entstehen.
+  level3:
+    id: 630
+    name: "Vier Arme"
+    effect: |
+      Die Zeremonie bewirkt, dass dem Ziel zwei zusätzliche Arme wachsen. Die beiden Arme können einen weiteren Teilnehmer erregen, wenn sie für die Sexpraktiken Faustverkehr, Fingerspiele und Reiben & Streicheln eingesetzt werden. Sollten die Arme für etwas anderes als das Liebesspiel eingesetzt werden, endet die Wirkung augenblicklich.
+  src:
+    - id: US25213
+      firstPage: 193
+
+- target: LITURGY_223
+  level1:
+    id: 631
+    name: "Verausgabung"
+    effect: |
+      Der Geweihte kann QS x 2 LeP verschenken
+  level2:
+    id: 632
+    name: "Mehrere Ziele"
+    effect: |
+      Die Zeremonie kann auf mehrere Ziele gewirkt werden.
+  level3:
+    id: 633
+    name: "Totale Erschöpfung"
+    effect: |
+      Der Geweihte kann zusätzlich bis zu QS/2 Punkte KO und 1 Punkt KK von sich auf den anderen Teilnehmer übertragen. Diese Eigenschaftspunkte verliert der Geweihte während der Regenerationsphase und sie werden dem Teilnehmer gutgeschrieben. Die Übertragung endet 6 Stunden nach dem Aufwachen der beiden Liebenden und die Punkte wechseln wieder zum Geweihten.
+  src:
+    - id: US25213
+      firstPage: 194
+
+- target: LITURGY_224
+  level1:
+    id: 634
+    name: "Längere Wirkungsdauer"
+    effect: |
+      Die Wirkungsdauer beträgt QS x 2 Jahre.
+  level2:
+    id: 635
+    name: "Andere Tätowieren"
+    effect: |
+      Die Geweihte kann auch eine andere Person als eine Person mit der *Tradition (Rahjakirche)* tätowieren.
+  level3:
+    id: 636
+    name: "Machtvolle Tätowierung"
+    effect: |
+      Einmal am Tag kann die Trägerin der Tätowierung eine CH-Teilprobe auf *Betören* neuwürfeln und das bessere Ergebnis zählt.
+  src:
+    - id: US25213
+      firstPage: 194
+
+- target: LITURGY_225
+  level1:
+    id: 637
+    name: "Verzückung"
+    effect: |
+      Das Ziel erhält 2 Stufen *Erregung* statt 1 Stufe.
+  level2:
+    id: 638
+    name: "Willensschwäche"
+    effect: |
+      Die Probe auf *Willenskraft (Betören wiederstehen)* wird um QS erschwert.
+  level3:
+    id: 639
+    name: "Zwei Ziele"
+    effect: |
+      Der Geweihte kann bis zu 2 Ziele durch den Lusttrank erregen. Das zweite Ziel ist der Kulturschaffende, der als zweites von dem Lusttrank trinkt. Das zweite Ziel kostet zusätzlich 4 KaP.
+  src:
+    - id: US25213
+      firstPage: 194
+

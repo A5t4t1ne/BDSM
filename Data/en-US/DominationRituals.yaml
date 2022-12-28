@@ -1,0 +1,59 @@
+- id: SPELL_339
+  name: "Outbreak of Suppressed Emotions"
+  effect: |
+    This ritual gives the target a Personality Flaw or Negative Trait. The victim suffers from the appropriate disadvantage while the ritual remains in effect.
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  duration: "QL in Day"
+  durationShort: "QL d"
+  src:
+    - id: US25101E
+      firstPage: 170
+
+- id: SPELL_340
+  name: "Figurine of Pain"
+  effect: |
+    The druid creates a figurine of wax, wood, or other non-metallic material, embedding the physical component from the chosen target. Once cast, the druid stabs the figurine with a druid dagger, holds it over fire, or otherwise damages it to cause the victim to suffer pain. The target suffers 1 level of *Pain* for 24 hours for every 5 full minutes the druid damages the figurine. The ritual cannot cause more than one level of *Pain*. If the druid does not torture the figurine, nothing happens, but the magical connection remains in effect for the duration of the ritual. The pain fades within one hour of the duration's end.
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  duration: "QL/2 days"
+  durationShort: "QL/2 d"
+  src:
+    - id: US25101E
+      firstPage: 169
+
+- id: SPELL_341
+  name: "Curse of Pestilence"
+  effect: |
+    The victim contracts a disease known to the druid, with the exception of the magical disease, duglum's plague. The disease's level cannot be higher than the caster's SR in the ritual. The disease runs its course as usual but isn't contagious.
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  duration: "Until the disease runs its course, but no more than QL x 3 days"
+  durationShort: "Illness/QL x 3 d"
+  src:
+    - id: US25101E
+      firstPage: 169
+
+- id: SPELL_342
+  name: "Curse of Sleeplessness"
+  effect: |
+    Whenever the victim falls asleep for at least a few seconds, nightmares wake them up again, and they cannot benefit from Regeneration Phases. The loss of sleep makes them nervous and irascible, and they suffer from hallucinations. Per two days without sleep, the target suffers one level of *Confusion* for every two days without sleep. This condition fades only when sleep is possible again.
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  duration: "QL x 2 days"
+  durationShort: "QL x 2 d"
+  src:
+    - id: US25101E
+      firstPage: 169
+
+- id: SPELL_343
+  name: "Power Over Sleepwalkers"
+  effect: |
+    The druid burns a pile of mistletoe plucked by the druid's own hand, and adds a physical component from the victim to the fire. When the target next falls asleep, the druid makes the target sleepwalk. The druid sees what the target sees and has full control over the target's body. The sleepwalker becomes *slow* (half MOV) and *clumsy* (-1 to all skill checks; -2 AT; -1 PA; -1 DO). The physical skills, attributes, and combat stats of the target apply. For all other skills and mental attributes, use the druid's own stats. The druid cannot cast spells or liturgical chants through the target. If the target suffers damage, the domination ends. Targets that are ordered to hurt themselves or break their principles may make a *Willpower* check to ignore the command. The GM can award a modifier to the check. While using this ritual, the caster suffers the state *immobile*.
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  duration: "QL Hours"
+  durationShort: "QL h"
+  src:
+    - id: US25101E
+      firstPage: 170

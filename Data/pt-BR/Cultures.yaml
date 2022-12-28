@@ -1,0 +1,481 @@
+- id: C_1
+  name: "Andergastiano"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Vila de Andergast, Joborn)"
+  commonMundaneProfessions: "todas menos Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Senso de Direção, Lutador Robusto"
+  commonDisadvantages: "Falhas de Personalidade (Preconceitos - geralmente contra Nostrianos e mulheres; Indiferentes - geralmente ao progresso e a vida fora do Reino), Traço Negativo (Supersticiosos)"
+  uncommonAdvantages: "Socialmente Adaptável"
+  uncommonDisadvantages: "Suscetível a Doenças"
+  commonNames: |
+    - *Masculino:* Arnbold, Borkhelm, Gartwald, Ludewich, Marik, Oakward, Strammgert, Wendolyn, Wenzelaus, Zoltan
+    - *Feminino:* Berga, Domela, Ernka, Hadwiga, Irmela, Larja, Marmelunde, Treshka, Wendeline
+    - *Sobrenomes:* Alrikshuber, Barkmaster, Hatcheter, Cowfarmer, Marketfarmer, Oakinger, Saddlehuber, Swineherd, Woodgood, Zibbelbert
+    - *Famílias Nobres:* de Outrapedra, de Campocascalho, de Garrapedra, de Pedrarvora, de Teshkal
+  src:
+    - id: US25001E
+      firstPage: 99
+
+- id: C_2
+  name: "Araniano"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Baburin, Elburum, Llanka, Palmyrabad, Zorgan)"
+  commonMundaneProfessions: "todas menos Cavaleiro, Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa (principalmente Bruxas-Gato), Mago (raro)"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Aptidão em Perícias Sociais, Sentido de Alcance"
+  commonDisadvantages: "Falhas de Personalidade (Preconceitos -principalmente contra Novadis e magos; Vaidade), Sensível a Dor, Traço Negativo (Superstição)"
+  uncommonAdvantages: "Resistente ao Frio"
+  uncommonDisadvantages: "Frenesi"
+  commonNames: |
+    - *Masculino:* Assaf, Djafardeon, Eslam, Faizal, Kazan, Mahdul, Marwamir, Nazir, Seychaban, Zahir
+    - *Feminino:* Aishanka, Belima, Delilah, Harizeth, Majula, Neraida, Rhayadaque, Shilaldara, Yamira, Zulhaminai
+    - Os nomes estão ligados ao nome da mãe ou do pai, com ibn para homens e saba ou - sunni para as mulheres (por exemplo, Yamira saba Delihah, Belima Majulasunni, ou Assaf ibn Eslam).
+  src:
+    - id: US25001E
+      firstPage: 100
+
+- id: C_3
+  name: "Natadiano"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Festum, Norburg, Notmark, Ouvenmas, Rodebrannt)"
+  commonMundaneProfessions: "todas menos Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa (principalmente Bruxas-Sapo e Corvo), Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Lutador Robusto, Resistente ao Frio, Senso de Direção"
+  commonDisadvantages: "Falha de Personalidade (Preconceitos - geralmente contra orcs, goblins, Al'Anfans e Norbardes), Suscetível ao Calor, Traço Negativo (Superstição)"
+  uncommonAdvantages: "Resistente ao Calor"
+  commonNames: |
+    - *Masculino:* Bosjew, Danow, Elkwin, Firunew, Irjan, Jaakon, Jucho, Oswin, Travin, Vito
+    - *Feminino:* Alwinja, Dunjascha, Elkwinja, Hesinja, Irinja, Jadvine, Karinja, Nadjescha, Rowena, Vanjescha
+    - *Sobrenomes:* Alwinnen, Baerow, Bornski, Firunkis, Gartimpski, Gerberow, Karenkis, Larinow, Saraski, Timpski
+    - *Famílias Nobres:* de Vaucinza, de Fontescura, de Ouvenstem, de Salderkeim, de Wosna
+  src:
+    - id: US25001E
+      firstPage: 113
+
+- id: C_4
+  name: "Fjarning"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, a aldeia natal e a área circundante)"
+  commonMundaneProfessions: "Caçador, Curandeiro (principalmente Curandeiro), Guerreiro Tribal, Mercenário, Mercador (principalmente Negociante)"
+  commonAdvantages: "Regeneração Aprimorada (Pontos de Vida), Resistente Ao Frio, Senso de Direção, Sentido de Alcance"
+  commonDisadvantages: "Frenesi, Incompetência em Perícias Sociais, Medo de (Mar), Suscetível ao Calor, Traço Negativo (Supersticioso, Pavio Curto)"
+  uncommonAdvantages: "Aparência Comum, Resistente ao Calor, Socialmente Adaptável"
+  uncommonDisadvantages: "Cegueira Noturna, Falha de Personalidade (Vaidade), Medo de (Escuridão, Espaços Apertados ou Altura), Obesidade, Sensível a dor, Suscetível a Doenças, Suscetível ao Frio"
+  commonNames: |
+    - *Masculino:* Asgold, Blotgrim, Engur, Frunobar, Gjallur, Havgrimur, Pandur, Raluf, Surthor, Valbrandar
+    - *Feminino:* Asgora, Dandagard, Funudara, Gunnlaug, Halfga, Jaldrud, Rangra, Svannlaug, Ulfgard, Ylwa
+    - *Known Tribes:* Tribo do Machado Duplo, Tribo da Raposa do Gelo, Tribo das Espadas Gritantes
+
+    Sobrenomes são incomuns; nomes honoríficos como Maturso, Frialâmina, ou Morte à Espreita são populares.
+  src:
+    - id: US25001E
+      firstPage: 105
+
+- id: C_5
+  name: "Horasiano"
+  areaKnowledgeShort: "Região Natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Arivor, Belhanka, Bethana, Grangor, Kuslik, Methumis, Neetha, Vinsal)"
+  commonMundaneProfessions: "todas menos Cavaleiro, Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Peraine, Abençoado de Phex, Abençoado de Praios, Abençoado de Rondra"
+  commonAdvantages: "Socialmente Adaptável"
+  commonDisadvantages: "Falha de Personalidade (Arrogância, Vaidade, Preconceito - geralmente contra estrangeiros)"
+  uncommonAdvantages: "Aptidão com Perícias Naturais"
+  uncommonDisadvantages: "Medo de... (Espaços Apertados)"
+  commonNames: |
+    - *Masculino:* Alricio, Baduin, Carolan, Cusimo, Duardo, Horadan, Jacopo, Phedro, Quendan, Rondrigo
+    - *Feminino:* Ardare, Carisia, Elaria, Gylvana, Hesindiane, Pamina, Quedora, Rahjamande, Sanya, Sharina
+    - *Sobrenomes:* Bosvani, Caranda, Delicado, Marnion, Melior, Novacasa, Spinola, Torrean, Ulfaran, Vansanti
+    - *Famílias Nobres:* Barazza, Casibelli, Cavarno, Marcia, Sulvano
+
+    Os nobres geralmente colocam um dy entre o nome e o sobrenome da família, como em Ardare Dy Casibelli.
+  src:
+    - id: US25001E
+      firstPage: 106
+
+- id: C_6
+  name: "Maraskan"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Boran, Jergan, Sinoda, Tuzak)"
+  commonMundaneProfessions: "todas menos Cavaleiro, Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonAdvantages: "Resistente ao Calor, Resistente a Venenos, Resistente a Doenças, Senso de Direção, Socialmente Adaptável"
+  commonDisadvantages: "Traço Negativo (Curioso), Falha de Personalidade (Arrogância, Preconceitos - principalmente contra os Meridianos)"
+  uncommonAdvantages: "Resistente ao Frio"
+  uncommonDisadvantages: "Daltonismo, Medo de (Insetos), Traço Negativo (Pavio Curto)"
+  commonNames: |
+    - *Masculino:* Alrech, Brinziber, Denderan, Dshindziber, Feruziber, Firold, Gerbaldijian, Mulziber, Perjin, Vegsziber
+    - *Feminino:* Bekasabu, Dajida, Fathimajida, Garasab, Harikajida, Madajida, Shinojida, Tsarysham, Yasindajida, Zulamidjida
+
+    Sobrenomes são incomuns, mas muitas vezes uma cidade natal ou apelido é incluído no nome, como Vegziber de Sinoda, ou Dajida, o Rápido.
+  src:
+    - id: US25001E
+      firstPage: 107
+
+- id: C_7
+  name: "Mhanadistani"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo Fasar, Khunchom, Rashdul, Thalusa)"
+  commonMundaneProfessions: "todas menos Cavaleiro e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa (principalmente Bruxas-Gato), Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Resistente ao Calor, Socialmente Adaptável, Sorte"
+  commonDisadvantages: "Falha de Personalidade (Preconceitos—principalmente contra Novadi, Meridianos, Aranianos, mulheres, Maraskanos, e Vaidade), Traço Negativo (Curiosidade, Ganância, Superstição), Sensível a Dor"
+  uncommonAdvantages: "Resistente ao Frio"
+  uncommonDisadvantages: "Medo de... (Espaços Apertados, Multidões)"
+  commonNames: |
+    - *Masculino:* Abu, Cherek, Dshadir, Farsid, Hamar, Ismeth, Jassafer, Kasim, Shafir, Tarek
+    - *Feminino:* Chanya, Demeya, Djamilla, Kerime, Manjula, Nassiban, Palmeya, Sajida, Yeshina, Zulhamin
+    - *Honoríficos para Homens:* al-Ahjan (o combativo), al-Ahmad (o vingador), al-Alam (o estudioso), al- Ankhra (o leão), Al-Fessor (o astuto)
+    - *Honoríficos para Mulheres:* al-Jamila (a bela), as-Shabra (a brilhante), as-Shaya (jóia), as-Sarjaban (gata Araniana), bint-al-Laila (filha da noite)
+
+    Os nomes estão ligados ao nome da mãe ou do pai, usando ibn para os homens e saba ou -sunni para as mulheres. Exemplos: Djamilla saba Kerime, Zulhamin Yeshinasunni, ou Cherek ibn Hamar.
+  src:
+    - id: US25001E
+      firstPage: 110
+
+- id: C_8
+  name: "Meridiano"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Angbar, Elenvina, Gareth, Griffonsford, Havena, Punin)"
+  commonMundaneProfessions: "todas menos Guerreiros Tribal; Gladiadores são muito raros"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Sorte"
+  commonDisadvantages: "Traço Negativo (Superstição), Falha de Personalidade (Preconceitos - principalmente contra pagãos, elfos, orcs, goblins e não-Meridianos)"
+  uncommonAdvantages: "Resistente ao Frio, Resistente ao Calor"
+  commonNames: |
+    - *Masculino:* Alrik, Cordovan, Darian, Erlan, Gerion, Hagen, Praiodan, Refardeon, Viburn, Yendor
+    - *Feminino:* Alena, Caya, Dorlen, Elwene, Fiana, Khorena, Oleana, Quisira, Sannah, Xaviera
+    - *Sobrenomes:* Alfaran, Berlind, Damotil, Esculpedra, Fazarnês, Gelinverno, Pelederaposa, Rebanholeve, Tumbalsamo, Zandor
+    - *Famílias Nobres:* da Montanha, de Galahan, de Semprecanto, de Contesta, de Rochadatempestade
+  src:
+    - id: US25001E
+      firstPage: 108
+
+- id: C_9
+  name: "Mohas"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo uma aldeia e a área circundante)"
+  commonMundaneProfessions: "Caçador (principalmente Armadilheiro), Curandeiro, Guerreiro Tribal, Mercador (principalmente Negociante), Mercenário"
+  commonAdvantages: "Contorcionista, Boa Aparência, Resistente ao Calor, Resistente a Venenos, Senso de Direção"
+  commonDisadvantages: "Espírito Reduzido, Falha de Personalidade (Preconceitos - principalmente contra não-Mohas), Medo de (Espaços Apertados, do Mar, Mortos e Mortos-Vivos), Suscetível ao Frio, Traço Negativo (Curiosidade, Superstição)"
+  uncommonAdvantages: "Resistente ao Frio"
+  uncommonDisadvantages: "Cegueira Noturna, Falha de Personalidade (Vaidade), Incompetente com Perícias Naturais, Medo de (Altura, Insetos, Répteis ou Aranhas), Suscetível a Doenças, Traço Negativo (Ganância)"
+  commonNames: |
+    - *Povo da Floresta:* Cankuna (Ágil), Kehala (Tartaruga), Takete (Aquele Cujas Mãos Estão Sempre Cobertas de Sangue), Wapiya (Aquela Cujas Mãos Fazem o Bem), Yako (Gato, Grande Gato)
+    - *Utulu:* Kalimba, Mangabe, Shasiwatu, Tenkile, Usuthu
+    - *Tocamuyac:* Anakena, Ataranga, Kiri, Miru, Rano
+    - *Tibos Conhecidas:* Anoiha, Chirakah, Darna, Haipu, Keke-Wanaq, Miniwatu, Mohaha, Napewanha, Oijaniha, Panaq-Si, Ruwangi, Shokubunga, Tocamuyac
+
+    Os nomes Mohianos são unissex.
+  src:
+    - id: US25001E
+      firstPage: 111
+
+- id: C_10
+  name: "Nivese"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, um trecho de terra)"
+  commonMundaneProfessions: "Caçador (principalmente Armadilheiro), Curandeiro, Guerreiro Tribal, Mercador (principalmente Negociante), Mercenário"
+  commonAdvantages: "Resistente ao Frio, Senso de Direção"
+  commonDisadvantages: "Medo de (Espaços Apertados, Altura, Mortos e Mortos-Vivos)"
+  uncommonAdvantages: "Resistente ao Calor, Socialmente Adaptável"
+  uncommonDisadvantages: "Falha De Personalidade (Arrogância), Obesidade, Traço Negativo (Ganância)"
+  commonNames: |
+    - *Masculino:* Arko, Eiko, Garnan, Hunjok, Jurtan, Kinajo, Latu, Nerkjo, Tamperen, Valen
+    - *Feminino:* Amuri, Dana, Geika, Jalani, Kantala, Liskaju, Myrra, Nirka, Saari, Vaala
+    - *Tribos Conhecidas:* Hokke, Rika-Lie, Takku, Lieska-Leddu, Lieska-Lärna
+  src:
+    - id: US25001E
+      firstPage: 114
+
+- id: C_11
+  name: "Norbardes"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, um trecho de estrada)"
+  commonMundaneProfessions: "Caçador, Curandeiro, Ladino, Mercador, Mercenário"
+  commonMagicalProfessions: "Bruxa, Mago (raro)"
+  commonBlessedProfessions: "Abençoado de Hesinde, Abençoado de Phex"
+  commonAdvantages: "Resistente ao Frio, Senso de Direção"
+  commonDisadvantages: "Medo de (Espaços Apertados ou Altura), Obrigações (para com a família), Traço Negativo (Curiosidade, Ganância)"
+  uncommonAdvantages: "Resistente ao Calor"
+  uncommonDisadvantages: "Falha de Personalidade (Arrogância), Princípios (qualquer tipo))"
+  commonNames: |
+    - *Masculino:* Aikul, Beril, Darjew, Fadril, Jagotin, Kergil, Laromir, Mikail, Radul, Tuljew
+    - *Feminino:* Barina, Dagris, Eika, Hetinka, Janka, Kolja, Lexaja, Olja, Slanka, Tuminka
+    - *Sobrenomes:* Aljeff, Bolscheff, Choprutin, Dagoneff, Garkinen, Janig, Koranzig, Kowalejeff, Lugoltin, Sewerin
+  src:
+    - id: US25001E
+      firstPage: 115
+
+- id: C_12
+  name: "Aventuriano do Norte"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Enqui, Oblarasim, Paavi, Riva, Uhdenberg)"
+  commonMundaneProfessions: "todas menos Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Lutador Robusto, Senso de Direção, Sentido de Alcance"
+  commonDisadvantages: "Medo de (Espaços Apertados), Traço Negativo (Superstição)"
+  uncommonAdvantages: "Resistente ao Calor"
+  uncommonDisadvantages: "Suscetível a Doenças"
+  commonNames: |
+    Aventurianos do Norte podem usar nomes Merídios, Niveseanos, Norbardianos ou Thorwalianos, dependendo da sua descendência.
+  src:
+    - id: US25001E
+      firstPage: 101
+
+- id: C_13
+  name: "Nostriano"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Vila de Nostria, Salza, Portossal)"
+  commonMundaneProfessions: "todas menos Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Senso de Direção, Lutador Robusto"
+  commonDisadvantages: "Falhas de Personalidade (Preconceitos - geralmente contra Andergastianos; Indiferente - geralmente ao Progresso e a Vida Fora do Reino), Traço Negativo (Supersticiosos)"
+  uncommonAdvantages: "Socialmente Adaptável"
+  uncommonDisadvantages: "Suscetível a Doenças"
+  commonNames: |
+    - *Masculino:* Ablasion, Basílio, Dorleno, Ingvalion, Jasper, Kasimir, Modeno, Sapertyn, Valputrio, Zarquisio
+    - *Feminino:* Asmodette, Caristhea, Doranthe, Elida, Gloranthe, Kasmira, Mafizia, Nostriane, Sieghelmina, Yasmina
+    - *Sobrenomes:* Adabasio, Amêndoapura, Elgeryn, Pescador, Peleiro, Bolsarancor, Tecelão, Nosterbranco, Salterina, Wilmforte
+    - *Famílias Nobres*: de Lagopescado, de Salza, de Portossal, de Seivatalo, de Barca
+  src:
+    - id: US25001E
+      firstPage: 116
+
+- id: C_14
+  name: "Novadi"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Keft, Mherwed, Unau)"
+  commonMundaneProfessions: "todas menos Gladiador e Cavaleiro"
+  commonMagicalProfessions: "Mago (raro)"
+  commonAdvantages: "Difícil de Enfeitiçar, Lutador Robusto, Resistente ao Calor, Senso de Direção, Sentido de Alcance"
+  commonDisadvantages: "Falha de Personalidade (Arrogância, Preconceitos - principalmente contra mulheres e descrentes), Medo de (Espaços Apertados, Mar), Princípios (as 99 Leis), Traço Negativo (Pavio Curto, Vingança)"
+  uncommonAdvantages: "Resistente ao Frio"
+  uncommonDisadvantages: "Suscetível ao calor"
+  commonNames: |
+    - *Masculino:* Abdul, Chadim, Habled, Khorim, Omar, Mustafa, Nareb, Rashid, Said, Zahir
+    - *Feminino:* Aisha, Eshila, Fadime, Laila, Meriban, Nedime, Oyan, Perishan, Ranchel, Shila
+    - *Tribos Conhecidas:* Beni Ankhara, Beni Arrat, Beni Avad, Beni Brachtar, Beni Erkin, Beni Gadang, Beni Kasim, Beni Kharram, Beni Novad, Beni Schebt, Beni Shadif, Beni Szelemjati, Beni Terkui
+
+    Os nomes estão ligados ao nome da mãe ou do pai, com ben para os homens e saba ou -sunni para as mulheres. Exemplos incluem Nedime saba Shila, Ranchel Oyansunni, ou Omar ben Said. Como os Mhanadistanos, os Novadi usam honorífico
+  src:
+    - id: US25001E
+      firstPage: 117
+
+- id: C_15
+  name: "Aventuriano do Sul"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "depende da Região natal"
+  commonMundaneProfessions: "todas menos Cavaleiro e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Resistente ao Calor, Socialmente Adaptável"
+  commonDisadvantages: "Falha de Personalidade (Arrogância, Vaidade), Suscetível ao Frio, Traço Negativo (Curiosidade, Ganância, Pavio Curto, Superstição)"
+  uncommonAdvantages: "Resistente ao Frio"
+  uncommonDisadvantages: "Medo de (Espaços Apertados, Multidões, Mortos e Mortos-Vivos)"
+  commonNames: |
+    - *Masculino:* Alondro, Boromeo, Diago, Firunando, Ghorio, Lucan, Mandolo, Nestario, Ramon, Yuan
+    - *Feminino:* Consuela, Dolorita, Esmeralda, Jesabela, Katalinya, Marchesca, Phelicitas, Rahjadés, Valería, Ximena
+    - *Sobrenomes:* Beratas, Cornio, Delazar, Erabenas, Kalando, Lupinez, Malagro, Nirrano, Ramirez, Santana
+    - *Famílias da Grandeza de Al'Anfa:* Bonareth, Florios, Karinor, Paligan, Zornbrecht
+  src:
+    - id: US25001E
+      firstPage: 102
+
+- id: C_16
+  name: "Svellteano"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Gashok, Lowangen, Tiefhusen, Tjolmar)"
+  commonMundaneProfessions: "todas menos Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Lutador Robusto, Senso de Direção, Sentido de Alcance"
+  commonDisadvantages: "Falha de Personalidade (Preconceito - na maioria das vezes contra orcs), Medo de (Espaços Apertados), Traço Negativo (Superstição)"
+  uncommonAdvantages: "Resistente ao Calor"
+  uncommonDisadvantages: "Suscetível a Doenças"
+  commonNames: |
+    Svellteanos usam os mesmo nomes que são usados em Meridiano, mas geralmente os abreviam e conectam com sua aparência e ocupação. Exemplos incluem Harkon Anzol, Jole Faca ou Lu Vermelho. Os nomes geralmente são encurtados para uma sílaba.
+  src:
+    - id: US25001E
+      firstPage: 118
+
+- id: C_17
+  name: "Thorwale"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Portovelho, Prem, Vila de Thorwal, Waskir)"
+  commonMundaneProfessions: "todas menos Cavaleiro, Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonAdvantages: "Lutador Robusto, Regeneração Aprimorada (Pontos de Vida), Senso de Direção, Sentido de Alcance, Sorte"
+  commonDisadvantages: "Frenesi, Traço Negativo (Curiosidade, Superstição, Vingança), Falhas de Personalidade (Preconceitos - principalmente contra Al'Anfanos, homens-lagarto, Horasianos e baleeiros)"
+  uncommonAdvantages: "Socialmente Adaptável"
+  uncommonDisadvantages: "Medo de (Mar)"
+  commonNames: |
+    - *Masculino:* Asleif, Eirik, Frenjar, Garald, Halmar, Laske, Norri, Raskir, Thorwulf, Wulfgrimm
+    - *Feminino:* Askra, Branda, Eilif, Frenja, Janda, Korja, Norhild, Ragna, Sigrun, Thora
+
+    O sobrenome é criado combinando o primeiro nome de um dos pais com -son ou -dottir, para filhos homens ou mulheres respectivamente. Exemplos incluem Eirik Halmarson ou Ragna Frenjasdottir. Uma tradicional luta livre entre os pais muitas vezes determina de quem será o nome usado no sobrenome.
+  src:
+    - id: US25001E
+      firstPage: 119
+
+- id: C_18
+  name: "Ciclopeanos"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(Rethis ou Teremon, por exemplo)"
+  commonMundaneProfessions: "todas menos Cavaleiro e Guerreiro Tribal"
+  commonMagicalProfessions: "Bruxa, Mago"
+  commonBlessedProfessions: "Abençoado de Boron, Abençoado de Hesinde, Abençoado de Praios, Abençoado de Peraine, Abençoado de Phex, Abençoado de Rondra"
+  commonAdvantages: "Aptidão com Natação, Boa Aparência, Senso de Direção, Sentido de Alcance, Voz Bonita"
+  commonDisadvantages: "Falha de Personalidade (Arrogância, Vaidade, Preconceito - geralmente contra Thorwales)"
+  uncommonAdvantages: "Resistente ao Frio"
+  uncommonDisadvantages: "Medo de (Mar)"
+  commonNames: |
+    - *Masculino:* Amenelaos, Dariyon, Hephestaios, Kalchas, Meneander, Mermydion, Peleïston, Praiokles, Rahjenÿsios, Ximater
+    - *Feminino:* Efferdiana, Insina, Korïna, Lanike, Myrtale, Nermaka, Phylinna, Phÿllis, Sapeïdra, Telemache
+    - *Sobrenomes:* Armedos, Calakis, Egorythios, Garothis, Kalidas, Merogios, Phÿrikos, Sphareïos, Tymemdios, Uÿis
+  src:
+    - id: US25001E
+      firstPage: 101
+
+- id: C_19
+  name: "Elfo da clareira"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, uma aldeia e a área circundante)"
+  commonMagicalProfessions: "Feiticeiro, Guardião"
+  commonAdvantages: "Aptidão com Armas (geralmente Arcos), Aptidão com Perícias de Ofícios (geralmente Navegar), Sintonização Mágica (Criatura das Clareiras)"
+  commonDisadvantages: "Ligação com Artefato (Instrumento da Alma), Traço Negativo (Curioso), Falha de Personalidade (Arrogância; Preconceito - geralmente contra não-elfos; Indiferente - geralmente com Propriedades e Deuses), Princípios (Visão Élfica de Mundo)"
+  uncommonAdvantages: "Aptidão com Perícias de Conhecimento"
+  uncommonDisadvantages: "Incompetente com Perícias Físicas e Naturais, Traço Negativo (Ganancioso, Vingança)"
+  commonNames: |
+    - *Masculino:* Adalarion, Alarion, Caerleon, Delayar, Dendayar, Edorion, Elanor, Feysiriel, Lindariel, Navarion
+    - *Feminino:* Alaniel, Caerleon, Daleone, Eldariel, Gailanoe, Lauriel, Mandara, Rhianna, Sanyadriel, Valandriel
+    - *Sobrenomes*: Cumprimentador de Esquilos, Folha de Bétula, Lua-do-Mar, Musgo da Luz, Orvalho
+
+    Elfos possuem um primeiro nome e um sobrenome.
+  src:
+    - id: US25001E
+      firstPage: 121
+
+- id: C_20
+  name: "Firnelfo"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, uma aldeia e a área circundante)"
+  commonMagicalProfessions: "Feiticeiro, Guardião"
+  commonAdvantages: "Aptidão com Armas (geralmente arcos e armas de arremesso), Aptidão com Perícias Física e Naturais, Resistência ao Frio, Senso de Direção, Sintonização Mágica (Criatura do Gelo)"
+  commonDisadvantages: "Falha de Personalidade (Arrogância, Preconceito – geralmente contra nãoelfos; Indiferente – geralmente a respeito de Nobres, Propriedade, Dinheiro, Deuses, Hierarquias e Religião), Incompetente com Perícias de Conhecimento, Ligação com Artefato (Instrumento da Alma), Princípios (Visão Élfica de Mundo)"
+  uncommonAdvantages: "Aptidão com Perícias de Conhecimento, Socialmente Adaptável"
+  uncommonDisadvantages: "Incompetência com Perícias de Físicas e Naturais, Medo de (Escuridão, Espaços Apertados), Suscetível ao Frio, Traço Negativo (Ganância, Vingança)"
+  commonNames: |
+    - *Masculino:* Alriel, Delavar, Eldariel, Ilcoron, Mandaniel, Mandrion, Osagiel, Sanyarin
+    - *Feminino:* Alari, Calenleya, Elayoé, Fiannon, Mandiniel, Nioniel, Peaolé, Saleniome, Teleria, Zairi
+    - *Sobrenomes:* Flechavoadora, Noitegélida, Cristalgelo, Neve-nos-Picos, Brancoração
+
+    Elfos possuem um primeiro nome e um sobrenome.
+  src:
+    - id: US25001E
+      firstPage: 122
+
+- id: C_21
+  name: "Elfos da Floresta"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, aldeia e a área circundante)"
+  commonMagicalProfessions: "Feiticeiro, Guardião"
+  commonAdvantages: "Aptidão com Arma (geralmente Arcos), Aptidão com Perícias Físicas e Naturais, Sintonização Mágica (Criatura da Floresta)"
+  commonDisadvantages: "Falha de Personalidade (Arrogância, Preconceito - geralmente contra nãoelfos; Indiferente- geralmente a respeito de Nobres, Propriedade, Dinheiro, Deuses, Hierarquias e Religião), Incompetente com Perícias de Conhecimento, Ligação com Artefato (Instrumento da Alma), Medo de... (Espaços Apertados), Princípios (Visão Élfica de Mundo)"
+  uncommonAdvantages: "Aptidão com Perícias de Conhecimento, Socialmente Adaptável"
+  uncommonDisadvantages: "Incompetente com Perícias Físicas e Naturais, Traço Negativo (Ganancioso, Vingança)"
+  commonNames: |
+    - *Masculino:* Albion, Cinamion, Elbrenell, Fermion, Floriel, Imion, Lorion, Mandriel, Nurhavalon, Saladir
+    - *Feminino:* Allacaya, Cairlinn, Déhaoine, Feyaria, Liloé, Miamiel, Oionel, Rilaona, Shayariel, Valaria
+    - *Sobrenomes:* Crepúsculorubro, Folhavoa, Pilardesalgueiro, Raiosolar, Saudamilho
+
+    Elfos possuem um primeiro nome e um sobrenome.
+  src:
+    - id: US25001E
+      firstPage: 122
+
+- id: C_22
+  name: "Anão da Forja"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, uma vila anã e a área circundante)"
+  commonMundaneProfessions: "todas menos Cavaleiro, Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Mago (raro)"
+  commonBlessedProfessions: "Abençoado de Rondra (raro)"
+  commonAdvantages: "Aptidão com Armas (geralmente Armas de Impacto, Armas de Impacto de Duas Mãos e Bestas), Aptidão com Perícias de Ofício (geralmente Alvenaria e Metalurgia), Regeneração Aprimorada (Pontos de Vida), Lutador Robusto"
+  commonDisadvantages: "Medo de (Mar), Princípios (Código de Honra dos Anões), Traço Negativo (Avareza, Ganância), Falha de Personalidade (Arrogância, Preconceitos - geralmente contra homens-lagarto e elfos)"
+  uncommonAdvantages: "Socialmente Adaptável"
+  uncommonDisadvantages: "Cegueira Noturna, Falha de Personalidade (Vaidade), Medo de (Escuridão ou Espaços Apertados)"
+  commonNames: |
+    - *Masculino:* Andrash, Ballash, Cobaltosh, Fobosh, Ibralosh, Kirgam, Marnax, Pogolosh, Sordolax
+    - *Feminino:* Agesha, Borasha, Durga, Hogesha, Lavasha, Norturrima
+
+    Nomes anões consistem de um primeiro nome mais "filho de [pai] "ou" filha de [mãe]" (por exemplo, Andrash filho de Balash, ou Durga filha de Lavasha).
+  src:
+    - id: US25001E
+      firstPage: 126
+
+- id: C_23
+  name: "Anão de Diamante"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, uma vila anã e a área circundante)"
+  commonMundaneProfessions: "todas menos Cavaleiro, Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Mago (raro)"
+  commonBlessedProfessions: "Abençoado de Hesinde (raro), Abençoado de Phex (raro), Abençoado de Rondra (raro)"
+  commonAdvantages: "Aptidão com Perícias de Ofício (geralmente Alvenaria e Metalurgia), Socialmente Adaptável"
+  commonDisadvantages: "Falha de Personalidade (Vaidade), Medo de... (Mar), Traço negativo (Avareza, Curiosidade, Ganância)"
+  uncommonDisadvantages: "Cegueira Noturna, Frenesi, Medo de... (Espaços Apertados)"
+  commonNames: |
+    - *Masculino:* Angrox, Balum, Cratosh, Gandresh, Grotho, Jandrim, Migosh, Norrin, Rabagash, Topash
+    - *Feminino:* Angalla, Cadrima, Etoscha, Igrima, Magmasha, Segrima
+
+    Nomes anões consistem de um primeiro nome mais "filho de [pai] "ou" filha de [mãe]" (por exemplo,Balum filho de Grotho, ou Angalla filha de Segrima).
+  src:
+    - id: US25001E
+      firstPage: 125
+
+- id: C_24
+  name: "Anão do Minério"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, uma vila anã e a área circundante)"
+  commonMundaneProfessions: "todas menos Cavaleiro, Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Mago (raro)"
+  commonAdvantages: "Aptidão com Perícias de Conhecimento e Ofício (geralmente Alvenaria, História, Leis e Metalurgia)"
+  commonDisadvantages: "Falha de Personalidade (Arrogância, Preconceitos - geralmente contra nãoanões), Medo de... (Altura ou Mar), Traço Negativo (Avareza, Ganância)"
+  uncommonAdvantages: "Socialmente Adaptável"
+  uncommonDisadvantages: "Cegueira Noturna, Medo de (Escuridão ou Espaços Apertados), Traço Negativo (Curiosidade)"
+  commonNames: |
+    - *Masculino:* Arthag, Brodrosh, Famburash, Grimmbeard, Huramash, Kagrim, Partram, Shrobosh, Tarmosh, Xolgrimm
+    - *Feminino:* Aurulne, Dorella, Halrima, Korunde, Naresha, Topasa
+
+    Nomes anões consistem de um primeiro nome mais "filho de [pai] "ou" filha de [mãe] " (por exemplo, Barbasombria filho de Xolgrimm, ou Halrima filha de Dorella).
+  src:
+    - id: US25001E
+      firstPage: 127
+
+- id: C_25
+  name: "Anão da Colina"
+  areaKnowledgeShort: "Região natal"
+  areaKnowledge: "dependendo da Região natal(por exemplo, Angbar)"
+  commonMundaneProfessions: "todas menos Cavaleiro, Gladiador e Guerreiro Tribal"
+  commonMagicalProfessions: "Mago (raro)"
+  commonBlessedProfessions: "Abençoado de Peraine (raro)"
+  commonAdvantages: "Aptidão com Perícias de Ofício e Sociais (Preparar Alimento), Socialmente Adaptável"
+  commonDisadvantages: "Medo de... (Mar), Traço Negativo (Curiosidade, Ganância)"
+  uncommonDisadvantages: "Cegueira Noturna, Frenesi, Medo de... (Escuridão ou Espaços Apertados)"
+  commonNames: |
+    - *Masculino:* Artox, Bengram, Dabrash, Gerambalosh, Hargash, Obolosh, Roglom, Tlutash, Xandaresh, Zinkhal
+    - *Feminino:* Aurea, Caldera, Garesha, Ingrasha, Thuresha, Xolgima
+    - *Sobrenomes*: Baghem, Broadpan, Grumling, Hillinger, Kugelin, Sweetbread
+
+    Anões da colina usam nomes e sobrenomes próprios e desdenham das tradições de nomes usadas por outros anões.
+  src:
+    - id: US25001E
+      firstPage: 124

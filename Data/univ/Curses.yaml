@@ -1,0 +1,189 @@
+- id: SPELL_52
+# name: Beiß auf Granit!
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_5
+  checkMod: TOU
+  property: 9
+
+- id: SPELL_53
+# name: Beute!
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  property: 3
+
+- id: SPELL_54
+# name: Hagelschlag
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  property: 4
+
+- id: SPELL_55
+# name: Hexenschuss
+  check1: ATTR_3
+  check2: ATTR_5
+  check3: ATTR_7
+  checkMod: TOU
+  property: 11
+
+- id: SPELL_56
+# name: Pech an den Hals wünschen
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  property: 3
+
+- id: SPELL_57
+# name: Pestilenz
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_6
+  checkMod: TOU
+  property: 2
+
+- id: SPELL_58
+# name: Schlaf rauben
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  property: 3
+
+- id: SPELL_59
+# name: Unfruchtbarkeit
+  check1: ATTR_3
+  check2: ATTR_5
+  check3: ATTR_7
+  checkMod: TOU
+  property: 11
+
+- id: SPELL_60
+# name: Warzen sprießen
+  check1: ATTR_3
+  check2: ATTR_5
+  check3: ATTR_7
+  checkMod: TOU
+  property: 11
+
+- id: SPELL_61
+# name: Zunge lähmen
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: TOU
+  property: 3
+
+- id: SPELL_354
+# name: Ängste mehren
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  property: 3
+
+- id: SPELL_355
+# name: Geschmackssinn nehmen
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_7
+  checkMod: TOU
+  property: 11
+
+- id: SPELL_356
+# name: Gestank anheften
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: TOU
+  property: 2
+
+- id: SPELL_357
+# name: Hunger wecken
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_7
+  checkMod: SPI
+  property: 3
+
+- id: SPELL_358
+# name: Juckreiz verursachen
+  check1: ATTR_1
+  check2: ATTR_2
+  check3: ATTR_3
+  checkMod: SPI
+  property: 7
+
+- id: SPELL_359
+# name: Kornfäule
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_7
+  property: 2
+
+- id: SPELL_360
+# name: Krötenkuss
+  check1: ATTR_1
+  check2: ATTR_4
+  check3: ATTR_4
+  checkMod: SPI
+  property: 2
+
+- id: SPELL_361
+# name: Miese Laune
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  property: 3
+
+- id: SPELL_362
+# name: Mit Blindheit schlagen
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  property: 3
+
+- id: SPELL_363
+# name: Todesfluch
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  property: 2
+
+- id: SPELL_364
+# name: Viehverstümmelung
+  check1: ATTR_3
+  check2: ATTR_3
+  check3: ATTR_7
+  checkMod: SPI
+  property: 2
+
+- id: SPELL_365
+# name: Wollust verursachen
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_7
+  checkMod: SPI
+  property: 3
+
+- id: SPELL_366
+# name: Zwei linke Hände
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_5
+  checkMod: TOU
+  property: 11
+
+- id: SPELL_400
+# name: Impotenz erzeugen
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_7
+  checkMod: "SPI/TOU"
+  property: 11

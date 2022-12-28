@@ -1,0 +1,69 @@
+- id: EL_1
+# name: Unerfahren
+  ap: 900
+  maxAttributeValue: 12
+  maxSkillRating: 10
+  maxCombatTechniqueRating: 8
+  maxTotalAttributeValues: 95
+  maxSpellsLiturgicalChants: 8
+  maxUnfamiliarSpells: 0
+
+- id: EL_2
+# name: Durchschnittlich
+  ap: 1000
+  maxAttributeValue: 13
+  maxSkillRating: 10
+  maxCombatTechniqueRating: 10
+  maxTotalAttributeValues: 98
+  maxSpellsLiturgicalChants: 10
+  maxUnfamiliarSpells: 1
+
+- id: EL_3
+# name: Erfahren
+  ap: 1100
+  maxAttributeValue: 14
+  maxSkillRating: 10
+  maxCombatTechniqueRating: 12
+  maxTotalAttributeValues: 100
+  maxSpellsLiturgicalChants: 12
+  maxUnfamiliarSpells: 2
+
+- id: EL_4
+# name: Kompetent
+  ap: 1200
+  maxAttributeValue: 15
+  maxSkillRating: 13
+  maxCombatTechniqueRating: 14
+  maxTotalAttributeValues: 102
+  maxSpellsLiturgicalChants: 14
+  maxUnfamiliarSpells: 3
+
+- id: EL_5
+# name: Meisterlich
+  ap: 1400
+  maxAttributeValue: 16
+  maxSkillRating: 16
+  maxCombatTechniqueRating: 16
+  maxTotalAttributeValues: 105
+  maxSpellsLiturgicalChants: 16
+  maxUnfamiliarSpells: 4
+
+- id: EL_6
+# name: Brilliant
+  ap: 1700
+  maxAttributeValue: 17
+  maxSkillRating: 19
+  maxCombatTechniqueRating: 18
+  maxTotalAttributeValues: 109
+  maxSpellsLiturgicalChants: 18
+  maxUnfamiliarSpells: 5
+
+- id: EL_7
+# name: Legendär
+  ap: 2100
+  maxAttributeValue: 18
+  maxSkillRating: 20
+  maxCombatTechniqueRating: 20
+  maxTotalAttributeValues: 114
+  maxSpellsLiturgicalChants: 20
+  maxUnfamiliarSpells: 6

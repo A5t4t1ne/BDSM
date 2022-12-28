@@ -1,0 +1,31 @@
+- id: ATTR_1
+  name: "Coraggio"
+  short: COR
+
+- id: ATTR_2
+  name: "Acume"
+  short: ACU
+
+- id: ATTR_3
+  name: "Intuito"
+  short: INT
+
+- id: ATTR_4
+  name: "Carisma"
+  short: CAR
+
+- id: ATTR_5
+  name: "Destrezza"
+  short: DES
+
+- id: ATTR_6
+  name: "Agilità"
+  short: AGI
+
+- id: ATTR_7
+  name: "Costituzione"
+  short: COS
+
+- id: ATTR_8
+  name: "Forza"
+  short: FOR

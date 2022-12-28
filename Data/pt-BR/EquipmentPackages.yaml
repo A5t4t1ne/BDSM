@@ -1,0 +1,17 @@
+- id: EPKG_1
+  name: "Pacote de Viagem"
+  src:
+    - id: US25001E
+      firstPage: 362
+
+- id: EPKG_2
+  name: "Pacote da Natureza"
+  src:
+    - id: US25001E
+      firstPage: 363
+
+- id: EPKG_3
+  name: "Pacote Urbano"
+  src:
+    - id: US25001E
+      firstPage: 363

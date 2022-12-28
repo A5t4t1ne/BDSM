@@ -1,0 +1,12 @@
+- id: 1
+  name: "Feuer"
+- id: 2
+  name: "Wasser"
+- id: 3
+  name: "Luft"
+- id: 4
+  name: "Erz"
+- id: 5
+  name: "Humus"
+- id: 6
+  name: "Eis"

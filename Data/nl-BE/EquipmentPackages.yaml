@@ -1,0 +1,17 @@
+- id: EPKG_1
+  name: "Reispakket"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 364
+
+- id: EPKG_2
+  name: "Wildernispakket"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 364
+
+- id: EPKG_3
+  name: "Stadspakket"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 364

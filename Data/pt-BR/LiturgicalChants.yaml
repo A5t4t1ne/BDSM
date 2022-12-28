@@ -1,0 +1,726 @@
+- id: LITURGY_1
+  name: "Banir a Escuridão"
+  effect: |
+    Luz brilhante irradia da sua mão. A intensidade da luz varia com o NQ. A luz é considerada luz do sol.
+
+    - **NQ 1:** A luz é tão brilhante quanto uma vela.
+    - **NQ 2:** A luz é tão brilhante quanto uma tocha.
+    - **NQ 3:** A luz é tão brilhante quanto uma fogueira.
+    - **NQ 4:** A luz é brilhante o suficiente para iluminar uma sala de cerca de 5 metros quadrados.
+    - **NQ 5:** A luz é brilhante o suficiente para iluminar um grande salão.
+    - **NQ 6:** A luz é cegante e quase impossível de se olhar diretamente.   
+  castingTime: "1 ação"
+  castingTimeShort: "1 Act"
+  kpCost: "4 PK (conjuração) + 2 PK por minuto"
+  kpCostShort: "4 PK + 2 PK por min "
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "Permanent"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 319
+
+- id: LITURGY_2
+  name: "Banir o Medo"
+  effect: |
+    Este cântico litúrgico remove um nível da condição *Medo* por NQ.
+  castingTime: "2 ações"
+  castingTimeShort: "2 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 320
+
+- id: LITURGY_3
+  name: "Banir a Luz"
+  effect: |
+    Este cântico litúrgico cria uma esfera de escuridão em torno do Abençoado com um diâmetro de NQ x 3 metros. Qualquer pessoa dentro da esfera sofre uma penalidade de visibilidade igual ao NQ (veja **Visibilidade** na pág. 344). Fontes de luz naturais e mágicas não podem penetrar a esfera ou fornecer iluminação em seu interior. No entanto, se outro abençoado usar um cântico para criar luz dentro dela, o NQ mais alto determina se a esfera contém luz ou escuridão (como um teste competitivo). Este efeito é tudo ou nada — a esfera não é iluminada por uma luz fraca e mista. Você não sofre nenhuma penalidade pela escuridão que cria. Antes de conjurar, você deve declarar se a esfera irá se mover (com você no seu centro) ou permanecer estacionária se você se afastar.
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "16 PK (conjuração) + 8 PK por 5 minutos"
+  kpCostShort: "16 PK + 8 PK por 5 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 319
+
+- id: LITURGY_4
+  name: "Raio Ofuscante"
+  effect: |
+    O alvo está cego e sofre um nível da condição *Confusão*.
+  castingTime: "1 ação"
+  castingTimeShort: "1 Act"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "8 metros"
+  rangeShort: "8'"
+  duration: "NQ em rodadas de combate"
+  durationShort: "NQ em RC"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 325
+
+- id: LITURGY_5
+  name: "Impor a Honra"
+  effect: |
+    "Honra" neste caso significa que o alvo mantém os *seus* princípios. Dependendo da cultura e sua interpretação, isso pode significar que o alvo dá a um oponente a chance de pegar uma arma derrubada, não ataca depois que um oponente sofre um fiasco, não ataca pelas costas, não usa veneno e assim por diante.
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "8 metros"
+  rangeShort: "8'"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: LITURGY_6
+  name: "Decifrar Texto"
+  effect: |
+    A quantidade de texto que você pode ler depende do NQ. Para cada NQ, você pode ler cinco páginas de um tomo impresso ou escrito à mão em um tamanho de letra comum ou "padrão".
+  castingTime: "8 ações"
+  castingTimeShort: "8 Act"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 322
+
+- id: LITURGY_7
+  name: "Encorajar"
+  effect: |
+    O alvo torna-se mais confiante e corajoso, e recebe bônus com base no NQ. Todos os bônus são cumulativos (por exemplo, com NQ 3, o alvo recebe COR +2 e AT +1).
+
+    - **NQ 1:** COR +1
+    - **NQ 2:** AT +1
+    - **NQ 3:** COR +1
+    - **NQ 4:** AT +1
+    - **NQ 5:** COR +1
+    - **NQ 6:** Espírito +1
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Criaturas Inteligentes, Criaturas Sobrenaturais"
+  src:
+    - id: US25001E
+      firstPage: 322
+
+- id: LITURGY_8
+  name: "Cair no Vazio"
+  effect: |
+    O Abençoado pode ignorar 3 metros de dano de queda para cada NQ.
+  castingTime: "1 ação"
+  castingTimeShort: "1 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 rodadas de combate"
+  durationShort: "NQ x 3 em CR"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 321
+
+- id: LITURGY_9
+  name: "Aura Pacífica"
+  effect: |
+    Oponentes devem fazer testes com Força de *Vontade (Enfrentar Ameaças)* para atacá-lo (e precisam obter um NQ maior do que o NQ do cântico litúrgico para fazêlo). Se falharem no teste, não podem atacar. Se forem bem sucedidos, seu ataque sofrerá uma penalidade igual ao NQ do cântico litúrgico. Este cântico litúrgico só protege o conjurador. Enquanto o cântico litúrgico permanece em vigor, o Abençoado não pode realizar ataques (combate corpo a corpo ou à distância) ou iniciar outras ações ofensivas contra oponentes, mas pode apoiar companheiros.
+  castingTime: "1 ação"
+  castingTimeShort: "1 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 rodadas de combate"
+  durationShort: "NQ x 3 em RC"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 319
+
+- id: LITURGY_10
+  name: "Banir Veneno"
+  effect: |
+    *Banir Veneno* neutraliza um veneno. O nível máximo de veneno que ele pode tratar é igual ao NQ do cântico. Se o NQ não for alto o suficiente para neutralizar o veneno, o cântico litúrgico falha.
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "2 PK por nível do veneno"
+  kpCostShort: "2 PK por NV"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 320
+
+- id: LITURGY_11
+  name: "Orientação Divina"
+  effect: |
+    Deve haver um item apropriado no alcance. Pode ser uma chave escondida para um baú, um bilhete com pistas ou uma ferramenta improvisada que se prove útil. Se o item está escondido com magia ou poder divino, você não pode encontrá-lo usando este cântico litúrgico. O item não pode estar a mais de NQ metros de você.
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_12
+  name: "Sinal Divino"
+  effect: |
+    O sinal se manifesta como um trovão emitido a partir de um céu sem nuvens (Rondra), o chamado de uma cegonha (Peraine) ou um breve momento de silêncio absoluto (Boron).<br>
+    As pessoas percebem o sinal divino dentro de uma zona com raio de NQ x 10 metros.<br>
+    O MJ pode conceder-lhe um bônus para testes de *Persuasão* se você incluir o sinal na sua fala.
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "4 metros"
+  rangeShort: "4'"
+  duration: "NQ x 3 em rodadas de combate"
+  durationShort: "NQ x 3 em CR"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 325
+
+- id: LITURGY_13
+  name: "Bênção de Cura"
+  effect: |
+    O alvo recupera um número de PVs igual aos PKs gastos no cântico. Você pode usar tantos PKs quanto você tiver de GP no cântico. A cura ocorre em cinco minutos. Se você começar a conjurar o cântico durante o período de tempo definido pela Constituição de uma personagem mortalmente ferida, você pode salvar a vida dela (veja *Medidas de Salvação e Morte* no Capítulo 12: Regras Detalhadas, na página **336**). Se o cântico litúrgico for interrompido, o alvo sobrevive apenas pelo número de RCs que restarem.
+  castingTime: "16 ações"
+  castingTimeShort: "16 Act"
+  kpCost: "1 PK per PV, at least 4 PK"
+  kpCostShort: "1 PK por PV (4+)"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas Inteligentes, Criaturas Sobrenaturais"
+  src:
+    - id: US25001E
+      firstPage: 320
+
+- id: LITURGY_14
+  name: "Banimento de Mortos-Vivos Menor"
+  effect: |
+    *Banir* causa DN 2D6 + (NQx2) (ignorando PRO) contra um alvo Morto-Vivo. O *Banir* acerta automaticamente, e o alvo não pode se defender.
+  castingTime: "1 ação"
+  castingTimeShort: "1 Act"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "8 metros"
+  rangeShort: "8'"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Undead"
+  src:
+    - id: US25001E
+      firstPage: 319
+
+- id: LITURGY_15
+  name: "Raio de Banimento Menor"
+  effect: |
+    O *Raio de Banimento Menor* causa DN 2D6 + (NQx2) (ignorando PRO) contra demônios, e inflige o dobro de dano contra demônios especificamente do reino de Blakharaz. Os alvos não podem se defender contra *Raios de Banimento* de raios, que os atingem automaticamente. *Raio de Banimento Menor* pode ser conjurado mesmo que o céu não possa ser visto, uma vez que se origina do demônio que ele supostamente deve destruir ao invés de vir de cima.
+  castingTime: "2 ações"
+  castingTimeShort: "2 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "16 metros"
+  rangeShort: "16'"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Demônios"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_16
+  name: "Banir Doença"
+  effect: |
+    Este cântico litúrgico cura doenças. O nível máximo de doença que pode ser curado é igual ao NQ. Se o NQ não for alto o suficiente para curar a doença, o cântico litúrgico falha. Banir Doença cura os sintomas de uma doença, mas não cura os danos já sofridos (condições, perda de PVs e assim por diante).
+  castingTime: "16 ações"
+  castingTimeShort: "16 Act"
+  kpCost: "2 PK por nível da doença"
+  kpCostShort: "2 PK por ND"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 320
+
+- id: LITURGY_17
+  name: "Nenhum Som"
+  effect: |
+    Testes de *Furtividade (Esgueirar-se)* recebem um bônus igual ao NQ.
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "4 PK (conjuração) + 2 PK por minuto"
+  kpCostShort: "4 PK + 2 PK por min "
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_18
+  name: "Proteção Contra Magia"
+  effect: |
+    Você recebe um bônus de NQ–1 em Espírito e Tenacidade (de pelo menos 1) contra efeitos mágicos.
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "8 PK (conjuração) + 4 PK por 10 minutos"
+  kpCostShort: "8 PK + 4 PK por 10 min "
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_19
+  name: "Ver Magia"
+  effect: |
+    A EA do alvo pode dar um bônus ou penalidade para o teste. O Abençoado pode examinar apenas uma criatura ou objeto dentro do alcance, não tudo o que por acaso esteja a vista. O Abençoado ganha conhecimento ou bônus baseados no NQ (desde que o Abençoado entenda a magia que está sendo estudada).
+
+    - **NQ 1:** Há magia presente?
+    - **NQ 2:** O NQ máximo para o teste de análise mágica aumenta em 1.
+    - **NQ 3:** Recebe 1 de bônus no teste para o ritual de *Analisar* (ou cântico litúrgico similar) conjurado posteriormente no mesmo alvo.
+    - **NQ 4:** Recebe 2 de bônus no teste para o ritual de *Analisar* (ou cântico litúrgico similar) conjurado posteriormente no mesmo alvo.
+    - **NQ 5:** O NQ máximo para o teste de análise mágica aumenta em 2.
+    - **NQ 6:** Recebe 3 de bônus no teste para o ritual de *Analisar* (ou cântico litúrgico similar) conjurado posteriormente no mesmo alvo.
+    
+    Bônus para o máximo de NQ ou *Analisar* (ou cântico litúrgico semelhante) não são cumulativos. Além disso, o herói recebe apenas o bônus mais alto de cada tipo. Por exemplo, um resultado de NQ 4 por *Ver Magia* concede um bônus em *Analisar* (ou cântico litúrgico similar) de 2 (não 3) e o máximo de NQ para análise mágica aumenta em 1. Da mesma forma, um resultado de NQ 6 por *Ver Magia* concede um bônus de *Analisar* (ou cântico litúrgico similar) de 3 (não 6), e o máximo de NQ para análise mágica aumenta em 2 (não 3).
+  castingTime: "2 ações"
+  castingTimeShort: "2 Act"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "8 metros"
+  rangeShort: "8'"
+  duration: "1 minuto"
+  durationShort: "1 min"
+  target: "Criaturas, Objetos"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_20
+  name: "Olhar da Lua"
+  effect: |
+    Reduz as penalizações de visibilidade devido à escuridão em NQ–1 níveis (pelo menos 1 nível). Este cântico litúrgico não tem efeito na escuridão completa. Para mais informações sobre visibilidade, veja a página **344**.
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "2 PK (conjuração) + 1 PK por 10 minutos"
+  kpCostShort: "2 PK + 1 PK por 10 min "
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_21
+  name: "Língua de Prata Lunar"
+  effect: |
+    O Abençoado recebe NQ–1 de bônus (pelo menos 1 ponto) para as perícias *Lábia* e *Comércio (Pechinchar)*.
+  castingTime: "1 ação"
+  castingTimeShort: "1 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: LITURGY_22
+  name: "Abençoar Objeto"
+  effect: |
+    Este cântico abençoa materiais usados para os serviços da Igreja (como óleo para os Abençoados de Boron, sementes para Abençoados de Peraine, ou poeira estelar para Abençoados de Phex). Estes itens não são *santificados*, apenas *abençoados* (veja as págs. **305** e **307**).
+  castingTime: "4 ações"
+  castingTimeShort: "4 Act"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "NQ x 3 hours"
+  durationShort: "NQ x 3 em h"
+  target: "Objects"
+  src:
+    - id: US25001E
+      firstPage: 318
+
+- id: LITURGY_23
+  name: "Lugar de CalmaLugar Calma"
+  effect: |
+    Atenua todos os sons na zona de efeito. O raio da zona é de NQ x 3 metros. Aplique uma penalidade igual ao NQ para testes usando *Percepção (Perceber)* para notar sons suaves, tais como sussurros. A zona é estacionária. Sons de dentro não saem da zona, e os sons que entram na zona são silenciados.
+  castingTime: "8 ações"
+  castingTimeShort: "8 Act"
+  kpCost: "4 PK"
+  kpCostShort: "4 PK"
+  range: "4 metros"
+  rangeShort: "4'"
+  duration: "NQ x 3 hours"
+  durationShort: "NQ x 3 em h"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: LITURGY_24
+  name: "Crescimento de Plantas"
+  effect: |
+    Este cântico litúrgico faz com que uma planta do tamanho de um arbusto ou menor cresça até o seu tamanho adulto normal a uma taxa sobrenaturalmente rápida. Para cada NQ, a planta cresce 30% mais rápido do que o normal.
+  castingTime: "16 ações"
+  castingTimeShort: "16 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "1 ano"
+  durationShort: "1 ano"
+  target: "Plantas"
+  src:
+    - id: US25001E
+      firstPage: 322
+
+- id: LITURGY_25
+  name: "Chamado do Corvo"
+  effect: |
+    Você convoca NQ x 3 corvos num raio de NQ x 5 quilômetros. Os pássaros confiam em você. Você pode usar uma destas aves para transportar ou entregar um pequeno item como um anel a uma distância de até NQ x 5 quilômetros. Normalmente estes corvos podem encontrar o seu destino automaticamente. O número máximo de corvos que você pode convocar é limitado pelo número de corvos na área.
+  castingTime: "16 ações"
+  castingTimeShort: "16 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "NQ x 3 quilômetros"
+  rangeShort: "NQ x 3 quilômetros"
+  duration: "NQ x 3 horas"
+  durationShort: "NQ x 3 em h"
+  target: "Animais"
+  src:
+    - id: US25001E
+      firstPage: 321
+
+- id: LITURGY_26
+  name: "Sono"
+  effect: |
+    O cântico litúrgico inflige níveis da condição *Estupor* no alvo, com base no NQ. Um alvo que atinge o Nível IV adormece e só acorda se for exposto a ruídos fortes, tremores ou perturbações semelhantes. Se não for perturbado, o sono continua até que o alvo acorde naturalmente.
+
+    - **NQ 1:** 1 nível de *Estupor*, por 1 RC
+    - **NQ 2:** 1 Nível de *Estupor*
+    - **NQ 3:** 2 Níveis de *Estupor*
+    - **NQ 4:** 3 Níveis de *Estupor*
+    - **NQ 5:** 4 Níveis de *Estupor*
+    - **NQ 6:** 4 níveis de *Estupor* pelo dobro da duração normal
+  castingTime: "2 ações"
+  castingTimeShort: "2 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "8 metros"
+  rangeShort: "8'"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 325
+
+- id: LITURGY_27
+  name: "Cajado da Serpente"
+  effect: |
+    A serpente protege o Abençoado da melhor maneira possível. Se a serpente morrer, ela volta a ser o item. A serpente é considerada *abençoada* (veja a pág. **305**).
+  castingTime: "2 ações"
+  castingTimeShort: "2 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "4 metros"
+  rangeShort: "4'"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 321
+
+- id: LITURGY_28
+  name: "Língua de Serpente"
+  effect: |
+    A linguagem da serpente soa como sibilante para outros ouvintes. Quando interpretando esta conversa, lembre-se que as serpentes têm inteligência animal e não percebem o mundo da mesma forma que os humanos.
+  castingTime: "8 ações"
+  castingTimeShort: "8 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "4 metros"
+  rangeShort: "4'"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Animais (apenas serpentes)"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: LITURGY_29
+  name: "Tolerância a DorTolerância Dor"
+  effect: |
+    O Abençoado pode ignorar os efeitos da condição *Dor* até o nível IV (mas ainda fica incapacitado no nível IV).
+  castingTime: "1 ação"
+  castingTimeShort: "1 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 rodadas de combate"
+  durationShort: "NQ x 3 em CR"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_30
+  name: "Proteger os Indefesos"
+  effect: |
+    Você pode desafiar um combatente que ataque (ou que deseje atacar) uma pessoa indefesa. O alvo ignora a vítima original e lhe ataca em vez disso.
+  castingTime: "1 ação"
+  castingTimeShort: "1 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "16 metros"
+  rangeShort: "16'"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 324
+
+- id: LITURGY_31
+  name: "Brilho Estelar"
+  effect: |
+    Você pode vender um item por um preço que é NQ x 10% maior. Compradores suspeitos podem detectar o engodo, fazendo um testes competitivo usando *Percepção (Procurar)* com uma penalidade de NQ +2.
+  castingTime: "2 ações"
+  castingTimeShort: "2 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "8 metros"
+  rangeShort: "8'"
+  duration: "NQ x 15 minutos"
+  durationShort: "NQ x 15 min"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 321
+
+- id: LITURGY_32
+  name: "Verdade"
+  effect: |
+    O alvo deve responder às suas perguntas com sinceridade durante a duração deste cântico litúrgico. Os alvos estão cientes de tudo o que dizem sob o efeito do cântico.
+  castingTime: "8 ações"
+  castingTimeShort: "8 Act"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 326
+
+- id: LITURGY_33
+  name: "Mercúrio"
+  effect: |
+    Você se torna muito mais rápido, ganhando bônus com base no NQ. Estes bônus são cumulativos (por exemplo, com NQ 5, você recebe AGI +3, MOV +1 e ES +1, e assim por diante). Esse aprimoramento às vezes afeta os limiares de dano para armas usando AGI, então você pode causar mais dano com algumas armas (veja a página **249**).
+
+    - **NQ 1:** AGI +1
+    - **NQ 2:** MOV +1
+    - **NQ 3:** AGI +1
+    - **NQ 4:** ES +1
+    - **NQ 5:** AGI +1
+    - **NQ 6:** MOV +1
+  castingTime: "2 ações"
+  castingTimeShort: "2 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 em min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 323
+
+- id: LITURGY_34
+  name: "Comunicação Maravilhosa"
+  effect: |
+    Você recebe níveis (com base no NQ) no idioma que você precisa para a conversa atual. Você não precisa estar familiarizado com o idioma para usar este cântico.
+
+    - **NQ 1-2:** Idioma em nível 1
+    - **NQ 3-4:** Idioma em nível 2
+    - **NQ 5-6:** Idioma em nível 3
+  castingTime: "2 ações"
+  castingTimeShort: "2 Act"
+  kpCost: "8 PK"
+  kpCostShort: "8 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 hours"
+  durationShort: "NQ x 3 em h"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 322
+
+- id: LITURGY_35
+  name: "Bênção do Campo"
+  effect: |
+    Você atravessa um campo recém semeado e abençoa as colheitas. Esta cerimônia afeta uma área de até NQ x 1.000 metros quadrados. O Abençoado deve ser capaz de ver o centro da área de efeito escolhida durante a realização da cerimônia. Ela torna as plantações abençoadas mais resistentes a doenças e vermes, e dificulta o crescimento de plantas indesejadas. *Bênção do Campo* não protege as plantas de influências externas como secas, inundações ou tempestades de granizo.
+  castingTime: "2 horas"
+  castingTimeShort: "2 h"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Visão"
+  rangeShort: "Visão"
+  duration: "Um ciclo de crescimento (entre 6 e 12 meses)"
+  durationShort: "6-12 mês"
+  target: "Plantas"
+  src:
+    - id: US25001E
+      firstPage: 327
+
+- id: LITURGY_36
+  name: "Exorcismo"
+  effect: |
+    Um cântico de *Exorcismo* bem sucedido expulsa o demônio ou fantasma da pessoa ou objeto e o envia de volta para os Abismos Infernais ou para o Reinos dos Mortos.
+  castingTime: "8 horas"
+  castingTimeShort: "8 h"
+  kpCost: "32 PK"
+  kpCostShort: "32 PK"
+  range: "4 metros"
+  rangeShort: "4'"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Demônios, Fantasmas"
+  src:
+    - id: US25001E
+      firstPage: 328
+
+- id: LITURGY_37
+  name: "Armadura Sagrada"
+  effect: |
+    A sua armadura torna-se *santificada*. Se demônios o atacarem, eles sofrem DN 1D3 (ignorando PRO) para cada ataque bem sucedido que fizerem contra você, porque eles devem tocar você ou a sua armadura (veja a pág. **351**).
+  castingTime: "30 minutos"
+  castingTimeShort: "30 min"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 15 em minutos"
+  durationShort: "NQ x 15 min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 327
+
+- id: LITURGY_38
+  name: "Forma de Leão"
+  effect: |
+    Você se transforma num leão do gênero da sua personagem. Roupas e o equipamento não se transformam. Enquanto em sua forma animal, você mantém seus atributos mentais mas, por outro lado, recebe todos os atributos físicos e habilidades de um leão. <br>
+    Você pode adicionar NQ x 2 pontos aos atributos físicos do leão. Você não poder usar poderes sobrenaturais como feitiços ou cânticos litúrgicos enquanto estiveres em forma de leão. O leão é considerado *abençoado* (veja a página **305**).
+  castingTime: "30 minutos"
+  castingTimeShort: "30 min"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 horas"
+  durationShort: "NQ x 3 em h"
+  target: "Criaturas vivas (o Abençoado)"
+  src:
+    - id: US25001E
+      firstPage: 332
+
+- id: LITURGY_39
+  name: "Corpo de Névoa"
+  effect: |
+    O seu corpo se transforma em névoa, mas as suas roupas e equipamento não. Armas mundanas, mágicas e abençoadas não podem danificar a névoa. Feitiços com a propriedade de transformação não têm efeito na névoa.<br>
+    Se houver uma brisa, você pode deslocar-se com um MOV de 4. Se houver um leve vento contrário, você deve fazer um teste de Força de Vontade ou então é afastado. Se houver um vento forte, você é carregado com ele, incapaz de resistir.<br> 
+    Você ainda pode perceber o seu ambiente com todos os cinco sentidos enquanto em forma de névoa. O seu corpo permanece em forma de névoa pela duração do cântico.
+  castingTime: "30 minutos"
+  castingTimeShort: "30 min"
+  kpCost: "16 PK"
+  kpCostShort: "16 PK"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 10 minutos"
+  durationShort: "NQ x 10 min"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 327
+
+- id: LITURGY_40
+  name: "Santificar Objeto"
+  effect: |
+    Você geralmente santifica itens litúrgicos ou uma arma ritual como um cetro solar ou uma Crista de Rondra, imbuindo-os com o poder divino do deus. Apenas itens que são cuidadosamente escolhidos e agradáveis para os deuses são santificados, e então são dados apenas aos verdadeiros fiéis.<br>
+    Se o objeto santificado for uma arma, trate-a como uma arma sagrada. Normalmente, o objeto não pode pesar mais de 4 quilos, mas o objeto pode ter um peso adicional de 1 quilo por NQ. *Santificar Objeto* é usado principalmente para criar Bicos de Corvo (para os abençoados de Boron), cetros solares (para os abençoados de Praios) e Cristas de Rondra (para abençoados de Rondra).
+  castingTime: "2 horas"
+  castingTimeShort: "2 h"
+  kpCost: "16 KP, 2 deles permanentes"
+  kpCostShort: "16 PK (2 pPK)"
+  range: "4 metros"
+  rangeShort: "4'"
+  duration: "Permanente"
+  durationShort: "Permanente"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 328

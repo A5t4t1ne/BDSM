@@ -1,0 +1,14 @@
+- id: 1
+  name: "Spells"
+- id: 2
+  name: "Rituals"
+- id: 3
+  name: "Curses"
+- id: 4
+  name: "Elven Magical Songs"
+- id: 5
+  name: "Magical Melodies"
+- id: 6
+  name: "Magical Dances"
+- id: 7
+  name: "Domination Rituals"

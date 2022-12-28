@@ -1,0 +1,4761 @@
+- id: PV_1
+# name: Geschichtenerzähler
+  cost: -6
+  skillSpecializationSelectOptions: TAL_40
+  skills:
+    - id: TAL_9
+      value: -7
+    - id: TAL_19
+      value: 3
+    - id: TAL_40
+      value: 2
+    - id: TAL_51
+      value: -3
+    - id: TAL_56
+      value: -7
+
+- id: PV_2
+# name: Haimamud
+  cost: -6
+  cultureDependency:
+    - C_2
+    - C_7
+    - C_14
+  skillSpecializationSelectOptions: TAL_40
+  skills:
+    - id: TAL_9
+      value: -7
+    - id: TAL_19
+      value: 3
+    - id: TAL_40
+      value: 2
+    - id: TAL_51
+      value: -3
+    - id: TAL_56
+      value: -7
+
+- id: PV_3
+# name: Skalde
+  cost: 12
+  cultureDependency: C_17
+  combatTechniques:
+    - id: CT_5
+      value: 2
+  skills:
+    - id: TAL_40
+      value: 3
+
+- id: PV_4
+# name: Aufseher
+  cost: -12
+  specialAbilities:
+    - id: SA_41
+      active: false
+      level: 1
+  skills:
+    - id: TAL_17
+      value: 3
+    - id: TAL_24
+      value: 2
+    - id: TAL_45
+      value: -4
+
+- id: PV_5
+# name: Kerkermeister
+  cost: -6
+  specialAbilities:
+    - id: SA_41
+      active: false
+      level: 1
+  skills:
+    - id: TAL_15
+      value: 2
+    - id: TAL_17
+      value: 3
+    - id: TAL_25
+      value: 3
+
+- id: PV_6
+# name: Schließer
+  cost: -6
+  specialAbilities:
+    - id: SA_41
+      active: false
+      level: 1
+  skills:
+    - id: TAL_15
+      value: 2
+    - id: TAL_17
+      value: 3
+    - id: TAL_25
+      value: 3
+
+- id: PV_7
+# name: Zöllner
+  cost: 12
+  skills:
+    - id: TAL_20
+      value: 4
+
+- id: PV_8
+# name: Akrobat
+  cost: 13
+  skillSpecializationSelectOptions: TAL_4
+  skills:
+    - id: TAL_3
+      value: 3
+    - id: TAL_4
+      value: 1
+
+- id: PV_9
+# name: Dompteur
+  cost: 11
+  skillSpecializationSelectOptions: TAL_29
+  skills:
+    - id: TAL_20
+      value: -2
+    - id: TAL_29
+      value: 5
+
+- id: PV_10
+# name: Messerwerfer
+  cost: 0
+  combatTechniques:
+    - id: CT_14
+      value: 4
+  skills:
+    - id: TAL_2
+      value: -2
+    - id: TAL_22
+      value: -3
+
+- id: PV_11
+# name: Possenreißer
+  cost: -6
+  skills:
+    - id: TAL_4
+      value: -4
+    - id: TAL_21
+      value: 2
+    - id: TAL_22
+      value: 2
+
+- id: PV_12
+# name: Wahrsager
+  cost: -14
+  skillSpecializationSelectOptions: TAL_20
+  combatTechniques:
+    - id: CT_14
+      value: -2
+  skills:
+    - id: TAL_4
+      value: -7
+    - id: TAL_20
+      value: 2
+    - id: TAL_21
+      value: 2
+    - id: TAL_42
+      value: 4
+
+- id: PV_13
+# name: Grubenkämpfer
+  cost: -25
+  combatTechniqueSelectOptions: false
+  specialAbilities:
+    - id: SA_48
+      active: false
+      level: 1
+  combatTechniques:
+    - id: CT_3
+      value: 4
+
+- id: PV_14
+# name: Schaukämpfer
+  cost: -5
+  specialAbilities:
+    - id: SA_67
+      active: false
+      level: 1
+  skills:
+    - id: TAL_2
+      value: 3
+    - id: TAL_8
+      value: -3
+    - id: TAL_14
+      value: 1
+    - id: TAL_21
+      value: 4
+    - id: TAL_27
+      value: 3
+
+- id: PV_15
+# name: Fahrender Händler
+  cost: 31
+  combatTechniques:
+    - id: CT_5
+      value: 2
+    - id: CT_9
+      value: 2
+  skills:
+    - id: TAL_27
+      value: 4
+    - id: TAL_30
+      value: 3
+    - id: TAL_45
+      value: 4
+
+- id: PV_16
+# name: Fernhändler
+  cost: 36
+  skills:
+    - id: TAL_27
+      value: 3
+    - id: TAL_30
+      value: 4
+    - id: TAL_32
+      value: 5
+    - id: TAL_36
+      value: 2
+    - id: TAL_42
+      value: 2
+
+- id: PV_17
+# name: Geldwechsler
+  cost: 17
+  skillSpecializationSelectOptions: TAL_38
+  combatTechniques:
+    - id: CT_3
+      value: 2
+    - id: CT_5
+      value: 2
+    - id: CT_13
+      value: -2
+  skills:
+    - id: TAL_19
+      value: 4
+    - id: TAL_38
+      value: 2
+
+- id: PV_18
+# name: Hausierer
+  cost: 26
+  combatTechniques:
+    - id: CT_13
+      value: -2
+  skills:
+    - id: TAL_27
+      value: 4
+    - id: TAL_19
+      value: 4
+    - id: TAL_20
+      value: 2
+    - id: TAL_21
+      value: 2
+
+- id: PV_19
+# name: Tauschhändler
+  cost: 30
+  cultureDependency:
+    - C_4
+    - C_9
+    - C_10
+  skills:
+    - id: TAL_24
+      value: 4
+    - id: TAL_27
+      value: 4
+    - id: TAL_30
+      value: 4
+    - id: TAL_45
+      value: -2
+
+- id: PV_20
+# name: Hebamme
+  cost: 11
+  skills:
+    - id: TAL_18
+      value: -4
+    - id: TAL_28
+      value: 1
+    - id: TAL_40
+      value: 4
+    - id: TAL_47
+      value: -1
+    - id: TAL_48
+      value: 1
+    - id: TAL_49
+      value: 4
+
+- id: PV_21
+# name: Medicus
+  cost: 14
+  skillSpecializationSelectOptions: TAL_48
+  skills:
+    - id: TAL_18
+      value: 3
+    - id: TAL_28
+      value: 2
+    - id: TAL_48
+      value: 2
+
+- id: PV_22
+# name: Quacksalber
+  cost: -11
+  skills:
+    - id: TAL_2
+      value: 2
+    - id: TAL_45
+      value: 4
+    - id: TAL_21
+      value: 3
+    - id: TAL_47
+      value: -3
+    - id: TAL_48
+      value: -4
+    - id: TAL_50
+      value: -3
+
+- id: PV_23
+# name: Zahnreißer
+  cost: -11
+  skills:
+    - id: TAL_2
+      value: 2
+    - id: TAL_45
+      value: 4
+    - id: TAL_21
+      value: 3
+    - id: TAL_47
+      value: -3
+    - id: TAL_48
+      value: -4
+    - id: TAL_50
+      value: -3
+
+- id: PV_24
+# name: Adelsspross
+  cost: -4
+  combatTechniqueSelectOptions:
+    amount: 1
+    value: 4
+    sid:
+      - CT_4
+      - CT_12
+  combatTechniques:
+    - id: CT_2
+      value: 2
+  skills:
+    - id: TAL_6
+      value: 2
+    - id: TAL_14
+      value: 2
+    - id: TAL_20
+      value: -3
+    - id: TAL_23
+      value: -2
+    - id: TAL_33
+      value: -2
+    - id: TAL_39
+      value: -1
+
+- id: PV_25
+# name: Diplomat
+  cost: 16
+  combatTechniqueSelectOptions: false
+  combatTechniques:
+    - id: CT_2
+      value: -2
+  skills:
+    - id: TAL_15
+      value: 3
+    - id: TAL_18
+      value: 1
+    - id: TAL_21
+      value: 2
+    - id: TAL_23
+      value: 2
+    - id: TAL_47
+      value: 3
+
+- id: PV_26
+# name: Hofdame
+  cost: -5
+  cultureDependency: C_1
+  sexDependency: f
+  combatTechniqueSelectOptions: false
+  combatTechniques:
+    - id: CT_2
+      value: -2
+  skills:
+    - id: TAL_11
+      value: 2
+    - id: TAL_14
+      value: -2
+    - id: TAL_59
+      value: 7
+
+- id: PV_27
+# name: Müßiggänger
+  cost: 19
+  combatTechniques:
+    - id: CT_2
+      value: 2
+    - id: CT_3
+      value: 2
+  skills:
+    - id: TAL_11
+      value: 2
+    - id: TAL_14
+      value: 2
+    - id: TAL_16
+      value: 3
+    - id: TAL_33
+      value: -2
+    - id: TAL_39
+      value: -1
+    - id: TAL_47
+      value: 2
+
+- id: PV_28
+# name: Großwildjäger
+  cost: 18
+  combatTechniques:
+    - id: CT_1
+      value: 6
+  skills:
+    - id: TAL_8
+      value: 3
+    - id: TAL_28
+      value: -2
+
+- id: PV_29
+# name: Kopfgeldjäger
+  cost: 32
+  combatTechniqueSelectOptions:
+    amount: 1
+    value: 6
+    sid:
+      - CT_4
+      - CT_5
+      - CT_12
+  combatTechniques:
+    - id: CT_1
+      value: 6
+  skills:
+    - id: TAL_17
+      value: 4
+    - id: TAL_20
+      value: 5
+    - id: TAL_28
+      value: -3
+    - id: TAL_29
+      value: -4
+
+- id: PV_30
+# name: Sklavenjäger
+  cost: 38
+  cultureDependency:
+    - C_2
+    - C_7
+    - C_14
+    - C_15
+  combatTechniques:
+    - id: CT_12
+      value: 4
+  skills:
+    - id: TAL_17
+      value: 7
+    - id: TAL_20
+      value: 4
+
+- id: PV_31
+# name: Stammesjäger
+  cost: 12
+  skills:
+    - id: TAL_47
+      value: 4
+    - id: TAL_58
+      value: 4
+
+- id: PV_32
+# name: Bordellvater
+  cost: 27
+  skills:
+    - id: TAL_19
+      value: 1
+    - id: TAL_20
+      value: 2
+    - id: TAL_23
+      value: 3
+    - id: TAL_46
+      value: 3
+
+- id: PV_33
+# name: Lustknabe
+  cost: 23
+  combatTechniques:
+    - id: CT_3
+      value: 2
+    - id: CT_9
+      value: 2
+  skills:
+    - id: TAL_8
+      value: 1
+    - id: TAL_11
+      value: -2
+    - id: TAL_12
+      value: 2
+    - id: TAL_19
+      value: 1
+    - id: TAL_23
+      value: 2
+    - id: TAL_38
+      value: -2
+
+- id: PV_34
+# name: Gesellschafter
+  cost: 6
+  skills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_18
+      value: 4
+    - id: TAL_19
+      value: -2
+    - id: TAL_25
+      value: 2
+
+- id: PV_35
+# name: Favorit
+  cost: 10
+  skills:
+    - id: TAL_16
+      value: 2
+    - id: TAL_19
+      value: -4
+    - id: TAL_18
+      value: 7
+    - id: TAL_25
+      value: 4
+
+- id: PV_36
+# name: Hofritter
+  cost: -2
+  combatTechniques:
+    - id: CT_9
+      value: -2
+    - id: CT_7
+      value: 2
+  skills:
+    - id: TAL_5
+      value: -2
+    - id: TAL_6
+      value: -2
+    - id: TAL_16
+      value: 4
+    - id: TAL_18
+      value: 1
+    - id: TAL_35
+      value: -2
+
+- id: PV_37
+# name: Raubritter
+  cost: -4
+  skills:
+    - id: TAL_6
+      value: -2
+    - id: TAL_18
+      value: -4
+    - id: TAL_46
+      value: 4
+
+- id: PV_38
+# name: Heckenritter
+  cost: -4
+  skills:
+    - id: TAL_6
+      value: -2
+    - id: TAL_18
+      value: -4
+    - id: TAL_46
+      value: 4
+
+- id: PV_39
+# name: Fischer
+  cost: 12
+  specialAbilities:
+    - id: SA_10
+  skills:
+    - id: TAL_26
+      value: 3
+    - id: TAL_29
+      value: 2
+
+- id: PV_40
+# name: Pirat
+  cost: 26
+  combatTechniques:
+    - id: CT_12
+      value: 2
+  skills:
+    - id: TAL_17
+      value: 4
+    - id: TAL_19
+      value: 4
+
+- id: PV_41
+# name: Walfänger
+  cost: 18
+  specialAbilities:
+    - id: SA_10
+  skills:
+    - id: TAL_29
+      value: 5
+
+- id: PV_42
+# name: Robbenjäger
+  cost: 18
+  specialAbilities:
+    - id: SA_10
+  skills:
+    - id: TAL_29
+      value: 5
+
+- id: PV_43
+# name: Plänkler
+  cost: 16
+  combatTechniques:
+    - id: CT_1
+      value: 2
+    - id: CT_14
+      value: 6
+
+- id: PV_44
+# name: Leichtgerüsteter
+  cost: 15
+  specialAbilities:
+    - id: SA_48
+
+- id: PV_45
+# name: Schwergerüsteter
+  cost: 20
+  specialAbilities:
+    - id: SA_69
+
+- id: PV_46
+# name: Geheimagent
+  cost: 36
+  combatTechniqueSelectOptions:
+    amount: 1
+    value: 6
+    sid:
+      - CT_4
+      - CT_5
+      - CT_12
+  combatTechniques:
+    - id: CT_1
+      value: 4
+  skills:
+    - id: TAL_12
+      value: -3
+    - id: TAL_18
+      value: 4
+    - id: TAL_32
+      value: 4
+
+- id: PV_47
+# name: Meuchelmörder
+  cost: 72
+  combatTechniqueSelectOptions:
+    amount: 1
+    value: 6
+    sid:
+      - CT_4
+      - CT_5
+      - CT_12
+  combatTechniques:
+    - id: CT_1
+      value: 6
+  skills:
+    - id: TAL_3
+      value: 5
+    - id: TAL_4
+      value: 6
+    - id: TAL_17
+      value: 4
+
+- id: PV_48
+# name: Bettler
+  cost: -9
+  skills:
+    - id: TAL_3
+      value: -3
+    - id: TAL_16
+      value: -3
+    - id: TAL_20
+      value: 2
+    - id: TAL_21
+      value: 3
+    - id: TAL_57
+      value: -4
+
+- id: PV_49
+# name: Dieb
+  cost: 9
+  skills:
+    - id: TAL_12
+      value: 3
+    - id: TAL_19
+      value: -1
+    - id: TAL_27
+      value: 3
+
+- id: PV_50
+# name: Einbrecher
+  cost: 12
+  skills:
+    - id: TAL_3
+      value: 4
+    - id: TAL_12
+      value: -2
+    - id: TAL_57
+      value: 3
+
+- id: PV_51
+# name: Hochstapler
+  cost: 35
+  skills:
+    - id: TAL_16
+      value: 4
+    - id: TAL_18
+      value: 7
+    - id: TAL_22
+      value: 2
+    - id: TAL_21
+      value: 3
+
+- id: PV_52
+# name: Spieler
+  cost: 16
+  skillSpecializationSelectOptions: TAL_31
+  skills:
+    - id: TAL_2
+      value: 4
+    - id: TAL_20
+      value: 3
+    - id: TAL_31
+      value: 5
+
+- id: PV_53
+# name: Zuhälter
+  cost: 8
+  skills:
+    - id: TAL_17
+      value: 7
+    - id: TAL_21
+      value: 2
+    - id: TAL_57
+      value: -4
+
+- id: PV_54
+# name: Diener Bishdariels
+  cost: 7
+  skills:
+    - id: TAL_42
+      value: 3
+    - id: TAL_49
+      value: 2
+
+- id: PV_55
+# name: Diener Golgaris
+  cost: 18
+  combatTechniques:
+    - id: CT_5
+      value: 2
+  skills:
+    - id: TAL_50
+      value: 3
+
+- id: PV_56
+# name: Pastori
+  cost: 17
+  skills:
+    - id: TAL_33
+      value: 2
+    - id: TAL_36
+      value: 3
+    - id: TAL_41
+      value: 2
+
+- id: PV_57
+# name: Satori
+  cost: 10
+  skills:
+    - id: TAL_9
+      value: 2
+    - id: TAL_34
+      value: 2
+    - id: TAL_39
+      value: 2
+
+- id: PV_58
+# name: Heiler
+  cost: 8
+  skills:
+    - id: TAL_48
+      value: 2
+    - id: TAL_50
+      value: 1
+
+- id: PV_59
+# name: Säer
+  cost: 15
+  skills:
+    - id: TAL_28
+      value: 1
+    - id: TAL_29
+      value: 4
+
+- id: PV_60
+# name: Beutelschneider
+  cost: 15
+  skills:
+    - id: TAL_12
+      value: 3
+    - id: TAL_19
+      value: 3
+
+- id: PV_61
+# name: Händler
+  cost: 11
+  skills:
+    - id: TAL_15
+      value: 2
+    - id: TAL_20
+      value: 1
+    - id: TAL_46
+      value: 2
+
+- id: PV_62
+# name: Fassadenkletterer
+  cost: 20
+  skills:
+    - id: TAL_3
+      value: 3
+    - id: TAL_4
+      value: 2
+    - id: TAL_20
+      value: -2
+    - id: TAL_57
+      value: 4
+
+- id: PV_63
+# name: Legalisten
+  cost: 2
+  skills:
+    - id: TAL_39
+      value: 2
+
+- id: PV_64
+# name: Prinzipisten
+  cost: 12
+  skills:
+    - id: TAL_36
+      value: 4
+
+- id: PV_65
+# name: Salutaristen
+  cost: 13
+  skills:
+    - id: TAL_35
+      value: 2
+    - id: TAL_36
+      value: 3
+
+- id: PV_66
+# name: Traditionalisten
+  cost: 12
+  skills:
+    - id: TAL_8
+      value: 2
+    - id: TAL_33
+      value: 2
+
+- id: PV_67
+# name: Honoren
+  cost: -1
+  combatTechniques:
+    - id: CT_16
+      value: 1
+  skills:
+    - id: TAL_35
+      value: -2
+
+- id: PV_68
+# name: Erntehelfer
+  cost: -2
+  skillSpecializationSelectOptions: false
+  skills:
+    - id: TAL_5
+      value: 2
+    - id: TAL_19
+      value: 3
+    - id: TAL_29
+      value: -4
+
+- id: PV_69
+# name: Viehzüchter
+  cost: 16
+  skillSpecializationSelectOptions: TAL_29
+  specialAbilities:
+    - id: SA_143
+  skills:
+    - id: TAL_29
+      value: 2
+    - id: TAL_48
+      value: 2
+    - id: TAL_50
+      value: 1
+
+- id: PV_70
+# name: Erzieher
+  cost: 6
+  skills:
+    - id: TAL_18
+      value: 3
+
+- id: PV_71
+# name: Kutscher
+  cost: 31
+  skills:
+    - id: TAL_6
+      value: 4
+    - id: TAL_29
+      value: 4
+    - id: TAL_45
+      value: 3
+    - id: TAL_51
+      value: 4
+
+- id: PV_72
+# name: Privatlehrer
+  cost: 34
+  skills:
+    - id: TAL_32
+      value: 7
+    - id: TAL_33
+      value: 7
+    - id: TAL_40
+      value: 3
+
+- id: PV_73
+# name: Stallbursche
+  cost: 23
+  skills:
+    - id: TAL_6
+      value: 4
+    - id: TAL_29
+      value: 5
+
+- id: PV_74
+# name: Verwalter
+  cost: 33
+  specialAbilities:
+    - id: SA_113
+  skills:
+    - id: TAL_23
+      value: 4
+    - id: TAL_38
+      value: 1
+    - id: TAL_46
+      value: 4
+
+- id: PV_75
+# name: Leibdiener
+  cost: 6
+  skills:
+    - id: TAL_18
+      value: 3
+
+- id: PV_76
+# name: Goldsucher
+  cost: 16
+  skills:
+    - id: TAL_18
+      value: -3
+    - id: TAL_30
+      value: 1
+    - id: TAL_33
+      value: -2
+    - id: TAL_55
+      value: 4
+    - id: TAL_58
+      value: 5
+
+- id: PV_77
+# name: Kartograph
+  cost: 11
+  skills:
+    - id: TAL_32
+      value: 2
+    - id: TAL_42
+      value: 4
+    - id: TAL_54
+      value: 3
+
+- id: PV_78
+# name: Prospektor
+  cost: 16
+  skills:
+    - id: TAL_30
+      value: 1
+    - id: TAL_33
+      value: -2
+    - id: TAL_42
+      value: -5
+    - id: TAL_55
+      value: 4
+    - id: TAL_58
+      value: 5
+
+- id: PV_79
+# name: Historiker
+  cost: 16
+  skillSpecializationSelectOptions: TAL_33
+  skills:
+    - id: TAL_36
+      value: 2
+    - id: TAL_33
+      value: 2
+    - id: TAL_34
+      value: 2
+
+- id: PV_80
+# name: Mathematicus
+  cost: 3
+  skillSpecializationSelectOptions: TAL_38
+  skills:
+    - id: TAL_38
+      value: 2
+
+- id: PV_81
+# name: Rechtsgelehrter
+  cost: 29
+  skillSpecializationSelectOptions: TAL_39
+  skills:
+    - id: TAL_15
+      value: 4
+    - id: TAL_21
+      value: 3
+    - id: TAL_23
+      value: 2
+    - id: TAL_39
+      value: 3
+
+- id: PV_82
+# name: Sternkundiger
+  cost: 20
+  skillSpecializationSelectOptions: TAL_42
+  skills:
+    - id: TAL_27
+      value: 4
+    - id: TAL_30
+      value: 2
+    - id: TAL_42
+      value: 5
+
+- id: PV_83
+# name: Völkerkundiger
+  cost: 8
+  skillSpecializationSelectOptions: TAL_40
+  skills:
+    - id: TAL_32
+      value: 1
+    - id: TAL_40
+      value: 2
+
+- id: PV_84
+# name: Zahlenmystiker
+  cost: 13
+  cultureDependency:
+    - C_2
+    - C_6
+    - C_7
+    - C_14
+    - C_24
+  skillSpecializationSelectOptions: TAL_38
+  specialAbilities:
+    - id: SA_33
+  skills:
+    - id: TAL_37
+      value: 4
+    - id: TAL_38
+      value: 2
+
+- id: PV_85
+# name: Bildhauer
+  cost: 15
+  specialAbilities:
+    - id: SA_102
+  skills:
+    - id: TAL_54
+      value: 5
+    - id: TAL_58
+      value: 8
+
+- id: PV_86
+# name: Darsteller
+  cost: 60
+  languageScriptSelectOptions: 10
+  skills:
+    - id: TAL_1
+      value: 2
+    - id: TAL_4
+      value: 4
+    - id: TAL_9
+      value: 4
+    - id: TAL_22
+      value: 8
+    - id: TAL_21
+      value: 6
+
+- id: PV_87
+# name: Dichter
+  cost: 25
+  languageScriptSelectOptions: 14
+  skills:
+    - id: TAL_40
+      value: 4
+    - id: TAL_21
+      value: 3
+
+- id: PV_88
+# name: Maler
+  cost: 6
+  skills:
+    - id: TAL_54
+      value: 6
+
+- id: PV_89
+# name: Musicus
+  cost: 29
+  languageScriptSelectOptions: 20
+  skills:
+    - id: TAL_9
+      value: 7
+    - id: TAL_56
+      value: 8
+
+- id: PV_90
+# name: Tanzlehrer
+  cost: 22
+  skills:
+    - id: TAL_4
+      value: 4
+    - id: TAL_11
+      value: 6
+
+- id: PV_91
+# name: Feinmechaniker
+  cost: 21
+  skills:
+    - id: TAL_18
+      value: 3
+    - id: TAL_21
+      value: 3
+    - id: TAL_46
+      value: 3
+
+- id: PV_92
+# name: Tresorbauer
+  cost: 22
+  skillSpecializationSelectOptions: TAL_57
+  skills:
+    - id: TAL_5
+      value: 2
+    - id: TAL_57
+      value: 5
+
+- id: PV_93
+# name: Feinschmied
+  cost: 8
+  skills:
+    - id: TAL_37
+      value: 4
+
+- id: PV_94
+# name: Goldschmied
+  cost: 6
+  skills:
+    - id: TAL_43
+      value: 2
+
+- id: PV_95
+# name: Harnischmacher
+  cost: 23
+  increasablePrerequisites:
+    - id: ATTR_7
+      value: 13
+  specialAbilities:
+    - id: SA_133
+  skills:
+    - id: TAL_53
+      value: 4
+
+- id: PV_96
+# name: Waffenschmied
+  cost: 32
+  specialAbilities:
+    - id: SA_144
+  combatTechniques:
+    - id: CT_12
+      value: 4
+  skills:
+    - id: TAL_35
+      value: 4
+
+- id: PV_97
+# name: Leibsklave
+  cost: 10
+  skills:
+    - id: TAL_18
+      value: 1
+    - id: TAL_46
+      value: 4
+
+- id: PV_98
+# name: Liebessklave
+  cost: 6
+  increasablePrerequisites:
+    - id: ATTR_4
+      value: 13
+  skillSpecializationSelectOptions: TAL_16
+  skills:
+    - id: TAL_16
+      value: 3
+
+- id: PV_99
+# name: Minensklave
+  cost: 30
+  increasablePrerequisites:
+    - id: ATTR_8
+      value: 13
+  specialAbilities:
+    - id: SA_67
+      level: 1
+  combatTechniques:
+    - id: CT_5
+      value: 4
+    - id: CT_15
+      value: 4
+  skills:
+    - id: TAL_5
+      value: 4
+    - id: TAL_16
+      value: -4
+    - id: TAL_18
+      value: -3
+    - id: TAL_52
+      value: -3
+
+- id: PV_100
+# name: Sänftenträger
+  cost: 8
+  increasablePrerequisites:
+    - id: ATTR_8
+      value: 13
+  skillSpecializationSelectOptions: TAL_5
+  skills:
+    - id: TAL_5
+      value: 4
+
+- id: PV_101
+# name: Vorkoster
+  cost: 2
+  skills:
+    - id: TAL_52
+      value: 2
+
+- id: PV_102
+# name: Armbrustschütze
+  cost: 12
+  combatTechniques:
+    - id: CT_1
+      value: 6
+
+- id: PV_103
+# name: Bogenschütze
+  cost: -2
+  combatTechniqueSelectOptions:
+    amount: 1
+    value: 4
+    second: false
+    sid:
+      - CT_4
+      - CT_5
+      - CT_6
+      - CT_12
+      - CT_13
+      - CT_15
+      - CT_16
+  combatTechniques:
+    - id: CT_2
+      value: 6
+
+- id: PV_104
+# name: Reiter
+  cost: 22
+  combatTechniques:
+    - id: CT_7
+      value: 4
+  skills:
+    - id: TAL_6
+      value: 7
+
+- id: PV_105
+# name: Bergmann
+  cost: 7
+  combatTechniques:
+    - id: CT_5
+      value: 1
+  skills:
+    - id: TAL_58
+      value: 2
+
+- id: PV_106
+# name: Bauhelfer
+  cost: 7
+  combatTechniques:
+    - id: CT_5
+      value: 1
+  skills:
+    - id: TAL_58
+      value: 2
+
+- id: PV_107
+# name: Fuhrmann
+  cost: 3
+  skillSpecializationSelectOptions: TAL_45
+  skills:
+    - id: TAL_5
+      value: -3
+    - id: TAL_6
+      value: 3
+    - id: TAL_45
+      value: 6
+
+- id: PV_108
+# name: Lastenträger
+  cost: 16
+  skills:
+    - id: TAL_5
+      value: 2
+    - id: TAL_18
+      value: 3
+    - id: TAL_27
+      value: 2
+
+- id: PV_109
+# name: Palmschneider
+  cost: 16
+  skillSpecializationSelectOptions: TAL_3
+  combatTechniques:
+    - id: CT_12
+      value: 4
+  skills:
+    - id: TAL_3
+      value: 4
+    - id: TAL_5
+      value: -2
+    - id: TAL_25
+      value: 2
+
+- id: PV_110
+# name: Questador
+  cost: -16
+  combatTechniques:
+    - id: CT_1
+      value: 2
+    - id: CT_12
+      value: 1
+  skills:
+    - id: TAL_8
+      value: 2
+    - id: TAL_24
+      value: -2
+    - id: TAL_27
+      value: -2
+    - id: TAL_28
+      value: -2
+    - id: TAL_29
+      value: -2
+    - id: TAL_30
+      value: -3
+
+- id: PV_111
+# name: Eis- und Schneekundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 2
+
+- id: PV_112
+# name: Wüstenkundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 10
+
+- id: PV_113
+# name: Gebirgskundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 3
+
+- id: PV_114
+# name: Koch
+  cost: 1
+  skills:
+    - id: TAL_31
+      value: -3
+    - id: TAL_52
+      value: 4
+
+- id: PV_115
+# name: Schankbursche
+  cost: 0
+  skills:
+    - id: TAL_16
+      value: 3
+    - id: TAL_46
+      value: -3
+
+- id: PV_116
+# name: Rausschmeißer
+  cost: 8
+  combatTechniques:
+    - id: CT_5
+      value: 2
+    - id: CT_9
+      value: 2
+  skills:
+    - id: TAL_5
+      value: 4
+    - id: TAL_11
+      value: -2
+    - id: TAL_46
+      value: -3
+    - id: TAL_52
+      value: -2
+
+- id: PV_117
+# name: Schaumkusshersteller
+  cost: 7
+  skills:
+    - id: TAL_43
+      value: 2
+    - id: TAL_52
+      value: 1
+
+- id: PV_118
+# name: Schokoladenmacher
+  cost: 5
+  skills:
+    - id: TAL_8
+      value: 1
+    - id: TAL_52
+      value: 1
+
+- id: PV_119
+# name: Bezaubernder Trickbetrüger
+  cost: 41
+  skills:
+    - id: TAL_3
+      value: -2
+    - id: TAL_5
+      value: -2
+    - id: TAL_16
+      value: 4
+    - id: TAL_19
+      value: 2
+    - id: TAL_20
+      value: 6
+    - id: TAL_21
+      value: 3
+    - id: TAL_22
+      value: 2
+    - id: TAL_32
+      value: 3
+    - id: TAL_37
+      value: -3
+    - id: TAL_46
+      value: 2
+    - id: TAL_57
+      value: -4
+  spells:
+    - id: SPELL_6
+      value: 5
+    - id: SPELL_16
+      value: 4
+    - id: SPELL_135
+      value: 5
+    - id: SPELL_4
+      value: -4
+    - id: SPELL_132
+      value: -4
+    - id: SPELL_41
+      value: -5
+
+- id: PV_120
+# name: Hellsichtiger Grabräuber
+  cost: 38
+  skills:
+    - id: TAL_12
+      value: -4
+    - id: TAL_22
+      value: -2
+    - id: TAL_27
+      value: 6
+    - id: TAL_33
+      value: 4
+    - id: TAL_34
+      value: 4
+    - id: TAL_37
+      value: 3
+    - id: TAL_40
+      value: 4
+    - id: TAL_46
+      value: 2
+    - id: TAL_51
+      value: 4
+    - id: TAL_58
+      value: 4
+  spells:
+    - id: SPELL_13
+      value: 7
+    - id: SPELL_32
+      value: 4
+    - id: SPELL_4
+      value: -4
+    - id: SPELL_132
+      value: -4
+    - id: SPELL_41
+      value: -5
+
+- id: PV_121
+# name: Seher
+  cost: 4
+  skills:
+    - id: TAL_2
+      value: -5
+    - id: TAL_15
+      value: 3
+    - id: TAL_20
+      value: 3
+    - id: TAL_25
+      value: -4
+    - id: TAL_33
+      value: 2
+    - id: TAL_40
+      value: -2
+    - id: TAL_49
+      value: 4
+  spells:
+    - id: SPELL_107
+      value: 7
+    - id: SPELL_26
+      value: -7
+    - id: SPELL_30
+      value: 4
+    - id: SPELL_11
+      value: -3
+
+- id: PV_122
+# name: Quacksalber
+  cost: 74
+  skills:
+    - id: TAL_28
+      value: 4
+    - id: TAL_25
+      value: -4
+    - id: TAL_43
+      value: 2
+    - id: TAL_46
+      value: 4
+    - id: TAL_47
+      value: 4
+    - id: TAL_48
+      value: 4
+    - id: TAL_50
+      value: 4
+    - id: TAL_52
+      value: 4
+  spells:
+    - id: SPELL_70
+      value: 4
+    - id: SPELL_99
+      value: -6
+    - id: SPELL_104
+      value: 4
+    - id: SPELL_11
+      value: -3
+    - id: SPELL_105
+      value: -2
+    - id: SPELL_6
+      value: 7
+    - id: SPELL_144
+      value: -5
+    - id: SPELL_81
+      value: 7
+    - id: SPELL_26
+      value: -7
+    - id: SPELL_29
+      value: -3
+
+- id: PV_123
+# name: Trickbetrüger
+  cost: 15
+  skills:
+    - id: TAL_13
+      value: 2
+    - id: TAL_12
+      value: 4
+    - id: TAL_21
+      value: 3
+    - id: TAL_25
+      value: -4
+    - id: TAL_31
+      value: 4
+    - id: TAL_40
+      value: -2
+    - id: TAL_45
+      value: -4
+    - id: TAL_46
+      value: 4
+    - id: TAL_54
+      value: -4
+    - id: TAL_57
+      value: 2
+    - id: TAL_58
+      value: -4
+  spells:
+    - id: SPELL_100
+      value: 6
+    - id: SPELL_105
+      value: -6
+    - id: SPELL_104
+      value: 4
+    - id: SPELL_11
+      value: -3
+    - id: SPELL_132
+      value: 6
+    - id: SPELL_142
+      value: -4
+    - id: SPELL_135
+      value: 6
+    - id: SPELL_29
+      value: -7
+    - id: SPELL_32
+      value: 4
+    - id: SPELL_144
+      value: -5
+
+- id: PV_124
+# name: Theaterzauberer
+  cost: 16
+  combatTechniques:
+    - id: CT_4
+      value: 2
+  skills:
+    - id: TAL_9
+      value: 2
+    - id: TAL_13
+      value: 4
+    - id: TAL_18
+      value: 3
+    - id: TAL_30
+      value: -2
+    - id: TAL_45
+      value: -4
+  spells:
+    - id: SPELL_136
+      value: 4
+    - id: SPELL_11
+      value: -3
+    - id: SPELL_135
+      value: 4
+    - id: SPELL_144
+      value: -5
+
+- id: PV_125
+# name: Hofzauberer
+  cost: -5
+  combatTechniques:
+    - id: CT_4
+      value: 2
+  skills:
+    - id: TAL_11
+      value: 2
+    - id: TAL_16
+      value: 3
+    - id: TAL_18
+      value: 4
+    - id: TAL_19
+      value: -4
+    - id: TAL_25
+      value: -4
+    - id: TAL_30
+      value: -2
+    - id: TAL_33
+      value: 2
+    - id: TAL_43
+      value: 2
+    - id: TAL_45
+      value: -4
+  spells:
+    - id: SPELL_132
+      value: 6
+    - id: SPELL_99
+      value: -6
+    - id: SPELL_104
+      value: 7
+    - id: SPELL_11
+      value: -3
+
+- id: PV_126
+# name: Schwarzmagier der Al´Achami zu Fasar (Pfad der harten Hand)
+  cost: 16
+  combatTechniques:
+    - id: CT_13
+      value: -2
+  skills:
+    - id: TAL_4
+      value: -2
+    - id: TAL_16
+      value: 1
+    - id: TAL_20
+      value: 1
+    - id: TAL_23
+      value: 2
+  spells:
+    - id: SPELL_79
+      value: 4
+    - id: SPELL_30
+      value: -4
+    - id: SPELL_134
+      value: 4
+    - id: SPELL_40
+      value: -4
+    - id: SPELL_177
+      value: 6
+    - id: SPELL_6
+      value: -6
+    - id: SPELL_176
+      value: 4
+    - id: SPELL_9
+      value: -4
+
+- id: PV_127
+# name: Schwarzmagier der Al´Achami zu Fasar (Pfad der weichen Hand)
+  cost: 2
+  combatTechniques:
+    - id: CT_13
+      value: -2
+  skills:
+    - id: TAL_4
+      value: -2
+    - id: TAL_16
+      value: 2
+    - id: TAL_20
+      value: 1
+    - id: TAL_23
+      value: 1
+  spells:
+    - id: SPELL_114
+      value: 4
+    - id: SPELL_9
+      value: -4
+    - id: SPELL_118
+      value: 4
+    - id: SPELL_30
+      value: -4
+    - id: SPELL_176
+      value: 4
+    - id: SPELL_40
+      value: -4
+    - id: SPELL_181
+      value: 6
+    - id: SPELL_20
+      value: -6
+
+- id: PV_128
+# name: Graumagier der Akademie der Hohen Magie zu Punin (Invocatoren Zweig)
+  cost: 7
+  skills:
+    - id: TAL_36
+      value: -2
+    - id: TAL_41
+      value: 2
+  spells:
+    - id: SPELL_48
+      value: 7
+    - id: SPELL_149
+      value: -7
+    - id: SPELL_50
+      value: 4
+    - id: SPELL_183
+      value: -4
+    - id: SPELL_22
+      value: 2
+    - id: SPELL_25
+      value: 2
+
+- id: PV_129
+# name: Graumagier der Akademie der Hohen Magie zu Punin (Observatoren Zweig)
+  cost: 7
+  skills:
+    - id: TAL_10
+      value: 2
+    - id: TAL_29
+      value: -2
+  spells:
+    - id: SPELL_1
+      value: 4
+    - id: SPELL_22
+      value: -4
+    - id: SPELL_143
+      value: 4
+    - id: SPELL_183
+      value: -4
+    - id: SPELL_26
+      value: 4
+    - id: SPELL_25
+      value: -4
+
+- id: PV_130
+# name: Graumagier der Schule der Verformungen zu Lowangen (Heilkunst Zweig)
+  cost: -6
+  combatTechniques:
+    - id: CT_13
+      value: -1
+  skills:
+    - id: TAL_50
+      value: 1
+  spells:
+    - id: SPELL_70
+      value: 5
+    - id: SPELL_3
+      value: -5
+    - id: SPELL_5
+      value: 6
+    - id: SPELL_9
+      value: -6
+    - id: SPELL_45
+      value: 4
+    - id: SPELL_44
+      value: -4
+
+- id: PV_131
+# name: Graumagier der Schule der Verformungen zu Lowangen (Verwandlungs-Zweig)
+  cost: -1
+  skills:
+    - id: TAL_32
+      value: 1
+    - id: TAL_50
+      value: -1
+  spells:
+    - id: SPELL_91
+      value: 6
+    - id: SPELL_9
+      value: -6
+    - id: SPELL_70
+      value: 5
+    - id: SPELL_3
+      value: -5
+    - id: SPELL_45
+      value: 4
+    - id: SPELL_6
+      value: -4
+
+- id: PV_132
+# name: Weißmagier der Akademie Schwert & Stab zu Gareth (Schwert-Zweig)
+  cost: 0
+  combatTechniques:
+    - id: CT_12
+      value: 1
+  skills:
+    - id: TAL_36
+      value: -1
+
+- id: PV_133
+# name: Weißmagier der Akademie Schwert & Stab zu Gareth (Stab-Zweig)
+  cost: -1
+  combatTechniques:
+    - id: CT_13
+      value: 1
+  skills:
+    - id: TAL_4
+      value: -1
+
+- id: PV_134
+# name: Gildenloser Magier nach Alrik Dagabor (Weg des Kämpfers)
+  cost: 11
+  combatTechniques:
+    - id: CT_13
+      value: 1
+  skills:
+    - id: TAL_18
+      value: -1
+    - id: TAL_35
+      value: 2
+  spells:
+    - id: SPELL_21
+      value: 4
+    - id: SPELL_13
+      value: -4
+    - id: SPELL_31
+      value: -2
+
+- id: PV_135
+# name: Gildenloser Magier nach Alrik Dagabor (Weg des Reisenden)
+  cost: 8
+  combatTechniques:
+    - id: CT_13
+      value: -1
+  skills:
+    - id: TAL_32
+      value: 1
+    - id: TAL_27
+      value: 1
+    - id: TAL_30
+      value: 2
+    - id: TAL_41
+      value: -2
+  spells:
+    - id: SPELL_32
+      value: -1
+    - id: SPELL_122
+      value: 6
+    - id: SPELL_31
+      value: -6
+
+- id: PV_136
+# name: Schwarzmagier des Demirion Ophenos (Weg der Niederhöllen)
+  cost: 8
+  skills:
+    - id: TAL_17
+      value: 1
+    - id: TAL_41
+      value: 1
+    - id: TAL_28
+      value: -2
+  spells:
+    - id: SPELL_74
+      value: 4
+    - id: SPELL_106
+      value: -4
+    - id: SPELL_130
+      value: 4
+    - id: SPELL_162
+      value: -4
+
+- id: PV_137
+# name: Schwarzmagier des Demirion Ophenos (Weg ohne Gnade)
+  cost: 2
+  skills:
+    - id: TAL_17
+      value: 1
+    - id: TAL_50
+      value: 1
+    - id: TAL_28
+      value: -2
+  spells:
+    - id: SPELL_110
+      value: 4
+    - id: SPELL_134
+      value: -4
+    - id: SPELL_130
+      value: 6
+    - id: SPELL_50
+      value: -6
+
+- id: PV_138
+# name: Graumagier der Halle der Antimagie zu Kuslik (Defensor Zweig)
+  cost: 7
+  skills:
+    - id: TAL_36
+      value: 1
+    - id: TAL_20
+      value: 1
+    - id: TAL_41
+      value: 1
+    - id: TAL_16
+      value: -1
+    - id: TAL_28
+      value: -1
+    - id: TAL_29
+      value: -1
+  spells:
+    - id: SPELL_137
+      value: 5
+    - id: SPELL_10
+      value: -5
+
+- id: PV_139
+# name: Graumagier der Halle der Antimagie zu Kuslik (Contemplatoren-Zweig)
+  cost: -2
+  skills:
+    - id: TAL_18
+      value: 1
+    - id: TAL_39
+      value: 2
+    - id: TAL_11
+      value: 1
+    - id: TAL_21
+      value: 1
+    - id: TAL_28
+      value: -1
+    - id: TAL_41
+      value: -2
+    - id: TAL_29
+      value: -1
+  spells:
+    - id: SPELL_1
+      value: 5
+    - id: SPELL_10
+      value: -5
+
+- id: PV_140
+# name: Schwarzmagier der Halle der Erleuchtung zu Al´Anfa (Leibmagier-Zweig)
+  cost: 8
+  skills:
+    - id: TAL_18
+      value: 1
+    - id: TAL_11
+      value: 2
+    - id: TAL_22
+      value: 1
+    - id: TAL_43
+      value: -2
+    - id: TAL_28
+      value: -1
+    - id: TAL_29
+      value: -1
+  spells:
+    - id: SPELL_7
+      value: 4
+    - id: SPELL_22
+      value: -4
+    - id: SPELL_15
+      value: 7
+    - id: SPELL_20
+      value: -7
+    - id: SPELL_113
+      value: 4
+
+- id: PV_141
+# name: Schwarzmagier der Halle der Erleuchtung zu Al´Anfa (Seekrieg-Zweig)
+  cost: 3
+  skills:
+    - id: TAL_44
+      value: 2
+    - id: TAL_32
+      value: 2
+    - id: TAL_7
+      value: 2
+    - id: TAL_20
+      value: -2
+    - id: TAL_11
+      value: -2
+    - id: TAL_22
+      value: -2
+  spells:
+    - id: SPELL_123
+      value: 4
+    - id: SPELL_90
+      value: -4
+    - id: SPELL_161
+      value: 6
+    - id: SPELL_20
+      value: -6
+    - id: SPELL_113
+      value: 4
+
+- id: PV_142
+# name: Weißmagier nach Hesindius Lichtblick (Weg Bekämpfung des Bösen)
+  cost: 17
+  combatTechniques:
+    - id: CT_13
+      value: 1
+  skills:
+    - id: TAL_8
+      value: 1
+    - id: TAL_49
+      value: -1
+    - id: TAL_36
+      value: -1
+  spells:
+    - id: SPELL_89
+      value: 4
+    - id: SPELL_15
+      value: -4
+    - id: SPELL_8
+      value: 4
+    - id: SPELL_27
+      value: -4
+
+- id: PV_143
+# name: Weißmagier nach Hesindius Lichtblick (Weg der Unterstützung)
+  cost: -12
+  skills:
+    - id: TAL_50
+      value: 1
+    - id: TAL_28
+      value: 1
+    - id: TAL_36
+      value: -1
+    - id: TAL_38
+      value: -1
+  spells:
+    - id: SPELL_102
+      value: 6
+    - id: SPELL_40
+      value: -6
+    - id: SPELL_153
+      value: 4
+    - id: SPELL_3
+      value: -4
+
+- id: PV_144
+# name: Gildenloser Magier nach Khelbara ay Baburia (Weg der Heiler)
+  cost: 11
+  skills:
+    - id: TAL_47
+      value: 1
+    - id: TAL_48
+      value: 1
+    - id: TAL_50
+      value: 1
+    - id: TAL_25
+      value: -2
+  spells:
+    - id: SPELL_9
+      value: 6
+    - id: SPELL_20
+      value: -6
+    - id: SPELL_81
+      value: 5
+    - id: SPELL_159
+      value: -5
+    - id: SPELL_141
+      value: 4
+    - id: SPELL_22
+      value: -4
+    - id: SPELL_44
+      value: -1
+
+- id: PV_145
+# name: Gildenloser Magier nach Khelbara ay Baburia (Weg des Verführers)
+  cost: 12
+  skills:
+    - id: TAL_16
+      value: 2
+    - id: TAL_25
+      value: 1
+    - id: TAL_21
+      value: 1
+    - id: TAL_22
+      value: 1
+    - id: TAL_48
+      value: -1
+    - id: TAL_8
+      value: -2
+  spells:
+    - id: SPELL_9
+      value: 6
+    - id: SPELL_20
+      value: -6
+    - id: SPELL_38
+      value: 5
+    - id: SPELL_159
+      value: -5
+    - id: SPELL_43
+      value: 4
+    - id: SPELL_22
+      value: -4
+    - id: SPELL_175
+      value: -1
+
+- id: PV_146
+# name: Weißmagier der Schule der Austreibung zu Perricum (Exorzisten-Zweig)
+  cost: -2
+  skills:
+    - id: TAL_8
+      value: 2
+    - id: TAL_41
+      value: 1
+    - id: TAL_15
+      value: -2
+    - id: TAL_49
+      value: -1
+  spells:
+    - id: SPELL_110
+      value: 5
+    - id: SPELL_133
+      value: -5
+    - id: SPELL_177
+      value: 4
+    - id: SPELL_68
+      value: -4
+
+- id: PV_147
+# name: Weißmagier der Schule der Austreibung zu Perricum (Seelenheiler-Zweig)
+  cost: -13
+  combatTechniques:
+    - id: CT_9
+      value: -2
+  skills:
+    - id: TAL_20
+      value: 1
+    - id: TAL_49
+      value: 2
+    - id: TAL_41
+      value: -1
+  spells:
+    - id: SPELL_118
+      value: 7
+    - id: SPELL_152
+      value: -7
+    - id: SPELL_177
+      value: 5
+    - id: SPELL_129
+      value: -5
+
+- id: PV_148
+# name: Graumagier der Schule der Hellsicht zu Thorwal (Philosophen-Zweig)
+  cost: -6
+  skills:
+    - id: TAL_33
+      value: 2
+    - id: TAL_34
+      value: 2
+    - id: TAL_40
+      value: 1
+    - id: TAL_42
+      value: 1
+    - id: TAL_3
+      value: -2
+    - id: TAL_4
+      value: -1
+    - id: TAL_8
+      value: -1
+    - id: TAL_30
+      value: -2
+  spells:
+    - id: SPELL_119
+      value: 4
+    - id: SPELL_32
+      value: -4
+    - id: SPELL_124
+      value: 4
+    - id: SPELL_5
+      value: -4
+    - id: SPELL_176
+      value: 5
+    - id: SPELL_1
+      value: -5
+    - id: SPELL_155
+      value: 4
+    - id: SPELL_183
+      value: -4
+
+- id: PV_149
+# name: Graumagier der Schule der Hellsicht zu Thorwal (Reisender-Zweig)
+  cost: -10
+  skills:
+    - id: TAL_44
+      value: 1
+    - id: TAL_32
+      value: 1
+    - id: TAL_4
+      value: 1
+    - id: TAL_7
+      value: 1
+    - id: TAL_36
+      value: -1
+    - id: TAL_20
+      value: -2
+    - id: TAL_8
+      value: -1
+  spells:
+    - id: SPELL_124
+      value: 5
+    - id: SPELL_149
+      value: -5
+    - id: SPELL_176
+      value: 4
+    - id: SPELL_32
+      value: -4
+    - id: SPELL_166
+      value: 4
+    - id: SPELL_30
+      value: -4
+    - id: SPELL_183
+      value: 5
+    - id: SPELL_84
+      value: -5
+
+- id: PV_150
+# name: Graumagier der Schule der Vierfachen Verwandlung zu Sinoda (Selbstverwandler-Zweig)
+  cost: 11
+  skills:
+    - id: TAL_4
+      value: 2
+    - id: TAL_47
+      value: -2
+  spells:
+    - id: SPELL_121
+      value: 5
+    - id: SPELL_167
+      value: -5
+    - id: SPELL_153
+      value: 5
+    - id: SPELL_152
+      value: -5
+    - id: SPELL_169
+      value: 7
+    - id: SPELL_31
+      value: -7
+
+- id: PV_151
+# name: Graumagier der Schule der Vierfachen Verwandlung zu Sinoda (Fremdverwandler-Zweig)
+  cost: -2
+  skills:
+    - id: TAL_4
+      value: 2
+    - id: TAL_47
+      value: -2
+  spells:
+    - id: SPELL_72
+      value: 5
+    - id: SPELL_4
+      value: -5
+    - id: SPELL_138
+      value: 4
+    - id: SPELL_153
+      value: 5
+    - id: SPELL_152
+      value: -5
+
+- id: PV_152
+# name: Graumagier des Direkten Weges zu Gerasim (Menschlicher Zweig)
+  cost: -9
+  skills:
+    - id: TAL_3
+      value: 2
+    - id: TAL_4
+      value: 1
+    - id: TAL_13
+      value: -1
+  spells:
+    - id: SPELL_92
+      value: 5
+    - id: SPELL_182
+      value: -5
+    - id: SPELL_179
+      value: 5
+    - id: SPELL_27
+      value: -5
+    - id: SPELL_42
+      value: 6
+    - id: SPELL_101
+      value: -2
+    - id: SPELL_165
+      value: 6
+    - id: SPELL_5
+      value: -6
+
+- id: PV_153
+# name: Graumagier des Direkten Weges zu Gerasim (Elfischer Zweig)
+  cost: -10
+  skills:
+    - id: TAL_28
+      value: 1
+    - id: TAL_29
+      value: 1
+    - id: TAL_30
+      value: 1
+    - id: TAL_20
+      value: -2
+    - id: TAL_39
+      value: -1
+  spells:
+    - id: SPELL_106
+      value: 6
+    - id: SPELL_109
+      value: 4
+    - id: SPELL_43
+      value: -4
+    - id: SPELL_124
+      value: 6
+    - id: SPELL_101
+      value: -6
+    - id: SPELL_126
+      value: 5
+    - id: SPELL_182
+      value: -5
+    - id: SPELL_42
+      value: 5
+    - id: SPELL_27
+      value: -5
+
+- id: PV_154
+# name: Graumagier der Schule des Seienden Scheins zu Zorgan (Gaukler-Zweig)
+  cost: -13
+  skills:
+    - id: TAL_31
+      value: 1
+    - id: TAL_2
+      value: 1
+    - id: TAL_14
+      value: 2
+    - id: TAL_33
+      value: -1
+    - id: TAL_36
+      value: -2
+    - id: TAL_6
+      value: -1
+  spells:
+    - id: SPELL_17
+      value: 5
+    - id: SPELL_44
+      value: -5
+    - id: SPELL_132
+      value: 5
+    - id: SPELL_11
+      value: -5
+    - id: SPELL_135
+      value: 6
+    - id: SPELL_133
+      value: -6
+
+- id: PV_155
+# name: Graumagier der Schule des Seienden Scheins zu Zorgan (Hofkünstler-Zweig)
+  cost: 2
+  skills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_18
+      value: 2
+    - id: TAL_39
+      value: 1
+    - id: TAL_2
+      value: -1
+    - id: TAL_28
+      value: -1
+    - id: TAL_29
+      value: -2
+  spells:
+    - id: SPELL_109
+      value: 6
+    - id: SPELL_133
+      value: -6
+    - id: SPELL_135
+      value: 5
+    - id: SPELL_44
+      value: -5
+    - id: SPELL_155
+      value: 4
+    - id: SPELL_142
+      value: 4
+
+- id: PV_156
+# name: Gildenloser Magier des Seminars der el26? Verständigung und natürlichen Heilung zu Donnerbach (Heiler-Zweig)
+  cost: 6
+  combatTechniques:
+    - id: CT_13
+      value: -2
+  skills:
+    - id: TAL_43
+      value: 2
+    - id: TAL_47
+      value: 2
+    - id: TAL_48
+      value: 1
+    - id: TAL_50
+      value: 2
+    - id: TAL_28
+      value: 1
+    - id: TAL_4
+      value: -2
+    - id: TAL_52
+      value: 1
+    - id: TAL_40
+      value: -1
+  spells:
+    - id: SPELL_128
+      value: 4
+    - id: SPELL_6
+      value: -4
+    - id: SPELL_179
+      value: 5
+    - id: SPELL_107
+      value: -5
+
+- id: PV_157
+# name: Gildenloser Magier des Seminars der elfischen Verständigung und natürlichen Heilung zu Donnerbach (Verständigungs-Zweig)
+  cost: -8
+  skills:
+    - id: TAL_20
+      value: 1
+    - id: TAL_49
+      value: 2
+    - id: TAL_21
+      value: 2
+    - id: TAL_50
+      value: -1
+    - id: TAL_28
+      value: -2
+    - id: TAL_29
+      value: -2
+  spells:
+    - id: SPELL_124
+      value: 4
+    - id: SPELL_70
+      value: -4
+    - id: SPELL_128
+      value: 5
+    - id: SPELL_81
+      value: -5
+
+- id: PV_158
+# name: Qabaloth der Töchter Niobaras (Weg der Geheimnisse)
+  cost: 1
+  skills:
+    - id: TAL_36
+      value: 2
+    - id: TAL_33
+      value: 1
+    - id: TAL_42
+      value: 1
+    - id: TAL_16
+      value: -2
+    - id: TAL_20
+      value: -2
+  spells:
+    - id: SPELL_1
+      value: 6
+    - id: SPELL_30
+      value: -6
+    - id: SPELL_132
+      value: 4
+    - id: SPELL_181
+      value: -4
+
+- id: PV_159
+# name: Qabaloth der Töchter Niobaras (Weg der Offenbarung)
+  cost: -2
+  combatTechniques:
+    - id: CT_13
+      value: -2
+  skills:
+    - id: TAL_19
+      value: 1
+    - id: TAL_49
+      value: 1
+    - id: TAL_20
+      value: 1
+    - id: TAL_41
+      value: -2
+  spells:
+    - id: SPELL_1
+      value: 4
+    - id: SPELL_181
+      value: -4
+    - id: SPELL_68
+      value: 4
+    - id: SPELL_143
+      value: -4
+
+- id: PV_160
+# name: Gildenloser Magier nach Vadif sal Karim (Weg des Wüstenzauberers)
+  cost: 2
+  combatTechniques:
+    - id: CT_3
+      value: 1
+  skills:
+    - id: TAL_41
+      value: 2
+    - id: TAL_30
+      value: 1
+    - id: TAL_50
+      value: -2
+  spells:
+    - id: SPELL_96
+      value: 4
+    - id: SPELL_92
+      value: -4
+
+- id: PV_161
+# name: Gildenloser Magier nach Vadif sal Karim (Weg des Tieres)
+  cost: 5
+  skills:
+    - id: TAL_29
+      value: 2
+    - id: TAL_20
+      value: -2
+  spells:
+    - id: SPELL_169
+      value: 4
+    - id: SPELL_92
+      value: -4
+
+- id: PV_162
+# name: Kundschafterin
+  cost: 50
+  activatablePrerequisites:
+    - id: SA_66
+      active: false
+  combatTechniques:
+    - id: CT_12
+      value: -2
+  skills:
+    - id: TAL_3
+      value: 4
+    - id: TAL_10
+      value: 4
+    - id: TAL_24
+      value: 6
+    - id: TAL_27
+      value: 6
+    - id: TAL_30
+      value: 4
+
+- id: PV_163
+# name: Bogenschützin
+  cost: 5
+  increasablePrerequisites:
+    - id: ATTR_5
+      value: 13
+  activatablePrerequisites:
+    - id: SA_66
+      active: false
+    - id: SA_60
+      active: true
+      sid: 2
+    - id: SA_48
+      active: false
+      level: 1
+    - id: SA_55
+      active: true
+      level: 1
+    - id: SA_44
+      active: true
+  combatTechniques:
+    - id: CT_2
+      value: 2
+    - id: CT_10
+      value: -4
+    - id: CT_12
+      value: -2
+  skills:
+    - id: TAL_51
+      value: 3
+    - id: TAL_55
+      value: -3
+
+- id: PV_164
+# name: Rondrageweihte Amazone
+  cost: 62
+  activatablePrerequisites:
+    - id: ADV_12
+    - id: SA_682
+  skillSpecializationSelectOptions: TAL_34
+  skills:
+    - id: TAL_15
+      value: 4
+  liturgicalChants:
+    - id: LITURGY_5
+      value: 6
+    - id: LITURGY_76
+      value: 5
+    - id: LITURGY_81
+      value: 4
+    - id: LITURGY_29
+      value: 6
+  blessings:
+    - BLESSING_1
+    - BLESSING_2
+    - BLESSING_3
+    - BLESSING_4
+    - BLESSING_5
+    - BLESSING_6
+    - BLESSING_7
+    - BLESSING_8
+    - BLESSING_9
+    - BLESSING_10
+    - BLESSING_11
+    - BLESSING_12
+
+- id: PV_165
+# name: Eiserne Schlange
+  cost: 59
+  skills:
+    - id: TAL_12
+      value: 2
+    - id: TAL_13
+      value: 4
+    - id: TAL_19
+      value: 2
+    - id: TAL_21
+      value: 7
+    - id: TAL_22
+      value: 4
+    - id: TAL_41
+      value: 1
+    - id: TAL_57
+      value: 2
+
+- id: PV_166
+# name: Arkaner Zweig
+  cost: 0
+  activatablePrerequisites:
+    - id: ADV_50
+
+- id: PV_167
+# name: Sakraler Zweig
+  cost: 77
+  activatablePrerequisites:
+    - id: ADV_12
+    - id: SA_684
+  skillSpecializationSelectOptions: TAL_34
+  skills:
+    - id: TAL_15
+      value: 3
+    - id: TAL_34
+      value: 1
+  liturgicalChants:
+    - id: LITURGY_134
+      value: 6
+    - id: LITURGY_6
+      value: 5
+    - id: LITURGY_11
+      value: 3
+    - id: LITURGY_18
+      value: 7
+    - id: LITURGY_19
+      value: 6
+    - id: LITURGY_96
+      value: 5
+  blessings:
+    - BLESSING_1
+    - BLESSING_2
+    - BLESSING_3
+    - BLESSING_4
+    - BLESSING_5
+    - BLESSING_6
+    - BLESSING_7
+    - BLESSING_8
+    - BLESSING_9
+    - BLESSING_10
+    - BLESSING_11
+    - BLESSING_12
+
+- id: PV_168
+# name: Untotenjäger
+  cost: 75
+  increasablePrerequisites:
+    - id: TAL_6
+      value: 10
+    - id: ATTR_8
+      value: 13
+  activatablePrerequisites:
+    - id: SA_41
+      level: 1
+    - id: SA_43
+    - id: SA_67
+  skills:
+    - id: TAL_6
+      value: 2
+    - id: TAL_29
+      value: 2
+    - id: TAL_35
+      value: 2
+    - id: TAL_36
+      value: 2
+    - id: TAL_41
+      value: 2
+    - id: TAL_48
+      value: 2
+    - id: TAL_51
+      value: 2
+    - id: TAL_55
+      value: 2
+
+- id: PV_169
+# name: Borongeweihte Golgaritin
+  cost: 100
+  activatablePrerequisites:
+    - id: ADV_12
+    - id: SA_683
+  languageScriptSelectOptions: 6
+  skillSpecializationSelectOptions: TAL_34
+  skills:
+    - id: TAL_15
+      value: 4
+    - id: TAL_34
+      value: 2
+    - id: TAL_49
+      value: 4
+    - id: TAL_54
+      value: 4
+  liturgicalChants:
+    - id: LITURGY_2
+      value: 3
+    - id: LITURGY_3
+      value: 5
+    - id: LITURGY_14
+      value: 7
+    - id: LITURGY_22
+      value: 8
+    - id: LITURGY_26
+      value: 6
+    - id: LITURGY_185
+      value: 5
+  blessings:
+    - BLESSING_1
+    - BLESSING_2
+    - BLESSING_3
+    - BLESSING_4
+    - BLESSING_5
+    - BLESSING_6
+    - BLESSING_7
+    - BLESSING_8
+    - BLESSING_9
+    - BLESSING_10
+    - BLESSING_11
+    - BLESSING_12
+
+- id: PV_170
+# name: Gildenloser Magier nach Kiranya von Kutaki (Pfad der Hellsicht)
+  cost: 9
+  skills:
+    - id: TAL_20
+      value: 2
+    - id: TAL_21
+      value: 2
+  spells:
+    - id: SPELL_128
+      value: 4
+    - id: SPELL_15
+      value: -4
+
+- id: PV_171
+# name: Gildenloser Magier nach Kiranya von Kutaki (Pfad der Sphären)
+  cost: 31
+  skills:
+    - id: TAL_41
+      value: 1
+    - id: TAL_20
+      value: -2
+  spells:
+    - id: SPELL_103
+      value: 4
+    - id: SPELL_7
+      value: -4
+
+- id: PV_172
+# name: Gildenloser Magier des Kreises der Einfühlung (Einfühlungs-Zweig)
+  cost: -1
+  skills:
+    - id: TAL_20
+      value: 2
+    - id: TAL_30
+      value: -1
+  spells:
+    - id: SPELL_70
+      value: 4
+    - id: SPELL_84
+      value: -4
+    - id: SPELL_107
+      value: 3
+    - id: SPELL_5
+      value: -3
+    - id: SPELL_119
+      value: 4
+    - id: SPELL_6
+      value: -4
+    - id: SPELL_128
+      value: 4
+    - id: SPELL_166
+      value: -4
+    - id: SPELL_143
+      value: 4
+    - id: SPELL_30
+      value: -4
+
+- id: PV_173
+# name: Gildenloser Magier des Kreises der Einfühlung (Wildnis-Zweig)
+  cost: -9
+  skills:
+    - id: TAL_30
+      value: 1
+    - id: TAL_36
+      value: -1
+  spells:
+    - id: SPELL_1
+      value: 3
+    - id: SPELL_5
+      value: -3
+    - id: SPELL_91
+      value: 4
+    - id: SPELL_6
+      value: -4
+    - id: SPELL_119
+      value: 6
+    - id: SPELL_7
+      value: -6
+    - id: SPELL_178
+      value: 4
+    - id: SPELL_124
+      value: -4
+    - id: SPELL_179
+      value: 4
+    - id: SPELL_84
+      value: -4
+
+- id: PV_174
+# name: Gildenloser Magier nach Rafim Bey (Dämonen-Zweig)
+  cost: 4
+  spells:
+    - id: SPELL_129
+      value: 3
+    - id: SPELL_90
+      value: -3
+
+- id: PV_175
+# name: Gildenloser Magier nach Rafim Bey (Elementar-Zweig)
+  cost: 4
+  spells:
+    - id: SPELL_131
+      value: 3
+    - id: SPELL_90
+      value: -3
+
+- id: PV_176
+# name: Gildenloser Magier nach Sevastana Gevendar (Bordmagus-Zweig)
+  cost: 8
+  skills:
+    - id: TAL_44
+      value: 1
+    - id: TAL_7
+      value: 1
+  spells:
+    - id: SPELL_81
+      value: 3
+    - id: SPELL_30
+      value: -3
+    - id: SPELL_297
+      value: 3
+    - id: SPELL_70
+      value: -3
+
+- id: PV_177
+# name: Gildenloser Magier nach Sevastana Gevendar (Kriegszug-Zweig)
+  cost: -3
+  skills:
+    - id: TAL_35
+      value: 2
+    - id: TAL_20
+      value: -2
+  spells:
+    - id: SPELL_174
+      value: 3
+    - id: SPELL_30
+      value: -3
+    - id: SPELL_8
+      value: 3
+    - id: SPELL_70
+      value: -3
+
+- id: PV_178
+# name: Graumagier des Kampfseminar zu Andergast (Pfad des Krieges)
+  cost: 2
+  skills:
+    - id: TAL_35
+      value: 1
+  spells:
+    - id: SPELL_21
+      value: 5
+    - id: SPELL_11
+      value: -5
+
+- id: PV_179
+# name: Graumagier des Kampfseminar zu Andergast (Pfad der Zerstörung)
+  cost: 5
+  spells:
+    - id: SPELL_80
+      value: 4
+    - id: SPELL_5
+      value: -4
+
+- id: PV_180
+# name: Graumagier der Akademie der Geistreisen zu Belhanka (Pfad der Bewegung)
+  cost: -13
+  skills:
+    - id: TAL_3
+      value: 2
+    - id: TAL_36
+      value: -1
+  spells:
+    - id: SPELL_6
+      value: 4
+    - id: SPELL_27
+      value: -4
+    - id: SPELL_178
+      value: 5
+    - id: SPELL_8
+      value: -5
+    - id: SPELL_30
+      value: 6
+    - id: SPELL_122
+      value: -6
+
+- id: PV_181
+# name: Graumagier der Akademie der Geistreisen zu Belhanka (Pfad der Reise)
+  cost: -9
+  skills:
+    - id: TAL_44
+      value: 2
+    - id: TAL_45
+      value: 2
+  spells:
+    - id: SPELL_124
+      value: 5
+    - id: SPELL_165
+      value: -5
+    - id: SPELL_321
+      value: 4
+    - id: SPELL_305
+      value: -4
+    - id: SPELL_178
+      value: 5
+    - id: SPELL_8
+      value: -5
+    - id: SPELL_30
+      value: 6
+    - id: SPELL_122
+      value: -6
+
+- id: PV_182
+# name: Graumagier der Halle des vollendeten Kampfes zu Bethana (Pfad des Körpers)
+  cost: 7
+  skills:
+    - id: TAL_4
+      value: 2
+    - id: TAL_35
+      value: 2
+    - id: TAL_36
+      value: -2
+  spells:
+    - id: SPELL_70
+      value: 5
+    - id: SPELL_5
+      value: -5
+    - id: SPELL_8
+      value: 4
+    - id: SPELL_113
+      value: -4
+
+- id: PV_183
+# name: Graumagier der Halle des vollendeten Kampfes zu Bethana (Pfad des Willens)
+  cost: -6
+  skills:
+    - id: TAL_15
+      value: 2
+    - id: TAL_35
+      value: -2
+  spells:
+    - id: SPELL_31
+      value: 4
+    - id: SPELL_113
+      value: -4
+    - id: SPELL_33
+      value: 5
+    - id: SPELL_14
+      value: -5
+
+- id: PV_184
+# name: Graumagier des Stoerrebrandt-Kolleg zu Riva (Berater-Zweig)
+  cost: 0
+  skills:
+    - id: TAL_46
+      value: 1
+    - id: TAL_21
+      value: 1
+    - id: TAL_30
+      value: -1
+  spells:
+    - id: SPELL_172
+      value: 6
+    - id: SPELL_20
+      value: -6
+    - id: SPELL_128
+      value: 4
+    - id: SPELL_3
+      value: -4
+    - id: SPELL_135
+      value: 4
+    - id: SPELL_15
+      value: -6
+
+- id: PV_185
+# name: Graumagier des Stoerrebrandt-Kolleg zu Riva (Leibmagier-Zweig)
+  cost: 24
+  skills:
+    - id: TAL_35
+      value: 2
+    - id: TAL_46
+      value: -2
+  spells:
+    - id: SPELL_11
+      value: 4
+    - id: SPELL_8
+      value: -4
+    - id: SPELL_21
+      value: 6
+    - id: SPELL_310
+      value: -6
+    - id: SPELL_80
+      value: 6
+    - id: SPELL_20
+      value: -6
+
+- id: PV_186
+# name: Schwarzmagier der Halle der Macht zu Lowangen (Pfad der Beherrschung)
+  cost: 5
+  spells:
+    - id: SPELL_134
+      value: 4
+    - id: SPELL_40
+      value: -4
+    - id: SPELL_138
+      value: 4
+    - id: SPELL_15
+      value: -4
+
+- id: PV_187
+# name: Schwarzmagier der Halle der Macht zu Lowangen (Pfad der Willenskraft)
+  cost: 0
+  skills:
+    - id: TAL_23
+      value: 1
+    - id: TAL_18
+      value: -2
+  spells:
+    - id: SPELL_33
+      value: 4
+    - id: SPELL_114
+      value: -4
+    - id: SPELL_84
+      value: 4
+    - id: SPELL_40
+      value: -4
+
+- id: PV_188
+# name: Weißmagier der Akademie der Herrschaft zu Elenvina (Pfad der Herrschaft)
+  cost: 5
+  spells:
+    - id: SPELL_134
+      value: 4
+    - id: SPELL_40
+      value: -4
+    - id: SPELL_138
+      value: 4
+    - id: SPELL_106
+      value: -4
+
+- id: PV_189
+# name: Weißmagier der Akademie der Herrschaft zu Elenvina (Pfad der Widerstandskraft)
+  cost: 0
+  skills:
+    - id: TAL_23
+      value: 1
+    - id: TAL_18
+      value: -2
+  spells:
+    - id: SPELL_33
+      value: 4
+    - id: SPELL_114
+      value: -4
+    - id: SPELL_84
+      value: 4
+    - id: SPELL_40
+      value: -4
+
+- id: PV_190
+# name: Weißmagier der Akademie der magischen Rüstung zu Gareth (Pfad des Leibwächters)
+  cost: 3
+  skills:
+    - id: TAL_20
+      value: 1
+  spells:
+    - id: SPELL_128
+      value: 4
+    - id: SPELL_133
+      value: -4
+
+- id: PV_191
+# name: Weißmagier der Akademie der magischen Rüstung zu Gareth (Pfad des Beraters)
+  cost: 0
+  combatTechniques:
+    - id: CT_13
+      value: -2
+  skills:
+    - id: TAL_20
+      value: 2
+  spells:
+    - id: SPELL_114
+      value: 4
+    - id: SPELL_133
+      value: -4
+
+- id: PV_192
+# name: Weißmagier der Schule des magischen Wissens zu Methumis (Feldforscher-Zweig)
+  cost: 1
+  skills:
+    - id: TAL_30
+      value: 2
+  spells:
+    - id: SPELL_5
+      value: 5
+    - id: SPELL_107
+      value: -5
+    - id: SPELL_8
+      value: 4
+    - id: SPELL_84
+      value: -4
+
+- id: PV_193
+# name: Weißmagier der Schule des magischen Wissens zu Methumis (Theoretiker-Zweig)
+  cost: -3
+  skills:
+    - id: TAL_33
+      value: 2
+    - id: TAL_36
+      value: 1
+    - id: TAL_18
+      value: -2
+    - id: TAL_21
+      value: -2
+  spells:
+    - id: SPELL_7
+      value: 4
+    - id: SPELL_133
+      value: -4
+    - id: SPELL_30
+      value: 4
+    - id: SPELL_84
+      value: -4
+
+- id: PV_194
+# name: Weißmagier der Halle des Lebens zu Norburg (Pfad der Alchimie)
+  cost: 11
+  skills:
+    - id: TAL_43
+      value: 2
+    - id: TAL_47
+      value: 2
+    - id: TAL_50
+      value: -1
+  spells:
+    - id: SPELL_90
+      value: 5
+    - id: SPELL_68
+      value: -5
+    - id: SPELL_7
+      value: 4
+    - id: SPELL_31
+      value: -4
+
+- id: PV_195
+# name: Weißmagier der Halle des Lebens zu Norburg (Pfad der Kräuterkunde)
+  cost: 8
+  skills:
+    - id: TAL_28
+      value: 1
+  spells:
+    - id: SPELL_70
+      value: 5
+    - id: SPELL_68
+      value: -5
+    - id: SPELL_7
+      value: 4
+    - id: SPELL_31
+      value: -4
+
+- id: PV_196
+# name: Weißmagier der Akademie von Licht und Dunkelheit zu Nostria (Pfad der Dunkelheit)
+  cost: 0
+  spells:
+    - id: SPELL_115
+      value: 5
+    - id: SPELL_3
+      value: -5
+
+- id: PV_197
+# name: Weißmagier der Akademie von Licht und Dunkelheit zu Nostria (Pfad des Lichtes)
+  cost: 0
+  spells:
+    - id: SPELL_21
+      value: 5
+    - id: SPELL_3
+      value: -5
+
+- id: PV_198
+# name: Giftmischer/in
+  cost: -3
+  skills:
+    - id: TAL_43
+      value: 1
+    - id: TAL_47
+      value: 1
+    - id: TAL_50
+      value: -2
+
+- id: PV_199
+# name: Botenreiter/in
+  cost: 0
+  skills:
+    - id: TAL_4
+      value: -4
+    - id: TAL_6
+      value: 8
+
+- id: PV_200
+# name: Metzger/in
+  cost: 5
+  skills:
+    - id: TAL_52
+      value: -1
+    - id: TAL_21
+      value: 2
+
+- id: PV_201
+# name: Gwen Petryl-Sammler
+  cost: 9
+  skills:
+    - id: TAL_34
+      value: 1
+    - id: TAL_55
+      value: -1
+    - id: TAL_40
+      value: -1
+    - id: TAL_58
+      value: 6
+    - id: TAL_42
+      value: 6
+
+- id: PV_202
+# name: Intrigenmeister/in
+  cost: 14
+  skills:
+    - id: TAL_15
+      value: 4
+    - id: TAL_16
+      value: 4
+    - id: TAL_6
+      value: -2
+    - id: TAL_8
+      value: -3
+    - id: TAL_21
+      value: 2
+    - id: TAL_23
+      value: 2
+
+- id: PV_203
+# name: Schiffszimmermann/frau
+  cost: 11
+  skills:
+    - id: TAL_44
+      value: 4
+    - id: TAL_45
+      value: -3
+    - id: TAL_7
+      value: 3
+
+- id: PV_204
+# name: Aktmodell
+  cost: 129
+  skills:
+    - id: TAL_16
+      value: 2
+    - id: TAL_8
+      value: 2
+    - id: TAL_23
+      value: 3
+
+- id: PV_205
+# name: Erotikmaler
+  cost: 117
+  skills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_18
+      value: 2
+    - id: TAL_54
+      value: 6
+
+- id: PV_206
+# name: Erotikschriftsteller
+  cost: 121
+  languageScriptSelectOptions: 4
+  skills:
+    - id: TAL_32
+      value: 3
+    - id: TAL_33
+      value: 2
+    - id: TAL_54
+      value: -2
+    - id: TAL_40
+      value: 2
+
+- id: PV_207
+# name: Liebesspielzeughersteller
+  cost: 126
+  skills:
+    - id: TAL_51
+      value: 7
+    - id: TAL_58
+      value: 7
+
+- id: PV_209
+# name: Haremsaufseher
+  cost: 19
+  skills:
+    - id: TAL_18
+      value: 2
+    - id: TAL_19
+      value: 2
+    - id: TAL_46
+      value: 5
+    - id: TAL_5
+      value: -2
+    - id: TAL_20
+      value: 3
+    - id: TAL_38
+      value: 5
+    - id: TAL_40
+      value: 2
+
+- id: PV_210
+# name: Lyceum Azizel
+  cost: 12
+  skills:
+    - id: TAL_56
+      value: 4
+    - id: TAL_9
+      value: 4
+    - id: TAL_11
+      value: 4
+
+- id: PV_211
+# name: Lyceum Brigonia
+  cost: 24
+  skills:
+    - id: TAL_15
+      value: 4
+    - id: TAL_46
+      value: 2
+    - id: TAL_20
+      value: 1
+    - id: TAL_21
+      value: 3
+
+- id: PV_212
+# name: Lyceum Dalekidos
+  cost: 31
+  skills:
+    - id: TAL_43
+      value: 6
+    - id: TAL_49
+      value: 4
+    - id: TAL_20
+      value: 1
+    - id: TAL_42
+      value: 7
+
+- id: PV_213
+# name: Lyceum Marmaron
+  cost: 44
+  skills:
+    - id: TAL_47
+      value: 4
+    - id: TAL_48
+      value: 2
+    - id: TAL_49
+      value: 4
+    - id: TAL_50
+      value: 5
+    - id: TAL_20
+      value: -2
+
+- id: PV_214
+# name: Lyceum Tulipan
+  cost: 36
+  combatTechniques:
+    - id: CT_8
+      value: 6
+  skills:
+    - id: TAL_49
+      value: 2
+    - id: TAL_20
+      value: 2
+    - id: TAL_23
+      value: 3
+
+- id: PV_215
+# name: Auspeitscher
+  cost: 54
+  combatTechniques:
+    - id: CT_8
+      value: 6
+    - id: CT_9
+      value: 2
+  skills:
+    - id: TAL_17
+      value: 8
+    - id: TAL_5
+      value: 3
+    - id: TAL_53
+      value: 4
+    - id: TAL_49
+      value: 4
+
+- id: PV_216
+# name: Bordellvater
+  cost: 27
+  skills:
+    - id: TAL_19
+      value: 1
+    - id: TAL_20
+      value: 2
+    - id: TAL_23
+      value: 3
+    - id: TAL_46
+      value: 3
+
+- id: PV_217
+# name: Lustknabe
+  cost: 23
+  combatTechniques:
+    - id: CT_3
+      value: 2
+    - id: CT_9
+      value: 2
+  skills:
+    - id: TAL_8
+      value: 1
+    - id: TAL_11
+      value: 1
+    - id: TAL_19
+      value: 1
+    - id: TAL_23
+      value: 2
+    - id: TAL_38
+      value: -2
+
+- id: PV_218
+# name: Gesellschafter
+  cost: 6
+  skills:
+    - id: TAL_16
+      value: 1
+    - id: TAL_18
+      value: 4
+    - id: TAL_19
+      value: -2
+    - id: TAL_25
+      value: 2
+
+- id: PV_219
+# name: Favorit
+  cost: 10
+  skills:
+    - id: TAL_16
+      value: 2
+    - id: TAL_19
+      value: -4
+    - id: TAL_18
+      value: 7
+    - id: TAL_25
+      value: 4
+
+- id: PV_220
+# name: Trosshurer
+  cost: 30
+  skills:
+    - id: TAL_48
+      value: 1
+    - id: TAL_50
+      value: 3
+    - id: TAL_35
+      value: 4
+    - id: TAL_59
+      value: 2
+    - id: TAL_13
+      value: 2
+
+- id: PV_221
+# name: Al'Anfa Sexualmagier
+  cost: 298
+  specialAbilities:
+    - id: SA_1198
+  spells:
+    - id: SPELL_22
+      value: 10
+    - id: SPELL_387
+      value: -4
+    - id: SPELL_50
+      value: 8
+    - id: SPELL_391
+      value: -4
+    - id: SPELL_393
+      value: -4
+
+- id: PV_222
+# name: Engasaler Sexualmagier
+  cost: 277
+  specialAbilities:
+    - id: SA_1196
+  skills:
+    - id: TAL_46
+      value: 4
+    - id: TAL_52
+      value: 5
+    - id: TAL_8
+      value: -3
+    - id: TAL_36
+      value: -2
+    - id: TAL_41
+      value: -3
+    - id: TAL_23
+      value: 3
+  spells:
+    - id: SPELL_387
+      value: 2
+    - id: SPELL_388
+      value: -6
+    - id: SPELL_392
+      value: 6
+
+- id: PV_223
+# name: Fasarer Sexualmagier
+  cost: 321
+  specialAbilities:
+    - id: SA_1197
+  skills:
+    - id: TAL_16
+      value: 2
+    - id: TAL_4
+      value: 4
+    - id: TAL_10
+      value: 2
+    - id: TAL_14
+      value: 5
+    - id: TAL_397
+      value: 4
+    - id: TAL_30
+      value: -4
+
+- id: PV_224
+# name: Gehörnter
+  cost: 35
+  skills:
+    - id: TAL_4
+      value: 2
+  liturgicalChants:
+    - id: LITURGY_207
+      value: -5
+    - id: LITURGY_210
+      value: 5
+    - id: LITURGY_212
+      value: 4
+    - id: LITURGY_218
+      value: -4
+
+- id: PV_225
+# name: Priester des Weins
+  cost: 13
+  skills:
+    - id: TAL_31
+      value: 2
+    - id: TAL_25
+      value: -3
+    - id: TAL_4
+      value: -4
+    - id: TAL_5
+      value: 2
+    - id: TAL_52
+      value: 3
+    - id: TAL_11
+      value: 2
+    - id: TAL_14
+      value: 4
+
+- id: PV_226
+# name: Harmonist
+  cost: 19
+  skills:
+    - id: TAL_18
+      value: 2
+    - id: TAL_19
+      value: 2
+    - id: TAL_28
+      value: -2
+    - id: TAL_7
+      value: 3
+    - id: TAL_29
+      value: -2
+  liturgicalChants:
+    - id:
+        - LITURGY_206
+        - LITURGY_216
+      value: 5
+
+- id: PV_227
+# name: Levthansfreund
+  cost: 36
+  skills:
+    - id: TAL_6
+      value: 3
+    - id: TAL_29
+      value: 2
+    - id: TAL_30
+      value: 3
+
+- id: PV_228
+# name: Radscha-Anhänger
+  cost: 31
+  skills:
+    - id: TAL_4
+      value: 2
+    - id: TAL_8
+      value: 2
+
+- id: PV_229
+# name: Rahjageweihter Rahjasutra-Meister
+  cost: 73
+  activatablePrerequisites:
+    - id: ADV_12
+    - id: DISADV_34
+      level: 1
+      sid: 18
+    - id: SA_50
+      level: 2
+    - id: SA_692
+  liturgicalChants:
+    - id: LITURGY_209
+      value: 5
+    - id: LITURGY_220
+      value: 6
+    - id: LITURGY_221
+      value: 6
+    - id: LITURGY_213
+      value: 5
+    - id: LITURGY_79
+      value: 6
+    - id: LITURGY_22
+      value: 5
+  blessings:
+    - BLESSING_1
+    - BLESSING_2
+    - BLESSING_3
+    - BLESSING_4
+    - BLESSING_5
+    - BLESSING_6
+    - BLESSING_7
+    - BLESSING_8
+    - BLESSING_9
+    - BLESSING_10
+    - BLESSING_11
+    - BLESSING_12
+
+- id: PV_230
+# name: Rahjageweihter Säbeltänzer
+  cost: 76
+  activatablePrerequisites:
+    - id: ADV_12
+    - id: SA_692
+  liturgicalChants:
+    - id: LITURGY_209
+      value: 5
+    - id: LITURGY_211
+      value: 6
+    - id: LITURGY_213
+      value: 5
+    - id: LITURGY_214
+      value: 6
+    - id: LITURGY_217
+      value: 6
+    - id: LITURGY_22
+      value: 5
+  blessings:
+    - BLESSING_1
+    - BLESSING_2
+    - BLESSING_3
+    - BLESSING_4
+    - BLESSING_5
+    - BLESSING_6
+    - BLESSING_7
+    - BLESSING_8
+    - BLESSING_9
+    - BLESSING_10
+    - BLESSING_11
+    - BLESSING_12
+
+- id: PV_231
+# name: Fakultät des Erzes
+  cost: 286
+  skills:
+    - id: TAL_58
+      value: 6
+  spells:
+    - id: SPELL_304
+      value: 6
+    - id: SPELL_242
+      value: 5
+    - id: SPELL_291
+      value: 4
+
+- id: PV_232
+# name: Fakultät des Eises
+  cost: 282
+  spells:
+    - id: SPELL_170
+      value: 5
+    - id: SPELL_73
+      value: 5
+    - id: SPELL_409
+      value: 4
+
+- id: PV_233
+# name: Fakultät des Feuers
+  cost: 291
+  spells:
+    - id: SPELL_170
+      value: 5
+    - id: SPELL_257
+      value: 4
+    - id: SPELL_21
+      value: 6
+
+- id: PV_234
+# name: Fakultät des Humus
+  cost: 295
+  skills:
+    - id: TAL_50
+      value: 4
+  spells:
+    - id: SPELL_408
+      value: 4
+    - id: SPELL_85
+      value: 5
+    - id: SPELL_332
+      value: 4
+
+- id: PV_235
+# name: Fakultät der Luft
+  cost: 302
+  skills:
+    - id: TAL_1
+      value: 4
+  spells:
+    - id: SPELL_54
+      value: 5
+    - id: SPELL_428
+      value: 4
+    - id: SPELL_182
+      value: 5
+
+- id: PV_236
+# name: Fakultät des Wassers
+  cost: 296
+  skills:
+    - id: TAL_7
+      value: 4
+  spells:
+    - id: SPELL_418
+      value: 5
+    - id: SPELL_431
+      value: 4
+    - id: SPELL_334
+      value: 5
+
+- id: PV_237
+# name: Gefährte des Feuers
+  cost: 0
+  spells:
+    - id: SPELL_257
+      value: 5
+    - id: SPELL_21
+      value: 6
+
+- id: PV_238
+# name: Gefährte des Erzes
+  cost: 0
+  spells:
+    - id: SPELL_96
+      value: 6
+    - id: SPELL_291
+      value: 5
+
+- id: PV_239
+# name: Gefährte des Humus
+  cost: 0
+  spells:
+    - id: SPELL_408
+      value: 5
+    - id: SPELL_415
+      value: 6
+
+- id: PV_240
+# name: Gefährte der Luft
+  cost: 0
+  spells:
+    - id: SPELL_150
+      value: 6
+    - id: SPELL_428
+      value: 5
+
+- id: PV_241
+# name: Gefährte des Wassers
+  cost: 0
+  spells:
+    - id: SPELL_403
+      value: 6
+    - id: SPELL_431
+      value: 5
+
+- id: PV_242
+# name: Luftherr
+  cost: 0
+  spells:
+    - id: SPELL_173
+      value: 4
+    - id: SPELL_150
+      value: 5
+    - id: SPELL_428
+      value: 5
+
+- id: PV_243
+# name: Eisherr
+  cost: 0
+  spells:
+    - id: SPELL_409
+      value: 5
+    - id: SPELL_412
+      value: 5
+    - id: SPELL_445
+      value: 4
+
+- id: PV_244
+# name: Erzherr
+  cost: -5
+  spells:
+    - id: SPELL_96
+      value: 5
+    - id: SPELL_291
+      value: 5
+    - id: SPELL_411
+      value: 4
+
+- id: PV_245
+# name: Feuerherr
+  cost: 0
+  spells:
+    - id: SPELL_257
+      value: 5
+    - id: SPELL_21
+      value: 5
+    - id: SPELL_80
+      value: 4
+
+- id: PV_246
+# name: Humusherr
+  cost: -10
+  spells:
+    - id: SPELL_408
+      value: 5
+    - id: SPELL_415
+      value: 5
+    - id: SPELL_417
+      value: 4
+
+- id: PV_247
+# name: Wasserherr
+  cost: 0
+  spells:
+    - id: SPELL_403
+      value: 5
+    - id: SPELL_431
+      value: 5
+    - id: SPELL_404
+      value: 4
+
+- id: PV_248
+# name: Erzelementarist
+  cost: 317
+  skills:
+    - id: TAL_58
+      value: 5
+  spells:
+    - id: SPELL_304
+      value: 6
+    - id: SPELL_96
+      value: 5
+    - id: SPELL_314
+      value: 4
+    - id: SPELL_315
+      value: 4
+    - id: SPELL_291
+      value: 6
+
+- id: PV_249
+# name: Eiselementarist
+  cost: 307
+  spells:
+    - id: SPELL_170
+      value: 5
+    - id: SPELL_72
+      value: 6
+    - id: SPELL_409
+      value: 4
+    - id: SPELL_412
+      value: 5
+    - id: SPELL_319
+      value: 4
+
+- id: PV_250
+# name: Feuerelementarist
+  cost: 314
+  spells:
+    - id: SPELL_246
+      value: 4
+    - id: SPELL_257
+      value: 6
+    - id: SPELL_21
+      value: 5
+    - id: SPELL_80
+      value: 5
+    - id: SPELL_136
+      value: 4
+
+- id: PV_251
+# name: Humuselementarist
+  cost: 335
+  skills:
+    - id: TAL_47
+      value: 3
+    - id: TAL_48
+      value: 3
+    - id: TAL_50
+      value: 4
+  spells:
+    - id: SPELL_408
+      value: 5
+    - id: SPELL_415
+      value: 5
+    - id: SPELL_81
+      value: 6
+    - id: SPELL_324
+      value: 4
+    - id: SPELL_179
+      value: 4
+
+- id: PV_252
+# name: Luftelementarist
+  cost: 313
+  skills:
+    - id: TAL_1
+      value: 3
+  spells:
+    - id: SPELL_92
+      value: 6
+    - id: SPELL_267
+      value: 4
+    - id: SPELL_150
+      value: 5
+    - id: SPELL_426
+      value: 4
+    - id: SPELL_182
+      value: 5
+
+- id: PV_253
+# name: Wasserelementarist
+  cost: 308
+  skills:
+    - id: TAL_7
+      value: 3
+  spells:
+    - id: SPELL_334
+      value: 6
+    - id: SPELL_431
+      value: 5
+    - id: SPELL_300
+      value: 4
+    - id: SPELL_45
+      value: 4
+    - id: SPELL_403
+      value: 5
+
+- id: PV_254
+# name: Diener des Feuers
+  cost: 340
+  spells:
+    - id: SPELL_257
+      value: 5
+
+- id: PV_255
+# name: Diener des Erzes
+  cost: 340
+  spells:
+    - id: SPELL_291
+      value: 5
+
+- id: PV_256
+# name: Diener der Luft
+  cost: 340
+  spells:
+    - id: SPELL_428
+      value: 5
+
+- id: PV_257
+# name: Graumagier der Akademie zu Wagenhalt (Pfad des Personenschutzes)
+  cost: 10
+  skills:
+    - id: TAL_10
+      value: 2
+  spells:
+    - id: SPELL_114
+      value: 4
+    - id: SPELL_304
+      value: -4
+    - id: SPELL_123
+      value: 5
+    - id: SPELL_7
+      value: -4
+
+- id: PV_258
+# name: Graumagier der Akademie zu Wagenhalt (Pfad des Festungsschutzes)
+  cost: -1
+  skills:
+    - id: TAL_35
+      value: 1
+    - id: TAL_47
+      value: -2
+    - id: TAL_48
+      value: -2
+  spells:
+    - id: SPELL_80
+      value: 4
+    - id: SPELL_7
+      value: -4
+    - id: SPELL_32
+      value: 6
+    - id: SPELL_5
+      value: -6
+
+- id: PV_259
+# name: Weißmagier der Anatomischen Akademie zu Vinsalt (Pfad der Kosmetik)
+  cost: 1
+  skills:
+    - id: TAL_46
+      value: 3
+    - id: TAL_48
+      value: -3
+  spells:
+    - id: SPELL_329
+      value: 4
+    - id: SPELL_81
+      value: -6
+
+- id: PV_260
+# name: Weißmagier der Anatomischen Akademie zu Vinsalt (Pfad der Venenik)
+  cost: -7
+  skills:
+    - id: TAL_47
+      value: 1
+    - id: TAL_48
+      value: -2
+  spells:
+    - id: SPELL_90
+      value: 6
+    - id: SPELL_129
+      value: -5
+
+- id: PV_261
+# name: Gildenloser Magier der Bannakademie von Fasar (Pfad des Dieners)
+  cost: -6
+  skills:
+    - id: TAL_22
+      value: 2
+    - id: TAL_10
+      value: -2
+  spells:
+    - id: SPELL_310
+      value: 5
+    - id: SPELL_15
+      value: -6
+
+- id: PV_262
+# name: Gildenloser Magier der Bannakademie von Fasar (Pfad des Wächters)
+  cost: 6
+  spells:
+    - id: SPELL_74
+      value: 5
+    - id: SPELL_165
+      value: -5
+
+- id: PV_263
+# name: Graumagier der Drachenei-Akademie zu Khunchom (Pfad des Artefaktkundigen)
+  cost: -22
+  spells:
+    - id: SPELL_146
+      value: 4
+    - id: SPELL_311
+      value: -4
+    - id: SPELL_147
+      value: 5
+    - id: SPELL_122
+      value: -5
+
+- id: PV_264
+# name: Graumagier der Drachenei-Akademie zu Khunchom (Pfad des Händlers)
+  cost: -21
+  spells:
+    - id: SPELL_30
+      value: 4
+    - id: SPELL_311
+      value: -4
+    - id: SPELL_32
+      value: 5
+    - id: SPELL_122
+      value: -5
+
+- id: PV_265
+# name: Schwarzmagier der Dunklen Halle der Geister zu Brabak (Pfad der Dämonenbeschwörung)
+  cost: 5
+  spells:
+    - id: SPELL_22
+      value: 10
+    - id: SPELL_260
+      value: -10
+    - id: SPELL_50
+      value: 6
+    - id: SPELL_317
+      value: -6
+    - id: SPELL_152
+      value: 4
+    - id: SPELL_129
+      value: -4
+
+- id: PV_266
+# name: Schwarzmagier der Dunklen Halle der Geister zu Brabak (Pfad des Sphärologen)
+  cost: 4
+  skills:
+    - id: TAL_41
+      value: 2
+  spells:
+    - id: SPELL_74
+      value: 5
+    - id: SPELL_448
+      value: -5
+    - id: SPELL_145
+      value: 6
+    - id: SPELL_162
+      value: -6
+
+- id: PV_267
+# name: Gildenloser Magier nach Halib abu'l Ketab (Pfad des Abenteurers)
+  cost: 15
+  skills:
+    - id: TAL_4
+      value: 3
+    - id: TAL_30
+      value: 2
+  spells:
+    - id: SPELL_3
+      value: 4
+    - id: SPELL_114
+      value: -5
+
+- id: PV_268
+# name: Gildenloser Magier nach Halib abu'l Ketab (Pfad des Pyromanten)
+  cost: 0
+  spells:
+    - id: SPELL_246
+      value: 4
+    - id: SPELL_44
+      value: -4
+    - id: SPELL_257
+      value: 5
+    - id: SPELL_114
+      value: -5
+
+- id: PV_269
+# name: Weißmagier der Halle der Metamorphosen zu Kuslik (Pfad der giftigen Schlange)
+  cost: 10
+  skills:
+    - id: TAL_43
+      value: 2
+    - id: TAL_47
+      value: 5
+  spells:
+    - id: SPELL_81
+      value: 5
+    - id: SPELL_91
+      value: -5
+
+- id: PV_270
+# name: Weißmagier der Halle der Metamorphosen zu Kuslik (Pfad der gehäuteten Schlange)
+  cost: 4
+  skills:
+    - id: TAL_21
+      value: 2
+    - id: TAL_15
+      value: -1
+  spells:
+    - id: SPELL_171
+      value: 5
+    - id: SPELL_33
+      value: -5
+
+- id: PV_271
+# name: Gildenloser Magier der Halle der Winde zu Olport (Pfad des Kapermagiers)
+  cost: -3
+  skills:
+    - id: TAL_7
+      value: 2
+    - id: TAL_44
+      value: 2
+    - id: TAL_21
+      value: -2
+    - id: TAL_23
+      value: -1
+    - id: TAL_41
+      value: -2
+  spells:
+    - id: SPELL_163
+      value: 5
+    - id: SPELL_131
+      value: -4
+
+- id: PV_272
+# name: Gildenloser Magier der Halle der Winde zu Olport (Pfad des Windrufers)
+  cost: -5
+  skills:
+    - id: TAL_1
+      value: 3
+    - id: TAL_20
+      value: -2
+    - id: TAL_54
+      value: -2
+  spells:
+    - id: SPELL_150
+      value: 5
+    - id: SPELL_131
+      value: -4
+    - id: SPELL_426
+      value: 4
+    - id: SPELL_28
+      value: -6
+
+- id: PV_273
+# name: Gildenloser Magier der Heptagonakademie zu Yol-Ghurmak (Pfad der Chimärologie)
+  cost: 20
+  skills:
+    - id: TAL_28
+      value: 3
+    - id: TAL_29
+      value: 4
+    - id: TAL_41
+      value: -4
+  spells:
+    - id: SPELL_437
+      value: 6
+    - id: SPELL_50
+      value: -6
+
+- id: PV_274
+# name: Gildenloser Magier der Heptagonakademie zu Yol-Ghurmak (Pfad der Nekromantie)
+  cost: 4
+  skills:
+    - id: TAL_41
+      value: -2
+  spells:
+    - id: SPELL_162
+      value: 6
+    - id: SPELL_22
+      value: -10
+    - id: SPELL_448
+      value: 6
+    - id: SPELL_50
+      value: -6
+
+- id: PV_275
+# name: Weißmagier des Informations-Instituts zu Rommilys (Pfad des Inspektors)
+  cost: 15
+  skills:
+    - id: TAL_20
+      value: 2
+    - id: TAL_21
+      value: 3
+  spells:
+    - id: SPELL_132
+      value: 5
+    - id: SPELL_279
+      value: -5
+    - id: SPELL_177
+      value: 5
+    - id: SPELL_2
+      value: -5
+
+- id: PV_276
+# name: Weißmagier des Informations-Instituts zu Rommilys (Pfad des Kryptographen)
+  cost: 4
+  skills:
+    - id: TAL_10
+      value: 2
+    - id: TAL_54
+      value: 2
+    - id: TAL_15
+      value: -3
+    - id: TAL_25
+      value: -2
+  spells:
+    - id: SPELL_133
+      value: 4
+    - id: SPELL_114
+      value: -4
+    - id: SPELL_183
+      value: 2
+
+- id: PV_277
+# name: Gildenloser Magier des Magierkollegs zu Honingen (Pfad der Gemeinschaft)
+  cost: -6
+  skills:
+    - id: TAL_20
+      value: 1
+  spells:
+    - id: SPELL_117
+      value: 4
+    - id: SPELL_20
+      value: -4
+    - id: SPELL_124
+      value: 5
+    - id: SPELL_31
+      value: -5
+
+- id: PV_278
+# name: Gildenloser Magier des Magierkollegs zu Honingen (Pfad der Vielfalt)
+  cost: 4
+  spells:
+    - id: SPELL_109
+      value: 4
+    - id: SPELL_14
+      value: -4
+    - id: SPELL_36
+      value: 6
+    - id: SPELL_31
+      value: -5
+
+- id: PV_279
+# name: Qabaloth der Nachtwinde (Pfad der Entschlossenheit)
+  cost: 7
+  skills:
+    - id: TAL_23
+      value: 1
+  spells:
+    - id: SPELL_245
+      value: 4
+    - id: SPELL_128
+      value: -5
+    - id: SPELL_130
+      value: 6
+    - id: SPELL_14
+      value: -6
+
+- id: PV_280
+# name: Qabaloth der Nachtwinde (Pfad der Heimlichkeit)
+  cost: -5
+  skills:
+    - id: TAL_30
+      value: -3
+    - id: TAL_13
+      value: 2
+  spells:
+    - id: SPELL_132
+      value: 5
+    - id: SPELL_176
+      value: -5
+    - id: SPELL_39
+      value: 6
+    - id: SPELL_33
+      value: -4
+
+- id: PV_281
+# name: Graumagier der Pentagramm-Akademie zu Rashdul (Pfad des Erdbändigers)
+  cost: -1
+  skills:
+    - id: TAL_58
+      value: 4
+  spells:
+    - id: SPELL_304
+      value: 4
+    - id: SPELL_92
+      value: -4
+    - id: SPELL_291
+      value: 5
+    - id: SPELL_257
+      value: -5
+
+- id: PV_282
+# name: Graumagier der Pentagramm-Akademie zu Rashdul (Pfad des Luftbändigers)
+  cost: -5
+  skills:
+    - id: TAL_1
+      value: 1
+  spells:
+    - id: SPELL_276
+      value: 4
+    - id: SPELL_447
+      value: -5
+    - id: SPELL_150
+      value: 5
+    - id: SPELL_257
+      value: -5
+
+- id: PV_283
+# name: Rashduler Dämonologe (Pfad des Golembauers)
+  cost: 21
+  skills:
+    - id: TAL_58
+      value: 5
+  spells:
+    - id: SPELL_110
+      value: 4
+    - id: SPELL_129
+      value: -4
+    - id: SPELL_315
+      value: 4
+    - id: SPELL_260
+      value: -10
+    - id: SPELL_447
+      value: 6
+    - id: SPELL_317
+      value: -6
+
+- id: PV_284
+# name: Rashduler Dämonologe (Pfad des Totenbeschwörers)
+  cost: 3
+  spells:
+    - id: SPELL_162
+      value: 1
+    - id: SPELL_448
+      value: 6
+    - id: SPELL_50
+      value: -6
+    - id: SPELL_323
+      value: 4
+    - id: SPELL_152
+      value: -6
+
+- id: PV_285
+# name: Graumagier der Schule der Beherrschung zu Neersand (Pfad des Friedens)
+  cost: -29
+  combatTechniques:
+    - id: CT_13
+      value: -2
+  skills:
+    - id: TAL_49
+      value: 2
+    - id: TAL_47
+      value: -2
+    - id: TAL_50
+      value: -2
+  spells:
+    - id: SPELL_179
+      value: 5
+    - id: SPELL_134
+      value: -5
+    - id: SPELL_124
+      value: 6
+    - id: SPELL_20
+      value: -6
+
+- id: PV_286
+# name: Graumagier der Schule der Beherrschung zu Neersand (Pfad des Zwangs)
+  cost: 6
+  skills:
+    - id: TAL_17
+      value: 3
+  spells:
+    - id: SPELL_154
+      value: 6
+    - id: SPELL_84
+      value: -6
+
+- id: PV_287
+# name: Schwarzmagier der Schule der variablen Form zu Mirham (Pfad des Golems)
+  cost: 13
+  spells:
+    - id: SPELL_146
+      value: 5
+    - id: SPELL_147
+      value: -5
+    - id: SPELL_447
+      value: 6
+    - id: SPELL_113
+      value: -6
+
+- id: PV_288
+# name: Schwarzmagier der Schule der variablen Form zu Mirham (Pfad des Schattens)
+  cost: 6
+  spells:
+    - id: SPELL_39
+      value: 5
+    - id: SPELL_147
+      value: -5
+    - id: SPELL_310
+      value: 6
+    - id: SPELL_113
+      value: -6
+
+- id: PV_289
+# name: Schwarzmagier nach Shanada von Ben-Oni (Pfad des Dämonenjägers)
+  cost: 0
+  skills:
+    - id: TAL_20
+      value: -3
+  spells:
+    - id: SPELL_423
+      value: 5
+    - id: SPELL_112
+      value: -6
+
+- id: PV_290
+# name: Schwarzmagier nach Shanada von Ben-Oni (Pfad des Dämonologenjägers)
+  cost: 0
+  skills:
+    - id: TAL_20
+      value: 2
+    - id: TAL_41
+      value: -2
+  spells:
+    - id: SPELL_423
+      value: 5
+    - id: SPELL_112
+      value: -6
+
+- id: PV_291
+# name: Graumagier der Zauberschule des Kalifen zu Mherwed (Pfad des Wüstensands)
+  cost: 6
+  skills:
+    - id: TAL_6
+      value: 3
+  spells:
+    - id: SPELL_251
+      value: 5
+    - id: SPELL_170
+      value: -5
+    - id: SPELL_315
+      value: 4
+    - id: SPELL_81
+      value: -6
+
+- id: PV_292
+# name: Graumagier der Zauberschule des Kalifen zu Mherwed (Pfad des Wüstenwinds)
+  cost: 3
+  skills:
+    - id: TAL_1
+      value: 3
+  spells:
+    - id: SPELL_276
+      value: 5
+    - id: SPELL_170
+      value: -5
+    - id: SPELL_182
+      value: 4
+    - id: SPELL_304
+      value: -6
+
+- id: PV_293
+# name: Höhlenkundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 4
+
+- id: PV_294
+# name: Kulturlandkundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 5
+
+- id: PV_295
+# name: Meereskundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 6
+
+- id: PV_296
+# name: Steppenkundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 7
+
+- id: PV_297
+# name: Sumpfkundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 8
+
+- id: PV_298
+# name: Waldkundiger
+  cost: 0
+  specialAbilities:
+    - id: SA_12
+      active: false
+      sid: 1
+    - id: SA_12
+      sid: 9

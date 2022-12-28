@@ -1,0 +1,18 @@
+- id: 1
+  name: "Roupas Comuns"
+- id: 2
+  name: "Roupas Pesadas"
+- id: 3
+  name: "Armadura de Pano"
+- id: 4
+  name: "Armadura de Couro"
+- id: 5
+  name: "Armadura de Madeira"
+- id: 6
+  name: "Cota de Malha"
+- id: 7
+  name: "Cota de Escamas"
+- id: 8
+  name: "Cota de Placas"
+- id: 9
+  name: "Armadura de Justa"

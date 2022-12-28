@@ -1,0 +1,18 @@
+- id: 1
+  name: "Pacte féérique"
+  types:
+    - id: 1
+      name: "Fée mineure"
+    - id: 2
+      name: "Fée intermédiaire"
+    - id: 3
+      name: "Fée majeure"
+  domains:
+    - id: 1
+      name: "Ténèbres"
+    - id: 2
+      name: "Forêt"
+    - id: 3
+      name: "Rivière"
+    - id: 4
+      name: "Lac"

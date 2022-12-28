@@ -1,0 +1,131 @@
+- id: BLESSING_1
+  name: "bénédiction du serment"
+  effect: |
+    Le prêtre fait prêter serment à quelquʼun.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 323
+
+- id: BLESSING_2
+  name: "bénédiction du feu"
+  effect: |
+    Une petite flamme apparaît sur la paume ou lʼindex du prêtre, suffisante pour éclairer une petite pièce ou enflammer une bougie.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 323
+
+- id: BLESSING_3
+  name: "bénédiction du nouveau-né"
+  effect: |
+    En plus dʼêtre béni, le nouveau-né, cible de cette liturgie, est admis dans la communauté des croyants.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 323
+
+- id: BLESSING_4
+  name: "bénédiction de bonne fortune"
+  effect: |
+    Blesses and welcomes newborns into the community of believers and protects them against kidnapping by kobolds, fairies, and lesser demons for the duration of the blessing (as long as 12 years—see below). You can cast this blessing up to 12 days after a child’s birth. If you wait longer to cast the blessing, it has no effect.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 322
+
+- id: BLESSING_5
+  name: "bénédiction funèbre"
+  effect: |
+    La sépulture dʼun défunt est bénie.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 323
+
+- id: BLESSING_6
+  name: "bénédiction du bien-être"
+  effect: |
+    Celui qui a été béni par ce type de bénédiction est animé, pendant une journée entière, de sentiments positifs.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 322
+
+- id: BLESSING_7
+  name: "bénédiction mineure de guérison"
+  effect: |
+    La personne bénie récupère 1 point de vie.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 323
+
+- id: BLESSING_8
+  name: "bénédiction mineure de protection"
+  effect: |
+    La bénédiction de protection peut maintenir à lʼécart certaines créatures impies.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 323
+
+- id: BLESSING_9
+  name: "bénédiction de la nourriture"
+  effect: |
+    Le repas ainsi béni est appétissant et nourrissant.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 322
+
+- id: BLESSING_10
+  name: "bénédiction du renforcement"
+  effect: |
+    Le prêtre ne ressent plus la fatigue ni lʼépuisement.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 322
+
+- id: BLESSING_11
+  name: "bénédiction du breuvage"
+  effect: |
+    Celui qui absorbe une boisson bénie se sent désaltéré.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 323
+
+- id: BLESSING_12
+  name: "bénédiction de la sagesse"
+  effect: |
+    Lʼindividu béni est empreint de sagesse.
+  range: " "
+  duration: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 322

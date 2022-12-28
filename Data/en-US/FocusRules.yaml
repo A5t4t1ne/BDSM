@@ -1,0 +1,117 @@
+- id: FR_1
+  name: "Effects of the Starfall"
+  description: |
+    The clearly visible changes of the Starfall also impact the actions of the heroes in terms of rules. Every check related to astronomy, especially navigation (at sea), the summoning of demons, the invocation of spirits and elementals, and the creation of horoscopes should have an increased difficulty of 1 until the hero becomes accustomed to the new circumstances. How long this takes is at the GM’s discretion. Specifically, this includes all checks on *Astronomy*, *Stellar Cartography*, and *Calendars*.
+  src:
+    - id: US25002E
+      firstPage: 233
+
+- id: FR_2
+  name: "The Complex Method: Detailed Rules for Alcohol"
+  description: |
+    - Every time a hero imbibes a certain amount of alcohol, the player must make a *Carousing (Resist Drug Intoxication)* check corresponding to the alcohol type and amount (for example, a tankard of beer, a goblet of wine, or a small cup of hard spirits, such as schnapps).
+    - The *Carousing* check’s QL determines how many points of *Toughness* the hero receives for the poison check. QL1 equals 1 point of *Toughness*, and so on. A failed check means the hero loses 1 point of *Toughness*.
+    - After the *Carousing* check, the player must also make a *Poison* check. Different types of alcohol have varying intensity levels—see the table on **Inns & Taverns** page **17**. Heroes who do not receive the state of *poisoned* due to alcohol may regenerate in the normal manner.
+    - The amount of time it takes a hero to recover doubles for each level of *Stupor* higher than 4 due to alcohol. Drinking alcohol in a larger quantity (for example, a goblet or tankard full of spirits) requires additional *Carousing* and *Poison* checks. Drinking a tankard full of wine requires 2 checks, drinking a goblet of spirits requires 4 checks, and drinking a tankard of spirits requires 10 checks.
+  src:
+    - id: US25514E
+      firstPage: 12
+
+- id: FR_3
+  name: "Chases"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 27
+      lastPage: 29
+
+- id: FR_4
+  name: "Social Conflicts"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 40
+      lastPage: 44
+
+- id: FR_5
+  name: "Asking Around"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 45
+      lastPage: 46
+
+- id: FR_6
+  name: "Hunting"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 54
+      lastPage: 56
+
+- id: FR_7
+  name: "Finding Edible Plants"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 57
+      lastPage: 58
+
+- id: FR_8
+  name: "Research"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 71
+      lastPage: 73
+
+- id: FR_9
+  name: "Crafting"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 91
+      lastPage: 100
+
+- id: FR_10
+  name: "Special Attack Options in Combat"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 124
+      lastPage: 128
+
+- id: FR_11
+  name: "Hit Zone Rules"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 128
+      lastPage: 133
+
+- id: FR_12
+  name: "Combat in Three Dimensions"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 133
+      lastPage: 137
+
+- id: FR_13
+  name: "Combat Styles"
+  description: |
+    TODO
+  src:
+    - id: US25003E
+      firstPage: 145
+      lastPage: 148

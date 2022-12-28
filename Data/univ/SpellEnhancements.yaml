@@ -1,0 +1,4913 @@
+- target: SPELL_89
+  level1:
+    id: 1
+#   name: Stärkerer Schild
+    cost: 4
+  level2:
+    id: 2
+#   name: Großer Radius
+    cost: 8
+  level3:
+    id: 3
+#   name: Reichweite Berührung
+    cost: 12
+
+- target: SPELL_90
+  level1:
+    id: 4
+#   name: Ausnahme
+    cost: 1
+  level2:
+    id: 5
+#   name: Größerer Umfang
+    cost: 2
+  level3:
+    id: 6
+#   name: Tadelloser Vorkoster
+    cost: 3
+
+- target: SPELL_91
+  level1:
+    id: 7
+#   name: Mittlere Tiere
+    cost: 3
+  level2:
+    id: 8
+#   name: Keine Aufrechterhaltung
+    cost: 6
+  level3:
+    id: 9
+#   name: Große Tiere
+    cost: 9
+    previousRequirement: 1
+
+- target: SPELL_92
+  level1:
+    id: 10
+#   name: Zielkategorie Objekt
+    cost: 2
+  level2:
+    id: 11
+#   name: Weites Zurückwerfen
+    cost: 4
+  level3:
+    id: 12
+#   name: Erz-Zerstörer
+    cost: 6
+
+- target: SPELL_93
+  level1:
+    id: 13
+#   name: Zwei Ziele
+    cost: 1
+  level2:
+    id: 14
+#   name: Vier Ziele
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 15
+#   name: Acht Ziele
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_94
+  level1:
+    id: 16
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 17
+#   name: Noch weiter
+    cost: 2
+  level3:
+    id: 18
+#   name: Donnerstimme
+    cost: 3
+
+- target: SPELL_95
+  level1:
+    id: 19
+#   name: Zielkategorie Lebewesen
+    cost: 3
+  level2:
+    id: 20
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 21
+#   name: Großer Radius
+    cost: 9
+
+- target: SPELL_68
+  level1:
+    id: 22
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 23
+#   name: Verteilte Wirkung
+    cost: 4
+  level3:
+    id: 24
+#   name: Zwei Ziele
+    cost: 6
+
+- target: SPELL_96
+  level1:
+    id: 25
+#   name: Intensiver Strahl
+    cost: 3
+  level2:
+    id: 26
+#   name: Windender Strahl
+    cost: 6
+  level3:
+    id: 27
+#   name: Zwei Ziele
+    cost: 9
+
+- target: SPELL_97
+  level1:
+    id: 28
+#   name: Intensive Explosion
+    cost: 4
+  level2:
+    id: 29
+#   name: Schneller Ball
+    cost: 8
+  level3:
+    id: 30
+#   name: Großer Radius
+    cost: 12
+
+- target: SPELL_98
+  level1:
+    id: 31
+#   name: Gute Illusion 1
+    cost: 1
+  level2:
+    id: 32
+#   name: Gute Illusion 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 33
+#   name: Gute Illusion 3
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_99
+  level1:
+    id: 34
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 35
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 36
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_100
+  level1:
+    id: 37
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 38
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 39
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_101
+  level1:
+    id: 40
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 41
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 42
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_70
+  level1:
+    id: 43
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 44
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 45
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_102
+  level1:
+    id: 46
+#   name: Zwei Ziele
+    cost: 1
+  level2:
+    id: 47
+#   name: Vier Ziele
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 48
+#   name: Massenerwachen
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_103
+  level1:
+    id: 49
+#   name: Aus dem Limbus
+    cost: 4
+  level2:
+    id: 50
+#   name: Stärkerer Sog
+    cost: 8
+  level3:
+    id: 51
+#   name: Größerer Radius
+    cost: 12
+
+- target: SPELL_104
+  level1:
+    id: 52
+#   name: Gute Illusion 1
+    cost: 1
+  level2:
+    id: 53
+#   name: Gute Illusion 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 54
+#   name: Gute Illusion 3
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_105
+  level1:
+    id: 55
+#   name: Gute Illusion 1
+    cost: 2
+  level2:
+    id: 56
+#   name: Gute Illusion 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 57
+#   name: Gute Illusion 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_106
+  level1:
+    id: 58
+#   name: Zwei Personen
+    cost: 2
+  level2:
+    id: 59
+#   name: Vier Personen
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 60
+#   name: Acht Personen
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_107
+  level1:
+    id: 61
+#   name: Geistige Eigenschaften
+    cost: 1
+  level2:
+    id: 62
+#   name: Zwei Ziele
+    cost: 2
+  level3:
+    id: 63
+#   name: Vier Ziele
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_108
+  level1:
+    id: 64
+#   name: Zielkategorie Lebewesen
+    cost: 3
+  level2:
+    id: 65
+#   name: Sehschwierigkeiten
+    cost: 6
+  level3:
+    id: 66
+#   name: Zwei Ziele
+    cost: 9
+
+- target: SPELL_109
+  level1:
+    id: 67
+#   name: Ausrüstung tarnen
+    cost: 2
+  level2:
+    id: 68
+#   name: Unsichtbarer Jäger
+    cost: 4
+  level3:
+    id: 69
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: SPELL_71
+  level1:
+    id: 70
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 71
+#   name: Längere Wirkungsdauer 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 72
+#   name: Längere Wirkungsdauer 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_72
+  level1:
+    id: 73
+#   name: Zielkategorie Objekt
+    cost: 2
+  level2:
+    id: 74
+#   name: Fixiert
+    cost: 4
+  level3:
+    id: 75
+#   name: Humus-Zerstörer
+    cost: 6
+
+- target: SPELL_110
+  level1:
+    id: 76
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 77
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 78
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_111
+  level1:
+    id: 79
+#   name: Schutzhaut
+    cost: 2
+  level2:
+    id: 80
+#   name: Großer Radius
+    cost: 4
+  level3:
+    id: 81
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: SPELL_112
+  level1:
+    id: 82
+#   name: Geisterzone
+    cost: 2
+  level2:
+    id: 83
+#   name: Feenzone
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 84
+#   name: Durchdringung
+    cost: 6
+
+- target: SPELL_113
+  level1:
+    id: 85
+#   name: Höhere Zerstörungskraft 1
+    cost: 2
+  level2:
+    id: 86
+#   name: Höhere Zerstörungskraft 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 87
+#   name: Ausgeweitete Zerstörung
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_73
+  level1:
+    id: 88
+#   name: Großer Radius
+    cost: 2
+  level2:
+    id: 89
+#   name: Angsteinflößende Dunkelheit
+    cost: 4
+  level3:
+    id: 90
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_74
+  level1:
+    id: 91
+#   name: Weite Entfernung
+    cost: 3
+  level2:
+    id: 92
+#   name: Keine Aufrechterhaltung
+    cost: 6
+  level3:
+    id: 93
+#   name: Verbesserter Schatten
+    cost: 9
+
+- target: SPELL_114
+  level1:
+    id: 94
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 95
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 96
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_115
+  level1:
+    id: 97
+#   name: Metallgegenstände
+    cost: 3
+  level2:
+    id: 98
+#   name: Zauberdauer modifizierbar
+    cost: 6
+  level3:
+    id: 99
+#   name: Ausgeweitete Zerstörung
+    cost: 9
+
+- target: SPELL_116
+  level1:
+    id: 100
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 101
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 102
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_117
+  level1:
+    id: 103
+#   name: Kurze Rücksprache
+    cost: 1
+  level2:
+    id: 104
+#   name: Mehr Personen
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 105
+#   name: Kommunikationsverbindung
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_118
+  level1:
+    id: 106
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 107
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 108
+#   name: Längere Wirkungsdauer 3
+    cost: 9
+    previousRequirement: 2
+
+- target: SPELL_119
+  level1:
+    id: 109
+#   name: Durch Erz
+    cost: 1
+  level2:
+    id: 110
+#   name: Durch Eis
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 111
+#   name: Spezielles Lebewesen
+    cost: 3
+
+- target: SPELL_120
+  level1:
+    id: 112
+#   name: Kerzenschein
+    cost: 1
+  level2:
+    id: 113
+#   name: Heiße Aura
+    cost: 2
+  level3:
+    id: 114
+#   name: Reichweite Berührung
+    cost: 3
+
+- target: SPELL_121
+  level1:
+    id: 115
+#   name: Mittlere Tiere
+    cost: 3
+  level2:
+    id: 116
+#   name: Keine Aufrechterhaltung
+    cost: 6
+  level3:
+    id: 117
+#   name: Große Tiere
+    cost: 9
+    previousRequirement: 1
+
+- target: SPELL_122
+  level1:
+    id: 118
+#   name: Wiederverschließbar
+    cost: 3
+  level2:
+    id: 119
+#   name: Fallengespür
+    cost: 6
+  level3:
+    id: 120
+#   name: Die Priesterkaiser kommen!
+    cost: 9
+
+- target: SPELL_123
+  level1:
+    id: 121
+#   name: Höhere Wand
+    cost: 2
+  level2:
+    id: 122
+#   name: Zylinder
+    cost: 4
+  level3:
+    id: 123
+#   name: Deckel
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_124
+  level1:
+    id: 124
+#   name: Kurze Rücksprache
+    cost: 1
+  level2:
+    id: 125
+#   name: Mehr Personen
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 126
+#   name: Kommunikationsverbindung
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_125
+  level1:
+    id: 127
+#   name: Höhere Reichweite 1
+    cost: 1
+  level2:
+    id: 128
+#   name: Höhere Reichweite 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 129
+#   name: Höhere Reichweite 3
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_126
+  level1:
+    id: 130
+#   name: Formwuchs
+    cost: 2
+  level2:
+    id: 131
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 132
+#   name: Viel längere Wirkungsdauer
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_127
+  level1:
+    id: 133
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 134
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 135
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_128
+  level1:
+    id: 136
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 137
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 138
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_129
+  level1:
+    id: 139
+#   name: Zauberdauer modifizierbar
+    cost: 2
+  level2:
+    id: 140
+#   name: Zwei Geister
+    cost: 4
+  level3:
+    id: 141
+#   name: Drei Geister
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_130
+  level1:
+    id: 142
+#   name: Größerer Schmerz
+    cost: 3
+  level2:
+    id: 143
+#   name: Noch größerer Schmerz
+    cost: 6
+  level3:
+    id: 144
+#   name: Noch viel größerer Schmerz
+    cost: 9
+    previousRequirement: 2
+
+- target: SPELL_131
+  level1:
+    id: 145
+#   name: Zauberdauer modifizierbar
+    cost: 3
+  level2:
+    id: 146
+#   name: Zwei Elementare
+    cost: 6
+  level3:
+    id: 147
+#   name: Drei Elementare
+    cost: 9
+    previousRequirement: 2
+
+- target: SPELL_79
+  level1:
+    id: 148
+#   name: Geistige Umnachtung
+    cost: 2
+  level2:
+    id: 149
+#   name: Krämpfe
+    cost: 4
+  level3:
+    id: 150
+#   name: Lange Berührungszeit
+    cost: 6
+
+- target: SPELL_80
+  level1:
+    id: 151
+#   name: Intensive Explosion
+    cost: 4
+  level2:
+    id: 152
+#   name: Schneller Ball
+    cost: 8
+  level3:
+    id: 153
+#   name: Großer Radius
+    cost: 12
+
+- target: SPELL_132
+  level1:
+    id: 154
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 155
+#   name: Höhere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 156
+#   name: Jemand anderen benennen
+    cost: 6
+
+- target: SPELL_133
+  level1:
+    id: 157
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 158
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 159
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_134
+  level1:
+    id: 160
+#   name: Ohne Berührung
+    cost: 3
+  level2:
+    id: 161
+#   name: Mehr Befehle
+    cost: 6
+  level3:
+    id: 162
+#   name: Ohne Erinnerung
+    cost: 9
+
+- target: SPELL_135
+  level1:
+    id: 163
+#   name: Gute Illusion 1
+    cost: 2
+  level2:
+    id: 164
+#   name: Gute Illusion 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 165
+#   name: Gute Illusion 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_136
+  level1:
+    id: 166
+#   name: Zielkategorie Objekt
+    cost: 2
+  level2:
+    id: 167
+#   name: Erhöhter Schaden
+    cost: 4
+  level3:
+    id: 168
+#   name: Wasser-Zerstörer
+    cost: 6
+
+- target: SPELL_137
+  level1:
+    id: 169
+#   name: Verbesserte Reaktion 1
+    cost: 3
+  level2:
+    id: 170
+#   name: Verbesserte Reaktion 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 171
+#   name: Zurückspiegeln auf einen Dritten
+    cost: 9
+
+- target: SPELL_138
+  level1:
+    id: 172
+#   name: Wüterich
+    cost: 2
+  level2:
+    id: 173
+#   name: Vorhersehbares Ende
+    cost: 4
+  level3:
+    id: 174
+#   name: Nur bestimmte Ziele
+    cost: 6
+
+- target: SPELL_81
+  level1:
+    id: 175
+#   name: Ausnahme
+    cost: 2
+  level2:
+    id: 176
+#   name: Tadelloser Entgifter
+    cost: 4
+  level3:
+    id: 177
+#   name: Zwei Ziele
+    cost: 6
+
+- target: SPELL_139
+  level1:
+    id: 178
+#   name: Verteilte Wirkung
+    cost: 1
+  level2:
+    id: 179
+#   name: Längere Wirkung
+    cost: 2
+  level3:
+    id: 180
+#   name: Zwei Ziele
+    cost: 3
+
+- target: SPELL_140
+  level1:
+    id: 181
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 182
+#   name: Längere Berührungszeit
+    cost: 6
+  level3:
+    id: 183
+#   name: Längere Wirkungsdauer 2
+    cost: 9
+    previousRequirement: 1
+
+- target: SPELL_141
+  level1:
+    id: 184
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 185
+#   name: Andere Tätigkeiten
+    cost: 2
+  level3:
+    id: 186
+#   name: Längere Wirkungsdauer
+    cost: 3
+
+- target: SPELL_142
+  level1:
+    id: 187
+#   name: Gute Illusion 1
+    cost: 1
+  level2:
+    id: 188
+#   name: Gute Illusion 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 189
+#   name: Gute Illusion 3
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_143
+  level1:
+    id: 190
+#   name: Merk dir mehr
+    cost: 1
+  level2:
+    id: 191
+#   name: Merk dir noch mehr
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 192
+#   name: Längere Wirkungsdauer
+    cost: 3
+
+- target: SPELL_144
+  level1:
+    id: 193
+#   name: Gute Illusion 1
+    cost: 1
+  level2:
+    id: 194
+#   name: Gute Illusion 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 195
+#   name: Gute Illusion 3
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_145
+  level1:
+    id: 196
+#   name: Höhere Grundreichweite
+    cost: 2
+  level2:
+    id: 197
+#   name: Höhere Flugreichweite
+    cost: 4
+  level3:
+    id: 198
+#   name: Schnelle Kreatur
+    cost: 6
+
+- target: SPELL_146
+  level1:
+    id: 199
+#   name: Längere Wirkung
+    cost: 2
+  level2:
+    id: 200
+#   name: Keine Aufrechterhaltung
+    cost: 4
+  level3:
+    id: 201
+#   name: Unsichtbarer Inhalt
+    cost: 6
+
+- target: SPELL_147
+  level1:
+    id: 202
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 203
+#   name: Höheres Gewicht
+    cost: 2
+  level3:
+    id: 204
+#   name: Wände und Decken
+    cost: 3
+
+- target: SPELL_148
+  level1:
+    id: 205
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 206
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 207
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_149
+  level1:
+    id: 208
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 209
+#   name: Längere Wirkungsdauer 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 210
+#   name: Längere Wirkungsdauer 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_150
+  level1:
+    id: 211
+#   name: Intensiver Strahl
+    cost: 3
+  level2:
+    id: 212
+#   name: Windender Strahl
+    cost: 6
+  level3:
+    id: 213
+#   name: Zwei Ziele
+    cost: 9
+
+- target: SPELL_151
+  level1:
+    id: 214
+#   name: Intensive Explosion
+    cost: 4
+  level2:
+    id: 215
+#   name: Schneller Ball
+    cost: 8
+  level3:
+    id: 216
+#   name: Großer Radius
+    cost: 12
+
+- target: SPELL_152
+  level1:
+    id: 217
+#   name: Zauberdauer modifizierbar
+    cost: 3
+  level2:
+    id: 218
+#   name: Zwei Dämonen
+    cost: 6
+  level3:
+    id: 219
+#   name: Drei Dämonen
+    cost: 9
+    previousRequirement: 2
+
+- target: SPELL_153
+  level1:
+    id: 220
+#   name: Verteilte Wirkung
+    cost: 2
+  level2:
+    id: 221
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 222
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_154
+  level1:
+    id: 223
+#   name: Senkung der Parade
+    cost: 2
+  level2:
+    id: 224
+#   name: Zielkategorie Lebewesen
+    cost: 4
+  level3:
+    id: 225
+#   name: Zwei Ziele
+    cost: 6
+
+- target: SPELL_155
+  level1:
+    id: 226
+#   name: Gute Illusion 1
+    cost: 2
+  level2:
+    id: 227
+#   name: Gute Illusion 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 228
+#   name: Gute Illusion 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_156
+  level1:
+    id: 229
+#   name: Gute Illusion 1
+    cost: 1
+  level2:
+    id: 230
+#   name: Gute Illusion 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 231
+#   name: Gute Illusion 3
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_157
+  level1:
+    id: 232
+#   name: Zauberdauer modifizierbar
+    cost: 4
+  level2:
+    id: 233
+#   name: Reichweite Berührung
+    cost: 8
+  level3:
+    id: 234
+#   name: Reichweite 8 Schritt
+    cost: 12
+    previousRequirement: 2
+
+- target: SPELL_158
+  level1:
+    id: 235
+#   name: Gerüche
+    cost: 1
+  level2:
+    id: 236
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level3:
+    id: 237
+#   name: Größerer Radius
+    cost: 3
+
+- target: SPELL_159
+  level1:
+    id: 238
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 239
+#   name: Verteilte Wirkung
+    cost: 4
+  level3:
+    id: 240
+#   name: Zwei Ziele
+    cost: 6
+
+- target: SPELL_160
+  level1:
+    id: 241
+#   name: Zielkategorie Lebewesen
+    cost: 3
+  level2:
+    id: 242
+#   name: Schwächung
+    cost: 6
+  level3:
+    id: 243
+#   name: Todesfluch
+    cost: 9
+
+- target: SPELL_161
+  level1:
+    id: 244
+#   name: Andere Farbe
+    cost: 1
+  level2:
+    id: 245
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 246
+#   name: Große Angst
+    cost: 3
+
+- target: SPELL_84
+  level1:
+    id: 247
+#   name: Kampfhandlung vorhersehen
+    cost: 2
+  level2:
+    id: 248
+#   name: Unbemerkt
+    cost: 4
+  level3:
+    id: 249
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_162
+  level1:
+    id: 250
+#   name: Mehr Dienste
+    cost: 2
+  level2:
+    id: 251
+#   name: Längere Dienste
+    cost: 4
+  level3:
+    id: 252
+#   name: Mächtiges Wesen
+    cost: 6
+
+- target: SPELL_163
+  level1:
+    id: 253
+#   name: Mehr Strukturpunkte
+    cost: 3
+  level2:
+    id: 254
+#   name: Höheres Gewicht
+    cost: 6
+  level3:
+    id: 255
+#   name: Längere Brücke
+    cost: 9
+
+- target: SPELL_164
+  level1:
+    id: 256
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 257
+#   name: Hörschwierigkeiten
+    cost: 4
+  level3:
+    id: 258
+#   name: Zwei Ziele
+    cost: 6
+
+- target: SPELL_165
+  level1:
+    id: 259
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 260
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 261
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_166
+  level1:
+    id: 262
+#   name: Erleichterte Verteidigung
+    cost: 1
+  level2:
+    id: 263
+#   name: Höhere Reichweite
+    cost: 2
+  level3:
+    id: 264
+#   name: Mehr Ziele
+    cost: 3
+
+- target: SPELL_167
+  level1:
+    id: 265
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 266
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 267
+#   name: Kosten senken
+    cost: 6
+
+- target: SPELL_168
+  level1:
+    id: 268
+#   name: Gute Illusion 1
+    cost: 2
+  level2:
+    id: 269
+#   name: Gute Illusion 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 270
+#   name: Gute Illusion 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_169
+  level1:
+    id: 271
+#   name: Mittlere Tiere
+    cost: 3
+  level2:
+    id: 272
+#   name: Keine Aufrechterhaltung
+    cost: 6
+  level3:
+    id: 273
+#   name: Große Tiere
+    cost: 9
+    previousRequirement: 1
+
+- target: SPELL_172
+  level1:
+    id: 274
+#   name: Gaukelei-Vorteil
+    cost: 1
+  level2:
+    id: 275
+#   name: Etikette-Vorteil
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 276
+#   name: Gassenwissen-Vorteil
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_170
+  level1:
+    id: 277
+#   name: Höhere/Niedrigere Temperatur 1
+    cost: 2
+  level2:
+    id: 278
+#   name: Höhere/Niedrigere Temperatur 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 279
+#   name: Höhere/Niedrigere Temperatur 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_173
+  level1:
+    id: 280
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level2:
+    id: 281
+#   name: Größerer Radius
+    cost: 8
+  level3:
+    id: 282
+#   name: Höhere Reichweite
+    cost: 12
+
+- target: SPELL_174
+  level1:
+    id: 283
+#   name: Größere Objekte 1
+    cost: 2
+  level2:
+    id: 284
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 285
+#   name: Größere Objekte 2
+    cost: 6
+    previousRequirement: 1
+
+- target: SPELL_175
+  level1:
+    id: 286
+#   name: Krankheitsübertragung
+    cost: 1
+  level2:
+    id: 287
+#   name: Giftübertragung
+    cost: 2
+  level3:
+    id: 288
+#   name: Freiwilliger
+    cost: 3
+
+- target: SPELL_176
+  level1:
+    id: 289
+#   name: Sofortraub
+    cost: 3
+  level2:
+    id: 290
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 291
+#   name: Zwei Opfer
+    cost: 9
+
+- target: SPELL_177
+  level1:
+    id: 292
+#   name: Ohne Erinnerung
+    cost: 3
+  level2:
+    id: 293
+#   name: Phasen
+    cost: 6
+  level3:
+    id: 294
+#   name: Andere Erinnerung
+    cost: 9
+
+- target: SPELL_178
+  level1:
+    id: 295
+#   name: Mehr Ziele
+    cost: 1
+  level2:
+    id: 296
+#   name: Geänderte Zielkategorie 1
+    cost: 2
+  level3:
+    id: 297
+#   name: Geänderte Zielkategorie 2
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_179
+  level1:
+    id: 298
+#   name: Kosten modifizierbar
+    cost: 2
+  level2:
+    id: 299
+#   name: Kurze Regenerationsphase
+    cost: 4
+  level3:
+    id: 300
+#   name: Längerfristige Wirkung
+    cost: 6
+
+- target: SPELL_180
+  level1:
+    id: 301
+#   name: Höheres Gewicht
+    cost: 2
+  level2:
+    id: 302
+#   name: Längere Wirkungsdauer 1
+    cost: 4
+  level3:
+    id: 303
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_181
+  level1:
+    id: 304
+#   name: Nicht alle
+    cost: 2
+  level2:
+    id: 305
+#   name: Größere Objekte
+    cost: 4
+  level3:
+    id: 306
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+# Wirbelform
+- target: SPELL_182
+  level1:
+    id: 307
+    #   name: Größerer Radius
+    cost: 2
+  level2:
+    id: 308
+    #   name: Längere Wirkungsdauer 1
+    cost: 4
+  level3:
+    id: 309
+    #   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_183
+  level1:
+    id: 310
+#   name: Längere Wirkungsdauer 1
+    cost: 1
+  level2:
+    id: 311
+#   name: Längere Wirkungsdauer 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 312
+#   name: Besseres Sprachverständnis
+    cost: 3
+
+- target: SPELL_1
+  level1:
+    id: 313
+#   name: Einzelsinn schärfen
+    cost: 2
+  level2:
+    id: 314
+#   name: Spurensuchen
+    cost: 4
+  level3:
+    id: 315
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_2
+  level1:
+    id: 316
+#   name: Zwei Gegenstände
+    cost: 3
+  level2:
+    id: 317
+#   name: Drei Gegenstände
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 318
+#   name: Vier Gegenstände
+    cost: 9
+    previousRequirement: 2
+
+- target: SPELL_3
+  level1:
+    id: 319
+#   name: Zielkategorie Objekt
+    cost: 3
+  level2:
+    id: 320
+#   name: Harte Schale
+    cost: 6
+  level3:
+    id: 321
+#   name: Reichweite Berührung
+    cost: 9
+
+- target: SPELL_4
+  level1:
+    id: 322
+#   name: Schneller
+    cost: 2
+  level2:
+    id: 323
+#   name: Noch schneller
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 324
+#   name: Noch viel schneller
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_5
+  level1:
+    id: 325
+#   name: Zwei Ziele
+    cost: 2
+  level2:
+    id: 326
+#   name: Vier Ziele
+    cost: 4
+  level3:
+    id: 327
+#   name: Zielkategorie Lebewesen
+    cost: 6
+
+- target: SPELL_6
+  level1:
+    id: 328
+#   name: Gelungene Beeinflussung 1
+    cost: 2
+  level2:
+    id: 329
+#   name: Gelungene Beeinflussung 2
+    cost: 4
+  level3:
+    id: 330
+#   name: Gelungene Beeinflussung 3
+    cost: 6
+
+- target: SPELL_7
+  level1:
+    id: 331
+#   name: Kampfhandlung vorhersehen
+    cost: 3
+  level2:
+    id: 332
+#   name: Unbemerkt
+    cost: 6
+  level3:
+    id: 333
+#   name: Keine Aufrechterhaltung
+    cost: 9
+
+- target: SPELL_8
+  level1:
+    id: 334
+#   name: Zwei Ziele
+    cost: 1
+  level2:
+    id: 335
+#   name: Vier Ziele
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 336
+#   name: Acht Ziele
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_9
+  level1:
+    id: 337
+#   name: Verteilte Wirkung
+    cost: 3
+  level2:
+    id: 338
+#   name: Längere Wirkung
+    cost: 6
+  level3:
+    id: 339
+#   name: Zwei Ziele
+    cost: 9
+
+- target: SPELL_10
+  level1:
+    id: 340
+#   name: Großer Radius
+    cost: 2
+  level2:
+    id: 341
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 342
+#   name: Unbeeindruckter Zauberwirker
+    cost: 6
+
+- target: SPELL_11
+  level1:
+    id: 343
+#   name: Gute Illusion 1
+    cost: 3
+  level2:
+    id: 344
+#   name: Gute Illusion 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 345
+#   name: Gute Illusion 3
+    cost: 9
+    previousRequirement: 2
+
+- target: SPELL_12
+  level1:
+    id: 346
+#   name: Aufteilung
+    cost: 2
+  level2:
+    id: 347
+#   name: Langanhaltend
+    cost: 4
+  level3:
+    id: 348
+#   name: Zweiter Schuss
+    cost: 6
+
+- target: SPELL_13
+  level1:
+    id: 349
+#   name: Lichtregulation
+    cost: 1
+  level2:
+    id: 350
+#   name: Keine Aufrechterhaltung
+    cost: 2
+  level3:
+    id: 351
+#   name: Verankern
+    cost: 3
+
+- target: SPELL_14
+  level1:
+    id: 352
+#   name: Verteilter Schaden 1
+    cost: 3
+  level2:
+    id: 353
+#   name: Verteilter Schaden 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 354
+#   name: Zwei Ziele
+    cost: 9
+
+- target: SPELL_15
+  level1:
+    id: 355
+#   name: Stärkerer Schild
+    cost: 2
+  level2:
+    id: 356
+#   name: Großer Radius
+    cost: 4
+  level3:
+    id: 357
+#   name: Reichweite Berührung
+    cost: 6
+
+- target: SPELL_16
+  level1:
+    id: 358
+#   name: Gelungene Beeinflussung 1
+    cost: 2
+  level2:
+    id: 359
+#   name: Gelungene Beeinflussung 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 360
+#   name: Gelungene Beeinflussung 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_17
+  level1:
+    id: 361
+#   name: Gute Illusion 1
+    cost: 2
+  level2:
+    id: 362
+#   name: Gute Illusion 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 363
+#   name: Gute Illusion 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_18
+  level1:
+    id: 364
+#   name: Zerstäuber
+    cost: 2
+  level2:
+    id: 365
+#   name: Höhere Spuckreichweite
+    cost: 4
+  level3:
+    id: 366
+#   name: Nachwirkung
+    cost: 6
+
+- target: SPELL_19
+  level1:
+    id: 367
+#   name: Ein- und ausfahrbare Krallen
+    cost: 1
+  level2:
+    id: 368
+#   name: Kletterhilfe
+    cost: 2
+  level3:
+    id: 369
+#   name: Scharfe Krallen
+    cost: 3
+
+- target: SPELL_20
+  level1:
+    id: 370
+#   name: Verteilte Wirkung
+    cost: 2
+  level2:
+    id: 371
+#   name: Längere Wirkung
+    cost: 4
+  level3:
+    id: 372
+#   name: Zwei Ziele
+    cost: 6
+
+- target: SPELL_21
+  level1:
+    id: 373
+#   name: Intensiver Strahl
+    cost: 3
+  level2:
+    id: 374
+#   name: Windender Strahl
+    cost: 6
+  level3:
+    id: 375
+#   name: Zwei Ziele
+    cost: 9
+
+- target: SPELL_22
+  level1:
+    id: 376
+#   name: Größere Menge
+    cost: 1
+  level2:
+    id: 377
+#   name: Noch größere Menge
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 378
+#   name: Noch viel größere Menge
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_23
+  level1:
+    id: 379
+#   name: Längere Aufrechterhaltung
+    cost: 1
+  level2:
+    id: 380
+#   name: Reichweite Berührung
+    cost: 2
+  level3:
+    id: 381
+#   name: Mehrere Lebewesen
+    cost: 3
+
+- target: SPELL_24
+  level1:
+    id: 382
+#   name: Weiter und höher 1
+    cost: 1
+  level2:
+    id: 383
+#   name: Weiter und höher 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 384
+#   name: Krötenflink
+    cost: 3
+
+# Manifesto
+- target: SPELL_25
+  level1:
+    id: 385
+#   name: Größere Menge
+    cost: 1
+  level2:
+    id: 386
+#   name: Noch größere Menge
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 387
+#   name: Noch viel größere Menge
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_26
+  level1:
+    id: 388
+#   name: Mehr Gewicht
+    cost: 1
+  level2:
+    id: 389
+#   name: Bessere Werte
+    cost: 2
+  level3:
+    id: 390
+#   name: Noch bessere Werte
+    cost: 3
+    previousRequirement: 2
+
+- target: SPELL_27
+  level1:
+    id: 391
+#   name: Mehr Gewicht
+    cost: 2
+  level2:
+    id: 392
+#   name: Noch mehr Gewicht
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 393
+#   name: Mehrere Objekte
+    cost: 6
+
+- target: SPELL_28
+  level1:
+    id: 394
+#   name: Wandernder Nebel
+    cost: 3
+  level2:
+    id: 395
+#   name: Lange Wirkungsdauer
+    cost: 6
+  level3:
+    id: 396
+#   name: Dichter Nebel
+    cost: 9
+
+- target: SPELL_29
+  level1:
+    id: 397
+#   name: Gute Illusion 1
+    cost: 2
+  level2:
+    id: 398
+#   name: Gute Illusion 2
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 399
+#   name: Gute Illusion 3
+    cost: 6
+    previousRequirement: 2
+
+- target: SPELL_30
+  level1:
+    id: 400
+#   name: Zwei Gegenstände
+    cost: 1
+  level2:
+    id: 401
+#   name: Kegelsicht
+    cost: 2
+  level3:
+    id: 402
+#   name: Rundumsicht
+    cost: 3
+
+- target: SPELL_31
+  level1:
+    id: 403
+#   name: Verteilte Wirkung
+    cost: 2
+  level2:
+    id: 404
+#   name: Längere Wirkung
+    cost: 4
+  level3:
+    id: 405
+#   name: Zwei Ziele
+    cost: 6
+
+- target: SPELL_32
+  level1:
+    id: 406
+#   name: Sehen und Hören
+    cost: 2
+  level2:
+    id: 407
+#   name: Helligkeit
+    cost: 4
+  level3:
+    id: 408
+#   name: Durch Wände hindurchzaubern
+    cost: 6
+
+- target: SPELL_33
+  level1:
+    id: 409
+#   name: Verteilte Wirkung
+    cost: 2
+  level2:
+    id: 410
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 411
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_34
+  level1:
+    id: 412
+#   name: Weitgefasster Radau
+    cost: 2
+  level2:
+    id: 413
+#   name: Stärkerer Besen
+    cost: 4
+  level3:
+    id: 414
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_35
+  level1:
+    id: 415
+#   name: Mehr Fragen
+    cost: 2
+  level2:
+    id: 416
+#   name: Antworten mit Zahlen
+    cost: 4
+  level3:
+    id: 417
+#   name: Wann-Fragen beantworten
+    cost: 6
+
+- target: SPELL_36
+  level1:
+    id: 418
+#   name: Gleichwertig
+    cost: 3
+  level2:
+    id: 419
+#   name: Geistige Fähigkeiten
+    cost: 6
+  level3:
+    id: 420
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+- target: SPELL_37
+  level1:
+    id: 421
+#   name: Längere Wirkungsdauer 1
+    cost: 1
+  level2:
+    id: 422
+#   name: Erhöhte Reichweite
+    cost: 2
+  level3:
+    id: 423
+#   name: Längere Wirkungsdauer 2
+    cost: 3
+    previousRequirement: 1
+
+- target: SPELL_38
+  level1:
+    id: 424
+#   name: Reichweite Berührung
+    cost: 2
+  level2:
+    id: 425
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 426
+#   name: Wahre Schönheit
+    cost: 6
+
+- target: SPELL_39
+  level1:
+    id: 427
+#   name: Andere Kosten
+    cost: 2
+  level2:
+    id: 428
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 429
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_40
+  level1:
+    id: 430
+#   name: Verteilte Wirkung
+    cost: 2
+  level2:
+    id: 431
+#   name: Längere Wirkung
+    cost: 4
+  level3:
+    id: 432
+#   name: Zwei Ziele
+    cost: 6
+
+- target: SPELL_41
+  level1:
+    id: 433
+#   name: Wirkt durch Kleidung
+    cost: 1
+  level2:
+    id: 434
+#   name: Reichweite Berührung
+    cost: 2
+  level3:
+    id: 435
+#   name: Keine Aufrechterhaltung
+    cost: 3
+
+- target: SPELL_42
+  level1:
+    id: 436
+#   name: Reichweite Berührung
+    cost: 2
+  level2:
+    id: 437
+#   name: Andere Kosten
+    cost: 4
+  level3:
+    id: 438
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_43
+  level1:
+    id: 439
+#   name: Mehr Gewicht
+    cost: 3
+  level2:
+    id: 440
+#   name: Größere Teleportationsmöglichkeit
+    cost: 6
+  level3:
+    id: 441
+#   name: Transport
+    cost: 9
+
+- target: SPELL_44
+  level1:
+    id: 442
+#   name: Andere Kosten
+    cost: 2
+  level2:
+    id: 443
+#   name: Keine Aufrechterhaltung
+    cost: 4
+  level3:
+    id: 444
+#   name: Unsichtbare Kleidung
+    cost: 6
+
+- target: SPELL_45
+  level1:
+    id: 445
+#   name: Andere Kosten
+    cost: 2
+  level2:
+    id: 446
+#   name: Keine Aufrechterhaltung
+    cost: 4
+  level3:
+    id: 447
+#   name: Mehrere Ziele
+    cost: 6
+
+- target: SPELL_46
+  level1:
+    id: 448
+#   name: Geringere Ritualdauer
+    cost: 4
+  level2:
+    id: 449
+#   name: Weniger Erschwernis 1
+    cost: 8
+  level3:
+    id: 450
+#   name: Weniger Erschwernis 2
+    cost: 12
+    previousRequirement: 2
+
+- target: SPELL_47
+  level1:
+    id: 451
+#   name: Mehr Dienste
+    cost: 3
+  level2:
+    id: 452
+#   name: Längerer Dienst
+    cost: 6
+  level3:
+    id: 453
+#   name: Mächtiges Wesen
+    cost: 9
+
+- target: SPELL_48
+  level1:
+    id: 454
+#   name: Mehr Dienste
+    cost: 2
+  level2:
+    id: 455
+#   name: Längerer Dienst
+    cost: 4
+  level3:
+    id: 456
+#   name: Mächtiges Wesen
+    cost: 6
+
+- target: SPELL_49
+  level1:
+    id: 457
+#   name: Mehr Dienste
+    cost: 3
+  level2:
+    id: 458
+#   name: Längerer Dienst
+    cost: 6
+  level3:
+    id: 459
+#   name: Mächtiges Wesen
+    cost: 9
+
+- target: SPELL_50
+  level1:
+    id: 460
+#   name: Mehr Dienste
+    cost: 2
+  level2:
+    id: 461
+#   name: Längerer Dienst
+    cost: 4
+  level3:
+    id: 462
+#   name: Mächtiges Wesen
+    cost: 6
+
+- target: SPELL_51
+  level1:
+    id: 463
+#   name: Verkürzte Ritualdauer
+    cost: 3
+  level2:
+    id: 464
+#   name: Trägerwahl
+    cost: 6
+  level3:
+    id: 465
+#   name: Hass auf ….
+    cost: 9
+
+- target: SPELL_234
+  level1:
+    id: 466
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 467
+#   name: Klammeraffe
+    cost: 2
+  level3:
+    id: 468
+#   name: Lange Arme
+    cost: 3
+
+- target: SPELL_235
+  level1:
+    id: 469
+#   name: Angriffslustig
+    cost: 3
+  level2:
+    id: 470
+#   name: Mehr Tiere
+    cost: 6
+  level3:
+    id: 471
+#   name: Stärkere Ablenkung
+    cost: 9
+
+- target: SPELL_236
+  level1:
+    id: 472
+#   name: Reichweite Berührung
+    cost: 3
+  level2:
+    id: 473
+#   name: Spezieswahl
+    cost: 6
+  level3:
+    id: 474
+#   name: Zielkategorie Objekt
+    cost: 9
+
+- target: SPELL_237
+  level1:
+    id: 475
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 476
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 477
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_238
+  level1:
+    id: 478
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 479
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 480
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_239
+  level1:
+    id: 481
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 482
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 483
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+- target: SPELL_240
+  level1:
+    id: 484
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 485
+#   name: Schnellsteigerung
+    cost: 4
+  level3:
+    id: 486
+#   name: Keine Aufrechterhaltung
+    cost: 6
+
+# Avilea
+- target: SPELL_241
+  level1:
+    id: 487
+#   name: Reichweite Berührung
+    cost: 3
+  level2:
+    id: 488
+#   name: Spezieswahl
+    cost: 6
+  level3:
+    id: 489
+#   name: Zielkategorie Objekt
+    cost: 9
+
+# Basaltleib
+- target: SPELL_242
+  level1:
+    id: 490
+#   name: Erzschutz
+    cost: 2
+  level2:
+    id: 491
+#   name: Elementarschutz
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 492
+#   name: Reichweite Berührung
+    cost: 6
+
+# Brandungsleib
+- target: SPELL_243
+  level1:
+    id: 493
+#   name: Wasserschutz
+    cost: 2
+  level2:
+    id: 494
+#   name: Elementarschutz
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 495
+#   name: Reichweite Berührung
+    cost: 6
+
+# Brennender Hass
+- target: SPELL_244
+  level1:
+    id: 496
+#   name: Zauberdauer modifizierbar
+    cost: 3
+  level2:
+    id: 497
+#   name: Aufeinanderhetzen
+    cost: 6
+  level3:
+    id: 498
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+# Dämonisches Vergessen
+- target: SPELL_245
+  level1:
+    id: 499
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 500
+#   name: Längere Berührungszeit
+    cost: 6
+  level3:
+    id: 501
+#   name: Längere Wirkungsdauer 2
+    cost: 9
+    previousRequirement: 1
+
+# Drachenleib
+- target: SPELL_246
+  level1:
+    id: 502
+#   name: Feuerschutz
+    cost: 2
+  level2:
+    id: 503
+#   name: Elementarschutz
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 504
+#   name: Reichweite Berührung
+    cost: 6
+
+# Eichenleib
+- target: SPELL_247
+  level1:
+    id: 505
+#   name: Humusschutz
+    cost: 2
+  level2:
+    id: 506
+#   name: Elementarschutz
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 507
+#   name: Reichweite Berührung
+    cost: 6
+
+# Eigene Ängste
+- target: SPELL_248
+  level1:
+    id: 508
+#   name: Große Reichweite
+    cost: 2
+  level2:
+    id: 509
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 510
+#   name: Extreme Angst
+    cost: 6
+
+# Eigene Dummheit
+- target: SPELL_249
+  level1:
+    id: 511
+#   name: Große Reichweite
+    cost: 2
+  level2:
+    id: 512
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 513
+#   name: Extreme Dummheit
+    cost: 6
+
+# Eispfeil
+- target: SPELL_250
+  level1:
+    id: 514
+#   name: Andere Geschosse
+    cost: 1
+  level2:
+    id: 515
+#   name: Mehr Geschosse
+    cost: 2
+  level3:
+    id: 516
+#   name: Elementarschaden
+    cost: 3
+
+# Erzpfeil
+- target: SPELL_251
+  level1:
+    id: 517
+#   name: Andere Geschosse
+    cost: 1
+  level2:
+    id: 518
+#   name: Mehr Geschosse
+    cost: 2
+  level3:
+    id: 519
+#   name: Elementarschaden
+    cost: 3
+
+# Eulenruf
+- target: SPELL_252
+  level1:
+    id: 520
+#   name: Angriffslustig
+    cost: 3
+  level2:
+    id: 521
+#   name: Blitzschnell
+    cost: 6
+  level3:
+    id: 522
+#   name: Scharfe Krallen
+    cost: 9
+
+# Federleib
+- target: SPELL_253
+  level1:
+    id: 523
+#   name: Luftschutz
+    cost: 2
+  level2:
+    id: 524
+#   name: Elementarschutz
+    cost: 4
+  level3:
+    id: 525
+#   name: Reichweite Berührung
+    cost: 6
+
+# Feenstaub
+- target: SPELL_254
+  level1:
+    id: 526
+#   name: Größere Menge
+    cost: 1
+  level2:
+    id: 527
+#   name: Noch größere Menge
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 528
+#   name: Noch viel größere Menge
+    cost: 3
+    previousRequirement: 2
+
+# Feuerpfeil
+- target: SPELL_255
+  level1:
+    id: 529
+#   name: Andere Geschosse
+    cost: 1
+  level2:
+    id: 530
+#   name: Mehr Geschosse
+    cost: 2
+  level3:
+    id: 531
+#   name: Elementarschaden
+    cost: 3
+
+# Firnlauf
+- target: SPELL_256
+  level1:
+    id: 532
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 533
+#   name: Kette
+    cost: 4
+  level3:
+    id: 534
+#   name: Durch das Element
+    cost: 6
+
+# Flammenwand
+- target: SPELL_257
+  level1:
+    id: 535
+#   name: Höhere Wand
+    cost: 2
+  level2:
+    id: 536
+#   name: Zylinder
+    cost: 4
+  level3:
+    id: 537
+#   name: Deckel
+    cost: 6
+    previousRequirement: 1
+
+# Fledermausruf
+- target: SPELL_258
+  level1:
+    id: 538
+#   name: Aggressive Tiere
+    cost: 2
+  level2:
+    id: 539
+#   name: Geflatter
+    cost: 4
+  level3:
+    id: 540
+#   name: Schwarmteilung
+    cost: 6
+
+# Frostleib
+- target: SPELL_259
+  level1:
+    id: 541
+#   name: Eisschutz
+    cost: 2
+  level2:
+    id: 542
+#   name: Elementarschutz
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 543
+#   name: Reichweite Berührung
+    cost: 6
+
+# Geisteressenz
+- target: SPELL_260
+  level1:
+    id: 544
+#   name: Größere Menge
+    cost: 1
+  level2:
+    id: 545
+#   name: Noch größere Menge
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 546
+#   name: Noch viel größere Menge
+    cost: 3
+    previousRequirement: 2
+
+# Gifthaut
+- target: SPELL_261
+  level1:
+    id: 547
+#   name: Starkes Gift
+    cost: 2
+  level2:
+    id: 548
+#   name: Ablösbares Gift
+    cost: 4
+  level3:
+    id: 549
+#   name: Flexibles Gift
+    cost: 6
+
+# Glutlauf
+- target: SPELL_262
+  level1:
+    id: 550
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 551
+#   name: Kette
+    cost: 4
+  level3:
+    id: 552
+#   name: Durch das Element
+    cost: 6
+
+# Hexenspeichel
+- target: SPELL_263
+  level1:
+    id: 553
+#   name: Erholung
+    cost: 2
+  level2:
+    id: 554
+#   name: Gift- und Krankheitsheilung
+    cost: 4
+  level3:
+    id: 555
+#   name: Eingespeichelter Gegenstand
+    cost: 6
+
+# Hilfreiche Pfote
+- target: SPELL_264
+  level1:
+    id: 556
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 557
+#   name: Mehr Dienste
+    cost: 2
+  level3:
+    id: 558
+#   name: Größere Tiere
+    cost: 3
+
+# Hilfreiche Schwinge
+- target: SPELL_265
+  level1:
+    id: 559
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 560
+#   name: Mehr Dienste
+    cost: 2
+  level3:
+    id: 561
+#   name: Größere Tiere
+    cost: 3
+
+# Hilfreiche Tatze
+- target: SPELL_266
+  level1:
+    id: 562
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 563
+#   name: Einen Elfenfreund verteidigen
+    cost: 6
+  level3:
+    id: 564
+#   name: Größere Tiere
+    cost: 9
+
+# Himmelslauf
+- target: SPELL_267
+  level1:
+    id: 565
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 566
+#   name: Kette
+    cost: 4
+  level3:
+    id: 567
+#   name: Durch das Element
+    cost: 6
+
+# Hornissenruf
+- target: SPELL_268
+  level1:
+    id: 568
+#   name: Angriffslustig
+    cost: 2
+  level2:
+    id: 569
+#   name: Starkes Gift
+    cost: 4
+  level3:
+    id: 570
+#   name: Allergische Reaktion
+    cost: 6
+
+# Humuspfeil
+- target: SPELL_269
+  level1:
+    id: 571
+#   name: Andere Geschosse
+    cost: 1
+  level2:
+    id: 572
+#   name: Mehr Geschosse
+    cost: 2
+  level3:
+    id: 573
+#   name: Elementarschaden
+    cost: 3
+
+# Katzenruf
+- target: SPELL_270
+  level1:
+    id: 574
+#   name: Angriffslustig
+    cost: 3
+  level2:
+    id: 575
+#   name: Neun Leben
+    cost: 6
+  level3:
+    id: 576
+#   name: Scharfe Krallen
+    cost: 9
+
+# Krabbelnder Schrecken
+- target: SPELL_271
+  level1:
+    id: 577
+#   name: Verwirrende Angst
+    cost: 3
+  level2:
+    id: 578
+#   name: Starkel Ekel
+    cost: 6
+  level3:
+    id: 579
+#   name: Mehrere Ziele
+    cost: 9
+
+# Krähenruf
+- target: SPELL_272
+  level1:
+    id: 580
+#   name: Angriffslustig
+    cost: 3
+  level2:
+    id: 581
+#   name: Scharfe Schnäbel
+    cost: 6
+  level3:
+    id: 582
+#   name: Zielgenauigkeit
+    cost: 9
+
+# Kraft des Tieres
+- target: SPELL_273
+  level1:
+    id: 583
+#   name: Stärke des Tiers 1
+    cost: 1
+  level2:
+    id: 584
+#   name: Wirklich stark
+    cost: 2
+  level3:
+    id: 585
+#   name: Stärke des Tiers 2
+    cost: 3
+    previousRequirement: 1
+
+# Kulminatio
+- target: SPELL_274
+  level1:
+    id: 586
+#   name: Intensiver Blitz
+    cost: 3
+  level2:
+    id: 587
+#   name: Zuckender Blitz
+    cost: 6
+  level3:
+    id: 588
+#   name: Zwei Ziele
+    cost: 9
+
+# Levthans Feuer
+- target: SPELL_275
+  level1:
+    id: 589
+#   name: Interesse bei anderer Person wecken
+    cost: 2
+  level2:
+    id: 590
+#   name: Regeneration schenken oder stehlen
+    cost: 4
+  level3:
+    id: 591
+#   name: Regenerationstausch
+    cost: 6
+
+# Luftpfeil
+- target: SPELL_276
+  level1:
+    id: 592
+#   name: Andere Geschosse
+    cost: 1
+  level2:
+    id: 593
+#   name: Mehr Geschosse
+    cost: 2
+  level3:
+    id: 594
+#   name: Elementarschaden
+    cost: 3
+
+# Mal der Erschöpfung
+- target: SPELL_277
+  level1:
+    id: 595
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 596
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 597
+#   name: Extreme Erschöpfung
+    cost: 6
+
+# Mal der Schwäche
+- target: SPELL_278
+  level1:
+    id: 598
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 599
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 600
+#   name: Extreme Schwäche
+    cost: 6
+
+# Objectovoco
+- target: SPELL_279
+  level1:
+    id: 601
+#   name: Mehr Fragen
+    cost: 2
+  level2:
+    id: 602
+#   name: Antworten mit Zahlen
+    cost: 4
+  level3:
+    id: 603
+#   name: Wann-Fragen beantworten
+    cost: 6
+
+# Pandaemonium
+- target: SPELL_280
+  level1:
+    id: 604
+#   name: Hexe verschonen
+    cost: 4
+  level2:
+    id: 605
+#   name: Dichtes Pandaemonium
+    cost: 8
+  level3:
+    id: 606
+#   name: Größerer Radius
+    cost: 12
+
+# Pestodem
+- target: SPELL_281
+  level1:
+    id: 607
+#   name: Übles Gas
+    cost: 2
+  level2:
+    id: 608
+#   name: Halbkreis
+    cost: 4
+  level3:
+    id: 609
+#   name: Größerer Radius
+    cost: 6
+
+# Reptilea
+- target: SPELL_282
+  level1:
+    id: 610
+#   name: Reichweite Berührung
+    cost: 3
+  level2:
+    id: 611
+#   name: Spezieswahl
+    cost: 6
+  level3:
+    id: 612
+#   name: Zielkategorie Objekt
+    cost: 9
+
+# Sanfter Fall
+- target: SPELL_283
+  level1:
+    id: 613
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 614
+#   name: Reichweite Berührung
+    cost: 2
+  level3:
+    id: 615
+#   name: Klippensturz
+    cost: 3
+
+# Schlangenruf
+- target: SPELL_83
+  level1:
+    id: 985
+#   name: Blitzschnell
+    cost: 3
+  level2:
+    id: 986
+#   name: Angriffslustig
+    cost: 6
+  level3:
+    id: 987
+#   name: Giftig
+    cost: 9
+
+# Schlechte Ausstrahlung
+- target: SPELL_284
+  level1:
+    id: 616
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 617
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 618
+#   name: Extreme schlechte Ausstrahlung
+    cost: 6
+
+# Schleier der Unwissenheit
+- target: SPELL_285
+  level1:
+    id: 619
+#   name: Verborgenes Geheimnis
+    cost: 2
+  level2:
+    id: 620
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 621
+#   name: Andere Kulturschaffende und Objekte verschleiern
+    cost: 6
+
+# Seelentier erkennen
+- target: SPELL_286
+  level1:
+    id: 622
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 623
+#   name: Hervorragendes Überreden
+    cost: 4
+  level3:
+    id: 624
+#   name: Erhöhte Willenskraft
+    cost: 6
+
+# Seidenzunge
+- target: SPELL_287
+  level1:
+    id: 625
+#   name: Größere Reichweite
+    cost: 1
+  level2:
+    id: 626
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 627
+#   name: Mehrere Ziele
+    cost: 3
+
+# Serpentialis
+- target: SPELL_288
+  level1:
+    id: 628
+#   name: Vier Schlangen
+    cost: 2
+  level2:
+    id: 629
+#   name: Lange Schlangen
+    cost: 4
+  level3:
+    id: 630
+#   name: Sechs Schlangen
+    cost: 6
+    previousRequirement: 2
+
+# Spinnenruf
+- target: SPELL_289
+  level1:
+    id: 631
+#   name: Angriffslustig
+    cost: 3
+  level2:
+    id: 632
+#   name: Starkes Gift
+    cost: 6
+  level3:
+    id: 633
+#   name: Spinnenpanik
+    cost: 9
+
+# Standfest
+- target: SPELL_290
+  level1:
+    id: 634
+#   name: Längere Wirkungsdauer
+    cost: 1
+  level2:
+    id: 635
+#   name: Absolut standfest
+    cost: 2
+  level3:
+    id: 636
+#   name: Reichweite Berührung
+    cost: 3
+
+# Steinwand
+- target: SPELL_291
+  level1:
+    id: 637
+#   name: Höhere Wand
+    cost: 2
+  level2:
+    id: 638
+#   name: Zylinder
+    cost: 4
+  level3:
+    id: 639
+#   name: Deckel
+    cost: 6
+    previousRequirement: 1
+
+# Tiere besprechen
+- target: SPELL_292
+  level1:
+    id: 640
+#   name: Größere Tiere heilen
+    cost: 1
+  level2:
+    id: 641
+#   name: Noch größere Tiere heilen
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 642
+#   name: Tierkrankheit heilen
+    cost: 3
+
+# Unentflammbarkeit
+- target: SPELL_293
+  level1:
+    id: 643
+#   name: Feuerfestes Vertrautentier
+    cost: 2
+  level2:
+    id: 644
+#   name: Längeres Intervall
+    cost: 4
+  level3:
+    id: 645
+#   name: Brennsichere Kleidung
+    cost: 6
+
+# Ungeschickt
+- target: SPELL_294
+  level1:
+    id: 646
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 647
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 648
+#   name: Extremes Ungeschick
+    cost: 6
+
+# Verunsicherung
+- target: SPELL_295
+  level1:
+    id: 649
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 650
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 651
+#   name: Extreme Unsicherheit
+    cost: 6
+
+# Vipernblick
+- target: SPELL_86
+  level1:
+    id: 988
+#   name: Starrer Blick
+    cost: 3
+  level2:
+    id: 989
+#   name: Größere Reichweite
+    cost: 6
+  level3:
+    id: 990
+#   name: Keine Erinnerung
+    cost: 9
+
+# Wasserpfeil
+- target: SPELL_296
+  level1:
+    id: 652
+#   name: Andere Geschosse
+    cost: 1
+  level2:
+    id: 653
+#   name: Mehr Geschosse
+    cost: 2
+  level3:
+    id: 654
+#   name: Elementarschaden
+    cost: 3
+
+# Weiches Erstarre
+- target: SPELL_297
+  level1:
+    id: 655
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 656
+#   name: Harte Flüssigkeit
+    cost: 4
+  level3:
+    id: 657
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+
+# Welle der Reinigung
+- target: SPELL_298
+  level1:
+    id: 658
+#   name: Kosten modifizierbar
+    cost: 2
+  level2:
+    id: 659
+#   name: Größere Reichweite
+    cost: 4
+  level3:
+    id: 660
+#   name: Große Schwarmtiere
+    cost: 6
+
+# Welle des Schmerzes
+- target: SPELL_299
+  level1:
+    id: 661
+#   name: Größerer Radius
+    cost: 2
+  level2:
+    id: 662
+#   name: Halbkreis
+    cost: 4
+  level3:
+    id: 663
+#   name: Kosten modifizierbar
+    cost: 6
+
+# Wellenlauf
+- target: SPELL_300
+  level1:
+    id: 664
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 665
+#   name: Kette
+    cost: 4
+  level3:
+    id: 666
+#   name: Durch das Element
+    cost: 6
+
+# Wipfellauf
+- target: SPELL_301
+  level1:
+    id: 667
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 668
+#   name: Kette
+    cost: 4
+  level3:
+    id: 669
+#   name: Durch das Element
+    cost: 6
+
+# Wüstenlauf
+- target: SPELL_302
+  level1:
+    id: 670
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 671
+#   name: Kette
+    cost: 4
+  level3:
+    id: 672
+#   name: Durch das Element
+    cost: 6
+
+# Zauberpferd herbeirufen
+- target: SPELL_303
+  level1:
+    id: 673
+#   name: Schnelleres Pferd
+    cost: 2
+  level2:
+    id: 674
+#   name: Gutes Pferd
+    cost: 4
+  level3:
+    id: 675
+#   name: Treues Pferd
+    cost: 6
+
+# Adamantium
+- target: SPELL_304
+  level1:
+    id: 676
+#   name: Größere Objekte
+    cost: 1
+  level2:
+    id: 677
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 678
+#   name: Noch größere Objekte
+    cost: 3
+    previousRequirement: 1
+
+# Animatio
+- target: SPELL_305
+  level1:
+    id: 679
+#   name: Wiederholung
+    cost: 2
+  level2:
+    id: 680
+#   name: Schlauer Gegenstand
+    cost: 4
+  level3:
+    id: 681
+#   name: Längere Bewegung
+    cost: 6
+    previousRequirement: 1
+
+# Band der Freundschaft
+- target: SPELL_306
+  level1:
+    id: 682
+#   name: Gelungene Beeinflussung 1
+    cost: 3
+  level2:
+    id: 683
+#   name: Gelungene Beeinflussung 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 684
+#   name: Gelungene Beeinflussung 3
+    cost: 9
+    previousRequirement: 2
+
+# Bärenruhe
+- target: SPELL_307
+  level1:
+    id: 685
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 686
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 687
+#   name: Halbschlaf
+    cost: 6
+
+# Blick in die Vergangenheit
+- target: SPELL_308
+  level1:
+    id: 688
+#   name: Reichweite Berührung
+    cost: 3
+  level2:
+    id: 689
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 690
+#   name: Verlangsamung
+    cost: 9
+
+# Brandform
+- target: SPELL_309
+  level1:
+    id: 691
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 692
+#   name: Größerer Radius
+    cost: 4
+  level3:
+    id: 693
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+
+# Custodosigil
+- target: SPELL_310
+  level1:
+    id: 694
+#   name: Vertrauenswürdige Personen
+    cost: 2
+  level2:
+    id: 695
+#   name: Internes Feuer
+    cost: 4
+  level3:
+    id: 696
+#   name: Größere Gegenstände
+    cost: 6
+
+# Destructibo
+- target: SPELL_311
+  level1:
+    id: 697
+#   name: Entzauberung von selbst aufladenden Artefakten
+    cost: 4
+  level2:
+    id: 698
+#   name: Aufheben von Bindungsritualen
+    cost: 8
+    previousRequirement: 1
+  level3:
+    id: 699
+#   name: Aufheben von dauerhaft wirkenden Artefakten
+    cost: 12
+    previousRequirement: 1
+
+# Eins mit der Natur
+- target: SPELL_312
+  level1:
+    id: 700
+#   name: Kälte und Wärme
+    cost: 2
+  level2:
+    id: 701
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 702
+#   name: Reichweite Berührung
+    cost: 6
+
+# Ergebenheit der Wogen
+- target: SPELL_313
+  level1:
+    id: 703
+#   name: Bewusstsein
+    cost: 2
+  level2:
+    id: 704
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 705
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+# Erhabenheit des Marmors
+- target: SPELL_314
+  level1:
+    id: 706
+#   name: Bewusstsein
+    cost: 2
+  level2:
+    id: 707
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 708
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+# Felsenform
+- target: SPELL_315
+  level1:
+    id: 709
+#   name: Längere Wirkungsdauer 1
+    cost: 2
+  level2:
+    id: 710
+#   name: Größerer Radius
+    cost: 4
+  level3:
+    id: 711
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+
+# Freiheit der Wolken
+- target: SPELL_316
+  level1:
+    id: 712
+#   name: Bewusstsein
+    cost: 2
+  level2:
+    id: 713
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 714
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+# Geisterruf
+- target: SPELL_317
+  level1:
+    id: 715
+#   name: Mehr Dienste
+    cost: 2
+  level2:
+    id: 716
+#   name: Längerer Dienst
+    cost: 4
+  level3:
+    id: 717
+#   name: Freundliche Einstellung
+    cost: 6
+
+# Geisterbeschwörung
+- target: SPELL_318
+  level1:
+    id: 718
+#   name: Mehr Dienste
+    cost: 3
+  level2:
+    id: 719
+#   name: Längerer Dienst
+    cost: 6
+  level3:
+    id: 720
+#   name: Freundliche Einstellung
+    cost: 9
+
+# Gletscherform
+- target: SPELL_319
+  level1:
+    id: 721
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 722
+#   name: Größerer Radius
+    cost: 6
+  level3:
+    id: 723
+#   name: Längere Wirkungsdauer 2
+    cost: 9
+    previousRequirement: 1
+
+# Klarheit des Eises
+- target: SPELL_320
+  level1:
+    id: 724
+#   name: Reichweite Berührung
+    cost: 3
+  level2:
+    id: 725
+#   name: Bewusstsein
+    cost: 6
+  level3:
+    id: 726
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+# Körperlose Reise
+- target: SPELL_321
+  level1:
+    id: 727
+#   name: Körpergefühl
+    cost: 3
+  level2:
+    id: 728
+#   name: Durch Objekte
+    cost: 6
+  level3:
+    id: 729
+#   name: Manifestation
+    cost: 9
+
+# Madas Spiegel
+- target: SPELL_322
+  level1:
+    id: 730
+#   name: Größerer Radius
+    cost: 2
+  level2:
+    id: 731
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 732
+#   name: Umgebungsansicht
+    cost: 6
+
+# Nekropathia
+- target: SPELL_323
+  level1:
+    id: 733
+#   name: Körpergefühl
+    cost: 3
+  level2:
+    id: 734
+#   name: Mitnahme
+    cost: 6
+  level3:
+    id: 735
+#   name: Wechsel des Totenreichs
+    cost: 9
+
+# Pflanzenform
+- target: SPELL_324
+  level1:
+    id: 736
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 737
+#   name: Größerer Radius
+    cost: 6
+  level3:
+    id: 738
+#   name: Längere Wirkungsdauer 2
+    cost: 9
+    previousRequirement: 1
+
+# Reinheit der Lohe
+- target: SPELL_325
+  level1:
+    id: 739
+#   name: Reichweite Berührung
+    cost: 3
+  level2:
+    id: 740
+#   name: Bewusstsein
+    cost: 6
+  level3:
+    id: 741
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+# Ruf der Feenwesen
+- target: SPELL_326
+  level1:
+    id: 742
+#   name: Mehr Dienste
+    cost: 3
+  level2:
+    id: 743
+#   name: Längerer Dienst
+    cost: 6
+  level3:
+    id: 744
+#   name: Freundliche Einstellung
+    cost: 9
+
+# Seelenwanderung
+- target: SPELL_327
+  level1:
+    id: 745
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level2:
+    id: 746
+#   name: Fremder Tausch
+    cost: 8
+  level3:
+    id: 747
+#   name: Endgültiger Seelentausch
+    cost: 12
+
+# Standhafter Wächter
+- target: SPELL_328
+  level1:
+    id: 748
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 749
+#   name: Schmerzloser Wächter
+    cost: 4
+  level3:
+    id: 750
+#   name: Reichweite Berührung
+    cost: 6
+
+# Transmutare
+- target: SPELL_329
+  level1:
+    id: 751
+#   name: Stimme und Geruch
+    cost: 3
+  level2:
+    id: 752
+#   name: Reichweite Berührung
+    cost: 6
+  level3:
+    id: 753
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+# Traumgestalt
+- target: SPELL_330
+  level1:
+    id: 754
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 755
+#   name: Mitnahme
+    cost: 6
+  level3:
+    id: 756
+#   name: Traummeister
+    cost: 9
+
+# Überlegener Krieger
+- target: SPELL_331
+  level1:
+    id: 757
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 758
+#   name: Schmerzloser Wächter
+    cost: 4
+  level3:
+    id: 759
+#   name: Reichweite Berührung
+    cost: 6
+
+# Weisheit der Bäume
+- target: SPELL_332
+  level1:
+    id: 760
+#   name: Reichweite Berührung
+    cost: 3
+  level2:
+    id: 761
+#   name: Bewusstsein
+    cost: 6
+  level3:
+    id: 762
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+# Hexenholz
+- target: SPELL_77
+  level1:
+    id: 763
+#   name: Mehrere Objekte
+    cost: 2
+  level2:
+    id: 764
+#   name: Hexengeschoss
+    cost: 4
+  level3:
+    id: 765
+#   name: Poltergeist
+    cost: 6
+
+# Wogenform
+- target: SPELL_334
+  level1:
+    id: 766
+#   name: Größerer Radius
+    cost: 2
+  level2:
+    id: 767
+#   name: Längere Wirkungsdauer 1
+    cost: 4
+  level3:
+    id: 768
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 2
+
+# Zaubernahrung
+- target: SPELL_335
+  level1:
+    id: 769
+#   name: Kosten modifizierbar
+    cost: 2
+  level2:
+    id: 770
+#   name: Mehr Elfenbrot
+    cost: 4
+  level3:
+    id: 771
+#   name: Geteiltes Elfenbrot
+    cost: 6
+
+# Zauberschnurren
+- target: SPELL_336
+  level1:
+    id: 772
+#   name: Überträger
+    cost: 3
+  level2:
+    id: 773
+#   name: Zwei Ziele
+    cost: 6
+  level3:
+    id: 774
+#   name: Heilsames Schnurren
+    cost: 9
+
+# Zauberwesen der Natur
+- target: SPELL_337
+  level1:
+    id: 775
+#   name: Mehr Dienste
+    cost: 2
+  level2:
+    id: 776
+#   name: Längerer Dienst
+    cost: 4
+  level3:
+    id: 777
+#   name: Freundliche Einstellung
+    cost: 6
+
+# Zauberzwang
+- target: SPELL_338
+  level1:
+    id: 778
+#   name: Mehrere Ziele
+    cost: 3
+  level2:
+    id: 779
+#   name: Vergessen nach Erfüllung
+    cost: 6
+  level3:
+    id: 780
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+- target: SPELL_386
+  level1:
+    id: 781
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 782
+#   name: Starkes Begehren
+    cost: 4
+  level3:
+    id: 783
+#   name: Mehrere Ziele
+    cost: 6
+
+- target: SPELL_387
+  level1:
+    id: 784
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 785
+#   name: Männerbusen
+    cost: 2
+  level3:
+    id: 786
+#   name: Längere Wirkungsdauer
+    cost: 3
+
+- target: SPELL_388
+  level1:
+    id: 787
+#   name: Mehrere Ziele
+    cost: 2
+  level2:
+    id: 788
+#   name: Abneigung erkennen
+    cost: 4
+  level3:
+    id: 789
+#   name: Vorliebe erkennen
+    cost: 6
+
+- target: SPELL_389
+  level1:
+    id: 790
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 791
+#   name: Starkes Gift
+    cost: 2
+  level3:
+    id: 792
+#   name: Ablösbares Gift
+    cost: 6
+
+# Hexenknoten
+- target: SPELL_78
+  level1:
+    id: 793
+#   name: Ausgenommen Freunde 1
+    cost: 3
+  level2:
+    id: 794
+#   name: Kreisrund
+    cost: 6
+  level3:
+    id: 795
+#   name: Ausgenommen Freunde 2
+    cost: 9
+    previousRequirement: 1
+
+- target: SPELL_391
+  level1:
+    id: 796
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 797
+#   name: Breiter Penis
+    cost: 2
+  level3:
+    id: 798
+#   name: Längere Wirkungsdauer
+    cost: 3
+
+- target: SPELL_392
+  level1:
+    id: 799
+#   name: Zwei Spielzeuge
+    cost: 2
+  level2:
+    id: 800
+#   name: Einfühlsames Spielzeug
+    cost: 4
+  level3:
+    id: 801
+#   name: Absolute Ekstase
+    cost: 6
+
+- target: SPELL_393
+  level1:
+    id: 802
+#   name: Reichweite Berührung
+    cost: 1
+  level2:
+    id: 803
+#   name: Jungfräulichkeit
+    cost: 2
+  level3:
+    id: 804
+#   name: Längere Wirkungsdauer
+    cost: 3
+
+- target: SPELL_394
+  level1:
+    id: 805
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 806
+#   name: Orgasmusgarantie
+    cost: 4
+  level3:
+    id: 807
+#   name: Mehrere Ziele
+    cost: 6
+
+- target: SPELL_395
+  level1:
+    id: 808
+#   name: Zwei Vorlieben und Abneigungen
+    cost: 3
+  level2:
+    id: 809
+#   name: Längere Wirkungsdauer I
+    cost: 6
+  level3:
+    id: 810
+#   name: Längere Wirkungsdauer II
+    cost: 9
+
+- target: SPELL_396
+  level1:
+    id: 811
+#   name: Leicht zu verführen
+    cost: 3
+  level2:
+    id: 812
+#   name: Extrem erregt
+    cost: 6
+  level3:
+    id: 813
+#   name: Längere Wirkungsdauer
+    cost: 9
+
+- target: SPELL_397
+  level1:
+    id: 814
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 815
+#   name: Verliehene Fähigkeiten
+    cost: 4
+  level3:
+    id: 816
+#   name: Drittübertragung
+    cost: 6
+
+- target: SPELL_402
+  level1:
+    id: 817
+#   name: Größere Reichweite
+    cost: 3
+  level2:
+    id: 818
+#   name: Große Reue
+    cost: 6
+  level3:
+    id: 819
+#   name: Verkürzte Ritualdauer
+    cost: 9
+
+# Aquafaxius
+- target: SPELL_403
+  level1:
+    id: 820
+#   name: Intensiver Strahl
+    cost: 3
+  level2:
+    id: 821
+#   name: Windender Strahl
+    cost: 6
+  level3:
+    id: 822
+#   name: Zwei Ziele
+    cost: 9
+
+# Aquasphaero
+- target: SPELL_404
+  level1:
+    id: 823
+#   name: Intensive Explosion
+    cost: 4
+  level2:
+    id: 824
+#   name: Schneller Ball
+    cost: 8
+  level3:
+    id: 825
+#   name: Großer Radius
+    cost: 12
+
+# Atemnot
+- target: SPELL_69
+  level1:
+    id: 826
+#   name: Zwei Ziele
+    cost: 2
+  level2:
+    id: 827
+#   name: Vier Ziele
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 828
+#   name: Acht Ziele
+    cost: 6
+    previousRequirement: 2
+
+# Aura der Erschöpfung
+- target: SPELL_405
+  level1:
+    id: 829
+#   name: Größerer Radius
+    cost: 3
+  level2:
+    id: 830
+#   name: Halbkreis
+    cost: 6
+  level3:
+    id: 831
+#   name: Kosten modifizierbar
+    cost: 9
+
+# Blitzball
+- target: SPELL_406
+  level1:
+    id: 832
+#   name: Intensive Explosion
+    cost: 4
+  level2:
+    id: 833
+#   name: Schneller Ball
+    cost: 8
+  level3:
+    id: 834
+#   name: Großer Radius
+    cost: 12
+
+# Böser Blick
+- target: SPELL_407
+  level1:
+    id: 835
+#   name: Nicht näher kommen
+    cost: 3
+  level2:
+    id: 836
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 837
+#   name: Zwei Ziele
+    cost: 9
+
+# Dornenwand
+- target: SPELL_408
+  level1:
+    id: 838
+#   name: Höhere Wand
+    cost: 2
+  level2:
+    id: 839
+#   name: Zylinder
+    cost: 4
+  level3:
+    id: 840
+#   name: Deckel
+    cost: 6
+    previousRequirement: 2
+
+# Eiswand
+- target: SPELL_409
+  level1:
+    id: 841
+#   name: Höhere Wand
+    cost: 2
+  level2:
+    id: 842
+#   name: Zylinder
+    cost: 4
+  level3:
+    id: 843
+#   name: Deckel
+    cost: 6
+    previousRequirement: 2
+
+# Erschöpfungen lindern
+- target: SPELL_410
+  level1:
+    id: 844
+#   name: Zielkategorie Lebewesen
+    cost: 2
+  level2:
+    id: 845
+#   name: Verteilte Wirkung
+    cost: 4
+  level3:
+    id: 846
+#   name: Zwei Ziele
+    cost: 6
+
+# Fesselfeld
+- target: SPELL_411
+  level1:
+    id: 847
+#   name: Großer Radius
+    cost: 3
+  level2:
+    id: 848
+#   name: Schutz vor Geschossen
+    cost: 6
+  level3:
+    id: 849
+#   name: Elementare Zerstörung
+    cost: 9
+
+# Frigifaxius
+- target: SPELL_412
+  level1:
+    id: 850
+#   name: Intensiver Strahl
+    cost: 3
+  level2:
+    id: 851
+#   name: Windender Strahl
+    cost: 6
+  level3:
+    id: 852
+#   name: Zwei Ziele
+    cost: 9
+
+# Frigisphaero
+- target: SPELL_413
+  level1:
+    id: 853
+#   name: Intensive Explosion
+    cost: 4
+  level2:
+    id: 854
+#   name: Schneller Ball
+    cost: 8
+  level3:
+    id: 855
+#   name: Großer Radius
+    cost: 12
+
+# Große Verwirrung
+- target: SPELL_75
+  level1:
+    id: 856
+#   name: Verteilte Wirkung
+    cost: 2
+  level2:
+    id: 857
+#   name: Längere Wirkung
+    cost: 4
+  level3:
+    id: 858
+#   name: Zwei Ziele
+    cost: 6
+
+# Halluzination
+- target: SPELL_414
+  level1:
+    id: 859
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 860
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 861
+#   name: Wahnvorstellungen
+    cost: 9
+
+# Herr über das Tierreich
+- target: SPELL_76
+  level1:
+    id: 862
+#   name: Größere Reichweite
+    cost: 3
+  level2:
+    id: 863
+#   name: Mehr Tiere
+    cost: 6
+  level3:
+    id: 864
+#   name: Noch mehr Tiere
+    cost: 9
+    previousRequirement: 2
+
+# Humofaxius
+- target: SPELL_415
+  level1:
+    id: 865
+#   name: Intensiver Strahl
+    cost: 3
+  level2:
+    id: 866
+#   name: Windender Strahl
+    cost: 6
+  level3:
+    id: 867
+#   name: Zwei Ziele
+    cost: 9
+
+# Humosphaero
+- target: SPELL_416
+  level1:
+    id: 868
+#   name: Intensive Explosion
+    cost: 4
+  level2:
+    id: 869
+#   name: Schneller Ball
+    cost: 8
+  level3:
+    id: 870
+#   name: Großer Radius
+    cost: 12
+
+# Invinculo
+- target: SPELL_417
+  level1:
+    id: 871
+#   name: Zielkategorie Objekt
+    cost: 2
+  level2:
+    id: 872
+#   name: Festhalten
+    cost: 4
+  level3:
+    id: 873
+#   name: Längere Wirkungsdauer
+    cost: 6
+
+# Nebelform
+- target: SPELL_418
+  level1:
+    id: 874
+#   name: Lange Nebelexistenz
+    cost: 3
+  level2:
+    id: 875
+#   name: Windflug
+    cost: 6
+  level3:
+    id: 876
+#   name: Zauberdauer modifizierbar
+    cost: 9
+
+# Oktagramma
+- target: SPELL_419
+  level1:
+    id: 877
+#   name: Zauberdauer modifizierbar
+    cost: 2
+  level2:
+    id: 878
+#   name: Zwei Feen
+    cost: 4
+  level3:
+    id: 879
+#   name: Drei Feen
+    cost: 6
+    previousRequirement: 2
+
+# Panik überkomme euch
+- target: SPELL_420
+  level1:
+    id: 880
+#   name: Größerer Radius
+    cost: 3
+  level2:
+    id: 881
+#   name: Halbkreis
+    cost: 6
+  level3:
+    id: 882
+#   name: Kosten modifizierbar
+    cost: 9
+
+# Pestilenz erspüren
+- target: SPELL_82
+  level1:
+    id: 883
+#   name: Größere Reichweite
+    cost: 1
+  level2:
+    id: 884
+#   name: Mehr Patienten
+    cost: 2
+  level3:
+    id: 885
+#   name: Gute Heilungschancen
+    cost: 3
+
+# Schimmernder Schild
+- target: SPELL_421
+  level1:
+    id: 886
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 887
+#   name: Reichweite Berührung
+    cost: 4
+  level3:
+    id: 888
+#   name: Kosten modifizierbar
+    cost: 6
+
+# Schuppenhaut
+- target: SPELL_422
+  level1:
+    id: 889
+#   name: Feuerresistente Schuppen
+    cost: 3
+  level2:
+    id: 890
+#   name: Reichweite Berührung
+    cost: 6
+  level3:
+    id: 891
+#   name: Scharfe Schuppen
+    cost: 9
+
+# Sphärenbann
+- target: SPELL_423
+  level1:
+    id: 892
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 893
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 894
+#   name: Kosten senken
+    cost: 6
+
+# Sinesigil
+- target: SPELL_424
+  level1:
+    id: 895
+#   name: Kosten modifizierbar
+    cost: 1
+  level2:
+    id: 896
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level3:
+    id: 897
+#   name: An und Aus
+    cost: 3
+
+# Sensattacco
+- target: SPELL_425
+  level1:
+    id: 898
+#   name: Längere Wirkungsdauer
+    cost: 3
+  level2:
+    id: 899
+#   name: Höhere kritische Trefferchance
+    cost: 6
+  level3:
+    id: 900
+#   name: Automatischer Erfolg beim Bestätigungswurf
+    cost: 9
+
+# Stillstand
+- target: SPELL_426
+  level1:
+    id: 901
+#   name: Größerer Radius
+    cost: 3
+  level2:
+    id: 902
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 903
+#   name: Zähflüssig
+    cost: 9
+
+# Sturm der Verunsicherung
+- target: SPELL_427
+  level1:
+    id: 904
+#   name: Größerer Radius
+    cost: 3
+  level2:
+    id: 905
+#   name: Halbkreis
+    cost: 6
+  level3:
+    id: 906
+#   name: Kosten modifizierbar
+    cost: 9
+
+# Sturmwand
+- target: SPELL_428
+  level1:
+    id: 907
+#   name: Höhere Wand
+    cost: 2
+  level2:
+    id: 908
+#   name: Zylinder
+    cost: 4
+  level3:
+    id: 909
+#   name: Deckel
+    cost: 6
+    previousRequirement: 2
+
+# Sumus Elixiere
+- target: SPELL_85
+  level1:
+    id: 910
+#   name: Längere Wirkungsdauer 1
+    cost: 1
+  level2:
+    id: 911
+#   name: Längere Wirkungsdauer 2
+    cost: 2
+    previousRequirement: 1
+  level3:
+    id: 912
+#   name: Leichte Zubereitung
+    cost: 3
+
+# Temporalbann
+- target: SPELL_429
+  level1:
+    id: 913
+#   name: Reichweite erhöhen
+    cost: 2
+  level2:
+    id: 914
+#   name: Zauberdauer senken
+    cost: 4
+  level3:
+    id: 915
+#   name: Kosten senken
+    cost: 6
+
+# Tempus Stasis
+- target: SPELL_430
+  level1:
+    id: 916
+#   name: Größerer Radius
+    cost: 3
+  level2:
+    id: 917
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 918
+#   name: Bewegung im Stillstand
+    cost: 9
+
+# Wellenwand
+- target: SPELL_431
+  level1:
+    id: 919
+#   name: Höhere Wand
+    cost: 2
+  level2:
+    id: 920
+#   name: Zylinder
+    cost: 4
+  level3:
+    id: 921
+#   name: Deckel
+    cost: 6
+    previousRequirement: 2
+
+# Woge der Versteinerung
+- target: SPELL_432
+  level1:
+    id: 922
+#   name: Größerer Radius
+    cost: 3
+  level2:
+    id: 923
+#   name: Halbkreis
+    cost: 6
+  level3:
+    id: 924
+#   name: Kosten modifizierbar
+    cost: 9
+
+# Zorn der Elemente
+- target: SPELL_433
+  level1:
+    id: 925
+#   name: Schweres Ausweichen
+    cost: 2
+  level2:
+    id: 926
+#   name: Harter Aufprall
+    cost: 4
+  level3:
+    id: 927
+#   name: Zwei Ziele
+    cost: 6
+
+# Zunge betäuben
+- target: SPELL_87
+  level1:
+    id: 928
+#   name: Zielkategorie Lebewesen
+    cost: 3
+  level2:
+    id: 929
+#   name: Zungentaubheit
+    cost: 6
+  level3:
+    id: 930
+#   name: Zwei Ziele
+    cost: 9
+
+# Zweifel schüren
+- target: SPELL_434
+  level1:
+    id: 931
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 932
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 933
+#   name: Starke Zweifel
+    cost: 6
+
+# Zwingtanz
+- target: SPELL_88
+  level1:
+    id: 934
+#   name: Zielkategorie Lebewesen
+    cost: 3
+  level2:
+    id: 935
+#   name: Längere Wirkungsdauer
+    cost: 6
+  level3:
+    id: 936
+#   name: Erschöpfender Zwingtanz
+    cost: 9
+
+# Applicatus
+- target: SPELL_435
+  level1:
+    id: 937
+#   name: Zwei Zauber
+    cost: 2
+  level2:
+    id: 938
+#   name: Drei Zauber
+    cost: 4
+    previousRequirement: 1
+  level3:
+    id: 939
+#   name: Vier Zauber
+    cost: 6
+    previousRequirement: 2
+
+# Blick durch fremde Augen
+- target: SPELL_436
+  level1:
+    id: 940
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 941
+#   name: Andere Sinne
+    cost: 6
+  level3:
+    id: 942
+#   name: Längere Wirkungsdauer 2
+    cost: 9
+    previousRequirement: 1
+
+# Chimaeroform
+- target: SPELL_437
+  level1:
+    id: 943
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 944
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 945
+#   name: Mächtiges Wesen
+    cost: 9
+
+# Chronoklassis
+- target: SPELL_438
+  level1:
+    id: 946
+#   name: Größerer Radius
+    cost: 4
+  level2:
+    id: 947
+#   name: Längere Wirkungsdauer
+    cost: 8
+  level3:
+    id: 948
+#   name: Länger zurückreichernder Zeitpunkt
+    cost: 12
+
+# Chrononautos
+- target: SPELL_439
+  level1:
+    id: 949
+#   name: Größerer Radius
+    cost: 4
+  level2:
+    id: 950
+#   name: Längere Wirkungsdauer
+    cost: 8
+  level3:
+    id: 951
+#   name: Länger zurückreichernder Zeitpunkt
+    cost: 12
+
+# Gefäß der Jahre
+- target: SPELL_440
+  level1:
+    id: 952
+#   name: Längere Wirkungsdauer 1
+    cost: 4
+  level2:
+    id: 953
+#   name: Andere Personen
+    cost: 8
+  level3:
+    id: 954
+#   name: Längere Wirkungsdauer 2
+    cost: 12
+    previousRequirement: 1
+
+# Immortalis Lebenszeit
+- target: SPELL_441
+  level1:
+    id: 955
+#   name: Längere Wirkungsdauer 1
+    cost: 4
+  level2:
+    id: 956
+#   name: Längere Wirkungsdauer 2
+    cost: 8
+    previousRequirement: 1
+  level3:
+    id: 957
+#   name: Längere Wirkungsdauer 3
+    cost: 12
+    previousRequirement: 2
+
+# Invocatio Maxima
+- target: SPELL_442
+  level1:
+    id: 958
+#   name: Mehr Dienste
+    cost: 4
+  level2:
+    id: 959
+#   name: Längerer Dienst
+    cost: 8
+  level3:
+    id: 960
+#   name: Mächtiges Wesen
+    cost: 12
+
+# Infinitum Immerdar
+- target: SPELL_443
+  level1:
+    id: 961
+#   name: Kürzere Ritualdauer
+    cost: 4
+  level2:
+    id: 962
+#   name: Zwei Zauber
+    cost: 8
+  level3:
+    id: 963
+#   name: Drei Zauber
+    cost: 12
+    previousRequirement: 2
+
+# Meister der Elemente
+- target: SPELL_444
+  level1:
+    id: 964
+#   name: Mehr Dienste
+    cost: 4
+  level2:
+    id: 965
+#   name: Längerer Dienst
+    cost: 8
+  level3:
+    id: 966
+#   name: Mächtiges Wesen
+    cost: 12
+
+# Lawinenfall und Trümmerfeld
+- target: SPELL_445
+  level1:
+    id: 967
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level2:
+    id: 968
+#   name: Größerer Radius
+    cost: 8
+  level3:
+    id: 969
+#   name: Starke Erschütterung
+    cost: 12
+
+# Planastrale
+- target: SPELL_446
+  level1:
+    id: 970
+#   name: Längere Wirkungsdauer 1
+    cost: 4
+  level2:
+    id: 971
+#   name: Globulentore
+    cost: 8
+  level3:
+    id: 972
+#   name: Längere Wirkungsdauer 2
+    cost: 12
+    previousRequirement: 1
+
+# Stein wandle
+- target: SPELL_447
+  level1:
+    id: 973
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 974
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 975
+#   name: Mächtiges Wesen
+    cost: 9
+
+# Totes handle
+- target: SPELL_448
+  level1:
+    id: 976
+#   name: Längere Wirkungsdauer 1
+    cost: 3
+  level2:
+    id: 977
+#   name: Längere Wirkungsdauer 2
+    cost: 6
+    previousRequirement: 1
+  level3:
+    id: 978
+#   name: Mächtiges Wesen
+    cost: 9
+
+# Totes handle
+- target: SPELL_171
+  level1:
+    id: 979
+#   name: Längere Wirkungsdauer
+    cost: 2
+  level2:
+    id: 980
+#   name: Größerer Radius
+    cost: 4
+  level3:
+    id: 981
+#   name: Bewegliche Zone
+    cost: 6
+
+# Zitterfinger
+- target: SPELL_483
+  level1:
+    id: 982
+#   name: Größere Reichweite
+    cost: 2
+  level2:
+    id: 983
+#   name: Längere Wirkungsdauer
+    cost: 4
+  level3:
+    id: 984
+#   name: Extremes Zittern
+    cost: 6

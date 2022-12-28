@@ -1,0 +1,957 @@
+- id: SPELL_1
+  name: "Olhos de Águia"
+  effect: |
+    Aumente a perícia Percepção em NQ +3 do feitiço pela sua duração.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por 5 minutos"
+  aeCostShort: "4 EA + 2 EA por 5 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 286
+
+- id: SPELL_2
+  name: "Analisar Estrutura Arcana"
+  effect: |
+    Este feitiço revela se um objeto ou criatura é mágico, e se assim for, também revela detalhes sobre o objeto ou estrutura Arcana da criatura. Esta informação pode ser útil para uma análise mágica. Ao realizar uma análise mágica, o número máximo de NQ que você normalmente pode alcançar com o teste de Conhecimento de Magia (aplicação apropriada) é igual ao NQ do feitiço de *Análise*. Por exemplo, um conjurador que obtém um resultado de NQ 3 com *Análise* geralmente não pode alcançar mais do que 3 de NQ no teste de *Conhecimento de Magia* (exceção: veja a habilidade especial Analista na página **210**). Da mesma forma, com um NQ de 4 em *Análise*, o conjurador normalmente pode alcançar no máximo um NQ de 4 no teste de *Conhecimento de Magia* para a análise e assim por diante. 
+
+    Para mais informações sobre a realização de análises mágicas, veja a página **264**.
+  castingTime: "32 Ações"
+  castingTimeShort: "32 Ações"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas, Objetos"
+  src:
+    - id: US25001E
+      firstPage: 279
+
+- id: SPELL_3
+  name: "Armatrutz"
+  effect: |
+    Sua pele endurece sem perder flexibilidade, proporcionando uma proteção natural que se soma a qualquer armadura usada no corpo, sem aumentar a sobrecarga. Você precisa decidir quantos pontos adicionais de PRO você deseja antes de conjurar o feitiço, até um máximo de 3 pontos.
+  castingTime: "1 Ação"
+  castingTimeShort: "1 Ação"
+  aeCost: "4 EA for PRO 1, 8 EA for PRO 2, 16 EA for PRO 3"
+  aeCostShort: "4/8/16 EA"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 min"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 279
+
+- id: SPELL_4
+  name: "Axxeleratus"
+  effect: |
+    Acelera sobrenaturalmente os movimentos do alvo, concedendo Defesa +1, Movimento x 2 e base de Iniciativa x 2.<br>
+    Além disso, em combate, os oponentes do alvo sofrem uma penalidade de 2 em suas defesas.
+  castingTime: "1 Ação"
+  castingTimeShort: "1 Ação"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "NQ x 5 em rodadas de combate"
+  durationShort: "NQ x 5 CR"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 279
+
+- id: SPELL_5
+  name: "Bálsamo de Salabunde"
+  effect: |
+    O alvo recupera um número de PV igual a EA gasta no feitiço. Você pode gastar tanta EA quanto a sua GP no feitiço. A cura ocorre em seis minutos, mas cada NQ reduz o tempo de cura em 1 minuto.<br>
+    
+    Se você começar a conjurar o feitiço durante o período de tempo definido pela Constituição de uma personagem mortalmente ferida, você pode salvar a vida dela (veja *Medidas de Salvação e Morte* no Capítulo 12: Regras Detalhadas, na página **336**). Se o feitiço for interrompido, o paciente sobrevive apenas por um número de rodadas de combate remanescentes, como descrito lá.
+  castingTime: "16 Ações"
+  castingTimeShort: "16 Ações"
+  aeCost: "1 EA por PV, mínimo de 4 AE"
+  aeCostShort: "1 EA por PV (4+)"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas Inteligentes"
+  src:
+    - id: US25001E
+      firstPage: 280
+
+- id: SPELL_6
+  name: "Bannbaladin"
+  effect: |
+    Este feitiço de amizade, que foi desenvolvido pelos elfos, cria sentimentos de simpatia e amizade para com o conjurador. Os efeitos exatos dependem dos sentimentos anteriores do alvo para com o conjurador, mas basicamente a conexão entre ele e o alvo melhoram em um nível por NQ (mínimo de um nível). Se o alvo e o conjurador já não se conhecem, o nível de partida geralmente é entre 4 (antipatia) e 6 (simpatia), embora vantagens como *Boa Aparência* e desvantagens como o *Preconceito* também podem afetar esta primeira impressão.
+
+    - **Nível 1:** O alvo odeia o conjurador.
+    - **Nível 2:** O alvo é o inimigo do conjurador.
+    - **Nível 3:** O alvo despreza o conjurador.
+    - **Nível 4:** O alvo tem uma leve repulsa pelo conjurador.
+    - **Nível 5:** O alvo é neutro em relação ao conjurador.
+    - **Nível 6:** O alvo sente alguma simpatia pelo conjurador.
+    - **Nível 7:** O alvo sente confiança e amizade pelo conjurador.
+    - **Nível 8:** O alvo sente uma forte lealdade para com o conjurador.
+    - **Nível 9:** O alvo é completamente apaixonado pelo conjurador (mas não irá morrer pelo relacionamento).
+
+    *Bannbaladin* não tem efeito na memória do alvo. Quando o feitiços termina, o alvo lembra-se de sentimentos e ações. O alvo pode até notar o feitiço enquanto está em uso, mas isto não tem efeito na sua nova atitude. Suas ações podem afetar a atitude do alvo em relação a você.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "4 metros"
+  rangeShort: "4 m"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 min"
+  target: "Criaturas Inteligentes, Criaturas Sobrenaturais"
+  src:
+    - id: US25001E
+      firstPage: 280
+
+- id: SPELL_7
+  name: "Olho da Mente"
+  effect: |
+    Você pode ler a mente do alvo. Você pode ver o que o alvo está pensando no momento, mas não pode procurar através das memórias. O alvo pode notar que algo está errado, fazendo um teste de *Percepção* com uma penalidade igual ao NQ do feitiço. Se for bem-sucedido, o alvo pode então fazer um teste de *Força de Vontade* (com uma penalidade igual ao NQ do feitiço) para enviar pensamentos cheios de informações enganosas, trivialidades inúteis, monólogos internos ou canções.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "8 EA (conjuração) + 4 EA por 30 segundos"
+  aeCostShort: "8 AE"
+  range: "4 metros"
+  rangeShort: "4 m"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas Inteligentes, Criaturas Sobrenaturais"
+  src:
+    - id: US25001E
+      firstPage: 286
+
+- id: SPELL_8
+  name: "Clarão Ofuscante"
+  effect: |
+    O alvo sofre um nível da condição *Confusão*.
+  castingTime: "1 Ação"
+  castingTimeShort: "1 Ação"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 metros"
+  rangeShort: "8 yd"
+  duration: "NQ em rodadas de combate"
+  durationShort: "NQ RC"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 281
+
+- id: SPELL_9
+  name: "Corpofesso"
+  effect: |
+    O alvo sofre de fraqueza muscular dolorosa, recebendo a condição *Dor* pela duração do feitiço.
+
+    - **NQ 1:** 1 nível de *Dor*, por uma rodada de combate
+    - **NQ 2:** 1 nível de *Dor*
+    - **NQ 3:** 2 níveis de *Dor*
+    - **NQ 4:** 3 níveis de *Dor*
+    - **NQ 5:** 4 níveis de *Dor*
+    - **NQ 6:** 4 níveis de *Dor* pelo dobro da duração normal
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "NQ x 2 em rodadas de combate"
+  durationShort: "NQ x 2 RC"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 281
+
+- id: SPELL_10
+  name: "Disruptivo"
+  effect: |
+    Este feitiço básico de anti-magia prejudica todos os tipos de magia num raio de NQ x 2 metros em torno do conjurador. Ele faz isso emitindo vibrações que perturbam os padrões arcanos circundantes, impondo uma penalidade (com base no NQ – veja abaixo) em todos os testes para feitiços e rituais, seja conjurando na área ou fazendo efeito nela. *Disruptivo* também afeta os seus próprios feitiços. Antes de conjurá-lo, você deve declarar se a zona irá se mover com você ou permanecer estacionária.
+
+    - **NQ 1:** Penalidade de -1
+    - **NQ 2:** Penalidade de -2
+    - **NQ 3:** Penalidade de -3
+    - **NQ 4:** Penalidade de -4
+    - **NQ 5:** Penalidade de -5
+    - **NQ 6:** Penalidade de -6
+  castingTime: "8 Ações"
+  castingTimeShort: "8 Ações"
+  aeCost: "8 EA (conjuração) + 4 EA por 5 minutos"
+  aeCostShort: "8 EA + 4 EA per 5 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 281
+
+- id: SPELL_11
+  name: "Duplicatus"
+  effect: |
+    O conjurador cria uma ou mais cópias ilusórias do alvo que se movem sincronicamente com esse indivíduo, aparentando se misturar ao alvo e se separar novamente.<br>
+    O número de duplicatas depende do NQ. Você pode criar menos duplicatas do que o permitido, se desejar.
+
+    - **NQ 1:** 1 duplicata, por 2 rodadas de combate.
+    - **NQ 2:** 1 duplicata
+    - **NQ 3:** 2 duplicatas
+    - **NQ 4:** 3 duplicatas
+    - **NQ 5:** 4 duplicatas
+    - **NQ 6:** 4 duplicatas pelo dobro da duração normal
+
+    Não é fácil determinar qual imagem é a criatura alvo original e ataques de combate corpo a corpo, ataques à distância e feitiços têm uma boa chance de atingir um duplicado em vez disso. Se um ataque atingir o alvo, ele deve ser aparado ou desviado. Duplicatus não bloqueia ataques de efeito de área. Você pode ler mais sobre feitiços de ilusão e detectar ilusões na pág. 252**.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "4 EA por duplicata (2 de EA, no total, se o teste de feitiço falhar)."
+  aeCostShort: "4 EA per Dplc"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "NQ x 3 em rodadas de combate"
+  durationShort: "NQ x 3 RC "
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 281
+
+- id: SPELL_12
+  name: "Olhos de Falcão"
+  effect: |
+    O receptor do feitiço ganha uma ligação mental com o alvo do ataque. O próximo ataque do alvo recebe um bônus igual ao NQ do feitiço.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Até ao próximo tiro, mas não mais do que NQ x 2 rodadas de combate."
+  durationShort: "Tiro (NQ x 2 RC)"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 286
+
+- id: SPELL_13
+  name: "Esfera Brilhante"
+  effect: |
+    O feitiço cria uma pequena bola de luz flutuante. Você deve declarar com antecedência se a luz permanecerá estacionária ou ira seguí-lo por aí. Você também deve escolher a cor da luz. O brilho da luz depende do NQ. Você pode reduzir o brilho, mas apenas em um nível. O raio da luz varia dependendo do seu brilho.
+
+    - **NQ 1:** A luz é tão brilhante quanto uma vela.
+    - **NQ 2:** A luz é tão brilhante quanto uma tocha.
+    - **NQ 3:** A luz é tão brilhante quanto uma fogueira.
+    - **NQ 4:** A luz é brilhante o suficiente para iluminar uma sala de 4,5m x 4,5m.
+    - **NQ 5:** A luz é brilhante o suficiente para iluminar um grande salão.
+    - **NQ 6:** A luz é brilhante ao ponto de cegar. As pessoas acham quase impossível olhar diretamente para ela.
+  castingTime: "1 Ação"
+  castingTimeShort: "1 Ação"
+  aeCost: "2 EA (conjuração) + 1 EA por hour"
+  aeCostShort: "2 EA + 1 EA por h"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_14
+  name: "Fulminictus"
+  effect: |
+    A aura do alvo é ferida e o seu corpo sofre uma série de pequenos ferimentos físicos internos. O feitiço causa 2D6 + (NQ x 2) de dano. Armadura não protege contra este feitiço. O feitiço atinge o seu alvo automaticamente e o alvo não pode se esquivar ou aparar.
+  castingTime: "1 Ação"
+  castingTimeShort: "1 Ação"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 283
+
+- id: SPELL_15
+  name: "Gardianum"
+  effect: |
+    Este feitiço cria uma cúpula invisível à sua volta que pode absorver ataques mágicos vindos do exterior. O feitiço realmente cria uma esfera, mas uma vez que conjurador geralmente estão no chão ao usar este feitiço, ele funciona mais como uma cúpula. Esta cúpula tem um raio de 3 metros e uma força de EA + NQ x 3. *Gardianum* absorve pontos de dano de feitiços iguais à força da cúpula, em uma base de um por um, até que a força da cúpula seja reduzida a zero (quando ela colapsa). A cúpula não afasta seres ou armas mágicas. Os danos não absorvidos são causados ao conjurador de forma normal. A cúpula move-se com o conjurador e protege todos dentro do seu raio.
+  castingTime: "1 Ação"
+  castingTimeShort: "1 Ação"
+  aeCost: "Pelo menos 4 de EA"
+  aeCostShort: "4+ AE"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "5 minutos"
+  durationShort: "5 min"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 283
+
+- id: SPELL_16
+  name: "Ganância Poderosa"
+  effect: |
+    Os alvos deste feitiço sentem um imenso desejo por um objeto ou ação escolhido pelo conjurador. Eles fazem tudo para conseguí-lo, a não ser pôr em perigo a sua própria vida e saúde. Pela duração do feitiço, o alvo recebe o traço negativo *Avareza* (veja a página **177**).
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "NQ x 15, em  minutos"
+  durationShort: "NQ x 15 min"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 283
+
+- id: SPELL_17
+  name: "Forma Inofensiva"
+  effect: |
+    Você toma a forma de uma pessoa insuspeita (como um serviçal ou mendigo) que não atrai a atenção no local atual. A ilusão muda sua aparência e voz, mas não concedeconhecimento de coisas como idiomas ou comportamento apropriado. Este feitiço não esconde objetos grandes ou familiares. O feitiço em si escolhe a forma automaticamente — o conjurador não pode escolher que aparência tomar. Para mais informações sobre feitiços de ilusão e detecção de ilusões, veja a pág. **252**.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "8 EA (conjuração) + 4 EA por 5 minutos"
+  aeCostShort: "8 EA + 4 EA por 5 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_18
+  name: "Bile de Bruxa"
+  effect: |
+    Sua saliva imediatamente se transforma em um ácido corrosivo que causa 1d6 + (NQ) pontos de dano em um alvo a até 3 metros no qual você cuspa. Este ácido não fere o conjurador. Você não precisa usar outra ação para cuspir após conjurar o feitiço (cuspir está incluído no tempo de conjuração). Se o oponente não se defender, o ataque de cuspida acerta automaticamente.<br>
+    Cuspir conta como um ataque à distância de uma arma de projétil e pode ser aparado ou esquivado.<br>
+    PRO reduz o dano de acordo com as regras de combate normais. Bile de Bruxa causa danos estruturais em escudos e outros itens que ela atinja.
+  castingTime: "1 Ação"
+  castingTimeShort: "1 Ação"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 280
+
+- id: SPELL_19
+  name: "Garras de Bruxa"
+  effect: |
+    Garras afiadas crescem em ambas as mãos. Elas causam DN 1D6+3 em combate corpo a corpo e usam a técnica de combate Briga. Bruxas usando essas garras são consideradas desarmadas quando brigam. *Garras de Bruxa* são consideradas uma arma mágica.
+  castingTime: "1 Ação"
+  castingTimeShort: "1 Ação"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 em minutos"
+  durationShort: "NQ x 3 min"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 283
+
+- id: SPELL_20
+  name: "Horriphobus"
+  effect: |
+    Você aparenta para o alvo como uma figura assustadora dos seus pesadelos. A força do efeito depende do NQ do feitiço:
+
+    - **NQ 1:** 1 nível de *Medo*, por 2 rodadas de combate
+    - **NQ 2:** 1 nível de *Medo*
+    - **NQ 3:** 2 níveis de *Medo*
+    - **NQ 4:** 3 níveis de *Medo*
+    - **NQ 5:** 4 níveis de *Medo*
+    - **NQ 6:** 4 níveis de *Medo* pelo dobro da duração normal
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 min"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 284
+
+- id: SPELL_21
+  name: "Ignifaxius"
+  effect: |
+    A chama voa em linha reta em direção ao alvo. Você não tem que usar outra ação para mirar uma vez que você conjura o feitiço — mirar está incluído no tempo de conjuração.<br>
+    O alvo sofre 2D6 + (NQ x 2) pontos de dano, aplicando a PRO do alvo como de costume.<br>
+    Este feitiço conta como um ataque à distância de uma arma de projétil e pode ser aparado ou esquivado. Escudos atingidos por *Ignifaxius* sofrem dano estrutural. Se o oponente não se defender, a lança de chamas acerta automaticamente.<br>
+    Alvos inflamáveis pegam fogo numa rolagem de 1-3 em 1D6.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "16 metros"
+  rangeShort: "16 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "todas"
+  src:
+    - id: US25001E
+      firstPage: 284
+
+- id: SPELL_22
+  name: "Invocatio Minimo"
+  effect: |
+    O feitiço manifesta um punhado de substância dos Abismos Infernais (60 gramas de substância por NQ — principalmente lodo, ácido, vapores sulfurosos ou fogo líquido). Invocadores não podem escolher qual a substância que aparece – o MJ determina o resultado.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "1 metro"
+  rangeShort: "1 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 284
+
+- id: SPELL_23
+  name: "Olhos de Gato"
+  effect: |
+    Este feitiço aumenta a sensibilidade dos olhos à luz, permitindo que o alvo veja muito melhor na escuridão.<br>
+    Reduza as penalidades de visibilidade relacionadas com a escuridão em 1 para cada NQ (veja a página **344**). O feitiço não tem efeito na escuridão completa.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "2 EA (conjuração) + 1 EA por 10 minutos"
+  aeCostShort: "2 EA + 1 EA por 10 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 286
+
+- id: SPELL_24
+  name: "Salto do Sapo"
+  effect: |
+    O alvo pode realizar um salto melhorado sobrenaturalmente. Para o salto, aumente o comprimento em NQ+3 metros, e a altura em NQ metros, conforme desejado. As regras para saltar estão na página **345**.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "2 AE"
+  aeCostShort: "2 AE"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_25
+  name: "Manifesto"
+  effect: |
+    O feitiço manifesta um punhado do elemento desejado (60 gramas de substância por NQ — manifestações simples, tais como uma pequena chama, uma pedra ou um pedaço de gelo). Elementalistas aprendem este feitiço no início de sua educação, afim de dominar os fundamentos da convocação sem ter que incomodar elementais reais.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "1 metro"
+  rangeShort: "1 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 284
+
+- id: SPELL_26
+  name: "Manus Miracula"
+  effect: |
+    Você pode empurrar, girar, moldar e dobrar objetos a uma certa distância (de NQ metros) como se os estivesse com suas mãos.<br>
+    Você pode erguer no máximo 1 quilo. Para testes de perícias (ao fazer figuras de argila ou pintar com um pincel mantido por telecinese, por exemplo), todos os atributos físicos associados têm um valor de NQ +7 (isto pode exceder o limite imposto pelas suas estatísticas — veja a página **41**). A aplicação da força é pontual, mas bastante lenta, de modo que você não pode usar este feitiço para atacar ou aparar.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por 5 minutos"
+  aeCostShort: "4 EA + 2 EA por 5 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 285
+
+- id: SPELL_27
+  name: "Motoricus"
+  effect: |
+    Você pode pegar e mover objetos inanimados com sua mente. Os itens se movem a uma velocidade máxima de NQ +2 metros por ação, e não podem pesar mais de NQ x 20 quilos. Você deve gastar 1 de EA por cada 5 quilos de peso. Outros objetos repousados sobre ou conectados ao item em movimento são adicionados ao seu peso total. O objeto se move lentamente e não pode ser usado para atacar ou aparar. Para evitar que um item seja movido pelo *Motoricus*, seja o agarrando ou empurrando, faça um teste usando *Façanha de Força (Puxar e Empurrar)*.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "Pelo menos 4 EA (conjuração) + metade do montante por cada 5 minutos"
+  aeCostShort: "4+ EA + 1/2 por 5 min "
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 285
+
+- id: SPELL_28
+  name: "Muralha de Névoa"
+  effect: |
+    Você cria uma área de névoa densa que o vento não pode mover. O feitiço cria 200 metros cúbicos de névoa por EA e você pode moldar a nuvem de névoa como quiser, formando uma bola compacta, uma fita desenhada ou mesmo a forma de um dragão, se desejar. A névoa cria uma penalidade de visibilidade de 2 (veja a pág. **344**).
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "Pelo menos 4 AE"
+  aeCostShort: "4+ AE"
+  range: "16 metros"
+  rangeShort: "16 m"
+  duration: "NQ x 15 minutos, depois desse tempo o nevoeiro se dissipa"
+  durationShort: "NQ x 15 min"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 285
+
+- id: SPELL_29
+  name: "Oculus Illusionis"
+  effect: |
+    Você pode criar ilusões que confundem a visão. Você pode criar objetos tridimensionais em movimento, mas eles afetam apenas o sentido da visão. Para maiores detalhes, veja as *Regras para Ilusões* na página **252**.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por 5 minutos"
+  aeCostShort: "4 EA + 2 EA por 5 min"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 285
+
+- id: SPELL_30
+  name: "Odem Arcanum"
+  effect: |
+    Encontra magia ativa em itens ou pessoas. Objetos encantados e outras fontes de magia emitem um brilho avermelhado quando examinados com Odem. Pode também aumentar a eficácia de um *feitiço de Análise* ou de uma análise mágica (veja as págs. **261** e **279**). Dependendo da EA do alvo, o teste pode sofrer uma penalidade ou receber um Bônus.<br>
+    O conjurador pode examinar apenas uma criatura ou objeto dentro do alcance, não tudo o que por acaso esteja a vista. O conjurador recebe informações ou bônus baseados no NQ.
+
+    - **NQ 1:** Há magia presente?
+    - **NQ 2:** O NQ máximo que você pode alcançar com o teste de análise mágica é aumentado em 1.
+    - **NQ 3:** Receba 1 de bônus no teste para o *feitiço de Analisar* conjurado posteriormente no mesmo alvo.
+    - **NQ 4:** Receba 2 de bônus no teste para o *feitiço de Analisar* conjurado posteriormente no mesmo alvo.
+    - **NQ 5:** O NQ máximo que você pode alcançar com o teste de análise mágica é aumentado em 2.
+    - **NQ 6:** Receba 3 de bônus no teste para o *feitiço de Analisar* conjurado posteriormente no mesmo alvo.
+
+    Bônus para o máximo de NQ ou *Analisar* não são cumulativos. Além disso, o herói recebe apenas o bônus mais alto de cada tipo. Por exemplo, um resultado de NQ 4 por Odem concede um bônus em *Analisar* de 2 (não 3) e o máximo de NQ para análise mágica aumenta em 1. Da mesma forma, um resultado de NQ 6 pelo *Odem* concede um bônus de *Analisar *de 3 (não 6), e o máximo de NQ para análise mágica aumenta em 2 (não 3).
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "1 minuto"
+  durationShort: "1 min"
+  target: "Criaturas, Objetos"
+  src:
+    - id: US25001E
+      firstPage: 285
+
+- id: SPELL_31
+  name: "Paralisia"
+  effect: |
+    O corpo do alvo enrigece e endurece. Se a paralisia for completa (Nível IV), o corpo se transforma em uma substância quase indestrutível sem mudar seu peso. Um corpo transformado desta forma não pode ser ferido por armas não-mágicas, fogo ou quedas. Aqueles afetados não podem se mover, sentir ou ouvir nada, mas podem enxergar dentro de seu campo de visão. Este feitiço atrasa os efeitos de venenos e doenças, concedendo mais tempo para obter tratamento.
+
+    - **NQ 1:** 1 nível de *Paralisia*, por 2 rodadas de combate
+    - **NQ 2:** 1 nível de *Paralisia*
+    - **NQ 3:** 2 níveis de *Paralisia*
+    - **NQ 4:** 3 níveis de *Paralisia*
+    - **NQ 5:** 4 níveis de *Paralisia*
+    - **NQ 6:** 4 níveis de *Paralisia* pelo dobro da duração normal
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "NQ x 2 em minutos"
+  durationShort: "NQ x 2 min"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 287
+
+- id: SPELL_32
+  name: "Penetrizzel"
+  effect: |
+    Você pode ver através de 30 centímetros de matéria sólida para cada NQ. Materiais que interrompem a magia podem impor uma penalidade no teste de feitiço (ferro impõe uma penalidade de –1, basalto de Kosh impõe uma penalidade de –4). *Penetrizzel* não consegue ver através de objetos mágicos. Escuridão ou névoa causam o efeito normal na sua visão.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por minute"
+  aeCostShort: "4 EA + 2 EA por minute"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "all"
+  src:
+    - id: US25001E
+      firstPage: 287
+
+- id: SPELL_33
+  name: "Psicostabilis"
+  effect: |
+    Este feitiço ajuda a resistir à manipulação mental, aprimorando o seu Espírito em NQ/2.
+  castingTime: "8 Ações"
+  castingTimeShort: "8 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por 10 minutos"
+  aeCostShort: "4 EA + 2 EA por 10 min"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_34
+  name: "Bastão Lutador"
+  effect: |
+    A vassoura alvo ou outro bastão pessoal ataca um alvo de sua escolha a uma distância de até 8 metros (depois de conjurar o feitiço, o alvo e vassoura podem se mover para longe da bruxa). A vassoura é *inquebrável* durante a duração do feitiço e é considerada uma arma mágica que faz 1 ataque por rodada de combate. Ela não pode usar manobras de combate. Suas estatísticas são INI 12+1D6, AT 10 (+NQ), DN 1D6+3, MOV 12. Se a vassoura matar seu alvo antes da duração expirar, ou o inimigo de alguma forma fugir, ela ataca outro alvo aleatoriamente dentro de 16 metros (este pode até mesmo ser o conjurador). Se nesse momento nenhum alvo estiver ao alcance, o feitiço termina.<br>
+    Para agarrar a vassoura, você deve fazer um ataque bem-sucedido com *Briga* e a habilidade especial Agarrrar (a vassoura/bastão tem AP igual a metade de seu AT, *Façanha de Força* 10 e 14 em todos os atributos relevantes).
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por rodada de combate"
+  aeCostShort: "4 EA + 2 EA por CR"
+  range: "16 metros"
+  rangeShort: "16 m"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 280
+
+- id: SPELL_35
+  name: "Respondami"
+  effect: |
+    O alvo tem de responder NQ perguntas com sinceridade. As perguntas devem ter uma resposta de sim ou não. Quando se fazem outras perguntas, o alvo pode permanecer em silêncio. O alvo deve entender o seu idioma ou nenhuma resposta é possível. O alvo lembra-se do que foi dito enquanto o feitiço estava em vigor.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "NQ x 15 em minutos"
+  durationShort: "NQ x 15 min"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_36
+  name: "Salander"
+  effect: |
+    Este feitiço transforma uma coisa viva em outra, mas a nova forma deve ser menor e mais leve. O alvo não pode ser transformado numa criatura mágica ou sobrenatural. Se a mudança for extrema (um mamute transformado em um rato, por exemplo), o teste sofre até 3 de penalidade. O feitiço só pode transformar o alvo numa criatura conhecida pelo conjurador.<br>
+    As capacidades mentais e as memórias do alvo permanecem mais ou menos intactas, mas ele precisa usar as capacidades físicas da nova forma. Pontos de vida e PRO natural permanecem o mesmo – em outras palavras, você não pode transformar um musculoso chefe orc em um dente-de-leão e, então, arrancá-lo do chão facilmente. Além disso, *Salander* não transforma equipamentos. Quando a duração do feitiço termina, o alvo retém apenas memórias vagas do tempo passado como animal ou planta. Para mais detalhes sobre transformações, veja as *Regras para Transformações*, na pg. **252**.
+  castingTime: "8 Ações"
+  castingTimeShort: "8 Ações"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "NQ x 3 hours"
+  durationShort: "NQ x 3 h"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_37
+  name: "Serenidade"
+  effect: |
+    O animal afetado torna-se pacífico, até mesmo permitindo que o conjurador lhe toque. Este feitiço só afeta animais mundanos.
+  castingTime: "2 Ações"
+  castingTimeShort: "2 Ações"
+  aeCost: "4 AE"
+  aeCostShort: "4 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 min"
+  target: "Animals"
+  src:
+    - id: US25001E
+      firstPage: 289
+
+- id: SPELL_38
+  name: "Esplendor de Satuaria"
+  effect: |
+    Este feitiço causa mudanças físicas sutis para lhe tornar mais atraente. O feitiço melhora o cabelo e a pele, branqueia os dentes e muda as suas características para se encaixarem num ideal de beleza ou perfeição física. Testes usando *Sedução (Flertar, Romantismo)* e *Lábia (Bajular)* recebem um bônus igual ao NQ. Outras perícias sociais também podem obter o bônus, dependendo da situação. A transformação não surte efeito nas criaturas com padrões de beleza que diferem dos do conjurador.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "NQ x 3 hours"
+  durationShort: "NQ x 3 h"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_39
+  name: "Silentium"
+  effect: |
+    Este feitiço cria uma zona esférica na qual nenhum som pode ser feito ou ouvido. O raio da zona é de NQ x 3 metros, com o conjurador no centro. Você deve declarar antes de conjurar o feitiço se a zona irá mover-se com você ou permanecer no seu lugar.<br>
+    Neste último caso, você não pode se mover mais do que NQ x 3 metros para longe da zona, ou então o efeito do feitiço termina imediatamente.
+  castingTime: "8 Ações"
+  castingTimeShort: "8 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por 5 minutos"
+  aeCostShort: "4 EA + 2 EA por 5 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Zona"
+  src:
+    - id: US25001E
+      firstPage: 289
+
+- id: SPELL_40
+  name: "Somnigravis"
+  effect: |
+    O alvo é superado pela fadiga. Um alvo que sofra da condição Estupor no nível IV adormece e só é acordado por barulhos altos, chacoalhar persistente ou um estímulo semelhante, antes do feitiço terminar. Se não for perturbado, o alvo dorme até acordar naturalmente.
+
+    - **NQ 1:** 1 nível de *Estupor*, por 1 rodada de combate
+    - **NQ 2:** 1 nível de *Estupor*
+    - **NQ 3:** 2 níveis de *Estupor*
+    - **NQ 4:** 3 níveis de *Estupor*
+    - **NQ 5:** 4 níveis de *Estupor*
+    - **NQ 6:** 4 níveis de *Estupor* pelo dobro da duração normal
+  castingTime: "8 Ações"
+  castingTimeShort: "8 Ações"
+  aeCost: "8 AE"
+  aeCostShort: "8 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "NQ x 3 minutos"
+  durationShort: "NQ x 3 min"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 289
+
+- id: SPELL_41
+  name: "Passo da Aranha"
+  effect: |
+    As suas mãos e pés aderem na mais lisa das superfícies. Você pode escalar faces e paredes rochosas escorregadias e até mesmo ficar no teto. No entanto, este feitiço não altera o seu peso — se escalar uma parede coberta de gesso, o esforço pode partir o gesso solto e fazer com que caia. Você deve se segurar com pelo menos três dos membros ao usar *Passo da Aranha*, mas pode usar um membro a menos para cada 2 de NQ do feitiço (mínimo de um membro).
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por 5 minutos"
+  aeCostShort: "4 EA + 2 EA por 5 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 287
+
+- id: SPELL_42
+  name: "Sem Rastros"
+  effect: |
+    Você não deixa nenhum rastro enquanto se move através do terreno. Você não dobra a relva e não deixas pegadas em terreno macio. Você nem sequer deixa um cheiro para os outros seguirem. Testes de *Rastrear* para encontrar ou seguir o rastro do conjurador sofrem uma penalidade igual ao NQ.
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por 5 minutos"
+  aeCostShort: "4 EA + 2 EA por 5 min"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 289
+
+- id: SPELL_43
+  name: "Transversalis"
+  effect: |
+    Você pode teletransportar a si mesmo e no máximo mais NQ x 5 quilos de equipamento (como roupas e armas) para um local diferente. Quanto mais próximo do corpo você usar este equipamento, maior a chance de que ele viaje com você (roupas têm as melhores chances). Qualquer coisa que trouxer junto, ou viaja com você por inteiro ou fica para trás – não é rasgada ou danificada. O MJ tem a palavra final. Você deve ter visitado o local de destino antes de tentar a viagem, ou pelo menos ser atualmente capaz de avistá-lo (se não visitou o local anteriormente, mas pode vê-lo quando conjura o feitiço, o teste sofre uma penalidade de 2). Em qualquer dos casos, a localização não pode ser mais distante do que NQ x 3 quilômetros do conjurador.
+  castingTime: "8 Ações"
+  castingTimeShort: "8 Ações"
+  aeCost: "8 EA + 1 EA por quilômetro"
+  aeCostShort: "8 EA + 1 EA por quilômetro"
+  range: "Pessoal"
+  rangeShort: "Pessoal"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Objetos, Criaturas"
+  src:
+    - id: US25001E
+      firstPage: 289
+
+- id: SPELL_44
+  name: "Visibili"
+  effect: |
+    O alvo torna-se invisível em 20 – (NQ x 3) rodadas de combate, com o corpo lentamente se tornando mais e mais transparente até que ele desapareça completamente. 
+    *Visibili* afeta apenas o alvo; roupas e equipamentos permanecem visíveis. Substâncias que permaneçam no corpo por mais de 20 segundos tornam-se invisíveis também. Substâncias que deixem o corpo tornam-se visíveis após 20 segundos. Enquanto o feitiço permanecer em vigor, o alvo recebe o estado *Invisível* (veja a pág. **37**).
+  castingTime: "4 Ações"
+  castingTimeShort: "4 Ações"
+  aeCost: "8 EA (conjuração) + 4 EA por 5 minutos"
+  aeCostShort: "8 EA + 4 EA por 5 min"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_45
+  name: "Respirar Água"
+  effect: |
+    O alvo pode respirar debaixo de água durante 1 minuto para cada NQ e prolongar o tempo com EA adicional.
+  castingTime: "8 Ações"
+  castingTimeShort: "8 Ações"
+  aeCost: "4 EA (conjuração) + 2 EA por 5 minutos"
+  aeCostShort: "4 EA + 2 EA por 5 min"
+  range: "Toque"
+  rangeShort: "Toque"
+  duration: "Sustentável"
+  durationShort: "(S)"
+  target: "Criaturas vivas"
+  src:
+    - id: US25001E
+      firstPage: 288
+
+- id: SPELL_46
+  name: "Arcanovi"
+  effect: |
+    Você pode encontrar mais informações sobre encantamento de artefatos na página **259**.
+  castingTime: "8 horas"
+  castingTimeShort: "8 h"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Objetos Abençoados, Objetos Mundanos"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_47
+  name: "Convocar Gênio"
+  effect: |
+    Um gênio do elemento escolhido aparece. Para mais detalhes sobre convocar e lidar com gênios, veja a *A Arte da Convocação de Elementais*, na página **255**.
+  castingTime: "8 hours"
+  castingTimeShort: "8 h"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Elementais"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_48
+  name: "Servo Elemental"
+  effect: |
+    Um elemental do elemento escolhido aparece. Para mais detalhes sobre convocar e lidar com elementais, veja a *A Arte da Convocação de Elementais*, na página **255XX**.
+  castingTime: "30 minutos"
+  castingTimeShort: "30 min"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Elementais"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_49
+  name: "Invocatio Maior"
+  effect: |
+    Um demônio maior, com no máximo 5 chifres, aparece. O teste do ritual sofre uma penalidade igual à dificuldade de invocação do demônio. Para mais detalhes sobre invocar e lidar com demônios, veja *A Arte da Invocação de Demônios*, na página **255**.
+  castingTime: "8 horas"
+  castingTimeShort: "8 h"
+  aeCost: "32 AE"
+  aeCostShort: "32 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Demônios"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_50
+  name: "Invocatio Menor"
+  effect: |
+    Um demônio menor aparece. O teste do ritual sofre uma penalidade igual à dificuldade de invocação do demônio. Para mais detalhes sobre invocar e lidar com demônios, veja *A Arte da Invocação de Demônios*, na pág. **255**.
+  castingTime: "30 minutos"
+  castingTimeShort: "30 min"
+  aeCost: "16 AE"
+  aeCostShort: "16 AE"
+  range: "8 metros"
+  rangeShort: "8 m"
+  duration: "Imediata"
+  durationShort: "Imediata"
+  target: "Demons"
+  src:
+    - id: US25001E
+      firstPage: 290
+
+- id: SPELL_51
+  name: "Lâmina Encantada da Lança Espiritual"
+  effect: |
+    Você pode usar este ritual para vincular EA a uma arma para que ela seja considerada uma arma mágica. O custo em EA do ritual depende do tamanho da arma.<br>
+    Você pode aumentar a duração para NQ x 30 anos multiplicando o custo de EA do ritual por 5. Observações: 1/20 do custo de EA do ritual é a EA permanente (para mais sobre EA permanente e recuperação de EA gasta desta forma, veja a página **348**).
+  castingTime: "8 horas"
+  castingTimeShort: "8 h"
+  aeCost: "Depende da arma"
+  aeCostShort: "10+ AE"
+  range: "8 metros"
+  rangeShort: "8 md"
+  duration: "NQ em dias"
+  durationShort: "NQ dias"
+  target: "Objetos"
+  src:
+    - id: US25001E
+      firstPage: 290

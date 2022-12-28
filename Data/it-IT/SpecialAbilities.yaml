@@ -1,0 +1,1655 @@
+- id: SA_0
+  name: "Abilità speciale personalizzata"
+  rules: |
+    *Un segnaposto per abilità speciali personalizzate, con un nome ed un costo in PAvv da definire liberamente.*
+  input: "Nome dell'abilità speciale"
+  src:
+    - id: REG001
+      firstPage: 1
+
+- id: SA_1
+  name: "Analizzatore"
+  rules: |
+    Permette di analizzare artefatti, creature magiche ed incantesimi. Gli eroi con questa abilità possono fare una prova su *Arti magiche* e ottenere un maggiore LQ rispetto al solito (vedi “Analisi magica” nel **Regolamento** a pag. **269**). A seconda del LQ otterrai un’idea più chiara riguardo gli usi dell’oggetto, il tipo di creatura o gli effetti magici dell’incantesimo.
+  src:
+    - id: REG001
+      firstPage: 215
+  errata:
+    - date: 2019-11-14
+      description:  Questa abilità ti dà la nuova applicazione Analizzatore per la competenza Arti magiche.
+
+- id: SA_2
+  name: "Condottiero"
+  rules: |
+    Questa abilità speciale garantisce agli eroi la nuova applicazione *Condottiero* per la competenza *Parlantina (Affibbiare, Manipolare, Adulare)* per aiutare fino a LQ+1 persone. L’eroe deve saper vedere ed ascoltare i beneficiari dell’azione e questi devono essere in grado di recepire il messaggio. Il successo garantisce loro un bonus di +1 Att, +1 Dif e +1 CD per il successivo turno di combattimento (questo bonus non è cumulativo con altri usi di Condottiero).
+  src:
+    - id: REG001
+      firstPage: 216
+
+- id: SA_3
+  name: "Segreto del mestiere"
+  rules: |
+    Per apprendere un Segreto del mestiere, un personaggio ha bisogno di un maestro e, per comprenderlo nel giusto modo, deve soddisfare ogni requisito. Apprendere un segreto del mestiere costa un certo numero di PAvv, come elencato nella tabella “Esempi di segreti del mestiere” del **Regolamento** a pag. **219**.
+  selectOptions:
+    - id: 1
+      name: "Antidoto"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 2
+      name: "Vetro"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 3
+      name: "Pozione curativa"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 4
+      name: "Pozione d’amore"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 5
+      name: "Porcellana"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 6
+      name: "Pozione d’invisibilità"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 7
+      name: "Elisir di trasformazione"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 8
+      name: "Balsamo dell’armaiolo"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 9
+      name: "Pozione di volontà"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 10
+      name: "Pozione magica"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 11
+      name: "Algebra"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 12
+      name: "Boltan"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 13
+      name: "Ghironda"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 14
+      name: "Arco elfico"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 15
+      name: "Garadan"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 16
+      name: "Geometria"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 17
+      name: "Gioco del cammello"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 18
+      name: "Clavicembalo"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 19
+      name: "Arpa"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 20
+      name: "Orologio"
+      src:
+        - id: REG001
+          firstPage: 219
+  prerequisites: "A seconda del Segreto del mestiere."
+  src:
+    - id: REG001
+      firstPage: 220
+
+- id: SA_4
+  name: "Falsario"
+  rules: |
+    Il personaggio può falsificare lettere e documenti. Con questa abilità speciale l’eroe apprende la nuova applicazione *Falsario* per la competenza *Disegno e pittura*.
+  src:
+    - id: REG001
+      firstPage: 217
+
+- id: SA_5
+  name: "Volontà di ferro"
+  rules: |
+    Fintanto che l’eroe si concentra espressamente, aumenta il suo Animo di 1 per ogni livello. Tutte le altre prove subiscono una penalità di 1 punto per livello. L’effetto dura finché l’eroe rimane concentrato, da verificare eventualmente con una prova su *Autocontrollo*.<br>
+    Volontà di ferro non ha effetti se l’eroe si addormenta o quando riceve lo stato Incosciente. Quando l’effetto finisce, l’eroe soffre un livello della condizione Stordimento (leggi il **Regolamento** a pag. **34**).
+  src:
+    - id: REG001
+      firstPage: 220
+
+- id: SA_6
+  name: "Linguaggio del ventaglio"
+  rules: |
+    Puoi sfruttare questa abilità per parlare con qualcuno che possiede questa abilità speciale, senza bisogno di parole. Linguaggio del ventaglio richiede, ovviamente, l’uso di un ventaglio.
+  src:
+    - id: REG001
+      firstPage: 218
+
+- id: SA_7
+  name: "Disinnescare trappole"
+  rules: |
+    L’abilità speciale garantisce l’uso della nuova applicazione *Disinnescare trappole* per la competenza *Scassinare*.
+  src:
+    - id: REG001
+      firstPage: 217
+
+- id: SA_8
+  name: "Barare"
+  rules: |
+    Il giocatore può rilanciare una prova fallita su *Gioco* (a meno che non sia stata un fallimento critico). Per scoprire l’imbroglio, la vittima dovrà fare una prova su *Percezione (Avvertire)* contro *Gioco*. *Barare* è un uso di *Gioco*.
+  src:
+    - id: REG001
+      firstPage: 216
+
+- id: SA_9
+  name: "Specializzazione in…"
+  nameInWiki: "Specializzazione in (Competenza)"
+  rules: |
+    Un eroe riceve un bonus di 2 sul LA della competenza quando farà una prova usando quella specifica applicazione. I personaggi possono specializzarsi in un massimo di tre applicazioni per ogni competenza. Questo bonus per l’applicazione può aumentare il LA sopra il massimo consueto (come determinato dal livello di esperienza durante la creazione dell’eroe, leggi il **Regolamento** a pag. **38**).
+  apValue: "In base alla classe di miglioramento della competenza A/B/C/D: 1/2/3/4 PAvv per la prima Specializzazione, 2/4/6/8 PAvv per la seconda Specializzazione, 3/6/9/12 PAvv per la terza Specializzazione. "
+  prerequisites: "Livello Abilità 6 (prima Specializzazione), Livello Abilità 12 (seconda Specializzazione), Livello Abilità 18 (terza Specializzazione). "
+  src:
+    - id: REG001
+      firstPage: 220
+
+- id: SA_10
+  name: "Pescatore"
+  rules: |
+    L’eroe ha maggiore successo con la pesca. Con una prova superata su *Pescare*, riceverà 1 addizionale LQ di cibo. È il narratore a dover decidere se nello specchio d’acqua prestabilito ci sia abbastanza pesce buono da mangiare.
+  src:
+    - id: REG001
+      firstPage: 218
+
+- id: SA_11
+  name: "Volpesco"
+  rules: |
+    L’eroe sa leggere e scrivere in Volpesco.
+  src:
+    - id: REG001
+      firstPage: 220
+
+- id: SA_12
+  name: "Conoscenza del terreno"
+  rules: |
+    Se possiedi Conoscenza del terreno, ricevi un bonus di 1 per le prove sulle seguenti competenze nel caso in cui ti trovi negli specifici ambienti: *Fauna*, *Flora*, *Orientamento*, *Sopravvivenza*, *Tracce*.
+     Conoscenza del terreno deve essere acquistata individualmente per ognuna delle seguenti ambientazioni: Deserto, Foresta, Ghiaccio, Giungla, Grotta, Montagna, Oceano, Palude, Steppa, Terra coltivata.
+  selectOptions:
+    - id: 1
+      name: "Giungla"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+    - id: 2
+      name: "Ghiaccio"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+    - id: 3
+      name: "Montagna"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+    - id: 4
+      name: "Grotta"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+    - id: 5
+      name: "Terra coltivata"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+    - id: 6
+      name: "Oceano"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+    - id: 7
+      name: "Steppa"
+      src:
+        - id: REG001
+          firstPage: 219
+          lastPage: 220
+    - id: 8
+      name: "Palude"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+    - id: 9
+      name: "Foresta"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+    - id: 10
+      name: "Deserto"
+      src:
+        - id: REG001
+          firstPage: 216
+          lastPage: 216
+  prerequisites: "L’eroe deve aver vissuto almeno sei mesi in quello specifico ambiente."
+  src:
+    - id: REG001
+      firstPage: 216
+
+- id: SA_13
+  name: "Leggi delle gilde"
+  rules: |
+    L’eroe può usare la nuova applicazione *Leggi delle gilde* per la competenza *Leggi*.
+  src:
+    - id: REG001
+      firstPage: 217
+
+- id: SA_14
+  name: "Soffiatura del vetro"
+  rules: |
+    L’eroe sa fabbricare oggetti in vetro, come vasi e bottiglie, attraverso la tecnica della soffiatura. Da notare che ciò non garantisce la conoscenza della formula complessa per la produzione della materia prima: per questo è necessario un Segreto del mestiere (vedi il **Regolamento** a pag. **219**). Questa abilità speciale assicura l’uso della nuova applicazione *Soffiatura del vetro* per la competenza *Lavorazione della pietra*.
+  src:
+    - id: REG001
+      firstPage: 220
+
+- id: SA_15
+  name: "Ricettazione"
+  rules: |
+    L’eroe può usare la nuova applicazione *Ricettazione* per la competenza *Commerciare* e può rivendere la refurtiva attraverso i suoi contatti.
+  prerequisitesStart: "Conoscenza del luogo dove il maltolto dovrà essere rivenduto"
+  src:
+    - id: REG001
+      firstPage: 215
+
+- id: SA_16
+  name: "Araldica"
+  rules: |
+    L’eroe sa riconoscere gli stemmi e conosce bene le leggi araldiche.<br>
+    Riceve la nuova applicazione *Araldica* e genealogia per la competenza *Etichetta*.
+  src:
+    - id: REG001
+      firstPage: 215
+
+- id: SA_17
+  name: "Fabbricare strumenti musicali"
+  rules: |
+    L’eroe sa fabbricare strumenti come trombe, flauti, cornamuse, liuti, tamburi, campane e corni. Questa abilità speciale garantisce l’uso della nuova applicazione Fabbricare strumenti musicali per Lavorazione del legno e Lavorazione del metallo.
+  prerequisites: "La somma dei LA di Lavorazione del legno e Lavorazione del metallo deve ammontare ad almeno 12."
+  src:
+    - id: REG001
+      firstPage: 217
+
+- id: SA_18
+  name: "Cacciatore"
+  rules: |
+    Con questa abilità speciale, l’eroe ha più successo nella caccia e può acquisire 1 addizionale LQ di cibo nel caso usi *Fauna* per procurarsi il cibo.<br>
+     È il narratore a dover decidere se ci sia o meno abbastanza selvaggina nella zona.
+  prerequisitesStart: "Una tecnica di combattimento a distanza 10"
+  src:
+    - id: REG001
+      firstPage: 216
+
+- id: SA_19
+  name: "Cartografia"
+  rules: |
+    Questa abilità speciale permette all’eroe di disegnare mappe e garantisce l’uso della nuova applicazione *Cartografia* per la competenza *Geografia*.
+  src:
+    - id: REG001
+      firstPage: 216
+
+- id: SA_20
+  name: "Leggere le labbra"
+  rules: |
+    L’abilità speciale ti permette di usare la nuova applicazione *Leggere le labbra* per la competenza *Percezione*.
+  src:
+    - id: REG001
+      firstPage: 217
+
+- id: SA_21
+  name: "Virtuoso dell’improvvisazione"
+  rules: |
+    Ignora fino a 2 punti di penalità derivanti dall’uso di strumenti e materiali inadeguati nelle prove di abilità. Tutte le altre penalità continuano ad applicarsi. Ad esempio, un eroe che subisce una penalità di 3 su Lavorazione del metallo a causa della mancanza della strumentazione necessaria, può fare una prova con una penalità di 1.
+  src:
+    - id: REG001
+      firstPage: 220
+
+- id: SA_22
+  name: "Conoscenza del luogo"
+  nameInWiki: "Conoscenza del luogo (Luogo specifico)"
+  input: "Luogo"
+  rules: |
+    Conoscenza del luogo ti garantisce un bonus di 1 per le prove su *Vita da strada* e *Orientamento* nella specifica zona.<br>
+    Conoscenza del luogo deve essere acquistata separatamente per ogni zona: che sia un villaggio e i suoi dintorni, un piccolo paese, un quartiere di una città o persino una strada.
+  prerequisites: "Devi aver vissuto almeno 6 mesi in quel luogo o questo deve essere stato la meta di almeno una decina dei tuoi viaggi."
+  src:
+    - id: REG001
+      firstPage: 216
+
+- id: SA_23
+  name: "Contraffattore di cavalli"
+  rules: |
+    Con questa abilità speciale il personaggio sa come far sembrare cavalli, pony ed altri animali domestici più sani e giovani di quello che sono realmente. L’eroe guadagna l’uso della nuova applicazione *Contraffattore di cavalli* per la competenza *Commerciare*.<br>
+    Tira due volte nel caso di una prova su *Commerciare (Contrattare)* per vendere animali e mantieni il risultato migliore. Per scoprire questo genere di truffa, la vittima deve fare una prova competitiva su *Fauna (Animali domestici)* contro *Fauna (Animali domestici)* del contraffattore.
+  src:
+    - id: REG001
+      firstPage: 216
+
+- id: SA_24
+  name: "Raccoglitore"
+  rules: |
+    L’eroe avrà più successo nella ricerca di cibo. Usando *Flora* per raccogliere qualcosa di commestibile, guadagnerà 1 addizionale LQ di cibo. Sarà il narratore a decidere se ci sia o meno un numero sufficiente di piante commestibili nella zona.
+  src:
+    - id: REG001
+      firstPage: 219
+
+- id: SA_25
+  name: "Reprimere il dolore"
+  rules: |
+    Questa abilità speciale garantisce un nuovo uso per l’applicazione *Autocontrollo (Restare cosciente)*. Non appena subisce la condizione Dolore, l’eroe potrà effettuare una prova su *Autocontrollo (Restare cosciente)*. Se la prova viene superata, l’eroe potrà ignorare un livello di Dolore per ogni LQ ottenuto. Quei livelli di Dolore rimangono soppressi per l’intera durata di un combattimento (ma non per più di un’ora). L’eroe deve avere almeno un livello di Dolore per usare questa abilità speciale. L’uso di Reprimere il dolore è un’azione libera. Quando svanisce l’effetto, l’eroe riceve un livello di condizione Stordimento in aggiunta ai livelli precedentemente ignorati di Dolore.
+  src:
+    - id: REG001
+      firstPage: 219
+
+- id: SA_26
+  name: "Distillare"
+  rules: |
+    L’eroe sa distillare forti alcolici. Con questa abilità speciale, apprende la nuova applicazione *Distillare* per la competenza *Cucinare*.
+  src:
+    - id: REG001
+      firstPage: 217
+
+- id: SA_27
+  name: "Alfabetismo"
+  rules: |
+    L’eroe sa come leggere e scrivere la forma scritta di una specifica lingua (la cui conoscenza va appresa separatamente, vedi il **Regolamento** a pag. **218**). Alfabetismo deve essere acquistata separatamente per ogni scrittura.
+  selectOptions:
+    - id: 1
+      name: "Antico Alaani"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 2
+      name: "Pittogrammi Angram"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 3
+      name: "Chrmk"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 4
+      name: "Chuchas (Proto-Zelemja, Glifi di Yash-Hualay)"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 5
+      name: "Glifi sacri di Unau"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 6
+      name: "Rune Hjaldinghe"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 7
+      name: "Alfabeto imperiale"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 8
+      name: "Alfabeto Isdira e Asdharia"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 9
+      name: "Alfabeto di Kuslik"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 10
+      name: "Alfabeto Nanduria"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 11
+      name: "Rune Rogolan"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 12
+      name: "Rune Thorwaliane"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 13
+      name: "Ideogrammi spaziali trollici"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 14
+      name: "Alfabeto Tulamidya"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 15
+      name: "Alfabeto Proto-Tulamidya"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 16
+      name: "Alfabeto Zhayad"
+      src:
+        - id: REG001
+          firstPage: 224
+  apValue: "2/4/6/8 Punti Avventura per lingue scritte di livello A/B/C/D rispettivamente. Consulta la tabella a pag. 224 per una lista dei valori."
+  prerequisitesStart: "La Lingua corrispondente"
+  src:
+    - id: REG001
+      firstPage: 214
+
+- id: SA_28
+  name: "Scrittore"
+  rules: |
+    Puoi scegliere l’abilità speciale Scrittore per differenti aree: storie d’amore, poesie, scritti politici, gialli, saggi o fiabe e narrativa.<br>
+    Questa abilità speciale ti garantisce una delle seguenti nuove applicazioni: *Etichetta (Poesia)*, *Parlantina (Fiabe e narrativa)*, *Persuasione (Scritti politici)*, *Seduzione (Storie d’amore)*, *Vita da strada (Gialli)* oppure *Saggi* su una pertinente competenza conoscitiva.
+  selectOptions:
+    - id: 1
+      name: "Storie d’amore"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 2
+      name: "Poesia"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 3
+      name: "Scritti politici"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 4
+      name: "Gialli"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 5
+      name: "Fiabe"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 6
+      name: "Narrativa"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 7
+      name: "Saggi: Gioco"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 8
+      name: "Saggi: Geografia"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 9
+      name: "Saggi: Storia"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 10
+      name: "Saggi: Divinità e culti"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 11
+      name: "Saggi: Arte della guerra"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 12
+      name: "Saggi: Arti magiche"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 13
+      name: "Saggi: Meccanica"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 14
+      name: "Saggi: Matematica"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 15
+      name: "Saggi: Leggi"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 16
+      name: "Saggi: Miti e leggende"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 17
+      name: "Saggi: Sferologia"
+      src:
+        - id: REG001
+          firstPage: 219
+    - id: 18
+      name: "Saggi: Astronomia"
+      src:
+        - id: REG001
+          firstPage: 219
+  apValueAppend: per area
+  prerequisites: "Scrittura appropriata, *Lingua* III, competenze a seconda dell'area (*Etichetta* 4 per poesia, *Parlantina* 4 per narrativa, *Miti e leggende* 4 per fiabe, *Persuasione* 4 per scritti politici, *Seduzione* 4 per storie d'amore, *Vita da strada* 4 per gialli, una *appropriata competenza conoscitiva* 4 per saggi)."
+  src:
+    - id: REG001
+      firstPage: 219
+
+- id: SA_29
+  name: "Lingua"
+  rules: |
+    L’eroe parla la lingua al livello scelto. Per leggere e scrivere nella lingua in questione dovrà anche acquistare la relativa abilità speciale Alfabetismo (vedi il **Regolamento** a pag. **214**).
+  selectOptions:
+    - id: 1
+      name: "Alaani"
+      specializations:
+        - "Gajka"
+        - "Takellen"
+      src:
+        - id: REG001
+          firstPage: 222
+    - id: 2
+      name: "Angram"
+      src:
+        - id: REG001
+          firstPage: 222
+    - id: 3
+      name: "Asdharia"
+      specializations:
+        - "Shakagoran"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 4
+      name: "Atak"
+      specializations:
+        - "Tulamide"
+        - "Landoregno"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 5
+      name: "Aureliano"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 6
+      name: "Bosparano"
+      specializations:
+        - "Bosparano ecclesiastico"
+        - "Bosparano magico"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 7
+      name: "Fjarningo"
+      specializationInput: "Diversi dialetti tribali"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 8
+      name: "Garetiano"
+      specializations:
+        - "Aretya"
+        - "Horasiano"
+        - "Bornese"
+        - "Brabacico"
+        - "Maraskano"
+        - "Alberniano"
+        - "Andergastiano"
+        - "Carypsiano"
+        - "Gatamo"
+        - "Nostriaco"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 9
+      name: "Goblinesco"
+      specializationInput: "Diversi dialetti tribali"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 10
+      name: "Isdira"
+      specializationInput: "In base al popolo elfico"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 11
+      name: "Mohano"
+      specializationInput: "Diversi dialetti tribali"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 12
+      name: "Nujuka"
+      specializationInput: "Diversi dialetti tribali"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 13
+      name: "Ogherese"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 14
+      name: "Oloarkh"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 15
+      name: "Ologhaijan"
+      specializationInput: "Diversi dialetti tribali"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 16
+      name: "Corvico"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 17
+      name: "Rogolan"
+      specializationInput: "In base al popolo nanico"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 18
+      name: "Rssahh"
+      specializationInput: "In base al popolo lacertide"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 19
+      name: "Ruuz"
+      src:
+        - id: REG001
+          firstPage: 223
+    - id: 20
+      name: "Thorwaliano delle saghe"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 21
+      name: "Thorwaliano"
+      specializations:
+        - "Thorwal del nord"
+        - "Thorwal del sud"
+        - "Altopiano di Waskir"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 22
+      name: "Trollico"
+      specializationInput: "Diversi dialetti tribali"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 23
+      name: "Tulamidya"
+      specializations:
+        - "Araniano"
+        - "Novadi"
+        - "Tulamidya Maraskano"
+        - "Mhanadico-Balashidico"
+        - "Zahorico"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 24
+      name: "Proto-Tulamidya"
+      specializationInput: "In base alla regione"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 25
+      name: "Zelemja"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 26
+      name: "Zhayad"
+      src:
+        - id: REG001
+          firstPage: 224
+    - id: 27
+      name: "Ciclopese"
+      src:
+        - id: REG001
+          firstPage: 223
+  src:
+    - id: REG001
+      firstPage: 218
+
+- id: SA_699
+  name: "Specializzazione della lingua"
+  rules: |
+    Conoscere ed usare una Specializzazione della lingua garantisce all’eroe un bonus di 1 per *Parlantina (Affibbiare)*, fintanto che l’altra persona parli lo stesso dialetto. Il narratore decide se il bonus viene applicato. Un personaggio con un dialetto potrebbe subire una penalità di 1 in alcune situazioni, come nel caso di persone che hanno difficoltà a capire cosa viene detto.<br>
+    L’uso di questa regola opzionale rende il gioco un po’ più complesso.
+  prerequisites: "La relativa Lingua al livello III."
+  src:
+    - id: REG001
+      firstPage: 218
+
+- id: SA_30
+  name: "Imitazione versi animali"
+  rules: |
+    Questa abilità speciale garantisce all’eroe l’uso della nuova applicazione *Imitazione versi animali* per la competenza *Fauna*.
+  src:
+    - id: REG001
+      firstPage: 217
+
+- id: SA_31
+  name: "Ceramiche"
+  rules: |
+    L’eroe sa creare dei prodotti in ceramica. Con questa abilità speciale, l’eroe apprende la nuova applicazione *Ceramiche* per la competenza *Lavorazione della pietra*.
+  src:
+    - id: REG001
+      firstPage: 216
+
+- id: SA_32
+  name: "Meteorologia"
+  rules: |
+    Questa abilità speciale permette all’eroe di usare la nuova applicazione *Meteorologia* per la competenza *Sopravvivenza*. L’eroe può usare la competenza per prevedere il tempo.
+  src:
+    - id: REG001
+      firstPage: 218
+
+- id: SA_33
+  name: "Numerologia"
+  rules: |
+    Questa abilità speciale permette l’uso della nuova applicazione *Numerologia* per la competenza *Matematica*. L’eroe conosce i misteri dei numeri e riesce a leggere i loro messaggi segreti—o ad impressionare gli altri con questa capacità.
+  src:
+    - id: REG001
+      firstPage: 218
+
+- id: SA_34
+  name: "Migliora attacco"
+  rules: |
+    L’eroe può usare PFato per migliorare il risultato dei suoi tiri su Attacco.
+  src:
+    - id: REG001
+      firstPage: 222
+
+- id: SA_35
+  name: "Migliora schivata"
+  rules: |
+    L’eroe può usare PFato per migliorare il risultato dei suoi tiri su Schivata.
+  src:
+    - id: REG001
+      firstPage: 222
+
+- id: SA_36
+  name: "Migliora attributo"
+  rules: |
+    L’eroe può usare PFato per migliorare il risultato di un singolo dado su una prova di attributo.
+  src:
+    - id: REG001
+      firstPage: 222
+
+- id: SA_37
+  name: "Migliora combattimento a distanza"
+  rules: |
+    L’eroe può usare PFato per migliorare i risultati dei suoi tiri su Combattimento a Distanza.
+  src:
+    - id: REG001
+      firstPage: 222
+
+- id: SA_38
+  name: "Migliora parata"
+  rules: |
+    L’eroe può usare PFato per migliorare il risultato dei suoi tiri su Parata.
+  src:
+    - id: REG001
+      firstPage: 222
+
+- id: SA_39
+  name: "Allerta"
+  rules: |
+    Un eroe che soffre dello stato Sorpreso può usare un PFato per rimuoverlo immediatamente.
+  src:
+    - id: REG001
+      firstPage: 222
+
+- id: SA_40
+  name: "Vigilanza"
+  rules: |
+    Ricevi un bonus di 2 sulle prove di *Percezione (Imboscate)* per individuare i nemici prima di cadere in un’imboscata o per verificare eventuali sorprese.
+  src:
+    - id: REG001
+      firstPage: 250
+
+- id: SA_41
+  name: "Abitudine all’impiccio"
+  rules: |
+    Subisci penalità date dall’armatura come se ne indossassi una più leggera. Per ogni livello di Abitudine all’impiccio, usa le penalità per un'armatura più leggera di 2 incrementi sulla relativa tabella. Ad esempio, un personaggio con Abitudine all’impiccio II che indossi un’armatura a piastre soffrirà di penalità (su Imp, Mov e Ini) come se stesse indossando un corpetto imbottito o un gambeson (queste armature si trovano 4 gradini più verso l’alto rispetto all’armatura a piastre nella tabella dei tipi di armatura nel **Regolamento** a pag. **237**). La Protezione dell’armatura ovviamente rimane immutata.
+  src:
+    - id: REG001
+      firstPage: 246
+
+- id: SA_42
+  name: "Combattere a due mani"
+  rules: |
+    Riduci di 1 la penalità su Attacco e Parata data dall’uso di due armi per ogni livello di questa abilità speciale. Nota che il secondo livello riduce la penalità a 0. Maggiori dettagli sull’uso di due armi a pag. 238.
+  src:
+    - id: REG001
+      firstPage: 248
+
+- id: SA_43
+  name: "Combattere a cavallo"
+  rules: |
+    Puoi dare al tuo cavallo dei comandi speciali, come Travolgere e Caricare a cavallo (vedi il **Regolamento** a pag. **240**).
+  src:
+    - id: REG001
+      firstPage: 248
+
+- id: SA_44
+  name: "Tiro con l’arco a cavallo"
+  rules: |
+    I tiri non subiscono penalità quando il cavallo dell’arciere sta marciando. Se il cavallo sta galoppando, la penalità è ridotta a 4. Solo le frecce davvero fortunate colpiscono il loro obiettivo quando il cavallo va al trotto, il giocatore dovrà infatti ottenere 1 con 1D20 come di consueto (leggi il **Regolamento** a pag. **242**). Inoltre, questa abilità speciale permette all’arciere di tirare all’indietro mentre il cavallo è al galoppo.
+  src:
+    - id: REG001
+      firstPage: 250
+
+- id: SA_45
+  name: "Combattere a una mano"
+  rules: |
+    Ottieni +1 Att, +1 Par e +1 PImp quando combatti con una sola arma. Questi bonus non si applicano se usi una seconda arma, uno scudo, un’arma da parata o un qualsiasi altro oggetto in combattimento.
+  src:
+    - id: REG001
+      firstPage: 248
+
+- id: SA_46
+  name: "Disarmare"
+  rules: |
+    Per far cadere un’arma dalla mano del tuo avversario, fai un attacco con una penalità di 4 (6 contro armi a due mani). Il bersaglio può difendersi normalmente contro questo attacco. Se la difesa fallisce, il bersaglio lascia andare l’arma e l’attacco causa 1D3 PImp. Per recuperare l’arma, la vittima dovrà usare la regola per raccogliere gli oggetti durante un combattimento (leggi il **Regolamento** a pag. **239**). Questa abilità speciale non si applica agli scudi.
+  penalty: "-4/-6"
+  src:
+    - id: REG001
+      firstPage: 248
+
+- id: SA_47
+  name: "Percezione del nemico"
+  rules: |
+    Gli attacchi occasionali fatti contro un eroe che possiede questa abilità speciale subiscono una penalità aggiuntiva di 4.
+  src:
+    - id: REG001
+      firstPage: 249
+
+- id: SA_48
+  name: "Finta"
+  rules: |
+    Attacchi con una penalità pari al livello di questa abilità speciale. Se colpisci, la difesa dell’avversario subisce una penalità di 2 per ogni livello di questa abilità speciale.
+  penalty: "-1/-2/-3"
+  src:
+    - id: REG001
+      firstPage: 248
+
+- id: SA_49
+  name: "Costrizione"
+  rules: |
+    Puoi costringere solamente avversari di categoria di grandezza uguale o minore rispetto la tua. Questa mossa richiede una prova di successo su Mani nude. Un avversario che non riesce a difendersi viene bloccato ed otterrà gli stati di Bloccato e Costretto. Per scappare, l’avversario dovrà fare una prova di successo su *Prova di forza (Trascinare e spingere)*. Fintanto che blocchi il tuo avversario, non potrai difenderti poiché avrai entrambe le mani impegnate.
+  penalty: "0"
+  src:
+    - id: REG001
+      firstPage: 248
+
+- id: SA_50
+  name: "Colpo dirompente"
+  rules: |
+    Questo attacco subisce una penalità di 2, ma aggiungerai 1D6 ai PImp inflitti. Se questa manovra fallisce, il bersaglio può tentare un attacco occasionale contro di te.
+  penalty: "-2"
+  src:
+    - id: REG001
+      firstPage: 247
+
+- id: SA_51
+  name: "Prontezza di riflessi"
+  rules: |
+    Aumenta di 1 il tuo valore di base d’Iniziativa per ogni livello di questa abilità speciale.
+  src:
+    - id: REG001
+      firstPage: 249
+
+- id: SA_52
+  name: "Prendere il ferro"
+  rules: |
+    Aggiungi 1 al bonus che la tua arma da parata conferisce alla Parata con la tua arma principale.
+  src:
+    - id: REG001
+      firstPage: 249
+
+- id: SA_53
+  name: "Blocco incrociato"
+  rules: |
+    Avrai bisogno di questa abilità speciale per parare armi a catena, armi inastate, armi da impatto a due mani e spade a due mani usando pugnali e armi da scherma. Dovrai impugnare un’arma in entrambe le mani. Parando in questo modo, non subisci nessuna penalità per l’uso della mano non dominante.
+  src:
+    - id: REG001
+      firstPage: 247
+
+- id: SA_54
+  name: "Giostrare"
+  rules: |
+    Il comando Giostrare può essere dato soltanto quando il cavallo è al galoppo. Fai una prova su *Cavalcare (Manovra di combattimento)* e poi esegui un attacco con Lance (per far questo non c’è bisogno di una seconda azione perché è considerato parte della stessa manovra). Cavaliere e cavallo non riducono automaticamente la propria velocità dopo l’attacco.<br>
+    Giostrare non può essere parata con un’arma, ma può essere schivata o parata con uno scudo. Dopo un colpo andato a segno (o parato con uno scudo), l’attaccante lascia cadere la lancia per evitare che l’impatto lo sbalzi dalla sella. Se la manovra va a buon fine, aumenta i PImp generati di 2 più metà Mov del cavallo.<br>
+    Puoi trovare i valori per una lancia da battaglia nel **Regolamento** a pag. **367**.
+  src:
+    - id: REG001
+      firstPage: 248
+
+- id: SA_55
+  name: "Tiro preciso"
+  rules: |
+   Durante un attacco a distanza, subisci una penalità di 2 per ogni livello di questa abilità speciale. Se colpisci, aumenta i Punti Impatto di 2 punti per ogni livello di questa abilità speciale.
+  penalty: "-2/-4/-6"
+  src:
+    - id: REG001
+      firstPage: 250
+
+- id: SA_56
+  name: "Stoccata precisa"
+  rules: |
+    Il tuo attacco subisce una penalità di 2 per ogni livello di questa abilità speciale. Se colpisci, aumenta i Punti Impatto di 2 punti per ogni livello di questa abilità speciale.
+  penalty: "-2/-4/-6"
+  src:
+    - id: REG001
+      firstPage: 250
+
+- id: SA_57
+  name: "Riposte"
+  rules: |
+    Fai una Parata con una penalità di 2 e, se ha successo, tenta un attacco occasionale contro il tuo attaccante (vedi il **Regolamento** pag. **237**). Dovrai annunciare che intendi usare questa manovra prima dell’attacco dell’avversario. Dopo lo svolgimento di Riposte, non potrai effettuare ulteriori azioni di difesa in quel turno di combattimento. Non puoi unire l’uso di Riposte con una manovra di base.
+  penalty: "-2 (su Parata)."
+  src:
+    - id: REG001
+      firstPage: 249
+
+- id: SA_58
+  name: "Colpo a mulinello"
+  rules: |
+    Colpo a mulinello I ti permette di attaccare due nemici alla volta, mentre Colpo a mulinello II ti permette di attaccarne tre. Gli avversari possono difendersi da questo attacco individualmente. Il tuo primo attacco subisce una penalità di 2, il secondo di 6 ed il terzo una penalità di 10. Fai tiri separati per stabilire i PImp contro ogni nemico che fallisce la difesa.<br>
+    Se fallisci criticamente uno degli attacchi, tutti quelli rimanenti nel corrente turno di combattimento andranno persi.
+  penalty: "-2 (primo attacco); -6 (secondo); -10 (terzo)."
+  src:
+    - id: REG001
+      firstPage: 247
+
+- id: SA_59
+  name: "Sfasciascudo"
+  rules: |
+    Esegui un normale attacco, puntando direttamente lo scudo del tuo avversario. Egli potrà tentare di schivare l’attacco o di pararlo attivamente con lo scudo, ma in questo caso non si applicherà il bonus di raddoppiamento del modificatore di Parata garantito dallo scudo. Se la difesa dell’avversario fallisce, sottrai i Punti Impatto generati dalla tua arma dai Punti Struttura dello scudo avversario. Quando i punti dello scudo scendono a 0, sarà distrutto. Questa manovra speciale può essere usata solo contro avversari che stanno usando lo scudo. Puoi saperne di più sui Punti Struttura nel **Regolamento** a pag. **350**.
+  penalty: "+/- 0"
+  src:
+    - id: REG001
+      firstPage: 250
+
+- id: SA_60
+  name: "Ricarica rapida"
+  nameInWiki: "Ricarica rapida (Tecnica)"
+  rules: |
+    Il tempo per ricaricare gli archi e preparare le armi da lancio è ridotto di 1 azione. Ricaricare balestre richiede la metà del numero di azioni normalmente richieste. Questa abilità speciale dovrà essere acquistata individualmente per ogni diversa Tecnica di Combattimento (Archi, Balestre e Armi da lancio). Maggiori informazioni sulla ricarica nel **Regolamento** a pag. **245**.
+  selectOptions:
+    - id: 1
+      name: "Balestre"
+      src:
+        - id: REG001
+          firstPage: 249
+    - id: 2
+      name: "Archi"
+      src:
+        - id: REG001
+          firstPage: 249
+    - id: 3
+      name: "Armi da lancio"
+      src:
+        - id: REG001
+          firstPage: 249
+  src:
+    - id: REG001
+      firstPage: 249
+
+- id: SA_61
+  name: "Mano lesta"
+  rules: |
+    Avrai bisogno solo di una azione libera (e non di un’azione regolare) per estrarre un’arma.
+  src:
+    - id: REG001
+      firstPage: 249
+
+- id: SA_62
+  name: "Assalto"
+  rules: |
+    Assalto può essere usato solo quando hai una distanza da percorrere di almeno 4 passi ed un Mov di almeno 4. Lo spostamento per colmare la distanza è considerato parte dell’azione usata per attaccare. Il bersaglio può eseguire una normale Difesa. Se l’assalto ha successo, si aggiunge un bonus di 2 e la metà del punteggio di Mov al tiro dei PImp. Se l’assalto fallisce, l’avversario può compiere un attacco occasionale contro l’assalitore. Non è possibile combinare questa manovra speciale con la manovra di base Finta.
+  penalty: "-2"
+  src:
+    - id: REG001
+      firstPage: 246
+
+- id: SA_63
+  name: "Affondo letale"
+  rules: |
+    La prova di Attacco per Affondo letale subisce una penalità di 2, ma aggiungerai 1D6 al tiro per determinare i PImp del colpo. Se questa manovra fallisce, il bersaglio può tentare un attacco occasionale contro di te.
+  penalty: "-2"
+  src:
+    - id: REG001
+      firstPage: 246
+
+- id: SA_64
+  name: "Schivata felina"
+  rules: |
+    Ogni livello di questa abilità speciale aumenta di 1 la tua Schivata. Per sfruttare questa abilità speciale, non puoi indossare nulla che sia più pesante degli abiti normali (vedi la tabella del **Regolamento** a pag. **237**).
+  src:
+    - id: REG001
+      firstPage: 250
+
+- id: SA_65
+  name: "Postura difensiva"
+  rules: |
+    Aumenta il tuo valore difesa di 4 per il turno di combattimento corrente. Devi annunciare Postura difensiva all’inizio del turno di combattimento e non potrai effettuare altre azioni per quel turno
+  src:
+    - id: REG001
+      firstPage: 249
+
+- id: SA_66
+  name: "Avanzata"
+  rules: |
+    Aumenta il valore del tuo Attacco di 2 punti per il turno di combattimento corrente. Non puoi difenderti durante questo turno. L’uso di Avanzata deve essere annunciato all’inizio del turno. Avanzata non può essere usata avendo lo stato Atterrato.
+  src:
+    - id: REG001
+      firstPage: 247
+
+- id: SA_67
+  name: "Colpo possente"
+  rules: |
+    Il tuo attacco subisce una penalità di 2 per ogni livello di questa abilità speciale. Se colpisci, aggiungi 2 PImp per ogni livello di questa abilità speciale.
+  penalty: "-2/-4/-6"
+  src:
+    - id: REG001
+      firstPage: 247
+
+- id: SA_68
+  name: "Scaraventare"
+  rules: |
+    Per prima cosa dovrai costringere il tuo avversario (vedi Costrizione nel **Regolamento** a pag. **248**). Un avversario costretto guadagna lo stato di Bloccato e Costretto. Per scaraventare il nemico esegui un nuovo attacco usando Mani nude con una penalità di 2. Se va a buon fine ed il nemico non si difende, quest’ultimo verrà scaraventato a terra (ottenendo lo stato Atterrato). Il lancio causa 1D3 PImp, ma se la vittima che viene scaraventata finisce tra le fiamme o giù da una scogliera, beh… potrebbe farsi molto male (vedi il **Regolamento** pag. **340**).
+  penalty: "-2"
+  src:
+    - id: REG001
+      firstPage: 250
+
+- id: SA_69
+  name: "Gambe all’aria"
+  rules: |
+    Il tuo attacco subisce una penalità di 4 ed il tuo avversario può difendersi. Se il tuo attacco ha successo e la difesa del tuo avversario invece fallisce, egli finirà a terra ed otterrà la condizione di Atterrato. Questo attacco causa 1D3 PImp.
+  penalty: "-4"
+  src:
+    - id: REG001
+      firstPage: 248
+
+- id: SA_70
+  name: "Tradizione (Maghi di gilda)"
+  rules: |
+    - Un incantesimo della tradizione dei maghi di gilda richiede una linea di visuale libera verso il bersaglio, una specifica gestualità ed una formula magica intonata a gran voce ed in modo chiaro.
+    - I maghi di gilda possono scegliere un incantesimo da una tradizione estranea durante la creazione dell’eroe. Possono a quel punto lanciare l’incantesimo come se appartenesse alla loro tradizione. Tradurre in tal modo un incantesimo richiede però un grosso sforzo e può essere realizzato solo presso un’accademia.
+    - Gli incantesimi dei maghi di gilda possono essere scritti in tomi e pergamene di magia. I maghi possono poi apprenderli direttamente da questa risorsa scritta senza l’assistenza di un mentore.
+    - I maghi di gilda possono creare e usare degli speciali artefatti della tradizione (come i bastoni).
+    - L’attributo primario è Acume.
+  src:
+    - id: REG001
+      firstPage: 275
+
+- id: SA_255
+  name: "Tradizione (Streghe)"
+  rules: |
+    - Gli incantesimi nella tradizione delle streghe richiedono una linea di visuale libera verso il bersaglio. Formule e gestualità magiche sono molto discrete e passano generalmente inosservate.
+    - Le streghe devono avere il contatto con il terreno (ma non c’è bisogno che siano scalze, è permesso indossare scarpe stando in piedi sul terreno o sul pavimento). Il lancio di incantesimi subisce una penalità di 1 per ogni passo di distanza dal terreno, fino ad arrivare ad una penalità massima di 8. Se si trovano in presenza di grandi specchi d’acqua, la superficie conta come terreno. Edifici, torri e ponti contano anch’essi come terreni.
+    - Quando l’incantesimo di una strega fallisce, essa dovrà pagare un terzo del suo costo in PA (non la metà, come nel caso dei maghi).
+    - Quando le streghe percepiscono delle forti emozioni che si addicono all’incantesimo, ricevono un bonus di massimo 2 punti. Quando le loro sensazioni vengono represse artificialmente (con l’uso di olmoffo, ad esempio) o quando lanciano incantesimi in contraddizione alle loro sensazioni, subiscono una penalità di massimo 2 punti.
+    - Le streghe possono dare libero sfogo alle proprie emozioni per al più due turni di combattimento ed ottenere un bonus di 1 sulle prove, fino al massimo complessivo di 2. Questo richiede concentrazione ed una azione libera.
+    - Le streghe possono formare un legame con famigli, apprendere maledizioni e creare artefatti della loro tradizione (come ad esempio degli strumenti volanti).
+    - L’attributo primario è il Carisma.
+  src:
+    - id: REG001
+      firstPage: 278
+
+- id: SA_345
+  name: "Tradizione (Elfi)"
+  rules: |
+    - Gli incantesimi della tradizione elfica richiedono una gestualità magica e una visuale diretta sull’obiettivo. Gli incantesimi inoltre hanno una formula che deve essere enunciata o cantata da chi li lancia.
+    - Se lanciati da un elfo, gli incantesimi della tradizione elfica durano il doppio di quanto indicato nella loro descrizione.
+    - Gli elfi possono apprendere ed usare i canti magici elfici (tutti gli elfi soddisfano i relativi prerequisiti avendo il vantaggio Canto a due voci).
+    - L’attributo primario è Intuito.
+  src:
+    - id: REG001
+      firstPage: 283
+
+- id: SA_71
+  name: "Nascondi aura"
+  rules: |
+    Usando questa abilità, il talento magico dell’eroe resterà completamente nascosto da percezioni magiche indirette o passive. Nascondersi da tentativi diretti di svelare abilità magiche richiede invece una prova di successo su Forza di volontà. Il LQ ottenuto in questa prova indica la penalità che vale per tutte le prove su liturgie o incantesimi di chiaroveggenza lanciati allo scopo di rilevare la presenza del dono della magia. Nel momento in cui l’eroe è impegnato a tener segreta la propria aura, non potrà ovviamente né lanciare incantesimi né mantenerli in effetto. È possibile combinare questa abilità speciale con il vantaggio Aura occultata. Usare questa abilità speciale richiede 1 azione. L’effetto dell’abilità può essere interrotto volontariamente (anche questo richiede 1 azione), ma fa sì che l’utilizzatore subisca un livello della condizione Confusione. L’effetto svanisce automaticamente quando l’eroe si addormenta o riceve lo stato Incosciente.
+  src:
+    - id: REG001
+      firstPage: 284
+
+- id: SA_72
+  name: "Padronanza dell’aspetto"
+  rules: |
+    Padronanza dell’aspetto deve essere acquistata per un aspetto specifico (Condizionamento, Taumaturgia e così via). Soltanto possedendo la relativa abilità speciale Padronanza dell’aspetto sarà possibile migliorare un incantesimo di quell’aspetto oltre LA 14. Inoltre, l’abilità permette di usare variazioni su incantesimi di quell’aspetto e di tradizioni estranee. Per acquistare questa abilità speciale è necessario conoscere almeno 3 incantesimi del relativo aspetto con un LA di 10 o più e passare del tempo studiandone le particolarità (ad esempio, conducendo ricerche in un’accademia specializzata in quell’aspetto o trovando un maestro esperto).
+    Una volta acquistata la Padronanza dell’aspetto, non ci sono limitazioni particolari per il miglioramento degli incantesimi con quell’aspetto, fatta eccezione per il massimo stabilito per le abilità (leggi il **Regolamento** a pag. **352**).
+  selectOptions:
+    - id: 1
+      name: "Anti-magia"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 2
+      name: "Demoni"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 3
+      name: "Condizionamento"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 4
+      name: "Elementi"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 5
+      name: "Taumaturgia"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 6
+      name: "Chiaroveggenza"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 7
+      name: "Illusionismo"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 8
+      name: "Sfere"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 9
+      name: "Oggetti"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 10
+      name: "Telecinesi"
+      src:
+        - id: REG001
+          firstPage: 285
+    - id: 11
+      name: "Trasmutazione"
+      src:
+        - id: REG001
+          firstPage: 285
+  apValue: "10 Punti Avventura per la prima abilità speciale, 20 Punti Avventura per la seconda, 40 Punti Avventura per la terza."
+  prerequisitesEnd: "Attributo primario della tradizione a 15, 3 magie di quell’aspetto con LA 10 o maggiore."
+  src:
+    - id: REG001
+      firstPage: 285
+
+- id: SA_73
+  name: "Trucchetti formidabili"
+  rules: |
+    I tuoi trucchi hanno un LQ 2 anziché 1.
+  src:
+    - id: REG001
+      firstPage: 285
+
+- id: SA_74
+  name: "Varco proibito"
+  rules: |
+    Puoi consumare PV anziché PA per usare la magia (in un rapporto uno ad uno). Tuttavia devi comunque spendere almeno 1 PA per ogni incantesimo. Tale operazione è molto dolorosa e richiede una prova su Autocontrollo. Se la prova fallisce, fallisce anche l’incantesimo (e come per ogni incantesimo fallito, dovrai pagare la metà del costo normale). Se il numero di PA rimasti non copre il costo dell’incantesimo fallito, pagherai il rimanente in PV.
+  src:
+    - id: REG001
+      firstPage: 285
+
+- id: SA_75
+  name: "Simboli magici"
+  rules: |
+    Ricevi la nuova applicazione Simboli magici per la competenza Disegno e pittura. Per saperne di più su cerchi di protezione e di confino, leggi a pag. 266.
+  src:
+    - id: REG001
+      firstPage: 285
+
+- id: SA_76
+  name: "Vincolo del bastone"
+  effect: |
+    Questo è il primo incantamento che un mago lancia sul proprio bastone e serve a vincolare l’oggetto al suo proprietario in maniera permanente. In più, rende il bastone indistruttibile, nonostante il legno mantenga la sua naturale flessibilità. Solo un diretto incantesimo di anti-magia, un incantesimo IgnIfaxIus o un fuoco elementale che bruci più delle fiamme di un drago possono distruggerlo. Il bastone è un’arma magica che non può essere incantata ulteriormente con rituali come arcanovI. Un mago può possedere un solo bastone alla volta. Vincolare un bastone ha un costo una tantum di 2 PA permanenti. Il mago può decidere di spezzare il vincolo con il proprio bastone in modo da vincolarne uno nuovo. Dopo la morte del mago, il bastone perde tutta la sua energia astrale permanente e tutti gli incantamenti nell’arco di circa 24 ore.
+  volume: "0 Punti."
+  bindingCost: "2 PA permanenti."
+  src:
+    - id: REG001
+      firstPage: 277
+
+- id: SA_77
+  name: "Doppia misura"
+  effect: |
+    Il bastone può raddoppiare la sua lunghezza senza diminuire di spessore. L’effetto si può mantenere fintanto che il mago è in contatto col bastone. Questo incantamento trasforma un bastone corto in un’arma a raggio medio. Similmente, un bastone medio diventerà un’arma a raggio lungo (e richiederà la tecnica Armi inastate per essere utilizzato). Un bastone lungo si ingrandirà al punto da non poter essere più utilizzato come arma.
+  volume: "2 Punti."
+  aeCost: "1 PA."
+  src:
+    - id: REG001
+      firstPage: 277
+
+- id: SA_78
+  name: "Fiamma eterna"
+  effect: |
+    Puoi mandare in fiamme un’estremità del bastone con il solo pensiero. L’estremità brucerà come una torcia ed il fuoco sarà caldo e luminoso come quello di una fiamma naturale, anche se non consumerà il legno del bastone. Fiamma eterna non apporta alcun reale vantaggio nel combattimento . L’effetto svanisce automaticamente quando il mago si addormenta, se soffre lo stato Incosciente o al più dopo un’ora.
+  volume: "2 Punti."
+  aeCost: "1 PA."
+  src:
+    - id: REG001
+      firstPage: 277
+
+- id: SA_79
+  name: "Spada infuocata"
+  effect: |
+    Il bastone viene trasformato in un’arma infuocata, nella forma di una spada o—in alcune culture—di una scimitarra. La Spada infuocata è un’arma magica ed arreca ferite aggiuntive alle creature suscettibili al fuoco. Causa 1D6+7 PImp, ma, per il resto, si applicano tutti gli altri valori normali di una spada. Il bastone deve essere lungo almeno 1 passo per diventare una Spada infuocata.<br>
+    Puoi usare questa spada in due modi, come segue:
+
+    - Puoi impugnarla come una normale spada con la tecnica di combattimento Spade . Nel caso di un fallimento critico in Attacco e Parata, la spada torna ad essere un bastone. Questo uso costa 1 PA ogni turno dopo l’attivazione.
+    - Puoi farla volare e combattere usando la telecinesi. Userai la tecnica di combattimento Spade ed il tuo normale valore di Attacco per attaccare . La spada si muove con Movimento 8 e dovrai concentrarti per controllarla. Fare in modo che la Spada infuocata voli in modo coordinato richiede un’azione lunga (leggi il **Regolamento** a pag. **228**).
+
+    Se la spada si allontana da te di oltre 32 passi, l’effetto svanisce e la spada torna ad essere un bastone. Questa attivazione costa 2 PA ogni turno.<br>
+    Per afferrare e fermare una Spada infuocata volante, è necessaria una prova di Attacco su Mani nude e l’abilità speciale Costrizione (vedi il **Regolamento** a pag. **248**, la spada ha LA 10 su *Prova di forza* con 14 in tutti gli attributi ed una Par pari alla metà del suo Att).
+  volume: "7 Punti."
+  aeCost: "3 PA, poi 1 o 2 PA per ogni turno di combattimento."
+  src:
+    - id: REG001
+      firstPage: 277
+
+- id: SA_80
+  name: "Dedizione della forza"
+  effect: |
+    Fintanto che avrai il bastone in mano spenderai 1 PA in meno su ogni incantesimo. Applica questa riduzione dopo aver calcolato tutti gli altri modificatori. Non puoi ridurre il costo al di sotto di 1 PA. Quando il bastone è in azione con Spada infuocata, Fiamma eterna o è trasformato in qualsiasi altra cosa diversa dal bastone del mago, non si risparmierà alcun PA. Per usare questo incantamento devi tenere il bastone in mano.
+  volume: "6 Punti."
+  src:
+    - id: REG001
+      firstPage: 276
+
+- id: SA_81
+  name: "Dedizione dell’aspetto"
+  effect: |
+    Scegli un aspetto magico quando questo incantamento viene infuso nel bastone. Le prove per gli incantesimi di quel particolare aspetto riceveranno un bonus di 1. È possibile infondere più di una Dedizione dell’aspetto (per aspetti diversi) nello stesso bastone. Quando il bastone viene trasformato, ad esempio con Spada infuocata, Fiamma eterna e così via, gli effetti di questo incantamento non si applicano e non sarà possibile ricevere alcun bonus sulle prove. Per beneficiare di questo incantamento devi tenere il bastone in mano.
+  selectOptions:
+    - id: 1
+      name: "Anti-magia"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 2
+      name: "Demoni"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 3
+      name: "Condizionamento"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 4
+      name: "Elementi"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 5
+      name: "Taumaturgia"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 6
+      name: "Chiaroveggenza"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 7
+      name: "Illusionismo"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 8
+      name: "Sfere"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 9
+      name: "Oggetti"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 10
+      name: "Telecinesi"
+      src:
+        - id: REG001
+          firstPage: 276
+    - id: 11
+      name: "Trasmutazione"
+      src:
+        - id: REG001
+          firstPage: 276
+  volume: "8 Punti."
+  property: "A scelta."
+  prerequisitesEnd: "Dedizione della forza e la relativa abilità speciale Padronanza dell’aspetto."
+  src:
+    - id: REG001
+      firstPage: 276
+
+- id: SA_82
+  name: "Corda dell’adepto"
+  effect: |
+    Puoi trasformare il bastone in una corda lunga 10 passi. Quando viene lanciata, la corda si arrotola intorno agli oggetti. Fintanto che mantieni il contatto con la corda, puoi fare e slegare nodi con il pensiero, usando 1 azione per ogni mossa. Puoi usare questo effetto per legare bersagli che sono già nello stato Immobilizzato. Se lasci andare la corda, essa si ritrasformerà in bastone.
+  volume: "2 Punti."
+  aeCost: "1 PA."
+  src:
+    - id: REG001
+      firstPage: 276
+
+- id: SA_83
+  name: "Riporto del bastone"
+  effect: |
+    Puoi chiamare il bastone e lui magicamente giungerà da te. Esso volerà con un Movimento pari a 15, scegliendo la più breve via possibile e schivando eventuali ostacoli. Il bastone può spaccare finestre, ma può essere fermato da pareti di legno o pietra solida. Non hai bisogno di vedere il tuo bastone per usare questo incantamento.
+  volume: "3 Punti."
+  aeCost: "1 PA."
+  src:
+    - id: REG001
+      firstPage: 277
+
+- id: SA_84
+  name: "Legame del famiglio"
+  rules: |
+    Le streghe possono usare questa abilità speciale per creare una forte connessione emotiva e magica con un famiglio. Se acquistato durante la creazione dell’eroina, una strega può iniziare il gioco con un famiglio vincolato. In alcuni casi, anche gli utilizzatori di magia di altre tradizioni possono vincolare famigli. Il narratore ha l’ultima parola a riguardo.
+  prerequisites: "Tradizione (Streghe), ma eventualmente applicabile anche ad altre tradizioni."
+  src:
+    - id: REG001
+      firstPage: 278
+
+- id: SA_85
+  name: "Balsamo levitante"
+  rules: |
+    Questa abilità speciale permette alla strega di preparare il balsamo levitante durante l’annuale notte delle streghe assieme ad altre streghe e di fare uso degli oggetti impregnati con esso. Il balsamo levitante trasforma un oggetto di legno grande al più come un tavolo in un oggetto volante che può essere controllato per un anno. Il balsamo levitante non cambia la forma, la stabilità o il peso dell’oggetto, il quale può essere controllato soltanto dalla strega che lo ha scelto e che ha applicato il balsamo. Ogni strega riceve la quantità di balsamo sufficiente per un solo strumento volante e dovrà farne uso durante la congrega delle streghe di quella stessa notte. Le streghe che smarriscono il loro strumento volante dovranno attendere la successiva congrega per rimpiazzarlo.
+  src:
+    - id: REG001
+      firstPage: 281
+
+- id: SA_86
+  name: "Tradizione (Chiesa di Praios)"
+  rules: |
+    - Quando viene usata la magia contro gli iniziati di Praios, il loro Animo aumenta di 1.
+    - Gli iniziati di Praios ricevono un bonus di 2 (anziché di 1) per la variazione liturgica Forzare.
+    - Gli iniziati di Praios devono aderire al codice morale della loro chiesa (vedi sopra). È dunque obbligatorio acquisire lo svantaggio Integrità se si vuole interpretare un iniziato della chiesa di Praios.
+    - Competenze gradite: Etichetta, Forza di volontà, Intimidazione, Perspicacia, Persuasione, Orientamento, Arti magiche, Divinità e culti, Leggi, Sferologia.
+    - L’attributo primario è Acume.
+  src:
+    - id: REG001
+      firstPage: 317
+
+- id: SA_682
+  name: "Tradizione (Chiesa di Rondra)"
+  rules: |
+    - Non temo nulla! Gli eroi con questa tradizione ignorano gli effetti di un livello di Paura, subendo invece quelli del livello appena inferiore. Ad esempio, un iniziato di Rondra con tre livelli di Paura subisce gli effetti del secondo livello, con un solo livello non subisce effetti. Raggiunto il 4° livello resta comunque incapacitato.
+    - Gli iniziati ricevono un nuovo uso per Autocontrollo (Restare coscienti), come segue: gli iniziati di Rondra incapacitati da una condizione possono ancora mettere in atto un attacco o una difesa ogni turno di combattimento se una prova su Autocontrollo (Restare coscienti) ha successo.
+    - Gli iniziati di Rondra devono aderire al codice morale della loro chiesa (vedi sopra). Dovrai acquisire lo svantaggio Integrità se vorrai interpretare un iniziato della chiesa di Rondra.
+    - Competenze gradite: Tutte le tecniche di combattimento corpo a corpo, Autocontrollo, Cavalcare, Controllo del corpo, Prova di forza, Arte della guerra, Divinità e culti.
+    - L’attributo primario è Coraggio.
+  src:
+    - id: REG001
+      firstPage: 318
+
+- id: SA_683
+  name: "Tradizione (Chiesa di Boron)"
+  rules: |
+    - Abituato all’oscurità: Ignora gli effetti di un livello di modificatori della visibilità al buio (con livello 2 si subiranno gli effetti di livello 1, con un livello non si subiranno effetti). Ricorda che l’iniziato continuerà a non vedere nella totale oscurità.
+    - Le armi consacrate da Boron infliggono il doppio dei Punti Impatto contro avversari non-morti (determina prima i PImp e poi sottrai Pro).
+    - Gli iniziati di Boron devono aderire al codice morale della loro Chiesa (vedi a destra). Dovrai acquisire lo svantaggio Integrità se vorrai interpretare un iniziato della chiesa di Boron.
+    - Competenze gradite: Astronomia, Autocontrollo, Bisbocciare, Curare anime, Curare ferite, Curare malattie, Curare veleni, Divinità e culti, Forza di volontà, Furtività, Intimidazione, Perspicacia, Sferologia.
+    - L’attributo primario è Coraggio.
+  src:
+    - id: REG001
+      firstPage: 318
+
+- id: SA_684
+  name: "Tradizione (Chiesa di Hesinde)"
+  rules: |
+    - Gli iniziati di Hesinde ricevono un bonus di 1 per le prove su Percezione (Avvertire).
+    - Mente lucida: L’iniziato ignora gli effetti di un livello di Confusione, subendo invece quelli del livello appena inferiore. Ad esempio, un iniziato di Hesinde con tre livelli di Confusione subisce gli effetti del secondo livello, con un solo livello non subisce effetti. Raggiunto il 4° livello resta comunque incapacitato.
+    - Gli iniziati di Hesinde devono aderire al codice morale della loro chiesa (vedi a sinistra). Dovrai acquisire lo svantaggio Integrità se vorrai interpretare un iniziato della chiesa di Hesinde.
+    - Competenze gradite: Percezione, Forza di volontà, Persuasione, Fauna, Flora, Arti magiche, Astronomia, Divinità e culti, Geografia, Leggi, Matematica, Meccanica, Miti e leggende, Sferologia, Storia, Alchimia.
+    - L’attributo primario è Acume.
+  src:
+    - id: REG001
+      firstPage: 319
+
+- id: SA_685
+  name: "Tradizione (Chiesa di Phex)"
+  rules: |
+    - Quando usa i Punti Fato per ritentare una prova (non importa quanti dadi sta ritirando), l’iniziato può mantenere il risultato migliore.
+    - Le cerimonie hanno la forma di una contrattazione con Phex. Gli iniziati ricevono +1 sulla prova qualora spendano 5 Talleri d’argento per ogni classe di miglioramento della cerimonia (5 Talleri per una cerimonia con CM A, 10 per CM B, e così via).
+    - Gli iniziati di Phex devono aderire al codice morale della loro chiesa (vedi sopra). Dovrai acquisire lo svantaggio Integrità se vorrai interpretare un iniziato della chiesa di Phex.
+    - Competenze gradite: Arrampicarsi, Astronomia, Borseggiare, Camuffamento, Commerciare, Divinità e culti, Furtività, Gioco, Giocoleria, Leggi, Matematica, Parlantina, Percezione, Scassinare, Vita da strada.
+    - L’attributo primario è Intuito.
+  src:
+    - id: REG001
+      firstPage: 320
+
+- id: SA_686
+  name: "Tradizione (Chiesa di Peraine)"
+  rules: |
+    - Se un iniziato di Peraine esegue una benedIzIone della guarIgIone, l’ammalato riceve 2 PV anziché 1.
+    - Resistenza alla malattia: anche se una prova di malattia contro un iniziato dovesse avere successo, la malattia segue sempre il decorso minore. Se la prova fallisce, l’iniziato non contrae la malattia.
+    - Gli iniziati di Peraine devono aderire al codice morale della loro Chiesa (vedi sopra). Dovrai acquisire lo svantaggio Integrità se vorrai interpretare un iniziato della chiesa di Peraine.
+    - Competenze gradite: Bisbocciare, Forza di volontà, Perspicacia, Persuasione, Fauna, Flora, Pescare, Divinità e culti, Miti e leggende, Curare anime, Curare ferite, Curare malattie, Curare veleni.
+    - L’attributo primario è Intuito.
+  src:
+    - id: REG001
+      firstPage: 320
+
+- id: SA_87
+  name: "Dominio dell’aspetto"
+  rules: |
+    Gli iniziati con questa abilità speciale ottengono una comprensione più approfondita di un determinato aspetto del loro culto. Puoi acquistare Dominio dell’aspetto per un aspetto in particolare (vedi il **Regolamento** a pag. **306**) o scegliere quello generale, che si applica alle liturgie indicate con aspetto ‘generale’.<br>
+    Solo con questa abilità speciale potrai migliorare le relative liturgie oltre LA 14.<br>
+    Dopo aver acquistato Dominio dell’aspetto, il miglioramento delle liturgie è limitato soltanto dal valore massimo per le abilità, lo stesso valido anche per le competenze (leggi il **Regolamento** a pag. **352**).
+  selectOptions:
+    - id: 1
+      name: "Generale"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 2
+      name: "Anti-magia"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 3
+      name: "Ordine"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 4
+      name: "Scudo"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 5
+      name: "Tempesta"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 6
+      name: "Morte"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 7
+      name: "Sogno"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 8
+      name: "Magia"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 9
+      name: "Sapienza"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 10
+      name: "Commercio"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 11
+      name: "Ombra"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 12
+      name: "Guarigione"
+      src:
+        - id: REG001
+          firstPage: 321
+    - id: 13
+      name: "Agricoltura"
+      src:
+        - id: REG001
+          firstPage: 321
+  apValue: "15 Punti Avventura per il primo Dominio dell’aspetto, 25 Punti Avventura per il secondo e 45 Punti Avventura per il terzo."
+  prerequisitesEnd: "Attributo primario della tradizione 15, tre liturgie o cerimonie dell’aspetto in questione con LA 10."
+  src:
+    - id: REG001
+      firstPage: 321
+
+- id: SA_88
+  name: "Concentrazione"
+  rules: |
+    Con questa abilità speciale distrarre l’eroe concentrato nel lanciare liturgie o cerimonie sarà un’ardua impresa. Le prove su Autocontrollo (Ignorare distrazione) ricevono un bonus di 1.
+  src:
+    - id: REG001
+      firstPage: 321
+
+- id: SA_89
+  name: "Forza della fede"
+  rules: |
+    L’iniziato resta fermo, invoca la propria divinità e si concentra. Fintanto che egli resterà immobile e concentrato, i demoni minori non potranno toccarlo né attaccarlo direttamente.
+  src:
+    - id: REG001
+      firstPage: 321
+
+- id: SA_90
+  name: "Benedizioni portentose"
+  rules: |
+    Le benedizioni dell’iniziato sono particolarmente efficaci, per cui ottengono un LQ 2 anziché 1.
+  src:
+    - id: REG001
+      firstPage: 321
+
+- id: SA_91
+  name: "Cerchio contro spiriti elementali"
+  aeCost: "4 PA."
+  protectiveCircle: |
+    Elementali e spiriti minori non possono entrare nel cerchio.
+  wardingCircle: |
+    Il primo elementale che si avvicina entro 7 passi dal cerchio verrà risucchiato al suo interno e non potrà lasciarlo per la durata del cerchio.
+  src:
+    - id: REG001
+      firstPage: 266
+
+- id: SA_92
+  name: "Cerchio contro geni"
+  aeCost: "8 PA."
+  protectiveCircle: |
+    Il genio non può entrare nel cerchio.
+  wardingCircle: |
+    Il primo genio che si avvicina entro 7 passi dal cerchio verrà risucchiato al suo interno e non potrà lasciarlo per la durata del cerchio.
+  src:
+    - id: REG001
+      firstPage: 266
+
+- id: SA_93
+  name: "Cerchio contro demoni minori"
+  aeCost: "4 AE"
+  protectiveCircle: |
+    I demoni minori non possono entrare nel cerchio.
+  wardingCircle: |
+    Il primo demone minore che si avvicina entro 7 passi dal cerchio verrà risucchiato al suo interno e non potrà lasciarlo per la durata del cerchio.
+  src:
+    - id: REG001
+      firstPage: 266
+
+- id: SA_94
+  name: "Cerchio contro demoni cornuti"
+  aeCost: "8 PA."
+  protectiveCircle: |
+    I demoni con un numero di corna fino a 5 non possono entrare nel cerchio.
+  wardingCircle: |
+    Il primo demone con un numero di corna fino a 5 che si avvicina entro 7 passi dal cerchio verrà risucchiato al suo interno e non potrà lasciarlo per la durata del cerchio.
+  src:
+    - id: REG001
+      firstPage: 266

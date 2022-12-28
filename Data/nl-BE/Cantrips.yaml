@@ -1,0 +1,131 @@
+- id: CANTRIP_1
+  name: "Afkoelen"
+  effect: |
+    De tovenaar laat de temperatuur van een kleine hoeveelheid vloeistof (maximaal een volle beker) met 10 graden zakken.
+  range: "Aanraking"
+  duration: "Onmiddellijk"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 286
+
+- id: CANTRIP_2
+  name: "Buikspreken"
+  effect: |
+    Eén enkel woord of een kort, niet al te luid geluid naar keuze weerklinkt, hoorbaar tot op een afstand van 8 pas van de tovenaar.
+  range: "8 pas"
+  duration: "1 Actie"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 286
+
+- id: CANTRIP_3
+  name: "Zweem"
+  effect: |
+    De tovenaar ruikt ongeveer 5 minuten naar een parfum of een andere geur die hij aangenaam vindt.
+  range: "Zichzelf"
+  duration: "5 minuten"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 287
+
+- id: CANTRIP_4
+  name: "Vuurvinger"
+  effect: |
+    Er ontspringt een kleine vlam, zo’n halfvinger boven de vinger van de tovenaar. Ze brandt tot 5 minuten. De Tovertruc beschermt de hand voor de hitte van de vlam.
+  range: "Zichzelf"
+  duration: "5 minuten"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 287
+
+- id: CANTRIP_5
+  name: "Geluksgreep"
+  effect: |
+    De tovenaar kan gericht, uit een grote hoeveelheid objecten, het gewenste object eruit halen. Hij kan uit een stapel speelkaarten een welbepaalde kaart trekken, uit een buidel een gewenste munt of uit eens leutelbos de juiste sleutel kiezen. Hiervoor moet hij het gewenste voorwerp kennen en dit moet ook werkelijk ter plaatse beschikbaar zijn.
+  range: "Zichzelf"
+  duration: "Onmiddellijk"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 286
+
+- id: CANTRIP_6
+  name: "Handwarmer"
+  effect: |
+    Zolang het in de hand wordt gehouden, houdt deze Tovertruc de temperatuur van een maximaal vuistgroot object constant. En dit tot 5 minuten lang.
+  range: "Aanraking"
+  duration: "5 minuten"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 286
+
+- id: CANTRIP_7
+  name: "Lokroep"
+  effect: |
+    Een klein dier (eekhoorn, duif) komt uit nieuwsgierigheid naar de tovenaar. De werking duurt 5 minuten.
+  range: "4 pas"
+  duration: "5 minuten"
+  target: "Dieren"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 286
+
+- id: CANTRIP_8
+  name: "Regenboogogen"
+  effect: |
+    De kleur van de ogen van de tovenaar verandert gedurende 5 minuten. Onnatuurlijke kleuren zijn mogelijk.
+  range: "Zichzelf"
+  duration: "5 minuten"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 287
+
+- id: CANTRIP_9
+  name: "Slangenhanden"
+  effect: |
+    De hand- en vingerbeenderen van de tovenaar worden heel flexibel, zodat ze door nauwe openingen kunnen worden geperst. De werking duurt 5 minuten.
+  range: "Zichzelf"
+  duration: "5 minuten"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 287
+
+- id: CANTRIP_10
+  name: "Vingerknip"
+  effect: |
+    Vingerknip is een korte telekinetische ontlading met een Reikwijdte van 4 pas, die bijvoorbeeld een munt van een tafel kan vegen. Ze is niet sterk genoeg om een glazen fles te breken, maar wel om een oorvijg te geven.
+  range: "4 pas"
+  duration: "Onmiddellijk"
+  target: "Object en Wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 287
+
+- id: CANTRIP_11
+  name: "Signatuur"
+  effect: |
+    Op een levenloos object naar keuze van de tovenaar verschijnt permanent een teken, een symbool of een glief. De tovenaar moet het object aanraken. Het symbool ziet eruit alsof het geschilderd werd en kan weggeveegd worden. Met behulp van deze Truc kan maar één teken tegelijk worden gecreëerd (bv. een pictogram).
+  range: "Aanraking"
+  duration: "Onmiddellijk"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 287
+
+- id: CANTRIP_12
+  name: "Droog"
+  effect: |
+    De tovenaar en zijn kleding zijn gedurende zo’n 5 minuten beschermd tegen regen, sneeuw, enz. Natte kledij kan door de Truc niet worden gedroogd.
+  range: "Zichzelf"
+  duration: "5 minuten"
+  target: "Object en Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 286

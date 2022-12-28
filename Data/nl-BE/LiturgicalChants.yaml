@@ -1,0 +1,727 @@
+- id: LITURGY_1
+  name: "Ban der duisternis"
+  effect: |
+    Uit de hand van de gewijde straalt een helder licht. Regeltechnisch geldt het licht als zonlicht.
+
+    - **KwG 1:** Het licht heeft de helderheid van een kaars.
+    - **KwG 2:** Het licht heeft de helderheid van een fakkel.
+    - **KwG 3:** Het licht heeft de helderheid van een kampvuur.
+    - **KwG 4:** Het licht is helder genoeg om een ruimte van 5 maal 5 pas te verlichten.
+    - **KwG 5:** Het licht is helder genoeg om een grote zaal te verlichten.
+    - **KwG 6:** Het licht is verblindend. Het is amper mogelijk om ernaar te kijken.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  kpCost: "4 KaP (Activatie) + 2 KaP per minuut"
+  kpCostShort: "4 KaP + 2 KaP per min "
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Liturgie aanhouden"
+  durationShort: "(A)"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 324
+
+- id: LITURGY_2
+  name: "Ban der angst"
+  effect: |
+    Met deze Liturgie wordt per KwG een graad van de Toestand *Angst* opgeheven.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 324
+
+- id: LITURGY_3
+  name: "Ban des lichts"
+  effect: |
+    Rondom de gewijde vormt er zich een bol uit duisternis met een diameter van KwG x3 pas. Per KwG wordt de zichtbaarheid met één graad verzwaard. Natuurlijke en magische lichtbronnen geven geen licht in de duisternis. Bij karmale lichtbronnen beslist de hogere KwG (zoals bij een Vergelijkingsproef) of het licht al dan niet zichtbaar is. Hier is het alles of niets: het licht wordt niet met de KwG gedimd, maar de hogere KwG beslist of het licht zichtbaar is of niet. Voor de gewijde wordt de zichtbaarheid door de Liturgie niet verzwaard. De gewijde moet voor de uitvoering van de Liturgie beslissen of de zone van duisternis ter plaatse blijft of zal meebewegen met hem als centraal punt.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "16 KaP (Activatie) + 8 KaP per 5 minuten"
+  kpCostShort: "16 KaP + 8 KaP per 5 min"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Liturgie aanhouden"
+  durationShort: "(A)"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 324
+
+- id: LITURGY_4
+  name: "Verblindende straal"
+  effect: |
+    De getroffene wordt verblind. Hij krijgt een graad van de Toestand *Verwarring*.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  kpCost: "4 KaP"
+  kpCostShort: "4 KaP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG Gevechtsrondes"
+  durationShort: "KwG GvR"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 330
+
+- id: LITURGY_5
+  name: "Rondra’s Eer"
+  effect: |
+    In dit geval betekent ‘eervol’ dat de getroffene zich aan de Code van de gewijde houdt. Dit kan, afhankelijk van interpretatie en cultuur, betekenen dat de getroffene bij Blunders van de tegenstander afziet van verdere aanvallen, niet in de rug aanvalt, de tegenstrever de kans biedt een verloren wapen weer ter hand te nemen, afziet van wapengiffen, enz.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 328
+      lastPage: 329
+
+- id: LITURGY_6
+  name: "Ontcijfering"
+  effect: |
+    De hoeveelheid tekst hangt af van de KwG. Voor elke KwG kan hij vijf bladzijden in normale schriftgrootte van een boekdeel ontcijferen.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  kpCost: "4 KaP"
+  kpCostShort: "4 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 328
+
+- id: LITURGY_7
+  name: "Bemoediging"
+  effect: |
+    Het doelwit wordt zelfverzekerder en moediger. Afhankelijk van de KwG krijgt hij verschillende bonussen. De bonussen zijn cumulatief, d.w.z. dat bij KwG 3 het doelwit in totaal +2 MO en +1 AV krijgt.
+
+    - **KwG 1:** +1 MO
+    - **KwG 2:** +1 AV
+    - **KwG 3:** +1 MO
+    - **KwG 4:** +1 AV
+    - **KwG 5:** +1 MO
+    - **KwG 6:** +1 ZK
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppend, Bovennatuurlijke wezens "
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 324
+
+- id: LITURGY_8
+  name: "Val in het niets"
+  effect: |
+    Voor elke KwG mag de gewijde 3 pas valschade negeren.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 Gevechtsrondes"
+  durationShort: "KwG x 3 GvR"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 330
+
+- id: LITURGY_9
+  name: "Vredige aura"
+  effect: |
+    Om de gewijde aan te vallen, is een Proef van de tegenstander op *Wilskracht (Bedreigingen het hoofd bieden)* nodig, waarbij hij meer KwG moet halen dan de gewijde. Als deze Proef mislukt, dan kan de aanval niet worden uitgevoerd. Slaagt ze wel, dan wordt de aanval tegen de gewijde nog met de KwG van de Liturgie verzwaard. De werking van de Liturgie heeft alleen maar betrekking op de gewijde. Tijdens de werking van de Liturgie kan de gewijde geen Aanvallen (Melee, Afstandsgevecht) of andere offensieve handelingen tegen zijn vijanden uitvoeren, maar wel zijn strijdmakkers met handelingen ondersteunen.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 Gevechtsrondes"
+  durationShort: "KwG x 3 GvR"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 330
+      lastPage: 331
+
+- id: LITURGY_10
+  name: "Gifban"
+  effect: |
+    De Gifban neutraliseert een gif. De maximale gifgraad mag niet hoger zijn dan de KwG. Anders werkt de Liturgie niet en geldt als mislukt.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "2 KaP per Gifgraad"
+  kpCostShort: "2 KaP per GG"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 325
+
+- id: LITURGY_11
+  name: "Goddelijke vingerwijzing"
+  effect: |
+    Voorwaarde is dat zo’n voorwerp zich überhaupt binnen de Reikwijdte bevindt. Dit kan bv. een verstopte sleutel voor een kist, een stuk perkament met richtlijnen of een noodzakelijk provisorisch werktuig zijn. Als het voorwerp verborgen is door magie of karmale invloeden, dan kan de gewijde het Object niet met behulp van deze Liturgie ontdekken. Het voorwerp mag maximaal KwG pas van de gewijde verwijderd zijn.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 325
+
+- id: LITURGY_12
+  name: "Goddelijk teken"
+  effect: |
+    Het teken uit zich door bijvoorbeeld een rollende donder, hoewel er geen wolkje aan de lucht is (Rondra), het gesnater van een ooievaar (Peraine) of een korte stilte (Boron).<br>
+    Binnen de zone van de Liturgie kunnen personen het Goddelijke teken waarnemen. De radius van de zone bedraagt KwG x 10 pas.<br>
+    Bij Proeven op *Bekeren & Overtuigen* kan de meester een bonus van +1 verlenen als de gewijde het teken betrekt bij de toepassing van het Talent.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "4 KaP"
+  kpCostShort: "4 KaP"
+  range: "4 pas"
+  rangeShort: "4 m"
+  duration: "KwG x 3 Gevechtsrondes"
+  durationShort: "KwG x 3 GvR"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 325
+
+- id: LITURGY_13
+  name: "Heelzegen"
+  effect: |
+    Het doelwit krijgt binnen de 5 minuten na de uitvoering van de Liturgie hetzelfde aantal verloren LeP terug als het aantal ingezette KaP. De gewijde kan maximaal zoveel KaP inzetten als hij VaP heeft. Als de Liturgie gestart wordt voor de afloop van de door de Constitutie bepaalde periode voor de dood is ingetreden, dan kan hij worden gered. Als de Liturgie echter wordt onderbroken, dan leeft de patiënt alleen nog de resterende Gevechtsrondes
+  castingTime: "16 Acties"
+  castingTimeShort: "16 Act"
+  kpCost: "1 KaP per LeP, maar met een minimum van 4 KaP"
+  kpCostShort: "1 KaP per LeP (4+)"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Cultuurscheppend, Bovennatuurlijke wezens "
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 326
+
+- id: LITURGY_14
+  name: "Kleine ban tegen ondoden"
+  effect: |
+    De ban veroorzaakt 2D6+(KwG x 2) SP tegen een ondood wezen. De ban raakt automatisch. Het doelwit kan zich niet verdedigen.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  kpCost: "4 KaP"
+  kpCostShort: "4 KaP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Ondoden"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 326
+
+- id: LITURGY_15
+  name: "Kleine banstraal"
+  effect: |
+    De Banstraal richt bij een demon 2D6+(KwG x 2) SP aan. Tegen demonen uit het domein van Blakharaz wordt de schade verdubbeld. De banstraal raakt automatisch. Het doelwit kan zich niet verdedigen. De Kleine Banstraal is niet afhankelijk van het feit of de hemel al dan niet te zien is. De straal ontstaat direct bij de demon waartegen de straal ingezet wordt.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "16 pas"
+  rangeShort: "16 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Dämonen"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 326
+
+- id: LITURGY_16
+  name: "Ziekteban"
+  effect: |
+    Deze Liturgie geneest ziekten (de tot nu toe opgelopen effecten worden niet genezen). De maximale ziektegraad mag niet hoger zijn dan de KwG, anders werkt de Liturgie niet en geldt als mislukt. De Liturgie geneest ook alle ziektesymptomen, maar niet de tot dusver opgelopen schade (LeP-verlies, littekens, enz.).
+  castingTime: "16 Acties"
+  castingTimeShort: "16 Act"
+  kpCost: "2 KaP per ziektegraad"
+  kpCostShort: "2 KaP per ZG"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 331
+
+- id: LITURGY_17
+  name: "Geluidloos"
+  effect: |
+    Proeven op *Verbergen (Sluipen)* worden met de KwG vereenvoudigd.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "4 KaP (Activatie) + 2 KaP per minuut"
+  kpCostShort: "4 KaP + 2 KaP per min "
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Liturgie aanhouden"
+  durationShort: "(A)"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 325
+
+- id: LITURGY_18
+  name: "Bescherming tegen magie"
+  effect: |
+    De gewijde krijgt een bonus van KwG – 1 op ZK en WS tegen magische effecten. Bij KwG 1 (normaal 1–1=0) krijgt hij toch een bonus van 1.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "8 KaP (Activatie) + 4 KaP per 10 minuten"
+  kpCostShort: "8 KaP + 4 KaP per 10 min "
+  range: "Zichzelf "
+  rangeShort: "Zichzelf "
+  duration: "Liturgie aanhouden"
+  durationShort: "(A)"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 325
+
+- id: LITURGY_19
+  name: "Magiezicht"
+  effect: |
+    Met deze Liturgie kan de gewijde actieve magische werking op voorwerpen en personen herkennen. Naargelang de kracht van de astrale krachten in het Object kan de Proef verlicht of verzwaard worden. Afhankelijk van de KwG kan de daaropvolgende analyse met de Spreuk <span class="name--spell">Analys</span> of passende Liturgieën worden beïnvloed. De gewijde kan slechts één uitgekozen wezen of object binnen de Reikwijdte onderzoeken. Andere voorwerpen in de omgeving worden niet beïnvloed door de Liturgie.
+
+    - **KwG 1:** Is er magie aanwezig of niet?
+    - **KwG 2:** De maximale KwG bij de Magische analyse stijgt met 1.
+    - **KwG 3:** De Vaardigheidsproef van een <span class="name--spell">Analys</span> op hetzelfde object is met 1 verlicht.
+    - **KwG 4:** De Vaardigheidsproef van een <span class="name--spell">Analys Arcaanstructuur</span> of een soortgelijke Liturgie op hetzelfde object is met 2 verlicht.
+    - **KwG 5:** De maximale KwG bij de Magische analyse stijgt met 2.
+    - **KwG 6:** De Vaardigheidsproef van een <span class="name--spell">Analys Arcaanstructuur</span> of een soortgelijke Liturgie op hetzelfde object is met 3 verlicht.
+
+    Noch de bonussen voor de maximale KwG bij de Magische analyse zijn cumulatief, noch de Vereenvoudigingen bij een <span class="name--spell">Analys</span>. Wie dus een KwG 4 heeft behaald bij een <span class="name--chant">Magiezicht</span>, krijgt geen Vereenvoudiging van 3 (1 door KwG 3 + 2 door KwG 4), maar alleen één van 2. Wel krijgt de held de hoogste bonussen van beide verbeteringsmogelijkheden. Een held met KwG 6 verkrijgt dus een Verlichting van 3 op de volgende <span class="name--spell">Analys</span> (door KwG 6) en de maximale KwG bij de Magische analyse is met 2 verhoogd (door KwG 5). Meer over **Magische analyse** (Bladzijde **269**) en over <span class="name--spell">Analys arcaanstructuur</span> (Bladzijde **287**).
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  kpCost: "4 KaP"
+  kpCostShort: "4 KaP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "1 minuut"
+  durationShort: "1 min"
+  target: "Levende wezens, Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 327
+
+- id: LITURGY_20
+  name: "Maanzicht"
+  effect: |
+    Verzwaringen op de zichtbaarheid wegens duisternis worden met KwG –1 graden verlaagd. Bij KwG 1 (normaal 1–1=0) krijgt hij toch een bonus van 1. Bij volledige duisternis helpt deze Liturgie helemaal niet.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "2 KaP (Activatie) + 1 KaP per 10 minuten"
+  kpCostShort: "2 KaP + 1 KaP per 10 min "
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "Liturgie aanhouden"
+  durationShort: "(A)"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 326
+      lastPage: 327
+
+- id: LITURGY_21
+  name: "Maanzilvertong"
+  effect: |
+    De gewijde komt betrouwbaar over. Hij krijgt een bonus van KwG op de Vaardigheden *Overhalen* en *Handel (Afdingen)*.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 327
+
+- id: LITURGY_22
+  name: "Objectzegen"
+  effect: |
+    Met deze Liturgie worden de voor religieuze diensten benodigde materialen (Zalfolie van een Borongewijde, het Zaaigoed van een Perainegewijde of het Sterrenstof van een Phexgewijde) gezegend. Het voorwerp telt niet als gewijd, maar enkel als gezegend.
+  castingTime: "4 Acties"
+  castingTimeShort: "4 Act"
+  kpCost: "4 KaP"
+  kpCostShort: "4 KaP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "KwG x 3 uur"
+  durationShort: "KwG x 3 h"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 328
+
+- id: LITURGY_23
+  name: "Oord van rust"
+  effect: |
+    Binnen de zone worden geluiden gedempt. De radius van de zone bedraagt KwG x3 pas. Proeven op *Zintuigen (Waarnemen)* om zachte geluiden zoals fluisteren te horen, zijn binnen de zone met KwG verzwaard. De zone blijft ter plaatse. Geluiden die vanuit de zone komen blijven gedempt. Geluiden die de zone indringen worden gedempt.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  kpCost: "4 KaP"
+  kpCostShort: "4 KaP"
+  range: "4 pas"
+  rangeShort: "4 m"
+  duration: "KwG x 3 uur"
+  durationShort: "KwG x 3 h"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 328
+
+- id: LITURGY_24
+  name: "Plantengroei"
+  effect: |
+    De Liturgie laat een plant met maximaal de grootte van een struik bovennatuurlijk snel groeien. Per KwG groeit de plant 30% sneller dan normaal.
+  castingTime: "16 Acties"
+  castingTimeShort: "16 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "1 jaar"
+  durationShort: "1 jaar"
+  target: "Planten"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 328
+
+- id: LITURGY_25
+  name: "Ravenroep"
+  effect: |
+    De gewijde roept tot KwG x 3 raven binnen een radius van KwG x 3 mijl naar zich toe. De vogels gedragen zich tam tegenover hem. De gewijde kan een raaf gebruiken om een klein voorwerp zoals een ring te vervoeren binnen een maximaal bereik van KwG x 3 mijl. De raaf vindt zijn bestemming in principe automatisch. Er kunnen maximaal slechts zoveel raven naar de gewijde vliegen als er zich binnen de Reikwijdte van de Liturgie bevinden.
+  castingTime: "16 Acties"
+  castingTimeShort: "16 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "QS x 3 in mijlen"
+  rangeShort: "QS x 3 km"
+  duration: "KwG x 3 uur"
+  durationShort: "KwG x 3 h"
+  target: "Dieren"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 328
+
+- id: LITURGY_26
+  name: "Slaap"
+  effect: |
+    De gewijde verdooft de getroffene. Als deze door de Liturgie Verdoving graad IV bereikt, dan valt hij in slaap en kan hij voor het einde van de Werkingsduur slechts met veel lawaai, een krachtige por of iets dergelijks worden gewekt. Anders slaapt hij ongestoord verder, totdat hij op natuurlijke wijze ontwaakt.
+
+    - **KwG 1:** 1 Graad *Verdoving*, maar slechts voor 1 minuut
+    - **KwG 2:** 1 Graad *Verdoving*
+    - **KwG 3:** 2 Graden *Verdoving*
+    - **KwG 4:** 3 Graden *Verdoving*
+    - **KwG 5:** 4 Graden *Verdoving*
+    - **KwG 6:** 4 Graden *Verdoving*, de dubbele Werkingsduur
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 329
+
+- id: LITURGY_27
+  name: "Slangenstaf"
+  effect: |
+    De slang beschermt de gewijde met de tot haar ter beschikking staande middelen en volgt hem. Sterft de slang, dan verandert ze terug in het object. De slang wordt beschouwd als gezegend (zoals door een objectzegen).
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "4 pas"
+  rangeShort: "4 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 329
+      lastPage: 330
+
+- id: LITURGY_28
+  name: "Slangentong"
+  effect: |
+    Voor toeschouwers klinkt dit als sissende geluiden. Bij het uitspelen van zo’n gesprek moet je voor ogen houden dat slangen een dierlijk verstand hebben, en de wereld anders waarnemen dan mensen.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "4 pas"
+  rangeShort: "4 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Dieren (Slangen)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 330
+
+- id: LITURGY_29
+  name: "Pijnverweer"
+  effect: |
+    Alle effecten van de graden van de Toestand *Pijn* kunnen worden genegeerd tot aan graad IV (vanaf graad IV wordt de gewijde getroffen door het normale effect van de Toestand).
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 Gevechtsrondes"
+  durationShort: "KwG x 3 GvR"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 328
+
+- id: LITURGY_30
+  name: "Bescherming der weerlozen"
+  effect: |
+    De gewijde kan een vechter, die een weerloos of onbeschermd iemand aanvalt of wil aanvallen, uitdagen. De uitgedaagde laat zijn slachtoffer voor wat het is en valt in plaats daarvan de Rondragewijde aan.
+  castingTime: "1 Actie"
+  castingTimeShort: "1 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "16 pas"
+  rangeShort: "16 m"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 325
+
+- id: LITURGY_31
+  name: "Sterrenglans"
+  effect: |
+    Het voorwerp kan zo een met KwG x 10% hogere prijs behalen. Wantrouwige kopers kunnen dit bedrog doorzien als ze slagen in een succesvolle Vergelijkingsproef op *Zintuigen (Zoeken)* verzwaard met KwG + 2.
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "8 pas"
+  rangeShort: "8 m"
+  duration: "KwG x 15 minuten"
+  durationShort: "KwG x 15 min"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 330
+
+- id: LITURGY_32
+  name: "Waarheid"
+  effect: |
+    De getroffene moet de gewijde (en alleen hem) waarheidsgetrouw op alle vragen antwoorden, zolang de Werkingsduur van de Liturgie aanhoudt. Het doelwit van de Liturgie beseft wat hij verteld heeft.
+  castingTime: "8 Acties"
+  castingTimeShort: "8 Act"
+  kpCost: "16 KaP"
+  kpCostShort: "16 KaP"
+  range: "Aanraking"
+  rangeShort: "Aanraking"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 331
+
+- id: LITURGY_33
+  name: "Vlug als water"
+  effect: |
+    De gewijde wordt leniger en sneller. Naargelang de KwG krijgt hij verschillende bonussen. De bonussen zijn cumulatief, dus bij KwG 5 heeft de gewijde in totaal BE +3, SN +1 en OW +1. Door de verhoging van de BE kunnen ook de schadedrempels van gevechtstechnieken met BE overschreden worden. De gewijde kan zo met bepaalde wapens meer schade toebrengen.
+
+    - **1 KwG:** +1 BE
+    - **2 KwG:** +1 SN
+    - **3 KwG:** +1 BE
+    - **4 KwG:** +1 GW
+    - **5 KwG:** +1 BE
+    - **6 KwG:** +1 SN
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 minuten"
+  durationShort: "KwG x 3 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 330
+
+- id: LITURGY_34
+  name: "Wonderbaarlijke talenkennis"
+  effect: |
+    De gewijde krijgt een graad in de taal die hij momenteel nodig heeft om te communiceren. Het is niet nodig dat de gewijde al ooit iets van de taal heeft gehoord of gelezen.
+
+    - **1–2 KwG:** Taalgraad I
+    - **3–4 KwG:** Taalgraad II
+    - **5–6 KwG:** Taalgraad III
+  castingTime: "2 Acties"
+  castingTimeShort: "2 Act"
+  kpCost: "8 KaP"
+  kpCostShort: "8 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 uur"
+  durationShort: "KwG x 3 h"
+  target: "Levende wezens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 331
+
+- id: LITURGY_35
+  name: "Akkerzegen"
+  effect: |
+    De gewijde wandelt over het pas ingezaaide veld en zegent het zaaigoed. De werking van de zegen ontplooit zich over een gebied van KwG x 1.000 vierkante pas (de gewijde mag niet verder van het centrum van het gebied verwijderd zijn dan de Reikwijdte van de Liturgie bedraagt). De gewassen zijn minder vatbaar voor ziekten en ongedierte terwijl alle andere planten op het veld tijdens hun groeiproces worden geremd. De zegen beschermt het gewas echter niet tegen droogte, overstromingen of hagel.
+  castingTime: "2 uur"
+  castingTimeShort: "2 h"
+  kpCost: "16 KaP"
+  kpCostShort: "16 KaP"
+  range: "Zicht"
+  rangeShort: "Zicht"
+  duration: "Eén groeicyclus (tussen 6 en 12 maanden)"
+  durationShort: "6–12 mo"
+  target: "Planten"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 331
+
+- id: LITURGY_36
+  name: "Exorcisme"
+  effect: |
+    Via een Exorcisme worden demonen en geesten uitgedreven die bezit hebben genomen van een levend wezen. Slaagt het Exorcisme, dan wordt de demon of de geest uit het lichaam verdreven en terug naar de Nederhellen of naar het Dodenrijk verbannen.
+  castingTime: "8 uur"
+  castingTimeShort: "8 h"
+  kpCost: "32 KaP"
+  kpCostShort: "32 KaP"
+  range: "4 pas"
+  rangeShort: "4 m"
+  duration: "Onmiddellijk"
+  durationShort: "Onmiddellijk"
+  target: "Demonen, geesten"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 331
+
+- id: LITURGY_37
+  name: "Gewijd pantser"
+  effect: |
+    De wapenrusting van de gewijde geldt als Gewijd. Als een demon de gewijde aanvalt, veroorzaken succesvolle aanvallen van de demon 1D3 SP bij hemzelf, omdat hij daarvoor de gewijde of diens wapenrusting moet aanraken.
+  castingTime: "30 minuten"
+  castingTimeShort: "30 min"
+  kpCost: "16 KaP"
+  kpCostShort: "16 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 15 minuten"
+  durationShort: "KwG x 15 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 331
+      lastPage: 332
+
+- id: LITURGY_38
+  name: "Leeuwengedaante"
+  effect: |
+    De gewijde verandert in een leeuw. De kleding verandert niet mee. In zijn leeuwengedaante behoudt de gewijde zijn Mentale eigenschappen en krijgt de Fysieke eigenschappen en bekwaamheden van een leeuw. Bovendien kan hij KwG x 2 bijkomende punten verdelen over de Fysieke eigenschappen van de leeuw. In de leeuwengedaante beheerst de gewijde geen bovennatuurlijke vaardigheden zoals Spreuken en Liturgieën en wordt hij beschouwd als gezegend.
+  castingTime: "30 minuten"
+  castingTimeShort: "30 min"
+  kpCost: "16 KaP"
+  kpCostShort: "16 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 3 uur"
+  durationShort: "KwG x 3 h"
+  target: "Levende wezens (enkel de gewijde zelf)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 332
+
+- id: LITURGY_39
+  name: "Nevellichaam"
+  effect: |
+    Het lichaam van de Phexgewijde verandert in nevel. Zijn kleren en voorwerpen die hij op zijn lichaam droeg, veranderen niet mee. Profane, magische en gewijde wapens richten geen schade aan tegen de nevel. Spreuken met het Kenmerk Transformatie kunnen niet worden gebruikt tegen de nevel. De gewijde kan zich bij relatieve windstilte vrijwillig voortbewegen met SN 4; bij een lichte tegenwind moet hij slagen in een Proef op *Wilskracht* om niet weg te drijven. Bij een sterke tegenwind wordt hij echter met de windrichting mee geblazen zonder daar iets tegen te kunnen ondernemen. De gewijde kan zijn omgeving waarnemen met alle vijf zijn zintuigen. De gewijde blijft zolang in nevelvorm tot de werkingsduur voorbij is.
+  castingTime: "30 minuten"
+  castingTimeShort: "30 min"
+  kpCost: "16 KaP"
+  kpCostShort: "16 KaP"
+  range: "Zichzelf"
+  rangeShort: "Zichzelf"
+  duration: "KwG x 10 minuten"
+  durationShort: "KwG x 10 min"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 332
+
+- id: LITURGY_40
+  name: "Objectwijding"
+  effect: |
+    Het object, normaal gezien een liturgisch voorwerp of een ritueel wapen zoals een Zonnescepter of een Rondrakam, wordt gewijd. Hierdoor wordt het doordrongen van de karmale krachten van de Godheid. Daarom worden gewoonlijk alleen specifieke, de Godheid behagende, voorwerpen gewijd en enkel aan ware gelovigen overhandigd. Als het gewijde object een wapen is, dan geldt het nu als een gewijd wapen. Het object mag maximaal 4 steen wegen. Voor elke KwG mag het object 1 steen zwaarder wegen. De <span class="name--chant">Objectwijding</span> wordt vooral gebruikt voor de gewijde Ravenbek der Boroni, de Zonnescepter der Praioten en de Rondrakam van de Rondriaanse gemeenschap.
+  castingTime: "2 uren"
+  castingTimeShort: "2 h"
+  kpCost: "16 KaP, waarvan 2 permanent"
+  kpCostShort: "16 KaP (2 pKaP)"
+  range: "4 pas"
+  rangeShort: "4 m"
+  duration: "Permanent"
+  durationShort: "Permanent"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 333

@@ -1,0 +1,119 @@
+- id: SPELL_52
+  name: "Eat Gravel!"
+  effect: |
+    Solid food touched by the target turns to stone or another inedible substance named by the witch when casting the curse. Common substances are wood, fog, or slime. It is not possible to turn food into precious metals or other valuables. The substance turns back into food after 5 minutes, as long as the target does not touch it again. Trying to eat with a funnel or tongs can lead to suffocation as stones become lodged in the throat. This curse has no effect on soup, milk, or other liquids.
+  aeCost: "14 AE"
+  aeCostShort: "14 AE"
+  duration: "QL x 3 in days"
+  durationShort: "QL x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_53
+  name: "Prey!"
+  effect: |
+    The target’s scent attracts all manner of carnivorous animals, which view the target as easy prey. Domesticated animals can be calmed with an *Animal Lore* check with a penalty equal to the curse’s SP, but wild animals cannot be dissuaded. This smell, which only animals can perceive, is so strong that wild animals can detect the target from several miles away.
+  aeCost: "14 AE"
+  aeCostShort: "14 AE"
+  duration: "QL x 3 in days"
+  durationShort: "QL x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_54
+  name: "Hail Storm"
+  effect: |
+    A severe hail storm strikes an area of QL x 20,000 square yards. Depending on the region, it could be a blizzard or sand storm instead. Such storms ruin harvests, tear the roofs off of houses, and cause 2D6 points of damage per 5 minutes to unprotected animals and persons.
+  aeCost: "21 AE"
+  aeCostShort: "21 AE"
+  duration: "QL x 15 in minutes"
+  durationShort: "QL x 15 min"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_55
+  name: "Lumbago"
+  effect: |
+    The target suffers sudden, intense pain in the back or head (witch’s choice). The target receives a level of the condition *Pain*.
+  aeCost: "14 AE"
+  aeCostShort: "14 AE"
+  duration: "QL x 3 in hours"
+  durationShort: "QL x 3 h"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_56
+  name: "Bad Luck"
+  effect: |
+    Targets botch on a result of 19 or 20, not just on a 20. For skill checks, two results of 19 or higher are a botch. In addition, targets tend to break objects, stumble over obstacles, forget appointments, or say rude or inappropriate things. The GM has the final say.
+  aeCost: "7 AE"
+  aeCostShort: "7 AE"
+  duration: "QL x 3 in days"
+  durationShort: "QL x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 281
+
+- id: SPELL_57
+  name: "Pestilence"
+  effect: |
+    The target contracts a disease that is known to the witch. The disease’s Level cannot be higher than the curse’s SR. After infection, the disease runs its normal course, but is no longer contagious. You cannot choose to inflict a magical disease such as Duglum’s Plague.
+  aeCost: "Disease level in AE"
+  aeCostShort: "KS AE"
+  duration: "While the disease runs its course, but no more than QL x 3 in days."
+  durationShort: "Disease/QL x 3 d "
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_58
+  name: "Steal Sleep"
+  effect: |
+    The target cannot sleep. If sleep does come for a few moments, nightmares wake the target at once. It is not possible to benefit from Regeneration Phases while suffering from this curse. The target behaves like other people who have been kept awake for a long time— namely, becoming agitated and irritable—and begins to hallucinate after a few days (the target suffers a level of *confusion* every two days without sleep; this state fades when the target gets some normal sleep again).
+  aeCost: "14 AE"
+  aeCostShort: "14 AE"
+  duration: "QL x 3 in days"
+  durationShort: "QL x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_59
+  name: "Barrenness"
+  effect: |
+    The target, whether a person or an animal, becomes infertile for the duration of the spell.
+  aeCost: "14 AE"
+  aeCostShort: "14 AE"
+  duration: "QL x 3 in weeks"
+  durationShort: "QL x 3 weeks"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_60
+  name: "Grow Warts"
+  effect: |
+    Thick warts grow on the target’s face and hands over the course of several minutes. The advantage *Good Looks* is negated for the duration, and the cursed person suffers one level of the disadvantage *Ugly*.
+  aeCost: "7 AE"
+  aeCostShort: "7 AE"
+  duration: "QL x 3 in days"
+  durationShort: "QL x 3 d"
+  src:
+    - id: US25001E
+      firstPage: 282
+
+- id: SPELL_61
+  name: "Paralyze Tongue"
+  effect: |
+    This curse numbs the target’s tongue and lips so they cannot articulate any speech for the duration of the spell. This curse has a negative effect on casting spells. The cursed person also drools and suffers the disadvantage *Mute* (see **Core Rules** page **173**).
+  aeCost: "14 AE"
+  aeCostShort: "14 AE"
+  duration: "QL x 3 in hours"
+  durationShort: "QL x 3 h"
+  src:
+    - id: US25001E
+      firstPage: 282

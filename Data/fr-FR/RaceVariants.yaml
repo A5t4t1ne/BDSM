@@ -1,0 +1,39 @@
+- id: RV_1
+  name: "Midlandais"
+
+- id: RV_2
+  name: "Nivèse"
+  commonAdvantages: "résistance au froid, sens des distances"
+  commonDisadvantages: "sensibilité à la chaleur"
+
+- id: RV_3
+  name: "Norbard"
+
+- id: RV_4
+  name: "Thorvalois"
+  commonAdvantages: "coriace, grande ténacité physique"
+  commonDisadvantages: "faible ténacité mentale, rage sanguinaire"
+
+- id: RV_5
+  name: "Tulamide"
+  commonAdvantages: "résistance à la chaleur"
+  commonDisadvantages: "sensibilité au froid"
+
+- id: RV_6
+  name: "Homme des jungles"
+  commonAdvantages: "fragrance agréable, immunité contre la difar vive et la sueur de Brabak, immunité contre le wurara, résistance à la chaleur"
+  commonDisadvantages: "sensibilité au froid"
+
+- id: RV_7
+  name: "Utulus"
+  commonAdvantages: "fragrance agréable, immunité contre la difar vive et la sueur de Brabak, immunité contre le wurara, résistance à la chaleur"
+  commonDisadvantages: "sensibilité au froid"
+
+- id: RV_8
+  name: "Elfe des Prairies"
+
+- id: RV_9
+  name: "Elfe des Névés"
+
+- id: RV_10
+  name: "Elfe des Bois"

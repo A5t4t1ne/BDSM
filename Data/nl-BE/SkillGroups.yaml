@@ -1,0 +1,19 @@
+- id: 1
+  name: "Lichaam"
+  fullName: "Lichaamstalenten"
+
+- id: 2
+  name: "Sociaal"
+  fullName: "Sociale talenten"
+
+- id: 3
+  name: "Natuur"
+  fullName: "Natuurtalenten"
+
+- id: 4
+  name: "Kennis"
+  fullName: "Kennistalenten"
+
+- id: 5
+  name: "Ambacht"
+  fullName: "Ambachtstalenten"

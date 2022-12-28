@@ -1,0 +1,44 @@
+- id: R_1
+  name: "Umani"
+  attributeAdjustments: "Un attributo a piacimento +1."
+  src:
+    - id: REG001
+      firstPage: 89
+
+- id: R_2
+  name: "Elfi"
+  attributeAdjustments: "INT e AGI +1; ACU o FOR -2."
+  automaticAdvantages: "Dono della magia, Canto a due voci (comporta un consumo di 30 PAvv per vantaggi)."
+  stronglyRecommendedAdvantages: "Buiovisione I,  Senza età, Veglia."
+  stronglyRecommendedDisadvantages: "Incompetenza (Bisbocciare), Olfatto sensibile."
+  commonAdvantages: "Ambidestrismo, Attitudine (Cantare, Musica), Avvenenza, Buiovisione II, Contorsionismo, Immunità a (Licantropia, Rabbia, Rabbia nera), Resistenza ai veleni, Resistenza alle malattie, Rigenerazione astrale accelerata, Scattante, Senso dell’orientamento, Senso eccezionale (Udito o Vista), Voce incantevole."
+  commonDisadvantages: "Nome vero, Perseguitato da spiriti minori, Vincolo dei capelli."
+  uncommonAdvantages: "Fiuto nanico, Impassibilità alla magia, Resistenza al caldo."
+  uncommonDisadvantages: "Cecità notturna, Corpulenza, Furia sanguinaria, Senso carente."
+  src:
+    - id: REG001
+      firstPage: 91
+
+- id: R_3
+  name: "Mezzelfi"
+  attributeAdjustments: "Un attributo a piacimento +1."
+  commonAdvantages: "Ambidestrismo, Attitudine (Cantare, Musica), Avvenenza, Buiovisione I, Canto a due voci, Contorsionismo, Dono della magia, Scattante, Senso eccezionale (Udito o Vista), Voce incantevole."
+  commonDisadvantages: "Nome vero, Olfatto sensibile."
+  uncommonAdvantages: "Fiuto nanico, Impassibilità alla magia."
+  uncommonDisadvantages: "Corpulenza, Furia sanguinaria, Suscettibilità alle malattie."
+  src:
+    - id: REG001
+      firstPage: 92
+
+- id: R_4
+  name: "Nani"
+  attributeAdjustments: "COS e FOR +1; CAR o AGI -2."
+  stronglyRecommendedAdvantages: "Buiovisione I, Immunità a Tulmadron"
+  stronglyRecommendedDisadvantages: "Incompetenza (Nuotare)"
+  commonAdvantages: "Buiovisione II, Elevata tenacia, Fiuto nanico, Impassibilità alla magia, Osso duro, Resistenza al caldo, Resistenza alle malattie, Senso dell’orientamento."
+  commonDisadvantages: "Furia sanguinaria."
+  uncommonAdvantages: "Contorsionismo, Dono della magia, Voce incantevole."
+  uncommonDisadvantages: "Animo debole, Arrendevolezza, Cecità notturna, Gracilità, Suscettibilità al caldo."
+  src:
+    - id: REG001
+      firstPage: 94

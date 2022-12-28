@@ -1,0 +1,549 @@
+- id: ADV_0
+  name: "Voordeel op maat"
+  rules: |
+    *Een plaats voor voordelen op maat, waarvan de naam en AP van kan worden gekozen.*
+  input: "Naam van het Voordeel"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 1
+
+- id: ADV_1
+  name: "Adel"
+  rules: |
+    De held heeft aanzien, geniet van adellijke privileges en kan verlichtingen toegekend krijgen als hij tegenover iemand lager in rang handelt. Meer details hierover kan je terugvinden op bladzijde **338**.
+  prerequisites: "De Cultuur moet over een adelstand beschikken"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 163
+      lastPage: 164
+
+- id: ADV_2
+  name: "Ouderdomsresistent"
+  rules: |
+    De held is immuun voor natuurlijke alsook magische ouderdomsverschijnselen. Negatieve leeftijdseffecten worden bij hem niet toegepast.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 167
+
+- id: ADV_3
+  name: "Aangename geur"
+  rules: |
+    Vaardigheidsproeven op *Verleiden (Flirten, Minnekunst)* zijn met 1 verlicht.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 163
+
+- id: ADV_4
+  name: "Aanleg"
+  rules: |
+    Een avonturier met een Aanleg kan bij  elke Proef op een bepaalde Vaardigheid 1D20 herrollen. De speler rolt met 3D20 en kan dan één van de drie resul- taten uitkiezen die hij opnieuw rolt.<br>
+    Het betere resultaat van beide worpen geldt. Aanleg moet voor elke Vaardigheid individueel worden gekozen, dus bijvoorbeeld voor een bepaald Talent, een Spreuk of een Liturgie. Men kan niet meermaals een Aanleg voor dezelfde Vaardigheid hebben en zo twee of zelfs drie D20 worpen in een Proef herrollen. Bij een dubbele of drievoudige 20 kan men dit Voordeel niet gebruiken. Een Aanleg kan enkel voor een Vaar- digheid maar niet voor een Gevechtstechniek worden gekozen (hiervoor bestaat het Voordeel Wapenvirtuoos). Het gebruik van Lotspunten is zowel voor als na de inzet van een Aanleg toegestaan (Bladzijde **29**). Hierdoor is het mogelijk om meermaals te rollen of een andere werking van de Lotspunten met Aanleg te combineren.
+  apValue: "A-/B-/C-/D-Fertigkeit: 6/12/18/24 Abenteuerpunkte"
+  prerequisites: "~~Nadeel Onbekwaam in deze Vaardigheid~~, niet meer dan drie keer Aanleg per persoon"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 163
+
+- id: ADV_5
+  name: "Tweehandig"
+  rules: |
+    De held ondervindt geen moeilijkheden bij Vaardigheidsproeven als hij de verkeerde hand gebruikt. Bij een gevecht heft het Voordeel alle malussen op, die men door het hanteren van een wapen met de verkeerde hand krijgt (Bladzijde **238**).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 168
+
+- id: ADV_6
+  name: "Duisterzicht"
+  rules: |
+    Bij graad I worden verzwaringen door duisternis met één graad verlaagd en bij graad II kunnen alle verzwaringen door duisternis genegeerd worden. Bij volledige duisternis werkt Duisterzicht niet (noch graad I noch graad II) en gelden de malussen voor volledige duisternis.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 164
+
+- id: ADV_7
+  name: "Ijzeraffiniteit"
+  rules: |
+    Wie dit voordeel heeft, ondervindt door de IJzerban slechts per volledige 4 steen gewicht verzwaringen, in plaats van bij 2 volle steen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_8
+  name: "Afstandsgevoel"
+  rules: |
+    Proeven op Afstandsgevecht met schietwapens (en alleen met schietwapens) zijn in de Afstandscategorie ver slechts met 1 in plaats van met 2 verzwaard.
+  range: "200 pas, verder dan dit zijn afstandsschattingen minder nauwkeurig."
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 164
+
+- id: ADV_9
+  name: "Vlug"
+  rules: |
+    Door Vlug krijgt een held 1 extra punt bij zijn Stamwaarde voor Snelheid.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 169
+
+- id: ADV_10
+  name: "Vosseninstinct"
+  rules: |
+    De held kan valstrikken bespeuren die hij met zijn normale zintuigen niet kan ontdekken. Door het Voordeel wordt het Nieuwe toepassingsgebied *Vosseninstinct* bij het Talent *Zintuigen* verworven.
+  range: 10 pas
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 169
+
+- id: ADV_11
+  name: "Geboren redenaar"
+  rules: |
+    Proeven op het Talent *Bekeren & Overtuigen (Toespraken)* zijn met 1 verlicht.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 164
+
+- id: ADV_12
+  name: "Gewijde"
+  rules: |
+    De gewijde krijgt als Stamwaarde voor zijn Karmale energie 20 KaP. Het Voordeel bevat niet de Competentie Traditie. Die moet apart worden aangekocht. Elke gewijde moet met een Traditie starten (een Traditie is een Competentie). Een held kan ook later in zijn leven dit Voor- deel verwerven en gewijde worden. Men kan slechts één gewijde Traditie bezitten. Het verkrijgen van twee of meer gewijde tradities is niet mogelijk.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 164
+      lastPage: 165
+
+- id: ADV_13
+  name: "Gifresistent"
+  rules: |
+    Gifresistentie verbetert de Weerstand en de Zielskracht met 1 per graad als het erom gaat gif te weerstaan.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_14
+  name: "Geluk"
+  rules: |
+    Het voor de held bereikbare maximum aan Lotspunten stijgt hierdoor met 1 per graad en de held krijgt dit LotP onmiddellijk bij het begin van het spel.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 164
+
+- id: ADV_15
+  name: "Knap uiterlijk"
+  rules: |
+    Elke graad van het Voordeel geeft de held een verlichting van 1 op *Verleiden (Flirten, Minnekunst)*, *Overhalen (Aansmeren, Zich eruit praten, Manipuleren, Vleien)* en *Handel (Afdingen)*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+      lastPage: 166
+
+- id: ADV_16
+  name: "Uitzonderlijke vaardigheid"
+  rules: |
+    Door het Voordeel Uitzonderlijke vaardigheid stijgt de maximumwaarde van een Vaardigheid met 1, zowel de maximumwaarde tijdens het scheppen van een held als de uiteindelijke maximumwaarde (afhankelijk van de hoogst betrokken eigenschap).<br>
+    Bv. in het begin van het spel kan hij met de Ervarings- graad Ervaren starten met een waarde van 11 (in plaats van 10) voor Vissen en ook zijn absolute maximumwaar- de in deze vaardigheid wordt met 1 verhoogd.<br>
+    De held verkrijgt weliswaar geen extra VaP.<br>
+    Het Voordeel kan tot viermaal toe worden gekozen, waarbij geen enkele Vaardigheid meer dan tweemaal kan worden gekozen. Bij een tweevoudige toewijzing aan een Vaardigheid verhoogt het Voordeel de maximumwaarde met 2.
+  apValue: "A-/B-/C-/D-Vaardigheid: 2/4/6/8 AP per keer"
+  prerequisites: "~~Nadeel Onbekwaam in de Vaardigheid~~"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 168
+      lastPage: 169
+
+- id: ADV_17
+  name: "Uitzonderlijke gevechtstechniek"
+  rules: |
+    Door het Voordeel Uitzonderlijke gevechtstechniek stijgt de maximumwaarde van een Gevechtstechniek met 1, zowel de maximumwaarde tijdens het scheppen van een held als de uiteindelijke maximumwaarde (afhanke- lijk van de Hoofdeigenschap).<br>
+    Bv. in het begin van het spel kan hij met Ervaringsgraad *Ervaren* starten met een waarde van 13 (in plaats van 12) voor Slagwapens en ook zijn absolute maximumwaarde in deze Gevechtstechniek wordt met 1 verhoogd. De held krijgt echter geen extra Gevechtstechniekpunt bij Slag- wapens vanwege dit voordeel.<br>
+    Het Voordeel kan tot tweemaal toe worden gekozen, waarbij geen enkele Gevechtstechniek meer dan éénmaal kan worden gekozen.
+  apValue: "B-/C-/D-Gevechtstechniek: 8/12/16 AP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 166
+
+- id: ADV_18
+  name: "Uitzonderlijk zintuig"
+  rules: |
+    Wie over een Uitzonderlijk zintuig beschikt, heeft 1 bonuspunt bij Proeven op *Zintuigen* als de Proef op het overeenkomstige zintuig wordt afgelegd. Volgende zintuigen kunnen worden gekozen: zicht, gehoor, geur & smaak en tastzin. Uitzonderlijk zintuig mag men meermaals aankopen, maar dan telkens voor een ander zintuig.
+  selectOptions:
+    - id: 1
+      name: "Zicht"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 168
+    - id: 2
+      name: "Gehoor"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 168
+    - id: 3
+      name: "Geur & Smaak"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 168
+    - id: 4
+      name: "Tast"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 168
+  apValue: "Zicht: 12 AP; Gehoor: 12 AP; Geur & Smaak: 6 AP; Tast: 2 AP"
+  prerequisites: "~~Nadeel Beperkt zintuig voor hetzelfde zintuig~~, ~~Nadeel Blind~~ (voor Zicht), ~~Nadeel Doof~~ (voor Gehoor)"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 168
+
+- id: ADV_22
+  name: "Hitteresistent"
+  rules: |
+    Hittegraden worden voor de held met 1 graad verminderd tot een minimum van Hittegraad I.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_23
+  name: "Hoge astrale kracht"
+  rules: |
+    De AE-stamwaarde stijgt met 1 punt per graad in dit Voordeel.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_24
+  name: "Hoge karmale kracht"
+  rules: |
+    De KE-stamwaarde stijgt met 1 punt per graad in dit Voordeel.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_25
+  name: "Hoge levenskracht"
+  rules: |
+    De LE-stamwaarde stijgt met 1 punt per graad in dit Voordeel.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_26
+  name: "Hoge zielskracht"
+  rules: |
+    De ZK-stamwaarde van de held wordt met 1 verhoogd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_27
+  name: "Hoge weerstand"
+  rules: |
+    De WS-stamwaarde van de held wordt met 1 verhoogd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_28
+  name: "Immuun voor"
+  nameInWiki: "Immuun voor (Gif)"
+  rules: |
+    Wie immuun is voor een bepaald gif, ondervindt van dat gif geen enkele hinder. Een immuniteit moet voor elk gif apart worden verworven.
+  selectOptions:
+    - id: 1
+      name: "Arax"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 342
+    - id: 2
+      name: "Kelmon"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 342
+    - id: 3
+      name: "Tulmadron"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 342
+    - id: 4
+      name: "Wurara"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 342
+    - id: 10
+      name: "Paddengif"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 362
+  apValue: "Halve gifgraad in AP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_29
+  name: "Immuun voor"
+  nameInWiki: "Immuun voor (Ziekte)"
+  rules: |
+    Wie immuun is voor een bepaalde ziekte, kan hier niet onder lijden. Een immuniteit moet voor elke ziekte apart worden verworven.
+  selectOptions:
+    - id: 1
+      name: "Flinke Difar"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 343
+    - id: 2
+      name: "Lutanas"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 343
+    - id: 3
+      name: "Rasse Waan"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 344
+    - id: 4
+      name: "Moeraskoorts of Brabakzweet"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 343
+    - id: 5
+      name: "Zorganpokken"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 344
+  apValue: "Halve ziektegraad in AP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 165
+
+- id: ADV_30
+  name: "Kouderesistent"
+  rules: |
+    Koudegraden worden bij de held met 1 graad verminderd, tot een minimum van 0.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 166
+
+- id: ADV_31
+  name: "Ziekteresistent"
+  rules: |
+    Ziekteresistentie verbetert de Weerstand en Zielskracht met 1 per graad bij het weerstaan van ziekten.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 170
+
+- id: ADV_32
+  name: "Magische afstemming"
+  input: "omgeving"
+  rules: |
+    Men moet een variant van het Voordeel kiezen. (voorbeelden zijn terug te vinden in onderstaande tabel). In de omgeving of situatie waarvoor het Voordeel werd gekozen, heeft de tovenaar bij magische Vaardigheidsproeven een bonus van 1.
+  selectOptions:
+    - id: 1
+      name: "Wezen der Auen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 166
+    - id: 2
+      name: "Wezen der Bergen"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 166
+    - id: 3
+      name: "Wezen des IJs"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 166
+    - id: 4
+      name: "Wezen der Nacht"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 166
+    - id: 5
+      name: "Wezen der Wouden"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 166
+    - id: 6
+      name: "Wezen der Zeeën"
+      src:
+        - id: LTP-OdM-R0001
+          firstPage: 166
+  prerequisitesEnd: "~~Nadeel Magische beperking voor dezelfde omgeving~~"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 166
+
+- id: ADV_33
+  name: "Mysticus"
+  rules: |
+    Bij een mysticus bouwt de vervoering zich pas af na twee uren per graad in plaats van na één uur.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 166
+
+- id: ADV_34
+  name: "Wakend"
+  rules: |
+    Een wezen met dit Voordeel hoeft niet regel- matig te slapen, maar kan een week lang wakker blijven zonder moe te worden. De slaap moet echter altijd worden ingehaald, wat bij enkele rassen door middel van echt slapen en bij andere via meditatie of vergelijkbare technieken wordt bereikt. Gedurende de periode dat de wakende wakker blijft, kan hij niet regenereren door te slapen en uit te rusten. Hij kan wel regenereren door het gebruik van geneeskrachtige kruiden en de inzet van het Talent *Heelkunde wonden*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 169
+      lastPage: 170
+
+- id: ADV_35
+  name: "Pragmaticus"
+  rules: |
+    Bij een pragmaticus bouwt de Vervoering zich al af na een half uur per graad, in plaats van na een uur.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 167
+
+- id: ADV_36
+  name: "Rijk"
+  rules: |
+    Door het Voordeel Rijk krijgt de held bij zijn ontstaan 250 zilveren daalders extra per graad.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 167
+
+- id: ADV_37
+  name: "Richtingsgevoel"
+  rules: |
+    Proeven op *Oriëntatie* zijn altijd met 1 verlicht.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 167
+
+- id: ADV_38
+  name: "Slangenmens"
+  rules: |
+    Proeven op *Lichaamsbeheersing (Acrobatie, Ontglippen)* zijn met 1 verlicht.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 167
+
+- id: ADV_39
+  name: "Moeilijk te betoveren"
+  rules: |
+    Veel Spreuken die over de held worden uitgesproken en die hem beïnvloeden zijn met 1 verzwaard. Dit geldt voor alle Spreuken en magische effecten met het kenmerk Invloed, Genezing, Helderzicht of Transformatie. Hetzelfde geldt voor de Spreuken en magische effecten die door Zielskracht of Weerstand worden gemodificeerd. Deze verzwaring geldt ook als de held zich vrijwillig laat betoveren.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 166
+
+- id: ADV_40
+  name: "Sociaal aanpassingsvermogen"
+  rules: |
+    Personen met een Sociaal aanpassingsvermogen mogen verzwaringen op Sociale talenten die ontstaan zijn door een verschil van stand negeren. Het Sociaal aanpassingsvermogen kan echter geen personen van hoge adel misleiden.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: "Nadeel Onbekwaam in een Sociaal talent"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 167
+
+- id: ADV_41
+  name: "Onopvallend"
+  rules: |
+    Helden met dit Voordeel krijgen een bonus van 1 op *Stadskennis (Schaduwen)*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 166
+
+- id: ADV_42
+  name: "Verbeterde regeneratie (Astrale energie)"
+  rules: |
+    Voor elke graad van het Voordeel krijgt de held 1 bijkomend punt als hij regenereert.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 169
+
+- id: ADV_43
+  name: "Verbeterde regeneratie (Karmale energie)"
+  rules: |
+    Voor elke graad van het Voordeel krijgt de held 1 bijkomend punt als hij regenereert.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 169
+
+- id: ADV_44
+  name: "Verbeterde regeneratie (Levensenergie)"
+  rules: |
+    Voor elke graad van het Voordeel krijgt de held 1 bijkomend punt als hij regenereert.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 169
+
+- id: ADV_45
+  name: "Verhulde aura"
+  rules: |
+    Bij een ongerichte magische waarneming wordt de tovenaar steeds als niet magisch beschouwd. Wie doelgericht probeert de tovenaar  te  ontdekken  of  te analyseren, bijvoorbeeld met de Spreuk <span class="name--spell">Odem Arcanum</span> of de Liturgie <span class="name--chant">Magiezicht</span>, moet er een malus van 3 bij nemen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 169
+
+- id: ADV_46
+  name: "Vertrouwenwekkend"
+  rules: |
+    Proeven op *Bekeren & Overtuigen (Toespraken, Conversatie, Debatteren)*, *Overhalen (Bedelen, Manipuleren, Vleien)* en *Handel (Afdingen)* zijn met 1 verlicht.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 0
+        replacement: "Nadeel Onbekwaam in een Sociaal talent"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 169
+
+- id: ADV_47
+  name: "Wapenvirtuoos"
+  rules: |
+    Wapenvirtuoos laat bij Uitzonderlijke successen/ Blunders bij een Proef op een Gevechtstechniek toe om de bevestigingsworp te herhalen.
+  apValue: "B-/C-/D-Gevechtstechniek: 5/10/15 AP"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 170
+
+- id: ADV_48
+  name: "Welluidend"
+  rules: |
+    Vaardigheidsproeven op *Zingen* zijn met 1 verlicht.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 170
+
+- id: ADV_49
+  name: "Gehard"
+  rules: |
+    Dit Voordeel zorgt ervoor dat de held de werking van de hoogste graad van de Toestand *Pijn* mag negeren. Hij lijdt alleen aan de werking van de vorige graad. Als een held dus bijvoorbeeld drie graden Pijn heeft geleden, gelden voor hem alleen de gevolgen van graad II. Bij Pijngraad IV wordt de held niettemin handelingsonbekwaam. Pijngraad I wordt beschouwd alsof de held geen graad pijn heeft.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 164
+
+- id: ADV_50
+  name: "Tovenaar"
+  rules: |
+    De tovenaar verkrijgt een Stamwaarde van 20 AsP voor zijn Astrale energie. Het Voordeel bevat niet de Competentie Traditie (Bladzijde **274**). Deze moet apart worden verworven. Elke tovenaar moet starten met een Traditie (een Traditie is een Competentie). Dit Voordeel is tijdens het verdere spelverloop niet meer verkrijgbaar.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 167
+      lastPage: 168
+
+- id: ADV_51
+  name: "Tijdsgevoel"
+  rules: |
+    Het personage heeft een uitzonderlijk gevoel voor tijd en kan, zonder op de stand van de zon te letten of op andere hulpmiddelen terug te vallen, de tijd precies bepalen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 167
+
+- id: ADV_52
+  name: "Tweestemmige zang"
+  rules: |
+    De held kan tweestemmig zingen en heeft hierdoor de mogelijkheid om elfenliederen te leren. Door het Voordeel verkrijgt de held het Nieuwe toepassingsgebied *Tweestemmige zang* bij het Talent *Zingen*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 170
+
+- id: ADV_53
+  name: "Dwergenneus"
+  rules: |
+    De avonturier heeft een verlichting van 1 bij Proeven op *Zintuigen* voor het ontdekken van geheime deuren, grotruimtes, verborgen lades en dergelijke.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 164

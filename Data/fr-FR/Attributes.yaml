@@ -1,0 +1,31 @@
+- id: ATTR_1
+  name: "Courage"
+  short: CO
+
+- id: ATTR_2
+  name: "Intelligence"
+  short: IN
+
+- id: ATTR_3
+  name: "Intuition"
+  short: IU
+
+- id: ATTR_4
+  name: "Charisme"
+  short: CH
+
+- id: ATTR_5
+  name: "Dextérité"
+  short: DE
+
+- id: ATTR_6
+  name: "Agilité"
+  short: AG
+
+- id: ATTR_7
+  name: "Constitution"
+  short: CN
+
+- id: ATTR_8
+  name: "Force"
+  short: FO

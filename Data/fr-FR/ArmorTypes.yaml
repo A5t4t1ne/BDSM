@@ -1,0 +1,18 @@
+- id: 1
+  name: "Vêtements normaux, fourrures ou nu"
+- id: 2
+  name: "Vêtements épais, d'hiver"
+- id: 3
+  name: "Cotte matelassée, gambison"
+- id: 4
+  name: "Armure de cuir"
+- id: 5
+  name: "Armure de bois"
+- id: 6
+  name: "Armure de maille"
+- id: 7
+  name: "Armure d'écailles"
+- id: 8
+  name: "Armure de plates"
+- id: 9
+  name: "Armure de tournoi"

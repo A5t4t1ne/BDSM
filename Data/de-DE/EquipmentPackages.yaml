@@ -1,0 +1,53 @@
+- id: EPKG_1
+  name: "Reisepaket"
+  src:
+    - id: US25001
+      firstPage: 364
+
+- id: EPKG_2
+  name: "Wildnispaket"
+  src:
+    - id: US25001
+      firstPage: 364
+
+- id: EPKG_3
+  name: "Stadtpaket"
+  src:
+    - id: US25001
+      firstPage: 364
+
+- id: EPKG_4
+  name: "Abenteurerpaket (Havena)"
+  src:
+    - id: US25228
+      firstPage: 11
+
+- id: EPKG_5
+  name: "Bürgerpaket (Havena)"
+  src:
+    - id: US25228
+      firstPage: 11
+
+- id: EPKG_6
+  name: "Charyptorothkultistenpaket"
+  src:
+    - id: US25228
+      firstPage: 11
+
+- id: EPKG_7
+  name: "Schatzsucherpaket"
+  src:
+    - id: US25228
+      firstPage: 12
+
+- id: EPKG_8
+  name: "Leichtes Gardistenpaket (Havena)"
+  src:
+    - id: US25228
+      firstPage: 12
+
+- id: EPKG_9
+  name: "Schweres Gardistenpaket (Havena)"
+  src:
+    - id: US25228
+      firstPage: 12

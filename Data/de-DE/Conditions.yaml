@@ -1,0 +1,237 @@
+- id: COND_1
+  name: "Belastung"
+  levelDescription: "Belastungsstufe"
+  level1: |
+    leicht belastet, Proben auf Talente, die durch Belastung erschwert sind –1, AT –1, Verteidigung –1, INI –1, GS –1
+  level2: |
+    belastet, Proben auf Talente, die durch Belastung erschwert sind –2, AT –2, Verteidigung –2, INI –2, GS –2
+  level3: |
+    schwer belastet, Proben auf Talente, die durch Belastung erschwert sind –3, AT –3, Verteidigung –3, INI –3, GS –3
+  level4: |
+    *handlungsunfähig*, bis auf Last fallen lassen
+  src:
+    - id: US25001
+      firstPage: 32
+
+- id: COND_2
+  name: "Betäubung"
+  levelDescription: "Betäubungsstufe"
+  level1: |
+    leicht angeschlagen, alle Proben –1
+  level2: |
+    angeschlagen, alle Proben –2
+  level3: |
+    schwer angeschlagen, alle Proben –3
+  level4: |
+    *handlungsunfähig*
+  src:
+    - id: US25001
+      firstPage: 32
+
+- id: COND_3
+  name: "Entrückung"
+  levelDescription: "Entrückungsstufe"
+  level1: |
+    leicht entrückt, alle Proben auf Talente und Zauber –1, so sie nicht dem Gott des Geweihten gefällig sind
+  level2: |
+    entrückt, alle dem Gott des Geweihten gefällige Proben auf Talente und Zauber +1, alle anderen –2
+  level3: |
+    göttlich berührt, alle dem Gott des Geweihten gefällige Proben auf Talente und Zauber +2, alle anderen –3
+  level4: |
+    ein Werkzeug des Gottes, alle dem Gott des Geweihten gefällige Proben +3, alle anderen um 4 erschwert
+  src:
+    - id: US25001
+      firstPage: 32
+
+- id: COND_4
+  name: "Furcht"
+  levelDescription: "Furchtstufe"
+  level1: |
+    beunruhigt, alle Proben –1
+  level2: |
+    verängstigt, alle Proben –2
+  level3: |
+    in Panik, alle Proben –3
+  level4: |
+    katatonisch, *handlungsunfähig*
+  src:
+    - id: US25001
+      firstPage: 33
+
+- id: COND_5
+  name: "Paralyse"
+  levelDescription: "Paralysestufe"
+  level1: |
+    leicht versteift, alle Proben, die Bewegung oder Sprache erfordern, –1, GS nur noch 75 %
+  level2: |
+    versteift, alle Proben, die Bewegung oder Sprache erfordern, –2, GS nur noch 50 %
+  level3: |
+    kaum mehr bewegungsfähig, alle Proben, die Bewegung oder Sprache erfordern, –3, GS nur noch 25 %
+  level4: |
+    *bewegungsunfähig*
+  src:
+    - id: US25001
+      firstPage: 33
+      lastPage: 34
+
+- id: COND_6
+  name: "Schmerz"
+  levelDescription: "Schmerzstufe"
+  level1: |
+    leichte Schmerzen, alle Proben –1, GS –1
+  level2: |
+    ablenkende Schmerzen, alle Proben –2, GS –2
+  level3: |
+    starke Schmerzen, alle Proben –3, GS –3
+  level4: |
+    *handlungsunfähig*, ansonsten alle Proben –4
+  src:
+    - id: US25001
+      firstPage: 34
+
+- id: COND_7
+  name: "Verwirrung"
+  levelDescription: "Verwirrungsstufe"
+  level1: |
+    leicht verwirrt, alle Proben –1
+  level2: |
+    verwirrt, alle Proben –2
+  level3: |
+    sehr verwirrt, alle Proben –3, komplexe Aktivitäten wie Zaubern, Liturgien wirken und die Anwendung von Wissenstalenten ist unmöglich
+  level4: |
+    *handlungsunfähig*
+  src:
+    - id: US25001
+      firstPage: 34
+
+- id: COND_8
+  name: "Animosität"
+  description: |
+    Über die Häufigkeit und wann jemand eine Stufe des Zustands erhält, entscheidet der Spielleiter. Helden auf der Durchreise erleiden nur selten einmal eine Stufe. Viel eher trifft es die Nostrier und Andergaster, die schon ihr ganzes Leben hier verbringen, und bei denen sich der Hass stets gegen Bewohner des Nachbarreiches richtet. Erst im Laufe vieler Jahre steigt der Hass weiter an, und nur selten erlangt man schon nach kurzem Aufenthalt in den Streitenden Königreichen eine Zustandsstufe *Animosität*.<br>
+    Erleidet ein Auswärtiger dennoch den Zustand *Animosität*, so richtet sich sein Hass nach dem jeweiligen Tierkönig, der den Einfluss ausübt. In der Regel wird er also die Bewohner des Landes hassen, in dem er sich zu diesem Zeitpunkt nicht aufhält.<br>
+    *Animosität* baut sich nicht von alleine ab, normalerweise steigt sie beim Betroffenen ständig an. Lediglich durch den aktiven Einsatz von Zauberei, Liturgien oder dem Talent *Heilkunde Seele* kann die *Animosität* abgebaut werden. Auch wer sich mindestens vier Wochen außerhalb Nostria und Andergast aufhält, verliert am Ende dieser Zeitspanne und nach jedem weiteren Monat eine Stufe *Animosität*. Das bedeutet jedoch nicht zwingend, dass man den Erzfeind plötzlich nicht mehr verachtet, man ist aber zumindest frei in dieser Entscheidung.<br>
+    Über eine Probe auf *Heilkunde Seele* kann eine Stufe *Animosität* abgebaut werden. Jede Woche ist eine solche Probe erlaubt. Wer jedoch einmal Stufe IV erreicht hat, gegen dessen *Animosität* hilft nur noch mächtige Magie oder Götterwirken.
+  levelDescription: "Stufe"
+  level1: |
+    Der Held bekommt die Schlechte Eigenschaft Feindseligkeit gegenüber Andergastern/Nostriern. Diese bewirkt, dass das Opfer der Abneigung beleidigt, gegängelt oder sogar angegriffen wird. Die Probe auf *Willenskraft*, um Feindseligkeit zu unterdrücken, ist um 1 erschwert.
+  level2: |
+    Die Probe auf *Willenskraft*, um Feindseligkeit zu unterdrücken, ist um 2 erschwert.
+  level3: |
+    Die Probe auf *Willenskraft*, um Feindseligkeit zu unterdrücken, ist um 3 erschwert.
+  level4: |
+    Held bekommt den Vorteil Hass auf Andergaster oder Nostrier. Die Probe auf *Willenskraft*, um Feindseligkeit zu unterdrücken, misslingt automatisch.
+  src:
+    - id: US25101
+      firstPage: 180
+
+- id: COND_9
+  name: "Berauscht"
+  description: |
+    Damit ein Held nicht gleich nach dem Genuss von drei Bieren Zustandsstufen von *Betäubung* erhält, gibt es den neuen Zustand *Berauscht*. Diesen erleidet der Held meistens nach dem Misslingen einer Giftprobe bei Alkohol, allerdings ist dies von Alkoholsorte zu Alkoholsorte unterschiedlich. Ist Zustandsstufe IV erreicht, erhält der Held eine Stufe *Betäubung* und 4 Stufen *Berauscht* werden gestrichen. Die restlichen Stufen *Berauscht* bleiben bestehen. *Berauscht* baut sich nach 2 Stunden um 1 Stufe ab, vorausgesetzt der Held trinkt in dieser Zeit keinen weiteren Alkohol.
+  levelDescription: "Berauschtstufe"
+  level1: |
+    Proben auf *Zechen* sind um 1 erschwert
+  level2: |
+    Proben auf *Zechen* sind um 2 erschwert
+  level3: |
+    Proben auf *Zechen* sind um 3 erschwert
+  level4: |
+    Held erleidet eine Stufe *Betäubung*, 4 Stufen *Berauscht* werden gestrichen, darüber hinaus erlittene Stufen des Zustands *Berauscht* bleiben bestehen.
+  src:
+    - id: US25514
+      firstPage: 13
+
+- id: COND_10
+  name: "Trance"
+  description: |
+    Bei der *Trance* handelt es sich um eine Form der leichten Entrückung. Sie tritt meistens bei der Nutzung von Zeremonialgegenständen oder dem Einsatz von einigen Sonderfertigkeiten auf.<br>
+    *Trance* baut sich alle 24 Stunden um 1 Stufe ab.
+  levelDescription: "Trancestufe"
+  level1: |
+    Der Held spürt die Nähe seines Gottes, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+  level2: |
+    Alle Proben, außer auf Liturgien und wohlgefällige Talente, sind um 2 erschwert, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+  level3: |
+    Alle Proben (auch wohlgefällige) sind um 3 erschwert, eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+  level4: |
+    *Handlungsunfähig*; eine potenzielle AsP-Regeneration fällt in der nächsten Regenerationsphase aus.
+  src:
+    - id: US25005
+      firstPage: 11
+
+- id: COND_11
+  name: "Sikaryan-Verlust"
+  levelDescription: "Sikaryan-Verlust-Stufe"
+  level1: |
+    –1 LeP bei Regenerationsphasen (bis zum Minimum +0 LeP in dieser Regenerationsphase); Vampire bekommen zusätzlich die Schlechte Eigenschaft Sikaryan-Durst.
+  level2: |
+    –2 LeP bei Regenerationsphasen (bis zum Minimum +0 LeP in dieser Regenerationsphase); Proben auf *Willenskraft* bei Sikaryan-Durst sind um 2 erschwert
+  level3: |
+    –3 LeP bei Regenerationsphasen (bis zum Minimum +0 LeP in dieser Regenerationsphase); Proben auf *Willenskraft* bei Sikaryan-Durst sind um 4 erschwert
+  level4: |
+    Sikaryan erschöpft; Proben auf *Willenskraft* bei Sikaryan-Durst sind um 6 erschwert; war der Sikaryan-Räuber ein Vampir, verwandelt sich das Opfer langsam in einen Vampir gleichen Typs, sofern es noch über LeP verfügt (siehe **Aventurisches Bestiarium** Seite **118**); erleidet ein Sikaryan-Räuber einen *Sikaryan-Verlust* Stufe IV, kommen weitere Auswirkungen zum Tragen, die beim jeweiligen Status angegeben sind; bei einem minderen Vampir gibt es bei dieser Stufe keine weiteren Effekte.
+  src:
+    - id: US25219
+      firstPage: 118
+
+- id: COND_12
+  name: "Begehren"
+  description: |
+    Der Zustand *Begehren* spiegelt wieder, wie groß das Verlangen einer Person gegenüber dem Helden ist und wie leicht sie sich von ihm um den Finger wickeln lässt. Es ist möglich, den Zustand mehrfach für unterschiedliche Personen gleichzeitig zu erhalten. Ein Held kann also sowohl *Begehren* gegenüber Alrik auf Stufe II, wie auch *Begehren* gegenüber Daphinia auf Stufe III erleiden. Die einzelnen Stufen addieren sich nicht auf, sondern gelten immer nur gegenüber einer speziellen Person.<br>
+    Der Zustand *Begehren* spielt keine Rolle bei der Ermittlung der 8 oder mehr Zustandsstufen, die akkumuliert die *Handlungsunfähigkeit* des Helden bedeuten (siehe **Regelwerk** Seite **32**).
+    *Begehren* baut sich pro Woche um 1 Stufe ab.
+  levelDescription: "Begehrenstufe"
+  level1: |
+    Proben auf *Willenskraft (Betören widerstehen)* sind gegenüber der Person, die man begehrt, um 1 erschwert.
+  level2: |
+    Proben auf *Willenskraft (Betören widerstehen)* sind gegenüber der Person, die man begehrt, um 2 erschwert.
+  level3: |
+    Proben auf *Willenskraft (Betören widerstehen)* sind gegenüber der Person, die man begehrt, um 3 erschwert.
+  level4: |
+    Proben auf *Willenskraft (Betören widerstehen)* sind gegenüber der Person, die man begehrt, um 4 erschwert.
+  src:
+    - id: US25007
+      firstPage: 35
+      lastPage: 36
+    - id: US25213
+      firstPage: 85
+
+- id: COND_13
+  name: "Überanstrengung"
+  description: |
+    Wer mehr als 4 ZE pro Tag für heldenhafte Taten investiert, erleidet pro weiterer ZE eine Stufe *Überanstrengung*.<br>
+    *Überanstrengung* baut sich nach 6 Stunden Schlaf um 1 Stufe ab.
+  levelDescription: "Überanstrengungsstufe"
+  level1: |
+    Proben auf Wissenstalente sind um 1 erschwert
+  level2: |
+    Proben auf Wissenstalente sind um 2 erschwert, LeP/AsP/KaP-Regeneration –1 (bis zu einem Minimum von 0)
+  level3: |
+    Proben auf Wissenstalente sind um 3 erschwert, LeP/AsP/KaP-Regeneration –2 (bis zu einem Minimum von 0)
+  level4: |
+    Held erleidet eine Stufe *Betäubung*, 1 Stufe *Überanstrengung* wird gestrichen, darüber hinaus erlittene Stufen des Zustands *Überanstrengung* bleiben bestehen.
+    Die *Betäubung* hält solange an, bis der Held mindestens 12 Stunden am Stück geschlafen hat. Eine normale 6-stündige Regeneration ist dafür nicht mehr ausreichend.
+  src:
+    - id: US25007
+      firstPage: 66
+
+- id: COND_14
+  name: "Dämonische Auszehrung"
+  description: |
+    Durch manche Paktgeschenke kann der Paktierer Zustandsstufen in *Dämonischer Auszehrung* erleiden. Ein Paktierer, der seine Paktgeschenke einsetzt, kann dabei innerhalb von 24 Stunden so viele dadurch erlittene Stufen des Zustands ignorieren, wie sein KdV-Wert beträgt. Regeltechnisch erleidet er diese Stufen nicht, erst alle weiteren, die über den KdV-Wert hinausgehen, werden als Stufen der *Dämonischen Auszehrung* gezählt.
+
+    - Ein Paktierer im 3. Kreis der Verdammnis könnte also beispielsweise 3 Stufen des Zustands durch Einsatz von Paktgeschenks-Fähigkeiten am Tag ignorieren, jede weitere Stufe würde aber auf den Zustand aufgerechnet.<br>
+      *Dämonische Auszehrung* baut sich alle 6 Stunden um eine Stufe ab.
+    - Sollte ein Paktierer permanente Stufen *Dämonische Auszehrung* erleiden, reduzieren diese die Stufen, die ein Paktierer erhalten kann, bevor Auszehrungsstufen eine wirkliche Auswirkung haben. Die bedeutet auch, dass die Paktierer mit einem niedrigen KdV-Wert eventuell bei 2 oder mehr permanenten Stufen sofort Stufen von Dämonischer Auszehrung aufweisen, die aktiv ist, solange er das Paktgeschenk wirkt.
+  levelDescription: "Auszehrungsstufe"
+  level1: |
+    In der nächsten Regenerationsphase regeneriert der Paktierer 1 LeP (und falls vorhanden 1 AsP) weniger; alle Proben sind um 1 erschwert; eine Paktprobe mit dem gewählten Erzdämon ist hingegen um 1 erleichtert.
+  level2: |
+    In der nächsten Regenerationsphase regeneriert der Paktierer nur die Hälfte an LeP (und falls vorhanden auch nur die Hälfte an AsP); alle Proben sind um 2 erschwert; eine Paktprobe mit dem gewählten Erzdämon ist hingegen um 2 erleichtert.
+  level3: |
+    In der nächsten Regenerationsphase regeneriert der Paktierer keine LeP (und falls vorhanden auch keine AsP); alle Proben sind um 3 erschwert; eine Paktprobe mit dem gewählten Erzdämon ist hingegen um 3 erleichtert.
+  level4: |
+    *Handlungsunfähig*, in der nächsten Regenerationsphase regeneriert der Paktierer keine LeP (und falls vorhanden auch keine AsP); eine Paktprobe mit dem gewählten Erzdämon ist hingegen immer noch möglich und um 4 erleichtert.
+  src:
+    - id: US25008
+      firstPage: 75

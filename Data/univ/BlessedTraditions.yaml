@@ -1,0 +1,156 @@
+- id: SA_86
+# name: Church of Praios
+  numId: 2
+  primary: ATTR_2
+  aspects:
+    - 2
+    - 3
+
+- id: SA_682
+# name: Church of Rondra
+  numId: 3
+  primary: ATTR_1
+  aspects:
+    - 4
+    - 5
+
+- id: SA_683
+# name: Church of Boron
+  numId: 4
+  primary: ATTR_1
+  aspects:
+    - 6
+    - 7
+
+- id: SA_684
+# name: Church of Hesinde
+  numId: 5
+  primary: ATTR_2
+  aspects:
+    - 8
+    - 9
+
+- id: SA_685
+# name: Church of Phex
+  numId: 6
+  primary: ATTR_3
+  aspects:
+    - 10
+    - 11
+
+- id: SA_686
+# name: Church of Peraine
+  numId: 7
+  primary: ATTR_3
+  aspects:
+    - 12
+    - 13
+
+- id: SA_687
+# name: Church of Efferd
+  numId: 8
+  primary: ATTR_4
+  aspects:
+    - 14
+    - 15
+
+- id: SA_688
+# name: Church of Travia
+  numId: 9
+  primary: ATTR_2
+  aspects:
+    - 16
+    - 17
+
+- id: SA_689
+# name: Church of Firun
+  numId: 10
+  primary: ATTR_1
+  aspects:
+    - 18
+    - 19
+
+- id: SA_690
+# name: Church of Tsa
+  numId: 11
+  primary: ATTR_4
+  aspects:
+    - 20
+    - 21
+
+- id: SA_691
+# name: Church of Ingerimm
+  numId: 12
+  primary: ATTR_3
+  aspects:
+    - 22
+    - 23
+
+- id: SA_692
+# name: Church of Rahja
+  numId: 13
+  primary: ATTR_4
+  aspects:
+    - 24
+    - 25
+
+- id: SA_693
+# name: Cult of the Nameless One
+  numId: 14
+  primary: ATTR_1
+
+- id: SA_694
+# name: Church of Aves
+  numId: 15
+  primary: ATTR_3
+  aspects:
+    - 26
+    - 27
+
+- id: SA_695
+# name: Church of Ifirn
+  numId: 16
+  primary: ATTR_4
+  aspects:
+    - 28
+    - 29
+
+- id: SA_696
+# name: Church of Kor
+  numId: 17
+  primary: ATTR_1
+  aspects:
+    - 30
+    - 31
+
+- id: SA_697
+# name: Church of Nandus
+  numId: 18
+  primary: ATTR_2
+  aspects:
+    - 32
+    - 33
+
+- id: SA_698
+# name: Church of Swafnir
+  numId: 19
+  primary: ATTR_1
+  aspects:
+    - 34
+    - 35
+
+- id: SA_1049
+# name: Cult of Numinoru
+  numId: 20
+  primary: ATTR_2
+  aspects:
+    - 36
+    - 37
+
+- id: SA_1187
+# name: Cult of Levthan
+  numId: 21
+  primary: ATTR_4
+  aspects:
+    - 38
+    - 39

@@ -1,0 +1,84 @@
+- id: SPELL_339
+  name: "Ausbruch unterdrückter Gefühle"
+  effect: |
+    Durch dieses Ritual kann der Druide dem Opfer eine Persönlichkeitsschwäche oder eine Schlechte Eigenschaft anhexen. Das Opfer enthält den entsprechenden Nachteil bis zum Ablauf der Wirkungsdauer.
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  duration: "QS Tage"
+  durationShort: "QS d"
+  src:
+    - id: US25101
+      firstPage: 170
+    - id: US25008
+      firstPage: 23
+
+- id: SPELL_340
+  name: "Figur der Schmerzen"
+  effect: |
+    Der Druide erschafft eine Figur aus Wachs, Holz oder einem anderen Material (nicht jedoch aus Metall) und bindet dabei die körperliche Komponente des Opfers ein, das er verzaubern will. Am Ende der Ritualdauer kann er die Figur mit seinem Dolch stechen, über Feuer halten oder sie auf andere Weise beschädigen, um dem Opfer Schmerzen zu zufügen. Das Opfer erleidet für die Dauer von 24 Stunden 1 Stufe *Schmerz*, wenn der Druide die Figur pro Tag für mindestens 5 Minuten foltert. Mehr als 1 Stufe *Schmerz* lässt sich durch dieses Ritual nicht verursachen. Nutzt der Druide den Tag nicht für die Folter der Figur, geschieht zwar nichts, aber das magische Band zwischen Figur und Opfer besteht fort, sofern die Wirkungsdauer noch nicht abgelaufen ist. Der *Schmerz* vergeht spätestens 1 Stunde nach dem Ende der Wirkungsdauer.
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  duration: "QS/2 Tage"
+  durationShort: "QS/2 d"
+  src:
+    - id: US25101
+      firstPage: 170
+    - id: US25008
+      firstPage: 23
+
+- id: SPELL_341
+  name: "Fluch der Pestilenz"
+  effect: |
+    Das Opfer wird vom Druiden mit einer ihm bekannten Krankheit infiziert. Die Stufe der Krankheit darf maximal dem Fertigkeitswert des Rituals entsprechen. Ab der Infektion verläuft die Krankheit normal, ist allerdings nicht ansteckend. Nicht wählbar sind magische Erkrankungen wie Duglumspest.
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  duration: "bis zum Ende der Krankheit, maximal aber QS x 3 in Tagen"
+  durationShort: "Krankh./QS x 3 d"
+  src:
+    - id: US25101
+      firstPage: 170
+    - id: US25008
+      firstPage: 23
+
+- id: SPELL_342
+  name: "Fluch der Schlaflosigkeit"
+  effect: |
+    Das Opfer kann nicht schlafen. Wenn es doch für einige Sekunden einnickt, wird es von Alpträumen wieder aufgeschreckt. Regeneration ist in diesem Zustand nicht möglich. Der Schlafentzug macht das Opfer zudem fahrig, reizbar und es erleidet nach einigen Tagen Sinnestäuschungen. Pro zwei Tagen ohne Schlaf erhält das Opfer eine Stufe *Verwirrung*, die erst abklingt, wenn es wieder schlafen kann.
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  duration: "QS x 2 Tage"
+  durationShort: "QS x 2 d"
+  src:
+    - id: US25101
+      firstPage: 170
+    - id: US25008
+      firstPage: 23
+
+- id: SPELL_343
+  name: "Macht über Schlafwandler"
+  effect: |
+    Der Druide verbrennt einen Haufen Misteln, die er selbst gepflückt hat und gibt die körperliche Komponente des Opfers in das Feuer. Das nächste Mal, wenn es schläft, kann er es schlafwandeln lassen. Der Druide kann durch seine Augen sehen und hat vollständige Kontrolle über den Körper des Opfers. Der Schlafwandler ist jedoch weder besonders schnell (GS halbiert) noch geschickt (alle Fertigkeitsproben –1, –2 AT, –1 PA, –1 AW). Für Körper Talente/körperliche Eigenschaften wird der FW/Wert des Opfers benutzt, ebenso alle seine Kampfwerte. Bei anderen Talenten/geistigen Eigenschaften kommt der FW/Wert des Druiden zu tragen. Zauber/Liturgien kann der Druide nicht durch das Opfer wirken. Sollte das Opfer TP oder SP erleiden, so bricht die Kontrolle ab. Soll das Opfer sich selbst schaden oder soll es gezwungen werden, gegen seine Prinzipien zu handeln, so steht ihm eine Probe auf *Willenskraft* zu, um den Befehl zu verweigern.
+
+    Diese Probe kann nach Meisterentscheid modifiziert werden. Während der Druide die mentale Kontrolle ausübt, ist er selbst in Meditation erstarrt und erleidet den Status *Bewegungsunfähig*.
+  aeCost: "32 AsP"
+  aeCostShort: "32 AsP"
+  duration: "QS Stunden"
+  durationShort: "QS h"
+  src:
+    - id: US25101
+      firstPage: 170
+    - id: US25008
+      firstPage: 24
+
+- id: SPELL_465
+  name: "Kristall der Herrschaft"
+  effect: |
+    Der Druide benötigt für dieses Herrschaftsritual zusätzlich einen Bergkristall, den er bei sich tragen muss. Er kann Zauber mit den Merkmalen Antimagie, Einfluss, Heilung, Hellsicht und Verwandlung auf das Opfer wirken, auch wenn er es nicht sieht und es außerhalb der üblichen Reichweite des Zaubers ist. Maximal sind so QS Zauber möglich, danach zerfällt der Kristall. Die Reduzierung von SK und ZK gilt nicht für die Zauber, diese sind ganz normal um die volle SK/ZK des Opfers erschwert.
+  aeCost: "8 AsP + die AsP-Kosten des Zaubers"
+  aeCostShort: "8+ AsP"
+  duration: "je nach Zauber"
+  durationShort: "je nach Zauber"
+  src:
+    - id: US25008
+      firstPage: 23
+      lastPage: 24

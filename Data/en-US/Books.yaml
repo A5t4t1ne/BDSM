@@ -1,0 +1,71 @@
+- id: US25001E
+  short: CR
+  name: "Core Rules"
+  isCore: true
+  isAdultContent: false
+
+- id: USDR2E
+  short: DR2
+  name: "Deep Rules 2"
+  isCore: false
+  isAdultContent: false
+
+- id: USDR3E
+  short: DR3
+  name: "Deep Rules 3"
+  isCore: false
+  isAdultContent: false
+
+- id: US25201E
+  short: ABE1
+  name: "Aventuria Bestiary I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25002E
+  short: AAL
+  name: "Aventuria Almanac"
+  isCore: true
+  isAdultContent: false
+
+- id: US25514E
+  short: I&T
+  name: "Inns & Taverns"
+  isCore: false
+  isAdultContent: false
+
+- id: US25101E
+  short: WKD
+  name: "Warring Kingdoms"
+  isCore: false
+  isAdultContent: false
+
+- id: US25206E
+  short: ARWKD
+  name: "Armory of the Warring Kindoms"
+  isCore: false
+  isAdultContent: false
+
+- id: US25003E
+  short: ACO1
+  name: "Aventuria Compendium I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25208E
+  short: AAR1
+  name: "Aventuria Armory I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25004E
+  short: MOA1
+  name: "Magic of Aventuria I"
+  isCore: false
+  isAdultContent: false
+
+- id: US25005E
+  short: GOAI
+  name: "Gods of Aventuria I"
+  isCore: false
+  isAdultContent: false

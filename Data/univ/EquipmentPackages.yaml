@@ -1,0 +1,286 @@
+- id: EPKG_1
+# name: Reisepaket
+  items:
+    - id: ITEMTPL_144
+    # name: Becher
+    - id: ITEMTPL_145
+    # name: Beil/Handaxt
+    - id: ITEMTPL_150
+    # name: Essbesteck
+    - id: ITEMTPL_177
+    # name: Wolldecke
+    - id: ITEMTPL_188
+    # name: Feuerstein und Stahl
+    - id: ITEMTPL_200
+    # name: Geldbeutel
+    - id: ITEMTPL_219
+    # name: Kletterseil, 10 Schritt
+      amount: 10
+    - id: ITEMTPL_205
+    # name: Lederrucksack
+    - id: ITEMTPL_5
+    # name: Messer
+    - id: ITEMTPL_167
+    # name: Nadel- und Zwirnset
+    - id: ITEMTPL_182
+    # name: Fackel
+    - id: ITEMTPL_181
+    # name: Proviant für drei Tage
+      amount: 3
+    - id: ITEMTPL_159
+    # name: Holzschale
+    - id: ITEMTPL_197
+    # name: Verband, 10 Stück
+    - id: ITEMTPL_93
+    # name: Waffenpflegeset (Schleifstein, Tücher)
+    - id: ITEMTPL_216
+    # name: Wasserschlauch
+    - id: ITEMTPL_224
+    # name: Wurfhaken
+    - id: ITEMTPL_191
+    # name: Zunder, 25 Portionen
+    - id: ITEMTPL_192
+    # name: Zunderdose (Platz für 25 Portionen)
+
+- id: EPKG_2
+# name: Wildnispaket
+  items:
+    - id: ITEMTPL_145
+    # name: Beil/Handaxt
+    - id: ITEMTPL_177
+    # name: Wolldecke
+    - id: ITEMTPL_188
+    # name: Feuerstein und Stahl
+    - id: ITEMTPL_219
+    # name: Kletterseil, 10 Schritt
+      amount: 10
+    - id: ITEMTPL_205
+    # name: Lederrucksack
+    - id: ITEMTPL_5
+    # name: Messer
+    - id: ITEMTPL_167
+    # name: Nadel- und Zwirnset
+    - id: ITEMTPL_182
+    # name: Fackel
+    - id: ITEMTPL_181
+    # name: Proviant für fünf Tage
+      amount: 5
+    - id: ITEMTPL_159
+    # name: Holzschale
+    - id: ITEMTPL_197
+    # name: Verband, 10 Stück
+    - id: ITEMTPL_216
+    # name: Wasserschlauch
+      amount: 2
+    - id: ITEMTPL_224
+    # name: Wurfhaken
+    - id: ITEMTPL_179
+    # name: Zelt, 1 Person
+    - id: ITEMTPL_191
+    # name: Zunder, 25 Portionen
+    - id: ITEMTPL_192
+    # name: Zunderdose (Platz für 25 Portionen)
+
+- id: EPKG_3
+# name: Stadtpaket
+  items:
+    - id: ITEMTPL_201
+    # name: Geldkatze
+    - id: ITEMTPL_284
+    # name: Kohlestift
+    - id: ITEMTPL_190
+    # name: Lampenöl, 8 Stunden Brennzeit
+    - id: ITEMTPL_5
+    # name: Messer
+    - id: ITEMTPL_167
+    # name: Nadel- und Zwirnset
+    - id: ITEMTPL_186
+    # name: Öllampe
+    - id: ITEMTPL_286
+    # name: Papier, 1 Blatt
+    - id: ITEMTPL_197
+    # name: Verband, 10 Stück
+    - id: ITEMTPL_191
+    # name: Zunder, 25 Portionen
+    - id: ITEMTPL_192
+    # name: Zunderdose (Platz für 25 Portionen)
+
+- id: EPKG_4
+# name: Abenteurerpaket (Havena)
+  items:
+    - id: ITEMTPL_145
+    # name: Beil/Handaxt
+    - id: ITEMTPL_2
+    # name: Dolch
+    - id: ITEMTPL_31
+    # name: Entermesser
+    - id: ITEMTPL_188
+    # name: Feuerstein und Stahl
+    - id: ITEMTPL_202
+    # name: Gürteltasche
+    - id: ITEMTPL_415
+    # name: Gwen-Petryl-Stein, fingerkuppengroß
+    - id: ITEMTPL_139
+    # name: Kleidungsset: Frei
+      amount: 2
+    - id: ITEMTPL_219
+    # name: Kletterseil
+      amount: 10 # 10 Schritt
+    - id: ITEMTPL_238
+    # name: Kompass (Südweiser)
+    - id: ITEMTPL_190
+    # name: Lampenöl, 12 Stunden Brennzeit
+    - id: ITEMTPL_185
+    # name: Laterne
+    - id: ITEMTPL_205
+    # name: Lederrucksack
+    - id: ITEMTPL_299
+    # name: Heiltrank
+      amount: 4 # QS 4
+    - id: ITEMTPL_216
+    # name: Wasserschlauch
+    - id: ITEMTPL_224
+    # name: Wurfhaken
+
+- id: EPKG_5
+# name: Bürgerpaket (Havena)
+  items:
+    - id: ITEMTPL_2
+    # name: Dolch
+    - id: ITEMTPL_738
+    # name: Efferdfigürchen
+    - id: ITEMTPL_188
+    # name: Feuerstein und Stahl
+    - id: ITEMTPL_200
+    # name: Geldbeutel
+    - id: ITEMTPL_739
+    # name: Goldamulett
+    - id: ITEMTPL_339
+    # name: Kamm
+    - id: ITEMTPL_139
+    # name: Kleidungsset: Frei
+    - id: ITEMTPL_167
+    # name: Nadel- und Zwirnset
+    - id: ITEMTPL_186
+    # name: Öllampe
+    - id: ITEMTPL_286
+    # name: Papier, 1 Blatt
+    - id: ITEMTPL_740
+    # name: Perlen
+    - id: ITEMTPL_740
+    # name: Perlen
+    - id: ITEMTPL_348
+    # name: Schwamm
+    - id: ITEMTPL_197
+    # name: Verband, 10 Stück
+    - id: ITEMTPL_191
+    # name: Zunder, 25 Portionen
+    - id: ITEMTPL_192
+    # name: Zunderdose (Platz für 25 Portionen)
+
+- id: EPKG_6
+# name: Charyptorothkultistenpaket
+  items:
+    - id: ITEMTPL_730
+    # name: Charib’Yzz-Dolch
+    - id: ITEMTPL_31
+    # name: Entermesser
+    - id: ITEMTPL_139
+    # name: Kleidungsset: Frei
+    - id: ITEMTPL_238
+    # name: Kompass (Südweiser)
+    - id: ITEMTPL_731
+    # name: Krakensilberspeer
+    - id: ITEMTPL_108
+    # name: Kutte
+    - id: ITEMTPL_325
+    # name: Signalhorn
+    - id: ITEMTPL_216
+    # name: Wasserschlauch
+
+- id: EPKG_7
+# name: Schatzsucherpaket
+  items:
+    - id: ITEMTPL_187
+    # name: Abblendlaterne
+    - id: ITEMTPL_143
+    # name: Angel mit Angelschnur
+    - id: ITEMTPL_145
+    # name: Beil/Handaxt
+    - id: ITEMTPL_2
+    # name: Dolch
+    - id: ITEMTPL_31
+    # name: Entermesser
+    - id: ITEMTPL_182
+    # name: Fackel
+    - id: ITEMTPL_237
+    # name: Fernrohr
+    - id: ITEMTPL_188
+    # name: Feuerstein und Stahl
+    - id: ITEMTPL_741
+    # name: Halbwegs wasserfeste Lederstiefel
+    - id: ITEMTPL_153
+    # name: Hammer
+    - id: ITEMTPL_155
+    # name: Handsäge
+    - id: ITEMTPL_139
+    # name: Kleidungsset: Frei
+    - id: ITEMTPL_219
+    # name: Kletterseil, 10 Schritt
+      amount: 10
+    - id: ITEMTPL_238
+    # name: Kompass (Südweiser)
+    - id: ITEMTPL_190
+    # name: Lampenöl, 12 Stunden Brennzeit
+    - id: ITEMTPL_174
+    # name: Spaten
+    - id: ITEMTPL_214
+    # name: Umhängetasche
+
+- id: EPKG_8
+# name: Leichtes Gardistenpaket (Havena)
+  items:
+    - id: ITEMTPL_2
+    # name: Dolch
+    - id: ITEMTPL_217
+    # name: Fesselseil, Hanf, pro Schritt
+      amount: 5 # 5 Schritt
+    - id: ITEMTPL_188
+    # name: Feuerstein und Stahl
+    - id: ITEMTPL_41
+    # name: Hellebarde
+    - id: ITEMTPL_34
+    # name: Kurzschwert
+    - id: ITEMTPL_190
+    # name: Lampenöl, 12 Stunden Brennzeit
+    - id: ITEMTPL_185
+    # name: Laterne
+    - id: ITEMTPL_60
+    # name: Leichte Armbrust
+    - id: ITEMTPL_325
+    # name: Signalhorn
+    - id: ITEMTPL_82
+    # name: Stoffrüstung
+
+- id: EPKG_9
+# name: Schweres Gardistenpaket (Havena)
+  items:
+    - id: ITEMTPL_2
+    # name: Dolch
+    - id: ITEMTPL_217
+    # name: Fesselseil, Hanf, pro Schritt
+      amount: 5 # 5 Schritt
+    - id: ITEMTPL_188
+    # name: Feuerstein und Stahl
+    - id: ITEMTPL_41
+    # name: Hellebarde
+    - id: ITEMTPL_85
+    # name: Kettenrüstung
+    - id: ITEMTPL_190
+    # name: Lampenöl, 12 Stunden Brennzeit
+    - id: ITEMTPL_185
+    # name: Laterne
+    - id: ITEMTPL_37
+    # name: Säbel
+    - id: ITEMTPL_325
+    # name: Signalhorn

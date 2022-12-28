@@ -1,0 +1,99 @@
+- id: COND_1
+  name: "Sobrecarga"
+  level1: |
+    Ligeiramente Sobrecarregado: –1 de penalidade nos testes de perícia aplicáveis, –1 em AT, Defesa, INI e MOV
+  level2: |
+    Sobrecarregado –2 de penalidade nos testes de perícia aplicáveis, –2 em AT, Defesa, INI e MOV
+  level3: |
+    Muito Sobrecarregado: –3 de penalidade nos testes de perícia aplicáveis, –3 em AT, Defesa, INI e MOV
+  level4: |
+    *Incapacitado*: você não pode fazer nada além de diminuir o peso e descansar
+  src:
+    - id: US25001E
+      firstPage: 36
+
+- id: COND_2
+  name: "Estupor"
+  level1: |
+    Ligeiramente sonolento, - 1 em todos os testes
+  level2: |
+    Letárgico, -2 a todos os testes
+  level3: |
+    Muito lento, -3 em todos os testes
+  level4: |
+    *Incapacitado*
+  src:
+    - id: US25001E
+      firstPage: 35
+
+- id: COND_3
+  name: "Arrebatamento"
+  level1: |
+    Um pouco arrebatador, –1 em todos os testes de perícia e magia que não agradem a divindade do Abençoado
+  level2: |
+    Arrebatador, +1 em todos os testes de perícia e magia agradáveis a divindade do Abençoado, –2 em todos os outros testes
+  level3: |
+    Inspirado pelo Divino, +2 em todos os testes de perícia e magia agradáveis a divindade do Abençoado, –3 em todos os outros testes
+  level4: |
+    Instrumento do divino, +3 em todos os testes de perícia e magia agradáveis a divindade do Abençoado, –4 em todos os outros testes
+  src:
+    - id: US25001E
+      firstPage: 34
+
+- id: COND_4
+  name: "Medo"
+  level1: |
+    Inquieto, –1 em todos os testes
+  level2: |
+    Assustado, –2 em todos os testes
+  level3: |
+    Em Pânico, –3 em todos os testes
+  level4: |
+    Catatônico e, portanto, *incapacitado*
+  src:
+    - id: US25001E
+      firstPage: 35
+
+- id: COND_5
+  name: "Paralisia"
+  level1: |
+    Leve: –1 em todos os testes envolvendo movimento ou fala, reduza MOV em 25%
+  level2: |
+    Rigidez –2 em todos os testes envolvendo movimento ou fala, reduza MOV em 50%
+  level3: |
+    Mal consegue se mexer: –3 em todos os testes envolvendo movimento ou fala, reduza MOV em 75%
+  level4: |
+    Incapaz de se mover, portanto *imobilizado*
+  src:
+    - id: US25001E
+      firstPage: 35
+      lastPage: 36
+
+- id: COND_6
+  name: "Dor"
+  level1: |
+    Dor leve: –1 em todos os testes, –1 de MOV
+  level2: |
+    Dor perturbadora: –2 em todos os testes, –2 de MOV
+  level3: |
+    Dor severa: –3 em todos os testes, –3 de MOV
+  level4: |
+    *Incapacitado*, –4 em todos ostestes de perícias ou atributos mentais
+  src:
+    - id: US25001E
+      firstPage: 34
+      lastPage: 35
+
+- id: COND_7
+  name: "Confusão"
+  level1: |
+    Ligeiramente confuso: –1 em todos os testes
+  level2: |
+    Confuso: –2 em todos os testes
+  level3: |
+    Muito Confuso: –3 em todos os testes; ações complexas (como conjuração de feitiços, cânticos litúrgicos e o uso de perícias de conhecimento) são impossíveis
+  level4: |
+    *Incapacitado*
+  src:
+    - id: US25001E
+      firstPage: 34

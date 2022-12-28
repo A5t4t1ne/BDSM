@@ -1,0 +1,2713 @@
+- id: ITEMTPL_1
+  name: "langue-de-basilic"
+  versions:
+    note: |
+      Consacrée (Hésinde ; Sans-Nom) ; les armes consacrées de Hésinde ne sont disponibles que pour les prêtres de Hésinde, les armes consacrées du Sans-Nom ne sont pas disponibles pour les héros.
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_2
+  name: "dague"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_3
+  name: "croc-dragon"
+  versions:
+    note: |
+      Pour acquérir une croc-dragon, le héros doit appartenir — lors de la création du personnage — à une culture Naine.
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_4
+  name: "main-gauche"
+  versions:
+    note: |
+      Arme de parade
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_5
+  name: "couteau"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_6
+  name: "dague lourde"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_7
+  name: "waqqif"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_8
+  name: "fleuret"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_9
+  name: "rapière"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_10
+  name: "louvine"
+  versions:
+    note: |
+      Pour acquérir une louvine, le héros doit appartenir — lors de la création du personnage — à la culture Elfes des Prairies ou Elfes des Bois.
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_11
+  name: "masse de Brabak"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_12
+  name: "massue"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_13
+  name: "gourdin"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_14
+  name: "tranche-ver"
+  versions:
+    note: |
+      Pour acquérir une tranche-ver, le héros doit appartenir — lors de la création du personnage — à une culture Naine.
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_15
+  name: "bâton de magicien, court"
+  versions:
+    note: |
+      Pour acquérir un bâton de magicien, le héros doit appartenir — lors de la création du personnage — à la tradition magicien de guilde.
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_16
+  name: "bâton de magicien, moyen"
+  versions:
+    note: |
+      Pour acquérir un bâton de magicien, le héros doit appartenir — lors de la création du personnage — à la tradition magicien de guilde.
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_17
+  name: "molokdeschnaja"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_18
+  name: "nezdork"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_19
+  name: "bec de corbin"
+  versions:
+    note: |
+      Consacrée (Boron) ; les armes consacrées de Boron ne sont disponibles que pour les prêtres de Boron.
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_20
+  name: "sceptre du soleil"
+  versions:
+    note: |
+      Consacrée (Praïos) ; les armes consacrées de Praïos ne sont disponibles que pour les prêtres de Praïos.
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_21
+  name: "hache d'armes"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_22
+  name: "masse d'armes"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_23
+  name: "fléau d'armes"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_24
+  name: "lance de guerre"
+  versions:
+    note: |
+      Cette arme peut être uniquement utilisée avec la CS charge à la lance.
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_25
+  name: "poing de combat"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 366
+
+- id: ITEMTPL_26
+  name: "bouclier en bois"
+  versions:
+    note: |
+      Petit bouclier
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_27
+  name: "bouclier en cuir"
+  versions:
+    note: |
+      Petit bouclier
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_28
+  name: "bouclier thorvalois"
+  versions:
+    note: |
+      Bouclier moyen
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_29
+  name: "grand bouclier"
+  versions:
+    note: |
+      Grand bouclier
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_30
+  name: "épée barbare"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_31
+  name: "sabre d'abordage"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_32
+  name: "fauchon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_33
+  name: "khunchome"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_34
+  name: "épée courte"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_35
+  name: "épée longue"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_36
+  name: "fauchon des névés"
+  versions:
+    note: |
+      Pour acquérir un fauchon des névés, le héros doit appartenir — lors de la création du personnage — à la culture Elfes des Névés
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_37
+  name: "sabre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_38
+  name: "servemort"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_39
+  name: "trident"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_40
+  name: "dschadra"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_41
+  name: "hallebarde"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_42
+  name: "lance de bois"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_43
+  name: "bâton de combat"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_44
+  name: "bâton de magicien, long"
+  versions:
+    note: |
+      Pour acquérir un bâton de magicien, le héros doit appartenir — lors de la création du personnage — à la tradition magicien de guilde.
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_45
+  name: "lance"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_46
+  name: "double-lys"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367
+
+- id: ITEMTPL_47
+  name: "épée bâtarde"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_48
+  name: "double khunchome"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_49
+  name: "grand servemort"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_50
+  name: "peigne de Rondra"
+  versions:
+    note: |
+      Consacrée (Rondra) ; les armes consacrées de Rondra ne sont disponibles que pour les prêtres de Rondra.
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_51
+  name: "lame de Tuzak"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_52
+  name: "épée à deux mains"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_53
+  name: "hache d'armes barbare"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_54
+  name: "fend-roc"
+  versions:
+    note: |
+      Pour acquérir un fend-roc, le héros doit appartenir — lors de la création du personnage — à une culture Naine.
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_55
+  name: "marteau de guerre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_56
+  name: "maillet Nain"
+  versions:
+    note: |
+      Pour acquérir un maillet Nain, le héros doit appartenir — lors de la création du personnage — à une culture Naine.
+    src:
+      - id: LDR1
+        firstPage: 368
+
+- id: ITEMTPL_57
+  name: "balestrine"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_58
+  name: "ferboise"
+  versions:
+    note: |
+      Ferboise (disposant dʼun magasin pour 10 tirs) ; 2 actions par tir, 10 actions pour remplacer le magasin vide par un plein.
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_59
+  name: "arbalète de poing"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_60
+  name: "arbalète légère"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_61
+  name: "arbalète lourde"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_62
+  name: "arc elfique"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_63
+  name: "arc composite"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_64
+  name: "arc court"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_65
+  name: "arc long"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_66
+  name: "ciselle"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_67
+  name: "pierre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_68
+  name: "hache de jet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_69
+  name: "dague de jet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_70
+  name: "massue de jet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_71
+  name: "anneau de jet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_72
+  name: "disque de jet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_73
+  name: "javelot"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_74
+  name: "étoile de jet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 372
+
+- id: ITEMTPL_75
+  name: "flèche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 373
+
+- id: ITEMTPL_76
+  name: "carreau"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 373
+
+- id: ITEMTPL_77
+  name: "jalet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 373
+
+- id: ITEMTPL_78
+  name: "vêtements ordinaires"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_79
+  name: "fourrures"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_80
+  name: "vêtements épais"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_81
+  name: "vêtements d'hiver"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_82
+  name: "cotte matelassée"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_83
+  name: "gambison"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_84
+  name: "armure de cuir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_85
+  name: "cotte de mailles"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_86
+  name: "armure d'écailles"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_87
+  name: "armure de plates"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_88
+  name: "corde d'arc"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_89
+  name: "fourreau pour dague"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_90
+  name: "carquois pour 20 flèches ou carreaux"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_91
+  name: "fourreau pour épée"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_92
+  name: "pourpoint"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_93
+  name: "matériel d'entretien d'armes (pierre d'affûtage, tissu)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_94
+  name: "robe de bal"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_95
+  name: "toque"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_96
+  name: "guimpe"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_97
+  name: "chapeau de feutre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_98
+  name: "chaperon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_99
+  name: "foulard"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_100
+  name: "chemise"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_101
+  name: "pantalon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_102
+  name: "pantalon avec poches"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_103
+  name: "jaquette"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_104
+  name: "caftan"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_105
+  name: "manteau à capuchon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_106
+  name: "robe  "
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_107
+  name: "corset"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_108
+  name: "bure"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_109
+  name: "ceinture en cuir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_110
+  name: "gants en cuir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_111
+  name: "chapeau en cuir à large bord"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_112
+  name: "manteau en cuir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_113
+  name: "chaussures en cuir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_114
+  name: "tablier en cuir à poches"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_115
+  name: "bottes de cuir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_116
+  name: "pagne"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_117
+  name: "robe de magicien"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_118
+  name: "manteau"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_119
+  name: "chemise de nuit"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_120
+  name: "mitaines de fourrure"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_121
+  name: "bottes fourrées"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_122
+  name: "chapeau de fourrure"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_123
+  name: "jupe"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_124
+  name: "sandales"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_125
+  name: "châle"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_126
+  name: "voile"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_127
+  name: "corsage en dentelles"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_128
+  name: "écharpe en soie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 374
+
+- id: ITEMTPL_129
+  name: "bas de soie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_130
+  name: "chapeau de paille"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_131
+  name: "tunique"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_132
+  name: "turban"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_133
+  name: "culotte"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_134
+  name: "fond de robe"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_135
+  name: "tabard"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_136
+  name: "veste"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_137
+  name: "bas de laine"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_138
+  name: "paquetage de vêtements : asservi"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_139
+  name: "paquetage de vêtements : libre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_140
+  name: "paquetage de vêtements : basse noblesse"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_141
+  name: "paquetage de vêtements : noblesse"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_142
+  name: "paquetage de vêtements : haute noblesse"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_143
+  name: "hameçon avec ligne de 10 pas"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_144
+  name: "gobelet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_145
+  name: "hachette"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_146
+  name: "balai"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_147
+  name: "broche de fer"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_148
+  name: "fourche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_149
+  name: "fléau"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_150
+  name: "couverts"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_151
+  name: "lime"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_152
+  name: "poulie pour 250 pierres"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_153
+  name: "marteau"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_154
+  name: "chignole"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_155
+  name: "scie à main"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_156
+  name: "hamac"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_157
+  name: "machette"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_158
+  name: "hache de bûcheron"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_159
+  name: "bol en bois"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_160
+  name: "assiette en bois"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_161
+  name: "pitons d'escalade (x10)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_162
+  name: "cruche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_163
+  name: "marmite en cuivre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_164
+  name: "colle"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_165
+  name: "burin"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_166
+  name: "couteau"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_167
+  name: "ensemble de fils et aiguilles"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_168
+  name: "clous (x10)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_169
+  name: "poêle"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_170
+  name: "pelle"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_171
+  name: "ciseaux"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_172
+  name: "sac de couchage"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_173
+  name: "raquettes à neige"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_174
+  name: "bêche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_175
+  name: "pioche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_176
+  name: "échelle de corde, par pas"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_177
+  name: "couverture en laine"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_178
+  name: "tenailles"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_179
+  name: "tente, 1 personne"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_180
+  name: "tente, 2 personnes"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_181
+  name: "provisions pour un jour"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 375
+
+- id: ITEMTPL_182
+  name: "torche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_183
+  name: "pierre de gwen-petryl (taille du poing)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_184
+  name: "bougies (x10)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_185
+  name: "lanterne"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_186
+  name: "lampe à huile"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_187
+  name: "lampe-tempête"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_188
+  name: "briquet à amadou"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_189
+  name: "chandelier"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_190
+  name: "huile pour lampe (12 heures de durée d'éclairage)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_191
+  name: "amadou (x25)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_192
+  name: "boîte à amadou, pour 25 portions"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_193
+  name: "sangsue"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_194
+  name: "instruments de chirurgie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_195
+  name: "perforateur crânien"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_196
+  name: "verre ventouse"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_197
+  name: "bandages (x10)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_198
+  name: "kit de couture de plaies"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_199
+  name: "gourde"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_200
+  name: "bourse"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_201
+  name: "aumônière"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_202
+  name: "pochette à ceinture"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_203
+  name: "hotte"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_204
+  name: "sacoche en cuir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_205
+  name: "sac à dos en cuir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_206
+  name: "fiole"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_207
+  name: "poudrier"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_208
+  name: "sac"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_209
+  name: "coffret à bijoux"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_210
+  name: "pot à onguent"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_211
+  name: "corne à boire"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_212
+  name: "coffre "
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_213
+  name: "sac en tissu"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_214
+  name: "sac à bandoulière"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_215
+  name: "vase"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_216
+  name: "outre d'eau"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 376
+
+- id: ITEMTPL_217
+  name: "cordelette d'entrave, par pas"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_218
+  name: "chaîne, par pas"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_219
+  name: "corde d'escalade, par pas"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_220
+  name: "ficelle, par 10 pas"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_221
+  name: "pied-de-biche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_222
+  name: "crochets"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_223
+  name: "fausse barbe"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_224
+  name: "grappin"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_225
+  name: "laboratoire archaïque"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_226
+  name: "cuisine de sorcière"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_227
+  name: "laboratoire d'alchimie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_228
+  name: "outils de mécanique fine"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_229
+  name: "outils de gravure"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_230
+  name: "outils de cartographie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_231
+  name: "boîte à couture"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_232
+  name: "outils de tatouage"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_233
+  name: "boîte de charpentier"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 377
+
+- id: ITEMTPL_234
+  name: "boulier"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_235
+  name: "astrolabe"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_236
+  name: "lunettes d'ambre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_237
+  name: "longue-vue"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_238
+  name: "boussole (pierre-sud)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_239
+  name: "quadrant"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_240
+  name: "sablier"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_241
+  name: "montre à gousset (oeuf de Saltes)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_242
+  name: "amulette, bronze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_243
+  name: "amulette, argent"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_244
+  name: "amulette, or"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_245
+  name: "bracelet, bronze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_246
+  name: "bracelet, argent"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_247
+  name: "bracelet, or"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_248
+  name: "bracelet, bronze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_249
+  name: "bracelet, argent"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_250
+  name: "bracelet, or"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_251
+  name: "collier, bronze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_252
+  name: "collier, argent"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_253
+  name: "collier, or"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_254
+  name: "boucle d'oreille, bronze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_255
+  name: "boucle d'oreille, argent"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_256
+  name: "boucle d'oreille, or"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_257
+  name: "anneau, bronze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_258
+  name: "anneau, argent"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_259
+  name: "anneau, or"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_260
+  name: "tiare, bronze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_261
+  name: "tiare, argent"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_262
+  name: "tiare, or"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_263
+  name: "améthyste"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_264
+  name: "aigue-marine"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_265
+  name: "aventurine"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_266
+  name: "cristal de roche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_267
+  name: "ambre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_268
+  name: "diamant"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_269
+  name: "grenat"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_270
+  name: "jade verte"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_271
+  name: "cornaline"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_272
+  name: "lapis-lazuli"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_273
+  name: "pierre de lune"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_274
+  name: "onyx"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_275
+  name: "opale"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_276
+  name: "perle"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_277
+  name: "rubis"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_278
+  name: "saphir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_279
+  name: "émeraude"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_280
+  name: "topaze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_281
+  name: "turquoise"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_282
+  name: "plume d'oie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_283
+  name: "taille-plume"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_284
+  name: "crayon de charbon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_285
+  name: "craie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_286
+  name: "papier, 1 feuille"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_287
+  name: "parchemin, 1 feuille"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_288
+  name: "pinceau"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_289
+  name: "cire à cacheter"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_290
+  name: "journal"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_291
+  name: "encre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 378
+
+- id: ITEMTPL_292
+  name: "Bréviaire des Enseignements des Douze"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_293
+  name: "Codex Albyricus"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_294
+  name: "Encyclopaedia Magica"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_295
+  name: "Compaignon Ustile de l'Adepte Itynérant"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_296
+  name: "bracelet de volonté"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_297
+  name: "lame des névés"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_298
+  name: "antidote"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_299
+  name: "potion de guérison"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_300
+  name: "philtre d'amour"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_301
+  name: "élixir d'invisibilité"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_302
+  name: "élixir de transformation"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_303
+  name: "baume des armes"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_304
+  name: "potion de volonté"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_305
+  name: "potion magique"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 379
+
+- id: ITEMTPL_306
+  name: "arax"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_307
+  name: "gonède"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_308
+  name: "kelmon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_309
+  name: "wurara"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_310
+  name: "mandragora"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_311
+  name: "axordier"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_312
+  name: "donfe"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_313
+  name: "horrisangue"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_314
+  name: "golune"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_315
+  name: "lulanie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_316
+  name: "herbe frisée"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_317
+  name: "vielle"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_318
+  name: "fanfare"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_319
+  name: "flûte"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_320
+  name: "harpe troubadour"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_321
+  name: "flûte kaba"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_322
+  name: "luth"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_323
+  name: "flûte à soufflet "
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_324
+  name: "cloche"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_325
+  name: "clairon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_326
+  name: "épinette"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_327
+  name: "harpe  "
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_328
+  name: "tambour"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_329
+  name: "huile de bain"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_330
+  name: "bière, petit tonnelet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_331
+  name: "loupe"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_332
+  name: "plateau de jeu"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_333
+  name: "brosse"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_334
+  name: "figurine de dieu"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_335
+  name: "miroir à main"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_336
+  name: "balle de jonglage"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_337
+  name: "café, torréfié"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_338
+  name: "cacao"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_339
+  name: "peigne"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_340
+  name: "boule de cristal"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_341
+  name: "rouge à lèvres"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_342
+  name: "lime à ongles"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_343
+  name: "parfum"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_344
+  name: "poivre"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_345
+  name: "poudre de riz (maquillage)"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_346
+  name: "eau de vie"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_347
+  name: "chocolat"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_348
+  name: "éponge"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_349
+  name: "savon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_350
+  name: "jeu de cartes"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_351
+  name: "boîte à musique"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_352
+  name: "cheval bâton, jouet"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_353
+  name: "poupée de chiffon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_354
+  name: "tabac"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_355
+  name: "tabatière"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_356
+  name: "pipe"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_357
+  name: "mouchoir"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_358
+  name: "narguilé"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_359
+  name: "vin"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_360
+  name: "dés"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 380
+
+- id: ITEMTPL_361
+  name: "chien"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_362
+  name: "cheval"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_363
+  name: "mule"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_364
+  name: "poney"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_365
+  name: "collier et laisse"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_366
+  name: "fer à cheval"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_367
+  name: "bât"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_368
+  name: "selle d'équitation"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_369
+  name: "caparaçon"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_370
+  name: "sacoche de selle"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_371
+  name: "éperons"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_372
+  name: "pansage"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_373
+  name: "rêne et bride"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_374
+  name: "nourriture pour chien"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_375
+  name: "nourriture pour cheval"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_376
+  name: "nourriture pour poney"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_377
+  name: "chariot d'enfant"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_378
+  name: "chariot, à essieu unique"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_379
+  name: "petit bateau à rame"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_380
+  name: "petit bateau à voile"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_381
+  name: "carrosse"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 381
+
+- id: ITEMTPL_796
+  name: "bec de corbin"
+  versions:
+    src:
+      - id: LDR1
+        firstPage: 367

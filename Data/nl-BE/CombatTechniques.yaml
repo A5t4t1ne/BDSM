@@ -1,0 +1,93 @@
+- id: CT_1
+  name: "Kruisbogen"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 245
+
+- id: CT_2
+  name: "Bogen"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 245
+
+- id: CT_3
+  name: "Dolken"
+  special: |
+    Met Dolken kunnen er geen Kettingwapens, Stangwapens, Tweehandige slagwapens en Tweehandszwaarden worden afgeweerd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 235
+
+- id: CT_4
+  name: "Schermwapens"
+  special: |
+    Met Schermwapens kunnen er geen Kettingwapens, Stangwapens, Tweehandige slagwapens en Tweehandszwaarden worden gepareerd. Proeven op Verdediging tegen Schermwapenaanvallen zijn met 1 verzwaard.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 235
+
+- id: CT_5
+  name: "Slagwapens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 236
+
+- id: CT_6
+  name: "Kettingwapens"
+  special: |
+    Omdat ze vanwege de moeilijk controleerbare bollen nauwelijks af te weren zijn, is de Afweer tegen Kettingwapens verzwaard met 2. Schilden kunnen tegen Kettingwapens alleen hun eenvoudige Bonus op Verdediging gebruiken (hun AW-bonus wordt niet verdubbeld). Een Aanval met een Kettingwapen blundert al vanaf een rol van 19. Men kan niet afweren met Kettingwapens.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 235
+
+- id: CT_7
+  name: "Lansen"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 235
+
+- id: CT_9
+  name: "Knokken"
+  special: |
+    Als ongewapende vechters een gewapende Aanval Afweren, dan lopen de ongewapenden in elk geval de volle Schade op (en zouden ze beter Ontwijken). Als een Aanval Knokken met een wapen wordt afgeweerd, dan krijgt de aanvaller de halve Wapenschade van het wapen van de tegenstander. Door middel van Knokken richt een vechter in principe 1D6 TP aan, die echter aangepast kan worden via de Hoofdeigenschap.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 235
+
+- id: CT_10
+  name: "Schilden"
+  special: |
+    De Aanvalsen afweerwaarden van Schilden worden berekend op dezelfde manier als bij andere Gevechtstechnieken. De Afweer met de Gevechtstechniek Schilden is echter aangepast met de dubbele Afweerbonus van het respectievelijke Schild en heeft geen verzwaringen als het met de verkeerde hand wordt gehanteerd. Afstandsaanvallen en aanvallen van grotere tegenstanders kunnen worden afgeweerd met een Schild. Een tweede Schild verhoogt deze Bonus niet. Om Afstandsaanvallen af te weren, moet er actief gepareerd worden met het schild, een Afweer met het hoofdwapen is niet voldoende. Met een schild kan men ook aanvallen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 236
+
+- id: CT_12
+  name: "Zwaarden"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 236
+
+- id: CT_13
+  name: "Stangwapens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 236
+
+- id: CT_14
+  name: "Werpwapens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 245
+
+- id: CT_15
+  name: "Tweehandige slagwapens"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 236
+
+- id: CT_16
+  name: "Tweehandszwaarden"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 236

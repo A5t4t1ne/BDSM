@@ -1,0 +1,483 @@
+- id: C_1
+  name: "Andergastien"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (exemple : Joborn)."
+  commonMundaneProfessions: "toutes sauf gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière (surtout sorcière-corbeau et sorcière-crapaud)."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "coriace, sens de lʼorientation."
+  commonDisadvantages: "faiblesse de caractère (préjugés— surtout à lʼencontre des Nostriens, des femmes ; étranger au monde — en particulier à la notion de progrès ettout ce qui est extérieur au royaume), mauvaise qualité(superstition)"
+  uncommonAdvantages: "caméléon social, effacé, résistance à la chaleur."
+  uncommonDisadvantages: "sensibilité aux maladies."
+  commonNames: |
+    - *Male:* Arnbold, Borkhelm, Gartwald, Ludewich, Marik, Oakward, Strammgert, Wendolyn, Wenzelaus, Zoltan
+    - *Female:* Berga, Domela, Ernka, Hadwiga, Irmela, Larja, Marmelunde, Treshka, Wendeline
+    - *Family Names:* Alrikshuber, Barkmaster, Hatcheter, Cowfarmer, Marketfarmer, Oakinger, Saddlehuber, Swineherd, Woodgood, Zibbelbert
+    - *Noble Families:* of Anderstone, of Barkfield, of Pawstone, of Stonetree, of Teshkal
+  src:
+    - id: LDR1
+      firstPage: 96
+
+- id: C_2
+  name: "Aranien"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (exemple : Babourine, Elburan, Llanka, Palmyrabad, Zorgan)."
+  commonMundaneProfessions: "toutes sauf chevalier, gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien (rare), sorcière (surtoutsorcière-chat)."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "prédisposition aux talents sociaux, sens des distances."
+  commonDisadvantages: "faiblesse de caractère (vanité, pré-jugés : surtout à lʼencontre des Novadis et des magiciens),fragile, mauvaise qualité (superstition)."
+  uncommonAdvantages: "résistance au froid."
+  uncommonDisadvantages: "rage sanguinaire."
+  commonNames: |
+    - *Male:* Assaf, Djafardeon, Eslam, Faizal, Kazan, Mahdul, Marwamir, Nazir, Seychaban, Zahir
+    - *Female:* Aishanka, Belima, Delilah, Harizeth, Majula, Neraida, Rhayadaque, Shilaldara, Yamira, Zulhaminai
+
+    Names are connected to the name of the mother or father, with *ibn* for men and *saba* or *-sunni* for women (for example, Yamira saba Delihah, Belima Majulasunni, or Assaf ibn Eslam).
+  src:
+    - id: LDR1
+      firstPage: 98
+
+- id: C_3
+  name: "Sourcelandais"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (exemple : Rodebrande, Festum, Misérianne, Norbourg, Ouvenmas)."
+  commonMundaneProfessions: "toutes sauf gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière (surtout sorcière-corbeau et sorcière-crapaud)."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "coriace, résistance au froid, sens de lʼorientation."
+  commonDisadvantages: "faiblesse de caractère (préjugés : surtout à lʼencontre des Orks, des Gobelins, des AlʼAnfaniens et des Norbards), mauvaise qualité (superstition), sensibilité à la chaleur."
+  uncommonAdvantages: "résistance à la chaleur."
+  uncommonDisadvantages: "résistance à la chaleur."
+  commonNames: |
+    - *Male:* Bosjew, Danow, Elkwin, Firunew, Irjan, Jaakon, Jucho, Oswin, Travin, Vito
+    - *Female:* Alwinja, Dunjascha, Elkwinja, Hesinja, Irinja, Jadvine, Karinja, Nadjescha, Rowena, Vanjescha
+    - *Family Names:* Alwinnen, Baerow, Bornski, Firunkis, Gartimpski, Gerberow, Karenkis, Larinow, Saraski, Timpski
+    - *Noble Families:* of Ashford, of Fontdark, of Ouvenstem, of Salderkeim, of Wosna
+  src:
+    - id: LDR1
+      firstPage: 114
+
+- id: C_4
+  name: "Fjarning"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple un village et ses environs)."
+  commonMundaneProfessions: "chasseur, guérisseur, guerrier tribal, marchand (surtout troqueur), mercenaire."
+  commonAdvantages: "coriace, régénération améliorée (énergie vitale), résistance au froid, sens de lʼorientation, sens des distances."
+  commonDisadvantages: "inaptitude dans les talents sociaux, mauvaises qualités (superstition, irascibilité), rage sanguinaire, sensibilité à la chaleur, thalassophobie."
+  uncommonAdvantages: "caméléon social, effacé, résistance à la chaleur."
+  uncommonDisadvantages: "cécité nocturne, claustrophobie, faiblesse de caractère (vanité), fragile, nyctophobie, obésité, sensibilité au froid, vertige."
+  commonNames: |
+    - *Male:* Asgold, Blotgrim, Engur, Frunobar, Gjallur, Havgrimur, Pandur, Raluf, Surthor, Valbrandar
+    - *Female:* Asgora, Dandagard, Funudara, Gunnlaug, Halfga, Jaldrud, Rangra, Svannlaug, Ulfgard, Ylwa
+    - *Known Tribes:* Doubleax-Tribe, Icefox-Tribe, Screaming-Swords-Tribe
+
+    Family names are uncommon; honorable names like Bearkiller, Frostblade, or Lurking Death are popular.
+  src:
+    - id: LDR1
+      firstPage: 102
+
+- id: C_5
+  name: "Horasien"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple Arivor, Bélhanka, Béthana, Grangor, Kuslik, Méthumis, Nétha, Saltes)."
+  commonMundaneProfessions: "toutes sauf chevalier, gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière"
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "caméléon social."
+  commonDisadvantages: "faiblesses de caractère (arrogant, vaniteux, préjugés — surtout à lʼencontre des non-Horasiens)."
+  uncommonAdvantages: "prédisposition dans les talents de nature."
+  uncommonDisadvantages: "claustrophobie."
+  commonNames: |
+    - *Male:* Alricio, Baduin, Carolan, Cusimo, Duardo, Horadan, Jacopo, Phedro, Quendan, Rondrigo
+    - *Female:* Ardare, Carisia, Elaria, Gylvana, Hesindiane, Pamina, Quedora, Rahjamande, Sanya, Sharina
+    - *Family Names:* Bosvani, Caranda, Delicado, Marnion, Melior, Novacasa, Spinola, Torrean, Ulfaran, Vansanti
+    - *Noble Families:* Barazza, Casibelli, Cavarno, Marcia, Sulvano
+
+    Nobles usually place a *dy* between first and family name, as in Ardare dy Casibelli.
+  src:
+    - id: LDR1
+      firstPage: 103
+
+- id: C_6
+  name: "Maraskanite"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple Boran, Jergan, Sinoda, Tuzak)."
+  commonMundaneProfessions: "toutes sauf chevalier, gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière."
+  commonAdvantages: "caméléon social, résistance à la chaleur, résistance aux maladies, résistance aux poisons, sens de lʼorientation."
+  commonDisadvantages: "faiblesse de caractère (arrogant, préjugés — surtout à lʼencontre des Impériaux), mauvaise qualité (curiosité)."
+  uncommonAdvantages: "résistance au froid."
+  uncommonDisadvantages: "achromatie, entomophobie, mauvaise qualité (irascibilité)."
+  commonNames: |
+    - *Male:* Alrech, Brinziber, Denderan, Dshindziber, Feruziber, Firold, Gerbaldijian, Mulziber, Perjin, Vegsziber
+    - *Female:* Bekasabu, Dajida, Fathimajida, Garasab, Harikajida, Madajida, Shinojida, Tsarysham, Yasindajida, Zulamidjida
+
+    Family names are uncommon, but often a home town or nickname is included in the name, such as Vegziber from Sinoda, or Dajida the Swift.
+  src:
+    - id: LDR1
+      firstPage: 106
+
+- id: C_7
+  name: "Mhanadistani"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple Fasar, Khunchom, Rashdul, Thalussa)."
+  commonMundaneProfessions: "toutes sauf chevalier et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière (surtout sorcière-chat)."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "caméléon social, chance, résistance à la chaleur."
+  commonDisadvantages: "faiblesses de caractère (vaniteux, préjugés — surtout à lʼencontre des Novadis, des Impériaux, des Araniens, des femmes et des Maraskanites), mauvaises qualités (cupidité, curiosité, superstition)."
+  uncommonAdvantages: "résistance au froid."
+  uncommonDisadvantages: "agoraphobie, ochlophobie."
+  commonNames: |
+    - *Male:* Abu, Cherek, Dshadir, Farsid, Hamar, Ismeth, Jassafer, Kasim, Shafir, Tarek
+    - *Female:* Chanya, Demeya, Djamilla, Kerime, Manjula, Nassiban, Palmeya, Sajida, Yeshina, Zulhamin
+    - *Honorifics for Men:* al-Ahjan (the combative), al-Ahmad (the avenger), al-Alam (the scholar), al-Ankhra (the lion), Al-Fessor (the cunning)
+    - *Honorifics for Women:* al-Jamila (the beautiful), as- Shabra (the shining), as-Shaya (jewel), as-Sarjaban (Aranian cat), bint-al-Laila (daughter of night)
+
+    Names are connected to the name of the mother or father, using *ibn* for men and *saba* or *-sunni* for women. Examples: Djamilla saba Kerime, Zulhamin Yeshinasunni or Cherek ibn Hamar.
+  src:
+    - id: LDR1
+      firstPage: 107
+
+- id: C_8
+  name: "Impérial"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple Angbar, Elenvina, Gareth, Gué-du-Griffon, Havéna, Punin)."
+  commonMundaneProfessions: "toutes sauf guerrier tribal, gladiateur est très rare."
+  commonMagicalProfessions: "magicien, sorcière."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "chance."
+  commonDisadvantages: "faiblesses de caractère (préjugés — surtout à lʼencontre des autres croyances, des Elfes, des Orks, des Gobelins et des non-Impériaux), mauvaise qualité (superstition)."
+  uncommonAdvantages: "résistance à la chaleur, résistance au froid."
+  commonNames: |
+    - *Male:* Alrik, Cordovan, Darian, Erlan, Gerion, Hagen, Praiodan, Refardeon, Viburn, Yendor
+    - *Female:* Alena, Caya, Dorlen, Elwene, Fiana, Khorena, Oleana, Quisira, Sannah, Xaviera
+    - *Family Names:* Alfaran, Berlind, Damotil, Foxfur, Gravesalve, Harnessmaker, Mildflock, Stonecarver, Winterfrost, Zandor
+    - *Noble Families:* of the Mountain, of Galahan, of Mersingen, of Streitzig, of Stormrock
+  src:
+    - id: LDR1
+      firstPage: 104
+
+- id: C_9
+  name: "Moha"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple un village et ses environs)."
+  commonMundaneProfessions: "chasseur (surtout chasseur tribal), guérisseur, guerrier tribal, marchand (surtout troqueur), mercenaire."
+  commonAdvantages: "beauté, chance, contorsionniste, résistance à la chaleur, résistance aux poisons, sens de lʼorientation."
+  commonDisadvantages: "claustrophobie, faible ténacité mentale, faiblesse de caractère (préjugés — surtout à lʼencontre des non-Mohas), mauvaises qualités (superstition, curiosité), sensibilité au froid, thalassophobie , thanatophobie."
+  uncommonAdvantages: "résistance au froid."
+  uncommonDisadvantages: "arachnophobie, cécité nocturne, entomophobie, faiblesse de caractère (vaniteux), herpétophobie, inaptitude dans les talents de nature, mauvaise qualité (cupidité), sensibilité aux maladies, vertige."
+  commonNames: |
+    - *Forest Folk:* Cankuna (Nimble), Kehala (Turtle), Takete (One Whose Hand is Always Bloody), Wapiya (One Whose Hands Do Good), Yako (Cat, Great Cat)
+    - *Utulu:* Kalimba, Mangabe, Shasiwatu, Tenkile, Usuthu
+    - *Tocamuyac:* Anakena, Ataranga, Kiri, Miru, Rano
+    - *Known Tribes:* Anoiha, Chirakah, Darna, Haipu, Keke-Wanaq, Miniwatu, Mohaha, Napewanha, Oijaniha, Panaq-Si, Ruwangi, Shokubunga, Tocamuyac
+
+    Mohish names are suitable for both females and males.
+  src:
+    - id: LDR1
+      firstPage: 109
+
+- id: C_10
+  name: "Nivèse"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple une route)."
+  commonMundaneProfessions: "chasseur (surtout chasseur tribal), guérisseur, guerrier tribal, marchand (surtout troqueur), mercenaire."
+  commonAdvantages: "résistance au froid, sens de lʼorientation."
+  commonDisadvantages: "claustrophobie, thanatophobie, vertige."
+  uncommonAdvantages: "caméléon social, résistance à la chaleur."
+  uncommonDisadvantages: "obésité, faiblesse de caractère (arrogant), mauvaise qualité (cupidité)."
+  commonNames: |
+    - *Male:* Arko, Eiko, Garnan, Hunjok, Jurtan, Kinajo, Latu, Nerkjo, Tamperen, Valen
+    - *Female:* Amuri, Dana, Geika, Jalani, Kantala, Liskaju, Myrra, Nirka, Saari, Vaala
+    - *Known Tribes:* Hokke, Rika-Lie, Takku, Lieska-Leddu, Lieska-Lärna
+  src:
+    - id: LDR1
+      firstPage: 110
+
+- id: C_11
+  name: "Norbard"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple une route)."
+  commonMundaneProfessions: "chasseur, guérisseur, marchand, mercenaire, vagabond."
+  commonMagicalProfessions: "magicien (rare), sorcière."
+  commonBlessedProfessions: "prêtre de Hésinde, prêtre de Phex."
+  commonAdvantages: "résistance au froid, sens de lʼorientation."
+  commonDisadvantages: "claustrophobie, mauvaises qualités (cupidité, curiosité), obligations (envers le clan), vertige."
+  uncommonAdvantages: "résistance à la chaleur."
+  uncommonDisadvantages: "faiblesse de caractère (arrogant), personne de principes (de tout type)."
+  commonNames: |
+    - *Male:* Aikul, Beril, Darjew, Fadril, Jagotin, Kergil, Laromir, Mikail, Radul, Tuljew
+    - *Female:* Barina, Dagris, Eika, Hetinka, Janka, Kolja, Lexaja, Olja, Slanka, Tuminka
+    - *Family Names:* Aljeff, Bolscheff, Choprutin, Dagoneff, Garkinen, Janig, Koranzig, Kowalejeff, Lugoltin, Sewerin
+  src:
+    - id: LDR1
+      firstPage: 111
+
+- id: C_12
+  name: "Aventurien du Nord"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple Enqui, Udhemont, Oblarasim, Paavi, Riva)."
+  commonMundaneProfessions: "toutes sauf gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "coriace, sens de lʼorientation, sens des distances."
+  commonDisadvantages: "claustrophobie, mauvaise qualité (superstition)."
+  uncommonAdvantages: "résistance à la chaleur."
+  uncommonDisadvantages: "sensibilité aux maladies."
+  commonNames: |
+    Northern Aventurians can use Middenrealmish, Nivese, Norbarsian, or Thorwalian names, depending on their ancestry.
+  src:
+    - id: LDR1
+      firstPage: 99
+
+- id: C_13
+  name: "Nostrien"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (Salzhavre, Nostria, Salza)."
+  commonMundaneProfessions: "toutes sauf gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "coriace, sens de lʼorientation."
+  commonDisadvantages: "faiblesse de caractère (préjugés — surtout à lʼencontre des Andergastiens, des étrangers — surtout à lʼencontre du progrès, du monde extérieur), mauvaise qualité (superstition)."
+  uncommonAdvantages: "caméléon social."
+  uncommonDisadvantages: "sensibilité aux maladies."
+  commonNames: |
+    - *Male:* Ablasion, Basilio, Dorleno, Ingvalion, Jasper, Kasimir, Modeno, Sapertyn, Valputrio, Zarquisio
+    - *Female:* Asmodette, Caristhea, Doranthe, Elida, Gloranthe, Kasmira, Mafizia, Nostriane, Sieghelmina, Yasmina
+    - *Family Names:* Adabasio, Almondfine, Elgeryn, Fishling, Furier, Grudgebag, Linenweaver, Nosterwhite, Salterin, Wilmhold
+    - *Noble Families*: of Fishpond, of Salza, of Salzerhaven, of Sappenstiel, of Vesselbek
+  src:
+    - id: LDR1
+      firstPage: 112
+
+- id: C_14
+  name: "Novadi"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple Keft, Mheroued, Unao)."
+  commonMundaneProfessions: "toutes sauf gladiateur et chevalier."
+  commonMagicalProfessions: "magicien (rare)."
+  commonAdvantages: "coriace, résistance à la chaleur, résistance à lʼensorcellement, sens de lʼorientation, sens des distances."
+  commonDisadvantages: "claustrophobie, faiblesses de caractère (arrogant, préjugés — surtout envers les femmes et les non-croyants), personne de principes (les 99 Lois), mauvaise qualités (irascibilité, esprit de vengeance), thalassophobie."
+  uncommonAdvantages: "résistance au froid."
+  uncommonDisadvantages: "sensibilité à la chaleur."
+  commonNames: |
+    - *Male:* Abdul, Chadim, Habled, Khorim, Omar, Mustafa, Nareb, Rashid, Said, Zahir
+    - *Female:* Aisha, Eshila, Fadime, Laila, Meriban, Nedime, Oyan, Perishan, Ranchel, Shila
+    - *Known Tribes:* Beni Ankhara, Beni Arrat, Beni Avad, Beni Brachtar, Beni Erkin, Beni Gadang, Beni Kasim, Beni Kharram, Beni Novad, Beni Schebt, Beni Shadif, Beni Szelemjati, Beni Terkui
+
+    Names are connected to the name of the mother or father, with *ben* for men and *saba* or *-sunni* for women. Examples include Nedime saba Shila, Ranchel Oyansunni, or Omar ben Said. Like the Mhanadistani, Novadi use honorifics.
+  src:
+    - id: LDR1
+      firstPage: 113
+
+- id: C_15
+  name: "Aventurien du Sud"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance."
+  commonMundaneProfessions: "toutes sauf chevalier et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "caméléon social, résistance à la chaleur."
+  commonDisadvantages: "faiblesses de caractère (arrogant, vaniteux), mauvaises qualités (superstition, cupidité, irascibilité, curiosité), sensibilité au froid."
+  uncommonAdvantages: "résistance au froid."
+  uncommonDisadvantages: "claustrophobie, ochlophobie, thanatophobie."
+  commonNames: |
+    - *Male:* Alondro, Boromeo, Diago, Firunando, Ghorio, Lucan, Mandolo, Nestario, Ramon, Yuan
+    - *Female:* Consuela, Dolorita, Esmeralda, Jesabela, Katalinya, Marchesca, Phelicitas, Rahjadés, Valería, Ximena
+    - *Family Names:* Beratas, Cornio, Delazar, Erabenas, Kalando, Lupinez, Malagro, Nirrano, Ramirez, Santana
+    - *Noble Families:* Bonareth, Florios, Karinor, Paligan, Zornbrecht
+  src:
+    - id: LDR1
+      firstPage: 100
+
+- id: C_16
+  name: "Val-Svelltois"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, Fondbourg, Gashok, Lowangue, Tjolmar)."
+  commonMundaneProfessions: "toutes sauf gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "coriace, sens de lʼorientation, sens des distances."
+  commonDisadvantages: "claustrophobie, faiblesse de caractère (préjugés — surtout à lʼencontre des Orks), mauvaise qualité (superstition)."
+  uncommonAdvantages: "résistance à la chaleur."
+  uncommonDisadvantages: " sensibilité aux maladies."
+  commonNames: |
+    Svellters use the same names as those used in the Middenrealm, but often abbreviate their names and connect them with their appearance or occupation. Examples include Hook Harkon, Knife Jole, or Red Lu. Names are commonly shortened to one syllable.
+  src:
+    - id: LDR1
+      firstPage: 117
+
+- id: C_17
+  name: "Thorvalois"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, Olport, Prem, la ville de Thorval, Vaskir)."
+  commonMundaneProfessions: "toutes sauf chevalier, gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière."
+  commonAdvantages: "chance, coriace, régénération améliorée (énergie vitale), sens de lʼorientation, sens des distances."
+  commonDisadvantages: "faiblesse de caractère (préjugés — surtout à lʼencontre des AlʼAnfaniens, des Sauriens, des Horasiens et des baleiniers), mauvaises qualités (superstition, curiosité, esprit de vengeance), rage sanguinaire."
+  uncommonAdvantages: "caméléon social."
+  uncommonDisadvantages: "thalassophobie."
+  commonNames: |
+    - *Male:* Asleif, Eirik, Frenjar, Garald, Halmar, Laske, Norri, Raskir, Thorwulf, Wulfgrimm
+    - *Female:* Askra, Branda, Eilif, Frenja, Janda, Korja, Norhild, Ragna, Sigrun, Thora
+
+    A secondary name is created by combining the first name of a parent with either *-son* or *-dottir*, depending on the offspring’s gender. Examples include Eirk Halmarson, or Ragna Frenjasdottir. A traditional wrestling match between the parents often settles whose name is used as the secondary.
+  src:
+    - id: LDR1
+      firstPage: 116
+
+- id: C_18
+  name: "Cyclopéen"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, Rétis, Térémon)."
+  commonMundaneProfessions: "toutes sauf chevalier et guerrier tribal."
+  commonMagicalProfessions: "magicien, sorcière."
+  commonBlessedProfessions: "prêtre de Boron, prêtre de Hésinde, prêtre de Péraine, prêtre de Phex, prêtre de Praïos, prêtre de Rondra."
+  commonAdvantages: "beauté, prédisposition en natation, sens de lʼorientation, sens des distances, voix agréable."
+  commonDisadvantages: "faiblesses de caractère (arrogant, vaniteux, préjugés — surtout à lʼencontre des Thorvalois)."
+  uncommonAdvantages: "résistance au froid."
+  uncommonDisadvantages: "thalassophobie."
+  commonNames: |
+    - *Male:* Amenelaos, Dariyon, Hephestaios, Kalchas, Meneander, Mermydion, Peleïston, Praiokles, Rahjenÿsios, Ximater
+    - *Female:* Efferdiana, Insina, Korïna, Lanike, Myrtale, Nermaka, Phylinna, Phÿllis, Sapeïdra, Telemache
+    - *Family Names:* Armedos, Calakis, Egorythios, Garothis, Kalidas, Merogios, Phÿrikos, Sphareïos, Tymemdios, Uÿis
+  src:
+    - id: LDR1
+      firstPage: 101
+
+- id: C_19
+  name: "Elfe des Prairies"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, un village et ses environs)."
+  commonMagicalProfessions: "arpenteur sauvage, tissemage."
+  commonAdvantages: "résonance magique (créature des prairies), combattant-né (surtout arcs), prédisposition dans les savoir-faire (surtout bateaux & navires)."
+  commonDisadvantages: "astreint à un artefact (instrument), faiblesses de caractère (arrogant, préjugés — surtout à lʼencontre des non-Elfes, étranger au monde surtout propriété, dieux), personne de principes (vision du monde elfique), mauvaise qualité (curiosité)."
+  uncommonAdvantages: "prédisposition dans les talents de connaissance."
+  uncommonDisadvantages: "inaptitude dans les talents physiques et de nature, mauvaises qualités (cupidité, esprit de vengeance)."
+  commonNames: |
+    - *Male:* Adalarion, Alarion, Caerleon, Delayar, Dendayar, Edorion, Elanor, Feysiriel, Lindariel, Navarion
+    - *Female:* Alaniel, Caerleon, Daleone, Eldariel, Gailanoe, Lauriel, Mandara, Rhianna, Sanyadriel, Valandriel
+    - *Family Names*: Birchleaf, Dewshine, Lightmoss, Seamoon, Squirrelgreet
+
+    Elves have a first name and a family name.
+  src:
+    - id: LDR1
+      firstPage: 120
+
+- id: C_20
+  name: "Elfe des Névés"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, un village et ses environs)."
+  commonMagicalProfessions: "arpenteur sauvage, tissemage."
+  commonAdvantages: "combattant-né (surtout arcs et armes de jet), prédisposition dans les talents physiques et de nature, résistance au froid, résonance magique (créature des glaces), sens de lʼorientation."
+  commonDisadvantages: "astreint à un artefact (instrument), faiblesses de caractère (arrogant, préjugés — surtout à lʼencontre des non-Elfes, étranger au monde surtout aristocratie, propriété, argent, dieux, hiérarchie et religion), inaptitude dans les talents de connaissance, personne de principes (vision du monde elfique)."
+  uncommonAdvantages: "caméléon social, prédisposition dans les talents de connaissance."
+  uncommonDisadvantages: "claustrophobie, inaptitude dans les talents physiques et de nature, mauvaises qualités (cupidité, esprit de vengeance), nyctophobie, sensibilité au froid."
+  commonNames: |
+    - *Male:* Alriel, Delavar, Eldariel, Ilcoron, Mandaniel, Mandrion, Osagiel, Sanyarin
+    - *Female:* Alari, Calenleya, Elayoé, Fiannon, Mandiniel, Nioniel, Peaolé, Saleniome, Teleria, Zairi
+    - *Family Names:* Arrowflight, Frostnight, Icecrystal, Snow-on-the-Peaks, Whiteheart
+
+    Elves have a first name and a family name.
+  src:
+    - id: LDR1
+      firstPage: 119
+
+- id: C_21
+  name: "Elfe des Bois"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, un village et ses environs)."
+  commonMagicalProfessions: "arpenteur sauvage, tissemage."
+  commonAdvantages: "combattant-né (surtout arcs), prédisposition dans les talents physique et de nature, résonance magique (créature des forêts)."
+  commonDisadvantages: "astreint à un artefact (instrument), claustrophobie, faiblesses de caractère (arrogant, préjugés surtout à lʼencontre des non-Elfes, étranger au monde surtout aristocratie, propriété, argent, dieux, hiérarchie et religion), force astrale liée au corps, inaptitude dans les talents de connaissance, personne de principes (vision du monde elfique)."
+  uncommonAdvantages: "caméléon social, prédisposition dans les talents du groupe connaissances."
+  uncommonDisadvantages: "inaptitude dans les talents physiques et de nature, mauvaises qualités (cupidité, irascibilité, esprit de vengeance)."
+  commonNames: |
+    - *Male:* Albion, Cinamion, Elbrenell, Fermion, Floriel, Imion, Lorion, Mandriel, Nurhavalon, Saladir
+    - *Female:* Allacaya, Cairlinn, Déhaoine, Feyaria, Liloé, Miamiel, Oionel, Rilaona, Shayariel, Valaria
+    - *Family Names:* Acorngreet, Duskred, Leaflight, Sunray, Willowpillar
+
+    Elves have a first name and a family name.
+  src:
+    - id: LDR1
+      firstPage: 118
+
+- id: C_22
+  name: "Nain de l'Enclume"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, une ville Naine et ses environs)."
+  commonMundaneProfessions: "toutes sauf chevalier, gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien (très rare)."
+  commonBlessedProfessions: "prêtre de Rondra (rare)."
+  commonAdvantages: "combattant-né (surtout arbalètes, haches & masses et haches & masses à deux mains), prédisposition dans les savoir-faire (surtout travail du métal et travail de la pierre), régénération améliorée (énergie vitale)."
+  commonDisadvantages: "faiblesses de caractère (arrogant, préjugés — surtout à lʼencontre des Elfes et des Sauriens), mauvaises qualités  (avarice, cupidité), personne de principes (codex de lʼhonneur Nain), thalassophobie."
+  uncommonAdvantages: "caméléon social."
+  uncommonDisadvantages: "cécité nocturne, claustrophobie, faiblesse de caractère (vaniteux), nyctophobie."
+  commonNames: |
+    - *Male:* Andrash, Ballash, Cobaltosh, Fobosh, Ibralosh, Kirgam, Marnax, Pogolosh, Sordolax
+    - *Female:* Agesha, Borasha, Durga, Hogesha, Lavasha, Norturrima
+
+    Dwarven names consist of a first name plus a “son of [parent]” or “daughter of [parent]” cognomen (for example, Andrash son of Ballash, or Durga daughter of Lavasha).
+  src:
+    - id: LDR1
+      firstPage: 123
+
+- id: C_23
+  name: "Nain de Diamant"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, une ville Naine et ses environs)."
+  commonMundaneProfessions: "toutes sauf chevalier, gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien (très rare)."
+  commonBlessedProfessions: "prêtre de Hésinde (rare), prêtre de Phex (rare), prêtre de Rondra rare)."
+  commonAdvantages: "prêtre de Hésinde (rare), prêtre de Phex (rare), prêtre de Rondra (rare)."
+  commonDisadvantages: "faiblesse de caractère (vaniteux), mauvaises qualités (avarice, cupidité, curiosité), thalassophobie."
+  uncommonDisadvantages: "cécité nocturne, claustrophobie, rage sanguinaire."
+  commonNames: |
+    - *Male:* Angrox, Balum, Cratosh, Gandresh, Grotho, Jandrim, Migosh, Norrin, Rabagash, Topash
+    - *Female:* Angalla, Cadrima, Etoscha, Igrima, Magmasha, Segrima
+
+    Dwarven names consist of a first name plus either “son of [parent]” or “daughter of [parent]” (for example, Balum son of Grotho, or Angalla daughter of Segrima).
+  src:
+    - id: LDR1
+      firstPage: 122
+
+- id: C_24
+  name: "Archinain"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, une ville Naine et ses environs)."
+  commonMundaneProfessions: "toutes sauf chevalier, gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien (très rare)."
+  commonAdvantages: "prédisposition dans les connaissances et les savoir-faire (surtout droit, histoire, travail de la pierre et travail du métal)."
+  commonDisadvantages: "faiblesses de caractère (arrogance, préjugés — surtout à lʼencontre des non-Nains), mauvaises qualités (avarice, cupidité), thalassophobie, vertige."
+  uncommonAdvantages: "caméléon social."
+  uncommonDisadvantages: "cécité nocturne, claustrophobie, faiblesse de caractère (curiosité), nyctophobie."
+  commonNames: |
+    - *Male:* Arthag, Brodrosh, Famburash, Grimmbeard, Huramash, Kagrim, Partram, Shrobosh, Tarmosh, Xolgrimm
+    - *Female:* Aurulne, Dorella, Halrima, Korunde, Naresha, Topasa
+
+    Dwarven names consist of a first name and a “son of [parent]” or “daughter of [parent]” cognomens (for example, Grimbeard son of Xolgrimm, or Halrima daughter of Dorella).
+  src:
+    - id: LDR1
+      firstPage: 121
+
+- id: C_25
+  name: "Nain des Collines"
+  areaKnowledgeShort: "Lieu d'origine"
+  areaKnowledge: "selon le lieu de naissance (par exemple, Angbar)."
+  commonMundaneProfessions: "toutes sauf chevalier, gladiateur et guerrier tribal."
+  commonMagicalProfessions: "magicien (rare)."
+  commonBlessedProfessions: "prêtre de Péraine (rare)."
+  commonAdvantages: "caméléon social, prédisposition dans les connaissances et les savoir-faire (surtout cuisine)."
+  commonDisadvantages: "mauvaises qualités (cupidité, curiosité), thalassophobie."
+  uncommonDisadvantages: "cécité nocturne, claustrophobie, nyctophobie, rage sanguinaire."
+  commonNames: |
+    - *Male:* Artox, Bengram, Dabrash, Gerambalosh, Hargash, Obolosh, Roglom, Tlutash, Xandaresh, Zinkhal
+    - *Female:* Aurea, Caldera, Garesha, Ingrasha, Thuresha, Xolgima
+    - *Sippennamen*: Baghem, Broadpan, Grumling, Hillinger, Kugelin, Sweetbread
+
+    Hill dwarves use first names and family names and disdain the naming traditions used by other dwarves.
+  src:
+    - id: LDR1
+      firstPage: 124

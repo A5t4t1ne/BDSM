@@ -1,0 +1,132 @@
+- id: BLESSING_1
+  name: "Eedzegen"
+  effect: |
+    De gewijde laat iemand een eed afleggen. De gezegende voelt de eed aan als bindend en kan zich er alleen maar aan onttrekken door een Proef. De eedspreker moet de eed vrijwillig afleggen. De eed kan alleen worden verbroken door een met −1 verzwaarde Proef op *Wilskracht*.
+  range: "4 pas"
+  duration: "1 jaar"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 322
+
+- id: BLESSING_2
+  name: "Vuurzegen"
+  effect: |
+    Op de handpalm of aan de wijsvinger van de gewijde ontstaat een kleine vlam die een kamer verlicht of volstaat om een kaars te ontsteken. De gewijde kan niet worden verwond door de vlam (echter wel door vlammen die door de Vuurzegen worden aangestoken). De helderheid van de vlam komt overeen met die van een gewone kaars van normale makelij.
+  range: "Zichzelf"
+  duration: "5 minuten"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_3
+  name: "Geboortezegen"
+  effect: |
+    Een nieuwgeborene wordt gezegend en opgenomen in de geloofsgemeenschap. De zuigeling is beschermd tegen roof door kobolden, feeën en lagere demonen tot aan het einde van de werkingsduur. Deze zegening kan slechts tot maximaal 12 dagen na de geboorte worden uitgesproken. Daarna werkt ze niet meer op de nieuwgeborene.
+  range: "Aanraking"
+  duration: "Bij de Twaalfgodenkerken tot aan het 12de levensjaar"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_4
+  name: "Gelukszegen"
+  effect: |
+    De gezegende geniet tijdens de werkingsduur van de zegening een sprankeltje geluk. Hij kan tijdens of na het afleggen van een Vaardigheidsproef 1 VaP toevoegen om toch te slagen in de Vaardigheidsproef of om een hogere KwG te verkrijgen.
+  range: "Aanraking"
+  duration: "12 uren"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_5
+  name: "Grafzegen"
+  effect: |
+    Het graf van een overledene wordt gezegend. Om het lijk op te graven en het graf te schenden, moet de grafrover slagen in een Proef op *Wilskracht (Bedreigingen het hoofd bieden)* met een malus van 1. Bij een mislukking voelt hij zich ongemakkelijk, wat hem weerhoudt van de grafschennis. Necromantische betoveringen op het lijk zijn met 1 verzwaard, zolang het lijk zich in het gezegende graf bevindt.
+  range: "Aanraking"
+  duration: "12 maanden"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_6
+  name: "Harmoniezegen"
+  effect: |
+    Wie met een Harmoniezegen wordt gezegend, geniet heel de dag van positieve gevoelens. Alle effecten die Angst opwekken ondervinden een verzwaring van −1.
+  range: "Aanraking"
+  duration: "12 uren"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_7
+  name: "Kleine heelzegen"
+  effect: |
+    De gezegende krijgt 1 Levenspunt terug. Een persoon kann slechts éénmaal per dag van deze zegening profiteren.
+  range: "Aanraking"
+  duration: "Onmiddellijk"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_8
+  name: "Kleine schutszegen"
+  effect: |
+    De schutszegen kan sommige onheilige wezens op afstand houden. Volgende types van wezens kunnen worden tegengehouden: Ondoden (Hersenlozen) en Demonen (Lagere demonen). Bij het bepalen van de <span class="name--chant">Kleine schutszegen</span> moet worden beslist welke van beide types moet worden weggehouden. Het wezen kan gedurende de werkingsduur het gezegende gebied niet betreden. Wordt het wezen gedwongen het gebied te betreden, dan probeert het zich onmiddellijk uit de zone te onttrekken.<br>
+    De <span class="name--chant">Kleine schutszegen</span> heeft een maximale radius van 4 pas, maar mag kleiner zijn. De zone is stationair en beweegt niet mee met de gewijde. Als er zich personen binnen de zone langs de rand ervan bewegen, om daar loerende wezens in een handgemeen aan te vallen, dan kunnen die wezens eveneens aanvallen.
+  range: "4 pas"
+  duration: "4 Gevechtsrondes"
+  target: "Zone"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_9
+  name: "Spijszegen"
+  effect: |
+    Het gezegende eten is smakelijk en voedzaam. Gif tot graad 2 en verontreinigingen in het voedsel worden geneutraliseerd. De zegening is voldoende voor één portie.
+  range: "Aanraking"
+  duration: "Onmiddellijk"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_10
+  name: "Versterkingszegen"
+  effect: |
+    De gezegende voelt geen vermoeidheid of uitputting meer. Hij kan bij de hieropvolgende Proef op *Zelfbeheersing* één dobbelsteen opnieuw werpen (zoals het effect van het Voordeel Aanleg). Per dag kan er slechts één Versterkingszegen op een persoon worden aangewend.
+  range: "Zichzelf"
+  duration: "12 Gevechtsrondes"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 323
+
+- id: BLESSING_11
+  name: "Drankzegen"
+  effect: |
+    Wie van de gezegende drank drinkt, voelt zich verfrist. Gif tot graad 2 en verontreinigingen in de drank worden geneutraliseerd. De zegening is voldoende voor één liter.
+  range: "Aanraking"
+  duration: "Onmiddellijk"
+  target: "Object"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 322
+
+- id: BLESSING_12
+  name: "Wijsheidszegen"
+  effect: |
+    De gezegende wordt vervuld van wijsheid. Hij kan de oplossing van een probleem gemakkelijker vatten en bij de hieropvolgende Proef op een Kennistalent één dobbelsteen opnieuw werpen (zoals het effect van het Voordeel Aanleg). Er kan per dag maar één Wijsheidszegen op een persoon worden aangewend.
+  range: "Aanraking"
+  duration: "12 uren"
+  target: "Cultuurscheppend"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 324

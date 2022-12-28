@@ -1,0 +1,140 @@
+- id: 1
+  name: "Adler"
+
+- id: 2
+  name: "Bär"
+
+- id: 3
+  name: "Eule"
+
+- id: 4
+  name: "Feuermolch"
+
+- id: 5
+  name: "Fischotter"
+
+- id: 6
+  name: "Gebirgsbock"
+
+- id: 7
+  name: "Gepard/Jaguar"
+
+- id: 8
+  name: "Khoramsbestie"
+
+- id: 9
+  name: "Khoramswühler"
+
+- id: 10
+  name: "Löwe"
+
+- id: 11
+  name: "Luchs"
+
+- id: 12
+  name: "Mungo"
+
+- id: 13
+  name: "Nashorn"
+
+- id: 14
+  name: "Pferd"
+
+- id: 15
+  name: "Rabe"
+
+- id: 16
+  name: "Sandwolf"
+
+- id: 17
+  name: "Stier"
+
+- id: 18
+  name: "Vielfraß"
+
+- id: 19
+  name: "Widder"
+
+- id: 20
+  name: "Wildkatze"
+
+- id: 21
+  name: "Wildschwein"
+
+- id: 22
+  name: "Wolf"
+
+- id: 23
+  name: "Würgeschlange"
+
+- id: 24
+  name: "Eis"
+
+- id: 25
+  name: "Erz"
+
+- id: 26
+  name: "Feuer"
+
+- id: 27
+  name: "Humus"
+
+- id: 28
+  name: "Luft"
+
+- id: 29
+  name: "Wasser"
+
+- id: 30
+  name: "Ahnengeist"
+
+- id: 31
+  name: "Blutgeist"
+
+- id: 32
+  name: "Waffengeist"
+
+- id: 33
+  name: "Blakharaz"
+
+- id: 34
+  name: "Belhalhar"
+
+- id: 35
+  name: "Charyptoroth"
+
+- id: 36
+  name: "Lolgramoth"
+
+- id: 37
+  name: "Thargunitoth"
+
+- id: 38
+  name: "Amazeroth"
+
+- id: 39
+  name: "Nagrach"
+
+- id: 40
+  name: "Asfaloth"
+
+- id: 41
+  name: "Tasfarelel"
+
+- id: 42
+  name: "Mishkara"
+
+- id: 43
+  name: "Agrimoth"
+
+- id: 44
+  name: "Belkelel"
+
+- id: 45
+  name: "Aphasmayra"
+
+- id: 46
+  name: "Aphestadil"
+
+- id: 47
+  name: "Heskatet"

@@ -1,0 +1,329 @@
+- id: P_1
+  name: "Bardo"
+  suggestedAdvantages: "Adattabilità sociale, Avvenenza, Voce incantevole"
+  suggestedDisadvantages: "Caratteristica negativa (Curiosità), Difetto caratteriale (Arroganza, Vanità)"
+  unsuitableDisadvantages: "Sgradevolezza"
+  src:
+    - id: REG001
+      firstPage: 130
+
+- id: P_2
+  name: "Guardia"
+  suggestedAdvantages: "Elevata energia vitale, Elevata tenacia, Rigenerazione vitale accelerata"
+  suggestedDisadvantages: "Difetto caratteriale (Arroganza), Doveri II (Borgomastro, Consiglio, Città, Signore locale, ecc.)"
+  unsuitableDisadvantages: "Furia sanguinaria, Mutismo, Rigenerazione vitale rallentata"
+  src:
+    - id: REG001
+      firstPage: 136
+
+- id: P_3
+  name: "Artista di strada"
+  suggestedAdvantages: "Attitudine in Competenze fisiche, Avvenenza, Contorsionismo, Senso della distanza, Voce incantevole"
+  suggestedDisadvantages: "Caratteristica negativa (Superstizione, Curiosità, Vendicatività), Difetto caratteriale (Vanità, Invidia)"
+  unsuitableDisadvantages: "Cecità, Cecità notturna, Furia sanguinaria, Incompetenza in Competenze fisiche, Paura di… (Altezze)"
+  src:
+    - id: REG001
+      firstPage: 129
+
+- id: P_4
+  name: "Gladiatrice"
+  suggestedAdvantages: "Ambidestrismo, Avvenenza, Elevata energia vitale, Elevata tenacia, Rigenerazione vitale accelerata, Osso duro"
+  suggestedDisadvantages: "Difetto caratteriale (Vanità), Furia sanguinaria"
+  unsuitableAdvantages: "Attitudine in Competenze sociali"
+  unsuitableDisadvantages: "Arrendevolezza, Corpulenza, Gracilità, Rigenerazione vitale rallentata"
+  src:
+    - id: REG001
+      firstPage: 135
+
+- id: P_5
+  name: "Mercante"
+  suggestedAdvantages: "Adattabilità sociale, Attitudine in Competenze sociali, Orologio interiore, Voce incantevole"
+  suggestedDisadvantages: "Caratteristica negativa (Avarizia, Cupidigia), Difetto caratteriale (Invidia)"
+  unsuitableDisadvantages: "Cecità, Difetto caratteriale (Estraneità), Furia sanguinaria, Sgradevolezza"
+  src:
+    - id: REG001
+      firstPage: 141
+
+- id: P_6
+  name: "Guaritrice"
+  suggestedAdvantages: "Immunità a (Malattie), Immunità a (Veleno), Resistenza ai veleni, Resistenza alle malattie"
+  suggestedDisadvantages: "Difetto caratteriale (Arroganza, Vanità), Caratteristica negativa (Cupidigia)"
+  unsuitableDisadvantages: "Paura di… (Sangue, Morti e morti viventi), Suscettibilità ai veleni, Suscettibilità alle malattie"
+  src:
+    - id: REG001
+      firstPage: 137
+
+- id: P_7
+  name: "Cortigiano"
+  suggestedAdvantages: "Attitudine in Competenze sociali, Avvenenza, Resistenza ai veleni"
+  suggestedDisadvantages: "Caratteristica negativa (Avarizia, Cupidigia, Iracondia, Vendicatività) , Difetto caratteriale (Arroganza, Vanità, Invidia)"
+  unsuitableAdvantages: "Attitudine in Competenze artigianali"
+  unsuitableDisadvantages: "Furia sanguinaria, Incompetenza in Competenze sociali"
+  src:
+    - id: REG001
+      firstPage: 134
+
+- id: P_8
+  name: "Cacciatore"
+  suggestedAdvantages: "Senso della distanza, Senso eccezionale (Udito o Vista), Senso dell’orientamento, Osso duro"
+  suggestedDisadvantages: "Paura di… (Spazi chiusi)"
+  unsuitableAdvantages: "Adattabilità sociale"
+  unsuitableDisadvantages: "Cecità notturna, Paura di… (Oscurità)"
+  src:
+    - id: REG001
+      firstPage: 131
+
+- id: P_9
+  name: "Guerriera"
+  suggestedAdvantages: "Adattabilità sociale, Ambidestrismo, Attitudine per le armi, Elevata energia vitale, Osso duro, Rigenerazione vitale accelerata"
+  suggestedDisadvantages: "Difetto caratteriale (Arroganza, Vanità), Doveri I–III (Padrone), Integrità I–II (Codice del guerriero, Comportamento onorevole, Difesa dei deboli)"
+  unsuitableAdvantages: "Dono della magia"
+  unsuitableDisadvantages: "Corpulenza, Furia sanguinaria, Gracilità, Rigenerazione vitale rallentata"
+  src:
+    - id: REG001
+      firstPage: 138
+
+- id: P_10
+  name: "Prostituta"
+  suggestedAdvantages: "Adattabilità sociale, Attitudine in Competenze sociali, Avvenenza, Odore gradevole, Voce incantevole"
+  suggestedDisadvantages: "Caratteristica negativa (Cupidigia), Difetto caratteriale (Vanità)"
+  unsuitableDisadvantages: "Furia sanguinaria, Sgradevolezza"
+  src:
+    - id: REG001
+      firstPage: 143
+
+- id: P_11
+  name: "Cavaliere"
+  suggestedAdvantages: "Adattabilità sociale, Ambidestrismo, Avvenenza, Elevata energia vitale, Osso duro, Ricchezza, Rigenerazione vitale accelerata"
+  suggestedDisadvantages: "Difetto caratteriale (Arroganza, Vanità), Integrità I-III (Codice cavalleresco; Comportamento onorevole, Difesa dei deboli), Doveri II (Feudatario)"
+  unsuitableDisadvantages: "Corpulenza, Furia sanguinaria, Rigenerazione vitale rallentata"
+  src:
+    - id: REG001
+      firstPage: 133
+
+- id: P_12
+  name: "Marinaia"
+  suggestedDisadvantages: "Caratteristica negativa (Superstizione, Iracondia)"
+  unsuitableDisadvantages: "Paura di… (Altezze, Mare)"
+  src:
+    - id: REG001
+      firstPage: 140
+
+- id: P_13
+  name: "Mercenario"
+  suggestedAdvantages: "Elevata energia vitale, Rigenerazione vitale accelerata, Senso dell’orientamento"
+  suggestedDisadvantages: "Caratteristica negativa (Superstizione, Iracondia)"
+  unsuitableDisadvantages: "Integrità, Rigenerazione vitale rallentata"
+  src:
+    - id: REG001
+      firstPage: 142
+
+- id: P_14
+  name: "Spia"
+  suggestedAdvantages: "Adattabilità sociale, Orologio interiore, Senso eccezionale (Udito o Vista)"
+  unsuitableDisadvantages: "Caratteristica negativa (Iracondia)"
+  src:
+    - id: REG001
+      firstPage: 144
+
+- id: P_15
+  name: "Guerriera tribale"
+  suggestedAdvantages: "Attitudine per le armi, Elevata energia vitale, Osso duro, Rigenerazione vitale accelerata, Senso dell’orientamento"
+  suggestedDisadvantages: "Caratteristica negativa (Superstizione, Iracondia, Vendicatività), Difetto caratteriale (Arroganza, Pregiudizi nei confronti di estranei alla tribù), Doveri I–II (Tribù), Furia sanguinaria"
+  unsuitableAdvantages: "Adattabilità sociale, Attitudine in Competenze sociali"
+  unsuitableDisadvantages: "Corpulenza, Flemma, Gracilità, Rigenerazione vitale rallentata"
+  src:
+    - id: REG001
+      firstPage: 139
+
+- id: P_16
+  name: "Canaglia"
+  suggestedAdvantages: "Adattabilità sociale, Attitudine in Competenze sociali, Avvenenza, Voce incantevole"
+  suggestedDisadvantages: "Caratteristica negativa (Superstizione, Cupidigia, Curiosità), Difetto caratteriale (Vanità)"
+  unsuitableAdvantages: "Furia sanguinaria"
+  src:
+    - id: REG001
+      firstPage: 132
+
+- id: P_17
+  name: "Esploraselve"
+  suggestedAdvantages: "Buiovisione II, Senso della distanza, Animo forte, Senso dell’orientamento"
+  suggestedDisadvantages: "Caratteristica negativa (Curiosità), Paura di… (Spazi chiusi)"
+  unsuitableAdvantages: "Adattabilità sociale"
+  unsuitableDisadvantages: "Furia sanguinaria"
+  src:
+    - id: REG001
+      firstPage: 145
+
+- id: P_18
+  name: "Tessimagia"
+  suggestedAdvantages: "Animo forte, Buiovisione II, Senso dell’orientamento, Senso della distanza"
+  suggestedDisadvantages: "Arrendevolezza, Caratteristica negativa (Curiosità), Difetto caratteriale (Arroganza)"
+  unsuitableAdvantages: "Adattabilità sociale"
+  unsuitableDisadvantages: "Furia sanguinaria"
+  src:
+    - id: REG001
+      firstPage: 146
+
+- id: P_19
+  name: "Strega dei gatti"
+  subname: Sorellanza delle Grazie della Notte
+  suggestedAdvantages: "Adattabilità sociale, Aura occultata, Avvenenza, Odore gradevole, Scattante, Senza età (solo se nata da uovo)"
+  suggestedDisadvantages: "Caratteristica negativa (Cupidigia, Vendicatività), Difetto caratteriale (Arroganza, Vanità), Nessun balsamo levitante, Nessun famiglio"
+  unsuitableAdvantages: "Osso duro"
+  unsuitableDisadvantages: "Paura di… (Altezze), Sgradevolezza"
+  src:
+    - id: REG001
+      firstPage: 148
+
+- id: P_20
+  name: "Strega dei rospi"
+  subname: Sorellanza delle Figlie della Terra
+  suggestedAdvantages: "Aura occultata, Rigenerazione astrale accelerata, Senza età (solo se nata da uovo)"
+  suggestedDisadvantages: "Difetto caratteriale (Estraneità), Nessun balsamo levitante, Nessun famiglio, Paura di… (Fuoco), Peculiarità fisica (Ciocca di capelli  bianca), Vincolo dei capelli"
+  unsuitableAdvantages: "Adattabilità sociale, Osso duro"
+  src:
+    - id: REG001
+      firstPage: 149
+
+- id: P_21
+  name: "Strega dei corvi"
+  subname: Sorellanza delle Veggenti dell’Oggi e dell’Indomani
+  suggestedAdvantages: "Aura occultata, Senza età (solo se nata da uovo)"
+  suggestedDisadvantages: "Caratteristica negativa (Curiosità, Cupidigia, Vendicatività), Difetto caratteriale (Vanità), Nessun balsamo levitante, Nessun famiglio"
+  unsuitableAdvantages: "Osso duro"
+  unsuitableDisadvantages: "Furia sanguinaria"
+  src:
+    - id: REG001
+      firstPage: 147
+
+- id: P_22
+  name: "Mago senza gilda"
+  subname: Allievo di Magister Dagabor
+  suggestedAdvantages: "Animo forte, Rigenerazione astrale accelerata"
+  suggestedDisadvantages: "Caratteristica negativa (Curiosità), Difetto caratteriale (Vanità, Estraneità), Doveri II (Insegnante)"
+  unsuitableDisadvantages: "Animo debole, Furia sanguinaria, Rigenerazione astrale rallentata"
+  src:
+    - id: REG001
+      firstPage: 150
+
+- id: P_23
+  name: "Maga grigia"
+  subname: Scuola di Trasmutazione di Lowangen
+  suggestedAdvantages: "Animo forte, Rigenerazione  astrale accelerata"
+  suggestedDisadvantages: "Caratteristica negativa (Curiosità), Difetto caratteriale (Vanità, Estraneità), Doveri II (Accademia o Città di Lowangen), Integrità I  (Aiutare feriti indipendentemente da rango, cultura  e specie, Pacifismo, Filosofia naturale ispirata dagli  elfi)"
+  unsuitableDisadvantages: "Animo debole, Furia sanguinaria, Paura di… (Morti e morti viventi), Rigenerazione astrale rallentata"
+  src:
+    - id: REG001
+      firstPage: 151
+
+- id: P_24
+  name: "Maga nera"
+  subname: Accademia della Forza Spirituale di Fasar
+  suggestedAdvantages: "Animo forte, Rigenerazione  astrale accelerata"
+  suggestedDisadvantages: "Caratteristica negativa (Cupidigia, Curiosità), Difetto caratteriale (Arroganza,  Vanità), Doveri II (Accademia o Insegnante)"
+  unsuitableDisadvantages: "Animo debole, Furia sanguinaria, Rigenerazione astrale rallentata"
+  src:
+    - id: REG001
+      firstPage: 152
+
+- id: P_25
+  name: "Mago bianco"
+  subname: Accademia Garetiana di Spada e Bastone
+  activatablePrerequisites:
+    - id: DISADV_34
+      active: true
+      level: 2
+      sid: "Protezione dell’Impero di Mezzo, Credo nei Dodici, Amore per la verità"
+  suggestedAdvantages: "Animo forte, Rigenerazione astrale accelerata"
+  suggestedDisadvantages: "Caratteristica negativa (Curiosità), Difetto caratteriale (Vanità), Doveri II (Accademia o Gilda)"
+  unsuitableDisadvantages: "Animo debole, Furia sanguinaria, Rigenerazione astrale rallentata"
+  src:
+    - id: REG001
+      firstPage: 153
+
+- id: P_26
+  name: "Iniziato di Boron"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Tempio, Chiesa"
+  suggestedAdvantages: "Immunità a (Malattia), Immunità a (Veleno), Misticismo, Orologio interiore, Pragmatismo, Resistenza ai veleni, Resistenza alle malattie"
+  suggestedDisadvantages: "Sensibilità alla luce del sole"
+  unsuitableAdvantages: "Affabilità"
+  unsuitableDisadvantages: "Cecità notturna, Paura di… (Morti e morti viventi), Sonnambulismo, Suscettibilità ai veleni, Suscettibilità alle malattie"
+  src:
+    - id: REG001
+      firstPage: 154
+
+- id: P_27
+  name: "Iniziata di Hesinde"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Tempio, Chiesa"
+  suggestedAdvantages: "Affabilità, Animo forte, Misticismo, Orologio interiore, Pragmatismo"
+  suggestedDisadvantages: "Caratteristica negativa (Curiosità)"
+  unsuitableDisadvantages: "Furia sanguinaria"
+  src:
+    - id: REG001
+      firstPage: 155
+
+- id: P_28
+  name: "Iniziato di Peraine"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Tempio, Chiesa"
+  suggestedAdvantages: "Adattabilità sociale, Affabilità, Animo forte, Immunità a (Malattia), Immunità a (Veleno), Misticismo, Pragmatismo, Resistenza ai veleni, Resistenza alle malattie"
+  unsuitableAdvantages: "Ricchezza"
+  unsuitableDisadvantages: "Caratteristica negativa (Cupidigia), Furia sanguinaria, Suscettibilità ai veleni, Suscettibilità alle malattie"
+  src:
+    - id: REG001
+      firstPage: 156
+
+- id: P_29
+  name: "Iniziato di Phex"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Tempio, Chiesa"
+  suggestedAdvantages: "Ambidestrismo, Aspetto anonimo, Fiuto nanico, Fortuna, Misticismo, Pragmatismo, Scattante, Senso della distanza"
+  suggestedDisadvantages: "Caratteristica negativa (Curiosità, Cupidigia)"
+  unsuitableDisadvantages: "Furia sanguinaria, Cecità notturna, Sfortuna"
+  src:
+    - id: REG001
+      firstPage: 157
+
+- id: P_30
+  name: "Iniziata di Praios"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Tempio, Chiesa"
+  suggestedAdvantages: "Affabilità, Animo forte, Impassibilità alla magia, Misticismo, Orologio interiore, Pragmatismo"
+  suggestedDisadvantages: "Difetto caratteriale (Arroganza, Vanità)"
+  unsuitableAdvantages: "Dono della magia"
+  unsuitableDisadvantages: "Furia sanguinaria"
+  src:
+    - id: REG001
+      firstPage: 158
+
+- id: P_31
+  name: "Iniziato di Rondra"
+  activatablePrerequisites:
+    - id: DISADV_50
+      active: true
+      level: 2
+      sid: "Tempio, Chiesa"
+  suggestedAdvantages: "Affabilità, Animo forte, Attitudine per le armi, Elevata energia vitale, Elevata tenacia, Misticismo, Osso duro, Pragmatismo, Ricchezza, Tecnica di combattimento eccezionale"
+  suggestedDisadvantages: "Difetto caratteriale (Arroganza, Vanità)"
+  unsuitableDisadvantages: "Flemma, Gracilità, Incompetenza in Competenze fisiche, Paura di… "
+  src:
+    - id: REG001
+      firstPage: 159

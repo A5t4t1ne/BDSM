@@ -1,0 +1,33 @@
+- id: SPELL_466
+  name: "Gestalt aus Rauch"
+  effect: |
+    Der Geode formt aus Wachs eine Kerze in Form eines Tiers und zündet sie an. Aus dem Rauch bildet sich auf der Stelle eine Rauchgestalt, die dem Tier gleicht. Das Rauchwesen verfügt über die Werte des entsprechenden Tieres, nicht jedoch über magische/liturgische Fähigkeiten und Gifte. Es kann von dem Geoden kontrolliert werden und hört auf dessen Befehle. Die Rauchgestalt verbleibt in der Nähe ihres Erschaffers (etwa in einem Radius von 8 Schritt) und eignet sich vor allem als Kampfgefährte. Angriffe mit profanen und geweihten Waffen gegen das Tier verursachen nur den halben Schaden. Die Trefferpunkte werden erst halbiert, dann wird der Rüstungsschutz verrechnet. Wird die Kerze gelöscht, so verschwindet das Rauchwesen augenblicklich.
+  ritualTime: "5 Minuten"
+  ritualTimeShort: "5 min"
+  aeCost: "4/8/12/16 AsP für ein winziges/kleines/mittleres/großes Wesen"
+  aeCostShort: "4/8/12/16 AsP"
+  range: "1 Schritt"
+  rangeShort: "1 m"
+  duration: "QS Stunden"
+  durationShort: "QS h"
+  target: "Zone"
+  src:
+    - id: US25008
+      firstPage: 32
+
+- id: SPELL_467
+  name: "Trank des ungehinderten Weges"
+  effect: |
+    Der Geode braut einen Trank. Solange die Wirkung des Tranks anhält, kann der Geode über jede natürliche und feste Fläche laufen (Eis, Schnee, Erdboden, Felsen, Treibsand), ohne durch den Untergrund verletzt oder geschädigt zu werden. Er kann nicht auf Wasser laufen, sinkt aber nicht in tiefem Schnee, Sumpf oder Treibsand ein. Der Geode hinterlässt weiterhin Fußspuren.
+  ritualTime: "2 Stunden"
+  ritualTimeShort: "2 h"
+  aeCost: "8 AsP"
+  aeCostShort: "8 AsP"
+  range: "selbst"
+  rangeShort: "selbst"
+  duration: "QS/2 Tage"
+  durationShort: "QS/2 d"
+  target: "Kulturschaffende"
+  src:
+    - id: US25008
+      firstPage: 32

@@ -1,0 +1,39 @@
+- id: RV_1
+  name: "Terre centrali"
+
+- id: RV_2
+  name: "Nivesi"
+  commonAdvantages: "Resistenza al freddo, Senso della distanza"
+  commonDisadvantages: "Suscettibilità al caldo"
+
+- id: RV_3
+  name: "Norbardi"
+
+- id: RV_4
+  name: "Thorwaliani"
+  commonAdvantages: "Elevata tenacia, Osso duro"
+  commonDisadvantages: "Animo debole, Furia sanguinaria"
+
+- id: RV_5
+  name: "Tulamidi"
+  commonAdvantages: "Resistenza al caldo"
+  commonDisadvantages: "Suscettibilità al freddo"
+
+- id: RV_6
+  name: "Popolo della foresta"
+  commonAdvantages: "Immunità a Difar Sciolto e Sudore di Brabak, Immunità a Wurara, Odore gradevole, Resistenza al caldo"
+  commonDisadvantages: "Suscettibilità al freddo"
+
+- id: RV_7
+  name: "Utulu"
+  commonAdvantages: "Immunità a Difar Sciolto e Sudore di Brabak, Immunità a Wurara, Odore gradevole, Resistenza al caldo"
+  commonDisadvantages: "Suscettibilità al freddo"
+
+- id: RV_8
+  name: "Elfi delle rive"
+
+- id: RV_9
+  name: "Elfi delle brine"
+
+- id: RV_10
+  name: "Elfi silvani"

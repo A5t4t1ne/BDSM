@@ -1,0 +1,891 @@
+- id: DISADV_1
+  name: "Medo de"
+  nameInWiki: "Medo de..."
+  input: "Gatilho"
+  rules: |
+    O herói ou heroína sofre um nível de *Medo* (veja a página **35**) para cada nível desta desvantagem sempre que confrontado com o gatilho.
+  selectOptions:
+    - id: 1
+      name: "Sangue"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 2
+      name: "Escuridão"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 3
+      name: "Altura"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 4
+      name: "Insetos"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 5
+      name: "do Mar"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 6
+      name: "Répteis"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 7
+      name: "Espaços Confinados"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 8
+      name: "Aranhas"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 9
+      name: "dos Mortos e dos mortos-vivos"
+      src:
+        - id: US25001E
+          firstPage: 172
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_2
+  name: "Pobre"
+  rules: |
+    Para cada nível desta desvantagem, o herói ou heroína recebe 250 táleres de prata a menos de riqueza inicial durante a criação de personagem. Se você pegar 3 níveis de Pobre, você não recebe nenhuma riqueza inicial e começa o jogo com apenas um pacote de roupas da categoria Não-Livre (veja a página **373**).
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_3
+  name: "Ligação com Artefato"
+  rules: |
+    Um conjurador cuja pele não tiver contato direto com o artefato sofre 1 de penalidade nos testes mágicos ao conjurar feitiços. Se o artefato for destruído, o conjurador terá problemas em conjurar feitiços e deverá criar outro artefato, afim de remover a penalidade.
+  src:
+    - id: US25001E
+      firstPage: 171
+
+- id: DISADV_4
+  name: "Lento"
+  rules: |
+    Esta desvantagem reduz o Movimento do seu herói em 1.
+  src:
+    - id: US25001E
+      firstPage: 171
+
+- id: DISADV_5
+  name: "Cego"
+  rules: |
+    Esta desvantagem torna muitas perícias difíceis ou mesmo impossíveis. O mesmo vale para habilidades especiais. O MJ decide quais as penalidade se aplicar a quais testes. Este tipo de cegueira só pode ser curada por um *Grande Milagre* (veja a página **310**). Enquanto sofrer de tal aflição, o herói ou heroína tem o estado de Cego (veja a página **36**).
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: DISADV_6
+  name: "Frenesi"
+  rules: |
+    O herói ou heroína recebe o estado *Sede de Sangue* em circunstâncias especiais. Frenesi é ativado quando o herói ou heroína recebe um nível de *Dor* de um ataque ou falha em um teste de *Força de Vontade* para resistir ao traço negativo Pavio Curto.
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_7
+  name: "Sentido Limitado"
+  rules: |
+    Uma personagem com um Sentido Limitado sofre um 2 de penalidade em testes de Percepção, mas apenas se o teste for baseado no sentido escolhido. Uma Visão Limitada impõe 2 de penalidade em combate a distância. Você pode escolher entre os seguintes sentidos: Visão, Audição, Olfato e Paladar, Tato.
+  selectOptions:
+    - id: 1
+      name: "Visão"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 2
+      name: "Audição"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 3
+      name: "Cheiro & Paladar"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 4
+      name: "Sensação Tátil"
+      src:
+        - id: US25001E
+          firstPage: 176
+  apValue: "SVisão –15 pontos de aventura; Audição: –10 pontos de aventura; Olfato e Paladar: –6 pontos de aventura; Tato: –2 pontos de aventura"
+  prerequisites: "~~desvantagem Sentido Excepcional para o mesmo sentido~~, ~~desvantagem Cegueira~~ (para a Visão), ~~desvantagem Surdez~~ (para a Audição)."
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_11
+  name: "Daltonismo"
+  rules: |
+    O aventureiro não pode distinguir entre cores. Isso pode ter efeitos negativos em alguns testes, como *Alquimia* ("verter duas gotas de líquido vermelho no líquido verde"), reconhecer brasões de armas (*Etiqueta*), ou *Orientação* em selvas. O MJ decide a magnitude da penalidade e também se um teste sequer é possível.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: DISADV_12
+  name: "Obesidade"
+  rules: |
+    Esta desvantagem gera 1 de penalidade em *Controle Corporal*, *Escalada*, *Dança* e *Furtividade*.
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_13
+  name: "Suscetível a Venenos"
+  rules: |
+    Suscetível a Venenos diminui a sua Tenacidade e Espírito em 1 por nível quando resistindo a venenos.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_14
+  name: "Feiura"
+  rules: |
+    O herói sofre 1 de penalidade por nível desta vantagem em testes usando *Comércio (Pechinchar)*, *Lábia (Manipular, Bajular)* e *Sedução (Flertar, Romantismo)*.
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_15
+  name: "Suscetível ao Calor"
+  rules: |
+    Quando submetido a condições quentes de Nível 2 ou maior (veja a página **343**), o herói sofre um nível adicional de Calor.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_16
+  name: "Suscetível ao Frio"
+  rules: |
+    Sempre que sujeito a condições frias (mínimo 1 Nível de Frio — veja a página **342**), o herói ou heroína sofre um nível adicional de Frio.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_17
+  name: "Sem Unguento de Voo"
+  rules: |
+    O herói não pode possuir a habilidade especial *Unguento de Voo*. Isso torna a habilidade especial *Tradição (Bruxa)* 10 pontos mais barata.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: MTradição Mágica que possa escolher a habilidade especial Unguento de Voo
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_18
+  name: "Sem Familiar"
+  rules: |
+    O herói ou heroína não pode ter a habilidade especial de *Conexão com Familiar*. Isso torna a habilidade especial *Tradição (Bruxa)* 10 pontos mais barata.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: Tradição Mágica que possa escolher a habilidade especial Conexão com Familiar
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_19
+  name: "Poder Ligado aos Cabelos"
+  rules: |
+    Um herói que perder algum cabelo por qualquer razão (cortando, fogo e assim por diante; o comprimento não importa), também perde 10 pontos de EA imediatamente (mínimo 0). EA perdida desta forma regenera de maneira usual. O cabelo perdido devido a queda diária não ativa esta desvantagem.
+  prerequisitesEnd: "A raça do conjurador deve possuir cabelo"
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_20
+  name: "Peculiaridade Física"
+  input: "Peculiaridade"
+  rules: |
+    Você não pode escolher mais do que duas Peculiaridades Físicas. Peculiaridades Físicas as vezes levam a penalidades em testes de perícias sociais devido a superstição ou desconfiança.
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_21
+  name: "Suscetível a Doenças"
+  rules: |
+    Suscetível a Doenças diminui a sua Tenacidade e Espírito em 1 por nível quando resistindo a doenças.
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_22
+  name: "Perturbado por Espíritos Menores"
+  rules: |
+    Toda vez que o conjurador gasta EA o jogador rola 1D20. Se o resultado for inferior ou igual a quantidade de EA gasta, espíritos menores aparecem e perturbam o conjurador. O MJ decide que tipo de espíritos menores aparecem, dependendo da situação. Exemplos incluem *sopradores*, que fazem o cabelo do conjurador esvoaçar para todo lado, *lacrimais* que se sentam sob os olhos, e *lulas-de-fogo*, que podem esquentar ou queimar as posses do conjurador. Todos os testes de perícia sofrem 1 de penalidade devido a distração do espírito menor. Mesmo se você atrair mais de um tipo de espírito menor ao mesmo tempo, a penalidade não aumenta. Os espíritos menores ficam por perto 10 minutos e depois desaparecem.
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_23
+  name: "Sensível a Luz Solar"
+  rules: |
+    O herói ou heroína sofre um nível da condição *Dor* quando está sob a luz do sol mais brilhante do que o crepúsculo, mas pode evitar o efeito cobrindo-se da cabeça aos pés (incluindo os olhos).
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_24
+  name: "Restrição Mágica"
+  input: "Ambiente"
+  rules: |
+    Conjuradores não sofrem penalidades em testes de perícias mágicas enquanto no ambiente escolhido, mas sofrem 1 de penalidade em todos os outros ambientes.
+  selectOptions:
+    - id: 1
+      name: "Maldição das Clareiras"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 2
+      name: "Maldição das Montanhas"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 3
+      name: "Maldição do Gelo"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 4
+      name: "Maldição dos Mares"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 5
+      name: "Maldição da Noite"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 6
+      name: "Maldição das Florestas"
+      src:
+        - id: US25001E
+          firstPage: 176
+  apValueAppend: "(ver sintonização mágica na página **168**)"
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_25
+  name: "Cegueira Noturna"
+  rules: |
+    Sempre que o herói ou heroína sofre pelo menos um nível de penalidades de Visibilidade devido a escuridão, a penalidade conta como um nível mais alto (veja a página **344**).
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: DISADV_26
+  name: "Poder Arcano Reduzido"
+  rules: |
+    Reduza a sua taxa base de EA em 1 ponto por nível desta desvantagem.
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_27
+  name: "Pontos de Karma Reduzidos"
+  rules: |
+    Reduza a sua taxa base de PK em 1 ponto por nível desta desvantagem.
+  src:
+    - id: US25001E
+      firstPage: 175
+
+- id: DISADV_28
+  name: "Pontos de Vida Reduzidos"
+  rules: |
+    Reduza a sua taxa base de PV em 1 ponto por nível desta desvantagem.
+  src:
+    - id: US25001E
+      firstPage: 175
+
+- id: DISADV_29
+  name: "Espírito Reduzido"
+  rules: |
+    Reduza a taxa base de Espírito do herói em 1.
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_30
+  name: "Tenacidade Reduzida"
+  rules: |
+    Reduza a taxa base de Tenacidade do herói em 1.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_31
+  name: "Má Sorte"
+  rules: |
+    O herói ou heroína inicia o jogo com um PD a menos por nível desta desvantagem. O seu número máximo de PD também diminui um ponto por nível desta desvantagem. O número total de PD do herói ou heroína não pode ser reduzido abaixo de 0.
+  src:
+    - id: US25001E
+      firstPage: 171
+
+- id: DISADV_32
+  name: "Infortúnio"
+  rules: |
+    Se o MJ tiver de decidir algo aleatoriamente (qual é a personagem que a flecha atinge? Quem estava perto da armadilha quando foi ativada?), as chances de algo ruim acontecer são duas vezes mais altas para alguém com esta desvantagem do que para os outros. Se vários heróis ou heroínas em um grupo escolhessem esta desvantagem, eles iriam cancelar as desvantagens uns dos outros, então fale com o seu MJ sobre a escolha de Infortúnio.
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_33
+  name: "Falha de Personalidade"
+  rules: |
+    O MJ pode penalizar em 1 os testes de perícia relevantes em situações aplicáveis. Você pode escolher no máximo duas falhas de personalidade por herói ou heroína (a exceção é Indiferente — veja abaixo).
+  selectOptions:
+    - id: 1
+      name: "Arrogância"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 2
+      name: "Vaidade"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 3
+      name: "Inveja"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 4
+      name: "Implicância"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 5
+      name: "Desagradável"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 6
+      name: "Mimado"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 7
+      name: "Preconceito"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 8
+      name: "Indiferente"
+      src:
+        - id: US25001E
+          firstPage: 171
+  apValue: "Depende da Falha de Personalidade"
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_34
+  name: "Princípios"
+  input: "Princípios"
+  rules: |
+   Princípios têm três níveis. O primeiro nível restringe o herói ou heroína apenas um pouco, o segundo nível é exigente e o terceiro coloca restrições pesadas nas ações do herói ou heroína. Você pode seguir mais de um conjunto de princípios, mas só pode receber pontos de aventura por esta desvantagem apenas uma vez (para o nível mais alto de Princípios). Personagens que agem contra os seus princípios sofrem 1 de penalidade em todos os testes de perícia durante pelo menos uma hora (o MJ determina a duração com base na situação).
+  selectOptions:
+    - id: 1
+      name: "As 99 Leis de Rastullah"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 2
+      name: "Código da Igreja de Hesinde"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 3
+      name: "Código da Igreja de Phex"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 4
+      name: "Código da Igreja de Peraine"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 5
+      name: "Honra de guerreiro"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 6
+      name: "Honra de cavaleiro"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 7
+      name: "Visão Élfica de Mundo"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 8
+      name: "Código da Igreja de Boron"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 9
+      name: "Código da Igreja de Praios"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 10
+      name: "Código da Igreja de Rondra"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 11
+      name: "Código dos anões"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 12
+      name: "Pacisfismo"
+      src:
+        - id: US25001E
+          firstPage: 175
+  src:
+    - id: US25001E
+      firstPage: 175
+
+- id: DISADV_35
+  name: "Sonâmbulo"
+  rules: |
+    O herói ou heroína não fica sonâmbulo mais do que uma vez por semana. Durante as 24 horas de um dia inteiro após sonambulismo, você sofre um nível da condição *Estupor* pela falta de descanso. Reduza a regeneração em 1 pela noite passada em sonambulismo.
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_36
+  name: "Mau Hábito"
+  input: "Hábito"
+  rules: |
+    Personagens podem escolher os maus hábitos que quiserem, mas podem receber no máximo 6 PAs. Em casos raros, maus hábitos podem causar penalidades nas perícias sociais.
+  selectOptions:
+    - id: 1
+      name: "Descalço"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 3
+      name: "Terceira Pessoa"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 5
+      name: "Primeiro"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 6
+      name: "Chorão"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 7
+      name: "Hipocondríaco:"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 8
+      name: "Senhor"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 9
+      name: "Dormir Até Tarde"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 10
+      name: "Esquerda e Direita"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 11
+      name: "Meu Filho"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 12
+      name: "Roedor de Unhas"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 14
+      name: "Nervoso"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 15
+      name: "Mania de Limpeza"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 16
+      name: "Fumante"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 17
+      name: "Fala Pelos Cotovelos"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 18
+      name: "Maus Modos À Mesa"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 19
+      name: "Falar sozinho"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 20
+      name: "Bagunceiro"
+      src:
+        - id: US25001E
+          firstPage: 172
+    - id: 21
+      name: "Nós"
+      src:
+        - id: US25001E
+          firstPage: 172
+  apValueAppend: "por Mau Hábito"
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_37
+  name: "Traço Negativo"
+  rules: |
+    Ao confrontar possíveis gatilhos, as personagens devem ter sucesso em um teste de *Força de Vontade* ou então agir com seu Traço Negativo, que as controla enquanto estiverem na presença desse gatilho. Bônus e penalidades atribuídos pelo MJ para os testes de *Força de Vontade* dependem da severidade do gatilho. Você pode escolher até dois Traços Negativos por personagem. Você não pode escolher uma combinação que não faça sentido (combinando Mesquinhez com Desperdício, por exemplo). O MJ tem a palavra final.
+  selectOptions:
+    - id: 1
+      name: "Superstição"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 2
+      name: "Submisso às Autoridades"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 3
+      name: "Mesquinhez"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 4
+      name: "Avareza"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 5
+      name: "Pavio Curto"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 6
+      name: "Cleptomaníaco"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 7
+      name: "Crédulo"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 8
+      name: "Curiosidade"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 9
+      name: "Vingança"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 10
+      name: "Vicio em Apostas"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 11
+      name: "Desperdício"
+      src:
+        - id: US25001E
+          firstPage: 177
+  apValue: "depende do Traço Negativo"
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_38
+  name: "Regeneração Fraca (Energia Arcana)"
+  rules: |
+    O herói subtrai 1 de cada rolagem de regeneração para cada nível desta desvantagem (mínimo 0).
+  src:
+    - id: US25001E
+      firstPage: 175
+
+- id: DISADV_39
+  name: "Regeneração Fraca (Pontos de Karma)"
+  rules: |
+    O herói subtrai 1 por nível desta desvantagem de cada rolagem de regeneração (mínimo 0).
+  src:
+    - id: US25001E
+      firstPage: 175
+
+- id: DISADV_40
+  name: "Regeneração Fraca (Pontos de Vida)"
+  rules: |
+    O herói subtrai 1 por nível desta desvantagem de cada rolagem de regeneração (mínimo 0).
+  src:
+    - id: US25001E
+      firstPage: 175
+
+- id: DISADV_41
+  name: "Corpo Astral Fraco"
+  rules: |
+    O herói ou heroína perde um de EA adicional sempre que precisar gastar EA.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: DISADV_42
+  name: "Corpo Kármico Fraco"
+  rules: |
+    O herói ou heroína perde um PK adicional sempre que precisar gastar PK.
+  src:
+    - id: US25001E
+      firstPage: 169
+
+- id: DISADV_43
+  name: "Nariz Sensível"
+  rules: |
+    O herói ou heroína sofre de um nível da condição *Estupor* enquanto o cheiro persistir.
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_44
+  name: "Problema de Fala"
+  rules: |
+    A critério do MJ, o herói ou heroína pode sofrer 1 de penalidade em todas as perícias sociais (exceto *Empatia* e *Força de Vontade*), bem como em *Comércio (Pechinchar)* quando fala com outras pessoas. Você só pode pegar esta desvantagem uma vez.
+  src:
+    - id: US25001E
+      firstPage: 175
+
+- id: DISADV_45
+  name: "Estigma"
+  input: "Estigma"
+  rules: |
+    Em uma situação apropriada, o MJ pode penalizar em 1 perícias sociais (exceto *Empatia*, *Intimidação* e *Força de Vontade*) e *Comércio (Pechinchar)*. Você só pode pegar esta desvantagem uma vez.
+  selectOptions:
+    - id: 1
+      name: "Albino"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 2
+      name: "Marcas"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 3
+      name: "Cabelo Verde"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 4
+      name: "Olhos de Gato"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 5
+      name: "Escamas de Serpente"
+      src:
+        - id: US25001E
+          firstPage: 170
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_46
+  name: "Mudo"
+  rules: |
+    O herói tem dificuldade em se comunicar vocalmente com outras pessoas (mas pode usar linguagem gestual ou escrita). Feitiços e outras ações que exigem linguagem são impossíveis ou muito difíceis de usar. O herói ou heroína ganha o estado de *Mudo*.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_47
+  name: "Surdo"
+  rules: |
+    O herói ou heroína não pode fazer testes de *Percepção* com base na audição, e recebe o estado de *surdo*.
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_48
+  name: "Incompetente"
+  rules: |
+    Ao fazer testes de perícia para a perícia escolhida, o herói ou heroína deve rerrolar a melhor rolagem e manter o segundo resultado. Um aventureiro não pode ser Incompetente com mais de duas perícias.
+  prerequisites: "~~Sem a vantagem Aptidão para a mesma perícia~~, no máximo duas desvantagens Incompetente"
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_49
+  name: "Não-Livre"
+  rules: |
+    Personagens com a desvantagem Não-Livre sofrem penalidades quando usam perícias sociais para influenciar pessoas de uma posição social mais elevada. Tais personagens devem lidar com a opressão sancionada pela cultura, podem ter poucas proteções legais, e quase sempre são tratadas como propriedade de outra pessoa. Veja a página **334** para mais detalhes.
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_50
+  name: "Obrigações"
+  input: "Obrigação"
+  rules: |
+    O herói ou heroína deve obedecer as ordens da entidade ou sofrer as consequências. Heróis ou heroínas podem ter obrigações com mais de uma instituição ou grupo, mas podem receber pontos de aventura por esta desvantagem apenas uma vez (para o nível mais alto de Obrigações).
+  selectOptions:
+    - id: 1
+      name: "de um membro da família para com a família"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 2
+      name: "um herói em debito"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 3
+      name: "um nobre para com um soberano"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 4
+      name: "um Abençoado para com uma Igreja"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 5
+      name: "um Abençoado para seu Templo"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 6
+      name: "um mago para com um tutor"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 7
+      name: "um mago para com uma academia"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 8
+      name: "um mago para com uma guilda"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 9
+      name: "um membro de uma seita radical para com os líderes da seita"
+      src:
+        - id: US25001E
+          firstPage: 173
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_51
+  name: "Mutilação"
+  rules: |
+    Mutilação torna muitos testes de perícia difíceis ou impossíveis. O MJ tem a última palavra, dependendo da situação.
+
+    - **Um Braço:** Um dos braços da personagem foi perdido pelo menos até o cotovelo.
+    - **Caolho:** O herói ou heroína é cego de um olho ou perdeu-o completamente. Combate a Distância sofre 4 de penalidade.
+    - **Uma Perna:** O herói ou heroína tem apenas uma perna, ou talvez tenha sido amputado abaixo do joelho. Reduza pela metade a sua base de Movimento, mesmo quando usar muletas ou uma prótese simples.
+    - **Maneta:** Falta uma mão à personagem.
+    - **Uma Orelha:** Uma das orelhas do herói ou heroína está perdida ou surda. Testes de Percepção baseados na audição sempre sofrem um 1 de penalidade.
+  selectOptions:
+    - id: 1
+      name: "Um Braço"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 2
+      name: "Caolho"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 3
+      name: "Uma Perna"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 4
+      name: "Maneta"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 5
+      name: "Uma Orelha"
+      src:
+        - id: US25001E
+          firstPage: 173
+  apValue: "Um braço: -30 pontos de aventura; Caolho: -10 pontos de aventura; Uma Perna: -30 pontos de aventura; Maneta: -20 pontos de aventura; Uma Orelha: –5 pontos de aventura"
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_52
+  name: "Nome Verdadeiro"
+  rules: |
+    O torna muito mais suscetível a magia. Se um conjurador usar um feitiço contra um alvo que tem esta desvantagem e o conjurador souber o nome verdadeiro do alvo, o Espírito e a Tenacidade do alvo são reduzidos em 4.
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_53
+  name: "Magia Selvagem"
+  rules: |
+    Resultados de 19 em testes de perícia utilizando feitiços e rituais são tratados como 20 ao determinar fiascos
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_54
+  name: "Suscetível a Feitiços"
+  rules: |
+    Seu Espírito e Tenacidade são reduzidos em 1 por nível quando resistindo a magia.
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_55
+  name: "Sensível a Dor"
+  rules: |
+    Trate as penalidades devido a condição *Dor* como sendo de um nível mais elevado. Além disso, o herói fica incapacitado no nível de *Dor* III ao invés do nível IV.
+  src:
+    - id: US25001E
+      firstPage: 176

@@ -1,0 +1,19 @@
+- id: 1
+  name: "Körper"
+  fullName: "Körpertalente"
+
+- id: 2
+  name: "Gesellschaft"
+  fullName: "Gesellschaftstalente"
+
+- id: 3
+  name: "Natur"
+  fullName: "Naturtalente"
+
+- id: 4
+  name: "Wissens"
+  fullName: "Wissenstalente"
+
+- id: 5
+  name: "Handwerk"
+  fullName: "Handwerkstalente"

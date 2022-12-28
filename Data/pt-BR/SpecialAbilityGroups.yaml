@@ -1,0 +1,20 @@
+- id: 1
+  name: "Gerais"
+- id: 2
+  name: "Destino"
+- id: 3
+  name: "Combate"
+- id: 4
+  name: "Mágicas"
+- id: 5
+  name: "Cajado"
+- id: 6
+  name: "Bruxa"
+- id: 7
+  name: "Karma"
+- id: 8
+  name: "Círculos de Proteção/Aprisionamento"
+- id: 28
+  name: "Tradições Mágicas"
+- id: 29
+  name: "Tradições Abençoadas"

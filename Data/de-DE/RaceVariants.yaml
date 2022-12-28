@@ -1,0 +1,39 @@
+- id: RV_1
+  name: "Mittelländer"
+
+- id: RV_2
+  name: "Nivesen"
+  commonAdvantages: "Entfernungssinn, Kälteresistenz"
+  commonDisadvantages: "Hitzeempfindlich"
+
+- id: RV_3
+  name: "Norbarden"
+
+- id: RV_4
+  name: "Thorwaler"
+  commonAdvantages: "Hohe Zähigkeit, Zäher Hund"
+  commonDisadvantages: "Blutrausch, Niedrige Seelenkraft"
+
+- id: RV_5
+  name: "Tulamiden"
+  commonAdvantages: "Hitzeresistenz"
+  commonDisadvantages: "Kälteempfindlich"
+
+- id: RV_6
+  name: "Waldmenschen"
+  commonAdvantages: "Angenehmer Geruch, Hitzeresistenz, Immunität gegen Wurara, Immunität gegen Flinken Difar und Brabaker Schweiß"
+  commonDisadvantages: "Kälteempfindlich"
+
+- id: RV_7
+  name: "Utulus"
+  commonAdvantages: "Angenehmer Geruch, Hitzeresistenz, Immunität gegen Wurara, Immunität gegen Flinken Difar und Brabaker Schweiß"
+  commonDisadvantages: "Kälteempfindlich"
+
+- id: RV_8
+  name: "Auelfen"
+
+- id: RV_9
+  name: "Firnelfen"
+
+- id: RV_10
+  name: "Waldelfen"

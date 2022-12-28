@@ -1,0 +1,45 @@
+- id: R_1
+  name: "Humanos"
+  attributeAdjustments: "+1 em um atributo da sua escolha"
+  src:
+    - id: US25001E
+      firstPage: 91
+
+- id: R_2
+  name: "Elfos"
+  attributeAdjustments: "INT e AGI +1; SAG ou FOR -2"
+  automaticAdvantages: "Conjurador, Canto de Duas Vozes"
+  stronglyRecommendedAdvantages: "Visão no Escuro I, Não Precis Dormir, Resistente ao Evelhecimento"
+  stronglyRecommendedDisadvantages: "Incompetente (Boêmia), Nariz Sensível"
+  commonAdvantages: "Ambidestro, Aptidão (Canto, Música), Voz Bonita, Costorcionista, Visão no Escuro II, Senso de Direção, Sentido Exceptional (Audição ou Visão), Boa Aparência, Imunidade (Raiva Negra, Raiva, Licantropia), Regeneração Aprimorada (Energia Arcana), Ágil, Resistente à Doenças, Resistente à Venenos"
+  commonDisadvantages: "Perturbado por Espíritos Menores, Poder Ligado aos Cabelos, Nome Verdadeiro"
+  uncommonAdvantages: "Díficil de Enfeitiçar, Nariz de Anão, Resistente ao Calor"
+  uncommonDisadvantages: "Obesidade, Frenesi, Cegueira Noturna, Sentido Limitado"
+  src:
+    - id: US25001E
+      firstPage: 93
+
+- id: R_3
+  name: "Meio-Elfos"
+  attributeAdjustments: "+1 em um atributo da sua escolha"
+  commonAdvantages: "Ambidestro, Aptidão (Canto, Música), Voz Bonita, Contorcionista, Visão no Escuro I, Sentido Exceptional (Audição ou Visão), Boa Aparência, Ágil, Conjurador, Canto de Duas Vozes"
+  commonDisadvantages: "Nariz Sensível, Nome Verdadeiro"
+  uncommonAdvantages: "Díficil de Enfeitiçar, Nariz de Anão"
+  uncommonDisadvantages: "Obesidade, Frenesi, Suscetível a Doenças"
+  src:
+    - id: US25001E
+      firstPage: 94
+
+- id: R_4
+  name: "Anões"
+  attributeAdjustments: "CON e FOR +1; CAR ou AGI -2"
+  stronglyRecommendedAdvantages: "Visão no Escuro  I, Imunidade a Tulmadron (um veneno)"
+  stronglyRecommendedDisadvantages: "Incompetência (Natação)"
+  commonAdvantages: "Visão no Escuro II, Díficil de Enfeitiçar, Senso de Direção, Nariz de Anão, Tenacidade Aumentada, Resistente a Doenças, Resistente ao Calor, Lutador Robusto"
+  commonDisadvantages: "Frenesi"
+  uncommonAdvantages: "Voz Bonita, Contorcionista, Conjurador"
+  uncommonDisadvantages: "Espírito Reduzido, Tenacidade Reduzida, Cegueira Noturna, Sensível a Dor, Suscetível ao Calor"
+  src:
+    - id: US25001E
+      firstPage: 96
+

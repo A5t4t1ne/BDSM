@@ -1,0 +1,567 @@
+- id: RV_1
+# name: Mittelländer
+  commonCultures:
+    - C_1
+    - C_3
+    - C_5
+    - C_6
+    - C_8
+    - C_12
+    - C_13
+    - C_15
+    - C_16
+    - C_18
+  hairColors:
+    - 16
+    - 16
+    - 16
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 2
+    - 2
+    - 2
+    - 2
+    - 18
+    - 18
+    - 13
+    - 13
+  eyeColors:
+    - 5
+    - 5
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 11
+    - 11
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 9
+    - 9
+    - 15
+  sizeBase: 160
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_2
+# name: Nivesen
+  commonCultures:
+    - C_3
+    - C_10
+    - C_12
+    - C_16
+  commonAdvantages:
+    - ADV_8
+    - ADV_30
+  commonDisadvantages:
+    - DISADV_15
+  hairColors:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 10
+    - 2
+    - 3
+    - 3
+    - 4
+    - 16
+  eyeColors:
+    - 4
+    - 4
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 12
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 11
+    - 11
+    - 11
+    - 3
+    - 3
+    - 9
+  sizeBase: 155
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_3
+# name: Norbarden
+  commonCultures:
+    - C_3
+    - C_11
+    - C_12
+  hairColors:
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 10
+    - 10
+    - 2
+  eyeColors:
+    - 15
+    - 15
+    - 15
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 4
+    - 4
+    - 4
+    - 4
+    - 11
+    - 11
+    - 3
+  sizeBase: 158
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_4
+# name: Thorwaler
+  commonCultures:
+    - C_4
+    - C_12
+    - C_17
+  commonAdvantages:
+    - ADV_27
+    - ADV_49
+  commonDisadvantages:
+    - DISADV_6
+    - DISADV_29
+  hairColors:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 14
+    - 14
+    - 14
+    - 14
+    - 14
+    - 18
+    - 18
+    - 13
+    - 13
+    - 4
+    - 7
+    - 7
+  eyeColors:
+    - 5
+    - 5
+    - 4
+    - 4
+    - 4
+    - 4
+    - 4
+    - 11
+    - 11
+    - 11
+    - 11
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 9
+    - 9
+  sizeBase: 168
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_5
+# name: Tulamiden
+  commonCultures:
+    - C_2
+    - C_6
+    - C_7
+    - C_14
+    - C_15
+    - C_26
+  commonAdvantages:
+    - ADV_22
+  commonDisadvantages:
+    - DISADV_16
+  hairColors:
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 12
+    - 12
+    - 9
+    - 9
+    - 9
+    - 2
+    - 2
+    - 13
+  eyeColors:
+    - 15
+    - 15
+    - 15
+    - 15
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 4
+    - 4
+    - 4
+    - 4
+    - 9
+    - 9
+    - 11
+    - 3
+  sizeBase: 155
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_6
+# name: Waldmenschen
+  commonCultures:
+    - C_2
+    - C_7
+    - C_9
+    - C_14
+    - C_15
+  commonAdvantages:
+    - ADV_3
+    - ADV_22
+    - ADV_28
+    - ADV_29
+  commonDisadvantages:
+    - DISADV_16
+  hairColors:
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 5
+  eyeColors:
+    - 12
+    - 12
+    - 12
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+  sizeBase: 152
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_7
+# name: Utulus
+  commonCultures:
+    - C_2
+    - C_7
+    - C_9
+    - C_14
+    - C_15
+  commonAdvantages:
+    - ADV_3
+    - ADV_22
+    - ADV_28
+    - ADV_29
+  commonDisadvantages:
+    - DISADV_16
+  hairColors:
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 16
+    - 1
+    - 1
+    - 1
+  eyeColors:
+    - 12
+    - 12
+    - 12
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 5
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+  sizeBase: 165
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_8
+# name: Auelfen
+  commonCultures:
+    - C_19
+  hairColors:
+    - 1
+    - 16
+    - 16
+    - 17
+    - 17
+    - 18
+    - 18
+    - 8
+    - 8
+    - 8
+    - 8
+    - 11
+    - 11
+    - 11
+    - 11
+    - 11
+    - 11
+    - 4
+    - 4
+    - 4
+  eyeColors:
+    - 16
+    - 16
+    - 10
+    - 10
+    - 14
+    - 14
+    - 14
+    - 14
+    - 18
+    - 18
+    - 18
+    - 18
+    - 6
+    - 6
+    - 6
+    - 6
+    - 2
+    - 2
+    - 8
+    - 1
+  sizeBase: 168
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_9
+# name: Firnelfen
+  commonCultures:
+    - C_20
+  hairColors:
+    - 1
+    - 16
+    - 17
+    - 17
+    - 17
+    - 15
+    - 15
+    - 15
+    - 15
+    - 18
+    - 18
+    - 18
+    - 18
+    - 18
+    - 8
+    - 8
+    - 8
+    - 11
+    - 11
+    - 4
+  eyeColors:
+    - 15
+    - 17
+    - 17
+    - 7
+    - 7
+    - 7
+    - 7
+    - 14
+    - 14
+    - 14
+    - 14
+    - 18
+    - 18
+    - 18
+    - 18
+    - 2
+    - 2
+    - 2
+    - 8
+    - 13
+  sizeBase: 168
+  sizeRandom:
+    - amount: 2
+      sides: 20
+
+- id: RV_10
+# name: Waldelfen
+  commonCultures:
+    - C_21
+  hairColors:
+    - 1
+    - 1
+    - 1
+    - 16
+    - 16
+    - 16
+    - 16
+    - 17
+    - 17
+    - 17
+    - 18
+    - 8
+    - 8
+    - 11
+    - 11
+    - 11
+    - 4
+    - 4
+    - 4
+    - 6
+  eyeColors:
+    - 15
+    - 15
+    - 14
+    - 14
+    - 18
+    - 18
+    - 18
+    - 18
+    - 5
+    - 5
+    - 5
+    - 5
+    - 2
+    - 2
+    - 2
+    - 2
+    - 8
+    - 13
+    - 13
+    - 1
+  sizeBase: 168
+  sizeRandom:
+    - amount: 2
+      sides: 20

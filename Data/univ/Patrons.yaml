@@ -1,0 +1,466 @@
+- id: 1
+# name: "Adler"
+  category: 1
+  skills:
+    - 8
+    - 10
+    - 23
+  limitedToCultures:
+    - 10
+  isLimitedToCulturesReverse: true
+
+- id: 2
+# name: "Bär"
+  category: 1
+  skills:
+    - 5
+    - 8
+    - 14
+  limitedToCultures:
+    - 31
+    - 32
+
+- id: 3
+# name: "Eule"
+  category: 1
+  skills:
+    - 3
+    - 27
+    - 10
+  limitedToCultures:
+    - 31
+
+- id: 4
+# name: "Feuermolch"
+  category: 1
+  skills:
+    - 3
+    - 7
+    - 13
+  limitedToCultures:
+    - 31
+
+- id: 5
+# name: "Fischotter"
+  category: 1
+  skills:
+    - 26
+    - 4
+    - 7
+  limitedToCultures:
+    - 31
+
+- id: 6
+# name: "Gebirgsbock"
+  category: 1
+  skills:
+    - 16
+    - 3
+    - 4
+  limitedToCultures:
+    - 30
+    - 31
+    - 32
+
+- id: 7
+# name: "Gepard/Jaguar"
+  category: 1
+  skills:
+    - 27
+    - 3
+    - 4
+  limitedToCultures:
+    - 9
+    - 30
+
+- id: 8
+# name: "Khoramsbestie"
+  category: 1
+  skills:
+    - 24
+    - 4
+    - 13
+  limitedToCultures:
+    - 30
+
+- id: 9
+# name: "Khoramswühler"
+  category: 1
+  skills:
+    - 4
+    - 10
+    - 13
+  limitedToCultures:
+    - 30
+
+- id: 10
+# name: "Löwe"
+  category: 1
+  skills:
+    - 3
+    - 5
+    - 13
+  limitedToCultures:
+    - 9
+    - 30
+
+- id: 11
+# name: "Luchs"
+  category: 1
+  skills:
+    - 24
+    - 10
+    - 13
+  limitedToCultures:
+    - 4
+    - 30
+    - 32
+
+- id: 12
+# name: "Mungo"
+  category: 1
+  skills:
+    - 4
+    - 13
+    - 23
+  limitedToCultures:
+    - 30
+
+- id: 13
+# name: "Nashorn"
+  category: 1
+  skills:
+    - 4
+    - 5
+    - 14
+  limitedToCultures:
+    - 4
+    - 30
+    - 31
+
+- id: 14
+# name: "Pferd"
+  category: 1
+  skills:
+    - 4
+    - 5
+    - 11
+  limitedToCultures:
+    - 30
+
+- id: 15
+# name: "Rabe"
+  category: 1
+  skills:
+    - 24
+    - 27
+    - 10
+  limitedToCultures:
+    - 4
+    - 31
+    - 32
+
+- id: 16
+# name: "Sandwolf"
+  category: 1
+  skills:
+    - 24
+    - 4
+    - 13
+  limitedToCultures:
+    - 30
+
+- id: 17
+# name: "Stier"
+  category: 1
+  skills:
+    - 4
+    - 5
+    - 14
+  limitedToCultures:
+    - 30
+    - 32
+
+- id: 18
+# name: "Vielfraß"
+  category: 1
+  skills:
+    - 3
+    - 5
+    - 8
+  limitedToCultures:
+    - 31
+
+- id: 19
+# name: "Widder"
+  category: 1
+  skills:
+    - 16
+    - 3
+    - 5
+  limitedToCultures:
+    - 30
+    - 32
+
+- id: 20
+# name: "Wildkatze"
+  category: 1
+  skills:
+    - 3
+    - 4
+    - 13
+  limitedToCultures:
+    - 9
+    - 30
+
+- id: 21
+# name: "Wildschwein"
+  category: 1
+  skills:
+    - 5
+    - 10
+    - 14
+  limitedToCultures:
+    - 31
+    - 32
+
+- id: 22
+# name: "Wolf"
+  category: 1
+  skills:
+    - 4
+    - 10
+    - 13
+  limitedToCultures:
+    - 10
+    - 31
+
+- id: 23
+# name: "Würgeschlange"
+  category: 1
+  skills:
+    - 3
+    - 5
+    - 13
+  limitedToCultures:
+    - 9
+
+- id: 24
+# name: "Eis"
+  category: 2
+  skills:
+    - 3
+    - 8
+    - 10
+  limitedToCultures:
+    - 4
+    - 10
+    - 30
+
+- id: 25
+# name: "Erz"
+  category: 2
+  skills:
+    - 3
+    - 5
+    - 8
+  limitedToCultures:
+    - 4
+    - 30
+    - 32
+
+- id: 26
+# name: "Feuer"
+  category: 2
+  skills:
+    - 4
+    - 5
+    - 10
+  limitedToCultures:
+    - 4
+    - 10
+
+- id: 27
+# name: "Humus"
+  category: 2
+  skills:
+    - 50
+    - 5
+    - 10
+  limitedToCultures:
+    - 9
+    - 31
+
+- id: 28
+# name: "Luft"
+  category: 2
+  skills:
+    - 4
+    - 10
+    - 11
+  limitedToCultures:
+    - 9
+    - 10
+    - 30
+    - 31
+    - 32
+
+- id: 29
+# name: "Wasser"
+  category: 2
+  skills:
+    - 4
+    - 7
+    - 8
+  limitedToCultures:
+    - 9
+    - 31
+    - 32
+
+- id: 30
+# name: "Ahnengeist"
+  category: 3
+  skills:
+    - 4
+    - 5
+    - 23
+
+- id: 31
+# name: "Blutgeist"
+  category: 3
+  skills:
+    - 4
+    - 10
+    - 23
+  limitedToCultures:
+    - 9
+    - 30
+    - 32
+
+- id: 32
+# name: "Waffengeist"
+  category: 3
+  skills:
+    - 4
+    - 5
+    - 8
+
+- id: 33
+# name: "Blakharaz"
+  category: 4
+  skills:
+    - 5
+    - 8
+    - 23
+
+- id: 34
+# name: "Belhalhar"
+  category: 4
+  skills:
+    - 4
+    - 5
+    - 23
+
+- id: 35
+# name: "Charyptoroth"
+  category: 4
+  skills:
+    - 4
+    - 7
+    - 23
+
+- id: 36
+# name: "Lolgramoth"
+  category: 4
+  skills:
+    - 3
+    - 4
+    - 23
+
+- id: 37
+# name: "Thargunitoth"
+  category: 4
+  skills:
+    - 4
+    - 8
+    - 23
+
+- id: 38
+# name: "Amazeroth"
+  category: 4
+  skills:
+    - 4
+    - 23
+    - 14
+
+- id: 39
+# name: "Nagrach"
+  category: 4
+  skills:
+    - 24
+    - 4
+    - 23
+
+- id: 40
+# name: "Asfaloth"
+  category: 4
+  skills:
+    - 4
+    - 29
+    - 23
+
+- id: 41
+# name: "Tasfarelel"
+  category: 4
+  skills:
+    - 4
+    - 5
+    - 23
+
+- id: 42
+# name: "Mishkara"
+  category: 4
+  skills:
+    - 4
+    - 50
+    - 23
+
+- id: 43
+# name: "Agrimoth"
+  category: 4
+  skills:
+    - 5
+    - 8
+    - 23
+
+- id: 44
+# name: "Belkelel"
+  category: 4
+  skills:
+    - 16
+    - 4
+    - 23
+
+- id: 45
+# name: "Aphasmayra"
+  category: 4
+  skills:
+    - 16
+    - 4
+    - 23
+
+- id: 46
+# name: "Aphestadil"
+  category: 4
+  skills:
+    - 5
+    - 21
+    - 14
+
+- id: 47
+# name: "Heskatet"
+  category: 4
+  skills:
+    - 15
+    - 4
+    - 23

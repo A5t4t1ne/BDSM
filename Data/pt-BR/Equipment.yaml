@@ -1,0 +1,3417 @@
+- id: ITEMTPL_1
+  name: "Língua de Basilisco"
+  versions:
+    - note: |
+        Santificado (Hesinde, Inominável); apenas os Abençoados de Hesinde podem comprar armas santificadas por Hesinde; heróis não podem comprar armas santificadas pelo Inominável.
+      src:
+        - id: US25001E
+          firstPage: 364
+    - advantage: |
+        The basilisk-tongue inflicts +2 DP in an ambush (see **Core Rules** Page **237**). Blessed Ones of the Nameless One receive a +1 DP bonus when fighting animals that are holy to the Twelvegods. In the hands of a Blessed One of Hesinde, the basilisk-tongue inflicts +1 DP against cultists or Blessed Ones of the Nameless One.
+      disadvantage: |
+        The basilisk-tongue subtracts 1 from DP when used against armor with PRO 2 or greater.
+      src:
+        - id: US25208E
+          firstPage: 59
+
+- id: ITEMTPL_2
+  name: "Adaga"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 364
+      - id: US25208E
+        firstPage: 64
+
+- id: ITEMTPL_3
+  name: "Dente de Dragão"
+  versions:
+    - note: |
+        Para comprar um dente de dragão durante a criação de personagem, a personagem deve ser de uma cultura anã.
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        The dragon tooth grants a bonus of +1 DP against lizard creatures.
+      disadvantage: |
+        Non-dwarves receive a penalty of -1 on AT, PA, and DP.
+        The maneuver *Precise Thrust* receives only a -1 penalty.
+      src:
+        - id: US25208E
+          firstPage: 65
+
+- id: ITEMTPL_4
+  name: "Main-Gauche"
+  versions:
+    - note: |
+        Arma de aparar (bônus de AP +1 para a arma principal).
+      src:
+        - id: US25001E
+          firstPage: 364
+    - advantage: |
+        Ignore the normal -2 penalty for the maneuver *Deadly Thrust*.
+      disadvantage: |
+        Subtract 1 from the DP roll for attacks against armor of at least PRO 6.
+      src:
+        - id: US25208E
+          firstPage: 76
+
+- id: ITEMTPL_5
+  name: "Faca"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+
+- id: ITEMTPL_6
+  name: "Adaga Pesada"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 364
+      - id: US25208E
+        firstPage: 70
+
+- id: ITEMTPL_7
+  name: "Waqqif"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 364
+    - advantage: |
+        Subtract 1 PRO from armor with PRO 2 or less.
+      disadvantage: |
+        Cannot perform the maneuver *Precise Thrust*.
+      src:
+        - id: US25208E
+          firstPage: 91
+
+- id: ITEMTPL_8
+  name: "Florete"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 364
+    - advantage: |
+        The maneuver *Feint* receives a +1 bonus.
+      disadvantage: |
+        Foils can parry only daggers, other fencing weapons, and unarmed attacks, even if the wielder has the special ability *Cross-block* (see Core Rules, page 247).
+      src:
+        - id: US25208E
+          firstPage: 67
+
+- id: ITEMTPL_9
+  name: "Rapiera"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 364
+      - id: US25206E
+        firstPage: 82
+
+- id: ITEMTPL_10
+  name: "Faca-de-lobo"
+  versions:
+    - note: |
+        Para comprar uma faca-de-lobo durante a criação de personagem, ela deve ser da cultura dos Elfos de Clareira ou Elfos da Floresta.
+      src:
+        - id: US25001E
+          firstPage: 364
+    - advantage: |
+        When opponents have the same *INI* value, the one with the wolf-knife always strikes first. When the opponent also wields a wolf-knife, apply the normal rules for order of action (see **Core Rules** Page **227**).
+      disadvantage: |
+        When attacking with two weapons (using *two-weapon combat*) in one CR, and the second weapon has a reach of medium, the second attack receives a -1 penalty to AT. When wielding a wolf-knife, non-elves receive a -1 penalty to AT, PA, and DP.
+      src:
+        - id: US25208E
+          firstPage: 92
+
+- id: ITEMTPL_11
+  name: "Clava de Brabak"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 364
+    - advantage: |
+        The cudgel normally strikes like a regular mace, but it can also strike with its spiked tip, which inflicts 1D6+4 DP. Armor with PRO 4 or greater suffers a penalty of -2 PRO from this attack.
+      disadvantage: |
+        A confirmed botch while attacking inflicts 1 level of *Stupor* on the wielder.
+      src:
+        - id: US25208E
+          firstPage: 61
+
+- id: ITEMTPL_12
+  name: "Clava"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 364
+    - advantage: |
+        The maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**) inflicts 1D3+1 instead of only 1D3 DP.
+      disadvantage: |
+        The cudgel breaks with a confirmed botch on an AT. This is in addition to any other botch results.
+      src:
+        - id: US25208E
+          firstPage: 63
+
+- id: ITEMTPL_13
+  name: "Porrete"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        The maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**) causes 1D3+1 instead of only 1D3 DP.
+      disadvantage: |
+        The club breaks with a confirmed botch on an AT. This is in addition to any other botch results.
+      src:
+        - id: US25208E
+          firstPage: 63
+
+- id: ITEMTPL_14
+  name: "Mata-serpe"
+  versions:
+    - note: |
+        Para comprar um mata-serpe durante a criação, a personagem deve ser de uma cultura anã.
+      src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        The maneuver *Shield-Splitter* gains +4 DP.
+      disadvantage: |
+        Receive a -1 penalty on AT against creatures of size categories large and huge.
+        When wielding wyvern-beaters, non-dwarves receive a -1 penalty to AT, PA, and DP.
+      src:
+        - id: US25208E
+          firstPage: 94
+
+- id: ITEMTPL_15
+  name: "Cajado de mago, curto"
+  versions:
+    - note: |
+        Para comprar um cajado de mago durante a criação de personagens, a personagem deve ter Tradição (Mago de Guilda).
+      src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        Gain a +1 bonus when performing the maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**).
+      disadvantage: |
+        Cannot perform the maneuver *Onslaught*.
+      src:
+        - id: US25208E
+          firstPage: 76
+
+- id: ITEMTPL_16
+  name: "Cajado de mago, médio"
+  versions:
+    - note: |
+        Para comprar um cajado de mago durante a criação de personagens, a personagem deve ter Tradição (Mago de Guilda).
+      src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        Gain a +1 bonus when performing the maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**).
+      disadvantage: |
+        Cannot perform the maneuver *Onslaught*.
+      src:
+        - id: US25208E
+          firstPage: 76
+
+- id: ITEMTPL_17
+  name: "Molokdeschnaja"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        Gain a +1 bonus to *Intimidation (Threats)* checks using the special ability *Threating Gestures* (see **Aventuria Compendium** Page **110**).
+      disadvantage: |
+        When wielding two molokdeshnajas at once, apply a -1 penalty to all AT and PA.
+      src:
+        - id: US25208E
+          firstPage: 77
+
+- id: ITEMTPL_18
+  name: "Nariz-de-orc"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        The maneuver Shield Splitter inflicts an additional +4 DP.
+      disadvantage: |
+        Suffer an additional -1 penalty when parrying attacks from daggers and fencing weapons.
+      src:
+        - id: US25208E
+          firstPage: 80
+
+- id: ITEMTPL_19
+  name: "Bico de corvo"
+  versions:
+    - note: |
+        Santificado (Boron); apenas Abençoados de Boron podem comprar armas santificadas por Boron.
+      src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        Attacks with the spike inflict 1D6+4 DP as well. Subtract 2 PRO from armor with PRO 6 or more. Mounted warriors gain a bonus of +1 DP.
+      disadvantage: |
+        On a confirmed botch, receive 1 level of *Stupor*. This is in addition to any other botch results.
+      src:
+        - id: US25206E
+          firstPage: 82
+
+- id: ITEMTPL_20
+  name: "Cetro solar"
+  versions:
+    - note: |
+        Santificado (Praios); apenas Abençoados de Praios podem comprar armas santificadas por Praios.
+      src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Receive a +1 bonus to PA during the day. Sun-scepters inflict +1 DP against beings that have AE.
+      disadvantage: |
+        Receive a -1 penalty to AT during the night. Subtract 1 from DP when attacking targets with armor of PRO 4 or greater.
+      src:
+        - id: US25208E
+          firstPage: 88
+
+- id: ITEMTPL_21
+  name: "Machado de batalha"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 365
+      - id: US25208E
+        firstPage: 60
+
+- id: ITEMTPL_22
+  name: "Maça"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 365
+      - id: US25208E
+        firstPage: 75
+
+- id: ITEMTPL_23
+  name: "Maça-estrela"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 365
+      - id: US25208E
+        firstPage: 78
+
+- id: ITEMTPL_24
+  name: "Lança de guerra"
+  versions:
+    - note: |
+        Esta arma só pode ser usada para um ataque de Investida (veja a página **243**).
+      src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        If a war lance is used against a target of size category small or tiny, and the attack fails, the attacker must make a check on *Riding (Combat Maneuvers)* with a penalty of 2. On a failure, the lance sticks in the ground, unhorsing the attacker. As a result, the attacker suffers falling damage, and the lance breaks and may no longer be used.
+      src:
+        - id: US25206E
+          firstPage: 9
+
+- id: ITEMTPL_25
+  name: "Soqueiras"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 364
+      - id: US25208E
+        firstPage: 61
+
+- id: ITEMTPL_26
+  name: "Escudo de madeira"
+  versions:
+    note: |
+      Escudo pequeno, 20 pontos de estrutura.
+    src:
+      - id: US25001E
+        firstPage: 366
+      - id: US25208E
+        firstPage: 93
+
+- id: ITEMTPL_27
+  name: "Escudo de couro"
+  versions:
+    - note: |
+        Escudo pequeno, 15 pontos de estrutura.
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        PA gains a +1 bonus when using the maneuver *Defensive Posture*.
+      disadvantage: |
+        The maneuver *Shield Smash* inflicts only 1 DP when using a leather shield.
+      src:
+        - id: US25208E
+          firstPage: 74
+
+- id: ITEMTPL_28
+  name: "Escudo Thorwale"
+  versions:
+    - note: |
+        Escudo médio, 25 pontos de estrutura.
+      src:
+        - id: US25001E
+          firstPage: 368
+    - advantage: |
+        When combined with a main weapon for the maneuver *Charge*, the main weapon receives a bonus of +1 DP.
+      disadvantage: |
+        When used while mounted, this shield grants only the simple shield bonus.
+      src:
+        - id: US25208E
+          firstPage: 89
+
+- id: ITEMTPL_29
+  name: "Escudo Grande"
+  versions:
+    - note: |
+        Escudo Grande, 30 pontos de estrutura, adicional de AT -1 para a arma principal.
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        When parrying arrows and bolts, the great shield doubles the shield's PA bonus and then grants an additional +1 bonus to PA.
+      disadvantage: |
+        When two opposing fighters have the same *INI* value, the one without the great shield always strikes first. If that opponent also uses a great shield, refer to the usual rules for initiative (see **Core Rules** Page **227**). The bearer of a great shield receives a -1 penalty to MOV.
+      src:
+        - id: US25208E
+          firstPage: 68
+
+- id: ITEMTPL_30
+  name: "BEspada bárbara"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        When using the special ability *Threatening Gestures* (see **Aventuria Compendium** Page **105**), gain a +1 bonus on the *Intimidation (Threats)* check.
+      disadvantage: |
+        Whenever two opponents have the same *INI*, the one wielding the barbarian sword always strikes last. If both are wielding barbarian swords, use the normal order of action rules (see **Core Rules** Page **227**)
+      src:
+        - id: US25208E
+          firstPage: 59
+
+- id: ITEMTPL_31
+  name: "Alfange"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        In cramped spaces, the wielder of a cutlass receives a penalty of only -2 to AT and PA.
+      disadvantage: |
+        Cutlasses incur a penalty of -1 to PA vs. two-handed weapons.
+      src:
+        - id: US25208E
+          firstPage: 64
+
+- id: ITEMTPL_32
+  name: "Facão (machete)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        Wielders may perform maneuvers designed for the technique *Impact Weapons*, although the wielder still uses the technique *Swords* to determine success.
+      disadvantage: |
+        The slasher gains nothing from being wielded two-handed.
+      src:
+        - id: US25208E
+          firstPage: 86
+
+- id: ITEMTPL_33
+  name: "Khunchomer"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        When using the maneuver *Bladestorm* (see **Aventuria Compendium** Page **151**), reduce the penalty for both attacks by 1.
+      disadvantage: |
+        The Khunchomer inflicts -1 DP against armor with PRO 5 or higher.
+      src:
+        - id: US25208E
+          firstPage: 73
+
+- id: ITEMTPL_34
+  name: "Espada curta"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        The wielder may combine the maneuver *Circumvent* (see **Aventuria Compendium** Page **155**) with the maneuver *Forceful Blow*.
+      disadvantage: |
+        Suffer a -1 penalty to PA versus *Two-Handed Impact Weapons* and *Two-Handed Swords*.
+      src:
+        - id: US25208E
+          firstPage: 85
+
+- id: ITEMTPL_35
+  name: "Espada longa"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 366
+      - id: US25208E
+        firstPage: 75
+
+- id: ITEMTPL_36
+  name: "Matadora-de-focas"
+  versions:
+    - note: |
+        Para comprar uma matadora-de-focas durante a criação, a personagem deve ser da cultura dos Firnelfos.
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        Gain a bonus of +1 DP when fighting animals of size categories medium and large.
+      disadvantage: |
+        uffer a -1 penalty when performing the maneuver *Feint*. When wielding a seal-killer, nonelves suffer a -1 penalty to AT, PA, and DP.
+      src:
+        - id: US25208E
+          firstPage: 85
+
+- id: ITEMTPL_37
+  name: "Sabre"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        When used in mounted combat, gain a bonus of +1 DP.
+      disadvantage: |
+        When used against armor with PRO 4 or greater, subtract 1 DP from the roll.
+      src:
+        - id: US25208E
+          firstPage: 84
+
+- id: ITEMTPL_38
+  name: "Matador-de-escravos"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        Gain +1 DP versus humanoids with PRO 0.
+      disadvantage: |
+        After a successful parry, roll 1D6. On a result of 6, the slave-death becomes temporarily entangled with the enemy's weapon, and the wielder suffers a -1 penalty to AT during the next CR. This rule does not apply to attacks against unarmed opponents.
+      src:
+        - id: US25208E
+          firstPage: 86
+
+- id: ITEMTPL_39
+  name: "Tridente"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 367
+    - advantage: |
+        Reduce penalties for fighting in water by 2. The maneuver *Disarm* gains a +1 bonus.
+      disadvantage: |
+        Subtract 1 from DP when attacking targets with armor of PRO 2 or greater.
+      src:
+        - id: US25208E
+          firstPage: 89
+
+- id: ITEMTPL_40
+  name: "Dshadra"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        The dshadra can be used in mounted combat as well as for a *Charge*.
+      disadvantage: |
+        Apply a -1 penalty to the maneuver *Takedown*.
+      src:
+        - id: US25208E
+          firstPage: 66
+
+- id: ITEMTPL_41
+  name: "Alabarda"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        When wielding a halberd in cramped spaces, reduce the penalties on AT and PA by 2 (see **Core Rules** Page **238**).
+      disadvantage: |
+        The maneuver *Pike Wall* has a -2 penalty (see **Aventuria Compendium** Page **154**).
+      src:
+        - id: US25208E
+          firstPage: 70
+
+- id: ITEMTPL_42
+  name: "Alabarda"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        Add 1 DP when attacking targets with armor of PRO 2 or less.
+      disadvantage: |
+        Subtract 1 DP when attacking targets with armor of PRO 5 or greater.
+      src:
+        - id: US25208E
+          firstPage: 93
+
+- id: ITEMTPL_43
+  name: "Bordão"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        Gain a +1 bonus with the maneuver *Takedown*.
+      disadvantage: |
+        Suffer a -1 penalty with the maneuver *Charge*.
+      src:
+        - id: US25206E
+          firstPage: 81
+
+- id: ITEMTPL_44
+  name: "Cajado de Mago, longo"
+  versions:
+    - note: |
+        Para comprar um cajado de mago durante a criação de personagens, a personagem deve ter Tradição (Mago de Guilda).
+      src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        Gain a +1 bonus when performing the maneuver *Stunning Blow* (see **Aventuria Compendium** Page **152**).
+      disadvantage: |
+        Cannot perform the maneuver *Onslaught*.
+      src:
+        - id: US25208E
+          firstPage: 76
+
+- id: ITEMTPL_45
+  name: "Lança"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 367
+      - id: US25208E
+        firstPage: 87
+
+- id: ITEMTPL_46
+  name: "Dois Lírios"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 366
+    - advantage: |
+        When making more than one PA in the same CR (see **Core Rules** Page **232**), reduce the penalty by 1.
+      disadvantage: |
+        When using the maneuver *Forceful Blow*, subtract 1 from the DP.
+      src:
+        - id: US25208E
+          firstPage: 90
+
+- id: ITEMTPL_47
+  name: "Espada bastarda"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+      - id: US25208E
+        firstPage: 60
+
+- id: ITEMTPL_48
+  name: "Khunchomer duplo"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 370
+    - advantage: |
+        Upon rolling a critical success, the confirmation roll receives a +2 bonus.
+      disadvantage: |
+        The double-Khunchomer cannot be used for *Feints*.
+      src:
+        - id: US25208E
+          firstPage: 65
+
+- id: ITEMTPL_49
+  name: "Matador-de-escravos grande"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 370
+    - advantage: |
+        The *Intimidation (Threats)* check for the special ability *Threats* (see **Aventuria Compendium** Page **105**) receives a bonus of 1.
+        The great slave-death causes +1 DP against unarmored humanoids with PRO 0.
+      disadvantage: |
+        If successfully parried, roll 1D6. On a result of 5-6, the opponent's weapon becomes stuck in the blade, giving the wielder a -1 penalty to AT for the next CR. This rule does not apply to attacks against unarmed opponents.
+      src:
+        - id: US25208E
+          firstPage: 69
+
+- id: ITEMTPL_50
+  name: "Crista de Rondra"
+  versions:
+    - note: |
+        Santificado (Rondra); apenas Abençoados de Rondra podem comprar armas santificadas por Rondra.
+      src:
+        - id: US25001E
+          firstPage: 370
+    - advantage: |
+        Gain a +1 bonus when using the maneuver *Windmill* (see the **Aventuria Compendium** Page **165**).
+      disadvantage: |
+        This weapon cannot perform the maneuver *Quickdraw*.
+      src:
+        - id: US25208E
+          firstPage: 84
+
+- id: ITEMTPL_51
+  name: "Faca de Tuzak"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 370
+    - advantage: |
+        Gain a bonus of +1 DP when using the maneuvers *High Blade* or *Wide Swing* (see **Aventuria Compendium** pages **162** and **164**, respectively).
+      disadvantage: |
+        When wielding a Tuzak knife, *Forceful Blows* receive a -1 penalty. Subtract 4 from DP when using the maneuver *Shield-Splitter*.
+      src:
+        - id: US25208E
+          firstPage: 90
+
+- id: ITEMTPL_52
+  name: "Espada grande"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+      - id: US25208E
+        firstPage: 69
+
+- id: ITEMTPL_53
+  name: "Machado bárbaro"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 370
+    - advantage: |
+        Whenever the wielder achieves a critical success or inflicts 14+ DP in one blow against an enemy, all opponents within attack distance must make a *Willpower (Resist Intimidation)* check at a -1 penalty. Each enemy who fails this check receives 1 level of *Fear* for 5 CR.
+      disadvantage: |
+        A confirmed botch on an AT or PA inflicts 1 level of *Stupor* on the wielder.
+      src:
+        - id: US25208E
+          firstPage: 58
+
+- id: ITEMTPL_54
+  name: "Corta-pedra"
+  versions:
+    - note: |
+        Para comprar uma corta-pedra durante a criação, a personagem deve ser de uma cultura anã.
+      src:
+        - id: US25001E
+          firstPage: 370
+    - advantage: |
+        Gain a +1 bonus for the maneuver *Hammer Blow*. When performing the maneuver *Shatter*, roll 2D6 instead of 1D6, and add the greater die result to the DP.
+      disadvantage: |
+        When wielding a rock-cleaver, non-dwarves suffer a -2 penalty to AT, PA, and DP. A botch (confirmed or unconfirmed) while performing the maneuvers *Forceful Blow* or *Hammer Blow* causes the weapon to become stuck.
+        Recovering the weapon requires a free action and a successful *Feat of Strength (Dragging & Pulling)* check.
+      src:
+        - id: US25208E
+          firstPage: 83
+
+- id: ITEMTPL_55
+  name: "Martelo de guerra"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+      - id: US25208E
+        firstPage: 91
+
+- id: ITEMTPL_56
+  name: "Clava anã"
+  versions:
+    - note: |
+        Para comprar uma clava anã durante a criação, a personagem deve ser de uma cultura anã.
+      src:
+        - id: US25001E
+          firstPage: 370
+    - advantage: |
+        In cramped spaces, the weapon incurs only a -2 penalty on AT and PA. The dwarf cudgel inflicts +1 DP when used with the maneuver *Forceful Blow* II/III.
+      disadvantage: |
+        Non-dwarves suffer a -2 penalty on AT, PA, and DP when wielding a dwarf cudgel. The maneuver *Feint* receives an additional -1 penalty.
+      src:
+        - id: US25208E
+          firstPage: 66
+
+- id: ITEMTPL_57
+  name: "Balestrina"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        When firing at targets of size categories small and tiny, reduce the AT penalty by 1.
+      disadvantage: |
+        A botch roll of 20 when firing (whether confirmed or not) causes the weapon to jam. Clearing the jam requires 2 actions.
+        When using the Botch Table optional rule, this effect is cumulative with other weapon jam results.
+      src:
+        - id: US25208E
+          firstPage: 95
+
+- id: ITEMTPL_58
+  name: "Besta da Floresta de Ferro"
+  versions:
+    - note: |
+        Carregador (para 10 virotes); 2 ações por tiro, 10 ações para mudar o carregador.
+      src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        Gain a +3 bonus for aiming (to a maximum of +4)
+      disadvantage: |
+        A botch (whether confirmed or not) causes a heavy weapon jam. Clearing the jam takes 2 actions. When using the Botch Table optional rule, this effect is cumulative with any other weapon jam results.
+      src:
+        - id: US25208E
+          firstPage: 99
+
+- id: ITEMTPL_59
+  name: "Besta de mão"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 371
+
+- id: ITEMTPL_60
+  name: "Besta leve"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 371
+      - id: US25208E
+        firstPage: 100
+
+- id: ITEMTPL_61
+  name: "Besta pesada"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        At short range, add +1 DP (for a total of 1D6+5, including the normal DP bonus for range).
+      disadvantage: |
+        At far range, subtract 1 from DP (for a total of 1D6+1, including the normal DP penalty for range).
+      src:
+        - id: US25208E
+          firstPage: 100
+
+- id: ITEMTPL_62
+  name: "Arco élfico"
+  versions:
+    - note: |
+        Para comprar um arco élfico durante a criação de personagens, elas devem ser de uma cultura élfica.
+      src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        Gain a +1 bonus when performing the maneuver *Precise Shot*.
+      disadvantage: |
+        Cannot be used while mounted.
+        When wielding the elf bow, non-elves receive a -2 penalty to RC.
+      src:
+        - id: US25208E
+          firstPage: 98
+
+- id: ITEMTPL_63
+  name: "Arco composto"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        Subtract 1 from range penalties (but do not reduce penalty below 0).
+      disadvantage: |
+        Receive an additional -2 penalty when firing in forests that are difficult or bad terrain (see **Core Rules** Page **349**)
+      src:
+        - id: US25208E
+          firstPage: 97
+
+- id: ITEMTPL_64
+  name: "Arco curto"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 371
+      - id: US25208E
+        firstPage: 100
+
+- id: ITEMTPL_65
+  name: "Arco longo"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        When performing *Ballistic Shot* (see **Aventuria Compendium** Page **151**) ignore the -2 penalty.
+      disadvantage: |
+        It is not possible to use the long bow while mounted. Receive a penalty of -2 in addition to all other applicable modifiers for the shot when firing in forests that are categorized as difficult or bad terrain (see **Core Rules** Page **349**).
+      src:
+        - id: US25208E
+          firstPage: 100
+
+- id: ITEMTPL_66
+  name: "Dente cortado"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        Subtract 1 from the weapon's damage threshold when using the maneuver *Powerful Throw* (see **Aventuria Compendium** Page **163**).
+      disadvantage: |
+        Receive a -1 penalty to RC when attacking targets at a far range.
+      src:
+        - id: US25208E
+          firstPage: 97
+
+- id: ITEMTPL_67
+  name: "Pedra"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 371
+
+- id: ITEMTPL_68
+  name: "Machado de arremesso"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 371
+      - id: US25208E
+        firstPage: 102
+
+- id: ITEMTPL_69
+  name: "Adaga de arremesso"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 371
+      - id: US25208E
+        firstPage: 103
+
+- id: ITEMTPL_70
+  name: "Tacape de arremesso"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        Targets that receive at least 6 DP from throwing clubs must succeed at a *Body Control (Balance)* check with a -1 penalty for every DP above 6, or receive the state *Prone*.
+      disadvantage: |
+        Subtract 2 from DP when attacking a target with armor of PRO 4 or greater.
+      src:
+        - id: US25208E
+          firstPage: 102
+
+- id: ITEMTPL_71
+  name: "Anel de arremesso"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        Throwing rings inflict +1 DP against humanoids with PRO 0.
+      disadvantage: |
+        Make a botch confirmation roll on an attack roll of 19+.
+      src:
+        - id: US25208E
+          firstPage: 103
+
+- id: ITEMTPL_72
+  name: "Disco de arremesso"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        Throwing discs gain a +1 bonus to RC.
+      disadvantage: |
+        Make a botch confirmation roll on an attack roll of 19+.
+      src:
+        - id: US25208E
+          firstPage: 103
+
+- id: ITEMTPL_73
+  name: "Lança de arremesso"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        Targets that take at least 10 DP must succeed at a *Self-Control (Remain Conscious)* check with a penalty of -1 for each DP above 10, or receive the state *Prone*.
+      disadvantage: |
+        Cannot perform the maneuver *Quickload*.
+      src:
+        - id: US25208E
+          firstPage: 104
+
+- id: ITEMTPL_74
+  name: "Estrela de arremesso"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 371
+    - advantage: |
+        On a hit that inflicts 6 or more DP, throwing stars become embedded in their targets, which then receive a -1 penalty to AT, PA, DO, and RC until the end of the next CR.
+      disadvantage: |
+        Make a botch confirmation roll on an attack roll of 19+.
+      src:
+        - id: US25208E
+          firstPage: 103
+
+- id: ITEMTPL_75
+  name: "Flecha"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_76
+  name: "Virote"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_77
+  name: "Bala"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_78
+  name: "Roupas comuns"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_79
+  name: "Peles"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_80
+  name: "Roupas pesadas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_81
+  name: "Roupas de Inverno"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_82
+  name: "Armadura de pano"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_83
+  name: "Jaquetão"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_84
+  name: "Armadura de couro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_85
+  name: "Cota de malha"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_86
+  name: "Cota de escamas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_87
+  name: "Cota de placas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_88
+  name: "Corda de arco"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_89
+  name: "Bainha de adaga"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_90
+  name: "Aljava, para 20 flechas ou virotes"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_91
+  name: "Bainha de espada"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_92
+  name: "Roupas de baixo para armaduras de metal"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_93
+  name: "Kit manutenção de armas(pedra de amolar, panos)"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 370
+
+- id: ITEMTPL_94
+  name: "Vestido de baile"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_95
+  name: "Boina"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_96
+  name: "Brocado"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_97
+  name: "Chapéu de feltro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_98
+  name: "Gugel (capuz longo)"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_99
+  name: "Colar"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_100
+  name: "Camisa"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_101
+  name: "Calças"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_102
+  name: "Calças com bolsos"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_103
+  name: "Jaqueta"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_104
+  name: "Caftan"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_105
+  name: "Capa com capuz"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_106
+  name: "Vestido"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_107
+  name: "Espartilho"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_108
+  name: "Hábito"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_109
+  name: "Cinto de couro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_110
+  name: "Luvas de couro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_111
+  name: "Chapéu de couro com aba larga"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_112
+  name: "Casaco de couro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_113
+  name: "Sapatos de couro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_114
+  name: "Avental de couro com bolsos"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_115
+  name: "Botas de couro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_116
+  name: "Tanga"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_117
+  name: "Robe de mago"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 373
+    - rules: |
+        The Normal Robe has neither advantages nor disadvantages.
+      src:
+        - id: US25208E
+          firstPage: 34
+
+- id: ITEMTPL_118
+  name: "Casaco"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 373
+    - rules: |
+        *Intuition* receives a +1 bonus for *Stealth (Conceal Item)* if the item can be hidden underneath a cloak or in one of its pockets.
+      src:
+        - id: US25208E
+          firstPage: 19
+
+- id: ITEMTPL_119
+  name: "Camisola"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_120
+  name: "Luvas de pele"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_121
+  name: "Botas de pelo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_122
+  name: "Chapéu de peles"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_123
+  name: "Saia"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_124
+  name: "Sandálias"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_125
+  name: "Echarpe"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_126
+  name: "Véu"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_127
+  name: "Corpete"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_128
+  name: "Faixa de seda"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_129
+  name: "Meias de seda"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_130
+  name: "Chapéu de palha"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_131
+  name: "Túnica"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_132
+  name: "Turbante"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_133
+  name: "Ceroulas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_134
+  name: "Anágua"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_135
+  name: "Tabardo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_136
+  name: "Colete"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_137
+  name: "Meias de lã"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_138
+  name: "Clothing package: Não-Livre"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_139
+  name: "Pacotes de Vestuário: Livre"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_140
+  name: "Pacotes de Vestuário: Nobre Menor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_141
+  name: "Pacotes de Vestuário: Nobre"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_142
+  name: "Pacotes de Vestuário: Aristocracia"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_143
+  name: "Equipamento e linha de pesca, 9m"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_144
+  name: "Copo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_145
+  name: "Machadinha"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 374
+    - rules: |
+        *Dexterity* gains a +1 bonus on the first partial *Woodworking (Felling & Cutting)* check. A hatchet can be an improvised weapon (see **Aventuria Armory** Page **138**).
+      src:
+        - id: US25208E
+          firstPage: 29
+
+- id: ITEMTPL_146
+  name: "Vassoura"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_147
+  name: "Espeto de ferro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_148
+  name: "Forcado"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_149
+  name: "Malho"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_150
+  name: "Talheres"
+  versions:
+    src:
+      - id: US250013
+        firstPage: 375
+
+- id: ITEMTPL_151
+  name: "Arquivo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_152
+  name: "Roldana para 250 Kg"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_153
+  name: "Martelo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_154
+  name: "Verruma"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_155
+  name: "Serrote"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_156
+  name: "Rede de dormir"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_157
+  name: "Foice"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 373
+        - id: US25003E
+          firstPage: 228
+    - rules: |
+        Dexterity receives a +1 bonus on the second partial check for *Plant Lore (Crops)* when using a sickle. A sickle can be an improvised weapon (see **Aventuria Armory** Page **138**).
+      src:
+        - id: US25208E
+          firstPage: 46
+        - id: US25208E
+          firstPage: 139
+
+- id: ITEMTPL_158
+  name: "Machado lenhador"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_159
+  name: "Tigela de madeira"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_160
+  name: "Placa de madeira"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_161
+  name: "Pitons, 10"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_162
+  name: "Jarro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_163
+  name: "Chaleira de cobre"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_164
+  name: "Cola"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_165
+  name: "Cinzel"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_166
+  name: "Faca"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_167
+  name: "Agulha e linha"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_168
+  name: "Pregos, 10"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_169
+  name: "Frigideira"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_170
+  name: "Pá"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_171
+  name: "Tesoura"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_172
+  name: "Saco de dormir"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_173
+  name: "Sapatos de neve"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 373
+    - rules: |
+        Deep snow reduces MOV by half when not using snowshoes. With snowshoes, reduce MOV by only 1/4.
+      src:
+        - id: US25208E
+          firstPage: 47
+
+- id: ITEMTPL_174
+  name: "Pá reta"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_175
+  name: "Picareta"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_176
+  name: "Escada de corda/m"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+      - id: US25208E
+        firstPage: 45
+
+- id: ITEMTPL_177
+  name: "Manta de lã, Normal"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 373
+    - rules: |
+        Regular woolen blankets reduce effective Cold levels by 1. These effects stack with the cold weather bonus offered by tents.
+      src:
+        - id: US25208E
+          firstPage: 54
+
+- id: ITEMTPL_178
+  name: "Pinça"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 373
+
+- id: ITEMTPL_179
+  name: "Tenda, 1 pessoa"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 373
+    - rules: |
+        If a check on *Survival (Build Campsite)* succeeds with QL 5+ when setting up the tent, it counts as a good accommodation and grants a bonus of +1 *LP/AE/KP* (see **Core Rules** Page **339**) during regeneration phases.
+        The tent offers protection from the cold, reducing *Cold levels* by 1. This benefit stacks with those granted by a woolen blanket and a sleeping bag.
+        Assembly and disassembly take 20 minutes each.
+      src:
+        - id: US25208E
+          firstPage: 50
+
+- id: ITEMTPL_180
+  name: "Tenda, 2 pessoas"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 373
+    - rules: |
+        If a check on *Survival (Build Campsite)* succeeds with QL 5+ when setting up the tent, it counts as a good accommodation and grants a bonus of +1 *LP/AE/KP* (see **Core Rules** Page **339**) during regeneration phases.
+        The tent offers protection from the cold, reducing *Cold levels* by 1. This benefit stacks with those granted by a woolen blanket and a sleeping bag.
+        Assembly and disassembly take 20 minutes each.
+      src:
+        - id: US25208E
+          firstPage: 50
+
+- id: ITEMTPL_181
+  name: "Provisões para 1 dia"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+      - id: US25206E
+        firstPage: 40
+
+- id: ITEMTPL_182
+  name: "Tocha"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 373
+    - note: |
+        Successful attacks with a lit torch do not necessarily cause the state *Burning*.
+      src:
+        - id: US25003E
+          firstPage: 228
+
+- id: ITEMTPL_183
+  name: "Pedra Gwen-Petryl (do tamanho de um punho)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 374
+    - rules: |
+        For game purposes, stones have a burn time of infinity. The glow from a fist-sized stone reduces *Visibility* modifiers arising from darkness by -4/-3/-2/-1 per 10 feet from the stone.
+      src:
+        - id: US25208E
+          firstPage: 28
+
+- id: ITEMTPL_184
+  name: "Velas, 10"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 374
+    - rules: |
+        A candle's burning time is 10 hours. Candlelight reduces darkness visibility modifiers within a 12-foot radius and in line-of-sight of the candle, as follows: -4/-3/-2/-1 level(s) for 3/6/9/12 foot radii.
+      src:
+        - id: US25208E
+          firstPage: 16
+
+- id: ITEMTPL_185
+  name: "Lanterna"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 374
+    - rules: |
+        Lanterns have a burn time of 12 hours. Lanterns reduce visibility modifiers arising from darkness by -4/-3/-2/-1 level(s) per 10 feet from the lantern.
+      src:
+        - id: US25208E
+          firstPage: 33
+
+- id: ITEMTPL_186
+  name: "Lamparina"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 374
+    - rules: |
+        Lamps burn for 8 hours. Reduce visibility modifiers due to darkness by -4/-3/-2/-1 level(s) at each 3-foot increment of distance from the lamp.
+      src:
+        - id: US25208E
+          firstPage: 36
+
+- id: ITEMTPL_187
+  name: "Lanterna furta-fogo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+
+- id: ITEMTPL_188
+  name: "Pederneira e aço"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        When using flint and steel, checks on *Survival (Make Fire)* receive a +2 bonus.
+      src:
+        - id: US25208E
+          firstPage: 26
+
+- id: ITEMTPL_189
+  name: "Suporte de velas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_190
+  name: "Óleo de lâmpada, 12 horas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_191
+  name: "Acendalha, 25 porções"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        Increase QL by 1 (up to a maximum of 6) after making a successful *Survival (Make Fire)* check.
+      src:
+        - id: US25208E
+          firstPage: 51
+
+- id: ITEMTPL_192
+  name: "Caixa de fogo (espaço para 25 porções)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        The tinderbox protects its contents from water for a time while swimming or diving. Opening or closing a tinderbox requires 1 free action.
+      src:
+        - id: US25208E
+          firstPage: 51
+
+- id: ITEMTPL_193
+  name: "Sanguessuga"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_194
+  name: "Instrumentos cirúrgicos"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_195
+  name: "Trepanador"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_196
+  name: "Ventosa de vidro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_197
+  name: "Bandagens, 10"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_198
+  name: "Kit de costura para feridas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_199
+  name: "Cantil"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_200
+  name: "Bolsa"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_201
+  name: "Bolsa de dinheiro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_202
+  name: "Bolsa de cinto"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        Retrieving an item from a belt pouch takes only 1 action.
+      src:
+        - id: US25208E
+          firstPage: 13
+
+- id: ITEMTPL_203
+  name: "Cesto"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+      - id: US25206E
+        firstPage: 33
+
+- id: ITEMTPL_204
+  name: "Saco de Couro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_205
+  name: "Mochila de Couro"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - note: |
+        A leather backpack carries up to 110 pounds of equipment.
+      src:
+        - id: US25208E
+          firstPage: 13
+
+- id: ITEMTPL_206
+  name: "Frasco"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        A phial holds 0.2 pint of liquid. Uncorking and drinking from a phial takes only 1 action.
+      src:
+        - id: US25208E
+          firstPage: 38
+
+- id: ITEMTPL_207
+  name: "Caixa de pó"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_208
+  name: "Saco"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_209
+  name: "Caixa de jóias"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_210
+  name: "Jarro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_211
+  name: "Copo de chifre"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_212
+  name: "Baú"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_213
+  name: "Bolsa de tecido"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_214
+  name: "Bolsa de ombro"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - note: |
+        A shoulder bag can hold up to 45 pounds of items.
+      src:
+        - id: US25208E
+          firstPage: 45
+
+- id: ITEMTPL_215
+  name: "Vaso"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_216
+  name: "Odre"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_217
+  name: "Corda fina, por metro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_218
+  name: "Corrente, por metro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_219
+  name: "Corda de escalada, por metro"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        When combined with climbing hooks, a climbing rope grants a +1 bonus on *Climbing* checks.
+      src:
+        - id: US25208E
+          firstPage: 18
+
+- id: ITEMTPL_220
+  name: "Barbante, por cada 10 metros"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_221
+  name: "Pé-de-cabra"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+      rules: |
+        *Strength* receives a +1 bonus for Feat of *Strength (Pushing & Bending or Lifting)* when using a crowbar to lift a weight or break open a door, window, or similar object.
+        Crowbars can be improvised weapons (see **Aventuria Armory** pages **138-139**).
+    - src:
+        - id: US25208E
+          firstPage: 22
+
+- id: ITEMTPL_222
+  name: "Gazuas"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        *Dexterity* receives a +1 bonus for one partial *Pick Locks (Bit Locks)* check.
+      src:
+        - id: US25208E
+          firstPage: 33
+
+- id: ITEMTPL_223
+  name: "Barba falsa/peruca"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_224
+  name: "Arpéu"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 375
+    - rules: |
+        A grapnel combined with a climbing rope can be thrown and hooked onto an appropriate surface, such as a sturdy branch or rock outcropping. This requires a check on RC for Thrown Weapons. The throw takes 2 actions, and the check receives a -1 penalty for every 16 feet of distance to the target.
+        A grapnel with at least 3 feet of rope can serve as an improvised weapon (see **Aventura Armory** Page **139**)
+      src:
+        - id: US25208E
+          firstPage: 27
+
+- id: ITEMTPL_225
+  name: "Laboratório arcaico"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_226
+  name: "Cozinha de Bruxa"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_227
+  name: "Laboratório alquímico"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 375
+
+- id: ITEMTPL_228
+  name: "Ferramentas mecânicas de precisão"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_229
+  name: "Ferramentas de entalhe"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_230
+  name: "Ferramentas de cartógrafo"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        *Dexterity* receives a +1 bonus on *Artistic Ability (Drawing)* checks when drawing a map.
+      src:
+        - id: US25208E
+          firstPage: 17
+
+- id: ITEMTPL_231
+  name: "Caixa de costura"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_232
+  name: "Ferramentas de tatuador"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_233
+  name: "Ferramentas de carpinteiro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_234
+  name: "Abaco"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_235
+  name: "Astrolábio"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        A successful check on *Astronomy* increases the SP by 1 (up to a maximum of 18). The prerequisite for this bonus is a SR of 6 in *Astronomy*.
+        An armillary sphere allows a hero to calculate the time to within 5 minutes.
+      src:
+        - id: US25208E
+          firstPage: 12
+
+- id: ITEMTPL_236
+  name: "Óculos de âmbar"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_237
+  name: "Telescópio"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        *Perception (Search)* checks involving large distances normally incur the following penalties: -1 (300 to 1,600 feet), -2 (1,601 to 3,200 feet), -3 (3,201 to 6,500 feet), -4 (6,501 to 9,800 feet), and so on. Telescopes reduce these penalties in the following manner: Small and collapsible spyglasses reduce the penalty by 1, standard telescopes reduce it by 2, and large telescopes reduce it by 3 (to a minimum of +/- 0)
+      src:
+        - id: US25208E
+          firstPage: 49
+
+- id: ITEMTPL_238
+  name: "Bússola (ponteiro do sul)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        A hero receives a +5 bonus on *Orienting* checks when determining the cardinal directions. Other checks also can gain (smaller) bonuses when using a compass.
+      src:
+        - id: US25208E
+          firstPage: 21
+
+- id: ITEMTPL_239
+  name: "Quadrante"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        *Sagacity* receives a +1 bonus for *Astronomy (Stellar Cartography* or *Calendars)* or *Orienting (Night Sky)* checks when using a quadrant.
+      src:
+        - id: US25206E
+          firstPage: 41
+
+- id: ITEMTPL_240
+  name: "Ampulheta"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        Hourglasses measure a unit of time to within 5 minutes.
+      src:
+        - id: US25208E
+          firstPage: 32
+
+- id: ITEMTPL_241
+  name: "Relógio de bolso (Ovo de Vinsal)"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 376
+    - rules: |
+        A Vinsalt Egg lets a character measure a unit of time to within one minute.
+      src:
+        - id: US25208E
+          firstPage: 39
+
+- id: ITEMTPL_242
+  name: "Amuleto, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_243
+  name: "Amuleto, Prata"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_244
+  name: "Amuleto, Ouro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_245
+  name: "Bracelete, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_246
+  name: "Bracelete, Prata"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_247
+  name: "Bracelete, Ouro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_248
+  name: "Broche, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_249
+  name: "Broche, Prata"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_250
+  name: "Broche, Ouro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_251
+  name: "Colar, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_252
+  name: "Colar, Prata"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_253
+  name: "Colar, Ouro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_254
+  name: "Brinco, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_255
+  name: "Brinco, Prata"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_256
+  name: "Brinco, Ouro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_257
+  name: "Anel, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_258
+  name: "Anel, Prata"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_259
+  name: "Anel, Ouro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_260
+  name: "Tiara, Bronze"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_261
+  name: "Tiara, Prata"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_262
+  name: "Tiara, Ouro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 376
+
+- id: ITEMTPL_263
+  name: "Ametista"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_264
+  name: "Água-Marinha"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_265
+  name: "Aventurina"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_266
+  name: "Cristal Transparente"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_267
+  name: "Ambar"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_268
+  name: "Diamante"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_269
+  name: "Granada"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_270
+  name: "Jade Verde"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_271
+  name: "Cornalina"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_272
+  name: "Lápis Lazuli"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_273
+  name: "Pedra-da-Lua"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_274
+  name: "Ónix"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_275
+  name: "Opala"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_276
+  name: "Pérola"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_277
+  name: "Rubi"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_278
+  name: "Safira"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_279
+  name: "Esmeralda"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_280
+  name: "Topázio"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_281
+  name: "Turquesa"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_282
+  name: "Pena"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_283
+  name: "Canivete"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_284
+  name: "Lápis de carvão"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_285
+  name: "Giz"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        One piece of chalk is enough for 20 pictures or large drawings, like pentagrams.
+      src:
+        - id: US25208E
+          firstPage: 17
+
+- id: ITEMTPL_286
+  name: "Papel, 1 folha"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        On a successful *Artistic Ability (Drawing* or *Painting)* check, SP increases by 1 (up to a maximum of 18).
+      src:
+        - id: US25208E
+          firstPage: 37
+
+- id: ITEMTPL_287
+  name: "Pergaminho, 1 folha"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        On a successful *Artistic Ability (Drawing* or *Painting)* check, SP increases by 1 (up to a maximum of 18).
+      src:
+        - id: US25208E
+          firstPage: 37
+
+- id: ITEMTPL_288
+  name: "Pincel"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_289
+  name: "Cera de vedação"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_290
+  name: "Diário"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_291
+  name: "Tinta"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_292
+  name: "Breviário da Orientação dos Doze Divinos"
+  versions:
+    - note: |
+        Língua / Escrita varia, mas geralmente Garethi / Alfabeto Kuslik.
+      src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        When seeking general information on Alveran deities or their associated demigods, gain a +1 bonus to *Sagacity* on the second partial check on *Religions (any deities of Alveran and their associated demigods)*.
+      src:
+        - id: US25208E
+          firstPage: 15
+
+- id: ITEMTPL_293
+  name: "Códice Albyricus"
+  versions:
+    - note: |
+        Língua / Escrita é tipicamente em Bosparano / Alfabeto Kuslik.
+      src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        A successful *Law (Guild Law)* check increases the SP by 1/2/3 (up to a maximum of 18) if the hero possesses 1/3/7 usable volumes of the Codex Albyricus.
+      src:
+        - id: US25208E
+          firstPage: 19
+          lastPage: 20
+
+- id: ITEMTPL_294
+  name: "Enciclopédia Mágica"
+  versions:
+    - note: |
+        Língua / Escrita varia a cada edição, mas Bosparano ou Garethi / Alfabeto Kuslik.
+      src:
+        - id: US25001E
+          firstPage: 377
+    - rules: |
+        A successful check on *Magical Lore* increases SP by 1/2/3 (up to a maximum of 18) if the hero has access to 1/3/7 usable volumes of the Encyclopaedia Magica.
+      src:
+        - id: US25208E
+          firstPage: 24
+
+- id: ITEMTPL_295
+  name: "O Mais Útil Guia Para Adeptos Itinerantes"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_296
+  name: "Bracelete da Força de Vontade"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_297
+  name: "Lâmina Firn"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 377
+
+- id: ITEMTPL_298
+  name: "Antídoto"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_299
+  name: "Poção de cura"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_300
+  name: "Poção do amor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_301
+  name: "Poção da Invisibilidade"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_302
+  name: "Elixir da Transformação"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_303
+  name: "Unguento de Arma"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_304
+  name: "Poção da Vontade"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_305
+  name: "Poção mágica"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_306
+  name: "Arax"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 3338
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_307
+  name: "Kelmon"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 338
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_308
+  name: "Tulmadron"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 338
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_309
+  name: "Wurara"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 338
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_310
+  name: "Raiz de Mandrágora"
+  versions:
+    note: |
+      Mandrágoras são utilizadas principalmente para a alquimia (veja a página **262**).
+    src:
+      - id: US25001E
+        firstPage: 342
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_311
+  name: "Casca da árvore Axorda"
+  versions:
+    note: |
+      Cura para a varíola de zorgan (veja a página **340**)
+    src:
+      - id: US25001E
+        firstPage: 341
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_312
+  name: "Donf"
+  versions:
+    note: |
+      Cura para a febre do pântano (veja a página **340**)
+    src:
+      - id: US25001E
+        firstPage: 341
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_313
+  name: "Pavor de Sanguessuga"
+  versions:
+    note: |
+      Repelir parasitas
+    src:
+      - id: US25001E
+        firstPage: 341
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_314
+  name: "Gulmond"
+  versions:
+    note: |
+      Uma dose lhe permite ignorar os efeitos de dois níveis de *Estupor* durante 12 horas. No entanto, se atingir o Nível IV, você ainda é incapacitado.
+    src:
+      - id: US25001E
+        firstPage: 342
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_315
+  name: "Lulany"
+  versions:
+    note: |
+      Cura para lutanas e loucura ligeira (veja a página **339**).
+    src:
+      - id: US250012
+        firstPage: 342
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_316
+  name: "Erva Wirsel"
+  versions:
+    note: |
+      para cada dose, recupera um adicional de PVs na próxima Fase de Regeneração; não mais de 3 PVs por Fase de Regeneração.
+    src:
+      - id: US25001E
+        firstPage: 342
+      - id: US25001E
+        firstPage: 380
+
+- id: ITEMTPL_317
+  name: "Sinfonia"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_318
+  name: "Trompete de fanfarra"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_319
+  name: "Flauta"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_320
+  name: "Harpa de mão"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_321
+  name: "Flauta de Kaba"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_322
+  name: "Alaúde"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_323
+  name: "Gaita"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_324
+  name: "Sino"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_325
+  name: "Trombeta de sinalização"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_326
+  name: "Espineta"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_327
+  name: "Harpa alta"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_328
+  name: "Tambor"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 378
+
+- id: ITEMTPL_329
+  name: "Óleo de banho"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_330
+  name: "Cerveja, barril pequeno"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_331
+  name: "Lente ardente"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_332
+  name: "Jogo de tabuleiro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_333
+  name: "Pincel"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_334
+  name: "Estatueta divina"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 379
+    - rules: |
+        Carrying a figurine (or equivalent) of a deity and praying over it at least once per day lets the user ignore the condition *Fear* for 2 CR once per adventure. Afterwards, the owner must make an offering of at least 10 ducats to one of that deity's temples before the benefit becomes available again.
+      src:
+        - id: US25208E
+          firstPage: 27
+
+- id: ITEMTPL_335
+  name: "Espelho de mão"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_336
+  name: "Bola de malabarismo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_337
+  name: "Café torrado"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_338
+  name: "Cacau"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_339
+  name: "Pente"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_340
+  name: "Bola de cristal"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_341
+  name: "Batom"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_342
+  name: "Lixa de unhas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_343
+  name: "Perfume"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 379
+    - rules: |
+        One hour after applying a perfume, *Charisma* receives a +1 bonus on *Seduction* if the target likes its scent. If the target does not like the perfume, the check receives a penalty of -1.
+      src:
+        - id: US25208E
+          firstPage: 38
+
+- id: ITEMTPL_344
+  name: "Pimenta"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_345
+  name: "Pó"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_346
+  name: "Licor forte"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_347
+  name: "Chocolate"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_348
+  name: "Esponja"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_349
+  name: "Sabão"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 379
+    - rules: |
+        Anyone who regularly washes with soap gains a +1 *TOU* bonus on checks for diseases.
+        Soap can be an improvised weapon when wrapped in a tube or piece of cloth (see **Aventuria Armory** Page **138**).
+      src:
+        - id: US25208E
+          firstPage: 48
+
+- id: ITEMTPL_350
+  name: "Baralho"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_351
+  name: "Caixa de música"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_352
+  name: "Cavalinho de madeira"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_353
+  name: "Boneca de pano"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_354
+  name: "Tabaco"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_355
+  name: "Estojo para tabaco"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_356
+  name: "Cachimbo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_357
+  name: "Lenço"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_358
+  name: "Narguile"
+  versions:
+    - src:
+        - id: US25001E
+          firstPage: 381
+    - rules: |
+        When offering a hookah at a party, a host's *Charisma* receives a +1 bonus on *Etiquette (Rumors)* checks if guests understand and expect the gesture.
+      src:
+        - id: US25208E
+          firstPage: 32
+
+- id: ITEMTPL_359
+  name: "Vinho"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_360
+  name: "Dados, Seis lados"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+      - id: US25208E
+        firstPage: 24
+
+- id: ITEMTPL_361
+  name: "Cão"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_362
+  name: "Cavalo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_363
+  name: "Mula"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_364
+  name: "Pônei"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_365
+  name: "Coleira e guia"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_366
+  name: "Ferradura"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_367
+  name: "Albarda"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_368
+  name: "Sela de montaria"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_369
+  name: "Pano de sela"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_370
+  name: "Alforge"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_371
+  name: "Esporas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_372
+  name: "Escova"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_373
+  name: "Rédeas"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_374
+  name: "Ração de cachorro"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_375
+  name: "Comida de cavalo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_376
+  name: "Alimentação de pôneis"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_377
+  name: "Carroça de mão"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_378
+  name: "Carroça, um eixo"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_379
+  name: "Barco a remo, pequeno"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_380
+  name: "Barco a vela, pequeno"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_381
+  name: "Coche"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 379
+
+- id: ITEMTPL_384
+  name: "Foice"
+  versions:
+    src:
+      - id: US25001E
+        firstPage: 374
+      - id: US25003E
+        firstPage: 228
+
+- id: ITEMTPL_796
+  name: "Bico de corvo"
+  versions:
+    - note: |
+        (não-Santificado)
+      src:
+        - id: US25001E
+          firstPage: 365
+    - advantage: |
+        Attacks with the spike inflict 1D6+4 DP as well. Subtract 2 PRO from armor with PRO 6 or more. Mounted warriors gain a bonus of +1 DP.
+      disadvantage: |
+        On a confirmed botch, receive 1 level of *Stupor*. This is in addition to any other botch results.
+      src:
+        - id: US25206E
+          firstPage: 82

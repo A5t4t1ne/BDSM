@@ -1,0 +1,119 @@
+- id: SPELL_52
+  name: "Mangia sassi!"
+  effect: |
+    Con questa maledizione il cibo solido toccato dal bersaglio si trasforma in pietra o in altre sostanze non commestibili a scelta della strega. Quelle più comuni sono legno, fumo o melma. Non è possibile trasformare il cibo in metalli preziosi o altri oggetti di valore. La sostanza ritorna cibo dopo 5 minuti, a meno che il bersaglio non la tocchi ancora. Provare a mangiare con un imbuto o con delle pinze potrebbe causare soffocamento a causa di cibo reso solido e bloccato nella gola. Questa maledizione non ha effetto su zuppe, latte o altri liquidi.
+  aeCost: "14 PA"
+  aeCostShort: "14 PA"
+  duration: "LQ × 3 giorni"
+  durationShort: "LQ × 3 giorni"
+  src:
+    - id: REG001
+      firstPage: 282
+
+- id: SPELL_53
+  name: "Preda!"
+  effect: |
+    L’odore della vittima attrae ogni sorta di vertebrato carnivoro, i quali la vedono come una facile preda. Gli animali domestici possono essere calmati con una prova su Fauna con una penalità uguale ai PAb della prova di maledizione, ma quelli selvatici non possono essere dissuasi. Questo odore, che solo gli animali riescono a percepire, è talmente forte che gli animali selvatici possono scovare il bersaglio a diverse miglia di distanza.
+  aeCost: "14 PA"
+  aeCostShort: "14 PA"
+  duration: "LQ × 3 giorni"
+  durationShort: "LQ × 3 giorni"
+  src:
+    - id: REG001
+      firstPage: 282
+
+- id: SPELL_54
+  name: "Grandine e tempesta"
+  effect: |
+    Una forte tempesta colpisce un’area di LQ × 20,000 passi quadrati. A seconda della regione geografica, potrebbe trattarsi di una bufera di neve o di una tempesta di sabbia. Tali fenomeni rovinano raccolti, strappano via i tetti dalle case e causano 2D6 PImp per ogni 5 minuti di esposizione a persone o animali.
+  aeCost: "21 PA"
+  aeCostShort: "21 PA"
+  duration: "LQ × 15 minuti"
+  durationShort: "LQ × 15 min"
+  src:
+    - id: REG001
+      firstPage: 282
+
+- id: SPELL_55
+  name: "Colpo della strega"
+  effect: |
+    Il bersaglio è colto da un improvviso ed intenso dolore alla schiena o alla testa (a scelta della strega). Subisce un livello della condizione Dolore.
+  aeCost: "14 PA"
+  aeCostShort: "14 PA"
+  duration: "LQ × 3 ore"
+  durationShort: "LQ × 3 ore"
+  src:
+    - id: REG001
+      firstPage: 282
+
+- id: SPELL_56
+  name: "Iettatura"
+  effect: |
+    Il bersaglio fallisce criticamente con un tiro di 19 o 20. Per le prove di abilità, due risultati di 19 o più sono un fallimento critico. Inoltre, il bersaglio tende a rompere oggetti, inciampare su ostacoli, dimenticare appuntamenti o dire cose volgari o inappropriate. È come sempre il narratore ad avere l’ultima parola.
+  aeCost: "7 PA"
+  aeCostShort: "7 PA"
+  duration: "LQ × 3 giorni"
+  durationShort: "LQ × 3 giorni"
+  src:
+    - id: REG001
+      firstPage: 282
+
+- id: SPELL_57
+  name: "Pestilenza"
+  effect: |
+    Il bersaglio contrae una malattia nota alla strega. Il livello della malattia non può essere maggiore del LA della maledizione. Dopo il contagio, la malattia segue il suo normale corso, ma il bersaglio non sarà più contagioso. Non è possibile infliggere una malattia magica come la peste duglumica.
+  aeCost: "livello della malattia in PA"
+  aeCostShort: "Livello malattia/ PA"
+  duration: "Il normale tempo di decorso della malattia, ma non più di LQ × 3 giorni"
+  durationShort: "Malattia/LQ x 3 giorni"
+  src:
+    - id: REG001
+      firstPage: 282
+
+- id: SPELL_58
+  name: "Tormento del sonno"
+  effect: |
+    Il bersaglio non riesce a dormire. Quando il sonno finalmente arriva per qualche istante, la vittima viene risvegliata dagli incubi. Non può beneficiare della fase di rigenerazione per la durata della maledizione e si comporta come ogni altra persona rimasta sveglia per troppo tempo: diventando agitata ed irritabile. Dopo qualche giorno inizia ad avere allucinazioni. La vittima subisce un livello di Confusione ogni due giorni senza dormire. Lo stato svanisce quando torna a riposare regolarmente. 
+  aeCost: "14 PA"
+  aeCostShort: "14 PA"
+  duration: "LQ × 3 giorni"
+  durationShort: "LQ × 3 giorni"
+  src:
+    - id: REG001
+      firstPage: 282
+
+- id: SPELL_59
+  name: "Infertilità"
+  effect: |
+    Il bersaglio, che sia una persona o un animale, diventa sterile per tutta la durata dell’incantesimo.
+  aeCost: "14 PA"
+  aeCostShort: "14 PA"
+  duration: "LQ × 3 settimane"
+  durationShort: "LQ × 3 settimane"
+  src:
+    - id: REG001
+      firstPage: 282
+
+- id: SPELL_60
+  name: "Verruche e bubboni"
+  effect: |
+    Grosse verruche spuntano sul viso e sulle mani del bersaglio nel giro di pochi minuti. L’eventuale vantaggio Avvenenza non ha effetto e si guadagnerà invece lo svantaggio Sgradevolezza per la durata della maledizione.
+  aeCost: "7 PA"
+  aeCostShort: "7 PA"
+  duration: "LQ × 3 giorni"
+  durationShort: "LQ × 3 giorni"
+  src:
+    - id: REG001
+      firstPage: 283
+
+- id: SPELL_61
+  name: "Bocca cucita"
+  effect: |
+    Questa maledizione intorpidisce la lingua e le labbra del bersaglio, in modo che non possa articolare nessun suono. Questa maledizione influisce negativamente sul lancio degli incantesimi. La persona maledetta tende a sbavare e subisce lo svantaggio Mutismo (vedi il **Regolamento** a pag. **175**).
+  aeCost: "14 PA"
+  aeCostShort: "14 PA"
+  duration: "LQ × 3 ore"
+  durationShort: "LQ × 3 ore"
+  src:
+    - id: REG001
+      firstPage: 282

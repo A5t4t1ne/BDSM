@@ -1,0 +1,1071 @@
+- id: DISADV_0
+  name: "Custom Disadvantage"
+  rules: |
+    *A placeholder for custom disadvantages, where name and AP value can be set.*
+  input: "Name of the Disadvantage"
+  src:
+    - id: US25001E
+      firstPage: 1
+
+- id: DISADV_1
+  name: "Afraid of"
+  nameInWiki: "Afraid of..."
+  input: "Trigger"
+  rules: |
+    The hero suffers a level of *Fear* (see **Core Rules** page **32**) for each level of this disadvantage whenever confronted with the trigger.
+  selectOptions:
+    - id: 1
+      name: "Blood"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 2
+      name: "Darkness"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 3
+      name: "Heights"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 4
+      name: "Insects"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 5
+      name: "the Sea"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 6
+      name: "Reptiles"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 7
+      name: "Confined Spaces"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 8
+      name: "Spiders"
+      src:
+        - id: US25001E
+          firstPage: 170
+    - id: 9
+      name: "the Dead and the Undead"
+      src:
+        - id: US25001E
+          firstPage: 170
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_2
+  name: "Poor"
+  rules: |
+    For each level of this disadvantage, the hero receives 250 silverthalers less starting wealth during character creation. If you take 3 levels of Poor, you receive no starting wealth and begin the game with only a clothes package from the category Not Free (see **Core Rules** page **375**).
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_3
+  name: "Artifact-Bound"
+  rules: |
+    A spellcaster who doesn’t have direct skin contact with the artifact suffers a penalty of 1 to magic checks when casting spells. If the artifact is destroyed, the spellcaster has trouble casting spells and must create another artifact in order to remove the penalty.
+  src:
+    - id: US25001E
+      firstPage: 171
+
+- id: DISADV_4
+  name: "Slow"
+  rules: |
+    This disadvantage reduces your hero’s Movement by 1.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_5
+  name: "Blind"
+  rules: |
+    This disadvantage makes many skills difficult or impossible. The same goes for special abilities. The GM decides which penalties to apply to which checks. This kind of blindness can only be healed by a *Great Miracle* (see **Core Rules** page **315**). While so afflicted, the hero has the state of *blind* (see **Core Rules** page **34**).
+  src:
+    - id: US25001E
+      firstPage: 171
+
+- id: DISADV_6
+  name: "Frenzy"
+  rules: |
+    The hero receives the state of *Bloodlust* in special circumstances. Frenzy activates when the hero receives a level of *Pain* from an attack or fails a *Willpower* check to resist the negative trait Short Temper.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_7
+  name: "Restricted Sense"
+  rules: |
+    A character with a Restricted Sense suffers a penalty of 2 for checks with Perception, but only if the check relies upon the stated sense. Restricted Sight imposes a penalty of 2 for ranged combat. You can choose the following senses: Sight, Hearing, Smell & Taste, Tactile Sense. A hero can have at most two Restricted Senses.
+  selectOptions:
+    - id: 1
+      name: "Sight"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 2
+      name: "Hearing"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 3
+      name: "Smell & Taste"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 4
+      name: "Tactile Sense"
+      src:
+        - id: US25001E
+          firstPage: 176
+  apValue: "Sight: –15 adventure points; Hearing: –10 adventure points; Smell & Taste: –6 adventure points; Tactile Sense: –2 adventure points"
+  prerequisites: "~~disadvantage Exceptional Sense for the same sense~~, ~~disadvantage Blind~~ (for Sight), ~~disadvantage Deaf~~ (for Hearing)"
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_11
+  name: "Color-Blind"
+  rules: |
+    The adventurer cannot distinguish between colors. This can have negative effects on some checks, like *Alchemy* (“pour two drops of red liquid into the green liquid”), recognizing coats of arms (*Etiquette*), or *Orienting* in the jungle. The GM decides the magnitude of the penalty and also whether a check is even possible.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_12
+  name: "Fat"
+  rules: |
+    This disadvantage gives a penalty of 1 to *Body Control*, *Climbing*, *Dancing*, and *Stealth*.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_13
+  name: "Susceptible to Poison"
+  rules: |
+    Susceptible to Poison lowers your Toughness and Spirit by 1 per level when resisting poison.
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_14
+  name: "Ugly"
+  rules: |
+    The hero suffer a penalty of 1 per level of this advantage for checks using *Commerce (Haggling)*, *Fast-Talk (Manipulate, Sweet-Talk)*, and *Seduction (Flirting, Romantic Arts)*.
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_15
+  name: "Susceptible to Heat"
+  rules: |
+    When subjected to hot conditions of Level 2 or greater (see **Core Rules** page **347**), the hero suffers an additional level of Heat.
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_16
+  name: "Susceptible to Cold"
+  rules: |
+    Whenever subjected to cold conditions (minimum of Cold Level 1—see **Core Rules** page **346**), the hero suffers an additional level of Cold.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_17
+  name: "No Flying Balm"
+  rules: |
+    The hero cannot possess the special ability *Flying Balm*. This makes the special ability *Tradition (Witch)* 10 points cheaper.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: Magical Tradition that can choose the special ability Flying Balm
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_18
+  name: "No Familiar"
+  rules: |
+    The hero cannot have the special ability *Connection to Familiar*. This makes the special ability *Tradition (Witch)* 10 points cheaper.
+  prerequisitesIndex:
+    activatablePrerequisites:
+      - index: 1
+        replacement: Magical Tradition that can choose the special ability Connection to Familiar
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_19
+  name: "Hair-Bound Power"
+  rules: |
+    A hero who loses some hair for any reason (by cutting, fire, and so on; length doesn’t matter), also loses 10 points of AE immediately (minimum 0). AE lost in this manner regenerates the usual way. Hair lost due to everyday shedding doesn’t activate this disadvantage.
+  prerequisitesEnd: "The spellcaster's race must have hair"
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_20
+  name: "Physical Peculiarity"
+  input: "Peculiarity"
+  rules: |
+    You can choose Physical Peculiarities no more than twice. Physical peculiarities sometimes lead to penalties for social skills due to superstition or distrust.
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_21
+  name: "Susceptible to Disease"
+  rules: |
+    Susceptible to Disease lowers your Toughness and Spirit by 1 per level when resisting diseases.
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_22
+  name: "Annoyed by Minor Spirits"
+  rules: |
+    Each time the spellcaster spends AE, the player rolls 1D20. If the result is lower than or equal to the amount of AE spent, minor spirits appear and harass the spellcaster. The GM decides what kind of minor spirits appear, depending on the situation. Examples include *windbags*, which make the spellcaster’s hair blow around, *tearlings* that sit under the eyes, and *firescuttles*, which can heat or burn the spellcaster’s possessions. All skill checks suffer a penalty of 1 due to the minor spirit’s distraction. Even if you attract more than one type of minor spirit at the same time, the penalty does not increase. Minor spirits stay around for 10 minutes and then disappear.
+  src:
+    - id: US25001E
+      firstPage: 170
+
+- id: DISADV_23
+  name: "Sensitive to Sunlight"
+  rules: |
+    The hero suffers a level of the condition *Pain* when in sunlight brighter than twilight, but can avoid the effect by covering up from head to toe (including the eyes).
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_24
+  name: "Magical Restriction"
+  input: "Environment"
+  rules: |
+    Spellcasters suffer no penalties to magic skill checks while in the stated environment, but suffer a penalty of 1 in all other environments.
+  selectOptions:
+    - id: 1
+      name: "Curse of Glades"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 2
+      name: "Curse of Mountains"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 3
+      name: "Curse of Ice"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 4
+      name: "Curse of Seas"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 5
+      name: "Curse of Night"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 6
+      name: "Curse of Forests"
+      src:
+        - id: US25001E
+          firstPage: 173
+  apValueAppend: "(see magic attunement **Core Rules** on page **167**)"
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_25
+  name: "Night-Blind"
+  rules: |
+    Whenever the hero suffers at least one Level of Visibility penalties due to darkness, the penalty counts as one Level higher (see **Core Rules** page **348**).
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_26
+  name: "Decreased Arcane Power"
+  rules: |
+    Reduce your AE base stat by 1 point per level of this disadvantage.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_27
+  name: "Decreased Karma Points"
+  rules: |
+    Reduce your KP base stat by 1 point per level of this disadvantage.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_28
+  name: "Decreased Life Points"
+  rules: |
+    Reduce your LP base stat by 1 point per level of this disadvantage.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_29
+  name: "Decreased Spirit"
+  rules: |
+    Reduce the hero’s Spirit base stat by 1.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_30
+  name: "Decreased Toughness"
+  rules: |
+    Reduce the hero’s Toughness base stat by 1.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_31
+  name: "Bad Luck"
+  rules: |
+    The hero starts the game with one less FtP per level of this disadvantage. The hero’s maximum number of FtP drops, too, by one point per level of this disadvantage. The hero’s total number of FtP cannot be reduced below 0.
+  src:
+    - id: US25001E
+      firstPage: 171
+
+- id: DISADV_32
+  name: "Misfortune"
+  rules: |
+    If the GM must decide something randomly (Which hero does the arrow hit? Who was near the trap when it was activated?), the chances of something bad happening are twice as high for an adventurer with this disadvantage than for others. If several heroes in a group were to choose this disadvantage, they would cancel out each other’s disadvantages, so talk to your GM about choosing Misfortune.
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_33
+  name: "Personality Flaw"
+  rules: |
+    The GM can penalize relevant skill checks by 1 in applicable situations. You can choose at most two personality flaws per hero (the exception is Unworldly— see below).
+  selectOptions:
+    - id: 1
+      name: "Arrogance"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 2
+      name: "Vanity"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 3
+      name: "Envy"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 4
+      name: "Feistiness"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 5
+      name: "Unpleasant"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 6
+      name: "Spoiled"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 7
+      name: "Prejudice"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 8
+      name: "Unworldly"
+      src:
+        - id: US25001E
+          firstPage: 175
+  apValue: "depends on the Personality Flaw"
+  src:
+    - id: US25001E
+      firstPage: 175
+
+- id: DISADV_34
+  name: "Principles"
+  input: "Principle"
+  rules: |
+    Principles has three levels. The first level restricts the hero only slightly, the second level is demanding, and the third places heavy restrictions on the hero’s actions. The hero can follow more than one set of principles, but can receive adventure points for this disadvantage only once (for the highest level of Principles). Characters acting against their principles suffer a penalty of 1 in all skill checks for at least an hour (the GM determines duration based on the situation).
+  selectOptions:
+    - id: 1
+      name: "99 Laws"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 2
+      name: "Code of the Church of Hesinde"
+      src:
+        - id: US25001E
+          firstPage: 176
+        - id: US25005E
+          firstPage: 27
+    - id: 3
+      name: "Code of the Church of Phex"
+      src:
+        - id: US25001E
+          firstPage: 176
+        - id: US25005E
+          firstPage: 36
+    - id: 4
+      name: "Code of the Church of Peraine"
+      src:
+        - id: US25001E
+          firstPage: 176
+        - id: US25005E
+          firstPage: 39
+    - id: 5
+      name: "Warrior's Honor"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 6
+      name: "Knight's Honor"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 7
+      name: "Elven worldview"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 8
+      name: "Code of the Church of Boron"
+      src:
+        - id: US25001E
+          firstPage: 176
+        - id: US25005E
+          firstPage: 24
+    - id: 9
+      name: "Code of the Church of Praios"
+      src:
+        - id: US25001E
+          firstPage: 176
+        - id: US25005E
+          firstPage: 12
+    - id: 10
+      name: "Code of the Church of Rondra"
+      src:
+        - id: US25001E
+          firstPage: 176
+        - id: US25005E
+          firstPage: 15
+    - id: 11
+      name: "Dwarven Code"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 12
+      name: "Pacifism"
+      src:
+        - id: US25001E
+          firstPage: 176
+    - id: 13
+      name: "Code of the Church of Efferd"
+      src:
+        - id: US25005E
+          firstPage: 18
+    - id: 14
+      name: "Code of the Church of Travia"
+      src:
+        - id: US25005E
+          firstPage: 21
+    - id: 15
+      name: "Code of the Church of Firun"
+      src:
+        - id: US25005E
+          firstPage: 30
+    - id: 16
+      name: "Code of the Church of Tsa"
+      src:
+        - id: US25005E
+          firstPage: 33
+    - id: 17
+      name: "Code of the Church of Ingerimm"
+      src:
+        - id: US25005E
+          firstPage: 42
+    - id: 18
+      name: "Code of the Church of Rahja"
+      src:
+        - id: US25005E
+          firstPage: 45
+    - id: 19
+      name: "Code of the Church of Aves"
+      src:
+        - id: US25005E
+          firstPage: 48
+    - id: 20
+      name: "Code of the Church of Ifirn"
+      src:
+        - id: US25005E
+          firstPage: 51
+    - id: 21
+      name: "Code of the Church of Kor"
+      src:
+        - id: US25005E
+          firstPage: 54
+    - id: 22
+      name: "Code of the Church of Nandus"
+      src:
+        - id: US25005E
+          firstPage: 57
+    - id: 23
+      name: "Code of the Church of Swafnir"
+      src:
+        - id: US25005E
+          firstPage: 60
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_35
+  name: "Sleepwalker"
+  rules: |
+    The hero won’t sleepwalk more than once per week. During the full 24-hour day after sleepwalking, the hero suffers one level of the condition *Stupor* from lack of rest. Reduce regeneration by 1 for the night spent sleepwalking.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_36
+  name: "Bad Habit"
+  input: "Habit"
+  rules: |
+    Characters can choose as many Bad Habits as they wish, but can receive 6 AP at most. In rare cases, bad habits might lead to penalties for social skills.
+  selectOptions:
+    - id: 1
+      name: "Barefoot"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 3
+      name: "Third Person"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 5
+      name: "First"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 6
+      name: "Crybaby"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 7
+      name: "Hypochondriac"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 8
+      name: "Sir"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 9
+      name: "Late Sleeper"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 10
+      name: "Left and Right"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 11
+      name: "My Child"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 12
+      name: "Nail-Biter"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 14
+      name: "Nervous"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 15
+      name: "Cleaning Bug"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 16
+      name: "Smoker"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 17
+      name: "Talk a Mile a Minute"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 18
+      name: "Bad Table Manners"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 19
+      name: "Talks to Themselves"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 20
+      name: "Messy"
+      src:
+        - id: US25001E
+          firstPage: 171
+    - id: 21
+      name: "We"
+      src:
+        - id: US25001E
+          firstPage: 171
+  apValueAppend: "per Bad Habit"
+  src:
+    - id: US25001E
+      firstPage: 171
+
+- id: DISADV_37
+  name: "Negative Trait"
+  rules: |
+    When confronting possible triggers, characters must succeed at a *Willpower* check or else act out their Negative Trait, which controls them as long as they remain in the trigger’s presence. GM-assigned bonuses and penalties for *Willpower* checks depend on the trigger’s severity. You can choose up to two Negative Traits per character. You can’t take a combination that doesn’t make sense (combining Stinginess with Wastefulness, for example). The GM has the final say.
+  selectOptions:
+    - id: 1
+      name: "Superstition"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 2
+      name: "Submissive to Authorities"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 3
+      name: "Stinginess"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 4
+      name: "Avarice"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 5
+      name: "Short Temper"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 6
+      name: "Kleptomaniac"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 7
+      name: "Gullible"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 8
+      name: "Curiosity"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 9
+      name: "Vengeance"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 10
+      name: "Gambling Addiction"
+      src:
+        - id: US25001E
+          firstPage: 174
+    - id: 11
+      name: "Wastefulness"
+      src:
+        - id: US25001E
+          firstPage: 174
+  apValue: "depends on the Negative Trait"
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_38
+  name: "Weak Regeneration (Arcane Energy)"
+  rules: |
+    The hero subtracts 1 from each regeneration roll for each level of this disadvantage (minimum 0).
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_39
+  name: "Weak Regeneration (Karma Points)"
+  rules: |
+    The hero subtracts 1 per level of this disadvantage from each regeneration roll (minimum 0).
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_40
+  name: "Weak Regeneration (Life Points)"
+  rules: |
+    The hero subtracts 1 per level of this disadvantage from each regeneration roll (minimum 0).
+  src:
+    - id: US25001E
+      firstPage: 179
+
+- id: DISADV_41
+  name: "Weak Astral Body"
+  rules: |
+    The hero loses one additional AE whenever required to spend AE.
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_42
+  name: "Weak Karmic Body"
+  rules: |
+    The hero loses one additional KP whenever required to spend KP.
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_43
+  name: "Sensitive Nose"
+  rules: |
+    The hero suffers one level of the condition *Stupor* as long as the smell persists.
+  src:
+    - id: US25001E
+      firstPage: 176
+
+- id: DISADV_44
+  name: "Speech Impediment"
+  rules: |
+    At the GM’s discretion, the hero can suffer a penalty of 1 on all social skills (except *Empathy* and *Willpower*) as well as *Commerce (Haggling)* when speaking to other people. You can take this disadvantage only once.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_45
+  name: "Stigma"
+  input: "Stigma"
+  rules: |
+    In an appropriate situation, the GM can penalize social skills (except *Empathy*, *Intimidation*, and *Willpower*) and *Commerce (Haggling)* by 1. You can take this disadvantage only once.
+  selectOptions:
+    - id: 1
+      name: "Albino"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 2
+      name: "Brands"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 3
+      name: "Green Hair"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 4
+      name: "Cat Eyes"
+      src:
+        - id: US25001E
+          firstPage: 177
+    - id: 5
+      name: "Snake Scales"
+      src:
+        - id: US25001E
+          firstPage: 177
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_46
+  name: "Mute"
+  rules: |
+    The hero has trouble communicating vocally with other people (but could use sign language or writing). Spells and other actions requiring language are impossible or very difficult to use. The hero gains the state of *mute*.
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_47
+  name: "Deaf"
+  rules: |
+    The hero cannot make *Perception* checks based on hearing, and receives the state of *deaf*.
+  src:
+    - id: US25001E
+      firstPage: 172
+
+- id: DISADV_48
+  name: "Incompetent"
+  rules: |
+    When making skill checks for the named skill, the hero must reroll the best die and keep the second result. An adventurer cannot be Incompetent with more than two skills.
+  prerequisites: "~~advantage Aptitude for the same skill~~, at most two disadvantages Incompetent"
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_49
+  name: "Not Free"
+  rules: |
+    Characters with the disadvantage Not Free suffer penalties when using social skills to influence people of a higher social rank. They must deal with culture-sanctioned oppression, may have few legal protections, and are almost always treated as someone else’s property. See **Core Rules** page **338** for more details.
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_50
+  name: "Obligations"
+  input: "Obligation"
+  rules: |
+    The hero must obey the entity’s commands or suffer the consequences. Heroes can be obliged to more than one institution or group, but can receive adventure points for this disadvantage only once (for the highest level of Obligations).
+  selectOptions:
+    - id: 1
+      name: "from a family member to the family"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 2
+      name: "an indebted hero"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 3
+      name: "a noble to a liege"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 4
+      name: "a Blessed One to a Church"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 5
+      name: "a Blessed One to his Temple"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 6
+      name: "a mage to a tutor"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 7
+      name: "a mage to academy"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 8
+      name: "a mage to a guild"
+      src:
+        - id: US25001E
+          firstPage: 175
+    - id: 9
+      name: "a member of radical sect to the sect's leaders"
+      src:
+        - id: US25001E
+          firstPage: 175
+  src:
+    - id: US25001E
+      firstPage: 174
+
+- id: DISADV_51
+  name: "Maimed"
+  rules: |
+    Maimed renders many skill checks difficult or impossible. The GM has the final say, depending on the situation.
+
+    - **One-Armed:** One of the character’s arms is missing at least up to the elbow.
+    - **One-Eyed:** The hero is blind in one eye or has lost it completely. Ranged combat suffers a penalty of 4.
+    - **One-Legged:** The hero has only one leg, or perhaps it has been amputated below the knee Halve the hero’s Movement base stat, even when using crutches or a simple prosthesis.
+    - **One-Handed:** The adventurer is missing a hand.
+    - **One-Eared:** One of the hero’s ears is missing or deafened. *Perception* checks based on hearing always suffer a penalty of 1.
+  selectOptions:
+    - id: 1
+      name: "One-Armed"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 2
+      name: "One-Eyed"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 3
+      name: "One-Legged"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 4
+      name: "One-Handed"
+      src:
+        - id: US25001E
+          firstPage: 173
+    - id: 5
+      name: "One-Eared"
+      src:
+        - id: US25001E
+          firstPage: 173
+  apValue: "One-armed: -30 adventure points; One-eyed: -10 adventure points; One-legged: -30 adventure points; One-handed: -20 adventure points; One-eared: -5 adventure points"
+  src:
+    - id: US25001E
+      firstPage: 173
+
+- id: DISADV_52
+  name: "True Name"
+  rules: |
+    True Name renders you much more susceptible to magic. If a spellcaster uses a spell against a target that has this disadvantage, and the spellcaster knows that target’s true name, the target’s Spirit and Toughness are reduced by 4.
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_53
+  name: "Wild Magic"
+  rules: |
+    Results of 19 for skill checks using spells and rituals are treated as 20 when determining botches.
+  src:
+    - id: US25001E
+      firstPage: 179
+
+- id: DISADV_54
+  name: "Susceptible to Spells"
+  rules: |
+    Your Spirit and Toughness are reduced by 1 per level when resisting magic.
+  src:
+    - id: US25001E
+      firstPage: 178
+
+- id: DISADV_55
+  name: "Sensitive to Pain"
+  rules: |
+    Treat penalties due to the condition *Pain* as being one Level higher. Also, the hero is incapacitated at *Pain* Level III instead of Level IV.
+  src:
+    - id: US25001E
+      firstPage: 177
+
+- id: DISADV_56
+  name: "Brittle Bone"
+  rules: |
+    your character's Wound Threshold by 1.
+  src:
+    - id: US25003E
+      firstPage: 133
+
+- id: DISADV_57
+  name: "Glass Jaw"
+  rules: |
+    Suffer a penalty of -2 when making a *Self-Control* (*Stay Conscious* or *Ignore Distractions*) check to avoid wound effects.
+  src:
+    - id: US25003E
+      firstPage: 133
+
+- id: DISADV_58
+  name: "Unstable Casting"
+  rules: |
+    If you roll a botch on an arcane spellwork or magical action, raw magical energy flows through your body and you sustain 2D6 DP (ignoring PRO).
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: DISADV_59
+  name: "Small Spell Selection"
+  rules: |
+    Remove one spell from your maximum pool per level of this disadvantage.
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: DISADV_60
+  name: "Weak Magical Melodies"
+  rules: |
+    Enchant targets with up to SPI 1 (instead of SPI 2).
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: DISADV_61
+  name: "Weak Magical Dances"
+  rules: |
+    Enchant targets with up to SPI 1 (instead of SPI 2).
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: DISADV_62
+  name: "Limited Magical Melodies"
+  rules: |
+    The range of magical melodies decreases by -2 yards per level of this disadvantage.
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: DISADV_63
+  name: "Limited Magical Dances"
+  rules: |
+    The range of magical dances decreases by -2 yards per level of this disadvantage.
+  src:
+    - id: US25004E
+      firstPage: 226
+
+- id: DISADV_64
+  name: "Smell of the Prey"
+  rules: |
+    The GM rolls 1D6 when you come within a 50 yard radius of hungry predators, to see if they smell you. On a result of -2, they attack. If facing a group of heroes, the predators preferentially attack those with Smell of the Prey. Predators include animals such as jaguars and constrictors, but never herbivores. The GM decides which animals are drawn by the smell.
+  src:
+    - id: US25201E
+      firstPage: 121
+
+- id: DISADV_65
+  name: "Smell of the Predator"
+  rules: |
+    The GM rolls 1D6 when you get near domesticated animals and they can smell you. On a result of 1, they try to flee what they perceive as danger. Domestic dogs and cats avoid the hero, horses shy away, and even sheep and goats bleat and run away when the hero approaches. Checks using *Animal Lore* and *Riding* when dealing with domesticated animals have a maximum QL of 1.
+  src:
+    - id: US25201E
+      firstPage: 121
+
+- id: DISADV_71
+  name: "Alcohol Intolerance"
+  rules: |
+    Suffer double the effects from failed Poison checks after imbibing alcohol. For example, a hero that receives 1 level of *Intoxicated*, instead suffers 2 levels of *Intoxicated*.
+  src:
+    - id: US25514E
+      firstPage: 13
+
+- id: DISADV_72
+  name: "Fewer Sermons"
+  rules: |
+    The preacher may learn only 2 Sermon special abilities at Level I, and only 1 at Level II.
+  src:
+    - id: US25005E
+      firstPage: 228
+
+- id: DISADV_73
+  name: "Fewer Visions"
+  rules: |
+    The visionary may learn only 2 Vision special abilities at Level I, and only 1 at Level II.
+  src:
+    - id: US25005E
+      firstPage: 228

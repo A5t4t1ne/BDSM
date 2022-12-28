@@ -1,0 +1,166 @@
+- id: SPELL_367
+# name: Aufgeblasen
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_7
+  checkMod: TOU
+  ic: B
+  property: 11
+
+- id: SPELL_368
+# name: Dichter und Denker
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  ic: B
+  property: 3
+
+- id: SPELL_369
+# name: Holterdipolter
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  ic: C
+  property: 10
+
+- id: SPELL_370
+# name: Juckpulver
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  property: 3
+
+- id: SPELL_371
+# name: Koboldgeschenk
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  checkMod: SPI
+  ic: B
+  property: 3
+
+- id: SPELL_372
+# name: Lach dich gesund
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  ic: B
+  property: 5
+
+- id: SPELL_373
+# name: Lachkrampf
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  checkMod: SPI
+  ic: C
+  property: 3
+
+- id: SPELL_374
+# name: Langer Lulatsch, Kleiner Dotz
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_6
+  checkMod: TOU
+  ic: B
+  property: 11
+
+- id: SPELL_375
+# name: Meister minderer Geister
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: A
+  property: 8
+
+- id: SPELL_376
+# name: Murks und Patz
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  checkMod: SPI
+  ic: A
+  property: 3
+
+- id: SPELL_377
+# name: Nackedei
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_5
+  ic: B
+  property: 10
+
+- id: SPELL_378
+# name: Papperlapapp
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  ic: B
+  property: 3
+
+- id: SPELL_379
+# name: Schelmenkleister
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: C
+  property: 9
+
+- id: SPELL_380
+# name: Schelmenlaune
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  property: 3
+
+- id: SPELL_381
+# name: Schelmenmaske
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_6
+  ic: B
+  property: 7
+
+- id: SPELL_382
+# name: Schelmenrausch
+  check1: ATTR_2
+  check2: ATTR_3
+  check3: ATTR_4
+  checkMod: SPI
+  ic: B
+  property: 3
+
+- id: SPELL_383
+# name: Tauschrausch
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  ic: A
+  property: 8
+
+- id: SPELL_384
+# name: Verschwindibus
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_5
+  ic: B
+  property: 8
+
+- id: SPELL_385
+# name: Zagibu Ubigaz
+  check1: ATTR_2
+  check2: ATTR_4
+  check3: ATTR_5
+  ic: A
+  property: 9
+
+- id: SPELL_449
+# name: Pop!
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  property: 9

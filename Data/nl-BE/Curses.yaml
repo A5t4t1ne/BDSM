@@ -1,0 +1,121 @@
+- id: SPELL_52
+  name: "Bijt op graniet!"
+  effect: |
+    Als het slachtoffer vast voedsel aanraakt verandert het in steen of een andere door de Heks in de Vloek genoemde substantie. Naast steen wordt ook hout, mest of slijm gebruikt. Edele metalen of iets dergelijks zijn niet mogelijk. De voedingsmiddelen veranderen na 5 minuten weer terug, zolang het slachtoffer ze niet aanraakt. Pogingen om levensmiddelen met tangen of trechters in de mond te brengen kunnen ertoe leiden dat het slachtoffer verstikt door een steen in de hals. Voor soep, melk en andere vloeistoffen geldt de Vloek niet.
+  aeCost: "14 AsP"
+  aeCostShort: "14 AsP"
+  duration: "KwG x 3 in dagen"
+  durationShort: "KwG x 3 d"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+
+- id: SPELL_53
+  name: "Prooi!"
+  effect: |
+    De geur van het slachtoffer lokt alle vleesetende gewervelde dieren aan. Deze beschouwen het slachtoffer als een gemakkelijke prooi. Tamme dieren kunnen worden gekalmeerd door middel van een Talentproef op *Dierkunde*, die verzwaard is door de overgebleven VaP van de Vloek.<br>
+    Wilde dieren laten zich evenwel op deze manier niet van de wijs brengen. Deze alleen door dieren waarneembare geur is zo intens, dat ze het slachtoffer al vanaf meerdere mijlen kunnen waarnemen.
+  aeCost: "14 AsP"
+  aeCostShort: "14 AsP"
+  duration: "KwG x 3 in dagen"
+  durationShort: "KwG x 3 d"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+
+- id: SPELL_54
+  name: "Slaghagel!"
+  effect: |
+    Over een gebied van (KwG x20.000) vierkante pas valt een zware hagelbui. Afhankelijk van de regio kan het gebied ook worden verwoest door een zware sneeuw- of zandstorm. Zulke stormen kunnen oogsten vernietigen, daken doen inzakken en veroorzaken bij onbeschermde dieren en personen 2D6 TP schade per 5 minuten.
+  aeCost: "21 AsP"
+  aeCostShort: "21 AsP"
+  duration: "KwG x 15 minuten"
+  durationShort: "KwG x 15 Min"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+
+- id: SPELL_55
+  name: "Heksenscheut!"
+  effect: |
+    Het slachtoffer lijdt plotseling aan een hevige pijn in de rug of het hoofd, afhankelijk van de keuze van de Heks. Door de Heksenscheut lijdt het slachtoffer onder een graad van de Toestand *Pijn*.
+  aeCost: "14 AsP"
+  aeCostShort: "14 AsP"
+  duration: "KwG x 3 in uren"
+  durationShort: "KwG x 3 h"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+
+- id: SPELL_56
+  name: "Pech gewenst!"
+  effect: |
+    Naast de 20 wordt nu ook de 19 als Blunder beschouwd. Voor Blunders bij Vaardigheidsproeven is het voldoende als twee dobbelstenen 19 of meer vertonen. Bovendien breekt het slachtoffer per ongeluk voorwerpen, struikelt over hindernissen, vergeet afspraken of zegt domme dingen tijdens een gesprek. De Meester beslist over de details.
+  aeCost: "7 AsP"
+  aeCostShort: "7 AsP"
+  duration: "KwG x 3 in dagen"
+  durationShort: "KwG x 3 d"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+
+- id: SPELL_57
+  name: "Pestilentie!"
+  effect: |
+    Het slachtoffer wordt door de Heks met een door haar gekende ziekte geïnfecteerd, maximaal met een ziektegraad die gelijk is aan de VaW van de Vloek. Vanaf de infectie verloopt de ziekte zoals normaal, maar is in geen geval besmettelijk. Men kan geen magische ziekten kiezen zoals de Duglumspest.
+  aeCost: "Graad der Ziekte in AsP"
+  aeCostShort: "ZG AsP"
+  duration: "Tot het einde van de ziekte, maximaal KwG x 3 in dagen"
+  durationShort: "ziekte/KwG x 3 d "
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+
+- id: SPELL_58
+  name: "Slaaproof!"
+  effect: |
+    Het slachtoffer kan niet slapen. Als hij toch voor enkele seconden inslaapt, ontwaakt hij meteen weer door nachtmerries. Regeneratie is onmogelijk. Hij reageert net zoals andere mensen die lange tijd wakker zijn. Men wordt dus zenuwachtig, prikkelbaar en lijdt na enkele dagen onder hallucinaties. Per twee dagen zonder slaap krijgt het slachtoffer een graad *Verwarring*, die pas wegvalt als hij weer kan slapen.
+  aeCost: "14 AsP"
+  aeCostShort: "14 AsP"
+  duration: "KwG x 3 in dagen"
+  durationShort: "KwG x 3 d"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+
+- id: SPELL_59
+  name: "Dorre schoot!"
+  effect: |
+    Het slachtoffer, persoon of dier is niet meer in staat om voor nageslacht te zorgen. Zwangere wezens krijgen vaak een miskraam of doodgeboorte.
+  aeCost: "14 AsP"
+  aeCostShort: "14 AsP"
+  duration: "KwG x 3 in weken"
+  durationShort: "KwG x 3 in weken"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+
+- id: SPELL_60
+  name: "Wrattengroei!"
+  effect: |
+    Bij het slachtoffer groeien binnen enkele minuten dikke wratten in het aangezicht en op de handen en verlenen hem zo een graad van het Nadeel Lelijk. Het Voordeel Knap uiterlijk wordt hierdoor tijdelijk opgeheven en de vervloekte lijdt onder het Nadeel Lelijk.
+  aeCost: "7 AsP"
+  aeCostShort: "7 AsP"
+  duration: "KwG x 3 in dagen"
+  durationShort: "KwG x 3 d"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 283
+
+- id: SPELL_61
+  name: "Tongdood!"
+  effect: |
+    De tong en de lippen van het doelwit zijn als verlamd. Daardoor kan hij niet meer verstaanbaar spreken. Dit beïnvloedt ook Spreuken. Bovendien heeft de vervloekte de neiging tot overdadig kwijlen. De vervloekte verkrijgt de Status *Stom*.
+  aeCost: "14 AsP"
+  aeCostShort: "14 AsP"
+  duration: "KwG x 3 in uren"
+  durationShort: "KwG x 3 h"
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 282
+      lastPage: 283

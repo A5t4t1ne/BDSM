@@ -1,0 +1,20 @@
+- id: EL_1
+  name: "Inexpérimenté"
+
+- id: EL_2
+  name: "Moyen"
+
+- id: EL_3
+  name: "Expérimenté"
+
+- id: EL_4
+  name: "Compétent"
+
+- id: EL_5
+  name: "Magistral"
+
+- id: EL_6
+  name: "Brillant"
+
+- id: EL_7
+  name: "Légendaire"

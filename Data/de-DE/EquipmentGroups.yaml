@@ -1,0 +1,60 @@
+- id: 1
+  name: "Nahkampfwaffen"
+- id: 2
+  name: "Fernkampfwaffen"
+- id: 3
+  name: "Munition"
+- id: 4
+  name: "Rüstungen"
+- id: 5
+  name: "Waffenzubehör"
+- id: 6
+  name: "Kleidung"
+- id: 7
+  name: "Reisebedarf und Werkzeuge"
+- id: 8
+  name: "Beleuchtung"
+- id: 9
+  name: "Verbandzeug und Heilmittel"
+- id: 10
+  name: "Behältnisse"
+- id: 11
+  name: "Seile und Ketten"
+- id: 12
+  name: "Diebeswerkzeug"
+- id: 13
+  name: "Handwerkszeug"
+- id: 14
+  name: "Orientierungshilfen"
+- id: 15
+  name: "Schmuck"
+- id: 16
+  name: "Edelsteine und Feingestein"
+- id: 17
+  name: "Schreibwaren"
+- id: 18
+  name: "Bücher"
+- id: 19
+  name: "Magische Artefakte"
+- id: 20
+  name: "Alchimica"
+- id: 21
+  name: "Gifte"
+- id: 22
+  name: "Heilkräuter"
+- id: 23
+  name: "Musikinstrumente"
+- id: 24
+  name: "Genussmittel und Luxus"
+- id: 25
+  name: "Tiere"
+- id: 26
+  name: "Tierbedarf"
+- id: 27
+  name: "Fortbewegungsmittel"
+- id: 28
+  name: "Ausrüstung der Geweihtenschaft"
+- id: 29
+  name: "Zeremonialgegenstände"
+- id: 30
+  name: "Liebesspielzeug"

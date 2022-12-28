@@ -1,0 +1,1684 @@
+- id: TAL_1
+  name: "Vliegen"
+  applications:
+    - id: 1
+      name: "Gevechtsmaneuvers"
+    - id: 2
+      name: "Afstandsvluchten"
+    - id: 3
+      name: "Achtervolgingen"
+  tools: "Het vliegende voorwerp"
+  quality: |
+    Afstanden kunnen sneller worden afgelegd.
+  failed: |
+    Het vliegmaneuver mislukt en moet worden afgebroken.
+  critical: |
+    De held slaagt niet alleen in het maneuver, maar heeft een bijkomende actie tijdens een Gevechtsronde.
+  botch: |
+    De held stort neer.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 191
+
+- id: TAL_2
+  name: "Kunstenmakerij"
+  applications:
+    - id: 1
+      name: "Jongleren"
+    - id: 2
+      name: "Potsenmakerij"
+    - id: 3
+      name: "Verdwijntrucs"
+  tools: "Afhankelijk van de voorstelling, bv. balletjes, fakkel, slangen, speelkaarten"
+  quality: |
+    De voorstelling is bijzonder goed gelukt en de toeschouwers geven meer applaus.
+  failed: |
+    De voorstelling loopt fout, bij het uitvoeren ervan sluipen er kleine foutjes in. Het publiek is ontgoocheld.
+  critical: |
+    De toeschouwers zijn gefascineerd, zien de voorstelling als echte magie en potentiële financiële inkomsten van de goochelaar verdubbelen zich.
+  botch: |
+    Bij de voorstelling wordt de held uitgejouwd omdat zijn act compleet de mist inging (met jongleerkegels een toeschouwer geraakt, met pyrotechniek de burgemeester geschroeid, enz.).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 189
+
+- id: TAL_3
+  name: "Klimmen"
+  applications:
+    - id: 1
+      name: "Boomklimmen"
+    - id: 2
+      name: "Bergbeklimmen"
+    - id: 3
+      name: "IJsklimmen"
+    - id: 4
+      name: "Gevelklimmen"
+  tools: "Eventueel een klimuitrusting"
+  quality: |
+    De held bereikt sneller zijn doel.
+  failed: |
+    De held doet er veel langer over dan normaal, is lichtgewond (1D3 SP), durft niet te klimmen of hangt vast.
+  critical: |
+    De held heeft zonder problemen en veel sneller dan normaal de klim uitgevoerd. Toeschouwers zien hem als de beste klimmer op Daera. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = dubbele VaW.
+  botch: |
+    De held glijdt naar beneden en valt (Bladzijde **340**, **Valschade**).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 188
+
+- id: TAL_4
+  name: "Lichaamsbeheersing"
+  applications:
+    - id: 1
+      name: "Acrobatie"
+    - id: 2
+      name: "Evenwicht"
+    - id: 3
+      name: "Ontglippen"
+    - id: 4
+      name: "Gevechtsmaneuvers"
+    - id: 5
+      name: "Rennen"
+    - id: 6
+      name: "Springen"
+  quality: |
+    De avonturier kan zich sneller uit boeien bevrijden.
+  failed: |
+    De actie van de held loopt gedeeltelijk fout. Hij heeft meer tijd nodig, maakt fouten of moet de actie afbreken.
+  critical: |
+    De daden van de held lukken en hij kan nog een bijkomende actie uitvoeren tijdens een Gevechtsronde. En wat de held ook heeft gedaan: het zag er elegant uit.
+  botch: |
+    De held valt en loopt verwondingen op (1D6 SP).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 190
+
+- id: TAL_5
+  name: "Krachttoer"
+  applications:
+    - id: 1
+      name: "Duwen & Ombuigen"
+    - id: 2
+      name: "Intrappen & Kapotslaan"
+    - id: 3
+      name: "Stutten & Heffen"
+    - id: 4
+      name: "Trekken & Sleuren"
+  tools: "Eventueel breekijzer of touw"
+  quality: |
+    Voor een korte periode kan een held meer gewicht dragen of een zware last langer vasthouden.
+  failed: |
+    De actie van de held mislukt.
+  critical: |
+    De held maakt indruk op alle toeschouwers en wordt voortaan gezien als één van de sterkste Aventurijnen. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = de dubbele VaW.
+  botch: |
+    De actie van de held mislukt helemaal. Hij valt of vertilt zich en blesseert zich daarbij (1D6 SP).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 189
+
+- id: TAL_6
+  name: "Rijden (Dier)"
+  applications:
+    - id: 1
+      name: "Gevechtsmaneuvers"
+    - id: 2
+      name: "Afstandsrijden"
+    - id: 3
+      name: "Over hindernissen springen"
+    - id: 4
+      name: "Achtervolgingen"
+  tools: "Rijdier"
+  quality: |
+    De held is sneller bij zijn doel.
+  failed: |
+    Het dier blijft staan, of beweegt niet zoals het zou moeten bewegen.
+  critical: |
+    Het dier beweegt sneller dan verwacht en de ruiter kan een extra actie uitvoeren tijdens de GvR.
+  botch: |
+    Het dier werpt de ruiter af, en deze valt op de grond (Bladzijde **340**, **Valschade**).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 190
+
+- id: TAL_7
+  name: "Zwemmen"
+  applications:
+    - id: 1
+      name: "Gevechtsmaneuvers"
+    - id: 2
+      name: "Afstandszwemmen"
+    - id: 3
+      name: "Duiken"
+    - id: 4
+      name: "Achtervolgingen"
+    - id: 5
+      name: "Watertrappelen"
+  quality: |
+    De held is sneller bij zijn doel.
+  failed: |
+    De held durft niet te zwemmen of raakt niet bijzonder ver – in elk geval niet tot waar hij wil.
+  critical: |
+    De held zwemt de afstand in een recordtijd. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = de dubbele VaW.
+  botch: |
+    De held gaat kopje onder (Bladzijde **341**, **Verstikkingsschade**). De reden hiervoor zou bijvoorbeeld een kuitkramp kunnen zijn of een enorme golf die hem verrast.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 193
+
+- id: TAL_8
+  name: "Zelfbeheersing"
+  applications:
+    - id: 1
+      name: "Folteringen weerstaan"
+    - id: 2
+      name: "Handelingsbekwaam blijven"
+    - id: 3
+      name: "Afleidingen negeren"
+  uses:
+    - id: 1
+      name: "Pijn onderdrukken"
+  quality: |
+    De zelfbeheersing duurt een langere periode.
+  failed: |
+    Het lukt de held niet om de pijn te onderdrukken of de afleiding te negeren.
+  critical: |
+    De held slaagt erin om Pijn (tot graad III) of afleiding een hele dag lang te negeren.
+  botch: |
+    De held krijgt het volgende uur 2 graden van de Toestand *Pijn* of wordt door de afleiding *Verrast*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 192
+
+- id: TAL_9
+  name: "Zingen"
+  encDescription: "Neen (eventueel wel bij het dragen van een helm)"
+  applications:
+    - id: 1
+      name: "Bardenballade"
+    - id: 2
+      name: "Choraalzang"
+    - id: 3
+      name: "Koorgezang"
+    - id: 4
+      name: "Voordracht"
+    - id: -2
+      name: "Tweestemmige zang"
+  quality: |
+    Het zingen is zo goed, dat de held meer applaus krijgt van de toehoorders.
+  failed: |
+    De held vergist zich van tekst of zijn optreden is zeer matig.
+  critical: |
+    Het gezang van de held is gedurende vele weken hét gespreksthema bij zijn toehoorders. Als de held er geld had voor gevraagd, dan had hij minstens tweemaal zoveel als normaal gekregen. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = de dubbele VaW.
+  botch: |
+    De held zit er meer dan een halve toon naast of zijn ritme is helemaal fout. Het lied is een kwelling voor elke toehoorder. De held wordt uitgejoeld.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 192
+
+- id: TAL_10
+  name: "Zintuigen"
+  encDescription: "Neen (eventueel wel bij het dragen van een helm of pantserhandschoenen, enz.)"
+  applications:
+    - id: 1
+      name: "Hinderlaag ontdekken"
+    - id: 2
+      name: "Zoeken"
+    - id: 3
+      name: "Waarnemen"
+    - id: -1
+      name: "Liplezen"
+    - id: -4
+      name: "Vosseninstinct"
+  quality: |
+    De held merkt meer details op.
+  failed: |
+    De held merkt helemaal niets.
+  critical: |
+    De held neemt nauwelijks merkbare details waar. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geld: VaP = de dubbele VaW.
+  botch: |
+    De held neemt bepaalde zaken waar, maar mist de waarnemingen die ertoe doen. Hij kan bijvoorbeeld in de buurt bloeiende bloemen ruiken, maar mist de afgrijselijk stinkende oger die hem besluipt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 193
+
+- id: TAL_11
+  name: "Dansen"
+  applications:
+    - id: 1
+      name: "Volksdans"
+    - id: 2
+      name: "Exotische dans"
+    - id: 3
+      name: "Hoofse dans"
+    - id: 4
+      name: "Rituele dans"
+  quality: |
+    De dans is zo goed uitgevoerd, dat de held meer applaus en erkenning krijgt.
+  failed: |
+    De held gooit de danspassen door elkaar.
+  critical: |
+    De held trekt de aandacht van de toeschouwers vanwege de perfecte dansuitvoering. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = de dubbele VaW.
+  botch: |
+    De held trapt zijn danspartner op haar tenen  en kwetst haar of hij valt en maakt zich belachelijk.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 188
+
+- id: TAL_12
+  name: "Zakkenrollen"
+  applications:
+    - id: 1
+      name: "Aandacht afleiden"
+    - id: 2
+      name: "Persoon bestelen"
+    - id: 3
+      name: "Voorwerp stelen"
+    - id: 4
+      name: "Toestoppen"
+  tools: "Eventueel een mes of dolk"
+  quality: |
+    De diefstal wordt later pas opgemerkt.
+  failed: |
+    De poging mislukt of het slachtoffer merkt de diefstal op.
+  critical: |
+    Het slachtoffer heeft de diefstal niet opgemerkt en de held heeft een bijzonder waardevolle buit gemaakt of tegelijkertijd meerdere doelen bestolen. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = de dubbele VaW.
+  botch: |
+    De held wordt  door omstaanders of door het slachtoffer betrapt zonder dit te hebben gemerkt en de diefstalpoging mislukt. Bovendien krijgt hij de Status *Verrast*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 191
+      lastPage: 192
+
+- id: TAL_13
+  name: "Verbergen"
+  applications:
+    - id: 1
+      name: "Voorwerp verbergen"
+    - id: 2
+      name: "Sluipen"
+    - id: 3
+      name: "Zich verstoppen"
+  quality: |
+    De held kan moeilijker worden ontdekt of vindt sneller een schuilplaats.
+  failed: |
+    De held heeft zich slecht verstopt of geluiden gemaakt bij het sluipen.
+  critical: |
+    De held heeft de perfect schuilplaats gevonden of is zo stil als een kat. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = de dubbele VaW.
+  botch: |
+    De held laat iets (een bord, een meubelstuk) vallen dat veel lawaai maakt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 190
+
+- id: TAL_14
+  name: "Drinken"
+  applications:
+    - id: 1
+      name: "Verdoving door roesmiddelen vermijden"
+    - id: 2
+      name: "Pijn door roesmiddelen vermijden"
+    - id: 3
+      name: "Verwarring door roesmiddelen vermijden"
+  quality: |
+    De held kan meer verdragen dan normaal.
+  failed: |
+    De held krijgt een graad van de Toestand *Verdoving* en wordt de volgende dag wakker met hoofdpijn of andere ongewenste resultaten van zijn gelag.
+  critical: |
+    De held slaagt erin vol te houden tot het bittere eind, en ondanks dit alles gaat het de volgende ochtend uitstekend met hem.
+  botch: |
+    De held begaat in zijn toestand dwaasheden. Hij breekt de halve taveerne af, ontwaakt ’s ochtends naakt op het marktplein of in een vreemd bed, verklapt geheimen aan de vijand en kan zich daarna niets meer herinneren.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 188
+
+- id: TAL_15
+  name: "Bekeren & Overtuigen"
+  applications:
+    - id: 1
+      name: "Debatteren"
+    - id: 2
+      name: "Conversatie"
+    - id: 3
+      name: "Toespraken"
+    - id: -1
+      name: "Opruiende pamfletten"
+  quality: |
+    Meer mensen laten zich door de held bekeren of de bekeerde volgt zijn nieuw overtuiging langer.
+  failed: |
+    Het slachtoffer gelooft de predikant niet.
+  critical: |
+    Het slachtoffer is volledig overtuigd.
+  botch: |
+    Het slachtoffer voelt zich door de predikant beledigd of als dommerik behandeld.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 194
+
+- id: TAL_16
+  name: "Verleiden"
+  encDescription: "Neen, situatieafhankelijke uitzonderingen kunnen voorkomen, bv. Verleiding in toernooiharnas"
+  applications:
+    - id: 1
+      name: "Flirten"
+    - id: 2
+      name: "Opmaken"
+    - id: 3
+      name: "Minnekunst"
+    - id: -1
+      name: "Liefdesroman"
+  quality: |
+    De gecharmeerde is bereid om meer voor de held te doen.
+  failed: |
+    De held slaagt er niet in om interesse bij het doelwit te wekken.
+  critical: |
+    Het slachtoffer van de verleiding probeert alle wensen van de onweerstaanbare held te vervullen.
+  botch: |
+    De held incasseert een slaande oorvijg voor zijn lompe verleidingspoging.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 196
+      lastPage: 197
+
+- id: TAL_17
+  name: "Intimideren"
+  applications:
+    - id: 1
+      name: "Bedreigen"
+    - id: 2
+      name: "Folteren"
+    - id: 3
+      name: "Provocatie"
+    - id: 4
+      name: "Ondervragen"
+  quality: |
+    Het slachtoffer is langer geïntimideerd of verraadt meer aan de helden dan verwacht.
+  failed: |
+    De tegenstander negeert alle beledigingen en intimidatiepogingen van de helden.
+  critical: |
+    De tegenstander van de helden is totaal geïntimideerd en zal de komende tijd niets meer tegen de helden ondernemen.
+  botch: |
+    In plaats van geïntimideerd of beledigd te zijn, gebeurt het tegenovergestelde: het slachtoffer is woedend, sereen of geamuseerd. Of de held maakt zich helemaal belachelijk.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 195
+
+- id: TAL_18
+  name: "Etiquette"
+  applications:
+    - id: 1
+      name: "Manieren"
+    - id: 2
+      name: "Roddels"
+    - id: 3
+      name: "Onderhoudend gesprek"
+    - id: 4
+      name: "Mode"
+    - id: -1
+      name: "Heraldiek & Stambomen"
+    - id: -2
+      name: "Poëzie"
+  quality: |
+    De held maakt een goede indruk en zijn aanwezigheid zindert positief na.
+  failed: |
+    De held herinnert zich niet meer alle gedragsregels en valt onaangenaam op.
+  critical: |
+    Op het feest staat de held, op basis van zijn gedrag, met zijn grappen en charmes in het middelpunt van de belangstelling.
+  botch: |
+    De held beledigt door zijn houding een belangrijke persoonlijkheid.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 194
+
+- id: TAL_19
+  name: "Stadskennis"
+  encDescription: "Neen (eventueel wel in bepaalde situaties, bijvoorbeeld als de wapenrusting de aandacht trekt van wachters of edelen)"
+  applications:
+    - id: 1
+      name: "Schaduwen"
+    - id: 2
+      name: "Inlichtingen vergaren"
+    - id: 3
+      name: "Plaats inschatten"
+    - id: -1
+      name: "Misdaadverhalen"
+  quality: |
+    De held krijgt meer informatie of krijgt ze sneller dan verwacht.
+  failed: |
+    De held vindt geen nuttige informatie.
+  critical: |
+    De held ontdekt een bijzonder kwalitatieve en goedkope herberg, krijgt meer informatie dan hij had verwacht of hij slaagt erin een contactpersoon te vinden die hem uitstekende diensten aanbiedt.
+  botch: |
+    De held komt in een hinderlaag terecht van een bende schurken die hem willen beroven.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 196
+
+- id: TAL_20
+  name: "Mensenkennis"
+  applications:
+    - id: 1
+      name: "Leugens doorzien"
+    - id: 2
+      name: "Motivatie aanvoelen"
+  quality: |
+    De held heeft een sterk vermoeden wat zijn tegenstrever van plan is of waarom hij liegt.
+  failed: |
+    De held is niet zeker van zichzelf.
+  critical: |
+    De held doorziet de persoon helemaal.
+  botch: |
+    De held zit helemaal fout. Zo gelooft hij alles van een leugenaar en geen woord van eerlijke lieden.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 197
+
+- id: TAL_21
+  name: "Overhalen"
+  applications:
+    - id: 1
+      name: "Aansmeren"
+    - id: 2
+      name: "Bedelen"
+    - id: 3
+      name: "Zich Eruit Praten"
+    - id: 4
+      name: "Manipuleren"
+    - id: 5
+      name: "Vleien"
+    - id: -1
+      name: "Romans"
+  uses:
+    - id: 1
+      name: "Aanvoerder"
+  quality: |
+    De persoon die overhaald werd is bereid om meer voor de held te doen.
+  failed: |
+    De held slaagt er niet in om zijn tegenstander te overtuigen.
+  critical: |
+    De persoon die de helden willen overhalen doet veel meer dan verhoopt.
+  botch: |
+    De persoon die de helden willen overhalen is woedend op de helden en laat zich de komende tijd niet meer *Overhalen*.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 195
+      lastPage: 196
+
+- id: TAL_22
+  name: "Vermommen"
+  applications:
+    - id: 1
+      name: "Toneelspelen"
+    - id: 2
+      name: "Kostumering"
+    - id: 3
+      name: "Personen imiteren"
+  tools: "Passende verkleding"
+  quality: |
+    De vermomming is moeilijk te doorzien.
+  failed: |
+    De vermomming is niet goed gekozen en houdt niet stand bij nader onderzoek.
+  critical: |
+    De vermomming werkt on berispelijk.
+  botch: |
+    De vermomming wordt dadelijk doorzien en de held komt in de problemen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 197
+
+- id: TAL_23
+  name: "Wilskracht"
+  applications:
+    - id: 1
+      name: "Bekeren & Overtuigen weerstaan"
+    - id: 2
+      name: "Bedreigingen het hoofd bieden"
+    - id: 3
+      name: "Verleiden weerstaan"
+    - id: 4
+      name: "Intimideren weerstaan"
+    - id: 5
+      name: "Overhalen weerstaan"
+  quality: |
+    De resultaten van pogingen tot *Verleiden* of *Overhalen* zijn duidelijk minder of worden volledig weerstaan.
+  failed: |
+    De held kan niet weerstaan aan de beïnvloeding.
+  critical: |
+    Deheld weerstaat de beïnvloeding en kan door deze persoon of dat voorwerp in de nabije toekomst niet meer worden beïnvloed.
+  botch: |
+    De held is volledig onder controle van de persoon die hem wil beïnvloeden of wordt handelingsonbekwaam bij het zien van een afschuwelijke demon.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 198
+
+- id: TAL_24
+  name: "Spoorzoeken"
+  applications:
+    - id: 1
+      name: "Sporen uitwissen"
+    - id: 2
+      name: "Mensachtige sporen"
+    - id: 3
+      name: "Dierlijke sporen"
+  quality: |
+    Naargelang de Kwaliteitsgraad kan de held meer details in de sporen herkennen.
+  failed: |
+    De held kan geen sporen vinden of heeft geen nieuwe bevindingen.
+  critical: |
+    In zoverre het spoor niet volledig werd vernield, kan de held het doelgericht tot aan het einde volgen. Hij krijgt meer informatie dan normaal. Schijnmaneuvers zoals het uitwissen van sporen doorziet hij onmiddellijk.
+  botch: |
+    De held verwart de sporen en volgt een verkeerd spoor. Zo komt hij misschien bij een gevaarlijk wezen uit of maakt jacht op de verkeerde mensen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 200
+
+- id: TAL_25
+  name: "Knopen"
+  encDescription: "Neen (Eventueel wel bij helmen, versterkte handschoenen, enz.)"
+  applications:
+    - id: 1
+      name: "Vastbinden & Losmaken"
+    - id: 2
+      name: "Knopenkunde"
+    - id: 3
+      name: "Netten knopen"
+  tools: "Touw, boeien"
+  quality: |
+    De boeien houden langer stand en kunnen moeilijker worden geopend.
+  failed: |
+    De held kan alleen een knoop van slechte kwaliteit leggen. Zich hieruit bevrijden is eenvoudiger dan normaal.
+  critical: |
+    De held heeft een stevige knoop gelegd. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = de dubbele VaW.
+  botch: |
+    De held heeft een knoop gelegd die in elke omstandigheid of op het slechtst denkbare moment loskomt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 199
+
+- id: TAL_26
+  name: "Vissen"
+  encDescription: "Ja (bij het speervissen), of neen (bij het vissen met fuiken of netten)"
+  applications:
+    - id: 1
+      name: "Zoutwaterdieren"
+    - id: 2
+      name: "Zoetwaterdieren"
+    - id: 3
+      name: "Watermonsters"
+  tools: "Haakje met draad, netten of fuiken, speer"
+  quality: |
+    De vissen smaken heerlijker dan bij een gemiddelde vangst.
+  failed: |
+    De vis bijt niet of zwemt niet in het net.
+  critical: |
+    Het rantsoen is zeer hoog. Voor Kwaliteitsgraden, Vergelijkings- en Verzamelproeven geldt: VaP = de dubbele VaW.
+  botch: |
+    De hengelaar valt in het water en de hengel gaat verloren.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 200
+
+- id: TAL_27
+  name: "Oriëntatie"
+  applications:
+    - id: 1
+      name: "Zonnestand"
+    - id: 2
+      name: "Sterrenhemel"
+    - id: 3
+      name: "Ondergronds"
+  quality: |
+    De held weet snel in welke richting hij loopt.
+  failed: |
+    De held weet niet zeker waar hij naartoe moet gaan.
+  critical: |
+    De held vindt probleemloos zijn weg, zelfs onder de slechtste omstandigheden.
+  botch: |
+    De held is totaal de weg kwijt, loopt in de verkeerde richting, en is zich daar totaal niet van bewust.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 199
+
+- id: TAL_28
+  name: "Plantkunde"
+  encDescription: "Ja (het verzamelen bij landbouw en voeding) of neen (bij de determinatie van planten)"
+  applications:
+    - id: 1
+      name: "Gifplanten"
+    - id: 2
+      name: "Geneeskrachtige planten"
+    - id: 3
+      name: "Nutsplanten"
+  quality: |
+    Meer correcte informatie over een plant.
+  failed: |
+    De held weet niets over de plant.
+  critical: |
+    De held weet alles over deze plant, ook over haar speciale werkingen en kan ze twee keer zo lang houdbaar maken als gewoonlijk.
+  botch: |
+    De held verwisselt de plant met een andere.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 199
+
+- id: TAL_29
+  name: "Dierkunde"
+  applications:
+    - id: 1
+      name: "Gedomesticeerde dieren"
+    - id: 2
+      name: "Monsters"
+    - id: 3
+      name: "Wilde dieren"
+  uses:
+    - id: 1
+      name: "Diergeluiden nabootsen"
+  quality: |
+    Meer correcte informatie over een dier.
+  failed: |
+    De held weet niets over het dier.
+  critical: |
+    De held weet alles over het dier.
+  botch: |
+    De held gelooft iets te weten over het dier maar vergist zich danig (schat in dat het ongevaarlijk is terwijl het zeer giftig is, dat een planteneter ipv een vleeseter is).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 198
+
+- id: TAL_30
+  name: "Wildernisleven"
+  applications:
+    - id: 1
+      name: "Vuur maken"
+    - id: 2
+      name: "Kamp opstellen"
+    - id: 3
+      name: "Kampplaats vinden"
+    - id: -1
+      name: "Weersvoorspelling"
+  tools: "Eventueel een tent, wildernisuitrusting"
+  quality: |
+    De held heeft niet zo lang nodig om een kampplaats te vinden of een kamp te bouwen.
+  failed: |
+    De kampplaats is slecht gekozen. De re- generatie zakt met 1 punt.
+  critical: |
+    Een fantastische slaapplaats! De regeneratie wordt met 1 punt verhoogd.
+  botch: |
+    Het kamp komt onder water te staan of wordt overstelpt met ongedierte.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 200
+      lastPage: 201
+
+- id: TAL_31
+  name: "Bord- & Geluksspel"
+  applications:
+    - id: 1
+      name: "Dobbelspellen"
+    - id: 2
+      name: "Bordspellen"
+    - id: 3
+      name: "Kaartspellen"
+    - id: 4
+      name: "Gokspellen"
+    - id: -1
+      name: "Vakpublicaties"
+  uses:
+    - id: 1
+      name: "Valsspelen"
+  tools: "Spel"
+  quality: |
+    De held voert een goede zet uit.
+  failed: |
+    De held verliest het spel.
+  critical: |
+    De held wint op spectaculaire wijze. Als er om geld werd gespeeld, dan verdubbelt zijn winst zich.
+  botch: |
+    De held wordt onterecht beschuldigd van valsspelen of heeft een slechte dag. Als er om geld werd gespeeld, dan verliest hij minstens de hele inzet (of meer).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 201
+
+- id: TAL_32
+  name: "Geografie"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetië"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Noordmarken"
+    - id: 6
+      name: "Rommilyser Mark"
+    - id: 7
+      name: "Tobrië"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhaege"
+    - id: 10
+      name: "Al'Anfaanse Imperium"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranië"
+    - id: 13
+      name: "Bergkoninkrijken der dwergen"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Hoge Noorden"
+    - id: 17
+      name: "Horasrijk"
+    - id: 18
+      name: "Kalifaat"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orkland"
+    - id: 22
+      name: "Salamanderstenen & de rondom liggende elfengebieden"
+    - id: 23
+      name: "Schaduwlanden"
+    - id: 24
+      name: "Zuidzee & Woudeilanden"
+    - id: 25
+      name: "Sveltdal"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Diepe Zuiden"
+    - id: 28
+      name: "Tulamidenlanden"
+    - id: 29
+      name: "Cyclopeneilanden"
+    - id: -1
+      name: "Cartografie"
+    - id: -2
+      name: "Vakpublicaties"
+  quality: |
+    Meer gedetailleerde informatie over de bevolking, plaatsen en oeververbindingen.
+  failed: |
+    De held heeft geen idee.
+  critical: |
+    De held kent vele details over de streek: heersers, bevolkingsaantallen, gebruiken, rivierlopen en bruggen.
+  botch: |
+    De held herinnert zich volledig verkeerde geografische details: de inwoneraantallen van de steden kloppen niet, bruggen staan ergens anders dan gedacht.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 202
+
+- id: TAL_33
+  name: "Geschiedenis"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetië"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Noordmarken"
+    - id: 6
+      name: "Rommilyser Mark"
+    - id: 7
+      name: "Tobrië"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhaege"
+    - id: 10
+      name: "Al'Anfaanse Imperium"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranië"
+    - id: 13
+      name: "Bergkoninkrijken der dwergen"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Hoge Noorden"
+    - id: 17
+      name: "Horasrijk"
+    - id: 18
+      name: "Kalifaat"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orkland"
+    - id: 22
+      name: "Salamanderstenen & de rondom liggende elfengebieden"
+    - id: 23
+      name: "Schaduwlanden"
+    - id: 24
+      name: "Zuidzee & Woudeilanden"
+    - id: 25
+      name: "Sveltdal"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Diepe Zuiden"
+    - id: 28
+      name: "Tulamidenlanden"
+    - id: 29
+      name: "Cyclopeneilanden"
+    - id: -1
+      name: "Vakpublicaties"
+  quality: |
+    Meer details over historische persoonlijkheden en tijdperken.
+  failed: |
+    De held heeft geen idee.
+  critical: |
+    De held weet bijzonder veel over een bepaalde gebeurtenis of een historische persoon.
+  botch: |
+    De held kan over dit thema alleen maar foutieve informatie bijdragen. Hij vergist zich in datums en gebeurtenissen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 202
+      lastPage: 203
+
+- id: TAL_34
+  name: "Goden & Culten"
+  applications:
+    - id: 1
+      name: "Praios"
+    - id: 2
+      name: "Rondra"
+    - id: 3
+      name: "Efferd"
+    - id: 4
+      name: "Travia"
+    - id: 5
+      name: "Boron"
+    - id: 6
+      name: "Hesinde"
+    - id: 7
+      name: "Firun"
+    - id: 8
+      name: "Tsa"
+    - id: 9
+      name: "Phex"
+    - id: 10
+      name: "Peraine"
+    - id: 11
+      name: "Ingerimm"
+    - id: 12
+      name: "Rahja"
+    - id: 13
+      name: "de naamloze"
+    - id: 14
+      name: "Aves"
+    - id: 15
+      name: "Ifirn"
+    - id: 16
+      name: "Kor"
+    - id: 17
+      name: "Nandus"
+    - id: 18
+      name: "Swafnir"
+    - id: 19
+      name: "Marbo"
+    - id: 20
+      name: "Levthan"
+    - id: 21
+      name: "Rastullah"
+    - id: -1
+      name: "Vakpublicaties"
+  applicationsInput: "Afhankelijk van de Godheid en/of filosofie"
+  quality: |
+    Meer details over culten, Goden en priesters
+  failed: |
+    De held heeft geen idee.
+  critical: |
+    De held heeft een gedetailleerd inzicht in het thema en kent zelfs speciale rituelen, gebedsteksten of filosofische grondbeginselen.
+  botch: |
+    De held verwart rituele handelingen en zienswijzen van de ene kerk met die van een andere.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 203
+
+- id: TAL_35
+  name: "Krijgskunde"
+  applications:
+    - id: 1
+      name: "Belegering"
+    - id: 2
+      name: "Veldslag"
+    - id: 3
+      name: "Partizanenstrijd"
+    - id: 4
+      name: "Zeeslag"
+    - id: 5
+      name: "Tunnelgevecht"
+    - id: -1
+      name: "Vakpublicaties"
+  quality: |
+    Betere Voordelen tijdens het gevecht.
+  failed: |
+    De held maakt een foutieve inschatting.
+  critical: |
+    De held heeft een  uitstekend plan, dat bijkomende voordelen in het gevecht biedt.
+  botch: |
+    De held begaat een kapitale planningsfout, die het gevecht in zijn nadeel beïnvloedt of hem minstens extreme nadelen bezorgt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 203
+
+- id: TAL_36
+  name: "Magiekunde"
+  applications:
+    - id: 1
+      name: "Artefacten"
+    - id: 2
+      name: "Magische wezens"
+    - id: 3
+      name: "Rituelen"
+    - id: 4
+      name: "Spreuken"
+    - id: -1
+      name: "Vakpublicaties"
+  uses:
+    - id: 1
+      name: "Analyticus"
+  quality: |
+    Meer details over Spreuken, magische wezens of exotisch gebruik van magie.
+  failed: |
+    De held heeft geen idee.
+  critical: |
+    De held weet de herkomst, de actieve magie en het gebruik van een oud artefact.
+  botch: |
+    De held heeft verkeerde ideeën en schat de situatie verkeerd in met zware gevolgen als resultaat.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 204
+
+- id: TAL_37
+  name: "Mechanica"
+  applications:
+    - id: 1
+      name: "Hefbomen"
+    - id: 2
+      name: "Hydraulica"
+    - id: 3
+      name: "Complexe Systemen"
+    - id: -1
+      name: "Vakpublicaties"
+  quality: |
+    Sneller ontwerpen van het mechanisme.
+  failed: |
+    Het geplande mechanisme werkt niet.
+  critical: |
+    De dubbele VaW telt als VaP.
+  botch: |
+    Wat de held ook wilde bouwen: het voorwerp is gevaarlijk of de constructie stort in elkaar. Een valstrik wordt geactiveerd met het grootst mogelijke succes.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 204
+
+- id: TAL_38
+  name: "Rekenen"
+  applications:
+    - id: 1
+      name: "Breuken"
+    - id: 2
+      name: "Vermenigvuldigen & delen"
+    - id: 3
+      name: "Optellen & aftrekken"
+    - id: -1
+      name: "Vakpublicaties"
+    - id: -2
+      name: "Numerologie"
+    - id: -3
+      name: "Verschlüsselungen"
+  quality: |
+    Sneller resultaat.
+  failed: |
+    De uitkomst is fout.
+  critical: |
+    Snelle en correcte bepaling van de uitkomst.
+  botch: |
+    Het resultaat is volledig fout, maar de held is er absoluut van overtuigd dat het juist is.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 205
+
+- id: TAL_39
+  name: "Rechtskunde"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetië"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Noordmarken"
+    - id: 6
+      name: "Rommilyser Mark"
+    - id: 7
+      name: "Tobrië"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhaege"
+    - id: 10
+      name: "Al'Anfaanse Imperium"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranië"
+    - id: 13
+      name: "Bergkoninkrijken der dwergen"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Hoge Noorden"
+    - id: 17
+      name: "Horasrijk"
+    - id: 18
+      name: "Kalifaat"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orkland"
+    - id: 22
+      name: "Salamanderstenen & de rondom liggende elfengebieden"
+    - id: 23
+      name: "Schaduwlanden"
+    - id: 24
+      name: "Zuidzee & Woudeilanden"
+    - id: 25
+      name: "Sveltdal"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Diepe Zuiden"
+    - id: 28
+      name: "Tulamidenlanden"
+    - id: 29
+      name: "Cyclopeneilanden"
+    - id: -1
+      name: "Gilderecht"
+    - id: -2
+      name: "Vakpublicaties"
+  quality: |
+    Meer opties om een geval op te lossen.
+  failed: |
+    De held heeft geen idee.
+  critical: |
+    De heldkentdebijzonderheden van de wet en kan een plan opstellen om dit in zijn voordeel te gebruiken.
+  botch: |
+    De held interpreteert de wet fout of vergeet een belangrijke passage.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 204
+
+- id: TAL_40
+  name: "Sagen & Legenden"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garetië"
+    - id: 4
+      name: "Kosch"
+    - id: 5
+      name: "Noordmarken"
+    - id: 6
+      name: "Rommilyser Mark"
+    - id: 7
+      name: "Tobrië"
+    - id: 8
+      name: "Weiden"
+    - id: 9
+      name: "Windhaege"
+    - id: 10
+      name: "Al'Anfaanse Imperium"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Aranië"
+    - id: 13
+      name: "Bergkoninkrijken der dwergen"
+    - id: 14
+      name: "Bornland"
+    - id: 15
+      name: "Gjalskerland"
+    - id: 16
+      name: "Hoge Noorden"
+    - id: 17
+      name: "Horasrijk"
+    - id: 18
+      name: "Kalifaat"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Orkland"
+    - id: 22
+      name: "Salamanderstenen & de rondom liggende elfengebieden"
+    - id: 23
+      name: "Schaduwlanden"
+    - id: 24
+      name: "Zuidzee & Woudeilanden"
+    - id: 25
+      name: "Sveltdal"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Diepe Zuiden"
+    - id: 28
+      name: "Tulamidenlanden"
+    - id: 29
+      name: "Cyclopeneilanden"
+    - id: -1
+      name: "Sprookjes"
+    - id: -2
+      name: "Vakpublicaties"
+  quality: |
+    Meer details of verschillende versies van een verhaal kennen.
+  failed: |
+    De held kent de legende niet.
+  critical: |
+    De held herinnertzich vele details van het verhaal en kent verschillende varianten.
+  botch: |
+    De held verwisselt het verhaal met een ander verhaal of herinnert zich het verhaal helemaal fout.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 205
+
+- id: TAL_41
+  name: "Sferenkunde"
+  applications:
+    - id: 1
+      name: "Limbus"
+    - id: 2
+      name: "Sferenwezens"
+    - id: 3
+      name: "1. sfeer"
+    - id: 4
+      name: "2. sfeer"
+    - id: 5
+      name: "3. sfeer"
+    - id: 6
+      name: "4. sfeer"
+    - id: 7
+      name: "5. sfeer"
+    - id: 8
+      name: "6. sfeer"
+    - id: 9
+      name: "7. sfeer"
+    - id: -1
+      name: "Vakpublicaties"
+  quality: |
+    Meer details over de sferen of de Limbus.
+  failed: |
+    De held weet helemaal niets over dit speciale thema.
+  critical: |
+    De held herinnert zich opmerkelijke details over een specifieke demon of de weg naar een verborgen globule.
+  botch: |
+    De held maakt een foute inschatting met gevaarlijke gevolgen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 206
+
+- id: TAL_42
+  name: "Sterrenkunde"
+  applications:
+    - id: 1
+      name: "Astrologie"
+    - id: 2
+      name: "Sterrencartografie"
+    - id: 3
+      name: "Kalender"
+    - id: -1
+      name: "Vakpublicaties"
+  quality: |
+    Sneller opstellen van een horoscoop.
+  failed: |
+    De held heeft geen idee.
+  critical: |
+    De held kan exact de bewegingen van de hemellichamen berekenen.
+  botch: |
+    Een foutieve inschatting bij de horoscoop, een maansverduistering, enz.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 206
+
+- id: TAL_43
+  name: "Alchemie"
+  applications:
+    - id: 1
+      name: "Alchemistische giffen"
+    - id: 2
+      name: "Elixirs"
+    - id: 3
+      name: "Profane alchemie"
+  tools: "Een alchemistisch laboratorium"
+  quality: |
+    De drank is van een betere kwaliteit.
+  failed: |
+    Het elixer is mislukt of een analyse heeft geen resultaat opgeleverd.
+  critical: |
+    De held weet precies welk elixir hij voor zich heeft, welke graad het bezit en hoelang het houdbaar is.
+  botch: |
+    Het elixir zorgt voor een onaangenaam neveneffect.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 207
+
+- id: TAL_44
+  name: "Varen"
+  applications:
+    - id: 1
+      name: "Gevechtsmaneuvers"
+    - id: 2
+      name: "Lange vaart"
+    - id: 3
+      name: "Achtervolgingen"
+    - id: 4
+      name: "Wedstrijdvaren"
+    - id: -1
+      name: "Navigation"
+  tools: "Schip of boot"
+  quality: |
+    De afstand tot het doel kan sneller worden afgelegd.
+  failed: |
+    De held maakt nauwelijks vaart met boot of schip.
+  critical: |
+    De held maakt gebruik van gunstige stromingen of de wind om twee keer zo snel vooruit te komen dan normaal.
+  botch: |
+    De held tuimelt overboord of een belangrijk deel van het vaartuig raakt beschadigd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 212
+      lastPage: 213
+
+- id: TAL_45
+  name: "Voertuigen besturen"
+  applications:
+    - id: 1
+      name: "Gevechtsmaneuvers"
+    - id: 2
+      name: "Lange rit"
+    - id: 3
+      name: "Achtervolgingen"
+    - id: 4
+      name: "Wagenrennen"
+  quality: |
+    De afstand tot het doel kan sneller worden afgelegd.
+  failed: |
+    Het rijtuig raakt moeilijk vooruit of raakt zelfs niet in beweging.
+  critical: |
+    Het rijtuig maakt goede vorderingen en legt de afstand in een recordtijd af.
+  botch: |
+    Het rijtuig loopt een asbreuk op of valt tijdens de rit samen met zijn bestuurder omver, waarbij de held valschade oploopt.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 213
+
+- id: TAL_46
+  name: "Handel"
+  applications:
+    - id: 1
+      name: "Boekhouding"
+    - id: 2
+      name: "Afdingen"
+    - id: 3
+      name: "Geld wisselen"
+    - id: -1
+      name: "Heling"
+  uses:
+    - id: 1
+      name: "Paardenzwendelaar"
+  quality: |
+    De held kan de prijs preciezer bepalen.
+  failed: |
+    De held maakt niet zoveel winst als hij hoopte.
+  critical: |
+    De held kan de goederen aan een spotprijs krijgen en ze respectievelijk aan woekerprijzen kwijt geraken – zonder dat zijn handelspartner het hem kwalijk neemt. De prijsverhoging of verlaging moet minstens 50% bedragen.
+  botch: |
+    Men profiteert van de held of de handelspartner weigert zaken met de held te doen. De prijsverhoging of verlaging moet minstens 50% bedragen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 207
+
+- id: TAL_47
+  name: "Heelkunde gif"
+  applications:
+    - id: 1
+      name: "Alchemistische giffen"
+    - id: 2
+      name: "Mineraal gif"
+    - id: 3
+      name: "Plantaardig gif"
+    - id: 4
+      name: "Dierlijk gif"
+  tools: "Tegengif"
+  quality: |
+    De held kan het soort gif sneller vaststellen.
+  failed: |
+    De held heeft geen idee en weet niet hoe hij dit moet genezen.
+  critical: |
+    De patiënt kan volledig worden ontgift, zonder dat de held het juiste tegengif moet gebruiken.
+  botch: |
+    De held raadt een (schadelijke) aderlating aan, heeft de patiënt verwond tijdens de behandeling of zelfs extra vergiftigd (1D6 SP).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 207
+
+- id: TAL_48
+  name: "Heelkunde ziekten"
+  applications:
+    - id: 1
+      name: "Flinke Difar"
+    - id: 2
+      name: "Lutanas"
+    - id: 3
+      name: "Rasse Waan"
+    - id: 4
+      name: "Moeraskoorts of Brabakzweet"
+    - id: 5
+      name: "Zorganpokken"
+  tools: "Heelmiddel"
+  quality: |
+    De held kan de ziekte sneller bepalen.
+  failed: |
+    De held heeft geen idee en kent noch een geneesmiddel noch de juiste behandeling.
+  critical: |
+    De patiënt is genezen zonder dat de held een geneesmiddel moet gebruiken. Bovendien moet hij bij een besmettelijke ziekte niet testen.
+  botch: |
+    De held heeft de patiënt tijdens de behandeling verwond (1D6 SP) of de ziekte verergert. Bovendien heeft de held 25% meer kans om bij een besmettelijke ziekte zelf de ziekte op te lopen.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 208
+
+- id: TAL_49
+  name: "Heelkunde ziel"
+  applications:
+    - id: 1
+      name: "Onderdrukking van angsten"
+    - id: 2
+      name: "Onderdrukking van karakterfouten"
+    - id: 3
+      name: "Onderdrukking van Slechte eigenschappen"
+  quality: |
+    De onderdrukking van het Nadeel houdt langer stand.
+  failed: |
+    De held heeft geen idee hoe hij de patiënt kan helpen.
+  critical: |
+    De patiënt heeft een hele dag geen last van het Nadeel (Angst, Karakterfout of Slechte eigenschap).
+  botch: |
+    De held heeft de patiënt tijdens de behandeling getraumatiseerd of op een andere manier zijn geest beschadigd. De patiënt loopt gedurende één dag één graad van de Toestand *Angst* of *Verwarring* op.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 209
+
+- id: TAL_50
+  name: "Heelkunde wonden"
+  applications:
+    - id: 1
+      name: "Genezing versnellen"
+    - id: 2
+      name: "Pijn verlichten"
+    - id: 3
+      name: "Stabiliseren"
+  tools: "Eventueel verband, chirurgische werktuigen, kruiden, naald en draad"
+  quality: |
+    De held heeft minder heelkruiden nodig of kan de verwonding sneller verzorgen.
+  failed: |
+    De held kan de patiënt niet helpen.
+  critical: |
+    De KwG wordt verdubbeld en bij de normale regeneratie geteld, tijdens de volgende regeneratiefase.
+  botch: |
+    De held heeft de patiënt bij de behandeling verwond (1D6 SP).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 208
+
+- id: TAL_51
+  name: "Houtbewerking"
+  applications:
+    - id: 1
+      name: "Hakken & Kappen"
+    - id: 2
+      name: "Schrijnwerk"
+    - id: 3
+      name: "Timmeren"
+    - id: -1
+      name: "Instrumenten bouwen"
+  tools: "Ja, afhankelijk van het te bewerken materiaal, bv. bijl, blokschaaf, mes, zaag, enz."
+  quality: |
+    Het werkstuk is sneller klaar of is kwalitatief beter.
+  failed: |
+    De held loopt vertraging op bij het vervaardigen van zijn werkstuk.
+  critical: |
+    Het aantal VaP bij deze Proef wordt verdubbeld, met een minimum van 5 VaP. Verzwaringen, die door mislukte Verzamelproeven worden opgebouwd, worden volledig kwijtgescholden.
+  botch: |
+    De verzamelde KwG zakt tot 0 en er kunnen geen verdere Proeven plaatsvinden.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 209
+
+- id: TAL_52
+  name: "Voedsel klaarmaken"
+  applications:
+    - id: 1
+      name: "Versnijden"
+    - id: 2
+      name: "Bakken"
+    - id: 3
+      name: "Braden & Koken"
+    - id: 4
+      name: "Brouwen"
+    - id: 5
+      name: "Houdbaarheid"
+    - id: -1
+      name: "Distilleren"
+  tools: "Geschikte ingrediënten, veldkeuken, kookgerei"
+  quality: |
+    De smaak van hetetenis beter dan gewoonlijk.
+  failed: |
+    Het eten is aangebrand of ongenietbaar.
+  critical: |
+    De maaltijd is een echt festijn, de wijn een streling voor het gehemelte.
+  botch: |
+    Het eten smaakt niet alleen lamlendig, maar veroorzaakt ook zware maagproblemen met diarree of misselijkheid als gevolg (1D6 SP).
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 213
+
+- id: TAL_53
+  name: "Leerbewerking"
+  applications:
+    - id: 1
+      name: "Looien"
+    - id: 2
+      name: "Bontwerken"
+    - id: 3
+      name: "Lederwaren maken"
+  tools: "Els, vouwbeen, gaatjestang, mes, pons, tang, enz."
+  quality: |
+    Het werkstuk is sneller klaar of is kwalitatief beter.
+  failed: |
+    De held loopt vertraging op bij het vervaardigen van zijn werkstuk.
+  critical: |
+    Het aantal VaP bij deze Proef wordt verdubbeld, met een minimum van 5 VaP. Verzwaringen, die door mislukte Verzamelproeven worden opgebouwd, worden volledig kwijtgescholden.
+  botch: |
+    De verzamelde KwG zakt tot 0 en er kunnen geen verdere Proeven plaatsvinden.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 209
+
+- id: TAL_54
+  name: "Tekenen & Schilderen"
+  applications:
+    - id: 1
+      name: "Schilderen"
+    - id: 2
+      name: "Graveren"
+    - id: 3
+      name: "Documenten vervalsen"
+    - id: -2
+      name: "Tovertekens"
+  tools: "Kleur, krijt, stiften"
+  quality: |
+    De kwaliteit van de tekening is beter dan gewoonlijk.
+  failed: |
+    De held maakt een minder mooie tekening, die met enige fantasie wel herkenbaar is.
+  critical: |
+    De afbeelding is zo goed dat men de held voor een beroemde schilder aanziet.
+  botch: |
+    Een verschrikkelijk, onmogelijk herkenbaar gekrabbel.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 212
+
+- id: TAL_55
+  name: "Metaalbewerking"
+  applications:
+    - id: 1
+      name: "Fijn smeedwerk"
+    - id: 2
+      name: "Smeedwerk"
+    - id: 3
+      name: "Metaal gieten"
+    - id: 4
+      name: "Erts smelten"
+    - id: -1
+      name: "Instrumenten bouwen"
+  tools: "Hamer, aambeeld, smidsvuur, enz."
+  quality: |
+    Het werkstuk is sneller klaar of er wordt een betere kwaliteit behaald.
+  failed: |
+    De held loopt vertraging op bij het vervaardigen van zijn werkstuk.
+  critical: |
+    Het aantal VaP bij deze Proef wordt verdubbeld, met een minimum van 5 VaP. Verzwaringen, die door mislukte Verzamelproeven worden opgebouwd, worden volledig kwijtgescholden.
+  botch: |
+    De verzamelde KwG zakt tot 0 en er kunnen geen verdere Proeven plaatsvinden.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 210
+
+- id: TAL_56
+  name: "Musiceren"
+  applications:
+    - id: 1
+      name: "Blaasinstrumenten"
+    - id: 2
+      name: "Snaarinstrumenten"
+    - id: 3
+      name: "Trommels"
+    - id: -1
+      name: "Dirigieren"
+  tools: "Muziekinstrument"
+  quality: |
+    Het publiek is enthousiaster over het optreden.
+  failed: |
+    De melodie klinkt vals.
+  critical: |
+    De held speelt een lied dat de aandacht van alle toehoorders trekt en niemand onverschillig laat.
+  botch: |
+    Er komen verschrikkelijk pijnlijke tonen uit het muziekinstrument. Het instrument kan hierdoor beschadigd worden. Mensen vluchten weg of sleuren het instrument uit de handen van de muzikant.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 210
+
+- id: TAL_57
+  name: "Sloten kraken"
+  applications:
+    - id: 1
+      name: "Baardsloten"
+    - id: 2
+      name: "Combinatiesloten"
+    - id: -1
+      name: "Vallen ontmantelen"
+  tools: "Lopers, haarspelden, haakjes"
+  quality: |
+    Het slot kan sneller worden geopend.
+  failed: |
+    Het slot opent niet.
+  critical: |
+    Het slot springt in een recordtijd open. De held heeft maar de helft van de tijd nodig dan normaal.
+  botch: |
+    De loper breekt af, de val wordt geactiveerd of het slot zit geklemd.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 210
+      lastPage: 211
+
+- id: TAL_58
+  name: "Steenbewerking"
+  applications:
+    - id: 1
+      name: "Metselen"
+    - id: 2
+      name: "Stenen breken"
+    - id: 3
+      name: "Steenhouwerij"
+    - id: -1
+      name: "Glasblazen"
+    - id: -2
+      name: "Pottenbakken"
+  tools: "Verschillende grondstof (steen, klei), hamer, beitel, enz."
+  quality: |
+    Het werkstuk is sneller klaar of is kwalitatief beter.
+  failed: |
+    De held loopt vertraging op bij het vervaardigen van zijn werkstuk.
+  critical: |
+    Het aantal VaP bij deze Proef wordt verdubbeld, met een minimum van 5 VaP. Verzwaringen, die door mislukte Verzamelproeven worden opgebouwd, worden volledig kwijtgescholden.
+  botch: |
+    De verzamelde KwG zakt tot 0 en er kunnen geen verdere Proeven plaatsvinden.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 211
+
+- id: TAL_59
+  name: "Stofbewerking"
+  applications:
+    - id: 1
+      name: "Verven"
+    - id: 2
+      name: "Vilten"
+    - id: 3
+      name: "Kleermaken"
+    - id: 4
+      name: "Spinnen"
+    - id: 5
+      name: "Weven"
+  tools: "Mes, naaigerei, schaar, weefgetouw, enz."
+  quality: |
+    Het werkstuk is sneller klaar of is kwalitatief beter.
+  failed: |
+    De held loopt vertraging op bij het vervaardigen van zijn werkstuk.
+  critical: |
+    Het aantal VaP bij deze Proef wordt verdubbeld, met een minimum van 5 VaP. Verzwaringen, die door mislukte Verzamelproeven worden opgebouwd, worden volledig kwijtgescholden.
+  botch: |
+    De verzamelde KwG zakt tot 0 en er kunnen geen verdere Proeven plaatsvinden.
+  src:
+    - id: LTP-OdM-R0001
+      firstPage: 211

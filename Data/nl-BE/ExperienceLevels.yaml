@@ -1,0 +1,20 @@
+- id: EL_1
+  name: "Onervaren"
+
+- id: EL_2
+  name: "Gemiddeld"
+
+- id: EL_3
+  name: "Ervaren"
+
+- id: EL_4
+  name: "Competent"
+
+- id: EL_5
+  name: "Meesterlijk"
+
+- id: EL_6
+  name: "Briljant"
+
+- id: EL_7
+  name: "Legendarisch"

@@ -1,0 +1,2759 @@
+- id: ITEMTPL_1
+  name: "Lingua di Basilisco"
+  versions:
+    note: |
+      Sacro (Hesinde, Senza Nome). L’arma sacra a Hesinde può essere ottenuta solo da iniziati di Hesinde. Quella sacra al Senza Nome non è disponibile agli eroi. 
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_2
+  name: "Pugnale"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_3
+  name: "Dente di drago"
+  versions:
+    note: |
+      L’eroe deve essere di cultura nanica per ottenere un dente di drago durante la creazione. 
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_4
+  name: "Mano sinistra"
+  versions:
+    note: |
+      Arma da parata (conferisce un bonus di Parata +1 per l’arma principale). 
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_5
+  name: "Coltello"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_6
+  name: "Pugnale pesante"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_7
+  name: "Waqqif"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_8
+  name: "Fioretto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_9
+  name: "Stocco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_10
+  name: "Lama di lupo"
+  versions:
+    note: |
+      L’eroe deve essere di cultura elfi delle rive o elfi silvani per ottenere una lama di lupo durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_11
+  name: "Birbo di Brabak"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_12
+  name: "Randello"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_13
+  name: "Clava"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_14
+  name: "Tranciaviverne"
+  versions:
+    note: |
+      L’eroe deve essere di cultura nanica per ottenere un Tranciaviverne durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_15
+  name: "Bastone da mago, corto"
+  versions:
+    note: |
+      L’eroe deve disporre di Tradizione (Maghi di gilda) per ottenere un bastone da mago durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_16
+  name: "Bastone da mago, medio"
+  versions:
+    note: |
+      L’eroe deve disporre di Tradizione (Maghi di gilda) per ottenere un bastone da mago durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_17
+  name: "Molokdeshnaja"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_18
+  name: "Naso d’orco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_19
+  name: "Becco di corvo"
+  versions:
+    note: |
+      Sacro (Boron), può essere ottenuto solo da iniziati di Boron. 
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_796
+  name: "Becco di corvo"
+  versions:
+    note: |
+      (profano)
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_20
+  name: "Scettro solare"
+  versions:
+    note: |
+      Sacro (Praios), può essere ottenuto solo da iniziati di Praios. 
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_21
+  name: "Ascia da guerra"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 366
+
+- id: ITEMTPL_22
+  name: "Mazza ferrata"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_23
+  name: "Mazzafrusto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_24
+  name: "Lancia da battaglia"
+  versions:
+    note: |
+      Questa arma può essere utilizzata solo per attacchi da cavallo con lancia (vedi il **Regolamento** a pag. **240**).
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_25
+  name: "Tirapugni"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_26
+  name: "Scudo di legno"
+  versions:
+    note: |
+      Scudo piccolo, 20 Punti Struttura. 
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_27
+  name: "Scudo di cuoio"
+  versions:
+    note: |
+      Scudo piccolo, 20 Punti Struttura.
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_28
+  name: "Scudo thorwaliano"
+  versions:
+    note: |
+      Scudo medio, 25 Punti Struttura.
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_29
+  name: "Scudo grande"
+  versions:
+    note: |
+      Scudo grande, 30 Punti Struttura, in aggiunta -1 Att sull’arma principale.
+    src:
+      - id: REG001
+        firstPage: 367
+
+- id: ITEMTPL_30
+  name: "Spada barbara"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_31
+  name: "Sciabola d’abbordaggio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_32
+  name: "Coltellaccio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_33
+  name: "Khunchomiana"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_34
+  name: "Spada corta"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_35
+  name: "Spada"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_36
+  name: "Coltella delle nevi"
+  versions:
+    note: |
+      L’eroe deve essere della cultura degli elfi delle brine per ottenere una coltella delle nevi durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_37
+  name: "Sciabola"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_38
+  name: "Falciaschiavi"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_39
+  name: "Tridente"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_40
+  name: "Dshadra"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_41
+  name: "Alabarda"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_42
+  name: "Lancia di legno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_43
+  name: "Bastone"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_44
+  name: "Bastone da mago, lungo"
+  versions:
+    note: |
+      L’eroe deve disporre di Tradizione (Maghi di gilda) per ottenere un bastone da mago durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_45
+  name: "Lancia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_46
+  name: "Doppiogiglio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_47
+  name: "Spada bastarda"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_48
+  name: "Doppia khunchomiana"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_49
+  name: "Grande falciaschiavi"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_50
+  name: "Cresta di Rondra"
+  versions:
+    note: |
+      Sacro (Rondra), può essere ottenuta solo da iniziati di Rondra.
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_51
+  name: "Lama tuzakana"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_52
+  name: "Spadone"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_53
+  name: "Ascia barbara"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_54
+  name: "Spaccaroccia"
+  versions:
+    note: |
+      L’eroe deve essere di cultura nanica per ottenere uno spaccaroccia durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_55
+  name: "Martello da guerra"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_56
+  name: "Maglio nanico"
+  versions:
+    note: |
+      L’eroe deve essere di cultura nanica per ottenere un maglio nanico durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 368
+
+- id: ITEMTPL_57
+  name: "Balestrina"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_58
+  name: "Balestra Boschiferro"
+  versions:
+    note: |
+      Caricatore (10 colpi), richiede 2 azioni per tiro, 10 azioni per sostituire tutto il caricatore.
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_59
+  name: "Balestra da pugno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_60
+  name: "Balestra leggera"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_61
+  name: "Balestra pesante"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_62
+  name: "Arco elfico"
+  versions:
+    note: |
+      L’eroe deve essere di cultura elfica per ottenere un Arco elfico durante la creazione.
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_63
+  name: "Arco composito"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_64
+  name: "Arco corto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_65
+  name: "Arco lungo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_66
+  name: "Zanna curva"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_67
+  name: "Pietra"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_68
+  name: "Accetta da lancio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_69
+  name: "Pugnale da lancio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_70
+  name: "Mazza da lancio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_71
+  name: "Anello da lancio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_72
+  name: "Disco da lancio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_73
+  name: "Giavellotto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_74
+  name: "Stella da lancio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 372
+
+- id: ITEMTPL_75
+  name: "Frecce"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 373
+
+- id: ITEMTPL_76
+  name: "Dardi"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 373
+
+- id: ITEMTPL_77
+  name: "Pallottole"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 373
+
+- id: ITEMTPL_78
+  name: "Abiti normali"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_79
+  name: "Pelliccia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_80
+  name: "Abiti pesanti"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_81
+  name: "Abiti invernali"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_82
+  name: "Corpetto imbottito"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_83
+  name: "Gambeson"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_84
+  name: "Corpetto di cuoio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_85
+  name: "Cotta di maglia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_86
+  name: "Armatura a scaglie"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_87
+  name: "Armature a piastre"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_88
+  name: "Corda per arco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_89
+  name: "Fodero per pugnale"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_90
+  name: "Faretra (per 20 frecce o dardi)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_91
+  name: "Fodero per spada"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_92
+  name: "Giubba d’armi per armature metalliche"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_93
+  name: "Strumenti per la cura delle armi (cote, teli)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_94
+  name: "Vestito da ballo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_95
+  name: "Berretto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_96
+  name: "Fascia per il seno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_97
+  name: "Cappello di feltro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_98
+  name: "Pellegrina con cappuccio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_99
+  name: "Collana"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_100
+  name: "Camicia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_101
+  name: "Calzabrache"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_102
+  name: "Calzabrache con tasche"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_103
+  name: "Giaccone"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_104
+  name: "Caftano"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_105
+  name: "Cappa"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_106
+  name: "Abito da donna"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_107
+  name: "Corsetto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_108
+  name: "Saio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_109
+  name: "Cintura di cuoio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_110
+  name: "Guanti di cuoio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_111
+  name: "Cappello di cuoio a tesa larga"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_112
+  name: "Mantello di cuoio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_113
+  name: "Scarpe di cuoio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_114
+  name: "Grembiule di cuoio con tasche"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_115
+  name: "Stivali di cuoio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_116
+  name: "Perizoma"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_117
+  name: "Veste da mago"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_118
+  name: "Mantello"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_119
+  name: "Camicia da notte"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_120
+  name: "Muffole di pelliccia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_121
+  name: "Stivali imbottiti di pelliccia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_122
+  name: "Berretto di pelliccia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_123
+  name: "Gonna"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_124
+  name: "Sandali"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_125
+  name: "Sciarpa"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_126
+  name: "Velo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_127
+  name: "Corpetto con maniche"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_128
+  name: "Sciarpa di seta"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_129
+  name: "Calze di seta"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_130
+  name: "Cappello di paglia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_131
+  name: "Tunica"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_132
+  name: "Turbante"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_133
+  name: "Brache"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_134
+  name: "Sottabito"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_135
+  name: "Tunica d’arme"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_136
+  name: "Panciotto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_137
+  name: "Calze di lana"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 374
+
+- id: ITEMTPL_138
+  name: "Pacchetto di abiti: Asservito"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_139
+  name: "Pacchetto di abiti: Libero"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_140
+  name: "Pacchetto di abiti: Bassa nobiltà"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_141
+  name: "Pacchetto di abiti: Nobiltà"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_142
+  name: "Pacchetto di abiti: Alta nobiltà"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_143
+  name: "Amo e 10 passi di filo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_144
+  name: "Bicchiere"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_145
+  name: "Accetta"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_146
+  name: "Scopa"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_147
+  name: "Spiedo di ferro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_148
+  name: "Spiedo da caccia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_149
+  name: "Correggiato"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_150
+  name: "Posate di stagno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_151
+  name: "Lima"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_152
+  name: "Carrucola per 250 sassi"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_153
+  name: "Martello"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_154
+  name: "Trapano"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_155
+  name: "Seghetto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_156
+  name: "Amaca"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_157
+  name: "Coltello da macchia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_158
+  name: "Scure da boscaiolo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_159
+  name: "Ciotola di legno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_160
+  name: "Piatto di legno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_161
+  name: "Chiodi da roccia (10)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_162
+  name: "Brocca"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_163
+  name: "Calderone di rame"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_164
+  name: "Colla"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_165
+  name: "Scalpello"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_166
+  name: "Coltello"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_167
+  name: "Ago e filo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_168
+  name: "Chiodi (10)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_169
+  name: "Padella"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_170
+  name: "Pala"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_171
+  name: "Forbici"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_172
+  name: "Sacco a pelo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_173
+  name: "Ciaspole da neve"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_174
+  name: "Vanga"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_175
+  name: "Piccone"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_176
+  name: "Scala di corda (1 passo)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_177
+  name: "Coperta di lana"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_178
+  name: "Tenaglia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_179
+  name: "Tenda (1 persona)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_180
+  name: "Tenda (2 persone)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_181
+  name: "Provviste, 1 razione"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 375
+
+- id: ITEMTPL_182
+  name: "Torcia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_183
+  name: "Pietra Gwen-Petryl, grande come un pugno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_184
+  name: "Candele (10)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_185
+  name: "Lanterna"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_186
+  name: "Lampada ad olio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_187
+  name: "Lanterna con sportello"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_188
+  name: "Pietra focaia e acciarino"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_189
+  name: "Candelabro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_190
+  name: "Olio per lampade (12 ore di durata)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_191
+  name: "Esche (25)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_192
+  name: "Scatola per esche (spazio per 25)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_193
+  name: "Sanguisuga"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_194
+  name: "Strumenti chirurgici"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_195
+  name: "Trapano cranico"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_196
+  name: "Coppetta per salasso"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_197
+  name: "Bende (10)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_198
+  name: "Strumenti per la sutura"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_199
+  name: "Borraccia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_200
+  name: "Scarsella"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_201
+  name: "Cintura con tasca"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_202
+  name: "Borsello da cintura"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_203
+  name: "Gerla di vimini"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_204
+  name: "Borsa di cuoio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_205
+  name: "Zaino di cuoio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_206
+  name: "Fiala"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_207
+  name: "Barattolo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_208
+  name: "Sacco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_209
+  name: "Portagioie"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_210
+  name: "Orcio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_211
+  name: "Corno per bevande"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_212
+  name: "Baule"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_213
+  name: "Fagotto di stoffa"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_214
+  name: "Borsa a tracolla"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_215
+  name: "Vaso"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_216
+  name: "Otre"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_217
+  name: "Cordino (1 passo)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_218
+  name: "Catena (1 passo)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_219
+  name: "Corda (1 passo)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_220
+  name: "Spago (10 passi)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 376
+
+- id: ITEMTPL_221
+  name: "Piede di porco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_222
+  name: "Assortimento di grimaldelli"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_223
+  name: "Barba finta"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_224
+  name: "Rampino"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_225
+  name: "Laboratorio arcaico"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_226
+  name: "Cucina da strega"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_227
+  name: "Laboratorio alchemico completo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_228
+  name: "Meccanico di precisione"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_229
+  name: "Incisore"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_230
+  name: "Cartografo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_231
+  name: "Sarto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_232
+  name: "Tatuatore"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_233
+  name: "Carpentiere"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_234
+  name: "Abaco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_235
+  name: "Astrolabio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_236
+  name: "Occhiali d’ambra"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_237
+  name: "Cannocchiale"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_238
+  name: "Bussola (puntasud)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_239
+  name: "Quadrante"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_240
+  name: "Clessidra"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_241
+  name: "Orologio da taschino (uovo di Vinsalt)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 377
+
+- id: ITEMTPL_242
+  name: "Amuleto, Bronzo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_243
+  name: "Amuleto, Argento"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_244
+  name: "Amuleto, Oro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_245
+  name: "Bracciale, Bronzo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_246
+  name: "Bracciale, Argento"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_247
+  name: "Bracciale, Oro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_248
+  name: "Fibbia, Bronzo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_249
+  name: "Fibbia, Argento"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_250
+  name: "Fibbia, Oro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_251
+  name: "Collana, Bronzo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_252
+  name: "Collana, Argento"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_253
+  name: "Collana, Oro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_254
+  name: "Orecchino, Bronzo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_255
+  name: "Orecchino, Argento"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_256
+  name: "Orecchino, Oro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_257
+  name: "Anello, Bronzo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_258
+  name: "Anello, Argento"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_259
+  name: "Anello, Oro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_260
+  name: "Diadema, Bronzo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_261
+  name: "Diadema, Argento"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_262
+  name: "Diadema, Oro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_263
+  name: "Ametista"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_264
+  name: "Acquamarina"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_265
+  name: "Aventurina"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_266
+  name: "Cristallo di rocca"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_267
+  name: "Ambra"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_268
+  name: "Diamante"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_269
+  name: "Granato"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_270
+  name: "Giada"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_271
+  name: "Corniola"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_272
+  name: "Lapislazzuli"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_273
+  name: "Pietra di luna"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_274
+  name: "Onice"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_275
+  name: "Opale"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_276
+  name: "Perla"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_277
+  name: "Rubino"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_278
+  name: "Zaffiro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_279
+  name: "Smeraldo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_280
+  name: "Topazio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_281
+  name: "Turchese"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_282
+  name: "Penna d’oca"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_283
+  name: "Temperino"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_284
+  name: "Carboncino"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_285
+  name: "Gesso"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_286
+  name: "Carta (1 foglio)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_287
+  name: "Pergamena (1 foglio)"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_288
+  name: "Pennello"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_289
+  name: "Cera per sigilli"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_290
+  name: "Libretto / diario"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_291
+  name: "Inchiostro"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_292
+  name: "Breviario sui Precetti dei Dodici"
+  versions:
+    note: |
+      Garetiano e alfabeto di Kuslik.
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_293
+  name: "Codex Albyricus"
+  versions:
+    note: |
+      Bosparano e alfabeto di Kuslik.
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_294
+  name: "Encyclopaedia Magica"
+  versions:
+    note: |
+      Diverse edizioni.
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_295
+  name: "Vademecum per tutti li usi de lo Adepto Viaggiatore"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_296
+  name: "Bracciale della volontà"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_297
+  name: "Lama delle brine"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 378
+
+- id: ITEMTPL_298
+  name: "Antidoto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_299
+  name: "Pozione curativa"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_300
+  name: "Pozione d’amore"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_301
+  name: "Pozione d’invisibilità"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_302
+  name: "Elisir di trasformazione"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_303
+  name: "Balsamo dell’armaiolo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_304
+  name: "Pozione di volontà"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_305
+  name: "Pozione magica"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 379
+
+- id: ITEMTPL_306
+  name: "Arax"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 342
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_307
+  name: "Kelmon"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 342
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_308
+  name: "Tulmadron"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 342
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_309
+  name: "Wurara"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 342
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_310
+  name: "Mandragora"
+  versions:
+    note: |
+      le mandragore sono usate principalmente nelle procedure e ricette alchemiche (leggi a pag. 270).
+    src:
+      - id: REG001
+        firstPage: 346
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_311
+  name: "Albero di axorda"
+  versions:
+    note: |
+      Cura per il vaiolo di Zorgan.
+    src:
+      - id: REG001
+        firstPage: 345
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_312
+  name: "Donf"
+  versions:
+    note: |
+      Cura la febbre palustre.
+    src:
+      - id: REG001
+        firstPage: 345
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_313
+  name: "Emoglossa"
+  versions:
+    note: |
+      Allontana i parassiti.
+    src:
+      - id: REG001
+        firstPage: 345
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_314
+  name: "Gulmond"
+  versions:
+    note: |
+      Una dose permette di ignorare gli effetti di due livelli di Stordimento per 12 ore. Al raggiungimento del 4° livello della condizione si rimane comunque incapacitati.
+    src:
+      - id: REG001
+        firstPage: 346
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_315
+  name: "Lulania"
+  versions:
+    note: |
+      Cura per lutanas e pazzia fulminante.
+    src:
+      - id: REG001
+        firstPage: 346
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_316
+  name: "Erba wirsel"
+  versions:
+    note: |
+      Ogni dose utilizzata permette di recuperare un ulteriore PV nella successiva fase di rigenerazione, fino ad un massimo di 3 PV per fase.
+    src:
+      - id: REG001
+        firstPage: 346
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_317
+  name: "Ghironda"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_318
+  name: "Chiarina"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_319
+  name: "Flauto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_320
+  name: "Arpa da viaggio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_321
+  name: "Flauto kabas"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_322
+  name: "Liuto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_323
+  name: "Saccapiva"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_324
+  name: "Campana"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_325
+  name: "Corno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_326
+  name: "Clavicembalo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_327
+  name: "Arpa da concerto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_328
+  name: "Tamburo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_329
+  name: "Olio profumato da bagno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_330
+  name: "Birra, botticella"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_331
+  name: "Lente focale"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_332
+  name: "Gioco da tavolo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_333
+  name: "Spazzola"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_334
+  name: "Statuetta di divinità"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_335
+  name: "Specchietto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_336
+  name: "Pallina da giocoliere"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_337
+  name: "Caffè, tostato"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_338
+  name: "Cacao, polvere"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_339
+  name: "Pettine"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_340
+  name: "Palla di cristallo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_341
+  name: "Rossetto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_342
+  name: "Limetta per le unghie"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_343
+  name: "Profumo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_344
+  name: "Pepe, grani"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_345
+  name: "Cipria"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_346
+  name: "Liquore"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_347
+  name: "Cioccolato"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_348
+  name: "Sponge"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_349
+  name: "Spugna"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_350
+  name: "Carte da gioco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_351
+  name: "Carillon"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_352
+  name: "Cavalluccio di legno"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_353
+  name: "Bambola di pezza"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_354
+  name: "Tabacco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_355
+  name: "Barattolo per tabacco"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_356
+  name: "Pipa"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_357
+  name: "Fazzoletto"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_358
+  name: "Pipa ad acqua"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_359
+  name: "Vino"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_360
+  name: "Dadi"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_361
+  name: "Cane"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_362
+  name: "Cavallo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_363
+  name: "Mulo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_364
+  name: "Pony"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 380
+
+- id: ITEMTPL_365
+  name: "Collare e guinzaglio"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_366
+  name: "Ferro di cavallo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_367
+  name: "Sella da carico"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_368
+  name: "Sella da equitazione"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_369
+  name: "Coperta sottosella"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_370
+  name: "Bisaccia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_371
+  name: "Speroni"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_372
+  name: "Striglia"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_373
+  name: "Briglie e redini"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_374
+  name: "Cibo per cane"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_375
+  name: "Cibo per cavallo"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_376
+  name: "Cibo per pony"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_377
+  name: "Carretto a mano"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_378
+  name: "Carro monoasse"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_379
+  name: "Piccolo battello a remi"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_380
+  name: "Piccola barca a vela"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381
+
+- id: ITEMTPL_381
+  name: "Carrozza"
+  versions:
+    src:
+      - id: REG001
+        firstPage: 381

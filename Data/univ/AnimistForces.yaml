@@ -1,0 +1,155 @@
+- id: SPELL_450
+# name: Blut trinken
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  tribes:
+    - 1
+    - 4
+    - 6
+  property: 5
+
+- id: SPELL_451
+# name: Durch feste Materie
+  check1: ATTR_3
+  check2: ATTR_3
+  check3: ATTR_7
+  ic: C
+  tribes:
+    - 4
+    - 6
+  property: 11
+
+- id: SPELL_452
+# name: Großer Sprung
+  check1: ATTR_3
+  check2: ATTR_6
+  check3: ATTR_7
+  ic: B
+  property: 11
+
+- id: SPELL_453
+# name: Harte Haut
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_7
+  ic: B
+  tribes:
+    - 2
+    - 3
+    - 6
+  property: 11
+
+- id: SPELL_454
+# name: Kampffähigkeit verbessern
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_7
+  ic: B
+  property: 5
+
+- id: SPELL_455
+# name: Immunität gegen Hitze
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  tribes:
+    - 1
+    - 4
+  property: 5
+
+- id: SPELL_456
+# name: Immunität gegen Kälte
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: B
+  tribes:
+    - 2
+    - 3
+    - 5
+  property: 5
+
+- id: SPELL_457
+# name: Patronruf
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_4
+  ic: A
+  property: 8
+
+- id: SPELL_458
+# name: Schneller Angriff
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: B
+  property: 11
+
+- id: SPELL_459
+# name: Steinmacht
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_8
+  ic: B
+  tribes:
+    - 1
+    - 6
+  property: 10
+
+- id: SPELL_460
+# name: Talentverbesserung
+  check1: ATTR_3
+  check2: ATTR_4
+  check3: ATTR_7
+  ic: B
+  property: 5
+
+- id: SPELL_461
+# name: Tierverwandlung
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_7
+  ic: B
+  tribes:
+    - 1
+    - 3
+    - 4
+  property: 11
+
+- id: SPELL_462
+# name: Trümmerschlag
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_8
+  ic: B
+  tribes:
+    - 1
+    - 2
+    - 3
+    - 6
+  property: 11
+
+- id: SPELL_463
+# name: Unbeschadeter Sturz
+  check1: ATTR_1
+  check2: ATTR_3
+  check3: ATTR_6
+  ic: B
+  property: 11
+
+- id: SPELL_464
+# name: Unerschöpflich
+  check1: ATTR_3
+  check2: ATTR_7
+  check3: ATTR_8
+  ic: B
+  tribes:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  property: 5

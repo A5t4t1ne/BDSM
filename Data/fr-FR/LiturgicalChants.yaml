@@ -1,0 +1,679 @@
+- id: LITURGY_1
+  name: "bannissement des ténèbres"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 325
+
+- id: LITURGY_2
+  name: "bannissement de la terreur"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 325
+
+- id: LITURGY_3
+  name: "bannissement de la lumière"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 324
+
+- id: LITURGY_4
+  name: "rayon éblouissant"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 329
+
+- id: LITURGY_5
+  name: "honorabilité"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 327
+
+- id: LITURGY_6
+  name: "décryptage"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 327
+
+- id: LITURGY_7
+  name: "encouragement"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 327
+
+- id: LITURGY_8
+  name: "filet de néant"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 327
+
+- id: LITURGY_9
+  name: "aura paisible"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 324
+
+- id: LITURGY_10
+  name: "bannissement du poison"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 325
+
+- id: LITURGY_11
+  name: "indice divin"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 327
+
+- id: LITURGY_12
+  name: "signe divin"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 330
+
+- id: LITURGY_13
+  name: "bénédiction de guérison"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 326
+
+- id: LITURGY_14
+  name: "bannissement mineur des morts-vivants"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 325
+
+- id: LITURGY_15
+  name: "rayon mineur de bannissement"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 329
+
+- id: LITURGY_16
+  name: "bannissement de la maladie"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 324
+
+- id: LITURGY_17
+  name: "sans bruit"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 329
+
+- id: LITURGY_18
+  name: "protection contre la magie"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 328
+
+- id: LITURGY_19
+  name: "vision de la magie"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 330
+
+- id: LITURGY_20
+  name: "vision lunaire"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 331
+
+- id: LITURGY_21
+  name: "parole d'argent de lune"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 328
+
+- id: LITURGY_22
+  name: "bénédiction d'objet"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 326
+
+- id: LITURGY_23
+  name: "bulle feutrée"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 326
+
+- id: LITURGY_24
+  name: "croissance des plantes"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 327
+
+- id: LITURGY_25
+  name: "appel du corbeau"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 323
+
+- id: LITURGY_26
+  name: "sommeil"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 330
+
+- id: LITURGY_27
+  name: "bâton-serpent"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 325
+
+- id: LITURGY_28
+  name: "langue des serpents"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 328
+
+- id: LITURGY_29
+  name: "résistance à la douleur"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 329
+
+- id: LITURGY_30
+  name: "protection des innocents"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 328
+
+- id: LITURGY_31
+  name: "éclat d'étoile"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 327
+
+- id: LITURGY_32
+  name: "vérité"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 330
+
+- id: LITURGY_33
+  name: "vivacité du renard"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 331
+
+- id: LITURGY_34
+  name: "compréhension miraculeuse"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 326
+
+- id: LITURGY_35
+  name: "bénédiction des champs"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 331
+
+- id: LITURGY_36
+  name: "exorcisme"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 332
+
+- id: LITURGY_37
+  name: "armure sacrée"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 331
+
+- id: LITURGY_38
+  name: "sous les traits de la lionne"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 332
+
+- id: LITURGY_39
+  name: "corps nébuleux"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 332
+
+- id: LITURGY_40
+  name: "consécration d'objet"
+  effect: |
+    TODO
+  castingTime: " "
+  castingTimeShort: " "
+  kpCost: " "
+  kpCostShort: " "
+  range: " "
+  rangeShort: " "
+  duration: " "
+  durationShort: " "
+  target: " "
+  src:
+    - id: LDR1
+      firstPage: 331

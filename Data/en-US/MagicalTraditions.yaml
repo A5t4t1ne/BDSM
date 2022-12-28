@@ -1,0 +1,20 @@
+- id: SA_70
+  name: "Guild Mages"
+- id: SA_255
+  name: "Witches"
+- id: SA_345
+  name: "Elves"
+- id: SA_346
+  name: "Druids"
+- id: SA_676
+  name: "Illusionists"
+- id: SA_677
+  name: "Arcane Bards"
+- id: SA_678
+  name: "Arcane Dancers"
+- id: SA_679
+  name: "Intuitive Mages"
+- id: SA_680
+  name: "Savants"
+- id: SA_681
+  name: "Qabalya Mages"

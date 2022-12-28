@@ -1,0 +1,120 @@
+- id: STATE_1
+  name: "Immobilisé"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35
+
+- id: STATE_2
+  name: "Inconscient"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35
+
+- id: STATE_3
+  name: "Aveugle"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35
+
+- id: STATE_4
+  name: "Rage sanguinaire"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 36
+
+- id: STATE_5
+  name: "Enflammé"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35
+
+- id: STATE_6
+  name: "À l'étroit"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 34
+
+- id: STATE_7
+  name: "Cloué sur place"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35
+
+- id: STATE_8
+  name: "Incapable d'agir"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35
+
+- id: STATE_9
+  name: "Malade"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 36
+
+- id: STATE_10
+  name: "À terre"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35
+
+- id: STATE_11
+  name: "Muet"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 36
+
+- id: STATE_12
+  name: "Sourd"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 36
+
+- id: STATE_13
+  name: "Surpris"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 36
+
+- id: STATE_14
+  name: "Invisible"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35
+      lastPage: 36
+
+- id: STATE_15
+  name: "Empoisonné"
+  description: |
+    TODO
+  src:
+    - id: LDR1
+      firstPage: 35

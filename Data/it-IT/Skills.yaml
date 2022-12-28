@@ -1,0 +1,1674 @@
+- id: TAL_1
+  name: "Volare"
+  applications:
+    - id: 1
+      name: "Manovra di combattimento"
+    - id: 2
+      name: "Lunga distanza"
+    - id: 3
+      name: "Inseguimenti"
+  tools: "Uno strumento volante."
+  quality: |
+    L'eroe può coprire le distanze più velocemente.
+  failed: |
+    La manovra aerea fallisce e deve essere interrotta.
+  critical: |
+    La manovra riesce e l’eroe ha un’altra azione rimasta per il suo turno.
+  botch: |
+    L’eroe si schianta con il suo mezzo volante.
+  src:
+    - id: REG001
+      firstPage: 193
+
+- id: TAL_2
+  name: "Giocoleria"
+  applications:
+    - id: 1
+      name: "Giochi di destrezza"
+    - id: 2
+      name: "Pagliacciate"
+    - id: 3
+      name: "Trucchi da prestigiatore"
+  tools: "Dipende dal gioco in questione (palle, torce, serpenti, carte e così via)."
+  quality: |
+    Il trucchetto riesce particolarmente bene e l'eroe raccoglie grandi applausi dal pubblico.
+  failed: |
+    Il trucco non riesce a causa di piccoli errori ed il pubblico resta piuttosto deluso.
+  critical: |
+    Il pubblico resta incantato, pensando che l'eroe abbia realizzato una vera magia. Se c’è denaro da guadagnare, ne guadagna il doppio del normale.
+  botch: |
+    Il pubblico fischia l’eroe per un incidente durante lo spettacolo (l’eroe ha colpito uno spettatore con una clava da giocoliere, ha ferito il borgomastro con un petardo e così via).
+  src:
+    - id: REG001
+      firstPage: 192
+
+- id: TAL_3
+  name: "Arrampicarsi"
+  applications:
+    - id: 1
+      name: "Alberi"
+    - id: 2
+      name: "Montagne"
+    - id: 3
+      name: "Ghiaccio"
+    - id: 4
+      name: "Pareti"
+  tools: "Attrezzatura da scalata, a seconda delle circostanze."
+  quality: |
+    L’eroe raggiunge più velocemente la sommità.
+  failed: |
+    La scalata richiede un tempo maggiore di quello previsto, l’eroe riporta una ferita (1D3 PFer), ha paura di arrampicarsi o resta bloccato da qualche parte lungo il percorso.
+  critical: |
+    L’eroe si arrampica più velocemente e con maggiore sicurezza rispetto al solito. I testimoni dell’impresa giurano che l’eroe potrebbe essere uno dei migliori arrampicatori mai visti su Dere. Per determinare LQ, prove competitive o prove cumulative, i Punti Abilità totali sono = 2 × LA.
+  botch: |
+    L’eroe scivola e cade (vedi “Danni da caduta” a pagina 340).
+  src:
+    - id: REG001
+      firstPage: 188
+
+- id: TAL_4
+  name: "Controllo del corpo"
+  applications:
+    - id: 1
+      name: "Acrobazie"
+    - id: 2
+      name: "Equilibrio"
+    - id: 3
+      name: "Divincolarsi"
+    - id: 4
+      name: "Manovra di combattiment"
+    - id: 5
+      name: "Correre"
+    - id: 6
+      name: "Saltare"
+  quality: |
+    L’avventuriero può divincolarsi più velocemente dalle restrizioni o esegue meglio l’azione.
+  failed: |
+    L’azione fallisce parzialmente, richiede più tempo o conduce a degli errori, a volte anche costringendo l’eroe ad interrompere l’operazione. 
+  critical: |
+    L’azione ha l’effetto sperato e l’eroe ne può svolgere subito un’altra. Qualsiasi fosse l’azione intrapresa, è stata compiuta con incredibile eleganza.
+  botch: |
+    L’eroe cade e si ferisce (1D6 PFer).
+  src:
+    - id: REG001
+      firstPage: 191
+
+- id: TAL_5
+  name: "Prova di forza"
+  applications:
+    - id: 1
+      name: "Premere e Piegare"
+    - id: 2
+      name: "Sfondare e spaccare"
+    - id: 3
+      name: "Sollevare"
+    - id: 4
+      name: "Trascinare e spingere"
+  tools: "Forse un piede di porco o una corda, a seconda delle circostanze."
+  quality: |
+    L’eroe può trasportare un peso maggiore o sollevare un carico pesante per un tempo maggiore rispetto al normale.
+  failed: |
+    L’azione dell’eroe fallisce.
+  critical: |
+    Un’impressionante prova di forza. Secondo i testimoni, l’eroe è la reincarnazione di qualche eroe di epoche passate. Per determinare LQ, prove competitive e prove cumulative, Punti Abilità = 2 × LA.
+  botch: |
+    L’azione fallisce in modo eclatante. L’eroe cade, si strappa un muscolo e riporta una ferita (1D6 PFer).
+  src:
+    - id: REG001
+      firstPage: 193
+
+- id: TAL_6
+  name: "Cavalcare"
+  applications:
+    - id: 1
+      name: "Manovra di combattimento"
+    - id: 2
+      name: "Lunga Distanza"
+    - id: 3
+      name: "Salto ad ostacoli"
+    - id: 4
+      name: "Inseguimenti"
+  tools: "Animali da monta."
+  quality: |
+    Il cavaliere raggiunge la sua destinazione più velocemente.
+  failed: |
+    L’animale non si muove o non va nella giusta direzione.
+  critical: |
+    L’animale obbedisce perfettamente e il cavaliere ha un’ulteriore azione a disposizione, se in combattimento.
+  botch: |
+    L’animale disarciona il cavaliere, facendolo cadere a terra (vedi “Danni da caduta” a pagina 340).
+  src:
+    - id: REG001
+      firstPage: 191
+
+- id: TAL_7
+  name: "Nuotare"
+  applications:
+    - id: 1
+      name: "Manovra di combattimento"
+    - id: 2
+      name: "Lunga distanza"
+    - id: 3
+      name: "Tuffarsi"
+    - id: 4
+      name: "Inseguimenti"
+    - id: 5
+      name: "Stare a galla"
+  quality: |
+    Si raggiunge la destinazione più velocemente.
+  failed: |
+    L’eroe non ha il coraggio di iniziare a nuotare o non arriva lontano (o comunque non dove sarebbe dovuto arrivare).
+  critical: |
+    Il tempo che l’eroe impiega per raggiungere la sua destinazione a nuoto è un record personale. Per determinare LQ, prove competitive e prove cumulative, Punti Abilità = 2 × LA.
+  botch: |
+    L’eroe rischia di affogare (leggi “Danni da soffocamento” a pagina 341) o forse ha dei crampi ad una gamba.
+  src:
+    - id: REG001
+      firstPage: 192
+
+- id: TAL_8
+  name: "Autocontrollo"
+  applications:
+    - id: 1
+      name: "Resistere a Tortura"
+    - id: 2
+      name: "Restare Cosciente"
+    - id: 3
+      name: "Ignorare Distrazione"
+  uses:
+    - id: 1
+      name: "Reprimere il dolore"
+  quality: |
+    L’eroe mantiene il controllo più a lungo.
+  failed: |
+    L’eroe non riesce a reprimere il dolore o ad ignorare la distrazione.
+  critical: |
+    L’eroe ignora Dolore (fino al Livello III) e le distrazioni per tutto il giorno.
+  botch: |
+    L’eroe riceve 2 livelli di condizione Dolore per alcune ore (vedi il **Regolamento** a pag. **32**) oppure ottiene lo stato Sorpreso (pag. **36**).
+  src:
+    - id: REG001
+      firstPage: 188
+
+- id: TAL_9
+  name: "Cantare"
+  encDescription: "No (forse nel caso di un elmo)."
+  applications:
+    - id: 1
+      name: "Ballata"
+    - id: 2
+      name: "Canto ecclesiastico"
+    - id: 3
+      name: "Coro"
+    - id: 4
+      name: "Recita"
+    - id: -2
+      name: "Canto a due voci"
+  quality: |
+    Il canto dell’eroe è talmente bello e melodioso che gli spettatori applaudono caldamente.
+  failed: |
+    L’eroe dimentica il testo o canta piuttosto male.
+  critical: |
+    Il canto dell’eroe è al centro delle discussioni per diverse settimane. Se l’eroe voleva guadagnare del denaro, ne riceve almeno il doppio della normale somma. Per determinare LQ, prove competitive e prove cumulative, Punti Abilità = 2 × LA.
+  botch: |
+    L’eroe storpia la canzone in modo pessimo o confonde il ritmo. Il suo canto è una tortura per le orecchie del povero pubblico in ascolto, che fischia fragorosamente l’esecutore.
+  src:
+    - id: REG001
+      firstPage: 190
+
+- id: TAL_10
+  name: "Percezione"
+  encDescription: "No (a meno che non si indossi un elmo o dei guanti)."
+  applications:
+    - id: 1
+      name: "Imboscate"
+    - id: 2
+      name: "Cercare"
+    - id: 3
+      name: "Avvertire"
+    - id: -1
+      name: "Leggere le labbra"
+    - id: -4
+      name: "Fiuto della volpe"
+  quality: |
+    L’eroe nota un maggior numero di dettagli.
+  failed: |
+    L’eroe non nota nulla.
+  critical: |
+    L’eroe nota dei dettagli che sono a malapena percettibili dagli altri. Per determinare LQ, prove competitive e prove cumulative, Punti Abilità = 2 × LA.
+  botch: |
+    L’eroe percepisce qualcosa che non è per nulla importante, come il profumo di fiori che si trovano lì vicino, mentre si perde qualcosa di ovvio e fondamentale come un orco dall’odore nauseabondo che si sta avvicinando di soppiatto al gruppo.
+  src:
+    - id: REG001
+      firstPage: 192
+
+- id: TAL_11
+  name: "Ballare"
+  applications:
+    - id: 1
+      name: "Ballo popolare"
+    - id: 2
+      name: "Danza esotica"
+    - id: 3
+      name: "Ballo di corte"
+    - id: 4
+      name: "Danza religiosa"
+  quality: |
+    L’eroe balla così bene che il pubblico lo applaude entusiasta.
+  failed: |
+    L’eroe confonde i passi di danza.
+  critical: |
+    I perfetti passi di danza dell’eroe incantano gli spettatori. Per determinare LQ, prove competitive e prove cumulative, i Punti Abilità totali sono = 2 × LA.
+  botch: |
+    L’eroe inciampa sui piedi di un altro ballerino facendogli male o cade malamente, mettendosi in ridicolo.
+  src:
+    - id: REG001
+      firstPage: 189
+
+- id: TAL_12
+  name: "Borseggiare"
+  applications:
+    - id: 1
+      name: "Distrarre"
+    - id: 2
+      name: "Derubare"
+    - id: 3
+      name: "Sottrarre oggetto"
+    - id: 4
+      name: "Mettere in tasca"
+  tools: "Forse un coltello o un pugnale."
+  quality: |
+    Il furto non viene notato per un periodo più lungo.
+  failed: |
+    Il tentativo fallisce o la vittima se ne accorge immediatamente.
+  critical: |
+    La vittima non nota il ladro, il quale riesce ad ottenere degli oggetti di gran valore o riesce a derubare più di una vittima. Per determinare LQ, prove competitive e prove cumulative, Punti Abilità = 2 × LA.
+  botch: |
+    Le persone nella zona, probabilmente la vittima stessa, notano il tentativo, ma il tagliaborse non se ne rende conto. L’azione fallisce e, come se non bastasse, il mascalzone Sorpreso (vedi il **Regolamento** a pag. **36**).
+  src:
+    - id: REG001
+      firstPage: 190
+
+- id: TAL_13
+  name: "Furtività"
+  applications:
+    - id: 1
+      name: "Celare oggetto"
+    - id: 2
+      name: "Strisciare"
+    - id: 3
+      name: "Nascondersi"
+  quality: |
+    È più difficile scovare l’eroe o questo trova un posto dove nascondersi più velocemente.
+  failed: |
+    L’eroe è poco nascosto o fa rumore mentre si sta avvicinando di soppiatto.
+  critical: |
+    L’eroe trova il posto perfetto dove nascondersi o si muove silenzioso come un gatto. Per determinare LQ, prove competitive e prove cumulative, Punti Abilità = 2 × LA.
+  botch: |
+    Qualcosa (un piatto, una parte di un mobile) cade e si rompe.
+  src:
+    - id: REG001
+      firstPage: 191
+
+- id: TAL_14
+  name: "Bisbocciare"
+  applications:
+    - id: 1
+      name: "Resistere stordimento"
+    - id: 2
+      name: "Resistere dolore"
+    - id: 3
+      name: "Resistere confusione"
+  quality: |
+    L’eroe riesce a bere più delle altre persone senza conseguenze.
+  failed: |
+    L’eroe riceve un livello di condizione Confusione (vedi il **Regolamento** a pag. **32**) e si sveglia il giorno dopo con una grossa sbornia o altre conseguenze indesiderate. 
+  critical: |
+    L’eroe resta in taverna a far festa fino a notte tarda, svegliandosi comunque il giorno dopo in eccellenti condizioni.
+  botch: |
+    L’eroe fa qualcosa di tremendamente imbarazzante mentre è ubriaco (come distruggere metà della taverna, rivelare segreti scottanti ad un nemico, svegliarsi la mattina dopo nudo nella piazza del mercato o nel letto di un estraneo), ma non riesce a ricordare nulla.
+  src:
+    - id: REG001
+      firstPage: 189
+
+- id: TAL_15
+  name: "Persuasione"
+  applications:
+    - id: 1
+      name: "Convincere"
+    - id: 2
+      name: "Dibattito"
+    - id: 3
+      name: "Oratoria"
+    - id: -1
+      name: "Scritti politici"
+  quality: |
+    Riesci a persuadere molte persone o il bersaglio aderisce al nuovo credo per un tempo maggiore.
+  failed: |
+    Il bersaglio non crede all’oratore.
+  critical: |
+    Il bersaglio viene totalmente convinto.
+  botch: |
+    Il bersaglio si sente insultato.
+  src:
+    - id: REG001
+      firstPage: 197
+
+- id: TAL_16
+  name: "Seduzione"
+  encDescription: "No, ma ci potrebbero essere situazioni eccezionali, come cercare di sedurre qualcuno indossando un’armatura a piastre."
+  applications:
+    - id: 1
+      name: "Conquistare"
+    - id: 2
+      name: "Imbellettare"
+    - id: 3
+      name: "Romanticherie"
+    - id: -1
+      name: "Storie d’amore"
+  quality: |
+    Il bersaglio reagisce favorevolmente al personaggio.
+  failed: |
+    Il personaggio non riesce ad accendere l’interesse del bersaglio.
+  critical: |
+    Il bersaglio è disposto a soddisfare qualsiasi desiderio del personaggio.
+  botch: |
+    Il bersaglio schiaffeggia il personaggio per il suo atteggiamento volgare.
+  src:
+    - id: REG001
+      firstPage: 198
+
+- id: TAL_17
+  name: "Intimidazione"
+  applications:
+    - id: 1
+      name: "Minacciare"
+    - id: 2
+      name: "Torturare"
+    - id: 3
+      name: "Provocare"
+    - id: 4
+      name: "Interrogare"
+  quality: |
+    La vittima resta spaventata più a lungo o rivela più informazioni del previsto.
+  failed: |
+    Il bersaglio ignora tutti gli insulti e i tentativi di intimidazione.
+  critical: |
+    La vittima è totalmente intimidita e non ha alcuna intenzione di agire contro l’eroe.
+  botch: |
+    Invece di essere intimorito o insultato, accade l’esatto opposto e il bersaglio o si arrabbia, o resta assolutamente impassibile o è addirittura divertito. In alternativa, il potenziale intimidatore dà l’impressione di essere uno sciocco.
+  src:
+    - id: REG001
+      firstPage: 196
+
+- id: TAL_18
+  name: "Etichetta"
+  applications:
+    - id: 1
+      name: "Buone maniere"
+    - id: 2
+      name: "Pettegolezzi"
+    - id: 3
+      name: "Convenevoli"
+    - id: 4
+      name: "Moda"
+    - id: -1
+      name: "Araldica e genealogia"
+    - id: -2
+      name: "Poesia"
+  quality: |
+    L’eroe dà una buona impressione di sé stesso e viene ricordato in modo positivo.
+  failed: |
+    L’eroe dimentica alcune importanti regole di etichetta e dà una cattiva impressione.
+  critical: |
+    Le buone maniere, lo spirito ed il fascino dell’eroe sono l’argomento della festa.
+  botch: |
+    Il comportamento borioso dell’eroe offende un importante personaggio.
+  src:
+    - id: REG001
+      firstPage: 195
+
+- id: TAL_19
+  name: "Vita da strada"
+  encDescription: "No (forse in qualche caso, come se ad esempio la tua armatura ti rende somigliante ad una guardia o ad un nobiluomo)."
+  applications:
+    - id: 1
+      name: "Pedinare"
+    - id: 2
+      name: "Chiedere in giro"
+    - id: 3
+      name: "Orientamento urbano"
+    - id: -1
+      name: "Gialli"
+  quality: |
+    L'eroe raccoglie informazioni più velocemente del previsto o con un grado di dettaglio maggiore.
+  failed: |
+    L'eroe non riceve informazioni utili.
+  critical: |
+    L'eroe trova una locanda particolarmente buona ma economica, ottiene più informazioni di quanto sperasse o trova un contatto che gli offre condizioni eccellenti.
+  botch: |
+    L'eroe finisce vittima di un’imboscata da parte di un gruppo di brutti ceffi che vogliono derubarlo.
+  src:
+    - id: REG001
+      firstPage: 198
+
+- id: TAL_20
+  name: "Perspicacia"
+  applications:
+    - id: 1
+      name: "Scoprire inganni"
+    - id: 2
+      name: "Carpire intenzioni"
+  quality: |
+    Comprendere meglio le motivazioni di un’altra persona o le sue affermazioni intenzionalmente fuorvianti.
+  failed: |
+    L’eroe non è certo di aver percepito correttamente.
+  critical: |
+    L’eroe ha un forte presentimento riguardo ciò che porta una persona ad avere un certo atteggiamento.
+  botch: |
+    L’eroe fraintende completamente la situazione (ad esempio, crede ad ogni parola di un bugiardo oppure pensa che una persona in realtà onesta stia mentendo).
+  src:
+    - id: REG001
+      firstPage: 197
+
+- id: TAL_21
+  name: "Parlantina"
+  applications:
+    - id: 1
+      name: "Affibbiare"
+    - id: 2
+      name: "Mendicare"
+    - id: 3
+      name: "Trarsi d’impaccio"
+    - id: 4
+      name: "Manipolare"
+    - id: 5
+      name: "Adulare"
+    - id: -1
+      name: "Narrativa"
+  uses:
+    - id: 1
+      name: "Condottiero"
+  quality: |
+    Il bersaglio su cui viene “scatenata” la Parlantina aiuta ben volentieri l’eroe.
+  failed: |
+    L’eroe non riesce a persuadere il suo bersaglio.
+  critical: |
+    Il bersaglio fa per l’eroe di più di quello che quest’ultimo si aspettava.
+  botch: |
+    Il bersaglio si infuria contro l’eroe e non viene convinto a fare nulla.
+  src:
+    - id: REG001
+      firstPage: 196
+
+- id: TAL_22
+  name: "Camuffamento"
+  applications:
+    - id: 1
+      name: "Recitazione"
+    - id: 2
+      name: "Travestirsi"
+    - id: 3
+      name: "Imitazione"
+  tools: "Un travestimento"
+  quality: |
+    È più difficile capire chi si nasconda dietro al camuffamento.
+  failed: |
+    Il camuffamento è abbastanza scarso e non supererà un’attenta analisi.
+  critical: |
+    Il camuffamento è impeccabile.
+  botch: |
+    Le persone si accorgono immediatamente del camuffamento. L’eroe finirà probabilmente nei guai.
+  src:
+    - id: REG001
+      firstPage: 194
+
+- id: TAL_23
+  name: "Forza di volontà"
+  applications:
+    - id: 1
+      name: "Resistere persuasione"
+    - id: 2
+      name: "Fronteggiare minacce"
+    - id: 3
+      name: "Resistere seduzione"
+    - id: 4
+      name: "Resistere intimidazione"
+    - id: 5
+      name: "Resistere parlantina"
+  quality: |
+    Riduci notevolmente gli effetti di Seduzione o Persuasione o gli resisti completamente.
+  failed: |
+    L’eroe non riesce a resistere.
+  critical: |
+    L’eroe resiste e non può essere influenzato da quella persona (o cosa) per il prossimo futuro.
+  botch: |
+    L’eroe soccombe totalmente al tentativo di influenza o sviene nel trovarsi davanti qualcosa di orribile come un demone.
+  src:
+    - id: REG001
+      firstPage: 195
+
+- id: TAL_24
+  name: "Tracce"
+  applications:
+    - id: 1
+      name: "Celare"
+    - id: 2
+      name: "Umanoidi"
+    - id: 3
+      name: "Animali"
+  quality: |
+    Percepisci maggiori dettagli delle tracce.
+  failed: |
+    L’eroe non riesce a trovare le tracce o non ne trae informazioni utili.
+  critical: |
+    Finché le tracce non vengono completamente distrutte, l’eroe riesce a seguirle fino alla fine e riceve grazie ad esse più informazioni del previsto, individuando immediatamente degli inganni (come tracce occultate).
+  botch: |
+    L’eroe confonde le tracce e segue il percorso sbagliato, magari imbattendosi in una creatura pericolosa o scovando la persona sbagliata.
+  src:
+    - id: REG001
+      firstPage: 201
+
+- id: TAL_25
+  name: "Corde"
+  encDescription: "No (forse se indossi un elmo o dei guanti)."
+  applications:
+    - id: 1
+      name: "Legare"
+    - id: 2
+      name: "Nodi"
+    - id: 3
+      name: "Reti"
+  tools: "Corda"
+  quality: |
+    Le corde sono ben strette ed è più difficile divincolarsi.
+  failed: |
+    I nodi dell’eroe sono di scarsa qualità e liberarsi è facile.
+  critical: |
+    L’eroe fa un nodo davvero robusto. Per determinare LQ, prove competitive e prove cumulative, i Punti Abilità sono pari al doppio del LA.
+  botch: |
+    L’eroe fa un nodo che si scioglie continuamente. Non resterebbero allacciate nemmeno delle scarpe per pochi passi.
+  src:
+    - id: REG001
+      firstPage: 199
+
+- id: TAL_26
+  name: "Pescare"
+  encDescription: "Sì (pesca subacquea) o no (pescare con nasse, reti o ami)."
+  applications:
+    - id: 1
+      name: "Pesci d’acqua salata"
+    - id: 2
+      name: "Pesci d’acqua dolce"
+    - id: 3
+      name: "Mostri marini"
+  tools: "Rete, nassa, fiocina, filo da pesca con amo."
+  quality: |
+    Il pesce che l’eroe cattura è più gustoso del pescato medio.
+  failed: |
+    Il pesce non abbocca o evita le reti.
+  critical: |
+    Il numero di razioni ottenuto è molto alto. Per determinare LQ, prove competitive e prove cumulative, i Punti Abilità sono pari al doppio del LA.
+  botch: |
+    Il pescatore cade nell’acqua e perde parte dell’equipaggiamento da pesca.
+  src:
+    - id: REG001
+      firstPage: 200
+
+- id: TAL_27
+  name: "Orientamento"
+  applications:
+    - id: 1
+      name: "Posizione del sole"
+    - id: 2
+      name: "Cielo stellato"
+    - id: 3
+      name: "Sottoterra"
+  quality: |
+    L’eroe capisce qual è la giusta direzione più velocemente.
+  failed: |
+    L’eroe non sa qual è la giusta direzione.
+  critical: |
+    L’eroe trova la strada senza problemi, anche con le condizioni peggiori.
+  botch: |
+    L’eroe si perde del tutto e procede inconsapevolmente nella direzione sbagliata.
+  src:
+    - id: REG001
+      firstPage: 200
+
+- id: TAL_28
+  name: "Flora"
+  encDescription: "Sì (per agricoltura e raccolta del cibo) o no (per identificare piante)."
+  applications:
+    - id: 1
+      name: "Piante velenose"
+    - id: 2
+      name: "Piante curative"
+    - id: 3
+      name: "Colture"
+  quality: |
+    L’eroe ottiene più informazioni su una pianta.
+  failed: |
+    L’eroe non riconosce la pianta.
+  critical: |
+    L’eroe sa tutto riguardo la pianta, incluse le sue proprietà speciali, e sa come conservarla in modo che duri il doppio del tempo normale.
+  botch: |
+    L’eroe scambia una pianta per un’altra (che, plausibilmente, si rivelerà essere velenosa).
+  src:
+    - id: REG001
+      firstPage: 199
+
+- id: TAL_29
+  name: "Fauna"
+  applications:
+    - id: 1
+      name: "Animali domestici"
+    - id: 2
+      name: "Mostri"
+    - id: 3
+      name: "Animali selvatici"
+  uses:
+    - id: 1
+      name: "Imitazione versi animali"
+  quality: |
+    L’eroe raccoglie maggiori informazioni riguardo un animale.
+  failed: |
+    L’eroe non ha idea.
+  critical: |
+    L’eroe dimostra una conoscenza approfondita di quel tipo di animale.
+  botch: |
+    L’eroe è molto sicuro di sé, ma tutto quello che pensava di sapere sull’animale si rivela sbagliato (ad esempio, pensa che l’animale non sia pericoloso anche se è molto velenoso oppure crede che sia erbivoro mentre invece è carnivoro).
+  src:
+    - id: REG001
+      firstPage: 199
+
+- id: TAL_30
+  name: "Sopravvivenza"
+  applications:
+    - id: 1
+      name: "Accendere fuoco"
+    - id: 2
+      name: "Accamparsi"
+    - id: 3
+      name: "Trovare rifugio"
+    - id: -1
+      name: "Meteorologia"
+  tools: "Kit di sopravvivenza, forse una tenda."
+  quality: |
+    L’eroe ha bisogno di meno tempo per trovare una radura o costruire un accampamento.
+  failed: |
+    L’eroe sceglie un posto per accamparsi che si rivela inadatto. La fase di rigenerazione subisce una penalità di -1.
+  critical: |
+    L’eroe trova un luogo di riposo eccezionale! La rigenerazione aumenta di 1.
+  botch: |
+    L’accampamento viene inondato da un fiume in piena o è pieno zeppo di parassiti. 
+  src:
+    - id: REG001
+      firstPage: 200
+
+- id: TAL_31
+  name: "Gioco"
+  applications:
+    - id: 1
+      name: "Giochi di dadi"
+    - id: 2
+      name: "Giochi da tavolo"
+    - id: 3
+      name: "Giochi di carte"
+    - id: 4
+      name: "Scommesse"
+    - id: -1
+      name: "Saggi"
+  uses:
+    - id: 1
+      name: "Barare"
+  tools: "Gioco da tavolo, carte, dadi."
+  quality: |
+    L’eroe fa una mossa vincente, con effetti progressivamente migliori sulla partita.
+  failed: |
+    L'eroe perde al gioco.
+  critical: |
+    L'eroe vince in modo eclatante. Se sta giocando a soldi, raddoppia la sua vincita.
+  botch: |
+    L’eroe perde una serie di partite in maniera molto sfortunata oppure gli altri giocatori sospettano, ingiustamente, che stia barando. Se si gioca a soldi, l’eroe perde come minimo l’intera puntata (se non di più).
+  src:
+    - id: REG001
+      firstPage: 204
+
+- id: TAL_32
+  name: "Geografia"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garezia"
+    - id: 4
+      name: "Kosh"
+    - id: 5
+      name: "Marche del Nord"
+    - id: 6
+      name: "Marche Rommilysiane"
+    - id: 7
+      name: "Tobria"
+    - id: 8
+      name: "Vasturia"
+    - id: 9
+      name: "Badavento"
+    - id: 10
+      name: "Impero di Al’Anfa"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Regni Montani dei Nani"
+    - id: 14
+      name: "Bornilande"
+    - id: 15
+      name: "Gjalschia"
+    - id: 16
+      name: "Remoto Nord"
+    - id: 17
+      name: "Impero Horasiano"
+    - id: 18
+      name: "Califfato"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Terre degli Orchi"
+    - id: 22
+      name: "Sass de la Salamander e Regni Elfici"
+    - id: 23
+      name: "Terre d’Ombra"
+    - id: 24
+      name: "Mari del Sud e Isole Frondose"
+    - id: 25
+      name: "Valle dello Svellt"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Profondo Sud"
+    - id: 28
+      name: "Terre dei Tulamidi"
+    - id: 29
+      name: "Isole dei Ciclopi"
+    - id: -1
+      name: "Cartografia"
+    - id: -2
+      name: "Saggi"
+  quality: |
+    L’eroe ricorda o intuisce ulteriori dettagli sul luogo in questione, come il numero di abitanti, le strade, la conformazione delle montagne o la posizione dei guadi di fiume.
+  failed: |
+    L’eroe non ha idea.
+  critical: |
+    L’eroe conosce molti dettagli della regione, come i suoi governatori, la popolazione totale, usi e costumi, corsi d’acqua e ponti.
+  botch: |
+    L’eroe ricorda in modo del tutto errato dettagli geografici (il conteggio della popolazione è sbagliato, i ponti non sono dove credeva che fossero e così via).
+  src:
+    - id: REG001
+      firstPage: 204
+
+- id: TAL_33
+  name: "Storia"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garezia"
+    - id: 4
+      name: "Kosh"
+    - id: 5
+      name: "Marche del Nord"
+    - id: 6
+      name: "Marche Rommilysiane"
+    - id: 7
+      name: "Tobria"
+    - id: 8
+      name: "Vasturia"
+    - id: 9
+      name: "Badavento"
+    - id: 10
+      name: "Impero di Al’Anfa"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Regni Montani dei Nani"
+    - id: 14
+      name: "Bornilande"
+    - id: 15
+      name: "Gjalschia"
+    - id: 16
+      name: "Remoto Nord"
+    - id: 17
+      name: "Impero Horasiano"
+    - id: 18
+      name: "Califfato"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Terre degli Orchi"
+    - id: 22
+      name: "Sass de la Salamander e Regni Elfici"
+    - id: 23
+      name: "Terre d’Ombra"
+    - id: 24
+      name: "Mari del Sud e Isole Frondose"
+    - id: 25
+      name: "Valle dello Svellt"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Profondo Sud"
+    - id: 28
+      name: "Terre dei Tulamidi"
+    - id: 29
+      name: "Isole dei Ciclopi"
+    - id: -1
+      name: "Saggi"
+  quality: |
+    L’eroe riesce a ricordare ulteriori dettagli su epoche e personalità storiche.
+  failed: |
+    L’eroe non ha idea.
+  critical: |
+    L’eroe conosce un sorprendente numero di dettagli riguardo un certo evento o personaggio storico.
+  botch: |
+    Tutto ciò che l’eroe sa o ricorda di un soggetto, di una data o di un evento è sbagliato.
+  src:
+    - id: REG001
+      firstPage: 207
+
+- id: TAL_34
+  name: "Divinità e culti"
+  applications:
+    - id: 1
+      name: "Praios"
+    - id: 2
+      name: "Rondra"
+    - id: 3
+      name: "Efferd"
+    - id: 4
+      name: "Travia"
+    - id: 5
+      name: "Boron"
+    - id: 6
+      name: "Hesinde"
+    - id: 7
+      name: "Firun"
+    - id: 8
+      name: "Tsa"
+    - id: 9
+      name: "Phex"
+    - id: 10
+      name: "Peraine"
+    - id: 11
+      name: "Ingerimm"
+    - id: 12
+      name: "Rahja"
+    - id: 13
+      name: "Senza Nome"
+    - id: 14
+      name: "Aves"
+    - id: 15
+      name: "Ifirn"
+    - id: 16
+      name: "Kor"
+    - id: 17
+      name: "Nandus"
+    - id: 18
+      name: "Swafnir"
+    - id: 19
+      name: "Marbo"
+    - id: 20
+      name: "Levthan"
+    - id: 21
+      name: "Rastullah"
+    - id: -1
+      name: "Saggi"
+  applicationsInput: A seconda di divinità o filosofia
+  quality: |
+    L'eroe ottiene maggiori dettagli su chiese, culti, divinità ed iniziati.
+  failed: |
+    L’eroe non ha idea.
+  critical: |
+    L’eroe conosce informazioni dettagliate sull’argomento, inclusi rituali speciali, testi delle preghiere e rudimenti filosofici.
+  botch: |
+    L’eroe confonde i riti speciali e le filosofie di una chiesa per quelli di un’altra.
+  src:
+    - id: REG001
+      firstPage: 203
+
+- id: TAL_35
+  name: "Arte della guerra"
+  applications:
+    - id: 1
+      name: "Assedio"
+    - id: 2
+      name: "Battaglia campale"
+    - id: 3
+      name: "Guerriglia"
+    - id: 4
+      name: "Battaglia navale"
+    - id: 5
+      name: "Scontro sotterraneo"
+    - id: -1
+      name: "Saggi"
+  quality: |
+    Si guadagnano migliori vantaggi tattici durante lo scontro.
+  failed: |
+    L’eroe prende una cattiva decisione o fa un errore di valutazione.
+  critical: |
+    Il brillante piano dell’eroe porta a numerosi vantaggi nello scontro e potrebbe ribaltare le sorti di una battaglia.
+  botch: |
+    L’eroe commette un fatale errore che causa dei guai, direttamente a lui o al suo schieramento.
+  src:
+    - id: REG001
+      firstPage: 202
+
+- id: TAL_36
+  name: "Arti magiche"
+  applications:
+    - id: 1
+      name: "Artefatti"
+    - id: 2
+      name: "Creature magiche"
+    - id: 3
+      name: "Rituali"
+    - id: 4
+      name: "Incantesimi"
+    - id: -1
+      name: "Saggi"
+  uses:
+    - id: 1
+      name: "Analizzatore"
+  quality: |
+    Si ottengono maggiori dettagli su incantesimi, creature magiche o usi particolari della magia.
+  failed: |
+    L’eroe non ha idea.
+  critical: |
+    L’eroe conosce l’origine, l’incantesimo di attivazione ed il bersaglio di un antico artefatto.
+  botch: |
+    Le conoscenze approssimative dell’eroe portano ad un fatale errore di valutazione.
+  src:
+    - id: REG001
+      firstPage: 202
+
+- id: TAL_37
+  name: "Meccanica"
+  applications:
+    - id: 1
+      name: "Leve"
+    - id: 2
+      name: "Idraulica"
+    - id: 3
+      name: "Sistemi complessi"
+    - id: -1
+      name: "Saggi"
+  quality: |
+    Progettazione più veloce.
+  failed: |
+    Il meccanismo non funziona.
+  critical: |
+    Punti Abilità = 2 × LA.
+  botch: |
+    A prescindere da ciò che l’eroe voleva costruire, il risultato è pericolante o collassa su sé stesso. L’eroe attiva le trappole con il peggior effetto possibile (ad esempio, infligge il massimo delle ferite).
+  src:
+    - id: REG001
+      firstPage: 206
+
+- id: TAL_38
+  name: "Matematica"
+  applications:
+    - id: 1
+      name: "Frazioni"
+    - id: 2
+      name: "Moltiplicazioni"
+    - id: 3
+      name: "Addizioni"
+    - id: -1
+      name: "Saggi"
+    - id: -2
+      name: "Numerologia"
+  quality: |
+    Si determina il risultato più velocemente.
+  failed: |
+    Il risultato è sbagliato.
+  critical: |
+    L'eroe ottiene molto velocemente il risultato corretto.
+  botch: |
+    Il risultato è completamente sbagliato, ma l’eroe è pienamente convinto del contrario.
+  src:
+    - id: REG001
+      firstPage: 205
+
+- id: TAL_39
+  name: "Leggi"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garezia"
+    - id: 4
+      name: "Kosh"
+    - id: 5
+      name: "Marche del Nord"
+    - id: 6
+      name: "Marche Rommilysiane"
+    - id: 7
+      name: "Tobria"
+    - id: 8
+      name: "Vasturia"
+    - id: 9
+      name: "Badavento"
+    - id: 10
+      name: "Impero di Al’Anfa"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Regni Montani dei Nani"
+    - id: 14
+      name: "Bornilande"
+    - id: 15
+      name: "Gjalschia"
+    - id: 16
+      name: "Remoto Nord"
+    - id: 17
+      name: "Impero Horasiano"
+    - id: 18
+      name: "Califfato"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Terre degli Orchi"
+    - id: 22
+      name: "Sass de la Salamander e Regni Elfici"
+    - id: 23
+      name: "Terre d’Ombra"
+    - id: 24
+      name: "Mari del Sud e Isole Frondose"
+    - id: 25
+      name: "Valle dello Svellt"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Profondo Sud"
+    - id: 28
+      name: "Terre dei Tulamidi"
+    - id: 29
+      name: "Isole dei Ciclopi"
+    - id: -1
+      name: "Leggi delle gilde"
+    - id: -2
+      name: "Saggi"
+  quality: |
+    Si riescono ad esporre un numero maggiore di opzioni per risolvere una situazione.
+  failed: |
+    L’eroe non ha idea.
+  critical: |
+    L’eroe conosce un cavillo della legge e potrà sviluppare un piano da usare a proprio vantaggio.
+  botch: |
+    L’eroe interpreta la legge in modo del tutto errato o trascura un dettaglio fondamentale.
+  src:
+    - id: REG001
+      firstPage: 205
+
+- id: TAL_40
+  name: "Miti e leggende"
+  applications:
+    - id: 1
+      name: "Albernia"
+    - id: 2
+      name: "Almada"
+    - id: 3
+      name: "Garezia"
+    - id: 4
+      name: "Kosh"
+    - id: 5
+      name: "Marche del Nord"
+    - id: 6
+      name: "Marche Rommilysiane"
+    - id: 7
+      name: "Tobria"
+    - id: 8
+      name: "Vasturia"
+    - id: 9
+      name: "Badavento"
+    - id: 10
+      name: "Impero di Al’Anfa"
+    - id: 11
+      name: "Andergast"
+    - id: 12
+      name: "Arania"
+    - id: 13
+      name: "Regni Montani dei Nani"
+    - id: 14
+      name: "Bornilande"
+    - id: 15
+      name: "Gjalschia"
+    - id: 16
+      name: "Remoto Nord"
+    - id: 17
+      name: "Impero Horasiano"
+    - id: 18
+      name: "Califfato"
+    - id: 19
+      name: "Maraskan"
+    - id: 20
+      name: "Nostria"
+    - id: 21
+      name: "Terre degli Orchi"
+    - id: 22
+      name: "Sass de la Salamander e Regni Elfici"
+    - id: 23
+      name: "Terre d’Ombra"
+    - id: 24
+      name: "Mari del Sud e Isole Frondose"
+    - id: 25
+      name: "Valle dello Svellt"
+    - id: 26
+      name: "Thorwal"
+    - id: 27
+      name: "Profondo Sud"
+    - id: 28
+      name: "Terre dei Tulamidi"
+    - id: 29
+      name: "Isole dei Ciclopi"
+    - id: -1
+      name: "Fiabe"
+    - id: -2
+      name: "Saggi"
+  quality: |
+    L'eroe ottiene maggiori dettagli sulle varie versioni della storia.
+  failed: |
+    L’eroe non conosce la storia.
+  critical: |
+    L’eroe conosce tantissimi dettagli sulla storia e ricorda molte sue varianti.
+  botch: |
+    L’eroe confonde una storia con un’altra o non se ne ricorda i dettagli.
+  src:
+    - id: REG001
+      firstPage: 206
+
+- id: TAL_41
+  name: "Sferologia"
+  applications:
+    - id: 1
+      name: "Limbo"
+    - id: 2
+      name: "Creature dalle sfere"
+    - id: 3
+      name: "1. sfera"
+    - id: 4
+      name: "2. sfera"
+    - id: 5
+      name: "3. sfera"
+    - id: 6
+      name: "4. sfera"
+    - id: 7
+      name: "5. sfera"
+    - id: 8
+      name: "6. sfera"
+    - id: 9
+      name: "7. sfera"
+    - id: -1
+      name: "Saggi"
+  quality: |
+    L'eroe ottiene maggiori informazioni riguardo il limbo o le sfere.
+  failed: |
+    L’eroe non sa nulla sull’argomento.
+  critical: |
+    L’eroe rammenta alcuni interessanti dettagli su particolari demoni o sui sentieri che conducono ad uno dei Globuli nascosti.
+  botch: |
+    L’eroe commette un pericoloso errore di valutazione.
+  src:
+    - id: REG001
+      firstPage: 207
+
+- id: TAL_42
+  name: "Astronomia"
+  applications:
+    - id: 1
+      name: "Astrologia"
+    - id: 2
+      name: "Cartografia stellare"
+    - id: 3
+      name: "Calendari"
+    - id: -1
+      name: "Saggi"
+  quality: |
+    Veloce creazione di oroscopi o individuazione della corretta direzione in un viaggio di notte.
+  failed: |
+    L’eroe non ha idea.
+  critical: |
+    L’eroe riesce a calcolare e prevedere gli esatti movimenti dei corpi celesti.
+  botch: |
+    L’eroe commette un errore eclatante durante la creazione dell’oroscopo o nella previsione di un’eclissi lunare.
+  src:
+    - id: REG001
+      firstPage: 203
+
+- id: TAL_43
+  name: "Alchimia"
+  applications:
+    - id: 1
+      name: "Veleni"
+    - id: 2
+      name: "Elisir"
+    - id: 3
+      name: "Prodotti ordinari"
+  tools: "Laboratorio alchemico."
+  quality: |
+    La pozione è di una qualità migliore (vedi dettagli in “Realizzazione di un elisir” a pagina 270).
+  failed: |
+    L’elisir è rovinato o un’analisi non porta ad un risultato utile.
+  critical: |
+    L’eroe riesce ad identificare un elisir con precisione, incluso il suo livello e per quanto tempo resta stabile.
+  botch: |
+    L’elisir ha uno spiacevole effetto collaterale.
+  src:
+    - id: REG001
+      firstPage: 208
+
+- id: TAL_44
+  name: "Navigare"
+  applications:
+    - id: 1
+      name: "Manovra di combattimento"
+    - id: 2
+      name: "Lunghe distanze"
+    - id: 3
+      name: "Inseguimenti"
+    - id: 4
+      name: "Corse"
+  tools: "Nave o barca."
+  quality: |
+    Si arriva a destinazione più velocemente.
+  failed: |
+    La barca rimane ferma come se fosse ancorata.
+  critical: |
+    L’eroe sfrutta correnti e venti per navigare ad una velocità doppia rispetto al normale.
+  botch: |
+    L’eroe cade in acqua o danneggia una parte importante della nave.
+  src:
+    - id: REG001
+      firstPage: 213
+
+- id: TAL_45
+  name: "Guidare"
+  applications:
+    - id: 1
+      name: "Manovra di combattimento"
+    - id: 2
+      name: "Lunghe distanze"
+    - id: 3
+      name: "Inseguimenti"
+    - id: 4
+      name: "Corse"
+  tools: "Mezzo."
+  quality: |
+    L’eroe percorre il tragitto più velocemente.
+  failed: |
+    Il mezzo si muove più lentamente o l’eroe non riesce a farlo partire.
+  critical: |
+    Il mezzo raggiunge una buona velocità e giunge a destinazione in tempi brevissimi.
+  botch: |
+    Il mezzo ha un asse rotto o si ribalta su un lato facendo cadere il conducente, che subisce una ferita da caduta.
+  src:
+    - id: REG001
+      firstPage: 211
+
+- id: TAL_46
+  name: "Commerciare "
+  applications:
+    - id: 1
+      name: "Contabilità"
+    - id: 2
+      name: "Contabilità"
+    - id: 3
+      name: "Cambiavalute"
+    - id: -1
+      name: "Ricettazione"
+  uses:
+    - id: 1
+      name: "Contraffattore di cavalli"
+  quality: |
+    L’eroe riesce ad identificare il prezzo in maniera più precisa.
+  failed: |
+    L’eroe ottiene meno di ciò che si aspettava.
+  critical: |
+    L’eroe compra della merce estremamente economica o riesce a venderla per una fortuna, senza che le altre persone coinvolte nell’affare si sentano imbrogliate o insultate. Ogni sconto o aumento del prezzo dovrebbe essere almeno del 50%.
+  botch: |
+    L’altra persona si approfitta dell’eroe o l’accordo viene rifiutato. Ogni variazione di prezzo svantaggiosa dovrebbe essere almeno del 50%.
+  src:
+    - id: REG001
+      firstPage: 208
+
+- id: TAL_47
+  name: "Curare veleni"
+  applications:
+    - id: 1
+      name: "Veleni alchemici"
+    - id: 2
+      name: "Veleni minerali"
+    - id: 3
+      name: "Tossine vegetali"
+    - id: 4
+      name: "Veleni animali"
+  tools: "Antidoto."
+  quality: |
+    Identificare il veleno (e quindi la cura) più velocemente.
+  failed: |
+    L’eroe non riesce ad identificare il veleno e non conosce nessuna cura.
+  critical: |
+    Il paziente guarisce senza bisogno di uno speciale antidoto.
+  botch: |
+    Il guaritore pratica un dannoso salasso o ferisce il paziente, probabilmente peggiorando l’effetto dell’avvelenamento (1D6 PFer).
+  src:
+    - id: REG001
+      firstPage: 210
+
+- id: TAL_48
+  name: "Curare malattie"
+  applications:
+    - id: 1
+      name: "Difar sciolto"
+    - id: 2
+      name: "Lutanas"
+    - id: 3
+      name: "Pazzia fulminante"
+    - id: 4
+      name: "Febbre palustre / Sudore di Brabak"
+    - id: 5
+      name: "Vaiolo di Zorgan"
+  tools: "Medicina."
+  quality: |
+    Identificare la malattia più velocemente.
+  failed: |
+    L’eroe non riesce ad identificare la malattia e non conosce nessun rimedio o cura.
+  critical: |
+    Il paziente guarisce senza bisogno di una cura speciale. Inoltre, l’eroe non viene contagiato a sua volta.
+  botch: |
+    La cura danneggia il paziente (1D6 PFer) o i sintomi si aggravano. Inoltre, per le malattie contagiose, aumenta del 25% le probabilità per l’eroe di venir contagiato.
+  src:
+    - id: REG001
+      firstPage: 210
+
+- id: TAL_49
+  name: "Curare anime"
+  applications:
+    - id: 1
+      name: "Reprimere paura"
+    - id: 2
+      name: "Reprimere difetto caratteriale"
+    - id: 3
+      name: "Reprimere caratteristica negativa"
+  quality: |
+    Il paziente sopprime lo svantaggio più a lungo.
+  failed: |
+    Il guaritore non sa come aiutare il paziente.
+  critical: |
+    Il paziente sopprime uno svantaggio (Paura di…, Difetto caratteriale o Caratteristica negativa) per un giorno intero.
+  botch: |
+    Il guaritore turba o danneggia la psiche del paziente, che soffrirà di un livello di condizione Paura e di un livello di condizione Confusione per un giorno intero.
+  src:
+    - id: REG001
+      firstPage: 209
+
+- id: TAL_50
+  name: "Curare ferite"
+  applications:
+    - id: 1
+      name: "Favorire guarigione"
+    - id: 2
+      name: "Alleviare dolore"
+    - id: 3
+      name: "Stabilizzare"
+  tools: "Bende, ferri chirurgici, erbe, ago e filo."
+  quality: |
+    L’eroe ha bisogno di meno erbe curative o riesce a curare la ferita più in fretta.
+  failed: |
+    Nessun miglioramento.
+  critical: |
+    Si ottiene il numero di Punti Abilità come PV durante la successiva fase di rigenerazione.
+  botch: |
+    L’eroe ferisce ulteriormente il soggetto durante la cura (1D6 PFer).
+  src:
+    - id: REG001
+      firstPage: 209
+
+- id: TAL_51
+  name: "Lavorazione del legno"
+  applications:
+    - id: 1
+      name: "Boscaiolo"
+    - id: 2
+      name: "Falegname"
+    - id: 3
+      name: "Carpentiere"
+    - id: -1
+      name: "Fabbricare strumenti musicali"
+  tools: "A seconda del materiale che viene lavorato (ad esempio, ascia, pialla, coltello, sega e così via)."
+  quality: |
+    L’oggetto viene completato più velocemente o con una migliore qualità.
+  failed: |
+    L'eroe non fa progressi.
+  critical: |
+    L’eroe riceve il doppio del numero di Punti Abilità per la prova (per un minimo di 5 Punti Abilità). Tutte le penalità accumulate a causa delle prove cumulative fallite vengono rimosse.
+  botch: |
+    Il LQ accumulato scende a 0 e l’eroe non potrà fare ulteriori prove per questo compito.
+  src:
+    - id: REG001
+      firstPage: 211
+
+- id: TAL_52
+  name: "Cucinare"
+  applications:
+    - id: 1
+      name: "Eviscerare"
+    - id: 2
+      name: "Cuocere al forno"
+    - id: 3
+      name: "Friggere e bollire"
+    - id: 4
+      name: "Bevande fermentate"
+    - id: 5
+      name: "Conservare"
+    - id: -1
+      name: "Distillare"
+  tools: "Ingredienti, cucina da campo, utensili da cucina."
+  quality: |
+    Il cibo ha un sapore migliore del solito.
+  failed: |
+    Il cibo è bruciato o immangiabile.
+  critical: |
+    Il piatto è una delizia per il palato, il vino diventerà il fiore all’occhiello della cantina.
+  botch: |
+    Il sapore del cibo è disgustoso ed ingerirlo porta inesorabilmente a indigestione, diarrea o vomito (1D6 PFer).
+  src:
+    - id: REG001
+      firstPage: 209
+
+- id: TAL_53
+  name: "Lavorazione del cuoio"
+  applications:
+    - id: 1
+      name: "Conciatore"
+    - id: 2
+      name: "Pellicciaio"
+    - id: 3
+      name: "Pellettiere"
+  tools: "Punteruoli, stecca da conciatore, punzoni, coltello, filo, pinze."
+  quality: |
+    L’oggetto viene completato più velocemente o con una qualità migliore.
+  failed: |
+    L’eroe non fa progressi.
+  critical: |
+    L’eroe riceve il doppio del numero di Punti Abilità per la prova (per un minimo di 5 Punti Abilità). Tutte le penalità accumulate a causa del fallimento delle prove cumulative vengono rimosse.
+  botch: |
+    Il LQ accumulato scende a 0 e l’eroe non potrà più fare ulteriori prove per questo compito.
+  src:
+    - id: REG001
+      firstPage: 211
+
+- id: TAL_54
+  name: "Disegno e pittura"
+  applications:
+    - id: 1
+      name: "Pitturare"
+    - id: 2
+      name: "Intagliare"
+    - id: 3
+      name: "Disegnare"
+    - id: -1
+      name: "Falsario"
+    - id: -2
+      name: "Simboli magici"
+  tools: "Pennello, gessetto, penne, coltello."
+  quality: |
+    Il disegno è più bello del solito.
+  failed: |
+    L’eroe riesce a fare un disegno riconoscibile con un po’ di immaginazione, ma decisamente poco carino.
+  critical: |
+    Il dipinto è così bello che le persone scambiano l’eroe per un famoso pittore.
+  botch: |
+    Uno scarabocchio terribile, impossibile da decifrare, un ritratto offensivo.
+  src:
+    - id: REG001
+      firstPage: 210
+
+- id: TAL_55
+  name: "Lavorazione del metallo"
+  applications:
+    - id: 1
+      name: "Orafo"
+    - id: 2
+      name: "Fabbro"
+    - id: 3
+      name: "Colata"
+    - id: 4
+      name: "Fusione"
+    - id: -1
+      name: "Fabbricare strumenti musicali"
+  tools: "Martello, incudine, forgia, materiale da ardere."
+  quality: |
+    L’oggetto viene completato più velocemente o con una qualità migliore.
+  failed: |
+    L’eroe non fa progressi.
+  critical: |
+    L’eroe riceve il doppio del numero di Punti Abilità per la prova (per un minimo di 5 Punti Abilità). Tutte le penalità accumulate a causa del fallimento delle prove cumulative vengono rimosse
+  botch: |
+    Il LQ accumulato scende a 0 e l’eroe non potrà più fare ulteriori prove per questo compito.
+  src:
+    - id: REG001
+      firstPage: 212
+
+- id: TAL_56
+  name: "Musica"
+  applications:
+    - id: 1
+      name: "Strumenti a fiato"
+    - id: 2
+      name: "Strumenti a corda"
+    - id: 3
+      name: "Tamburi"
+  tools: "Strumento musicale."
+  quality: |
+    La melodia emoziona il pubblico.
+  failed: |
+    Il suono è stonato o lo strumento è scordato.
+  critical: |
+    L’eroe suona un’incantevole melodia a cui nessuno riesce a resistere.
+  botch: |
+    Lo strumento emette dei terribili, inquietanti suoni, forse perché è danneggiato. Gli ascoltatori fuggono via o cercando di strappare lo strumento dalle mani del musicista.
+  src:
+    - id: REG001
+      firstPage: 212
+
+- id: TAL_57
+  name: "Scassinare"
+  applications:
+    - id: 1
+      name: "Serrature a leva"
+    - id: 2
+      name: "Serrature a combinazione"
+    - id: -1
+      name: "Disinnescare trappole"
+  tools: "Grimaldelli, forcine, gancio."
+  quality: |
+    La serratura si apre più velocemente.
+  failed: |
+    La serratura non si apre.
+  critical: |
+    L’eroe apre la serratura impiegando solo la metà del tempo che sarebbe servito solitamente e senza far rumore.
+  botch: |
+    Il grimaldello si spezza, la trappola si attiva o la serratura si inceppa.
+  src:
+    - id: REG001
+      firstPage: 214
+
+- id: TAL_58
+  name: "Lavorazione della pietra"
+  applications:
+    - id: 1
+      name: "Muratore"
+    - id: 2
+      name: "Tagliapietre"
+    - id: 3
+      name: "Scultore"
+    - id: -1
+      name: "Soffiatura del vetro"
+    - id: -2
+      name: "Ceramiche"
+  tools: "Materie prime (pietra, argilla), martello, scalpello."
+  quality: |
+    L’oggetto viene completato più velocemente o con una migliore qualità.
+  failed: |
+    L’eroe non fa progressi.
+  critical: |
+    L’eroe riceve il doppio del numero di Punti Abilità per la prova (per un minimo di 5 Punti Abilità). Tutte le penalità accumulate a causa del fallimento delle prove cumulative vengono rimosse.
+  botch: |
+    Il LQ accumulato scende a 0 e l’eroe non potrà più fare ulteriori prove per questo compito.
+  src:
+    - id: REG001
+      firstPage: 212
+
+- id: TAL_59
+  name: "Sartoria"
+  applications:
+    - id: 1
+      name: "Tingere"
+    - id: 2
+      name: "Infeltrire"
+    - id: 3
+      name: "Cucire"
+    - id: 4
+      name: "Filare"
+    - id: 5
+      name: "Tessere"
+  tools: "Coltello, utensili da cucito, forbici, telaio, fuso, arcolaio."
+  quality: |
+    Il capo viene finito più velocemente o ha una qualità migliore.
+  failed: |
+    L’eroe non fa progressi.
+  critical: |
+    L’eroe riceve il doppio del numero di Punti Abilità per la prova (per un minimo di 5 Punti Abilità). Tutte le penalità maturate per il fallimento delle prove cumulative vengono rimosse.
+  botch: |
+    Il LQ accumulato scende a 0 e l’eroe non potrà fare ulteriori prove per questo compito.
+  src:
+    - id: REG001
+      firstPage: 213

@@ -1,0 +1,207 @@
+- id: PV_1
+  name: "Cantastorie"
+
+- id: PV_2
+  name: "Haimamud"
+  concludingText: "i Haimamudim devono scegliere Araniano, Mhanadistani o Novadi come cultura."
+
+- id: PV_3
+  name: "Scaldo"
+  concludingText: "gli Scaldi devono scegliere Thorwaliano come cultura."
+
+- id: PV_4
+  name: "Custode"
+
+- id: PV_5
+  name: "Carceriere"
+
+- id: PV_7
+  name: "Doganiere"
+
+- id: PV_8
+  name: "Acrobata"
+
+- id: PV_9
+  name: "Domatore"
+
+- id: PV_10
+  name: "Lanciatore di coltelli"
+
+- id: PV_11
+  name: "Buffone"
+
+- id: PV_12
+  name: "Veggente"
+
+- id: PV_13
+  name: "Lottatore di fossa"
+
+- id: PV_14
+  name: "Lottatore di spettacolo"
+
+- id: PV_15
+  name: "Venditore errante"
+
+- id: PV_16
+  name: "Commerciante a lunga distanza"
+
+- id: PV_17
+  name: "Cambiavalute"
+
+- id: PV_18
+  name: "Venditore ambulante"
+
+- id: PV_19
+  name: "Barattatore"
+  concludingText: "il barattatore deve appartenere alla cultura Fjarninga, Moha o Nivese."
+
+- id: PV_20
+  name: "Levatrice"
+
+- id: PV_21
+  name: "Medicus"
+
+- id: PV_22
+  name: "Ciarlatano"
+
+- id: PV_23
+  name: "Tiradenti"
+
+- id: PV_24
+  name: "Rampollo nobile"
+
+- id: PV_25
+  name: "Diplomatico"
+
+- id: PV_26
+  name: "Dama di corte"
+  concludingText: "Dama di corte deve essere di sesso femminile e Andergastiana di cultura."
+
+- id: PV_27
+  name: "Bellimbusto di corte"
+
+- id: PV_28
+  name: "Cacciatore di caccia grossa"
+
+- id: PV_29
+  name: "Cacciatore di taglie"
+
+- id: PV_30
+  name: "Cacciatore di schiavi"
+  concludingText: "culture suggerite: Araniano, Aventuriano del sud, Mhanadistani, Novadi"
+
+- id: PV_31
+  name: "Cacciatore tribale"
+
+- id: PV_32
+  name:
+    m: "Proprietario di bordello"
+    f: "Matrona"
+
+- id: PV_33
+  name:
+    m: "Ragazzo di piacere"
+    f: "Prostituta"
+
+- id: PV_34
+  name:
+    m: "Accompagnatore"
+    f: "Cortigiana"
+
+- id: PV_35
+  name:
+    m: "Amante"
+    f: "Favorita"
+
+- id: PV_36
+  name: "Cavaliere di corte"
+
+- id: PV_37
+  name: "Brigante"
+
+- id: PV_38
+  name: "Cavaliere errante"
+
+- id: PV_39
+  name: "Pescatore"
+
+- id: PV_40
+  name: "Pirata"
+
+- id: PV_41
+  name: "Baleniere"
+
+- id: PV_42
+  name: "Cacciatore di foche"
+
+- id: PV_43
+  name: "Soldato di pattuglia"
+
+- id: PV_44
+  name: "Fanteria leggera"
+
+- id: PV_45
+  name: "Fanteria pesante"
+
+- id: PV_46
+  name: "Agente segreto"
+
+- id: PV_47
+  name: "Assassino"
+
+- id: PV_48
+  name: "Mendicante"
+
+- id: PV_49
+  name: "Ladro"
+
+- id: PV_50
+  name: "Scassinatore"
+
+- id: PV_51
+  name: "Truffatore"
+
+- id: PV_52
+  name: "Giocatore"
+
+- id: PV_54
+  name: "Servitore di Bishdariel"
+
+- id: PV_55
+  name: "Servitore di Golgari"
+
+- id: PV_56
+  name: "Pastori"
+
+- id: PV_57
+  name: "Satori"
+
+- id: PV_58
+  name: "Guaritore"
+
+- id: PV_59
+  name: "Seminatore"
+
+- id: PV_60
+  name: "Tagliaborse"
+
+- id: PV_61
+  name: "Commerciante"
+
+- id: PV_62
+  name: "Scassinatori"
+
+- id: PV_63
+  name: "Legalisti"
+
+- id: PV_64
+  name: "Principisti"
+
+- id: PV_65
+  name: "Salutaristi"
+
+- id: PV_66
+  name: "Tradizionalisti"
+
+- id: PV_67
+  name: "Onorati"
