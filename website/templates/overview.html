@@ -5,13 +5,14 @@
 <section class="my-4">
     <p>Upload new heroes:</p>
     <form method="POST" enctype="multipart/form-data">
+        {{ form.csrf_token }}
         <div class="input-group">
             {{ form.files(class="form-control") }} {{ form.hidden_tag() }} {{
             form.submit(class="input-group-text") }}
         </div>
     </form>
 </section>
-<hr />
+<hr class="mx-auto my-5" />
 <p class="mb-0">Your heroes:</p>
 <div class="d-grid gap-3 pt-3">
     {% for hero in user.heroes %}
