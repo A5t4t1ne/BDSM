@@ -1,11 +1,12 @@
 from flask import Blueprint, flash, render_template, redirect, url_for, request, flash, jsonify
 from flask_login import login_required, current_user
-from werkzeug.utils import secure_filename
+from flask_wtf.csrf import CSRFError
 from . import app, db
 from .models import Hero, User, Level
 from .tools.upload import UploadFileForm, save_hero
 import os
 import json
+from website.constants import LITURGIES
 
 
 views = Blueprint("views", __name__)
@@ -72,6 +73,7 @@ def data_request():
     data = request.get_json()
     hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()
     if hero:
+        
         return jsonify(hero.stats)
     else:
         return jsonify(None)
@@ -127,11 +129,14 @@ def too_large(e):
 
 # wrong url
 @app.errorhandler(404)
-def page_not_found(e):
+def server_error(e):
     return "<h1>Page not found</h1>"
 
 #internal server error
 @app.errorhandler(500)
-def page_not_found(e):
-    return "<h1>Internal server error</h1>"
+def server_error(e):
+    return "<h1>Internal server error</h1><p>Please contact me with the steps you just made before this happened</p>"
 
+@app.errorhandler(CSRFError)
+def csrf_error(e):
+    return "Sorry, this request could not be executed"
