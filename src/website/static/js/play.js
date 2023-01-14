@@ -13,7 +13,6 @@ window.onload = function () {
     $("#lep").bind("change", function (evt) {
         let curr = $("#lep").val();
         let max = $("#lep-max").text();
-        console.log(curr, max);
         $("#pain").text(getPainLvl(curr, max));
     });
     setInterval(save_hero, 15000); // save hero every 15 seconds

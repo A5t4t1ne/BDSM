@@ -118,7 +118,6 @@ def delete_hero():
     if os.path.isfile(hero_path):
         os.remove(hero_path)
 
-    # Hero.query.filter_by(id=data['id']).delete()
     hero.delete()
     db.session.commit()
 
