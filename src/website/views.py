@@ -72,8 +72,12 @@ def admin_panel():
 def data_request():
     data = request.get_json()
     hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()
+    description = dict()
+
+    for act in hero.stats['activatables']:
+        description[act] = LITURGIES[act]
+
     if hero:
-        
         return jsonify(hero.stats)
     else:
         return jsonify(None)

@@ -49,7 +49,7 @@ def is_valid_hero(file):
 
 
 def save_hero(file):
-    """Returns False if the file isn't a valid hero file"""
+    """Checks if the file is a valid hero and saves it afterwards"""
     
     if not is_valid_hero(file):
         return False

@@ -1,6 +1,6 @@
 import json
-import os
 import math
+from ..constants import LITURGIES
 
 
 class Decode():
@@ -27,6 +27,8 @@ class Decode():
         stats['talents'] = cls.talents(hero)
         stats['INI'] = cls.initiative(hero)
         stats['dodge'] = cls.dodge(hero)
+        stats['blessings'] = cls.blessings(hero)
+        stats['activatables'] = cls.activatables(hero)
 
         # initialize hero effects
         stats['desire'] = 0
@@ -238,7 +240,17 @@ class Decode():
 
     @classmethod
     def liturgies(cls, hero:dict)       -> dict:
-        return hero['liturgies']
+        hero_liturgies = dict()
+        for l in hero['liturgies']:
+            lit = LITURGIES.get(l, None)
+            if lit is not None:
+                hero_liturgies[l] = lit
+                
+        return hero_liturgies
+
+    @classmethod
+    def blessings(cls, hero:dict) -> dict:
+        return hero['blessings']
 
     @classmethod
     def spells(cls, hero:dict)       -> dict:
@@ -314,8 +326,3 @@ class Race():
     Half_Elf    = 'R_3'         # Lep Base Modifier = 5 //3
     Dwarf       = 'R_4'         # Lep Base Modifier = 8 //4
 
-
-if __name__ == "__main__":
-    with open('heroes\\torjin.json') as f:
-        hero = json.load(f)
-    print(Decode.encumrance(hero))

@@ -11,7 +11,7 @@ import os
 
 auth = Blueprint('auth', __name__)
 
-LOWER_CHARS = 'abcdefghijklmnopqrstuvwxyz'
+LOWER_CHARS = 'abcdefghijklmnopqrstuvwxyzäöü'
 UPPER_CHARS = LOWER_CHARS.upper()
 NUMBERS = '1234567890'
 ALLOWED_SPECIAL_CHARS = '&$?!-_'

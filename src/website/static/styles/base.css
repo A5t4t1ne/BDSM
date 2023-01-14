@@ -13,10 +13,6 @@ footer {
     font-size: 12px;
 }
 
-hr {
-    margin: 4rem auto;
-}
-
 .bg-dark {
     color: var(--main-font-color);
 }
