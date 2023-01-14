@@ -1,10 +1,13 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
+from flask_wtf.csrf import CSRFProtect
+import json
 import os
 
 db = SQLAlchemy()
 app = Flask(__name__)
+csrf = CSRFProtect()
 
 
 def create_database(app, db_dir):
@@ -23,7 +26,7 @@ def create_admin():
         if not admin:
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
-            admin_pw = generate_password_hash(os.environ['ADMIN_PW'], method='sha256')
+            admin_pw = generate_password_hash(app.config['ADMIN_PW'], method='sha256')
             new_admin = User(username='admin', password=admin_pw, heroes_path=heroes_path, access_lvl=Level.ADMIN)
             db.session.add(new_admin)
             db.session.commit()
@@ -39,12 +42,23 @@ def create_admin():
 
 
 def create_app(db_name="database.db", upload_folder="heroes"):
-    app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
-    app.config['ACCESS_CODE'] = os.environ['ACCESS_CODE']
-
     # get abs path starting from this file location
     basedir = os.path.abspath(os.path.dirname(__file__))
     db_dir = os.path.join(basedir, db_name)
+    config_dir = os.path.join(basedir, "..", "config.json")
+    
+    try:
+        with open(config_dir, "r") as f:
+            try:
+                data = json.load(f)
+                app.config['SECRET_KEY'] = data['SECRET_KEY']
+                app.config['ACCESS_CODE'] = data['ACCESS_CODE']
+                app.config['ADMIN_PW'] = data['ADMIN_PW']
+            except KeyError:
+                raise KeyError("Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the config.json file")
+            app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
+    except FileNotFoundError:
+        raise FileNotFoundError("Create a config.json file in the main directory")
 
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_dir
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
@@ -55,6 +69,7 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     app.config['ALLOWED_EXTENSIONS'] = {'json'}
 
     db.init_app(app)
+    csrf.init_app(app)
 
     # include other flask routes and connect them
     from .views import views
