@@ -1,10 +1,12 @@
 window.onload = function () {
     $(".btn-delete-hero").bind("click", function (event) {
         if (confirm("You sure?")) {
+            let csrf = $("#csrf_token").val();
             fetch("/delete-hero", {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json",
+                    "X-CSRF-TOKEN": csrf,
                 },
                 body: JSON.stringify({ "name": event.currentTarget.id }),
             })

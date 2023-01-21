@@ -4,6 +4,12 @@
 <br />
 
 <div class="stat-container">
+    <input
+        type="hidden"
+        id="csrf_token"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    />
     <select class="form-select mb-4 hero-select" airia-label="Hero selection">
         {% if current_user.heroes %} {% for hero in current_user.heroes %}
         <option value="{{hero.secure_name}}">{{hero.name}}</option>
