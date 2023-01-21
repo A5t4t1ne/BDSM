@@ -1,11 +1,9 @@
-from flask import Blueprint, flash, render_template, redirect, url_for, request, flash, jsonify
+from flask import Blueprint, flash, render_template, redirect, url_for, request, flash
 from flask_login import login_required, current_user
 from flask_wtf.csrf import CSRFError
-from . import app, db
-from .models import Hero, User, Level
+from . import app
+from .models import User, Level
 from .tools.upload import UploadFileForm, save_hero
-import os
-import json
 from website.constants import LITURGIES
 
 
@@ -47,6 +45,7 @@ def overview():
 
 
 @views.route('/account')
+@login_required
 def account():
     return render_template('account.html', user=current_user)
 
@@ -57,7 +56,7 @@ def play():
     return render_template("play.html", user=current_user)
 
 
-@views.route('admin-panel', methods=['GET', 'POST'])
+@views.route('/admin-panel', methods=['GET', 'POST'])
 @login_required
 def admin_panel():
     if current_user.access_lvl == Level.ADMIN:
@@ -66,62 +65,6 @@ def admin_panel():
         return render_template("admin-panel.html", user=current_user, all_users=all_users)
     else:
         return redirect(url_for("views.home"))
-
-
-@views.route('data-request', methods=['POST'])
-def data_request():
-    data = request.get_json()
-    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()
-    description = dict()
-
-    for act in hero.stats['activatables']:
-        description[act] = LITURGIES[act]
-
-    if hero:
-        return jsonify(hero.stats)
-    else:
-        return jsonify(None)
-
-
-@views.route('save-hero', methods=['POST'])
-def save_hero_from_request():
-    request_data = request.get_json()
-    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=request_data['name']).first()
-    if hero:
-        with open(hero.path, 'r') as f:
-            hero_data = json.load(f)
-
-        for key, item in request_data.items():
-            hero_data[key] = item
-        
-        with open(hero.path, 'w') as f:
-            json.dump(hero_data, f)
-        
-        hero.stats = hero_data
-        db.session.commit()
-
-        return jsonify(error=0)
-    
-    return jsonify(error=-1)
-
-
-@views.route('delete-hero',methods=['POST'])
-def delete_hero():
-    data = request.get_json()
-    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name'])
-    hero_path = hero.first().path
-    
-    if not hero_path:
-        # no valid hero
-        return jsonify(error=-1)
-
-    if os.path.isfile(hero_path):
-        os.remove(hero_path)
-
-    hero.delete()
-    db.session.commit()
-
-    return jsonify(error=0)
 
 
 # Server request size to large
