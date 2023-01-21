@@ -73,24 +73,24 @@ def save_hero(file):
                 file_number = int(content_between_brackets) + 1
                 file_name = file_name.rsplit('(', 1)[0] + f'({file_number})'
 
-                shortened_hero['name'] = shortened_hero['name'].rsplit('(', 1)[0] + f'({file_number})'
+                raw_hero['name'] = raw_hero['name'].rsplit('(', 1)[0] + f'({file_number})'
             else:
                 file_name += '(1)'
-                shortened_hero['name'] += '(1)'
+                raw_hero['name'] += '(1)'
         else:
             file_name += '(1)'
-            shortened_hero['name'] += '(1)'
+            raw_hero['name'] += '(1)'
 
         file_path = os.path.join(current_user.heroes_path, file_name + '.json')
 
-    shortened_hero['secure_name'] = file_name
+    raw_hero['secure_name'] = file_name
 
     # save shortened hero as new file on given path in initialization
     with open(file_path, 'w') as f:
-        json.dump(shortened_hero, f)
+        json.dump(raw_hero, f)
 
     # add hero to database
-    new_hero = Hero(name=shortened_hero['name'], secure_name=file_name,
+    new_hero = Hero(name=raw_hero['name'], secure_name=file_name,
                     path=file_path, stats=shortened_hero, user_id=current_user.id)
     db.session.add(new_hero)
     db.session.commit()
