@@ -30,11 +30,14 @@ function get_hero_and_update(obj) {
         name = obj.target.value;
     }
 
+    let csrf = $("#csrf_token").val();
+    console.log(csrf);
     fetch("/data-request", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
             "Accept": "application/json",
+            "X-CSRF-TOKEN": csrf,
         },
         body: JSON.stringify({ "name": name }),
     })
@@ -43,7 +46,6 @@ function get_hero_and_update(obj) {
             else alert("Something went wront");
         })
         .then((jsonResponse) => {
-            hero = jsonResponse;
             update_new_hero_stats(jsonResponse);
         });
 }

@@ -2,6 +2,12 @@
 <link rel="stylesheet" href="../static/styles/overview.css" />
 {% endblock %} {% block title %}Overview{% endblock %} {% block content %}
 <h1>Heroes Overview</h1>
+<input
+    type="hidden"
+    id="csrf_token"
+    name="csrf_token"
+    value="{{ csrf_token() }}"
+/>
 <section class="my-4">
     <p>Upload new heroes:</p>
     <form method="POST" enctype="multipart/form-data">
