@@ -256,7 +256,40 @@ function update_new_hero_stats(hero) {
         $("#liturgies-content").html(liturgic_content);
     }
 
+    function update_spells() {
+        let spell_content = "";
+        let spell_keys = Object.keys(hero["spells"]);
+
+        spell_keys.sort(function (a, b) {
+            a = hero["spells"][a]["name"];
+            b = hero["spells"][b]["name"];
+            if (a < b) return -1;
+            if (a > b) return 1;
+            return 0;
+        });
+        fw = 3;
+        spell_keys.forEach((key) => {
+            spell_stats = hero["spells"][key];
+
+            let check1 = spell_stats["univ"]["check1"]["short"];
+            let check2 = spell_stats["univ"]["check2"]["short"];
+            let check3 = spell_stats["univ"]["check3"]["short"];
+            let checks = check1 + " / " + check2 + " / " + check3;
+
+            spell_content +=
+                '<div class="row liturgy">' +
+                `<div class="col">${spell_stats["name"]}</div>` +
+                `<div class="col text-center">${spell_stats["castingTime"]}</div>` +
+                `<div class="col text-end">${spell_stats["duration"]}</div>` +
+                `<div class="col text-center">${fw}</div>` +
+                `<div class="col text-end">${checks}</div>` +
+                "</div>";
+        });
+        $("#spells-content").html(spell_content);
+    }
+
     update_liturgies();
+    update_spells();
 }
 
 /**
