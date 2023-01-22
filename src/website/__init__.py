@@ -67,6 +67,7 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     # upload folder is [main.py-location]/[upload_folder]/
     app.config['UPLOAD_FOLDER'] = os.path.join(basedir, '..', upload_folder)
     app.config['ALLOWED_EXTENSIONS'] = {'json'}
+    app.config['JSON_AS_ASCII'] = False
 
     db.init_app(app)
     csrf.init_app(app)
@@ -74,9 +75,11 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     # include other flask routes and connect them
     from .views import views
     from .auth import auth
+    from .requests import req
 
     app.register_blueprint(views, url_prefix='/')
     app.register_blueprint(auth, url_prefix='/')
+    app.register_blueprint(req, url_prefix='/')
 
     from .models import User
 
@@ -85,8 +88,7 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     create_admin()
 
     login_manager = LoginManager()
-    # default page to call if user isn't logged in
-    login_manager.login_view = 'auth.login'
+    login_manager.login_view = 'auth.login' # default page to call if user isn't logged in
     login_manager.init_app(app=app)
     login_manager.login_message = ""
 
