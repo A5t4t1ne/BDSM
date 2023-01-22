@@ -244,6 +244,7 @@ class Decode():
         for l in hero['liturgies']:
             lit = LITURGIES.get(l, None)
             if lit is not None:
+                lit['FW'] = hero['liturgies'][l]
                 hero_liturgies[l] = lit
                 
         return hero_liturgies
