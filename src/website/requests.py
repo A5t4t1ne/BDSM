@@ -5,28 +5,22 @@ from .tools.decode import Decode
 from . import db
 import json
 import os
+from website.constants import LITURGIES
+
+
 
 req = Blueprint("requests", __name__)
+
 
 @req.route("/data-request", methods=['GET', 'POST'])
 @login_required
 def data_request():
     data = request.get_json()
-    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()
-    description = dict()
-
-    activatables = hero.stats.get('activatables', None)
-    if activatables == None:
-        with open(hero.path, 'r') as f:
-            data = json.load(f)
-            hero.stats = Decode.decode_all(data)
-    # for act in hero.stats['activatables']:
-    #     description[act] = LITURGIES[act]
-
-    if hero:
-        return jsonify(hero.stats)
-    else:
+    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()    
+    if not hero:
         return jsonify(None)
+    
+    return jsonify(hero.stats)
 
 @req.route('/save-hero', methods=['POST'])
 @login_required
