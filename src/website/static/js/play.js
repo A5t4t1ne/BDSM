@@ -31,7 +31,6 @@ function get_hero_and_update(obj) {
     }
 
     let csrf = $("#csrf_token").val();
-    console.log(csrf);
     fetch("/data-request", {
         method: "POST",
         headers: {
@@ -199,10 +198,40 @@ function update_new_hero_stats(hero) {
     $("#encumbrance").text(hero["enc"]);
     $("#pain").val(getPainLvl(hero["lep_current"], hero["lep_max"]));
 
-    // liturgies
-    for (let key in hero["liturgies"]) {
-        console.log("key: " + key);
-    }
+    let liturgic_content = "";
+    let keys = Object.keys(hero["liturgies"]);
+    keys.sort(function (a, b) {
+        a = hero["liturgies"][a]["name"];
+        b = hero["liturgies"][b]["name"];
+        if (a < b) return -1;
+        if (a > b) return 1;
+        return 0;
+    });
+
+    keys.forEach((key) => {
+        let lit_stats = hero["liturgies"][key];
+        let check1 = "";
+        let check2 = "";
+        let check3 = "";
+
+        // checks for liturgies who require them
+        if (lit_stats["check1"]) {
+            check1 = lit_stats["check1"]["short"];
+            check2 = lit_stats["check2"]["short"];
+            check3 = lit_stats["check3"]["short"];
+        }
+
+        liturgic_content +=
+            '<div class="row liturgy">' +
+            `<div class="col">${lit_stats["name"]}</div>` +
+            `<div class="col text-center">${lit_stats["castingTime"]}</div>` +
+            `<div class="col text-center">${lit_stats["duration"]}</div>` +
+            `<div class="col text-center">${lit_stats["FW"]}</div>` +
+            `<div class="col text-end">${check1} / ${check2} / ${check3}</div>` +
+            "</div>";
+    });
+
+    $("#liturgies-content").html(liturgic_content);
 }
 
 /**
@@ -210,7 +239,7 @@ function update_new_hero_stats(hero) {
  * @param {int} lep
  * @param {int} asp
  * @param {int} kap
- * @param {dict} wealth a dictionary
+ * @param {dict} wealth
  * @returns
  */
 function newHeroObject(lep, asp, kap, name, wealth) {
