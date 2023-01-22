@@ -213,12 +213,14 @@ function update_new_hero_stats(hero) {
         let check1 = "";
         let check2 = "";
         let check3 = "";
-
-        // checks for liturgies who require them
-        if (lit_stats["check1"]) {
-            check1 = lit_stats["check1"]["short"];
-            check2 = lit_stats["check2"]["short"];
-            check3 = lit_stats["check3"]["short"];
+        console.log(lit_stats);
+        // checks for liturgies who have dice checks
+        if (lit_stats["univ"]["check1"]) {
+            check1 = lit_stats["univ"]["check1"]["short"];
+            check2 = lit_stats["univ"]["check2"]["short"];
+            check3 = lit_stats["univ"]["check3"]["short"];
+            console.log(lit_stats["univ"]);
+            console.log(check1);
         }
 
         liturgic_content +=

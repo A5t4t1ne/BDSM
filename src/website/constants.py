@@ -4,20 +4,23 @@ import os
 CURRENT_FILE_PATH = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(CURRENT_FILE_PATH, "..", "Data")
 
-# create dict out of the lists for faster access. Key is the individual id
+# create dict out of the lists for faster access. Key is the id
 LITURGIES = dict()
 ATTRIBUTES = dict()
+SPELLS = dict()
+SPECIAL_ABILITIES = dict()
 
 class DataFilePath:
     """Use with get_data()"""
     DE_LITURGIES = os.path.join("de-DE", "LiturgicalChants.yaml")
     DE_ATTRIBUTES = os.path.join("de-DE", "Attributes.yaml")
+    DE_SPELLS = os.path.join("de-DE", "Spells.yaml")
 
     UNIV_LITURGIES = os.path.join("univ", "LiturgicalChants.yaml")
-
+    UNIV_SPELLS = os.path.join("univ", "Spells.yaml")
 
 def get_data(file_path):
-    """Use class FilePath as parameter"""
+    """Returns a read yaml file. Use class 'DataFilePath' as parameter"""
     path = os.path.join(DATA_PATH, file_path)
     with open(path, 'r', encoding='utf8') as f:
         return yaml.full_load(f)
@@ -32,25 +35,48 @@ def update_attributes():
 
 
 def update_liturgies():
+    """update all liturgies"""
+    # get all liturgical (german) description
     for lit in get_data(DataFilePath.DE_LITURGIES):
         key = lit['id']
         del lit['id']
 
         LITURGIES[key] = lit
 
+    # get dice checks for liturgies
     for lit in get_data(DataFilePath.UNIV_LITURGIES):
         key = lit['id']
         del lit['id']
-        if "check1" in lit.keys():
-            attr_id1, attr_id2, attr_id3 = lit['check1'], lit['check2'], lit['check3']
-            lit['check1'] = ATTRIBUTES[lit['check1']]
-            lit['check2'] = ATTRIBUTES[lit['check2']]
-            lit['check3'] = ATTRIBUTES[lit['check3']]
-            lit['check1']['ATTR_ID'] = attr_id1
-            lit['check2']['ATTR_ID'] = attr_id2
-            lit['check3']['ATTR_ID'] = attr_id3
-        LITURGIES[key].update(lit)
         
+        if "check1" in lit.keys(): # check if the current liturgy contains dice checks
+            # save description of checks instead of just the id
+            for i in range(1, 4):
+                c = f"check{i}"
+                attr_id = lit[c] # initial id of dice check
+                lit[c] = ATTRIBUTES[attr_id] # extended information about the dice checks
+                lit[c]['ATTR_ID'] = attr_id # still save the id number besides the other information
+
+        LITURGIES[key]['univ'] = lit # combine general and descriptive data
+
+
+def update_spells():
+    for spell in get_data(DataFilePath.DE_SPELLS):
+        key = spell['id']
+        del spell['id']
+
+        SPELLS[key] = spell
+
+    for spell in get_data(DataFilePath.UNIV_SPELLS):
+        key = spell['id']
+        del spell['id']
+
+        SPELLS[key]['univ'] = spell # combine general and descriptive data
+
+def update_special_abilities():
+    pass
+
+
 
 update_attributes()
 update_liturgies()
+update_spells()
