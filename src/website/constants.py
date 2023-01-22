@@ -17,9 +17,12 @@ class DataPath:
     DE_ATTRIBUTES = os.path.join("de-DE", "Attributes.yaml")
     DE_SPELLS = os.path.join("de-DE", "Spells.yaml")
     DE_BLESSINGS = os.path.join("de-DE", "Blessings.yaml")
+    DE_SPECIAL_ABILITIES = os.path.join("de-DE", "SpecialAbilities.yaml")
 
     UNIV_LITURGIES = os.path.join("univ", "LiturgicalChants.yaml")
     UNIV_SPELLS = os.path.join("univ", "Spells.yaml")
+    UNIV_SPECIAL_ABILITIES = os.path.join("univ", "SpecialAbilities.yaml")
+
 
 def get_data(file_path):
     """Returns a read yaml file. Use class 'DataPath' as parameter"""
@@ -82,10 +85,37 @@ def update_spells():
         key = spell['id']
         del spell['id']
 
+        if "check1" in spell.keys():
+            # save description of checks instead of just the id
+            for i in range(1, 4):
+                c = f"check{i}"
+                attr_id = spell[c] # initial id of dice check
+                spell[c] = ATTRIBUTES[attr_id] # extended information about the dice checks
+                spell[c]['ATTR_ID'] = attr_id # still save the id number besides the other information
+
         SPELLS[key]['univ'] = spell # combine general and descriptive data
 
+
 def update_special_abilities():
-    pass
+    for sa in get_data(DataPath.DE_SPECIAL_ABILITIES):
+        key = sa['id']
+        del sa['id']
+
+        SPECIAL_ABILITIES[key] = sa
+
+    for sa in get_data(DataPath.DE_SPECIAL_ABILITIES):
+        key = sa['id']
+        del sa['id']
+
+        if "check1" in sa.keys():
+            # save description of checks instead of just the id
+            for i in range(1, 4):
+                c = f"check{i}"
+                attr_id = sa[c] # initial id of dice check
+                sa[c] = ATTRIBUTES[attr_id] # extended information about the dice checks
+                sa[c]['ATTR_ID'] = attr_id # still save the id number besides the other information
+
+        SPECIAL_ABILITIES[key]['univ'] = sa # combine general and descriptive data
 
 
 
@@ -93,3 +123,4 @@ update_attributes()
 update_liturgies()
 update_blessings()
 update_spells()
+update_special_abilities()
