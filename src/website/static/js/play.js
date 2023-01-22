@@ -198,42 +198,65 @@ function update_new_hero_stats(hero) {
     $("#encumbrance").text(hero["enc"]);
     $("#pain").val(getPainLvl(hero["lep_current"], hero["lep_max"]));
 
-    let liturgic_content = "";
-    let keys = Object.keys(hero["liturgies"]);
-    keys.sort(function (a, b) {
-        a = hero["liturgies"][a]["name"];
-        b = hero["liturgies"][b]["name"];
-        if (a < b) return -1;
-        if (a > b) return 1;
-        return 0;
-    });
+    function update_liturgies() {
+        let liturgic_content = "";
+        let lit_keys = Object.keys(hero["liturgies"]);
+        let bl_keys = Object.keys(hero["blessings"]);
+        lit_keys.sort(function (a, b) {
+            a = hero["liturgies"][a]["name"];
+            b = hero["liturgies"][b]["name"];
+            if (a < b) return -1;
+            if (a > b) return 1;
+            return 0;
+        });
+        bl_keys.sort(function (a, b) {
+            a = hero["blessings"][a]["name"];
+            b = hero["blessings"][b]["name"];
+            if (a < b) return -1;
+            if (a > b) return 1;
+            return 0;
+        });
 
-    keys.forEach((key) => {
-        let lit_stats = hero["liturgies"][key];
-        let check1 = "";
-        let check2 = "";
-        let check3 = "";
-        console.log(lit_stats);
-        // checks for liturgies who have dice checks
-        if (lit_stats["univ"]["check1"]) {
-            check1 = lit_stats["univ"]["check1"]["short"];
-            check2 = lit_stats["univ"]["check2"]["short"];
-            check3 = lit_stats["univ"]["check3"]["short"];
-            console.log(lit_stats["univ"]);
-            console.log(check1);
-        }
+        let keys = lit_keys.concat(bl_keys);
 
-        liturgic_content +=
-            '<div class="row liturgy">' +
-            `<div class="col">${lit_stats["name"]}</div>` +
-            `<div class="col text-center">${lit_stats["castingTime"]}</div>` +
-            `<div class="col text-center">${lit_stats["duration"]}</div>` +
-            `<div class="col text-center">${lit_stats["FW"]}</div>` +
-            `<div class="col text-end">${check1} / ${check2} / ${check3}</div>` +
-            "</div>";
-    });
+        keys.forEach((key) => {
+            let lit_stats = "";
+            let checks = "";
+            let check1 = "";
+            let check2 = "";
+            let check3 = "";
+            let castingTime = "";
+            let fw = "";
 
-    $("#liturgies-content").html(liturgic_content);
+            if (key.indexOf("BLESSING") == 0) {
+                lit_stats = hero["blessings"][key];
+            } else if (key.indexOf("LITURGY") == 0) {
+                lit_stats = hero["liturgies"][key];
+                // checks for liturgies who have dice checks
+                if (lit_stats["univ"]["check1"]) {
+                    check1 = lit_stats["univ"]["check1"]["short"];
+                    check2 = lit_stats["univ"]["check2"]["short"];
+                    check3 = lit_stats["univ"]["check3"]["short"];
+                }
+                castingTime = lit_stats["castingTime"];
+                fw = lit_stats["FW"];
+                checks = check1 + " / " + check2 + " / " + check3;
+            }
+
+            liturgic_content +=
+                '<div class="row liturgy">' +
+                `<div class="col">${lit_stats["name"]}</div>` +
+                `<div class="col text-center">${castingTime}</div>` +
+                `<div class="col text-end">${lit_stats["duration"]}</div>` +
+                `<div class="col text-center">${fw}</div>` +
+                `<div class="col text-end">${checks}</div>` +
+                "</div>";
+        });
+
+        $("#liturgies-content").html(liturgic_content);
+    }
+
+    update_liturgies();
 }
 
 /**

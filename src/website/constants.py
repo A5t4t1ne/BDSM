@@ -6,28 +6,30 @@ DATA_PATH = os.path.join(CURRENT_FILE_PATH, "..", "Data")
 
 # create dict out of the lists for faster access. Key is the id
 LITURGIES = dict()
+BLESSINGS = dict()
 ATTRIBUTES = dict()
 SPELLS = dict()
 SPECIAL_ABILITIES = dict()
 
-class DataFilePath:
+class DataPath:
     """Use with get_data()"""
     DE_LITURGIES = os.path.join("de-DE", "LiturgicalChants.yaml")
     DE_ATTRIBUTES = os.path.join("de-DE", "Attributes.yaml")
     DE_SPELLS = os.path.join("de-DE", "Spells.yaml")
+    DE_BLESSINGS = os.path.join("de-DE", "Blessings.yaml")
 
     UNIV_LITURGIES = os.path.join("univ", "LiturgicalChants.yaml")
     UNIV_SPELLS = os.path.join("univ", "Spells.yaml")
 
 def get_data(file_path):
-    """Returns a read yaml file. Use class 'DataFilePath' as parameter"""
+    """Returns a read yaml file. Use class 'DataPath' as parameter"""
     path = os.path.join(DATA_PATH, file_path)
     with open(path, 'r', encoding='utf8') as f:
         return yaml.full_load(f)
 
 
 def update_attributes():
-    for attr in get_data(DataFilePath.DE_ATTRIBUTES):
+    for attr in get_data(DataPath.DE_ATTRIBUTES):
         key = attr['id']
         del attr['id']
 
@@ -37,14 +39,14 @@ def update_attributes():
 def update_liturgies():
     """update all liturgies"""
     # get all liturgical (german) description
-    for lit in get_data(DataFilePath.DE_LITURGIES):
+    for lit in get_data(DataPath.DE_LITURGIES):
         key = lit['id']
         del lit['id']
 
         LITURGIES[key] = lit
 
-    # get dice checks for liturgies
-    for lit in get_data(DataFilePath.UNIV_LITURGIES):
+    # get universal data for liturgies
+    for lit in get_data(DataPath.UNIV_LITURGIES):
         key = lit['id']
         del lit['id']
         
@@ -59,14 +61,24 @@ def update_liturgies():
         LITURGIES[key]['univ'] = lit # combine general and descriptive data
 
 
+
+def update_blessings():
+    # add blessings
+    for bl in get_data(DataPath.DE_BLESSINGS):
+        key = bl['id']
+        del bl['id']
+
+        BLESSINGS[key] = bl
+
+
 def update_spells():
-    for spell in get_data(DataFilePath.DE_SPELLS):
+    for spell in get_data(DataPath.DE_SPELLS):
         key = spell['id']
         del spell['id']
 
         SPELLS[key] = spell
 
-    for spell in get_data(DataFilePath.UNIV_SPELLS):
+    for spell in get_data(DataPath.UNIV_SPELLS):
         key = spell['id']
         del spell['id']
 
@@ -79,4 +91,5 @@ def update_special_abilities():
 
 update_attributes()
 update_liturgies()
+update_blessings()
 update_spells()
