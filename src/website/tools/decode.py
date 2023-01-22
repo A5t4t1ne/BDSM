@@ -1,6 +1,6 @@
 import json
 import math
-from ..constants import LITURGIES
+from ..constants import LITURGIES, BLESSINGS
 
 
 class Decode():
@@ -251,7 +251,13 @@ class Decode():
 
     @classmethod
     def blessings(cls, hero:dict) -> dict:
-        return hero['blessings']
+        hero_blessings = dict()
+        for bl in hero['blessings']:
+            bl_desc = BLESSINGS.get(bl, None)
+            if bl_desc is not None:
+                hero_blessings[bl] = bl_desc
+                
+        return hero_blessings
 
     @classmethod
     def spells(cls, hero:dict)       -> dict:
