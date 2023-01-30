@@ -35,7 +35,7 @@ def create_admin():
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
             admin.heroes_path = heroes_path
-            admin.password = generate_password_hash(os.environ['ADMIN_PW'], method='sha256')
+            admin.password = generate_password_hash(app.config['ADMIN_PW'], method='sha256')
             admin.access_lvl = Level.ADMIN
             admin.email = ""
             db.session.commit()
@@ -56,7 +56,6 @@ def create_app(db_name="database.db", upload_folder="heroes"):
                 app.config['ADMIN_PW'] = data['ADMIN_PW']
             except KeyError:
                 raise KeyError("Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the config.json file")
-            app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
     except FileNotFoundError:
         raise FileNotFoundError("Create a config.json file in the main directory")
 
