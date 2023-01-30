@@ -64,11 +64,13 @@ function save_hero(obj) {
         wealth
     );
 
+    let csrf = $("#csrf_token").val();
     const response = fetch("/save-hero", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
             "Accept": "application/json",
+            "X-CSRF-TOKEN": csrf,
         },
         body: JSON.stringify(hero_stats),
     });
