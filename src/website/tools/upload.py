@@ -58,9 +58,7 @@ def save_hero(file):
     file.seek(0)
     raw_hero = json.load(file)
 
-    shortened_hero = Decode.decode_all(raw_hero)
-
-    file_name = secure_filename(shortened_hero['name']).lower()
+    file_name = secure_filename(raw_hero['name']).lower()
     file_path = os.path.join(current_user.heroes_path, file_name + '.json')
 
     while os.path.isfile(file_path):
@@ -91,7 +89,7 @@ def save_hero(file):
 
     # add hero to database
     new_hero = Hero(name=raw_hero['name'], secure_name=file_name,
-                    path=file_path, stats=shortened_hero, user_id=current_user.id)
+                    path=file_path, stats=raw_hero, user_id=current_user.id)
     db.session.add(new_hero)
     db.session.commit()
 
