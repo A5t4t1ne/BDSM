@@ -19,8 +19,10 @@ def data_request():
     hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()    
     if not hero:
         return jsonify(None)
+
+    hero = Decode.decode_all(hero=hero.stats)
     
-    return jsonify(hero.stats)
+    return jsonify(hero)
 
 @req.route('/save-hero', methods=['POST'])
 @login_required
