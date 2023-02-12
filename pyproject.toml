@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 
 [project]
 name = "BDSM"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
-  { name="David Jäggli", email="info.BDSM@pm.me"}
+  { name="David Jäggli", email="dev.bdsm@pm.me"}
 ]
 description = "Browser DSA stat Manager. Helps keeping track of your DSA character while playing."
 readme = "README.md"
