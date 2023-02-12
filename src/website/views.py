@@ -4,7 +4,6 @@ from flask_wtf.csrf import CSRFError
 from . import app
 from .models import User, Level
 from .tools.upload import UploadFileForm, save_hero
-from website.constants import LITURGIES
 
 
 views = Blueprint("views", __name__)
@@ -37,10 +36,7 @@ def overview():
             else:
                 flash("Files uploaded successfully", category='success')
         
-            
-
-
-    
+   
     return render_template('overview.html', user=current_user, form=form)
 
 
@@ -85,4 +81,4 @@ def server_error(e):
 
 @app.errorhandler(CSRFError)
 def csrf_error(e):
-    return "Sorry, this request could not be executed"
+    return f"Sorry, this request could not be executed.\nError: {e}"
