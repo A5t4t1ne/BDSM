@@ -4,19 +4,24 @@
 
 ### Features
 
--   List all activatables, spells and liturgies on play tab
+-   More hero stats are now visible in the play tab
+    -   Hero liturgies
+    -   Hero spells
 
 ### Enhancements
 
--   Make every condition available
+-   Added all current official effects
+-   Changing money now adjusts automatically if value goes below 0.
+
+### Miscellaneous
+
+-   Hero files are now saved in Optolith-standard json file format
+-   Added simple admin panel
+-   Added user role level
 
 ### Security
 
--   CSRF Protection
-
-### Bug fixes
-
--   Display INI, Dodge and Armor correctly
+-   Added CSRF protection
 
 ## 0.1.0
 
