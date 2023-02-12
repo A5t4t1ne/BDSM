@@ -1,8 +1,15 @@
 from website import create_app
+import json
+import os
 
 application = create_app()
 
 
 if __name__ == "__main__":
-    application.run(debug=True, port=80)
-    # application.run(debug=False, host="0.0.0.0", port=80)
+    path = os.path.dirname(os.path.abspath(__file__))
+    fpath = os.path.join(path, 'config.json')
+
+    with open(fpath, 'r') as f:
+        run = json.load(f)['run']
+
+    application.run(debug=run['debug'], host=run['host'], port=run['port'])
