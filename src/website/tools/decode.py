@@ -1,6 +1,9 @@
 import json
 import math
-from ..constants import LITURGIES, BLESSINGS, SPELLS
+from ..constants import LITURGIES, BLESSINGS, SPELLS, SPECIAL_ABILITIES, SKILLS
+import logging
+import sys
+logging.basicConfig(file="log\\log.txt", level=logging.DEBUG)
 
 
 class Decode():
@@ -67,14 +70,12 @@ class Decode():
             lep_max += 8
 
         # advantage/disadvantage effect on LeP
-        adv_disadv = cls.activatables(hero)
+        activatables = cls.activatables(hero)
 
-        # High LeP
-        if ActivatablesID.HIGH_LEP in adv_disadv:  
-            lep_max += adv_disadv[ActivatablesID.HIGH_LEP][0]['tier']
-        # Low LeP
-        elif ActivatablesID.LOW_LEP in adv_disadv:
-            lep_max -= adv_disadv[ActivatablesID.LOW_LEP][0]['tier']
+        if ActivatablesID.HIGH_LEP in activatables['ADV']:  
+            lep_max += activatables[ActivatablesID.HIGH_LEP][0]['tier']
+        elif ActivatablesID.LOW_LEP in activatables['DISADV']:
+            lep_max -= activatables[ActivatablesID.LOW_LEP][0]['tier']
 
         return lep_max
     
@@ -94,10 +95,8 @@ class Decode():
         hero_IN = cls.attributes(hero, search_for_attr=AttributeID.IN)
 
         # advantages and disadvantages
-        activatables = cls.activatables(hero)
-        for key in activatables:
-            # if found property-list is empty adv/disadv isn't in effect
-            property_list = activatables[key]
+        for key, property_list in cls.activatables(hero).items():
+            # if the current property-list is empty the adv/disadv isn't in effect
             if len(property_list) < 1:
                 continue
 
@@ -110,24 +109,24 @@ class Decode():
             elif key == ActivatablesID.MAGICIAN:
                 asp_max += 20
 
-                # advantages that affect asp based on a character property
-                # --- KL --- 
+            # advantages that affect asp based on a character property
+            # --- KL --- 
             elif key == "SA_70" or key == "SA_346" or key == "SA_681":
                 asp_max += hero_KL
 
-                # --- KL / 2, round up ---
+            # --- KL / 2, round up ---
             elif key == "SA_750":
                 asp_max += math.ceil(hero_KL / 2)
 
-                # --- IN --- 
+            # --- IN --- 
             elif key == "SA_345":
                 asp_max += hero_IN
 
-                # --- CH --- 
+            # --- CH --- 
             elif key == "SA_255" or key == "SA_676":
                 asp_max += hero_CH
 
-                # --- CH / 2, round up ---
+            # --- CH / 2, round up ---
             elif key == "SA_677":
                 asp_max += math.ceil(hero_CH / 2)
 
@@ -228,7 +227,67 @@ class Decode():
 
     @classmethod
     def activatables(cls, hero:dict)    -> dict:
-        return hero['activatable']
+        activatables = {'ADV': dict(), 'DISADV': dict(), "SA": dict()}
+
+        # for act_key, act_val in hero['activatable'].items():
+        #     if act_key.startswith('ADV_'):
+        #         activatables['ADV'][act_key] = act_val
+        #     elif act_key.startswith('DISADV_'):
+        #         activatables['DISADV'][act_key] = act_val
+        #     elif act_key.startswith('SA_'):
+        #         # if value is empty, hero does curently not posess this SA
+        #         if not act_val:
+        #             continue
+                
+        #         # one SA can have multiple variations 
+        #         # e.g there are different languages though they are still the same SA 
+        #         for sa_variation in act_val:
+        #             # if the length of the dictionary inside the list is > 0 it's an SA with different types (and levels)
+        #             # e.g. each individual language has a type (which language) and a tier/level
+        #             if len(sa_variation) > 0:
+        #                 sa_vari_keys = sa_variation.keys()
+        #                 # possible keys in dictionary are sid, sid2, tier
+        #                 if 'sid' in sa_vari_keys:
+        #                     sid = sa_variation['sid']
+        #                     if type(sid) == int:
+        #                         # if sid is numeric it is an option which can be found 
+        #                         # in the sub-dictionary 'selectOptions' from the special abilities
+        #                         sid = str(sid)
+        #                         activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
+        #                         if act_key != 'SA_663':
+        #                             logging.debug(f"{act_key=}, {sa_variation=}, {act_val=}")
+        #                             activatables['SA'][act_key].update(SPECIAL_ABILITIES[act_key]['selectOptions'][sid])
+        #                         else:
+        #                              activatables['SA'][act_key].update(SPECIAL_ABILITIES[act_key])
+        #                              activatables['SA'][act_key]['sid'] = sid
+        #                     else:
+        #                         activatable_data = dict()
+        #                         category = sid.split('_')[0]
+        #                         if category == "TAL":
+        #                             activatable_data = SKILLS[sid]
+        #                         elif category == "LITURGY":
+        #                             activatable_data = LITURGIES[sid]
+        #                         elif category == "SPELL":
+        #                             activatable_data = SPELLS[sid]
+        #                         elif category == "SA":
+        #                             activatable_data = SPECIAL_ABILITIES[sid]
+        #                         else:
+        #                             activatable_data = {'name': sid}
+
+        #                         activatables['SA'][act_key] = activatable_data
+
+        #                         if 'sid2' in sa_vari_keys:
+        #                             sid2 = str(sa_variation['sid2'])
+        #                             activatables['SA'][act_key]['application'] = SKILLS[sid]['applications'][sid2]
+
+        #                 if 'tier' in sa_vari_keys:
+        #                     activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
+        #                     activatables['SA'][act_key]['tier'] = sa_variation['tier']
+                            
+        #             else:
+        #                 activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
+        
+        return activatables
 
     @classmethod
     def belongings(cls, hero:dict)       -> dict:
