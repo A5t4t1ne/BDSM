@@ -1,8 +1,10 @@
 heroes
-website/database.db
-hero-examples
+src/config.json
+src/Data
+src/website/database.db
 __pycache__
 website/__pycache__/
 website/tools/__pycache__/
-config.json
-maintain.py
+.pytest_cache
+log
+tests
