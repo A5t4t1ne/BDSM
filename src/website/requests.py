@@ -15,29 +15,32 @@ req = Blueprint("requests", __name__)
 @req.route("/data-request", methods=['GET', 'POST'])
 @login_required
 def data_request():
-    data = request.get_json()
-    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name']).first()    
+    request_data = request.get_json()
+    hero = db.session.execute(db.select(Hero).where(
+                                Hero.user_id == current_user.id, 
+                                Hero.secure_name == request_data['name'])
+                            ).scalar()
+    sorted_hero_stats = json.dumps(hero.stats, sort_keys=True)
+  
     if not hero:
         return jsonify(None)
     
-    return jsonify(hero.stats)
+    return sorted_hero_stats
+
+
 
 @req.route('/save-hero', methods=['POST'])
 @login_required
 def save_hero_from_request():
     request_data = request.get_json()
-    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=request_data['name']).first()
-    if hero:
-        with open(hero.path, 'r') as f:
-            hero_data = json.load(f)
+    hero = db.session.execute(db.select(Hero).where(
+                                Hero.user_id == current_user.id, 
+                                Hero.secure_name == request_data['name'])
+                            ).scalar()
 
-        for key, item in request_data.items():
-            hero_data[key] = item
+    if hero:
+        hero.stats = {key:val for key, val in request_data.items() if key != 'name'}
         
-        with open(hero.path, 'w') as f:
-            json.dump(hero_data, f)
-        
-        hero.stats = hero_data
         db.session.commit()
 
         return jsonify(error=0)
@@ -49,8 +52,9 @@ def save_hero_from_request():
 @login_required
 def delete_hero():
     data = request.get_json()
-    hero = Hero.query.filter_by(user_id=current_user.id, secure_name=data['name'])
-    hero_path = hero.first().path
+    hero = db.session.execute(db.select(Hero).where(Hero.user_id == current_user.id, Hero.secure_name == data['name'])).scalar()
+    
+    hero_path = hero.path
     
     if not hero_path:
         # no valid hero
@@ -59,7 +63,7 @@ def delete_hero():
     if os.path.isfile(hero_path):
         os.remove(hero_path)
 
-    hero.delete()
+    db.session.delete(hero)
     db.session.commit()
 
     return jsonify(error=0)
