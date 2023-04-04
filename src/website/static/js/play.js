@@ -1,9 +1,10 @@
-let hero = 0;
+let current_hero_values = 0;
 
 window.onload = function () {
     let hero_select = $(".hero-select");
     hero_select.on("change", get_hero_and_update);
-    hero_select.on("click", save_hero);
+    hero_select.on("click", update_current_hero);
+    hero_select.on("change", save_hero);
     // set initial value
     if (hero_select.val() !== -1) {
         get_hero_and_update(hero_select);
@@ -15,8 +16,20 @@ window.onload = function () {
         let max = $("#lep-max").text();
         $("#pain").text(getPainLvl(curr, max));
     });
-    setInterval(save_hero, 15000); // save hero every 15 seconds
+    // setInterval(save_hero, 15000); // save hero every 15 seconds
 };
+
+function update_current_hero(obj) {
+    let wealth = get_money();
+
+    current_hero_values = newHeroObject(
+        $("#lep").val(),
+        $("#asp").val(),
+        $("#kap").val(),
+        $(".hero-select").val(),
+        wealth
+    );
+}
 
 /**
  * Sends a post request to get the new hero values and sets them.
@@ -45,6 +58,7 @@ function get_hero_and_update(obj) {
             else alert("Something went wront");
         })
         .then((jsonResponse) => {
+            console.log(jsonResponse);
             update_new_hero_stats(jsonResponse);
         });
 }
@@ -54,16 +68,6 @@ function get_hero_and_update(obj) {
  * @param {*} evt
  */
 function save_hero(obj) {
-    let wealth = get_money();
-
-    let hero_stats = newHeroObject(
-        $("#lep").val(),
-        $("#asp").val(),
-        $("#kap").val(),
-        $(".hero-select").val(),
-        wealth
-    );
-
     let csrf = $("#csrf_token").val();
     const response = fetch("/save-hero", {
         method: "POST",
@@ -72,7 +76,7 @@ function save_hero(obj) {
             "Accept": "application/json",
             "X-CSRF-TOKEN": csrf,
         },
-        body: JSON.stringify(hero_stats),
+        body: JSON.stringify(current_hero_values),
     });
 
     return response;
@@ -229,7 +233,8 @@ function update_new_hero_stats(hero) {
             let check3 = "";
             let castingTime = "";
             let fw = "";
-
+            // console.log(hero);
+            // console.log(hero["activatables"]);
             if (key.indexOf("BLESSING") == 0) {
                 lit_stats = hero["blessings"][key];
             } else if (key.indexOf("LITURGY") == 0) {
@@ -272,6 +277,7 @@ function update_new_hero_stats(hero) {
         fw = 3;
         spell_keys.forEach((key) => {
             spell_stats = hero["spells"][key];
+            // console.log(hero.spells, spell_stats);
 
             let check1 = spell_stats["univ"]["check1"]["short"];
             let check2 = spell_stats["univ"]["check2"]["short"];
@@ -290,8 +296,62 @@ function update_new_hero_stats(hero) {
         $("#spells-content").html(spell_content);
     }
 
+    function update_special_abilities() {
+        let sa_content = "<p>Yo wassup</p>";
+        let sa_keys = Object.keys(hero["activatables"]["SA"]);
+        // console.log(sa_keys);
+        // sa_keys.sort(function (a, b) {
+        //     a = hero["liturgies"][a]["name"];
+        //     b = hero["liturgies"][b]["name"];
+        //     if (a < b) return -1;
+        //     if (a > b) return 1;
+        //     return 0;
+        // });
+        // bl_keys.sort(function (a, b) {
+        //     a = hero["blessings"][a]["name"];
+        //     b = hero["blessings"][b]["name"];
+        //     if (a < b) return -1;
+        //     if (a > b) return 1;
+        //     return 0;
+        // });
+        // let keys = sa_keys.concat(bl_keys);
+        // keys.forEach((key) => {
+        //     let lit_stats = "";
+        //     let checks = "";
+        //     let check1 = "";
+        //     let check2 = "";
+        //     let check3 = "";
+        //     let castingTime = "";
+        //     let fw = "";
+        //     if (key.indexOf("BLESSING") == 0) {
+        //         lit_stats = hero["blessings"][key];
+        //     } else if (key.indexOf("LITURGY") == 0) {
+        //         lit_stats = hero["liturgies"][key];
+        //         // checks for liturgies who have dice checks
+        //         if (lit_stats["univ"]["check1"]) {
+        //             check1 = lit_stats["univ"]["check1"]["short"];
+        //             check2 = lit_stats["univ"]["check2"]["short"];
+        //             check3 = lit_stats["univ"]["check3"]["short"];
+        //         }
+        //         castingTime = lit_stats["castingTime"];
+        //         fw = lit_stats["FW"];
+        //         checks = check1 + " / " + check2 + " / " + check3;
+        //     }
+        //     sa_content +=
+        //         '<div class="row liturgy">' +
+        //         `<div class="col">${lit_stats["name"]}</div>` +
+        //         `<div class="col text-center">${castingTime}</div>` +
+        //         `<div class="col text-end">${lit_stats["duration"]}</div>` +
+        //         `<div class="col text-center">${fw}</div>` +
+        //         `<div class="col text-end">${checks}</div>` +
+        //         "</div>";
+        // });
+        $("#sa-content").html(sa_content);
+    }
+
     update_liturgies();
     update_spells();
+    update_special_abilities();
 }
 
 /**
