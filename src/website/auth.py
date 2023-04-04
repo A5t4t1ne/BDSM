@@ -88,7 +88,7 @@ def sign_up():
             flash(f'For passwords only characters, numbers and {ALLOWED_SPECIAL_CHARS} please', category='error')
         elif password != confPassword:
             flash('Passwords are not matching', category='error')
-        elif acces_code != os.environ.get('ACCESS_CODE'):
+        elif acces_code != app.config['ACCESS_CODE']:
             flash('Alpha access code invalid', category='error')
         else:
             # personal files get stored in a folder named heroes/user_[username]
@@ -98,7 +98,7 @@ def sign_up():
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)
-            flash('Congratulations, you are now the proud owner of a new account on this wonderful website!', category='success')
+            flash('Congratulations, you are now the proud owner, of a new account on this wonderful website!', category='success')
             return redirect(url_for('views.home'))
 
     return render_template("sign-up.html", user=current_user)
