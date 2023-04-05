@@ -16,7 +16,7 @@ window.onload = function () {
         let max = $("#lep-max").text();
         $("#pain").text(getPainLvl(curr, max));
     });
-    // setInterval(save_hero, 15000); // save hero every 15 seconds
+    // setInterval(save_hero, 5000); // save hero every 5 seconds
 };
 
 function update_current_hero(obj) {
@@ -27,7 +27,8 @@ function update_current_hero(obj) {
         $("#asp").val(),
         $("#kap").val(),
         $(".hero-select").val(),
-        wealth
+        wealth,
+        $("#schips").val()
     );
 }
 
@@ -58,7 +59,6 @@ function get_hero_and_update(obj) {
             else alert("Something went wront");
         })
         .then((jsonResponse) => {
-            console.log(jsonResponse);
             update_new_hero_stats(jsonResponse);
         });
 }
@@ -196,6 +196,7 @@ function update_new_hero_stats(hero) {
     $("#money-s").val(hero["wealth"]["s"]);
     $("#money-h").val(hero["wealth"]["h"]);
     $("#money-k").val(hero["wealth"]["k"]);
+    $("#schips").val(hero["schips"]);
     $("#armor").text(hero["armor"]);
     $("#dodge").text(hero["dodge"]);
     $("#initiative").text(hero["INI"]);
@@ -362,13 +363,14 @@ function update_new_hero_stats(hero) {
  * @param {dict} wealth
  * @returns
  */
-function newHeroObject(lep, asp, kap, name, wealth) {
+function newHeroObject(lep, asp, kap, name, wealth, schips) {
     let stats = {
         "lep_current": lep,
         "asp_current": asp,
         "kap_current": kap,
         "name": name,
         "wealth": wealth,
+        "schips": schips,
     };
     return stats;
 }
