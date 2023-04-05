@@ -39,8 +39,11 @@ def save_hero_from_request():
                             ).scalar()
 
     if hero:
-        hero.stats = {key:val for key, val in request_data.items() if key != 'name'}
-        
+        # need to make copy, otherwise change is not detected by db.session.commit()
+        new = hero.stats.copy()
+        new.update({key:val for key, val in request_data.items() if key != 'name'})
+        hero.stats = new
+
         db.session.commit()
 
         return jsonify(error=0)
