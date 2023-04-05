@@ -1,4 +1,4 @@
-heroes
+src/heroes
 src/config.json
 src/Data
 src/website/database.db
@@ -8,3 +8,4 @@ website/tools/__pycache__/
 .pytest_cache
 log
 tests
+.venv
