@@ -2,6 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_wtf.csrf import CSRFProtect
+from sqlite3 import OperationalError
 import json
 import os
 
@@ -10,19 +11,18 @@ app = Flask(__name__)
 csrf = CSRFProtect()
 
 
-def create_database(app, db_dir):
-    if not os.path.exists(db_dir):
-        db.create_all(app=app)
-        print('Created database')
-
-
 def create_admin():
     from website.models import User, Level
     from werkzeug.security import generate_password_hash
     from pathlib import Path
 
     with app.app_context():
-        admin = User.query.filter_by(username='admin').first()
+        admin = None
+        try:
+            admin = User.query.filter_by(username='admin').first()
+        except Exception as e:
+            admin = None
+
         if not admin:
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
@@ -80,9 +80,11 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     app.register_blueprint(auth, url_prefix='/')
     app.register_blueprint(req, url_prefix='/')
 
-    from .models import User
+    # importing models for database creation
+    from .models import User, Hero
 
-    create_database(app, db_dir)
+    with app.app_context():
+        db.create_all()
 
     create_admin()
 
