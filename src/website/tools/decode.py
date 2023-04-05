@@ -98,49 +98,46 @@ class Decode():
         hero_CH = cls.attributes(hero, search_for_attr=AttributeID.CH)
         hero_IN = cls.attributes(hero, search_for_attr=AttributeID.IN)
 
-        # advantages and disadvantages
-        for key, property_list in cls.activatables(hero).items():
-            # if the current property-list is empty the adv/disadv isn't in effect
-            if len(property_list) < 1:
-                continue
+        activatables = cls.activatables(hero)
 
-            if key == ActivatablesID.HIGH_ASP:
-                asp_max += property_list[0]['tier']
-
-            elif key == ActivatablesID.LOW_ASP:
-                asp_max -= property_list[0]['tier']
-
-            elif key == ActivatablesID.MAGICIAN:
-                asp_max += 20
-
-            # advantages that affect asp based on a character property
+        adv = activatables['ADV']
+        disadv = activatables['DISADV']
+        sa =  activatables['SA']
+        
+        if adv.get(ActivatablesID.HIGH_ASP):  
+            asp_max += adv[ActivatablesID.HIGH_ASP][0]['tier']
+        if disadv.get(ActivatablesID.LOW_ASP):
+            asp_max -= disadv[ActivatablesID.LOW_ASP][0]['tier']
+        if adv.get(ActivatablesID.MAGICIAN):
+            asp_max += 20
+        
+        # advantages that affect asp based on a character property
             # --- KL --- 
-            elif key == "SA_70" or key == "SA_346" or key == "SA_681":
-                asp_max += hero_KL
+        if any(key in sa for key in ["SA_70", "SA_346", "SA_681"]):
+            asp_max += hero_KL
 
-            # --- KL / 2, round up ---
-            elif key == "SA_750":
-                asp_max += math.ceil(hero_KL / 2)
-
-            # --- IN --- 
-            elif key == "SA_345":
-                asp_max += hero_IN
-
+            # --- KL / 2 ---
+        if any(key in sa for key in ["SA_750"]):
+            asp_max += math.ceil(hero_KL / 2)
+            
+            # --- IN ---
+        if any(key in sa for key in ["SA:345"]):
+            asp_max += hero_IN
+            
             # --- CH --- 
-            elif key == "SA_255" or key == "SA_676":
-                asp_max += hero_CH
+        if any(key in sa for key in ["SA_255", "SA_676"]):
+            asp_max += hero_CH
 
-            # --- CH / 2, round up ---
-            elif key == "SA_677":
-                asp_max += math.ceil(hero_CH / 2)
+            # --- CH / 2 --- 
+        if any(key in sa for key in ["SA_677"]):
+            asp_max += math.ceil(hero_CH / 2)
 
+        
         return asp_max
 
     @classmethod
     def max_kap(cls, hero:dict):
-        kap_max = 0
-
-        kap_max += cls.attributes(hero)['kp']
+        kap_max = cls.attributes(hero)['kp']
         
 
         hero_KL = cls.attributes(hero, search_for_attr=AttributeID.KL)
@@ -155,11 +152,11 @@ class Decode():
         disadv = activatables['DISADV']
         sa =  activatables['SA']
         
-        if ActivatablesID.HIGH_KAP in adv:  
+        if adv.get(ActivatablesID.HIGH_KAP):
             kap_max += adv[ActivatablesID.HIGH_KAP][0]['tier']
-        if ActivatablesID.LOW_KAP in disadv:
+        if disadv.get(ActivatablesID.LOW_KAP):
             kap_max -= disadv[ActivatablesID.LOW_KAP][0]['tier']
-        if ActivatablesID.PRIEST in adv:
+        if adv.get(ActivatablesID.PRIEST):
             kap_max += 20
         
         # advantages that affect kap based on a character property
