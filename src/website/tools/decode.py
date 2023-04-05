@@ -34,7 +34,7 @@ class Decode():
         stats['INI'] = cls.initiative(hero)
         stats['dodge'] = cls.dodge(hero)
         stats['blessings'] = cls.blessings(hero)
-        # stats['activatables'] = cls.activatables(hero)
+        stats['activatables'] = cls.activatables(hero)
 
         # initialize hero effects
         stats['desire'] = 0
@@ -150,38 +150,34 @@ class Decode():
 
         # advantages and disadvantages
         activatables = cls.activatables(hero)
-        for key in activatables:
-            # if found property-list is empty adv/disadv isn't active
-            property_list = activatables[key]
-            if len(property_list) < 1:
-                continue
+        
+        adv = activatables['ADV']
+        disadv = activatables['DISADV']
+        sa =  activatables['SA']
+        
+        if ActivatablesID.HIGH_KAP in adv:  
+            kap_max += adv[ActivatablesID.HIGH_KAP][0]['tier']
+        if ActivatablesID.LOW_KAP in disadv:
+            kap_max -= disadv[ActivatablesID.LOW_KAP][0]['tier']
+        if ActivatablesID.PRIEST in adv:
+            kap_max += 20
+        
+        # advantages that affect kap based on a character property
+            # --- MU --- 
+        if any(key in sa for key in ["SA_682", "SA_683", "SA_689", "SA_693", "SA_696", "SA_698"]):
+            kap_max += hero_MU
 
+            # --- KL ---
+        if any(key in sa for key in ["SA_86", "SA_684", "SA_688", "SA_697", "SA_1049"]):
+            kap_max += hero_KL
             
-            if key == ActivatablesID.HIGH_KAP:
-                kap_max += property_list[0]['tier']
-
-            elif key == ActivatablesID.LOW_KAP:
-                kap_max -= property_list[0]['tier']
-
-            elif key == ActivatablesID.PRIEST:
-                kap_max += 20
-
-                # advantages that affect kap based on a character property
-                # --- MU --- 
-            elif key == "SA_682" or key == "SA_683" or key == "SA_689" or key == "SA_693" or key == "SA_696" or key == "SA_698":
-                kap_max += hero_MU
-
-                # --- KL --- 
-            elif key == "SA_86" or key == "SA_684" or key == "SA_688" or key == "SA_697" or key == "SA_1049":
-                kap_max += hero_KL
-
-                # --- IN --- 
-            elif key == "SA_685" or key == 'SA_686' or key == "SA_691" or key == 'SA_694':
-                kap_max += hero_IN
-
-                # --- CH --- 
-            elif key == "SA_687" or key == "SA_692" or key == 'SA_695' or key == 'SA_690':
-                kap_max += hero_CH
+            # --- IN ---
+        if any(key in sa for key in ['SA_685', 'SA_686', 'SA_691', 'SA_694']):
+            kap_max += hero_IN
+            
+            # --- CH --- 
+        if any(key in sa for key in ['SA_687', 'SA_692', 'SA_695', 'SA_690']):
+            kap_max += hero_CH
         
         return kap_max
 
@@ -230,8 +226,15 @@ class Decode():
                     return attr['value']
 
     @classmethod
-    def activatables(cls, hero:dict)    -> dict:
+    def activatables(cls, hero:dict, detailed=False)    -> dict:
         activatables = {'ADV': dict(), 'DISADV': dict(), "SA": dict()}
+        
+        if not detailed:
+            activatables['ADV'] = {key: val for key, val in hero['activatable'].items() if key.startswith('ADV_')}
+            activatables['DISADV'] = {key: val for key, val in hero['activatable'].items() if key.startswith('DISADV_')}
+            activatables['SA'] = {key: val for key, val in hero['activatable'].items() if key.startswith('SA_')}
+            return activatables
+
 
         for act_key, act_val in hero['activatable'].items():
             if act_key.startswith('ADV_'):
