@@ -1,9 +1,12 @@
-import json
 import math
 from ..constants import LITURGIES, BLESSINGS, SPELLS, SPECIAL_ABILITIES, SKILLS
 import logging
-import sys
-logging.basicConfig(file="log\\log.txt", level=logging.DEBUG)
+import os
+import json
+
+log_path = os.path.join(os.getcwd(), "log", "log.txt")
+
+logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s', filename=log_path, level=logging.DEBUG, encoding='utf-8')
 
 
 class Decode():
@@ -31,7 +34,7 @@ class Decode():
         stats['INI'] = cls.initiative(hero)
         stats['dodge'] = cls.dodge(hero)
         stats['blessings'] = cls.blessings(hero)
-        stats['activatables'] = cls.activatables(hero)
+        # stats['activatables'] = cls.activatables(hero)
 
         # initialize hero effects
         stats['desire'] = 0
@@ -41,6 +44,7 @@ class Decode():
         stats['paralysis'] = 0
         stats['pain'] = 0
         stats['confusion'] = 0
+        stats['schips'] = 0
 
         return stats
 
@@ -73,9 +77,9 @@ class Decode():
         activatables = cls.activatables(hero)
 
         if ActivatablesID.HIGH_LEP in activatables['ADV']:  
-            lep_max += activatables[ActivatablesID.HIGH_LEP][0]['tier']
+            lep_max += activatables['ADV'][ActivatablesID.HIGH_LEP][0]['tier']
         elif ActivatablesID.LOW_LEP in activatables['DISADV']:
-            lep_max -= activatables[ActivatablesID.LOW_LEP][0]['tier']
+            lep_max -= activatables['DISADV'][ActivatablesID.LOW_LEP][0]['tier']
 
         return lep_max
     
@@ -203,7 +207,7 @@ class Decode():
                 enc = items[item]['enc']
         
         if ActivatablesID.REDUCE_ENC in cls.activatables(hero=hero):
-            enc -= cls.activatables(hero=hero)[ActivatablesID][0]['tier']
+            enc -= cls.activatables(hero=hero)[ActivatablesID.REDUCE_ENC][0]['tier']
 
         enc = enc if enc >= 0 else 0 # reduce but not below zero
 
@@ -229,64 +233,69 @@ class Decode():
     def activatables(cls, hero:dict)    -> dict:
         activatables = {'ADV': dict(), 'DISADV': dict(), "SA": dict()}
 
-        # for act_key, act_val in hero['activatable'].items():
-        #     if act_key.startswith('ADV_'):
-        #         activatables['ADV'][act_key] = act_val
-        #     elif act_key.startswith('DISADV_'):
-        #         activatables['DISADV'][act_key] = act_val
-        #     elif act_key.startswith('SA_'):
-        #         # if value is empty, hero does curently not posess this SA
-        #         if not act_val:
-        #             continue
+        for act_key, act_val in hero['activatable'].items():
+            if act_key.startswith('ADV_'):
+                activatables['ADV'][act_key] = act_val
+            elif act_key.startswith('DISADV_'):
+                activatables['DISADV'][act_key] = act_val
+            elif act_key.startswith('SA_'):
+                # if value is empty, hero does curently not posess this SA
+                if not act_val:
+                    continue
                 
-        #         # one SA can have multiple variations 
-        #         # e.g there are different languages though they are still the same SA 
-        #         for sa_variation in act_val:
-        #             # if the length of the dictionary inside the list is > 0 it's an SA with different types (and levels)
-        #             # e.g. each individual language has a type (which language) and a tier/level
-        #             if len(sa_variation) > 0:
-        #                 sa_vari_keys = sa_variation.keys()
-        #                 # possible keys in dictionary are sid, sid2, tier
-        #                 if 'sid' in sa_vari_keys:
-        #                     sid = sa_variation['sid']
-        #                     if type(sid) == int:
-        #                         # if sid is numeric it is an option which can be found 
-        #                         # in the sub-dictionary 'selectOptions' from the special abilities
-        #                         sid = str(sid)
-        #                         activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
-        #                         if act_key != 'SA_663':
-        #                             logging.debug(f"{act_key=}, {sa_variation=}, {act_val=}")
-        #                             activatables['SA'][act_key].update(SPECIAL_ABILITIES[act_key]['selectOptions'][sid])
-        #                         else:
-        #                              activatables['SA'][act_key].update(SPECIAL_ABILITIES[act_key])
-        #                              activatables['SA'][act_key]['sid'] = sid
-        #                     else:
-        #                         activatable_data = dict()
-        #                         category = sid.split('_')[0]
-        #                         if category == "TAL":
-        #                             activatable_data = SKILLS[sid]
-        #                         elif category == "LITURGY":
-        #                             activatable_data = LITURGIES[sid]
-        #                         elif category == "SPELL":
-        #                             activatable_data = SPELLS[sid]
-        #                         elif category == "SA":
-        #                             activatable_data = SPECIAL_ABILITIES[sid]
-        #                         else:
-        #                             activatable_data = {'name': sid}
+                # one SA can have multiple variations 
+                # e.g there are different languages though they are still the same SA 
+                for sa_variation in act_val:
+                    # if the length of the dictionary inside the list is > 0 it's an SA with different types (and levels)
+                    # e.g. each individual language has a type (which language) and a tier/level
+                    if len(sa_variation) > 0:
+                        try:
+                            sa_vari_keys = sa_variation.keys()
+                            # possible keys in dictionary are sid, sid2, tier
+                            if 'sid' in sa_vari_keys:
+                                sid = sa_variation['sid']
+                                if type(sid) == int:
+                                    # if sid is numeric it is an option which can be found 
+                                    # in the sub-dictionary 'selectOptions' from the special abilities
+                                    sid = str(sid)
+                                    activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
 
-        #                         activatables['SA'][act_key] = activatable_data
+                                    # extensions must be handled differently
+                                    if act_key == 'SA_663' or act_key == 'SA_414':
+                                        activatables['SA'][act_key].update(SPECIAL_ABILITIES[act_key])
+                                        activatables['SA'][act_key]['sid'] = sid
+                                    else:
+                                        logging.debug(f"{act_key=}, {sa_variation=}, {act_val=}")
+                                        activatables['SA'][act_key].update(SPECIAL_ABILITIES[act_key]['selectOptions'][sid])
 
-        #                         if 'sid2' in sa_vari_keys:
-        #                             sid2 = str(sa_variation['sid2'])
-        #                             activatables['SA'][act_key]['application'] = SKILLS[sid]['applications'][sid2]
+                                else:
+                                    activatable_data = dict()
+                                    category = sid.split('_')[0]
+                                    if category == "TAL":
+                                        activatable_data = SKILLS[sid]
+                                    elif category == "LITURGY":
+                                        activatable_data = LITURGIES[sid]
+                                    elif category == "SPELL":
+                                        activatable_data = SPELLS[sid]
+                                    elif category == "SA":
+                                        activatable_data = SPECIAL_ABILITIES[sid]
+                                    else:
+                                        activatable_data = {'name': sid}
 
-        #                 if 'tier' in sa_vari_keys:
-        #                     activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
-        #                     activatables['SA'][act_key]['tier'] = sa_variation['tier']
+                                    activatables['SA'][act_key] = activatable_data
+
+                                    if 'sid2' in sa_vari_keys:
+                                        sid2 = str(sa_variation['sid2'])
+                                        activatables['SA'][act_key]['application'] = SKILLS[sid]['applications'][sid2]
+                        except Exception as e:
+                            logging.error(f"{e=}, hero={cls.name(hero)}\n")
+
+                        if 'tier' in sa_vari_keys:
+                            activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
+                            activatables['SA'][act_key]['tier'] = sa_variation['tier']
                             
-        #             else:
-        #                 activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
-        
+                    else:
+                        activatables['SA'][act_key] = SPECIAL_ABILITIES[act_key]
         return activatables
 
     @classmethod
@@ -305,7 +314,6 @@ class Decode():
             if lit is not None:
                 lit['FW'] = hero['liturgies'][l]
                 hero_liturgies[l] = lit
-                
         return hero_liturgies
 
     @classmethod

@@ -105,6 +105,17 @@
                 value="0"
             />
         </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Schips</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control hero-stat-input"
+                id="schips"
+                value="0"
+            />
+        </div>
     </div>
 </div>
 
@@ -207,297 +218,303 @@
             </div>
             <hr class="mt-0 mb-3" />
             <!-- conditions main content -->
-            <div class="row">
-                <div class="col text-left">
-                    <p>Animosität</p>
+            <div>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Animosität</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Willenskraft bei Unterdrückung von Feindseligkeit</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Willenskraft bei Unterdrückung von Feindseligkeit</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Begehren</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Begehren</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Willenskraft (gegen die begehrte Person)</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Willenskraft (gegen die begehrte Person)</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Belastung</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Belastung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <p class="text-center mx-auto" id="encumbrance">0</p>
+                    </div>
+                    <div class="col text-end">
+                        <p>Körpertalente, Verteidigung, AT, INI, GS</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <p class="text-center mx-auto" id="encumbrance">0</p>
-                </div>
-                <div class="col text-end">
-                    <p>Körpertalente, Verteidigung, AT, INI, GS</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Berauscht</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Berauscht</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Proben auf Zechen</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Proben auf Zechen</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Betäubung</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Betäubung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Alle Proben</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Brazirakus heilige Wut</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Brazirakus heilige Wut</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Siehe Regelwerk für exakte Auswirkung.</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Siehe Regelwerk für exakte Auswirkung.</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Dämonische Auszehrung</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Dämonische Auszehrung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben. Weniger AsP und KaP Regeneration.</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Alle Proben. Weniger AsP und KaP Regeneration.</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Entrückung</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Entrückung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Siehe Regelwerk für exakte Auswirkung.</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Siehe Regelwerk für exakte Auswirkung.</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Erregung</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Erregung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="3"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Teilproben auf KL. (Stufe 4 ist Orgasmus)</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="3"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Alle Teilproben auf KL. (Stufe 4 ist Orgasmus)</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Furcht</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Furcht</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Alle Proben</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Paralyse</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Paralyse</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Bewegung oder Sprache, GS: -25% * Stufe</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Bewegung oder Sprache, GS: -25% * Stufe</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Schmerz</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Schmerz</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <p class="text-center mx-auto" id="pain">0</p>
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben, GS</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <p class="text-center mx-auto" id="pain">0</p>
-                </div>
-                <div class="col text-end">
-                    <p>Alle Proben, GS</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Sikaryan-Verlust</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Sikaryan-Verlust</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Siehe Regelwerk für exakte Auswirkung.</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Siehe Regelwerk für exakte Auswirkung.</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Theriak-Vorrat</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Theriak-Vorrat</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>
+                            Pro Stufe +1 LeP Regeneration. Für Proben siehe RW.
+                        </p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Pro Stufe +1 LeP Regeneration. Für Proben siehe RW.</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Trance</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Trance</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Siehe Regelwerk für exakte Auswirkung.</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Siehe Regelwerk für exakte Auswirkung.</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Verwirrung</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Verwirrung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben</p>
+                    </div>
                 </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Alle Proben</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col text-left">
-                    <p>Überanstrengung</p>
-                </div>
-                <div class="col col-1 text-center">
-                    <input
-                        type="number"
-                        min="0"
-                        max="4"
-                        value="0"
-                        class="effect-level text-center"
-                    />
-                </div>
-                <div class="col text-end">
-                    <p>Wissenstalente. Für LeP/AsP/KaP Regeneration s. RW.</p>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Überanstrengung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>
+                            Wissenstalente. Für LeP/AsP/KaP Regeneration s. RW.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -544,7 +561,12 @@
             role="tabpanel"
             aria-labelledby="special-abilities-tab"
         >
-            fuck you special abilities
+            <div class="row justify-content-between">
+                <div class="col">Sonderfertigkeit</div>
+            </div>
+
+            <hr />
+            <div id="sa-content"></div>
         </div>
     </div>
 </section>
