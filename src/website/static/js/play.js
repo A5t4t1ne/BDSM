@@ -251,7 +251,7 @@ function update_new_hero_stats(hero) {
             }
 
             liturgic_content +=
-                '<div class="row liturgy">' +
+                '<div class="row activatable">' +
                 `<div class="col">${lit_stats["name"]}</div>` +
                 `<div class="col text-center">${castingTime}</div>` +
                 `<div class="col text-end">${lit_stats["duration"]}</div>` +
@@ -285,7 +285,7 @@ function update_new_hero_stats(hero) {
             let checks = check1 + " / " + check2 + " / " + check3;
 
             spell_content +=
-                '<div class="row liturgy">' +
+                '<div class="row activatable">' +
                 `<div class="col">${spell_stats["name"]}</div>` +
                 `<div class="col text-center">${spell_stats["castingTime"]}</div>` +
                 `<div class="col text-end">${spell_stats["duration"]}</div>` +
@@ -338,7 +338,7 @@ function update_new_hero_stats(hero) {
         //         checks = check1 + " / " + check2 + " / " + check3;
         //     }
         //     sa_content +=
-        //         '<div class="row liturgy">' +
+        //         '<div class="row activatable">' +
         //         `<div class="col">${lit_stats["name"]}</div>` +
         //         `<div class="col text-center">${castingTime}</div>` +
         //         `<div class="col text-end">${lit_stats["duration"]}</div>` +
