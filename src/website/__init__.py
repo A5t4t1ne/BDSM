@@ -83,8 +83,9 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     # importing models for database creation
     from .models import User, Hero
 
-    with app.app_context():
-        db.create_all()
+    if not os.path.exists(db_dir):
+        with app.app_context():
+            db.create_all()
 
     create_admin()
 
