@@ -20,20 +20,15 @@ def data_request():
                                 Hero.user_id == current_user.id, 
                                 Hero.secure_name == request_data['name'])
                             ).scalar()
-    sorted_hero_stats = json.dumps(hero.stats, sort_keys=True)
   
     if not hero:
         return jsonify(None)
 
-    hero = Decode.decode_all(hero=hero.stats)
-    
-<<<<<<< HEAD
-    return sorted_hero_stats
+    decoded_stats = Decode.decode_all(hero=hero.stats)
+
+    return decoded_stats
 
 
-=======
-    return jsonify(hero)
->>>>>>> cf369aa9c4d1313fe8d0f9d3a6820d76da6f27fe
 
 @req.route('/save-hero', methods=['POST'])
 @login_required
