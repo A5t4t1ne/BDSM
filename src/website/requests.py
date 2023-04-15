@@ -24,10 +24,16 @@ def data_request():
   
     if not hero:
         return jsonify(None)
+
+    hero = Decode.decode_all(hero=hero.stats)
     
+<<<<<<< HEAD
     return sorted_hero_stats
 
 
+=======
+    return jsonify(hero)
+>>>>>>> cf369aa9c4d1313fe8d0f9d3a6820d76da6f27fe
 
 @req.route('/save-hero', methods=['POST'])
 @login_required
