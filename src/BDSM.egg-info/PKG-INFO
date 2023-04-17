@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: BDSM
+Version: 0.2.0
+Summary: Browser DSA stat Manager. Helps keeping track of your DSA character while playing.
+Author-email: David Jäggli <dev.bdsm@pm.me>
+Project-URL: Homepage, https://github.com/Jave01/BDSM
+Project-URL: Bug Tracker, https://github.com/Jave01/BDSM/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.md
+
 # BDSM
 
 Of course it stands for: **_Browser DSA Stat Manager_** and nothing else you horny guys.  

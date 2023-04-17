@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+
+[project]
+name = "BDSM"
+version = "0.2.0"
+authors = [
+  { name="David Jäggli", email="dev.bdsm@pm.me"}
+]
+description = "Browser DSA stat Manager. Helps keeping track of your DSA character while playing."
+readme = "README.md"
+requires-python = ">=3.7"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License"
+]
+
+dependencies = [
+    "Flask==2.2.3",
+    "Flask-Login==0.6.2",
+    "Flask-SQLAlchemy==3.0.3",
+    "Flask-WTF==1.0.1",
+    "WTForms==3.0.1",
+    "gunicorn==20.1.0",
+    "SQLAlchemy==1.4.39",
+    "pyyaml==6.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Jave01/BDSM"
+"Bug Tracker" = "https://github.com/Jave01/BDSM/issues"
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = "-ra -v"
+minversion = 7.0
+pythonpath = ["src"]
+testpaths = ["tests"]

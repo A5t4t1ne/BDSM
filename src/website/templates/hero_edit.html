@@ -1,0 +1,58 @@
+{% extends "base.html" %}{% block title %}Account{% endblock %} {% block
+content%}
+<h1>Hero edit</h1>
+<hr />
+{% if hero != None %}
+<h2>{{ hero.name }}</h2>
+<form
+    action="{{ url_for('views.edit_hero', hero_name=hero.secure_name) }}"
+    method="POST"
+>
+    <input
+        type="hidden"
+        id="csrf_token"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    />
+    <div class="row">
+        <div class="col input-group">
+            <span class="input-group-text">Max LeP</span>
+            <input
+                type="number"
+                class="form-control"
+                id="max_lep"
+                name="max_lep"
+                value="{{ hero.stats['lep_max'] }}"
+            />
+        </div>
+        <div class="col input-group">
+            <span class="input-group-text">Max AsP</span>
+            <input
+                type="number"
+                class="form-control"
+                id="max_asp"
+                name="max_asp"
+                value="{{ hero.stats['asp_max'] }}"
+            />
+        </div>
+        <div class="col input-group">
+            <span class="input-group-text">Max KaP</span>
+            <input
+                type="number"
+                class="form-control"
+                id="max_kap"
+                name="max_kap"
+                value="{{ hero.stats['kap_max'] }}"
+            />
+        </div>
+    </div>
+    <input class="btn btn-primary px-5 my-3" type="submit" value="Save" />
+</form>
+{% else %}
+<p>Hero not found</p>
+{% endif %} {% endblock %} {% block additional_scripts %}
+<script
+    type="text/javascript"
+    src="{{ url_for('static', filename='js/hero_edit.js') }}"
+></script>
+{% endblock %}

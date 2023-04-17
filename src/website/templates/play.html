@@ -1,0 +1,578 @@
+{% extends "base.html" %} {% block head_additions %}
+<link rel="stylesheet" href="../static/styles/play.css" />
+{% endblock %} {% block title %}Play{% endblock %} {% block content %}
+<br />
+
+<div class="stat-container">
+    <input
+        type="hidden"
+        id="csrf_token"
+        name="csrf_token"
+        value="{{ csrf_token() }}"
+    />
+    <select class="form-select mb-4 hero-select" airia-label="Hero selection">
+        {% if current_user.heroes %} {% for hero in current_user.heroes %}
+        <option value="{{hero.secure_name}}">{{hero.name}}</option>
+        {% endfor %} {% else %}
+        <option value="-1">
+            Consider uploading a hero on the Overview page
+        </option>
+        {% endif %}
+    </select>
+
+    <!-- Health, Astral-, Karmalpoints-->
+    <div class="row">
+        <div class="col input-group">
+            <span class="input-group-text">Lebenspunkte</span>
+            <input
+                type="number"
+                class="form-control hero-stat-input"
+                id="lep"
+                value="0"
+            />
+            <span class="input-group-text" id="lep-max">/ 0</span>
+        </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Astralpunkte</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control hero-stat-input"
+                id="asp"
+                value="0"
+            />
+            <span class="input-group-text" id="asp-max">/ 0</span>
+        </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Karmalpunkte</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control hero-stat-input"
+                id="kap"
+                value="0"
+            />
+            <span class="input-group-text" id="kap-max">/ 0</span>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- Money -->
+    <div class="row">
+        <div class="col input-group">
+            <span class="input-group-text">Dukaten</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control money-input hero-stat-input"
+                id="money-d"
+                value="0"
+            />
+        </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Silbertaler</span>
+            <input
+                type="number"
+                min="-1"
+                class="form-control money-input hero-stat-input"
+                id="money-s"
+                value="0"
+            />
+        </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Heller</span>
+            <input
+                type="number"
+                min="-1"
+                class="form-control money-input hero-stat-input"
+                id="money-h"
+                value="0"
+            />
+        </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Kreuzer</span>
+            <input
+                type="number"
+                min="-1"
+                class="form-control money-input hero-stat-input"
+                id="money-k"
+                value="0"
+            />
+        </div>
+
+        <div class="col input-group">
+            <span class="input-group-text">Schips</span>
+            <input
+                type="number"
+                min="0"
+                class="form-control hero-stat-input"
+                id="schips"
+                value="0"
+            />
+        </div>
+    </div>
+</div>
+
+<!-- Basic combat -->
+<div class="stat-container">
+    <div class="row">
+        <div class="col">
+            <p>Rüstung: <span id="armor">0</span></p>
+        </div>
+        <div class="col text-center">
+            <p>Ausweichen: <span id="dodge">-</span></p>
+        </div>
+        <div class="col text-end">
+            <p>Initiative: <span id="initiative">0</span></p>
+        </div>
+    </div>
+</div>
+
+<!-- tabs headers -->
+<ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button
+            class="nav-link active"
+            id="effects-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#effects"
+            type="button"
+            role="tab"
+            aria-controls="effects"
+            aria-selected="true"
+        >
+            Zustände
+        </button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button
+            class="nav-link"
+            id="liturgies-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#liturgies"
+            type="button"
+            role="tab"
+            aria-controls="liturgies"
+            aria-selected="false"
+        >
+            Liturgien
+        </button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button
+            class="nav-link"
+            id="spells-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#spells"
+            type="button"
+            role="tab"
+            aria-controls="spells"
+            aria-selected="false"
+        >
+            Zaubersprüche
+        </button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button
+            class="nav-link"
+            id="special-abilities-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#special-abilities"
+            type="button"
+            role="tab"
+            aria-controls="special-abilities"
+            aria-selected="false"
+        >
+            Sonderfertigkeiten
+        </button>
+    </li>
+</ul>
+
+<!-- tabs content -->
+<section class="px-2 my-2">
+    <div class="tab-content pt-3">
+        <!-- conditions -->
+        <div
+            class="tab-pane fade show active"
+            id="effects"
+            role="tabpanel"
+            aria-labelledby="effects-tab"
+        >
+            <!-- headers -->
+            <div class="row justify-content-between">
+                <div class="col">
+                    <p class="big-paragraph">Zustand</p>
+                </div>
+                <div class="col text-center">
+                    <p class="big-paragraph">Stufe</p>
+                </div>
+                <div class="col text-end">
+                    <p class="big-paragraph">Auswirkung</p>
+                </div>
+            </div>
+            <hr class="mt-0 mb-3" />
+            <!-- conditions main content -->
+            <div>
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Animosität</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Willenskraft bei Unterdrückung von Feindseligkeit</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Begehren</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Willenskraft (gegen die begehrte Person)</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Belastung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <p class="text-center mx-auto" id="encumbrance">0</p>
+                    </div>
+                    <div class="col text-end">
+                        <p>Körpertalente, Verteidigung, AT, INI, GS</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Berauscht</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Proben auf Zechen</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Betäubung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Brazirakus heilige Wut</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Siehe Regelwerk für exakte Auswirkung.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Dämonische Auszehrung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben. Weniger AsP und KaP Regeneration.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Entrückung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Siehe Regelwerk für exakte Auswirkung.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Erregung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="3"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Teilproben auf KL. (Stufe 4 ist Orgasmus)</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Furcht</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Paralyse</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Bewegung oder Sprache, GS: -25% * Stufe</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Schmerz</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <p class="text-center mx-auto" id="pain">0</p>
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben, GS</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Sikaryan-Verlust</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Siehe Regelwerk für exakte Auswirkung.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Theriak-Vorrat</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>
+                            Pro Stufe +1 LeP Regeneration. Für Proben siehe RW.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Trance</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Siehe Regelwerk für exakte Auswirkung.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Verwirrung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>Alle Proben</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-left">
+                        <p>Überanstrengung</p>
+                    </div>
+                    <div class="col col-1 text-center">
+                        <input
+                            type="number"
+                            min="0"
+                            max="4"
+                            value="0"
+                            class="effect-level text-center"
+                        />
+                    </div>
+                    <div class="col text-end">
+                        <p>
+                            Wissenstalente. Für LeP/AsP/KaP Regeneration s. RW.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- liturgies -->
+        <div
+            class="tab-pane fade"
+            id="liturgies"
+            role="tabpanel"
+            aria-labelledby="liturgies-tab"
+        >
+            <div class="row justify-content-between">
+                <div class="col">Liturgie</div>
+                <div class="col text-center">Liturgiedauer</div>
+                <div class="col text-center">Wirkungsdauer</div>
+                <div class="col text-center">Fertigkeitswert</div>
+                <div class="col text-end">Probe</div>
+            </div>
+
+            <hr />
+            <div id="liturgies-content"></div>
+        </div>
+        <!-- spells -->
+        <div
+            class="tab-pane fade"
+            id="spells"
+            role="tabpanel"
+            aria-labelledby="spells-tab"
+        >
+            <div class="row justify-content-between">
+                <div class="col">Zauberspruch</div>
+                <div class="col text-center">Zauberdauer</div>
+                <div class="col text-center">Wirkungsdauer</div>
+                <div class="col text-center">Fertigkeitswert</div>
+                <div class="col text-end">Probe</div>
+            </div>
+
+            <hr />
+            <div id="spells-content"></div>
+        </div>
+        <!-- special abilities -->
+        <div
+            class="tab-pane fade"
+            id="special-abilities"
+            role="tabpanel"
+            aria-labelledby="special-abilities-tab"
+        >
+            <div class="row justify-content-between">
+                <div class="col">Sonderfertigkeit</div>
+            </div>
+
+            <hr />
+            <div id="sa-content"></div>
+        </div>
+    </div>
+</section>
+{% endblock %} {% block additional_scripts %}
+<script
+    type="text/javascript"
+    src="{{ url_for('static', filename='js/play.js') }}"
+></script>
+{% endblock %}
