@@ -1,0 +1,42 @@
+{
+    "ATTR_1": {
+        "ATTR_ID": "ATTR_1",
+        "name": "Mut",
+        "short": "MU"
+    },
+    "ATTR_2": {
+        "ATTR_ID": "ATTR_2",
+        "name": "Klugheit",
+        "short": "KL"
+    },
+    "ATTR_3": {
+        "ATTR_ID": "ATTR_3",
+        "name": "Intuition",
+        "short": "IN"
+    },
+    "ATTR_4": {
+        "ATTR_ID": "ATTR_4",
+        "name": "Charisma",
+        "short": "CH"
+    },
+    "ATTR_5": {
+        "ATTR_ID": "ATTR_5",
+        "name": "Fingerfertigkeit",
+        "short": "FF"
+    },
+    "ATTR_6": {
+        "ATTR_ID": "ATTR_6",
+        "name": "Gewandtheit",
+        "short": "GE"
+    },
+    "ATTR_7": {
+        "ATTR_ID": "ATTR_7",
+        "name": "Konstitution",
+        "short": "KO"
+    },
+    "ATTR_8": {
+        "ATTR_ID": "ATTR_8",
+        "name": "Körperkraft",
+        "short": "KK"
+    }
+}

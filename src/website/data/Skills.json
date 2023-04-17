@@ -1,0 +1,4864 @@
+{
+    "TAL_1": {
+        "applications": {
+            "-1": {
+                "name": "Kunstflug"
+            },
+            "1": {
+                "name": "Kampfmanöver"
+            },
+            "2": {
+                "name": "Langstreckenflug"
+            },
+            "3": {
+                "name": "Verfolgungsjagden"
+            }
+        },
+        "botch": "Der Held stürzt ab.\n",
+        "critical": "Dem Held ist nicht nur das Manöver gelungen, sondern er hat eine zusätzliche Aktion in dieser Runde.\n",
+        "failed": "Das Flugmanöver ist misslungen und muss abgebrochen werden.\n",
+        "name": "Fliegen",
+        "quality": "Distanzen können schneller überwunden werden.\n",
+        "src": [
+            {
+                "firstPage": 188,
+                "id": "US25001"
+            }
+        ],
+        "tools": "das entsprechende Fluggerät",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1014"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "B"
+        }
+    },
+    "TAL_10": {
+        "applications": {
+            "-4": {
+                "name": "Fuchssinn"
+            },
+            "-3": {
+                "name": "Gespür für das Böse"
+            },
+            "-2": {
+                "name": "Magiegespür"
+            },
+            "-1": {
+                "name": "Lippenlesen"
+            },
+            "1": {
+                "name": "Hinterhalt entdecken"
+            },
+            "2": {
+                "name": "Suchen"
+            },
+            "3": {
+                "name": "Wahrnehmen"
+            }
+        },
+        "botch": "Der Held nimmt etwas anderes wahr, als das, was wirklich wichtig wäre. Er könnte zum Beispiel die in der Nähe befindlichen Blumen riechen, dafür aber nicht den auffällig stinkenden Oger, der an ihn heranschleicht.\n",
+        "critical": "Der Held nimmt sogar kaum bemerkbare Details wahr. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "encDescription": "nein (eventuell ja bei Helmen, Panzerhandschuhen o. Ä.)",
+        "failed": "Der Held bemerkt nichts.\n",
+        "name": "Sinnesschärfe",
+        "quality": "Der Held bemerkt weitere Details.\n",
+        "src": [
+            {
+                "firstPage": 191,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_20"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_149"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_584"
+                    }
+                },
+                {
+                    "id": -4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "ADV_10"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "maybe",
+            "gr": 1,
+            "ic": "D"
+        }
+    },
+    "TAL_11": {
+        "applications": {
+            "1": {
+                "name": "Dorftanz"
+            },
+            "2": {
+                "name": "Exotischer Tanz"
+            },
+            "3": {
+                "name": "Hoftanz"
+            },
+            "4": {
+                "name": "Kulttanz"
+            }
+        },
+        "botch": "Der Held tritt seiner Tanzpartnerin auf die Füße und verletzt sie dabei oder er stürzt und blamiert sich.\n",
+        "critical": "Die Aufmerksamkeit der Zuschauer fällt wegen des perfekten Tanzes auf den Helden. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "failed": "Der Held bringt die Tanzschritte durcheinander.\n",
+        "name": "Tanzen",
+        "quality": "Der Tanz ist so gut, dass der Held mehr Applaus erhält.\n",
+        "src": [
+            {
+                "firstPage": 192,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "A",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_997",
+                        "sid": "TAL_11"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1025"
+                    }
+                },
+                {
+                    "id": 3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1160"
+                    }
+                },
+                {
+                    "id": 4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1180"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Beeindruckende Vorstellung"
+            },
+            {
+                "id": 2,
+                "name": "Sinnlicher Tanz"
+            },
+            {
+                "id": 3,
+                "name": "Erotiktänzer/in"
+            },
+            {
+                "id": 4,
+                "name": "Nackttänzer/in"
+            }
+        ]
+    },
+    "TAL_12": {
+        "applications": {
+            "1": {
+                "name": "Ablenkungen"
+            },
+            "2": {
+                "name": "Person bestehlen"
+            },
+            "3": {
+                "name": "Gegenstand entwenden"
+            },
+            "4": {
+                "name": "Zustecken"
+            }
+        },
+        "botch": "Der Held wird von umstehenden Personen oder dem Opfer beobachtet, ohne es zu bemerken, und der Diebstahlversuch misslingt. Außerdem ist er *Überrascht*.\n",
+        "critical": "Das Opfer hat den Diebstahlversuch nicht bemerkt und der Held hat besonders wertvolle Beute gemacht oder gleich mehrere Ziele bestohlen. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "failed": "Der Versuch misslingt oder das Opfer bemerkt den Diebstahl.\n",
+        "name": "Taschendiebstahl",
+        "quality": "Der Taschendiebstahl wird später bemerkt.\n",
+        "src": [
+            {
+                "firstPage": 192,
+                "id": "US25001"
+            }
+        ],
+        "tools": "eventuell Messer oder Dolch",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "B"
+        }
+    },
+    "TAL_13": {
+        "applications": {
+            "1": {
+                "name": "Gegenstände verbergen"
+            },
+            "2": {
+                "name": "Schleichen"
+            },
+            "3": {
+                "name": "Sich verstecken"
+            }
+        },
+        "botch": "Irgendetwas (Teller, ein Möbelstück) ist umgefallen.\n",
+        "critical": "Der Held hat ein perfektes Versteck gefunden oder ist lautlos wie eine Katze. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "failed": "Der Held hat sich nur dürftig versteckt oder Geräusche beim Schleichen verursacht.\n",
+        "name": "Verbergen",
+        "quality": "Der Held kann schwieriger entdeckt werden oder findet schneller ein Versteck.\n",
+        "src": [
+            {
+                "firstPage": 193,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "C",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1009"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Hinterhaltsspezialist"
+            }
+        ]
+    },
+    "TAL_14": {
+        "applications": {
+            "1": {
+                "name": "Vermeidung von Betäubung durch Rauschmittel"
+            },
+            "2": {
+                "name": "Vermeidung von Schmerz durch Rauschmittel"
+            },
+            "3": {
+                "name": "Vermeidung von Verwirrung durch Rauschmittel"
+            }
+        },
+        "botch": "Der Held begeht in seinem Zustand jedwede Peinlichkeit. Er zerlegt die halbe Taverne, wacht morgens nackt auf dem Markt oder in einem fremden Bett auf, plaudert Geheimnisse an den Feind aus und kann sich danach an nichts mehr erinnern.\n",
+        "critical": "Dem Helden gelingt es, bis zum bitteren Ende durchzuhalten, und trotzdem geht es ihm am nächsten Morgen blendend.\n",
+        "failed": "Der Held erhält eine Stufe des Zustands *Betäubung* und erwacht am nächsten Tag mit Kopfschmerzen oder anderen unliebsamen Auswirkungen seines Gelages.\n",
+        "name": "Zechen",
+        "quality": "Der Held verträgt viel mehr als üblich.\n",
+        "src": [
+            {
+                "firstPage": 193,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "false",
+            "gr": 1,
+            "ic": "A"
+        }
+    },
+    "TAL_15": {
+        "applications": {
+            "-1": {
+                "name": "Hetzschriften"
+            },
+            "1": {
+                "name": "Diskussionsführung"
+            },
+            "2": {
+                "name": "Einzelgespräch"
+            },
+            "3": {
+                "name": "Öffentliche Rede"
+            }
+        },
+        "botch": "Das Opfer fühlt sich vom Prediger beleidigt oder für dumm verkauft.\n",
+        "critical": "Das Opfer der Überzeugungsversuche ist vollends überzeugt.\n",
+        "failed": "Das Opfer glaubt dem Prediger nicht.\n",
+        "name": "Bekehren & Überzeugen",
+        "quality": "Mehr Menschen lassen sich von dem Helden bekehren, oder der Bekehrte folgt seiner neuen Überzeugung länger.\n",
+        "src": [
+            {
+                "firstPage": 194,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 3
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "false",
+            "gr": 2,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_657"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_698"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Tapferkeit der Unsterblichen"
+            },
+            {
+                "id": 2,
+                "name": "Gemeinschaftlicher Angriff"
+            }
+        ]
+    },
+    "TAL_16": {
+        "applications": {
+            "-3": {
+                "name": "Irritieren"
+            },
+            "-2": {
+                "name": "Gestaltung"
+            },
+            "-1": {
+                "name": "Liebesroman"
+            },
+            "1": {
+                "name": "Anbändeln"
+            },
+            "2": {
+                "name": "Aufhübschen"
+            },
+            "3": {
+                "name": "Liebeskünste"
+            }
+        },
+        "botch": "Der Held kassiert eine schallende Ohrfeige für seinen plumpen Anmachversuch.\n",
+        "critical": "Das Verführungsopfer versucht, dem betörenden Helden alle Wünsche zu erfüllen.\n",
+        "encDescription": "nein, situationsabhängige Ausnahmen können vorkommen, z.B. Verführen in Gestechrüstung",
+        "failed": "Dem Helden gelingt es vorerst nicht, Interesse beim Opfer zu wecken.\n",
+        "name": "Betören",
+        "quality": "Der Bezirzte ist bereit, mehr für den Helden zu tun.\n",
+        "src": [
+            {
+                "firstPage": 195,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 1
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1006"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1006"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "maybe",
+            "gr": 2,
+            "ic": "B"
+        }
+    },
+    "TAL_17": {
+        "applications": {
+            "1": {
+                "name": "Drohung"
+            },
+            "2": {
+                "name": "Folter"
+            },
+            "3": {
+                "name": "Provokation"
+            },
+            "4": {
+                "name": "Verhör"
+            }
+        },
+        "botch": "Anstatt eingeschüchtert oder beleidigt zu sein, geschieht das Gegenteil: Das Opfer ist wütend, völlig gelassen oder amüsiert. Oder der Held macht sich mit seinem Gehabe völlig zum Affen.\n",
+        "critical": "Das Gegenüber des Helden ist vollkommen eingeschüchtert und wird in absehbarer Zeit nichts mehr gegen den Helden unternehmen.\n",
+        "failed": "Das Gegenüber ignoriert alle Schmähungen und Einschüchterungsversuche des Helden.\n",
+        "name": "Einschüchtern",
+        "quality": "Das Opfer ist länger eingeschüchtert oder verrät dem Helden mehr als erwartet.\n",
+        "src": [
+            {
+                "firstPage": 195,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "false",
+            "gr": 2,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_98"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_106"
+                    }
+                },
+                {
+                    "id": 3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_636"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Anpeitscher"
+            },
+            {
+                "id": 2,
+                "name": "Drohgebärden"
+            },
+            {
+                "id": 3,
+                "name": "Einschüchternde Zurechtweisung"
+            }
+        ]
+    },
+    "TAL_18": {
+        "applications": {
+            "-3": {
+                "name": "Dienen & Gehorchen"
+            },
+            "-2": {
+                "name": "Poesie"
+            },
+            "-1": {
+                "name": "Heraldik & Stammbäume"
+            },
+            "1": {
+                "name": "Benehmen"
+            },
+            "2": {
+                "name": "Klatsch & Tratsch"
+            },
+            "3": {
+                "name": "Leichte Unterhaltung"
+            },
+            "4": {
+                "name": "Mode"
+            }
+        },
+        "botch": "Der Held beleidigt mit seinem Verhalten eine wichtige Persönlichkeit.\n",
+        "critical": "Auf der Feier ist der Held aufgrund seines Benehmens, Wortwitzes und Charmes der Mittelpunkt.\n",
+        "failed": "Der Held kann sich nicht an alle wichtigen Benimmregeln erinnern und fällt unangenehm auf.\n",
+        "name": "Etikette",
+        "quality": "Der Held hinterlässt einen guten Eindruck und bleibt positiv in Erinnerung.\n",
+        "src": [
+            {
+                "firstPage": 196,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_16"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 2
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_105"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "false",
+            "gr": 2,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1029"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Turnierkenntnis"
+            }
+        ]
+    },
+    "TAL_19": {
+        "applications": {
+            "-1": {
+                "name": "Kriminalgeschichten"
+            },
+            "1": {
+                "name": "Beschattung"
+            },
+            "2": {
+                "name": "Informationssuche"
+            },
+            "3": {
+                "name": "Ortseinschätzung"
+            }
+        },
+        "botch": "Der Held gerät in den Hinterhalt einer Bande Schurken, die ihn ausplündern wollen.\n",
+        "critical": "Der Held entdeckt ein besonders gutes, aber günstiges Gasthaus, erhält mehr Informationen, als er erwartet hat, oder es gelingt ihm, einen Kontaktmann zu finden, der ihm exzellente Konditionen anbietet.\n",
+        "encDescription": "nein (eventuell ja bei bestimmten Situationen, zum Beispiel, wenn die Rüstung den Anschein eines Gardisten oder Adligen erweckt)",
+        "failed": "Der Held erhält keine hilfreichen Informationen.\n",
+        "name": "Gassenwissen",
+        "quality": "Der Held erhält mehr Informationen oder erlangt sie schneller als erwartet.\n",
+        "src": [
+            {
+                "firstPage": 196,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 4
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "maybe",
+            "gr": 2,
+            "ic": "C",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1103"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Gerüchte aufschnappen"
+            }
+        ]
+    },
+    "TAL_2": {
+        "applications": {
+            "-3": {
+                "name": "Feuerwerk"
+            },
+            "-2": {
+                "name": "Feuer schlucken"
+            },
+            "-1": {
+                "name": "Bauchreden"
+            },
+            "1": {
+                "name": "Jonglieren"
+            },
+            "2": {
+                "name": "Possenreißen"
+            },
+            "3": {
+                "name": "Verstecktricks"
+            }
+        },
+        "botch": "Der Held wird bei der Präsentation ausgebuht, da ihm ein Missgeschick passiert (mit Jonglierkeule einen Zuschauer getroffen, mit Pyrotechnik den Bürgermeister verletzt etc.).\n",
+        "critical": "Die Zuschauer sind fasziniert, halten den Trick gar für echte Magie, und potenzielle Geldeinnahmen des Gauklers verdoppeln sich.\n",
+        "failed": "Der Trick funktioniert nicht richtig, kleine Fehler schleichen sich bei dem Versuch ein. Das Publikum ist enttäuscht.\n",
+        "name": "Gaukeleien",
+        "quality": "Der Trick ist besonders gut gelungen und die Zuschauer applaudieren mehr.\n",
+        "src": [
+            {
+                "firstPage": 188,
+                "id": "US25001"
+            }
+        ],
+        "tools": "je nach Trick z.B. Bälle, Fackel, Schlangen, Spielkarten",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_101"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_109"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_131"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "A",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_997",
+                        "sid": "TAL_2"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Beeindruckende Vorstellung"
+            }
+        ]
+    },
+    "TAL_20": {
+        "applications": {
+            "-1": {
+                "name": "Vorlieben erspüren"
+            },
+            "1": {
+                "name": "Lügen durchschauen"
+            },
+            "2": {
+                "name": "Motivation erkennen"
+            }
+        },
+        "botch": "Der Held ist einer kompletten Fehleinschätzung aufgesessen. So könnte er beispielsweise einem Lügner wirklich alles glauben, ehrlichen Leuten hingegen kein Wort.\n",
+        "critical": "Der Held durchschaut die Person komplett.\n",
+        "failed": "Der Held ist sich nicht sicher.\n",
+        "name": "Menschenkenntnis",
+        "quality": "Der Held hat einen stärkeren Verdacht, was sein Gegenüber vorhat oder warum es lügt.\n",
+        "src": [
+            {
+                "firstPage": 197,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1176"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "false",
+            "gr": 2,
+            "ic": "C"
+        }
+    },
+    "TAL_21": {
+        "applications": {
+            "-2": {
+                "name": "Berserker beruhigen"
+            },
+            "-1": {
+                "name": "Romane"
+            },
+            "1": {
+                "name": "Aufschwatzen"
+            },
+            "2": {
+                "name": "Betteln"
+            },
+            "3": {
+                "name": "Herausreden"
+            },
+            "4": {
+                "name": "Manipulieren"
+            },
+            "5": {
+                "name": "Schmeicheln"
+            }
+        },
+        "botch": "Die Person, die der Held überreden wollte, ist wütend auf den Helden und lässt sich in nächster Zeit nicht mehr überreden.\n",
+        "critical": "Die Person, die der Held überreden wollte, tut weit mehr als sie muss.\n",
+        "failed": "Dem Held gelingt es nicht, sein Gegenüber zu überreden.\n",
+        "name": "Überreden",
+        "quality": "Das Gegenüber ist bereit, mehr für den Helden zu tun.\n",
+        "src": [
+            {
+                "firstPage": 197,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 6
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_630"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "false",
+            "gr": 2,
+            "ic": "C",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_2"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Anführer"
+            }
+        ]
+    },
+    "TAL_22": {
+        "applications": {
+            "1": {
+                "name": "Bühnenschauspiel"
+            },
+            "2": {
+                "name": "Kostümierung"
+            },
+            "3": {
+                "name": "Personen imitieren"
+            }
+        },
+        "botch": "Die Kleidung wird sofort durchschaut und der Held handelt sich in der Regel Ärger ein.\n",
+        "critical": "Die Verkleidung funktioniert tadellos.\n",
+        "failed": "Die Verkleidung ist nicht gut gewählt und hält einem prüfenden Blick nicht stand.\n",
+        "name": "Verkleiden",
+        "quality": "Die Verkleidung ist schwerer zu durchschauen.\n",
+        "src": [
+            {
+                "firstPage": 198,
+                "id": "US25001"
+            }
+        ],
+        "tools": "entsprechende Verkleidung",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "enc": "true",
+            "gr": 2,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1020"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Menschenstimmen imitieren"
+            }
+        ]
+    },
+    "TAL_23": {
+        "applications": {
+            "1": {
+                "name": "Bekehren & Überzeugen widerstehen"
+            },
+            "2": {
+                "name": "Bedrohungen standhalten"
+            },
+            "3": {
+                "name": "Betören widerstehen"
+            },
+            "4": {
+                "name": "Einschüchtern widerstehen"
+            },
+            "5": {
+                "name": "Überreden widerstehen"
+            }
+        },
+        "botch": "Der Held ist der Person, die ihn beeinflussen will, vollkommen verfallen oder fällt bei Anblick eines scheußlichen Dämons in Ohnmacht.\n",
+        "critical": "Der Held widersteht und kann von dieser Person oder Sache in nächster Zeit nicht mehr beeinflusst werden.\n",
+        "failed": "Der Held kann nicht widerstehen.\n",
+        "name": "Willenskraft",
+        "quality": "Die Auswirkungen von Verführungs- oder Überredensversuchen sind deutlich abgeschwächt oder es wird ihnen ganz widerstanden.\n",
+        "src": [
+            {
+                "firstPage": 198,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "false",
+            "gr": 2,
+            "ic": "D",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_270"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_275"
+                    }
+                },
+                {
+                    "id": 3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_621"
+                    }
+                },
+                {
+                    "id": 4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1159"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Scholar der Akademie Schwert und Stab zu Gareth"
+            },
+            {
+                "id": 2,
+                "name": "Scholar der Schule der Hellsicht zu Thorwal"
+            },
+            {
+                "id": 3,
+                "name": "Radscha-Anhänger"
+            },
+            {
+                "id": 4,
+                "name": "Erotikmasseur/in"
+            }
+        ]
+    },
+    "TAL_24": {
+        "applications": {
+            "1": {
+                "name": "Verwischen eigener Fährte"
+            },
+            "2": {
+                "name": "Humanoide Spuren"
+            },
+            "3": {
+                "name": "Tierische Spuren"
+            }
+        },
+        "botch": "Der Held verwechselt die Spur und folgt einer falschen Fährte. So trifft er vielleicht auf eine gefährliche Kreatur oder jagt den falschen Leuten hinterher.\n",
+        "critical": "Sofern die Spur nicht komplett zerstört wurde, kann der Held ihr zielsicher bis zum Ende folgen. Er erhält mehr Informationen als üblich. Täuschungsmanöver wie das Verwischen der Spuren durchschaut er sofort.\n",
+        "failed": "Der Held findet keine Spur oder kann keine neuen Erkenntnisse gewinnen.\n",
+        "name": "Fährtensuchen",
+        "quality": "über die Qualitätsstufe kann der Held mehr Details in der Fährte erkennen.\n",
+        "src": [
+            {
+                "firstPage": 198,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "enc": "true",
+            "gr": 3,
+            "ic": "C"
+        }
+    },
+    "TAL_25": {
+        "applications": {
+            "-1": {
+                "name": "Seile herstellen"
+            },
+            "1": {
+                "name": "Fesselungen"
+            },
+            "2": {
+                "name": "Knotenkunde"
+            },
+            "3": {
+                "name": "Netze knüpfen"
+            }
+        },
+        "botch": "Der Held hat einen Knoten gemacht, der sich in jeder Lage löst - oder der denkbar ungünstigsten.\n",
+        "critical": "Der Held hat einen stabilen Knoten gemacht. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "encDescription": "nein (eventuell ja bei Helmen, Panzerhandschuhen, etc.)",
+        "failed": "Dem Held gelingt nur ein Knoten von schlechter Qualität. Das Befreien daraus ist leichter als üblich.\n",
+        "name": "Fesseln",
+        "quality": "Die Fessel hält länger und kann gegebenenfalls schwerer geöffnet werden.\n",
+        "src": [
+            {
+                "firstPage": 199,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Fessel",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_137"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "maybe",
+            "gr": 3,
+            "ic": "A"
+        }
+    },
+    "TAL_26": {
+        "applications": {
+            "1": {
+                "name": "Salzwassertiere"
+            },
+            "2": {
+                "name": "Süßwassertiere"
+            },
+            "3": {
+                "name": "Wasserungeheuer"
+            }
+        },
+        "botch": "Der Angler fällt ins Wasser und die Angel geht verloren.\n",
+        "critical": "Die Zahl der Rationen ist sehr hoch. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "encDescription": "ja (beim Speerfischen) oder nein (beim Reusenfang oder dem Fischen mit Netzen)",
+        "failed": "Kein Fisch beißt an oder geht ins Netz.\n",
+        "name": "Fischen & Angeln",
+        "quality": "Die Fische sind wohlschmeckender als bei einem durchschnittlichen Fang.\n",
+        "src": [
+            {
+                "firstPage": 199,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Angel mit Schnur, Netz oder Reuse, Speer",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "maybe",
+            "gr": 3,
+            "ic": "A"
+        }
+    },
+    "TAL_27": {
+        "applications": {
+            "1": {
+                "name": "Sonnenstand"
+            },
+            "2": {
+                "name": "Sternenhimmel"
+            },
+            "3": {
+                "name": "Unter Tage"
+            }
+        },
+        "botch": "Der Held hat sich komplett verlaufen und bewegt sich in die falsche Richtung, was ihm jedoch nicht bewusst ist.\n",
+        "critical": "Der Held findet den Weg ohne Schwierigkeiten selbst unter schlechtesten Bedingungen.\n",
+        "failed": "Der Held weiß nicht sicher, wo es langgeht.\n",
+        "name": "Orientierung",
+        "quality": "Der Held findet schneller heraus, in welche Richtung er sich bewegt.\n",
+        "src": [
+            {
+                "firstPage": 200,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 3,
+            "ic": "B"
+        }
+    },
+    "TAL_28": {
+        "applications": {
+            "-1": {
+                "name": "Pflanzenerkennung"
+            },
+            "1": {
+                "name": "Giftpflanzen"
+            },
+            "2": {
+                "name": "Heilpflanzen"
+            },
+            "3": {
+                "name": "Nutzpflanzen"
+            }
+        },
+        "botch": "Der Held verwechselt die Pflanze mit einer anderen.\n",
+        "critical": "Der Held weiß alles über die Pflanze, auch besondere Wirkungen, und kann sie doppelt so lange haltbar machen wie üblich.\n",
+        "encDescription": "ja (beim Ackerbau und Nahrung sammeln) oder nein (bei der Bestimmung von Pflanzen)",
+        "failed": "Der Held hat keine Ahnung.\n",
+        "name": "Pflanzenkunde",
+        "quality": "genauere Informationen zu einer Pflanze\n",
+        "src": [
+            {
+                "firstPage": 200,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_500"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "maybe",
+            "gr": 3,
+            "ic": "C",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_97"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Ackerbau"
+            }
+        ]
+    },
+    "TAL_29": {
+        "applications": {
+            "1": {
+                "name": "Domestizierte Tiere"
+            },
+            "2": {
+                "name": "Ungeheuer"
+            },
+            "3": {
+                "name": "Wildtiere"
+            }
+        },
+        "botch": "Der Held glaubt, etwas über das Tier zu wissen, liegt aber gefährlich falsch (schätzt es ungiftig ein, obwohl es sehr giftig ist, oder als Pflanzenfresser, obwohl es Fleischfresser ist).\n",
+        "critical": "Der Held weiß alles über das Tier.\n",
+        "failed": "Der Held hat keine Ahnung.\n",
+        "name": "Tierkunde",
+        "quality": "genauere Informationen zu einem Tier\n",
+        "src": [
+            {
+                "firstPage": 200,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "true",
+            "gr": 3,
+            "ic": "C",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_30"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_95"
+                    }
+                },
+                {
+                    "id": 3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_143"
+                    }
+                },
+                {
+                    "id": 4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_524"
+                    }
+                },
+                {
+                    "id": 5,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_416"
+                    }
+                },
+                {
+                    "id": 6,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_417"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Tierstimmen imitieren"
+            },
+            {
+                "id": 2,
+                "name": "Abrichten"
+            },
+            {
+                "id": 3,
+                "name": "Viehzucht"
+            },
+            {
+                "id": 4,
+                "name": "Tierfreundschaft"
+            },
+            {
+                "id": 5,
+                "name": "Gift melken (Land- und Lufttiere)"
+            },
+            {
+                "id": 6,
+                "name": "Gift melken (Wassertiere)"
+            }
+        ]
+    },
+    "TAL_3": {
+        "applications": {
+            "1": {
+                "name": "Baumklettern"
+            },
+            "2": {
+                "name": "Bergsteigen"
+            },
+            "3": {
+                "name": "Eisklettern"
+            },
+            "4": {
+                "name": "Fassadenklettern"
+            }
+        },
+        "botch": "Der Held rutscht ab und fällt (siehe Seite 340, Sturzschaden).\n",
+        "critical": "Ohne Schwierigkeiten und viel schneller als gewöhnlich hat der Held den Aufstieg geschafft. Zuschauer halten ihn für den besten Kletterer Deres. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "failed": "Der Held braucht viel länger als üblich, verletzt sich leicht (1W3 SP), traut sich nicht, zu klettern, oder hängt fest.\n",
+        "name": "Klettern",
+        "quality": "Der Held kommt schneller an seinem Ziel an.\n",
+        "src": [
+            {
+                "firstPage": 189,
+                "id": "US25001"
+            }
+        ],
+        "tools": "eventuell Kletterausrüstung",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "B"
+        }
+    },
+    "TAL_30": {
+        "applications": {
+            "-1": {
+                "name": "Wettervorhersage"
+            },
+            "1": {
+                "name": "Feuermachen"
+            },
+            "2": {
+                "name": "Lageraufbau"
+            },
+            "3": {
+                "name": "Lagersuche"
+            }
+        },
+        "botch": "Das Lager wird überschwemmt oder von Ungeziefer heimgesucht.\n",
+        "critical": "Ein phantastischer Schlafplatz! Die Regeneration ist um 1 Punkt erhöht.\n",
+        "failed": "Der Lagerplatz ist schlecht gewählt. Die Regeneration ist um 1 gesenkt.\n",
+        "name": "Wildnisleben",
+        "quality": "Der Held benötigt nicht so lange, um ein Lager zu finden oder aufzubauen.\n",
+        "src": [
+            {
+                "firstPage": 201,
+                "id": "US25001"
+            }
+        ],
+        "tools": "eventuell Zelt, Wildnisausrüstung",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_32"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "true",
+            "gr": 3,
+            "ic": "C",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_114"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Iglubau"
+            }
+        ]
+    },
+    "TAL_31": {
+        "applications": {
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Würfelspiele"
+            },
+            "2": {
+                "name": "Brettspiele"
+            },
+            "3": {
+                "name": "Kartenspiele"
+            },
+            "4": {
+                "name": "Wettspiele"
+            }
+        },
+        "botch": "Der Held wird fälschlicherweise des Falschspiels verdächtigt oder hat eine Pechsträne. Wird um Geld gespielt, verliert er mindestens den kompletten Einsatz (oder mehr).\n",
+        "critical": "Der Held gewinnt auf spektakuläre Art und Weise. Wurde um Geld gespielt, verdoppelt sich sein Gewinn.\n",
+        "failed": "Der Held verliert.\n",
+        "name": "Brett- & Glücksspiel",
+        "quality": "Der Held hat einen guten Spielzug gemacht.\n",
+        "src": [
+            {
+                "firstPage": 201,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Spiel",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 7
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "A",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_8"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Falschspielen"
+            }
+        ]
+    },
+    "TAL_32": {
+        "applications": {
+            "-2": {
+                "name": "Fachpublikationen"
+            },
+            "-1": {
+                "name": "Kartographie"
+            },
+            "1": {
+                "name": "Albernia"
+            },
+            "2": {
+                "name": "Almada"
+            },
+            "3": {
+                "name": "Garetien"
+            },
+            "4": {
+                "name": "Kosch"
+            },
+            "5": {
+                "name": "Nordmarken"
+            },
+            "6": {
+                "name": "Rommilyser Mark"
+            },
+            "7": {
+                "name": "Tobrien"
+            },
+            "8": {
+                "name": "Weiden"
+            },
+            "9": {
+                "name": "Windhag"
+            },
+            "10": {
+                "name": "Al'Anfanisches Imperium"
+            },
+            "11": {
+                "name": "Andergast"
+            },
+            "12": {
+                "name": "Aranien"
+            },
+            "13": {
+                "name": "Bergkönigreiche der Zwerge"
+            },
+            "14": {
+                "name": "Bornland"
+            },
+            "15": {
+                "name": "Gjalskerland"
+            },
+            "16": {
+                "name": "Hoher Norden"
+            },
+            "17": {
+                "name": "Horasreich"
+            },
+            "18": {
+                "name": "Kalifat"
+            },
+            "19": {
+                "name": "Maraskan"
+            },
+            "20": {
+                "name": "Nostria"
+            },
+            "21": {
+                "name": "Orkland"
+            },
+            "22": {
+                "name": "Salamandersteine & umliegende Gebiete der Elfen"
+            },
+            "23": {
+                "name": "Schattenlande"
+            },
+            "24": {
+                "name": "Südmeer & Waldinseln"
+            },
+            "25": {
+                "name": "Svellttal"
+            },
+            "26": {
+                "name": "Thorwal"
+            },
+            "27": {
+                "name": "Tiefer Süden"
+            },
+            "28": {
+                "name": "Tulamidenlande"
+            },
+            "29": {
+                "name": "Zyklopeninseln"
+            }
+        },
+        "botch": "Der Held erinnert sich an völlig falsche geographische Details: Einwohnerzahlen von Städten stimmen nicht, Brücken befinden sich an anderer Stelle als gedacht.\n",
+        "critical": "Der Held kennt viele Details der Region: Herrscher, Bevölkerungszahlen, Bräuche, Flussverläufe und Brücken.\n",
+        "failed": "Der Held hat keine Ahnung.\n",
+        "name": "Geographie",
+        "quality": "mehr Detailinformationen zur Bevölkerung, Örtlichkeiten und Flussübergängen\n",
+        "src": [
+            {
+                "firstPage": 202,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_19"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 8
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "B"
+        }
+    },
+    "TAL_33": {
+        "applications": {
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Albernia"
+            },
+            "2": {
+                "name": "Almada"
+            },
+            "3": {
+                "name": "Garetien"
+            },
+            "4": {
+                "name": "Kosch"
+            },
+            "5": {
+                "name": "Nordmarken"
+            },
+            "6": {
+                "name": "Rommilyser Mark"
+            },
+            "7": {
+                "name": "Tobrien"
+            },
+            "8": {
+                "name": "Weiden"
+            },
+            "9": {
+                "name": "Windhag"
+            },
+            "10": {
+                "name": "Al'Anfanisches Imperium"
+            },
+            "11": {
+                "name": "Andergast"
+            },
+            "12": {
+                "name": "Aranien"
+            },
+            "13": {
+                "name": "Bergkönigreiche der Zwerge"
+            },
+            "14": {
+                "name": "Bornland"
+            },
+            "15": {
+                "name": "Gjalskerland"
+            },
+            "16": {
+                "name": "Hoher Norden"
+            },
+            "17": {
+                "name": "Horasreich"
+            },
+            "18": {
+                "name": "Kalifat"
+            },
+            "19": {
+                "name": "Maraskan"
+            },
+            "20": {
+                "name": "Nostria"
+            },
+            "21": {
+                "name": "Orkland"
+            },
+            "22": {
+                "name": "Salamandersteine & umliegende Gebiete der Elfen"
+            },
+            "23": {
+                "name": "Schattenlande"
+            },
+            "24": {
+                "name": "Südmeer & Waldinseln"
+            },
+            "25": {
+                "name": "Svellttal"
+            },
+            "26": {
+                "name": "Thorwal"
+            },
+            "27": {
+                "name": "Tiefer Süden"
+            },
+            "28": {
+                "name": "Tulamidenlande"
+            },
+            "29": {
+                "name": "Zyklopeninseln"
+            }
+        },
+        "botch": "Der Held kann zu diesem Thema nur falsche Informationen beitragen: er irrt sich in Daten und Ereignissen.\n",
+        "critical": "Der Held kennt besonders viele Details über ein bestimmtes Ereignis oder eine historische Person.\n",
+        "failed": "Der Held hat keine Ahnung.\n",
+        "name": "Geschichtswissen",
+        "quality": "mehr Details zu historischen Persönlichkeiten und Epochen\n",
+        "src": [
+            {
+                "firstPage": 202,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 9
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "B"
+        }
+    },
+    "TAL_34": {
+        "applications": {
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Praios"
+            },
+            "2": {
+                "name": "Rondra"
+            },
+            "3": {
+                "name": "Efferd"
+            },
+            "4": {
+                "name": "Travia"
+            },
+            "5": {
+                "name": "Boron"
+            },
+            "6": {
+                "name": "Hesinde"
+            },
+            "7": {
+                "name": "Firun"
+            },
+            "8": {
+                "name": "Tsa"
+            },
+            "9": {
+                "name": "Phex"
+            },
+            "10": {
+                "name": "Peraine"
+            },
+            "11": {
+                "name": "Ingerimm"
+            },
+            "12": {
+                "name": "Rahja"
+            },
+            "13": {
+                "name": "Namenloser"
+            },
+            "14": {
+                "name": "Aves"
+            },
+            "15": {
+                "name": "Ifirn"
+            },
+            "16": {
+                "name": "Kor"
+            },
+            "17": {
+                "name": "Nandus"
+            },
+            "18": {
+                "name": "Swafnir"
+            },
+            "19": {
+                "name": "Marbo"
+            },
+            "20": {
+                "name": "Levthan"
+            },
+            "21": {
+                "name": "Rastullah"
+            }
+        },
+        "applicationsInput": "nach Gottheit oder Philosophie",
+        "botch": "Der Held verwechselt kultische Handlungen und Ansichten dieser Kirche mit einer anderen.\n",
+        "critical": "Der Held hat detaillierte Einsichten in das Thema und kennt selbst spezielle Rituale, Gebetstexte oder philosophische Grundlagen.\n",
+        "failed": "Der Held hat keine Ahnung.\n",
+        "name": "Götter & Kulte",
+        "quality": "mehr Details zu Kulten, Göttern und Priestern\n",
+        "src": [
+            {
+                "firstPage": 203,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 10
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "B"
+        }
+    },
+    "TAL_35": {
+        "applications": {
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Belagerung"
+            },
+            "2": {
+                "name": "Feldschlacht"
+            },
+            "3": {
+                "name": "Partisanenkampf"
+            },
+            "4": {
+                "name": "Seegefechte"
+            },
+            "5": {
+                "name": "Tunnelkampf"
+            }
+        },
+        "botch": "Der Held begeht einen kapitalen Planungsfehler, der den Kampf zu seinen Ungunsten beeinflusst oder ihm zumindest extreme Nachteile beschert.\n",
+        "critical": "Der Held hat einen vortrefflichen Plan, der ihm zusätzliche Vorteile im Kampf einbringt.\n",
+        "failed": "Der Held unterliegt einer Fehleinschätzung.\n",
+        "name": "Kriegskunst",
+        "quality": "bessere Vorteile während des Gefechts\n",
+        "src": [
+            {
+                "firstPage": 203,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 11
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_627"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_868"
+                    }
+                },
+                {
+                    "id": 3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_891"
+                    }
+                },
+                {
+                    "id": 4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_960"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Kamerad des guten Goldes"
+            },
+            {
+                "id": 2,
+                "name": "Drachenkampf-Taktik"
+            },
+            {
+                "id": 3,
+                "name": "Ungeheuer-Taktik"
+            },
+            {
+                "id": 4,
+                "name": "Erweiterte Drachenkampf-Taktik"
+            }
+        ]
+    },
+    "TAL_36": {
+        "applications": {
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Artefakte"
+            },
+            "2": {
+                "name": "Magische Wesen"
+            },
+            "3": {
+                "name": "Rituale"
+            },
+            "4": {
+                "name": "Zaubersprüche"
+            }
+        },
+        "botch": "Der Held hat falsche Vorstellungen und irrt sich, sodass es zu einem gravierenden Fehlurteil kommt.\n",
+        "critical": "Der Held kennt Herkunft, wirkenden Zauber und Auslöser eines alten Artefaktes.\n",
+        "failed": "Der Held hat keine Ahnung.\n",
+        "name": "Magiekunde",
+        "quality": "mehr Details zu Zaubern, magischen Wesen oder exotischer Magieanwendung\n",
+        "src": [
+            {
+                "firstPage": 204,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 12
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "C",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_268"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Analytiker"
+            },
+            {
+                "id": 2,
+                "name": "Scholar der Akademie der Hohen Magie zu Punin"
+            }
+        ]
+    },
+    "TAL_37": {
+        "applications": {
+            "-2": {
+                "name": "Fallen herstellen"
+            },
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Hebel"
+            },
+            "2": {
+                "name": "Hydraulik"
+            },
+            "3": {
+                "name": "Komplexe Systeme"
+            }
+        },
+        "botch": "Was immer der Held konstruieren wollte: Das Objekt ist gefährlich oder die Konstruktion fällt in sich zusammen. Eine Falle wird mit größtmöglichem Erfolg ausgelöst.\n",
+        "critical": "Der doppelte FW zählt als FP.\n",
+        "failed": "Die geplante Mechanik funktioniert nicht.\n",
+        "name": "Mechanik",
+        "quality": "schnellere Planung\n",
+        "src": [
+            {
+                "firstPage": 204,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 13
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_944"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_945"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Fallentarnung"
+            }
+        ]
+    },
+    "TAL_38": {
+        "applications": {
+            "-3": {
+                "name": "Verschlüsselungen"
+            },
+            "-2": {
+                "name": "Zahlenmystik"
+            },
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Bruchrechnung"
+            },
+            "2": {
+                "name": "Punktrechnung"
+            },
+            "3": {
+                "name": "Strichrechnung"
+            }
+        },
+        "botch": "Das Ergebnis ist komplett falsch, der Held aber von der Richtigkeit absolut überzeugt.\n",
+        "critical": "Schnelle und exakte Bestimmung der Lösung\n",
+        "failed": "Das Ergebnis ist falsch.\n",
+        "name": "Rechnen",
+        "quality": "schnelleres Ergebnis\n",
+        "src": [
+            {
+                "firstPage": 204,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 14
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_33"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1013"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "A"
+        }
+    },
+    "TAL_39": {
+        "applications": {
+            "-2": {
+                "name": "Fachpublikationen"
+            },
+            "-1": {
+                "name": "Gildenrecht"
+            },
+            "1": {
+                "name": "Albernia"
+            },
+            "2": {
+                "name": "Almada"
+            },
+            "3": {
+                "name": "Garetien"
+            },
+            "4": {
+                "name": "Kosch"
+            },
+            "5": {
+                "name": "Nordmarken"
+            },
+            "6": {
+                "name": "Rommilyser Mark"
+            },
+            "7": {
+                "name": "Tobrien"
+            },
+            "8": {
+                "name": "Weiden"
+            },
+            "9": {
+                "name": "Windhag"
+            },
+            "10": {
+                "name": "Al'Anfanisches Imperium"
+            },
+            "11": {
+                "name": "Andergast"
+            },
+            "12": {
+                "name": "Aranien"
+            },
+            "13": {
+                "name": "Bergkönigreiche der Zwerge"
+            },
+            "14": {
+                "name": "Bornland"
+            },
+            "15": {
+                "name": "Gjalskerland"
+            },
+            "16": {
+                "name": "Hoher Norden"
+            },
+            "17": {
+                "name": "Horasreich"
+            },
+            "18": {
+                "name": "Kalifat"
+            },
+            "19": {
+                "name": "Maraskan"
+            },
+            "20": {
+                "name": "Nostria"
+            },
+            "21": {
+                "name": "Orkland"
+            },
+            "22": {
+                "name": "Salamandersteine & umliegende Gebiete der Elfen"
+            },
+            "23": {
+                "name": "Schattenlande"
+            },
+            "24": {
+                "name": "Südmeer & Waldinseln"
+            },
+            "25": {
+                "name": "Svellttal"
+            },
+            "26": {
+                "name": "Thorwal"
+            },
+            "27": {
+                "name": "Tiefer Süden"
+            },
+            "28": {
+                "name": "Tulamidenlande"
+            },
+            "29": {
+                "name": "Zyklopeninseln"
+            }
+        },
+        "botch": "Die Auslegung des Gesetzes ist falsch oder der Held übersieht einen wichtigen Passus.\n",
+        "critical": "Der Held kennt sich mit Besonderheiten des Gesetzes aus und kann einen Plan entwickeln, es zu seinem Vorteil auszulegen.\n",
+        "failed": "Der Held hat keine Ahnung.\n",
+        "name": "Rechtskunde",
+        "quality": "mehr Optionen zur Lösung eines Falls\n",
+        "src": [
+            {
+                "firstPage": 205,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_13"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 15
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "A"
+        }
+    },
+    "TAL_4": {
+        "applications": {
+            "-1": {
+                "name": "Skifahren"
+            },
+            "1": {
+                "name": "Akrobatik"
+            },
+            "2": {
+                "name": "Balance"
+            },
+            "3": {
+                "name": "Entwinden"
+            },
+            "4": {
+                "name": "Kampfmanöver"
+            },
+            "5": {
+                "name": "Laufen"
+            },
+            "6": {
+                "name": "Springen"
+            }
+        },
+        "botch": "Der Held stürzt und erleidet Schaden (1W6 SP).\n",
+        "critical": "Dem Held gelingt seine Handlung und er hat noch eine zusätzliche Aktion zur Verfügung. Und was immer der Held getan hat: Es sah elegant aus.\n",
+        "failed": "Die Handlung des Helden geht teilweise schief, er braucht länger und macht Fehler oder muss die Handlung abbrechen.\n",
+        "name": "Körperbeherrschung",
+        "quality": "Der Abenteurer kann sich schneller aus einer Fesselung befreien.\n",
+        "src": [
+            {
+                "firstPage": 189,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_138"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "D",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_96"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Abrollen"
+            }
+        ]
+    },
+    "TAL_40": {
+        "applications": {
+            "-2": {
+                "name": "Fachpublikationen"
+            },
+            "-1": {
+                "name": "Märchen"
+            },
+            "1": {
+                "name": "Albernia"
+            },
+            "2": {
+                "name": "Almada"
+            },
+            "3": {
+                "name": "Garetien"
+            },
+            "4": {
+                "name": "Kosch"
+            },
+            "5": {
+                "name": "Nordmarken"
+            },
+            "6": {
+                "name": "Rommilyser Mark"
+            },
+            "7": {
+                "name": "Tobrien"
+            },
+            "8": {
+                "name": "Weiden"
+            },
+            "9": {
+                "name": "Windhag"
+            },
+            "10": {
+                "name": "Al'Anfanisches Imperium"
+            },
+            "11": {
+                "name": "Andergast"
+            },
+            "12": {
+                "name": "Aranien"
+            },
+            "13": {
+                "name": "Bergkönigreiche der Zwerge"
+            },
+            "14": {
+                "name": "Bornland"
+            },
+            "15": {
+                "name": "Gjalskerland"
+            },
+            "16": {
+                "name": "Hoher Norden"
+            },
+            "17": {
+                "name": "Horasreich"
+            },
+            "18": {
+                "name": "Kalifat"
+            },
+            "19": {
+                "name": "Maraskan"
+            },
+            "20": {
+                "name": "Nostria"
+            },
+            "21": {
+                "name": "Orkland"
+            },
+            "22": {
+                "name": "Salamandersteine & umliegende Gebiete der Elfen"
+            },
+            "23": {
+                "name": "Schattenlande"
+            },
+            "24": {
+                "name": "Südmeer & Waldinseln"
+            },
+            "25": {
+                "name": "Svellttal"
+            },
+            "26": {
+                "name": "Thorwal"
+            },
+            "27": {
+                "name": "Tiefer Süden"
+            },
+            "28": {
+                "name": "Tulamidenlande"
+            },
+            "29": {
+                "name": "Zyklopeninseln"
+            }
+        },
+        "botch": "Der Held verwechselt die Geschichte mit einer anderen oder meint sich an völlig andere Details zu erinnern.\n",
+        "critical": "Der Held kann sich an viele Details der Geschichte erinnern und kennt mehrere Varianten.\n",
+        "failed": "Der Held kennt die Legende nicht.\n",
+        "name": "Sagen & Legenden",
+        "quality": "mehr Details oder verschiedene Versionen einer Geschichte\n",
+        "src": [
+            {
+                "firstPage": 205,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 5
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 16
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "B"
+        }
+    },
+    "TAL_41": {
+        "applications": {
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Limbus"
+            },
+            "2": {
+                "name": "Sphärenwesen"
+            },
+            "3": {
+                "name": "1. Sphäre"
+            },
+            "4": {
+                "name": "2. Sphäre"
+            },
+            "5": {
+                "name": "3. Sphäre"
+            },
+            "6": {
+                "name": "4. Sphäre"
+            },
+            "7": {
+                "name": "5. Sphäre"
+            },
+            "8": {
+                "name": "6. Sphäre"
+            },
+            "9": {
+                "name": "7. Sphäre"
+            }
+        },
+        "botch": "Der Held unterliegt einer gefährlichen Fehleinschätzung.\n",
+        "critical": "Der Held erinnert sich an bemerkenswerte Details über einen einzelnen Dämon oder den Weg in eine verborgene Globule.\n",
+        "failed": "Der Held weiß nichts über das spezielle Thema.\n",
+        "name": "Sphärenkunde",
+        "quality": "mehr Details zu Sphären oder dem Limbus\n",
+        "src": [
+            {
+                "firstPage": 206,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 17
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "B"
+        }
+    },
+    "TAL_42": {
+        "applications": {
+            "-1": {
+                "name": "Fachpublikationen"
+            },
+            "1": {
+                "name": "Astrologie"
+            },
+            "2": {
+                "name": "Himmelskartographie"
+            },
+            "3": {
+                "name": "Kalendarium"
+            }
+        },
+        "botch": "Eine Fehleinschätzung bei einem Horoskop, einer Mondfinsternis etc.\n",
+        "critical": "Der Held kann sehr genau die Bewegungen der Himmelskörper berechnen.\n",
+        "failed": "Der Held hat keine Ahnung.\n",
+        "name": "Sternkunde",
+        "quality": "schnellere Horoskoperstellung\n",
+        "src": [
+            {
+                "firstPage": 206,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_28",
+                        "sid": 18
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "false",
+            "gr": 4,
+            "ic": "A",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_279"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Scholar der Töchter Niobaras"
+            }
+        ]
+    },
+    "TAL_43": {
+        "applications": {
+            "1": {
+                "name": "Alchimistische Gifte"
+            },
+            "2": {
+                "name": "Elixiere"
+            },
+            "3": {
+                "name": "Profane Alchimie"
+            }
+        },
+        "botch": "Das Elixier sorgt für einen unangenehmen Nebeneffekt.\n",
+        "critical": "Der Held weiß exakt, welches Elixier er vor sich hat, welche Stufe es besitzt und wie lange haltbar es ist.\n",
+        "failed": "Das Elixier ist misslungen oder eine Analyse hat kein Ergebnis gebracht.\n",
+        "name": "Alchimie",
+        "quality": "Der Trank weist eine bessere Qualität auf.\n",
+        "src": [
+            {
+                "firstPage": 206,
+                "id": "US25001"
+            }
+        ],
+        "tools": "alchimistisches Labor",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "C"
+        }
+    },
+    "TAL_44": {
+        "applications": {
+            "-1": {
+                "name": "Navigation"
+            },
+            "1": {
+                "name": "Kampfmanöver"
+            },
+            "2": {
+                "name": "Langstrecke"
+            },
+            "3": {
+                "name": "Verfolgungsjagden"
+            },
+            "4": {
+                "name": "Wettfahren"
+            }
+        },
+        "botch": "Der Held fällt von Bord oder ein wichtiger Teil des Wasserfahrzeugs wurde beschädigt.\n",
+        "critical": "Der Held nutzt günstige Strömungen und Winde, um doppelt so schnell voranzukommen wie üblich.\n",
+        "failed": "Der Held kommt mit dem Boot oder Schiff kaum voran.\n",
+        "name": "Boote & Schiffe",
+        "quality": "Die Distanz bis zum Ziel kann schneller überwunden werden.\n",
+        "src": [
+            {
+                "firstPage": 207,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Schiff oder Boot",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_125"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "B"
+        }
+    },
+    "TAL_45": {
+        "applications": {
+            "1": {
+                "name": "Kampfmanöver"
+            },
+            "2": {
+                "name": "Langstrecke"
+            },
+            "3": {
+                "name": "Verfolgungsjagden"
+            },
+            "4": {
+                "name": "Wettrennen"
+            }
+        },
+        "botch": "Das Fahrzeug erleidet einen Achsenbruch oder fällt während der Fahrt mitsamt dem Fahrer um, und der Held erleidet Fallschaden.\n",
+        "critical": "Das Fahrzeug kommt gut voran und schafft die Strecke in Rekordzeit.\n",
+        "failed": "Das Fahrzeug bewegt sich schwerfällig oder dem Helden gelingt es nicht, es in Bewegung zu setzen.\n",
+        "name": "Fahrzeuge",
+        "quality": "Die Distanz bis zum Ziel kann schneller überwunden werden.\n",
+        "src": [
+            {
+                "firstPage": 207,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Fahrzeug",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "A"
+        }
+    },
+    "TAL_46": {
+        "applications": {
+            "-3": {
+                "name": "Buchprüfung"
+            },
+            "-2": {
+                "name": "Bine Maschores"
+            },
+            "-1": {
+                "name": "Hehlerei"
+            },
+            "1": {
+                "name": "Buchhaltung"
+            },
+            "2": {
+                "name": "Feilschen"
+            },
+            "3": {
+                "name": "Geldwechsel"
+            }
+        },
+        "botch": "Der Held wird über den Tisch gezogen oder der Handelspartner weigert sich, Geschäfte mit dem Helden zu machen. Die Preiserhöhung oder der Nachlass sollte mindestens 50 % betragen.\n",
+        "critical": "Der Held bekommt die Ware zu einem Spottpreis bzw. kann sie zu Wucherpreisen loswerden - ohne dass sein Handelspartner es ihm übel nimmt. Die Preiserhöhung oder der Nachlass sollte mindestens 50 % betragen.\n",
+        "failed": "Der Held bekommt nicht so viel wie erhofft.\n",
+        "name": "Handel",
+        "quality": "Der Held kann präziser den Preis bestimmen.\n",
+        "src": [
+            {
+                "firstPage": 208,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_15"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1001"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1120"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "enc": "false",
+            "gr": 5,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_23"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_113"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Rosstäuscher"
+            },
+            {
+                "id": 2,
+                "name": "Verwaltung"
+            }
+        ]
+    },
+    "TAL_47": {
+        "applications": {
+            "1": {
+                "name": "Alchimistisches Gift"
+            },
+            "2": {
+                "name": "Mineralisches Gift"
+            },
+            "3": {
+                "name": "Pflanzliches Gift"
+            },
+            "4": {
+                "name": "Tierisches Gift"
+            }
+        },
+        "botch": "Der Held ordnet einen (schädlichen) Aderlass an oder hat den Patienten bei der Behandlung verletzt oder gar zusätzlich vergiftet (1W6 SP).\n",
+        "critical": "Der Patient kann vollständig entgiftet werden, ohne dass der Held das passende Gegenmittel verwenden musste.\n",
+        "failed": "Der Held hat keine Ahnung und kennt keine Möglichkeit der Heilung.\n",
+        "name": "Heilkunde Gift",
+        "quality": "Der Held kann das Gift schneller bestimmen.\n",
+        "src": [
+            {
+                "firstPage": 208,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Gegenmittel",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "B"
+        }
+    },
+    "TAL_48": {
+        "applications": {
+            "1": {
+                "name": "Flinker Difar"
+            },
+            "2": {
+                "name": "Lutanas"
+            },
+            "3": {
+                "name": "Rascher Wahn"
+            },
+            "4": {
+                "name": "Sumpffieber/Brabaker Schweiß"
+            },
+            "5": {
+                "name": "Zorganpocken"
+            }
+        },
+        "botch": "Der Held hat dem Patienten bei der Behandlung geschadet (1W6 SP) oder der Krankheitsverlauf verschlimmert sich. Zudem besteht für den Helden bei ansteckenden Krankheiten eine 25 % höhere Chance, sich bei dem Patienten anzustecken.\n",
+        "critical": "Der Patient ist geheilt, ohne dass der Held ein Heilmittel verwenden musste. Zudem steckt er sich nicht beim Erkrankten an.\n",
+        "failed": "Der Held hat keine Ahnung und kennt weder Heilmittel noch die passende Behandlung.\n",
+        "name": "Heilkunde Krankheiten",
+        "quality": "Der Held kann die Krankheit schneller bestimmen.\n",
+        "src": [
+            {
+                "firstPage": 208,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Heilmittel",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "B"
+        }
+    },
+    "TAL_49": {
+        "applications": {
+            "1": {
+                "name": "Unterdrückung von Ängsten"
+            },
+            "2": {
+                "name": "Unterdrückung von Persönlichkeitsschwächen"
+            },
+            "3": {
+                "name": "Unterdrückung von Schlechten Eigenschaften"
+            }
+        },
+        "botch": "Der Held hat den Patienten bei der Behandlung verstört oder seinem Geist anderweitig geschadet. Der Patient erhält für einen Tag eine Stufe des Zustands *Furcht* oder *Verwirrung*.\n",
+        "critical": "Der Patient kann einen Nachteil (Angst, Persönlichkeitsschwäche oder Schlechte Eigenschaft) für einen ganzen Tag unterdrücken.\n",
+        "failed": "Der Held hat keine Ahnung, wie er dem Patienten helfen kann.\n",
+        "name": "Heilkunde Seele",
+        "quality": "Die Unterdrückung des Nachteils hält länger an.\n",
+        "src": [
+            {
+                "firstPage": 209,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "false",
+            "gr": 5,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_641"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_646"
+                    }
+                },
+                {
+                    "id": 3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_659"
+                    }
+                },
+                {
+                    "id": 4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1184"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Gesunder Geist, gesunder Körper"
+            },
+            {
+                "id": 2,
+                "name": "Harmonie der Seele"
+            },
+            {
+                "id": 3,
+                "name": "Wohlklang der Seele"
+            },
+            {
+                "id": 4,
+                "name": "Rahjasutra-Masseur/in"
+            }
+        ]
+    },
+    "TAL_5": {
+        "applications": {
+            "1": {
+                "name": "Drücken & Verbiegen"
+            },
+            "2": {
+                "name": "Eintreten & Zertrümmern"
+            },
+            "3": {
+                "name": "Stemmen & Heben"
+            },
+            "4": {
+                "name": "Ziehen & Zerren"
+            }
+        },
+        "botch": "Die Handlung des Helden misslingt völlig. Er stürzt, verhebt sich o.Ä. und verletzt sich dabei (1W6 SP).\n",
+        "critical": "Der Held beeindruckt durch seine Muskelkraft alle Zuschauer und gilt fortan als einer der stärksten Aventurier. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "failed": "Die Handlung des Helden misslingt.\n",
+        "name": "Kraftakt",
+        "quality": "Für einen kurzen Zeitraum kann der Held mehr Gewicht stemmen oder eine schwere Last länger halten.\n",
+        "src": [
+            {
+                "firstPage": 189,
+                "id": "US25001"
+            }
+        ],
+        "tools": "eventuell Brecheisen oder Seil",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "B"
+        }
+    },
+    "TAL_50": {
+        "applications": {
+            "1": {
+                "name": "Heilung fördern"
+            },
+            "2": {
+                "name": "Schmerzen nehmen"
+            },
+            "3": {
+                "name": "Stabilisieren"
+            }
+        },
+        "botch": "Der Held hat den Patienten bei der Behandlung verletzt (1W6 SP).\n",
+        "critical": "Die vollen Fertigkeitspunkte werden bei der nächsten Regenerationsphase zusätzlich zur normalen Regeneration zu den Lebenspunkten des Patienten hinzuaddiert.\n",
+        "failed": "Der Held kann dem Patienten nicht helfen.\n",
+        "name": "Heilkunde Wunden",
+        "quality": "Der Held verbraucht weniger Heilkräuter oder kann die Verletzung schneller versorgen.\n",
+        "src": [
+            {
+                "firstPage": 209,
+                "id": "US25001"
+            }
+        ],
+        "tools": "eventuell Bandagen, chirurgisches Gerät, Kräuter, Nadel und Faden",
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "D",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1019"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Masseur/in"
+            }
+        ]
+    },
+    "TAL_51": {
+        "applications": {
+            "-9": {
+                "name": "Mechanische Konstrukte herstellen"
+            },
+            "-8": {
+                "name": "Waffenherstellung"
+            },
+            "-7": {
+                "name": "Räder herstellen"
+            },
+            "-6": {
+                "name": "Schmuck herstellen"
+            },
+            "-5": {
+                "name": "Schiffe bauen"
+            },
+            "-4": {
+                "name": "Rüstungsherstellung"
+            },
+            "-3": {
+                "name": "Kutschen bauen"
+            },
+            "-2": {
+                "name": "Boote bauen"
+            },
+            "-1": {
+                "name": "Instrumente bauen"
+            },
+            "1": {
+                "name": "Schlagen & Schneiden"
+            },
+            "2": {
+                "name": "Tischlerarbeiten"
+            },
+            "3": {
+                "name": "Zimmermannsarbeiten"
+            }
+        },
+        "botch": "Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.\n",
+        "critical": "Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.\n",
+        "failed": "Der Held kommt mit der Arbeit an dem Werkstück nicht voran.\n",
+        "name": "Holzbearbeitung",
+        "quality": "Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.\n",
+        "src": [
+            {
+                "firstPage": 210,
+                "id": "US25001"
+            }
+        ],
+        "tools": "je nach zu bearbeitendem Material z.B. Axt, Hobel, Messer, Säge",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_17"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_103"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_121"
+                    }
+                },
+                {
+                    "id": -4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_133"
+                    }
+                },
+                {
+                    "id": -5,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_134"
+                    }
+                },
+                {
+                    "id": -6,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_135"
+                    }
+                },
+                {
+                    "id": -7,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_140"
+                    }
+                },
+                {
+                    "id": -8,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_144"
+                    }
+                },
+                {
+                    "id": -9,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1154"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "B",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_124"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Möbelstücke herstellen"
+            }
+        ]
+    },
+    "TAL_52": {
+        "applications": {
+            "-3": {
+                "name": "Winzerei"
+            },
+            "-2": {
+                "name": "Bierbrauen"
+            },
+            "-1": {
+                "name": "Schnapsbrennen"
+            },
+            "1": {
+                "name": "Ausnehmen"
+            },
+            "2": {
+                "name": "Backen"
+            },
+            "3": {
+                "name": "Braten & Sieden"
+            },
+            "4": {
+                "name": "Brauen"
+            },
+            "5": {
+                "name": "Haltbarmachung"
+            }
+        },
+        "botch": "Das Essen schmeckt nicht nur miserabel, der Konsum hat auch eine schwere Magenverstimmung, Durchfall oder Brechreiz (1W6 SP) zur Folge.\n",
+        "critical": "Die Mahlzeit ist ein echter Gaumenschmaus, ein gekelterter Wein ein wirklich edler Tropfen.\n",
+        "failed": "Das Essen ist angebrannt oder ungenießbar.\n",
+        "name": "Lebensmittelbearbeitung",
+        "quality": "Der Geschmack des Essens ist besser als üblich.\n",
+        "src": [
+            {
+                "firstPage": 210,
+                "id": "US25001"
+            }
+        ],
+        "tools": "entsprechende Zutaten, Feldküche, Kochutensilien",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_26"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_998"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1036"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "A",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_118"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Konditor"
+            }
+        ]
+    },
+    "TAL_53": {
+        "applications": {
+            "-1": {
+                "name": "Rüstungsherstellung"
+            },
+            "1": {
+                "name": "Gerben"
+            },
+            "2": {
+                "name": "Kürschnern"
+            },
+            "3": {
+                "name": "Lederwaren herstellen"
+            }
+        },
+        "botch": "Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.\n",
+        "critical": "Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.\n",
+        "failed": "Der Held kommt mit der Arbeit an dem Werkstück nicht voran.\n",
+        "name": "Lederbearbeitung",
+        "quality": "Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.\n",
+        "src": [
+            {
+                "firstPage": 210,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Ahle, Falzbein, Lochzange, Messer, Punziereisen, Zange",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_133"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "B"
+        }
+    },
+    "TAL_54": {
+        "applications": {
+            "-9": {
+                "name": "Wandmalerei anfertigen"
+            },
+            "-8": {
+                "name": "Tätowieren"
+            },
+            "-7": {
+                "name": "Ölgemälde malen"
+            },
+            "-6": {
+                "name": "Kupferstich anfertigen"
+            },
+            "-5": {
+                "name": "Kohlezeichnungen anfertigen"
+            },
+            "-4": {
+                "name": "Kalligraphie"
+            },
+            "-3": {
+                "name": "Drucken"
+            },
+            "-2": {
+                "name": "Zauberzeichen malen"
+            },
+            "-1": {
+                "name": "Dokumente fälschen"
+            },
+            "1": {
+                "name": "Malen"
+            },
+            "2": {
+                "name": "Ritzen"
+            },
+            "3": {
+                "name": "Zeichnen"
+            }
+        },
+        "botch": "schreckliches, unmöglich erkennbares Gekrakel\n",
+        "critical": "Das Bild ist so gut, dass der Held für einen berühmten Maler gehalten wird.\n",
+        "failed": "Dem Held gelingt eine mit Phantasie erkennbare, aber wenig schöne Zeichnung.\n",
+        "name": "Malen & Zeichnen",
+        "quality": "Die Qualität der Zeichnung ist besser als üblich.\n",
+        "src": [
+            {
+                "firstPage": 211,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Farbe, Kreide, Stifte",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_4"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_75"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_104"
+                    }
+                },
+                {
+                    "id": -4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_115"
+                    }
+                },
+                {
+                    "id": -5,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_117"
+                    }
+                },
+                {
+                    "id": -6,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_120"
+                    }
+                },
+                {
+                    "id": -7,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_126"
+                    }
+                },
+                {
+                    "id": -8,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_141"
+                    }
+                },
+                {
+                    "id": -9,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_145"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "A"
+        }
+    },
+    "TAL_55": {
+        "applications": {
+            "-6": {
+                "name": "Mechanische Konstrukte herstellen"
+            },
+            "-5": {
+                "name": "Spezielle Geschosse herstellen"
+            },
+            "-4": {
+                "name": "Waffenherstellung"
+            },
+            "-3": {
+                "name": "Schmuck herstellen"
+            },
+            "-2": {
+                "name": "Rüstungsherstellung"
+            },
+            "-1": {
+                "name": "Instrumente bauen"
+            },
+            "1": {
+                "name": "Feinschmiedearbeiten"
+            },
+            "2": {
+                "name": "Grobschmiedearbeiten"
+            },
+            "3": {
+                "name": "Metallguss"
+            },
+            "4": {
+                "name": "Verhütten"
+            }
+        },
+        "botch": "Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.\n",
+        "critical": "Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.\n",
+        "failed": "Der Held kommt mit der Arbeit an dem Werkstück nicht voran.\n",
+        "name": "Metallbearbeitung",
+        "quality": "Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.\n",
+        "src": [
+            {
+                "firstPage": 211,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Hammer, Amboss, Schmiedefeuer",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_17"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_133"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_135"
+                    }
+                },
+                {
+                    "id": -4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_144"
+                    }
+                },
+                {
+                    "id": -5,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_859"
+                    }
+                },
+                {
+                    "id": -6,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1154"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "C"
+        }
+    },
+    "TAL_56": {
+        "applications": {
+            "-1": {
+                "name": "Dirigieren"
+            },
+            "1": {
+                "name": "Blasinstrumente"
+            },
+            "2": {
+                "name": "Saiteninstrumente"
+            },
+            "3": {
+                "name": "Trommeln"
+            }
+        },
+        "botch": "Schreckliche, unheilvolle Töne werden dem Musikinstrument entlockt. Möglicherweise wird das Instrument dabei beschädigt. Menschen suchen das Weite oder wollen dem Musikanten das Instrument entreißen.\n",
+        "critical": "Der Held spielt eine Melodie, der keiner widerstehen kann und die alle Zuhörer in ihren Bann zieht.\n",
+        "failed": "Die Melodie klingt schief.\n",
+        "name": "Musizieren",
+        "quality": "Das Publikum zeigt sich begeisterter von der Vorstellung.\n",
+        "src": [
+            {
+                "firstPage": 212,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Musikinstrument",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_116"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "A",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_997",
+                        "sid": "TAL_56"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1099"
+                    }
+                },
+                {
+                    "id": 3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1102"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Beeindruckende Vorstellung"
+            },
+            {
+                "id": 2,
+                "name": "Ermutigende Darstellung"
+            },
+            {
+                "id": 3,
+                "name": "Faszinierende Darstellung"
+            }
+        ]
+    },
+    "TAL_57": {
+        "applications": {
+            "-2": {
+                "name": "Fallen herstellen"
+            },
+            "-1": {
+                "name": "Fallen entschärfen"
+            },
+            "1": {
+                "name": "Bartschlösser"
+            },
+            "2": {
+                "name": "Kombinationsschlösser"
+            }
+        },
+        "botch": "Der Dietrich bricht ab, die Falle wird ausgelöst oder das Schloss verklemmt sich.\n",
+        "critical": "Das Schloss springt in Rekordzeit auf. Der Held benötigt nur die Hälfte des üblichen Zeitaufwandes.\n",
+        "failed": "Das Schloss geht nicht auf.\n",
+        "name": "Schlösserknacken",
+        "quality": "Das Schloss lässt sich schneller öffnen.\n",
+        "src": [
+            {
+                "firstPage": 212,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Dietrich, Haarnadel, Haken",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_7"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_944"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_3",
+                "name": "Intuition",
+                "short": "IN"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "C",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_946"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Fallen wieder scharfmachen"
+            }
+        ]
+    },
+    "TAL_58": {
+        "applications": {
+            "-10": {
+                "name": "Mechanische Konstrukte herstellen"
+            },
+            "-9": {
+                "name": "Porzellanarbeiten"
+            },
+            "-8": {
+                "name": "Bernstein verformen"
+            },
+            "-7": {
+                "name": "Minenkenntnis"
+            },
+            "-6": {
+                "name": "Deichbau"
+            },
+            "-5": {
+                "name": "Waffenherstellung"
+            },
+            "-4": {
+                "name": "Schmuck herstellen"
+            },
+            "-3": {
+                "name": "Kristalle züchten"
+            },
+            "-2": {
+                "name": "Töpferarbeiten"
+            },
+            "-1": {
+                "name": "Glasbläserei"
+            },
+            "1": {
+                "name": "Maurerarbeiten"
+            },
+            "2": {
+                "name": "Steine brechen"
+            },
+            "3": {
+                "name": "Steinmetzarbeiten"
+            }
+        },
+        "botch": "Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.\n",
+        "critical": "Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.\n",
+        "failed": "Der Held kommt mit der Arbeit an dem Werkstück nicht voran.\n",
+        "name": "Steinbearbeitung",
+        "quality": "Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.\n",
+        "src": [
+            {
+                "firstPage": 212,
+                "id": "US25001"
+            }
+        ],
+        "tools": "entsprechendes Rohmaterial (Stein, Ton), Hammer, Meißel",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_14"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_31"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_119"
+                    }
+                },
+                {
+                    "id": -4,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_135"
+                    }
+                },
+                {
+                    "id": -5,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_144"
+                    }
+                },
+                {
+                    "id": -6,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_431"
+                    }
+                },
+                {
+                    "id": -7,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_999"
+                    }
+                },
+                {
+                    "id": -8,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1000"
+                    }
+                },
+                {
+                    "id": -9,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1022"
+                    }
+                },
+                {
+                    "id": -10,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1154"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "A",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_102"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1030"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Bildhauerei"
+            },
+            {
+                "id": 2,
+                "name": "Unterminieren"
+            }
+        ]
+    },
+    "TAL_59": {
+        "applications": {
+            "-3": {
+                "name": "Mechanische Konstrukte herstellen"
+            },
+            "-2": {
+                "name": "Rüstungsherstellung"
+            },
+            "-1": {
+                "name": "Prunkkleider herstellen"
+            },
+            "1": {
+                "name": "Färben"
+            },
+            "2": {
+                "name": "Filzen"
+            },
+            "3": {
+                "name": "Schneidern"
+            },
+            "4": {
+                "name": "Spinnen"
+            },
+            "5": {
+                "name": "Weben"
+            }
+        },
+        "botch": "Ein Patzer sorgt dafür, dass die angesammelten QS auf 0 sinken und keine weitere Probe für dieses Vorhaben angewandt werden kann.\n",
+        "critical": "Die Zahl der FP bei dieser Probe verdoppelt sich, der Held erhält aber mindestens 5 FP. Erschwernisse, die durch misslungene Sammelproben aufgebaut wurden, werden komplett abgebaut.\n",
+        "failed": "Der Held kommt mit der Arbeit an dem Werkstück nicht voran.\n",
+        "name": "Stoffbearbeitung",
+        "quality": "Das Werkstück ist schneller fertig oder es wird eine bessere Qualität erzielt.\n",
+        "src": [
+            {
+                "firstPage": 213,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Messer, Nähzeug, Schere, Webstuhl",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_130"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_133"
+                    }
+                },
+                {
+                    "id": -3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1154"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_5",
+                "name": "Fingerfertigkeit",
+                "short": "FF"
+            },
+            "enc": "true",
+            "gr": 5,
+            "ic": "A"
+        }
+    },
+    "TAL_6": {
+        "applications": {
+            "-1": {
+                "name": "Kunstreiten"
+            },
+            "1": {
+                "name": "Kampfmanöver"
+            },
+            "2": {
+                "name": "Langstreckenreiten"
+            },
+            "3": {
+                "name": "Springreiten"
+            },
+            "4": {
+                "name": "Verfolgungsjagden"
+            }
+        },
+        "botch": "Das Tier wirft den Reiter ab und er stürzt zu Boden (siehe Seite **340**, Sturzschaden).\n",
+        "critical": "Das Tier macht seine Sache ausgezeichnet und wie gewünscht, der Reiter hat eine weitere Aktion zur Verfügung.\n",
+        "failed": "Das Tier bewegt sich nicht oder nicht so, wie es soll.\n",
+        "name": "Reiten",
+        "quality": "Der Held ist schneller an seinem Ziel.\n",
+        "src": [
+            {
+                "firstPage": 190,
+                "id": "US25001"
+            }
+        ],
+        "tools": "Reittier",
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_1015"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "B"
+        }
+    },
+    "TAL_7": {
+        "applications": {
+            "1": {
+                "name": "Kampfmanöver"
+            },
+            "2": {
+                "name": "Langstreckenschwimmen"
+            },
+            "3": {
+                "name": "Tauchen"
+            },
+            "4": {
+                "name": "Verfolgungsjagden"
+            },
+            "5": {
+                "name": "Wassertreten"
+            }
+        },
+        "botch": "Der Held geht unter (siehe Seite 340ff., Erstickungsschaden). Grund dafür könnte ein Wadenkrampf sein.\n",
+        "critical": "Der Held schwimmt die Strecke in Bestzeit. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "failed": "Der Held traut sich nicht zu schwimmen oder kommt nicht sonderlich weit – auf jeden Fall nicht bis dahin, wohin er wollte.\n",
+        "name": "Schwimmen",
+        "quality": "Der Held ist schneller an seinem Ziel.\n",
+        "src": [
+            {
+                "firstPage": 190,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_6",
+                "name": "Gewandtheit",
+                "short": "GE"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_8",
+                "name": "Körperkraft",
+                "short": "KK"
+            },
+            "enc": "true",
+            "gr": 1,
+            "ic": "B"
+        }
+    },
+    "TAL_8": {
+        "applications": {
+            "1": {
+                "name": "Folter widerstehen"
+            },
+            "2": {
+                "name": "Handlungsfähigkeit bewahren"
+            },
+            "3": {
+                "name": "Störungen ignorieren"
+            }
+        },
+        "botch": "Der Held erhält für die nächste Stunde 2 Stufen des Zustands *Schmerz* oder ist durch die Ablenkung *Überrascht*.\n",
+        "critical": "Es gelingt dem Helden, Schmerzen (bis Stufe III) und Ablenkungen einen ganzen Tag lang zu ignorieren.\n",
+        "failed": "Dem Helden gelingt es nicht, den Schmerz zu unterdrücken oder die Ablenkung zu ignorieren.\n",
+        "name": "Selbstbeherrschung",
+        "quality": "Die Selbstbeherrschung hält für einen längeren Zeitraum.\n",
+        "src": [
+            {
+                "firstPage": 190,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "check1": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_1",
+                "name": "Mut",
+                "short": "MU"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "false",
+            "gr": 1,
+            "ic": "D",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_25"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_682"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Schmerzen unterdrücken"
+            },
+            {
+                "id": 2,
+                "name": "Letztes Aufbäumen"
+            }
+        ]
+    },
+    "TAL_9": {
+        "applications": {
+            "-2": {
+                "name": "Zweistimmiger Gesang"
+            },
+            "-1": {
+                "name": "Operngesang"
+            },
+            "1": {
+                "name": "Bardenballade"
+            },
+            "2": {
+                "name": "Choral"
+            },
+            "3": {
+                "name": "Chorgesang"
+            },
+            "4": {
+                "name": "Sprechgesang"
+            }
+        },
+        "botch": "Der Held liegt mehrere Halbtöne daneben oder vergeigt den Rhythmus. Das Lied ist eine Qual für jeden Zuhörer, der Held wird ausgebuht.\n",
+        "critical": "Der Gesang des Helden ist noch in vielen Wochen Thema seiner Zuhörer. Hat der Held sich um Geld bemüht, dann nimmt er mindestens das Doppelte ein als üblich. Für Qualitätsstufen, Vergleichs- und Sammelproben gilt: FP = doppelter FW.\n",
+        "encDescription": "nein (eventuell ja bei Helmen)",
+        "failed": "Der Held vergisst den Text oder sein Auftritt gerät eher schlecht als recht.\n",
+        "name": "Singen",
+        "quality": "Der Gesang ist so gut, dass der Held mehr Applaus durch die Zuhörer erhält.\n",
+        "src": [
+            {
+                "firstPage": 191,
+                "id": "US25001"
+            }
+        ],
+        "univ": {
+            "applications": [
+                {
+                    "id": -1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_127"
+                    }
+                },
+                {
+                    "id": -2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "ADV_52"
+                    }
+                }
+            ],
+            "check1": {
+                "ATTR_ID": "ATTR_2",
+                "name": "Klugheit",
+                "short": "KL"
+            },
+            "check2": {
+                "ATTR_ID": "ATTR_4",
+                "name": "Charisma",
+                "short": "CH"
+            },
+            "check3": {
+                "ATTR_ID": "ATTR_7",
+                "name": "Konstitution",
+                "short": "KO"
+            },
+            "enc": "maybe",
+            "gr": 1,
+            "ic": "A",
+            "uses": [
+                {
+                    "id": 1,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_107"
+                    }
+                },
+                {
+                    "id": 2,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_108"
+                    }
+                },
+                {
+                    "id": 3,
+                    "prerequisite": {
+                        "active": true,
+                        "id": "SA_997",
+                        "sid": "TAL_9"
+                    }
+                }
+            ]
+        },
+        "uses": [
+            {
+                "id": 1,
+                "name": "Ermutigender Gesang"
+            },
+            {
+                "id": 2,
+                "name": "Faszinierender Gesang"
+            },
+            {
+                "id": 3,
+                "name": "Beeindruckende Vorstellung"
+            }
+        ]
+    }
+}

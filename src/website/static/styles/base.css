@@ -1,0 +1,33 @@
+:root {
+    --main-bg-color: #161819;
+    --main-container-color: #242529;
+    --main-element-color: #00edb1;
+    --main-font-color: #d9d8db;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+footer {
+    font-size: 12px;
+}
+
+.bg-dark {
+    color: var(--main-font-color);
+}
+
+.container-dark {
+    color: var(--main-font-color);
+    background-color: var(--main-container-color);
+}
+
+.element-dark {
+    color: var(--main-font-color);
+    background-color: var(--main-element-color);
+}
+
+.container-temp {
+    width: 63.5%;
+    margin: 0 auto;
+}
