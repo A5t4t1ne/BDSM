@@ -81,7 +81,10 @@ def sign_up():
         passwd_valid = valid_char_set(password, PASSWD_CHARS)
 
         if user:
-            flash("Username already taken", category='error')
+            if 'admin' in username:
+                flash("Nope not that one please", category='error')
+            else:
+                flash("Username already taken", category='error')
         elif not uname_valid:
             flash(username_error_msg, category="error")
         elif not passwd_valid:
