@@ -30,7 +30,8 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest"
+    "pytest",
+    "Flask-Testing==0.8.1"
 ]
 
 [project.urls]

@@ -26,11 +26,7 @@ def create_admin():
         if not admin:
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
-<<<<<<< HEAD:website/__init__.py
-            admin_pw = generate_password_hash("cricket-stumbling-devotee", method='sha256')
-=======
             admin_pw = generate_password_hash(app.config['ADMIN_PW'], method='sha256')
->>>>>>> c0b0c16eb9699b1664104698cb02a1c8f9a2f8c2:src/website/__init__.py
             new_admin = User(username='admin', password=admin_pw, heroes_path=heroes_path, access_lvl=Level.ADMIN)
             db.session.add(new_admin)
             db.session.commit()
@@ -46,12 +42,6 @@ def create_admin():
 
 
 def create_app(db_name="database.db", upload_folder="heroes"):
-<<<<<<< HEAD:website/__init__.py
-    app.config['SECRET_KEY'] = "asdflk-asdfjlksadf-afhjasdf-"
-    app.config['ACCESS_CODE'] = "AAAA-BBBB-CCCC-DDDD"
-
-=======
->>>>>>> c0b0c16eb9699b1664104698cb02a1c8f9a2f8c2:src/website/__init__.py
     # get abs path starting from this file location
     basedir = os.path.abspath(os.path.dirname(__file__))
     db_dir = os.path.join(basedir, db_name)

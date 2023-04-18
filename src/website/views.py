@@ -15,7 +15,7 @@ def home():
     return render_template("home.html", user=current_user)
 
 
-@views.route('/overview', methods=['GET', 'POST'])
+@views.route('/overview')
 @login_required
 def overview():
     form = UploadFileForm()
