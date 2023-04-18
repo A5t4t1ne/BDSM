@@ -7,5 +7,4 @@ website/__pycache__/
 website/tools/__pycache__/
 .pytest_cache
 log
-tests
 .venv
