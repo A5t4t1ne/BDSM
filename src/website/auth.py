@@ -84,6 +84,8 @@ def sign_up():
             flash("Username already taken", category='error')
         elif not uname_valid:
             flash(username_error_msg, category="error")
+        elif len(password) > 100:
+            flash("Password is too long", category='error')
         elif not passwd_valid:
             flash(f'For passwords only characters, numbers and {ALLOWED_SPECIAL_CHARS} please', category='error')
         elif password != confPassword:
