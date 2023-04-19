@@ -12,7 +12,7 @@ from website.constants import LITURGIES
 req = Blueprint("requests", __name__)
 
 
-@req.route("/data-request", methods=['GET', 'POST'])
+@req.route("/data-request", methods=['POST'])
 @login_required
 def data_request():
     request_data = request.get_json()
