@@ -3,7 +3,7 @@ from website import create_app, db
 from website.models import User
 
 
-@pytest.fixture()
+@pytest.fixture(scope="session")
 def app():
     app = create_app()
     app.config.update(
