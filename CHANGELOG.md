@@ -1,5 +1,11 @@
 # Change log
 
+## 0.2.2
+
+### Fix
+
+-   Assemble details not working
+
 ## 0.2.1
 
 ### Features
