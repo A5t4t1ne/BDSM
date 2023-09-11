@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 
 [project]
 name = "BDSM"
-version = "0.2.0"
+version = "0.2.1"
 authors = [
   { name="David Jäggli", email="dev.bdsm@pm.me"}
 ]
@@ -30,7 +30,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest"
+    "pytest==7.2.0"
 ]
 
 [project.urls]
