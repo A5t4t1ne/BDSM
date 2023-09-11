@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: BDSM
-Version: 0.2.0
+Version: 0.2.1
 Summary: Browser DSA stat Manager. Helps keeping track of your DSA character while playing.
 Author-email: David Jäggli <dev.bdsm@pm.me>
 Project-URL: Homepage, https://github.com/Jave01/BDSM
@@ -10,8 +10,17 @@ Classifier: Operating System :: OS Independent
 Classifier: License :: OSI Approved :: MIT License
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown
-Provides-Extra: dev
 License-File: LICENSE.md
+Requires-Dist: Flask==2.*
+Requires-Dist: Flask-Login>=0.6
+Requires-Dist: Flask-SQLAlchemy==3.*
+Requires-Dist: Flask-WTF==1.*
+Requires-Dist: WTForms==3.*
+Requires-Dist: gunicorn
+Requires-Dist: SQLAlchemy==1.*
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: pytest==7.2.0; extra == "dev"
 
 # BDSM
 

@@ -28,7 +28,7 @@ class Decode():
         stats['kap_current'] = stats['kap_max']
         stats['wealth'] = cls.wealth(hero=hero)
         stats['armor'], stats['enc'] = cls.armor(hero=hero, return_weight=True)
-        stats['attributes'] = cls.attributes(hero)
+        stats['attr'] = cls.attributes(hero)
         stats['liturgies'] = cls.liturgies(hero)
         stats['spells'] = cls.spells(hero)
         stats['talents'] = cls.talents(hero)
@@ -258,8 +258,7 @@ class Decode():
         mu = cls.attributes(hero=hero, search_for_attr=AttributeID.MU)
         ge = cls.attributes(hero=hero, search_for_attr=AttributeID.GE)
         base_ini = math.ceil((mu + ge) / 2)
-        # return base_ini - cls.encumbrance(hero=hero)
-        return base_ini
+        return base_ini - cls.encumbrance(hero=hero)
 
     @classmethod
     def dodge(cls, hero: dict):

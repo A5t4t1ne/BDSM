@@ -2,7 +2,6 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_wtf.csrf import CSRFProtect
-from sqlite3 import OperationalError
 import json
 import os
 
@@ -26,8 +25,10 @@ def create_admin():
         if not admin:
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
-            admin_pw = generate_password_hash(app.config['ADMIN_PW'], method='sha256')
-            new_admin = User(username='admin', password=admin_pw, heroes_path=heroes_path, access_lvl=Level.ADMIN)
+            admin_pw = generate_password_hash(
+                app.config['ADMIN_PW'], method='scrypt')
+            new_admin = User(username='admin', password=admin_pw,
+                             heroes_path=heroes_path, access_lvl=Level.ADMIN)
             db.session.add(new_admin)
             db.session.commit()
         else:
@@ -35,7 +36,8 @@ def create_admin():
             heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
             admin.heroes_path = heroes_path
-            admin.password = generate_password_hash(app.config['ADMIN_PW'], method='sha256')
+            admin.password = generate_password_hash(
+                app.config['ADMIN_PW'], method='scrypt')
             admin.access_lvl = Level.ADMIN
             admin.email = ""
             db.session.commit()
@@ -46,7 +48,7 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     basedir = os.path.abspath(os.path.dirname(__file__))
     db_dir = os.path.join(basedir, db_name)
     config_dir = os.path.join(basedir, "..", "config.json")
-    
+
     try:
         with open(config_dir, "r") as f:
             try:
@@ -55,9 +57,11 @@ def create_app(db_name="database.db", upload_folder="heroes"):
                 app.config['ACCESS_CODE'] = data['ACCESS_CODE']
                 app.config['ADMIN_PW'] = data['ADMIN_PW']
             except KeyError:
-                raise KeyError("Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the config.json file")
+                raise KeyError(
+                    "Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the config.json file")
     except FileNotFoundError:
-        raise FileNotFoundError("Create a config.json file in the main directory")
+        raise FileNotFoundError(
+            "Create a config.json file in the main directory")
 
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_dir
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
@@ -90,7 +94,8 @@ def create_app(db_name="database.db", upload_folder="heroes"):
     create_admin()
 
     login_manager = LoginManager()
-    login_manager.login_view = 'auth.login' # default page to call if user isn't logged in
+    # default page to call if user isn't logged in
+    login_manager.login_view = 'auth.login'
     login_manager.init_app(app=app)
     login_manager.login_message = ""
 

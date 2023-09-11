@@ -1,13 +1,13 @@
 """Gunicorn *development* config file"""
 
 # Flask WSGI application path in pattern MODULE_NAME:VARIABLE_NAME
-wsgi_app = "app.py:application"
+wsgi_app = "main.py:app"
 # The granularity of Error log outputs
 loglevel = "debug"
 # The number of worker processes for handling requests
 workers = 4
 # The socket to bind
-bind = "0.0.0.0:80"
+bind = "0.0.0.0:8000"
 # Write access and error info to /var/log
 accesslog = errorlog = "/var/log/gunicorn/dev.log"
 # Redirect stdout/stderr to log file
