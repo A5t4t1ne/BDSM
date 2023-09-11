@@ -1,5 +1,15 @@
 # Change log
 
+## 0.2.1
+
+### Features
+
+-   Cantrips are now loaded
+
+### Miscellaneous
+
+-   Text details are no longer stored in database but assembled before sending to client
+
 ## 0.2.0
 
 ### Features
