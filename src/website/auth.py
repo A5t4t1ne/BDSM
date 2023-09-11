@@ -25,7 +25,7 @@ def valid_char_set(string: str, allowed_charset: set):
     return string.issubset(allowed_charset)
 
 
-def username_valid(username:str):
+def username_valid(username: str):
     secure_uname = secure_filename(username)
 
     if not valid_char_set(username, UNAME_CHARS):
@@ -69,8 +69,9 @@ def logout():
 @auth.route('/sign-up', methods=['GET', 'POST'])
 def sign_up():
     if request.method == "POST":
-        username = request.form.get('username')  # id must match the 'name' attribute in the html file
-        # email = request.form.get('email')     # not used yet   
+        # id must match the 'name' attribute in the html file
+        username = request.form.get('username')
+        # email = request.form.get('email')     # not used yet
         password = request.form.get('password')
         confPassword = request.form.get('confPassword')
         acces_code = request.form.get('accessCode')
@@ -87,16 +88,19 @@ def sign_up():
         elif len(password) > 100:
             flash("Password is too long", category='error')
         elif not passwd_valid:
-            flash(f'For passwords only characters, numbers and {ALLOWED_SPECIAL_CHARS} please', category='error')
+            flash(
+                f'For passwords only characters, numbers and {ALLOWED_SPECIAL_CHARS} please', category='error')
         elif password != confPassword:
             flash('Passwords are not matching', category='error')
         elif acces_code != app.config['ACCESS_CODE']:
             flash('Alpha access code invalid', category='error')
         else:
             # personal files get stored in a folder named heroes/user_[username]
-            heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'user_' + username)
+            heroes_path = os.path.join(
+                app.config['UPLOAD_FOLDER'], 'user_' + username)
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
-            new_user = User(username=username, password=generate_password_hash(password, method='sha256'), heroes_path=heroes_path, access_lvl=Level.USER) # add e-mail for later use
+            new_user = User(username=username, password=generate_password_hash(
+                password, method='scrypt'), heroes_path=heroes_path, access_lvl=Level.USER)  # add e-mail for later use
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)
@@ -104,4 +108,3 @@ def sign_up():
             return redirect(url_for('views.home'))
 
     return render_template("sign-up.html", user=current_user)
-

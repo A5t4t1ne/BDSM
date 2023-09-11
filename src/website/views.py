@@ -32,11 +32,11 @@ def overview():
 
             if len(invalid_files) > 0:
                 invalid_file_names = ', '.join(invalid_files)
-                flash(f'These files are not valid: {invalid_file_names}', category='error')
+                flash(
+                    f'These files are not valid: {invalid_file_names}', category='error')
             else:
                 flash("Files uploaded successfully", category='success')
-        
-   
+
     return render_template('overview.html', user=current_user, form=form)
 
 
@@ -63,22 +63,54 @@ def admin_panel():
         return redirect(url_for("views.home"))
 
 
-# Server request size to large
 @app.errorhandler(413)
 def too_large(e):
+    """Server request too large error handler.
+
+    Args:
+        e (_type_): _description_
+
+    Returns:
+        string: string with html code
+    """
     flash("Upload size too large", category='error')
     return redirect(url_for("views.overview"))
 
-# wrong url
+
 @app.errorhandler(404)
 def server_error(e):
+    """Handle URL not found error
+
+    Args:
+        e (_type_): _description_
+
+    Returns:
+        string: string with html code
+    """
     return "<h1>Page not found</h1>"
 
-#internal server error
+
 @app.errorhandler(500)
 def server_error(e):
+    """Handle internal server errors.
+
+    Args:
+        e (_type_): _description_
+
+    Returns:
+        string: string with html code
+    """
     return "<h1>Internal server error</h1><p>Please contact me with the steps you just made before this happened</p>"
+
 
 @app.errorhandler(CSRFError)
 def csrf_error(e):
+    """Handle CSRF errors.
+
+    Args:
+        e (_type_): _description_
+
+    Returns:
+        string: string with html code
+    """
     return f"Sorry, this request could not be executed.\nError: {e}"
