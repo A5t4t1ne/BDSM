@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 
 [project]
 name = "BDSM"
-version = "0.2.1"
+version = "0.2.2"
 authors = [
   { name="David Jäggli", email="dev.bdsm@pm.me"}
 ]
@@ -18,14 +18,14 @@ classifiers = [
 ]
 
 dependencies = [
-    "Flask==2.2.3",
-    "Flask-Login==0.6.2",
-    "Flask-SQLAlchemy==3.0.3",
-    "Flask-WTF==1.0.1",
-    "WTForms==3.0.1",
-    "gunicorn==20.1.0",
-    "SQLAlchemy==1.4.39",
-    "pyyaml==6.0"
+    "Flask==2.*",
+    "Flask-Login>=0.6",
+    "Flask-SQLAlchemy==3.*",
+    "Flask-WTF==1.*",
+    "WTForms==3.*",
+    "gunicorn",
+    "SQLAlchemy==1.*",
+    "pyyaml"
 ]
 
 [project.optional-dependencies]
