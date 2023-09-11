@@ -6,7 +6,8 @@ import json
 LITURGIES = dict()
 BLESSINGS = dict()
 ATTRIBUTES = dict()
-SPELLS = dict()
+CANTRIPS = dict()
+CANTRIPS = dict()
 SPELL_ENHANCEMENTS = dict()
 SKILLS = dict()
 SPECIAL_ABILITIES = dict()
@@ -20,7 +21,8 @@ class DataPath:
     """
     DE_LITURGIES = os.path.join("de-DE", "LiturgicalChants.yaml")
     DE_ATTRIBUTES = os.path.join("de-DE", "Attributes.yaml")
-    DE_SPELLS = os.path.join("de-DE", "Spells.yaml")
+    DE_CANTRIPS = os.path.join("de-DE", "Spells.yaml")
+    DE_CANTRIPS = os.path.join("de-DE", "Cantrips.yaml")
     DE_BLESSINGS = os.path.join("de-DE", "Blessings.yaml")
     DE_SKILLS = os.path.join("de-DE", "Skills.yaml")
     DE_SPECIAL_ABILITIES = os.path.join("de-DE", "SpecialAbilities.yaml")
@@ -28,6 +30,7 @@ class DataPath:
 
     UNIV_LITURGIES = os.path.join("univ", "LiturgicalChants.yaml")
     UNIV_SPELLS = os.path.join("univ", "Spells.yaml")
+    UNIV_CANTRIPS = os.path.join("univ", "Cantrips.yaml")
     UNIV_SKILLS = os.path.join("univ", "Skills.yaml")
     UNIV_SPECIAL_ABILITIES = os.path.join("univ", "SpecialAbilities.yaml")
 
@@ -100,11 +103,11 @@ def load_blessings():
 
 def load_spells():
     """Load all spells into the SPELLS constant"""
-    for spell in get_yaml_data(DataPath.DE_SPELLS):
+    for spell in get_yaml_data(DataPath.DE_CANTRIPS):
         key = spell['id']
         del spell['id']
 
-        SPELLS[key] = spell
+        CANTRIPS[key] = spell
 
     for spell in get_yaml_data(DataPath.UNIV_SPELLS):
         key = spell['id']
@@ -113,7 +116,25 @@ def load_spells():
         # save detailed information about the check attributes
         spell['check1'], spell['check2'], spell['check3'] = get_attr_data(spell['check1'], spell['check2'], spell['check3'])
 
-        SPELLS[key]['univ'] = spell # combine general and descriptive data
+        CANTRIPS[key]['univ'] = spell # combine general and descriptive data
+
+
+def load_cantrips():
+    """Load all cantrips into the CANTRIPS constant"""
+    for cantrip in get_yaml_data(DataPath.DE_CANTRIPS):
+        key = cantrip['id']
+        del cantrip['id']
+
+        CANTRIPS[key] = cantrip
+
+    for cantrip in get_yaml_data(DataPath.UNIV_CANTRIPS):
+        key = cantrip['id']
+        del cantrip['id']
+
+        # save detailed information about the check attributes
+        cantrip['check1'], cantrip['check2'], cantrip['check3'] = get_attr_data(cantrip['check1'], cantrip['check2'], cantrip['check3'])
+
+        CANTRIPS[key]['univ'] = cantrip # combine general and descriptive data
 
 
 def load_spell_enhancements():
