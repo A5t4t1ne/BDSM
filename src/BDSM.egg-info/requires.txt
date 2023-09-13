@@ -1,0 +1,11 @@
+Flask==2.*
+Flask-Login>=0.6
+Flask-SQLAlchemy==3.*
+Flask-WTF==1.*
+WTForms==3.*
+gunicorn
+SQLAlchemy==1.*
+pyyaml
+
+[dev]
+pytest==7.2.0
