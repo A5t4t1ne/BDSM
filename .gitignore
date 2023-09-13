@@ -8,4 +8,3 @@ website/tools/__pycache__/
 .pytest_cache
 log
 tests
-.venv
