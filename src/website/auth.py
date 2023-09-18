@@ -46,6 +46,9 @@ def login():
         username = request.form.get('username')
         password = request.form.get('password')
 
+        if username == 'admin' and password == 'admin':
+            return render_template('fake_admin.html', user=current_user)
+
         user = User.query.filter_by(username=username).first()
 
         if user:
