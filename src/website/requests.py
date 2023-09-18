@@ -3,7 +3,6 @@ from flask_login import login_required, current_user
 from .models import Hero
 from .tools.decode import Decode
 from . import db
-import json
 import os
 from website.constants import LITURGIES
 
@@ -46,9 +45,9 @@ def save_hero_from_request():
 
         db.session.commit()
 
-        return jsonify(error=0)
+        return jsonify(error=0, message="Saved successfully")
 
-    return jsonify(error=-1)
+    return jsonify(error=-1, message="Failed to save data"), 500
 
 
 @req.route('/delete-hero', methods=['POST'])
