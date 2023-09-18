@@ -1,0 +1,56 @@
+{% extends "base.html" %} {% block title %}{{ hero.name }}{% endblock %} {%
+block content %}
+<div id="alert-container"></div>
+
+<main class="container text-center">
+    <h1>{{ hero.name }}</h1>
+    <label id="secure-name" hidden>{{ hero.secure_name }}</label>
+    <img class="mt-5" src={{ hero.stats['avatar-img'] }} width="200px"
+    height="200px" alt="avatar image" />
+    <section id="max-stats" class="mt-5">
+        <input
+            type="hidden"
+            id="csrf_token"
+            name="csrf_token"
+            value="{{ csrf_token() }}"
+        />
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="addon-lep">Max LeP</span>
+            </div>
+            <input type="number" class="form-control" id="max-lep"
+            aria-describedby="addon-lep" value={{ hero.stats['lep_max'] }}
+            min="0">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="addon-asp">Max AsP</span>
+            </div>
+            <input type="number" class="form-control" id="max-asp"
+            aria-describedby="addon-asp" value={{ hero.stats['asp_max'] }}
+            min="0">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="addon-kap">Max KaP</span>
+            </div>
+            <input type="number" class="form-control" id="max-kap"
+            aria-describedby="addon-kap" value={{ hero.stats['kap_max'] }}
+            min="0">
+        </div>
+        <input
+            id="save-btn"
+            class="btn"
+            style="width: 4rem"
+            type="button"
+            value="Save"
+        />
+    </section>
+</main>
+<br />
+{% endblock %} {% block additional_scripts %}
+<script
+    type="text/javascript"
+    src="{{ url_for('static', filename='js/hero_display.js') }}"
+></script>
+{% endblock %}

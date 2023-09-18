@@ -1,8 +1,8 @@
 from flask import Blueprint, flash, render_template, redirect, url_for, request, flash
 from flask_login import login_required, current_user
 from flask_wtf.csrf import CSRFError
-from . import app
-from .models import User, Level
+from . import app, db
+from .models import User, Hero, Level
 from .tools.upload import UploadFileForm, save_hero
 
 
@@ -52,6 +52,23 @@ def play():
     return render_template("play.html", user=current_user)
 
 
+@views.route('/hero-display/<hero_name>')
+def hero_display(hero_name):
+    """Display hero page with option to edit base stats.
+
+    Args:
+        hero_name (str): secure name of the hero
+
+    Returns:
+        html-template: hero_display.html template
+    """
+    hero = db.session.execute(db.select(Hero).where(
+        Hero.user_id == current_user.id,
+        Hero.secure_name == hero_name)
+    ).scalar()
+    return render_template("hero_display.html", user=current_user, hero=hero)
+
+
 @views.route('/admin-panel', methods=['GET', 'POST'])
 @login_required
 def admin_panel():
@@ -68,7 +85,7 @@ def too_large(e):
     """Server request too large error handler.
 
     Args:
-        e (_type_): _description_
+        e (_type_): error
 
     Returns:
         string: string with html code
