@@ -16,7 +16,7 @@ window.onload = function () {
                 })
                 .then((jsonResponse) => {
                     if (jsonResponse["error"] == 0) {
-                        event.currentTarget.parentElement.remove();
+                        event.currentTarget.parentElement.parentElement.remove();
                     } else {
                         alert("Could not delete that element");
                     }
