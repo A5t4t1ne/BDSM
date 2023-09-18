@@ -61,7 +61,7 @@ def save_hero(file):
 
     # if file was read before, cursor isn't at the beginning -> data cannot be read correctly
     file.seek(0)
-    raw_hero = json.load(file)
+    raw_hero: dict() = json.load(file)
     decoded_hero = Decode.decode_all(raw_hero)
     print(decoded_hero['name'])
     # user hero name for file name
@@ -90,6 +90,7 @@ def save_hero(file):
         file_path = os.path.join(current_user.heroes_path, hero_name + '.json')
 
     decoded_hero['secure_name'] = hero_name
+    decoded_hero['avatar-img'] = raw_hero.get('avatar', '')
 
     # save shortened hero as new file on given path in initialization
     with open(file_path, 'w') as f:
