@@ -16,7 +16,7 @@ window.onload = function () {
         let max = $("#lep-max").text();
         $("#pain").text(getPainLvl(curr, max));
     });
-    // setInterval(save_hero, 5000); // save hero every 5 seconds
+    // setInterval(save_hero, 1000); // save hero every second
 };
 
 function update_current_hero(obj) {
@@ -56,7 +56,11 @@ function get_hero_and_update(obj) {
     })
         .then((res) => {
             if (res.ok) return res.json();
-            else alert("Something went wront");
+            else
+                alertMessage(
+                    "Could not retrieve proper message from server",
+                    "danger"
+                );
         })
         .then((jsonResponse) => {
             update_new_hero_stats(jsonResponse);

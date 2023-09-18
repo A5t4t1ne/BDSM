@@ -19,11 +19,12 @@
     </form>
 </section>
 <hr class="mx-auto my-5" />
-<p class="mb-0">Your heroes:</p>
+<h4 class="mb-0">Your heroes:</h4>
 <div class="d-grid gap-3 pt-3">
     {% for hero in user.heroes %}
     <div class="p-2 bg-light border rounded hero-deletable" role="hero">
-        {{ hero.name }}
+        <h5 class="mb-0">
+            <a class="btn" type="button" href="{{ url_for('views.hero_display', hero_name=hero.secure_name) }}">{{ hero.name }}</a>
         <input
             type="button"
             class="btn-close btn-delete-hero"
