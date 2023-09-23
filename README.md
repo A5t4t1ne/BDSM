@@ -18,3 +18,4 @@ And of course the project would not be possible without:
 
 -   The contributors to the [Optolith Project](https://github.com/elyukai/optolith-client).
 -   The playmaker [Ulisses Spiele](https://ulisses-spiele.de/).
+-   I bims jetzt auch dabei ~Ducttapemummy
