@@ -5,11 +5,14 @@ The goal is to create a cross-platform application for keeping track of your her
 
 ## Improvement
 
-Feedback or suggestions are highly appreciated, either for missing/wrong background stuff or to compensate my lack of front-end development skills.
+Feedback or suggestions are very welcome, please open an issue or even better - a pull request!
 
 ## Note
 
-I have never worked with databases before so don't be too mad if I screwed up something badly but instead leave an issue or a even a Pull Request, thank you.
+I'm just a random dude who was asked by some friends to do this, so don't have high expectations regarding the software architecture.
+
+And yes. There are no bugs. Only features. Even if the data is not updated properly in the database.
+
 
 # Credits
 
