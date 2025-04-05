@@ -1,11 +1,9 @@
 from flask import Blueprint, request, jsonify
 from flask_login import login_required, current_user
 from .models import Hero
-from .tools.decode import Decode
 from . import db
 import json
 import os
-from website.constants import LITURGIES
 
 
 
@@ -20,11 +18,11 @@ def data_request():
                                 Hero.user_id == current_user.id, 
                                 Hero.secure_name == request_data['name'])
                             ).scalar()
-    sorted_hero_stats = json.dumps(hero.stats, sort_keys=True)
-  
     if not hero:
         return jsonify(None)
-    
+
+    sorted_hero_stats = json.dumps(hero.stats, sort_keys=True)
+  
     return sorted_hero_stats
 
 

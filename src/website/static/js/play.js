@@ -16,7 +16,9 @@ window.onload = function () {
         let max = $("#lep-max").text();
         $("#pain").text(getPainLvl(curr, max));
     });
-    // setInterval(save_hero, 5000); // save hero every 5 seconds
+
+    $(".hero-stat-input").on("change", update_current_hero);
+	// setInterval(save_hero, 5000); // save hero every 5 seconds
 };
 
 function update_current_hero(obj) {
@@ -30,6 +32,8 @@ function update_current_hero(obj) {
         wealth,
         $("#schips").val()
     );
+
+	save_hero(obj)
 }
 
 /**
