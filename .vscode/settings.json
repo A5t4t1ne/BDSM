@@ -2,6 +2,7 @@
     "python.testing.pytestArgs": ["tests"],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
+<<<<<<< HEAD
     "python.testing.unittestArgs": [
         "-v",
         "-s",
@@ -11,6 +12,11 @@
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
+=======
+    "python.testing.unittestArgs": ["-v", "-s", "./tests", "-p", "test_*.py"],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+>>>>>>> 23f1b7bd66855dd79fedf2cc5c8ed85578bafe73
     },
     "python.formatting.provider": "none"
 }

@@ -60,7 +60,11 @@ function get_hero_and_update(obj) {
     })
         .then((res) => {
             if (res.ok) return res.json();
-            else alert("Something went wront");
+            else
+                alertMessage(
+                    "Could not retrieve proper message from server",
+                    "danger"
+                );
         })
         .then((jsonResponse) => {
             update_new_hero_stats(jsonResponse);
