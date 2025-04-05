@@ -6,74 +6,75 @@ from . import app
 from werkzeug.utils import secure_filename
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import login_required, login_user, logout_user, current_user
-import string
 import os
 
-auth = Blueprint('auth', __name__)
 
-LOWER_CHARS = 'abcdefghijklmnopqrstuvwxyzäöü'
+auth = Blueprint("auth", __name__)
+
+LOWER_CHARS = "abcdefghijklmnopqrstuvwxyzäöü"
 UPPER_CHARS = LOWER_CHARS.upper()
-NUMBERS = '1234567890'
-ALLOWED_SPECIAL_CHARS = '&$?!-_'
+NUMBERS = "1234567890"
+ALLOWED_SPECIAL_CHARS = "&$?!-_"
 PASSWD_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS + ALLOWED_SPECIAL_CHARS
 UNAME_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS
 
 
-def valid_char_set(string: str, allowed_charset: set):
-    string = set(string)
+def valid_char_set(string: str, allowed_charset: str):
+    uniq_chars = set(string)
 
-    return string.issubset(allowed_charset)
+    return uniq_chars.issubset(allowed_charset)
 
 
-def username_valid(username:str):
+def username_valid(username: str):
     secure_uname = secure_filename(username)
 
     if not valid_char_set(username, UNAME_CHARS):
-        return False, f"For usernames only characters and numbers please"
+        return False, "For usernames only characters and numbers please"
     elif len(username) < 3:
         return False, "Sorry bro, username must be at least 3 characters long"
     elif len(username) > 100:
         return False, "Nah that's too long my friend"
-    elif 'admin' in username.lower() or secure_uname != username:
+    elif "admin" in username.lower() or secure_uname != username:
         return False, "Nope not that one please"
     else:
         return True, ""
 
 
-@auth.route('/login', methods=['GET', 'POST'])
+@auth.route("/login", methods=["GET", "POST"])
 def login():
-    if request.method == 'POST':
-        username = request.form.get('username')
-        password = request.form.get('password')
+    if request.method == "POST":
+        username = request.form.get("username") or ""
+        password = request.form.get("password") or ""
 
         user = User.query.filter_by(username=username).first()
 
         if user:
             if check_password_hash(user.password, password):
                 login_user(user, remember=True)
-                return redirect(url_for('views.home'))
+                return redirect(url_for("views.home"))
             else:
-                flash("Wrong", category='error')
+                flash("Wrong", category="error")
         else:
-            flash('Wrong', category='error')
+            flash("Wrong", category="error")
     return render_template("login.html", user=current_user)
 
 
-@auth.route('/logout')
+@auth.route("/logout")
 @login_required
 def logout():
     logout_user()
-    return redirect(url_for('auth.login'))
+    return redirect(url_for("auth.login"))
 
 
-@auth.route('/sign-up', methods=['GET', 'POST'])
+@auth.route("/sign-up", methods=["GET", "POST"])
 def sign_up():
     if request.method == "POST":
-        username = request.form.get('username')  # id must match the 'name' attribute in the html file
-        # email = request.form.get('email')     # not used yet   
-        password = request.form.get('password')
-        confPassword = request.form.get('confPassword')
-        acces_code = request.form.get('accessCode')
+        # id must match the 'name' attribute in the html file
+        username = request.form.get("username") or ""
+        # email = request.form.get('email')     # not used yet
+        password = request.form.get("password") or ""
+        confPassword = request.form.get("confPassword")
+        acces_code = request.form.get("accessCode")
 
         user = User.query.filter_by(username=username).first()
 
@@ -88,21 +89,31 @@ def sign_up():
         elif not uname_valid:
             flash(username_error_msg, category="error")
         elif not passwd_valid:
-            flash(f'For passwords only characters, numbers and {ALLOWED_SPECIAL_CHARS} please', category='error')
+            flash(
+                f"For passwords only characters, numbers and {ALLOWED_SPECIAL_CHARS} please",
+                category="error",
+            )
         elif password != confPassword:
-            flash('Passwords are not matching', category='error')
-        elif acces_code != app.config['ACCESS_CODE']:
-            flash('Alpha access code invalid', category='error')
+            flash("Passwords are not matching", category="error")
+        elif acces_code != app.config["ACCESS_CODE"]:
+            flash("Alpha access code invalid", category="error")
         else:
             # personal files get stored in a folder named heroes/user_[username]
-            heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'user_' + username)
+            heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "user_" + username)
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
-            new_user = User(username=username, password=generate_password_hash(password, method='sha256'), heroes_path=heroes_path, access_lvl=Level.USER) # add e-mail for later use
+            new_user = User(
+                username=username,
+                password=generate_password_hash(password, method="pbkdf2:sha256"),
+                heroes_path=heroes_path,
+                access_lvl=Level.USER,
+            )  # add e-mail for later use
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)
-            flash('Congratulations, you are now the proud owner, of a new account on this wonderful website!', category='success')
-            return redirect(url_for('views.home'))
+            flash(
+                "Congratulations, you are now the proud owner, of a new account on this wonderful website!",
+                category="success",
+            )
+            return redirect(url_for("views.home"))
 
     return render_template("sign-up.html", user=current_user)
-
