@@ -14,7 +14,7 @@ I'm just a random dude who was asked by some friends to do this, so don't have h
 And yes. There are no bugs. Only features. Even if the data is not updated properly in the database.
 
 
-# Credits
+## Credits
 
 The initial idea comes from the C# Application [DELM](https://github.com/Ducttapemummy/DELM).  
 And of course the project would not be possible without:
