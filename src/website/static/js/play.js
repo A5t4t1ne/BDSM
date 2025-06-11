@@ -1,4 +1,4 @@
-let current_hero_values = 0;
+let current_hero_values = {}
 
 window.onload = function () {
     let hero_select = $(".hero-select");
@@ -11,7 +11,7 @@ window.onload = function () {
     }
 
     $(".money-input").on("change", update_money);
-    $("#lep").bind("change", function (evt) {
+    $("#lep").bind("change", function (_evt) {
         let curr = $("#lep").val();
         let max = $("#lep-max").text();
         $("#pain").text(getPainLvl(curr, max));
@@ -24,7 +24,8 @@ window.onload = function () {
 function update_current_hero(obj) {
     let wealth = get_money();
 
-    current_hero_values = newHeroObject(
+    // current_hero_values = 
+	updateHero(
         $("#lep").val(),
         $("#asp").val(),
         $("#kap").val(),
@@ -75,7 +76,7 @@ function get_hero_and_update(obj) {
  * Send current values to webserver to save them in database
  * @param {*} evt
  */
-function save_hero(obj) {
+function save_hero(_obj) {
     let csrf = $("#csrf_token").val();
     const response = fetch("/save-hero", {
         method: "POST",
@@ -194,6 +195,7 @@ function getPainLvl(current, max) {
  */
 function update_new_hero_stats(hero) {
     // life, magic, holyness
+	console.log(hero)
     $("#lep-max").text(hero["lep_max"]);
     $("#asp-max").text(hero["asp_max"]);
     $("#kap-max").text(hero["kap_max"]);
@@ -371,14 +373,13 @@ function update_new_hero_stats(hero) {
  * @param {dict} wealth
  * @returns
  */
-function newHeroObject(lep, asp, kap, name, wealth, schips) {
-    let stats = {
-        "lep_current": lep,
-        "asp_current": asp,
-        "kap_current": kap,
-        "name": name,
-        "wealth": wealth,
-        "schips": schips,
-    };
+function updateHero(hero, lep, asp, kap, name, wealth, schips) {
+    hero.lep_current = lep
+    hero.asp_current = asp
+    hero.kap_current = kap
+    hero.name = name
+    hero.wealth = wealth
+    hero.schips = schips
+
     return stats;
 }

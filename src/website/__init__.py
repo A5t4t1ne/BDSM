@@ -10,7 +10,12 @@ app = Flask(__name__)
 csrf = CSRFProtect()
 
 
-def create_admin():
+def create_admin() -> None:
+    """Create an admin user if it does not exist.
+    If the admin user exists, reset its password and heroes path.
+    This function is called when the application starts up and ensures that
+    there is always an admin user available for managing the application.
+    """
     from website.models import User, Level
     from werkzeug.security import generate_password_hash
     from pathlib import Path
@@ -40,7 +45,26 @@ def create_admin():
             db.session.commit()
 
 
-def create_app(db_name="database.db", upload_folder="heroes"):
+def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
+    """Create and configure the Flask application.
+    This function initializes the Flask application, sets up the database,
+    configures the secret key, access code, and upload folder.
+    It also registers the blueprints for different parts of the application
+    and creates the admin user if it does not exist.
+
+    Args:
+        db_name (str, optional): Name of the database file. Defaults to "database.db".
+        upload_folder (str, optional): Name of the folder for uploading files. Defaults to "heroes".
+
+    Raises:
+        KeyError: _key_error_
+        If the config.json file does not contain the required keys.
+        FileNotFoundError: _file_not_found_error_
+        If the config.json file is not found in the expected location.
+
+    Returns:
+        Flask: The configured Flask application instance.
+    """
     app.config['SECRET_KEY'] = "asdflk-asdfjlksadf-afhjasdf-"
     app.config['ACCESS_CODE'] = "AAAA-BBBB-CCCC-DDDD"
     # get abs path starting from this file location

@@ -1,4 +1,5 @@
 import math
+from typing import Tuple
 from website.constants import LITURGIES, BLESSINGS, SPELLS, SPECIAL_ABILITIES, SKILLS
 import logging
 import os
@@ -11,11 +12,19 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s: %(message)s',
 
 
 class Decode():
+    """Class to decode a DSA hero from the raw hero data.
+    This class provides methods to extract important stats from the raw hero data."""
     @classmethod
     def decode_all(cls, hero: dict) -> dict:
-        """Returns all important stats from the raw hero
+        """Assembles all stats of a hero from the raw hero data.
+        This method gathers all relevant information from the hero's raw data
+        and returns a dictionary containing the hero's stats.
 
-        :param: hero (dict)    the DSA hero in a dict format   
+        Args:
+            hero (dict): hero in the format of Decode.decode_all()
+
+        Returns:
+            dict: the hero's stats including name.
         """
         stats = dict()
         stats['name'] = hero['name']
@@ -45,10 +54,29 @@ class Decode():
 
     @classmethod
     def name(cls, hero: dict) -> str:
+        """Returns the name of the hero.
+
+        Args:
+            hero (dict): raw hero dictionary
+
+        Returns:
+            str: the name of the hero
+        """
         return str(hero['name'])
 
     @classmethod
-    def max_lep(cls, hero: dict) -> tuple:
+    def max_lep(cls, hero: dict) -> int:
+        """Calculates the maximum Lebensenergiepunkte (LeP) for a hero.
+
+        Args:
+            hero (dict): raw hero dictionary
+            
+        Raises:
+            KeyError: If the hero does not have the required attributes or activatables.
+
+        Returns:
+            int: The maximum LeP for the hero.
+        """
         lep_max = 0
 
         # life given from KO-value and additional bought life
@@ -176,7 +204,7 @@ class Decode():
         return cls.belongings(hero=hero)['purse']
 
     @classmethod
-    def armor(cls, hero: dict, return_weight=False) -> int:
+    def armor(cls, hero: dict, return_weight=False) -> Tuple[int, int] | int:
         items = cls.items(hero=hero)
         for item in items:
             if "armorType" in items[item]:

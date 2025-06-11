@@ -1,9 +1,11 @@
-from flask import Blueprint, flash, render_template, redirect, url_for, request, flash
+from flask import Blueprint, flash, render_template, redirect, url_for, request
 from flask_login import login_required, current_user
 from flask_wtf.csrf import CSRFError
 from . import app, db
 from .models import User, Hero, Level
 from .tools.upload import UploadFileForm, save_hero
+from typing import List
+from werkzeug import Response
 
 
 views = Blueprint("views", __name__)
@@ -11,19 +13,19 @@ views = Blueprint("views", __name__)
 
 @views.route('/')
 @views.route("/home")
-def home():
+def home() -> str:
     return render_template("home.html", user=current_user)
 
 
 @views.route('/overview', methods=['GET', 'POST'])
 @login_required
-def overview():
+def overview() -> str:
     form = UploadFileForm()
 
     if form.validate_on_submit():
         # check if there is no real file uploaded
         if len(form.files.data) < 1 or (len(form.files.data) == 1 and form.files.data[0].filename == ''):
-            flash(f"No file selected", category='error')
+            flash("No file selected", category='error')
         else:
             invalid_files = []
             for file in form.files.data:
@@ -42,18 +44,18 @@ def overview():
 
 @views.route('/account')
 @login_required
-def account():
+def account() -> str:
     return render_template('account.html', user=current_user)
 
 
 @views.route('/play')
 @login_required
-def play():
+def play() -> str:
     return render_template("play.html", user=current_user)
 
 
 @views.route('/hero-display/<hero_name>')
-def hero_display(hero_name):
+def hero_display(hero_name) -> str:
     """Display hero page with option to edit base stats.
 
     Args:
@@ -71,10 +73,11 @@ def hero_display(hero_name):
 
 @views.route('/admin-panel', methods=['GET', 'POST'])
 @login_required
-def admin_panel():
+def admin_panel() -> Response | str:
     if current_user.access_lvl == Level.ADMIN:
+        all_users = []
         if request.method == "GET":
-            all_users = User.query.all()
+            all_users: List[User] = User.query.all()
         return render_template("admin-panel.html", user=current_user, all_users=all_users)
     else:
         return redirect(url_for("views.home"))
@@ -95,7 +98,7 @@ def too_large(e):
 
 
 @app.errorhandler(404)
-def server_error(e):
+def not_found_error(e):
     """Handle URL not found error
 
     Args:
@@ -108,7 +111,7 @@ def server_error(e):
 
 
 @app.errorhandler(500)
-def server_error(e):
+def internal_server_error(e):
     """Handle internal server errors.
 
     Args:
@@ -130,4 +133,4 @@ def csrf_error(e):
     Returns:
         string: string with html code
     """
-    return f"Sorry, this request could not be executed.\nError: {e}"
+    return "Sorry, this request could not be executed.\n"

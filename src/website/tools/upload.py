@@ -1,3 +1,4 @@
+from typing import Dict
 from flask_login import current_user
 from flask_wtf import FlaskForm
 from wtforms import SubmitField, MultipleFileField
@@ -25,13 +26,13 @@ def is_valid_hero(file):
     file.seek(0)
     hero = json.load(file)
 
-    if not 'clientVersion' in hero:
+    if 'clientVersion' not in hero:
         return False
 
     # convert version X.Y.Z to XY
     version_list = hero['clientVersion'].split('.')
     if len(version_list) < 2:
-        return False
+        return None
     elif len(version_list) == 2:
         version = Version(int(version_list[0]), int(version_list[1]), 0)
     elif len(version_list) >= 3:
@@ -46,11 +47,11 @@ def is_valid_hero(file):
 
     return version.major >= 1 and \
         name != "" and \
-        name != None and \
-        attr != None and \
-        race != None and \
-        acti != None and \
-        belo != None
+        name is not None and \
+        attr is not None and \
+        race is not None and \
+        acti is not None and \
+        belo is not None
 
 
 def save_hero(file):
@@ -61,7 +62,7 @@ def save_hero(file):
 
     # if file was read before, cursor isn't at the beginning -> data cannot be read correctly
     file.seek(0)
-    raw_hero: dict() = json.load(file)
+    raw_hero: Dict = json.load(file)
     decoded_hero = Decode.decode_all(raw_hero)
     print(decoded_hero['name'])
     # user hero name for file name
@@ -99,6 +100,7 @@ def save_hero(file):
     # add hero to database
     new_hero = Hero(name=decoded_hero['name'], secure_name=hero_name,
                     path=file_path, stats=decoded_hero, user_id=current_user.id)
+    print(new_hero.stats)
     db.session.add(new_hero)
     db.session.commit()
 

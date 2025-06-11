@@ -1,4 +1,5 @@
-from flask import Blueprint, request, jsonify
+from typing import Tuple
+from flask import Blueprint, Response, request, jsonify
 from flask_login import login_required, current_user
 from .models import Hero
 from . import db
@@ -12,7 +13,13 @@ req = Blueprint("requests", __name__)
 
 @req.route("/data-request", methods=['POST'])
 @login_required
-def data_request():
+def data_request() -> Response:
+    """Handles a data request for a hero's stats.
+    This endpoint retrieves the stats of a hero based on the user's request.
+
+    Returns:
+        Response: A JSON response containing the hero's stats or None if not found.
+    """
     request_data = request.get_json()
     hero = db.session.execute(db.select(Hero).where(
                                 Hero.user_id == current_user.id, 
@@ -23,12 +30,18 @@ def data_request():
 
     sorted_hero_stats = json.dumps(hero.stats, sort_keys=True)
   
-    return sorted_hero_stats
+    return jsonify(sorted_hero_stats)
 
 
 @req.route('/save-hero', methods=['POST'])
 @login_required
-def save_hero_from_request():
+def save_hero_from_request() -> Tuple[Response, int]:
+    """Handles a request to save hero data.
+    This endpoint updates the hero's stats based on the provided data.
+
+    Returns:
+        Tuple[Response, int]: A tuple containing a JSON response and an HTTP status code.
+    """
     request_data = request.get_json()
     hero = db.session.execute(db.select(Hero).where(
         Hero.user_id == current_user.id,
@@ -44,22 +57,28 @@ def save_hero_from_request():
 
         db.session.commit()
 
-        return jsonify(error=0, message="Saved successfully")
+        return jsonify(error=0, message="Saved successfully"), 200
 
     return jsonify(error=-1, message="Failed to save data"), 500
 
 
 @req.route('/delete-hero', methods=['POST'])
 @login_required
-def delete_hero():
+def delete_hero() -> Response:
+    """Handles a request to delete a hero.
+
+    Returns:
+        Response: A JSON response indicating success or failure.
+    """
     data = request.get_json()
-    hero = db.session.execute(db.select(Hero).where(
+    hero: Hero | None = db.session.execute(db.select(Hero).where(
         Hero.user_id == current_user.id, Hero.secure_name == data['name'])).scalar()
 
-    hero_path = hero.path
+    if not hero or not isinstance(hero, Hero):
+        return jsonify(error=-1)
 
+    hero_path = hero.path
     if not hero_path:
-        # no valid hero
         return jsonify(error=-1)
 
     if os.path.isfile(hero_path):

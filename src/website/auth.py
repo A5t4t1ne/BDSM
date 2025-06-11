@@ -1,5 +1,7 @@
 from pathlib import Path
+from typing import Tuple
 from flask import Blueprint, render_template, request, flash, redirect, url_for
+from werkzeug import Response
 from .models import User, Level
 from . import db
 from . import app
@@ -19,13 +21,30 @@ PASSWD_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS + ALLOWED_SPECIAL_CHARS
 UNAME_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS
 
 
-def valid_char_set(string: str, allowed_charset: str):
+def valid_char_set(string: str, allowed_charset: str) -> bool:
+    """Check if the string contains only characters from the allowed charset.
+
+    Args:
+        string (str): string to check
+        allowed_charset (str): string containing allowed characters
+    Returns:
+        bool: True if the string contains only allowed characters, False otherwise
+    """
     uniq_chars = set(string)
 
     return uniq_chars.issubset(allowed_charset)
 
 
-def username_valid(username: str):
+def username_valid(username: str) -> Tuple[bool, str]:
+    """Check if the username is valid.
+    This function checks if the username contains only valid characters,
+
+    Args:
+        username (str): username to check
+
+    Returns:
+        Tuple[bool, str]: A tuple consisting of (is_valid: bool, error_message: str)
+    """
     secure_uname = secure_filename(username)
 
     if not valid_char_set(username, UNAME_CHARS):
@@ -41,7 +60,13 @@ def username_valid(username: str):
 
 
 @auth.route("/login", methods=["GET", "POST"])
-def login():
+def login() -> str | Response:
+    """Login route for the application.
+
+    Returns:
+        str | Response: If the request method is GET, it renders the login page.
+        If the request method is POST, it processes the login form and redirects
+    """
     if request.method == "POST":
         username = request.form.get("username") or ""
         password = request.form.get("password") or ""
@@ -61,13 +86,29 @@ def login():
 
 @auth.route("/logout")
 @login_required
-def logout():
+def logout() -> Response:
+    """Logout route for the application.
+
+    Returns:
+        Response: Redirects to the login page after logging out the user.
+    """
     logout_user()
     return redirect(url_for("auth.login"))
 
 
 @auth.route("/sign-up", methods=["GET", "POST"])
-def sign_up():
+def sign_up() -> str | Response:
+    """Sign-up route for the application.
+    This route handles the user registration process. It validates the input,
+    checks for existing usernames, and creates a new user account if all validations pass.
+    If the request method is GET, it renders the sign-up page.
+    If the request method is POST, it processes the sign-up form.
+
+    Returns:
+        str | Response: If the request method is GET, it renders the sign-up page.
+        If the request method is POST, it processes the sign-up form and redirects
+        to the home page upon successful registration.
+    """
     if request.method == "POST":
         # id must match the 'name' attribute in the html file
         username = request.form.get("username") or ""
