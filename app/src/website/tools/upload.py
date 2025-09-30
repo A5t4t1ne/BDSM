@@ -8,6 +8,7 @@ from .. import app, db
 from ..models import Hero
 import json
 import os
+from pathlib import Path
 
 
 class UploadFileForm(FlaskForm):
@@ -67,7 +68,7 @@ def save_hero(file):
     print(decoded_hero['name'])
     # user hero name for file name
     hero_name = secure_filename(decoded_hero['name']).lower()
-    file_path = os.path.join(current_user.heroes_path, hero_name + '.json')
+    file_path = Path(current_user.heroes_path).resolve() / (hero_name + '.json')
 
     while os.path.isfile(file_path):
         # if file exists handle it with incrementing numbers -> file.json, file(1).json, file(2).json ...
@@ -99,8 +100,7 @@ def save_hero(file):
 
     # add hero to database
     new_hero = Hero(name=decoded_hero['name'], secure_name=hero_name,
-                    path=file_path, stats=decoded_hero, user_id=current_user.id)
-    print(new_hero.stats)
+                    path=str(file_path), stats=decoded_hero, user_id=current_user.id)
     db.session.add(new_hero)
     db.session.commit()
 

@@ -1,44 +1,54 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-
 [project]
 name = "BDSM"
-version = "0.2.3"
-authors = [
-  { name="David Jäggli", email="dev.bdsm@pm.me"}
-]
+version = "0.2.0"
 description = "Browser DSA stat Manager. Helps keeping track of your DSA character while playing."
+authors = [
+    {name = "A5t4t1ne", email = "dev.bdsm@pm.me"},
+]
+dependencies = ["Flask>=3.1.2", "Flask-Login>=0.6.3", "flask-sqlalchemy>=3.1.1", "flask-wtf>=1.2.2", "wtforms>=3.2.1", "gunicorn>=23.0.0", "pyyaml>=6.0.2"]
+requires-python = ">=3.9"
 readme = "README.md"
-requires-python = ">=3.7"
-
+license = {text = "MIT"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
     "License :: OSI Approved :: MIT License"
 ]
 
-dependencies = [
-    "Flask==2.*",
-    "Flask-Login>=0.6",
-    "Flask-SQLAlchemy==3.*",
-    "Flask-WTF==1.*",
-    "WTForms==3.*",
-    "gunicorn",
-    "SQLAlchemy==1.*",
-    "pyyaml"
-]
-
-[project.optional-dependencies]
-dev = [
-    "pytest==7.2.0"
-]
 
 [project.urls]
 "Homepage" = "https://github.com/Jave01/BDSM"
 "Bug Tracker" = "https://github.com/Jave01/BDSM/issues"
 
-[tool.isort]
-profile = "black"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+    "ruff>=0.13.1",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+select = ["E", "F", "W", "C90"]
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    ".venv"
+]
+
+[tool.ruff.format]
+line-ending = "auto"
+indent-style = "space"
+quote-style = "double"
+skip-magic-trailing-comma = false
+
+
+[tool.pdm]
+distribution = false
+
 
 [tool.pytest.ini_options]
 addopts = "-ra -v"

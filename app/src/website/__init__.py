@@ -24,23 +24,32 @@ def create_admin() -> None:
     with app.app_context():
         admin = None
         try:
-            admin = User.query.filter_by(username='admin').first()
+            admin = User.query.filter_by(username="admin").first()
         except Exception:
             admin = None
 
         if not admin:
-            heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
+            heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "admin")
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
-            admin_pw = generate_password_hash(app.config['ADMIN_PW'], method='pbkdf2:sha256')
-            new_admin = User(username='admin', password=admin_pw, heroes_path=heroes_path, access_lvl=Level.ADMIN)
+            admin_pw = generate_password_hash(
+                app.config["ADMIN_PW"], method="pbkdf2:sha256"
+            )
+            new_admin = User(
+                username="admin",
+                password=admin_pw,
+                heroes_path=heroes_path,
+                access_lvl=Level.ADMIN,
+            )
             db.session.add(new_admin)
             db.session.commit()
         else:
             # reset admin
-            heroes_path = os.path.join(app.config['UPLOAD_FOLDER'], 'admin')
+            heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "admin")
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
             admin.heroes_path = heroes_path
-            admin.password = generate_password_hash(app.config['ADMIN_PW'], method='pbkdf2:sha256')
+            admin.password = generate_password_hash(
+                app.config["ADMIN_PW"], method="pbkdf2:sha256"
+            )
             admin.access_lvl = Level.ADMIN
             admin.email = ""
             db.session.commit()
@@ -48,26 +57,24 @@ def create_admin() -> None:
 
 def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
     """Create and configure the Flask application.
-    This function initializes the Flask application, sets up the database,
-    configures the secret key, access code, and upload folder.
-    It also registers the blueprints for different parts of the application
-    and creates the admin user if it does not exist.
+    This function initializes the Flask application, sets up the database, configures
+    the secret key, access code, and upload folder. It also registers the blueprints for
+    different parts of the application and creates the admin user if it does not exist.
 
     Args:
         db_name (str, optional): Name of the database file. Defaults to "database.db".
-        upload_folder (str, optional): Name of the folder for uploading files. Defaults to "heroes".
+        upload_folder (str, optional): Name of the folder for uploading files. Defaults
+        to "heroes".
 
     Raises:
-        KeyError: _key_error_
-        If the config.json file does not contain the required keys.
-        FileNotFoundError: _file_not_found_error_
-        If the config.json file is not found in the expected location.
+        KeyError: If the config file does not contain the required keys.
+        FileNotFoundError: If no config file is found.
 
     Returns:
         Flask: The configured Flask application instance.
     """
-    app.config['SECRET_KEY'] = "asdflk-asdfjlksadf-afhjasdf-"
-    app.config['ACCESS_CODE'] = "AAAA-BBBB-CCCC-DDDD"
+    app.config["SECRET_KEY"] = "asdflk-asdfjlksadf-afhjasdf-"
+    app.config["ACCESS_CODE"] = "AAAA-BBBB-CCCC-DDDD"
     # get abs path starting from this file location
     basedir = Path(__file__).absolute().parent
     db_dir = Path("/data") / db_name
@@ -77,24 +84,25 @@ def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
         with open(config_dir, "r") as f:
             try:
                 data = json.load(f)
-                app.config['SECRET_KEY'] = data['SECRET_KEY']
-                app.config['ACCESS_CODE'] = data['ACCESS_CODE']
-                app.config['ADMIN_PW'] = data['ADMIN_PW']
+                app.config["SECRET_KEY"] = data["SECRET_KEY"]
+                app.config["ACCESS_CODE"] = data["ACCESS_CODE"]
+                app.config["ADMIN_PW"] = data["ADMIN_PW"]
             except KeyError:
                 raise KeyError(
-                    "Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the config.json file")
+                    "Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the "
+                    "config.json file"
+                )
     except FileNotFoundError:
-        raise FileNotFoundError(
-            "Create a config.json file in the main directory")
+        raise FileNotFoundError("Create a config.json file in the main directory")
 
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + str(db_dir)
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + str(db_dir)
+    app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
     # max incoming request size 16MB
-    app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
+    app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16 MB
     # upload folder is [main.py-location]/[upload_folder]/
-    app.config['UPLOAD_FOLDER'] = os.path.join(basedir, '..', upload_folder)
-    app.config['ALLOWED_EXTENSIONS'] = {'json'}
-    app.config['JSON_AS_ASCII'] = False
+    app.config["UPLOAD_FOLDER"] = os.path.join(basedir, "..", upload_folder)
+    app.config["ALLOWED_EXTENSIONS"] = {"json"}
+    app.config["JSON_AS_ASCII"] = False
 
     db.init_app(app)
     csrf.init_app(app)
@@ -104,9 +112,9 @@ def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
     from .auth import auth
     from .requests import req
 
-    app.register_blueprint(views, url_prefix='/')
-    app.register_blueprint(auth, url_prefix='/')
-    app.register_blueprint(req, url_prefix='/')
+    app.register_blueprint(views, url_prefix="/")
+    app.register_blueprint(auth, url_prefix="/")
+    app.register_blueprint(req, url_prefix="/")
 
     # importing models for database creation
     from .models import User
@@ -119,7 +127,7 @@ def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
 
     login_manager = LoginManager()
     # default page to call if user isn't logged in
-    login_manager.login_view = 'auth.login'
+    login_manager.login_view = "auth.login"
     login_manager.init_app(app=app)
     login_manager.login_message = ""
 

@@ -3,8 +3,8 @@ services:
     build: ./app
     volumes:
       - sqlite_data:/data
-      - static_volume:/app/src/website/static
-      - heroes_volume:/app/src/heroes
+      - static_volume:/app/website/static
+      - heroes_volume:/app/heroes
     networks:
       - app-network
 

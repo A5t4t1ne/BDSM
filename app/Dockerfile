@@ -18,7 +18,10 @@ COPY src/ .
 RUN mkdir -p /data && chown appuser:appgroup /data
 VOLUME /data
 
+RUN chown -R appuser:appgroup /app/heroes
+VOLUME /app/heroes
+
 # WORKDIR /app/src
 USER appuser
-CMD ["gunicorn", "main:app", "-b", "0.0.0.0:8000", "--workers", "4"]
+CMD ["gunicorn", "main:app", "-b", "0.0.0.0:5000", "--workers", "4"]
 

@@ -13,3 +13,4 @@ if __name__ == "__main__":
         run = json.load(f)['run']
 
     app.run(debug=run['debug'], host=run['host'], port=run['port'])
+
