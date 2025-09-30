@@ -73,7 +73,7 @@ def save_hero(file):
     while os.path.isfile(file_path):
         # if file exists handle it with incrementing numbers -> file.json, file(1).json, file(2).json ...
 
-        # check if there are brackets with a number between it at the end of the filename
+        # check if hero name already contains an enumeration at the end
         if '(' in hero_name and ')' == hero_name[-1]:
             content_between_brackets = hero_name.rsplit('(', 1)[1][:-1]
             if content_between_brackets.isnumeric():

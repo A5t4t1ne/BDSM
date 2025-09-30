@@ -28,7 +28,7 @@ def create_admin() -> None:
         except Exception:
             admin = None
 
-        if not admin:
+        if admin is None:
             heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "admin")
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
             admin_pw = generate_password_hash(
@@ -73,8 +73,6 @@ def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
     Returns:
         Flask: The configured Flask application instance.
     """
-    app.config["SECRET_KEY"] = "asdflk-asdfjlksadf-afhjasdf-"
-    app.config["ACCESS_CODE"] = "AAAA-BBBB-CCCC-DDDD"
     # get abs path starting from this file location
     basedir = Path(__file__).absolute().parent
     db_dir = Path("/data") / db_name
@@ -87,6 +85,8 @@ def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
                 app.config["SECRET_KEY"] = data["SECRET_KEY"]
                 app.config["ACCESS_CODE"] = data["ACCESS_CODE"]
                 app.config["ADMIN_PW"] = data["ADMIN_PW"]
+                if data.get("DEV", False):
+                    db_dir = Path("/tmp") / db_name
             except KeyError:
                 raise KeyError(
                     "Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the "

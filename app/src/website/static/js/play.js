@@ -2,9 +2,9 @@ let current_hero_values = {}
 
 window.onload = function () {
     let hero_select = $(".hero-select");
-    hero_select.on("change", get_hero_and_update);
     hero_select.on("click", update_current_hero);
     hero_select.on("change", save_hero);
+    hero_select.on("change", get_hero_and_update);
     // set initial value
     if (hero_select.val() !== -1) {
         get_hero_and_update(hero_select);
@@ -24,15 +24,12 @@ window.onload = function () {
 function update_current_hero(obj) {
     let wealth = get_money();
 
-    // current_hero_values = 
-	updateHero(
-        $("#lep").val(),
-        $("#asp").val(),
-        $("#kap").val(),
-        $(".hero-select").val(),
-        wealth,
-        $("#schips").val()
-    );
+    current_hero_values.lep_current = $("#lep").val() 
+    current_hero_values.asp_current = $("#asp").val()
+    current_hero_values.kap_current = $("#kap").val()
+    current_hero_values.name = $(".hero-select").val(),
+    current_hero_values.wealth = wealth
+    current_hero_values.schips = $("#schips").val()
 
 	save_hero(obj)
 }
@@ -195,7 +192,7 @@ function getPainLvl(current, max) {
  */
 function update_new_hero_stats(hero) {
     // life, magic, holyness
-	console.log(hero)
+	// console.log(hero)
     $("#lep-max").text(hero["lep_max"]);
     $("#asp-max").text(hero["asp_max"]);
     $("#kap-max").text(hero["kap_max"]);
@@ -381,5 +378,5 @@ function updateHero(hero, lep, asp, kap, name, wealth, schips) {
     hero.wealth = wealth
     hero.schips = schips
 
-    return stats;
+    return hero;
 }

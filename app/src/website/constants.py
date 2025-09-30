@@ -1,4 +1,3 @@
-import yaml
 import os
 import logging
 import json
@@ -7,7 +6,6 @@ logging.basicConfig(level=logging.DEBUG)
 CURRENT_FILE_PATH = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(CURRENT_FILE_PATH, "..", "Data")
 
-# create dict out of the lists for faster access. Key is the id
 LITURGIES = dict()
 BLESSINGS = dict()
 ATTRIBUTES = dict()

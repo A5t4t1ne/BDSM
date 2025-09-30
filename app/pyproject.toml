@@ -28,7 +28,7 @@ dev = [
 ]
 
 [tool.ruff]
-line-length = 88
+line-length = 120
 target-version = "py39"
 select = ["E", "F", "W", "C90"]
 exclude = [
@@ -38,6 +38,7 @@ exclude = [
     "dist",
     ".venv"
 ]
+
 
 [tool.ruff.format]
 line-ending = "auto"
