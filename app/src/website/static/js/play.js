@@ -305,8 +305,8 @@ function update_new_hero_stats(hero) {
     }
 
     function update_special_abilities() {
-        let sa_content = "<p>Yo wassup</p>";
-        let sa_keys = Object.keys(hero["activatables"]["SA"]);
+        let sa_content = "<p>WIP</p>";
+        // let sa_keys = Object.keys(hero["activatables"]["SA"]);
         // console.log(sa_keys);
         // sa_keys.sort(function (a, b) {
         //     a = hero["liturgies"][a]["name"];

@@ -2,7 +2,7 @@ from typing import Tuple
 from flask import Blueprint, Response, request, jsonify
 from flask_login import login_required, current_user
 
-from .constants import LITURGIES, SPELLS
+from .constants import BLESSINGS, LITURGIES, SPECIAL_ABILITIES, SPELLS
 from .models import Hero
 from . import db
 import os
@@ -27,19 +27,48 @@ def data_request() -> Response:
     if not hero:
         return jsonify(None)
 
+
+    # get detailed data of hero abilities for displaying on play page
     full_data_liturgies = {}
-    for lit_name, lit_skill_level in hero.stats['liturgies'].items():
-        full_data_liturgies[lit_name] = LITURGIES[lit_name]
+    for lit_name, lit_skill_level in hero.stats["liturgies"].items():
+        full_data_liturgies[lit_name] = {}
+        full_data_liturgies[lit_name]["name"] = LITURGIES[lit_name]["name"]
+        full_data_liturgies[lit_name]["castingTime"] = LITURGIES[lit_name]["castingTime"]
+        full_data_liturgies[lit_name]["duration"] = LITURGIES[lit_name]["duration"]
+        full_data_liturgies[lit_name]["univ"] = {
+            "check1": LITURGIES[lit_name]["univ"]["check1"],
+            "check2": LITURGIES[lit_name]["univ"]["check2"],
+            "check3": LITURGIES[lit_name]["univ"]["check3"],
+        }
         full_data_liturgies[lit_name]["FW"] = lit_skill_level
 
-    hero.stats['liturgies'] = full_data_liturgies
+    hero.stats["liturgies"] = full_data_liturgies
+
+    full_data_blessings = {}
+    for ble_name in hero.stats["blessings"]:
+        full_data_blessings[ble_name] = {}
+        full_data_blessings[ble_name]["duration"] = BLESSINGS[ble_name]["duration"]
+        full_data_blessings[ble_name]["name"] = BLESSINGS[ble_name]["name"]
+
+    hero.stats["blessings"] = full_data_blessings
 
     full_data_spells = {}
-    for spell_name, spell_skill_level in hero.stats['spells'].items():
+    for spell_name, spell_skill_level in hero.stats["spells"].items():
         full_data_spells[spell_name] = SPELLS[spell_name]
         full_data_spells[spell_name]["FW"] = spell_skill_level
 
-    hero.stats['spells'] = full_data_spells
+    hero.stats["spells"] = full_data_spells
+
+    full_data_sa = {}
+    for sa_name, sa_skill_level in hero.stats["activatables"]["SA"].items():
+        full_data_sa[sa_name] = SPECIAL_ABILITIES[sa_name]
+        full_data_sa[sa_name]["FW"] = sa_skill_level
+
+    hero.stats["activatables"]["SA"] = full_data_sa
+
+    # remove unused entries for less network traffic
+    del hero.stats['attr']
+    del hero.stats['activatables']
 
     return hero.stats
 

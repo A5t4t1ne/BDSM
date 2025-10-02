@@ -1,5 +1,5 @@
 import math
-from typing import Tuple
+from typing import Dict, Tuple
 from website.constants import LITURGIES, BLESSINGS, SPELLS, SPECIAL_ABILITIES, SKILLS
 import logging
 import os
@@ -268,7 +268,11 @@ class Decode:
 
     @classmethod
     def liturgies(cls, hero: dict) -> dict:
-        return hero["liturgies"]
+        liturgies: Dict[str, int] = {}
+        if "ADV_12" in hero['advantages']: # blessed
+            extra: Dict[str, int] = hero.get('liturgies', {})
+            liturgies.update(extra)
+        return liturgies
 
     @classmethod
     def blessings(cls, hero: dict) -> dict:
