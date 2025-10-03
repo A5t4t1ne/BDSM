@@ -19,3 +19,4 @@ tests
 .venv
 **.egg-info/
 build
+app/secrets/*
