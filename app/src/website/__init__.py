@@ -31,9 +31,7 @@ def create_admin() -> None:
         if admin is None:
             heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "admin")
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
-            admin_pw = generate_password_hash(
-                app.config["ADMIN_PW"], method="pbkdf2:sha256"
-            )
+            admin_pw = generate_password_hash(app.config["ADMIN_PW"], method="pbkdf2:sha256")
             new_admin = User(
                 username="admin",
                 password=admin_pw,
@@ -47,15 +45,13 @@ def create_admin() -> None:
             heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "admin")
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
             admin.heroes_path = heroes_path
-            admin.password = generate_password_hash(
-                app.config["ADMIN_PW"], method="pbkdf2:sha256"
-            )
+            admin.password = generate_password_hash(app.config["ADMIN_PW"], method="pbkdf2:sha256")
             admin.access_lvl = Level.ADMIN
             admin.email = ""
             db.session.commit()
 
 
-def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
+def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
     """Create and configure the Flask application.
     This function initializes the Flask application, sets up the database, configures
     the secret key, access code, and upload folder. It also registers the blueprints for
@@ -75,32 +71,49 @@ def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
     """
     # get abs path starting from this file location
     basedir = Path(__file__).absolute().parent
-    db_dir = Path("/data") / db_name
+    db_dir = Path("/data")
+
+    if not db_dir.exists():
+        raise NotADirectoryError(f"{db_dir} does not exist")
+    if not db_dir.is_dir():
+        raise NotADirectoryError(f"{db_dir} is not a directory.")
+    if not os.access(db_dir, os.W_OK) or not os.access(db_dir, os.R_OK) or not os.access(db_dir, os.X_OK):
+        raise PermissionError(f"Not enough permissions on {db_dir} directory")
+
+    db_path = db_dir / db_name
     config_dir = basedir.parent / "config.json"
 
-    try:
-        with open(config_dir, "r") as f:
-            try:
-                data = json.load(f)
-                app.config["SECRET_KEY"] = data["SECRET_KEY"]
-                app.config["ACCESS_CODE"] = data["ACCESS_CODE"]
-                app.config["ADMIN_PW"] = data["ADMIN_PW"]
-                if data.get("DEV", False):
-                    db_dir = Path("/tmp") / db_name
-            except KeyError:
-                raise KeyError(
-                    "Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the "
-                    "config.json file"
-                )
-    except FileNotFoundError:
-        raise FileNotFoundError("Create a config.json file in the main directory")
+    # try:
+    #     with open(config_dir, "r") as f:
+    #         try:
+    #             data = json.load(f)
+    #             app.config["SECRET_KEY"] = data["SECRET_KEY"]
+    #             app.config["ACCESS_CODE"] = data["ACCESS_CODE"]
+    #             app.config["ADMIN_PW"] = data["ADMIN_PW"]
+    #             if os.environ["BDSM_DEV"] == "true":
+    #                 db_path = Path("/tmp") / db_name
+    #         except KeyError:
+    #             raise KeyError("Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the config.json file")
+    # except FileNotFoundError:
+    #     raise FileNotFoundError("Create a config.json file in the main directory")
 
-    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + str(db_dir)
+    p_secret = Path("/run/secrets")
+    p_secret_key = p_secret / Path("secret_key")
+    p_acc_code = p_secret / Path("access_code")
+    p_admin_pw = p_secret / Path("admin_pw")
+    with open(p_secret_key, 'r') as f:
+        app.config["SECRET_KEY"] = f.read()
+    with open(p_acc_code, 'r') as f:
+        app.config["ACCESS_CODE"] = f.read()
+    with open(p_admin_pw, 'r') as f:
+        app.config["ADMIN_PW"] = f.read()
+
+    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + str(db_path)
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
     # max incoming request size 16MB
     app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16 MB
     # upload folder is [main.py-location]/[upload_folder]/
-    app.config["UPLOAD_FOLDER"] = os.path.join(basedir, "..", upload_folder)
+    app.config["UPLOAD_FOLDER"] = str(basedir.parent / upload_folder)
     app.config["ALLOWED_EXTENSIONS"] = {"json"}
     app.config["JSON_AS_ASCII"] = False
 
@@ -119,7 +132,7 @@ def create_app(db_name="database.db", upload_folder="heroes") -> Flask:
     # importing models for database creation
     from .models import User
 
-    if not os.path.exists(db_dir):
+    if not os.path.exists(db_path):
         with app.app_context():
             db.create_all()
 

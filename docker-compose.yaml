@@ -7,11 +7,15 @@ services:
       - heroes_volume:/app/heroes
     networks:
       - app-network
+    secrets:
+      - access_code
+      - secret_key
+      - admin_pw
 
   nginx:
     build: ./nginx
     ports:
-      - "8080:80"
+      - "80:80"
     volumes:
       - static_volume:/usr/share/nginx/html/static
     depends_on:
@@ -27,3 +31,11 @@ volumes:
 networks:
   app-network:
     driver: bridge
+
+secrets:
+    access_code:
+      file: ./app/secrets/access_code.txt
+    secret_key:
+      file: ./app/secrets/secret_key.txt
+    admin_pw:
+      file: ./app/secrets/admin_pw.txt

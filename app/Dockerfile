@@ -5,16 +5,12 @@ RUN addgroup --system appgroup && adduser --system appuser --ingroup appgroup
 
 WORKDIR /app
 
-# Copy only the necessary files for dependency installation
+# Copy and install the application
 COPY pyproject.toml ./
-
-# Install dependencies
 RUN pip install --no-cache-dir .
-
-# Copy the rest of your application
 COPY src/ .
 
-# SQLite configuration (optional)
+# SQLite configuration
 RUN mkdir -p /data && chown appuser:appgroup /data
 VOLUME /data
 

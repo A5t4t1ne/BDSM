@@ -1,8 +1,4 @@
 {
-    "ACCESS_CODE": "AAAA-BBBB-CCCC-DDDD",
-    "SECRET_KEY": "aölkdsfölsajdflöj",
-    "ADMIN_PW": "adsf",
-	"DEV": true,
     "run": {
         "debug": true,
         "host": "127.0.0.1",
