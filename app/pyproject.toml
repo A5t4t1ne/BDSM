@@ -8,11 +8,10 @@ authors = [
 dependencies = ["Flask>=3.1.2", "Flask-Login>=0.6.3", "flask-sqlalchemy>=3.1.1", "flask-wtf>=1.2.2", "wtforms>=3.2.1", "gunicorn>=23.0.0", "pyyaml>=6.0.2"]
 requires-python = ">=3.9"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
-    "License :: OSI Approved :: MIT License"
 ]
 
 
