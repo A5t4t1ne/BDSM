@@ -38,8 +38,11 @@ def create_admin() -> None:
                 heroes_path=heroes_path,
                 access_lvl=Level.ADMIN,
             )
-            db.session.add(new_admin)
-            db.session.commit()
+            try:
+                db.session.add(new_admin)
+                db.session.commit()
+            except Exception as e:
+                print(f"Failed to commit: {e}")
         else:
             # reset admin
             heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "admin")
@@ -80,39 +83,21 @@ def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
     if not os.access(db_dir, os.W_OK) or not os.access(db_dir, os.R_OK) or not os.access(db_dir, os.X_OK):
         raise PermissionError(f"Not enough permissions on {db_dir} directory")
 
-    db_path = db_dir / db_name
-    config_dir = basedir.parent / "config.json"
-
-    # try:
-    #     with open(config_dir, "r") as f:
-    #         try:
-    #             data = json.load(f)
-    #             app.config["SECRET_KEY"] = data["SECRET_KEY"]
-    #             app.config["ACCESS_CODE"] = data["ACCESS_CODE"]
-    #             app.config["ADMIN_PW"] = data["ADMIN_PW"]
-    #             if os.environ["BDSM_DEV"] == "true":
-    #                 db_path = Path("/tmp") / db_name
-    #         except KeyError:
-    #             raise KeyError("Define the SECRET_KEY, ACCESS_CODE and ADMIN_PW in the config.json file")
-    # except FileNotFoundError:
-    #     raise FileNotFoundError("Create a config.json file in the main directory")
-
-    p_secret = Path("/run/secrets")
+    p_secret = Path("/run/secrets/")
     p_secret_key = p_secret / Path("secret_key")
     p_acc_code = p_secret / Path("access_code")
     p_admin_pw = p_secret / Path("admin_pw")
-    with open(p_secret_key, 'r') as f:
-        app.config["SECRET_KEY"] = f.read()
-    with open(p_acc_code, 'r') as f:
-        app.config["ACCESS_CODE"] = f.read()
-    with open(p_admin_pw, 'r') as f:
-        app.config["ADMIN_PW"] = f.read()
+    with open(p_secret_key, "r") as f:
+        app.config["SECRET_KEY"] = f.read().strip()
+    with open(p_acc_code, "r") as f:
+        app.config["ACCESS_CODE"] = f.read().strip()
+    with open(p_admin_pw, "r") as f:
+        app.config["ADMIN_PW"] = f.read().strip()
 
+    db_path = db_dir / db_name
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + str(db_path)
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = True
-    # max incoming request size 16MB
     app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16 MB
-    # upload folder is [main.py-location]/[upload_folder]/
     app.config["UPLOAD_FOLDER"] = str(basedir.parent / upload_folder)
     app.config["ALLOWED_EXTENSIONS"] = {"json"}
     app.config["JSON_AS_ASCII"] = False

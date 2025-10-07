@@ -115,7 +115,8 @@ def sign_up() -> str | Response:
         # email = request.form.get('email')     # not used yet
         password = request.form.get("password") or ""
         confPassword = request.form.get("confPassword")
-        access_code = request.form.get("accessCode")
+        access_code = request.form.get("accessCode") or ""
+        access_code = access_code.strip()
 
         user = User.query.filter_by(username=username).first()
 

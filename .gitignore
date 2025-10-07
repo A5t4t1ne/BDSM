@@ -9,7 +9,8 @@ website/__pycache__/
 website/tools/__pycache__/
 .pytest_cache
 
-src/heroes
+
+app/heroes
 src/config.json
 src/Data
 src/website/database.db
