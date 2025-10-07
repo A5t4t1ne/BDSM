@@ -21,3 +21,4 @@ tests
 **.egg-info/
 build
 app/secrets/*
+nginx/letsencrypt/live/hans.li
