@@ -11,11 +11,14 @@ services:
       - access_code
       - secret_key
       - admin_pw
+    environment:
+      - PYTHONUNBUFFERED=1
 
   nginx:
     build: ./nginx
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - static_volume:/usr/share/nginx/html/static
     depends_on:
