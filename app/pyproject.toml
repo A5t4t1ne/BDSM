@@ -5,7 +5,7 @@ description = "Browser DSA stat Manager. Helps keeping track of your DSA charact
 authors = [
     {name = "A5t4t1ne", email = "dev.bdsm@pm.me"},
 ]
-dependencies = ["Flask>=3.1.2", "Flask-Login>=0.6.3", "flask-sqlalchemy>=3.1.1", "flask-wtf>=1.2.2", "wtforms>=3.2.1", "gunicorn>=23.0.0", "pyyaml>=6.0.2"]
+dependencies = ["Flask>=3.1.2", "Flask-Login>=0.6.3", "flask-sqlalchemy>=3.1.1", "flask-wtf>=1.2.2", "wtforms>=3.2.1", "gunicorn>=23.0.0", "pyyaml>=6.0.2", "loguru>=0.7.3"]
 requires-python = ">=3.9"
 readme = "README.md"
 license = "MIT"

@@ -1,18 +1,7 @@
 import math
 from typing import Dict, Tuple
 from website.constants import LITURGIES, BLESSINGS, SPELLS, SPECIAL_ABILITIES, SKILLS
-import logging
-import os
-
-
-log_path = os.path.join(os.getcwd(), "log", "log.txt")
-
-logging.basicConfig(
-    format="%(asctime)s - %(levelname)s: %(message)s",
-    filename=log_path,
-    level=logging.WARN,
-    encoding="utf-8",
-)
+from loguru import logger
 
 
 class Decode:
@@ -41,7 +30,7 @@ class Decode:
         stats["kap_max"] = cls.max_kap(hero=hero)
         stats["kap_current"] = stats["kap_max"]
         stats["wealth"] = cls.wealth(hero=hero)
-        stats["armor"], stats["enc"] = cls.armor(hero=hero, return_weight=True)
+        stats["armor"], stats["enc"] = cls.armor_and_enc(hero=hero)
         stats["attr"] = cls.attributes(hero)
         stats["liturgies"] = cls.liturgies(hero)
         stats["spells"] = cls.spells(hero)
@@ -209,16 +198,22 @@ class Decode:
         return cls.belongings(hero=hero)["purse"]
 
     @classmethod
-    def armor(cls, hero: dict, return_weight=False) -> Tuple[int, int] | int:
+    def armor_and_enc(cls, hero: dict) -> Tuple[int, int]:
         items = cls.items(hero=hero)
         for item in items:
             if "armorType" in items[item]:
-                return (items[item]["pro"], items[item]["enc"]) if return_weight else items[item]["pro"]
+                protection_lvl = items[item]["pro"]
+                enc = cls.encumbrance(hero)
+                logger.debug(f"Found armor with prot lvl: {protection_lvl}")
 
-        return (0, 0) if return_weight else 0
+                return protection_lvl, enc
+
+        logger.debug("No armor found")
+        return (0, 0)
 
     @classmethod
     def encumbrance(cls, hero: dict):
+        logger.trace("trying to get encumbrance")
         items = cls.items(hero=hero)
         enc = 0
         for item in items:
@@ -226,9 +221,11 @@ class Decode:
                 enc = items[item]["enc"]
 
         if ActivatablesID.REDUCE_ENC in cls.activatables(hero=hero):
-            enc -= cls.activatables(hero=hero)[ActivatablesID.REDUCE_ENC][0]["tier"]
+            logger.trace("Found reduced encumbrance SA")
+            enc -= cls.activatables(hero=hero)["SA"][ActivatablesID.REDUCE_ENC][0]["tier"]
 
         enc = enc if enc >= 0 else 0  # reduce but not below zero
+        logger.debug(f"Final encumbrance: {enc}")
 
         return enc
 
@@ -269,9 +266,8 @@ class Decode:
     @classmethod
     def liturgies(cls, hero: dict) -> dict:
         liturgies: Dict[str, int] = {}
-        if "ADV_12" in hero['advantages']: # blessed
-            extra: Dict[str, int] = hero.get('liturgies', {})
-            liturgies.update(extra)
+        if "ADV_12" in hero["activatable"]:  # blessed
+            liturgies = hero.get("liturgies", {})
         return liturgies
 
     @classmethod
@@ -352,7 +348,7 @@ class Decode:
                                         activatables["SA"][act_key].update(SPECIAL_ABILITIES[act_key])
                                         activatables["SA"][act_key]["sid"] = sid
                                     else:
-                                        # logging.debug(f"{act_key=}, {sa_variation=}, {act_val=}")
+                                        logger.debug(f"{act_key=}, {sa_variation=}, {act_val=}")
                                         activatables["SA"][act_key].update(
                                             SPECIAL_ABILITIES[act_key]["selectOptions"][sid]
                                         )
@@ -377,7 +373,7 @@ class Decode:
                                         sid2 = str(sa_variation["sid2"])
                                         activatables["SA"][act_key]["application"] = SKILLS[sid]["applications"][sid2]
                         except Exception as e:
-                            logging.error(f"{e=}, hero={cls.name(hero)}\n")
+                            logger.error(f"{e=}, hero={cls.name(hero)}\n")
 
                         if "tier" in sa_vari_keys:
                             activatables["SA"][act_key] = SPECIAL_ABILITIES[act_key]

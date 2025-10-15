@@ -1,4 +1,5 @@
 from typing import Dict
+from flask import flash
 from flask_login import current_user
 from flask_wtf import FlaskForm
 from wtforms import SubmitField, MultipleFileField
@@ -64,8 +65,12 @@ def save_hero(file):
     # if file was read before, cursor isn't at the beginning -> data cannot be read correctly
     file.seek(0)
     raw_hero: Dict = json.load(file)
-    decoded_hero = Decode.decode_all(raw_hero)
-    print(decoded_hero['name'])
+    try:
+        decoded_hero = Decode.decode_all(raw_hero)
+    except Exception as e:
+        print(f"decoding failed: {e}")
+        return False
+
     # user hero name for file name
     hero_name = secure_filename(decoded_hero['name']).lower()
     file_path = Path(current_user.heroes_path).resolve() / (hero_name + '.json')
