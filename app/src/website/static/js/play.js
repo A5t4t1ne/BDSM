@@ -306,54 +306,54 @@ function update_new_hero_stats(hero) {
 
     function update_special_abilities() {
         let sa_content = "<p>WIP</p>";
-        // let sa_keys = Object.keys(hero["activatables"]["SA"]);
-        // console.log(sa_keys);
-        // sa_keys.sort(function (a, b) {
-        //     a = hero["liturgies"][a]["name"];
-        //     b = hero["liturgies"][b]["name"];
-        //     if (a < b) return -1;
-        //     if (a > b) return 1;
-        //     return 0;
-        // });
-        // bl_keys.sort(function (a, b) {
-        //     a = hero["blessings"][a]["name"];
-        //     b = hero["blessings"][b]["name"];
-        //     if (a < b) return -1;
-        //     if (a > b) return 1;
-        //     return 0;
-        // });
-        // let keys = sa_keys.concat(bl_keys);
-        // keys.forEach((key) => {
-        //     let lit_stats = "";
-        //     let checks = "";
-        //     let check1 = "";
-        //     let check2 = "";
-        //     let check3 = "";
-        //     let castingTime = "";
-        //     let fw = "";
-        //     if (key.indexOf("BLESSING") == 0) {
-        //         lit_stats = hero["blessings"][key];
-        //     } else if (key.indexOf("LITURGY") == 0) {
-        //         lit_stats = hero["liturgies"][key];
-        //         // checks for liturgies who have dice checks
-        //         if (lit_stats["univ"]["check1"]) {
-        //             check1 = lit_stats["univ"]["check1"]["short"];
-        //             check2 = lit_stats["univ"]["check2"]["short"];
-        //             check3 = lit_stats["univ"]["check3"]["short"];
-        //         }
-        //         castingTime = lit_stats["castingTime"];
-        //         fw = lit_stats["FW"];
-        //         checks = check1 + " / " + check2 + " / " + check3;
-        //     }
-        //     sa_content +=
-        //         '<div class="row activatable">' +
-        //         `<div class="col">${lit_stats["name"]}</div>` +
-        //         `<div class="col text-center">${castingTime}</div>` +
-        //         `<div class="col text-end">${lit_stats["duration"]}</div>` +
-        //         `<div class="col text-center">${fw}</div>` +
-        //         `<div class="col text-end">${checks}</div>` +
-        //         "</div>";
-        // });
+        let sa_keys = Object.keys(hero["activatables"]["SA"]);
+        console.log(sa_keys);
+        sa_keys.sort(function (a, b) {
+            a = hero["liturgies"][a]["name"];
+            b = hero["liturgies"][b]["name"];
+            if (a < b) return -1;
+            if (a > b) return 1;
+            return 0;
+        });
+        bl_keys.sort(function (a, b) {
+            a = hero["blessings"][a]["name"];
+            b = hero["blessings"][b]["name"];
+            if (a < b) return -1;
+            if (a > b) return 1;
+            return 0;
+        });
+        let keys = sa_keys.concat(bl_keys);
+        keys.forEach((key) => {
+            let lit_stats = "";
+            let checks = "";
+            let check1 = "";
+            let check2 = "";
+            let check3 = "";
+            let castingTime = "";
+            let fw = "";
+            if (key.indexOf("BLESSING") == 0) {
+                lit_stats = hero["blessings"][key];
+            } else if (key.indexOf("LITURGY") == 0) {
+                lit_stats = hero["liturgies"][key];
+                // checks for liturgies who have dice checks
+                if (lit_stats["univ"]["check1"]) {
+                    check1 = lit_stats["univ"]["check1"]["short"];
+                    check2 = lit_stats["univ"]["check2"]["short"];
+                    check3 = lit_stats["univ"]["check3"]["short"];
+                }
+                castingTime = lit_stats["castingTime"];
+                fw = lit_stats["FW"];
+                checks = check1 + " / " + check2 + " / " + check3;
+            }
+            sa_content +=
+                '<div class="row activatable">' +
+                `<div class="col">${lit_stats["name"]}</div>` +
+                `<div class="col text-center">${castingTime}</div>` +
+                `<div class="col text-end">${lit_stats["duration"]}</div>` +
+                `<div class="col text-center">${fw}</div>` +
+                `<div class="col text-end">${checks}</div>` +
+                "</div>";
+        });
         $("#sa-content").html(sa_content);
     }
 

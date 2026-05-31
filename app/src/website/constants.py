@@ -1,6 +1,9 @@
 import os
 import logging
 import json
+from typing import Dict
+from src.website.datatypes import Liturgie
+
 logging.basicConfig(level=logging.DEBUG)
 
 CURRENT_FILE_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -15,23 +18,29 @@ SPECIAL_ABILITIES = dict()
 
 
 dir_name = os.path.dirname(os.path.abspath(__file__))
-dir_name = os.path.join(dir_name, 'data')
+dir_name = os.path.join(dir_name, "data")
 
 
-with open(os.path.join(dir_name,'Liturgies.json'), 'r', encoding="utf8") as f:
-    LITURGIES = json.load(f)    
+with open(os.path.join(dir_name, "Liturgies.json"), "r", encoding="utf8") as f:
+    LITURGIES: Dict[str, Liturgie] = dict()
 
-with open(os.path.join(dir_name,'Blessings.json'), 'r', encoding="utf8") as f:
-    BLESSINGS = json.load(f)    
+    for key, val in json.load(f).values():
+        lit = Liturgie.model_validate(val)
+        lit.id = key
+        LITURGIES[key] = lit
 
-with open(os.path.join(dir_name,'Attributes.json'), 'r', encoding="utf8") as f:
-    ATTRIBUTES = json.load(f)    
 
-with open(os.path.join(dir_name,'Spells.json'), 'r', encoding="utf8") as f:
-    SPELLS = json.load(f)    
+with open(os.path.join(dir_name, "Blessings.json"), "r", encoding="utf8") as f:
+    BLESSINGS = json.load(f)
 
-with open(os.path.join(dir_name,'Skills.json'), 'r', encoding="utf8") as f:
-    SKILLS = json.load(f)    
+with open(os.path.join(dir_name, "Attributes.json"), "r", encoding="utf8") as f:
+    ATTRIBUTES = json.load(f)
 
-with open(os.path.join(dir_name,'SpecialAbilities.json'), 'r', encoding="utf8") as f:
-    SPECIAL_ABILITIES = json.load(f)    
+with open(os.path.join(dir_name, "Spells.json"), "r", encoding="utf8") as f:
+    SPELLS = json.load(f)
+
+with open(os.path.join(dir_name, "Skills.json"), "r", encoding="utf8") as f:
+    SKILLS = json.load(f)
+
+with open(os.path.join(dir_name, "SpecialAbilities.json"), "r", encoding="utf8") as f:
+    SPECIAL_ABILITIES = json.load(f)
