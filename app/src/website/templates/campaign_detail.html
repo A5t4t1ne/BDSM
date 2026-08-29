@@ -1,5 +1,6 @@
 {% extends "base.html" %}{% block title %}{{ campaign.name }}{% endblock %} {%
 block content %}
+<div id="alert-container"></div>
 <div class="container mt-4" style="max-width: 45rem">
     <p class="mb-1">
         <a href="{{ url_for('campaigns.index') }}">&larr; All campaigns</a>
@@ -78,13 +79,34 @@ block content %}
     </ul>
     {% endif %}
 
+    {% if invitable_friends %}
+    <h2 class="h5 mt-4">Invite a friend</h2>
+    <ul class="list-group">
+        {% for friend in invitable_friends %}
+        <li
+            class="list-group-item d-flex flex-wrap justify-content-between align-items-center gap-2"
+        >
+            <span class="text-truncate">{{ friend.username }}</span>
+            <form
+                method="POST"
+                action="{{ url_for('campaigns.invite_friend', campaign_id=campaign.id) }}"
+            >
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                <input type="hidden" name="user_id" value="{{ friend.id }}" />
+                <button class="btn btn-sm btn-dark" type="submit">Invite</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     <form
         method="POST"
         action="{{ url_for('campaigns.invite', campaign_id=campaign.id) }}"
         class="mt-4"
     >
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-        <label class="form-label" for="invite-username">Invite a player</label>
+        <label class="form-label" for="invite-username">Invite by username</label>
         <div class="input-group">
             <input
                 class="form-control"
@@ -98,7 +120,58 @@ block content %}
             <button class="btn btn-dark" type="submit">Invite</button>
         </div>
     </form>
-    {% endif %}
+
+    <h2 class="h5 mt-4">Invite link</h2>
+    <p class="text-muted mb-2">
+        For players who are not on your friend list. Anyone with the link can
+        join, so share it only with the people you mean to.
+    </p>
+    {% if invite_url %}
+    <div class="input-group mb-2">
+        <input
+            class="form-control"
+            type="text"
+            id="invite-link"
+            value="{{ invite_url }}"
+            readonly
+            onfocus="this.select()"
+        />
+        <button class="btn btn-outline-secondary" type="button" id="copy-invite-link">
+            Copy
+        </button>
+    </div>
+    <div class="d-flex flex-wrap gap-2">
+        <form
+            method="POST"
+            action="{{ url_for('campaigns.new_invite_code', campaign_id=campaign.id) }}"
+        >
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+            <button class="btn btn-sm btn-outline-secondary" type="submit">
+                Generate a new link
+            </button>
+        </form>
+        <form
+            method="POST"
+            action="{{ url_for('campaigns.revoke_invite_code', campaign_id=campaign.id) }}"
+        >
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+            <button class="btn btn-sm btn-outline-secondary" type="submit">
+                Revoke
+            </button>
+        </form>
+    </div>
+    <p class="form-text">
+        Generating a new link immediately stops the old one from working.
+    </p>
+    {% else %}
+    <form
+        method="POST"
+        action="{{ url_for('campaigns.new_invite_code', campaign_id=campaign.id) }}"
+    >
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <button class="btn btn-dark" type="submit">Create an invite link</button>
+    </form>
+    {% endif %} {% endif %}
 
     <hr class="my-4" />
 
@@ -118,4 +191,23 @@ block content %}
     </form>
     {% endif %}
 </div>
+{% endblock %} {% block additional_scripts %}
+<script>
+    // The Clipboard API needs a secure context, so fall back to selecting the
+    // text; the link stays copyable by hand over plain HTTP.
+    document
+        .getElementById("copy-invite-link")
+        ?.addEventListener("click", function () {
+            const field = document.getElementById("invite-link");
+            field.select();
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(field.value).then(
+                    () => alertMessage("Invite link copied", "success"),
+                    () => alertMessage("Press Ctrl+C to copy the link", "secondary")
+                );
+            } else {
+                alertMessage("Press Ctrl+C to copy the link", "secondary");
+            }
+        });
+</script>
 {% endblock %}

@@ -3,27 +3,16 @@ from pathlib import Path
 from typing import Tuple
 
 from flask import Blueprint, current_app, flash, redirect, render_template, request, url_for
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
 from flask_login import current_user, login_required, login_user, logout_user
 from loguru import logger
 from werkzeug import Response
 from werkzeug.security import check_password_hash, generate_password_hash
 from werkzeug.utils import secure_filename
 
-from . import db
+from . import db, limiter
 from .models import Level, User
 
 auth = Blueprint("auth", __name__)
-
-# Throttles credential guessing. The default in-memory backend counts per
-# worker process, so the effective limit is (workers x limit); set
-# BDSM_RATELIMIT_STORAGE to a redis:// URI to share one counter.
-limiter = Limiter(
-    get_remote_address,
-    storage_uri=os.environ.get("BDSM_RATELIMIT_STORAGE", "memory://"),
-    default_limits=[],
-)
 
 LOWER_CHARS = "abcdefghijklmnopqrstuvwxyz"
 UPPER_CHARS = LOWER_CHARS.upper()

@@ -97,6 +97,20 @@ before they accept, so they know what they are joining, and can decline. The
 owner deletes a campaign rather than leaving it, so it is never left without a
 game master.
 
+There are three ways to get someone into a campaign:
+
+- **From your friend list** -- the campaign page lists the friends who are not
+  already involved, one click each.
+- **By username** -- for someone you have not added as a friend.
+- **With an invite link** -- the game master generates one and shares it. Anyone
+  holding the link can join, which is the point: it is for players who are not
+  on your friend list. Opening the link only shows a confirmation page, so
+  following it (or a crawler doing so) never joins anyone by itself.
+
+Generating a new link immediately invalidates the previous one, and it can be
+revoked outright. Redemption is rate limited, and the code is 12 random
+url-safe characters, so guessing is not a realistic attack.
+
 Roles live in `CampaignRole` and membership state in `MembershipStatus`, so a
 future feature (shared notes, session logs, a hero roster per campaign) should
 hang off `CampaignMembership` or a new table rather than needing changes here.

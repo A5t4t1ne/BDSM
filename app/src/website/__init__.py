@@ -4,6 +4,8 @@ from pathlib import Path
 
 from alembic.script import ScriptDirectory
 from flask import Flask
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_migrate import stamp as alembic_stamp
@@ -19,6 +21,16 @@ from werkzeug.middleware.proxy_fix import ProxyFix
 db = SQLAlchemy()
 csrf = CSRFProtect()
 migrate = Migrate()
+
+# Throttles credential guessing and invite-code guessing. The default in-memory
+# backend counts per worker process, so the effective limit is
+# (workers x limit); set BDSM_RATELIMIT_STORAGE to a redis:// URI to share one
+# counter across them.
+limiter = Limiter(
+    get_remote_address,
+    storage_uri=os.environ.get("BDSM_RATELIMIT_STORAGE", "memory://"),
+    default_limits=[],
+)
 
 MIGRATIONS_DIR = Path(__file__).absolute().parent.parent / "migrations"
 
@@ -232,7 +244,7 @@ def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
     migrate.init_app(app, db, directory=str(MIGRATIONS_DIR))
 
     # include other flask routes and connect them
-    from .auth import auth, limiter
+    from .auth import auth
     from .campaigns import campaigns
     from .friends import friends
     from .requests import req

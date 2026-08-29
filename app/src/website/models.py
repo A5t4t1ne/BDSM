@@ -1,3 +1,4 @@
+import secrets
 from datetime import datetime, timezone
 from enum import IntEnum
 
@@ -36,6 +37,12 @@ class CampaignRole(IntEnum):
 
     GAME_MASTER = 0
     PLAYER = 1
+
+
+# 12 url-safe characters. A join code is a bearer token -- anyone holding it
+# can join -- so it has to be long enough that guessing is hopeless even
+# without the rate limit on redemption.
+INVITE_CODE_BYTES = 9
 
 
 class MembershipStatus(IntEnum):
@@ -142,6 +149,10 @@ class Campaign(db.Model):
     description = db.Column(db.String(2000), default="")
     owner_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False, index=True)
     created_at = db.Column(db.DateTime, default=_utcnow)
+    # Shareable join code for people who are not on the friend list. Null means
+    # no code is active; the game master can regenerate or revoke it, which
+    # immediately invalidates whatever was shared before.
+    invite_code = db.Column(db.String(32), unique=True, index=True, nullable=True)
 
     owner = db.relationship("User", foreign_keys=[owner_id])
     memberships = db.relationship(
@@ -159,6 +170,11 @@ class Campaign(db.Model):
 
     def pending_invites(self) -> list["CampaignMembership"]:
         return [m for m in self.memberships if m.status == MembershipStatus.INVITED]
+
+    def new_invite_code(self) -> str:
+        """Issue a fresh join code, replacing any previous one."""
+        self.invite_code = secrets.token_urlsafe(INVITE_CODE_BYTES)
+        return self.invite_code
 
     def is_game_master(self, user_id: int) -> bool:
         membership = self.membership_of(user_id)

@@ -1,5 +1,21 @@
 # Change log
 
+## 0.5.0
+
+### Features
+
+-   Invite friends to a campaign straight from the campaign page
+-   Invite players who are not friends with a shareable link, which the game
+    master can regenerate or revoke at any time
+
+### Fix
+
+-   Local testing over `http://localhost:8080` failed in three separate ways:
+    the browser forced HTTPS because of an HSTS pin, every POST was rejected as
+    a CSRF failure because nginx dropped the port from the forwarded host, and
+    the `Secure` session cookie was discarded over plain HTTP
+-   nginx kept proxying to a dead address after the app container was recreated
+
 ## 0.4.0
 
 ### Features

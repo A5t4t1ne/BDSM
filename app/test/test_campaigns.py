@@ -206,3 +206,212 @@ def test_accepting_an_invitation_you_do_not_have(gm_and_player, client, access_c
     r = client.post(f"/campaigns/{campaign.id}/accept", follow_redirects=True)
     assert b"no longer exists" in r.data
     assert CampaignMembership.query.filter_by(campaign_id=campaign.id).count() == 1
+
+
+# --- inviting friends ------------------------------------------------------
+
+
+def befriend(client, a, b):
+    """Make two existing users friends: a asks, b accepts."""
+    from website.models import Friendship, User
+
+    login(client, a)
+    client.post("/friends/add", data={"username": b}, follow_redirects=True)
+    client.get("/logout")
+
+    login(client, b)
+    friendship = Friendship.query.filter_by(
+        requester_id=User.find_by_username(a).id,
+        addressee_id=User.find_by_username(b).id,
+    ).one()
+    client.post(f"/friends/{friendship.id}/accept", follow_redirects=True)
+    client.get("/logout")
+
+
+def test_game_master_can_invite_a_friend(gm_and_player, client):
+    campaign = Campaign.query.one()
+    befriend(client, "alice", "bob")
+    login(client, "alice")
+
+    r = client.get(f"/campaigns/{campaign.id}")
+    assert b"Invite a friend" in r.data and b"bob" in r.data
+
+    from website.models import User
+
+    bob_id = User.find_by_username("bob").id
+    r = client.post(
+        f"/campaigns/{campaign.id}/invite-friend",
+        data={"user_id": bob_id},
+        follow_redirects=True,
+    )
+    assert b"Invited bob" in r.data
+    assert campaign.membership_of(bob_id).status == MembershipStatus.INVITED
+
+
+def test_cannot_invite_a_stranger_through_the_friend_route(gm_and_player, client):
+    """The friend route must not become a way to add arbitrary user ids."""
+    campaign = Campaign.query.one()
+    from website.models import User
+
+    bob_id = User.find_by_username("bob").id  # exists, but is not a friend
+    r = client.post(
+        f"/campaigns/{campaign.id}/invite-friend",
+        data={"user_id": bob_id},
+        follow_redirects=True,
+    )
+    assert b"not on your friend list" in r.data
+    assert campaign.membership_of(bob_id) is None
+
+
+def test_a_player_cannot_invite_friends(gm_and_player, client):
+    campaign = Campaign.query.one()
+    client.post(f"/campaigns/{campaign.id}/invite", data={"username": "bob"})
+    client.get("/logout")
+    login(client, "bob")
+    client.post(f"/campaigns/{campaign.id}/accept")
+
+    assert client.post(
+        f"/campaigns/{campaign.id}/invite-friend", data={"user_id": 1}
+    ).status_code == 403
+
+
+def test_friends_already_in_the_campaign_are_not_offered(gm_and_player, client):
+    campaign = Campaign.query.one()
+    befriend(client, "alice", "bob")
+    login(client, "alice")
+
+    assert b"Invite a friend" in client.get(f"/campaigns/{campaign.id}").data
+
+    from website.models import User
+
+    client.post(
+        f"/campaigns/{campaign.id}/invite-friend",
+        data={"user_id": User.find_by_username("bob").id},
+    )
+    # bob is the only friend, so the whole section disappears once he is invited
+    assert b"Invite a friend" not in client.get(f"/campaigns/{campaign.id}").data
+
+
+# --- invite codes ----------------------------------------------------------
+
+
+def test_generate_and_join_with_an_invite_code(gm_and_player, client, access_code):
+    campaign = Campaign.query.one()
+    r = client.post(f"/campaigns/{campaign.id}/invite-code", follow_redirects=True)
+    assert b"ready to share" in r.data
+
+    code = Campaign.query.one().invite_code
+    assert code and len(code) >= 12
+    assert code.encode() in r.data  # the shareable link is shown
+
+    client.get("/logout")
+    login(client, "bob")
+    # opening the link only previews; it must not join on GET
+    r = client.get(f"/campaigns/join/{code}")
+    assert r.status_code == 200 and b"Join this campaign" in r.data
+    # a GET must not have joined anyone
+    assert CampaignMembership.query.filter_by(campaign_id=campaign.id).count() == 1
+
+    r = client.post("/campaigns/join", data={"code": code}, follow_redirects=True)
+    assert b"You joined" in r.data
+    members = CampaignMembership.query.filter_by(campaign_id=campaign.id).all()
+    assert len(members) == 2
+    assert all(m.status == MembershipStatus.ACTIVE for m in members)
+
+
+def test_a_bad_code_does_nothing(gm_and_player, client):
+    campaign = Campaign.query.one()
+    r = client.post("/campaigns/join", data={"code": "not-a-real-code"}, follow_redirects=True)
+    assert b"not valid" in r.data
+    assert CampaignMembership.query.filter_by(campaign_id=campaign.id).count() == 1
+
+
+def test_an_empty_code_does_not_match_a_campaign_without_one(gm_and_player, client):
+    """A campaign with no code stores NULL; an empty submission must not match."""
+    assert Campaign.query.one().invite_code is None
+    r = client.post("/campaigns/join", data={"code": ""}, follow_redirects=True)
+    assert b"not valid" in r.data
+
+
+def test_regenerating_invalidates_the_old_code(gm_and_player, client):
+    campaign = Campaign.query.one()
+    client.post(f"/campaigns/{campaign.id}/invite-code")
+    old_code = Campaign.query.one().invite_code
+    client.post(f"/campaigns/{campaign.id}/invite-code")
+    new_code = Campaign.query.one().invite_code
+    assert old_code != new_code
+
+    client.get("/logout")
+    login(client, "bob")
+    r = client.post("/campaigns/join", data={"code": old_code}, follow_redirects=True)
+    assert b"not valid" in r.data
+    r = client.post("/campaigns/join", data={"code": new_code}, follow_redirects=True)
+    assert b"You joined" in r.data
+
+
+def test_revoking_stops_the_link_working(gm_and_player, client):
+    campaign = Campaign.query.one()
+    client.post(f"/campaigns/{campaign.id}/invite-code")
+    code = Campaign.query.one().invite_code
+    client.post(f"/campaigns/{campaign.id}/invite-code/revoke", follow_redirects=True)
+    assert Campaign.query.one().invite_code is None
+
+    client.get("/logout")
+    login(client, "bob")
+    assert b"not valid" in client.post(
+        "/campaigns/join", data={"code": code}, follow_redirects=True
+    ).data
+
+
+def test_only_the_game_master_manages_the_invite_code(gm_and_player, client):
+    campaign = Campaign.query.one()
+    client.post(f"/campaigns/{campaign.id}/invite", data={"username": "bob"})
+    client.get("/logout")
+    login(client, "bob")
+    client.post(f"/campaigns/{campaign.id}/accept")
+
+    assert client.post(f"/campaigns/{campaign.id}/invite-code").status_code == 403
+    assert client.post(f"/campaigns/{campaign.id}/invite-code/revoke").status_code == 403
+
+
+def test_joining_with_a_code_accepts_a_pending_invitation(gm_and_player, client):
+    campaign = Campaign.query.one()
+    client.post(f"/campaigns/{campaign.id}/invite", data={"username": "bob"})
+    client.post(f"/campaigns/{campaign.id}/invite-code")
+    code = Campaign.query.one().invite_code
+
+    client.get("/logout")
+    login(client, "bob")
+    r = client.post("/campaigns/join", data={"code": code}, follow_redirects=True)
+    assert b"You joined" in r.data
+    assert CampaignMembership.query.filter_by(campaign_id=campaign.id).count() == 2
+    assert all(
+        m.status == MembershipStatus.ACTIVE
+        for m in CampaignMembership.query.filter_by(campaign_id=campaign.id)
+    )
+
+
+def test_joining_twice_is_harmless(gm_and_player, client):
+    campaign = Campaign.query.one()
+    client.post(f"/campaigns/{campaign.id}/invite-code")
+    code = Campaign.query.one().invite_code
+    client.get("/logout")
+    login(client, "bob")
+    client.post("/campaigns/join", data={"code": code}, follow_redirects=True)
+    r = client.post("/campaigns/join", data={"code": code}, follow_redirects=True)
+    assert b"already in" in r.data
+    assert CampaignMembership.query.filter_by(campaign_id=campaign.id).count() == 2
+
+
+def test_invite_code_routes_require_login(client, access_code):
+    signup(client, access_code, "alice")
+    create_campaign(client)
+    campaign = Campaign.query.one()
+    client.get("/logout")
+    for route, method in (
+        (f"/campaigns/{campaign.id}/invite-code", "post"),
+        ("/campaigns/join", "post"),
+        ("/campaigns/join/whatever", "get"),
+    ):
+        r = getattr(client, method)(route)
+        assert r.status_code == 302, route

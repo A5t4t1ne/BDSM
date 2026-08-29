@@ -1,0 +1,22 @@
+{% extends "base.html" %}{% block title %}Join {{ campaign.name }}{% endblock %}
+{% block content %}
+<div class="container mt-4" style="max-width: 45rem">
+    <h1 class="mb-2">{{ campaign.name }}</h1>
+    <p class="text-muted">
+        Run by {{ campaign.owner.username }} &middot; {{
+        campaign.active_members() | length }} member(s)
+    </p>
+    {% if campaign.description %}
+    <p style="white-space: pre-wrap">{{- campaign.description -}}</p>
+    {% endif %}
+
+    <form method="POST" action="{{ url_for('campaigns.join_with_code') }}" class="mt-4">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <input type="hidden" name="code" value="{{ code }}" />
+        <button class="btn btn-dark" type="submit">Join this campaign</button>
+        <a class="btn btn-outline-secondary" href="{{ url_for('campaigns.index') }}"
+            >Not now</a
+        >
+    </form>
+</div>
+{% endblock %}
