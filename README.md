@@ -41,13 +41,43 @@ openssl req -x509 -newkey rsa:2048 -days 365 -nodes \
 
 ### 3. Start
 
+For a local test, add the local overlay:
+
 ```sh
-docker compose up --build
+docker compose -f docker-compose.yaml -f docker-compose.local.yaml up --build
 ```
 
 The app is then on <http://localhost:8080> and <https://localhost:4443>.
 Sign up with the access code from step 1, then upload a hero on the Overview
 page.
+
+In production, leave the overlay off:
+
+```sh
+docker compose up --build
+```
+
+The overlay only sets `BDSM_INSECURE_COOKIES=1`. Without it the session cookie
+is marked `Secure`, a browser on plain HTTP throws it away, and logging in
+appears to do nothing. It is deliberately not named
+`docker-compose.override.yaml`, which compose would apply automatically.
+
+#### If the browser refuses to connect on 8080
+
+`Secure Connection Failed ... SSL received a record that exceeded the maximum
+permissible length` means the browser is speaking HTTPS to the plain-HTTP port.
+HSTS is remembered per host and **ignores the port**, so one visit to
+`https://localhost:4443` used to make the browser force HTTPS on every
+`localhost` port. The HTTPS server no longer sends HSTS for `localhost`, but a
+pin your browser already stored has to be cleared once:
+
+- **Firefox**: open the History sidebar (`Ctrl+Shift+H`), find the `localhost`
+  entry, right-click it and choose *Forget About This Site*. Then reload.
+- **Chrome**: go to `chrome://net-internals/#hsts`, put `localhost` under
+  *Delete domain security policies* and delete it.
+
+Also make sure Firefox's HTTPS-Only Mode is off for localhost, since it forces
+the same upgrade (Settings → Privacy & Security → HTTPS-Only Mode).
 
 ### Exporting a hero from Optolith
 

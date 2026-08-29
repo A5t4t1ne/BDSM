@@ -1,0 +1,12 @@
+# Local testing overlay. Use it explicitly:
+#
+#   docker compose -f docker-compose.yaml -f docker-compose.local.yaml up --build
+#
+# The filename is deliberately NOT docker-compose.override.yaml, which compose
+# would load automatically and silently weaken a production deployment.
+services:
+  flask-app:
+    environment:
+      # Without this the session cookie is marked Secure and a browser on
+      # http://localhost:8080 discards it, so logging in appears to do nothing.
+      - BDSM_INSECURE_COOKIES=1

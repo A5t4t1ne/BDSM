@@ -3,6 +3,7 @@ FROM docker.io/nginx:1.25
 RUN rm /etc/nginx/conf.d/default.conf
 
 COPY nginx.conf /etc/nginx/nginx.conf
+COPY snippets/ /etc/nginx/snippets/
 
 # Certificates are NOT copied in: baking a private key into an image layer
 # leaks it to anyone who can pull the image, and the key could never be
