@@ -1,4 +1,5 @@
 import os
+from contextlib import contextmanager
 from pathlib import Path
 
 from alembic.script import ScriptDirectory
@@ -120,13 +121,35 @@ def create_admin(app: Flask) -> None:
         db.session.commit()
 
 
-def _apply_migrations(app: Flask) -> None:
-    """Bring the database up to the latest revision.
+@contextmanager
+def _migration_lock():
+    """Let only one process migrate at a time.
 
-    Runs in every worker, but Alembic takes a lock and a worker that finds
-    nothing to do exits immediately, so the extra calls are cheap.
+    Alembic does not lock across processes, so all four gunicorn workers used to
+    read "no revision applied" together and then race to create the same tables;
+    the losers died with "table ... already exists" and gunicorn gave up. An
+    exclusive lock on a file next to the database serialises them, and every
+    worker after the first finds the upgrade already done.
     """
-    with app.app_context():
+    try:
+        import fcntl
+    except ImportError:  # pragma: no cover -- not POSIX
+        logger.warning("no fcntl available, migrating without a lock")
+        yield
+        return
+
+    lock_path = DATA_DIR / ".migrate.lock"
+    with open(lock_path, "w") as lock_file:
+        fcntl.flock(lock_file, fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            fcntl.flock(lock_file, fcntl.LOCK_UN)
+
+
+def _apply_migrations(app: Flask) -> None:
+    """Bring the database up to the latest revision."""
+    with app.app_context(), _migration_lock():
         if not MIGRATIONS_DIR.is_dir():
             # no migration history available (e.g. a source checkout without
             # the directory); fall back to creating the tables directly
@@ -210,6 +233,8 @@ def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
 
     # include other flask routes and connect them
     from .auth import auth, limiter
+    from .campaigns import campaigns
+    from .friends import friends
     from .requests import req
     from .views import views
 
@@ -218,6 +243,8 @@ def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
     app.register_blueprint(views, url_prefix="/")
     app.register_blueprint(auth, url_prefix="/")
     app.register_blueprint(req, url_prefix="/")
+    app.register_blueprint(friends, url_prefix="/")
+    app.register_blueprint(campaigns, url_prefix="/")
 
     # importing models so Alembic can see them
     from .models import User  # noqa: F401

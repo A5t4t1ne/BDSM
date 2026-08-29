@@ -1,0 +1,121 @@
+{% extends "base.html" %}{% block title %}{{ campaign.name }}{% endblock %} {%
+block content %}
+<div class="container mt-4" style="max-width: 45rem">
+    <p class="mb-1">
+        <a href="{{ url_for('campaigns.index') }}">&larr; All campaigns</a>
+    </p>
+    <h1 class="mb-2">{{ campaign.name }}</h1>
+    {% if campaign.description %}
+    <p class="text-muted" style="white-space: pre-wrap">
+        {{- campaign.description -}}
+    </p>
+    {% endif %}
+
+    {% if membership.status == 0 %}
+    <div class="alert alert-secondary d-flex flex-wrap gap-2 align-items-center">
+        <span class="me-auto"
+            >{{ campaign.owner.username }} invited you to this campaign.</span
+        >
+        <form method="POST" action="{{ url_for('campaigns.accept', campaign_id=campaign.id) }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+            <button class="btn btn-sm btn-dark" type="submit">Join</button>
+        </form>
+        <form method="POST" action="{{ url_for('campaigns.leave', campaign_id=campaign.id) }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+            <button class="btn btn-sm btn-outline-secondary" type="submit">
+                Decline
+            </button>
+        </form>
+    </div>
+    {% endif %}
+
+    <h2 class="h5 mt-4">Members</h2>
+    <ul class="list-group">
+        {% for member in members %}
+        <li
+            class="list-group-item d-flex flex-wrap justify-content-between align-items-center gap-2"
+        >
+            <span class="text-truncate">
+                {{ member.user.username }} {% if member.role ==
+                CampaignRole.GAME_MASTER %}
+                <span class="badge text-bg-secondary">Game master</span>
+                {% endif %}
+            </span>
+            {% if is_game_master and member.user_id != campaign.owner_id %}
+            <form
+                method="POST"
+                action="{{ url_for('campaigns.remove_member', campaign_id=campaign.id, user_id=member.user_id) }}"
+            >
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                <button class="btn btn-sm btn-outline-secondary" type="submit">
+                    Remove
+                </button>
+            </form>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+
+    {% if is_game_master %} {% if pending %}
+    <h2 class="h5 mt-4">Invited</h2>
+    <ul class="list-group">
+        {% for member in pending %}
+        <li
+            class="list-group-item d-flex flex-wrap justify-content-between align-items-center gap-2"
+        >
+            <span class="text-truncate text-muted">{{ member.user.username }}</span>
+            <form
+                method="POST"
+                action="{{ url_for('campaigns.remove_member', campaign_id=campaign.id, user_id=member.user_id) }}"
+            >
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                <button class="btn btn-sm btn-outline-secondary" type="submit">
+                    Withdraw
+                </button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <form
+        method="POST"
+        action="{{ url_for('campaigns.invite', campaign_id=campaign.id) }}"
+        class="mt-4"
+    >
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <label class="form-label" for="invite-username">Invite a player</label>
+        <div class="input-group">
+            <input
+                class="form-control"
+                type="text"
+                id="invite-username"
+                name="username"
+                placeholder="Their username"
+                autocomplete="off"
+                required
+            />
+            <button class="btn btn-dark" type="submit">Invite</button>
+        </div>
+    </form>
+    {% endif %}
+
+    <hr class="my-4" />
+
+    {% if campaign.owner_id == user.id %}
+    <form method="POST" action="{{ url_for('campaigns.delete', campaign_id=campaign.id) }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <button class="btn btn-outline-danger" type="submit">
+            Delete campaign
+        </button>
+    </form>
+    {% elif membership.status == 1 %}
+    <form method="POST" action="{{ url_for('campaigns.leave', campaign_id=campaign.id) }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <button class="btn btn-outline-secondary" type="submit">
+            Leave campaign
+        </button>
+    </form>
+    {% endif %}
+</div>
+{% endblock %}

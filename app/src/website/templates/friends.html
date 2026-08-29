@@ -1,0 +1,108 @@
+{% extends "base.html" %}{% block title %}Friends{% endblock %} {% block content
+%}
+<div class="container" style="max-width: 45rem">
+    <h1 class="mb-4">Friends</h1>
+
+    <form method="POST" action="{{ url_for('friends.add') }}" class="mb-4">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <label class="form-label" for="friend-username">Add a friend</label>
+        <div class="input-group">
+            <input
+                class="form-control"
+                type="text"
+                id="friend-username"
+                name="username"
+                placeholder="Their username"
+                autocomplete="off"
+                required
+            />
+            <button class="btn btn-dark" type="submit">Send request</button>
+        </div>
+    </form>
+
+    {% if incoming %}
+    <h2 class="h5 mt-4">Requests to you</h2>
+    <ul class="list-group">
+        {% for request in incoming %}
+        <li
+            class="list-group-item d-flex flex-wrap justify-content-between align-items-center gap-2"
+        >
+            <span class="text-truncate">{{ request.requester.username }}</span>
+            <span class="d-flex gap-2 flex-shrink-0">
+                <form
+                    method="POST"
+                    action="{{ url_for('friends.accept', friendship_id=request.id) }}"
+                >
+                    <input
+                        type="hidden"
+                        name="csrf_token"
+                        value="{{ csrf_token() }}"
+                    />
+                    <button class="btn btn-sm btn-dark" type="submit">
+                        Accept
+                    </button>
+                </form>
+                <form
+                    method="POST"
+                    action="{{ url_for('friends.remove', friendship_id=request.id) }}"
+                >
+                    <input
+                        type="hidden"
+                        name="csrf_token"
+                        value="{{ csrf_token() }}"
+                    />
+                    <button class="btn btn-sm btn-outline-secondary" type="submit">
+                        Decline
+                    </button>
+                </form>
+            </span>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %} {% if outgoing %}
+    <h2 class="h5 mt-4">Waiting for them</h2>
+    <ul class="list-group">
+        {% for request in outgoing %}
+        <li
+            class="list-group-item d-flex flex-wrap justify-content-between align-items-center gap-2"
+        >
+            <span class="text-truncate">{{ request.addressee.username }}</span>
+            <form
+                method="POST"
+                action="{{ url_for('friends.remove', friendship_id=request.id) }}"
+            >
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                <button class="btn btn-sm btn-outline-secondary" type="submit">
+                    Withdraw
+                </button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h2 class="h5 mt-4">Your friends</h2>
+    {% if friends %}
+    <ul class="list-group">
+        {% for friend in friends %}
+        <li
+            class="list-group-item d-flex flex-wrap justify-content-between align-items-center gap-2"
+        >
+            <span class="text-truncate">{{ friend.username }}</span>
+            <form
+                method="POST"
+                action="{{ url_for('friends.remove', friendship_id=friendship_ids[friend.id]) }}"
+            >
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                <button class="btn btn-sm btn-outline-secondary" type="submit">
+                    Remove
+                </button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p class="text-muted">No friends yet. Add someone by their username above.</p>
+    {% endif %}
+</div>
+{% endblock %}

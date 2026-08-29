@@ -47,3 +47,25 @@ input[type="number"] {
 .ability-table > * {
     min-width: 38rem;
 }
+
+/* Rows of input groups.
+   Bootstrap's .col uses flex-basis 0 so the items share the row; overriding
+   flex-basis (rather than width, which .input-group sets to 100%) is what
+   makes them wrap. Desktop keeps the original single-row layout. */
+@media (max-width: 767.98px) {
+    .stat-row-3 > .col {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .stat-row-5 > .col {
+        flex: 0 0 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1199.98px) {
+    .stat-row-5 > .col {
+        flex: 0 0 calc(50% - 0.25rem);
+    }
+}

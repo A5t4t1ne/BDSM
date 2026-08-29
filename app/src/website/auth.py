@@ -93,11 +93,6 @@ def password_valid(password: str) -> Tuple[bool, str]:
     return True, ""
 
 
-def find_user(username: str) -> User | None:
-    """Look up a user case-insensitively, so 'Dave' and 'dave' are one account."""
-    return User.query.filter(db.func.lower(User.username) == username.lower()).first()
-
-
 @auth.route("/login", methods=["GET", "POST"])
 @limiter.limit("10 per minute; 60 per hour", methods=["POST"])
 def login() -> str | Response:
@@ -110,7 +105,7 @@ def login() -> str | Response:
         username = request.form.get("username") or ""
         password = request.form.get("password") or ""
 
-        user = find_user(username)
+        user = User.find_by_username(username)
         stored_hash = user.password if user else _DUMMY_HASH
 
         if check_password_hash(stored_hash, password) and user is not None:
@@ -191,7 +186,7 @@ def sign_up() -> str | Response:
 
         if not uname_valid:
             flash(username_error_msg, category="error")
-        elif find_user(username):
+        elif User.find_by_username(username):
             flash("Username already taken", category="error")
         elif not passwd_valid:
             flash(password_error_msg, category="error")

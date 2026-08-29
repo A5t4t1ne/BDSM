@@ -1,6 +1,6 @@
 [project]
 name = "BDSM"
-version = "0.3.0"
+version = "0.4.0"
 description = "Browser DSA stat Manager. Helps keeping track of your DSA character while playing."
 authors = [
     {name = "A5t4t1ne", email = "dev.bdsm@pm.me"},

@@ -1,0 +1,94 @@
+{% extends "base.html" %}{% block title %}Campaigns{% endblock %} {% block
+content %}
+<div class="container" style="max-width: 45rem">
+    <h1 class="mb-4">Campaigns</h1>
+
+    {% if invites %}
+    <h2 class="h5">Invitations</h2>
+    <ul class="list-group mb-4">
+        {% for invite in invites %}
+        <li
+            class="list-group-item d-flex flex-wrap justify-content-between align-items-center gap-2"
+        >
+            <span class="text-truncate">
+                <a href="{{ url_for('campaigns.detail', campaign_id=invite.campaign.id) }}"
+                    >{{ invite.campaign.name }}</a
+                >
+                <small class="text-muted"
+                    >from {{ invite.campaign.owner.username }}</small
+                >
+            </span>
+            <span class="d-flex gap-2 flex-shrink-0">
+                <form
+                    method="POST"
+                    action="{{ url_for('campaigns.accept', campaign_id=invite.campaign.id) }}"
+                >
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                    <button class="btn btn-sm btn-dark" type="submit">Join</button>
+                </form>
+                <form
+                    method="POST"
+                    action="{{ url_for('campaigns.leave', campaign_id=invite.campaign.id) }}"
+                >
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+                    <button class="btn btn-sm btn-outline-secondary" type="submit">
+                        Decline
+                    </button>
+                </form>
+            </span>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <h2 class="h5">Your campaigns</h2>
+    {% if campaigns %}
+    <ul class="list-group mb-4">
+        {% for campaign in campaigns %}
+        <li class="list-group-item">
+            <a href="{{ url_for('campaigns.detail', campaign_id=campaign.id) }}"
+                >{{ campaign.name }}</a
+            >
+            <small class="text-muted d-block"
+                >{{ campaign.active_members() | length }} member(s) &middot; game
+                master {{ campaign.owner.username }}</small
+            >
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p class="text-muted">You are not in any campaign yet.</p>
+    {% endif %}
+
+    <hr class="my-4" />
+
+    <h2 class="h5">Create a campaign</h2>
+    <form method="POST" action="{{ url_for('campaigns.create') }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <div class="mb-3">
+            <label class="form-label" for="campaign-name">Name</label>
+            <input
+                class="form-control"
+                type="text"
+                id="campaign-name"
+                name="name"
+                maxlength="100"
+                required
+            />
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="campaign-description">
+                Description <span class="text-muted">(optional)</span>
+            </label>
+            <textarea
+                class="form-control"
+                id="campaign-description"
+                name="description"
+                rows="3"
+                maxlength="2000"
+            ></textarea>
+        </div>
+        <button class="btn btn-dark" type="submit">Create</button>
+    </form>
+</div>
+{% endblock %}

@@ -55,6 +55,23 @@ In [Optolith](https://github.com/elyukai/optolith-client), open your hero and
 choose **Save as JSON** from the hero menu. Exports from Optolith 1.0 or newer
 are accepted; the upload page names the reason if a file is rejected.
 
+## Friends and campaigns
+
+Add someone as a friend by their exact username; they confirm the request from
+their own Friends page. Nothing is shared automatically yet -- the friend list
+is what later features will build on.
+
+A campaign groups players together. Whoever creates one is its game master and
+is the only person who can invite or remove members. Invitees see the campaign
+before they accept, so they know what they are joining, and can decline. The
+owner deletes a campaign rather than leaving it, so it is never left without a
+game master.
+
+Roles live in `CampaignRole` and membership state in `MembershipStatus`, so a
+future feature (shared notes, session logs, a hero roster per campaign) should
+hang off `CampaignMembership` or a new table rather than needing changes here.
+
+
 ## Development
 
 ```sh

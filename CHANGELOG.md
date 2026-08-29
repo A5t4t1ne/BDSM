@@ -1,5 +1,25 @@
 # Change log
 
+## 0.4.0
+
+### Features
+
+-   Friends: add someone by username, they confirm
+-   Campaigns: create one, invite players to it, leave or remove members
+
+### Enhancements
+
+-   The layout is usable on tablet-sized screens: the page container adapts to
+    the viewport instead of being a fixed 63.5%, stat and money rows stack when
+    they no longer fit, and the ability tables scroll rather than being squeezed
+
+### Fix
+
+-   Cold start crashed: all four workers ran the migrations at once and the
+    losers died with "table ... already exists"
+-   sign-up had a stray `</form>` and the hero list an unclosed `<h5>`
+-   Long hero names widened the overview page instead of truncating
+
 ## 0.3.0
 
 ### Fix
