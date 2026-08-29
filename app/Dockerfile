@@ -1,15 +1,34 @@
-FROM python:3.11-slim
+# ---- build stage: resolve dependencies from the lockfile ----
+FROM python:3.14-slim AS builder
 
-# Create non-root user with a real home, so tools that write there (gunicorn's
-# control server, for one) do not fail against /nonexistent
+COPY --from=ghcr.io/astral-sh/uv:0.9.7 /uv /usr/local/bin/uv
+
+ENV UV_COMPILE_BYTECODE=1 \
+    UV_LINK_MODE=copy \
+    UV_PROJECT_ENVIRONMENT=/opt/venv
+
+WORKDIR /build
+
+# --frozen fails the build if the lockfile does not match pyproject.toml, so an
+# image can never be built from an unresolved dependency set
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-dev --no-install-project
+
+
+# ---- runtime stage ----
+FROM python:3.14-slim
+
+# Non-root user with a real home, so tools that write there (gunicorn's control
+# server, for one) do not fail against /nonexistent
 RUN addgroup --system appgroup \
     && adduser --system --ingroup appgroup --home /home/appuser --shell /usr/sbin/nologin appuser
 
-WORKDIR /app
+COPY --from=builder /opt/venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH" \
+    PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1
 
-# Copy and install the application
-COPY pyproject.toml ./
-RUN pip install --no-cache-dir .
+WORKDIR /app
 COPY src/ .
 
 # SQLite configuration

@@ -16,6 +16,7 @@ dependencies = [
     "loguru>=0.7.3",
     "pydantic>=2.13.4",
     "flask-limiter>=3.11.0",
+    "flask-migrate>=4.1.0",
 ]
 requires-python = ">=3.11"
 readme = "README.md"
@@ -60,8 +61,10 @@ quote-style = "double"
 skip-magic-trailing-comma = false
 
 
-[tool.pdm]
-distribution = false
+[tool.uv]
+# the application is deployed by copying src/ into the image, not by
+# installing it as a package; uv only needs to resolve the dependencies
+package = false
 
 
 [tool.pytest.ini_options]

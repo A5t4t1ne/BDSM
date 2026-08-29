@@ -3,14 +3,38 @@ from pathlib import Path
 
 from flask import Flask
 from flask_login import LoginManager
+from alembic.script import ScriptDirectory
+from flask_migrate import Migrate, stamp as alembic_stamp, upgrade as alembic_upgrade
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect
 from loguru import logger
+from sqlalchemy import event, inspect
+from sqlalchemy.engine import Engine
 from sqlalchemy.exc import IntegrityError
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 db = SQLAlchemy()
 csrf = CSRFProtect()
+migrate = Migrate()
+
+MIGRATIONS_DIR = Path(__file__).absolute().parent.parent / "migrations"
+
+
+@event.listens_for(Engine, "connect")
+def _sqlite_pragmas(dbapi_connection, _connection_record):
+    """Make SQLite survive several gunicorn workers writing at once.
+
+    WAL lets readers work while a writer holds the database, and busy_timeout
+    makes a blocked writer wait instead of failing outright with
+    "database is locked".
+    """
+    if type(dbapi_connection).__module__.startswith("sqlite3"):
+        cursor = dbapi_connection.cursor()
+        cursor.execute("PRAGMA journal_mode=WAL")
+        cursor.execute("PRAGMA busy_timeout=10000")
+        cursor.execute("PRAGMA synchronous=NORMAL")
+        cursor.execute("PRAGMA foreign_keys=ON")
+        cursor.close()
 
 SECRETS_DIR = Path(os.environ.get("BDSM_SECRETS_DIR", "/run/secrets"))
 DATA_DIR = Path(os.environ.get("BDSM_DATA_DIR", "/data"))
@@ -58,6 +82,12 @@ def create_admin(app: Flask) -> None:
     from .models import Level, User
 
     with app.app_context():
+        # the schema may not exist yet when this app instance was built purely
+        # to serve a `flask db` command
+        if not inspect(db.engine).has_table(User.__tablename__):
+            logger.debug("user table does not exist yet, skipping admin bootstrap")
+            return
+
         admin = User.query.filter_by(username="admin").first()
         heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "admin")
         Path(heroes_path).mkdir(parents=True, exist_ok=True)
@@ -86,6 +116,35 @@ def create_admin(app: Flask) -> None:
             admin.password = generate_password_hash(app.config["ADMIN_PW"], method="pbkdf2:sha256")
             logger.warning("admin password reset from secret (BDSM_RESET_ADMIN)")
         db.session.commit()
+
+
+def _apply_migrations(app: Flask) -> None:
+    """Bring the database up to the latest revision.
+
+    Runs in every worker, but Alembic takes a lock and a worker that finds
+    nothing to do exits immediately, so the extra calls are cheap.
+    """
+    with app.app_context():
+        if not MIGRATIONS_DIR.is_dir():
+            # no migration history available (e.g. a source checkout without
+            # the directory); fall back to creating the tables directly
+            logger.warning(f"{MIGRATIONS_DIR} missing, falling back to create_all()")
+            db.create_all()
+            return
+
+        directory = str(MIGRATIONS_DIR)
+        tables = set(inspect(db.engine).get_table_names())
+
+        if tables and "alembic_version" not in tables:
+            # A database created by the old create_all() bootstrap. Its schema
+            # matches the first revision, so adopt it by stamping rather than
+            # replaying a migration that would try to recreate its tables.
+            script = ScriptDirectory.from_config(migrate.get_config(directory))
+            base = script.get_bases()[0]
+            logger.warning(f"adopting pre-migration database, stamping at {base}")
+            alembic_stamp(directory=directory, revision=base)
+
+        alembic_upgrade(directory=directory)
 
 
 def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
@@ -141,6 +200,7 @@ def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
 
     db.init_app(app)
     csrf.init_app(app)
+    migrate.init_app(app, db, directory=str(MIGRATIONS_DIR))
 
     # include other flask routes and connect them
     from .auth import auth, limiter
@@ -153,13 +213,10 @@ def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
     app.register_blueprint(auth, url_prefix="/")
     app.register_blueprint(req, url_prefix="/")
 
-    # importing models for database creation
-    from .models import User
+    # importing models so Alembic can see them
+    from .models import User  # noqa: F401
 
-    # create_all only adds missing tables, so it is safe to run on every boot
-    with app.app_context():
-        db.create_all()
-
+    _apply_migrations(app)
     create_admin(app)
 
     login_manager = LoginManager()
