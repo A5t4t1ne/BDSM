@@ -1,46 +1,50 @@
-import os
-import logging
+"""Static DSA reference data, loaded once at import time.
+
+Everything in here is read-only. Callers must never mutate the loaded objects:
+they are shared across every request and worker, so an in-place edit would leak
+one hero's data into the next one's response.
+"""
+
 import json
-from typing import Dict
-from src.website.datatypes import Liturgie
+from pathlib import Path
+from typing import Dict, Type, TypeVar
 
-logging.basicConfig(level=logging.DEBUG)
+from pydantic import BaseModel
 
-CURRENT_FILE_PATH = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(CURRENT_FILE_PATH, "..", "Data")
+from .datatypes import Blessing, Liturgie, Spell
 
-LITURGIES = dict()
-BLESSINGS = dict()
-ATTRIBUTES = dict()
-SPELLS = dict()
-SKILLS = dict()
-SPECIAL_ABILITIES = dict()
+DATA_PATH = Path(__file__).absolute().parent / "data"
+
+T = TypeVar("T", bound=BaseModel)
 
 
-dir_name = os.path.dirname(os.path.abspath(__file__))
-dir_name = os.path.join(dir_name, "data")
+def _load_models(filename: str, model: Type[T]) -> Dict[str, T]:
+    """Load ``{id: {...}}`` reference data into ``{id: model}``.
+
+    The id is only present as the mapping key in the source files, so it is
+    copied onto the model to keep entries self-describing.
+    """
+    with open(DATA_PATH / filename, "r", encoding="utf8") as f:
+        raw: Dict[str, dict] = json.load(f)
+
+    entries: Dict[str, T] = {}
+    for key, val in raw.items():
+        entry = model.model_validate(val)
+        entry.id = key
+        entries[key] = entry
+    return entries
 
 
-with open(os.path.join(dir_name, "Liturgies.json"), "r", encoding="utf8") as f:
-    LITURGIES: Dict[str, Liturgie] = dict()
-
-    for key, val in json.load(f).values():
-        lit = Liturgie.model_validate(val)
-        lit.id = key
-        LITURGIES[key] = lit
+def _load_raw(filename: str) -> Dict[str, dict]:
+    with open(DATA_PATH / filename, "r", encoding="utf8") as f:
+        return json.load(f)
 
 
-with open(os.path.join(dir_name, "Blessings.json"), "r", encoding="utf8") as f:
-    BLESSINGS = json.load(f)
+LITURGIES: Dict[str, Liturgie] = _load_models("Liturgies.json", Liturgie)
+SPELLS: Dict[str, Spell] = _load_models("Spells.json", Spell)
+BLESSINGS: Dict[str, Blessing] = _load_models("Blessings.json", Blessing)
 
-with open(os.path.join(dir_name, "Attributes.json"), "r", encoding="utf8") as f:
-    ATTRIBUTES = json.load(f)
-
-with open(os.path.join(dir_name, "Spells.json"), "r", encoding="utf8") as f:
-    SPELLS = json.load(f)
-
-with open(os.path.join(dir_name, "Skills.json"), "r", encoding="utf8") as f:
-    SKILLS = json.load(f)
-
-with open(os.path.join(dir_name, "SpecialAbilities.json"), "r", encoding="utf8") as f:
-    SPECIAL_ABILITIES = json.load(f)
+# Not modelled yet -- these have heterogeneous shapes (see TODO in datatypes).
+ATTRIBUTES: Dict[str, dict] = _load_raw("Attributes.json")
+SKILLS: Dict[str, dict] = _load_raw("Skills.json")
+SPECIAL_ABILITIES: Dict[str, dict] = _load_raw("SpecialAbilities.json")

@@ -5,8 +5,19 @@ description = "Browser DSA stat Manager. Helps keeping track of your DSA charact
 authors = [
     {name = "A5t4t1ne", email = "dev.bdsm@pm.me"},
 ]
-dependencies = ["Flask>=3.1.2", "Flask-Login>=0.6.3", "flask-sqlalchemy>=3.1.1", "flask-wtf>=1.2.2", "wtforms>=3.2.1", "gunicorn>=23.0.0", "pyyaml>=6.0.2", "loguru>=0.7.3"]
-requires-python = ">=3.9"
+dependencies = [
+    "Flask>=3.1.2",
+    "Flask-Login>=0.6.3",
+    "flask-sqlalchemy>=3.1.1",
+    "flask-wtf>=1.2.2",
+    "wtforms>=3.2.1",
+    "gunicorn>=23.0.0",
+    "pyyaml>=6.0.2",
+    "loguru>=0.7.3",
+    "pydantic>=2.13.4",
+    "flask-limiter>=3.11.0",
+]
+requires-python = ">=3.11"
 readme = "README.md"
 license = "MIT"
 classifiers = [
@@ -28,8 +39,7 @@ dev = [
 
 [tool.ruff]
 line-length = 120
-target-version = "py39"
-select = ["E", "F", "W", "C90"]
+target-version = "py311"
 exclude = [
     ".git",
     "__pycache__",
@@ -37,6 +47,10 @@ exclude = [
     "dist",
     ".venv"
 ]
+
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "C90", "I", "B"]
 
 
 [tool.ruff.format]
@@ -54,4 +68,4 @@ distribution = false
 addopts = "-ra -v"
 minversion = 7.0
 pythonpath = ["src"]
-testpaths = ["tests"]
+testpaths = ["test"]

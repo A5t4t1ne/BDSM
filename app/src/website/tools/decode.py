@@ -1,52 +1,23 @@
 import math
-from dataclasses import dataclass
-from typing import Dict, List
+from copy import deepcopy
+from typing import Any, Dict, List
 
-from src.website.datatypes import (
-    Blessing,
-    Liturgie,
-    RawActivatableVal,
+from loguru import logger
+
+from ..constants import BLESSINGS, LITURGIES, SKILLS, SPECIAL_ABILITIES, SPELLS
+from ..datatypes import (
+    Activatables,
     Attrs,
     Belongings,
+    Blessing,
+    HeroStats,
     Item,
+    Liturgie,
     Purse,
+    RawActivatableVal,
     RawOptolithHero,
     Spell,
 )
-from website.constants import LITURGIES, BLESSINGS, SPELLS, SPECIAL_ABILITIES, SKILLS
-from loguru import logger
-
-
-@dataclass
-class Activatables:
-    adv: Dict[str, int]
-    disadv: Dict[str, int]
-    sa: Dict[str, int]
-
-
-@dataclass
-class HeroStats:
-    name: str
-    lep_max: int
-    lep_min: int
-    lep_current: int
-    asp_max: int
-    asp_current: int
-    kap_max: int
-    kap_current: int
-    wealth: Purse
-    armor: int
-    enc: int
-    attr: Attrs
-    liturgies: Dict[str, Liturgie]
-    spells: Dict[str, int]
-    talents: Dict[str, int]
-    ini: int
-    dodge: int
-    blessings: List[str]
-    activatables: Activatables
-    effects: Dict[str, int]
-    schips: int
 
 
 class Decode:
@@ -54,41 +25,73 @@ class Decode:
     This class provides methods to extract important stats from the raw hero data."""
 
     @classmethod
-    def decode_all(cls, hero: RawOptolithHero) -> HeroStats:
-        """Assembles all stats of a hero from the raw hero data.
-        This method gathers all relevant information from the hero's raw data
-        and returns a dictionary containing the hero's stats.
+    def from_upload(cls, raw: Dict[str, Any]) -> HeroStats:
+        """Validate a raw Optolith export and decode it in one step.
 
         Args:
-            hero (RawOptolithHero): hero in the format of Decode.decode_all()
+            raw (dict): the parsed contents of an Optolith hero .json
+
+        Raises:
+            pydantic.ValidationError: if the export is not a usable hero
 
         Returns:
-            dict: the hero's stats including name.
+            HeroStats: the decoded hero
         """
+        return cls.decode_all(RawOptolithHero.model_validate(raw))
+
+    @classmethod
+    def decode_all(cls, hero: RawOptolithHero) -> HeroStats:
+        """Assembles all stats of a hero from the raw hero data.
+
+        Only the hero's own numbers are stored. Descriptive data (names, casting
+        times, checks) is joined in on read from the reference tables, so that
+        updating the reference data also updates already-uploaded heroes.
+
+        Args:
+            hero (RawOptolithHero): validated raw hero
+
+        Returns:
+            HeroStats: the hero's stats including name.
+        """
+        max_lep = cls.max_lep(hero=hero)
+        max_asp = cls.max_asp(hero=hero)
+        max_kap = cls.max_kap(hero=hero)
 
         return HeroStats(
-            hero.name,
-            cls.max_lep(hero=hero),
-            cls.min_lep(hero=hero),
-            cls.max_lep(hero=hero),
-            cls.max_asp(hero=hero),
-            cls.max_asp(hero=hero),
-            cls.max_kap(hero=hero),
-            cls.max_kap(hero=hero),
-            cls.wealth(hero=hero),
-            0,  # TODO: armor
-            0,  # TODO: enc - cls.armor_and_enc(hero=hero),
-            cls.all_attributes(hero),
-            cls.resolve_liturgies(hero),
-            cls.spells(hero),
-            cls.talents(hero),
-            cls.initiative(hero),
-            cls.dodge(hero),
-            cls.blessings(hero),
-            cls.resolve_activatables(hero),
-            dict(),
-            0,
+            name=hero.name,
+            lep_max=max_lep,
+            lep_min=cls.min_lep(hero=hero),
+            lep_current=max_lep,
+            asp_max=max_asp,
+            asp_current=max_asp,
+            kap_max=max_kap,
+            kap_current=max_kap,
+            wealth=cls.wealth(hero=hero),
+            armor=cls.armor(hero=hero),
+            enc=cls.encumbrance(hero=hero),
+            attr=cls.all_attributes(hero),
+            liturgies=cls.liturgies(hero),
+            spells=cls.spells(hero),
+            talents=cls.talents(hero),
+            blessings=cls.blessings(hero),
+            activatables=cls.resolve_activatables(hero),
+            ini=cls.initiative(hero),
+            dodge=cls.dodge(hero),
+            effects=dict(),
+            schips=0,
         )
+
+    @staticmethod
+    def _tier(activatables: Dict[str, List[RawActivatableVal]], activatable_id: str) -> int:
+        """Tier of an activatable the hero may or may not have.
+
+        Optolith writes an empty list for activatables the hero does not
+        possess, so presence of the key alone is not enough.
+        """
+        entries = activatables.get(activatable_id) or []
+        if not entries:
+            return 0
+        return entries[0].tier or 0
 
     @classmethod
     def max_lep(cls, hero: RawOptolithHero) -> int:
@@ -125,12 +128,8 @@ class Decode:
         # advantage/disadvantage effect on LeP
         activatables = cls.activatables(hero)
 
-        if ActivatablesID.HIGH_LEP in activatables["ADV"]:
-            tier = activatables["ADV"][ActivatablesID.HIGH_LEP][0].tier
-            lep_max += tier if tier else 0
-        elif ActivatablesID.LOW_LEP in activatables["DISADV"]:
-            tier = activatables["DISADV"][ActivatablesID.LOW_LEP][0].tier
-            lep_max -= tier if tier else 0
+        lep_max += cls._tier(activatables["ADV"], ActivatablesID.HIGH_LEP)
+        lep_max -= cls._tier(activatables["DISADV"], ActivatablesID.LOW_LEP)
 
         return lep_max
 
@@ -155,12 +154,8 @@ class Decode:
         disadv = activatables["DISADV"]
         sa = activatables["SA"]
 
-        if adv.get(ActivatablesID.HIGH_ASP):
-            tier = adv[ActivatablesID.HIGH_ASP][0].tier
-            asp_max += tier if tier else 0
-        if disadv.get(ActivatablesID.LOW_ASP):
-            tier = disadv[ActivatablesID.LOW_ASP][0].tier
-            asp_max -= tier if tier else 0
+        asp_max += cls._tier(adv, ActivatablesID.HIGH_ASP)
+        asp_max -= cls._tier(disadv, ActivatablesID.LOW_ASP)
         if adv.get(ActivatablesID.MAGICIAN):
             asp_max += 20
 
@@ -203,12 +198,8 @@ class Decode:
         disadv = activatables["DISADV"]
         sa = activatables["SA"]
 
-        if adv.get(ActivatablesID.HIGH_KAP):
-            tier = adv[ActivatablesID.HIGH_KAP][0].tier or 0
-            kap_max += tier
-        if disadv.get(ActivatablesID.LOW_KAP):
-            tier = disadv[ActivatablesID.LOW_KAP][0].tier or 0
-            kap_max -= tier
+        kap_max += cls._tier(adv, ActivatablesID.HIGH_KAP)
+        kap_max -= cls._tier(disadv, ActivatablesID.LOW_KAP)
         if adv.get(ActivatablesID.PRIEST):
             kap_max += 20
 
@@ -258,16 +249,15 @@ class Decode:
             if items[item].armor_type is not None:
                 lvl = items[item].enc
                 if lvl is None:
-                    raise Exception("armor found but no encumbrance.")
+                    logger.warning(f"armor {item} has no encumbrance value, assuming 0")
+                    lvl = 0
                 enc = lvl
 
-        if ActivatablesID.REDUCE_ENC in cls.activatables(hero=hero):
-            logger.trace(f"Found reduced encumbrance ({ActivatablesID.REDUCE_ENC})")
-            tier = cls.activatables(hero=hero)["SA"][ActivatablesID.REDUCE_ENC][0].tier
-            if tier is None:
-                raise Exception("Reduce encumbrance activatable has no tier.")
-
-            enc -= 2 * tier
+        special_abilities = cls.activatables(hero=hero)["SA"]
+        reduction = cls._tier(special_abilities, ActivatablesID.REDUCE_ENC)
+        if reduction:
+            logger.trace(f"Found reduced encumbrance ({ActivatablesID.REDUCE_ENC}), tier {reduction}")
+            enc -= 2 * reduction
         else:
             logger.trace(f"No reduced encumbrance found (searched for {ActivatablesID.REDUCE_ENC})")
 
@@ -340,121 +330,162 @@ class Decode:
         base_dodge = cls.search_for_attr(hero=hero, search_for_attr=AttributeID.GE) / 2
         base_dodge = math.ceil(base_dodge)
 
-        activatables = cls.activatables(hero=hero)
-        tier = activatables["ADV"][ActivatablesID.IMPR_DODGE][0].tier
-        if tier:
-            impr_dodge = tier
-        else:
-            impr_dodge = 0
-
-        return base_dodge + impr_dodge
+        special_abilities = cls.activatables(hero=hero)["SA"]
+        return base_dodge + cls._tier(special_abilities, ActivatablesID.IMPR_DODGE)
 
     @classmethod
     def resolve_activatables(cls, hero: RawOptolithHero) -> Activatables:
-        """Gather all details of a hero's attributes, activatables, belongings, liturgies, blessings, spells and talents
+        """Gather the descriptive details for a hero's advantages, disadvantages
+        and special abilities.
 
         Args:
-            hero (RawOptolithHero): hero in the format of Decode.decode_all()
+            hero (RawOptolithHero): validated raw hero
 
         Returns:
-            dict: the hero's complete stats including descriptive details
+            Activatables: adv/disadv kept as raw selections, SA enriched with
+            names and rules text from the reference data.
         """
-        act = {"ADV": dict(), "DISADV": dict(), "SA": dict()}
+        adv: Dict[str, Any] = {}
+        disadv: Dict[str, Any] = {}
+        sa: Dict[str, Any] = {}
 
-        # ----------------- ADV, DISADV, SA -----------------
         for act_key, act_val in hero.activatables.items():
             if act_key.startswith("ADV_"):
-                act["ADV"][act_key] = act_val
+                adv[act_key] = [v.model_dump() for v in act_val]
             elif act_key.startswith("DISADV_"):
-                act["DISADV"][act_key] = act_val
+                disadv[act_key] = [v.model_dump() for v in act_val]
             elif act_key.startswith("SA_"):
-                # if value is empty, hero does curently not posess this SA
+                # an empty list means the hero does not currently possess this SA
                 if not act_val:
                     continue
+                resolved = cls._resolve_special_ability(act_key, act_val, hero_name=hero.name)
+                if resolved is not None:
+                    sa[act_key] = resolved
 
-                # one SA can have multiple variations
-                # e.g there are different languages and yet they belong to the same SA number
-                sa_vari_keys = []
-                for sa_variation in act_val:
-                    # if the length of the dictionary inside the list is > 0 it's an SA with different types
-                    # (and levels) e.g. each individual language has a type (which language) and a tier/level
-                    if sa_variation:
-                        try:
-                            if sa_vari_keys and sa_variation.sid:
-                                sid = sa_variation.sid
-                                if type(sid) is int:
-                                    # if sid is numeric it is an option which can be found
-                                    # in the sub-dictionary 'selectOptions' from the special abilities
-                                    sid = str(sid)
-                                    act["SA"][act_key] = SPECIAL_ABILITIES[act_key]
+        return Activatables(adv=adv, disadv=disadv, sa=sa)
 
-                                    # extensions must be handled differently
-                                    if act_key == "SA_663" or act_key == "SA_414":
-                                        act["SA"][act_key].update(SPECIAL_ABILITIES[act_key])
-                                        act["SA"][act_key]["sid"] = sid
-                                    else:
-                                        logger.debug(f"{act_key=}, {sa_variation=}, {act_val=}")
-                                        act["SA"][act_key].update(SPECIAL_ABILITIES[act_key]["selectOptions"][sid])
+    @classmethod
+    def _resolve_special_ability(
+        cls, act_key: str, variations: List[RawActivatableVal], hero_name: str
+    ) -> Dict[str, Any] | None:
+        """Build the detail record for a single special ability.
 
-                                elif type(sid) is str:
-                                    activatable_data = dict()
-                                    category = sid.split("_")[0]
-                                    if category == "TAL":
-                                        activatable_data = SKILLS[sid]
-                                    elif category == "LITURGY":
-                                        activatable_data = LITURGIES[sid]
-                                    elif category == "SPELL":
-                                        activatable_data = SPELLS[sid]
-                                    elif category == "SA":
-                                        activatable_data = SPECIAL_ABILITIES[sid]
-                                    else:
-                                        activatable_data = {"name": sid}
+        One SA id can cover many variations -- every language shares SA_28, for
+        example -- which is what ``sid``/``sid2`` select between.
 
-                                    act["SA"][act_key] = activatable_data
+        Everything returned is a fresh copy: the reference tables are shared
+        across requests and workers and must never be mutated in place.
+        """
+        base = SPECIAL_ABILITIES.get(act_key)
+        if base is None:
+            logger.warning(f"unknown special ability {act_key} (hero={hero_name})")
+            return None
 
-                                    if "sid2" in sa_vari_keys:
-                                        sid2 = str(sa_variation.sid2)
-                                        act["SA"][act_key]["application"] = SKILLS[sid]["applications"][sid2]
-                                elif "tier" in sa_vari_keys:
-                                    act["SA"][act_key] = SPECIAL_ABILITIES[act_key]
-                                    act["SA"][act_key]["tier"] = sa_variation.tier
-                                else:
-                                    pass
-                        except Exception as e:
-                            logger.error(f"{e=}, hero={hero.name}\n")
+        details: Dict[str, Any] = deepcopy(base)
 
-                    else:
-                        act["SA"][act_key] = SPECIAL_ABILITIES[act_key]
-        return Activatables(act["ADV"], act["DISADV"], act["SA"])
+        for variation in variations:
+            if variation is None:
+                continue
+            try:
+                if variation.tier is not None:
+                    details["tier"] = variation.tier
+                if variation.sid is None:
+                    continue
+                if isinstance(variation.sid, int):
+                    cls._apply_select_option(details, base, act_key, str(variation.sid), hero_name)
+                else:
+                    cls._apply_referenced_entry(details, variation)
+            except Exception as e:
+                logger.error(f"failed to resolve {act_key} for hero={hero_name}: {e}")
+
+        return details
+
+    @staticmethod
+    def _apply_select_option(
+        details: Dict[str, Any], base: Dict[str, Any], act_key: str, sid: str, hero_name: str
+    ) -> None:
+        """A numeric sid indexes into the SA's own 'selectOptions'."""
+        details["sid"] = sid
+
+        # extensions carry their options at the top level instead
+        if act_key in ("SA_663", "SA_414"):
+            return
+
+        option = (base.get("selectOptions") or {}).get(sid)
+        if option is None:
+            logger.debug(f"{act_key} has no selectOption {sid} (hero={hero_name})")
+            return
+        details.update(deepcopy(option))
+
+    @classmethod
+    def _apply_referenced_entry(cls, details: Dict[str, Any], variation: RawActivatableVal) -> None:
+        """A string sid points at an entry in another reference table."""
+        sid = str(variation.sid)
+        category = sid.split("_")[0]
+        if category == "TAL":
+            details.update(deepcopy(SKILLS.get(sid, {"name": sid})))
+        elif category == "LITURGY":
+            details.update(cls._as_dict(LITURGIES.get(sid), sid))
+        elif category == "SPELL":
+            details.update(cls._as_dict(SPELLS.get(sid), sid))
+        elif category == "SA":
+            details.update(deepcopy(SPECIAL_ABILITIES.get(sid, {"name": sid})))
+        else:
+            details.update({"name": sid})
+
+        if variation.sid2 is not None:
+            applications = (SKILLS.get(sid) or {}).get("applications") or {}
+            application = applications.get(str(variation.sid2))
+            if application is not None:
+                details["application"] = deepcopy(application)
+
+    @staticmethod
+    def _as_dict(entry: Any, fallback_id: str) -> Dict[str, Any]:
+        """Reference entries are a mix of pydantic models and plain dicts."""
+        if entry is None:
+            return {"name": fallback_id}
+        if hasattr(entry, "model_dump"):
+            return entry.model_dump(by_alias=True, mode="json")
+        return deepcopy(entry)
 
     @classmethod
     def resolve_liturgies(cls, hero: RawOptolithHero) -> Dict[str, Liturgie]:
-        hero_liturgies = dict()
-        for lit_id in hero.liturgies.keys():
-            full_lit = LITURGIES.get(lit_id, None)
-            if full_lit is not None:
-                full_lit.fw = hero.liturgies[lit_id]
-                hero_liturgies[lit_id] = full_lit
+        """Look up the hero's liturgies, carrying their skill level across.
+
+        Returns copies -- the entries in LITURGIES are shared and must not be
+        given a hero-specific skill level.
+        """
+        hero_liturgies: Dict[str, Liturgie] = {}
+        for lit_id, skill_level in hero.liturgies.items():
+            full_lit = LITURGIES.get(lit_id)
+            if full_lit is None:
+                logger.debug(f"unknown liturgy {lit_id} (hero={hero.name})")
+                continue
+            hero_liturgies[lit_id] = full_lit.model_copy(deep=True)
+            hero_liturgies[lit_id].fw = skill_level
 
         return hero_liturgies
 
     @classmethod
-    def resolve_blessings(cls, hero: RawOptolithHero) -> Dict[str, Blessing]:  # TODO: is it actually a list
-        hero_blessings: Dict[str, Blessing] = dict()
+    def resolve_blessings(cls, hero: RawOptolithHero) -> Dict[str, Blessing]:
+        hero_blessings: Dict[str, Blessing] = {}
         for bl in hero.blessings:
-            bl_desc = BLESSINGS.get(bl, None)
+            bl_desc = BLESSINGS.get(bl)
             if bl_desc is not None:
-                hero_blessings[bl] = bl_desc
+                hero_blessings[bl] = bl_desc.model_copy(deep=True)
 
         return hero_blessings
 
     @classmethod
     def resolve_spells(cls, hero: RawOptolithHero) -> Dict[str, Spell]:
-        hero_spells: Dict[str, Spell] = dict()
-        for spell in hero.spells:
-            spell_desc = SPELLS.get(spell, None)
-            if spell_desc is not None:
-                hero_spells[spell] = spell_desc
+        hero_spells: Dict[str, Spell] = {}
+        for spell_id, skill_level in hero.spells.items():
+            spell_desc = SPELLS.get(spell_id)
+            if spell_desc is None:
+                logger.debug(f"unknown spell {spell_id} (hero={hero.name})")
+                continue
+            hero_spells[spell_id] = spell_desc.model_copy(deep=True)
+            hero_spells[spell_id].fw = skill_level
 
         return hero_spells
 

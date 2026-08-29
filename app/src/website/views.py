@@ -1,12 +1,13 @@
-from flask import Blueprint, flash, render_template, redirect, url_for, request
-from flask_login import login_required, current_user
-from flask_wtf.csrf import CSRFError
-from . import app, db
-from .models import User, Hero, Level
-from .tools.upload import UploadFileForm, save_hero
 from typing import List
+
+from flask import Blueprint, abort, flash, redirect, render_template, request, url_for
+from flask_login import current_user, login_required
+from flask_wtf.csrf import CSRFError
 from werkzeug import Response
 
+from . import db
+from .models import Hero, Level, User
+from .tools.upload import UploadFileForm, save_hero
 
 views = Blueprint("views", __name__)
 
@@ -27,19 +28,31 @@ def overview() -> str:
         if len(form.files.data) < 1 or (len(form.files.data) == 1 and form.files.data[0].filename == ''):
             flash("No file selected", category='error')
         else:
-            invalid_files = []
+            rejected = []
+            saved = 0
             for file in form.files.data:
-                if not save_hero(file):
-                    invalid_files.append(file.filename)
+                ok, reason = save_hero(file)
+                if ok:
+                    saved += 1
+                else:
+                    rejected.append(f"{file.filename} ({reason})")
 
-            if len(invalid_files) > 0:
-                invalid_file_names = ', '.join(invalid_files)
-                flash(
-                    f'These files are not valid: {invalid_file_names}', category='error')
-            else:
-                flash("Files uploaded successfully", category='success')
+            if saved:
+                flash(f"{saved} hero(es) uploaded successfully", category='success')
+            for rejection in rejected:
+                flash(f"Could not import {rejection}", category='error')
 
     return render_template('overview.html', user=current_user, form=form)
+
+
+@views.route('/healthz')
+def healthz() -> Response | str:
+    """Liveness probe for the container healthcheck.
+
+    Touches the database so a broken connection is reported as unhealthy.
+    """
+    db.session.execute(db.text("SELECT 1"))
+    return "ok"
 
 
 @views.route('/account')
@@ -55,6 +68,7 @@ def play() -> str:
 
 
 @views.route('/hero-display/<hero_name>')
+@login_required
 def hero_display(hero_name) -> str:
     """Display hero page with option to edit base stats.
 
@@ -68,6 +82,8 @@ def hero_display(hero_name) -> str:
         Hero.user_id == current_user.id,
         Hero.secure_name == hero_name)
     ).scalar()
+    if hero is None:
+        abort(404)
     return render_template("hero_display.html", user=current_user, hero=hero)
 
 
@@ -83,7 +99,7 @@ def admin_panel() -> Response | str:
         return redirect(url_for("views.home"))
 
 
-@app.errorhandler(413)
+@views.app_errorhandler(413)
 def too_large(e):
     """Server request too large error handler.
 
@@ -97,7 +113,7 @@ def too_large(e):
     return redirect(url_for("views.overview"))
 
 
-@app.errorhandler(404)
+@views.app_errorhandler(404)
 def not_found_error(e):
     """Handle URL not found error
 
@@ -107,10 +123,11 @@ def not_found_error(e):
     Returns:
         string: string with html code
     """
-    return "<h1>Page not found</h1>"
+    return render_template("error.html", user=current_user, code=404,
+                           message="This page does not exist."), 404
 
 
-@app.errorhandler(500)
+@views.app_errorhandler(500)
 def internal_server_error(e):
     """Handle internal server errors.
 
@@ -120,10 +137,12 @@ def internal_server_error(e):
     Returns:
         string: string with html code
     """
-    return "<h1>Internal server error</h1><p>Please contact me with the steps you just made before this happened</p>"
+    return render_template("error.html", user=current_user, code=500,
+                           message="Something went wrong on our side. "
+                                   "Please report what you did just before this happened."), 500
 
 
-@app.errorhandler(CSRFError)
+@views.app_errorhandler(CSRFError)
 def csrf_error(e):
     """Handle CSRF errors.
 
@@ -133,4 +152,5 @@ def csrf_error(e):
     Returns:
         string: string with html code
     """
-    return "Sorry, this request could not be executed.\n"
+    return render_template("error.html", user=current_user, code=400,
+                           message="Your session expired. Please reload the page and try again."), 400
