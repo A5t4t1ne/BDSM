@@ -27,7 +27,36 @@ footer {
     background-color: var(--main-element-color);
 }
 
+/* Main page container.
+   Was a flat 63.5%, which left a tablet with a narrow strip of usable width
+   between two wide margins. It now fills the screen on smaller displays and
+   only narrows once there is room, keeping the original proportions on the
+   large desktop this was designed for. */
 .container-temp {
-    width: 63.5%;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (min-width: 992px) {
+    .container-temp {
+        width: 85%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-temp {
+        width: 63.5%;
+    }
+}
+
+/* Nothing should be able to push the page sideways. */
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

@@ -180,7 +180,11 @@ def create_app(db_name="database.db", upload_folder=Path("heroes")) -> Flask:
     app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + str(db_path)
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16 MB
-    app.config["UPLOAD_FOLDER"] = str(basedir.parent / upload_folder)
+    # Uploaded hero files. In the container this is the /app/heroes volume;
+    # BDSM_UPLOAD_DIR keeps a local run from writing into the source tree.
+    app.config["UPLOAD_FOLDER"] = os.environ.get(
+        "BDSM_UPLOAD_DIR", str(basedir.parent / upload_folder)
+    )
     app.config["ALLOWED_EXTENSIONS"] = {"json"}
 
     # Session/cookie hardening. Cookies are only marked Secure when the app is

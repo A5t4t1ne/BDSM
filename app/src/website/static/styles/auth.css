@@ -1,6 +1,13 @@
 .form-signin {
     max-width: 350px;
-    padding: 8rem 15px;
+    /* 8rem of padding pushed the form off a short landscape screen */
+    padding: 3rem 15px;
+}
+
+@media (min-height: 700px) {
+    .form-signin {
+        padding: 8rem 15px;
+    }
 }
 
 .form-signin .form-floating:focus-within {

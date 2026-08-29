@@ -23,13 +23,20 @@
 <div class="d-grid gap-3 pt-3">
     {% for hero in user.heroes %}
     <div class="p-2 bg-light border rounded hero-deletable" role="hero">
-        <h5 class="mb-0">
-            <a class="btn" type="button" href="{{ url_for('views.hero_display', hero_name=hero.secure_name) }}">{{ hero.name }}</a>
-        <input
-            type="button"
-            class="btn-close btn-delete-hero"
-            id="{{ hero.secure_name }}"
-        />
+        <h5 class="mb-0 d-flex justify-content-between align-items-center gap-2">
+            <a
+                class="btn text-truncate"
+                type="button"
+                href="{{ url_for('views.hero_display', hero_name=hero.secure_name) }}"
+                >{{ hero.name }}</a
+            >
+            <input
+                type="button"
+                class="btn-close btn-delete-hero flex-shrink-0"
+                id="{{ hero.secure_name }}"
+                aria-label="Delete {{ hero.name }}"
+            />
+        </h5>
     </div>
     {% endfor %}
 </div>

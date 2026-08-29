@@ -36,3 +36,14 @@ input[type="number"] {
 .activatable:hover {
     outline: 1px solid brown;
 }
+
+/* The ability tables have five text columns that cannot usefully shrink any
+   further. Below roughly a tablet they scroll sideways inside their tab
+   instead of squeezing every column into a few unreadable characters. */
+.ability-table {
+    overflow-x: auto;
+}
+
+.ability-table > * {
+    min-width: 38rem;
+}
