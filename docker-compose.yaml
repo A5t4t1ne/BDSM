@@ -1,6 +1,7 @@
 services:
   flask-app:
     build: ./app
+    restart: unless-stopped
     volumes:
       - sqlite_data:/data
       - static_volume:/app/website/static
@@ -13,23 +14,39 @@ services:
       - admin_pw
     environment:
       - PYTHONUNBUFFERED=1
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/healthz').read()"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
 
   nginx:
     build: ./nginx
+    restart: unless-stopped
     ports:
-      - "80:80"
-      - "443:443"
+      - "8080:80"
+      - "4443:443"
     volumes:
-      - static_volume:/usr/share/nginx/html/static
+      - static_volume:/usr/share/nginx/html/static:ro
+      # Certificates stay on the host so they can be renewed without a rebuild
+      # and never end up inside an image layer.
+      - ./nginx/letsencrypt:/etc/letsencrypt:ro
+      - certbot_webroot:/var/www/certbot
     depends_on:
       - flask-app
     networks:
       - app-network
+    security_opt:
+      - no-new-privileges:true
 
 volumes:
   sqlite_data:
   static_volume:
   heroes_volume:
+  certbot_webroot:
 
 networks:
   app-network:

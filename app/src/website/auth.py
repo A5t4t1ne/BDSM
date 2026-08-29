@@ -1,24 +1,46 @@
+import os
 from pathlib import Path
 from typing import Tuple
-from flask import Blueprint, render_template, request, flash, redirect, url_for
-from werkzeug import Response
-from .models import User, Level
-from . import db
-from . import app
-from werkzeug.utils import secure_filename
-from werkzeug.security import generate_password_hash, check_password_hash
-from flask_login import login_required, login_user, logout_user, current_user
-import os
 
+from flask import Blueprint, current_app, flash, redirect, render_template, request, url_for
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+from flask_login import current_user, login_required, login_user, logout_user
+from loguru import logger
+from werkzeug import Response
+from werkzeug.security import check_password_hash, generate_password_hash
+from werkzeug.utils import secure_filename
+
+from . import db
+from .models import Level, User
 
 auth = Blueprint("auth", __name__)
 
-LOWER_CHARS = "abcdefghijklmnopqrstuvwxyzäöü"
+# Throttles credential guessing. The default in-memory backend counts per
+# worker process, so the effective limit is (workers x limit); set
+# BDSM_RATELIMIT_STORAGE to a redis:// URI to share one counter.
+limiter = Limiter(
+    get_remote_address,
+    storage_uri=os.environ.get("BDSM_RATELIMIT_STORAGE", "memory://"),
+    default_limits=[],
+)
+
+LOWER_CHARS = "abcdefghijklmnopqrstuvwxyz"
 UPPER_CHARS = LOWER_CHARS.upper()
 NUMBERS = "1234567890"
 ALLOWED_SPECIAL_CHARS = "&$?!-_"
 PASSWD_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS + ALLOWED_SPECIAL_CHARS
 UNAME_CHARS = LOWER_CHARS + UPPER_CHARS + NUMBERS
+
+MIN_PASSWORD_LENGTH = 12
+MAX_PASSWORD_LENGTH = 100
+MIN_USERNAME_LENGTH = 3
+MAX_USERNAME_LENGTH = 100
+
+# Comparing against a real hash keeps the response time for an unknown username
+# in the same range as for a known one, so login cannot be used to enumerate
+# accounts.
+_DUMMY_HASH = generate_password_hash("not-a-real-password", method="pbkdf2:sha256")
 
 
 def valid_char_set(string: str, allowed_charset: str) -> bool:
@@ -30,14 +52,11 @@ def valid_char_set(string: str, allowed_charset: str) -> bool:
     Returns:
         bool: True if the string contains only allowed characters, False otherwise
     """
-    uniq_chars = set(string)
-
-    return uniq_chars.issubset(allowed_charset)
+    return set(string).issubset(allowed_charset)
 
 
 def username_valid(username: str) -> Tuple[bool, str]:
     """Check if the username is valid.
-    This function checks if the username contains only valid characters,
 
     Args:
         username (str): username to check
@@ -45,42 +64,63 @@ def username_valid(username: str) -> Tuple[bool, str]:
     Returns:
         Tuple[bool, str]: A tuple consisting of (is_valid: bool, error_message: str)
     """
-    secure_uname = secure_filename(username)
-
     if not valid_char_set(username, UNAME_CHARS):
-        return False, "For usernames only characters and numbers please"
-    elif len(username) < 3:
-        return False, "Sorry bro, username must be at least 3 characters long"
-    elif len(username) > 100:
+        return False, "Usernames may only contain the letters a-z and numbers"
+    if len(username) < MIN_USERNAME_LENGTH:
+        return False, f"Sorry bro, username must be at least {MIN_USERNAME_LENGTH} characters long"
+    if len(username) > MAX_USERNAME_LENGTH:
         return False, "Nah that's too long my friend"
-    elif "admin" in username.lower() or secure_uname != username:
+    if "admin" in username.lower() or secure_filename(username) != username:
         return False, "Nope not that one please"
-    else:
-        return True, ""
+    return True, ""
+
+
+def password_valid(password: str) -> Tuple[bool, str]:
+    """Check if the password meets the minimum policy.
+
+    Args:
+        password (str): password to check
+
+    Returns:
+        Tuple[bool, str]: A tuple consisting of (is_valid: bool, error_message: str)
+    """
+    if len(password) < MIN_PASSWORD_LENGTH:
+        return False, f"Password must be at least {MIN_PASSWORD_LENGTH} characters long"
+    if len(password) > MAX_PASSWORD_LENGTH:
+        return False, "Password is too long"
+    if not valid_char_set(password, PASSWD_CHARS):
+        return False, f"For passwords only letters, numbers and {ALLOWED_SPECIAL_CHARS} please"
+    return True, ""
+
+
+def find_user(username: str) -> User | None:
+    """Look up a user case-insensitively, so 'Dave' and 'dave' are one account."""
+    return User.query.filter(db.func.lower(User.username) == username.lower()).first()
 
 
 @auth.route("/login", methods=["GET", "POST"])
+@limiter.limit("10 per minute; 60 per hour", methods=["POST"])
 def login() -> str | Response:
     """Login route for the application.
 
     Returns:
-        str | Response: If the request method is GET, it renders the login page.
-        If the request method is POST, it processes the login form and redirects
+        str | Response: the login page, or a redirect home on success.
     """
     if request.method == "POST":
         username = request.form.get("username") or ""
         password = request.form.get("password") or ""
 
-        user = User.query.filter_by(username=username).first()
+        user = find_user(username)
+        stored_hash = user.password if user else _DUMMY_HASH
 
-        if user:
-            if check_password_hash(user.password, password):
-                login_user(user, remember=True)
-                return redirect(url_for("views.home"))
-            else:
-                flash("Wrong", category="error")
-        else:
-            flash("Wrong", category="error")
+        if check_password_hash(stored_hash, password) and user is not None:
+            login_user(user, remember=bool(request.form.get("remember")))
+            logger.info(f"user {user.id} logged in")
+            return redirect(url_for("views.home"))
+
+        logger.info(f"failed login for '{username[:MAX_USERNAME_LENGTH]}'")
+        flash("Username or password is incorrect", category="error")
+
     return render_template("login.html", user=current_user)
 
 
@@ -97,63 +137,51 @@ def logout() -> Response:
 
 
 @auth.route("/sign-up", methods=["GET", "POST"])
+@limiter.limit("5 per minute; 20 per hour", methods=["POST"])
 def sign_up() -> str | Response:
     """Sign-up route for the application.
-    This route handles the user registration process. It validates the input,
-    checks for existing usernames, and creates a new user account if all validations pass.
-    If the request method is GET, it renders the sign-up page.
-    If the request method is POST, it processes the sign-up form.
+
+    Validates the input, checks for an existing username and creates the
+    account if everything passes.
 
     Returns:
-        str | Response: If the request method is GET, it renders the sign-up page.
-        If the request method is POST, it processes the sign-up form and redirects
-        to the home page upon successful registration.
+        str | Response: the sign-up page, or a redirect home on success.
     """
     if request.method == "POST":
         # id must match the 'name' attribute in the html file
         username = request.form.get("username") or ""
-        # email = request.form.get('email')     # not used yet
         password = request.form.get("password") or ""
-        confPassword = request.form.get("confPassword")
-        access_code = request.form.get("accessCode") or ""
-        access_code = access_code.strip()
+        conf_password = request.form.get("confPassword") or ""
+        access_code = (request.form.get("accessCode") or "").strip()
 
-        user = User.query.filter_by(username=username).first()
+        uname_valid, username_error_msg = username_valid(username)
+        passwd_valid, password_error_msg = password_valid(password)
 
-        uname_valid, username_error_msg = username_valid(str(username))
-        passwd_valid = valid_char_set(password, PASSWD_CHARS)
-
-        if user:
-            if 'admin' in username:
-                flash("Nope not that one please", category='error')
-            else:
-                flash("Username already taken", category='error')
-        elif not uname_valid:
+        if not uname_valid:
             flash(username_error_msg, category="error")
-        elif len(password) > 100:
-            flash("Password is too long", category='error')
+        elif find_user(username):
+            flash("Username already taken", category="error")
         elif not passwd_valid:
-            flash(
-                f"For passwords only characters, numbers and {ALLOWED_SPECIAL_CHARS} please",
-                category="error",
-            )
-        elif password != confPassword:
+            flash(password_error_msg, category="error")
+        elif password != conf_password:
             flash("Passwords are not matching", category="error")
-        elif access_code != app.config["ACCESS_CODE"]:
+        elif access_code != current_app.config["ACCESS_CODE"]:
             flash("Alpha access code invalid", category="error")
         else:
             # personal files get stored in a folder named heroes/user_[username]
-            heroes_path = os.path.join(app.config["UPLOAD_FOLDER"], "user_" + username)
+            heroes_path = os.path.join(current_app.config["UPLOAD_FOLDER"], "user_" + username)
             Path(heroes_path).mkdir(parents=True, exist_ok=True)
             new_user = User(
                 username=username,
                 password=generate_password_hash(password, method="pbkdf2:sha256"),
                 heroes_path=heroes_path,
                 access_lvl=Level.USER,
-            )  # add e-mail for later use
+                email="",
+            )
             db.session.add(new_user)
             db.session.commit()
             login_user(new_user, remember=True)
+            logger.info(f"created user {new_user.id}")
             flash(
                 "Congratulations, you are now the proud owner, of a new account on this wonderful website!",
                 category="success",

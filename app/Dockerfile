@@ -1,7 +1,9 @@
 FROM python:3.11-slim
 
-# Create non-root user
-RUN addgroup --system appgroup && adduser --system appuser --ingroup appgroup
+# Create non-root user with a real home, so tools that write there (gunicorn's
+# control server, for one) do not fail against /nonexistent
+RUN addgroup --system appgroup \
+    && adduser --system --ingroup appgroup --home /home/appuser --shell /usr/sbin/nologin appuser
 
 WORKDIR /app
 
@@ -18,5 +20,8 @@ RUN mkdir -p /app/heroes && chown appuser:appgroup /app/heroes
 VOLUME /app/heroes
 
 USER appuser
-CMD ["gunicorn", "main:app", "-b", "0.0.0.0:8000", "--workers", "4"]
 
+HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
+    CMD python -c "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/healthz').read()"
+
+CMD ["gunicorn", "main:app", "-b", "0.0.0.0:8000", "--workers", "4"]

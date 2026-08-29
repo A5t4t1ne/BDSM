@@ -260,11 +260,11 @@ function update_new_hero_stats(hero) {
 
             liturgic_content +=
                 '<div class="row activatable">' +
-                `<div class="col">${lit_stats["name"]}</div>` +
-                `<div class="col text-center">${castingTime}</div>` +
-                `<div class="col text-end">${lit_stats["duration"]}</div>` +
-                `<div class="col text-center">${fw}</div>` +
-                `<div class="col text-end">${checks}</div>` +
+                `<div class="col">${escapeHtml(lit_stats["name"])}</div>` +
+                `<div class="col text-center">${escapeHtml(castingTime)}</div>` +
+                `<div class="col text-end">${escapeHtml(lit_stats["duration"])}</div>` +
+                `<div class="col text-center">${escapeHtml(fw)}</div>` +
+                `<div class="col text-end">${escapeHtml(checks)}</div>` +
                 "</div>";
         });
 
@@ -294,11 +294,11 @@ function update_new_hero_stats(hero) {
 
             spell_content +=
                 '<div class="row activatable">' +
-                `<div class="col">${spell_stats["name"]}</div>` +
-                `<div class="col text-center">${spell_stats["castingTime"]}</div>` +
-                `<div class="col text-end">${spell_stats["duration"]}</div>` +
-                `<div class="col text-center">${fw}</div>` +
-                `<div class="col text-end">${checks}</div>` +
+                `<div class="col">${escapeHtml(spell_stats["name"])}</div>` +
+                `<div class="col text-center">${escapeHtml(spell_stats["castingTime"])}</div>` +
+                `<div class="col text-end">${escapeHtml(spell_stats["duration"])}</div>` +
+                `<div class="col text-center">${escapeHtml(fw)}</div>` +
+                `<div class="col text-end">${escapeHtml(checks)}</div>` +
                 "</div>";
         });
         $("#spells-content").html(spell_content);
@@ -347,11 +347,11 @@ function update_new_hero_stats(hero) {
             }
             sa_content +=
                 '<div class="row activatable">' +
-                `<div class="col">${lit_stats["name"]}</div>` +
-                `<div class="col text-center">${castingTime}</div>` +
-                `<div class="col text-end">${lit_stats["duration"]}</div>` +
-                `<div class="col text-center">${fw}</div>` +
-                `<div class="col text-end">${checks}</div>` +
+                `<div class="col">${escapeHtml(lit_stats["name"])}</div>` +
+                `<div class="col text-center">${escapeHtml(castingTime)}</div>` +
+                `<div class="col text-end">${escapeHtml(lit_stats["duration"])}</div>` +
+                `<div class="col text-center">${escapeHtml(fw)}</div>` +
+                `<div class="col text-end">${escapeHtml(checks)}</div>` +
                 "</div>";
         });
         $("#sa-content").html(sa_content);
