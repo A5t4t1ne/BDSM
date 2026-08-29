@@ -1,22 +1,31 @@
 import json
 import os
 import sys
+from pathlib import Path
 
 from loguru import logger
 
 from website import create_app
 
+LOG_LEVEL = os.environ.get("BDSM_LOG_LEVEL", "INFO")
+
 logger.remove()
-logger.add(sys.stderr, level=os.environ.get("BDSM_LOG_LEVEL", "INFO"))
-# enqueue=True routes writes through a single queue, so the four gunicorn
-# workers cannot interleave or rotate the file on top of each other
-logger.add(
-    "/data/flask.log",
-    rotation="5 MB",
-    retention="10 days",
-    level=os.environ.get("BDSM_LOG_LEVEL", "INFO"),
-    enqueue=True,
-)
+logger.add(sys.stderr, level=LOG_LEVEL)
+
+# The log lives next to the database, so a local run without /data works too.
+log_dir = Path(os.environ.get("BDSM_DATA_DIR", "/data"))
+if os.access(log_dir, os.W_OK):
+    # enqueue=True routes writes through a single queue, so the four gunicorn
+    # workers cannot interleave or rotate the file on top of each other
+    logger.add(
+        log_dir / "flask.log",
+        rotation="5 MB",
+        retention="10 days",
+        level=LOG_LEVEL,
+        enqueue=True,
+    )
+else:
+    logger.warning(f"{log_dir} is not writable, logging to stderr only")
 
 app = create_app()
 
