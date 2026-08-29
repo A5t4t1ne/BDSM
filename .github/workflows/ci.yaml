@@ -1,0 +1,75 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        # --frozen fails if uv.lock and pyproject.toml disagree
+        run: uv sync --frozen
+
+      - name: Lint
+        run: uv run ruff check src/ test/
+
+      - name: Test
+        run: uv run pytest
+
+  docker-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build the app image
+        run: docker build -t bdsm-app ./app
+
+      - name: Check the nginx config
+        # the upstream only resolves inside the compose network
+        run: |
+          mkdir -p certs/live/hans.li
+          openssl req -x509 -newkey rsa:2048 -days 1 -nodes \
+            -keyout certs/live/hans.li/privkey.pem \
+            -out certs/live/hans.li/fullchain.pem -subj "/CN=test"
+          docker run --rm --add-host flask-app:127.0.0.1 \
+            -v "$PWD/nginx/nginx.conf:/etc/nginx/nginx.conf:ro" \
+            -v "$PWD/certs:/etc/letsencrypt:ro" \
+            nginx:1.25 nginx -t
+
+      - name: Boot the app and probe it
+        run: |
+          mkdir -p data secrets
+          chmod 777 data
+          echo "ci-secret-key"    > secrets/secret_key
+          echo "ci-access-code"   > secrets/access_code
+          echo "ci-admin-password" > secrets/admin_pw
+          docker run -d --name bdsm-ci -p 8000:8000 \
+            -v "$PWD/data:/data" \
+            -v "$PWD/secrets/secret_key:/run/secrets/secret_key:ro" \
+            -v "$PWD/secrets/access_code:/run/secrets/access_code:ro" \
+            -v "$PWD/secrets/admin_pw:/run/secrets/admin_pw:ro" \
+            bdsm-app
+          for i in $(seq 1 30); do
+            if curl -fsS http://localhost:8000/healthz >/dev/null 2>&1; then
+              echo "app is up"; exit 0
+            fi
+            sleep 2
+          done
+          echo "app did not become healthy"; docker logs bdsm-ci; exit 1
+
+      - name: Container logs on failure
+        if: failure()
+        run: docker logs bdsm-ci || true

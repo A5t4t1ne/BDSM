@@ -1,5 +1,5 @@
 {% extends "base.html" %} {% block head_additions %}
-<link href="../static/styles/auth.css" rel="stylesheet" />
+<link href="{{ url_for('static', filename='styles/auth.css') }}" rel="stylesheet" />
 {% endblock %} {% block title %}Log In{% endblock %} {% block content %}
 
 <main class="form-signin w-100 m-auto text-center">
@@ -7,7 +7,7 @@
         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
         <img
             class="mb-4"
-            src="../static/assets/logo_b.svg"
+            src="{{ url_for('static', filename='assets/logo_b.svg') }}"
             src=""
             alt=""
             width="72"

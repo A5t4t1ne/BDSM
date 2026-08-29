@@ -92,3 +92,51 @@ def test_login_is_rate_limited(app, client, access_code):
 def test_protected_pages_redirect_anonymous_users(client):
     for route in ("/overview", "/account", "/play", "/hero-display/whatever"):
         assert client.get(route).status_code == 302, route
+
+
+def test_change_password(logged_in):
+    r = logged_in.post(
+        "/change-password",
+        data={
+            "currentPassword": "correcthorsebattery",
+            "newPassword": "brandnewpassword",
+            "confPassword": "brandnewpassword",
+        },
+        follow_redirects=True,
+    )
+    assert b"Password changed" in r.data
+
+    logged_in.get("/logout")
+    assert logged_in.post(
+        "/login",
+        data={"username": "testuser", "password": "brandnewpassword"},
+        follow_redirects=True,
+    ).status_code == 200
+    assert logged_in.get("/overview").status_code == 200
+
+
+@pytest.mark.parametrize(
+    "current,new,confirm,expected",
+    [
+        ("wrongcurrent", "brandnewpassword", "brandnewpassword", b"not correct"),
+        ("correcthorsebattery", "short", "short", b"at least 12"),
+        ("correcthorsebattery", "brandnewpassword", "different12345", b"not matching"),
+        ("correcthorsebattery", "correcthorsebattery", "correcthorsebattery", b"already your password"),
+    ],
+)
+def test_change_password_rejections(logged_in, current, new, confirm, expected):
+    r = logged_in.post(
+        "/change-password",
+        data={"currentPassword": current, "newPassword": new, "confPassword": confirm},
+        follow_redirects=True,
+    )
+    assert expected in r.data
+
+    # the old password must still work
+    logged_in.get("/logout")
+    logged_in.post("/login", data={"username": "testuser", "password": "correcthorsebattery"})
+    assert logged_in.get("/overview").status_code == 200
+
+
+def test_change_password_requires_login(client):
+    assert client.post("/change-password", data={}).status_code == 302

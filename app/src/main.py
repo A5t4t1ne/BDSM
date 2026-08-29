@@ -21,10 +21,17 @@ logger.add(
 app = create_app()
 
 if __name__ == "__main__":
-    path = os.path.dirname(os.path.abspath(__file__))
-    fpath = os.path.join(path, "config.json")
+    # Local development entry point. config.json is optional; the defaults and
+    # the BDSM_* environment variables cover a plain `python main.py` run.
+    fpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
+    run = {"debug": False, "host": "127.0.0.1", "port": 5000}
 
-    with open(fpath, "r") as f:
-        run = json.load(f)["run"]
+    if os.path.isfile(fpath):
+        with open(fpath, "r", encoding="utf8") as f:
+            run.update(json.load(f).get("run", {}))
 
-    app.run(debug=run["debug"], host=run["host"], port=run["port"])
+    app.run(
+        debug=os.environ.get("BDSM_DEBUG", str(run["debug"])).lower() in ("1", "true"),
+        host=os.environ.get("BDSM_HOST", run["host"]),
+        port=int(os.environ.get("BDSM_PORT", run["port"])),
+    )

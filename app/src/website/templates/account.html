@@ -1,5 +1,61 @@
 {% extends "base.html" %}{% block title %}Account{% endblock %} {% block content
 %}
-<h1>Account</h1>
-<p>Username: <span>{{ user.username }}</span></p>
+<div class="container" style="max-width: 40rem">
+    <h1 class="mb-4">Account</h1>
+
+    <dl class="row">
+        <dt class="col-sm-3">Username</dt>
+        <dd class="col-sm-9">{{ user.username }}</dd>
+        <dt class="col-sm-3">Heroes</dt>
+        <dd class="col-sm-9">{{ user.heroes | length }}</dd>
+    </dl>
+
+    <hr class="my-4" />
+
+    <h2 class="h4 mb-3">Change password</h2>
+    <form method="POST" action="{{ url_for('auth.change_password') }}">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <div class="mb-3">
+            <label class="form-label" for="currentPassword">
+                Current password
+            </label>
+            <input
+                type="password"
+                class="form-control"
+                id="currentPassword"
+                name="currentPassword"
+                autocomplete="current-password"
+                required
+            />
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="newPassword">New password</label>
+            <input
+                type="password"
+                class="form-control"
+                id="newPassword"
+                name="newPassword"
+                autocomplete="new-password"
+                minlength="12"
+                required
+            />
+            <div class="form-text">At least 12 characters.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="confPassword">
+                Confirm new password
+            </label>
+            <input
+                type="password"
+                class="form-control"
+                id="confPassword"
+                name="confPassword"
+                autocomplete="new-password"
+                minlength="12"
+                required
+            />
+        </div>
+        <button class="btn btn-dark" type="submit">Change password</button>
+    </form>
+</div>
 {% endblock %}

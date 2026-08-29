@@ -124,6 +124,38 @@ def login() -> str | Response:
     return render_template("login.html", user=current_user)
 
 
+@auth.route("/change-password", methods=["POST"])
+@login_required
+@limiter.limit("10 per hour")
+def change_password() -> Response:
+    """Change the signed-in user's password.
+
+    Requires the current password, so a borrowed session cannot be used to lock
+    the real owner out of their account.
+    """
+    current = request.form.get("currentPassword") or ""
+    new = request.form.get("newPassword") or ""
+    confirm = request.form.get("confPassword") or ""
+
+    new_valid, new_error_msg = password_valid(new)
+
+    if not check_password_hash(current_user.password, current):
+        flash("Your current password is not correct", category="error")
+    elif not new_valid:
+        flash(new_error_msg, category="error")
+    elif new != confirm:
+        flash("New passwords are not matching", category="error")
+    elif new == current:
+        flash("That is already your password", category="error")
+    else:
+        current_user.password = generate_password_hash(new, method="pbkdf2:sha256")
+        db.session.commit()
+        logger.info(f"user {current_user.id} changed their password")
+        flash("Password changed", category="success")
+
+    return redirect(url_for("views.account"))
+
+
 @auth.route("/logout")
 @login_required
 def logout() -> Response:

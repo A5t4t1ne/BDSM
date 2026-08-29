@@ -1,24 +1,28 @@
-.py[cod]
+# Python
+__pycache__/
+*.py[cod]
+**.egg-info/
+.venv/
+
+# Tooling caches
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
 .pdm-python
 
-__pycache__/
-website/__pycache__/
-website/tools/__pycache__/
-.pytest_cache
+# Build artifacts
+build/
+dist/
 
+# Runtime data -- never commit these
+app/heroes/
+app/src/heroes/
+*.db
+*.db-shm
+*.db-wal
+log/
+*.log
 
-app/heroes
-src/config.json
-src/Data
-src/website/database.db
-
-log
-tests
-.venv
-**.egg-info/
-build
+# Secrets and certificates
 app/secrets/*
-nginx/letsencrypt/live/hans.li
+nginx/letsencrypt/

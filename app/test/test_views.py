@@ -156,3 +156,10 @@ def test_delete_hero_removes_row_and_file(with_hero):
 def test_admin_panel_is_admin_only(logged_in):
     r = logged_in.get("/admin-panel")
     assert r.status_code == 302
+
+
+def test_account_page_shows_username_and_password_form(logged_in):
+    r = logged_in.get("/account")
+    assert r.status_code == 200
+    assert b"testuser" in r.data
+    assert b"currentPassword" in r.data

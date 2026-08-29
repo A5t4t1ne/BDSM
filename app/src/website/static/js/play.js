@@ -206,7 +206,7 @@ function update_new_hero_stats(hero) {
     $("#schips").val(hero["schips"]);
     $("#armor").text(hero["armor"]);
     $("#dodge").text(hero["dodge"]);
-    $("#initiative").text(hero["INI"]);
+    $("#initiative").text(hero["ini"]);
 
     // effects
     $("#encumbrance").text(hero["enc"]);
@@ -305,55 +305,35 @@ function update_new_hero_stats(hero) {
     }
 
     function update_special_abilities() {
-        let sa_content = "<p>WIP</p>";
-        let sa_keys = Object.keys(hero["activatables"]["SA"]);
-        console.log(sa_keys);
+        // Special abilities are name + tier only; unlike liturgies and spells
+        // they have no casting time, duration or dice check.
+        let sa = hero["activatables"]["SA"] || {};
+        let sa_keys = Object.keys(sa);
+
+        if (sa_keys.length === 0) {
+            $("#sa-content").html('<div class="row"><div class="col text-muted">None</div></div>');
+            return;
+        }
+
         sa_keys.sort(function (a, b) {
-            a = hero["liturgies"][a]["name"];
-            b = hero["liturgies"][b]["name"];
+            a = sa[a]["name"] || a;
+            b = sa[b]["name"] || b;
             if (a < b) return -1;
             if (a > b) return 1;
             return 0;
         });
-        bl_keys.sort(function (a, b) {
-            a = hero["blessings"][a]["name"];
-            b = hero["blessings"][b]["name"];
-            if (a < b) return -1;
-            if (a > b) return 1;
-            return 0;
-        });
-        let keys = sa_keys.concat(bl_keys);
-        keys.forEach((key) => {
-            let lit_stats = "";
-            let checks = "";
-            let check1 = "";
-            let check2 = "";
-            let check3 = "";
-            let castingTime = "";
-            let fw = "";
-            if (key.indexOf("BLESSING") == 0) {
-                lit_stats = hero["blessings"][key];
-            } else if (key.indexOf("LITURGY") == 0) {
-                lit_stats = hero["liturgies"][key];
-                // checks for liturgies who have dice checks
-                if (lit_stats["univ"]["check1"]) {
-                    check1 = lit_stats["univ"]["check1"]["short"];
-                    check2 = lit_stats["univ"]["check2"]["short"];
-                    check3 = lit_stats["univ"]["check3"]["short"];
-                }
-                castingTime = lit_stats["castingTime"];
-                fw = lit_stats["FW"];
-                checks = check1 + " / " + check2 + " / " + check3;
-            }
+
+        let sa_content = "";
+        sa_keys.forEach((key) => {
+            let stats = sa[key];
+            let tier = stats["tier"] ? ` ${stats["tier"]}` : "";
             sa_content +=
                 '<div class="row activatable">' +
-                `<div class="col">${escapeHtml(lit_stats["name"])}</div>` +
-                `<div class="col text-center">${escapeHtml(castingTime)}</div>` +
-                `<div class="col text-end">${escapeHtml(lit_stats["duration"])}</div>` +
-                `<div class="col text-center">${escapeHtml(fw)}</div>` +
-                `<div class="col text-end">${escapeHtml(checks)}</div>` +
+                `<div class="col">${escapeHtml(stats["name"] || key)}</div>` +
+                `<div class="col text-end">${escapeHtml(tier)}</div>` +
                 "</div>";
         });
+
         $("#sa-content").html(sa_content);
     }
 

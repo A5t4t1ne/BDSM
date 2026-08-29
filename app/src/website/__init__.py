@@ -1,10 +1,12 @@
 import os
 from pathlib import Path
 
+from alembic.script import ScriptDirectory
 from flask import Flask
 from flask_login import LoginManager
-from alembic.script import ScriptDirectory
-from flask_migrate import Migrate, stamp as alembic_stamp, upgrade as alembic_upgrade
+from flask_migrate import Migrate
+from flask_migrate import stamp as alembic_stamp
+from flask_migrate import upgrade as alembic_upgrade
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect
 from loguru import logger
